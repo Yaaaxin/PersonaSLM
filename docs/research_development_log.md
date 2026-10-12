@@ -120,11 +120,11 @@
 | 首次提交属性 | `git log` 的 parent 字段为空，是根提交 |
 | 本地引用 | `main`、`origin/main` 都指向首次提交；初始 `git status --short --branch` 仅输出 `## main...origin/main`，工作区干净 |
 | Push 完成依据 | 研究者明确报告已完成 Push，并有本地远端跟踪引用佐证；本次没有联网刷新或读取实时 GitHub 状态 |
-| 操作者 | Commit 与 Push 由研究者本人完成；Codex 本次只读检查 Git 和准备文档变更 |
+| 操作者 | Commit 与 Push 由研究者本人完成；Automated development tools 本次只读检查 Git 和准备文档变更 |
 
 **修改文件：**`README.md`、`docs/P0_real_inference_report.md`、`docs/P0_acceptance_checklist.md`、`docs/P0_status.md`、本文件 `docs/research_development_log.md`。在当前说明中增加首次同步事实，并将旧说明明确标为历史快照；本日志仅追加本条。旧测试证据、阻塞运行清单和历史日志未修改。应用源码、测试代码、实验配置及数据未修改。
 
-**AGENTS.md 检查：PASS，无需修改。**现有条款包括 `Execute git commit.` 和 `Execute git push.`（均在 `Codex must NOT` 下）、`The human researcher exclusively manages Git commits and pushes.`、`Every engineering and experimental change must be documented.`，并指定维护本日志，记录日期时间、阶段、文件、命令、测试、配置、错误及科学局限。这四项要求已正确表达；所有此次文档改动继续由研究者审阅并提交。
+**AGENTS.md 检查：PASS，无需修改。**现有条款包括 `Execute git commit.` 和 `Execute git push.`（均在 `Automated development tools must NOT` 下）、`The human researcher exclusively manages Git commits and pushes.`、`Every engineering and experimental change must be documented.`，并指定维护本日志，记录日期时间、阶段、文件、命令、测试、配置、错误及科学局限。这四项要求已正确表达；所有此次文档改动继续由研究者审阅并提交。
 
 **已执行的检查命令/操作：**
 
@@ -177,7 +177,7 @@
 
 **时间和基线：**本轮环境检查时间为 `2026-10-12T18:46:48.3682095+02:00`；本条阶段记录依据截至 `2026-10-12T19:19:03.5439925+02:00` 的实际证据整理。详细命令记录统一采用 UTC，并保存真实起止时间，不将报告写入时间冒充实验时间。初始工作区干净，HEAD 为 `f1a1b019981d7f2eb002871c9e600887d9e79874`，首次人工提交 `4a538570c77666009a609c1218a435ac52a6187a` 的历史保留。未联网刷新 GitHub；没有执行暂存、commit、push 或修改 Git 身份。
 
-**首先读取：**AGENTS.md、research_protocol_v1.1、annotation_guidelines、P0_acceptance_checklist、P0_real_inference_report 和本日志。AGENTS 已明确禁止 Codex commit/push、由研究者提交，以及所有工程/实验记录可复现日志；无需改写规则。
+**首先读取：**AGENTS.md、research_protocol_v1.1、annotation_guidelines、P0_acceptance_checklist、P0_real_inference_report 和本日志。AGENTS 已明确禁止 Automated development tools commit/push、由研究者提交，以及所有工程/实验记录可复现日志；无需改写规则。
 
 **输入冻结：**本地配置 `configs/p0_runtime.local.json`；Qwen3.5-2B-Base Q4_K_M；llama.cpp b11573 / 0f701c882；CPU 4/4 threads、n_ctx 4096、seed 42、max_new_tokens 96、temperature 0、top_p 1、stop=[]；实际 /tokenize 使用 add_special=true、parse_special=false，直接提交 IDs；token_tolerance=0、max_match_candidates=256。只使用 `data/synthetic/p0_cases.jsonl`，SHA-256 `31b5242c2cc01411f524c2b922086de0ef216105920e723f1270560e0bc1f282`。
 
@@ -400,3 +400,52 @@ The corrected checker completed at 2026-10-12T18:49:04.631126+00:00, exit 0. It 
 `git diff --check` completed at 2026-10-12T18:49:22.614952+00:00, exit 0, with no whitespace errors; Git emitted four CRLF-to-LF working-copy notices, retained in stderr. `git status --short --branch --untracked-files=all` completed at 2026-10-12T18:49:23.249766+00:00, exit 0: five modified tracked documents and 24 untracked deliverables, no staged files. The HEAD remains `2b0fc5ee04f05af0fbb878fd71356a6afeaa6865`.
 
 Final automated test result remains **195 passed, 0 failed, 0 warnings reported, 9.29 seconds, exit 0**; subsequent changes were documentation and an ignored delivery checker only. All prior test and audit failures remain recorded. Overall research acceptance remains PARTIAL; no human review or missing evidence has been converted to PASS. No Git commit or push was executed.
+
+
+## 2026-10-12 — Frozen Measurement Policies and Vendor-Neutral Attribution
+
+Recorded 2026-10-12T19:19:43.094673+00:00, UTC. Phase P0 only. Initial environment observation: 2026-10-12T21:00:50.9501402+02:00. Clean main/origin-main at researcher-created HEAD `1c9bfc3791f7f5cb4b4bda78cd02e2580f0429da`. AGENTS and current acceptance reports were read before changes. No protocol, research-objective, Git authorship or history change; no commit/push. Exact initial actions and early errors are in `results/p0_acceptance_policy/20261012T190050/engineering/initial_actions.json`.
+
+Objective: classify and measure response status without demanding every Base response stop naturally; freeze consistent separate-axis scoring; verify human-review readiness. Added 16 development software cases, then froze policy at 2026-10-12T19:09:12.410208+00:00. Created separate 24-item software holdout and six fictional English inference cases afterward, sealed at 2026-10-12T19:10:31.766880+00:00. All holdout items selected before outputs; no adaptation after inspection. Software result 24/24, with 6 AMBIGUOUS and 75% decided coverage. Same author knows the rules; these are not human semantic-accuracy labels.
+
+New run `20261012T191040-7205faad677e426c8838576739d49717` completed 6/6 requests. Same model/backend hashes and parameters as in the [full report](P0_policy_acceptance_report.md), C0 only, unchanged transcript, stop=[], max_new_tokens=96. Saved exact prompts/IDs/raw/native/parsed results, applicability, seed, latency, source/configuration hashes and Git dirty state. All six hit the cap; response-status sidecar yields 5 CROSS_TURN, 1 AMBIGUOUS. Factual sidecar yields 1 Correct/0 Incorrect/5 Unverifiable/0 Not Applicable; relevance, temporal consistency and coherence are separately pending. Unsupported city grammar was not extended after viewing holdout results.
+
+Reproducibility: all 20 prior journal inventories unchanged; new journal replayed twice identically. Historical 134 responses plus 6 new = 140. New policies are additive sidecars; old evaluation versions and scores remain. Engineering logs are under `engineering/`, immutable experiment records under `experiments/`, and freezes/snapshots under `materials/`. No raw journal was rebranded or altered. No model generation was rerun for a better result.
+
+Neutral review: original 40-row CSV/JSON matches the historical freeze exactly, all token differences zero, no completed human ratings and no submitted human files. English guide updated with readiness evidence. Existing importer retained; four regression cases added for missing labels, changed versions, missing records and blank reviewer IDs. Positive test inputs remain labeled test doubles. Human-review requirement OPEN; P0 PARTIAL and P1 BLOCKED.
+
+Mandatory documentation correction by the researcher: 17 product-name occurrences across 11 source/documentation/configuration files were changed to vendor-neutral attribution. AGENTS identifies maintainer Yaxin ZHENG and retains the prohibition on automated commits/pushes. One metadata label in `tools/p0_review_controls.py` and the corresponding published evidence copy changed; AST comparison and JSON value comparison verify no algorithm or measurement changes. Original bytes are archived under `engineering/attribution_originals/`; [before/after hashes](validation/P0_vendor_neutral_attribution_audit.json) preserve traceability. The private tool-directory ignore rule uses an equivalent glob, verified by `git check-ignore`; no new private files became eligible for publication. Historic commands, numeric results, timestamps, model metadata and Git history are preserved. The correction does not assert that all code was written manually.
+
+Engineering errors: an absolute patch-path typo caused a partial patch failure; the remaining files were applied using correct relative paths. The first test-capture wrapper failed after child execution because its output directory did not exist; child output/exit status are unavailable, so no result is claimed. Directories were created, and the captured targeted run passed 37 tests in 0.64s. A read-only request for the analysis report while it was still being written returned file-not-found; the report was read after completion, with no inference rerun. Uncaptured read/patch timestamps are not fabricated.
+
+Final test command: `.\.venv\Scripts\python.exe -m pytest -q`; **223 passed in 13.28s**, 0 failures, 0 reported warnings, exit 0, wall 13.894s. Tests ran after generation; offline audit overlap makes timing unsuitable for performance claims. Documentation/attribution changes are distinct from the separately authorized methodological implementation.
+
+### Exact captured command index
+
+All paths below are under the current session's `engineering/`; each JSON retains actual argv, start/end UTC, stdout/stderr and exit code. This table covers commands completed before this report-writing command; later exports and delivery checks are separately captured.
+
+| Record | Started UTC | Finished UTC | Exit | Wall seconds |
+|---|---|---|---:|---:|
+| `development_tests_captured.json` | 2026-10-12T19:05:50.906214+00:00 | 2026-10-12T19:05:52.008055+00:00 | 0 | 1.102 |
+| `freeze_policy_command.json` | 2026-10-12T19:08:56.000635+00:00 | 2026-10-12T19:09:12.586708+00:00 | 0 | 16.586 |
+| `author_holdout_command.json` | 2026-10-12T19:10:30.913391+00:00 | 2026-10-12T19:10:31.012324+00:00 | 0 | 0.099 |
+| `seal_holdout_command.json` | 2026-10-12T19:10:31.551203+00:00 | 2026-10-12T19:10:31.797517+00:00 | 0 | 0.246 |
+| `software_holdout_command.json` | 2026-10-12T19:10:32.339820+00:00 | 2026-10-12T19:10:32.612582+00:00 | 0 | 0.273 |
+| `real_holdout_command.json` | 2026-10-12T19:10:40.656415+00:00 | 2026-10-12T19:11:37.316093+00:00 | 0 | 56.660 |
+| `form_readiness_command.json` | 2026-10-12T19:10:51.831417+00:00 | 2026-10-12T19:10:52.452417+00:00 | 0 | 0.621 |
+| `analyze_real_holdout_command.json` | 2026-10-12T19:13:04.409782+00:00 | 2026-10-12T19:16:00.726099+00:00 | 0 | 176.316 |
+| `vendor_neutralize_command.json` | 2026-10-12T19:13:15.399363+00:00 | 2026-10-12T19:13:15.960390+00:00 | 0 | 0.561 |
+| `tests_final.json` | 2026-10-12T19:14:04.806138+00:00 | 2026-10-12T19:14:18.700372+00:00 | 0 | 13.894 |
+
+Main artifacts: new `response_status.py` and `evaluation_policy.py`, policy documents, development/holdout fixtures, two new test modules, neutral-import regressions, `p0_policy_validation.py`, sealed policy/holdout manifests, full software/real validation JSON, readiness and attribution audits. Updated methodology/final/reproducibility/remaining-blocker reports and acceptance checklist. See [current acceptance report](P0_policy_acceptance_report.md) for the A/B/C decision. No new scientific-effect conclusion, P1, LoRA or unrelated project operation occurred.
+
+
+### Final source search, preservation and Git delivery checks
+
+Recorded 2026-10-12T19:22:12.484651+00:00. The final case-insensitive repository search at 19:20:19 UTC returned zero matches (search exit 1, empty stdout and stderr, meaning no matches). The independent delivery checker completed at 2026-10-12T19:21:19.563165+00:00, exit 0, scanning 124 current tracked/non-ignored source and documentation files before creation of its own report. Private datasets, model weights, environments, binaries and immutable original experiment archives were excluded. Product references in old immutable snapshots are not erased; they remain original reproducibility evidence outside current publishable source.
+
+The checker verified unchanged frozen policies/holdout hashes, all archived pre-edit attribution hashes, unchanged numeric/experimental JSON content, no operational AST change from the attribution correction, unchanged protocol/source files outside authorized changes, and the historical log prefix except the explicitly authorized neutral wording substitutions. All original 40 blank form records remain byte-identical. It checked 153 local Markdown links, private ignore rules and absence of machine paths in newly published evidence. Full checks and the **35-file uncommitted inventory** are in [delivery evidence](validation/P0_policy_acceptance_delivery.json).
+
+`git diff --check` finished at 2026-10-12T19:21:38.816773+00:00, exit 0; no whitespace errors. Six Git CRLF-to-LF working-copy notices are preserved in stderr and are separate from the zero pytest warnings. `git status --short --branch --untracked-files=all` finished at 2026-10-12T19:21:39.382442+00:00, exit 0: **16 modified tracked files and 19 new files**, none staged. HEAD remains `1c9bfc3791f7f5cb4b4bda78cd02e2580f0429da`. All commits and pushes remain under Yaxin ZHENG's control.
+
+The public command index includes the 12 completed command captures available at export time. Export, delivery check, final Git checks and this closing write have their own immutable local captures. Final automated tests remain 223 passed / 0 failed / 0 warnings reported, 13.28 seconds, exit 0; subsequent edits were reports only. No actual human reviews were supplied, so P0 stays PARTIAL and neutral review stays OPEN. A final source search after this appendix is captured separately; no experimental re-generation is needed.

@@ -1,5 +1,7 @@
 # P0 Researcher Annotation Form, Version 3
 
+**Current readiness check (2026-10-12):** all 40 CSV rows were reconstructed from the original frozen prompts and matched the immutable JSON template, including evidence, question, identifiers and zero token differences. Human review remains **OPEN, 0/40 completed**. See [readiness evidence](validation/P0_neutral_review_readiness_v1.json). No new human submission was supplied. Existing import code also rejects incomplete ratings, invalid labels, duplicate or missing rows, changed form versions/material, blank reviewer IDs and invalid review times; its tests use explicitly identified software test doubles.
+
 Status: **PARTIAL; 0/40 human reviews completed.** All judgments are blank. This is an English annotation instrument, not an automatic evaluation result.
 
 Use the [CSV form](validation/P0_neutral_annotation_form_v3.csv) with its immutable [JSON template](validation/P0_neutral_annotation_form_v3.json). Each of the 40 historical matched controls includes `case_id`, `condition_id`, exact `neutral_text` including its heading, `reference_condition`, `token_count`, `reference_token_count`, `token_difference`, evidence, question and hashes. Token counts refer to the **entire final prompt**, not the neutral text alone. All historical differences remain zero.

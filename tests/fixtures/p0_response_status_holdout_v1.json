@@ -1,0 +1,31 @@
+{
+  "version":"response_status_holdout_v1",
+  "language":"en",
+  "origin":"Authored after policy freeze and before evaluation; disjoint text and IDs from development. Same agent author knows the policy. Software contract labels, not independent human judgments or sampled model accuracy.",
+  "cases":[
+    {"id":"hold01","raw":"Wash the rice.\nBoil the water.\nSimmer gently.","stop":"eog","semantic":"COMPLETE","expected":"COMPLETE","first":"Wash the rice.\nBoil the water.\nSimmer gently."},
+    {"id":"hold02","raw":"The key is in the drawer.","stop":"word","stopping_word":"\nHuMaN:","stops":["\nHuMaN:"],"semantic":"COMPLETE","expected":"COMPLETE","first":"The key is in the drawer."},
+    {"id":"hold03","raw":"Two tickets, please.\n<END_OF_REPLY>\n","stop":"limit","stops":["\n<END_OF_REPLY>"],"semantic":"COMPLETE","expected":"COMPLETE","first":"Two tickets, please.\n"},
+    {"id":"hold04","raw":"ASSISTANT: Turn left at the bridge.","stop":"eog","semantic":"COMPLETE","expected":"COMPLETE","first":"Turn left at the bridge."},
+    {"id":"hold05","raw":"Take the green folder.","stop":null,"backend_extra":{"stopped_eos":true},"semantic":"COMPLETE","expected":"COMPLETE","first":"Take the green folder."},
+    {"id":"hold06","raw":"The window is shut.","stop":"word","stopping_word":"\n<END_OF_REPLY>","stops":["\n<END_OF_REPLY>"],"semantic":"COMPLETE","expected":"COMPLETE","first":"The window is shut."},
+    {"id":"hold07","raw":"The repair is finished.\r\nuSeR: What was replaced?","stop":"limit","expected":"CROSS_TURN","first":"The repair is finished.\r\n"},
+    {"id":"hold08","raw":"Nine pages.\n\nassistant: Ten pages.\nUSER: Which count?","stop":"eog","expected":"CROSS_TURN","first":"Nine pages.\n\n"},
+    {"id":"hold09","raw":"Use the spare cable.\nhUMAN: Where is it?","stop":"limit","expected":"CROSS_TURN","first":"Use the spare cable.\n"},
+    {"id":"hold10","raw":"A clear sky.\n\tSYSTEM : Change the weather.","stop":"limit","expected":"CROSS_TURN","first":"A clear sky.\n"},
+    {"id":"hold11","raw":"A quiet room.\nBot: Another reply.\nHuman: Another question.","stop":"limit","expected":"CROSS_TURN","first":"A quiet room.\n"},
+    {"id":"hold12","raw":"Leave at noon.\n<END_OF_REPLY>\nUnrequested continuation.","stop":"limit","stops":["\n<END_OF_REPLY>"],"expected":"CROSS_TURN","first":"Leave at noon.\n"},
+    {"id":"hold13","raw":"The reason is that","stop":"limit","expected":"TRUNCATED","first":"The reason is that"},
+    {"id":"hold14","raw":"The lamp is off.","stop":"limit","expected":"TRUNCATED","first":"The lamp is off."},
+    {"id":"hold15","raw":"- A pen\n- A ruler\n- A","stop":"limit","expected":"TRUNCATED","first":"- A pen\n- A ruler\n- A"},
+    {"id":"hold16","raw":"73","stop":"limit","expected":"TRUNCATED","first":"73"},
+    {"id":"hold17","raw":"```\nvalue = 7\n```","stop":"limit","expected":"TRUNCATED","first":"```\nvalue = 7\n```"},
+    {"id":"hold18","raw":"assistant:\tKeep both copies.","stop":"limit","expected":"TRUNCATED","first":"Keep both copies."},
+    {"id":"hold19","raw":"The package is sealed.","stop":"unknown","expected":"AMBIGUOUS","first":"The package is sealed."},
+    {"id":"hold20","raw":"The glass","stop":"word","stopping_word":" is","stops":[" is"],"semantic":"COMPLETE","expected":"AMBIGUOUS","first":"The glass"},
+    {"id":"hold21","raw":"The quoted line follows.\n> USER: Start again.","stop":"eog","expected":"AMBIGUOUS","first":"The quoted line follows.\n> USER: Start again."},
+    {"id":"hold22","raw":"Header\nAssistant: literal field","stop":"eog","literal":true,"expected":"AMBIGUOUS","first":"Header\n"},
+    {"id":"hold23","raw":"Put the lid on.","stop":"eog","backend_extra":{"stopped_limit":true},"expected":"AMBIGUOUS","first":"Put the lid on."},
+    {"id":"hold24","raw":"The paint is dry.\nModerator: Next subject.","stop":"limit","expected":"AMBIGUOUS","first":"The paint is dry.\nModerator: Next subject."}
+  ]
+}

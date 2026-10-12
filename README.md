@@ -102,7 +102,7 @@ CLI exit 0 indicates success within that command's scope; exit 2 indicates BLOCK
 
 **First GitHub synchronization completed on 2026-10-12 by the human researcher.** Initial commit: [`4a538570c77666009a609c1218a435ac52a6187a`](https://github.com/Yaaaxin/PersonaSLM/commit/4a538570c77666009a609c1218a435ac52a6187a), authored and committed by **Yaxin ZHENG** at `2026-10-12T17:52:42+02:00` with message `Initialize PersonaSLM research infrastructure`. The researcher confirmed the push; the local `main` and `origin/main` references both point to this commit. The push's exact time was not recorded here.
 
-Commits and pushes remain exclusively researcher-managed under [AGENTS.md](AGENTS.md). Codex leaves subsequent changes uncommitted for review. The [development log](docs/research_development_log.md) records synchronization provenance and the preparation for real P0 validation. GitHub synchronization does not complete real-model P0 acceptance.
+Commits and pushes remain exclusively researcher-managed under [AGENTS.md](AGENTS.md). All changes are reviewed and committed by the repository maintainer, Yaxin ZHENG. The [development log](docs/research_development_log.md) records synchronization provenance and the preparation for real P0 validation. GitHub synchronization does not complete real-model P0 acceptance.
 
 **Historical snapshot before the researcher's first commit/push (retained):**
 

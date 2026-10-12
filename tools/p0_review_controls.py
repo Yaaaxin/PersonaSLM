@@ -50,7 +50,7 @@ def main():
             "verdict_PASS_PARTIAL_FAILED": None, "notes": None, "annotator_id": None, "reviewed_utc": None})
         mapping.append({"review_id": rid, "case_id": cid, "condition": neutral, "text_sha256": text_hash(text)})
     atomic_json(args.session / "neutral_semantic_audit.json", {"created_utc": utc_now(),
-        "status": "PARTIAL", "reviewer": "Codex-assisted technical inspection; no human judgments", "rows": rows})
+        "status": "PARTIAL", "reviewer": "Automated technical inspection; no human judgments", "rows": rows})
     atomic_json(args.session / "neutral_review_mapping.json", {"mapping": mapping})
     destination = Path("docs/validation/P0_neutral_blinded_review.jsonl")
     with destination.open("x", encoding="utf-8", newline="\n") as handle:

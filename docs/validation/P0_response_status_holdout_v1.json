@@ -1,0 +1,1037 @@
+{
+  "accuracy": 1.0,
+  "ambiguous_case_ids": [
+    "hold19",
+    "hold20",
+    "hold21",
+    "hold22",
+    "hold23",
+    "hold24"
+  ],
+  "confusion_matrix": {
+    "AMBIGUOUS": {
+      "AMBIGUOUS": 6,
+      "COMPLETE": 0,
+      "CROSS_TURN": 0,
+      "TRUNCATED": 0
+    },
+    "COMPLETE": {
+      "AMBIGUOUS": 0,
+      "COMPLETE": 6,
+      "CROSS_TURN": 0,
+      "TRUNCATED": 0
+    },
+    "CROSS_TURN": {
+      "AMBIGUOUS": 0,
+      "COMPLETE": 0,
+      "CROSS_TURN": 6,
+      "TRUNCATED": 0
+    },
+    "TRUNCATED": {
+      "AMBIGUOUS": 0,
+      "COMPLETE": 0,
+      "CROSS_TURN": 0,
+      "TRUNCATED": 6
+    }
+  },
+  "correct": 24,
+  "created_utc": "2026-10-12T19:10:32.585975+00:00",
+  "decided_correct": 18,
+  "decided_coverage": 0.75,
+  "ground_truth_provenance": "Author-specified synthetic software expectations; not independent human ground truth or model-response accuracy",
+  "holdout_sha256": "28f7d9f039a9f2a6eaa6d4c49c77db58228b2e51819c16beb89cf0b55cc76ec4",
+  "policy_unchanged_since_freeze": true,
+  "rows": [
+    {
+      "expected_status": "COMPLETE",
+      "id": "hold01",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "eog",
+        "backend_termination": {
+          "stop_type": "eog",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 45,
+          "sha256": "898e809b70b53ddaadfd67cc9ff7800e74ce0a513b2d6b723ad7b653d1e89ca8",
+          "start": 0,
+          "text": "Wash the rice.\nBoil the water.\nSimmer gently."
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "eog",
+        "raw_empty": false,
+        "raw_response": "Wash the rice.\nBoil the water.\nSimmer gently.",
+        "raw_sha256": "898e809b70b53ddaadfd67cc9ff7800e74ce0a513b2d6b723ad7b653d1e89ca8",
+        "reasons": [
+          "bounded_reply_with_separate_completeness_judgment"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "Authored software contract, not human annotation",
+          "label": "COMPLETE",
+          "raw_sha256": "898e809b70b53ddaadfd67cc9ff7800e74ce0a513b2d6b723ad7b653d1e89ca8",
+          "review_id": "hold01"
+        },
+        "status": "COMPLETE",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "COMPLETE",
+      "id": "hold02",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "word",
+        "backend_termination": {
+          "stop_type": "word",
+          "stopping_word": "\nHuMaN:"
+        },
+        "declared_stops": [
+          "\nHuMaN:"
+        ],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 25,
+          "sha256": "b478297d5297cafafff9495a6261377e7e6028d581abaf074ad83c21eb5ac400",
+          "start": 0,
+          "text": "The key is in the drawer."
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "word",
+        "raw_empty": false,
+        "raw_response": "The key is in the drawer.",
+        "raw_sha256": "b478297d5297cafafff9495a6261377e7e6028d581abaf074ad83c21eb5ac400",
+        "reasons": [
+          "bounded_reply_with_separate_completeness_judgment"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "Authored software contract, not human annotation",
+          "label": "COMPLETE",
+          "raw_sha256": "b478297d5297cafafff9495a6261377e7e6028d581abaf074ad83c21eb5ac400",
+          "review_id": "hold02"
+        },
+        "status": "COMPLETE",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "COMPLETE",
+      "id": "hold03",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [
+          "\n<END_OF_REPLY>"
+        ],
+        "excluded_tail": "<END_OF_REPLY>\n",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 21,
+          "sha256": "337c5aacc2fbc41cd9bd60ec100317b8eaf6baf6d5185d8e6e88441279bbfe38",
+          "start": 0,
+          "text": "Two tickets, please.\n"
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "declared_marker",
+        "raw_empty": false,
+        "raw_response": "Two tickets, please.\n<END_OF_REPLY>\n",
+        "raw_sha256": "24c258fa7fc8108544aaa3f84c899e8e12a9598657b52ba728188a78faedf28c",
+        "reasons": [
+          "bounded_reply_with_separate_completeness_judgment"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "Authored software contract, not human annotation",
+          "label": "COMPLETE",
+          "raw_sha256": "24c258fa7fc8108544aaa3f84c899e8e12a9598657b52ba728188a78faedf28c",
+          "review_id": "hold03"
+        },
+        "status": "COMPLETE",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "COMPLETE",
+      "id": "hold04",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "eog",
+        "backend_termination": {
+          "stop_type": "eog",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 35,
+          "sha256": "9bbc29eb2e5cd7759cf928b9cb520f4d78f28720d35d69e026e8462f9b30c00c",
+          "start": 11,
+          "text": "Turn left at the bridge."
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "eog",
+        "raw_empty": false,
+        "raw_response": "ASSISTANT: Turn left at the bridge.",
+        "raw_sha256": "5566c4d54820e5061c7542129c9975c9ba53c2ef3a62c7f02289d891bf577c39",
+        "reasons": [
+          "bounded_reply_with_separate_completeness_judgment"
+        ],
+        "removed_prefix": "ASSISTANT: ",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "Authored software contract, not human annotation",
+          "label": "COMPLETE",
+          "raw_sha256": "5566c4d54820e5061c7542129c9975c9ba53c2ef3a62c7f02289d891bf577c39",
+          "review_id": "hold04"
+        },
+        "status": "COMPLETE",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "COMPLETE",
+      "id": "hold05",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "eog",
+        "backend_termination": {
+          "stop_type": null,
+          "stopped_eos": true,
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 22,
+          "sha256": "218af71a372112630d53cb99cd9ec904781ed72fd2979da16e2ffbb33f0cd249",
+          "start": 0,
+          "text": "Take the green folder."
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "eog",
+        "raw_empty": false,
+        "raw_response": "Take the green folder.",
+        "raw_sha256": "218af71a372112630d53cb99cd9ec904781ed72fd2979da16e2ffbb33f0cd249",
+        "reasons": [
+          "bounded_reply_with_separate_completeness_judgment"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "Authored software contract, not human annotation",
+          "label": "COMPLETE",
+          "raw_sha256": "218af71a372112630d53cb99cd9ec904781ed72fd2979da16e2ffbb33f0cd249",
+          "review_id": "hold05"
+        },
+        "status": "COMPLETE",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "COMPLETE",
+      "id": "hold06",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "word",
+        "backend_termination": {
+          "stop_type": "word",
+          "stopping_word": "\n<END_OF_REPLY>"
+        },
+        "declared_stops": [
+          "\n<END_OF_REPLY>"
+        ],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 19,
+          "sha256": "fefb32bbbc7ed65821bdedc6d53878c6d0f7b829490cb57c9cf79e0ff8b83828",
+          "start": 0,
+          "text": "The window is shut."
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "word",
+        "raw_empty": false,
+        "raw_response": "The window is shut.",
+        "raw_sha256": "fefb32bbbc7ed65821bdedc6d53878c6d0f7b829490cb57c9cf79e0ff8b83828",
+        "reasons": [
+          "bounded_reply_with_separate_completeness_judgment"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "Authored software contract, not human annotation",
+          "label": "COMPLETE",
+          "raw_sha256": "fefb32bbbc7ed65821bdedc6d53878c6d0f7b829490cb57c9cf79e0ff8b83828",
+          "review_id": "hold06"
+        },
+        "status": "COMPLETE",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "CROSS_TURN",
+      "id": "hold07",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "uSeR: What was replaced?",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 25,
+          "sha256": "21ae05ee24ef6d15cb05f677d511b887ac9d617fb066969004e8aa6cd7ee66f0",
+          "start": 0,
+          "text": "The repair is finished.\r\n"
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "role_transition",
+        "raw_empty": false,
+        "raw_response": "The repair is finished.\r\nuSeR: What was replaced?",
+        "raw_sha256": "ba7fd71079bb1d5e4adf803a5003dbddff4afe10534cbefd6b69d04d48917396",
+        "reasons": [
+          "visible_continuation_after_first_reply"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "CROSS_TURN",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "CROSS_TURN",
+      "id": "hold08",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "eog",
+        "backend_termination": {
+          "stop_type": "eog",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "assistant: Ten pages.\nUSER: Which count?",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 13,
+          "sha256": "9a2226a6483bcadb5c2ea1410ee01de007eac5d774fae9cba5b821bc8e396b34",
+          "start": 0,
+          "text": "Nine pages.\n\n"
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "role_transition",
+        "raw_empty": false,
+        "raw_response": "Nine pages.\n\nassistant: Ten pages.\nUSER: Which count?",
+        "raw_sha256": "7264cbb4b5309905984253bfc984ab22f2c9b4ed577257a4afb90af2fe0d7f98",
+        "reasons": [
+          "visible_continuation_after_first_reply"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "CROSS_TURN",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "CROSS_TURN",
+      "id": "hold09",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "hUMAN: Where is it?",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 21,
+          "sha256": "b4ee410288ca7e7c745f7d81a395459b992142f4101282e39d60bf47c1c3f6bb",
+          "start": 0,
+          "text": "Use the spare cable.\n"
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "role_transition",
+        "raw_empty": false,
+        "raw_response": "Use the spare cable.\nhUMAN: Where is it?",
+        "raw_sha256": "1b3ef3571acbe902c2f3e0af413455484723a178dcfb6f5f7b56e7f81bf8bdb7",
+        "reasons": [
+          "visible_continuation_after_first_reply"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "CROSS_TURN",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "CROSS_TURN",
+      "id": "hold10",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "\tSYSTEM : Change the weather.",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 13,
+          "sha256": "7502676a492e34857797be4c68580ab978e983ed5a5b18828cbf51fdec4a372e",
+          "start": 0,
+          "text": "A clear sky.\n"
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "role_transition",
+        "raw_empty": false,
+        "raw_response": "A clear sky.\n\tSYSTEM : Change the weather.",
+        "raw_sha256": "99c3a6a61c727e912c6a3f2d65108924727dfc8afc4fe0cf40df28113f9f5656",
+        "reasons": [
+          "visible_continuation_after_first_reply"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "CROSS_TURN",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "CROSS_TURN",
+      "id": "hold11",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "Bot: Another reply.\nHuman: Another question.",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 14,
+          "sha256": "abd5f79b63cf40d7f28ff70378c9cfdd1ae840f3f823a8fefae1e0d4623d5f38",
+          "start": 0,
+          "text": "A quiet room.\n"
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "role_transition",
+        "raw_empty": false,
+        "raw_response": "A quiet room.\nBot: Another reply.\nHuman: Another question.",
+        "raw_sha256": "7714bef9a6954d349353554cf221fad387dc0d86cc08b796f3e2602461e1267a",
+        "reasons": [
+          "visible_continuation_after_first_reply"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "CROSS_TURN",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "CROSS_TURN",
+      "id": "hold12",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [
+          "\n<END_OF_REPLY>"
+        ],
+        "excluded_tail": "<END_OF_REPLY>\nUnrequested continuation.",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 15,
+          "sha256": "3de0e34003e33ad7425627fd850c8260cb65cdde4bdccc5b288a7311ee0c6d84",
+          "start": 0,
+          "text": "Leave at noon.\n"
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "declared_marker",
+        "raw_empty": false,
+        "raw_response": "Leave at noon.\n<END_OF_REPLY>\nUnrequested continuation.",
+        "raw_sha256": "a21896528a1861315c89f326525f348a9bba55a162ea41cd7f3a8bb92c9c6c1f",
+        "reasons": [
+          "visible_continuation_after_first_reply"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "CROSS_TURN",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "TRUNCATED",
+      "id": "hold13",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 18,
+          "sha256": "01e59fcadc090de3f80f01c3f85aae6d76e328aee710d3c60f3ebf2820ece744",
+          "start": 0,
+          "text": "The reason is that"
+        },
+        "literal_delimiters": false,
+        "observed_boundary": null,
+        "raw_empty": false,
+        "raw_response": "The reason is that",
+        "raw_sha256": "01e59fcadc090de3f80f01c3f85aae6d76e328aee710d3c60f3ebf2820ece744",
+        "reasons": [
+          "budget_ended_without_observed_reply_boundary"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "TRUNCATED",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "TRUNCATED",
+      "id": "hold14",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 16,
+          "sha256": "fb1aab7a8574950287068f7c7b76557989936911696ac179d33cd1669446a3c8",
+          "start": 0,
+          "text": "The lamp is off."
+        },
+        "literal_delimiters": false,
+        "observed_boundary": null,
+        "raw_empty": false,
+        "raw_response": "The lamp is off.",
+        "raw_sha256": "fb1aab7a8574950287068f7c7b76557989936911696ac179d33cd1669446a3c8",
+        "reasons": [
+          "budget_ended_without_observed_reply_boundary"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "TRUNCATED",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "TRUNCATED",
+      "id": "hold15",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 21,
+          "sha256": "fb679e20863f375dc1dad22ebc6b7be9de36472be2d2c088d93935c33390280d",
+          "start": 0,
+          "text": "- A pen\n- A ruler\n- A"
+        },
+        "literal_delimiters": false,
+        "observed_boundary": null,
+        "raw_empty": false,
+        "raw_response": "- A pen\n- A ruler\n- A",
+        "raw_sha256": "fb679e20863f375dc1dad22ebc6b7be9de36472be2d2c088d93935c33390280d",
+        "reasons": [
+          "budget_ended_without_observed_reply_boundary"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "TRUNCATED",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "TRUNCATED",
+      "id": "hold16",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 2,
+          "sha256": "96061e92f58e4bdcdee73df36183fe3ac64747c81c26f6c83aada8d2aabb1864",
+          "start": 0,
+          "text": "73"
+        },
+        "literal_delimiters": false,
+        "observed_boundary": null,
+        "raw_empty": false,
+        "raw_response": "73",
+        "raw_sha256": "96061e92f58e4bdcdee73df36183fe3ac64747c81c26f6c83aada8d2aabb1864",
+        "reasons": [
+          "budget_ended_without_observed_reply_boundary"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "TRUNCATED",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "TRUNCATED",
+      "id": "hold17",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 17,
+          "sha256": "3c00d1c36d626fe5bb75fee59a461d6993a66cc7dbf9cce8a7bb19649d3db5fd",
+          "start": 0,
+          "text": "```\nvalue = 7\n```"
+        },
+        "literal_delimiters": false,
+        "observed_boundary": null,
+        "raw_empty": false,
+        "raw_response": "```\nvalue = 7\n```",
+        "raw_sha256": "3c00d1c36d626fe5bb75fee59a461d6993a66cc7dbf9cce8a7bb19649d3db5fd",
+        "reasons": [
+          "budget_ended_without_observed_reply_boundary"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "TRUNCATED",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "TRUNCATED",
+      "id": "hold18",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 28,
+          "sha256": "bcd11249f7bc072df99d1c4ea924ce126693414ce339a89abe734a4e80581f01",
+          "start": 11,
+          "text": "Keep both copies."
+        },
+        "literal_delimiters": false,
+        "observed_boundary": null,
+        "raw_empty": false,
+        "raw_response": "assistant:\tKeep both copies.",
+        "raw_sha256": "1053f8ea6ccb5151b7de0775fa48fc6b08efb063908e6100e1de8869a8c26bfa",
+        "reasons": [
+          "budget_ended_without_observed_reply_boundary"
+        ],
+        "removed_prefix": "assistant:\t",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "TRUNCATED",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "AMBIGUOUS",
+      "id": "hold19",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "unknown",
+        "backend_termination": {
+          "stop_type": "unknown",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 22,
+          "sha256": "28f570c5fc3de7fe500ce7f79977358138fb572177eb2f363049fb84ee954b3d",
+          "start": 0,
+          "text": "The package is sealed."
+        },
+        "literal_delimiters": false,
+        "observed_boundary": null,
+        "raw_empty": false,
+        "raw_response": "The package is sealed.",
+        "raw_sha256": "28f570c5fc3de7fe500ce7f79977358138fb572177eb2f363049fb84ee954b3d",
+        "reasons": [
+          "no_certified_boundary_or_budget_evidence"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "AMBIGUOUS",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "AMBIGUOUS",
+      "id": "hold20",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "word",
+        "backend_termination": {
+          "stop_type": "word",
+          "stopping_word": " is"
+        },
+        "declared_stops": [
+          " is"
+        ],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 9,
+          "sha256": "c79c3da46634051550f4926a2d6586044b16766f91646479da491dae54a2e4e0",
+          "start": 0,
+          "text": "The glass"
+        },
+        "literal_delimiters": false,
+        "observed_boundary": null,
+        "raw_empty": false,
+        "raw_response": "The glass",
+        "raw_sha256": "c79c3da46634051550f4926a2d6586044b16766f91646479da491dae54a2e4e0",
+        "reasons": [
+          "no_certified_boundary_or_budget_evidence"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "Authored software contract, not human annotation",
+          "label": "COMPLETE",
+          "raw_sha256": "c79c3da46634051550f4926a2d6586044b16766f91646479da491dae54a2e4e0",
+          "review_id": "hold20"
+        },
+        "status": "AMBIGUOUS",
+        "unit_identifiable": true,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "AMBIGUOUS",
+      "id": "hold21",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "eog",
+        "backend_termination": {
+          "stop_type": "eog",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 45,
+          "sha256": "a07af0bc06a77bc2d9c3455bdaed50cc96ab3ee8be7028ce220b48f85de63467",
+          "start": 0,
+          "text": "The quoted line follows.\n> USER: Start again."
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "eog",
+        "raw_empty": false,
+        "raw_response": "The quoted line follows.\n> USER: Start again.",
+        "raw_sha256": "a07af0bc06a77bc2d9c3455bdaed50cc96ab3ee8be7028ce220b48f85de63467",
+        "reasons": [
+          "quoted_or_fenced_delimiter",
+          "inline_or_quoted_role_label"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "AMBIGUOUS",
+        "unit_identifiable": false,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "AMBIGUOUS",
+      "id": "hold22",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "eog",
+        "backend_termination": {
+          "stop_type": "eog",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "Assistant: literal field",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 7,
+          "sha256": "514d8f6073ff8eb2dcbbaa647ff7fbc5e46d92ae85d0b0dee5fb2dcf5d8c755e",
+          "start": 0,
+          "text": "Header\n"
+        },
+        "literal_delimiters": true,
+        "observed_boundary": "role_transition",
+        "raw_empty": false,
+        "raw_response": "Header\nAssistant: literal field",
+        "raw_sha256": "8b8e2fc0f920fbcfe6cef207c4d6ce3a1927b50adedbf3b09620ce17dca96b43",
+        "reasons": [
+          "predeclared_literal_delimiter_content"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "AMBIGUOUS",
+        "unit_identifiable": false,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "AMBIGUOUS",
+      "id": "hold23",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "eog",
+        "backend_termination": {
+          "stop_type": "eog",
+          "stopped_limit": true,
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 15,
+          "sha256": "453500e14b3bf2efac1d8057c081257c6ca2c17d6cc57ad8ee3848c9b2d3ec68",
+          "start": 0,
+          "text": "Put the lid on."
+        },
+        "literal_delimiters": false,
+        "observed_boundary": "eog",
+        "raw_empty": false,
+        "raw_response": "Put the lid on.",
+        "raw_sha256": "453500e14b3bf2efac1d8057c081257c6ca2c17d6cc57ad8ee3848c9b2d3ec68",
+        "reasons": [
+          "contradictory_backend_termination"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "AMBIGUOUS",
+        "unit_identifiable": false,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    },
+    {
+      "expected_status": "AMBIGUOUS",
+      "id": "hold24",
+      "raw_reconstruction_matches": true,
+      "result": {
+        "backend_kind": "limit",
+        "backend_termination": {
+          "stop_type": "limit",
+          "stopping_word": null
+        },
+        "declared_stops": [],
+        "excluded_tail": "",
+        "factual_judgment_used": false,
+        "first_span": {
+          "end": 42,
+          "sha256": "2242fe149448c8e7231bf38683e34729d10cda0bac1daa97632f587f4cb7e1f5",
+          "start": 0,
+          "text": "The paint is dry.\nModerator: Next subject."
+        },
+        "literal_delimiters": false,
+        "observed_boundary": null,
+        "raw_empty": false,
+        "raw_response": "The paint is dry.\nModerator: Next subject.",
+        "raw_sha256": "2242fe149448c8e7231bf38683e34729d10cda0bac1daa97632f587f4cb7e1f5",
+        "reasons": [
+          "unrecognized_line_label"
+        ],
+        "removed_prefix": "",
+        "scope": "TRUNCATED is a boundary-censored observation, not proof of semantic incompleteness or factual error.",
+        "semantic_completeness": {
+          "basis": "No independent completeness judgment supplied",
+          "label": "UNCERTAIN"
+        },
+        "status": "AMBIGUOUS",
+        "unit_identifiable": false,
+        "version": "response_status_v1"
+      },
+      "span_matches": true,
+      "status_matches": true
+    }
+  ],
+  "span_matches": 24,
+  "status": "PASS",
+  "total": 24,
+  "version": "response_status_v1"
+}

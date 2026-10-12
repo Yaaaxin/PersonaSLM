@@ -1,0 +1,23 @@
+{
+  "version": "response_status_development_v1",
+  "language": "en",
+  "origin": "New engineered software examples, not model outputs or human annotations; none reuses the four prior development tasks",
+  "cases": [
+    {"id":"dev01","raw":"The parcel arrived.\nUser: When?","stop":"limit","expected":"CROSS_TURN","first":"The parcel arrived.\n"},
+    {"id":"dev02","raw":"Bring water.\n  uSeR : Anything else?","stop":"limit","expected":"CROSS_TURN","first":"Bring water.\n"},
+    {"id":"dev03","raw":"- Red\n- Blue","stop":"eog","semantic":"COMPLETE","expected":"COMPLETE","first":"- Red\n- Blue"},
+    {"id":"dev04","raw":"Yes.\nAssistant: Again.\nUser: Why?","stop":"limit","expected":"CROSS_TURN","first":"Yes.\n"},
+    {"id":"dev05","raw":"The meeting ends at","stop":"limit","expected":"TRUNCATED","first":"The meeting ends at"},
+    {"id":"dev06","raw":"The meeting ended.","stop":"limit","expected":"TRUNCATED","first":"The meeting ended."},
+    {"id":"dev07","raw":"Ready.","stop":"word","stopping_word":"\nUser:","stops":["\nUser:"],"expected":"AMBIGUOUS","first":"Ready."},
+    {"id":"dev08","raw":"Ready.","stop":"word","stopping_word":"\nUser:","stops":["\nUser:"],"semantic":"COMPLETE","expected":"COMPLETE","first":"Ready."},
+    {"id":"dev09","raw":"Check the gate.\n<END_OF_REPLY>","stop":"limit","stops":["\n<END_OF_REPLY>"],"semantic":"COMPLETE","expected":"COMPLETE","first":"Check the gate.\n"},
+    {"id":"dev10","raw":"","stop":"eog","expected":"AMBIGUOUS","first":""},
+    {"id":"dev11","raw":"The notation is\nUser: header","stop":"eog","literal":true,"expected":"AMBIGUOUS","first":"The notation is\n"},
+    {"id":"dev12","raw":"A sentence.","stop":"unknown","expected":"AMBIGUOUS","first":"A sentence."},
+    {"id":"dev13","raw":"Assistant: The bus left.\nSYSTEM: More instructions","stop":"limit","expected":"CROSS_TURN","first":"The bus left.\n"},
+    {"id":"dev14","raw":"Quote: User: hello","stop":"eog","expected":"AMBIGUOUS","first":"Quote: User: hello"},
+    {"id":"dev15","raw":"One item only.","stop":"eog","semantic":"INCOMPLETE","expected":"AMBIGUOUS","first":"One item only."},
+    {"id":"dev16","raw":"The label is\n```\nUser: name\n```","stop":"eog","expected":"AMBIGUOUS","first":"The label is\n```\n"}
+  ]
+}

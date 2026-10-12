@@ -18,7 +18,7 @@ No independent GGUF, expected SHA-256 or llama-server executable has been suppli
 
 The full directory audit is **PARTIAL**: the original `.pytest_cache` directory cannot be read. This failure is now reported, not silently hidden. The synthetic evidence checks pass.
 
-**Current Git status:** the human researcher completed the first commit and GitHub push on 2026-10-12. Commit `4a538570c77666009a609c1218a435ac52a6187a` was authored and committed by **Yaxin ZHENG** at `2026-10-12T17:52:42+02:00`. Local `main` and `origin/main` both point to this commit; push completion was confirmed by the researcher. Codex does not commit or push. See the appended synchronization entry in [the development log](research_development_log.md).
+**Current Git status:** the human researcher completed the first commit and GitHub push on 2026-10-12. Commit `4a538570c77666009a609c1218a435ac52a6187a` was authored and committed by **Yaxin ZHENG** at `2026-10-12T17:52:42+02:00`. Local `main` and `origin/main` both point to this commit; push completion was confirmed by the researcher. Automated development tools do not commit or push. See the appended synchronization entry in [the development log](research_development_log.md).
 
 **Historical snapshot before the first synchronization (retained):** Git is already initialized on `main`; `origin` points to `https://github.com/Yaaaxin/PersonaSLM.git`. A read-only remote check succeeded with no refs. There has been no local commit or push.
 

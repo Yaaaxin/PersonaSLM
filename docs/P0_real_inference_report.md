@@ -84,7 +84,7 @@ pytest 新缓存已配置到被 Git 忽略的 `results/.pytest_cache`，未删�
 
 2026-10-12，研究者本人完成首次 Commit 和 Push，远端为 `https://github.com/Yaaaxin/PersonaSLM`。首次提交为 [`4a538570c77666009a609c1218a435ac52a6187a`](https://github.com/Yaaaxin/PersonaSLM/commit/4a538570c77666009a609c1218a435ac52a6187a)，Author 和 Committer 均为 **Yaxin ZHENG**；Git 记录的提交时间为 `2026-10-12T17:52:42+02:00`，提交说明为 `Initialize PersonaSLM research infrastructure`。
 
-本次只读检查确认本地 `main` 和远端跟踪引用 `origin/main` 均指向该 SHA，修改前工作区干净。Push 完成事实由研究者确认；未取得精确 Push 时间，不能将提交时间当作 Push 时间。本次未联网刷新远端引用，也未执行 commit、push 或更改 Git 身份配置。AGENTS.md 已明确禁止 Codex 提交/推送，提交由研究者本人完成，并要求所有工程和实验变更记录可复现日志。详细记录追加在 [研究开发日志](research_development_log.md)。
+本次只读检查确认本地 `main` 和远端跟踪引用 `origin/main` 均指向该 SHA，修改前工作区干净。Push 完成事实由研究者确认；未取得精确 Push 时间，不能将提交时间当作 Push 时间。本次未联网刷新远端引用，也未执行 commit、push 或更改 Git 身份配置。AGENTS.md 已明确禁止 Automated development tools 提交/推送，提交由研究者本人完成，并要求所有工程和实验变更记录可复现日志。详细记录追加在 [研究开发日志](research_development_log.md)。
 
 ### 历史快照：首次同步之前（保留原记录）
 

@@ -1,0 +1,47 @@
+{
+  "boundary_version": "response_status_v1",
+  "change_policy": "No rule edits after holdout access; a changed policy needs a new version and holdout",
+  "configuration": {
+    "endpoint": "http://127.0.0.1:8080",
+    "engine_revision": "0f701c882",
+    "max_match_candidates": 256,
+    "max_new_tokens": 96,
+    "model_file": "models/gguf/Qwen3.5-2B-Base.Q4_K_M.gguf",
+    "model_label": "Qwen3.5-2B-Base-Q4_K_M",
+    "model_sha256": "AB36F9A7B0194ED9A6F80EEB000DAC73002BCB14D0397C11C39417B6CD814994",
+    "n_ctx": 4096,
+    "prompt_template": "transcript_base_v1",
+    "seed": 42,
+    "server_file": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+    "startup_timeout": 120.0,
+    "threads": 4,
+    "timeout": 180.0,
+    "token_tolerance": 0
+  },
+  "configuration_file_sha256": "61dfc5a026d80715c80c8b3ffb6ee05f27689f4f068a86bffb49bbee16c82bfa",
+  "created_utc": "2026-10-12T19:09:12.410208+00:00",
+  "evaluation_version": "separate_axes_policy_v1",
+  "frozen_files": {
+    "docs/P0_evaluation_policy_v1.md": "ae8405295fdd281c2e032be79e4c6f2f459960f8f2947249fa0100345ad43f39",
+    "docs/P0_response_status_policy_v1.md": "cc38afbb72638ecbfaf5f76ff5b5e8e2057de3c42d65131540a8b5617ef24fa0",
+    "src/personaslm/evaluation_policy.py": "dfe76a761c65966aeaf6a93bb4cd5ce186c704b2289e83b1184dac63aea76556",
+    "src/personaslm/evaluation_v2.py": "d9e09a7a9095c7f2d58989fbb6d03bf9545c58cb538eecf69e38bae1c5be38c7",
+    "src/personaslm/evaluation_v3.py": "83c63821303798a373da6491e39cc0aca4b3f7d35fa50491e38ce06b9ee36965",
+    "src/personaslm/response_status.py": "7d0cde00dcef5f75f82b9b95b06ba0b7e6a3b9a3f8209aa834be5c60e32ee0cd",
+    "tests/fixtures/p0_response_status_development_v1.json": "b134a13e03906b4de17cfa1c5fa50f8cdedd617210739f654339a99c6e7f1b81"
+  },
+  "git": {
+    "commit": "1c9bfc3791f7f5cb4b4bda78cd02e2580f0429da",
+    "dirty": true,
+    "status_porcelain": " M tests/test_neutral_review.py\n?? docs/P0_evaluation_policy_v1.md\n?? docs/P0_response_status_policy_v1.md\n?? src/personaslm/evaluation_policy.py\n?? src/personaslm/response_status.py\n?? tests/fixtures/p0_response_status_development_v1.json\n?? tests/test_evaluation_policy.py\n?? tests/test_response_status.py\n?? tools/p0_policy_validation.py"
+  },
+  "historical_journals_frozen": 20,
+  "holdout_design": {
+    "accuracy_scope": "Authored software expectations, not independent human semantic ground truth",
+    "real_cases": 6,
+    "real_generation": "C0 transcript_base_v1, 96 tokens, seed 42, temperature 0, top_p 1, stop=[], CPU 4/4, context 4096",
+    "selection": "All newly authored holdout items; no output-based selection",
+    "software_cases": 24
+  },
+  "original_freeze_sha256": "ace10cfc5b9cc0ac74fba53d7a447b5e587a867e3c4d5fb9fd81f1aea0be4332"
+}

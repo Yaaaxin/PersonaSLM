@@ -68,6 +68,10 @@ def test_partial_import_is_versioned_and_cannot_overwrite(packet):
     lambda rows: rows[0].update(reviewer_id=""),
     lambda rows: rows[0].update(reviewed_utc="2026-10-12T12:00:00"),
     lambda rows: rows.__setitem__(1, dict(rows[0])),
+    lambda rows: rows[0].update(answer_leakage=""),
+    lambda rows: rows[0].update(form_version="neutral_annotation_form_v2"),
+    lambda rows: rows.pop(),
+    lambda rows: rows[0].update(reviewer_id="   "),
 ])
 def test_invalid_or_tampered_review_is_not_imported(packet, mutate):
     root, prefix, _ = packet

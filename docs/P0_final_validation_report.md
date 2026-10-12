@@ -1,5 +1,7 @@
 # P0 Final Validation Report
 
+**Latest policy assessment:** [P0_policy_acceptance_report.md](P0_policy_acceptance_report.md). Bounded instrumentation and evaluation-policy checks PASS; human neutral review OPEN (0/40). Overall PARTIAL. Earlier assessments are preserved as history.
+
 **Current final-methodology update:** 16 new boundary-development responses, 134 preserved responses in total; P0 PARTIAL. The [current blocker classification](P0_remaining_blockers.md) distinguishes mandatory methodology from acceptable limitations and future work. Earlier sessions below remain historical evidence.
 
 **Latest update:** see the [English methodology acceptance report](P0_methodology_acceptance_report.md) and the completion addendum at the end of this file: 118 total recorded generations, overall P0 PARTIAL. The earlier 100-generation session below is preserved as history.
@@ -150,7 +152,7 @@ The page is plain. This is a text record. The heading is printed above the text.
 
 `Complete P0 CPU validation and reproducibility audits`
 
-所有变更留待研究者审阅并提交。Codex 没有 commit、push、改写历史或修改作者配置。
+所有变更留待研究者审阅并提交。Automated development tools 没有 commit、push、改写历史或修改作者配置。
 
 ## 2026-10-12 Methodology Completion Addendum
 
@@ -181,3 +183,14 @@ The new [English annotation form v3](P0_neutral_annotation_form_v3.md) exposes c
 The new [evaluation v3 audit](P0_evaluation_validity_v3.md) distinguishes Correct, Incorrect, Unverifiable and Not Applicable. Independent synthetic checks cover the six requested categories, inapplicability and conflicting source facts. All 24 declared contract checks pass; a separate regression additionally preserves the v2 foreign-subject failure. Six of 22 development texts expose v2 scope problems. The historical 14 C3 results remain unchanged, with separately saved v3 counts 2 Incorrect/11 Unverifiable/1 Correct. No unsupported claim was silently converted to Incorrect. V3 remains a narrow English residence-claim audit, not general semantic truth or an automatically selected production evaluator.
 
 Mandatory closure: validate the intended reply boundary, complete independent review of all 40 controls and resolve issues, and freeze a scoring unit/policy consistent with that boundary. P1 does not require retrospective human relabeling of every old diagnostic or a perfect general-purpose automatic judge. P0's bounded software checks are useful but do not authorize a scientific comparison yet.
+
+
+## 2026-10-12 Frozen Response and Evaluation Policy Acceptance
+
+Recorded 2026-10-12T19:19:43.094673+00:00. The [current English acceptance report](P0_policy_acceptance_report.md) provides the full checklist and evidence. **P0 PARTIAL; P1 BLOCKED; neutral-control human review OPEN (0/40).** Earlier statuses below/above remain dated historical records.
+
+Frozen `response_status_v1` and `separate_axes_policy_v1` passed their scoped instrumentation checks. Software holdout: 24/24 classifications and spans, six AMBIGUOUS, 75% decided coverage; author-specified software expectations, not human semantic accuracy. Six new real responses: 5 CROSS_TURN and 1 AMBIGUOUS; all hit the 96-token cap, EOS/EOG zero. Actual real-output classification accuracy is unavailable without independent labels. Policy sources did not change after holdout access; the original four development examples were not reused for prompt optimization.
+
+The new scoring unit is the identifiable first reply/prefix, with exact raw/excluded text retained. Separate factual categories, completeness, relevance, temporal consistency and coherence are stored. New bounded factual accounting: 1 Correct, 0 Incorrect, 5 Unverifiable, 0 Not Applicable; no scalar accuracy/effect claim. Legacy scores remain untouched. Unsupported claims and incomplete outputs are not automatically wrong.
+
+The mandatory outstanding action is independent neutral-control review and resolution of findings. Natural termination, general semantic accuracy, upstream quantization fidelity and unavailable backend input-ID arrays are scope-qualified limitations. The policy-definition and bounded instrumentation work is now complete; future use must retain logged versions and independent annotation routing. Tests: **223 passed, 0 failed, 0 warnings reported, 13.28s, exit 0**. All 20 old journals are byte-identical, the new journal replays twice identically, and 140 raw responses are retained across 17 generation runs.

@@ -1,5 +1,7 @@
 # P0 Remaining Blockers and Acceptance Boundaries
 
+**Latest policy assessment:** [P0_policy_acceptance_report.md](P0_policy_acceptance_report.md). Bounded instrumentation and evaluation-policy checks PASS; human neutral review OPEN (0/40). Overall PARTIAL. Earlier assessments are preserved as history.
+
 Date: 2026-10-12. **Overall P0: PARTIAL. P1 entry: BLOCKED.** This dated methodological assessment supersedes interpretations that every documented limitation must be eliminated before P1. It does not change Protocol v1.1, its research objectives, factors, endpoints or the English primary-language scope. Earlier reports and failed experiments remain intact.
 
 Paper: **Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models**. Target: Real-Speaker Persona Modeling. Current evidence is synthetic P0 engineering evidence only.
@@ -38,3 +40,14 @@ The factorial pilot, confirmatory freeze, Track B information availability, mode
 ## Current decision
 
 Execution, preserved raw records, supported token accounting, versioned diagnostic tooling and automated tests pass their stated engineering checks. Overall P0 remains **PARTIAL**, with mandatory closure limited to A above. No P1 experiment is authorized or started by this assessment. The researcher retains exclusive control of Git commits and pushes.
+
+
+## 2026-10-12 Frozen Response and Evaluation Policy Acceptance
+
+Recorded 2026-10-12T19:19:43.094673+00:00. The [current English acceptance report](P0_policy_acceptance_report.md) provides the full checklist and evidence. **P0 PARTIAL; P1 BLOCKED; neutral-control human review OPEN (0/40).** Earlier statuses below/above remain dated historical records.
+
+Frozen `response_status_v1` and `separate_axes_policy_v1` passed their scoped instrumentation checks. Software holdout: 24/24 classifications and spans, six AMBIGUOUS, 75% decided coverage; author-specified software expectations, not human semantic accuracy. Six new real responses: 5 CROSS_TURN and 1 AMBIGUOUS; all hit the 96-token cap, EOS/EOG zero. Actual real-output classification accuracy is unavailable without independent labels. Policy sources did not change after holdout access; the original four development examples were not reused for prompt optimization.
+
+The new scoring unit is the identifiable first reply/prefix, with exact raw/excluded text retained. Separate factual categories, completeness, relevance, temporal consistency and coherence are stored. New bounded factual accounting: 1 Correct, 0 Incorrect, 5 Unverifiable, 0 Not Applicable; no scalar accuracy/effect claim. Legacy scores remain untouched. Unsupported claims and incomplete outputs are not automatically wrong.
+
+The mandatory outstanding action is independent neutral-control review and resolution of findings. Natural termination, general semantic accuracy, upstream quantization fidelity and unavailable backend input-ID arrays are scope-qualified limitations. The policy-definition and bounded instrumentation work is now complete; future use must retain logged versions and independent annotation routing. Tests: **223 passed, 0 failed, 0 warnings reported, 13.28s, exit 0**. All 20 old journals are byte-identical, the new journal replays twice identically, and 140 raw responses are retained across 17 generation runs.

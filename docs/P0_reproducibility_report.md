@@ -1,5 +1,7 @@
 # P0 Reproducibility Report
 
+**Latest policy assessment:** [P0_policy_acceptance_report.md](P0_policy_acceptance_report.md). Bounded instrumentation and evaluation-policy checks PASS; human neutral review OPEN (0/40). Overall PARTIAL. Earlier assessments are preserved as history.
+
 **Current final-methodology update:** 19 historical inventories unchanged plus one new boundary journal; 16 generation runs / 134 responses reconstructed twice. See the final-methodology addendum below and [current acceptance boundaries](P0_remaining_blockers.md). Earlier snapshots are retained.
 
 **Latest update:** the English completion addendum at the end records 19 verified journals and 15 generation runs / 118 responses reconstructed twice. Overall historical provenance remains PARTIAL. Earlier observations below are preserved.
@@ -122,3 +124,14 @@ Raw stopped output means the complete payload actually returned by the backend. 
 The final analysis-code/source snapshot is retained in `materials/final_source_snapshot.json`. It is explicitly later than the inference snapshot and is not backfilled into that run. Current generated and evaluated-ID limitations are stated accurately: returned output IDs and submitted prompt IDs exist, but independently evaluated input IDs do not. No unsupported interface is required as an acceptance gate.
 
 All actual captured commands and failures are indexed in [P0_final_methodological_commands.json](validation/P0_final_methodological_commands.json). Export completion and later delivery checks remain separate local records. Reproduction must use fresh run/output paths; never repeat an already-started session or overwrite original files. Human imports require a genuine reviewer-provided form, new review-round identifier and new output file. The raw archive remains local for researcher-controlled independent dissemination.
+
+
+## 2026-10-12 Frozen Response and Evaluation Policy Acceptance
+
+Recorded 2026-10-12T19:19:43.094673+00:00. The [current English acceptance report](P0_policy_acceptance_report.md) provides the full checklist and evidence. **P0 PARTIAL; P1 BLOCKED; neutral-control human review OPEN (0/40).** Earlier statuses below/above remain dated historical records.
+
+Frozen `response_status_v1` and `separate_axes_policy_v1` passed their scoped instrumentation checks. Software holdout: 24/24 classifications and spans, six AMBIGUOUS, 75% decided coverage; author-specified software expectations, not human semantic accuracy. Six new real responses: 5 CROSS_TURN and 1 AMBIGUOUS; all hit the 96-token cap, EOS/EOG zero. Actual real-output classification accuracy is unavailable without independent labels. Policy sources did not change after holdout access; the original four development examples were not reused for prompt optimization.
+
+The new scoring unit is the identifiable first reply/prefix, with exact raw/excluded text retained. Separate factual categories, completeness, relevance, temporal consistency and coherence are stored. New bounded factual accounting: 1 Correct, 0 Incorrect, 5 Unverifiable, 0 Not Applicable; no scalar accuracy/effect claim. Legacy scores remain untouched. Unsupported claims and incomplete outputs are not automatically wrong.
+
+The mandatory outstanding action is independent neutral-control review and resolution of findings. Natural termination, general semantic accuracy, upstream quantization fidelity and unavailable backend input-ID arrays are scope-qualified limitations. The policy-definition and bounded instrumentation work is now complete; future use must retain logged versions and independent annotation routing. Tests: **223 passed, 0 failed, 0 warnings reported, 13.28s, exit 0**. All 20 old journals are byte-identical, the new journal replays twice identically, and 140 raw responses are retained across 17 generation runs.

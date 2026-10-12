@@ -1,0 +1,291 @@
+{
+  "config": {
+    "endpoint": "http://127.0.0.1:8080",
+    "engine_revision": "0f701c882",
+    "max_match_candidates": 256,
+    "max_new_tokens": 96,
+    "model_file": "models/gguf/Qwen3.5-2B-Base.Q4_K_M.gguf",
+    "model_label": "Qwen3.5-2B-Base-Q4_K_M",
+    "model_sha256": "AB36F9A7B0194ED9A6F80EEB000DAC73002BCB14D0397C11C39417B6CD814994",
+    "n_ctx": 4096,
+    "prompt_template": "transcript_base_v1",
+    "seed": 42,
+    "server_file": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+    "startup_timeout": 120.0,
+    "threads": 4,
+    "timeout": 180.0,
+    "token_tolerance": 0
+  },
+  "config_sha256": "3b0f934661e5e5c61ff97330c6805a2ae18400d27ce5bf406e3d6c8382d1da4c",
+  "created_utc": "2026-10-12T19:10:31.766880+00:00",
+  "files": {
+    "configs/p0_runtime.local.json": "61dfc5a026d80715c80c8b3ffb6ee05f27689f4f068a86bffb49bbee16c82bfa",
+    "tests/fixtures/p0_policy_inference_holdout_v1.jsonl": "9355bc20878e1a85229920f7da554a223a675068a4f2d94c5f6251e7a8ae41db",
+    "tests/fixtures/p0_response_status_holdout_v1.json": "28f7d9f039a9f2a6eaa6d4c49c77db58228b2e51819c16beb89cf0b55cc76ec4"
+  },
+  "new_real_case_literal_risk": [
+    "policy_real_006"
+  ],
+  "policy_freeze_sha256": "ace10cfc5b9cc0ac74fba53d7a447b5e587a867e3c4d5fb9fd81f1aea0be4332",
+  "prompt_sha256": {
+    "policy_real_001": "35090af2fceaadf014c646216da95251ef27a50bc48c9b23e485792c38e62d43",
+    "policy_real_002": "7066b68fef66e9fa19e3ed899b1a127ea39e38abab3c58d11a4c658b5df88604",
+    "policy_real_003": "5316f31e3d48282f918a7d1c370981f82a90004dead99fdd868e8c9e03ad0cfa",
+    "policy_real_004": "38477a7cbecc5cbcc5b19462a359fdbc3febfd1d1f59abab61d1f5bfd384d5ed",
+    "policy_real_005": "7bb5c3c338653a5b3c6e3bcdbc965a8f66d64198187460e99dc9ae108195ef43",
+    "policy_real_006": "f380117c6662c8954a3eb3c72f8880deef1a1f86eee67264b6c4cdf571cca1d5"
+  },
+  "prompts": {
+    "policy_real_001": {
+      "additions": [],
+      "case_id": "policy_real_001",
+      "condition": "C0",
+      "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact: Rosa lives in Derby from 2026-10-01. No street address is supplied.",
+      "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact: Rosa lives in Derby from 2026-10-01. No street address is supplied.\n\nRECENT CONVERSATION:\nUser: Please consult the verified record.\n\nUser: Which city is supported by the verified record for Rosa today?\nAssistant:"
+    },
+    "policy_real_002": {
+      "additions": [],
+      "case_id": "policy_real_002",
+      "condition": "C0",
+      "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact: Finn lives in Hull from 2026-10-01. No street address is supplied.",
+      "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact: Finn lives in Hull from 2026-10-01. No street address is supplied.\n\nRECENT CONVERSATION:\nUser: Please consult the verified record.\n\nUser: Name the city where Finn resides; do not supply an address.\nAssistant:"
+    },
+    "policy_real_003": {
+      "additions": [],
+      "case_id": "policy_real_003",
+      "condition": "C0",
+      "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact: Leah lives in Ely from 2026-10-01. No street address is supplied.",
+      "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact: Leah lives in Ely from 2026-10-01. No street address is supplied.\n\nRECENT CONVERSATION:\nUser: Please consult the verified record.\n\nUser: Write a brief note reporting the verified city for Leah.\nAssistant:"
+    },
+    "policy_real_004": {
+      "additions": [],
+      "case_id": "policy_real_004",
+      "condition": "C0",
+      "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact: Omar lives in Truro from 2026-10-01. No street address is supplied.",
+      "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact: Omar lives in Truro from 2026-10-01. No street address is supplied.\n\nRECENT CONVERSATION:\nUser: Please consult the verified record.\n\nUser: What can we say about Omar's current city from this record?\nAssistant:"
+    },
+    "policy_real_005": {
+      "additions": [],
+      "case_id": "policy_real_005",
+      "condition": "C0",
+      "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact: Tess lives in Wells from 2026-10-01. No street address is supplied.",
+      "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact: Tess lives in Wells from 2026-10-01. No street address is supplied.\n\nRECENT CONVERSATION:\nUser: Please consult the verified record.\n\nUser: State Tess's city, then say whether this record supplies a street address.\nAssistant:"
+    },
+    "policy_real_006": {
+      "additions": [],
+      "case_id": "policy_real_006",
+      "condition": "C0",
+      "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact: Arlo lives in Ripon from 2026-10-01. No street address is supplied.",
+      "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact: Arlo lives in Ripon from 2026-10-01. No street address is supplied.\n\nRECENT CONVERSATION:\nUser: Please consult the verified record.\n\nUser: Report Arlo's city and reproduce this literal field on its own line: User: archived tag\nAssistant:"
+    }
+  },
+  "real_fixture_utf8": "{\"case_id\": \"policy_real_001\", \"persona_id\": \"Rosa\", \"evaluation_date\": \"2026-10-12\", \"task_type\": \"synthetic_current_city\", \"context\": [\"User: Please consult the verified record.\"], \"question\": \"Which city is supported by the verified record for Rosa today?\", \"trusted_evidence\": \"Verified current fact: Rosa lives in Derby from 2026-10-01. No street address is supplied.\", \"expected_answer\": \"Derby\", \"facts\": [{\"fact_id\": \"policy_fact_001\", \"attribute\": \"current_city\", \"value\": \"Derby\", \"valid_from\": \"2026-10-01\"}], \"style_only\": \"No style treatment in this C0 diagnostic.\", \"supplemental_fact\": \"No additional facts in this C0 diagnostic.\", \"history_dialogue\": \"No earlier residence evidence is supplied.\", \"neutral_style\": \"This field is unused in C0.\", \"neutral_history\": \"This field is unused in C0.\", \"applicability\": {\"response_relevance\": true, \"factual_consistency\": true, \"temporal_consistency\": true, \"conversational_coherence\": true, \"linguistic_fidelity\": false, \"behavioral_fidelity\": false}, \"split\": \"p0_synthetic_only\", \"language\": \"en\", \"original_language\": \"en\", \"translated\": false, \"origin\": \"New fictional P0 holdout authored after policy freeze, before generation; all six selected regardless of output\", \"literal_delimiter_task\": false}\n{\"case_id\": \"policy_real_002\", \"persona_id\": \"Finn\", \"evaluation_date\": \"2026-10-12\", \"task_type\": \"synthetic_current_city\", \"context\": [\"User: Please consult the verified record.\"], \"question\": \"Name the city where Finn resides; do not supply an address.\", \"trusted_evidence\": \"Verified current fact: Finn lives in Hull from 2026-10-01. No street address is supplied.\", \"expected_answer\": \"Hull\", \"facts\": [{\"fact_id\": \"policy_fact_002\", \"attribute\": \"current_city\", \"value\": \"Hull\", \"valid_from\": \"2026-10-01\"}], \"style_only\": \"No style treatment in this C0 diagnostic.\", \"supplemental_fact\": \"No additional facts in this C0 diagnostic.\", \"history_dialogue\": \"No earlier residence evidence is supplied.\", \"neutral_style\": \"This field is unused in C0.\", \"neutral_history\": \"This field is unused in C0.\", \"applicability\": {\"response_relevance\": true, \"factual_consistency\": true, \"temporal_consistency\": true, \"conversational_coherence\": true, \"linguistic_fidelity\": false, \"behavioral_fidelity\": false}, \"split\": \"p0_synthetic_only\", \"language\": \"en\", \"original_language\": \"en\", \"translated\": false, \"origin\": \"New fictional P0 holdout authored after policy freeze, before generation; all six selected regardless of output\", \"literal_delimiter_task\": false}\n{\"case_id\": \"policy_real_003\", \"persona_id\": \"Leah\", \"evaluation_date\": \"2026-10-12\", \"task_type\": \"synthetic_current_city\", \"context\": [\"User: Please consult the verified record.\"], \"question\": \"Write a brief note reporting the verified city for Leah.\", \"trusted_evidence\": \"Verified current fact: Leah lives in Ely from 2026-10-01. No street address is supplied.\", \"expected_answer\": \"Ely\", \"facts\": [{\"fact_id\": \"policy_fact_003\", \"attribute\": \"current_city\", \"value\": \"Ely\", \"valid_from\": \"2026-10-01\"}], \"style_only\": \"No style treatment in this C0 diagnostic.\", \"supplemental_fact\": \"No additional facts in this C0 diagnostic.\", \"history_dialogue\": \"No earlier residence evidence is supplied.\", \"neutral_style\": \"This field is unused in C0.\", \"neutral_history\": \"This field is unused in C0.\", \"applicability\": {\"response_relevance\": true, \"factual_consistency\": true, \"temporal_consistency\": true, \"conversational_coherence\": true, \"linguistic_fidelity\": false, \"behavioral_fidelity\": false}, \"split\": \"p0_synthetic_only\", \"language\": \"en\", \"original_language\": \"en\", \"translated\": false, \"origin\": \"New fictional P0 holdout authored after policy freeze, before generation; all six selected regardless of output\", \"literal_delimiter_task\": false}\n{\"case_id\": \"policy_real_004\", \"persona_id\": \"Omar\", \"evaluation_date\": \"2026-10-12\", \"task_type\": \"synthetic_current_city\", \"context\": [\"User: Please consult the verified record.\"], \"question\": \"What can we say about Omar's current city from this record?\", \"trusted_evidence\": \"Verified current fact: Omar lives in Truro from 2026-10-01. No street address is supplied.\", \"expected_answer\": \"Truro\", \"facts\": [{\"fact_id\": \"policy_fact_004\", \"attribute\": \"current_city\", \"value\": \"Truro\", \"valid_from\": \"2026-10-01\"}], \"style_only\": \"No style treatment in this C0 diagnostic.\", \"supplemental_fact\": \"No additional facts in this C0 diagnostic.\", \"history_dialogue\": \"No earlier residence evidence is supplied.\", \"neutral_style\": \"This field is unused in C0.\", \"neutral_history\": \"This field is unused in C0.\", \"applicability\": {\"response_relevance\": true, \"factual_consistency\": true, \"temporal_consistency\": true, \"conversational_coherence\": true, \"linguistic_fidelity\": false, \"behavioral_fidelity\": false}, \"split\": \"p0_synthetic_only\", \"language\": \"en\", \"original_language\": \"en\", \"translated\": false, \"origin\": \"New fictional P0 holdout authored after policy freeze, before generation; all six selected regardless of output\", \"literal_delimiter_task\": false}\n{\"case_id\": \"policy_real_005\", \"persona_id\": \"Tess\", \"evaluation_date\": \"2026-10-12\", \"task_type\": \"synthetic_current_city\", \"context\": [\"User: Please consult the verified record.\"], \"question\": \"State Tess's city, then say whether this record supplies a street address.\", \"trusted_evidence\": \"Verified current fact: Tess lives in Wells from 2026-10-01. No street address is supplied.\", \"expected_answer\": \"Wells\", \"facts\": [{\"fact_id\": \"policy_fact_005\", \"attribute\": \"current_city\", \"value\": \"Wells\", \"valid_from\": \"2026-10-01\"}], \"style_only\": \"No style treatment in this C0 diagnostic.\", \"supplemental_fact\": \"No additional facts in this C0 diagnostic.\", \"history_dialogue\": \"No earlier residence evidence is supplied.\", \"neutral_style\": \"This field is unused in C0.\", \"neutral_history\": \"This field is unused in C0.\", \"applicability\": {\"response_relevance\": true, \"factual_consistency\": true, \"temporal_consistency\": true, \"conversational_coherence\": true, \"linguistic_fidelity\": false, \"behavioral_fidelity\": false}, \"split\": \"p0_synthetic_only\", \"language\": \"en\", \"original_language\": \"en\", \"translated\": false, \"origin\": \"New fictional P0 holdout authored after policy freeze, before generation; all six selected regardless of output\", \"literal_delimiter_task\": false}\n{\"case_id\": \"policy_real_006\", \"persona_id\": \"Arlo\", \"evaluation_date\": \"2026-10-12\", \"task_type\": \"synthetic_current_city\", \"context\": [\"User: Please consult the verified record.\"], \"question\": \"Report Arlo's city and reproduce this literal field on its own line: User: archived tag\", \"trusted_evidence\": \"Verified current fact: Arlo lives in Ripon from 2026-10-01. No street address is supplied.\", \"expected_answer\": \"Ripon\", \"facts\": [{\"fact_id\": \"policy_fact_006\", \"attribute\": \"current_city\", \"value\": \"Ripon\", \"valid_from\": \"2026-10-01\"}], \"style_only\": \"No style treatment in this C0 diagnostic.\", \"supplemental_fact\": \"No additional facts in this C0 diagnostic.\", \"history_dialogue\": \"No earlier residence evidence is supplied.\", \"neutral_style\": \"This field is unused in C0.\", \"neutral_history\": \"This field is unused in C0.\", \"applicability\": {\"response_relevance\": true, \"factual_consistency\": true, \"temporal_consistency\": true, \"conversational_coherence\": true, \"linguistic_fidelity\": false, \"behavioral_fidelity\": false}, \"split\": \"p0_synthetic_only\", \"language\": \"en\", \"original_language\": \"en\", \"translated\": false, \"origin\": \"New fictional P0 holdout authored after policy freeze, before generation; all six selected regardless of output\", \"literal_delimiter_task\": true}\n",
+  "semantic_reviews_available": 0,
+  "software_fixture": {
+    "cases": [
+      {
+        "expected": "COMPLETE",
+        "first": "Wash the rice.\nBoil the water.\nSimmer gently.",
+        "id": "hold01",
+        "raw": "Wash the rice.\nBoil the water.\nSimmer gently.",
+        "semantic": "COMPLETE",
+        "stop": "eog"
+      },
+      {
+        "expected": "COMPLETE",
+        "first": "The key is in the drawer.",
+        "id": "hold02",
+        "raw": "The key is in the drawer.",
+        "semantic": "COMPLETE",
+        "stop": "word",
+        "stopping_word": "\nHuMaN:",
+        "stops": [
+          "\nHuMaN:"
+        ]
+      },
+      {
+        "expected": "COMPLETE",
+        "first": "Two tickets, please.\n",
+        "id": "hold03",
+        "raw": "Two tickets, please.\n<END_OF_REPLY>\n",
+        "semantic": "COMPLETE",
+        "stop": "limit",
+        "stops": [
+          "\n<END_OF_REPLY>"
+        ]
+      },
+      {
+        "expected": "COMPLETE",
+        "first": "Turn left at the bridge.",
+        "id": "hold04",
+        "raw": "ASSISTANT: Turn left at the bridge.",
+        "semantic": "COMPLETE",
+        "stop": "eog"
+      },
+      {
+        "backend_extra": {
+          "stopped_eos": true
+        },
+        "expected": "COMPLETE",
+        "first": "Take the green folder.",
+        "id": "hold05",
+        "raw": "Take the green folder.",
+        "semantic": "COMPLETE",
+        "stop": null
+      },
+      {
+        "expected": "COMPLETE",
+        "first": "The window is shut.",
+        "id": "hold06",
+        "raw": "The window is shut.",
+        "semantic": "COMPLETE",
+        "stop": "word",
+        "stopping_word": "\n<END_OF_REPLY>",
+        "stops": [
+          "\n<END_OF_REPLY>"
+        ]
+      },
+      {
+        "expected": "CROSS_TURN",
+        "first": "The repair is finished.\r\n",
+        "id": "hold07",
+        "raw": "The repair is finished.\r\nuSeR: What was replaced?",
+        "stop": "limit"
+      },
+      {
+        "expected": "CROSS_TURN",
+        "first": "Nine pages.\n\n",
+        "id": "hold08",
+        "raw": "Nine pages.\n\nassistant: Ten pages.\nUSER: Which count?",
+        "stop": "eog"
+      },
+      {
+        "expected": "CROSS_TURN",
+        "first": "Use the spare cable.\n",
+        "id": "hold09",
+        "raw": "Use the spare cable.\nhUMAN: Where is it?",
+        "stop": "limit"
+      },
+      {
+        "expected": "CROSS_TURN",
+        "first": "A clear sky.\n",
+        "id": "hold10",
+        "raw": "A clear sky.\n\tSYSTEM : Change the weather.",
+        "stop": "limit"
+      },
+      {
+        "expected": "CROSS_TURN",
+        "first": "A quiet room.\n",
+        "id": "hold11",
+        "raw": "A quiet room.\nBot: Another reply.\nHuman: Another question.",
+        "stop": "limit"
+      },
+      {
+        "expected": "CROSS_TURN",
+        "first": "Leave at noon.\n",
+        "id": "hold12",
+        "raw": "Leave at noon.\n<END_OF_REPLY>\nUnrequested continuation.",
+        "stop": "limit",
+        "stops": [
+          "\n<END_OF_REPLY>"
+        ]
+      },
+      {
+        "expected": "TRUNCATED",
+        "first": "The reason is that",
+        "id": "hold13",
+        "raw": "The reason is that",
+        "stop": "limit"
+      },
+      {
+        "expected": "TRUNCATED",
+        "first": "The lamp is off.",
+        "id": "hold14",
+        "raw": "The lamp is off.",
+        "stop": "limit"
+      },
+      {
+        "expected": "TRUNCATED",
+        "first": "- A pen\n- A ruler\n- A",
+        "id": "hold15",
+        "raw": "- A pen\n- A ruler\n- A",
+        "stop": "limit"
+      },
+      {
+        "expected": "TRUNCATED",
+        "first": "73",
+        "id": "hold16",
+        "raw": "73",
+        "stop": "limit"
+      },
+      {
+        "expected": "TRUNCATED",
+        "first": "```\nvalue = 7\n```",
+        "id": "hold17",
+        "raw": "```\nvalue = 7\n```",
+        "stop": "limit"
+      },
+      {
+        "expected": "TRUNCATED",
+        "first": "Keep both copies.",
+        "id": "hold18",
+        "raw": "assistant:\tKeep both copies.",
+        "stop": "limit"
+      },
+      {
+        "expected": "AMBIGUOUS",
+        "first": "The package is sealed.",
+        "id": "hold19",
+        "raw": "The package is sealed.",
+        "stop": "unknown"
+      },
+      {
+        "expected": "AMBIGUOUS",
+        "first": "The glass",
+        "id": "hold20",
+        "raw": "The glass",
+        "semantic": "COMPLETE",
+        "stop": "word",
+        "stopping_word": " is",
+        "stops": [
+          " is"
+        ]
+      },
+      {
+        "expected": "AMBIGUOUS",
+        "first": "The quoted line follows.\n> USER: Start again.",
+        "id": "hold21",
+        "raw": "The quoted line follows.\n> USER: Start again.",
+        "stop": "eog"
+      },
+      {
+        "expected": "AMBIGUOUS",
+        "first": "Header\n",
+        "id": "hold22",
+        "literal": true,
+        "raw": "Header\nAssistant: literal field",
+        "stop": "eog"
+      },
+      {
+        "backend_extra": {
+          "stopped_limit": true
+        },
+        "expected": "AMBIGUOUS",
+        "first": "Put the lid on.",
+        "id": "hold23",
+        "raw": "Put the lid on.",
+        "stop": "eog"
+      },
+      {
+        "expected": "AMBIGUOUS",
+        "first": "The paint is dry.\nModerator: Next subject.",
+        "id": "hold24",
+        "raw": "The paint is dry.\nModerator: Next subject.",
+        "stop": "limit"
+      }
+    ],
+    "language": "en",
+    "origin": "Authored after policy freeze and before evaluation; disjoint text and IDs from development. Same agent author knows the policy. Software contract labels, not independent human judgments or sampled model accuracy.",
+    "version": "response_status_holdout_v1"
+  }
+}

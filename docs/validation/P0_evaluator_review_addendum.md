@@ -1,6 +1,6 @@
 # P0 evaluator review addendum
 
-2026-10-12。本记录为 Codex 对已保存原文的技术审阅，**不是独立人工标注**。没有改写任何原评分或模型输出。
+2026-10-12。本记录为 Automated development tools 对已保存原文的技术审阅，**不是独立人工标注**。没有改写任何原评分或模型输出。
 
 [机器筛查文件](P0_evaluator_review.json) 标记了 9 条含 “lived in … in YEAR” 的疑似时态误判。另有 5 条 `incompatible_city_also_asserted` 未命中该表达式，但同样需要对话级复核。全部 14 条都是 C3，完整原文、输入和原判定在 [逐例审计](P0_case_audit.json)，可按 condition/case_id 查找。
 

@@ -1,5 +1,7 @@
 # P0 验收清单
 
+**Latest policy assessment:** [P0_policy_acceptance_report.md](P0_policy_acceptance_report.md). Bounded instrumentation and evaluation-policy checks PASS; human neutral review OPEN (0/40). Overall PARTIAL. Earlier assessments are preserved as history.
+
 **Current acceptance boundary:** [P0_remaining_blockers.md](P0_remaining_blockers.md) is the latest A/B/C assessment. Overall PARTIAL; P1 BLOCKED by unresolved reply-unit/control-review/scoring-policy items. Unsupported evaluated-ID arrays and unverified upstream quantization fidelity remain qualified limitations, not standalone gates. Historical tables below are retained.
 
 **Latest decision:** P0 PARTIAL. The [English methodology acceptance table](P0_methodology_acceptance_report.md) and the completion addendum at the end incorporate the budget diagnostic, versioned evaluation audit and pending human review. Earlier tables below are historical snapshots.
@@ -32,7 +34,7 @@
 | 日志完整性、离线重建重复核对 | PASS | `audit-run`、`replay-run`；全部生成运行的二次重建结果见结构化证据 | 离线 replay 不重新生成模型输出；日志未数字签名 |
 | 原始实验记录不覆盖、失败可追溯 | PASS | 原 C0 文件摘要清单；匹配失败、CIM/网络拒绝、README 404、重放开发错误分别保留 | 公开派生报告不替代完整原始归档包 |
 | 软件自动化测试 | PASS | 123 passed，0 failed，0 warnings；pytest 18.97s，进程墙钟 20.55s，退出 0 | 与推理并行时测得，不是性能基准 |
-| Git 人工提交与首次同步历史 | PASS | AGENTS.md 四项规则仍正确；首次 SHA `4a538570c77666009a609c1218a435ac52a6187a` 历史保留 | 当前源代码/文档均未提交；Codex 不 commit/push |
+| Git 人工提交与首次同步历史 | PASS | AGENTS.md 四项规则仍正确；首次 SHA `4a538570c77666009a609c1218a435ac52a6187a` 历史保留 | 当前源代码/文档均未提交；Automated development tools 不 commit/push |
 | 数据隔离、路径与隐私 | PARTIAL | 仅项目内合成数据、独立模型；无 MimooPet 访问；忽略模型/私有数据/结果/凭据 | 旧 `.pytest_cache` ACL 阻塞完整目录审计，历史失败不删除 |
 | 效应分析、统计推断、确认性冻结 | BLOCKED | 本次仅工程观察；不报告 Persona 改善/损害、历史因果效应或一般事实能力 | P1 及后续阶段待 P0 接受后另行授权；本项非本次应执行实验 |
 | Track B、自然数据、oracle、跨模型、LoRA | BLOCKED | 遵守协议阶段边界，没有实施 | 属于未来 P2–P6；不得把未开展阶段记作完成 |
@@ -60,7 +62,7 @@ PASS 表示已在注明范围内实际验证；PARTIAL 表示存在明确缺口�
 | Git 初始化检查 | PASS | `.git` 已存在、`main`；保留原文件；无历史提交 |
 | Git 远端配置 | PASS | origin 指向 `Yaaaxin/PersonaSLM`；一次沙箱外只读检查成功，无 refs |
 | 首次 GitHub 同步（2026-10-12 更新） | PASS | 上述两项中的“无历史提交 / 无 refs”为同步前快照，保留原记录。研究者 Yaxin ZHENG 已完成首次 Commit 和 Push；SHA `4a538570c77666009a609c1218a435ac52a6187a`，本地 `main` 与 `origin/main` 一致 |
-| Git 与可复现日志规则检查 | PASS | AGENTS.md 已禁止 Codex commit/push，提交由研究者本人完成，所有工程及实验变更须记录可复现日志 |
+| Git 与可复现日志规则检查 | PASS | AGENTS.md 已禁止 Automated development tools commit/push，提交由研究者本人完成，所有工程及实验变更须记录可复现日志 |
 | Git 忽略规则 | PASS | 16 个代表路径检查通过；模型、私人数据、结果、凭据、`.venv` 被忽略 |
 | 文件路径配置与边界校验 | PASS | 显式 JSON/CLI，拒绝越界/链接；不自动寻找模型 |
 | GGUF 摘要验证代码 | PASS | 正确摘要、错误摘要、篡改、坏头部、缺失配置等测试通过 |
@@ -120,3 +122,14 @@ Recorded: 2026-10-12T18:06:22.204470+00:00. Earlier history is retained.
 | P1 entry | BLOCKED | Current task remains P0 only | Do not start P1 or infer Persona effects |
 
 Prior model-lineage, independent evaluated-input-ID, historical provenance and archive-access limitations remain in force. No LoRA training or MimooPet access occurred.
+
+
+## 2026-10-12 Frozen Response and Evaluation Policy Acceptance
+
+Recorded 2026-10-12T19:19:43.094673+00:00. The [current English acceptance report](P0_policy_acceptance_report.md) provides the full checklist and evidence. **P0 PARTIAL; P1 BLOCKED; neutral-control human review OPEN (0/40).** Earlier statuses below/above remain dated historical records.
+
+Frozen `response_status_v1` and `separate_axes_policy_v1` passed their scoped instrumentation checks. Software holdout: 24/24 classifications and spans, six AMBIGUOUS, 75% decided coverage; author-specified software expectations, not human semantic accuracy. Six new real responses: 5 CROSS_TURN and 1 AMBIGUOUS; all hit the 96-token cap, EOS/EOG zero. Actual real-output classification accuracy is unavailable without independent labels. Policy sources did not change after holdout access; the original four development examples were not reused for prompt optimization.
+
+The new scoring unit is the identifiable first reply/prefix, with exact raw/excluded text retained. Separate factual categories, completeness, relevance, temporal consistency and coherence are stored. New bounded factual accounting: 1 Correct, 0 Incorrect, 5 Unverifiable, 0 Not Applicable; no scalar accuracy/effect claim. Legacy scores remain untouched. Unsupported claims and incomplete outputs are not automatically wrong.
+
+The mandatory outstanding action is independent neutral-control review and resolution of findings. Natural termination, general semantic accuracy, upstream quantization fidelity and unavailable backend input-ID arrays are scope-qualified limitations. The policy-definition and bounded instrumentation work is now complete; future use must retain logged versions and independent annotation routing. Tests: **223 passed, 0 failed, 0 warnings reported, 13.28s, exit 0**. All 20 old journals are byte-identical, the new journal replays twice identically, and 140 raw responses are retained across 17 generation runs.
