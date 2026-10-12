@@ -1,0 +1,59 @@
+registry_version: 1
+status: design_freeze_only
+runtime_config: configs/p0_runtime.example.json # executable P0 configuration; copy to ignored *.local.json
+runtime_scope: P0_pipeline_validation_only
+real_inference_status: BLOCKED_missing_independent_model_and_server
+research_root_policy: "all project-managed paths within research root; no symlinks or junctions"
+project: PersonaSLM-Lab
+working_title: "Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models"
+models:
+  qwen35_08b_base:
+    family: Qwen3.5
+    parameters: "0.8B"
+    phase: base
+    gguf_path: null # set manually to an independent local file under models/gguf/
+    sha256: null
+    prompt_template_id: transcript_base_v1
+  qwen35_2b_base:
+    family: Qwen3.5
+    parameters: "2B"
+    phase: base
+    gguf_path: null
+    sha256: null
+    prompt_template_id: transcript_base_v1
+pilot:
+  models: [qwen35_08b_base, qwen35_2b_base]
+  synthetic_personas: 1
+  test_cases: 20
+  candidates_per_condition: 1
+  seeds: [42]
+  cpu_threads: 4
+  n_ctx: 4096
+  max_new_tokens: 96
+  temperature: 0.0
+  top_p: 1.0
+  model_backend: llama.cpp
+  endpoint: http://127.0.0.1:8080
+  disable_extra_stop: true
+tracks:
+  A:
+    full_factorial: [C0, C1, C2, C3, C4, C5, C6, C7]
+    preflight_neutral_controls: [N_style, N_history]
+    pilot_minimal_conditions: [C0, C1, N_style, C3, N_history]
+    common_trusted_evidence: required
+  B:
+    evidence_conditions: [none, correct, stale, conflicting, oracle]
+primary_contrasts_provisional:
+  - [C1, C0]
+  - [C3, C0]
+  - [C1, N_style]
+  - [C3, N_history]
+secondary_analysis: [factorial_main_effects, two_way_interactions, three_way_interaction]
+metric_applicability: locked_before_generation
+context_protocol:
+  confirmatory: fixed_context
+  free_running: exploratory_separate
+freeze:
+  research_design: "2026-10-12"
+  confirmatory: null
+  freeze_before_locked_test: [models, samples, seeds, templates, contrasts, endpoints, annotators, exclusions, statistics]

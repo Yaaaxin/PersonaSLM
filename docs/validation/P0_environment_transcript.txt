@@ -1,0 +1,113 @@
+P0 environment recovery evidence, 2026-10-12
+This file preserves initial tool-output excerpts and all test-run summaries.
+Later complete command outputs are in P0_command_results.json.
+No real model inference was performed.
+
+1. Get-Location: exit 0
+E:\DEVOIRS\Research\PersonaSLM-Lab\PersonaSLM-Lab-P0-v1.1\PersonaSLM-Lab
+
+2. File write/read probe:
+WRITE_PROBE=True
+The unique .p0-write-probe-*.tmp created by this check was removed.
+
+3. Optional repository instruction lookup:
+Get-Content : Cannot find path 'AGENTS.md' because it does not exist.
+FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+No AGENTS.md was found in the ancestor/project checks. This was not an exec-helper failure.
+
+4. System command aliases:
+python.exe -> C:\Users\zheng\AppData\Local\Microsoft\WindowsApps\python.exe
+py.exe -> C:\Users\zheng\AppData\Local\Microsoft\WindowsApps\py.exe
+
+python --version (exit 1):
+Le programme « python.exe » n’a pas pu s’exécuter : Le système ne peut pas accéder au fichier
+CategoryInfo : ResourceUnavailable: (:) [], ApplicationFailedException
+FullyQualifiedErrorId : NativeCommandFailed
+
+py -3 --version and python -m pytest -q failed with the same ResourceUnavailable /
+ApplicationFailedException / NativeCommandFailed error. They were not retried again
+through WindowsApps; subsequent work used the existing project virtual environment.
+
+.venv/pyvenv.cfg:
+version = 3.14.3
+executable = C:\Users\zheng\AppData\Local\Python\pythoncore-3.14-64\python.exe
+
+5. Baseline .venv/Scripts/python.exe -m pytest -q: exit 0
+..................................                                       [100%]
+PytestCacheWarning: could not create cache path
+E:\DEVOIRS\Research\PersonaSLM-Lab\PersonaSLM-Lab-P0-v1.1\PersonaSLM-Lab\.pytest_cache\v\cache\nodeids:
+[WinError 183] Impossible de créer un fichier déjà existant:
+'E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.pytest_cache\\v\\cache'
+34 passed, 1 warning in 0.41s
+
+6. Baseline pip check: exit 0
+No broken requirements found.
+
+7. Initial git status --short --branch: exit 0
+## No commits yet on main
+?? .gitignore
+?? README.md
+?? configs/
+?? data/
+?? docs/
+?? pyproject.toml
+?? src/
+?? test.txt
+?? tests/
+Initial git remote -v: exit 0, no output.
+
+8. git remote add origin https://github.com/Yaaaxin/PersonaSLM.git in sandbox: exit 1
+error: could not lock config file .git/config: Permission denied
+fatal: could not set 'remote.origin.url' to 'https://github.com/Yaaaxin/PersonaSLM.git'
+Same command with approved sandbox escalation: exit 0, no output.
+
+9. One GitHub connectivity check and one sandbox escalation:
+git -c credential.interactive=never -c http.connectTimeout=10 -c http.lowSpeedLimit=1 -c http.lowSpeedTime=15 ls-remote https://github.com/Yaaaxin/PersonaSLM.git
+GIT_TERMINAL_PROMPT=0; credentials were neither printed nor changed.
+Sandbox result, exit 1:
+fatal: unable to access 'https://github.com/Yaaaxin/PersonaSLM.git/': Failed to connect to github.com:443 after 64 ms: Could not connect to server
+Approved outside-sandbox result: exit 0, no output (no remote refs).
+No further GitHub requests or push were made.
+
+10. One rejected patch-tool invocation (no files changed by the rejected patch):
+apply_patch verification failed: invalid patch: multiple operations target
+E:\DEVOIRS\Research\PersonaSLM-Lab\PersonaSLM-Lab-P0-v1.1\PersonaSLM-Lab\src\personaslm\inference.py
+Cause: combined delete/add of the same file was rejected by the patch tool.
+The corrected edit succeeded. This was not an execution-environment failure.
+
+11. Intermediate regression runs (all exited 0):
+.venv/Scripts/python.exe -m pytest -q -p no:cacheprovider
+34 passed in 0.37s
+
+.venv/Scripts/python.exe -m pytest -q -p no:cacheprovider
+104 passed in 2.35s
+
+python -m pytest -q (project .venv/Scripts prepended to current process PATH)
+107 passed in 2.77s
+
+python -m pytest -q (same process-local PATH setup, final code tests)
+113 passed in 3.21s
+
+12. Old cache directory read:
+Get-ChildItem : L'accès au chemin d'accès
+'E:\DEVOIRS\Research\PersonaSLM-Lab\PersonaSLM-Lab-P0-v1.1\PersonaSLM-Lab\.pytest_cache' est refusé.
+CategoryInfo : PermissionDenied, UnauthorizedAccessException
+FullyQualifiedErrorId : DirUnauthorizedAccessError,Microsoft.PowerShell.Commands.GetChildItemCommand
+No ACL modification or recursive cache deletion was attempted.
+New pytest cache_dir: results/.pytest_cache. Final test run had no warnings.
+Directory audit now reports unreadable paths as PARTIAL instead of a false PASS.
+
+13. git diff --no-index --check -- NUL src/personaslm/runner.py:
+warning: in the working copy of 'src/personaslm/runner.py', LF will be replaced by CRLF the next time Git touches it
+This untracked-file diff exited 1 (differences present); no whitespace error was printed.
+.gitattributes was then added to declare LF text endings.
+
+14. Ignore-rule check:
+An initial PowerShell stdin-based probe did not list its first/last paths.
+The direct-argument git check-ignore check subsequently confirmed all 16 paths;
+its full output is retained in P0_command_results.json.
+
+15. P0 run with the actual missing configuration:
+BLOCKED, exit 2; completed_cases=0; real_inference_performed=false.
+Run: results/p0/20261012T152036-8e02b7e54df249fd8676da16b77bd7ca
+Audit: integrity=PASS; events=2; status=BLOCKED; parser_replay=[]; exit 2.

@@ -1,0 +1,17 @@
+{
+  "model_file": null,
+  "model_sha256": null,
+  "server_file": null,
+  "model_label": "unconfigured-qwen-base",
+  "engine_revision": "unprovided",
+  "endpoint": "http://127.0.0.1:8080",
+  "threads": 4,
+  "n_ctx": 4096,
+  "max_new_tokens": 96,
+  "seed": 42,
+  "timeout": 180.0,
+  "startup_timeout": 120.0,
+  "token_tolerance": 0,
+  "max_match_candidates": 256,
+  "prompt_template": "transcript_base_v1"
+}

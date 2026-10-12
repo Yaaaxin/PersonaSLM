@@ -1,0 +1,176 @@
+{
+  "final_delivery_checks": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "48e275",
+        "wall_time_seconds": 0.2889591,
+        "exit_code": 0,
+        "original_token_count": 438,
+        "output": "{\r\n  \"scope\": \"Git-visible files only; common credential signatures, not a general secret detector\",\r\n  \"visible_files\": [\r\n    \".gitattributes\",\r\n    \".gitignore\",\r\n    \"README.md\",\r\n    \"configs/experiment_registry.yaml\",\r\n    \"configs/p0_runtime.example.json\",\r\n    \"data/synthetic/p0_cases.jsonl\",\r\n    \"docs/P0_acceptance_checklist.md\",\r\n    \"docs/P0_real_inference_report.md\",\r\n    \"docs/P0_status.md\",\r\n    \"docs/annotation_guidelines.md\",\r\n    \"docs/research_protocol_v1.1.md\",\r\n    \"docs/validation/P0_command_results.json\",\r\n    \"docs/validation/P0_environment_transcript.txt\",\r\n    \"pyproject.toml\",\r\n    \"src/personaslm/__init__.py\",\r\n    \"src/personaslm/__main__.py\",\r\n    \"src/personaslm/cli.py\",\r\n    \"src/personaslm/conditioning.py\",\r\n    \"src/personaslm/configuration.py\",\r\n    \"src/personaslm/diagnostics.py\",\r\n    \"src/personaslm/evaluation.py\",\r\n    \"src/personaslm/fixtures.py\",\r\n    \"src/personaslm/inference.py\",\r\n    \"src/personaslm/journal.py\",\r\n    \"src/personaslm/matching.py\",\r\n    \"src/personaslm/provenance.py\",\r\n    \"src/personaslm/runner.py\",\r\n    \"src/personaslm/schemas.py\",\r\n    \"src/personaslm/server.py\",\r\n    \"tests/conftest.py\",\r\n    \"tests/test_cli.py\",\r\n    \"tests/test_conditions.py\",\r\n    \"tests/test_configuration.py\",\r\n    \"tests/test_diagnostics.py\",\r\n    \"tests/test_evaluation.py\",\r\n    \"tests/test_http_adapter.py\",\r\n    \"tests/test_inference.py\",\r\n    \"tests/test_journal.py\",\r\n    \"tests/test_matching.py\",\r\n    \"tests/test_provenance.py\",\r\n    \"tests/test_runner.py\",\r\n    \"tests/test_schemas.py\",\r\n    \"tests/test_server.py\"\r\n  ],\r\n  \"file_count\": 43,\r\n  \"credential_signature_file_matches\": [],\r\n  \"unexpected_private_or_runtime_files\": [],\r\n  \"trailing_whitespace\": [],\r\n  \"status\": \"PASS\"\r\n}\r\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "46adfb",
+        "wall_time_seconds": 0.2812513,
+        "exit_code": 1,
+        "original_token_count": 63,
+        "output": "## No commits yet on main\n?? .gitattributes\n?? .gitignore\n?? README.md\n?? configs/\n?? data/\n?? docs/\n?? pyproject.toml\n?? src/\n?? tests/\norigin\thttps://github.com/Yaaaxin/PersonaSLM.git (fetch)\norigin\thttps://github.com/Yaaaxin/PersonaSLM.git (push)\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "f2e5f4",
+        "wall_time_seconds": 0.1268374,
+        "exit_code": 0,
+        "original_token_count": 152,
+        "output": "README.md:3:**Working paper:** *Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models*\ndocs\\research_protocol_v1.1.md:3:**Working title:** Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models\nsrc/personaslm\\cli.py:112:    parser = argparse.ArgumentParser(prog=\"personaslm\", description=\"PersonaSLM-Lab P0 only\")\nsrc/personaslm\\runner.py:1:\"\"\"P0 only: preflight, immutable provenance, raw logging, parsing and narrow scoring.\"\"\"\nsrc/personaslm\\__init__.py:1:\"\"\"Independent PersonaSLM research framework, P0 only.\"\"\"\n"
+      }
+    }
+  ],
+  "date": "2026-10-12",
+  "scope": "P0 offline implementation validation; HTTP/model test doubles are not real model inference",
+  "validation": [
+    {
+      "command": "python -m pytest -q (project .venv prepended to process PATH)",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "10adba",
+        "wall_time_seconds": 3.6054278,
+        "exit_code": 0,
+        "original_token_count": 46,
+        "output": "........................................................................ [ 63%]\r\n.........................................                                [100%]\r\n113 passed in 3.21s\r\n"
+      }
+    },
+    {
+      "command": "python -m pip check",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "22bb05",
+        "wall_time_seconds": 0.6400123,
+        "exit_code": 0,
+        "original_token_count": 8,
+        "output": "No broken requirements found.\r\n"
+      }
+    },
+    {
+      "command": "python -m personaslm validate",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "5c0808",
+        "wall_time_seconds": 0.5140656,
+        "exit_code": 1,
+        "original_token_count": 212,
+        "output": "{\r\n  \"status\": \"PARTIAL\",\r\n  \"validated_cases\": 20,\r\n  \"conditions\": [\r\n    \"C0\",\r\n    \"C1\",\r\n    \"N_style\",\r\n    \"C3\",\r\n    \"N_history\"\r\n  ],\r\n  \"applicability_predeclared\": true,\r\n  \"isolation_audit\": {\r\n    \"root\": \"E:\\\\DEVOIRS\\\\Research\\\\PersonaSLM-Lab\\\\PersonaSLM-Lab-P0-v1.1\\\\PersonaSLM-Lab\",\r\n    \"links_or_junctions\": [],\r\n    \"unreadable_paths\": [\r\n      {\r\n        \"path\": \"E:\\\\DEVOIRS\\\\Research\\\\PersonaSLM-Lab\\\\PersonaSLM-Lab-P0-v1.1\\\\PersonaSLM-Lab\\\\.pytest_cache\",\r\n        \"error\": \"[WinError 5] Acc\\u00e8s refus\\u00e9: 'E:\\\\\\\\DEVOIRS\\\\\\\\Research\\\\\\\\PersonaSLM-Lab\\\\\\\\PersonaSLM-Lab-P0-v1.1\\\\\\\\PersonaSLM-Lab\\\\\\\\.pytest_cache'\"\r\n      }\r\n    ],\r\n    \"passed\": false,\r\n    \"status\": \"PARTIAL\",\r\n    \"limitation\": \"Path audit does not prove absence of arbitrary external file access; use OS permissions for strict isolation.\"\r\n  }\r\n}\r\n"
+      }
+    },
+    {
+      "command": "python -m personaslm smoke",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "5073eb",
+        "wall_time_seconds": 0.4507899,
+        "exit_code": 0,
+        "original_token_count": 207,
+        "output": "[\r\n  {\r\n    \"raw\": \"\",\r\n    \"stop_reason\": \"eos\",\r\n    \"parsed\": \"\",\r\n    \"classification\": \"direct_eos\",\r\n    \"fact_judgment\": \"unknown\"\r\n  },\r\n  {\r\n    \"raw\": \"\",\r\n    \"stop_reason\": \"stop_sequence\",\r\n    \"parsed\": \"\",\r\n    \"classification\": \"stop_without_visible_text\",\r\n    \"fact_judgment\": \"unknown\"\r\n  },\r\n  {\r\n    \"raw\": \"\\nHello\",\r\n    \"stop_reason\": \"length\",\r\n    \"parsed\": \"\",\r\n    \"classification\": \"newline_truncation\",\r\n    \"fact_judgment\": \"unknown\"\r\n  },\r\n  {\r\n    \"raw\": \"Assistant:\",\r\n    \"stop_reason\": \"length\",\r\n    \"parsed\": \"\",\r\n    \"classification\": \"parsing_or_filter_removed\",\r\n    \"fact_judgment\": \"unknown\"\r\n  },\r\n  {\r\n    \"raw\": \"Alice lives in Paris.\",\r\n    \"stop_reason\": \"eos\",\r\n    \"parsed\": \"Alice lives in Paris.\",\r\n    \"classification\": \"preserved\",\r\n    \"fact_judgment\": \"correct\"\r\n  }\r\n]\r\n"
+      }
+    },
+    {
+      "command": "python -m personaslm preflight",
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "8c5a91",
+        "wall_time_seconds": 0.4144315,
+        "exit_code": 1,
+        "original_token_count": 111,
+        "output": "{\r\n  \"status\": \"BLOCKED\",\r\n  \"scope\": \"offline file preflight only; no real inference verified\",\r\n  \"checks\": [\r\n    {\r\n      \"check\": \"gguf\",\r\n      \"status\": \"BLOCKED\",\r\n      \"reason\": \"model_file and model_sha256 are required\"\r\n    },\r\n    {\r\n      \"check\": \"server_executable\",\r\n      \"status\": \"BLOCKED\",\r\n      \"reason\": \"server_file is required; no executable is auto-discovered\"\r\n    }\r\n  ],\r\n  \"model\": null,\r\n  \"server\": null\r\n}\r\n"
+      }
+    }
+  ],
+  "blocked_run": {
+    "chunk_id": "5023b6",
+    "wall_time_seconds": 0.4820214,
+    "exit_code": 2,
+    "original_token_count": 84,
+    "output": "{\r\n  \"status\": \"BLOCKED\",\r\n  \"completed_cases\": 0,\r\n  \"real_inference_performed\": false,\r\n  \"reason\": \"Independent model/server configuration is missing or invalid\",\r\n  \"run_directory\": \"E:\\\\DEVOIRS\\\\Research\\\\PersonaSLM-Lab\\\\PersonaSLM-Lab-P0-v1.1\\\\PersonaSLM-Lab\\\\results\\\\p0\\\\20261012T152036-8e02b7e54df249fd8676da16b77bd7ca\"\r\n}\r\n"
+  },
+  "artifact_checks": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "c4af90",
+        "wall_time_seconds": 0.3486264,
+        "exit_code": 2,
+        "original_token_count": 73,
+        "output": "{\r\n  \"integrity\": \"PASS\",\r\n  \"events\": 2,\r\n  \"run_finished\": {\r\n    \"completed_cases\": 0,\r\n    \"real_inference_performed\": false,\r\n    \"reason\": \"Independent model/server configuration is missing or invalid\",\r\n    \"status\": \"BLOCKED\"\r\n  },\r\n  \"status\": \"BLOCKED\",\r\n  \"parser_replay\": []\r\n}\r\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "7d7921",
+        "wall_time_seconds": 0.1639097,
+        "exit_code": 0,
+        "original_token_count": 178,
+        "output": ".gitignore:1:.venv/\t.venv/Scripts/python.exe\n.gitignore:7:models/\tmodels/private.GGUF\n.gitignore:27:*.GGUF\tsomewhere/model.gguf\n.gitignore:26:*.gguf.*\tsomewhere/model.gguf.part\n.gitignore:8:bin/\tbin/llama.cpp/llama-server.exe\n.gitignore:49:private/\tdata/private/conversations.jsonl\n.gitignore:44:data/*\tdata/unknown_chat_dump.jsonl\n.gitignore:50:chat_exports/\tchat_exports/export.json\n.gitignore:12:results/\tresults/p0/run.json\n.gitignore:25:experiments/\texperiments/temp.csv\n.gitignore:17:.env\t.env\n.gitignore:18:.env.*\t.env.production\n.gitignore:36:credentials*\tcredentials.json\n.gitignore:32:*.pem\tsecret.pem\n.gitignore:42:configs/*.local.json\tconfigs/p0_runtime.local.json\n.gitignore:48:test.txt\ttest.txt\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "8c4309",
+        "wall_time_seconds": 0.1278277,
+        "exit_code": 1,
+        "original_token_count": 30,
+        "output": "warning: in the working copy of 'src/personaslm/runner.py', LF will be replaced by CRLF the next time Git touches it\n"
+      }
+    }
+  ],
+  "explicit_exit_code_checks": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "905be6",
+        "wall_time_seconds": 0.4260531,
+        "exit_code": 2,
+        "original_token_count": 212,
+        "output": "{\r\n  \"status\": \"PARTIAL\",\r\n  \"validated_cases\": 20,\r\n  \"conditions\": [\r\n    \"C0\",\r\n    \"C1\",\r\n    \"N_style\",\r\n    \"C3\",\r\n    \"N_history\"\r\n  ],\r\n  \"applicability_predeclared\": true,\r\n  \"isolation_audit\": {\r\n    \"root\": \"E:\\\\DEVOIRS\\\\Research\\\\PersonaSLM-Lab\\\\PersonaSLM-Lab-P0-v1.1\\\\PersonaSLM-Lab\",\r\n    \"links_or_junctions\": [],\r\n    \"unreadable_paths\": [\r\n      {\r\n        \"path\": \"E:\\\\DEVOIRS\\\\Research\\\\PersonaSLM-Lab\\\\PersonaSLM-Lab-P0-v1.1\\\\PersonaSLM-Lab\\\\.pytest_cache\",\r\n        \"error\": \"[WinError 5] Acc\\u00e8s refus\\u00e9: 'E:\\\\\\\\DEVOIRS\\\\\\\\Research\\\\\\\\PersonaSLM-Lab\\\\\\\\PersonaSLM-Lab-P0-v1.1\\\\\\\\PersonaSLM-Lab\\\\\\\\.pytest_cache'\"\r\n      }\r\n    ],\r\n    \"passed\": false,\r\n    \"status\": \"PARTIAL\",\r\n    \"limitation\": \"Path audit does not prove absence of arbitrary external file access; use OS permissions for strict isolation.\"\r\n  }\r\n}\r\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "45fbc9",
+        "wall_time_seconds": 0.2697771,
+        "exit_code": 2,
+        "original_token_count": 111,
+        "output": "{\r\n  \"status\": \"BLOCKED\",\r\n  \"scope\": \"offline file preflight only; no real inference verified\",\r\n  \"checks\": [\r\n    {\r\n      \"check\": \"gguf\",\r\n      \"status\": \"BLOCKED\",\r\n      \"reason\": \"model_file and model_sha256 are required\"\r\n    },\r\n    {\r\n      \"check\": \"server_executable\",\r\n      \"status\": \"BLOCKED\",\r\n      \"reason\": \"server_file is required; no executable is auto-discovered\"\r\n    }\r\n  ],\r\n  \"model\": null,\r\n  \"server\": null\r\n}\r\n"
+      }
+    }
+  ],
+  "git_checks": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "a20ddc",
+        "wall_time_seconds": 0.213506,
+        "exit_code": 0,
+        "original_token_count": 158,
+        "output": ".gitignore:7:models/\tmodels/private.GGUF\n.gitignore:27:*.GGUF\tsomewhere/model.gguf\n.gitignore:26:*.gguf.*\tsomewhere/model.gguf.part\n.gitignore:8:bin/\tbin/llama.cpp/llama-server.exe\n.gitignore:49:private/\tdata/private/conversations.jsonl\n.gitignore:44:data/*\tdata/unknown_chat_dump.jsonl\n.gitignore:50:chat_exports/\tchat_exports/export.json\n.gitignore:12:results/\tresults/p0/run.json\n.gitignore:25:experiments/\texperiments/temp.csv\n.gitignore:17:.env\t.env\n.gitignore:18:.env.*\t.env.production\n.gitignore:36:credentials*\tcredentials.json\n.gitignore:32:*.pem\tsecret.pem\n.gitignore:42:configs/*.local.json\tconfigs/p0_runtime.local.json\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "10746e",
+        "wall_time_seconds": 0.2236042,
+        "exit_code": 0,
+        "original_token_count": 58,
+        "output": "## No commits yet on main\n?? .gitignore\n?? README.md\n?? configs/\n?? data/\n?? docs/\n?? pyproject.toml\n?? src/\n?? tests/\norigin\thttps://github.com/Yaaaxin/PersonaSLM.git (fetch)\norigin\thttps://github.com/Yaaaxin/PersonaSLM.git (push)\n"
+      }
+    }
+  ]
+}
