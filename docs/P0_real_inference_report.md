@@ -70,6 +70,14 @@ pytest 新缓存已配置到被 Git 忽略的 `results/.pytest_cache`，未删�
 
 ## 5. Git 状态
 
+### 当前状态：研究者已完成首次 GitHub 同步（PASS）
+
+2026-10-12，研究者本人完成首次 Commit 和 Push，远端为 `https://github.com/Yaaaxin/PersonaSLM`。首次提交为 [`4a538570c77666009a609c1218a435ac52a6187a`](https://github.com/Yaaaxin/PersonaSLM/commit/4a538570c77666009a609c1218a435ac52a6187a)，Author 和 Committer 均为 **Yaxin ZHENG**；Git 记录的提交时间为 `2026-10-12T17:52:42+02:00`，提交说明为 `Initialize PersonaSLM research infrastructure`。
+
+本次只读检查确认本地 `main` 和远端跟踪引用 `origin/main` 均指向该 SHA，修改前工作区干净。Push 完成事实由研究者确认；未取得精确 Push 时间，不能将提交时间当作 Push 时间。本次未联网刷新远端引用，也未执行 commit、push 或更改 Git 身份配置。AGENTS.md 已明确禁止 Codex 提交/推送，提交由研究者本人完成，并要求所有工程和实验变更记录可复现日志。详细记录追加在 [研究开发日志](research_development_log.md)。
+
+### 历史快照：首次同步之前（保留原记录）
+
 本地 `.git` 已存在，分支 `main`，没有历史提交；没有重新初始化、覆盖现有文件或导入其他项目历史。`origin` 已设为 `https://github.com/Yaaaxin/PersonaSLM.git`。
 
 第一次写 `.git/config` 被沙箱拒绝，经授权后成功。沙箱内 GitHub 连接失败；随后仅进行一次经授权的沙箱外 `git ls-remote`，退出 0 且无 refs 输出，检查时远端没有分支/标签。未进行 push。
@@ -81,3 +89,5 @@ pytest 新缓存已配置到被 Git 忽略的 `results/.pytest_cache`，未删�
 ## 6. 后续仅限完成 P0
 
 将用户独立提供的模型和服务放在本研究目录内，在忽略的 `configs/p0_runtime.local.json` 填入 `model_file`、可信预期 `model_sha256`、`server_file`，并记录模型标签与引擎 revision。先完成离线预检，再进行单个 P0 条件的受控 smoke run；按清单补充真实证据。不得据当前测试推断 persona conditioning 对可靠性的研究效应。
+
+首次 GitHub 同步完成后，下一步准备进行 **P0 真实模型验证**。本次检查时 `configs/p0_runtime.local.json` 尚不存在，示例中的三项必需输入仍为 null。取得独立 GGUF、可信预期摘要和独立服务二进制后，依次执行 README 中的 `preflight`、单条件 `run-local --condition C0` 与 `audit-run`，保留配置、完整日志、成功及失败信息；当前仍未开展真实模型实验，P0 总体 PARTIAL、真实推理 BLOCKED 不变，不进入 P1。

@@ -102,3 +102,71 @@
 ```
 
 源码摘要全部一致。Git 仍为 `No commits yet on main`，新增 `AGENTS.md` 未跟踪，`docs/` 等现有改动继续保留本地。`git diff --check` 没有输出；由于文件尚未跟踪，文档空白检查依靠上述直接读取验证，不将空 diff 当作完整覆盖。
+
+## 2026-10-12T17:57:42+02:00 — 研究者首次 GitHub 同步确认与 P0 文档修正
+
+**日期与时间：**本次检查开始于 `2026-10-12T17:57:42.4654197+02:00`（Europe/Paris）。首次提交的 AuthorDate 和 CommitDate 均为 `2026-10-12T17:52:42+02:00`。研究者确认首次 Push 已完成，精确 Push 时间未记录，不能以提交时间代替。此前的未提交/未推送记录描述当时的真实状态，全部保留，不用当前状态改写历史。
+
+**研究阶段：**P0 文档修正与真实模型验证准备。GitHub 同步 PASS；完整 P0 验收仍为 PARTIAL，真实模型推理仍为 BLOCKED。
+
+**同步事实与来源：**
+
+| 项目 | 事实 / 证据 |
+|---|---|
+| 远端仓库 | `https://github.com/Yaaaxin/PersonaSLM` |
+| 首次 Commit SHA | `4a538570c77666009a609c1218a435ac52a6187a` |
+| Author / Committer | Yaxin ZHENG / Yaxin ZHENG |
+| 提交说明 | `Initialize PersonaSLM research infrastructure` |
+| 首次提交属性 | `git log` 的 parent 字段为空，是根提交 |
+| 本地引用 | `main`、`origin/main` 都指向首次提交；初始 `git status --short --branch` 仅输出 `## main...origin/main`，工作区干净 |
+| Push 完成依据 | 研究者明确报告已完成 Push，并有本地远端跟踪引用佐证；本次没有联网刷新或读取实时 GitHub 状态 |
+| 操作者 | Commit 与 Push 由研究者本人完成；Codex 本次只读检查 Git 和准备文档变更 |
+
+**修改文件：**`README.md`、`docs/P0_real_inference_report.md`、`docs/P0_acceptance_checklist.md`、`docs/P0_status.md`、本文件 `docs/research_development_log.md`。在当前说明中增加首次同步事实，并将旧说明明确标为历史快照；本日志仅追加本条。旧测试证据、阻塞运行清单和历史日志未修改。应用源码、测试代码、实验配置及数据未修改。
+
+**AGENTS.md 检查：PASS，无需修改。**现有条款包括 `Execute git commit.` 和 `Execute git push.`（均在 `Codex must NOT` 下）、`The human researcher exclusively manages Git commits and pushes.`、`Every engineering and experimental change must be documented.`，并指定维护本日志，记录日期时间、阶段、文件、命令、测试、配置、错误及科学局限。这四项要求已正确表达；所有此次文档改动继续由研究者审阅并提交。
+
+**已执行的检查命令/操作：**
+
+- `Get-Date -Format o`；`Get-Content -LiteralPath` 读取 `AGENTS.md`、README、三份 P0 文档、本日志和 `configs/p0_runtime.example.json`。
+- `git status --short --branch`；`git log -1 --format=fuller`；`git log -1 --format=fuller 4a538570c77666009a609c1218a435ac52a6187a`；`git log -1 --format=oneline --decorate refs/remotes/origin/main`。
+- `git log -1 --format="%H%n%an%n%aI%n%cn%n%cI%n%P%n%s" HEAD`，核对 SHA、作者、提交者、时间、父提交及说明。
+- 定向 `rg -n` 检查上述文档中的 Git 状态和可复现性条款；`Test-Path -LiteralPath configs/p0_runtime.local.json` 返回 `False`。
+- 使用 `apply_patch` 修正文档；没有执行 `git commit`、`git push`、暂存、历史重写或任何身份配置写入。
+
+**测试结果：**文档修改后重新执行 `.\.venv\Scripts\python.exe -m pytest -q`，实际输出为 `113 passed in 4.49s`，退出 0，无警告。命令前后 `Get-Date -Format o` 分别为 `2026-10-12T18:00:08.2309244+02:00` 和 `2026-10-12T18:00:13.7268251+02:00`；4.49 秒是 pytest 报告的测试耗时，不是模型推理测量。历史的 `113 passed in 3.21s` 保留为上一轮结果。
+
+**实验配置与准备：**没有新增实验配置，示例中 `model_file`、`model_sha256`、`server_file` 仍为 null，实际 `configs/p0_runtime.local.json` 尚不存在。后续取得研究目录内独立单文件 Qwen Base GGUF、可信 SHA-256、独立 llama-server.exe 和引擎 revision 后，填写被忽略的本地配置，先运行离线 `preflight`，再执行单条件 C0 的真实 P0 验证并 `audit-run`。保留原始响应、Token IDs、终止信息、Parser 操作、CPU 参数/日志及失败事件，不依据测试替身推断真实模型行为。
+
+**错误与修复：**将首次同步前的 Git 描述标记为历史并添加当前事实，修复当前状态说明过时的问题。检查命令截至本条创建时没有新增错误；没有虚构精确 Push 时间，也没有覆盖原始工程历史。
+
+**科学局限：**GitHub 同步仅确认工程版本的保存与协作基线，不是模型实验或 P0 真实推理通过证明。本次未启动真实模型、未访问 MimooPet、未训练 LoRA；保持 Research Protocol v1.1，P0 验收前不开始 P1。
+
+**本次测试原始输出：**
+
+```text
+........................................................................ [ 63%]
+.........................................                                [100%]
+113 passed in 4.49s
+```
+
+**P0 准备预检：**另执行 `.\.venv\Scripts\python.exe -m personaslm preflight`，以 `exit $LASTEXITCODE` 保留退出码 2，结果 BLOCKED。返回的两项原始原因分别为 `model_file and model_sha256 are required` 和 `server_file is required; no executable is auto-discovered`；`model` 与 `server` 均为 null。该命令仅做离线文件配置预检，没有模型下载、Tokenizer 调用或推理。此结果是必要输入缺失的真实记录，不是已完成真实模型验证。
+
+**差异检查：**执行 `git diff --check`、`git diff --stat` 以及对 README 和三份 P0 文档的 `git diff -- <paths>`，命令组退出 0，没有空白错误；只有上述 5 份 Markdown 文件变更。
+
+**历史保留及最终状态验证：**通过 PowerShell 单引号 here-string 将只读检查传给 `.\.venv\Scripts\python.exe -`；内部用 `git show HEAD:docs/research_development_log.md` 读取已提交日志并确认它是当前日志的完整前缀，检查 AGENTS.md 的 11 个关键规则字段及 25 个本地文档链接，并用 `git diff --name-only` 确认只有预期的 5 份文档变更。AGENTS.md、源码、测试、配置、合成数据与旧证据文件均无差异。随后执行 `Get-Date -Format o`、`git status --short --branch`、`git diff --check`；退出 0，检查时间为 `2026-10-12T18:01:02.8622811+02:00`。实际结果：
+
+```json
+{"documentation_check": "PASS", "historical_log_preserved": true, "AGENTS_policy_checks": 11, "AGENTS_modified": false, "local_links_checked": 25, "changed_files": ["README.md", "docs/P0_acceptance_checklist.md", "docs/P0_real_inference_report.md", "docs/P0_status.md", "docs/research_development_log.md"]}
+```
+
+```text
+## main...origin/main
+ M README.md
+ M docs/P0_acceptance_checklist.md
+ M docs/P0_real_inference_report.md
+ M docs/P0_status.md
+ M docs/research_development_log.md
+```
+
+以上改动未暂存、未提交、未推送，由研究者本人后续审阅处理。本条仅追加同步与验证事实，保留首次 Push 之前的所有历史记录。

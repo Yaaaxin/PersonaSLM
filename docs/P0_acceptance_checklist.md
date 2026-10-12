@@ -18,6 +18,8 @@ PASS 表示已在注明范围内实际验证；PARTIAL 表示存在明确缺口�
 | 完整目录审计 | PARTIAL | 未发现链接；旧 `.pytest_cache` 读取失败，错误已保留；新缓存正常 |
 | Git 初始化检查 | PASS | `.git` 已存在、`main`；保留原文件；无历史提交 |
 | Git 远端配置 | PASS | origin 指向 `Yaaaxin/PersonaSLM`；一次沙箱外只读检查成功，无 refs |
+| 首次 GitHub 同步（2026-10-12 更新） | PASS | 上述两项中的“无历史提交 / 无 refs”为同步前快照，保留原记录。研究者 Yaxin ZHENG 已完成首次 Commit 和 Push；SHA `4a538570c77666009a609c1218a435ac52a6187a`，本地 `main` 与 `origin/main` 一致 |
+| Git 与可复现日志规则检查 | PASS | AGENTS.md 已禁止 Codex commit/push，提交由研究者本人完成，所有工程及实验变更须记录可复现日志 |
 | Git 忽略规则 | PASS | 16 个代表路径检查通过；模型、私人数据、结果、凭据、`.venv` 被忽略 |
 | 文件路径配置与边界校验 | PASS | 显式 JSON/CLI，拒绝越界/链接；不自动寻找模型 |
 | GGUF 摘要验证代码 | PASS | 正确摘要、错误摘要、篡改、坏头部、缺失配置等测试通过 |
