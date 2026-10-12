@@ -162,9 +162,12 @@ def test_frozen_token_mismatch_blocks_all_generation(configured, local_tmp, case
 
 
 def test_new_manifest_retains_exact_dataset_and_source(configured, local_tmp, case_file):
+    metadata = {"diagnostic": "unit_test_only", "evaluation_version": "current_city_legacy_v1"}
     _, directory = run_local(configured, "C0", case_file, local_tmp,
-        client_factory=client_factory(configured), server_factory=StubServer)
+        client_factory=client_factory(configured), server_factory=StubServer, run_metadata=metadata)
     manifest = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))
+    assert manifest["run_metadata"] == metadata
+    assert manifest["evaluation_version"] == "current_city_legacy_v1"
     snapshot = manifest["reconstruction"]
     assert snapshot["dataset_utf8"].encode("utf-8") == case_file.read_bytes()
     assert "evaluation.py" in snapshot["source_utf8"]

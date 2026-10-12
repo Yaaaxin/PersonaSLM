@@ -92,3 +92,5 @@ Synthetic P0 uses no personal data. No commercial MimooPet files, models or code
 ## Changelog
 
 - 2026-10-12 — v1.1: Explicit estimands; neutral matching; pre-generation metric applicability; fixed versus free-running multi-turn; parser audit moved to P0; two freeze checkpoints.
+
+- 2026-10-12 — Prospective [English language-scope addendum](research_protocol_v1.1_language_scope_addendum.md), requested by the researcher. Protocol v1.1 objectives, factors and evaluation procedures are unchanged; completed P0 artifacts are not rewritten.

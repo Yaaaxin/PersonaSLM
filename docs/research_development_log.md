@@ -256,3 +256,65 @@
 **最后文档核验：**`2026-10-12T17:26:58.822293+00:00` 的 Python 只读核验确认已提交开发日志是当前日志的完整前缀，检查了 53 个本地 Markdown 链接及四个大型 JSON 的机器路径脱敏；AGENTS、Protocol、annotation guidelines、合成数据与 HEAD 无差异。`git diff --check` 独立返回 0。此前单项尾部空行问题已修复。最终只读 `git status --short --branch --untracked-files=all` 的完整列表另留本地；工作区变更均未暂存、未提交。
 
 **验收决定：PARTIAL。** Adapter execution PASS；中性语义人工复核、上游量化过程独立验证、评分器时态/对话误判审阅、evaluated IDs 和历史 C0 provenance 缺口未解决，不签署完整 P0 research PASS。新工程日志已补齐适用记录，历史无法观测的量不能追补。P1 BLOCKED，不训练 LoRA，不访问 MimooPet，不生成科学效应结论。
+
+## 2026-10-12 — P0 Methodology Acceptance and English Language Scope
+
+Record created at **2026-10-12T18:06:22.204470+00:00** (UTC). This is a report-writing timestamp; actual command times are below. Phase: P0 only. Objective: diagnose generation budgets, prepare independent neutral review, audit C3 scoring, preserve reproducibility and record the prospective English language scope. Research Protocol v1.1 and the paper title remain unchanged.
+
+The initial environment observation was `2026-10-12T19:38:18+02:00`; PowerShell and project venv were usable. Git was clean on `main...origin/main`, HEAD `8ffe1fdeb64ccc85182d2ff983b514940ecb6f70`, human commit dated `2026-10-12T19:33:32+02:00`. AGENTS and all mandatory research documents were read. No Git author configuration, staging, commit, push, history rewrite or remote network operation was performed. The initial tool-read outputs are retained in `initial_read_outputs.json`.
+
+### Actual configuration and experimental actions
+
+The immutable budget plan was created at `2026-10-12T17:39:54.613027+00:00`: first three lexicographically sorted synthetic IDs, C0/C3, budgets 96/192/256, exactly 18 generations, no adaptive extension or output-quality selection. A fresh 96-token reference was explicitly justified for within-session pairing. Original runs were neither overwritten nor replaced. English fixtures originated from the synthetic generator; original language `en`, translation false. No Chinese dialogue or real chat records were introduced.
+
+Model and backend remain the pinned Qwen3.5-2B-Base Q4_K_M GGUF / llama.cpp b11573 (`0f701c882`), with the previously verified SHA-256 identities. CPU-only, 4/4 threads, 4096 context, seed42, temperature0, top_p1, stop[], cache_prompt=false, ignore_eos=false. Only generation budget changed. Model SHA `ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994`; executable SHA `71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846`. Dataset SHA `31b5242c2cc01411f524c2b922086de0ef216105920e723f1270560e0bc1f282`; template `transcript_base_v1`. Fixed publisher revision and its lineage limitations remain in the model report.
+
+All six new manifests captured Git SHA and dirty=true, exact source/tool/data snapshots, hashes, runtime parameters, language metadata and the unchanged legacy evaluation version. Source/tool hashes remained the same across all six generation runs. Native requests/settings matched across each budget triplet apart from budget fields; both 96-token and 192-token prefixes match the longer outputs as an observation, not a determinism guarantee.
+
+### Captured command history
+
+Each record below stores exact argv, stdout/stderr, UTC start/end, exit code and duration under `results/p0_methodology/20261012T173818/`. Python commands use `.\.venv\Scripts\python.exe`. Wrapping command: `tools/p0_capture.py --output <new-record.json> -- <actual-command>`. Public redacted copies are in [P0_methodology_commands.json](validation/P0_methodology_commands.json); late documentation/Git verification commands and export completion are also retained locally even if created after this table.
+
+| Command record | Actual UTC interval | Exit | Wall seconds |
+|---|---|---:|---:|
+| `integrity_before_command.json` | 2026-10-12T17:44:53.277597+00:00 to 2026-10-12T17:45:54.887099+00:00 | 0 | 61.610 |
+| `tests_initial_v2.json` | 2026-10-12T17:45:03.787026+00:00 to 2026-10-12T17:45:16.447374+00:00 | 0 | 12.660 |
+| `tests_pre_generation.json` | 2026-10-12T17:49:31.552155+00:00 to 2026-10-12T17:49:45.973518+00:00 | 1 | 14.421 |
+| `tests_pre_generation_corrected.json` | 2026-10-12T17:49:57.221632+00:00 to 2026-10-12T17:50:11.559512+00:00 | 0 | 14.338 |
+| `neutral_review_command.json` | 2026-10-12T17:50:14.601805+00:00 to 2026-10-12T17:50:14.925454+00:00 | 0 | 0.324 |
+| `evaluation_audit_command.json` | 2026-10-12T17:50:14.792643+00:00 to 2026-10-12T17:50:15.135545+00:00 | 0 | 0.343 |
+| `budget_generation_command.json` | 2026-10-12T17:50:19.490471+00:00 to 2026-10-12T17:55:59.646820+00:00 | 0 | 340.156 |
+| `integrity_after_command.json` | 2026-10-12T17:56:25.179336+00:00 to 2026-10-12T18:01:46.660205+00:00 | 0 | 321.481 |
+| `tests_final.json` | 2026-10-12T17:56:25.384714+00:00 to 2026-10-12T17:56:44.321589+00:00 | 0 | 18.937 |
+| `replay_cli_command.json` | 2026-10-12T18:00:20.024228+00:00 to 2026-10-12T18:00:20.379524+00:00 | 0 | 0.355 |
+| `export_methodology_evidence_command.json` | 2026-10-12T18:02:36.405738+00:00 to 2026-10-12T18:02:36.714786+00:00 | 0 | 0.309 |
+
+The executed stages were `tools/p0_methodology.py integrity` before and after generation, `review`, `evaluate`, `budgets`, four `python -m pytest -q` invocations, `python -m personaslm replay-run` for the new 256/C3 run, and `tools/p0_methodology_report.py evidence`. All stage commands specify the exact session above. The full argv records are authoritative; no unexecuted experiment is presented as a command result.
+
+### Actual results and preserved failures
+
+- Budget command: UTC 17:50:19.490471–17:55:59.646820, exit0, 340.156s. All18 generated exactly the assigned96/192/256 tokens and stopped at limit. Raw nonempty18, parser-preserved18, errors0, reported EOS/EOG0, returned EOG IDs0. All initial replies have punctuation and are followed by generated dialogue turns; no full output has terminal punctuation. Structural flags are not independent semantic-completeness judgments. Latencies and all raw/parsed text are in the diagnostic report/JSON.
+- Neutral preparation: 40 exact-matched historical pairs retained, zero token difference. English CSV/JSON with six dimensions, actual text/evidence/questions, partial blinding and an independent-review guide. Human reviews0/40; all ratings remain empty. Mapping retained separately for the researcher. Semantic acceptance PARTIAL.
+- C3 audit: all14 original incorrect responses retained. Supplemental whole-output city statuses:2 contradicted,11 unverifiable,1 supported. Nonexclusive diagnostics:2 verifiable historical city contradictions,14 length-limit stops,2 temporal confusions,14 unsupported legacy current-conflict reasons,11 undetermined claims. Agent structural inspection identifies11 visibly cut tails; the other3 end in a city proposition without punctuation. No new verdict silently replaces an old score; no independent human ground truth is claimed.
+- Integrity before:13 journals and9 generation runs pass. After:19 journals and15 generation runs/118 responses pass; two offline reconstructions per generation run are identical. All13 historical file inventories unchanged, including all earlier failures. The zero-generation BLOCKED run and PARTIAL token searches retain their terminal states. CLI replay of the new256/C3 run returns PASS,3 cases, exit0, without model inference.
+- Tests: initial142 passed in12.06s (wall12.660s); guard expansion then1 failed/146 passed in13.74s (wall14.421s); fix147 passed in13.68s (wall14.338s); final147 passed in18.07s (wall18.937s), exit0,0 warnings. The failure was `Not Paris, Lyon.` becoming unverifiable after a conservative residence guard; the implementation now recognizes this explicit contrast. Test expectations were not weakened. All original test captures remain. Tests overlapped with offline integrity work, not budget generation.
+- One apply_patch attempt used an incorrectly composed absolute test path (Windows error3); no files changed, confirmed by rg, then reapplied using relative paths. A later multi-file documentation patch assumed an English heading in the historically Chinese real-inference report and failed matching; no changes applied, then the valid file headers were used. Individual patch execution timestamps were not captured and are not invented.
+- One read-only progress inspection used nonexistent `latency_seconds`, raising `KeyError`; it was corrected to `response_latency_seconds`. Saved experiments and the running generator were unaffected. Separate engineering notes retain this error and the inspection summaries. A pre-execution source review also corrected the report helper's field name to `classification`; no failed experiment resulted.
+
+### Files and scope
+
+Source: `src/personaslm/runner.py` (new-run metadata and explicit legacy evaluation label), new `src/personaslm/evaluation_v2.py` (bounded separate audit); tests in `tests/test_evaluation_v2.py` and `tests/test_runner.py`; orchestration/export tools `tools/p0_methodology.py` and `tools/p0_methodology_report.py`. The legacy evaluator, inference decoder, parser, fixture dataset and original journals were not changed.
+
+Documentation: appended final-validation, reproducibility, real-inference and acceptance reports and this log; new English methodology-acceptance, budget-diagnostic, evaluation-audit and neutral-review documents; new language-scope addendum with parent-protocol changelog link and annotation-guide addendum. New `docs/validation/P0_*` sidecars hold the frozen plan,18 full diagnostic responses,14 supplemental evaluations,40 blank review items,19-run integrity,control summary and command history. Raw local configurations, models, credentials and results remain ignored; no private chat data was used.
+
+Public reports use relative paths. Original raw HTTP/server/journal/source-snapshot archives remain local and must be supplied by the researcher for full independent archive verification. Missing historical C0 Git/memory metadata and independently evaluated input IDs were not fabricated. Upstream quantization fidelity and human semantic/evaluation review remain unverified.
+
+**Decision: P0 PARTIAL, P1 BLOCKED.** Budget execution, logging, exact controls, offline reconstruction and automated tests pass their stated engineering checks; natural termination, independent neutral semantics and independent evaluation adjudication remain unresolved. No Persona causal effect, general accuracy, coherence or real-speaker fidelity conclusion is made. No P1, LoRA, MimooPet access, commit or push occurred. The English scope is prospective; no historical experiment or raw response was translated or altered.
+
+### Final documentation and delivery verification
+
+Recorded: 2026-10-12T18:09:44.609195+00:00. The public command index exported 14 complete captured command records at 2026-10-12T18:07:30.344579+00:00 (exit 0), retaining the failing intermediate test. Its own later completion record and subsequent delivery checks are separately retained locally.
+
+The delivery checker completed at 2026-10-12T18:08:45.316417+00:00 (exit 0): 87 local Markdown links resolve; the old development log is a full prefix; prior protocol/annotation text is retained; AGENTS, the dataset, legacy evaluator/parser/inference and all 9 pre-existing public evidence files match HEAD. It verified 40 blank independent-review items and matching CSV/JSON text, evaluation source hashes, diagnostic-export identity, 7 ignored path classes, no staged changes, and no machine/home paths in the 13 new public documents present at scan time. Full checks and the complete **27-file uncommitted inventory** are in [P0_methodology_delivery_checks.json](validation/P0_methodology_delivery_checks.json). The subsequent delivery-check file contains only relative paths and this factual summary.
+
+`git diff --check` at 18:07:11 UTC returned 0 with no output; `git status --short --branch --untracked-files=all` returned 0 at 18:07:12 UTC. Final read-only Git checks follow this note and are saved to new local command records. All changes remain uncommitted and unstaged; the researcher alone performs commits and pushes.

@@ -1,0 +1,323 @@
+{
+  "commands": [
+    {
+      "command_record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p0_methodology.py",
+          "integrity",
+          "--session",
+          "results/p0_methodology/20261012T173818"
+        ],
+        "duration_seconds": 61.609512600000016,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T17:45:54.887099+00:00",
+        "started_utc": "2026-10-12T17:44:53.277597+00:00",
+        "stderr": "",
+        "stdout": "{\"run_id\": \"20261012T152036-8e02b7e54df249fd8676da16b77bd7ca\", \"relative_directory\": \"results/p0/20261012T152036-8e02b7e54df249fd8676da16b77bd7ca\", \"journal_integrity\": \"PASS\", \"events\": 2, \"terminal\": {\"completed_cases\": 0, \"real_inference_performed\": false, \"reason\": \"Independent model/server configuration is missing or invalid\", \"status\": \"BLOCKED\"}, \"manifest_sha256\": \"508ab681a5773ad7206771dfb79cc1c976bf4736563baaeda548be817fa50d4f\", \"terminal_event_hash\": \"4ec02b7276c3f909da990ec6ffce39408ef82d30b6990374c91c895f68c8b20b\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"6f68108c3ca95e818c94751262753d4b5fc1572fb413b157f09394f32c9dce92\", \"replay\": null}\n{\"run_id\": \"20261012T163840-d0e467a28a4e4df89eb35ce788dfa917\", \"relative_directory\": \"results/p0/20261012T163840-d0e467a28a4e4df89eb35ce788dfa917\", \"journal_integrity\": \"PASS\", \"events\": 271, \"terminal\": {\"completed_cases\": 20, \"completion_requests_attempted\": 20, \"completion_responses_received\": 20, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"22ba0fd1b536661bf479d5cbd095cc18221cf65a6b2e598bc3997126171bc256\", \"terminal_event_hash\": \"45159c67d505ad1106d4a11b275cd5a73210a8be17bbebac4648377a9690478f\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"268c48a04ad58caba665736e05e4483225be464a6821e0db5a0ab6ea2486f28e\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 20}}\n{\"run_id\": \"20261012T170623-1fbff71fcc3a46bd9d5f9df9973792dd\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T170623-1fbff71fcc3a46bd9d5f9df9973792dd\", \"journal_integrity\": \"PASS\", \"events\": 73, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"898b46d754e9ec62a554262f27d04b8dadd3ed0904187f44e572bdb1f34fff94\", \"terminal_event_hash\": \"06dbbf54e0b62f2f4cf0d8df572cb20c0e784140c4de125c08a55866ca18f764\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"f6fea4a7bd425cd0cb95a94f63f6e704067a37dd835318f58024775a0c433e7b\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T170654-853f132c954a4ac085058567c7df04b5\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T170654-853f132c954a4ac085058567c7df04b5\", \"journal_integrity\": \"PASS\", \"events\": 73, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"42b9fbf54dff1a5238928e008c7ee5cc9ec20cd818ca895739a467f065271892\", \"terminal_event_hash\": \"9e80804fbdbd368db0e0023da4566c394867f5f0d0f014bc9d56920941a34595\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"ffde48234688b7c484863ab84ab0cf7f735ed97c328945bc7c192b08daba11e0\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T170725-050387bc4d014a54b75c6ad8dbe803f5\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T170725-050387bc4d014a54b75c6ad8dbe803f5\", \"journal_integrity\": \"PASS\", \"events\": 73, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"11896734aecd26a6eec13ffdf1ab0f2501e6001a77ad431409d1e200074c54fb\", \"terminal_event_hash\": \"f81d53a3925aafe7ff4eb967aa38942dc1c1fb840494b8ded9759c605461833c\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"9558aca3aa7417e37e337b4b5a89f001d6dcbe12b42dfc854bffd50122497375\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T170756-124bed2004264404b7fd1bb21884347a\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T170756-124bed2004264404b7fd1bb21884347a\", \"journal_integrity\": \"PASS\", \"events\": 73, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"5fae0fb57bcf2b987ef6203502f572e915750ec159b6b271680c620cfa0c59e7\", \"terminal_event_hash\": \"467d0b2d9a74c261794904de162867a3b3728390485ab44d95eb0b95c1ac34cd\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"399e2cf77f398d679a15300d991ad1a144fd3f2fda2a9ac408de67fcfa73a1ca\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T170849-65b0427279ef4b9c9d9d627104764189\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T170849-65b0427279ef4b9c9d9d627104764189\", \"journal_integrity\": \"PASS\", \"events\": 213, \"terminal\": {\"completed_cases\": 17, \"completion_requests_attempted\": 17, \"completion_responses_received\": 17, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"9259e5aa0dbbb9df8e85a19661b3dcfb8aa462006151fb059b363a0bded7601c\", \"terminal_event_hash\": \"62f2f27c104d0fc8872c262e6d02834000abdb18c23f7044ba246e0e3c9ac3b7\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"0cdcc467f2980e8ca05de4d1976f0c37d49369745c4042ef2a7e07f3d9f26007\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 17}}\n{\"run_id\": \"20261012T171126-7da62ccbcf6d48bdb31263e7a6ca4522\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T171126-7da62ccbcf6d48bdb31263e7a6ca4522\", \"journal_integrity\": \"PASS\", \"events\": 219, \"terminal\": {\"completed_cases\": 17, \"completion_requests_attempted\": 17, \"completion_responses_received\": 17, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"c182f966df0bfec519227058408a96590cc62fdec4390c68642afae06f25b8aa\", \"terminal_event_hash\": \"81a095ea63887d82e5c3894d66081cc260c4dd645a71fb0570b41c02ab064434\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"1e95ab770f199f1c5ff1214bf8383a182c65523a4a06e226b37adb7a1bfc2b8a\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 17}}\n{\"run_id\": \"20261012T171425-49348e3925ff452f9069004c011878c9\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T171425-49348e3925ff452f9069004c011878c9\", \"journal_integrity\": \"PASS\", \"events\": 225, \"terminal\": {\"completed_cases\": 17, \"completion_requests_attempted\": 17, \"completion_responses_received\": 17, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"daca95674a9e8604e0db9259829c65ba15476ddcb6db792cfa7167d90d4aa93c\", \"terminal_event_hash\": \"ad0dee8965a654a9b90472637d15fceaf19b2ec5b59a9aa15b74225ce97135d8\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"ee02b076d8fd87811ff0f56b5f09f7643a110237d7578513520639453f10891d\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 17}}\n{\"run_id\": \"20261012T171723-dae18c8d3eba4c9c9a7e31f5f1c5ba99\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T171723-dae18c8d3eba4c9c9a7e31f5f1c5ba99\", \"journal_integrity\": \"PASS\", \"events\": 223, \"terminal\": {\"completed_cases\": 17, \"completion_requests_attempted\": 17, \"completion_responses_received\": 17, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"0f2c04bfcbacf0f200c353dd4dad4fc82a2719423b284f18d0056e36065a1c01\", \"terminal_event_hash\": \"0470d288582bc84be26810c938771cd22be22d1f8920d42790dce548c4dbb7e1\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"60c48ef861ee00e21c3d0930cd0a03631d43b71c5800c733bd7f7461948609c8\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 17}}\n{\"run_id\": \"20261012T165905-f06b3743414742079d0820d7714a6413\", \"relative_directory\": \"results/p0_validation/20261012T164648/tokenizer_runs/20261012T165905-f06b3743414742079d0820d7714a6413\", \"journal_integrity\": \"PASS\", \"events\": 10801, \"terminal\": {\"comparisons\": 40, \"completion_requests\": 0, \"failures\": 20, \"status\": \"PARTIAL\"}, \"manifest_sha256\": \"0dd42967d2c62981073be5afdfba4a3f20f1bb3a90385c106b6e350f73273260\", \"terminal_event_hash\": \"34fd799bee0d85ec9fd4568b238522c6d21c37244224a76a87d4c195184392b8\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"b19ebdb976c7785f7d2600b36aaa96229394a7a85c3955849193f58a9d88911c\", \"replay\": null}\n{\"run_id\": \"20261012T170136-df2f0a24271a4a0ea6f0fdeb2a0b9e00\", \"relative_directory\": \"results/p0_validation/20261012T164648/tokenizer_runs/20261012T170136-df2f0a24271a4a0ea6f0fdeb2a0b9e00\", \"journal_integrity\": \"PASS\", \"events\": 10391, \"terminal\": {\"comparisons\": 40, \"completion_requests\": 0, \"failures\": 20, \"status\": \"PARTIAL\"}, \"manifest_sha256\": \"addef939b751644387bd86a154d0cbbf81de7fc2dcf4384259bc93c3cc1219e3\", \"terminal_event_hash\": \"11c868470988e71b02bcf00d609320071bbf8d6527982374a320e45428a46eee\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"38462d34a2006b4bdfe78a928515b8b3e01edfb4322429f3d3254ede8abc131f\", \"replay\": null}\n{\"run_id\": \"20261012T170507-91b67865c38f44a89a89614f7d3f6049\", \"relative_directory\": \"results/p0_validation/20261012T164648/tokenizer_runs/20261012T170507-91b67865c38f44a89a89614f7d3f6049\", \"journal_integrity\": \"PASS\", \"events\": 6903, \"terminal\": {\"comparisons\": 40, \"completion_requests\": 0, \"failures\": 0, \"status\": \"PASS\"}, \"manifest_sha256\": \"8a1efa602af7d77acb2684df08f6886e37cf70bf976c32c2dd8ca87dcef94494\", \"terminal_event_hash\": \"ea281e99b7a17a803131053319016e35059af1fff44ddc5a0f9c76000fd474f7\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"e123f3db0941a03e893f375cff7bbfb4328a355ee9efecb6a5e8bd79d6a474a5\", \"replay\": null}\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/integrity_before_command.json",
+      "original_file_sha256": "43fe7b73e4b67e34d084f097ea5c0dcaaa751793c39b6847f5cd97476c2a3f1d"
+    },
+    {
+      "command_record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "duration_seconds": 12.660346499993466,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T17:45:16.447374+00:00",
+        "started_utc": "2026-10-12T17:45:03.787026+00:00",
+        "stderr": "",
+        "stdout": "........................................................................ [ 50%]\n......................................................................   [100%]\n142 passed in 12.06s\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/tests_initial_v2.json",
+      "original_file_sha256": "d473cbd1e338dfab6025a86b73a3576bbea4e7b0c1ade886f8b9ee50139addb4"
+    },
+    {
+      "command_record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "duration_seconds": 14.421358499996131,
+        "exit_code": 1,
+        "finished_utc": "2026-10-12T17:49:45.973518+00:00",
+        "started_utc": "2026-10-12T17:49:31.552155+00:00",
+        "stderr": "",
+        "stdout": "...................................................F.................... [ 48%]\n........................................................................ [ 97%]\n...                                                                      [100%]\n================================== FAILURES ===================================\n______ test_city_time_audit[Not Paris, Lyon.-contradicted-contradicted] _______\n\ncase = Case(case_id='synthetic_001', persona_id='alice', evaluation_date='2026-10-12', task_type='temporal_factual', context=...nversational_coherence': False, 'linguistic_fidelity': False, 'behavioral_fidelity': False}, split='p0_synthetic_only')\ntext = 'Not Paris, Lyon.', first = 'contradicted', whole = 'contradicted'\n\n    @pytest.mark.parametrize(\"text,first,whole\", [\n        (\"Alice currently lives in Paris.\", \"supported\", \"supported\"),\n        (\"She currently lives in Lyon.\", \"contradicted\", \"contradicted\"),\n        (\"Paris and Lyon are both her current home.\", \"contradicted\", \"contradicted\"),\n        (\"Not Lyon, she lives in Paris.\", \"supported\", \"supported\"),\n        (\"Not Paris, Lyon.\", \"contradicted\", \"contradicted\"),\n        (\"She lived in Lyon in 2025. She lives in Paris now.\", \"supported\", \"supported\"),\n        (\"She lived in Lyon in 2023. She lives in Paris now.\", \"unverifiable\", \"unverifiable\"),\n        (\"She used to live in Lyon but now lives in Paris.\", \"supported\", \"supported\"),\n        (\"She used to live in Lyon but now lives in Lyon.\", \"contradicted\", \"contradicted\"),\n        (\"Paris.\\n\\nUser: Where did Alice live in 2025?\\nAssistant: In Lyon.\", \"supported\", \"supported\"),\n        (\"Paris.\\n\\nUser: Where did Alice live in 2023?\\nAssistant: In Lyon.\", \"supported\", \"unverifiable\"),\n        (\"Paris.\\n\\nUser: Where did Alice live back then?\\nAssistant: Paris.\", \"supported\", \"contradicted\"),\n        (\"Paris.\\n\\nUser: Where did Alice live back then?\\nAssistant: She was living in Lyon back then.\", \"supported\", \"supported\"),\n        (\"Maybe Paris.\", \"unverifiable\", \"unverifiable\"),\n        ('She said \"Paris\".', \"unverifiable\", \"unverifiable\"),\n        (\"Alice lives in Tokyo.\", \"unverifiable\", \"unverifiable\"),\n        (\"Paris is lovely.\", \"unverifiable\", \"unverifiable\"),\n        (\"Paris is not where she lives.\", \"unverifiable\", \"unverifiable\"),\n        (\"She lives in Paris on 2026-99-99.\", \"unverifiable\", \"unverifiable\"),\n        (\"Paris.\\nUser: Where did Alice live in 2023?\\nAssistant: She lived in Lyon.\", \"supported\", \"unverifiable\"),\n        (\"\", \"unverifiable\", \"unverifiable\"),\n    ])\n    def test_city_time_audit(case, text, first, whole):\n        result = audit_city_response(case, text)\n>       assert result[\"first_reply_city_status\"] == first\nE       AssertionError: assert 'unverifiable' == 'contradicted'\nE         \nE         - contradicted\nE         + unverifiable\n\ntests\\test_evaluation_v2.py:40: AssertionError\n=========================== short test summary info ===========================\nFAILED tests/test_evaluation_v2.py::test_city_time_audit[Not Paris, Lyon.-contradicted-contradicted]\n1 failed, 146 passed in 13.74s\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/tests_pre_generation.json",
+      "original_file_sha256": "1ed41b1969f337558bae6b7fc5ce9e7dd1fe503a56f4ef8006a9bc3483fb9632"
+    },
+    {
+      "command_record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "duration_seconds": 14.337876800011145,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T17:50:11.559512+00:00",
+        "started_utc": "2026-10-12T17:49:57.221632+00:00",
+        "stderr": "",
+        "stdout": "........................................................................ [ 48%]\n........................................................................ [ 97%]\n...                                                                      [100%]\n147 passed in 13.68s\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/tests_pre_generation_corrected.json",
+      "original_file_sha256": "09dbc98e78e3c509b555c5c675bbc25b345e2b7441937c24aeed61d5a6b216f8"
+    },
+    {
+      "command_record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p0_methodology.py",
+          "review",
+          "--session",
+          "results/p0_methodology/20261012T173818"
+        ],
+        "duration_seconds": 0.32364489999599755,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T17:50:14.925454+00:00",
+        "started_utc": "2026-10-12T17:50:14.601805+00:00",
+        "stderr": "",
+        "stdout": "{\"review_items\": 40, \"human_reviews_completed\": 0, \"status\": \"PARTIAL\"}\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/neutral_review_command.json",
+      "original_file_sha256": "852f826a937dea0511b24c3cf865285f46f974bc0efb75e0b1e6d3e8b9092ecb"
+    },
+    {
+      "command_record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p0_methodology.py",
+          "evaluate",
+          "--session",
+          "results/p0_methodology/20261012T173818"
+        ],
+        "duration_seconds": 0.34290129999862984,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T17:50:15.135545+00:00",
+        "started_utc": "2026-10-12T17:50:14.792643+00:00",
+        "stderr": "",
+        "stdout": "{\"created_utc\": \"2026-10-12T17:50:15.094035+00:00\", \"version\": \"english_city_temporal_audit_v2\", \"evaluation_source_sha256\": \"d9e09a7a9095c7f2d58989fbb6d03bf9545c58cb538eecf69e38bae1c5be38c7\", \"original_audit_sha256\": \"fc3007a79a079b8921760e0a3c57a0843942e0e705f3ddf710b12e2a6a085f2f\", \"reviewer\": \"automated bounded rule audit plus documented agent inspection; no independent human judgments\", \"legacy_results_unchanged\": true, \"human_reviews_completed\": 0, \"category_counts\": {\"verifiable_factual_error\": 2, \"generation_stopped_by_length_limit\": 14, \"temporal_confusion_supported_by_claims\": 2, \"legacy_current_conflict_reason_not_supported\": 14, \"undetermined_claims_present\": 11}, \"supplemental_full_city_status\": {\"unverifiable\": 11, \"contradicted\": 2, \"supported\": 1}}\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/evaluation_audit_command.json",
+      "original_file_sha256": "3fa2f33504c4f3dc27f60c18d93e2e4cb9883fbb13785bc7f4d4be51e13dbb09"
+    },
+    {
+      "command_record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p0_methodology.py",
+          "budgets",
+          "--session",
+          "results/p0_methodology/20261012T173818"
+        ],
+        "duration_seconds": 340.1563469999819,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T17:55:59.646820+00:00",
+        "started_utc": "2026-10-12T17:50:19.490471+00:00",
+        "stderr": "",
+        "stdout": "{\"run_id\": \"20261012T175020-abbfd27ab4464f59b47195c130418d3f\", \"budget\": 96, \"condition\": \"C0\", \"status\": \"PASS\", \"completed\": 3}\n{\"run_id\": \"20261012T175053-a86e73ac7d2f4b6e85a7cfe565470af9\", \"budget\": 96, \"condition\": \"C3\", \"status\": \"PASS\", \"completed\": 3}\n{\"run_id\": \"20261012T175130-e4aa45177cef41fdbcd50e3222f08f56\", \"budget\": 192, \"condition\": \"C0\", \"status\": \"PASS\", \"completed\": 3}\n{\"run_id\": \"20261012T175229-391d284949804147b4b3340ca1568ac2\", \"budget\": 192, \"condition\": \"C3\", \"status\": \"PASS\", \"completed\": 3}\n{\"run_id\": \"20261012T175339-f6abbafdfd4046b98299d76c1533b98a\", \"budget\": 256, \"condition\": \"C0\", \"status\": \"PASS\", \"completed\": 3}\n{\"run_id\": \"20261012T175449-2d3695902beb4fbaa7bb1f53bc062a22\", \"budget\": 256, \"condition\": \"C3\", \"status\": \"PASS\", \"completed\": 3}\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/budget_generation_command.json",
+      "original_file_sha256": "b62e4daf34696a963a8f28f2cf9de8fc5503c96b9bde4512d79a169204d08fad"
+    },
+    {
+      "command_record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p0_methodology.py",
+          "integrity",
+          "--session",
+          "results/p0_methodology/20261012T173818"
+        ],
+        "duration_seconds": 321.4808643000142,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:01:46.660205+00:00",
+        "started_utc": "2026-10-12T17:56:25.179336+00:00",
+        "stderr": "",
+        "stdout": "{\"run_id\": \"20261012T152036-8e02b7e54df249fd8676da16b77bd7ca\", \"relative_directory\": \"results/p0/20261012T152036-8e02b7e54df249fd8676da16b77bd7ca\", \"journal_integrity\": \"PASS\", \"events\": 2, \"terminal\": {\"completed_cases\": 0, \"real_inference_performed\": false, \"reason\": \"Independent model/server configuration is missing or invalid\", \"status\": \"BLOCKED\"}, \"manifest_sha256\": \"508ab681a5773ad7206771dfb79cc1c976bf4736563baaeda548be817fa50d4f\", \"terminal_event_hash\": \"4ec02b7276c3f909da990ec6ffce39408ef82d30b6990374c91c895f68c8b20b\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"6f68108c3ca95e818c94751262753d4b5fc1572fb413b157f09394f32c9dce92\", \"replay\": null}\n{\"run_id\": \"20261012T163840-d0e467a28a4e4df89eb35ce788dfa917\", \"relative_directory\": \"results/p0/20261012T163840-d0e467a28a4e4df89eb35ce788dfa917\", \"journal_integrity\": \"PASS\", \"events\": 271, \"terminal\": {\"completed_cases\": 20, \"completion_requests_attempted\": 20, \"completion_responses_received\": 20, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"22ba0fd1b536661bf479d5cbd095cc18221cf65a6b2e598bc3997126171bc256\", \"terminal_event_hash\": \"45159c67d505ad1106d4a11b275cd5a73210a8be17bbebac4648377a9690478f\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"268c48a04ad58caba665736e05e4483225be464a6821e0db5a0ab6ea2486f28e\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 20}}\n{\"run_id\": \"20261012T170623-1fbff71fcc3a46bd9d5f9df9973792dd\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T170623-1fbff71fcc3a46bd9d5f9df9973792dd\", \"journal_integrity\": \"PASS\", \"events\": 73, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"898b46d754e9ec62a554262f27d04b8dadd3ed0904187f44e572bdb1f34fff94\", \"terminal_event_hash\": \"06dbbf54e0b62f2f4cf0d8df572cb20c0e784140c4de125c08a55866ca18f764\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"f6fea4a7bd425cd0cb95a94f63f6e704067a37dd835318f58024775a0c433e7b\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T170654-853f132c954a4ac085058567c7df04b5\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T170654-853f132c954a4ac085058567c7df04b5\", \"journal_integrity\": \"PASS\", \"events\": 73, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"42b9fbf54dff1a5238928e008c7ee5cc9ec20cd818ca895739a467f065271892\", \"terminal_event_hash\": \"9e80804fbdbd368db0e0023da4566c394867f5f0d0f014bc9d56920941a34595\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"ffde48234688b7c484863ab84ab0cf7f735ed97c328945bc7c192b08daba11e0\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T170725-050387bc4d014a54b75c6ad8dbe803f5\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T170725-050387bc4d014a54b75c6ad8dbe803f5\", \"journal_integrity\": \"PASS\", \"events\": 73, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"11896734aecd26a6eec13ffdf1ab0f2501e6001a77ad431409d1e200074c54fb\", \"terminal_event_hash\": \"f81d53a3925aafe7ff4eb967aa38942dc1c1fb840494b8ded9759c605461833c\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"9558aca3aa7417e37e337b4b5a89f001d6dcbe12b42dfc854bffd50122497375\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T170756-124bed2004264404b7fd1bb21884347a\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T170756-124bed2004264404b7fd1bb21884347a\", \"journal_integrity\": \"PASS\", \"events\": 73, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"5fae0fb57bcf2b987ef6203502f572e915750ec159b6b271680c620cfa0c59e7\", \"terminal_event_hash\": \"467d0b2d9a74c261794904de162867a3b3728390485ab44d95eb0b95c1ac34cd\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"399e2cf77f398d679a15300d991ad1a144fd3f2fda2a9ac408de67fcfa73a1ca\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T170849-65b0427279ef4b9c9d9d627104764189\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T170849-65b0427279ef4b9c9d9d627104764189\", \"journal_integrity\": \"PASS\", \"events\": 213, \"terminal\": {\"completed_cases\": 17, \"completion_requests_attempted\": 17, \"completion_responses_received\": 17, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"9259e5aa0dbbb9df8e85a19661b3dcfb8aa462006151fb059b363a0bded7601c\", \"terminal_event_hash\": \"62f2f27c104d0fc8872c262e6d02834000abdb18c23f7044ba246e0e3c9ac3b7\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"0cdcc467f2980e8ca05de4d1976f0c37d49369745c4042ef2a7e07f3d9f26007\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 17}}\n{\"run_id\": \"20261012T171126-7da62ccbcf6d48bdb31263e7a6ca4522\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T171126-7da62ccbcf6d48bdb31263e7a6ca4522\", \"journal_integrity\": \"PASS\", \"events\": 219, \"terminal\": {\"completed_cases\": 17, \"completion_requests_attempted\": 17, \"completion_responses_received\": 17, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"c182f966df0bfec519227058408a96590cc62fdec4390c68642afae06f25b8aa\", \"terminal_event_hash\": \"81a095ea63887d82e5c3894d66081cc260c4dd645a71fb0570b41c02ab064434\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"1e95ab770f199f1c5ff1214bf8383a182c65523a4a06e226b37adb7a1bfc2b8a\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 17}}\n{\"run_id\": \"20261012T171425-49348e3925ff452f9069004c011878c9\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T171425-49348e3925ff452f9069004c011878c9\", \"journal_integrity\": \"PASS\", \"events\": 225, \"terminal\": {\"completed_cases\": 17, \"completion_requests_attempted\": 17, \"completion_responses_received\": 17, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"daca95674a9e8604e0db9259829c65ba15476ddcb6db792cfa7167d90d4aa93c\", \"terminal_event_hash\": \"ad0dee8965a654a9b90472637d15fceaf19b2ec5b59a9aa15b74225ce97135d8\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"ee02b076d8fd87811ff0f56b5f09f7643a110237d7578513520639453f10891d\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 17}}\n{\"run_id\": \"20261012T171723-dae18c8d3eba4c9c9a7e31f5f1c5ba99\", \"relative_directory\": \"results/p0_validation/20261012T164648/controlled_runs/20261012T171723-dae18c8d3eba4c9c9a7e31f5f1c5ba99\", \"journal_integrity\": \"PASS\", \"events\": 223, \"terminal\": {\"completed_cases\": 17, \"completion_requests_attempted\": 17, \"completion_responses_received\": 17, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"0f2c04bfcbacf0f200c353dd4dad4fc82a2719423b284f18d0056e36065a1c01\", \"terminal_event_hash\": \"0470d288582bc84be26810c938771cd22be22d1f8920d42790dce548c4dbb7e1\", \"matches_previous_file_inventory\": true, \"file_inventory_sha256\": \"60c48ef861ee00e21c3d0930cd0a03631d43b71c5800c733bd7f7461948609c8\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 17}}\n{\"run_id\": \"20261012T165905-f06b3743414742079d0820d7714a6413\", \"relative_directory\": \"results/p0_validation/20261012T164648/tokenizer_runs/20261012T165905-f06b3743414742079d0820d7714a6413\", \"journal_integrity\": \"PASS\", \"events\": 10801, \"terminal\": {\"comparisons\": 40, \"completion_requests\": 0, \"failures\": 20, \"status\": \"PARTIAL\"}, \"manifest_sha256\": \"0dd42967d2c62981073be5afdfba4a3f20f1bb3a90385c106b6e350f73273260\", \"terminal_event_hash\": \"34fd799bee0d85ec9fd4568b238522c6d21c37244224a76a87d4c195184392b8\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"b19ebdb976c7785f7d2600b36aaa96229394a7a85c3955849193f58a9d88911c\", \"replay\": null}\n{\"run_id\": \"20261012T170136-df2f0a24271a4a0ea6f0fdeb2a0b9e00\", \"relative_directory\": \"results/p0_validation/20261012T164648/tokenizer_runs/20261012T170136-df2f0a24271a4a0ea6f0fdeb2a0b9e00\", \"journal_integrity\": \"PASS\", \"events\": 10391, \"terminal\": {\"comparisons\": 40, \"completion_requests\": 0, \"failures\": 20, \"status\": \"PARTIAL\"}, \"manifest_sha256\": \"addef939b751644387bd86a154d0cbbf81de7fc2dcf4384259bc93c3cc1219e3\", \"terminal_event_hash\": \"11c868470988e71b02bcf00d609320071bbf8d6527982374a320e45428a46eee\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"38462d34a2006b4bdfe78a928515b8b3e01edfb4322429f3d3254ede8abc131f\", \"replay\": null}\n{\"run_id\": \"20261012T170507-91b67865c38f44a89a89614f7d3f6049\", \"relative_directory\": \"results/p0_validation/20261012T164648/tokenizer_runs/20261012T170507-91b67865c38f44a89a89614f7d3f6049\", \"journal_integrity\": \"PASS\", \"events\": 6903, \"terminal\": {\"comparisons\": 40, \"completion_requests\": 0, \"failures\": 0, \"status\": \"PASS\"}, \"manifest_sha256\": \"8a1efa602af7d77acb2684df08f6886e37cf70bf976c32c2dd8ca87dcef94494\", \"terminal_event_hash\": \"ea281e99b7a17a803131053319016e35059af1fff44ddc5a0f9c76000fd474f7\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"e123f3db0941a03e893f375cff7bbfb4328a355ee9efecb6a5e8bd79d6a474a5\", \"replay\": null}\n{\"run_id\": \"20261012T175020-abbfd27ab4464f59b47195c130418d3f\", \"relative_directory\": \"results/p0_methodology/20261012T173818/budget_runs/20261012T175020-abbfd27ab4464f59b47195c130418d3f\", \"journal_integrity\": \"PASS\", \"events\": 91, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"d50a28b84ecc1668aa7c46d05ca78c9dd0e986f473c4b5e59b5e3f02beb243a9\", \"terminal_event_hash\": \"d340798e361a1f17ecd2dcecbbaba47ecbbbae6a62bf65de824afc34f16cbf52\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"51c3cf9fc0f3c826a20d806433ff4abeb1d321bafb65a57d46f0364d273e5314\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T175053-a86e73ac7d2f4b6e85a7cfe565470af9\", \"relative_directory\": \"results/p0_methodology/20261012T173818/budget_runs/20261012T175053-a86e73ac7d2f4b6e85a7cfe565470af9\", \"journal_integrity\": \"PASS\", \"events\": 83, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"ccf79e46134113141a3b5a6400ad8471e063980de70b019aeb9b2bbf096f87b2\", \"terminal_event_hash\": \"5ef7add1eb4185bb0fd1c09b8f4c9e32ca22a32fe970f176143a63d70cf2e144\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"92ef5cadd8c9b28a8ed644dce8f641a45adb300145d78022123f1e9cd05ce695\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T175130-e4aa45177cef41fdbcd50e3222f08f56\", \"relative_directory\": \"results/p0_methodology/20261012T173818/budget_runs/20261012T175130-e4aa45177cef41fdbcd50e3222f08f56\", \"journal_integrity\": \"PASS\", \"events\": 87, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"e9d7255184cea3c7d20fd20a7d318bfd86011e36afcafea3806ce947ca7cb59d\", \"terminal_event_hash\": \"46c6f01a405d86a0bf3e991c1f17252220c802b4d1df209462c56da93449410b\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"371a2f4f4341f726d582c5f93147285a43d82ebaf9ce2aa2896daea57186550a\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T175229-391d284949804147b4b3340ca1568ac2\", \"relative_directory\": \"results/p0_methodology/20261012T173818/budget_runs/20261012T175229-391d284949804147b4b3340ca1568ac2\", \"journal_integrity\": \"PASS\", \"events\": 99, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"4143cc5a237a43d033ec11f95bafeab73c186201d2effe97470b5ff377d7d26c\", \"terminal_event_hash\": \"ea75d1bdd42f7b1b809c246ec90802a7a40b99c1fc3bbcba4acab4aeb72a69c4\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"d6e252de2e710036f50add9f6feedbe941b0175a036b91952947d4a438904098\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T175339-f6abbafdfd4046b98299d76c1533b98a\", \"relative_directory\": \"results/p0_methodology/20261012T173818/budget_runs/20261012T175339-f6abbafdfd4046b98299d76c1533b98a\", \"journal_integrity\": \"PASS\", \"events\": 79, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"7401f8a5aa8266a2e83ff92e168b8eda49d4b55ae5b12742a161a7c1736a5eba\", \"terminal_event_hash\": \"319f3f626b8307e4c49994ca6303f4a0e3903e2809a113ff6a8286e9499caac6\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"2f8f7be6f4f9cae1f48b23d04f4bd56392009bc4206dbff283994bb0a68fb3bd\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n{\"run_id\": \"20261012T175449-2d3695902beb4fbaa7bb1f53bc062a22\", \"relative_directory\": \"results/p0_methodology/20261012T173818/budget_runs/20261012T175449-2d3695902beb4fbaa7bb1f53bc062a22\", \"journal_integrity\": \"PASS\", \"events\": 79, \"terminal\": {\"completed_cases\": 3, \"completion_requests_attempted\": 3, \"completion_responses_received\": 3, \"limitations\": [], \"real_inference_performed\": true, \"remaining\": [\"Independent CPU hardware/log review\", \"GGUF architecture/quantization and Base identity review\", \"Neutral semantic review\", \"Real token-ID support review if response tokens are empty/absent\"], \"scope\": \"P0 adapter execution; not complete P0 research sign-off\", \"status\": \"PASS\"}, \"manifest_sha256\": \"cc961ea1ac5fcd6c946e9ef18673d492133d42a986bf674639c0eab0cc2eb984\", \"terminal_event_hash\": \"168ccbd6ea8af5baa07e7cdec90eb18fb143b3998b0069375f91775072b0e546\", \"matches_previous_file_inventory\": null, \"file_inventory_sha256\": \"81c39b2b11ac5726e59a8322885bdc6663e3c466c10e64c52fdb3b8faac4f44e\", \"replay\": {\"status\": \"PASS\", \"identical\": true, \"cases\": 3}}\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/integrity_after_command.json",
+      "original_file_sha256": "a8302b1b46867666885799738d27bd26a9853188c3a9df8d0a04329727be0ff0"
+    },
+    {
+      "command_record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "duration_seconds": 18.936880900000688,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T17:56:44.321589+00:00",
+        "started_utc": "2026-10-12T17:56:25.384714+00:00",
+        "stderr": "",
+        "stdout": "........................................................................ [ 48%]\n........................................................................ [ 97%]\n...                                                                      [100%]\n147 passed in 18.07s\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/tests_final.json",
+      "original_file_sha256": "59e4211f9a3536e88cafa906594a4889c0099559e15ab29e04faa904be242311"
+    },
+    {
+      "command_record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "personaslm",
+          "replay-run",
+          "--run-dir",
+          "results/p0_methodology/20261012T173818/budget_runs/20261012T175449-2d3695902beb4fbaa7bb1f53bc062a22",
+          "--output",
+          "results/p0_methodology/20261012T173818/replay_cli_256_C3.json"
+        ],
+        "duration_seconds": 0.35529390000738204,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:00:20.379524+00:00",
+        "started_utc": "2026-10-12T18:00:20.024228+00:00",
+        "stderr": "",
+        "stdout": "{\n  \"run_id\": \"20261012T175449-2d3695902beb4fbaa7bb1f53bc062a22\",\n  \"journal_integrity\": \"PASS\",\n  \"events\": 79,\n  \"status\": \"PASS\",\n  \"scope\": \"offline saved-input/parser/evaluator reconstruction; not inference replay or research acceptance\",\n  \"summary\": {\n    \"cases\": 3,\n    \"completed\": 3,\n    \"raw_empty\": 0,\n    \"raw_nonempty\": 3,\n    \"parser_classifications\": {\n      \"preserved\": 3\n    },\n    \"factual_judgments\": {\n      \"correct\": 1,\n      \"incorrect\": 2\n    },\n    \"finish_reasons\": {\n      \"limit\": 3\n    },\n    \"cases_with_errors\": 0,\n    \"missing_evaluated_input_ids\": 3\n  },\n  \"issues\": [],\n  \"historical_missing_metadata\": [],\n  \"limitations\": [\n    \"Backend returns decoded prompt text, not evaluated input IDs; equality of evaluated IDs cannot be independently checked.\",\n    \"Factual evaluation covers only the synthetic current-city question.\"\n  ],\n  \"failures\": []\n}\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/replay_cli_command.json",
+      "original_file_sha256": "2ea67d948aea79d5310a9aa99fb50f6d3a4985dc84c514375f45a549bc340231"
+    },
+    {
+      "command_record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p0_methodology_report.py",
+          "evidence",
+          "--session",
+          "results/p0_methodology/20261012T173818"
+        ],
+        "duration_seconds": 0.3090498000092339,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:02:36.714786+00:00",
+        "started_utc": "2026-10-12T18:02:36.405738+00:00",
+        "stderr": "",
+        "stdout": "{\"created_utc\": \"2026-10-12T18:02:36.673527+00:00\", \"scope\": \"P0 diagnostic only\", \"groups\": [{\"budget\": 96, \"condition\": \"C0\", \"cases\": 3, \"generated_tokens\": [96, 96, 96], \"stop_reasons\": {\"limit\": 3}, \"reported_eos_eog\": 0, \"returned_eog_ids\": 0, \"first_reply_terminal_punctuation\": 3, \"full_output_terminal_punctuation\": 0, \"latency_seconds_min\": 8.4858499999973, \"latency_seconds_max\": 8.798553600005107, \"latency_seconds_mean\": 8.635634133330313}, {\"budget\": 96, \"condition\": \"C3\", \"cases\": 3, \"generated_tokens\": [96, 96, 96], \"stop_reasons\": {\"limit\": 3}, \"reported_eos_eog\": 0, \"returned_eog_ids\": 0, \"first_reply_terminal_punctuation\": 3, \"full_output_terminal_punctuation\": 0, \"latency_seconds_min\": 9.434034100006102, \"latency_seconds_max\": 10.491899200016633, \"latency_seconds_mean\": 9.887578100004854}, {\"budget\": 192, \"condition\": \"C0\", \"cases\": 3, \"generated_tokens\": [192, 192, 192], \"stop_reasons\": {\"limit\": 3}, \"reported_eos_eog\": 0, \"returned_eog_ids\": 0, \"first_reply_terminal_punctuation\": 3, \"full_output_terminal_punctuation\": 0, \"latency_seconds_min\": 15.90157069999259, \"latency_seconds_max\": 17.50480619998416, \"latency_seconds_mean\": 16.648278166656382}, {\"budget\": 192, \"condition\": \"C3\", \"cases\": 3, \"generated_tokens\": [192, 192, 192], \"stop_reasons\": {\"limit\": 3}, \"reported_eos_eog\": 0, \"returned_eog_ids\": 0, \"first_reply_terminal_punctuation\": 3, \"full_output_terminal_punctuation\": 0, \"latency_seconds_min\": 16.392930999980308, \"latency_seconds_max\": 17.048500700009754, \"latency_seconds_mean\": 16.681652266668}, {\"budget\": 256, \"condition\": \"C0\", \"cases\": 3, \"generated_tokens\": [256, 256, 256], \"stop_reasons\": {\"limit\": 3}, \"reported_eos_eog\": 0, \"returned_eog_ids\": 0, \"first_reply_terminal_punctuation\": 3, \"full_output_terminal_punctuation\": 0, \"latency_seconds_min\": 20.75348959999974, \"latency_seconds_max\": 21.09437199999229, \"latency_seconds_mean\": 20.973204999997204}, {\"budget\": 256, \"condition\": \"C3\", \"cases\": 3, \"generated_tokens\": [256, 256, 256], \"stop_reasons\": {\"limit\": 3}, \"reported_eos_eog\": 0, \"returned_eog_ids\": 0, \"first_reply_terminal_punctuation\": 3, \"full_output_terminal_punctuation\": 0, \"latency_seconds_min\": 21.24418800001149, \"latency_seconds_max\": 21.509900600009132, \"latency_seconds_mean\": 21.3345691000092}], \"controls\": [{\"case_id\": \"synthetic_001\", \"condition\": \"C0\", \"same_request_except_n_predict\": true, \"same_native_settings_except_budget\": true, \"actual_requested_budget\": true, \"actual_native_budget\": true, \"eos_not_ignored\": true, \"same_trusted_evidence\": true, \"192_ids_prefix_of_256\": true}, {\"case_id\": \"synthetic_001\", \"condition\": \"C3\", \"same_request_except_n_predict\": true, \"same_native_settings_except_budget\": true, \"actual_requested_budget\": true, \"actual_native_budget\": true, \"eos_not_ignored\": true, \"same_trusted_evidence\": true, \"192_ids_prefix_of_256\": true}, {\"case_id\": \"synthetic_002\", \"condition\": \"C0\", \"same_request_except_n_predict\": true, \"same_native_settings_except_budget\": true, \"actual_requested_budget\": true, \"actual_native_budget\": true, \"eos_not_ignored\": true, \"same_trusted_evidence\": true, \"192_ids_prefix_of_256\": true}, {\"case_id\": \"synthetic_002\", \"condition\": \"C3\", \"same_request_except_n_predict\": true, \"same_native_settings_except_budget\": true, \"actual_requested_budget\": true, \"actual_native_budget\": true, \"eos_not_ignored\": true, \"same_trusted_evidence\": true, \"192_ids_prefix_of_256\": true}, {\"case_id\": \"synthetic_003\", \"condition\": \"C0\", \"same_request_except_n_predict\": true, \"same_native_settings_except_budget\": true, \"actual_requested_budget\": true, \"actual_native_budget\": true, \"eos_not_ignored\": true, \"same_trusted_evidence\": true, \"192_ids_prefix_of_256\": true}, {\"case_id\": \"synthetic_003\", \"condition\": \"C3\", \"same_request_except_n_predict\": true, \"same_native_settings_except_budget\": true, \"actual_requested_budget\": true, \"actual_native_budget\": true, \"eos_not_ignored\": true, \"same_trusted_evidence\": true, \"192_ids_prefix_of_256\": true}], \"historical_runs_unchanged\": 13, \"journals_verified\": 19, \"generation_runs_replayed_twice\": 15, \"replayed_responses\": 118, \"new_generation_count\": 18, \"new_raw_nonempty\": 18, \"new_parser_classes\": {\"preserved\": 18}, \"all_budget_run_source_and_tool_hashes_equal\": true, \"all_budget_run_git_dirty\": true, \"limitations\": [\"Structural completeness flags are not independent human semantic judgments.\", \"Native evaluated input IDs remain unavailable; matching evaluated counts are not ID-level proof.\", \"Observed token prefixes do not guarantee cross-platform output determinism.\", \"No new stopping or response-selection rule was imposed.\"]}\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/export_methodology_evidence_command.json",
+      "original_file_sha256": "7e1d4e5692b5dc329e410b33b45156044f8fe943ee3954a81998cd49cd4aeac9"
+    },
+    {
+      "command_record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "results/p0_methodology/20261012T173818/append_methodology_reports.py"
+        ],
+        "duration_seconds": 0.49551040001097135,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:06:22.553712+00:00",
+        "started_utc": "2026-10-12T18:06:22.058205+00:00",
+        "stderr": "",
+        "stdout": "{\"recorded_utc\": \"2026-10-12T18:06:22.204470+00:00\", \"appended_reports\": [\"docs/P0_final_validation_report.md\", \"docs/P0_reproducibility_report.md\", \"docs/P0_acceptance_checklist.md\", \"docs/P0_real_inference_report.md\"], \"development_log_appended\": true, \"script_sha256\": \"391216adb3224f9cda94ecb86daa328f44a5eadf0ff10a8e6882e10fec790323\"}\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/append_reports_command.json",
+      "original_file_sha256": "76f837e3f5d840a223c67c02bf5eda2a77f63e232b43566256ed4e9f5b3612a7"
+    },
+    {
+      "command_record": {
+        "argv": [
+          "git",
+          "diff",
+          "--check"
+        ],
+        "duration_seconds": 0.0814828000147827,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:07:11.113369+00:00",
+        "started_utc": "2026-10-12T18:07:11.031884+00:00",
+        "stderr": "",
+        "stdout": ""
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/final_diff_check_command.json",
+      "original_file_sha256": "374bb82d34cde9bf059cfaf5ee05e73296278a7c555604281facdfb6b7516403"
+    },
+    {
+      "command_record": {
+        "argv": [
+          "git",
+          "status",
+          "--short",
+          "--branch",
+          "--untracked-files=all"
+        ],
+        "duration_seconds": 0.06952479999745265,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:07:12.343653+00:00",
+        "started_utc": "2026-10-12T18:07:12.274120+00:00",
+        "stderr": "",
+        "stdout": "## main...origin/main\n M docs/P0_acceptance_checklist.md\n M docs/P0_final_validation_report.md\n M docs/P0_real_inference_report.md\n M docs/P0_reproducibility_report.md\n M docs/annotation_guidelines.md\n M docs/research_development_log.md\n M docs/research_protocol_v1.1.md\n M src/personaslm/runner.py\n M tests/test_runner.py\n?? docs/P0_evaluation_audit_v2.md\n?? docs/P0_generation_budget_diagnostic.md\n?? docs/P0_methodology_acceptance_report.md\n?? docs/P0_neutral_review_instructions.md\n?? docs/research_protocol_v1.1_language_scope_addendum.md\n?? docs/validation/P0_budget_diagnostic.json\n?? docs/validation/P0_budget_plan.json\n?? docs/validation/P0_evaluation_audit_v2.json\n?? docs/validation/P0_methodology_integrity.json\n?? docs/validation/P0_methodology_summary.json\n?? docs/validation/P0_neutral_review_form_v2.csv\n?? docs/validation/P0_neutral_review_form_v2.json\n?? src/personaslm/evaluation_v2.py\n?? tests/test_evaluation_v2.py\n?? tools/p0_methodology.py\n?? tools/p0_methodology_report.py\n"
+      },
+      "local_evidence_file": "results/p0_methodology/20261012T173818/final_git_status_command.json",
+      "original_file_sha256": "8259ca3185e71314e0d4ee49cdd3aedb6c96a1c04de8822aac952ff95a25ceef"
+    }
+  ],
+  "created_utc": "2026-10-12T18:07:30.308209+00:00",
+  "engineering_actions": {
+    "actions": [
+      {
+        "commands": [
+          "Get-Content",
+          "rg",
+          "git status --short --branch",
+          "git rev-parse HEAD",
+          "git log"
+        ],
+        "operation": "Read mandatory repository documents, runtime configuration, source and old run artifacts",
+        "result": "Environment usable; repository policy prohibits agent commits/pushes; original English synthetic dataset and recorded runs located. Initial captured read outputs saved separately."
+      },
+      {
+        "command": "PowerShell single-quoted Python here-string through .\\.venv\\Scripts\\python.exe -",
+        "operation": "Freeze budget inputs before generation",
+        "result": "budget_plan.json and budget_cases.jsonl created; actual freeze timestamp and hashes are in the plan."
+      },
+      {
+        "error": "apply_patch verification failed: Failed to read file to update tests/test_runner.py at an incorrectly composed absolute repository path; Windows error 3",
+        "exit_code": null,
+        "operation": "apply_patch evaluator guard and paired-control assertion",
+        "result": "No changes applied; rg confirmed unchanged fields. Reapplied with repository-relative paths successfully."
+      },
+      {
+        "command": "PowerShell Python here-string reading budget_*_audit.json",
+        "exit_code": 1,
+        "operation": "Read interim budget audit for progress",
+        "result": "Inspection used the wrong key. Corrected to response_latency_seconds; generation process and saved runs were unaffected.",
+        "stderr_excerpt": "KeyError: 'latency_seconds'"
+      },
+      {
+        "command": "PowerShell Python here-string reading docs/validation/P0_evaluation_audit_v2.json",
+        "exit_code": 0,
+        "operation": "Read all 14 original incorrect C3 outputs and supplemental claim assignments",
+        "result": "Confirmed documented dated-past, unsupported-year, back-then and dangling-tail patterns. Agent inspection is not independent human annotation."
+      },
+      {
+        "command": "PowerShell Python here-string reading docs/validation/P0_case_audit.json",
+        "exit_code": 0,
+        "operation": "Inspect original 100 generation requests/settings and raw role markers",
+        "result": "All100: n_predict96, seed42, temperature0, top_p1, stop[], cache_promptFalse, generated_tokens96, stop limit, context_truncatedFalse, generated User labels. Native ignore_eosFalse observed."
+      },
+      {
+        "command": "apply_patch",
+        "operation": "Documentation and software edits",
+        "result": "Added English scope addendum and linkage; appended annotation guidance; separate evaluation_v2 with regression tests; run_metadata/evaluation_version in new manifests; new P0 methodology orchestration. Historical raw artifacts and legacy scorer unchanged."
+      }
+    ],
+    "initial_context": {
+      "environment_observation": "2026-10-12T19:38:18+02:00",
+      "git_status": "clean main...origin/main",
+      "head": "8ffe1fdeb64ccc85182d2ff983b514940ecb6f70"
+    },
+    "note": "Retrospective action notes. Exact execution times are unavailable for individual shell inspections and apply_patch calls; this is the note creation time, not their execution time. Timed experiments/tests have separate full command records.",
+    "recorded_utc": "2026-10-12T17:55:39.800286+00:00"
+  },
+  "note": "Captured actual commands. Machine paths redacted; original logs retained locally. Export does not include its own later completion record."
+}

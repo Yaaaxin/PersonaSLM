@@ -1,0 +1,130 @@
+{
+  "baseline_repeat_reason": "fresh 96-token reference under the same diagnostic implementation and session; historical results are not replaced",
+  "budgets": [
+    96,
+    192,
+    256
+  ],
+  "case_ids": [
+    "synthetic_001",
+    "synthetic_002",
+    "synthetic_003"
+  ],
+  "completeness_plan": {
+    "limitation": "punctuation and turn markers are structural indicators, not validated semantic completeness labels; human assessment remains separate",
+    "measurements": [
+      "generated token count",
+      "native stop_type",
+      "reported EOS/EOG",
+      "returned EOS/EOG token IDs when available",
+      "raw/parsed response",
+      "first reply before generated role boundary",
+      "number of generated User/Assistant labels",
+      "terminal punctuation",
+      "dangling role header",
+      "HTTP latency",
+      "prompt/config hashes"
+    ]
+  },
+  "conditions": [
+    "C0",
+    "C3"
+  ],
+  "config": {
+    "endpoint": "http://127.0.0.1:8080",
+    "engine_revision": "0f701c882",
+    "max_match_candidates": 256,
+    "max_new_tokens": 96,
+    "model_file": "models/gguf/Qwen3.5-2B-Base.Q4_K_M.gguf",
+    "model_label": "Qwen3.5-2B-Base-Q4_K_M",
+    "model_sha256": "AB36F9A7B0194ED9A6F80EEB000DAC73002BCB14D0397C11C39417B6CD814994",
+    "n_ctx": 4096,
+    "prompt_template": "transcript_base_v1",
+    "seed": 42,
+    "server_file": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+    "startup_timeout": 120.0,
+    "threads": 4,
+    "timeout": 180.0,
+    "token_tolerance": 0
+  },
+  "created_utc": "2026-10-12T17:39:54.613027+00:00",
+  "dataset_sha256": "31b5242c2cc01411f524c2b922086de0ef216105920e723f1270560e0bc1f282",
+  "evaluation_sha256": "dad279efdcad594c1328ff09b7e1752014afecfa6259cf54c52ecda678352f95",
+  "evaluation_version": "current_city_legacy_v1",
+  "language": {
+    "metadata_scope": "prospective declaration plus retrospective inspection of unchanged source fixtures",
+    "origin": "script-authored synthetic English fixtures",
+    "original_language": "en",
+    "output_policy": "preserve raw output; record observed deviations separately",
+    "primary_language": "en",
+    "translation_performed": false
+  },
+  "new_generations_planned": 18,
+  "no_adaptive_budget_extension": true,
+  "no_stop_template_or_sampling_changes": true,
+  "note": "Derived public copy. Full immutable freeze and exact source snapshots are retained locally; hashes identify them. Generation-time snapshots are separately stored in each run manifest.",
+  "original_plan_sha256": "b6d505ad1d5fb284d281278f43a4d585fcab787b16e7e084a9adc52ce117792e",
+  "phase": "P0 generation-budget diagnostic only",
+  "run_order": [
+    [
+      96,
+      "C0"
+    ],
+    [
+      96,
+      "C3"
+    ],
+    [
+      192,
+      "C0"
+    ],
+    [
+      192,
+      "C3"
+    ],
+    [
+      256,
+      "C0"
+    ],
+    [
+      256,
+      "C3"
+    ]
+  ],
+  "selection_rule": "lexicographic first three synthetic case IDs; not selected by response correctness",
+  "source_at_freeze_summary": {
+    "evaluation_rules": "judge_current_city in saved evaluation.py; synthetic current-city only",
+    "git": {
+      "commit": "8ffe1fdeb64ccc85182d2ff983b514940ecb6f70",
+      "dirty": true,
+      "status_porcelain": " M docs/research_protocol_v1.1.md\n M src/personaslm/runner.py\n?? docs/research_protocol_v1.1_language_scope_addendum.md"
+    },
+    "source_sha256": {
+      "__init__.py": "50c9f2b9e8c5d2ac8956d2a1511eafb3189de2ec435c49947470efa23c59f63e",
+      "__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+      "cli.py": "ae7e206bb0985e127833600b4ab480cfadfffd0d808d87db810961ec5c81bf3b",
+      "conditioning.py": "7b0e6a2230b241f86fec024d6768a9a9c08662945b8cfd668f5445dd5f4d24e6",
+      "configuration.py": "8dc3c11eebeae67698d9afc64c61b1252edf5ee7219f59a27ff9e1d9179253f3",
+      "diagnostics.py": "6609235e7a42894bde17a564ce828078682cecedf60a70e47daf3ab3ce8cee0e",
+      "evaluation.py": "dad279efdcad594c1328ff09b7e1752014afecfa6259cf54c52ecda678352f95",
+      "fixtures.py": "46e938f78cfbc601ab4bdf617421a87fa8a4176df5751f6ae6f359ab68c53e8e",
+      "inference.py": "5c9032a466e26393b69e215005466abe4ca11c6079742fed73610b3e7cfbedda",
+      "journal.py": "c2f2093b3f4728814089667d95e9c2bca685b9d3deb9151913fc891da49df07f",
+      "matching.py": "37963e2a4ade64889b521437b99d1cd7e9aa867ebfcb832429eae96377ee9150",
+      "observations.py": "c276fe85b329e3d099e66c67f2c7afdd0b6f77d39ec9f134da43140ff4ddab4b",
+      "provenance.py": "7f64e9d2f40c3042d312896006511cfd7e277a7b2131d57644bcb5804503bcd1",
+      "reproducibility.py": "0d6cc5ad8dcc9e764e6522bb3fce581b64599d22be3314e54e38f7444257a64c",
+      "run_audit.py": "31063924a782e1c48fbf3cfa70d87df1e6e8cc5aac9f3b745a08b07f529d2bec",
+      "runner.py": "e4e1d9314a6b57ae13c271736fcd529e4ec9181aa2647d725a260df9011dfe77",
+      "schemas.py": "fc2936e5f41c6342561156a18ee4a643395c538c01d24e704f80c3a893585af3",
+      "server.py": "5df06c80c6095e76726af9ad97d48f63086a8c0748abb06625bce504ad605af6"
+    },
+    "tool_sha256": {
+      "tools/p0_capture.py": "8ab562f7effc85375718b06bea52d7e9c45bdd9da9b14c249d050714a4f76832",
+      "tools/p0_export_evidence.py": "d94285b2fc7b776d99e89aa7bdd9fe40923760f3d6fa37821e95f1d1433db534",
+      "tools/p0_fetch_provenance.py": "822e3d43768b3035bc75659cb82f4c51170ef756f52a49fc7455373436feac34",
+      "tools/p0_review_controls.py": "69b73d7ca0db0092237ecca6c41a1f7cce4359e6b6de231ed1381256be260b83",
+      "tools/p0_validate.py": "965eeb3685c5872eb12d567c19609b4add1e51b4f754ad07501d0b400e3902d0"
+    }
+  }
+}

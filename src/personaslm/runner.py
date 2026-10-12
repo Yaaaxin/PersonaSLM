@@ -33,7 +33,7 @@ def validate_completion(result, prompt_ids):
 
 def run_local(config, condition: str, cases_path: Path, output_root: Path, *,
               client_factory=LlamaClient, server_factory=ManagedServer,
-              frozen_prompts=None) -> tuple[dict, Path]:
+              frozen_prompts=None, run_metadata=None) -> tuple[dict, Path]:
     if condition not in P0_CONDITIONS:
         raise ValueError("P0 condition required")
     cases_path = require_local_path(cases_path)
@@ -51,6 +51,8 @@ def run_local(config, condition: str, cases_path: Path, output_root: Path, *,
                               "parse_special": False, "generation_input": "exact token IDs"},
                 "matcher_version": MATCHER_VERSION, "parser_version": "p0_parser_v2",
                 "prompt_template_version": config.prompt_template,
+                "run_metadata": run_metadata,
+                "evaluation_version": "current_city_legacy_v1",
                 "reconstruction": source_snapshot(cases_path)}
     journal = RunJournal(output_root, manifest)
     completed = 0

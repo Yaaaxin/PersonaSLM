@@ -1,5 +1,7 @@
 # P0 Final Validation Report
 
+**Latest update:** see the [English methodology acceptance report](P0_methodology_acceptance_report.md) and the completion addendum at the end of this file: 118 total recorded generations, overall P0 PARTIAL. The earlier 100-generation session below is preserved as history.
+
 2026-10-12。**Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models**。Research Protocol v1.1；Controlled Empirical NLP Study；长期目标为 Real-Speaker Persona Modeling。
 
 **最终决定：P0 研究验收 PARTIAL；真实 CPU adapter execution PASS；P1 BLOCKED。** 已审计研究者原 C0 的 20 次生成，另完成 C1、N_style、C3、N_history 各 20 次。没有重跑原 C0，没有实际聊天数据、LoRA 或新 Persona 算法。
@@ -147,3 +149,17 @@ The page is plain. This is a text record. The heading is printed above the text.
 `Complete P0 CPU validation and reproducibility audits`
 
 所有变更留待研究者审阅并提交。Codex 没有 commit、push、改写历史或修改作者配置。
+
+## 2026-10-12 Methodology Completion Addendum
+
+Recorded: 2026-10-12T18:06:22.204470+00:00. Earlier history is retained.
+
+The latest decision is **PARTIAL**. See the complete English [requirement table](P0_methodology_acceptance_report.md), [budget diagnostic](P0_generation_budget_diagnostic.md), [C3 evaluation audit](P0_evaluation_audit_v2.md), and [human review instructions](P0_neutral_review_instructions.md).
+
+The previously completed 100 responses remain untouched. The lexicographically first three synthetic cases under C0/C3 were frozen before 18 new generations at 96/192/256 tokens. All 18 reached their respective limits, returned nonempty raw text, and were classified as parser-preserved; none reported EOS/EOG. Initial replies were followed by generated dialogue continuations. Raising the cap alone did not establish natural termination. No template, stop sequence, sampling parameter, trusted evidence, question or predeclared applicability was changed.
+
+The 40 historical neutral matches retain zero token difference. A new English CSV/JSON review packet includes all six requested checks, with zero completed human ratings. C3's 14 original incorrect responses have a separate versioned audit: 2 historical city contradictions, 11 unverifiable whole-output city assessments, and 1 supported assessment. All 14 hit the length limit; their legacy current-conflict reasons are not supported as current-city conflicts. Those overlapping diagnostics do not justify rewriting all 14 as correct or treating the old count as scientific ground truth.
+
+All 19 journals verified; all 15 generation runs / 118 responses reconstructed identically on two passes. All 13 historical inventories stayed unchanged. New manifests record Git SHA `8ffe1fdeb64ccc85182d2ff983b514940ecb6f70`, dirty=true, and exact source/tool/data snapshots. Tests: 147 passed, 0 failed, 0 warnings; exit 0; pytest 18.07s, process 18.937s. The failed intermediate negation regression remains in the command archive.
+
+The [English language-scope addendum](research_protocol_v1.1_language_scope_addendum.md) applies prospectively. Historical experiments and language metadata were not rewritten or translated. Original English synthetic provenance is recorded in the diagnostic freeze. Human semantics, response-boundary validation, independent evaluation adjudication, upstream quantization fidelity, missing evaluated input IDs and historical C0 provenance gaps remain qualified. No P1, LoRA, MimooPet access, commit or push occurred.

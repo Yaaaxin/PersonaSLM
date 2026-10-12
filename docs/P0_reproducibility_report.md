@@ -1,5 +1,7 @@
 # P0 Reproducibility Report
 
+**Latest update:** the English completion addendum at the end records 19 verified journals and 15 generation runs / 118 responses reconstructed twice. Overall historical provenance remains PARTIAL. Earlier observations below are preserved.
+
 2026-10-12；Research Protocol v1.1。研究题目：**Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models**。
 
 **可复现性验收：PARTIAL。** 已实现并实际执行离线输入重建、Parser 与当前城市评分重放；这不是重新调用模型的推理重放，也不声称相同 seed 必然得到相同输出。首次 C0 的历史 Git 状态和运行时内存无法追补为当时观测。
@@ -70,3 +72,31 @@
 同一 seed 不保证跨机器、操作系统、后端版本或 CPU 数值内核的输出字节一致。当前离线 replay 验证输入和解析/评分可重建，**未进行模型输出确定性重跑**，因为已有成功生成不需要为本任务重复。
 
 摘要链可检出不一致修改，但无签名或外部时间戳锚定，不是不可篡改存储。没有自动续跑或多写者恢复；未完成写入的响应不能保证在断电后恢复。后端 DLL 与编译依赖没有逐项独立构建复现。上游量化过程、独立语义盲审仍未完成。所有结果只用于 P0 工程验收，不支持 Persona 效应、开放域事实能力或真实说话者拟真结论。
+
+## 2026-10-12 Methodology Completion Addendum
+
+Recorded: 2026-10-12T18:06:22.204470+00:00. Earlier history is retained.
+
+**Current overall reproducibility status: PARTIAL**, owing to the retained historical/provenance and archive-access limitations, while the current engineering checks pass.
+
+| Check | Status | Actual evidence | Limitation |
+|---|---|---|---|
+| Every existing and new journal | PASS | [19 journal inventories](validation/P0_methodology_integrity.json), including the historical BLOCKED run and PARTIAL matching attempts | Integrity does not convert a failed experiment into a successful one |
+| Offline reconstruction | PASS | 15 generation runs, 118 responses; consecutive audit outputs identical | Reconstructs saved inputs/parser/legacy scoring, not new model inference |
+| CLI replay | PASS | `replay-run` on `20261012T175449-2d3695902beb4fbaa7bb1f53bc062a22`, exit 0, 3 cases | Original results remain unchanged |
+| Historical file preservation | PASS | All 13 pre-existing run inventories equal before/after fingerprints; original 9 generation inventories also equal the prior published hashes | No signatures or external timestamp anchoring |
+| New Git and implementation provenance | PASS | All 6 new manifests: HEAD `8ffe1fdeb64ccc85182d2ff983b514940ecb6f70`, dirty=true, exact UTF-8 source/tool snapshots and SHA-256 | Commit SHA alone is insufficient; preserve snapshots with the archive |
+| Frozen inputs and configuration | PASS | [Plan](validation/P0_budget_plan.json), [18 complete cases](validation/P0_budget_diagnostic.json), [native-setting checks](validation/P0_methodology_summary.json) | The plan freezes selection/configuration; generation-time snapshots identify the final tested implementation |
+| Model/backend/hardware | PASS | Same pinned GGUF/build/executable; new server logs observe CPU 4/4 threads, context 4096 and 0/25 offload | Prior lineage and memory qualifications are retained |
+| Evaluation version | PASS | New manifests explicitly label `current_city_legacy_v1`; supplemental module uses `english_city_temporal_audit_v2` and its source hash | Legacy label is a retrospective name for unchanged old code; it was not retroactively inserted into old manifests |
+| English language provenance | PASS | Script-authored English fixtures; no translation; prospective metadata in plan/manifests | Raw output deviations must be retained; declared language is not a language-detector result |
+| Evaluated input IDs and original C0 provenance | PARTIAL | Absence remains visible | Cannot reconstruct observations that were never saved |
+| Public raw archive availability | PARTIAL | Public derived artifacts contain exact experimental inputs/outputs and traceable hashes; raw journals remain local | Independent full wire/journal verification requires the researcher to supply the ignored archive |
+
+The new local evidence root is `results/p0_methodology/20261012T173818/`. Keep `budget_plan.json`, `budget_cases.jsonl`, `budget_prompt_freeze.json`, all six `budget_runs` directories with manifests/events/server logs, both integrity snapshots, all audit/replay files, review mapping, evaluation sidecars and command captures. The public plan is a derived copy with the original immutable plan hash; it does not pretend that the public JSON has the same bytes.
+
+Recorded entry points use the project virtual environment: `tools/p0_methodology.py budgets|review|evaluate|integrity --session <session>` and `tools/p0_methodology_report.py evidence|commands --session <session>`. The budget stage refuses a previously started session; exports use immutable output files. Do not invoke these exact commands into the completed session to replace records. Independent inference replication should first recover the saved exact cases/prompts, pinned binaries and source snapshots into a separate environment, create new local configuration files for the three budgets, and retain new run IDs/output destinations. The standard `run-local` command is available for fresh generations; existing `replay-run` remains a safe offline reconstruction operation with a new output destination.
+
+The observed 96-token prefixes match both longer outputs for all six pairs; the 192-token prefixes also match 256-token outputs. This is a measurement in this session, not a cross-platform determinism promise. No heavy test suite or full-journal audit ran concurrently with generation; subsequent tests and full integrity checking overlapped, so those command durations are not an isolated performance measurement. Sequential budget order and uncontrolled system state limit latency interpretation.
+
+All exact captured commands, times, stdout/stderr, exit codes and intermediate failures are linked in [P0_methodology_commands.json](validation/P0_methodology_commands.json). Read-only inspections and patch errors without exact individual timing are explicitly distinguished in that file's engineering notes and the development log. No timestamp was invented for an uncaptured action.

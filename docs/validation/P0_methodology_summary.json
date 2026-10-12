@@ -1,0 +1,299 @@
+{
+  "all_budget_run_git_dirty": true,
+  "all_budget_run_source_and_tool_hashes_equal": true,
+  "backend_observations": [
+    {
+      "observed_lines": [
+        "0.00.064.619 I cmn  common_param:   - CPU     : AMD Ryzen 7 PRO 5850U with Radeon Graphics      (12110 MiB, 2525 MiB free)",
+        "0.00.065.095 I cmn  common_param: system_info: n_threads = 4 (n_threads_batch = 4) / 16 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | ",
+        "0.00.072.805 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)",
+        "0.01.787.701 I print_info: EOS token             = 248044 '<|endoftext|>'",
+        "0.01.933.375 I load_tensors: offloaded 0/25 layers to GPU",
+        "0.02.712.979 I llama_context: n_ctx                 = 4096"
+      ],
+      "run_id": "20261012T175020-abbfd27ab4464f59b47195c130418d3f",
+      "server_log_sha256": "fc5aea64c742cf475a422ff030a74fb020c2558bfce8070ffde92b6ff010c3d5"
+    },
+    {
+      "observed_lines": [
+        "0.00.047.686 I cmn  common_param:   - CPU     : AMD Ryzen 7 PRO 5850U with Radeon Graphics      (12110 MiB, 2996 MiB free)",
+        "0.00.047.741 I cmn  common_param: system_info: n_threads = 4 (n_threads_batch = 4) / 16 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | ",
+        "0.00.049.780 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)",
+        "0.01.510.431 I print_info: EOS token             = 248044 '<|endoftext|>'",
+        "0.01.623.058 I load_tensors: offloaded 0/25 layers to GPU",
+        "0.02.249.297 I llama_context: n_ctx                 = 4096"
+      ],
+      "run_id": "20261012T175053-a86e73ac7d2f4b6e85a7cfe565470af9",
+      "server_log_sha256": "85ecd96e32e6849d49738b5a5d5465f7ec675f20fdc1734ee8733cc68938586b"
+    },
+    {
+      "observed_lines": [
+        "0.00.045.464 I cmn  common_param:   - CPU     : AMD Ryzen 7 PRO 5850U with Radeon Graphics      (12110 MiB, 2477 MiB free)",
+        "0.00.045.515 I cmn  common_param: system_info: n_threads = 4 (n_threads_batch = 4) / 16 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | ",
+        "0.00.046.381 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)",
+        "0.01.632.368 I print_info: EOS token             = 248044 '<|endoftext|>'",
+        "0.01.746.194 I load_tensors: offloaded 0/25 layers to GPU",
+        "0.02.417.363 I llama_context: n_ctx                 = 4096"
+      ],
+      "run_id": "20261012T175130-e4aa45177cef41fdbcd50e3222f08f56",
+      "server_log_sha256": "cef2cf1cef4a224b605613ed00c63e01b51ad81642eb4969d885776cee046d8b"
+    },
+    {
+      "observed_lines": [
+        "0.08.235.389 I cmn  common_param:   - CPU     : AMD Ryzen 7 PRO 5850U with Radeon Graphics      (12110 MiB, 2954 MiB free)",
+        "0.08.235.451 I cmn  common_param: system_info: n_threads = 4 (n_threads_batch = 4) / 16 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | ",
+        "0.08.235.929 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)",
+        "0.09.934.618 I print_info: EOS token             = 248044 '<|endoftext|>'",
+        "0.10.070.926 I load_tensors: offloaded 0/25 layers to GPU",
+        "0.10.779.779 I llama_context: n_ctx                 = 4096"
+      ],
+      "run_id": "20261012T175229-391d284949804147b4b3340ca1568ac2",
+      "server_log_sha256": "e7d4e73452e25ab1c3f7990baf1356b204a2a8a7ff6eb92ce1c5e1be2946ee4e"
+    },
+    {
+      "observed_lines": [
+        "0.00.022.497 I cmn  common_param:   - CPU     : AMD Ryzen 7 PRO 5850U with Radeon Graphics      (12110 MiB, 2994 MiB free)",
+        "0.00.022.555 I cmn  common_param: system_info: n_threads = 4 (n_threads_batch = 4) / 16 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | ",
+        "0.00.022.920 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)",
+        "0.01.374.320 I print_info: EOS token             = 248044 '<|endoftext|>'",
+        "0.01.485.614 I load_tensors: offloaded 0/25 layers to GPU",
+        "0.02.066.265 I llama_context: n_ctx                 = 4096"
+      ],
+      "run_id": "20261012T175339-f6abbafdfd4046b98299d76c1533b98a",
+      "server_log_sha256": "1c73f0ca857acee841b26a94e00067e7e8fa4945dcc0fbdaeffc2a0ee508d837"
+    },
+    {
+      "observed_lines": [
+        "0.00.022.682 I cmn  common_param:   - CPU     : AMD Ryzen 7 PRO 5850U with Radeon Graphics      (12110 MiB, 3056 MiB free)",
+        "0.00.022.731 I cmn  common_param: system_info: n_threads = 4 (n_threads_batch = 4) / 16 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | ",
+        "0.00.023.102 W srv  llama_server: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)",
+        "0.01.337.665 I print_info: EOS token             = 248044 '<|endoftext|>'",
+        "0.01.455.695 I load_tensors: offloaded 0/25 layers to GPU",
+        "0.02.041.167 I llama_context: n_ctx                 = 4096"
+      ],
+      "run_id": "20261012T175449-2d3695902beb4fbaa7bb1f53bc062a22",
+      "server_log_sha256": "e877face42ca1cba6216593d28c3e394d642ec0197475ed272f7c0f45b9bd08c"
+    }
+  ],
+  "controls": [
+    {
+      "192_ids_prefix_of_256": true,
+      "actual_native_budget": true,
+      "actual_requested_budget": true,
+      "case_id": "synthetic_001",
+      "condition": "C0",
+      "eos_not_ignored": true,
+      "same_native_settings_except_budget": true,
+      "same_request_except_n_predict": true,
+      "same_trusted_evidence": true
+    },
+    {
+      "192_ids_prefix_of_256": true,
+      "actual_native_budget": true,
+      "actual_requested_budget": true,
+      "case_id": "synthetic_001",
+      "condition": "C3",
+      "eos_not_ignored": true,
+      "same_native_settings_except_budget": true,
+      "same_request_except_n_predict": true,
+      "same_trusted_evidence": true
+    },
+    {
+      "192_ids_prefix_of_256": true,
+      "actual_native_budget": true,
+      "actual_requested_budget": true,
+      "case_id": "synthetic_002",
+      "condition": "C0",
+      "eos_not_ignored": true,
+      "same_native_settings_except_budget": true,
+      "same_request_except_n_predict": true,
+      "same_trusted_evidence": true
+    },
+    {
+      "192_ids_prefix_of_256": true,
+      "actual_native_budget": true,
+      "actual_requested_budget": true,
+      "case_id": "synthetic_002",
+      "condition": "C3",
+      "eos_not_ignored": true,
+      "same_native_settings_except_budget": true,
+      "same_request_except_n_predict": true,
+      "same_trusted_evidence": true
+    },
+    {
+      "192_ids_prefix_of_256": true,
+      "actual_native_budget": true,
+      "actual_requested_budget": true,
+      "case_id": "synthetic_003",
+      "condition": "C0",
+      "eos_not_ignored": true,
+      "same_native_settings_except_budget": true,
+      "same_request_except_n_predict": true,
+      "same_trusted_evidence": true
+    },
+    {
+      "192_ids_prefix_of_256": true,
+      "actual_native_budget": true,
+      "actual_requested_budget": true,
+      "case_id": "synthetic_003",
+      "condition": "C3",
+      "eos_not_ignored": true,
+      "same_native_settings_except_budget": true,
+      "same_request_except_n_predict": true,
+      "same_trusted_evidence": true
+    }
+  ],
+  "created_utc": "2026-10-12T18:02:36.673527+00:00",
+  "generation_runs_replayed_twice": 15,
+  "groups": [
+    {
+      "budget": 96,
+      "cases": 3,
+      "condition": "C0",
+      "first_reply_terminal_punctuation": 3,
+      "full_output_terminal_punctuation": 0,
+      "generated_tokens": [
+        96,
+        96,
+        96
+      ],
+      "latency_seconds_max": 8.798553600005107,
+      "latency_seconds_mean": 8.635634133330313,
+      "latency_seconds_min": 8.4858499999973,
+      "reported_eos_eog": 0,
+      "returned_eog_ids": 0,
+      "stop_reasons": {
+        "limit": 3
+      }
+    },
+    {
+      "budget": 96,
+      "cases": 3,
+      "condition": "C3",
+      "first_reply_terminal_punctuation": 3,
+      "full_output_terminal_punctuation": 0,
+      "generated_tokens": [
+        96,
+        96,
+        96
+      ],
+      "latency_seconds_max": 10.491899200016633,
+      "latency_seconds_mean": 9.887578100004854,
+      "latency_seconds_min": 9.434034100006102,
+      "reported_eos_eog": 0,
+      "returned_eog_ids": 0,
+      "stop_reasons": {
+        "limit": 3
+      }
+    },
+    {
+      "budget": 192,
+      "cases": 3,
+      "condition": "C0",
+      "first_reply_terminal_punctuation": 3,
+      "full_output_terminal_punctuation": 0,
+      "generated_tokens": [
+        192,
+        192,
+        192
+      ],
+      "latency_seconds_max": 17.50480619998416,
+      "latency_seconds_mean": 16.648278166656382,
+      "latency_seconds_min": 15.90157069999259,
+      "reported_eos_eog": 0,
+      "returned_eog_ids": 0,
+      "stop_reasons": {
+        "limit": 3
+      }
+    },
+    {
+      "budget": 192,
+      "cases": 3,
+      "condition": "C3",
+      "first_reply_terminal_punctuation": 3,
+      "full_output_terminal_punctuation": 0,
+      "generated_tokens": [
+        192,
+        192,
+        192
+      ],
+      "latency_seconds_max": 17.048500700009754,
+      "latency_seconds_mean": 16.681652266668,
+      "latency_seconds_min": 16.392930999980308,
+      "reported_eos_eog": 0,
+      "returned_eog_ids": 0,
+      "stop_reasons": {
+        "limit": 3
+      }
+    },
+    {
+      "budget": 256,
+      "cases": 3,
+      "condition": "C0",
+      "first_reply_terminal_punctuation": 3,
+      "full_output_terminal_punctuation": 0,
+      "generated_tokens": [
+        256,
+        256,
+        256
+      ],
+      "latency_seconds_max": 21.09437199999229,
+      "latency_seconds_mean": 20.973204999997204,
+      "latency_seconds_min": 20.75348959999974,
+      "reported_eos_eog": 0,
+      "returned_eog_ids": 0,
+      "stop_reasons": {
+        "limit": 3
+      }
+    },
+    {
+      "budget": 256,
+      "cases": 3,
+      "condition": "C3",
+      "first_reply_terminal_punctuation": 3,
+      "full_output_terminal_punctuation": 0,
+      "generated_tokens": [
+        256,
+        256,
+        256
+      ],
+      "latency_seconds_max": 21.509900600009132,
+      "latency_seconds_mean": 21.3345691000092,
+      "latency_seconds_min": 21.24418800001149,
+      "reported_eos_eog": 0,
+      "returned_eog_ids": 0,
+      "stop_reasons": {
+        "limit": 3
+      }
+    }
+  ],
+  "historical_runs_unchanged": 13,
+  "journals_verified": 19,
+  "limitations": [
+    "Structural completeness flags are not independent human semantic judgments.",
+    "Native evaluated input IDs remain unavailable; matching evaluated counts are not ID-level proof.",
+    "Observed token prefixes do not guarantee cross-platform output determinism.",
+    "No new stopping or response-selection rule was imposed."
+  ],
+  "new_generation_count": 18,
+  "new_parser_classes": {
+    "preserved": 18
+  },
+  "new_raw_nonempty": 18,
+  "replayed_responses": 118,
+  "scope": "P0 diagnostic only",
+  "test_command": {
+    "argv": [
+      ".\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "duration_seconds": 18.936880900000688,
+    "exit_code": 0,
+    "finished_utc": "2026-10-12T17:56:44.321589+00:00",
+    "started_utc": "2026-10-12T17:56:25.384714+00:00",
+    "stderr": "",
+    "stdout": "........................................................................ [ 48%]\n........................................................................ [ 97%]\n...                                                                      [100%]\n147 passed in 18.07s\n"
+  }
+}

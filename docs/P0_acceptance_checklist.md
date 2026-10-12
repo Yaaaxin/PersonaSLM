@@ -1,5 +1,7 @@
 # P0 验收清单
 
+**Latest decision:** P0 PARTIAL. The [English methodology acceptance table](P0_methodology_acceptance_report.md) and the completion addendum at the end incorporate the budget diagnostic, versioned evaluation audit and pending human review. Earlier tables below are historical snapshots.
+
 ## P0 Final Validation：当前验收
 
 **总体：PARTIAL。Adapter execution PASS 与 Research acceptance PASS 分开；尚不签署完整 P0 通过，P1 保持 BLOCKED。** 以下逐项覆盖 Protocol v1.1 中与 P0 有关的义务；未来阶段仅核对边界，不虚构实验完成。
@@ -92,3 +94,27 @@ PASS 表示已在注明范围内实际验证；PARTIAL 表示存在明确缺口�
 - 本地 `results/p0/20261012T152036-8e02b7e54df249fd8676da16b77bd7ca/`：零生成，日志完整性 PASS，运行状态 BLOCKED。
 
 Research Design Freeze：YES。Confirmatory Experiment Freeze：NO。真实 P0 sign-off：BLOCKED。
+
+## 2026-10-12 Methodology Completion Addendum
+
+Recorded: 2026-10-12T18:06:22.204470+00:00. Earlier history is retained.
+
+**Overall P0 research acceptance: PARTIAL.** The [complete English requirement table](P0_methodology_acceptance_report.md) supersedes the earlier snapshots for current status. Adapter execution PASS is distinct from research acceptance.
+
+| This session's requirement | Status | Evidence | Remaining limitation |
+|---|---|---|---|
+| Frozen 96/192/256 budget diagnostic | PASS | 18 actual CPU responses, same 3 cases under C0/C3; only budget changes | All 18 stop at limit, no EOS/EOG; natural response termination unresolved |
+| Prompt/config/token/raw/parsed/latency logging | PASS | Per-case hashes and full [diagnostic artifacts](validation/P0_budget_diagnostic.json) | Structural completeness flags do not replace human semantics |
+| Existing 40 zero-difference controls | PASS | Original prompt freeze and matching records retained | Length matching alone does not certify neutrality |
+| Independent neutral semantic review | PARTIAL | English 40-item CSV/JSON with all six checks | 0/40 independent human reviews completed |
+| C3 original 14 incorrect outputs audited | PASS | Separate [versioned claim audit](validation/P0_evaluation_audit_v2.json) and regression tests | No silent replacement of original scores |
+| Independent factual/temporal ground truth | PARTIAL | 2 city/time contradictions, 11 unverifiable, 1 supported by supplemental rules | Agent/rule audit is not independent human adjudication |
+| All-run integrity and repeat offline reconstruction | PASS | 19 journals; 15 generation runs / 118 responses; two identical reconstructions | Offline replay, not new inference; hashes are unsigned |
+| New-run Git commit and dirty state | PASS | All six manifests retain SHA, dirty=true and exact implementation snapshots | Original C0 missing fields remain missing |
+| Automated tests | PASS | 147 passed, 0 failed, 0 warnings; exit 0; 18.07s pytest | Earlier 1-failed/146-passed record retained and fixed |
+| English scope without historical alteration | PASS | Dated protocol addendum; original English synthetic inputs unchanged | No retrospective translation or new naturalistic data |
+| Human-only commits/pushes | PASS | AGENTS unchanged; all session changes uncommitted | Researcher review and submission still required |
+| Overall P0 sign-off | PARTIAL | All remaining limits listed in current acceptance report | Independent review and unresolved methodology limits remain |
+| P1 entry | BLOCKED | Current task remains P0 only | Do not start P1 or infer Persona effects |
+
+Prior model-lineage, independent evaluated-input-ID, historical provenance and archive-access limitations remain in force. No LoRA training or MimooPet access occurred.

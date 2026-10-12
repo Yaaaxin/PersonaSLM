@@ -39,3 +39,9 @@ For each scored result, preserve `reason`, `reference_fact_id`, question ID, sco
 ## Important distinction
 
 An *output* cannot decide whether an endpoint was applicable. No filtering to C0-correct cases for the primary comparison. A conditioned transition statistic can be added separately and transparently reported as descriptive.
+
+## 2026-10-12 language scope and P0 review addendum
+
+Primary experimental and annotation materials are English under the [Protocol v1.1 language-scope addendum](research_protocol_v1.1_language_scope_addendum.md). Historical multilingual software-rule support above is not authorization to add non-English dialogue to the primary benchmark. Completed P0 artifacts remain unchanged.
+
+The [independent neutral-control review instructions](P0_neutral_review_instructions.md) and 40-item blank forms operationalize the existing semantic-control checks. The supplemental `english_city_temporal_audit_v2` rule audit is separately versioned and does not replace historical scores, endpoint applicability, annotation procedures or human judgments.

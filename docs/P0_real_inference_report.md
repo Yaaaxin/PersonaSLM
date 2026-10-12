@@ -1,5 +1,7 @@
 # P0 真实推理准备与环境恢复报告
 
+**Latest update:** the [English methodology acceptance report](P0_methodology_acceptance_report.md) and completion addendum at the end record 118 preserved responses and overall P0 PARTIAL. The earlier session below is retained as history.
+
 ## 2026-10-12 真实验证更新
 
 **当前：真实 CPU 适配器已运行；P0 研究验收仍为 PARTIAL。** 研究者首次 C0 运行 `20261012T163840-d0e467a28a4e4df89eb35ce788dfa917` 的 20 个案例已逐例审计，原目录保持不变。20 条 raw 非空、20 条 Parser preserved，原城市评分器判 correct 20；这不是一般事实准确率。
@@ -99,3 +101,11 @@ pytest 新缓存已配置到被 Git 忽略的 `results/.pytest_cache`，未删�
 将用户独立提供的模型和服务放在本研究目录内，在忽略的 `configs/p0_runtime.local.json` 填入 `model_file`、可信预期 `model_sha256`、`server_file`，并记录模型标签与引擎 revision。先完成离线预检，再进行单个 P0 条件的受控 smoke run；按清单补充真实证据。不得据当前测试推断 persona conditioning 对可靠性的研究效应。
 
 首次 GitHub 同步完成后，下一步准备进行 **P0 真实模型验证**。本次检查时 `configs/p0_runtime.local.json` 尚不存在，示例中的三项必需输入仍为 null。取得独立 GGUF、可信预期摘要和独立服务二进制后，依次执行 README 中的 `preflight`、单条件 `run-local --condition C0` 与 `audit-run`，保留配置、完整日志、成功及失败信息；当前仍未开展真实模型实验，P0 总体 PARTIAL、真实推理 BLOCKED 不变，不进入 P1。
+
+## 2026-10-12 Methodology Completion Addendum
+
+Recorded: 2026-10-12T18:06:22.204470+00:00. Earlier history is retained.
+
+Latest English report: [P0 Methodology Acceptance](P0_methodology_acceptance_report.md). The earlier 100-generation history above is unchanged. This session adds 18 preselected budget-diagnostic CPU generations (96/192/256, C0/C3, first three synthetic cases), for 118 preserved responses in total. All 18 new outputs stop at their assigned limit; none reports EOS/EOG. Raw/parsed logging and parser preservation pass; increasing the cap alone does not establish natural termination.
+
+All 19 journals pass integrity checking and all 15 generation runs reconstruct consistently twice. Tests: 147 passed, 0 failed, 0 warnings; exit 0. The English neutral review form has 40 blank items. C3's original 14 incorrect outputs now have a separate versioned audit; old scores remain intact. **P0 research acceptance remains PARTIAL.** No P1, LoRA, MimooPet access, commit or push occurred. See the prospective [English scope addendum](research_protocol_v1.1_language_scope_addendum.md).
