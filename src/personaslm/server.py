@@ -9,6 +9,7 @@ from urllib.parse import urlsplit
 
 from .inference import LlamaClient
 from .provenance import repository_root, require_local_path
+from .observations import memory_observation
 
 
 def server_command(config) -> list[str]:
@@ -22,7 +23,7 @@ def server_command(config) -> list[str]:
             "--threads", str(config.threads), "--threads-batch", str(config.threads),
             "--ctx-size", str(config.n_ctx), "--parallel", "1",
             "--n-gpu-layers", "0", "--device", "none", "--no-kv-offload", "--no-op-offload",
-            "--no-context-shift", "--offline"]
+            "--no-context-shift", "--offline", "--verbosity", "4"]
 
 
 def validate_server_properties(props: dict, config) -> dict:
@@ -83,6 +84,7 @@ class ManagedServer:
                     raise RuntimeError(f"llama-server exited during startup: {self.process.returncode}; see server.log")
                 try:
                     if health.request("/health").get("status") == "ok":
+                        self.journal.write("memory_observation", memory_observation(self.process.pid))
                         return self
                 except HTTPError as exc:
                     if exc.code != 503:
@@ -112,3 +114,4 @@ class ManagedServer:
     def assert_running(self):
         if self.process is None or self.process.poll() is not None:
             raise RuntimeError("Owned llama-server process is no longer running")
+        self.journal.write("memory_observation", memory_observation(self.process.pid))

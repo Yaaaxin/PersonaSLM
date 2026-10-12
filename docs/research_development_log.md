@@ -170,3 +170,89 @@
 ```
 
 以上改动未暂存、未提交、未推送，由研究者本人后续审阅处理。本条仅追加同步与验证事实，保留首次 Push 之前的所有历史记录。
+
+## 2026-10-12 — P0 Final Validation：真实 C0 审计及控制条件验证
+
+**阶段 / 目标：**仅 P0；核验已完成真实 CPU 运行、固定模型身份、tokenizer、实验控制、原始日志、Parser 和可复现性。题目与 Protocol v1.1 不变，不进入 P1，不训练 LoRA，不访问 MimooPet。研究者补充来源信息后继续当前验证，没有重新生成原 C0。
+
+**时间和基线：**本轮环境检查时间为 `2026-10-12T18:46:48.3682095+02:00`；本条阶段记录依据截至 `2026-10-12T19:19:03.5439925+02:00` 的实际证据整理。详细命令记录统一采用 UTC，并保存真实起止时间，不将报告写入时间冒充实验时间。初始工作区干净，HEAD 为 `f1a1b019981d7f2eb002871c9e600887d9e79874`，首次人工提交 `4a538570c77666009a609c1218a435ac52a6187a` 的历史保留。未联网刷新 GitHub；没有执行暂存、commit、push 或修改 Git 身份。
+
+**首先读取：**AGENTS.md、research_protocol_v1.1、annotation_guidelines、P0_acceptance_checklist、P0_real_inference_report 和本日志。AGENTS 已明确禁止 Codex commit/push、由研究者提交，以及所有工程/实验记录可复现日志；无需改写规则。
+
+**输入冻结：**本地配置 `configs/p0_runtime.local.json`；Qwen3.5-2B-Base Q4_K_M；llama.cpp b11573 / 0f701c882；CPU 4/4 threads、n_ctx 4096、seed 42、max_new_tokens 96、temperature 0、top_p 1、stop=[]；实际 /tokenize 使用 add_special=true、parse_special=false，直接提交 IDs；token_tolerance=0、max_match_candidates=256。只使用 `data/synthetic/p0_cases.jsonl`，SHA-256 `31b5242c2cc01411f524c2b922086de0ef216105920e723f1270560e0bc1f282`。
+
+`selection_freeze.json` 实际创建于 `2026-10-12T16:51:07.859013+00:00`，先冻结按 ID 排序的前三例，再扩展其余 17 例。扩展依据工程完整性和可用资源，不依据事实回答质量。所有原始新增证据位于被 Git 忽略的 `results/p0_validation/20261012T164648/`；公开派生文件只用相对路径。
+
+### 已执行的主要命令与结果
+
+所有以下 Python 命令均使用 `.\.venv\Scripts\python.exe`。`tools/p0_capture.py --output <new-json> -- <command>` 包装实际 argv、stdout、stderr、退出码及耗时；此表为摘要，原始命令字符串见同名 JSON。
+
+| 实际 UTC 时间 / 证据文件 | 命令或操作 | 实际结果 / 退出码 |
+|---|---|---|
+| 初始阶段；`initial_actions.json` | PowerShell、rg、只读 Git、配置/源码/日志读取、本地两文件 SHA-256 | 环境可执行；原 C0 定位到 `20261012T163840-d0e467a28a4e4df89eb35ce788dfa917`；模型和 exe 摘要匹配预期 |
+| 16:51:07；`original_c0_inventory.json` | 对原 C0 全部文件保存摘要快照 | 原始记录仅读；用于最终无修改核对 |
+| 16:55:53–16:55:54；`baseline_audit_command.json` | `-m personaslm audit-run --run-dir <original-C0>` | 271 个事件完整性 PASS、20 次 Parser 重放；退出 0。此前也直接执行同一只读审计，未生成模型输出 |
+| 16:57:08；`c0_replay_command.json` | 新增 `replay-run` 第一次验证 | 退出 2，20 例均被审计实现误标 Parser 不一致；原始实验本身未失败 |
+| 16:57:42；`c0_replay_corrected_command.json` | 修正 Python tuple 与 JSON list 的比较后，用新输出文件重放 | 20 例全部一致；退出 0；先前失败文件保留 |
+| 16:59:05–17:00:02；`prepare_command.json` | `tools/p0_validate.py prepare` | v1：style 20 对 BLOCKED，每例 256 次、best delta −3；history 20 对 PASS，delta 0；退出 2，零 completion |
+| 17:01:36–17:02:56；`prepare_v2_command.json` | 交错候选句数，`--freeze-name prompts_frozen_v2.json --reuse-history-from prompts_frozen.json` | style 20 对仍 BLOCKED，256 次、best delta −1；history 成功结果复用；退出 2，零 completion |
+| 17:05:06–17:06:06；`prepare_v3_command.json` | 按 multiset 枚举减少相同句子排列占用预算；冻结新文件 | style 20 对在第 169 个候选精确匹配；两组最终 40 对 delta=0；退出 0，仍零 completion |
+| 17:06:22–17:08:27；`initial_generation_command.json` | `tools/p0_validate.py initial --freeze-name prompts_frozen_v3.json` | 3 案例 × 4 条件，共 12 次真实生成；四个独立 run，adapter/audit PASS；退出 0 |
+| 17:07:22–17:07:23；`semantic_review_command.json` | `tools/p0_review_controls.py` | 40 条盲审文件、0 条人工判断；语义 PARTIAL；退出 0 |
+| 17:07:57；`publisher_fetch_command.json` | `tools/p0_fetch_provenance.py` | 沙箱网络 WinError 10013；退出 2 |
+| 17:08:22–17:08:23；`publisher_fetch_escalated_command.json` | 经批准一次公开 HF 固定 revision 元数据查询 | tree API HTTP 200，LFS SHA/大小与本地匹配；README HTTP 404；命令整体退出 2，两项结果分别保留 |
+| 17:08:49 起；`expansion_generation_command.json` | `tools/p0_validate.py expansion --freeze-name prompts_frozen_v3.json` | 仅扩展 004–020；最终完成情况在本条后续补记和最终报告中记录，不预填未完成结果 |
+| 17:08:59–17:09:07；`c0_replay_final_a_command.json`、`c0_replay_final_b_command.json` | 两次 `replay-run`，分别写新文件 | 均退出 0；完整输出结构相同；未启动 C0 模型推理 |
+| 17:11:32–17:17:47；`export_controls_command.json` | `tools/p0_export_evidence.py controls` | 三个 tokenizer journal 分别 10801、10391、6903 个事件，链验证通过；退出 0；保留全部候选失败证据 |
+
+**实际测试历史（均未删除）：**
+
+| 命令证据 | pytest 原始结论 | 进程墙钟 | 退出码 / warnings |
+|---|---|---|---|
+| `tests_before_generation.json`，16:59:28 UTC 起 | 113 passed in 3.96s | 4.56s | 0 / 0 |
+| `tests_audit_and_matching.json`，17:01:47 UTC 起 | 119 passed in 7.26s | 7.86s | 0 / 0 |
+| `tests_pre_controls.json`，17:06:00 UTC 起 | 122 passed in 9.07s | 9.53s | 0 / 0 |
+| `final_tests.json`，17:16:04–17:16:24 UTC | **123 passed in 18.97s**，0 failed | 20.55s | 0 / 0 |
+
+测试和部分只读审计与控制生成并行，不能将这些耗时当作隔离环境下的性能基准。新增测试覆盖有效日志链中的语义不一致/重复案例、输入 IDs 改变、评分变化、数据快照独立性、篡改检测、重放写入边界和真实匹配失败暴露出的候选覆盖问题；没有弱化已有测试。
+
+### 工程改动、错误与修复
+
+- `src/personaslm/reproducibility.py`、`runner.py`：新运行保存只读 Git SHA/dirty/porcelain、精确 dataset/source/tool 快照；生成前保存 prompt/evidence SHA；接受冻结 prompt 后再次实际 tokenize，IDs 变化则阻断生成。
+- `server.py`、`observations.py`：将后端日志详细度明确为 4，记录实际加载 metadata、0/25 GPU offload、CPU buffers、4/4 threads；Windows API 保存进程 working set / peak working set 和系统可用内存。没有改变 seed、温度、上下文或停止策略。
+- `matching.py`：保存每个候选和 delta；保留 v1/v2 两轮真实失败。诊断为有限预算被短句前缀与排列消耗，v3 用多重组合扩大长度覆盖；句子库、最大句数、容差 0 和 256 上限保持。history 搜索逻辑不变。
+- `run_audit.py`、`cli.py`：新增离线 `replay-run`，比对 tokenizer/提交输入、原始 wire/native payload、Parser、评分和独立案例；不得向原 run 内写结果。首轮错误是 Python tuple/JSON list 表示差异，序列化规范化后修复；没有改动 Parser 或实验回答。
+- `tools/p0_*.py`：命令留档、两阶段受控运行、来源元数据读取、语义盲审准备、原始日志核验和公开派生摘要。全部为 P0 工程工具。
+- 初次读取错用了不存在的 `personaslm/runner.py`、`personaslm/cli.py`（命令退出 1），经 `rg --files` 定位到 `src/personaslm/` 后修正。一次 `rg ... tokenizer_runs/*/server.log` 在 Windows 下返回路径语法错误 123，改用目录参数和 `-g server.log`；这两项的精确命令时刻未单独采集，不虚构时间。
+- 沙箱内 CIM 最初拒绝，HRESULT 0x80041003；经批准只读查询成功。第二份完整硬件观测实际时间 `2026-10-12T19:04:23.7088598+02:00`：Ryzen 7 PRO 5850U，8 核/16 线程，物理内存条 17,179,869,184 bytes，OS 可见 12,698,714,112 bytes，Windows 10 Professionnel 19045。后时点观测不代替历史 C0 运行时测量。
+- 19:18:56+02:00 的 `git diff --check` 指出 `tests/test_matching.py` 尾部多余空行，已移除；该命令与后续成功的 `git check-ignore` 同组，组退出 0 不能掩盖单项警告。最终会独立再次检查。
+
+### 实际观察与科学限制
+
+原 C0：20 个可独立识别结果，raw 非空 20、空 0，Parser preserved 20，长度停止 20；城市规则 correct 20、incorrect 0、unknown 0。它们经常继续生成多轮对话和无依据额外个人事实，不能报告一般事实准确率。每例 tokenizer IDs 与提交 IDs 及 evaluated count 匹配，truncated=false；后端没有返回 evaluated input IDs，不构造缺失数组。
+
+控制条件运行中发现 legacy 城市规则将 “lived in … in 2025” 的过去城市再次出现判成当前冲突。原判定完整保留，疑似误判另存 `P0_evaluator_review.json`；没有在实验中途改变评分器，没有把规则错误数冒充人工确认的真实错误数，更不能归因于 Persona/history。
+
+中性文本技术检查未发现已知城市泄漏、证据/当前问题变化、额外日期变化。style 文本含重复句子，共享 style heading 也可能产生残余提示；history 保留原日期/角色格式。40 条盲审的人工判定均为空，不虚构独立语义有效性或 annotator agreement。
+
+模型来源单独见 `P0_model_provenance_report.md`：固定 GGUF revision `765d2baaa04dbb8d6df3e78af571e6beaa4373d7`，来自第三方 aashish1904；本地和公开制品一致，不证明转换/量化完全忠实于 Qwen 原始模型。源模型固定 revision、量化配方及独立比对尚缺。
+
+**文档与公开证据：**更新 README、P0_real_inference_report、P0_acceptance_checklist、P0_status 和本日志；新增 P0_final_validation_report、P0_reproducibility_report、P0_model_provenance_report 及 `docs/validation/P0_*` 派生审计/盲审文件。旧清单、旧阻塞运行、旧测试/同步日志保留为历史快照。整体 P0 保持 PARTIAL；所有变更未提交，提交/推送由研究者决定。
+
+### P0 Final Validation 完成补记
+
+**实际完成：**扩展命令 UTC `2026-10-12T17:08:48.810373+00:00`–`17:20:03.776637+00:00`，墙钟 674.97 秒，退出 0。四个条件各新增 17 例，首批 12 加扩展 68 共 **80 次新增生成**。每条件恰好覆盖 20 个不同 IDs，没有重复首批；C0 原 20 次未重跑。
+
+`tools/p0_export_evidence.py final` 实际于 UTC `17:20:50.547549`–`17:20:59.216394` 执行，退出 0。9 个生成 run 的日志链通过，每个运行连续两次离线重建结果一致；原 C0 的 **273 个文件**与最初摘要清单完全相同。3 个 tokenizer journal 另已验证通过。汇总：raw 非空 100、空 0，Parser preserved 100、失败 0，stop_type=limit 100；每次返回 96 个输出 IDs，输入评估数量匹配且无截断。独立 evaluated input IDs 仍缺失 100/100，未伪造。
+
+原城市规则的实际结果为 C0/C1/N_style/N_history 各 correct 20、incorrect 0；C3 correct 6、incorrect 14；unknown 均为 0。14 条 C3 判错全部列为待复核：9 条自动筛查 dated-past 表达式，5 条技术补充涉及上下文省略或其他过去时。人工语义真实错误数未确定；没有把这些计数作为 Persona 效应或一般事实正确率。
+
+最终中性匹配为两组各 20 对 delta=0；history 原轮是 **14 例第 7 次、6 例第 15 次**命中。语义审阅仍 PARTIAL，人工判断 0/40。后端详细日志还保留了 “no API key / CORS allows all origins” 的原始警告；服务仅绑定配置中的本地回环地址，该警告不被隐藏为无警告运行。pytest 的 0 warnings 仅指测试进程输出。
+
+**最终产物：**[最终报告](P0_final_validation_report.md)、[来源报告](P0_model_provenance_report.md)、[可复现性报告](P0_reproducibility_report.md)、[验收表](P0_acceptance_checklist.md)、[逐案例原文与审计](validation/P0_case_audit.json)、[全部匹配和候选失败](validation/P0_control_matching.json)、[运行/环境摘要](validation/P0_final_evidence.json)、[评分复核](validation/P0_evaluator_review.json)、[复核补充](validation/P0_evaluator_review_addendum.md)、[盲审材料](validation/P0_neutral_blinded_review.jsonl)、[22 条已捕获命令的公开副本](validation/P0_final_commands.json)。原始完整数据保留本地忽略目录；公开副本将机器绝对路径脱敏并保留原文件摘要。
+
+**末期错误与修复：**UTC 17:25:50 的命令索引导出因相对路径调用 `relative_to(absolute_root)` 抛 ValueError，退出 1，记录于 `export_commands_command.json`。工具先 resolve session 后修复；17:26:19 的新命令 `export_commands_corrected_command.json` 退出 0，旧失败保留。一次文档隐私扫描正则过宽，将 `EVIDENCE:` 后的 JSON 转义换行误识别为盘符；检查实际片段确认不是路径，修正盘符边界后通过，详情保存 `documentation_checks.json`，不删改真实 prompt。
+
+**最后文档核验：**`2026-10-12T17:26:58.822293+00:00` 的 Python 只读核验确认已提交开发日志是当前日志的完整前缀，检查了 53 个本地 Markdown 链接及四个大型 JSON 的机器路径脱敏；AGENTS、Protocol、annotation guidelines、合成数据与 HEAD 无差异。`git diff --check` 独立返回 0。此前单项尾部空行问题已修复。最终只读 `git status --short --branch --untracked-files=all` 的完整列表另留本地；工作区变更均未暂存、未提交。
+
+**验收决定：PARTIAL。** Adapter execution PASS；中性语义人工复核、上游量化过程独立验证、评分器时态/对话误判审阅、evaluated IDs 和历史 C0 provenance 缺口未解决，不签署完整 P0 research PASS。新工程日志已补齐适用记录，历史无法观测的量不能追补。P1 BLOCKED，不训练 LoRA，不访问 MimooPet，不生成科学效应结论。

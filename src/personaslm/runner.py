@@ -1,6 +1,7 @@
 """P0 only: preflight, immutable provenance, raw logging, parsing and narrow scoring."""
 from dataclasses import asdict
 from pathlib import Path
+import hashlib
 import platform
 
 from .conditioning import P0_CONDITIONS, build_prompt
@@ -13,6 +14,7 @@ from .journal import RunJournal
 from .matching import MATCHER_VERSION, match_neutral
 from .provenance import repository_root, require_local_path, sha256
 from .server import ManagedServer, validate_server_properties
+from .reproducibility import source_snapshot
 
 
 def validate_completion(result, prompt_ids):
@@ -30,7 +32,8 @@ def validate_completion(result, prompt_ids):
 
 
 def run_local(config, condition: str, cases_path: Path, output_root: Path, *,
-              client_factory=LlamaClient, server_factory=ManagedServer) -> tuple[dict, Path]:
+              client_factory=LlamaClient, server_factory=ManagedServer,
+              frozen_prompts=None) -> tuple[dict, Path]:
     if condition not in P0_CONDITIONS:
         raise ValueError("P0 condition required")
     cases_path = require_local_path(cases_path)
@@ -46,7 +49,9 @@ def run_local(config, condition: str, cases_path: Path, output_root: Path, *,
                 "python": platform.python_version(), "os": platform.platform(), "cpu": platform.processor(),
                 "tokenizer": {"source": "same owned llama-server /tokenize", "add_special": True,
                               "parse_special": False, "generation_input": "exact token IDs"},
-                "matcher_version": MATCHER_VERSION, "parser_version": "p0_parser_v2"}
+                "matcher_version": MATCHER_VERSION, "parser_version": "p0_parser_v2",
+                "prompt_template_version": config.prompt_template,
+                "reconstruction": source_snapshot(cases_path)}
     journal = RunJournal(output_root, manifest)
     completed = 0
     attempted = 0
@@ -70,7 +75,19 @@ def run_local(config, condition: str, cases_path: Path, output_root: Path, *,
             prepared = []
             # Freeze every prompt and matching decision before any completion.
             for case in cases:
-                if condition in ("N_style", "N_history"):
+                if frozen_prompts is not None:
+                    frozen = frozen_prompts[case.case_id][condition]
+                    prompt = build_prompt(case, condition, neutral_override=frozen.get("neutral_text"))
+                    if asdict(prompt) != frozen["prompt"]:
+                        # JSON round trips turn tuples into lists.
+                        import json
+                        if json.loads(json.dumps(asdict(prompt))) != frozen["prompt"]:
+                            raise ValueError("Frozen prompt no longer matches case/template")
+                    ids = client.tokenize(prompt.text)
+                    if ids != frozen["token_ids"]:
+                        raise ValueError("Tokenizer changed after prompt freeze")
+                    matching = frozen["matching"]
+                elif condition in ("N_style", "N_history"):
                     matched = match_neutral(case, condition, client.tokenize, tolerance=config.token_tolerance,
                                             max_candidates=config.max_match_candidates)
                     prompt, ids, matching = matched.prompt, matched.token_ids, matched.audit
@@ -81,6 +98,8 @@ def run_local(config, condition: str, cases_path: Path, output_root: Path, *,
                 if len(ids) + config.max_new_tokens > config.n_ctx:
                     raise ValueError(f"Context budget exceeded before generation for {case.case_id}")
                 journal.write("prompt_prepared", {"case_id": case.case_id, "prompt": asdict(prompt),
+                              "prompt_sha256": hashlib.sha256(prompt.text.encode("utf-8")).hexdigest(),
+                              "evidence_sha256": hashlib.sha256(prompt.evidence_block.encode("utf-8")).hexdigest(),
                               "prompt_token_ids": ids, "prompt_tokens": len(ids), "matching": matching,
                               "applicability": case.applicability})
                 prepared.append((case, prompt, ids))

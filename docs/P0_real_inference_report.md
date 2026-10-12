@@ -1,5 +1,13 @@
 # P0 真实推理准备与环境恢复报告
 
+## 2026-10-12 真实验证更新
+
+**当前：真实 CPU 适配器已运行；P0 研究验收仍为 PARTIAL。** 研究者首次 C0 运行 `20261012T163840-d0e467a28a4e4df89eb35ce788dfa917` 的 20 个案例已逐例审计，原目录保持不变。20 条 raw 非空、20 条 Parser preserved，原城市评分器判 correct 20；这不是一般事实准确率。
+
+模型本地 SHA-256、固定 Hugging Face revision 的公开制品摘要，以及实际 GGUF metadata 已核对。第三方量化上游关系仍为 PARTIAL。控制条件的真实 token 验证、生成、CPU/内存观测、两轮匹配失败和评分器局限详见 [最终验证报告](P0_final_validation_report.md)、[来源报告](P0_model_provenance_report.md)、[可复现性报告](P0_reproducibility_report.md)。这些后续证据取代下面历史快照中的当前阻塞判断，不删除先前真实失败。
+
+## 历史快照：环境恢复与独立模型缺失阶段
+
 日期：2026-10-12。正式仓库：<https://github.com/Yaaaxin/PersonaSLM>。
 
 论文题目保持为 **Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models**。

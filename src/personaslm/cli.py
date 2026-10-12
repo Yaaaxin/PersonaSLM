@@ -107,6 +107,19 @@ def cmd_audit_run(args):
     return 0 if report["status"] == "PASS" else 2
 
 
+def cmd_replay_run(args):
+    from .run_audit import audit_run
+    from .journal import atomic_json
+    directory = require_local_path(Path(args.run_dir))
+    output = require_local_path(Path(args.output))
+    if output == directory or directory in output.parents:
+        raise ValueError("Replay output must be outside the immutable original run")
+    report = audit_run(directory, args.cases)
+    atomic_json(output, report)
+    print(json.dumps({k: v for k, v in report.items() if k != "cases"}, indent=2))
+    return 0 if report["status"] == "PASS" else 2
+
+
 def main(argv=None) -> None:
     root = repository_root()
     parser = argparse.ArgumentParser(prog="personaslm", description="PersonaSLM-Lab P0 only")
@@ -128,6 +141,11 @@ def main(argv=None) -> None:
     audit = commands.add_parser("audit-run", help="Verify journal integrity and replay parser offline")
     audit.add_argument("--run-dir", required=True)
     audit.set_defaults(func=cmd_audit_run)
+    replay = commands.add_parser("replay-run", help="Reconstruct saved inputs and replay parser/evaluator offline; no model generation")
+    replay.add_argument("--run-dir", required=True)
+    replay.add_argument("--cases", default=None, help="Hash-identical dataset for historical runs without a snapshot")
+    replay.add_argument("--output", required=True, help="New immutable audit JSON, outside the original run")
+    replay.set_defaults(func=cmd_replay_run)
     run = commands.add_parser("run-local", help="Run P0 synthetic cases with an owned CPU-only llama-server")
     run.add_argument("--cases", default=str(root / "data/synthetic/p0_cases.jsonl"))
     run.add_argument("--output-root", default=str(root / "results/p0"))

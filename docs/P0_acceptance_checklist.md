@@ -1,5 +1,42 @@
 # P0 验收清单
 
+## P0 Final Validation：当前验收
+
+**总体：PARTIAL。Adapter execution PASS 与 Research acceptance PASS 分开；尚不签署完整 P0 通过，P1 保持 BLOCKED。** 以下逐项覆盖 Protocol v1.1 中与 P0 有关的义务；未来阶段仅核对边界，不虚构实验完成。
+
+| Requirement | Status | Evidence | Remaining limitation |
+|---|---|---|---|
+| 研究题目、独立 Real-Speaker 目标、0.8B–3B 范围 | PASS | 协议不变；仅 20 条虚构案例；实际 GGUF 后端报告 1.88B | 合成案例不证明真实说话者拟真 |
+| 环境、虚拟环境、工程可执行 | PASS | 实际命令日志；123 tests passed | 全局 Python 别名问题保留，不影响项目 venv |
+| 首次 C0 独立案例和日志链 | PASS | 原 run `20261012T163840-d0e467a28a4e4df89eb35ce788dfa917`；20 个独立案例；[逐例审计](validation/P0_case_audit.json) | 完成请求不等于事实正确 |
+| 文件完整性与公开固定制品 | PASS | [来源报告](P0_model_provenance_report.md)：本地 GGUF/exe SHA；固定 HF revision API 的 LFS 摘要及大小 | exe 未独立构建或验证发布签名 |
+| GGUF 元数据和实际加载 | PASS | `qwen35` / Base / Q4_K Medium；详细 server.log、/props | 元数据是文件自述，不能单独证明权重来源 |
+| 上游官方模型关系及量化保真度 | PARTIAL | Qwen 官方 Base 仓库、第三方固定文件身份可追溯 | 缺上游固定权重 revision、转换/量化配方和独立对照 |
+| CPU-only、4/4 threads、4096 context | PASS | 新运行日志实际报告 0/25 GPU layers，CPU model/KV/compute buffers，n_threads=n_threads_batch=4，n_ctx=4096；CIM 硬件信息 | 旧 C0 日志仅有部分观察；新观察不冒充旧运行时测量 |
+| CPU/OS/RAM、延迟与内存记录 | PARTIAL | 硬件 8 核/16 线程、安装 16 GiB；逐响应时间和新进程内存采样 | C0 无历史内存；没有连续内存采样或受控性能 benchmark |
+| 同一 GGUF tokenizer 和特殊 token | PASS | 同一受控进程 /tokenize；实际 probes；发送 IDs 与保存 IDs 一致 | 不使用字符数冒充 token 数 |
+| 实际 evaluated IDs 与输入 IDs 独立逐项核对 | PARTIAL | 实际 evaluated count 相同、decoded prompt 可追溯、truncated=false | 后端未返回 evaluated input ID 数组；不伪造 |
+| Track A 相同证据/问题、固定上下文 | PASS | 每案例证据摘要、最终 prompt；实际两组匹配 | 不适用于 Track B 信息可用性效应 |
+| 中性控制完整 prompt 零容差匹配 | PASS | [三轮匹配记录](validation/P0_control_matching.json)；最终 40 对 delta=0；256 候选上限未变 | 原 v1/v2 style 失败分别 −3/−1，均保留；候选顺序经 P0 工程修正 |
+| 中性语义与残余操纵检查 | PARTIAL | 检查实际文本，无已知城市泄漏、证据/问题/日期未变；[盲审文件](validation/P0_neutral_blinded_review.jsonl) | 无独立人工判定；重复句子、style heading、历史日期包装可能有残余影响 |
+| 预生成 applicability、按规则冻结样本 | PASS | `selection_freeze.json`；001–003 首批、004–020 扩展；不按输出好坏选样 | 只用于 P0；不等于 confirmatory freeze |
+| Raw / parsed / stop / IDs / filtering 日志 | PASS | 原始 HTTP 字节、native JSON、逐例输出、Parser 操作链 | 原始忽略目录由研究者保管；中断未完成写入不保证持久化 |
+| Parser 五类区分 | PASS | 单元测试和实际解析回放；没有将空响应直接归为模型故障 | 真实观察没有覆盖所有五种故障；合成测试不是自然发生频率 |
+| 窄域事实评分与错误解释 | PARTIAL | 原评分结果完整保留；[疑似误判案例](validation/P0_evaluator_review.json) | dated “lived in … in YEAR” 可能被误判为当前冲突；需要版本化修正和独立复核，不中途改评分器 |
+| 四个可靠性维度与 Persona Fidelity 分离 | PASS | Protocol / annotation guidelines / applicability | 本次未完成开放式盲评、真实说话者 fidelity 或标注一致性；不声称已完成 |
+| Git/source/data/model/backend/template/seed provenance | PARTIAL | 新 manifest 有 Git 状态与精确输入/源码快照；[可复现性报告](P0_reproducibility_report.md) | C0 未记录 Git dirty state / commit；历史 prompt SHA 仅事后重建 |
+| 日志完整性、离线重建重复核对 | PASS | `audit-run`、`replay-run`；全部生成运行的二次重建结果见结构化证据 | 离线 replay 不重新生成模型输出；日志未数字签名 |
+| 原始实验记录不覆盖、失败可追溯 | PASS | 原 C0 文件摘要清单；匹配失败、CIM/网络拒绝、README 404、重放开发错误分别保留 | 公开派生报告不替代完整原始归档包 |
+| 软件自动化测试 | PASS | 123 passed，0 failed，0 warnings；pytest 18.97s，进程墙钟 20.55s，退出 0 | 与推理并行时测得，不是性能基准 |
+| Git 人工提交与首次同步历史 | PASS | AGENTS.md 四项规则仍正确；首次 SHA `4a538570c77666009a609c1218a435ac52a6187a` 历史保留 | 当前源代码/文档均未提交；Codex 不 commit/push |
+| 数据隔离、路径与隐私 | PARTIAL | 仅项目内合成数据、独立模型；无 MimooPet 访问；忽略模型/私有数据/结果/凭据 | 旧 `.pytest_cache` ACL 阻塞完整目录审计，历史失败不删除 |
+| 效应分析、统计推断、确认性冻结 | BLOCKED | 本次仅工程观察；不报告 Persona 改善/损害、历史因果效应或一般事实能力 | P1 及后续阶段待 P0 接受后另行授权；本项非本次应执行实验 |
+| Track B、自然数据、oracle、跨模型、LoRA | BLOCKED | 遵守协议阶段边界，没有实施 | 属于未来 P2–P6；不得把未开展阶段记作完成 |
+
+详细结果、确切 run IDs、逐例输出及 remaining blockers 见 [P0_final_validation_report.md](P0_final_validation_report.md)。本表保留所有尚未人工或独立验证的内容为 PARTIAL/BLOCKED。
+
+## 历史快照：模型尚未提供时的清单（保留）
+
 日期：2026-10-12。
 
 论文：**Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models**。

@@ -1,5 +1,6 @@
 """All inference in this file is a TEST DOUBLE, never evidence of real inference."""
 from dataclasses import replace
+from dataclasses import asdict
 import json
 
 import pytest
@@ -8,6 +9,8 @@ from personaslm.configuration import RuntimeConfig
 from personaslm.fixtures import build_cases
 from personaslm.journal import read_events
 from personaslm.runner import run_local, validate_completion
+from personaslm.conditioning import build_prompt
+from personaslm.schemas import Case
 from test_configuration import configured
 
 
@@ -145,3 +148,24 @@ def test_second_case_failure_keeps_first_case_and_both_raw_responses(configured,
 def test_token_evidence_cannot_be_assumed(result):
     with pytest.raises(ValueError):
         validate_completion(result, [1])
+
+
+def test_frozen_token_mismatch_blocks_all_generation(configured, local_tmp, case_file):
+    case = Case.from_dict(build_cases()[0])
+    frozen = {case.case_id: {"C0": {"prompt": asdict(build_prompt(case, "C0")),
+              "token_ids": [99], "matching": {"status": "reference"}}}}
+    stub = client_factory(configured)
+    summary, directory = run_local(configured, "C0", case_file, local_tmp,
+        client_factory=stub, server_factory=StubServer, frozen_prompts=frozen)
+    assert summary["status"] == "BLOCKED" and stub.completions == 0
+    assert "Tokenizer changed after prompt freeze" in str(read_events(directory))
+
+
+def test_new_manifest_retains_exact_dataset_and_source(configured, local_tmp, case_file):
+    _, directory = run_local(configured, "C0", case_file, local_tmp,
+        client_factory=client_factory(configured), server_factory=StubServer)
+    manifest = json.loads((directory / "manifest.json").read_text(encoding="utf-8"))
+    snapshot = manifest["reconstruction"]
+    assert snapshot["dataset_utf8"].encode("utf-8") == case_file.read_bytes()
+    assert "evaluation.py" in snapshot["source_utf8"]
+    assert {"commit", "dirty", "status_porcelain"} <= snapshot["git"].keys()

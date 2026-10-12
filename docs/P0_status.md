@@ -1,5 +1,13 @@
 # P0 implementation and sign-off status (2026-10-12)
 
+## Current final-validation update
+
+**Research acceptance: PARTIAL. Real CPU adapter execution has been verified.** The first C0 run is preserved and audited; real tokenizer validation and staged synthetic controls use Qwen3.5-2B-Base Q4_K_M with llama.cpp b11573. See the [final validation report](P0_final_validation_report.md), [model provenance report](P0_model_provenance_report.md) and [reproducibility report](P0_reproducibility_report.md) for exact counts, run IDs, failures and remaining limits.
+
+Independent neutral semantic review, upstream quantization lineage, historical C0 provenance gaps and evaluator limitations prevent full sign-off. No P1, LoRA or Persona-effect study is authorized by an adapter PASS. The current local baseline is `f1a1b019981d7f2eb002871c9e600887d9e79874`; the first commit/push history below remains valid as a dated snapshot. All current changes remain for human review and commit.
+
+## Historical snapshot before real model validation
+
 **Current overall status: PARTIAL. Real model inference: BLOCKED.**
 
 The Windows execution environment is working again. The project virtual environment runs Python 3.14.3; global WindowsApps Python aliases are still unusable. The final test suite passes **113 tests** with no warning after moving pytest's cache to ignored `results/.pytest_cache`.

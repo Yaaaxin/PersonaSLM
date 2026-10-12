@@ -42,3 +42,16 @@ def test_predeclared_tolerance_is_honored():
     target = build_prompt(case, "C1").text
     matched = match_neutral(case, "N_style", lambda text: [1] * (10 if text == target else 11), tolerance=1)
     assert matched.audit["delta"] == 1
+
+
+def test_bounded_style_search_covers_long_multisets_without_city_leakage():
+    import itertools
+    from personaslm.fixtures import build_cases
+    from personaslm.schemas import Case
+    from personaslm.matching import neutral_candidates
+    case = Case.from_dict(build_cases()[0])
+    candidates = list(itertools.islice(neutral_candidates(case, "N_style"), 256))
+    # Regression for the actual P0 failure: budget formerly expired on short
+    # lexicographic prefixes, before a four-sentence mixed-length candidate.
+    assert "The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text." in candidates
+    assert all("Paris" not in candidate and "Lyon" not in candidate for candidate in candidates)
