@@ -4,7 +4,7 @@
 
 Official repository: <https://github.com/Yaaaxin/PersonaSLM>.
 
-**Current status (2026-10-12): PARTIAL research acceptance.** The researcher's first real C0 run has been audited. Qwen3.5-2B-Base Q4_K_M and llama.cpp b11573 execute on CPU; real tokenizer matching and staged synthetic control validation are documented in the [final validation report](docs/P0_final_validation_report.md). Adapter execution success does not complete semantic review, upstream lineage verification or research sign-off. No P1 work or LoRA training is included.
+**Current status (2026-10-12): P0 PARTIAL; P1 NOT STARTED.** Yaxin ZHENG has completed human review of all 40 neutral controls; the final review is AI-assisted, not blind. All 40 remain PARTIAL in the researcher's overall suitability judgments. The [current acceptance report](docs/P0_control_acceptance_report.md) distinguishes review completion from unresolved semantic-control validity. Qwen3.5-2B-Base Q4_K_M and llama.cpp b11573 execute on CPU; 100 historical prompts and token-ID arrays have been reconstructed, and the latest suite passes 263 tests. No P1 experiment or LoRA training has been performed.
 
 Historical state before independent model files were supplied: real inference was BLOCKED. The original missing-configuration run and earlier engineering failures remain preserved in the reports and development log.
 
@@ -73,7 +73,7 @@ Computing a digest alone does not verify a model's trusted origin. Runtime requi
 
 `preflight` is offline. `run-local` starts and owns the configured CPU llama-server, records its command/version/hash/PID/log, and stops that child on exit. An occupied port is refused. This entry point supersedes the starter's manually attached server mode. The CPU deployment setting and research design remain unchanged.
 
-The adapter checks server model path/context, tokenizes full Base transcript prompts through that same server, sends exact token IDs to generation, and rejects prompt-count mismatch or truncation. N_style and N_history use bounded neutral candidate matching against C1 and C3 respectively, with predeclared token tolerance (default 0). Failure to match stops before generation. Human semantic review is still required before research comparisons.
+The adapter checks server model path/context, tokenizes full Base transcript prompts through that same server, sends exact token IDs to generation, and rejects prompt-count mismatch or truncation. N_style and N_history use bounded neutral candidate matching against C1 and C3 respectively, with predeclared token tolerance (default 0). Failure to match stops before generation. Human review is complete for the 40 original controls; [identified semantic issues](docs/P0_neutral_control_diagnostic.md) still require resolution before those controls support research comparisons. [New candidates](docs/validation/P0_control_candidate_freeze_v1.json) are development-only; three style pairs failed exact matching and no candidate generations were requested.
 
 The adapter follows the native [llama.cpp server API](https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md). Actual compatibility is now checked against b11573 / 0f701c882, with explicit limitations for absent evaluated input IDs. P0 supports the Base transcript template only; chat-tuned models require later model-specific handling.
 

@@ -1,0 +1,42 @@
+{
+  "recorded_utc": "2026-10-12 20:08:52 UTC",
+  "tool": "web browsing",
+  "scope": "Primary-source searches and article metadata/PDF checks, no datasets downloaded",
+  "note": "Per-request timestamps before this index were not captured. Date and queries are recorded, without inventing individual access times.",
+  "queries": [
+    "site.aclanthology.org persona conditioning factuality reliability persona language models consistency",
+    "site.aclanthology.org real speaker simulation personalization small language models persona temporal memory conflict",
+    "site.aclanthology.org \"Personalizing Dialogue Agents\"",
+    "site.aclanthology.org \"LaMP: When Large Language Models Meet Personalization\"",
+    "site.arxiv.org \"LongMemEval\"",
+    "site.aclanthology.org \"Lost in the Middle\"",
+    "\"Personalizing Dialogue Agents: I have a dog\"",
+    "\"When\" \"Helpful Assistant\" \"Personas\"",
+    "\"Generative Agent Simulations of 1,000 People\"",
+    "\"PersonaGym: Evaluating Persona Agents and LLMs\""
+  ],
+  "sources": [
+    "https://aclanthology.org/P18-1205/",
+    "https://aclanthology.org/2021.eacl-main.44/",
+    "https://aclanthology.org/2024.acl-long.399/",
+    "https://aclanthology.org/2024.findings-emnlp.888/",
+    "https://aclanthology.org/2025.findings-emnlp.368/",
+    "https://arxiv.org/abs/2410.10813v2",
+    "https://aclanthology.org/2024.tacl-1.9/",
+    "https://arxiv.org/abs/2411.10109v1",
+    "https://arxiv.org/abs/2411.10109v3",
+    "https://aclanthology.org/2026.acl-long.1260/",
+    "https://personagym.com/"
+  ],
+  "failures": [
+    {
+      "url": "https://arxiv.org/html/2410.10813v3",
+      "error": "404"
+    },
+    {
+      "url": "https://arxiv.org/html/2411.10109v1",
+      "error": "404"
+    }
+  ],
+  "correction": "Used actually available abstract/PDF revisions; identified changed title and author list for 2411.10109 v3 rather than merging versions."
+}

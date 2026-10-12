@@ -1,0 +1,1442 @@
+{
+  "candidate_version": "neutral_control_candidate_v1_dev",
+  "created_utc": "2026-10-12T19:56:58.852196+00:00",
+  "development_cases": [
+    {
+      "case_id": "control_dev_001",
+      "current_city": "Leeds",
+      "date": "2025-03-14",
+      "old_city": "York",
+      "speaker": "Riley",
+      "style": "The speaker favors brief replies with short sentences and avoids extended elaboration."
+    },
+    {
+      "case_id": "control_dev_002",
+      "current_city": "Bristol",
+      "date": "2025-03-14",
+      "old_city": "Bath",
+      "speaker": "Samara",
+      "style": "The speaker favors formal wording and complete sentences in ordinary conversation."
+    },
+    {
+      "case_id": "control_dev_003",
+      "current_city": "Durham",
+      "date": "2025-03-14",
+      "old_city": "Exeter",
+      "speaker": "Devon",
+      "style": "The speaker sometimes uses the word certainly when acknowledging a request."
+    }
+  ],
+  "freeze_id": "5d9085f6a3c6e90ed452ec60234433d5f8fb45a0816fa50bcb3eed4b49d8a909",
+  "generation_requests_authorized": 0,
+  "pairs": [
+    {
+      "candidates": [
+        {
+          "candidate_index": 0,
+          "neutral_text": "A conversation includes contributions from its participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 1,
+          "neutral_text": "Each contribution belongs to the ongoing exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 2,
+          "neutral_text": "A reply follows a contribution from another participant.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 3,
+          "neutral_text": "The exchange contains contributions from both participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 4,
+          "neutral_text": "Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Participants take part in the same conversation.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 5,
+          "neutral_text": "The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The conversation has a participant on each side.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 6,
+          "neutral_text": "A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A contribution forms part of a conversation.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 7,
+          "neutral_text": "The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The participants are engaged in an exchange.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 8,
+          "neutral_text": "A conversation includes contributions from its participants. Each contribution belongs to the ongoing exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. Each contribution belongs to the ongoing exchange.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. Each contribution belongs to the ongoing exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 9,
+          "neutral_text": "A conversation includes contributions from its participants. A reply follows a contribution from another participant.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. A reply follows a contribution from another participant.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. A reply follows a contribution from another participant.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 10,
+          "neutral_text": "A conversation includes contributions from its participants. The exchange contains contributions from both participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. The exchange contains contributions from both participants.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. The exchange contains contributions from both participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 11,
+          "neutral_text": "A conversation includes contributions from its participants. Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. Participants take part in the same conversation.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 12,
+          "neutral_text": "A conversation includes contributions from its participants. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. The conversation has a participant on each side.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 13,
+          "neutral_text": "A conversation includes contributions from its participants. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. A contribution forms part of a conversation.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 14,
+          "neutral_text": "A conversation includes contributions from its participants. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. The participants are engaged in an exchange.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 15,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. A reply follows a contribution from another participant.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. A reply follows a contribution from another participant.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. A reply follows a contribution from another participant.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 16,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. The exchange contains contributions from both participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. The exchange contains contributions from both participants.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. The exchange contains contributions from both participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 17,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. Participants take part in the same conversation.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 18,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. The conversation has a participant on each side.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 19,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. A contribution forms part of a conversation.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 20,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. The participants are engaged in an exchange.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 21,
+          "neutral_text": "A reply follows a contribution from another participant. The exchange contains contributions from both participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. The exchange contains contributions from both participants.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. The exchange contains contributions from both participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 22,
+          "neutral_text": "A reply follows a contribution from another participant. Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. Participants take part in the same conversation.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 23,
+          "neutral_text": "A reply follows a contribution from another participant. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. The conversation has a participant on each side.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 24,
+          "neutral_text": "A reply follows a contribution from another participant. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. A contribution forms part of a conversation.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 25,
+          "neutral_text": "A reply follows a contribution from another participant. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. The participants are engaged in an exchange.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 26,
+          "neutral_text": "The exchange contains contributions from both participants. Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants. Participants take part in the same conversation.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants. Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 27,
+          "neutral_text": "The exchange contains contributions from both participants. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants. The conversation has a participant on each side.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 28,
+          "neutral_text": "The exchange contains contributions from both participants. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants. A contribution forms part of a conversation.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 29,
+          "neutral_text": "The exchange contains contributions from both participants. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants. The participants are engaged in an exchange.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 30,
+          "neutral_text": "Participants take part in the same conversation. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Participants take part in the same conversation. The conversation has a participant on each side.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: Participants take part in the same conversation. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 31,
+          "neutral_text": "Participants take part in the same conversation. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Participants take part in the same conversation. A contribution forms part of a conversation.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: Participants take part in the same conversation. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 32,
+          "neutral_text": "Participants take part in the same conversation. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Participants take part in the same conversation. The participants are engaged in an exchange.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: Participants take part in the same conversation. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 33,
+          "neutral_text": "The conversation has a participant on each side. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The conversation has a participant on each side. A contribution forms part of a conversation.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: The conversation has a participant on each side. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 34,
+          "neutral_text": "The conversation has a participant on each side. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The conversation has a participant on each side. The participants are engaged in an exchange.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: The conversation has a participant on each side. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 35,
+          "neutral_text": "A contribution forms part of a conversation. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A contribution forms part of a conversation. The participants are engaged in an exchange.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: A contribution forms part of a conversation. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        }
+      ],
+      "case_id": "control_dev_001",
+      "neutral_condition": "N_style",
+      "reference_condition": "C1",
+      "reference_prompt": {
+        "conditioning_text": "Speaker context: The speaker favors brief replies with short sentences and avoids extended elaboration.",
+        "current_question": "Where does Riley currently live?",
+        "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker context: The speaker favors brief replies with short sentences and avoids extended elaboration.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+        "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+      }
+    },
+    {
+      "candidates": [
+        {
+          "candidate_index": 0,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: I did not say.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: I did not say.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: I did not say.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 1,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: I did not name it.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: I did not name it.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: I did not name it.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 2,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: The city was not named.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: The city was not named.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: The city was not named.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 3,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: The city was not specified then.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: The city was not specified then.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: The city was not specified then.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 4,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: No city was stated then.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: No city was stated then.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: No city was stated then.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 5,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: I had not specified the city.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: I had not specified the city.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: I had not specified the city.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 6,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: The location was not mentioned.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: The location was not mentioned.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: The location was not mentioned.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        },
+        {
+          "candidate_index": 7,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: I had not named the city at that point.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: I had not named the city at that point.",
+            "current_question": "Where does Riley currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: I had not named the city at that point.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+          }
+        }
+      ],
+      "case_id": "control_dev_001",
+      "neutral_condition": "N_history",
+      "reference_condition": "C3",
+      "reference_prompt": {
+        "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: In York at the time.",
+        "current_question": "Where does Riley currently live?",
+        "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: In York at the time.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:",
+        "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+      }
+    },
+    {
+      "candidates": [
+        {
+          "candidate_index": 0,
+          "neutral_text": "A conversation includes contributions from its participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 1,
+          "neutral_text": "Each contribution belongs to the ongoing exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 2,
+          "neutral_text": "A reply follows a contribution from another participant.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 3,
+          "neutral_text": "The exchange contains contributions from both participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 4,
+          "neutral_text": "Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Participants take part in the same conversation.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 5,
+          "neutral_text": "The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The conversation has a participant on each side.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 6,
+          "neutral_text": "A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A contribution forms part of a conversation.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 7,
+          "neutral_text": "The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The participants are engaged in an exchange.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 8,
+          "neutral_text": "A conversation includes contributions from its participants. Each contribution belongs to the ongoing exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. Each contribution belongs to the ongoing exchange.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. Each contribution belongs to the ongoing exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 9,
+          "neutral_text": "A conversation includes contributions from its participants. A reply follows a contribution from another participant.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. A reply follows a contribution from another participant.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. A reply follows a contribution from another participant.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 10,
+          "neutral_text": "A conversation includes contributions from its participants. The exchange contains contributions from both participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. The exchange contains contributions from both participants.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. The exchange contains contributions from both participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 11,
+          "neutral_text": "A conversation includes contributions from its participants. Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. Participants take part in the same conversation.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 12,
+          "neutral_text": "A conversation includes contributions from its participants. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. The conversation has a participant on each side.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 13,
+          "neutral_text": "A conversation includes contributions from its participants. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. A contribution forms part of a conversation.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 14,
+          "neutral_text": "A conversation includes contributions from its participants. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. The participants are engaged in an exchange.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 15,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. A reply follows a contribution from another participant.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. A reply follows a contribution from another participant.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. A reply follows a contribution from another participant.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 16,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. The exchange contains contributions from both participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. The exchange contains contributions from both participants.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. The exchange contains contributions from both participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 17,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. Participants take part in the same conversation.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 18,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. The conversation has a participant on each side.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 19,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. A contribution forms part of a conversation.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 20,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. The participants are engaged in an exchange.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 21,
+          "neutral_text": "A reply follows a contribution from another participant. The exchange contains contributions from both participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. The exchange contains contributions from both participants.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. The exchange contains contributions from both participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 22,
+          "neutral_text": "A reply follows a contribution from another participant. Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. Participants take part in the same conversation.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 23,
+          "neutral_text": "A reply follows a contribution from another participant. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. The conversation has a participant on each side.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 24,
+          "neutral_text": "A reply follows a contribution from another participant. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. A contribution forms part of a conversation.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 25,
+          "neutral_text": "A reply follows a contribution from another participant. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. The participants are engaged in an exchange.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 26,
+          "neutral_text": "The exchange contains contributions from both participants. Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants. Participants take part in the same conversation.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants. Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 27,
+          "neutral_text": "The exchange contains contributions from both participants. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants. The conversation has a participant on each side.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 28,
+          "neutral_text": "The exchange contains contributions from both participants. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants. A contribution forms part of a conversation.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 29,
+          "neutral_text": "The exchange contains contributions from both participants. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants. The participants are engaged in an exchange.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 30,
+          "neutral_text": "Participants take part in the same conversation. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Participants take part in the same conversation. The conversation has a participant on each side.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: Participants take part in the same conversation. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 31,
+          "neutral_text": "Participants take part in the same conversation. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Participants take part in the same conversation. A contribution forms part of a conversation.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: Participants take part in the same conversation. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 32,
+          "neutral_text": "Participants take part in the same conversation. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Participants take part in the same conversation. The participants are engaged in an exchange.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: Participants take part in the same conversation. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 33,
+          "neutral_text": "The conversation has a participant on each side. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The conversation has a participant on each side. A contribution forms part of a conversation.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: The conversation has a participant on each side. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 34,
+          "neutral_text": "The conversation has a participant on each side. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The conversation has a participant on each side. The participants are engaged in an exchange.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: The conversation has a participant on each side. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 35,
+          "neutral_text": "A contribution forms part of a conversation. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A contribution forms part of a conversation. The participants are engaged in an exchange.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: A contribution forms part of a conversation. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        }
+      ],
+      "case_id": "control_dev_002",
+      "neutral_condition": "N_style",
+      "reference_condition": "C1",
+      "reference_prompt": {
+        "conditioning_text": "Speaker context: The speaker favors formal wording and complete sentences in ordinary conversation.",
+        "current_question": "Where does Samara currently live?",
+        "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker context: The speaker favors formal wording and complete sentences in ordinary conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+        "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+      }
+    },
+    {
+      "candidates": [
+        {
+          "candidate_index": 0,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: I did not say.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: I did not say.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: I did not say.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 1,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: I did not name it.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: I did not name it.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: I did not name it.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 2,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: The city was not named.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: The city was not named.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: The city was not named.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 3,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: The city was not specified then.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: The city was not specified then.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: The city was not specified then.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 4,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: No city was stated then.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: No city was stated then.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: No city was stated then.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 5,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: I had not specified the city.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: I had not specified the city.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: I had not specified the city.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 6,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: The location was not mentioned.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: The location was not mentioned.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: The location was not mentioned.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        },
+        {
+          "candidate_index": 7,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: I had not named the city at that point.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: I had not named the city at that point.",
+            "current_question": "Where does Samara currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: I had not named the city at that point.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+          }
+        }
+      ],
+      "case_id": "control_dev_002",
+      "neutral_condition": "N_history",
+      "reference_condition": "C3",
+      "reference_prompt": {
+        "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: In Bath at the time.",
+        "current_question": "Where does Samara currently live?",
+        "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: In Bath at the time.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:",
+        "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+      }
+    },
+    {
+      "candidates": [
+        {
+          "candidate_index": 0,
+          "neutral_text": "A conversation includes contributions from its participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 1,
+          "neutral_text": "Each contribution belongs to the ongoing exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 2,
+          "neutral_text": "A reply follows a contribution from another participant.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 3,
+          "neutral_text": "The exchange contains contributions from both participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 4,
+          "neutral_text": "Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Participants take part in the same conversation.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 5,
+          "neutral_text": "The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The conversation has a participant on each side.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 6,
+          "neutral_text": "A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A contribution forms part of a conversation.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 7,
+          "neutral_text": "The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The participants are engaged in an exchange.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 8,
+          "neutral_text": "A conversation includes contributions from its participants. Each contribution belongs to the ongoing exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. Each contribution belongs to the ongoing exchange.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. Each contribution belongs to the ongoing exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 9,
+          "neutral_text": "A conversation includes contributions from its participants. A reply follows a contribution from another participant.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. A reply follows a contribution from another participant.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. A reply follows a contribution from another participant.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 10,
+          "neutral_text": "A conversation includes contributions from its participants. The exchange contains contributions from both participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. The exchange contains contributions from both participants.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. The exchange contains contributions from both participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 11,
+          "neutral_text": "A conversation includes contributions from its participants. Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. Participants take part in the same conversation.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 12,
+          "neutral_text": "A conversation includes contributions from its participants. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. The conversation has a participant on each side.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 13,
+          "neutral_text": "A conversation includes contributions from its participants. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. A contribution forms part of a conversation.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 14,
+          "neutral_text": "A conversation includes contributions from its participants. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A conversation includes contributions from its participants. The participants are engaged in an exchange.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A conversation includes contributions from its participants. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 15,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. A reply follows a contribution from another participant.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. A reply follows a contribution from another participant.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. A reply follows a contribution from another participant.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 16,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. The exchange contains contributions from both participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. The exchange contains contributions from both participants.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. The exchange contains contributions from both participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 17,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. Participants take part in the same conversation.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 18,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. The conversation has a participant on each side.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 19,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. A contribution forms part of a conversation.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 20,
+          "neutral_text": "Each contribution belongs to the ongoing exchange. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Each contribution belongs to the ongoing exchange. The participants are engaged in an exchange.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: Each contribution belongs to the ongoing exchange. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 21,
+          "neutral_text": "A reply follows a contribution from another participant. The exchange contains contributions from both participants.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. The exchange contains contributions from both participants.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. The exchange contains contributions from both participants.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 22,
+          "neutral_text": "A reply follows a contribution from another participant. Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. Participants take part in the same conversation.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 23,
+          "neutral_text": "A reply follows a contribution from another participant. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. The conversation has a participant on each side.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 24,
+          "neutral_text": "A reply follows a contribution from another participant. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. A contribution forms part of a conversation.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 25,
+          "neutral_text": "A reply follows a contribution from another participant. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A reply follows a contribution from another participant. The participants are engaged in an exchange.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A reply follows a contribution from another participant. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 26,
+          "neutral_text": "The exchange contains contributions from both participants. Participants take part in the same conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants. Participants take part in the same conversation.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants. Participants take part in the same conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 27,
+          "neutral_text": "The exchange contains contributions from both participants. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants. The conversation has a participant on each side.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 28,
+          "neutral_text": "The exchange contains contributions from both participants. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants. A contribution forms part of a conversation.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 29,
+          "neutral_text": "The exchange contains contributions from both participants. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The exchange contains contributions from both participants. The participants are engaged in an exchange.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: The exchange contains contributions from both participants. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 30,
+          "neutral_text": "Participants take part in the same conversation. The conversation has a participant on each side.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Participants take part in the same conversation. The conversation has a participant on each side.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: Participants take part in the same conversation. The conversation has a participant on each side.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 31,
+          "neutral_text": "Participants take part in the same conversation. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Participants take part in the same conversation. A contribution forms part of a conversation.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: Participants take part in the same conversation. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 32,
+          "neutral_text": "Participants take part in the same conversation. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: Participants take part in the same conversation. The participants are engaged in an exchange.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: Participants take part in the same conversation. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 33,
+          "neutral_text": "The conversation has a participant on each side. A contribution forms part of a conversation.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The conversation has a participant on each side. A contribution forms part of a conversation.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: The conversation has a participant on each side. A contribution forms part of a conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 34,
+          "neutral_text": "The conversation has a participant on each side. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: The conversation has a participant on each side. The participants are engaged in an exchange.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: The conversation has a participant on each side. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 35,
+          "neutral_text": "A contribution forms part of a conversation. The participants are engaged in an exchange.",
+          "prompt": {
+            "conditioning_text": "Speaker context: A contribution forms part of a conversation. The participants are engaged in an exchange.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: A contribution forms part of a conversation. The participants are engaged in an exchange.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        }
+      ],
+      "case_id": "control_dev_003",
+      "neutral_condition": "N_style",
+      "reference_condition": "C1",
+      "reference_prompt": {
+        "conditioning_text": "Speaker context: The speaker sometimes uses the word certainly when acknowledging a request.",
+        "current_question": "Where does Devon currently live?",
+        "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker context: The speaker sometimes uses the word certainly when acknowledging a request.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+        "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+      }
+    },
+    {
+      "candidates": [
+        {
+          "candidate_index": 0,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: I did not say.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: I did not say.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: I did not say.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 1,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: I did not name it.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: I did not name it.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: I did not name it.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 2,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: The city was not named.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: The city was not named.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: The city was not named.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 3,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: The city was not specified then.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: The city was not specified then.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: The city was not specified then.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 4,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: No city was stated then.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: No city was stated then.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: No city was stated then.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 5,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: I had not specified the city.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: I had not specified the city.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: I had not specified the city.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 6,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: The location was not mentioned.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: The location was not mentioned.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: The location was not mentioned.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        },
+        {
+          "candidate_index": 7,
+          "neutral_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: I had not named the city at that point.",
+          "prompt": {
+            "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: I had not named the city at that point.",
+            "current_question": "Where does Devon currently live?",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: I had not named the city at that point.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+            "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+          }
+        }
+      ],
+      "case_id": "control_dev_003",
+      "neutral_condition": "N_history",
+      "reference_condition": "C3",
+      "reference_prompt": {
+        "conditioning_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: In Exeter at the time.",
+        "current_question": "Where does Devon currently live?",
+        "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nHistorical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: In Exeter at the time.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:",
+        "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+      }
+    }
+  ],
+  "prompt_template_version": "control_candidate_prompt_v1_dev",
+  "scope": "DEVELOPMENT ONLY; not approved interventions or a P1 dataset",
+  "selection": "All three new invented development cases; all 36 style and 8 history candidates per case",
+  "selection_rule": "Enumerate all frozen candidates, choose first exact match or smallest absolute difference; tolerance zero",
+  "semantic_limitations": [
+    "Conversation metadiscourse may cue a style even without formatting repetition",
+    "History non-disclosure replies may cue abstention; no fact-equated format identification",
+    "The header change is a separate template intervention and does not repair old experiments"
+  ],
+  "token_tolerance": 0
+}

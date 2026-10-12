@@ -1,3 +1,5 @@
+> **Current assessment — 2026-10-12T20:13:26.793933+00:00:** Human annotation **PASS, 40/40 completed**; final review is AI-assisted and not blind. Semantic-control validity remains **PARTIAL / resolution OPEN**; researcher overall ratings are PASS 0 / PARTIAL 40 / FAILED 0. Overall **P0 PARTIAL; P1 NOT STARTED**. See the [current control acceptance report](P0_control_acceptance_report.md) and [researcher annotation report](P0_researcher_annotation_report.md). Tests: **263 passed**. All earlier status/readiness statements below are preserved dated history, including earlier 0/40 review counts.
+
 # P0 真实推理准备与环境恢复报告
 
 **Latest update:** the [English methodology acceptance report](P0_methodology_acceptance_report.md) and completion addendum at the end record 118 preserved responses and overall P0 PARTIAL. The earlier session below is retained as history.

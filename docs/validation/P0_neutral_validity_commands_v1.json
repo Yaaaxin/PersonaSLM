@@ -1,0 +1,183 @@
+{
+  "commands": [
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_validation.py",
+        "attestation"
+      ],
+      "duration_seconds": 0.16424109999206848,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T19:57:17.974411+00:00",
+      "log_path": "results/p0_neutral_validity/20261012T195226/engineering/attestation.json",
+      "log_sha256": "8fb7f545582116df8aa4bb9203f402b2f7c88d7f90f8597b204a0ca89e2f1b15",
+      "output_scope": "Full stdout/stderr retained locally; use hash to bind the evidence",
+      "started_utc": "2026-10-12T19:57:17.810175+00:00"
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_validation.py",
+        "delivery"
+      ],
+      "duration_seconds": 44.65260689999559,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:11:08.494891+00:00",
+      "log_path": "results/p0_neutral_validity/20261012T195226/engineering/delivery_audit.json",
+      "log_sha256": "5c4f017f6de2b28d591aae81937a87884165244c15c58d9d2ecd3a0195be5dc0",
+      "output_scope": "Full stdout/stderr retained locally; use hash to bind the evidence",
+      "started_utc": "2026-10-12T20:10:23.842281+00:00"
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_validation.py",
+        "freeze"
+      ],
+      "duration_seconds": 0.26935000001685694,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T19:56:58.973632+00:00",
+      "log_path": "results/p0_neutral_validity/20261012T195226/engineering/freeze.json",
+      "log_sha256": "35a63d7c4e0fd422e41e7e63f3b441cdade7b6eeb57bba0079fff0bd286f3dda",
+      "output_scope": "Full stdout/stderr retained locally; use hash to bind the evidence",
+      "started_utc": "2026-10-12T19:56:58.704305+00:00"
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "duration_seconds": 10.637935799983097,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:08:53.488847+00:00",
+      "log_path": "results/p0_neutral_validity/20261012T195226/engineering/full_tests.json",
+      "log_sha256": "85d6ee64c4fc0cd6dc91226ad36fa78770262f668e28e5eeddc1629f09a729f0",
+      "output_scope": "Full stdout/stderr retained locally; use hash to bind the evidence",
+      "started_utc": "2026-10-12T20:08:42.850912+00:00"
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "personaslm.researcher_review",
+        "--template",
+        "docs/validation/P0_neutral_annotation_form_v3.json",
+        "--input",
+        "docs/validation/PersonaSLM_P0_PreReview_Completed.csv",
+        "--freeze",
+        "results/p0_validation/20261012T164648/prompts_frozen_v3.json",
+        "--attestation",
+        "results/p0_neutral_validity/20261012T195226/materials/researcher_attestation.json",
+        "--output",
+        "docs/validation/P0_researcher_verified_annotation_v1.json"
+      ],
+      "duration_seconds": 0.14462919998914003,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T19:58:17.489305+00:00",
+      "log_path": "results/p0_neutral_validity/20261012T195226/engineering/import_review.json",
+      "log_sha256": "6c185255d1064facf74e52e9f58d4bc66cf5d612ab94be118b90d1f8a13ba236",
+      "output_scope": "Full stdout/stderr retained locally; use hash to bind the evidence",
+      "started_utc": "2026-10-12T19:58:17.344664+00:00"
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_report.py"
+      ],
+      "duration_seconds": 0.14170479998574592,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:13:26.828693+00:00",
+      "log_path": "results/p0_neutral_validity/20261012T195226/engineering/report_update.json",
+      "log_sha256": "f75ffe4ed561fd1a7561cc3a2f8fa07b84a2039e457ce2f2fb8dc3b280fbda20",
+      "output_scope": "Full stdout/stderr retained locally; use hash to bind the evidence",
+      "started_utc": "2026-10-12T20:13:26.686985+00:00"
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_validation.py",
+        "resolution-packet"
+      ],
+      "duration_seconds": 0.15554059998248704,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:02:59.238218+00:00",
+      "log_path": "results/p0_neutral_validity/20261012T195226/engineering/resolution_packet.json",
+      "log_sha256": "4f8c25dbbc7a5194fd882d94581c3efdd9eaa40cb1421b3c0e26f1bfca66b484",
+      "output_scope": "Full stdout/stderr retained locally; use hash to bind the evidence",
+      "started_utc": "2026-10-12T20:02:59.082680+00:00"
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_researcher_review.py",
+        "tests/test_control_candidates.py"
+      ],
+      "duration_seconds": 0.628613899985794,
+      "exit_code": 1,
+      "finished_utc": "2026-10-12T19:58:26.116822+00:00",
+      "log_path": "results/p0_neutral_validity/20261012T195226/engineering/targeted_tests.json",
+      "log_sha256": "c3f5c1a621629158125852878a8783d899e932dc7dc2e431c61d2ecc71476ea0",
+      "output_scope": "Full stdout/stderr retained locally; use hash to bind the evidence",
+      "started_utc": "2026-10-12T19:58:25.488209+00:00"
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_researcher_review.py",
+        "tests/test_control_candidates.py"
+      ],
+      "duration_seconds": 0.5681792999967001,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T19:58:44.116041+00:00",
+      "log_path": "results/p0_neutral_validity/20261012T195226/engineering/targeted_tests_fixed.json",
+      "log_sha256": "5a978647e4bd41544168da633aec9e94d880a44cc3efee323bedc473b63d6c87",
+      "output_scope": "Full stdout/stderr retained locally; use hash to bind the evidence",
+      "started_utc": "2026-10-12T19:58:43.547862+00:00"
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_validation.py",
+        "tokenize"
+      ],
+      "duration_seconds": 16.348500799998874,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T19:57:23.589616+00:00",
+      "log_path": "results/p0_neutral_validity/20261012T195226/engineering/tokenize.json",
+      "log_sha256": "61e5e639929d225dd2e2570b54e42220765ceec60c9b4b300377eccc0b739022",
+      "output_scope": "Full stdout/stderr retained locally; use hash to bind the evidence",
+      "started_utc": "2026-10-12T19:57:07.241109+00:00"
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_validation.py",
+        "updated-review"
+      ],
+      "duration_seconds": 0.21044560000882484,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:01:03.808766+00:00",
+      "log_path": "results/p0_neutral_validity/20261012T195226/engineering/updated_review.json",
+      "log_sha256": "e7d3fa3ef081cd400b989ae8586b81633ca5faafa7c51ebe78dddb30f7b087f0",
+      "output_scope": "Full stdout/stderr retained locally; use hash to bind the evidence",
+      "started_utc": "2026-10-12T20:01:03.598319+00:00"
+    }
+  ],
+  "created_utc": "2026-10-12T20:14:40.276741+00:00",
+  "scope": "Completed captures at export time; this export and final checks have separate local captures",
+  "uncaptured_actions": [
+    "Initial Get-Location/Get-Date/AGENTS/Git status and scoped rg/file reads are in the tool transcript",
+    "Read-only inline Python inspection failed due to Windows shell quoting; inspection was rerun with stdin/file scripts",
+    "Preparation inventoried tracked source and 21 journals; baseline created_utc records completion, not invented command-start time",
+    "Source/doc patches use the patch interface; Git diffs and source/run hashes preserve their contents",
+    "Web accesses are indexed separately with actual query strings and explicitly unavailable per-query timestamps"
+  ]
+}
