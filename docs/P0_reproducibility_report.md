@@ -1,5 +1,7 @@
 # P0 Reproducibility Report
 
+**Current final-methodology update:** 19 historical inventories unchanged plus one new boundary journal; 16 generation runs / 134 responses reconstructed twice. See the final-methodology addendum below and [current acceptance boundaries](P0_remaining_blockers.md). Earlier snapshots are retained.
+
 **Latest update:** the English completion addendum at the end records 19 verified journals and 15 generation runs / 118 responses reconstructed twice. Overall historical provenance remains PARTIAL. Earlier observations below are preserved.
 
 2026-10-12；Research Protocol v1.1。研究题目：**Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models**。
@@ -100,3 +102,23 @@ Recorded entry points use the project virtual environment: `tools/p0_methodology
 The observed 96-token prefixes match both longer outputs for all six pairs; the 192-token prefixes also match 256-token outputs. This is a measurement in this session, not a cross-platform determinism promise. No heavy test suite or full-journal audit ran concurrently with generation; subsequent tests and full integrity checking overlapped, so those command durations are not an isolated performance measurement. Sequential budget order and uncontrolled system state limit latency interpretation.
 
 All exact captured commands, times, stdout/stderr, exit codes and intermediate failures are linked in [P0_methodology_commands.json](validation/P0_methodology_commands.json). Read-only inspections and patch errors without exact individual timing are explicitly distinguished in that file's engineering notes and the development log. No timestamp was invented for an uncaptured action.
+
+## 2026-10-12 Final Methodological Validation Addendum
+
+Recorded 2026-10-12T18:43:52.286335+00:00. Historical sections retained.
+
+New local evidence root: `results/p0_methodological_final/20261012T181718/`. **Engineering** commands/tests/errors are under `engineering/`; immutable model **experiment** journals and replays are under `experiments/`; freezes, evaluation and source sidecars are under `materials/`. The old result directories were read only.
+
+New real run: `20261012T182432-ea39ea100d8c449ab05b04cf80e6b78c`. Its manifest records Git HEAD `2b0fc5ee04f05af0fbb878fd71356a6afeaa6865`, actual dirty state, exact generation-time source/tool/data snapshots, frozen plan/configuration, prompt versions and hashes. Each cell retains real tokenizer IDs, request IDs, raw HTTP/native output, native settings, generated IDs/count, stop reason/stopping word, latency, legacy parse, versioned boundary parse and excluded tail. Evaluation is explicitly Not Applicable for this termination diagnostic. Model/backend identities are the unchanged pinned GGUF SHA and build 11573 executable SHA; preflight/postflight and detailed CPU logs are retained.
+
+All 19 historical byte-level file inventories match the previously chain-verified inventory, including the original blocked run and failed matching attempts. This proof reuses the prior chain verification on byte-identical journals; it does not pretend every old tokenizer event was reparsed this time. The 15 old generation runs were additionally reconstructed twice with identical outputs; the new boundary journal was directly chain-checked and reconstructed twice. Total: 20 journals accounted for, 16 generation runs, 134 responses. See [integrity evidence](validation/P0_final_methodological_integrity.json).
+
+The generation command returned exit 1 after all 16 requests because its subsequent offline audit incorrectly treated 14 startup health 503 responses as failed inference. The journal's execution terminal state is PASS. Corrected offline replay retains the 503 observations, requires successful tokenizer/completion responses, and passes without generation. A separate audit-tool hash identifies the corrected implementation; the generation-time snapshot preserves the original auditor bug. Dedicated regression tests cover startup 503 and rejection of failed completion 503.
+
+The importer initially compared CSV column order with sorted JSON key order. Tests caught 2 failures/191 passes; field-name/uniqueness validation now accepts the valid unchanged schema and rejects material edits. This was an engineering fix, not a fabricated reviewer result. Corrected tests 195 passed in 12.11s. Final tests 195 passed in 9.29s, 0 failed, 0 warnings, exit 0; process wall9.707s. Initial pre-generation tests 157 passed in 8.84s. All failure captures remain.
+
+Raw stopped output means the complete payload actually returned by the backend. A native stop can withhold its delimiter; no invisible continuation is invented. No-stop shadow responses are separately logged actual generations with the same prompt/IDs/settings apart from stop. Full public derived [boundary evidence](validation/P0_response_termination_evidence.json) redacts machine paths, while local originals retain raw bytes and source snapshots. [Evaluation evidence](validation/P0_evaluation_validity_v3.json) records independent fixture/source hashes and all 14 old raw responses with separate versions.
+
+The final analysis-code/source snapshot is retained in `materials/final_source_snapshot.json`. It is explicitly later than the inference snapshot and is not backfilled into that run. Current generated and evaluated-ID limitations are stated accurately: returned output IDs and submitted prompt IDs exist, but independently evaluated input IDs do not. No unsupported interface is required as an acceptance gate.
+
+All actual captured commands and failures are indexed in [P0_final_methodological_commands.json](validation/P0_final_methodological_commands.json). Export completion and later delivery checks remain separate local records. Reproduction must use fresh run/output paths; never repeat an already-started session or overwrite original files. Human imports require a genuine reviewer-provided form, new review-round identifier and new output file. The raw archive remains local for researcher-controlled independent dissemination.

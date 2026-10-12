@@ -1,5 +1,7 @@
 # P0 Final Validation Report
 
+**Current final-methodology update:** 16 new boundary-development responses, 134 preserved responses in total; P0 PARTIAL. The [current blocker classification](P0_remaining_blockers.md) distinguishes mandatory methodology from acceptable limitations and future work. Earlier sessions below remain historical evidence.
+
 **Latest update:** see the [English methodology acceptance report](P0_methodology_acceptance_report.md) and the completion addendum at the end of this file: 118 total recorded generations, overall P0 PARTIAL. The earlier 100-generation session below is preserved as history.
 
 2026-10-12。**Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models**。Research Protocol v1.1；Controlled Empirical NLP Study；长期目标为 Real-Speaker Persona Modeling。
@@ -163,3 +165,19 @@ The 40 historical neutral matches retain zero token difference. A new English CS
 All 19 journals verified; all 15 generation runs / 118 responses reconstructed identically on two passes. All 13 historical inventories stayed unchanged. New manifests record Git SHA `8ffe1fdeb64ccc85182d2ff983b514940ecb6f70`, dirty=true, and exact source/tool/data snapshots. Tests: 147 passed, 0 failed, 0 warnings; exit 0; pytest 18.07s, process 18.937s. The failed intermediate negation regression remains in the command archive.
 
 The [English language-scope addendum](research_protocol_v1.1_language_scope_addendum.md) applies prospectively. Historical experiments and language metadata were not rewritten or translated. Original English synthetic provenance is recorded in the diagnostic freeze. Human semantics, response-boundary validation, independent evaluation adjudication, upstream quantization fidelity, missing evaluated input IDs and historical C0 provenance gaps remain qualified. No P1, LoRA, MimooPet access, commit or push occurred.
+
+## 2026-10-12 Final Methodological Validation Addendum
+
+Recorded 2026-10-12T18:43:52.286335+00:00. Historical sections retained.
+
+**Overall P0: PARTIAL. P1: BLOCKED.** The latest assessment is [Remaining Blockers](P0_remaining_blockers.md), which explicitly separates mandatory methodological blockers from acceptable documented limitations and later research. Natural EOS, a fully reproduced upstream quantization pipeline, and an unsupported backend evaluated-ID interface are not blanket P0 prerequisites.
+
+The response unit remains unresolved across the intended development scope. Four newly authored English cases, disjoint from the historical case IDs/speakers, were frozen before 16 requests at a fixed 96-token budget. T0/T1 use the existing transcript without/with role stops; T2/T3 request a literal end marker without/with its stop. All 16 requests completed. T0/T2/T3 reached 96; T1 stopped at 9/23/9/11 tokens. EOS/EOG 0. Supplementary structure checks pass 2/4 in each of T0/T1 and 0/4 in T2/T3. The original v1 check missed uppercase USER in one ordinary task; its old classifications and raw payloads remain unchanged alongside the supplementary correction. A literal-role challenge also remains invalid; no extra experiments were run to manufacture a pass. See [termination diagnostics](P0_response_termination_diagnostics.md).
+
+A complete reply is operationally a nonempty, bounded assistant turn with no extra role turns or delimiter/content ambiguity, followed by a separate check of whether it completes the requested components. Token limits, punctuation and factual correctness do not alone establish this. Backend string stops are allowable recorded interventions when validated. Current examples support only a restricted observed scope; no online revised case-insensitive/escaping rule has been adopted.
+
+The new [English annotation form v3](P0_neutral_annotation_form_v3.md) exposes case/condition/reference IDs, actual neutral text, full-prompt token counts/differences, evidence and six PASS/FAIL/UNCERTAIN fields plus reviewer notes. All 40 remain blank. The form is unblinded as requested; software imports are versioned, hashed, immutable and traceable. A real empty-form CLI import was rejected without creating a review. Positive import tests are explicitly simulated test doubles, not human judgments.
+
+The new [evaluation v3 audit](P0_evaluation_validity_v3.md) distinguishes Correct, Incorrect, Unverifiable and Not Applicable. Independent synthetic checks cover the six requested categories, inapplicability and conflicting source facts. All 24 declared contract checks pass; a separate regression additionally preserves the v2 foreign-subject failure. Six of 22 development texts expose v2 scope problems. The historical 14 C3 results remain unchanged, with separately saved v3 counts 2 Incorrect/11 Unverifiable/1 Correct. No unsupported claim was silently converted to Incorrect. V3 remains a narrow English residence-claim audit, not general semantic truth or an automatically selected production evaluator.
+
+Mandatory closure: validate the intended reply boundary, complete independent review of all 40 controls and resolve issues, and freeze a scoring unit/policy consistent with that boundary. P1 does not require retrospective human relabeling of every old diagnostic or a perfect general-purpose automatic judge. P0's bounded software checks are useful but do not authorize a scientific comparison yet.

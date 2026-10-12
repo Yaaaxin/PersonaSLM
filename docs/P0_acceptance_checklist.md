@@ -1,5 +1,7 @@
 # P0 验收清单
 
+**Current acceptance boundary:** [P0_remaining_blockers.md](P0_remaining_blockers.md) is the latest A/B/C assessment. Overall PARTIAL; P1 BLOCKED by unresolved reply-unit/control-review/scoring-policy items. Unsupported evaluated-ID arrays and unverified upstream quantization fidelity remain qualified limitations, not standalone gates. Historical tables below are retained.
+
 **Latest decision:** P0 PARTIAL. The [English methodology acceptance table](P0_methodology_acceptance_report.md) and the completion addendum at the end incorporate the budget diagnostic, versioned evaluation audit and pending human review. Earlier tables below are historical snapshots.
 
 ## P0 Final Validation：当前验收

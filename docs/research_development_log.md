@@ -318,3 +318,85 @@ Recorded: 2026-10-12T18:09:44.609195+00:00. The public command index exported 14
 The delivery checker completed at 2026-10-12T18:08:45.316417+00:00 (exit 0): 87 local Markdown links resolve; the old development log is a full prefix; prior protocol/annotation text is retained; AGENTS, the dataset, legacy evaluator/parser/inference and all 9 pre-existing public evidence files match HEAD. It verified 40 blank independent-review items and matching CSV/JSON text, evaluation source hashes, diagnostic-export identity, 7 ignored path classes, no staged changes, and no machine/home paths in the 13 new public documents present at scan time. Full checks and the complete **27-file uncommitted inventory** are in [P0_methodology_delivery_checks.json](validation/P0_methodology_delivery_checks.json). The subsequent delivery-check file contains only relative paths and this factual summary.
 
 `git diff --check` at 18:07:11 UTC returned 0 with no output; `git status --short --branch --untracked-files=all` returned 0 at 18:07:12 UTC. Final read-only Git checks follow this note and are saved to new local command records. All changes remain uncommitted and unstaged; the researcher alone performs commits and pushes.
+
+## 2026-10-12 — P0 Final Methodological Validation
+
+Recorded **2026-10-12T18:43:52.286335+00:00**, UTC, after the actual actions summarized below. Project/paper, Protocolv1.1, Real-Speaker target and English primary language unchanged. Phase: P0 only. Initial environment observation20:17:18.5002461+02:00; clean main tracking origin/main, human-created HEAD `2b0fc5ee04f05af0fbb878fd71356a6afeaa6865`. No network, staging, commit, push, authorship change, P1, LoRA or MimooPet operation was performed.
+
+Read AGENTS, protocol, methodology/final reports and research log first, then source/configuration and original raw records. Initial read-only commands and exact observed baseline are retained in `engineering/initial_actions.json`; individual uncaptured patch/read timestamps are not fabricated.
+
+### Objectives, configurations and actual results
+
+
+**Overall P0: PARTIAL. P1: BLOCKED.** The latest assessment is [Remaining Blockers](P0_remaining_blockers.md), which explicitly separates mandatory methodological blockers from acceptable documented limitations and later research. Natural EOS, a fully reproduced upstream quantization pipeline, and an unsupported backend evaluated-ID interface are not blanket P0 prerequisites.
+
+The response unit remains unresolved across the intended development scope. Four newly authored English cases, disjoint from the historical case IDs/speakers, were frozen before 16 requests at a fixed 96-token budget. T0/T1 use the existing transcript without/with role stops; T2/T3 request a literal end marker without/with its stop. All 16 requests completed. T0/T2/T3 reached 96; T1 stopped at 9/23/9/11 tokens. EOS/EOG 0. Supplementary structure checks pass 2/4 in each of T0/T1 and 0/4 in T2/T3. The original v1 check missed uppercase USER in one ordinary task; its old classifications and raw payloads remain unchanged alongside the supplementary correction. A literal-role challenge also remains invalid; no extra experiments were run to manufacture a pass. See [termination diagnostics](P0_response_termination_diagnostics.md).
+
+A complete reply is operationally a nonempty, bounded assistant turn with no extra role turns or delimiter/content ambiguity, followed by a separate check of whether it completes the requested components. Token limits, punctuation and factual correctness do not alone establish this. Backend string stops are allowable recorded interventions when validated. Current examples support only a restricted observed scope; no online revised case-insensitive/escaping rule has been adopted.
+
+The new [English annotation form v3](P0_neutral_annotation_form_v3.md) exposes case/condition/reference IDs, actual neutral text, full-prompt token counts/differences, evidence and six PASS/FAIL/UNCERTAIN fields plus reviewer notes. All 40 remain blank. The form is unblinded as requested; software imports are versioned, hashed, immutable and traceable. A real empty-form CLI import was rejected without creating a review. Positive import tests are explicitly simulated test doubles, not human judgments.
+
+The new [evaluation v3 audit](P0_evaluation_validity_v3.md) distinguishes Correct, Incorrect, Unverifiable and Not Applicable. Independent synthetic checks cover the six requested categories, inapplicability and conflicting source facts. All 24 declared contract checks pass; a separate regression additionally preserves the v2 foreign-subject failure. Six of 22 development texts expose v2 scope problems. The historical 14 C3 results remain unchanged, with separately saved v3 counts 2 Incorrect/11 Unverifiable/1 Correct. No unsupported claim was silently converted to Incorrect. V3 remains a narrow English residence-claim audit, not general semantic truth or an automatically selected production evaluator.
+
+Mandatory closure: validate the intended reply boundary, complete independent review of all 40 controls and resolve issues, and freeze a scoring unit/policy consistent with that boundary. P1 does not require retrospective human relabeling of every old diagnostic or a perfect general-purpose automatic judge. P0's bounded software checks are useful but do not authorize a scientific comparison yet.
+
+
+### Reproducibility and error recovery
+
+
+New local evidence root: `results/p0_methodological_final/20261012T181718/`. **Engineering** commands/tests/errors are under `engineering/`; immutable model **experiment** journals and replays are under `experiments/`; freezes, evaluation and source sidecars are under `materials/`. The old result directories were read only.
+
+New real run: `20261012T182432-ea39ea100d8c449ab05b04cf80e6b78c`. Its manifest records Git HEAD `2b0fc5ee04f05af0fbb878fd71356a6afeaa6865`, actual dirty state, exact generation-time source/tool/data snapshots, frozen plan/configuration, prompt versions and hashes. Each cell retains real tokenizer IDs, request IDs, raw HTTP/native output, native settings, generated IDs/count, stop reason/stopping word, latency, legacy parse, versioned boundary parse and excluded tail. Evaluation is explicitly Not Applicable for this termination diagnostic. Model/backend identities are the unchanged pinned GGUF SHA and build 11573 executable SHA; preflight/postflight and detailed CPU logs are retained.
+
+All 19 historical byte-level file inventories match the previously chain-verified inventory, including the original blocked run and failed matching attempts. This proof reuses the prior chain verification on byte-identical journals; it does not pretend every old tokenizer event was reparsed this time. The 15 old generation runs were additionally reconstructed twice with identical outputs; the new boundary journal was directly chain-checked and reconstructed twice. Total: 20 journals accounted for, 16 generation runs, 134 responses. See [integrity evidence](validation/P0_final_methodological_integrity.json).
+
+The generation command returned exit 1 after all 16 requests because its subsequent offline audit incorrectly treated 14 startup health 503 responses as failed inference. The journal's execution terminal state is PASS. Corrected offline replay retains the 503 observations, requires successful tokenizer/completion responses, and passes without generation. A separate audit-tool hash identifies the corrected implementation; the generation-time snapshot preserves the original auditor bug. Dedicated regression tests cover startup 503 and rejection of failed completion 503.
+
+The importer initially compared CSV column order with sorted JSON key order. Tests caught 2 failures/191 passes; field-name/uniqueness validation now accepts the valid unchanged schema and rejects material edits. This was an engineering fix, not a fabricated reviewer result. Corrected tests 195 passed in 12.11s. Final tests 195 passed in 9.29s, 0 failed, 0 warnings, exit 0; process wall9.707s. Initial pre-generation tests 157 passed in 8.84s. All failure captures remain.
+
+Raw stopped output means the complete payload actually returned by the backend. A native stop can withhold its delimiter; no invisible continuation is invented. No-stop shadow responses are separately logged actual generations with the same prompt/IDs/settings apart from stop. Full public derived [boundary evidence](validation/P0_response_termination_evidence.json) redacts machine paths, while local originals retain raw bytes and source snapshots. [Evaluation evidence](validation/P0_evaluation_validity_v3.json) records independent fixture/source hashes and all 14 old raw responses with separate versions.
+
+The final analysis-code/source snapshot is retained in `materials/final_source_snapshot.json`. It is explicitly later than the inference snapshot and is not backfilled into that run. Current generated and evaluated-ID limitations are stated accurately: returned output IDs and submitted prompt IDs exist, but independently evaluated input IDs do not. No unsupported interface is required as an acceptance gate.
+
+All actual captured commands and failures are indexed in [P0_final_methodological_commands.json](validation/P0_final_methodological_commands.json). Export completion and later delivery checks remain separate local records. Reproduction must use fresh run/output paths; never repeat an already-started session or overwrite original files. Human imports require a genuine reviewer-provided form, new review-round identifier and new output file. The raw archive remains local for researcher-controlled independent dissemination.
+
+
+### Actual captured commands
+
+Every Python command uses `.\.venv\Scripts\python.exe` through `tools/p0_capture.py --output <new-json> -- <argv>`. Exact argv/stdout/stderr/exit/time are in the listed files under this session's `engineering/` directory. Nonzero exits are retained: the real generation command's post-generation audit failure, two importer unit-test failures, and the deliberate expected empty-form rejection. An expected rejection is not a failed human annotation or failed model generation.
+
+| Record | Actual UTC interval | Exit | Wall seconds |
+|---|---|---:|---:|
+| `tests_before_inference.json` | 2026-10-12T18:24:03.249425+00:00 to 2026-10-12T18:24:12.532180+00:00 | 0 | 9.283 |
+| `freeze_boundary_command.json` | 2026-10-12T18:24:13.116236+00:00 to 2026-10-12T18:24:13.389679+00:00 | 0 | 0.273 |
+| `run_boundary_command.json` | 2026-10-12T18:24:32.068339+00:00 to 2026-10-12T18:26:28.312076+00:00 | 1 | 116.244 |
+| `export_annotation_form_command.json` | 2026-10-12T18:26:42.945785+00:00 to 2026-10-12T18:26:43.074271+00:00 | 0 | 0.128 |
+| `boundary_replay_a_command.json` | 2026-10-12T18:27:54.865937+00:00 to 2026-10-12T18:27:55.307531+00:00 | 0 | 0.442 |
+| `boundary_replay_b_command.json` | 2026-10-12T18:27:54.989195+00:00 to 2026-10-12T18:27:55.421285+00:00 | 0 | 0.432 |
+| `tests_methodological_modules.json` | 2026-10-12T18:30:24.042413+00:00 to 2026-10-12T18:30:36.720773+00:00 | 1 | 12.678 |
+| `tests_corrected_modules.json` | 2026-10-12T18:32:35.575638+00:00 to 2026-10-12T18:32:48.123146+00:00 | 0 | 12.548 |
+| `evaluate_v3_command.json` | 2026-10-12T18:35:41.092780+00:00 to 2026-10-12T18:35:41.298528+00:00 | 0 | 0.206 |
+| `integrity_and_boundary_export_command.json` | 2026-10-12T18:35:41.847096+00:00 to 2026-10-12T18:38:43.980437+00:00 | 0 | 182.133 |
+| `blank_review_rejection_command.json` | 2026-10-12T18:37:23.847772+00:00 to 2026-10-12T18:37:24.000073+00:00 | 1 | 0.152 |
+| `tests_final.json` | 2026-10-12T18:41:53.299343+00:00 to 2026-10-12T18:42:03.006398+00:00 | 0 | 9.707 |
+
+Main executed commands: `tools/p0_turn_boundary.py freeze`, `run`, and two `audit` calls; `-m personaslm.neutral_review export`, and a deliberately rejected blank `import`; `tools/p0_final_methodology.py evaluate` and `inspect`; four `-m pytest -q` runs. The frozen model order, config, prompt texts/hashes and case versions were saved before generation at 18:24:13.295251 UTC. The request budget remained 96 throughout; no stop rule was selected using factual answer quality. Later documentation, export and delivery checks are separately captured as they occur.
+
+Engineering patches added `response_boundary.py`, `boundary_review.py`, `neutral_review.py`, `evaluation_v3.py`, two P0 diagnostic/export tools, independent English fixtures and regression tests. The role-case miss is exposed by supplemental v2 review while the frozen v1 parser remains intact. Exporter code retains raw payloads but redacts machine paths in public copies; read-only inspections of native payloads motivated that redaction before publication. The legacy scorer, v2 scorer, historical parser/inference code and original dataset were not modified. No actual human ratings were entered by the agent.
+
+Documentation updates: methodology/final/reproducibility reports, acceptance cross-reference and this append-only log. New English reports: response termination, evaluation validityv3, annotation formv3 and `P0_remaining_blockers.md`; new public evidence retains full actual outputs, original/new judgments, review materials, inventory proofs and command results. All private configurations, model binaries and raw results remain ignored. Existing reports are dated historical snapshots, not erased contradictions.
+
+Scientific boundaries: new experiments are engineering diagnostics, not Persona-effect estimates. Narrow rule-contract tests do not estimate model accuracy or human annotation validity. Model upstream fidelity, backend missing evaluated IDs, absent old C0 metadata, public raw-archive availability and generalization remain explicit limitations. **P0 PARTIAL; P1 BLOCKED by the specific A-category methodological issues, not by requirements for unsupported external APIs.** Git review/commit/push remain exclusively the researcher's responsibility.
+
+
+### Final delivery checks and preserved delivery-script errors
+
+Recorded 2026-10-12T18:49:55.876776+00:00. Command export at 18:47:09 UTC saved 13 captured commands in the immutable public index. Subsequent delivery checks and their exact command/time/stdout/stderr records remain under this session's `engineering/` directory.
+
+The first delivery script at 18:48:18 UTC exited 1: its prose-spacing step did not recognize the development log's distinct new-entry heading and also touched old prose. The prefix assertion detected this immediately. The exact historical HEAD prefix was restored while retaining the entire new dated entry. The failed script is retained as `verify_delivery_failed_v1.py`. No experimental artifact was changed. The second check at 18:48:50 UTC exited 1 because tool snapshot keys already contained `tools/`, and the checker prepended it again. Correcting this path interpretation required no source or experiment change. Both original failed command captures remain; these are delivery-tool errors, not test/model failures.
+
+The corrected checker completed at 2026-10-12T18:49:04.631126+00:00, exit 0. It verified the unchanged historical development-log prefix, 66 protected tracked files, additions-only tracked report changes, all 40 blank form rows, zero token differences, frozen parser and evaluator/source hashes, 98 local Markdown links, private/model/results ignore rules, no staged changes, and no machine/home paths in newly published materials. Details and the complete **29-file uncommitted inventory** are in [delivery verification](validation/P0_final_methodological_delivery.json). The delivery record points to the successful capture and also lists both failed captures. The ignored engineering checker itself is outside the experimental source snapshot.
+
+`git diff --check` completed at 2026-10-12T18:49:22.614952+00:00, exit 0, with no whitespace errors; Git emitted four CRLF-to-LF working-copy notices, retained in stderr. `git status --short --branch --untracked-files=all` completed at 2026-10-12T18:49:23.249766+00:00, exit 0: five modified tracked documents and 24 untracked deliverables, no staged files. The HEAD remains `2b0fc5ee04f05af0fbb878fd71356a6afeaa6865`.
+
+Final automated test result remains **195 passed, 0 failed, 0 warnings reported, 9.29 seconds, exit 0**; subsequent changes were documentation and an ignored delivery checker only. All prior test and audit failures remain recorded. Overall research acceptance remains PARTIAL; no human review or missing evidence has been converted to PASS. No Git commit or push was executed.

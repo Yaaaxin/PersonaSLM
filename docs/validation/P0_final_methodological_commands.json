@@ -1,0 +1,282 @@
+{
+  "commands": [
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/tests_before_inference.json",
+      "original_sha256": "70ebe6fa8e04176bbfada1154270901a9b0bf9c6813e3ee52b2617f741d8c9db",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "duration_seconds": 9.282753700012108,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:24:12.532180+00:00",
+        "started_utc": "2026-10-12T18:24:03.249425+00:00",
+        "stderr": "",
+        "stdout": "........................................................................ [ 45%]\n........................................................................ [ 91%]\n.............                                                            [100%]\n157 passed in 8.84s\n"
+      }
+    },
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/freeze_boundary_command.json",
+      "original_sha256": "4fbccd324ec2aa8eff1cd523167a9baf5e43e8dba06d49f3e18e10ac6a375e52",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p0_turn_boundary.py",
+          "freeze",
+          "--session",
+          "results/p0_methodological_final/20261012T181718"
+        ],
+        "duration_seconds": 0.2734414000005927,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:24:13.389679+00:00",
+        "started_utc": "2026-10-12T18:24:13.116236+00:00",
+        "stderr": "",
+        "stdout": "{\"frozen_utc\": \"2026-10-12T18:24:13.295251+00:00\", \"planned_requests\": 16, \"case_ids\": [\"boundary_dev_001\", \"boundary_dev_002\", \"boundary_dev_003\", \"boundary_dev_004\"]}\n"
+      }
+    },
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/run_boundary_command.json",
+      "original_sha256": "e69ecf3b29d2e3b35304d8fe8995d42712ce32d0d45d2fc1a1460f46dff4079d",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p0_turn_boundary.py",
+          "run",
+          "--session",
+          "results/p0_methodological_final/20261012T181718"
+        ],
+        "duration_seconds": 116.24373810001998,
+        "exit_code": 1,
+        "finished_utc": "2026-10-12T18:26:28.312076+00:00",
+        "started_utc": "2026-10-12T18:24:32.068339+00:00",
+        "stderr": "Traceback (most recent call last):\n  File \"<LOCAL_ROOT>\\tools\\p0_turn_boundary.py\", line 192, in <module>\n    {\"freeze\": freeze, \"run\": run}[args.stage](require_local_path(args.session))\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<LOCAL_ROOT>\\tools\\p0_turn_boundary.py\", line 108, in run\n    result = audit(journal.directory)\n  File \"<LOCAL_ROOT>\\tools\\p0_turn_boundary.py\", line 130, in audit\n    assert pending[\"route\"] == data[\"route\"] and data[\"status\"] == 200\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+        "stdout": "{\"cell_id\": \"boundary_dev_001/T0\", \"stop\": \"limit\", \"tokens\": 96, \"boundary_status\": \"PASS\"}\n{\"cell_id\": \"boundary_dev_001/T1\", \"stop\": \"word\", \"tokens\": 9, \"boundary_status\": \"PASS\"}\n{\"cell_id\": \"boundary_dev_001/T2\", \"stop\": \"limit\", \"tokens\": 96, \"boundary_status\": \"PARTIAL\"}\n{\"cell_id\": \"boundary_dev_001/T3\", \"stop\": \"limit\", \"tokens\": 96, \"boundary_status\": \"PARTIAL\"}\n{\"cell_id\": \"boundary_dev_002/T0\", \"stop\": \"limit\", \"tokens\": 96, \"boundary_status\": \"PASS\"}\n{\"cell_id\": \"boundary_dev_002/T1\", \"stop\": \"word\", \"tokens\": 23, \"boundary_status\": \"PASS\"}\n{\"cell_id\": \"boundary_dev_002/T2\", \"stop\": \"limit\", \"tokens\": 96, \"boundary_status\": \"PARTIAL\"}\n{\"cell_id\": \"boundary_dev_002/T3\", \"stop\": \"limit\", \"tokens\": 96, \"boundary_status\": \"PARTIAL\"}\n{\"cell_id\": \"boundary_dev_003/T0\", \"stop\": \"limit\", \"tokens\": 96, \"boundary_status\": \"PASS\"}\n{\"cell_id\": \"boundary_dev_003/T1\", \"stop\": \"word\", \"tokens\": 9, \"boundary_status\": \"PASS\"}\n{\"cell_id\": \"boundary_dev_003/T2\", \"stop\": \"limit\", \"tokens\": 96, \"boundary_status\": \"PARTIAL\"}\n{\"cell_id\": \"boundary_dev_003/T3\", \"stop\": \"limit\", \"tokens\": 96, \"boundary_status\": \"PARTIAL\"}\n{\"cell_id\": \"boundary_dev_004/T0\", \"stop\": \"limit\", \"tokens\": 96, \"boundary_status\": \"PARTIAL\"}\n{\"cell_id\": \"boundary_dev_004/T1\", \"stop\": \"word\", \"tokens\": 11, \"boundary_status\": \"PARTIAL\"}\n{\"cell_id\": \"boundary_dev_004/T2\", \"stop\": \"limit\", \"tokens\": 96, \"boundary_status\": \"PARTIAL\"}\n{\"cell_id\": \"boundary_dev_004/T3\", \"stop\": \"limit\", \"tokens\": 96, \"boundary_status\": \"PARTIAL\"}\n"
+      }
+    },
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/export_annotation_form_command.json",
+      "original_sha256": "7a1777475177efbbb9cb4c554ffc1b3b6cbe56c3be79ada83fae00715359969c",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "personaslm.neutral_review",
+          "export",
+          "--freeze",
+          "results/p0_validation/20261012T164648/prompts_frozen_v3.json",
+          "--output-prefix",
+          "docs/validation/P0_neutral_annotation_form_v3"
+        ],
+        "duration_seconds": 0.12848549999762326,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:26:43.074271+00:00",
+        "started_utc": "2026-10-12T18:26:42.945785+00:00",
+        "stderr": "",
+        "stdout": "{\"packet_id\": \"a87566de2026d28f40fdab89a98add5658928975feb251f89a90a4457a468dd1\", \"items\": 40, \"human_reviews_completed\": 0}\n"
+      }
+    },
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/boundary_replay_a_command.json",
+      "original_sha256": "90b7af9ddf3b10cc8cfe6719d8cd09f25a5beedb62cd3d1f2c39a96c990cc430",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p0_turn_boundary.py",
+          "audit",
+          "--run-dir",
+          "results/p0_methodological_final/20261012T181718/experiments/runs/20261012T182432-ea39ea100d8c449ab05b04cf80e6b78c",
+          "--output",
+          "results/p0_methodological_final/20261012T181718/experiments/boundary_audit_a.json"
+        ],
+        "duration_seconds": 0.4415871999808587,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:27:55.307531+00:00",
+        "started_utc": "2026-10-12T18:27:54.865937+00:00",
+        "stderr": "",
+        "stdout": "{\"status\": \"PASS\", \"run_id\": \"20261012T182432-ea39ea100d8c449ab05b04cf80e6b78c\", \"summary\": {\"T0\": {\"cases\": 4, \"boundary\": {\"PASS\": 3, \"PARTIAL\": 1}, \"stop\": {\"limit\": 4}}, \"T1\": {\"cases\": 4, \"boundary\": {\"PASS\": 3, \"PARTIAL\": 1}, \"stop\": {\"word\": 4}}, \"T2\": {\"cases\": 4, \"boundary\": {\"PARTIAL\": 4}, \"stop\": {\"limit\": 4}}, \"T3\": {\"cases\": 4, \"boundary\": {\"PARTIAL\": 4}, \"stop\": {\"limit\": 4}}}}\n"
+      }
+    },
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/boundary_replay_b_command.json",
+      "original_sha256": "4dfb5adce0996dd6a6bb39e0c38b2630a1dd8f458d51576cd8bc6c4535651838",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p0_turn_boundary.py",
+          "audit",
+          "--run-dir",
+          "results/p0_methodological_final/20261012T181718/experiments/runs/20261012T182432-ea39ea100d8c449ab05b04cf80e6b78c",
+          "--output",
+          "results/p0_methodological_final/20261012T181718/experiments/boundary_audit_b.json"
+        ],
+        "duration_seconds": 0.4320910999958869,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:27:55.421285+00:00",
+        "started_utc": "2026-10-12T18:27:54.989195+00:00",
+        "stderr": "",
+        "stdout": "{\"status\": \"PASS\", \"run_id\": \"20261012T182432-ea39ea100d8c449ab05b04cf80e6b78c\", \"summary\": {\"T0\": {\"cases\": 4, \"boundary\": {\"PASS\": 3, \"PARTIAL\": 1}, \"stop\": {\"limit\": 4}}, \"T1\": {\"cases\": 4, \"boundary\": {\"PASS\": 3, \"PARTIAL\": 1}, \"stop\": {\"word\": 4}}, \"T2\": {\"cases\": 4, \"boundary\": {\"PARTIAL\": 4}, \"stop\": {\"limit\": 4}}, \"T3\": {\"cases\": 4, \"boundary\": {\"PARTIAL\": 4}, \"stop\": {\"limit\": 4}}}}\n"
+      }
+    },
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/tests_methodological_modules.json",
+      "original_sha256": "129a23962da8bf00c10d38cdc788e4931c0f762211ec9e52d5fce78c9b95b7ed",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "duration_seconds": 12.678358299977845,
+        "exit_code": 1,
+        "finished_utc": "2026-10-12T18:30:36.720773+00:00",
+        "started_utc": "2026-10-12T18:30:24.042413+00:00",
+        "stderr": "",
+        "stdout": "........................................................................ [ 37%]\n...................................................................F.... [ 74%]\n..F..............................................                        [100%]\n================================== FAILURES ===================================\n____________ test_partial_import_is_versioned_and_cannot_overwrite ____________\n\npacket = (WindowsPath('<LOCAL_ROOT>/results/unit-fixtures/test-a1kp.....}, ...], 'blinding': 'unblinded condition/case identifiers, as requested; no model outputs or scores supplied', ...})\n\n    def test_partial_import_is_versioned_and_cannot_overwrite(packet):\n        root, prefix, template = packet\n        path = submitted(packet)\n        output = root / \"review_1.json\"\n>       result = import_review(prefix.with_suffix(\".json\"), path, output, \"TEST_ROUND\")\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\ntests\\test_neutral_review.py:56: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntemplate_path = WindowsPath('<LOCAL_ROOT>/results/unit-fixtures/test-a1kpx5bu/form.json')\nsubmitted_path = WindowsPath('<LOCAL_ROOT>/results/unit-fixtures/test-a1kpx5bu/simulated_submission.csv')\noutput_path = WindowsPath('<LOCAL_ROOT>/results/unit-fixtures/test-a1kpx5bu/review_1.json')\nreview_round = 'TEST_ROUND'\n\n    def import_review(template_path, submitted_path, output_path, review_round):\n        template_path, submitted_path, output_path = map(require_local_path, (template_path, submitted_path, output_path))\n        if output_path.exists():\n            raise FileExistsError(\"Never overwrite an imported review\")\n        template = json.loads(template_path.read_text(encoding=\"utf-8\"))\n        unsigned = {k: v for k, v in template.items() if k != \"packet_id\"}\n        if template.get(\"form_version\") != VERSION or fingerprint(unsigned) != template.get(\"packet_id\"):\n            raise ValueError(\"Template version or digest mismatch\")\n        if not isinstance(review_round, str) or not review_round.strip():\n            raise ValueError(\"A review-round identifier is required\")\n        with submitted_path.open(encoding=\"utf-8-sig\", newline=\"\") as handle:\n            reader = csv.DictReader(handle)\n            if reader.fieldnames != list(template[\"items\"][0]):\n>               raise ValueError(\"CSV schema differs from the locked form\")\nE               ValueError: CSV schema differs from the locked form\n\nsrc\\personaslm\\neutral_review.py:73: ValueError\n____________ test_empty_master_cannot_be_mistaken_for_human_review ____________\n\npacket = (WindowsPath('<LOCAL_ROOT>/results/unit-fixtures/test-9rpc.....}, ...], 'blinding': 'unblinded condition/case identifiers, as requested; no model outputs or scores supplied', ...})\n\n    def test_empty_master_cannot_be_mistaken_for_human_review(packet):\n        root, prefix, _ = packet\n>       with pytest.raises(ValueError, match=\"No completed review\"):\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE       AssertionError: Regex pattern did not match.\nE         Expected regex: 'No completed review'\nE         Actual message: 'CSV schema differs from the locked form'\n\ntests\\test_neutral_review.py:82: AssertionError\n=========================== short test summary info ===========================\nFAILED tests/test_neutral_review.py::test_partial_import_is_versioned_and_cannot_overwrite\nFAILED tests/test_neutral_review.py::test_empty_master_cannot_be_mistaken_for_human_review\n2 failed, 191 passed in 12.24s\n"
+      }
+    },
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/tests_corrected_modules.json",
+      "original_sha256": "0d1f328fa75ffdffa3b927a6dcf621f1eebe113fb0df1afb511ee4e96c1f7ad2",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "duration_seconds": 12.547510300006252,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:32:48.123146+00:00",
+        "started_utc": "2026-10-12T18:32:35.575638+00:00",
+        "stderr": "",
+        "stdout": "........................................................................ [ 36%]\n........................................................................ [ 73%]\n...................................................                      [100%]\n195 passed in 12.11s\n"
+      }
+    },
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/evaluate_v3_command.json",
+      "original_sha256": "0bbf726720be9a90a9f9510fd0463adce8f8795b89ddfbc55ce124763987c619",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p0_final_methodology.py",
+          "evaluate",
+          "--session",
+          "results/p0_methodological_final/20261012T181718"
+        ],
+        "duration_seconds": 0.20574519998626783,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:35:41.298528+00:00",
+        "started_utc": "2026-10-12T18:35:41.092780+00:00",
+        "stderr": "",
+        "stdout": "{\"historical_v3_counts\": {\"Unverifiable\": 11, \"Incorrect\": 2, \"Correct\": 1}, \"v2_contract_mismatches\": 6, \"development_items\": 22, \"additional_contract_checks\": 2}\n"
+      }
+    },
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/integrity_and_boundary_export_command.json",
+      "original_sha256": "7a483f1e3e5f1c517c5f059c621e25c50e6dd9a49fc518e9e0058b6af5c52e13",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p0_final_methodology.py",
+          "inspect",
+          "--session",
+          "results/p0_methodological_final/20261012T181718"
+        ],
+        "duration_seconds": 182.13334570001462,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:38:43.980437+00:00",
+        "started_utc": "2026-10-12T18:35:41.847096+00:00",
+        "stderr": "",
+        "stdout": "{\"historical_journals_unchanged\": 19, \"new_run\": \"20261012T182432-ea39ea100d8c449ab05b04cf80e6b78c\", \"review_summary\": {\"T0\": {\"reviewed_structure\": {\"PASS\": 2, \"PARTIAL\": 2}, \"tokens_predicted\": [96, 96, 96, 96]}, \"T1\": {\"reviewed_structure\": {\"PASS\": 2, \"PARTIAL\": 2}, \"tokens_predicted\": [9, 23, 9, 11]}, \"T2\": {\"reviewed_structure\": {\"PARTIAL\": 4}, \"tokens_predicted\": [96, 96, 96, 96]}, \"T3\": {\"reviewed_structure\": {\"PARTIAL\": 4}, \"tokens_predicted\": [96, 96, 96, 96]}}, \"total_responses\": 134}\n"
+      }
+    },
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/blank_review_rejection_command.json",
+      "original_sha256": "48ef0a4c02206b242e1570916849dc9a7f467697868dd1f3fd294df2eff36b6c",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "personaslm.neutral_review",
+          "import",
+          "--template",
+          "docs/validation/P0_neutral_annotation_form_v3.json",
+          "--input",
+          "docs/validation/P0_neutral_annotation_form_v3.csv",
+          "--output",
+          "results/p0_methodological_final/20261012T181718/materials/blank_import_should_not_exist.json",
+          "--review-round",
+          "validation_blank_form"
+        ],
+        "duration_seconds": 0.1523031999822706,
+        "exit_code": 1,
+        "finished_utc": "2026-10-12T18:37:24.000073+00:00",
+        "started_utc": "2026-10-12T18:37:23.847772+00:00",
+        "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"<LOCAL_ROOT>\\src\\personaslm\\neutral_review.py\", line 133, in <module>\n    main()\n    ~~~~^^\n  File \"<LOCAL_ROOT>\\src\\personaslm\\neutral_review.py\", line 128, in main\n    result = import_review(args.template, args.input, args.output, args.review_round)\n  File \"<LOCAL_ROOT>\\src\\personaslm\\neutral_review.py\", line 101, in import_review\n    raise ValueError(\"No completed review items; no human judgments imported\")\nValueError: No completed review items; no human judgments imported\n",
+        "stdout": ""
+      }
+    },
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/tests_final.json",
+      "original_sha256": "240f07f92dfcd2632b2b1bb6010217d6cd147b1b69f8905a9659b5c4fb905fb0",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "duration_seconds": 9.707054700003937,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:42:03.006398+00:00",
+        "started_utc": "2026-10-12T18:41:53.299343+00:00",
+        "stderr": "",
+        "stdout": "........................................................................ [ 36%]\n........................................................................ [ 73%]\n...................................................                      [100%]\n195 passed in 9.29s\n"
+      }
+    },
+    {
+      "file": "results/p0_methodological_final/20261012T181718/engineering/write_reports_command.json",
+      "original_sha256": "ee4651a0c5d8a5fee7a2b0737231452272dc98960690a5688201d3fa2aff941b",
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "results/p0_methodological_final/20261012T181718/engineering/write_reports.py"
+        ],
+        "duration_seconds": 0.25060370002756827,
+        "exit_code": 0,
+        "finished_utc": "2026-10-12T18:43:52.466408+00:00",
+        "started_utc": "2026-10-12T18:43:52.215804+00:00",
+        "stderr": "",
+        "stdout": "{\"recorded_utc\": \"2026-10-12T18:43:52.286335+00:00\", \"reports_appended\": 4, \"script_sha256\": \"d7be741c56ee1a2615b8ecb5a04ae4937fb1c7c6d8040b96feb2fc4d3c21ad7d\"}\n"
+      }
+    }
+  ],
+  "created_utc": "2026-10-12T18:47:09.644859+00:00",
+  "initial_actions": {
+    "commands": [
+      "Get-Location",
+      "Get-Date -Format o",
+      "Get-Content AGENTS.md",
+      "Get-Content docs/research_protocol_v1.1.md",
+      "Get-Content docs/P0_methodology_acceptance_report.md",
+      "Get-Content docs/P0_final_validation_report.md",
+      "Get-Content docs/research_development_log.md -Tail 140",
+      "git status --short --branch",
+      "git rev-parse HEAD",
+      "Get-Content source/configuration files",
+      "rg --files tests",
+      "rg --files tools"
+    ],
+    "git_head": "2b0fc5ee04f05af0fbb878fd71356a6afeaa6865",
+    "initial_dirty": false,
+    "initial_environment_time": "2026-10-12T20:17:18.5002461+02:00",
+    "phase": "P0 final methodological validation",
+    "recorded_utc": "2026-10-12T18:20:36.769156+00:00",
+    "result": "Environment operational; venv and prior journals available; human-only Git policy remains in force. Read-only inspection commands returned exit 0. Individual read timestamps not separately captured."
+  },
+  "note": "Export completion and later delivery checks are retained separately locally. Exact times were not fabricated for uncaptured read-only/patch actions."
+}

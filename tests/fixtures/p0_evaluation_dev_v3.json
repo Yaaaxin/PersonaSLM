@@ -1,0 +1,39 @@
+{
+ "version": "p0_evaluation_dev_v3",
+ "language": "en",
+ "provenance": "Independent synthetic software validation items, authored for the narrow residence-claim contract; not model experiments or human annotations.",
+ "case_definition": {
+  "case_id":"evaluation_dev_morgan", "persona_id":"morgan", "evaluation_date":"2026-10-12",
+  "task_type":"temporal_factual", "context":[], "question":"Where does Morgan currently live?",
+  "trusted_evidence":"Morgan currently lives in Bristol.", "expected_answer":"Bristol",
+  "facts":[{"fact_id":"dev_old","attribute":"current_city","value":"Chester","valid_from":"2024-01-01","valid_until":"2026-09-30"},{"fact_id":"dev_now","attribute":"current_city","value":"Bristol","valid_from":"2026-10-01"}],
+  "style_only":"Unused software-test field.", "supplemental_fact":"Unused software-test field.",
+  "history_dialogue":"Historical dialogue (2025-06-15)", "neutral_style":"Unused software-test field.", "neutral_history":"Unused software-test field.",
+  "applicability":{"response_relevance":false,"factual_consistency":true,"temporal_consistency":true,"conversational_coherence":false,"linguistic_fidelity":false,"behavioral_fidelity":false},
+  "split":"p0_synthetic_only"
+ },
+ "cases": [
+  {"category":"Affirmation", "text":"Morgan currently lives in Bristol.", "expected":"Correct"},
+  {"category":"Affirmation", "text":"Bristol.", "expected":"Correct"},
+  {"category":"Negation", "text":"Morgan does not live in Bristol.", "expected":"Incorrect"},
+  {"category":"Negation", "text":"Morgan does not live in Chester.", "expected":"Correct"},
+  {"category":"Contradiction", "text":"Morgan currently lives in Chester.", "expected":"Incorrect"},
+  {"category":"Contradiction", "text":"Morgan lives in Tokyo now.", "expected":"Incorrect"},
+  {"category":"Outdated facts", "text":"Morgan lived in Chester in 2025.", "expected":"Correct"},
+  {"category":"Outdated facts", "text":"Morgan lived in Bristol in 2025.", "expected":"Incorrect"},
+  {"category":"Outdated facts", "text":"Morgan used to live in Chester but Morgan lives in Bristol now.", "expected":"Correct"},
+  {"category":"Multiple conflicting facts", "text":"Morgan currently lives in Bristol and Chester.", "expected":"Incorrect"},
+  {"category":"Multiple conflicting facts", "text":"Morgan lives in Bristol. Morgan lives in Chester.", "expected":"Incorrect"},
+  {"category":"Unverifiable", "text":"Morgan lived in Chester in 2023.", "expected":"Unverifiable"},
+  {"category":"Unverifiable", "text":"Morgan lived in Chester in 2026.", "expected":"Unverifiable"},
+  {"category":"Unverifiable", "text":"Morgan is 42 years old.", "expected":"Unverifiable"},
+  {"category":"Unverifiable", "text":"Morgan lives in Bristol. Morgan is 42 years old.", "expected":"Unverifiable"},
+  {"category":"Unverifiable", "text":"Taylor currently lives in Bristol.", "expected":"Unverifiable"},
+  {"category":"Unverifiable", "text":"Morgan lives near Bristol.", "expected":"Unverifiable"},
+  {"category":"Unverifiable", "text":"Maybe Bristol.", "expected":"Unverifiable"},
+  {"category":"Unverifiable", "text":"If Morgan lives in Bristol, visit later.", "expected":"Unverifiable"},
+  {"category":"Unverifiable", "text":"Morgan lived in Chester in", "expected":"Unverifiable"},
+  {"category":"Unverifiable", "text":"Morgan lives in Bristol on 2026-99-99.", "expected":"Unverifiable"},
+  {"category":"Unverifiable", "text":"", "expected":"Unverifiable"}
+ ]
+}

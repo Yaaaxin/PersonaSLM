@@ -1,0 +1,121 @@
+﻿form_version,language,case_id,condition_id,neutral_text,reference_condition,token_count,reference_token_count,token_difference,prompt_template_version,trusted_evidence,current_question,prompt_sha256,trusted_evidence_hash,material_sha256,answer_leakage,additional_factual_information,contradictory_information,temporal_interference,unintended_linguistic_style,semantic_neutrality,reviewer_notes,reviewer_id,reviewed_utc
+neutral_annotation_form_v3,en,synthetic_001,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,119,119,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Paris.",What city is Alice living in now?,9684eab4f6774e84a3bbb44f00e7ea943213c72936f48db845c51a5bbfe5e5e8,b17e11595dad876818a51668c44c51985ae204e6f4267871bcfa672e6614c7d2,97c11731305fe8213c17e989581c509efb8bcb35cd81855979280dcb7def1a3f,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_001,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,116,116,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Paris.",What city is Alice living in now?,9e575ef9b97f30b47bfc8b0e6d64e3717ab393ca309b36628184b03fbbe29fca,b17e11595dad876818a51668c44c51985ae204e6f4267871bcfa672e6614c7d2,cfc68ceb36f9cf0f9f093d6b377d24909abb833eb985cbe5e7fd7ee4fa473331,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_002,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,119,119,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Rennes.",Where does the person currently live?,cbfdadf834749e2572e0f127d7b236319f2e00a8a733ad9cda020dea849fe261,72e6d74dde50258a4a26c240e725aba46585605623765e39de12e6f99b904c19,4aad4ff72c49e61a5b29e6d854f1b160ef526e2ac5d5a6a630ec8356fb024499,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_002,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,116,116,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Rennes.",Where does the person currently live?,f66958fa4f13db95b82b961a7a4a38e57574b10daf1a6186bb8f1fff8a253a0f,72e6d74dde50258a4a26c240e725aba46585605623765e39de12e6f99b904c19,dd0cac9d77e8e7cfd32fe1bd74a3727a9229ee000926ab5183675f79902e3356,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_003,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,118,118,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Dijon.",Where does Alice currently live?,073805e1f5f7e6fa85ccdecea85fed66cfe554e8058a2fa39d2307a0a8cae99d,4a97c5e9b7de08b3d71d107a855f4b4cf68b34fa069c6458fe46509de9e611e2,dca19371f978be6c099925280eafcfbb2ef16844e4570a215a3f0a833874f973,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_003,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,115,115,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Dijon.",Where does Alice currently live?,85c8f445eb0f2ede5704dfbc048d68a61d33e8abdd09c869444c3cf613fc2c70,4a97c5e9b7de08b3d71d107a855f4b4cf68b34fa069c6458fe46509de9e611e2,37d265454f9dea17c24b59736cebb955ed6ecfd23904401e330908142b449c09,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_004,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,121,121,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Toulouse.",What city is the person living in now?,231a9722217788f4137cbe72b97bf14ca5b98203dcbc324ae3fb4553a9a73f3e,c26689fe6b7c16d450e6aee00f8525442aa5bb4e7760a7f82a141d56dba63771,2282aa0b8656af500b5ff8f6f0fe01b26e9412747a1e7b7ed3da51f3508a1c52,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_004,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,118,118,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Toulouse.",What city is the person living in now?,8fd5aa408ec34eb18ee82b4a063da2a75aa23f794fee41989c8726a8e46653d8,c26689fe6b7c16d450e6aee00f8525442aa5bb4e7760a7f82a141d56dba63771,c88a87c72950545fc1406456a0d7658ef183683359f81aacb5371e8feea5377a,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_005,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,117,117,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Grenoble.",Where does Alice currently live?,0eec2037f0d6a366099aeea0c144f563f659c37618ac5f259b7f428c8b755714,1b587b0901f3148c077a73d9f1d48cb629ad2159cab5f747334e6d829748c12a,a2a57c2822ee0cda12f3a19cf455a0db15399cb7c490ebedfd73f21a83ab5fec,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_005,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,114,114,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Grenoble.",Where does Alice currently live?,ac6458655403c4677387374af647eb714d4a662437cc544dcd8243a51b838d05,1b587b0901f3148c077a73d9f1d48cb629ad2159cab5f747334e6d829748c12a,17c83db7e25043a4ed360f00012931803523e4567280c33dbb5eec2fa69dbda5,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_006,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,120,120,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Rouen.",Where does the person currently live?,89dbcad549a362d984f31d7766944197714e02446a2ac0f59fa7d0bda094081c,51b05d7a2479cd98247d8dabc94658cbc35ae45dc9c8726eaa3b425386cd940d,2de742243ceb5556c9df1fb89c617e913e67b328785e0ee86899d9cf02d15373,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_006,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,117,117,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Rouen.",Where does the person currently live?,4f55bca59bd5409e973831d90dc9454a822144a4387b94dc5e45125041f9f897,51b05d7a2479cd98247d8dabc94658cbc35ae45dc9c8726eaa3b425386cd940d,cbe0f6617bb1e7250ae15923f8a1952159b40913620f1af6b4060257cb80d39f,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_007,N_history,"Historical dialogue (2025-05-12):
+User: This is a text record.
+Alice: The heading is printed above the text.",C3,121,121,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Amiens.",What city is Alice living in now?,1f8a2638243f98282b30a9d0a88a08704d3a7475abd6b38ef54ec572d714eb28,dfa5ac2d09078ee5e38d6306e1b8397f8e9b2298c6cfa6546aa9ae387b7522ab,8f7f211d78f7520898706057e9b6c928578696cc42675d780ecd64a63f24cea6,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_007,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,117,117,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Amiens.",What city is Alice living in now?,e536d0257ddd140b53bc5e3270f4e15dc1ae7564ae75f6948e8f5c0a08b32d07,dfa5ac2d09078ee5e38d6306e1b8397f8e9b2298c6cfa6546aa9ae387b7522ab,10bb346c045413358ea91584c69c57a256de3ce816fba5f28c71ba5061f78fcf,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_008,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,119,119,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Nancy.",Where does the person currently live?,3578a5ed6f65a607cec74ce8d7fae1156d446c9df1907727eab0cb198ea539b4,145a8096896e69c30f8d785d39b04068ece871617dadc78325b6e400eaa0e024,623b3b72efff5168a0fc9abf010c91bc925567d21a7fff9e20c0913031a62a15,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_008,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,116,116,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Nancy.",Where does the person currently live?,4c007257146921082c44d4ffc74b0c605aac3b262dd4c0b4257c1763beb0cac1,145a8096896e69c30f8d785d39b04068ece871617dadc78325b6e400eaa0e024,e22bd4efc777444b0707c703385d14bb908d03cae8d6175212a012d70204c765,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_009,N_history,"Historical dialogue (2025-05-12):
+User: This is a text record.
+Alice: The heading is printed above the text.",C3,118,118,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Orleans.",Where does Alice currently live?,33d6dcbb28b9314d2178003fd7f7f8d8af76cc55227d0378b1956fc1dd4c66a6,83e0d1dae641af7711303ab4d4aec61430c066f87abf1b1ce41b1dcf304ccc2e,5ef9c9319671cddc0f08a93c166eab9e58007020561a6f7f6641a1dc6f33330d,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_009,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,114,114,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Orleans.",Where does Alice currently live?,ebc08783e906cccd076a5d1ad2d22f0da4120a0d2dbc789d692f4f41da9df5b8,83e0d1dae641af7711303ab4d4aec61430c066f87abf1b1ce41b1dcf304ccc2e,29fd0609063badc76cc53a9dc74c3d2a2c1305e93b43af333878ffff22f66275,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_010,N_history,"Historical dialogue (2025-05-12):
+User: This is a text record.
+Alice: The heading is printed above the text.",C3,123,123,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Poitiers.",What city is the person living in now?,5416375d7b2b745370b22695bbbc140eddbb7c31988cda13caf09e6af7878ec8,57695807084111c651753a356c267c15bd59ba7b8869b25706fc94e091f837e1,6c6c96686ace21ce480aa1dede90773211e9f9a2d5dca3cd058438fc55773620,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_010,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,119,119,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Poitiers.",What city is the person living in now?,a0a06a391c026859ab6742035a79ccc953ece8a24beaacbdcb43f81de71fe589,57695807084111c651753a356c267c15bd59ba7b8869b25706fc94e091f837e1,3bdb6c7b9958a3b80afd18dc339533e1625547f0325e90561b75cf49e8e6d995,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_011,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,117,117,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Paris.",Where does Alice currently live?,a542dba12db6f414c6492e76bead2d72d1c01f5ede6a17424249e0ef55c78a12,b17e11595dad876818a51668c44c51985ae204e6f4267871bcfa672e6614c7d2,b79f026821907b02e38ee0b063e5e347cd0f3e9d8a4567c90880f0097e9ade79,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_011,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,114,114,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Paris.",Where does Alice currently live?,52baf304c3c72e954028583857d0d502910ac264affdfd92cad40a80c69aeb89,b17e11595dad876818a51668c44c51985ae204e6f4267871bcfa672e6614c7d2,b2bad2e1d33e6b2358533aacfaf9a1c73c9206e0179057f18c1dbadcea6ec40c,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_012,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,119,119,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Rennes.",Where does the person currently live?,cbfdadf834749e2572e0f127d7b236319f2e00a8a733ad9cda020dea849fe261,72e6d74dde50258a4a26c240e725aba46585605623765e39de12e6f99b904c19,0aa9c16a295a0c83f9b77a6628040c1db60c4004364eed80e227113f09a0ccbe,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_012,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,116,116,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Rennes.",Where does the person currently live?,f66958fa4f13db95b82b961a7a4a38e57574b10daf1a6186bb8f1fff8a253a0f,72e6d74dde50258a4a26c240e725aba46585605623765e39de12e6f99b904c19,6161a814604a2224eeb467ad44ff0c3415dd266c42d55a255f03a0ec16f73c1e,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_013,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,120,120,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Dijon.",What city is Alice living in now?,106acdb2de194215b891b6d8e8fd6ae01500e6718185673a390af8a613ab5001,4a97c5e9b7de08b3d71d107a855f4b4cf68b34fa069c6458fe46509de9e611e2,e00f84f8eec56a82e31187de90bc7193495a4ca81e5f39f2db398b90b7c14dae,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_013,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,117,117,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Dijon.",What city is Alice living in now?,24afd52ba7114a598e0e10d6a7d140b56c70f2cd0eeaf53d3d32d8ac0e365101,4a97c5e9b7de08b3d71d107a855f4b4cf68b34fa069c6458fe46509de9e611e2,b1333512b18353e1e6af7d0b963c3a0a0fd2e52e5841a38454c1c369192937a0,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_014,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,119,119,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Toulouse.",Where does the person currently live?,2040e2258c48cad3e9f22c3088e3a270326ce752637044163aece8b0670ba70c,c26689fe6b7c16d450e6aee00f8525442aa5bb4e7760a7f82a141d56dba63771,c72cb7db8d64fe8aad9657713c2cdc9c885162f9ca8efadd4baff5841c5d8452,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_014,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,116,116,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Toulouse.",Where does the person currently live?,57fcd33edd8df9a22699e552d4b5ac66258e3c789eec9a2b1810323600461784,c26689fe6b7c16d450e6aee00f8525442aa5bb4e7760a7f82a141d56dba63771,162c1e85d3f35784b7c6876bd3776b98f3f633f1fd653c747db2ebe5667ef3e8,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_015,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,117,117,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Grenoble.",Where does Alice currently live?,0eec2037f0d6a366099aeea0c144f563f659c37618ac5f259b7f428c8b755714,1b587b0901f3148c077a73d9f1d48cb629ad2159cab5f747334e6d829748c12a,8e8ba50d123ef17883f9ed9bee3f8e59fa32ddd2c10b2307e0aff19d3050b16b,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_015,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,114,114,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Grenoble.",Where does Alice currently live?,ac6458655403c4677387374af647eb714d4a662437cc544dcd8243a51b838d05,1b587b0901f3148c077a73d9f1d48cb629ad2159cab5f747334e6d829748c12a,6197eab4a42a42e33dfca50997d968261179b0f1b4047f724811ba589d1cda9a,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_016,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,122,122,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Rouen.",What city is the person living in now?,2307543a6e640930b823ecd5989c2f1fafcac28bba8e0177176ed266d98ef7f8,51b05d7a2479cd98247d8dabc94658cbc35ae45dc9c8726eaa3b425386cd940d,74a6dcf0115b071eb8995eacb2968fe723d63cfe37a48b752d4f376519d5adcb,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_016,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,119,119,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Rouen.",What city is the person living in now?,09ff243cb5ed4c3124f132e2721b9f0cd954ced2a7af9a0cf8737ada523d11ce,51b05d7a2479cd98247d8dabc94658cbc35ae45dc9c8726eaa3b425386cd940d,6bd79f19211c65338c4799f744839819c255a8706d2e962e3d44b2a27d21e014,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_017,N_history,"Historical dialogue (2025-05-12):
+User: This is a text record.
+Alice: The heading is printed above the text.",C3,119,119,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Amiens.",Where does Alice currently live?,802ebff58d8723ab217855498db6293be081ce7f39b84a6571ece9a01134354a,dfa5ac2d09078ee5e38d6306e1b8397f8e9b2298c6cfa6546aa9ae387b7522ab,02124fb4dac9b7a89f13bc97a8e892ab0d114cdca02fc820566ba4e663f7733e,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_017,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,115,115,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Amiens.",Where does Alice currently live?,8edb34d313c2fb953c78a6313f296ce503a76ef87c0cacb64f7ee26ca9bcbedc,dfa5ac2d09078ee5e38d6306e1b8397f8e9b2298c6cfa6546aa9ae387b7522ab,063c8d459f6e8a3cb487c8945268c13fb78a6fbf6bfa0f198126b84aa293389d,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_018,N_history,"Historical dialogue (2025-05-12):
+User: The page is plain.
+Alice: The heading is printed above the text.",C3,119,119,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Nancy.",Where does the person currently live?,3578a5ed6f65a607cec74ce8d7fae1156d446c9df1907727eab0cb198ea539b4,145a8096896e69c30f8d785d39b04068ece871617dadc78325b6e400eaa0e024,872c600e36f7aa6d3ee84a04c50c8d3df1f8de378eed54e55849112329adcc30,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_018,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,116,116,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Nancy.",Where does the person currently live?,4c007257146921082c44d4ffc74b0c605aac3b262dd4c0b4257c1763beb0cac1,145a8096896e69c30f8d785d39b04068ece871617dadc78325b6e400eaa0e024,47f221d67081c58776e1d552889c3df22f2b6cb776cd3a66bfe8929e7739b48c,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_019,N_history,"Historical dialogue (2025-05-12):
+User: This is a text record.
+Alice: The heading is printed above the text.",C3,120,120,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Orleans.",What city is Alice living in now?,f9930f5e24d7d6f6ea31259880ebc4fb12a56eca833544c9db42fb299a750235,83e0d1dae641af7711303ab4d4aec61430c066f87abf1b1ce41b1dcf304ccc2e,968001c63d3ab51d58b90809135d3fb59a089df21555e6dcb5dc4ade11a8ba9a,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_019,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,116,116,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Alice currently lives in Orleans.",What city is Alice living in now?,4344f216a4d846fb573f1ab25c97d588b78fdffc4d6f7c5b68da4db83ffdbb66,83e0d1dae641af7711303ab4d4aec61430c066f87abf1b1ce41b1dcf304ccc2e,58d7fc48bd2ae98a5097e0ae6300c60fb646aef7d2240de5f120ecf7f4438bc2,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_020,N_history,"Historical dialogue (2025-05-12):
+User: This is a text record.
+Alice: The heading is printed above the text.",C3,121,121,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Poitiers.",Where does the person currently live?,a7d4a517b6837d6386f077ace3aa3b3b87b0173843be81f0a3cabfb466132997,57695807084111c651753a356c267c15bd59ba7b8869b25706fc94e091f837e1,d81d69a650ca227623d91b512200a28a9b5c1cf6ae8dd3e3dc276deb131237f5,,,,,,,,,
+neutral_annotation_form_v3,en,synthetic_020,N_style,Speaker style profile: The page is plain. This is a text record. The heading is printed above the text. The heading is printed above the text.,C1,117,117,0,transcript_base_v1,"TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): the person currently lives in Poitiers.",Where does the person currently live?,a81fb205a40e897b4bf7b5f7671515eaa16e9eba778e9300e8c419fd60db77ba,57695807084111c651753a356c267c15bd59ba7b8869b25706fc94e091f837e1,834c719c295654264bfb62cfc904e9e7656968e70744ccba5d02b63191f152e4,,,,,,,,,

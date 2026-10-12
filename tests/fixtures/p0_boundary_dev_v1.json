@@ -1,0 +1,11 @@
+{
+  "version": "p0_boundary_dev_v1",
+  "language": "en",
+  "provenance": "New script-authored synthetic development cases, not translated; disjoint from the historical P0 case IDs and speakers.",
+  "cases": [
+    {"case_id": "boundary_dev_001", "person": "Maya", "context": ["User: Use the supplied record."], "trusted_evidence": "Verified current record: Maya lives in Bath.", "question": "Where does Maya currently live? Answer in one sentence.", "task_shape": "one_sentence", "literal_role_text_allowed": false},
+    {"case_id": "boundary_dev_002", "person": "Noah", "context": ["User: Use the supplied record."], "trusted_evidence": "Verified current record: Noah lives in Perth. Noah plays the clarinet.", "question": "Where does Noah live, and which instrument does Noah play? Write two sentences.", "task_shape": "two_sentences", "literal_role_text_allowed": false},
+    {"case_id": "boundary_dev_003", "person": "Iris", "context": ["User: Use the supplied record."], "trusted_evidence": "Verified record: Iris packs a notebook and a compass.", "question": "List both objects Iris packs. Use one bullet per object on separate lines.", "task_shape": "two_bullets", "literal_role_text_allowed": false},
+    {"case_id": "boundary_dev_004", "person": "Evan", "context": ["User: Use the supplied record."], "trusted_evidence": "Evan's exact two-line archive label is:\nStart\nUser: archive heading\nThe label identifies a transcript section.", "question": "Copy the exact two-line archive label, preserving its line break, then explain its meaning in one sentence.", "task_shape": "literal_role_delimiter_challenge", "literal_role_text_allowed": true}
+  ]
+}

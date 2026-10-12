@@ -1,0 +1,426 @@
+{
+  "created_utc": "2026-10-12T18:38:43.954934+00:00",
+  "generation_runs_reconstructed_twice": 16,
+  "journals_accounted_for": 20,
+  "new_run": {
+    "cases": 16,
+    "journal_status": "PASS",
+    "manifest_sha256": "14c42c78d48a0930f75079a741cbf583cb6b674e4660c3b5dfbeb095dd3dec7d",
+    "reconstruction_identical": true,
+    "run_id": "20261012T182432-ea39ea100d8c449ab05b04cf80e6b78c",
+    "terminal_hash": "53cf00104da2193b4574161a9d17f6e7189de5b0ee2b8fd2c9a0d0fba7018560"
+  },
+  "prior_integrity_report_sha256": "26d4f5d44efc0155bf9330df0406c2a8d9d68506d7cbc326969058b1eea6633b",
+  "prior_journals": [
+    {
+      "file_inventory_sha256": "6f68108c3ca95e818c94751262753d4b5fc1572fb413b157f09394f32c9dce92",
+      "previous_terminal": {
+        "completed_cases": 0,
+        "real_inference_performed": false,
+        "reason": "Independent model/server configuration is missing or invalid",
+        "status": "BLOCKED"
+      },
+      "reconstruction": null,
+      "run_id": "20261012T152036-8e02b7e54df249fd8676da16b77bd7ca",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "268c48a04ad58caba665736e05e4483225be464a6821e0db5a0ab6ea2486f28e",
+      "previous_terminal": {
+        "completed_cases": 20,
+        "completion_requests_attempted": 20,
+        "completion_responses_received": 20,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 20,
+        "identical": true
+      },
+      "run_id": "20261012T163840-d0e467a28a4e4df89eb35ce788dfa917",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "f6fea4a7bd425cd0cb95a94f63f6e704067a37dd835318f58024775a0c433e7b",
+      "previous_terminal": {
+        "completed_cases": 3,
+        "completion_requests_attempted": 3,
+        "completion_responses_received": 3,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 3,
+        "identical": true
+      },
+      "run_id": "20261012T170623-1fbff71fcc3a46bd9d5f9df9973792dd",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "ffde48234688b7c484863ab84ab0cf7f735ed97c328945bc7c192b08daba11e0",
+      "previous_terminal": {
+        "completed_cases": 3,
+        "completion_requests_attempted": 3,
+        "completion_responses_received": 3,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 3,
+        "identical": true
+      },
+      "run_id": "20261012T170654-853f132c954a4ac085058567c7df04b5",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "9558aca3aa7417e37e337b4b5a89f001d6dcbe12b42dfc854bffd50122497375",
+      "previous_terminal": {
+        "completed_cases": 3,
+        "completion_requests_attempted": 3,
+        "completion_responses_received": 3,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 3,
+        "identical": true
+      },
+      "run_id": "20261012T170725-050387bc4d014a54b75c6ad8dbe803f5",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "399e2cf77f398d679a15300d991ad1a144fd3f2fda2a9ac408de67fcfa73a1ca",
+      "previous_terminal": {
+        "completed_cases": 3,
+        "completion_requests_attempted": 3,
+        "completion_responses_received": 3,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 3,
+        "identical": true
+      },
+      "run_id": "20261012T170756-124bed2004264404b7fd1bb21884347a",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "0cdcc467f2980e8ca05de4d1976f0c37d49369745c4042ef2a7e07f3d9f26007",
+      "previous_terminal": {
+        "completed_cases": 17,
+        "completion_requests_attempted": 17,
+        "completion_responses_received": 17,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 17,
+        "identical": true
+      },
+      "run_id": "20261012T170849-65b0427279ef4b9c9d9d627104764189",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "1e95ab770f199f1c5ff1214bf8383a182c65523a4a06e226b37adb7a1bfc2b8a",
+      "previous_terminal": {
+        "completed_cases": 17,
+        "completion_requests_attempted": 17,
+        "completion_responses_received": 17,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 17,
+        "identical": true
+      },
+      "run_id": "20261012T171126-7da62ccbcf6d48bdb31263e7a6ca4522",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "ee02b076d8fd87811ff0f56b5f09f7643a110237d7578513520639453f10891d",
+      "previous_terminal": {
+        "completed_cases": 17,
+        "completion_requests_attempted": 17,
+        "completion_responses_received": 17,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 17,
+        "identical": true
+      },
+      "run_id": "20261012T171425-49348e3925ff452f9069004c011878c9",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "60c48ef861ee00e21c3d0930cd0a03631d43b71c5800c733bd7f7461948609c8",
+      "previous_terminal": {
+        "completed_cases": 17,
+        "completion_requests_attempted": 17,
+        "completion_responses_received": 17,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 17,
+        "identical": true
+      },
+      "run_id": "20261012T171723-dae18c8d3eba4c9c9a7e31f5f1c5ba99",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "b19ebdb976c7785f7d2600b36aaa96229394a7a85c3955849193f58a9d88911c",
+      "previous_terminal": {
+        "comparisons": 40,
+        "completion_requests": 0,
+        "failures": 20,
+        "status": "PARTIAL"
+      },
+      "reconstruction": null,
+      "run_id": "20261012T165905-f06b3743414742079d0820d7714a6413",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "38462d34a2006b4bdfe78a928515b8b3e01edfb4322429f3d3254ede8abc131f",
+      "previous_terminal": {
+        "comparisons": 40,
+        "completion_requests": 0,
+        "failures": 20,
+        "status": "PARTIAL"
+      },
+      "reconstruction": null,
+      "run_id": "20261012T170136-df2f0a24271a4a0ea6f0fdeb2a0b9e00",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "e123f3db0941a03e893f375cff7bbfb4328a355ee9efecb6a5e8bd79d6a474a5",
+      "previous_terminal": {
+        "comparisons": 40,
+        "completion_requests": 0,
+        "failures": 0,
+        "status": "PASS"
+      },
+      "reconstruction": null,
+      "run_id": "20261012T170507-91b67865c38f44a89a89614f7d3f6049",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "51c3cf9fc0f3c826a20d806433ff4abeb1d321bafb65a57d46f0364d273e5314",
+      "previous_terminal": {
+        "completed_cases": 3,
+        "completion_requests_attempted": 3,
+        "completion_responses_received": 3,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 3,
+        "identical": true
+      },
+      "run_id": "20261012T175020-abbfd27ab4464f59b47195c130418d3f",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "92ef5cadd8c9b28a8ed644dce8f641a45adb300145d78022123f1e9cd05ce695",
+      "previous_terminal": {
+        "completed_cases": 3,
+        "completion_requests_attempted": 3,
+        "completion_responses_received": 3,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 3,
+        "identical": true
+      },
+      "run_id": "20261012T175053-a86e73ac7d2f4b6e85a7cfe565470af9",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "371a2f4f4341f726d582c5f93147285a43d82ebaf9ce2aa2896daea57186550a",
+      "previous_terminal": {
+        "completed_cases": 3,
+        "completion_requests_attempted": 3,
+        "completion_responses_received": 3,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 3,
+        "identical": true
+      },
+      "run_id": "20261012T175130-e4aa45177cef41fdbcd50e3222f08f56",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "d6e252de2e710036f50add9f6feedbe941b0175a036b91952947d4a438904098",
+      "previous_terminal": {
+        "completed_cases": 3,
+        "completion_requests_attempted": 3,
+        "completion_responses_received": 3,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 3,
+        "identical": true
+      },
+      "run_id": "20261012T175229-391d284949804147b4b3340ca1568ac2",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "2f8f7be6f4f9cae1f48b23d04f4bd56392009bc4206dbff283994bb0a68fb3bd",
+      "previous_terminal": {
+        "completed_cases": 3,
+        "completion_requests_attempted": 3,
+        "completion_responses_received": 3,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 3,
+        "identical": true
+      },
+      "run_id": "20261012T175339-f6abbafdfd4046b98299d76c1533b98a",
+      "unchanged_from_previous_verified_journal": true
+    },
+    {
+      "file_inventory_sha256": "81c39b2b11ac5726e59a8322885bdc6663e3c466c10e64c52fdb3b8faac4f44e",
+      "previous_terminal": {
+        "completed_cases": 3,
+        "completion_requests_attempted": 3,
+        "completion_responses_received": 3,
+        "limitations": [],
+        "real_inference_performed": true,
+        "remaining": [
+          "Independent CPU hardware/log review",
+          "GGUF architecture/quantization and Base identity review",
+          "Neutral semantic review",
+          "Real token-ID support review if response tokens are empty/absent"
+        ],
+        "scope": "P0 adapter execution; not complete P0 research sign-off",
+        "status": "PASS"
+      },
+      "reconstruction": {
+        "cases": 3,
+        "identical": true
+      },
+      "run_id": "20261012T175449-2d3695902beb4fbaa7bb1f53bc062a22",
+      "unchanged_from_previous_verified_journal": true
+    }
+  ],
+  "prior_proof_method": "Current byte-level file inventories exactly match previously chain-verified journals; original tokenizer failures and blocked run remain intact. Fifteen old generation runs additionally replayed twice now.",
+  "responses": 134
+}
