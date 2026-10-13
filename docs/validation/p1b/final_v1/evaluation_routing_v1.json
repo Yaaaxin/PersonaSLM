@@ -1,0 +1,54 @@
+{
+  "automatic_semantic_scorer": null,
+  "axis_policy": "separate_axes_policy_v1",
+  "behavioral_fidelity_eligible": 0,
+  "city_scorer_allowed": false,
+  "coherence_eligible": 192,
+  "coherence_scale": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "exclude_c0_incorrect_cases": false,
+  "factual_categories": [
+    "Correct",
+    "Incorrect",
+    "Unverifiable",
+    "Not Applicable"
+  ],
+  "factual_eligible": 192,
+  "full_eligible_denominator_required": true,
+  "incomplete_is_incorrect": false,
+  "linguistic_fidelity_eligible": 0,
+  "missing_or_unscorable": "Retain eligible row, unknown score, explicit reason; report coverage and paired bounds.",
+  "oracle_role": "Source/query stimulus validation only; never free-text scoring",
+  "partial_supported_answer": "Factual support may be Correct; answer completeness and relevance are separate.",
+  "relevance_eligible": 192,
+  "relevance_scale": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "response_policy": "response_status_v1",
+  "scoring_unit": "Frozen first-reply extraction with full continuation and boundary uncertainty retained",
+  "semantic_completeness": [
+    "COMPLETE",
+    "INCOMPLETE",
+    "UNCERTAIN"
+  ],
+  "status": "AWAITING_RESEARCHER_APPROVAL",
+  "structural_eligible": 192,
+  "temporal_categories": [
+    "Correct",
+    "Incorrect",
+    "Unverifiable",
+    "Not Applicable"
+  ],
+  "temporal_eligible": 88,
+  "unknown_is_incorrect": false,
+  "version": "p1b_manual_semantic_routing_proposed_v1"
+}

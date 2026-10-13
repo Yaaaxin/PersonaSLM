@@ -1,0 +1,2597 @@
+{
+  "adopts_v1_2": false,
+  "cases": [
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_A_L1",
+      "context": [
+        "User: We are checking the supplied records with Arden Vale.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 1,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_A_L1_f01"
+        ],
+        "components": {
+          "room": "Juniper Room 1"
+        },
+        "proof_fact_ids": [
+          "p1b_A_L1_f01"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_A_L1_f01",
+          "relation": "storage_room",
+          "subject": "Arden Vale archive box",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Juniper Room 1"
+        }
+      ],
+      "family": "A",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_01_past_residence",
+        "relation": "residence",
+        "subject": "Arden Vale",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 1"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nArden Vale: I live in Alderwick 1.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_01",
+      "query": {
+        "answer_keys": [
+          "room"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "room",
+            "relation": "storage_room",
+            "subject": "Arden Vale archive box"
+          }
+        ]
+      },
+      "question": "Which room stores the archive box assigned to Arden Vale?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Arden Vale",
+      "split": "development_only",
+      "style_axis": "brevity",
+      "style_only": "Uses compact sentences while retaining requested details.",
+      "supplemental_fact": "Arden Vale owns a woven bookmark.",
+      "task_family": "factual_retrieval",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_A_L1_f01: Arden Vale archive box \u2014 storage room: Juniper Room 1. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_A_L2",
+      "context": [
+        "User: We are checking the supplied records with Briar Moss.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 2,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_A_L2_f01"
+        ],
+        "components": {
+          "room": "Juniper Room 2"
+        },
+        "proof_fact_ids": [
+          "p1b_A_L2_f01"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_A_L2_f01",
+          "relation": "storage_room",
+          "subject": "Briar Moss archive box",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Juniper Room 2"
+        },
+        {
+          "fact_id": "p1b_A_L2_f02",
+          "relation": "storage_room",
+          "subject": "Briar Moss supply box 1",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Willow Room 1"
+        }
+      ],
+      "family": "A",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_02_past_residence",
+        "relation": "residence",
+        "subject": "Briar Moss",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 2"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nBriar Moss: I live in Alderwick 2.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_02",
+      "query": {
+        "answer_keys": [
+          "room"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "room",
+            "relation": "storage_room",
+            "subject": "Briar Moss archive box"
+          }
+        ]
+      },
+      "question": "Which room stores the archive box assigned to Briar Moss?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Briar Moss",
+      "split": "development_only",
+      "style_axis": "formality",
+      "style_only": "Uses a formal register and avoids contractions.",
+      "supplemental_fact": "Briar Moss owns a woven bookmark.",
+      "task_family": "factual_retrieval",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_A_L2_f01: Briar Moss archive box \u2014 storage room: Juniper Room 2. Valid 2027-01-01 through ongoing.\np1b_A_L2_f02: Briar Moss supply box 1 \u2014 storage room: Willow Room 1. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_A_L3",
+      "context": [
+        "User: We are checking the supplied records with Cleo Reed.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 3,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_A_L3_f01"
+        ],
+        "components": {
+          "room": "Juniper Room 3"
+        },
+        "proof_fact_ids": [
+          "p1b_A_L3_f01"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_A_L3_f01",
+          "relation": "storage_room",
+          "subject": "Cleo Reed archive box",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Juniper Room 3"
+        },
+        {
+          "fact_id": "p1b_A_L3_f02",
+          "relation": "storage_room",
+          "subject": "Cleo Reed supply box 1",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Willow Room 1"
+        },
+        {
+          "fact_id": "p1b_A_L3_f03",
+          "relation": "storage_room",
+          "subject": "Cleo Reed supply box 2",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Willow Room 2"
+        }
+      ],
+      "family": "A",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_03_past_residence",
+        "relation": "residence",
+        "subject": "Cleo Reed",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 3"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nCleo Reed: I live in Alderwick 3.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_03",
+      "query": {
+        "answer_keys": [
+          "room"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "room",
+            "relation": "storage_room",
+            "subject": "Cleo Reed archive box"
+          }
+        ]
+      },
+      "question": "Which room stores the archive box assigned to Cleo Reed?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Cleo Reed",
+      "split": "development_only",
+      "style_axis": "lexical_preference",
+      "style_only": "Prefers everyday vocabulary to specialist synonyms.",
+      "supplemental_fact": "Cleo Reed owns a woven bookmark.",
+      "task_family": "factual_retrieval",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_A_L3_f01: Cleo Reed archive box \u2014 storage room: Juniper Room 3. Valid 2027-01-01 through ongoing.\np1b_A_L3_f02: Cleo Reed supply box 1 \u2014 storage room: Willow Room 1. Valid 2027-01-01 through ongoing.\np1b_A_L3_f03: Cleo Reed supply box 2 \u2014 storage room: Willow Room 2. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_B_L1",
+      "context": [
+        "User: We are checking the supplied records with Dara Wells.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 1,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_B_L1_f01",
+          "p1b_B_L1_f02"
+        ],
+        "components": {
+          "role": "materials coordinator",
+          "workshop": "Bookbinding Group 4"
+        },
+        "proof_fact_ids": [
+          "p1b_B_L1_f01",
+          "p1b_B_L1_f02"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_B_L1_f01",
+          "relation": "workshop",
+          "subject": "Dara Wells",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Bookbinding Group 4"
+        },
+        {
+          "fact_id": "p1b_B_L1_f02",
+          "relation": "workshop_role",
+          "subject": "Dara Wells",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "materials coordinator"
+        }
+      ],
+      "family": "B",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_04_past_residence",
+        "relation": "residence",
+        "subject": "Dara Wells",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 4"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nDara Wells: I live in Alderwick 4.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_04",
+      "query": {
+        "answer_keys": [
+          "workshop",
+          "role"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "workshop",
+            "relation": "workshop",
+            "subject": "Dara Wells"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "role",
+            "relation": "workshop_role",
+            "subject": "Dara Wells"
+          }
+        ]
+      },
+      "question": "Name Dara Wells's workshop and role.",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Dara Wells",
+      "split": "development_only",
+      "style_axis": "rhythm",
+      "style_only": "Usually presents related clauses as separate sentences.",
+      "supplemental_fact": "Dara Wells owns a woven bookmark.",
+      "task_family": "related_facts",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_B_L1_f01: Dara Wells \u2014 workshop: Bookbinding Group 4. Valid 2027-01-01 through ongoing.\np1b_B_L1_f02: Dara Wells \u2014 workshop role: materials coordinator. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_B_L2",
+      "context": [
+        "User: We are checking the supplied records with Emery Lake.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 2,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_B_L2_f01",
+          "p1b_B_L2_f02",
+          "p1b_B_L2_f03"
+        ],
+        "components": {
+          "place": "Cedar Hall 5",
+          "role": "materials coordinator",
+          "workshop": "Bookbinding Group 5"
+        },
+        "proof_fact_ids": [
+          "p1b_B_L2_f01",
+          "p1b_B_L2_f02",
+          "p1b_B_L2_f03"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_B_L2_f01",
+          "relation": "workshop",
+          "subject": "Emery Lake",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Bookbinding Group 5"
+        },
+        {
+          "fact_id": "p1b_B_L2_f02",
+          "relation": "workshop_role",
+          "subject": "Emery Lake",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "materials coordinator"
+        },
+        {
+          "fact_id": "p1b_B_L2_f03",
+          "relation": "meeting_place",
+          "subject": "Bookbinding Group 5",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Cedar Hall 5"
+        }
+      ],
+      "family": "B",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_05_past_residence",
+        "relation": "residence",
+        "subject": "Emery Lake",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 5"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nEmery Lake: I live in Alderwick 5.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_05",
+      "query": {
+        "answer_keys": [
+          "workshop",
+          "role",
+          "place"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "workshop",
+            "relation": "workshop",
+            "subject": "Emery Lake"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "role",
+            "relation": "workshop_role",
+            "subject": "Emery Lake"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "place",
+            "relation": "meeting_place",
+            "subject": {
+              "ref": "workshop"
+            }
+          }
+        ]
+      },
+      "question": "Name Emery Lake's workshop and role in it. Also name the workshop's meeting place.",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Emery Lake",
+      "split": "development_only",
+      "style_axis": "pragmatics",
+      "style_only": "Usually acknowledges the request briefly before answering.",
+      "supplemental_fact": "Emery Lake owns a woven bookmark.",
+      "task_family": "related_facts",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_B_L2_f01: Emery Lake \u2014 workshop: Bookbinding Group 5. Valid 2027-01-01 through ongoing.\np1b_B_L2_f02: Emery Lake \u2014 workshop role: materials coordinator. Valid 2027-01-01 through ongoing.\np1b_B_L2_f03: Bookbinding Group 5 \u2014 meeting place: Cedar Hall 5. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_B_L3",
+      "context": [
+        "User: We are checking the supplied records with Finley Ash.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 3,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_B_L3_f01",
+          "p1b_B_L3_f02",
+          "p1b_B_L3_f03",
+          "p1b_B_L3_f04"
+        ],
+        "components": {
+          "entrance": "east entrance",
+          "place": "Cedar Hall 6",
+          "role": "materials coordinator",
+          "workshop": "Bookbinding Group 6"
+        },
+        "proof_fact_ids": [
+          "p1b_B_L3_f01",
+          "p1b_B_L3_f02",
+          "p1b_B_L3_f03",
+          "p1b_B_L3_f04"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_B_L3_f01",
+          "relation": "workshop",
+          "subject": "Finley Ash",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Bookbinding Group 6"
+        },
+        {
+          "fact_id": "p1b_B_L3_f02",
+          "relation": "workshop_role",
+          "subject": "Finley Ash",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "materials coordinator"
+        },
+        {
+          "fact_id": "p1b_B_L3_f03",
+          "relation": "meeting_place",
+          "subject": "Bookbinding Group 6",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Cedar Hall 6"
+        },
+        {
+          "fact_id": "p1b_B_L3_f04",
+          "relation": "entrance",
+          "subject": "Cedar Hall 6",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "east entrance"
+        }
+      ],
+      "family": "B",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_06_past_residence",
+        "relation": "residence",
+        "subject": "Finley Ash",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 6"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nFinley Ash: I live in Alderwick 6.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_06",
+      "query": {
+        "answer_keys": [
+          "workshop",
+          "role",
+          "place",
+          "entrance"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "workshop",
+            "relation": "workshop",
+            "subject": "Finley Ash"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "role",
+            "relation": "workshop_role",
+            "subject": "Finley Ash"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "place",
+            "relation": "meeting_place",
+            "subject": {
+              "ref": "workshop"
+            }
+          },
+          {
+            "at": "2027-04-15",
+            "key": "entrance",
+            "relation": "entrance",
+            "subject": {
+              "ref": "place"
+            }
+          }
+        ]
+      },
+      "question": "Name Finley Ash's workshop and role in it. Also name the workshop's meeting place and the entrance to that place.",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Finley Ash",
+      "split": "development_only",
+      "style_axis": "lexical_preference",
+      "style_only": "Prefers precise nouns rather than informal substitutes.",
+      "supplemental_fact": "Finley Ash owns a woven bookmark.",
+      "task_family": "related_facts",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_B_L3_f01: Finley Ash \u2014 workshop: Bookbinding Group 6. Valid 2027-01-01 through ongoing.\np1b_B_L3_f02: Finley Ash \u2014 workshop role: materials coordinator. Valid 2027-01-01 through ongoing.\np1b_B_L3_f03: Bookbinding Group 6 \u2014 meeting place: Cedar Hall 6. Valid 2027-01-01 through ongoing.\np1b_B_L3_f04: Cedar Hall 6 \u2014 entrance: east entrance. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1b_C_L1",
+      "context": [
+        "User: We are checking the supplied records with Gale Rowan.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 1,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_C_L1_f02"
+        ],
+        "components": {
+          "counter": "Birch Counter"
+        },
+        "proof_fact_ids": [
+          "p1b_C_L1_f02"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_C_L1_f01",
+          "relation": "collection_counter",
+          "subject": "Gale Rowan",
+          "valid_from": "2027-01-01",
+          "valid_until": "2027-03-31",
+          "value": "Maple Counter"
+        },
+        {
+          "fact_id": "p1b_C_L1_f02",
+          "relation": "collection_counter",
+          "subject": "Gale Rowan",
+          "valid_from": "2027-04-01",
+          "valid_until": "2027-04-09",
+          "value": "Birch Counter"
+        },
+        {
+          "fact_id": "p1b_C_L1_f03",
+          "relation": "collection_counter",
+          "subject": "Gale Rowan",
+          "valid_from": "2027-04-10",
+          "valid_until": null,
+          "value": "Cedar Counter"
+        }
+      ],
+      "family": "C",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_07_past_residence",
+        "relation": "residence",
+        "subject": "Gale Rowan",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 7"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nGale Rowan: I live in Alderwick 7.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_07",
+      "query": {
+        "answer_keys": [
+          "counter"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-05",
+            "key": "counter",
+            "relation": "collection_counter",
+            "subject": "Gale Rowan"
+          }
+        ]
+      },
+      "question": "Which collection counter applies to Gale Rowan on 2027-04-05?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Gale Rowan",
+      "split": "development_only",
+      "style_axis": "brevity",
+      "style_only": "Usually answers in short sentences without redundant restatement.",
+      "supplemental_fact": "Gale Rowan owns a woven bookmark.",
+      "task_family": "validity_intervals",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_C_L1_f01: Gale Rowan \u2014 collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.\np1b_C_L1_f02: Gale Rowan \u2014 collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.\np1b_C_L1_f03: Gale Rowan \u2014 collection counter: Cedar Counter. Valid 2027-04-10 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1b_C_L2",
+      "context": [
+        "User: We are checking the supplied records with Hollis Fern.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 2,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_C_L2_f03"
+        ],
+        "components": {
+          "counter": "Cedar Counter"
+        },
+        "proof_fact_ids": [
+          "p1b_C_L2_f03"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_C_L2_f01",
+          "relation": "collection_counter",
+          "subject": "Hollis Fern",
+          "valid_from": "2027-01-01",
+          "valid_until": "2027-03-31",
+          "value": "Maple Counter"
+        },
+        {
+          "fact_id": "p1b_C_L2_f02",
+          "relation": "collection_counter",
+          "subject": "Hollis Fern",
+          "valid_from": "2027-04-01",
+          "valid_until": "2027-04-09",
+          "value": "Birch Counter"
+        },
+        {
+          "fact_id": "p1b_C_L2_f03",
+          "relation": "collection_counter",
+          "subject": "Hollis Fern",
+          "valid_from": "2027-04-10",
+          "valid_until": null,
+          "value": "Cedar Counter"
+        }
+      ],
+      "family": "C",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_08_past_residence",
+        "relation": "residence",
+        "subject": "Hollis Fern",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 8"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nHollis Fern: I live in Alderwick 8.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_08",
+      "query": {
+        "answer_keys": [
+          "counter"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-10",
+            "key": "counter",
+            "relation": "collection_counter",
+            "subject": "Hollis Fern"
+          }
+        ]
+      },
+      "question": "Which collection counter applies to Hollis Fern on 2027-04-10?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Hollis Fern",
+      "split": "development_only",
+      "style_axis": "formality",
+      "style_only": "Uses a conversational register with ordinary contractions.",
+      "supplemental_fact": "Hollis Fern owns a woven bookmark.",
+      "task_family": "validity_intervals",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_C_L2_f01: Hollis Fern \u2014 collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.\np1b_C_L2_f02: Hollis Fern \u2014 collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.\np1b_C_L2_f03: Hollis Fern \u2014 collection counter: Cedar Counter. Valid 2027-04-10 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1b_C_L3",
+      "context": [
+        "User: We are checking the supplied records with Indigo Shaw.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 3,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_C_L3_f03",
+          "p1b_C_L3_f02"
+        ],
+        "components": {
+          "counter": "Cedar Counter",
+          "previous_counter": "Birch Counter"
+        },
+        "proof_fact_ids": [
+          "p1b_C_L3_f03",
+          "p1b_C_L3_f02"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_C_L3_f01",
+          "relation": "collection_counter",
+          "subject": "Indigo Shaw",
+          "valid_from": "2027-01-01",
+          "valid_until": "2027-03-31",
+          "value": "Maple Counter"
+        },
+        {
+          "fact_id": "p1b_C_L3_f02",
+          "relation": "collection_counter",
+          "subject": "Indigo Shaw",
+          "valid_from": "2027-04-01",
+          "valid_until": "2027-04-09",
+          "value": "Birch Counter"
+        },
+        {
+          "fact_id": "p1b_C_L3_f03",
+          "relation": "collection_counter",
+          "subject": "Indigo Shaw",
+          "valid_from": "2027-04-10",
+          "valid_until": null,
+          "value": "Cedar Counter"
+        }
+      ],
+      "family": "C",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_09_past_residence",
+        "relation": "residence",
+        "subject": "Indigo Shaw",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 9"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nIndigo Shaw: I live in Alderwick 9.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_09",
+      "query": {
+        "answer_keys": [
+          "counter",
+          "previous_counter"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-10",
+            "key": "counter",
+            "relation": "collection_counter",
+            "subject": "Indigo Shaw"
+          },
+          {
+            "at": "2027-04-09",
+            "key": "previous_counter",
+            "relation": "collection_counter",
+            "subject": "Indigo Shaw"
+          }
+        ]
+      },
+      "question": "Which counter applies to Indigo Shaw on 2027-04-10, and which applied on the preceding day?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Indigo Shaw",
+      "split": "development_only",
+      "style_axis": "rhythm",
+      "style_only": "Usually connects related clauses within a sentence.",
+      "supplemental_fact": "Indigo Shaw owns a woven bookmark.",
+      "task_family": "validity_intervals",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_C_L3_f01: Indigo Shaw \u2014 collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.\np1b_C_L3_f02: Indigo Shaw \u2014 collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.\np1b_C_L3_f03: Indigo Shaw \u2014 collection counter: Cedar Counter. Valid 2027-04-10 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_D_L1",
+      "context": [
+        "User: We are checking the supplied records with Jules Finch.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 1,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_D_L1_f02"
+        ],
+        "components": {
+          "locker": "Locker 60"
+        },
+        "proof_fact_ids": [
+          "p1b_D_L1_f01",
+          "p1b_D_L1_f02"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_D_L1_f01",
+          "relation": "assigned_crate",
+          "subject": "Jules Finch",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Crate 40"
+        },
+        {
+          "fact_id": "p1b_D_L1_f02",
+          "relation": "stored_in",
+          "subject": "Crate 40",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Locker 60"
+        }
+      ],
+      "family": "D",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_10_past_residence",
+        "relation": "residence",
+        "subject": "Jules Finch",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 10"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nJules Finch: I live in Alderwick 10.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_10",
+      "query": {
+        "answer_keys": [
+          "locker"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "crate",
+            "relation": "assigned_crate",
+            "subject": "Jules Finch"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "locker",
+            "relation": "stored_in",
+            "subject": {
+              "ref": "crate"
+            }
+          }
+        ]
+      },
+      "question": "Which locker contains the crate assigned to Jules Finch?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Jules Finch",
+      "split": "development_only",
+      "style_axis": "pragmatics",
+      "style_only": "Usually begins directly with the requested information.",
+      "supplemental_fact": "Jules Finch owns a woven bookmark.",
+      "task_family": "relational_reasoning",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_D_L1_f01: Jules Finch \u2014 assigned crate: Crate 40. Valid 2027-01-01 through ongoing.\np1b_D_L1_f02: Crate 40 \u2014 stored in: Locker 60. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_D_L2",
+      "context": [
+        "User: We are checking the supplied records with Kit Sorrel.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 2,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_D_L2_f03"
+        ],
+        "components": {
+          "room": "Fern Room 11"
+        },
+        "proof_fact_ids": [
+          "p1b_D_L2_f01",
+          "p1b_D_L2_f02",
+          "p1b_D_L2_f03"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_D_L2_f01",
+          "relation": "assigned_crate",
+          "subject": "Kit Sorrel",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Crate 41"
+        },
+        {
+          "fact_id": "p1b_D_L2_f02",
+          "relation": "stored_in",
+          "subject": "Crate 41",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Locker 61"
+        },
+        {
+          "fact_id": "p1b_D_L2_f03",
+          "relation": "located_in",
+          "subject": "Locker 61",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Fern Room 11"
+        }
+      ],
+      "family": "D",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_11_past_residence",
+        "relation": "residence",
+        "subject": "Kit Sorrel",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 11"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nKit Sorrel: I live in Alderwick 11.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_11",
+      "query": {
+        "answer_keys": [
+          "room"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "crate",
+            "relation": "assigned_crate",
+            "subject": "Kit Sorrel"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "locker",
+            "relation": "stored_in",
+            "subject": {
+              "ref": "crate"
+            }
+          },
+          {
+            "at": "2027-04-15",
+            "key": "room",
+            "relation": "located_in",
+            "subject": {
+              "ref": "locker"
+            }
+          }
+        ]
+      },
+      "question": "Which room contains the crate assigned to Kit Sorrel?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Kit Sorrel",
+      "split": "development_only",
+      "style_axis": "formality",
+      "style_only": "Uses polite, matter-of-fact phrasing.",
+      "supplemental_fact": "Kit Sorrel owns a woven bookmark.",
+      "task_family": "relational_reasoning",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_D_L2_f01: Kit Sorrel \u2014 assigned crate: Crate 41. Valid 2027-01-01 through ongoing.\np1b_D_L2_f02: Crate 41 \u2014 stored in: Locker 61. Valid 2027-01-01 through ongoing.\np1b_D_L2_f03: Locker 61 \u2014 located in: Fern Room 11. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_D_L3",
+      "context": [
+        "User: We are checking the supplied records with Linden West.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 3,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_D_L3_f04"
+        ],
+        "components": {
+          "building": "West Annex 12"
+        },
+        "proof_fact_ids": [
+          "p1b_D_L3_f01",
+          "p1b_D_L3_f02",
+          "p1b_D_L3_f03",
+          "p1b_D_L3_f04"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_D_L3_f01",
+          "relation": "assigned_crate",
+          "subject": "Linden West",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Crate 42"
+        },
+        {
+          "fact_id": "p1b_D_L3_f02",
+          "relation": "stored_in",
+          "subject": "Crate 42",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Locker 62"
+        },
+        {
+          "fact_id": "p1b_D_L3_f03",
+          "relation": "located_in",
+          "subject": "Locker 62",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Fern Room 12"
+        },
+        {
+          "fact_id": "p1b_D_L3_f04",
+          "relation": "building",
+          "subject": "Fern Room 12",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "West Annex 12"
+        }
+      ],
+      "family": "D",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_12_past_residence",
+        "relation": "residence",
+        "subject": "Linden West",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 12"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nLinden West: I live in Alderwick 12.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_12",
+      "query": {
+        "answer_keys": [
+          "building"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "crate",
+            "relation": "assigned_crate",
+            "subject": "Linden West"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "locker",
+            "relation": "stored_in",
+            "subject": {
+              "ref": "crate"
+            }
+          },
+          {
+            "at": "2027-04-15",
+            "key": "room",
+            "relation": "located_in",
+            "subject": {
+              "ref": "locker"
+            }
+          },
+          {
+            "at": "2027-04-15",
+            "key": "building",
+            "relation": "building",
+            "subject": {
+              "ref": "room"
+            }
+          }
+        ]
+      },
+      "question": "Which building contains the crate assigned to Linden West?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Linden West",
+      "split": "development_only",
+      "style_axis": "rhythm",
+      "style_only": "Usually alternates a short opening clause with a fuller sentence.",
+      "supplemental_fact": "Linden West owns a woven bookmark.",
+      "task_family": "relational_reasoning",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_D_L3_f01: Linden West \u2014 assigned crate: Crate 42. Valid 2027-01-01 through ongoing.\np1b_D_L3_f02: Crate 42 \u2014 stored in: Locker 62. Valid 2027-01-01 through ongoing.\np1b_D_L3_f03: Locker 62 \u2014 located in: Fern Room 12. Valid 2027-01-01 through ongoing.\np1b_D_L3_f04: Fern Room 12 \u2014 building: West Annex 12. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1b_E_L1",
+      "context": [
+        "User: We are checking the supplied records with Briar Moss.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 1,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_E_L1_f02"
+        ],
+        "components": {
+          "city": "Mereford 2"
+        },
+        "proof_fact_ids": [
+          "p1b_E_L1_f02"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_E_L1_f01",
+          "relation": "residence",
+          "subject": "Briar Moss",
+          "valid_from": "2026-01-01",
+          "valid_until": "2026-12-31",
+          "value": "Alderwick 2"
+        },
+        {
+          "fact_id": "p1b_E_L1_f02",
+          "relation": "residence",
+          "subject": "Briar Moss",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Mereford 2"
+        }
+      ],
+      "family": "E",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_02_past_residence",
+        "relation": "residence",
+        "subject": "Briar Moss",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 2"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nBriar Moss: I live in Alderwick 2.",
+      "history_relevance": "same_residence_attribute",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_02",
+      "query": {
+        "answer_keys": [
+          "city"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "city",
+            "relation": "residence",
+            "subject": "Briar Moss"
+          }
+        ]
+      },
+      "question": "Where does Briar Moss live on 2027-04-15?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Briar Moss",
+      "split": "development_only",
+      "style_axis": "formality",
+      "style_only": "Uses a formal register and avoids contractions.",
+      "supplemental_fact": "Briar Moss owns a woven bookmark.",
+      "task_family": "relevant_history",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_E_L1_f01: Briar Moss \u2014 residence: Alderwick 2. Valid 2026-01-01 through 2026-12-31.\np1b_E_L1_f02: Briar Moss \u2014 residence: Mereford 2. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1b_E_L2",
+      "context": [
+        "User: We are checking the supplied records with Cleo Reed.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 2,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_E_L2_f03"
+        ],
+        "components": {
+          "hub": "Heron Hub 3"
+        },
+        "proof_fact_ids": [
+          "p1b_E_L2_f02",
+          "p1b_E_L2_f03"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_E_L2_f01",
+          "relation": "residence",
+          "subject": "Cleo Reed",
+          "valid_from": "2026-01-01",
+          "valid_until": "2026-12-31",
+          "value": "Alderwick 3"
+        },
+        {
+          "fact_id": "p1b_E_L2_f02",
+          "relation": "residence",
+          "subject": "Cleo Reed",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Mereford 3"
+        },
+        {
+          "fact_id": "p1b_E_L2_f03",
+          "relation": "collection_hub",
+          "subject": "Mereford 3",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Heron Hub 3"
+        },
+        {
+          "fact_id": "p1b_E_L2_f04",
+          "relation": "collection_hub",
+          "subject": "Alderwick 3",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Plover Hub 3"
+        }
+      ],
+      "family": "E",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_03_past_residence",
+        "relation": "residence",
+        "subject": "Cleo Reed",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 3"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nCleo Reed: I live in Alderwick 3.",
+      "history_relevance": "same_residence_attribute",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_03",
+      "query": {
+        "answer_keys": [
+          "hub"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "city",
+            "relation": "residence",
+            "subject": "Cleo Reed"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "hub",
+            "relation": "collection_hub",
+            "subject": {
+              "ref": "city"
+            }
+          }
+        ]
+      },
+      "question": "Which collection hub serves Cleo Reed's residence on 2027-04-15?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Cleo Reed",
+      "split": "development_only",
+      "style_axis": "lexical_preference",
+      "style_only": "Prefers everyday vocabulary to specialist synonyms.",
+      "supplemental_fact": "Cleo Reed owns a woven bookmark.",
+      "task_family": "relevant_history",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_E_L2_f01: Cleo Reed \u2014 residence: Alderwick 3. Valid 2026-01-01 through 2026-12-31.\np1b_E_L2_f02: Cleo Reed \u2014 residence: Mereford 3. Valid 2027-01-01 through ongoing.\np1b_E_L2_f03: Mereford 3 \u2014 collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.\np1b_E_L2_f04: Alderwick 3 \u2014 collection hub: Plover Hub 3. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1b_E_L3",
+      "context": [
+        "User: We are checking the supplied records with Dara Wells.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 3,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_E_L3_f05"
+        ],
+        "components": {
+          "day": "Tuesday"
+        },
+        "proof_fact_ids": [
+          "p1b_E_L3_f02",
+          "p1b_E_L3_f03",
+          "p1b_E_L3_f05"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_E_L3_f01",
+          "relation": "residence",
+          "subject": "Dara Wells",
+          "valid_from": "2026-01-01",
+          "valid_until": "2026-12-31",
+          "value": "Alderwick 4"
+        },
+        {
+          "fact_id": "p1b_E_L3_f02",
+          "relation": "residence",
+          "subject": "Dara Wells",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Mereford 4"
+        },
+        {
+          "fact_id": "p1b_E_L3_f03",
+          "relation": "collection_hub",
+          "subject": "Mereford 4",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Heron Hub 4"
+        },
+        {
+          "fact_id": "p1b_E_L3_f04",
+          "relation": "collection_hub",
+          "subject": "Alderwick 4",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Plover Hub 4"
+        },
+        {
+          "fact_id": "p1b_E_L3_f05",
+          "relation": "opening_day",
+          "subject": "Heron Hub 4",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Tuesday"
+        },
+        {
+          "fact_id": "p1b_E_L3_f06",
+          "relation": "opening_day",
+          "subject": "Plover Hub 4",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Monday"
+        }
+      ],
+      "family": "E",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_04_past_residence",
+        "relation": "residence",
+        "subject": "Dara Wells",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 4"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nDara Wells: I live in Alderwick 4.",
+      "history_relevance": "same_residence_attribute",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_04",
+      "query": {
+        "answer_keys": [
+          "day"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "city",
+            "relation": "residence",
+            "subject": "Dara Wells"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "hub",
+            "relation": "collection_hub",
+            "subject": {
+              "ref": "city"
+            }
+          },
+          {
+            "at": "2027-04-15",
+            "key": "day",
+            "relation": "opening_day",
+            "subject": {
+              "ref": "hub"
+            }
+          }
+        ]
+      },
+      "question": "On which day does the hub serving Dara Wells's residence on 2027-04-15 open?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Dara Wells",
+      "split": "development_only",
+      "style_axis": "rhythm",
+      "style_only": "Usually presents related clauses as separate sentences.",
+      "supplemental_fact": "Dara Wells owns a woven bookmark.",
+      "task_family": "relevant_history",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_E_L3_f01: Dara Wells \u2014 residence: Alderwick 4. Valid 2026-01-01 through 2026-12-31.\np1b_E_L3_f02: Dara Wells \u2014 residence: Mereford 4. Valid 2027-01-01 through ongoing.\np1b_E_L3_f03: Mereford 4 \u2014 collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing.\np1b_E_L3_f04: Alderwick 4 \u2014 collection hub: Plover Hub 4. Valid 2027-01-01 through ongoing.\np1b_E_L3_f05: Heron Hub 4 \u2014 opening day: Tuesday. Valid 2027-01-01 through ongoing.\np1b_E_L3_f06: Plover Hub 4 \u2014 opening day: Monday. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_F_L1",
+      "context": [
+        "User: We are checking the supplied records with Emery Lake.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 1,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_F_L1_f03"
+        ],
+        "components": {
+          "shelf": "Amber Shelf"
+        },
+        "proof_fact_ids": [
+          "p1b_F_L1_f03"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_F_L1_f01",
+          "relation": "project_role",
+          "subject": "Morgan North (p1b_F_L1-N)",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "archivist"
+        },
+        {
+          "fact_id": "p1b_F_L1_f02",
+          "relation": "project_role",
+          "subject": "Morgan South (p1b_F_L1-S)",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "treasurer"
+        },
+        {
+          "fact_id": "p1b_F_L1_f03",
+          "relation": "shelf",
+          "subject": "Morgan North (p1b_F_L1-N)",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Amber Shelf"
+        },
+        {
+          "fact_id": "p1b_F_L1_f04",
+          "relation": "shelf",
+          "subject": "Morgan South (p1b_F_L1-S)",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Violet Shelf"
+        }
+      ],
+      "family": "F",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_05_past_residence",
+        "relation": "residence",
+        "subject": "Emery Lake",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 5"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nEmery Lake: I live in Alderwick 5.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_05",
+      "query": {
+        "answer_keys": [
+          "shelf"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "shelf",
+            "relation": "shelf",
+            "subject": "Morgan North (p1b_F_L1-N)"
+          }
+        ]
+      },
+      "question": "Emery Lake is checking the project: which shelf is assigned to Morgan North (p1b_F_L1-N)?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Emery Lake",
+      "split": "development_only",
+      "style_axis": "pragmatics",
+      "style_only": "Usually acknowledges the request briefly before answering.",
+      "supplemental_fact": "Emery Lake owns a woven bookmark.",
+      "task_family": "entity_disambiguation",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_F_L1_f01: Morgan North (p1b_F_L1-N) \u2014 project role: archivist. Valid 2027-01-01 through ongoing.\np1b_F_L1_f02: Morgan South (p1b_F_L1-S) \u2014 project role: treasurer. Valid 2027-01-01 through ongoing.\np1b_F_L1_f03: Morgan North (p1b_F_L1-N) \u2014 shelf: Amber Shelf. Valid 2027-01-01 through ongoing.\np1b_F_L1_f04: Morgan South (p1b_F_L1-S) \u2014 shelf: Violet Shelf. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_F_L2",
+      "context": [
+        "User: We are checking the supplied records with Finley Ash.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 2,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_F_L2_f03"
+        ],
+        "components": {
+          "folder": "Folder 76"
+        },
+        "proof_fact_ids": [
+          "p1b_F_L2_f01",
+          "p1b_F_L2_f03"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_F_L2_f01",
+          "relation": "project_role",
+          "subject": "Morgan North (p1b_F_L2-N)",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "archivist"
+        },
+        {
+          "fact_id": "p1b_F_L2_f02",
+          "relation": "project_role",
+          "subject": "Morgan South (p1b_F_L2-S)",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "treasurer"
+        },
+        {
+          "fact_id": "p1b_F_L2_f03",
+          "relation": "folder",
+          "subject": "Morgan North (p1b_F_L2-N)",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Folder 76"
+        },
+        {
+          "fact_id": "p1b_F_L2_f04",
+          "relation": "folder",
+          "subject": "Morgan South (p1b_F_L2-S)",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Folder 96"
+        }
+      ],
+      "family": "F",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_06_past_residence",
+        "relation": "residence",
+        "subject": "Finley Ash",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 6"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nFinley Ash: I live in Alderwick 6.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_06",
+      "query": {
+        "answer_keys": [
+          "folder"
+        ],
+        "steps": [
+          {
+            "find_subject": {
+              "relation": "project_role",
+              "value": "archivist"
+            },
+            "key": "person"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "folder",
+            "relation": "folder",
+            "subject": {
+              "ref": "person"
+            }
+          }
+        ]
+      },
+      "question": "Finley Ash needs the folder assigned to the archivist. Which is it?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Finley Ash",
+      "split": "development_only",
+      "style_axis": "lexical_preference",
+      "style_only": "Prefers precise nouns rather than informal substitutes.",
+      "supplemental_fact": "Finley Ash owns a woven bookmark.",
+      "task_family": "entity_disambiguation",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_F_L2_f01: Morgan North (p1b_F_L2-N) \u2014 project role: archivist. Valid 2027-01-01 through ongoing.\np1b_F_L2_f02: Morgan South (p1b_F_L2-S) \u2014 project role: treasurer. Valid 2027-01-01 through ongoing.\np1b_F_L2_f03: Morgan North (p1b_F_L2-N) \u2014 folder: Folder 76. Valid 2027-01-01 through ongoing.\np1b_F_L2_f04: Morgan South (p1b_F_L2-S) \u2014 folder: Folder 96. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_F_L3",
+      "context": [
+        "User: We are checking the supplied records with Gale Rowan.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 3,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_F_L3_f05"
+        ],
+        "components": {
+          "shelf": "Amber Shelf"
+        },
+        "proof_fact_ids": [
+          "p1b_F_L3_f01",
+          "p1b_F_L3_f03",
+          "p1b_F_L3_f05"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_F_L3_f01",
+          "relation": "project_role",
+          "subject": "Morgan North (p1b_F_L3-N)",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "archivist"
+        },
+        {
+          "fact_id": "p1b_F_L3_f02",
+          "relation": "project_role",
+          "subject": "Morgan South (p1b_F_L3-S)",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "treasurer"
+        },
+        {
+          "fact_id": "p1b_F_L3_f03",
+          "relation": "folder",
+          "subject": "Morgan North (p1b_F_L3-N)",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Folder 77"
+        },
+        {
+          "fact_id": "p1b_F_L3_f04",
+          "relation": "folder",
+          "subject": "Morgan South (p1b_F_L3-S)",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Folder 97"
+        },
+        {
+          "fact_id": "p1b_F_L3_f05",
+          "relation": "shelf",
+          "subject": "Folder 77",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Amber Shelf"
+        },
+        {
+          "fact_id": "p1b_F_L3_f06",
+          "relation": "shelf",
+          "subject": "Folder 97",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Violet Shelf"
+        }
+      ],
+      "family": "F",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_07_past_residence",
+        "relation": "residence",
+        "subject": "Gale Rowan",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 7"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nGale Rowan: I live in Alderwick 7.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_07",
+      "query": {
+        "answer_keys": [
+          "shelf"
+        ],
+        "steps": [
+          {
+            "find_subject": {
+              "relation": "project_role",
+              "value": "archivist"
+            },
+            "key": "person"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "folder",
+            "relation": "folder",
+            "subject": {
+              "ref": "person"
+            }
+          },
+          {
+            "at": "2027-04-15",
+            "key": "shelf",
+            "relation": "shelf",
+            "subject": {
+              "ref": "folder"
+            }
+          }
+        ]
+      },
+      "question": "Gale Rowan needs the shelf holding the folder assigned to the archivist. Which is it?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Gale Rowan",
+      "split": "development_only",
+      "style_axis": "brevity",
+      "style_only": "Usually answers in short sentences without redundant restatement.",
+      "supplemental_fact": "Gale Rowan owns a woven bookmark.",
+      "task_family": "entity_disambiguation",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_F_L3_f01: Morgan North (p1b_F_L3-N) \u2014 project role: archivist. Valid 2027-01-01 through ongoing.\np1b_F_L3_f02: Morgan South (p1b_F_L3-S) \u2014 project role: treasurer. Valid 2027-01-01 through ongoing.\np1b_F_L3_f03: Morgan North (p1b_F_L3-N) \u2014 folder: Folder 77. Valid 2027-01-01 through ongoing.\np1b_F_L3_f04: Morgan South (p1b_F_L3-S) \u2014 folder: Folder 97. Valid 2027-01-01 through ongoing.\np1b_F_L3_f05: Folder 77 \u2014 shelf: Amber Shelf. Valid 2027-01-01 through ongoing.\np1b_F_L3_f06: Folder 97 \u2014 shelf: Violet Shelf. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1b_G_L1",
+      "context": [
+        "User: We are checking the supplied records with Hollis Fern.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 1,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_G_L1_f03"
+        ],
+        "components": {
+          "site": "Harbor Lodge"
+        },
+        "proof_fact_ids": [
+          "p1b_G_L1_f03"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_G_L1_f01",
+          "relation": "pickup_site",
+          "subject": "Hollis Fern",
+          "valid_from": "2027-01-01",
+          "valid_until": "2027-02-28",
+          "value": "Orchard Lodge"
+        },
+        {
+          "fact_id": "p1b_G_L1_f02",
+          "relation": "pickup_site",
+          "subject": "Hollis Fern",
+          "valid_from": "2027-03-01",
+          "valid_until": "2027-03-31",
+          "value": "Meadow Lodge"
+        },
+        {
+          "fact_id": "p1b_G_L1_f03",
+          "relation": "pickup_site",
+          "subject": "Hollis Fern",
+          "valid_from": "2027-04-01",
+          "valid_until": null,
+          "value": "Harbor Lodge"
+        }
+      ],
+      "family": "G",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_08_past_residence",
+        "relation": "residence",
+        "subject": "Hollis Fern",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 8"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nHollis Fern: I live in Alderwick 8.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_08",
+      "query": {
+        "answer_keys": [
+          "site"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "site",
+            "relation": "pickup_site",
+            "subject": "Hollis Fern"
+          }
+        ]
+      },
+      "question": "Which pickup site was valid for Hollis Fern on 2027-04-15?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Hollis Fern",
+      "split": "development_only",
+      "style_axis": "formality",
+      "style_only": "Uses a conversational register with ordinary contractions.",
+      "supplemental_fact": "Hollis Fern owns a woven bookmark.",
+      "task_family": "historical_vs_current",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_G_L1_f01: Hollis Fern \u2014 pickup site: Orchard Lodge. Valid 2027-01-01 through 2027-02-28.\np1b_G_L1_f02: Hollis Fern \u2014 pickup site: Meadow Lodge. Valid 2027-03-01 through 2027-03-31.\np1b_G_L1_f03: Hollis Fern \u2014 pickup site: Harbor Lodge. Valid 2027-04-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1b_G_L2",
+      "context": [
+        "User: We are checking the supplied records with Indigo Shaw.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 2,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_G_L2_f02"
+        ],
+        "components": {
+          "site": "Meadow Lodge"
+        },
+        "proof_fact_ids": [
+          "p1b_G_L2_f02"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_G_L2_f01",
+          "relation": "pickup_site",
+          "subject": "Indigo Shaw",
+          "valid_from": "2027-01-01",
+          "valid_until": "2027-02-28",
+          "value": "Orchard Lodge"
+        },
+        {
+          "fact_id": "p1b_G_L2_f02",
+          "relation": "pickup_site",
+          "subject": "Indigo Shaw",
+          "valid_from": "2027-03-01",
+          "valid_until": "2027-03-31",
+          "value": "Meadow Lodge"
+        },
+        {
+          "fact_id": "p1b_G_L2_f03",
+          "relation": "pickup_site",
+          "subject": "Indigo Shaw",
+          "valid_from": "2027-04-01",
+          "valid_until": null,
+          "value": "Harbor Lodge"
+        }
+      ],
+      "family": "G",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_09_past_residence",
+        "relation": "residence",
+        "subject": "Indigo Shaw",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 9"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nIndigo Shaw: I live in Alderwick 9.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_09",
+      "query": {
+        "answer_keys": [
+          "site"
+        ],
+        "steps": [
+          {
+            "at": "2027-03-20",
+            "key": "site",
+            "relation": "pickup_site",
+            "subject": "Indigo Shaw"
+          }
+        ]
+      },
+      "question": "Which pickup site was valid for Indigo Shaw on 2027-03-20?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Indigo Shaw",
+      "split": "development_only",
+      "style_axis": "rhythm",
+      "style_only": "Usually connects related clauses within a sentence.",
+      "supplemental_fact": "Indigo Shaw owns a woven bookmark.",
+      "task_family": "historical_vs_current",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_G_L2_f01: Indigo Shaw \u2014 pickup site: Orchard Lodge. Valid 2027-01-01 through 2027-02-28.\np1b_G_L2_f02: Indigo Shaw \u2014 pickup site: Meadow Lodge. Valid 2027-03-01 through 2027-03-31.\np1b_G_L2_f03: Indigo Shaw \u2014 pickup site: Harbor Lodge. Valid 2027-04-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1b_G_L3",
+      "context": [
+        "User: We are checking the supplied records with Jules Finch.",
+        "Assistant: Which record should I check?"
+      ],
+      "context_bindings": {},
+      "designed_complexity_level": 3,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_G_L3_f02",
+          "p1b_G_L3_f03"
+        ],
+        "components": {
+          "current_site": "Harbor Lodge",
+          "site": "Meadow Lodge"
+        },
+        "proof_fact_ids": [
+          "p1b_G_L3_f02",
+          "p1b_G_L3_f03"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_G_L3_f01",
+          "relation": "pickup_site",
+          "subject": "Jules Finch",
+          "valid_from": "2027-01-01",
+          "valid_until": "2027-02-28",
+          "value": "Orchard Lodge"
+        },
+        {
+          "fact_id": "p1b_G_L3_f02",
+          "relation": "pickup_site",
+          "subject": "Jules Finch",
+          "valid_from": "2027-03-01",
+          "valid_until": "2027-03-31",
+          "value": "Meadow Lodge"
+        },
+        {
+          "fact_id": "p1b_G_L3_f03",
+          "relation": "pickup_site",
+          "subject": "Jules Finch",
+          "valid_from": "2027-04-01",
+          "valid_until": null,
+          "value": "Harbor Lodge"
+        }
+      ],
+      "family": "G",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_10_past_residence",
+        "relation": "residence",
+        "subject": "Jules Finch",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 10"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nJules Finch: I live in Alderwick 10.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_10",
+      "query": {
+        "answer_keys": [
+          "site",
+          "current_site"
+        ],
+        "steps": [
+          {
+            "at": "2027-03-20",
+            "key": "site",
+            "relation": "pickup_site",
+            "subject": "Jules Finch"
+          },
+          {
+            "at": "2027-04-15",
+            "key": "current_site",
+            "relation": "pickup_site",
+            "subject": "Jules Finch"
+          }
+        ]
+      },
+      "question": "Name Jules Finch's pickup site on 2027-03-20 and the different site valid on 2027-04-15.",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Jules Finch",
+      "split": "development_only",
+      "style_axis": "pragmatics",
+      "style_only": "Usually begins directly with the requested information.",
+      "supplemental_fact": "Jules Finch owns a woven bookmark.",
+      "task_family": "historical_vs_current",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_G_L3_f01: Jules Finch \u2014 pickup site: Orchard Lodge. Valid 2027-01-01 through 2027-02-28.\np1b_G_L3_f02: Jules Finch \u2014 pickup site: Meadow Lodge. Valid 2027-03-01 through 2027-03-31.\np1b_G_L3_f03: Jules Finch \u2014 pickup site: Harbor Lodge. Valid 2027-04-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1b_H_L1",
+      "context": [
+        "User: Kit Sorrel is arranging delivery. Please focus on Parcel 121.",
+        "Assistant: I will check that parcel."
+      ],
+      "context_bindings": {
+        "selected_parcel": {
+          "source_quote": "Please focus on Parcel 121.",
+          "value": "Parcel 121"
+        }
+      },
+      "designed_complexity_level": 1,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_H_L1_f01"
+        ],
+        "components": {
+          "desk": "Elm Desk"
+        },
+        "proof_fact_ids": [
+          "p1b_H_L1_f01"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_H_L1_f01",
+          "relation": "delivery_desk",
+          "subject": "Parcel 121",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Elm Desk"
+        }
+      ],
+      "family": "H",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_11_past_residence",
+        "relation": "residence",
+        "subject": "Kit Sorrel",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 11"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nKit Sorrel: I live in Alderwick 11.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_11",
+      "query": {
+        "answer_keys": [
+          "desk"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "desk",
+            "relation": "delivery_desk",
+            "subject": {
+              "context_key": "selected_parcel"
+            }
+          }
+        ]
+      },
+      "question": "Which desk should it go to?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Kit Sorrel",
+      "split": "development_only",
+      "style_axis": "formality",
+      "style_only": "Uses polite, matter-of-fact phrasing.",
+      "supplemental_fact": "Kit Sorrel owns a woven bookmark.",
+      "task_family": "context_followup",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_H_L1_f01: Parcel 121 \u2014 delivery desk: Elm Desk. Valid 2027-01-01 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1b_H_L2",
+      "context": [
+        "User: Linden West is arranging delivery. Please focus on Parcel 122.",
+        "Assistant: I will check that parcel."
+      ],
+      "context_bindings": {
+        "selected_parcel": {
+          "source_quote": "Please focus on Parcel 122.",
+          "value": "Parcel 122"
+        }
+      },
+      "designed_complexity_level": 2,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_H_L2_f03"
+        ],
+        "components": {
+          "desk": "Ash Desk"
+        },
+        "proof_fact_ids": [
+          "p1b_H_L2_f01",
+          "p1b_H_L2_f03"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_H_L2_f01",
+          "relation": "recipient",
+          "subject": "Parcel 122",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Recipient 142"
+        },
+        {
+          "fact_id": "p1b_H_L2_f02",
+          "relation": "delivery_desk",
+          "subject": "Recipient 142",
+          "valid_from": "2027-01-01",
+          "valid_until": "2027-04-09",
+          "value": "Elm Desk"
+        },
+        {
+          "fact_id": "p1b_H_L2_f03",
+          "relation": "delivery_desk",
+          "subject": "Recipient 142",
+          "valid_from": "2027-04-10",
+          "valid_until": null,
+          "value": "Ash Desk"
+        }
+      ],
+      "family": "H",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_12_past_residence",
+        "relation": "residence",
+        "subject": "Linden West",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 12"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nLinden West: I live in Alderwick 12.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_12",
+      "query": {
+        "answer_keys": [
+          "desk"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "recipient",
+            "relation": "recipient",
+            "subject": {
+              "context_key": "selected_parcel"
+            }
+          },
+          {
+            "at": "2027-04-15",
+            "key": "desk",
+            "relation": "delivery_desk",
+            "subject": {
+              "ref": "recipient"
+            }
+          }
+        ]
+      },
+      "question": "Which desk should it go to on 2027-04-15?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Linden West",
+      "split": "development_only",
+      "style_axis": "rhythm",
+      "style_only": "Usually alternates a short opening clause with a fuller sentence.",
+      "supplemental_fact": "Linden West owns a woven bookmark.",
+      "task_family": "context_followup",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_H_L2_f01: Parcel 122 \u2014 recipient: Recipient 142. Valid 2027-01-01 through ongoing.\np1b_H_L2_f02: Recipient 142 \u2014 delivery desk: Elm Desk. Valid 2027-01-01 through 2027-04-09.\np1b_H_L2_f03: Recipient 142 \u2014 delivery desk: Ash Desk. Valid 2027-04-10 through ongoing."
+    },
+    {
+      "actual_prompt_token_counts": null,
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1b_H_L3",
+      "context": [
+        "User: Arden Vale has Parcel 151 and Parcel 111.",
+        "Assistant: Which one are we arranging?",
+        "User: Please focus on Parcel 111."
+      ],
+      "context_bindings": {
+        "selected_parcel": {
+          "source_quote": "Please focus on Parcel 111.",
+          "value": "Parcel 111"
+        }
+      },
+      "designed_complexity_level": 3,
+      "empirical_difficulty": null,
+      "evaluation_date": "2027-04-15",
+      "expected_answer": {
+        "answer_fact_ids": [
+          "p1b_H_L3_f03"
+        ],
+        "components": {
+          "desk": "Ash Desk"
+        },
+        "proof_fact_ids": [
+          "p1b_H_L3_f01",
+          "p1b_H_L3_f03"
+        ]
+      },
+      "facts": [
+        {
+          "fact_id": "p1b_H_L3_f01",
+          "relation": "recipient",
+          "subject": "Parcel 111",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Recipient 131"
+        },
+        {
+          "fact_id": "p1b_H_L3_f02",
+          "relation": "delivery_desk",
+          "subject": "Recipient 131",
+          "valid_from": "2027-01-01",
+          "valid_until": "2027-04-09",
+          "value": "Elm Desk"
+        },
+        {
+          "fact_id": "p1b_H_L3_f03",
+          "relation": "delivery_desk",
+          "subject": "Recipient 131",
+          "valid_from": "2027-04-10",
+          "valid_until": null,
+          "value": "Ash Desk"
+        },
+        {
+          "fact_id": "p1b_H_L3_f04",
+          "relation": "recipient",
+          "subject": "Parcel 151",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Recipient 171"
+        },
+        {
+          "fact_id": "p1b_H_L3_f05",
+          "relation": "delivery_desk",
+          "subject": "Recipient 171",
+          "valid_from": "2027-01-01",
+          "valid_until": null,
+          "value": "Oak Desk"
+        }
+      ],
+      "family": "H",
+      "historical_source_fact": {
+        "fact_id": "p1b_persona_01_past_residence",
+        "relation": "residence",
+        "subject": "Arden Vale",
+        "valid_from": "2026-01-01",
+        "valid_until": "2026-12-31",
+        "value": "Alderwick 1"
+      },
+      "history_date": "2026-11-15",
+      "history_dialogue": "Historical dialogue (2026-11-15):\nUser: Where are you living?\nArden Vale: I live in Alderwick 1.",
+      "history_relevance": "unrelated_residence",
+      "inference_authorized": false,
+      "language": "en",
+      "matched_controls_status": "NOT_PREPARED",
+      "persona_id": "p1b_persona_01",
+      "query": {
+        "answer_keys": [
+          "desk"
+        ],
+        "steps": [
+          {
+            "at": "2027-04-15",
+            "key": "recipient",
+            "relation": "recipient",
+            "subject": {
+              "context_key": "selected_parcel"
+            }
+          },
+          {
+            "at": "2027-04-10",
+            "key": "desk",
+            "relation": "delivery_desk",
+            "subject": {
+              "ref": "recipient"
+            }
+          }
+        ]
+      },
+      "question": "Which desk should it go to on 2027-04-10?",
+      "semantic_review_status": "OPEN",
+      "speaker_name": "Arden Vale",
+      "split": "development_only",
+      "style_axis": "brevity",
+      "style_only": "Uses compact sentences while retaining requested details.",
+      "supplemental_fact": "Arden Vale owns a woven bookmark.",
+      "task_family": "context_followup",
+      "template_version": "p1b_transcript_proposed_v1",
+      "trusted_evidence": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_H_L3_f01: Parcel 111 \u2014 recipient: Recipient 131. Valid 2027-01-01 through ongoing.\np1b_H_L3_f02: Recipient 131 \u2014 delivery desk: Elm Desk. Valid 2027-01-01 through 2027-04-09.\np1b_H_L3_f03: Recipient 131 \u2014 delivery desk: Ash Desk. Valid 2027-04-10 through ongoing.\np1b_H_L3_f04: Parcel 151 \u2014 recipient: Recipient 171. Valid 2027-01-01 through ongoing.\np1b_H_L3_f05: Recipient 171 \u2014 delivery desk: Oak Desk. Valid 2027-01-01 through ongoing."
+    }
+  ],
+  "confirmatory_test": false,
+  "formal_protocol": "v1.1",
+  "generation_requests": 0,
+  "language": "en",
+  "parent": {
+    "file_sha256": "feea8880314bea78e8b74aebbdbeb3439237551df56d7bd8b34a019ebeabd49a",
+    "version": "p1b_development_proposed_v1"
+  },
+  "selection_rule": "All 24 family-by-complexity prototypes; no outcome-based inclusion or exclusion.",
+  "source_type": "fictional_synthetic",
+  "status": "PROPOSED_DEVELOPMENT_ONLY",
+  "version": "p1b_development_proposed_v2"
+}

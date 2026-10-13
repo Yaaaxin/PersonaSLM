@@ -1,0 +1,176 @@
+{
+  "child_sha256": "fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6",
+  "corrected_cases": 3,
+  "corrections": [
+    {
+      "after_case_sha256": "2dc4f2e99115b282e650cb2b6b20be6599d37913c383ae20a38f5fa1ee66d815",
+      "before_case_sha256": "efa2fc21f6510a1b2858063fde0975f939deff90a35fdd6e9f01e1546404fd27",
+      "case_id": "p1b_B_L2",
+      "changes": {
+        "question": {
+          "after": "Name Emery Lake's workshop and role in it. Also name the workshop's meeting place.",
+          "before": "Name Emery Lake's workshop and role, its meeting place."
+        }
+      },
+      "reason": "Resolve the ambiguous attachment of its; retain the same requested answer components."
+    },
+    {
+      "after_case_sha256": "609456da00b0a2265c616155c32b34d5b9cfa8f83526e026b904d4faee3cc11a",
+      "before_case_sha256": "a5846871b4da40e5a9448b700bac965fe49f16080b9b5c35c3c640a6286f5e55",
+      "case_id": "p1b_B_L3",
+      "changes": {
+        "question": {
+          "after": "Name Finley Ash's workshop and role in it. Also name the workshop's meeting place and the entrance to that place.",
+          "before": "Name Finley Ash's workshop and role, its meeting place, and that place's entrance."
+        }
+      },
+      "reason": "Resolve the ambiguous attachment of its; retain the same requested answer components."
+    },
+    {
+      "after_case_sha256": "45970e2810bf3b179183129aa0b7b7946abff03ca1ac752a5d6562d0837ef41f",
+      "before_case_sha256": "f449eaced80a79b32531e0eeb64a2f349d10a9cf8eb8a5fa7117d6ea12417341",
+      "case_id": "p1b_E_L3",
+      "changes": {
+        "expected_answer": {
+          "after": {
+            "answer_fact_ids": [
+              "p1b_E_L3_f05"
+            ],
+            "components": {
+              "day": "Tuesday"
+            },
+            "proof_fact_ids": [
+              "p1b_E_L3_f02",
+              "p1b_E_L3_f03",
+              "p1b_E_L3_f05"
+            ]
+          },
+          "before": {
+            "answer_fact_ids": [
+              "p1b_E_L3_f05"
+            ],
+            "components": {
+              "day": "Thursday"
+            },
+            "proof_fact_ids": [
+              "p1b_E_L3_f02",
+              "p1b_E_L3_f03",
+              "p1b_E_L3_f05"
+            ]
+          }
+        },
+        "facts": {
+          "after": [
+            {
+              "fact_id": "p1b_E_L3_f01",
+              "relation": "residence",
+              "subject": "Dara Wells",
+              "valid_from": "2026-01-01",
+              "valid_until": "2026-12-31",
+              "value": "Alderwick 4"
+            },
+            {
+              "fact_id": "p1b_E_L3_f02",
+              "relation": "residence",
+              "subject": "Dara Wells",
+              "valid_from": "2027-01-01",
+              "valid_until": null,
+              "value": "Mereford 4"
+            },
+            {
+              "fact_id": "p1b_E_L3_f03",
+              "relation": "collection_hub",
+              "subject": "Mereford 4",
+              "valid_from": "2027-01-01",
+              "valid_until": null,
+              "value": "Heron Hub 4"
+            },
+            {
+              "fact_id": "p1b_E_L3_f04",
+              "relation": "collection_hub",
+              "subject": "Alderwick 4",
+              "valid_from": "2027-01-01",
+              "valid_until": null,
+              "value": "Plover Hub 4"
+            },
+            {
+              "fact_id": "p1b_E_L3_f05",
+              "relation": "opening_day",
+              "subject": "Heron Hub 4",
+              "valid_from": "2027-01-01",
+              "valid_until": null,
+              "value": "Tuesday"
+            },
+            {
+              "fact_id": "p1b_E_L3_f06",
+              "relation": "opening_day",
+              "subject": "Plover Hub 4",
+              "valid_from": "2027-01-01",
+              "valid_until": null,
+              "value": "Monday"
+            }
+          ],
+          "before": [
+            {
+              "fact_id": "p1b_E_L3_f01",
+              "relation": "residence",
+              "subject": "Dara Wells",
+              "valid_from": "2026-01-01",
+              "valid_until": "2026-12-31",
+              "value": "Alderwick 4"
+            },
+            {
+              "fact_id": "p1b_E_L3_f02",
+              "relation": "residence",
+              "subject": "Dara Wells",
+              "valid_from": "2027-01-01",
+              "valid_until": null,
+              "value": "Mereford 4"
+            },
+            {
+              "fact_id": "p1b_E_L3_f03",
+              "relation": "collection_hub",
+              "subject": "Mereford 4",
+              "valid_from": "2027-01-01",
+              "valid_until": null,
+              "value": "Heron Hub 4"
+            },
+            {
+              "fact_id": "p1b_E_L3_f04",
+              "relation": "collection_hub",
+              "subject": "Alderwick 4",
+              "valid_from": "2027-01-01",
+              "valid_until": null,
+              "value": "Plover Hub 4"
+            },
+            {
+              "fact_id": "p1b_E_L3_f05",
+              "relation": "opening_day",
+              "subject": "Heron Hub 4",
+              "valid_from": "2027-01-01",
+              "valid_until": null,
+              "value": "Thursday"
+            },
+            {
+              "fact_id": "p1b_E_L3_f06",
+              "relation": "opening_day",
+              "subject": "Plover Hub 4",
+              "valid_from": "2027-01-01",
+              "valid_until": null,
+              "value": "Monday"
+            }
+          ]
+        },
+        "trusted_evidence": {
+          "after": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_E_L3_f01: Dara Wells \u2014 residence: Alderwick 4. Valid 2026-01-01 through 2026-12-31.\np1b_E_L3_f02: Dara Wells \u2014 residence: Mereford 4. Valid 2027-01-01 through ongoing.\np1b_E_L3_f03: Mereford 4 \u2014 collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing.\np1b_E_L3_f04: Alderwick 4 \u2014 collection hub: Plover Hub 4. Valid 2027-01-01 through ongoing.\np1b_E_L3_f05: Heron Hub 4 \u2014 opening day: Tuesday. Valid 2027-01-01 through ongoing.\np1b_E_L3_f06: Plover Hub 4 \u2014 opening day: Monday. Valid 2027-01-01 through ongoing.",
+          "before": "Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.\np1b_E_L3_f01: Dara Wells \u2014 residence: Alderwick 4. Valid 2026-01-01 through 2026-12-31.\np1b_E_L3_f02: Dara Wells \u2014 residence: Mereford 4. Valid 2027-01-01 through ongoing.\np1b_E_L3_f03: Mereford 4 \u2014 collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing.\np1b_E_L3_f04: Alderwick 4 \u2014 collection hub: Plover Hub 4. Valid 2027-01-01 through ongoing.\np1b_E_L3_f05: Heron Hub 4 \u2014 opening day: Thursday. Valid 2027-01-01 through ongoing.\np1b_E_L3_f06: Plover Hub 4 \u2014 opening day: Monday. Valid 2027-01-01 through ongoing."
+        }
+      },
+      "reason": "Remove an accidental match between the hub opening day and the weekday of the reference date."
+    }
+  ],
+  "human_approval": "OPEN",
+  "parent_sha256": "feea8880314bea78e8b74aebbdbeb3439237551df56d7bd8b34a019ebeabd49a",
+  "selection_basis": "Question/source analysis before inference; no response-dependent selection",
+  "version": "p1b_development_proposed_v2"
+}

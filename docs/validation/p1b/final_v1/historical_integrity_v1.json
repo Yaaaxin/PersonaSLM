@@ -1,0 +1,235 @@
+{
+  "annotation_counts": {
+    "human_factual_consistency": {
+      "Correct": 72,
+      "Not Applicable": 24
+    },
+    "human_semantic_completeness": {
+      "COMPLETE": 79,
+      "INCOMPLETE": 17
+    },
+    "human_temporal_consistency": {
+      "Correct": 48,
+      "Not Applicable": 48
+    },
+    "structural_status": {
+      "AMBIGUOUS": 1,
+      "CROSS_TURN": 78,
+      "TRUNCATED": 17
+    }
+  },
+  "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+  "case_contrast_rows_inspected": 972,
+  "control_semantic_review": "OPEN",
+  "event_chain_counts": {
+    "results/p1_wave1/development_v1/runs/20261013T065000-5b7eb2b7a3d64b29945f557bdf2abb59": 2278,
+    "results/p1_wave1/development_v1/runs/20261013T065228-971f93c4c1434254a5298dde72dd9061": 909
+  },
+  "factual_case_units": 9,
+  "historical_run_files_unchanged": 3192,
+  "model_sha256": "ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994",
+  "new_generation_requests": 0,
+  "new_tokenizer_requests": 0,
+  "nonzero_rating_contrasts_by_family": {
+    "C": 22
+  },
+  "original_annotation_sha256": "ed718f8e93b347cc33733edcc123f2811d9d48ec72af2139d697dd99df6cb3dd",
+  "original_dataset_sha256": "4a59f4519cb6ade311737ce613446aaac1b9d78283949d7ebc818a4a3e25469d",
+  "recorded_native_tokenizations_reconciled": 720,
+  "scope": "Offline verification of saved native GGUF requests/responses and current binary hashes; no server launched",
+  "selected_case_count": 12,
+  "selected_case_inventory": [
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_01_A",
+      "expected_answer": "Bath",
+      "family": "A",
+      "question": "Where does Kendall currently live?",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_02_B",
+      "expected_answer": "Rowan Reading Circle",
+      "family": "B",
+      "question": "Which reading group is Avery a member of?",
+      "trusted_evidence": "Verified record as of 2026-10-13: Avery currently lives in Norwich, valid from 2026-10-01 onward. Avery is a member of the Rowan Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_03_C",
+      "expected_answer": null,
+      "family": "C",
+      "question": "Please write a friendly welcome greeting for Parker without adding any biographical claims.",
+      "trusted_evidence": "Verified record as of 2026-10-13: Parker currently lives in Derby, valid from 2026-10-01 onward. Parker is a member of the Willow Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_04_D",
+      "expected_answer": "Lincoln",
+      "family": "D",
+      "question": "Following the October move, which city does Harper currently live in for the delivery?",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_05_A",
+      "expected_answer": "Exeter",
+      "family": "A",
+      "question": "Where does Cameron currently live?",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_06_B",
+      "expected_answer": "Alder Reading Circle",
+      "family": "B",
+      "question": "Which reading group is Marlowe a member of?",
+      "trusted_evidence": "Verified record as of 2026-10-13: Marlowe currently lives in Oxford, valid from 2026-10-01 onward. Marlowe is a member of the Alder Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_07_C",
+      "expected_answer": null,
+      "family": "C",
+      "question": "Please write a friendly welcome greeting for Lennox without adding any biographical claims.",
+      "trusted_evidence": "Verified record as of 2026-10-13: Lennox currently lives in Lancaster, valid from 2026-10-01 onward. Lennox is a member of the Pine Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_08_D",
+      "expected_answer": "Cambridge",
+      "family": "D",
+      "question": "Following the October move, which city does Sutton currently live in for the delivery?",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_09_A",
+      "expected_answer": "York",
+      "family": "A",
+      "question": "Where does Reese currently live?",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_10_B",
+      "expected_answer": "Aspen Reading Circle",
+      "family": "B",
+      "question": "Which reading group is Jordan a member of?",
+      "trusted_evidence": "Verified record as of 2026-10-13: Jordan currently lives in Durham, valid from 2026-10-01 onward. Jordan is a member of the Aspen Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_11_C",
+      "expected_answer": null,
+      "family": "C",
+      "question": "Please write a friendly welcome greeting for Ellis without adding any biographical claims.",
+      "trusted_evidence": "Verified record as of 2026-10-13: Ellis currently lives in Chester, valid from 2026-10-01 onward. Ellis is a member of the Birch Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_12_D",
+      "expected_answer": "Plymouth",
+      "family": "D",
+      "question": "Following the October move, which city does Quinn currently live in for the delivery?",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward."
+    }
+  ],
+  "selected_control_matches": 24,
+  "temporal_case_units": 6,
+  "tracked_preservation": {
+    "baseline_clean": true,
+    "baseline_git_sha": "d5be4380a7939a8d8bbda13b1bc32a36ae5b1665",
+    "historical_tracked_files_unchanged": 331,
+    "permitted_current_edits": [
+      ".gitignore"
+    ],
+    "tracked_files_compared": 332
+  },
+  "version": "p1b_historical_inspection_v1"
+}
