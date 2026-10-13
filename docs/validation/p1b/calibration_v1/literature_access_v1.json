@@ -1,0 +1,36 @@
+{
+  "method": "Browser open calls; metadata/abstracts and journal criteria, not full-text systematic review or experiment replication",
+  "recorded_utc": "2026-10-13T17:26:26.253859+00:00",
+  "sources": [
+    {
+      "scope": "Current journal criteria read; technical rigor, supported conclusions and justified replication.",
+      "status": "FETCHED",
+      "url": "https://journals.plos.org/plosone/s/criteria-for-publication"
+    },
+    {
+      "scope": "Primary bibliographic record and abstract; persona performance, irrelevant attributes and fidelity.",
+      "status": "FETCHED",
+      "url": "https://aclanthology.org/2025.emnlp-main.1364/"
+    },
+    {
+      "scope": "Primary LongMemEval record; no experiment reproduced.",
+      "status": "FETCHED",
+      "url": "https://arxiv.org/abs/2410.10813"
+    },
+    {
+      "scope": "Browser cache miss; previous repository assessment remains historical, not newly verified.",
+      "status": "FETCH_FAILED",
+      "url": "https://arxiv.org/abs/2610.09772v2"
+    },
+    {
+      "scope": "Primary record and abstract; admission versus presentation, reported benefits and personalization tradeoffs.",
+      "status": "FETCHED",
+      "url": "https://arxiv.org/abs/2610.11188v1"
+    },
+    {
+      "scope": "Primary record and abstract; personalized factual distortions and FPPS. Mechanism remains authors claim, not our replication.",
+      "status": "FETCHED",
+      "url": "https://aclanthology.org/2026.findings-acl.395/"
+    }
+  ]
+}

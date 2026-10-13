@@ -1,0 +1,25 @@
+{
+  "actual_review_timestamp": null,
+  "annotation_instruction_excerpt_verbatim": "Register researcher confirmation with:\n\nreviewer_id:\nYaxin_ZHENG\n\nreview_status:\nRESEARCHER_CONFIRMED\n\nfinal_decision_authority:\nresearcher\n\nreview_method:\nResearcher confirmation of\nAI-assisted case-level assessment",
+  "authorization_excerpt_verbatim": "I have personally reviewed the 24-case\nstimulus assessment and its limitations.\n\nI accept the reviewed development\nstimuli for bounded P1b calibration.\n\nThis approval is limited to\ndevelopment-stage experimentation.\n\nIt does not establish:\n\n- Empirical task difficulty\n- Complete causal identification\n- Neutral-control validity\n- Confirmatory statistical evidence\n- Scientific novelty\n\nPreserve the original AI-assisted\nassessment provenance accurately.\n\nDo not fabricate independent reviewers.\n\nAfter verifying the frozen manifest,\nthe actual model configuration,\nsource integrity and mandatory checks,\nI explicitly authorize exactly\n192 real CPU generations.\n\nAny substantive configuration change,\nfailed mandatory preflight or invalid\nreview record requires stopping and\nrequesting new authorization.",
+  "dataset_sha256": "fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6",
+  "instruction_scope": "Exactly the frozen 192-request Base calibration after mandatory checks; stop for any mandatory failure or substantive change.",
+  "limitations_preserved": [
+    "H_L1/H_L2 do not establish context necessity",
+    "H_L3 consecutive User turns",
+    "Reasoning shortcuts and untested empirical difficulty",
+    "Style partly nested in speaker",
+    "Task family/history relevance confounding",
+    "96-token output may be incomplete",
+    "No neutral validity, confirmatory finding or novelty approval"
+  ],
+  "manifest_sha256": "d73ceb403148b01f7b2c83a51a20165fdd625658e50c04a7ce0caa118ab22869",
+  "message_id": null,
+  "proposal_sha256": "652a21aa67a4ac04f357f95653cc7c449a2982719d2c375253fd1769158bd718",
+  "provenance": "Actual researcher message; rows below are tool-transcribed from explicit whole-packet confirmation, not independently hand-entered CSV or blinded outcome annotations.",
+  "recorded_utc": "2026-10-13T17:17:25.677283+00:00",
+  "researcher": "Yaxin ZHENG",
+  "source_message_title": "PersonaSLM — P1b Researcher Approval and Real CPU Calibration Execution",
+  "source_role": "user",
+  "version": "p1b_researcher_instruction_v1"
+}

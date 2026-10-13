@@ -1,0 +1,190 @@
+{
+  "captures": {
+    "analysis_unit_tests_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_p1b_calibration_analysis.py"
+      ],
+      "duration_seconds": 1.8747475999989547,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:25:26.679087+00:00",
+      "started_utc": "2026-10-13T17:25:24.804328+00:00"
+    },
+    "analysis_unit_tests_02.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_p1b_calibration_analysis.py"
+      ],
+      "duration_seconds": 2.0757054000278004,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:31:13.442439+00:00",
+      "started_utc": "2026-10-13T17:31:11.366721+00:00"
+    },
+    "authorization_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_register_execution.py",
+        "authorize"
+      ],
+      "duration_seconds": 0.4482262000092305,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:20:19.690437+00:00",
+      "started_utc": "2026-10-13T17:20:19.242210+00:00"
+    },
+    "full_tests_final_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "duration_seconds": 39.05113979999442,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:56:36.441830+00:00",
+      "started_utc": "2026-10-13T17:55:57.390685+00:00"
+    },
+    "full_tests_pre_generation_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "duration_seconds": 36.03268810000736,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:15:23.153013+00:00",
+      "started_utc": "2026-10-13T17:14:47.120333+00:00"
+    },
+    "generation_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_calibration.py",
+        "run",
+        "--authorization",
+        "docs/validation/p1b/calibration_v1/researcher_authorization_v1.json",
+        "--review-registration",
+        "docs/validation/p1b/calibration_v1/researcher_review_registration_v1.json",
+        "--preflight",
+        "docs/validation/p1b/calibration_v1/execution_preflight_v1/preflight.json"
+      ],
+      "duration_seconds": 2114.987583500013,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:55:43.117315+00:00",
+      "started_utc": "2026-10-13T17:20:28.129733+00:00"
+    },
+    "hardware_observation_01.json": {
+      "argv": [
+        "powershell.exe",
+        "-NoProfile",
+        "-Command",
+        "$c = Get-CimInstance Win32_Processor; $s = Get-CimInstance Win32_ComputerSystem; $o = Get-CimInstance Win32_OperatingSystem; [pscustomobject]@{CPU=($c | Select-Object Name,NumberOfCores,NumberOfLogicalProcessors); InstalledRAMBytes=$s.TotalPhysicalMemory; OS=$o.Caption; OSVersion=$o.Version; FreePhysicalMemoryKiB=$o.FreePhysicalMemory} | ConvertTo-Json -Depth 4"
+      ],
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:28:29.640896+00:00",
+      "scope": "Read-only WMI/CIM observation during calibration, not a benchmark or baseline memory reservation",
+      "started_utc": "2026-10-13T17:28:27.627909+00:00"
+    },
+    "mandatory_preflight_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_calibration.py",
+        "preflight",
+        "--output",
+        "docs/validation/p1b/calibration_v1/execution_preflight_v1"
+      ],
+      "duration_seconds": 3.9506546999909915,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:20:14.682389+00:00",
+      "started_utc": "2026-10-13T17:20:10.731725+00:00"
+    },
+    "offline_analysis_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_calibration_analysis.py",
+        "--output",
+        "docs/validation/p1b/calibration_v1/analysis_v1"
+      ],
+      "duration_seconds": 4.968215499975486,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:56:01.981155+00:00",
+      "started_utc": "2026-10-13T17:55:57.012931+00:00"
+    },
+    "offline_tools_compile_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "py_compile",
+        "tools/p1b_register_execution.py",
+        "tools/p1b_calibration_analysis.py",
+        "tools/p1b_calibration_verify.py",
+        "tools/p1b_calibration_report.py"
+      ],
+      "duration_seconds": 0.3451549999881536,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:36:02.034782+00:00",
+      "started_utc": "2026-10-13T17:36:01.689618+00:00"
+    },
+    "reconstruction_repeat_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_calibration.py",
+        "audit",
+        "--output",
+        "results/p1b_execution/v1/reconstruction_repeat_v1.json"
+      ],
+      "duration_seconds": 4.128516700002365,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:56:01.302205+00:00",
+      "started_utc": "2026-10-13T17:55:57.173679+00:00"
+    },
+    "review_import_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_review_proposal.py",
+        "register-confirmed",
+        "--csv",
+        "docs/validation/p1b/calibration_v1/stimulus_researcher_confirmed_source_v1.csv",
+        "--output",
+        "docs/validation/p1b/calibration_v1/review_import_v1",
+        "--confirm-limited-interpretation",
+        "--confirm-evaluation-routing"
+      ],
+      "duration_seconds": 0.3841093000082765,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:20:05.665362+00:00",
+      "started_utc": "2026-10-13T17:20:05.281247+00:00"
+    },
+    "review_transcription_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_register_execution.py",
+        "review"
+      ],
+      "duration_seconds": 0.31399169997894205,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:17:25.736611+00:00",
+      "started_utc": "2026-10-13T17:17:25.422619+00:00"
+    }
+  },
+  "created_utc": "2026-10-13T17:57:14.499708+00:00",
+  "full_local_capture_directory": "results/p1b_execution/v1/engineering",
+  "inspection_helper_error": {
+    "actual_error_timestamp": null,
+    "cause": "Local inspection passed str to csv_records requiring Path",
+    "error_type": "AttributeError",
+    "fix": "Pass pathlib.Path; no repository source/configuration or scientific input changed",
+    "generation_requests": 0,
+    "mandatory_preflight_started": false,
+    "message": "str object has no attribute is_absolute",
+    "phase": "inspection helper before mandatory preflight",
+    "recorded_utc": "2026-10-13T17:15:36.722097+00:00"
+  },
+  "scope": "Captured engineering/execution commands; exploratory read-only shell inspection and apply_patch file edits are described in the development log, not fabricated as captured process commands.",
+  "version": "p1b_calibration_command_register_v1"
+}

@@ -1,0 +1,28 @@
+{
+  "actual_review_timestamp": null,
+  "adapter_version": "p1b_calibration_adapter_v1",
+  "allow_automatic_retries": false,
+  "authorization_registered_utc": "2026-10-13T17:20:19.659233+00:00",
+  "authorized": true,
+  "dataset_sha256": "fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6",
+  "decision_source": "docs/validation/p1b/calibration_v1/researcher_instruction_v1.json",
+  "decision_source_sha256": "54b9f3d0cbf16606a13ed721ae2f11f56bd2744ed81f0bb6dbad9c23aa062db4",
+  "final_decision_authority": "researcher",
+  "mandatory_static_checks": {
+    "confirmed_judgments": 312,
+    "disk_free_bytes": 10913914880,
+    "filesystem_write_read_fsync": "PASS",
+    "logging_reserve_bytes": 268435456,
+    "probe_sha256": "d2cc6afd280f2621b0b2957d7740a5a7d8ddd8cad9ed0d6ce726b1c3e8a13427",
+    "review_records": 24,
+    "source_hashes": "PASS"
+  },
+  "manifest_sha256": "d73ceb403148b01f7b2c83a51a20165fdd625658e50c04a7ce0caa118ab22869",
+  "max_total_attempts": 192,
+  "notes": "Explicit researcher authorization from the current user message; bound to unchanged experimental inputs/configuration. No retries or extra waves.",
+  "preflight_sha256": "aac6b04f810bf6b3fcb9122745dcc61f80e2c881fbf0443b2914163dc4f38ae8",
+  "researcher_id": "Yaxin_ZHENG",
+  "review_registration_sha256": "33f4074163733549c2c7aeb77105249cdfc3e62cfa38ab62b42cd7279c849433",
+  "stop_on_mandatory_failure": true,
+  "version": "p1b_calibration_authorization_v1"
+}

@@ -1,0 +1,321 @@
+{
+  "command_captures": {
+    "analysis_unit_tests_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_p1b_calibration_analysis.py"
+      ],
+      "duration_seconds": 1.8747475999989547,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:25:26.679087+00:00",
+      "path": "results/p1b_execution/v1/engineering/analysis_unit_tests_01.json",
+      "sha256": "20454e0d0093dac9eb1cb69e2fe104b31d28364c64391eec0d6d74c3214117ef",
+      "started_utc": "2026-10-13T17:25:24.804328+00:00"
+    },
+    "analysis_unit_tests_02.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_p1b_calibration_analysis.py"
+      ],
+      "duration_seconds": 2.0757054000278004,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:31:13.442439+00:00",
+      "path": "results/p1b_execution/v1/engineering/analysis_unit_tests_02.json",
+      "sha256": "5506201069432419af9c7f23d4bf506cd5105d33eba4ea4522a7d58582662760",
+      "started_utc": "2026-10-13T17:31:11.366721+00:00"
+    },
+    "authorization_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_register_execution.py",
+        "authorize"
+      ],
+      "duration_seconds": 0.4482262000092305,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:20:19.690437+00:00",
+      "path": "results/p1b_execution/v1/engineering/authorization_01.json",
+      "sha256": "68d468e1a3749216109edfe5f34a78a9217e639b73dae0ad0b08a9a063e038e3",
+      "started_utc": "2026-10-13T17:20:19.242210+00:00"
+    },
+    "final_integrity_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_calibration_verify.py",
+        "--output",
+        "docs/validation/p1b/calibration_v1/final_integrity_v1.json"
+      ],
+      "duration_seconds": 350.6995048999961,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T18:03:12.244323+00:00",
+      "path": "results/p1b_execution/v1/engineering/final_integrity_01.json",
+      "sha256": "da22543ac01c6095355f21f0259384ca5dc2545017646665d66c8341f7ddfb21",
+      "started_utc": "2026-10-13T17:57:21.544816+00:00"
+    },
+    "full_tests_final_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "duration_seconds": 39.05113979999442,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:56:36.441830+00:00",
+      "path": "results/p1b_execution/v1/engineering/full_tests_final_01.json",
+      "sha256": "70d0fa9fbe53bc6cf634b7c31ada3fa5092d7ed75c45344b931b6e50382de33d",
+      "started_utc": "2026-10-13T17:55:57.390685+00:00"
+    },
+    "full_tests_pre_generation_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "duration_seconds": 36.03268810000736,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:15:23.153013+00:00",
+      "path": "results/p1b_execution/v1/engineering/full_tests_pre_generation_01.json",
+      "sha256": "324fb82f7accbf3aa4053f9cbf5f5d2a401b3f1b872404e545e019740b816aef",
+      "started_utc": "2026-10-13T17:14:47.120333+00:00"
+    },
+    "generation_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_calibration.py",
+        "run",
+        "--authorization",
+        "docs/validation/p1b/calibration_v1/researcher_authorization_v1.json",
+        "--review-registration",
+        "docs/validation/p1b/calibration_v1/researcher_review_registration_v1.json",
+        "--preflight",
+        "docs/validation/p1b/calibration_v1/execution_preflight_v1/preflight.json"
+      ],
+      "duration_seconds": 2114.987583500013,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:55:43.117315+00:00",
+      "path": "results/p1b_execution/v1/engineering/generation_01.json",
+      "sha256": "2d1c86eda3e0d8b80475891233cdd181d98394e43f784ab692230c3b89b4dc6c",
+      "started_utc": "2026-10-13T17:20:28.129733+00:00"
+    },
+    "git_diff_check_final_01.json": {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "duration_seconds": 0.04500690000713803,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:57:53.400616+00:00",
+      "path": "results/p1b_execution/v1/engineering/git_diff_check_final_01.json",
+      "sha256": "8847da2ee67a778f6c259219b2117d6f0de86da600d2522809d1657fca09589c",
+      "started_utc": "2026-10-13T17:57:53.355612+00:00"
+    },
+    "git_status_final_01.json": {
+      "argv": [
+        "git",
+        "status",
+        "--short",
+        "--untracked-files=all"
+      ],
+      "duration_seconds": 0.04135590000078082,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:57:53.395850+00:00",
+      "path": "results/p1b_execution/v1/engineering/git_status_final_01.json",
+      "sha256": "1d43b7ff763afbc0fd86a51e688e642e5a097f8061c9b84de8b042b9e5336ca5",
+      "started_utc": "2026-10-13T17:57:53.354492+00:00"
+    },
+    "hardware_observation_01.json": {
+      "argv": [
+        "powershell.exe",
+        "-NoProfile",
+        "-Command",
+        "$c = Get-CimInstance Win32_Processor; $s = Get-CimInstance Win32_ComputerSystem; $o = Get-CimInstance Win32_OperatingSystem; [pscustomobject]@{CPU=($c | Select-Object Name,NumberOfCores,NumberOfLogicalProcessors); InstalledRAMBytes=$s.TotalPhysicalMemory; OS=$o.Caption; OSVersion=$o.Version; FreePhysicalMemoryKiB=$o.FreePhysicalMemory} | ConvertTo-Json -Depth 4"
+      ],
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:28:29.640896+00:00",
+      "path": "results/p1b_execution/v1/engineering/hardware_observation_01.json",
+      "sha256": "311e0a21dde74eecd92b2c7799257e1b2fb3650bb0295cd9ba751847e2999f66",
+      "started_utc": "2026-10-13T17:28:27.627909+00:00"
+    },
+    "mandatory_preflight_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_calibration.py",
+        "preflight",
+        "--output",
+        "docs/validation/p1b/calibration_v1/execution_preflight_v1"
+      ],
+      "duration_seconds": 3.9506546999909915,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:20:14.682389+00:00",
+      "path": "results/p1b_execution/v1/engineering/mandatory_preflight_01.json",
+      "sha256": "4a349084451c48264b92eb7156b9fa4a54def70afbd579c71d6eaaf3da3645e8",
+      "started_utc": "2026-10-13T17:20:10.731725+00:00"
+    },
+    "offline_analysis_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_calibration_analysis.py",
+        "--output",
+        "docs/validation/p1b/calibration_v1/analysis_v1"
+      ],
+      "duration_seconds": 4.968215499975486,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:56:01.981155+00:00",
+      "path": "results/p1b_execution/v1/engineering/offline_analysis_01.json",
+      "sha256": "6fcf7d2c346ac399d2242137c24ad5980d44db6f8121ef916aa63de0be59a669",
+      "started_utc": "2026-10-13T17:55:57.012931+00:00"
+    },
+    "offline_tools_compile_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "py_compile",
+        "tools/p1b_register_execution.py",
+        "tools/p1b_calibration_analysis.py",
+        "tools/p1b_calibration_verify.py",
+        "tools/p1b_calibration_report.py"
+      ],
+      "duration_seconds": 0.3451549999881536,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:36:02.034782+00:00",
+      "path": "results/p1b_execution/v1/engineering/offline_tools_compile_01.json",
+      "sha256": "b83ef1d120abe26483d042a99248165b4dc8ac0cfc44875350d44ff11d73f6e1",
+      "started_utc": "2026-10-13T17:36:01.689618+00:00"
+    },
+    "reconstruction_repeat_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_calibration.py",
+        "audit",
+        "--output",
+        "results/p1b_execution/v1/reconstruction_repeat_v1.json"
+      ],
+      "duration_seconds": 4.128516700002365,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:56:01.302205+00:00",
+      "path": "results/p1b_execution/v1/engineering/reconstruction_repeat_01.json",
+      "sha256": "a5eb2796ce3cc4c4ffe26751e9457da66185fdd2a07b7e47414723419a077f3a",
+      "started_utc": "2026-10-13T17:55:57.173679+00:00"
+    },
+    "reports_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_calibration_report.py"
+      ],
+      "duration_seconds": 0.5167854999890551,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:57:14.542090+00:00",
+      "path": "results/p1b_execution/v1/engineering/reports_01.json",
+      "sha256": "b24ccb591359432d8225eb136f8da64f2cd7e7d492b3eb2097f4125cdc32a889",
+      "started_utc": "2026-10-13T17:57:14.025302+00:00"
+    },
+    "review_import_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_review_proposal.py",
+        "register-confirmed",
+        "--csv",
+        "docs/validation/p1b/calibration_v1/stimulus_researcher_confirmed_source_v1.csv",
+        "--output",
+        "docs/validation/p1b/calibration_v1/review_import_v1",
+        "--confirm-limited-interpretation",
+        "--confirm-evaluation-routing"
+      ],
+      "duration_seconds": 0.3841093000082765,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:20:05.665362+00:00",
+      "path": "results/p1b_execution/v1/engineering/review_import_01.json",
+      "sha256": "8958d7ee4d866f51d928c6f7d21f51b88ad044ce0bd044dc64d81f2da6cd502a",
+      "started_utc": "2026-10-13T17:20:05.281247+00:00"
+    },
+    "review_transcription_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_register_execution.py",
+        "review"
+      ],
+      "duration_seconds": 0.31399169997894205,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:17:25.736611+00:00",
+      "path": "results/p1b_execution/v1/engineering/review_transcription_01.json",
+      "sha256": "8075826bd8d6c8a1a50ee8b55a3afb9aab4526b2060c761a4b9bc84bb22ed94b",
+      "started_utc": "2026-10-13T17:17:25.422619+00:00"
+    }
+  },
+  "created_utc": "2026-10-13T18:03:50.667268+00:00",
+  "delivered_files": {
+    "docs/P1b_calibration_algorithmic_opportunity.md": "65bb39896d83bc2e49d1719d4cebf4c77d938baa9bc04296266e6f2ce56ad336",
+    "docs/P1b_calibration_execution_readiness_v1.md": "6ce3935d5d5a64531ce0b795b4aa746afc9508e16f4ce5c8921b9caea50c4345",
+    "docs/P1b_calibration_execution_report.md": "fed5e2ffdfd27faed0f6da4dbbd21a8d3cc307837f5a41abb89e872ef5eb0200",
+    "docs/P1b_calibration_measurement_report.md": "69684e74cdace5bc12e49c6b7b235382238ee690fe795725ad962d098b05b8ff",
+    "docs/P1b_calibration_next_experiment_decision.md": "0839d603a1a829c27412e578adbb1842971841215036f9e2d386acca39934158",
+    "docs/P1b_calibration_output_review_guide.md": "bcf51de8ef5882a0f7b0d9cf82d2efa8c9b21a59449d2c9784cadc483f43c988",
+    "docs/P1b_calibration_structural_analysis.md": "f632655f1aa9d59b6fd31170ef9216b97d6a8e4fa82e81a62f3e522ceefedfc5",
+    "docs/research_development_log.md": "10036d9399194747016d22df972197692d94040c5bef774d00274da0adc0b441",
+    "docs/validation/p1b/calibration_v1/analysis_v1/analysis_v1.json": "f0ec431f9ec6bc1facb2d302cdc7ba717c86848a3b493d56009eb42115159396",
+    "docs/validation/p1b/calibration_v1/analysis_v1/execution_inventory_v1.json": "f0752383bdc9bccd0aa42ae2e7f037bec4c1208da47ddfefab2e3daf3cb22a17",
+    "docs/validation/p1b/calibration_v1/analysis_v1/output_human_review_v1.csv": "9d2cc438db5925c672bcee7a6f084d9bc7151911295d4ba6b50561f665c8051f",
+    "docs/validation/p1b/calibration_v1/analysis_v1/request_measurements_v1.csv": "5b2b0652546602eaaf66a97800d0991ad6250119dcae47360bfcc59eb71d95d6",
+    "docs/validation/p1b/calibration_v1/analysis_v1/structural_case_contrasts_v1.csv": "0df5c58f0d1b522ade5e3fa01e74a2a18259e7b9661bb0a9774e00d179e80213",
+    "docs/validation/p1b/calibration_v1/analysis_v1/transport_integrity_v1.json": "3d15704eb8f4d02f3b4bc2f99e3b95d35fcc4489f2597dbfcd78d7da742ca17e",
+    "docs/validation/p1b/calibration_v1/command_register_v1.json": "150b9a04b3234d894d341cefda84ced080602b27707d88d135dbdeb6aa098f64",
+    "docs/validation/p1b/calibration_v1/execution_preflight_v1/authorization_PENDING.json": "5b1ea9c81c567d9a1c72cd444644a51ad6d4e9026a7f429b04eba3bb33a4c412",
+    "docs/validation/p1b/calibration_v1/execution_preflight_v1/preflight.json": "aac6b04f810bf6b3fcb9122745dcc61f80e2c881fbf0443b2914163dc4f38ae8",
+    "docs/validation/p1b/calibration_v1/final_integrity_v1.json": "0b7e47199e596f00a49a01c3c3dc8677780d573008db11db272b91182c218889",
+    "docs/validation/p1b/calibration_v1/literature_access_v1.json": "035569cd14c167b8c79aa89a0b6efe462756b858ad01e3f51edd9b9221f575de",
+    "docs/validation/p1b/calibration_v1/researcher_authorization_v1.json": "5490ede2954b0c58cc92179be790eced6d1af6c08f7bed636d0de98ad43e1137",
+    "docs/validation/p1b/calibration_v1/researcher_decisions_registered_v1.csv": "23e0a6102824c2f3bfa2ce4675ea3cb9d4b6721a0a6c91f7b7f688122e211660",
+    "docs/validation/p1b/calibration_v1/researcher_instruction_v1.json": "54b9f3d0cbf16606a13ed721ae2f11f56bd2744ed81f0bb6dbad9c23aa062db4",
+    "docs/validation/p1b/calibration_v1/researcher_review_registration_v1.json": "33f4074163733549c2c7aeb77105249cdfc3e62cfa38ab62b42cd7279c849433",
+    "docs/validation/p1b/calibration_v1/review_import_v1/official_review.csv": "95ea3361089640921c1b57251cc7c8e148b36f60cec045fbacaaaa7e945b6125",
+    "docs/validation/p1b/calibration_v1/review_import_v1/original_confirmation.csv": "4356e2ca5510f4c2a85cd9462d13b6c505d99a27e5794420382a4b93b29de5d9",
+    "docs/validation/p1b/calibration_v1/review_import_v1/registration.json": "0afecf3d2c6b71f2390f4dda6a6094e776af4eb38af3b7619a372c4be0efd8bf",
+    "docs/validation/p1b/calibration_v1/stimulus_researcher_confirmed_source_v1.csv": "4356e2ca5510f4c2a85cd9462d13b6c505d99a27e5794420382a4b93b29de5d9",
+    "tests/test_p1b_calibration_analysis.py": "2955181e35cec3f9e0a5920f29baac02967f56402284d32a5e90d4e8fe843ad5",
+    "tools/p1b_calibration_analysis.py": "1e09ff030426fca5870251c63e2ca916f22e592edc100f2ee0e8edcf238f17bb",
+    "tools/p1b_calibration_report.py": "5e48641bd3c5d0a7d2d1c19b76cdebced8d365febad7eb55cc819d511b3022cf",
+    "tools/p1b_calibration_verify.py": "2eb4774d1df8afe8dc8e62a6feb81aaef770c9323fe90e586ff6c0e7de749c9b",
+    "tools/p1b_register_execution.py": "1df93a3a033ba0b4cb7b01559a6804784fbc3391a52651e10a036e89cbdf4c2a"
+  },
+  "final_tests": {
+    "capture_sha256": "70d0fa9fbe53bc6cf634b7c31ada3fa5092d7ed75c45344b931b6e50382de33d",
+    "exit_code": 0,
+    "failed": 0,
+    "passed": 644,
+    "pytest_seconds": 38.27,
+    "warnings_reported": 0
+  },
+  "finalization_capture": "results/p1b_execution/v1/engineering/delivery_01.json (created on process completion; not self-hashed)",
+  "finalization_script": {
+    "path": "results/p1b_execution/v1/finalize_delivery.py",
+    "sha256": "af489cd21523aa52a0f6f1fb41c0bb8188c4c42b96f27f3de6757332873fcaa1"
+  },
+  "generation_failures": 0,
+  "generation_requests": 192,
+  "git_dirty": true,
+  "git_sha": "863c3ab4721c0857ea0f7fa1804f7369df91cda3",
+  "historical_log_append_only_rechecked": true,
+  "human_outcome_annotations": 0,
+  "inventory_self_hash_excluded": true,
+  "new_tool_source_hashes": {
+    "tests/test_p1b_calibration_analysis.py": "2955181e35cec3f9e0a5920f29baac02967f56402284d32a5e90d4e8fe843ad5",
+    "tools/p1b_calibration_analysis.py": "1e09ff030426fca5870251c63e2ca916f22e592edc100f2ee0e8edcf238f17bb",
+    "tools/p1b_calibration_report.py": "5e48641bd3c5d0a7d2d1c19b76cdebced8d365febad7eb55cc819d511b3022cf",
+    "tools/p1b_calibration_verify.py": "2eb4774d1df8afe8dc8e62a6feb81aaef770c9323fe90e586ff6c0e7de749c9b",
+    "tools/p1b_register_execution.py": "1df93a3a033ba0b4cb7b01559a6804784fbc3391a52651e10a036e89cbdf4c2a"
+  },
+  "next_wave_started": false,
+  "researcher_stimulus_records": 24,
+  "scientific_limitations_preserved": true,
+  "scope": "192-request bounded development execution; no additional inference",
+  "source_snapshot_directory": "results/p1b_execution/v1/final_source_snapshot",
+  "version": "p1b_calibration_delivery_v1"
+}

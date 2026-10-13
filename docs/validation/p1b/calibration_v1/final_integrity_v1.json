@@ -1,0 +1,264 @@
+{
+  "baseline_git_sha": "863c3ab4721c0857ea0f7fa1804f7369df91cda3",
+  "baseline_repository_files": 384,
+  "created_utc": "2026-10-13T18:03:12.119617+00:00",
+  "csv_files_validated": 7,
+  "current_git_sha": "863c3ab4721c0857ea0f7fa1804f7369df91cda3",
+  "development_log_append_only": true,
+  "git_status": " M docs/research_development_log.md\n?? docs/P1b_calibration_algorithmic_opportunity.md\n?? docs/P1b_calibration_execution_report.md\n?? docs/P1b_calibration_measurement_report.md\n?? docs/P1b_calibration_next_experiment_decision.md\n?? docs/P1b_calibration_output_review_guide.md\n?? docs/P1b_calibration_structural_analysis.md\n?? docs/validation/p1b/calibration_v1/\n?? tests/test_p1b_calibration_analysis.py\n?? tools/p1b_calibration_analysis.py\n?? tools/p1b_calibration_report.py\n?? tools/p1b_calibration_verify.py\n?? tools/p1b_register_execution.py\n",
+  "historical_local_files_unchanged": 3967,
+  "historical_repository_changes": [
+    "docs/research_development_log.md"
+  ],
+  "historical_scope": "Byte comparison to task-start inventory for repository and selected P1 files; all scientific P0/P1 journal chains additionally revalidated, including prior failed/interrupted runs. Chain validity does not turn their terminal status into success.",
+  "human_outcome_labels": 0,
+  "inference_source_hashes": "PASS",
+  "journal_chains_verified": [
+    {
+      "directory": "results/p0/20261012T152036-8e02b7e54df249fd8676da16b77bd7ca",
+      "events": 2,
+      "manifest_sha256": "508ab681a5773ad7206771dfb79cc1c976bf4736563baaeda548be817fa50d4f",
+      "terminal_hash": "4ec02b7276c3f909da990ec6ffce39408ef82d30b6990374c91c895f68c8b20b",
+      "terminal_kind": "run_finished",
+      "terminal_status": "BLOCKED"
+    },
+    {
+      "directory": "results/p0/20261012T163840-d0e467a28a4e4df89eb35ce788dfa917",
+      "events": 271,
+      "manifest_sha256": "22ba0fd1b536661bf479d5cbd095cc18221cf65a6b2e598bc3997126171bc256",
+      "terminal_hash": "45159c67d505ad1106d4a11b275cd5a73210a8be17bbebac4648377a9690478f",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_acceptance_policy/20261012T190050/experiments/runs/20261012T191040-7205faad677e426c8838576739d49717",
+      "events": 111,
+      "manifest_sha256": "17fb7495b6cd38a9a6d75bf5dd38a421827d93abd6c51be38cee67549231af32",
+      "terminal_hash": "4c6f13fd7a517f201da93b3974a9c0d950e5470d824d57159b146f6c5aefe24a",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_control_closure/closure_v1/experiments/20261012T220311-55715491d1114a30ba52afa66d662bed",
+      "events": 294,
+      "manifest_sha256": "0d1cacdf4c2fc0926ec6f5f130a73e97fd625dabe40c84c7b93cbc14819ca84c",
+      "terminal_hash": "e85aaa5027c3bce6e063611a23ffc006229f5414e8aad63e93218364a4aa5de8",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_control_development_v2/20261012T202741/experiments/20261012T203926-471064d78d6e4164a9f623c8d3ca9c09",
+      "events": 1384,
+      "manifest_sha256": "803b97af8ca70998b9ae0e286063b8627ec543bc276698384d676228f5ca6ce1",
+      "terminal_hash": "55b0f29ace6598404fac911623bdd7b84804389e892cd87f317189f4d5031c4a",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_methodological_final/20261012T181718/experiments/runs/20261012T182432-ea39ea100d8c449ab05b04cf80e6b78c",
+      "events": 184,
+      "manifest_sha256": "14c42c78d48a0930f75079a741cbf583cb6b674e4660c3b5dfbeb095dd3dec7d",
+      "terminal_hash": "53cf00104da2193b4574161a9d17f6e7189de5b0ee2b8fd2c9a0d0fba7018560",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_methodology/20261012T173818/budget_runs/20261012T175020-abbfd27ab4464f59b47195c130418d3f",
+      "events": 91,
+      "manifest_sha256": "d50a28b84ecc1668aa7c46d05ca78c9dd0e986f473c4b5e59b5e3f02beb243a9",
+      "terminal_hash": "d340798e361a1f17ecd2dcecbbaba47ecbbbae6a62bf65de824afc34f16cbf52",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_methodology/20261012T173818/budget_runs/20261012T175053-a86e73ac7d2f4b6e85a7cfe565470af9",
+      "events": 83,
+      "manifest_sha256": "ccf79e46134113141a3b5a6400ad8471e063980de70b019aeb9b2bbf096f87b2",
+      "terminal_hash": "5ef7add1eb4185bb0fd1c09b8f4c9e32ca22a32fe970f176143a63d70cf2e144",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_methodology/20261012T173818/budget_runs/20261012T175130-e4aa45177cef41fdbcd50e3222f08f56",
+      "events": 87,
+      "manifest_sha256": "e9d7255184cea3c7d20fd20a7d318bfd86011e36afcafea3806ce947ca7cb59d",
+      "terminal_hash": "46c6f01a405d86a0bf3e991c1f17252220c802b4d1df209462c56da93449410b",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_methodology/20261012T173818/budget_runs/20261012T175229-391d284949804147b4b3340ca1568ac2",
+      "events": 99,
+      "manifest_sha256": "4143cc5a237a43d033ec11f95bafeab73c186201d2effe97470b5ff377d7d26c",
+      "terminal_hash": "ea75d1bdd42f7b1b809c246ec90802a7a40b99c1fc3bbcba4acab4aeb72a69c4",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_methodology/20261012T173818/budget_runs/20261012T175339-f6abbafdfd4046b98299d76c1533b98a",
+      "events": 79,
+      "manifest_sha256": "7401f8a5aa8266a2e83ff92e168b8eda49d4b55ae5b12742a161a7c1736a5eba",
+      "terminal_hash": "319f3f626b8307e4c49994ca6303f4a0e3903e2809a113ff6a8286e9499caac6",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_methodology/20261012T173818/budget_runs/20261012T175449-2d3695902beb4fbaa7bb1f53bc062a22",
+      "events": 79,
+      "manifest_sha256": "cc961ea1ac5fcd6c946e9ef18673d492133d42a986bf674639c0eab0cc2eb984",
+      "terminal_hash": "168ccbd6ea8af5baa07e7cdec90eb18fb143b3998b0069375f91775072b0e546",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_neutral_validity/20261012T195226/experiments/20261012T195708-1dc4429d05c94341bf5a92c6da48c020",
+      "events": 756,
+      "manifest_sha256": "0e6aa778aa2e7577af5f7d687aadcd4a3e75e07ce256be3fbe9b610b4de0da0d",
+      "terminal_hash": "bd665f67bcfc6378bcddf44a403f732ba489a4c8ca15d5b7727ff9fd3180c80a",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_scientific_closure/final_v1/experiments/20261012T230353-c3f3a91631d54127824b3f4c11116e68",
+      "events": 83,
+      "manifest_sha256": "e52c4a5fa5f1e0ce1dd3e1a88e40aaf2c2d8abff46bafb04148d83c8f479cbe5",
+      "terminal_hash": "cf1bee3e58d0cf374d0a7b79e099f488ed75efbf2931e1612e2bc333839824d2",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T170623-1fbff71fcc3a46bd9d5f9df9973792dd",
+      "events": 73,
+      "manifest_sha256": "898b46d754e9ec62a554262f27d04b8dadd3ed0904187f44e572bdb1f34fff94",
+      "terminal_hash": "06dbbf54e0b62f2f4cf0d8df572cb20c0e784140c4de125c08a55866ca18f764",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T170654-853f132c954a4ac085058567c7df04b5",
+      "events": 73,
+      "manifest_sha256": "42b9fbf54dff1a5238928e008c7ee5cc9ec20cd818ca895739a467f065271892",
+      "terminal_hash": "9e80804fbdbd368db0e0023da4566c394867f5f0d0f014bc9d56920941a34595",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T170725-050387bc4d014a54b75c6ad8dbe803f5",
+      "events": 73,
+      "manifest_sha256": "11896734aecd26a6eec13ffdf1ab0f2501e6001a77ad431409d1e200074c54fb",
+      "terminal_hash": "f81d53a3925aafe7ff4eb967aa38942dc1c1fb840494b8ded9759c605461833c",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T170756-124bed2004264404b7fd1bb21884347a",
+      "events": 73,
+      "manifest_sha256": "5fae0fb57bcf2b987ef6203502f572e915750ec159b6b271680c620cfa0c59e7",
+      "terminal_hash": "467d0b2d9a74c261794904de162867a3b3728390485ab44d95eb0b95c1ac34cd",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T170849-65b0427279ef4b9c9d9d627104764189",
+      "events": 213,
+      "manifest_sha256": "9259e5aa0dbbb9df8e85a19661b3dcfb8aa462006151fb059b363a0bded7601c",
+      "terminal_hash": "62f2f27c104d0fc8872c262e6d02834000abdb18c23f7044ba246e0e3c9ac3b7",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T171126-7da62ccbcf6d48bdb31263e7a6ca4522",
+      "events": 219,
+      "manifest_sha256": "c182f966df0bfec519227058408a96590cc62fdec4390c68642afae06f25b8aa",
+      "terminal_hash": "81a095ea63887d82e5c3894d66081cc260c4dd645a71fb0570b41c02ab064434",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T171425-49348e3925ff452f9069004c011878c9",
+      "events": 225,
+      "manifest_sha256": "daca95674a9e8604e0db9259829c65ba15476ddcb6db792cfa7167d90d4aa93c",
+      "terminal_hash": "ad0dee8965a654a9b90472637d15fceaf19b2ec5b59a9aa15b74225ce97135d8",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T171723-dae18c8d3eba4c9c9a7e31f5f1c5ba99",
+      "events": 223,
+      "manifest_sha256": "0f2c04bfcbacf0f200c353dd4dad4fc82a2719423b284f18d0056e36065a1c01",
+      "terminal_hash": "0470d288582bc84be26810c938771cd22be22d1f8920d42790dce548c4dbb7e1",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/tokenizer_runs/20261012T165905-f06b3743414742079d0820d7714a6413",
+      "events": 10801,
+      "manifest_sha256": "0dd42967d2c62981073be5afdfba4a3f20f1bb3a90385c106b6e350f73273260",
+      "terminal_hash": "34fd799bee0d85ec9fd4568b238522c6d21c37244224a76a87d4c195184392b8",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PARTIAL"
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/tokenizer_runs/20261012T170136-df2f0a24271a4a0ea6f0fdeb2a0b9e00",
+      "events": 10391,
+      "manifest_sha256": "addef939b751644387bd86a154d0cbbf81de7fc2dcf4384259bc93c3cc1219e3",
+      "terminal_hash": "11c868470988e71b02bcf00d609320071bbf8d6527982374a320e45428a46eee",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PARTIAL"
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/tokenizer_runs/20261012T170507-91b67865c38f44a89a89614f7d3f6049",
+      "events": 6903,
+      "manifest_sha256": "8a1efa602af7d77acb2684df08f6886e37cf70bf976c32c2dd8ca87dcef94494",
+      "terminal_hash": "ea281e99b7a17a803131053319016e35059af1fff44ddc5a0f9c76000fd474f7",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p1b_calibration/development_v1/runs/20261013T172032-271543cb614847e8ae2ef33cca902701",
+      "events": 1781,
+      "manifest_sha256": "1d22c7ad2e782e4d1d2bc19ba2dd5b6d6a663da9eab54ea3dda0d13058b14cd7",
+      "terminal_hash": "5df2a380ee216979b27cc04048b8c4c3e21c6fdcece849931b4ae8b582bbceef",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p1b_final_review/v1/runs/20261013T160202-8acbf8a975a04528bf59cd63852cd236",
+      "events": 657,
+      "manifest_sha256": "5140528dd69f5b9f0e7c908fc8a7f7c85de9319e4a73384a9566ef6c439e2f05",
+      "terminal_hash": "34d828f19e287757b5dd7e4a3f12c9fb0f4304bbc63e0e0b1bba54fa27a7bb05",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p1_wave1/development_v1/runs/20261013T065000-5b7eb2b7a3d64b29945f557bdf2abb59",
+      "events": 2278,
+      "manifest_sha256": "4b5bc1dc2629647159b58c6118a0e488da8ad8310e90bd59001c238eaec899a6",
+      "terminal_hash": "b70738ac0aab0fbdab63478f35f988e58b957a3e84bf7cb5d446dce3a56b2330",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    },
+    {
+      "directory": "results/p1_wave1/development_v1/runs/20261013T065228-971f93c4c1434254a5298dde72dd9061",
+      "events": 909,
+      "manifest_sha256": "23bd5eb32dee90cc1c2b244647a3ae5bb51a3cb9beaee6eadff3e7f7f7f28d3c",
+      "terminal_hash": "57873d0872e1c5b3d8a977f824cc29504d1f9c89f9945724aacd2a4227abb0b6",
+      "terminal_kind": "run_finished",
+      "terminal_status": "PASS"
+    }
+  ],
+  "json_files_validated": 11,
+  "new_report_links": "PASS",
+  "new_run_inventory": "PASS",
+  "no_new_generation_requests": true,
+  "outcome_review_records": 192,
+  "preserved_judgments": 312,
+  "registered_stimuli": 24,
+  "repeated_offline_reconstruction": "IDENTICAL",
+  "status": "PASS",
+  "vendor_neutral_search": {
+    "files_searched": 416,
+    "matches": 0
+  },
+  "version": "p1b_calibration_final_integrity_v1"
+}

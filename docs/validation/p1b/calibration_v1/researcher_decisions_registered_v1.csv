@@ -1,0 +1,4 @@
+decision_id,status,scope,reviewer_id,review_timestamp,source
+Q1,RESEARCHER_CONFIRMED,24 cases and 312 case-level positive-criterion judgments; development only,Yaxin_ZHENG,,docs/validation/p1b/calibration_v1/researcher_instruction_v1.json
+Q2,RESEARCHER_CONFIRMED,Limited interpretation and unchanged task-specific manual evaluation routing,Yaxin_ZHENG,,docs/validation/p1b/calibration_v1/researcher_instruction_v1.json
+A1,AUTHORIZED_SUBJECT_TO_LIVE_PREFLIGHT,Exactly 192 frozen requests; stop on mandatory failure or interruption,Yaxin_ZHENG,,docs/validation/p1b/calibration_v1/researcher_instruction_v1.json
