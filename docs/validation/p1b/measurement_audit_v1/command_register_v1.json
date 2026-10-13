@@ -1,0 +1,135 @@
+{
+  "captures": {
+    "build_02.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_measurement_audit.py",
+        "build"
+      ],
+      "duration_seconds": 12.808780399995157,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T18:46:46.429807+00:00",
+      "path": "results/p1b_measurement_audit/v1/engineering/build_02.json",
+      "sha256": "5b901058a67e2a53acb8aa4c7707f099284f9182b1d4ff5719a2079bffba5f02",
+      "started_utc": "2026-10-13T18:46:33.621025+00:00"
+    },
+    "compile_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "py_compile",
+        "tools/p1b_measurement_audit.py",
+        "tools/p1b_measurement_report.py",
+        "tools/p1b_measurement_verify.py",
+        "results/p1b_measurement_audit/v1/finish_delivery.py"
+      ],
+      "duration_seconds": 0.146852800011402,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T19:00:18.696316+00:00",
+      "path": "results/p1b_measurement_audit/v1/engineering/compile_01.json",
+      "sha256": "bc7282c359b8bb319c3bf2f48e05bf20bb75bbb1df963c2e348f458c1bc8aa40",
+      "started_utc": "2026-10-13T19:00:18.549469+00:00"
+    },
+    "full_tests_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "duration_seconds": 39.79522609998821,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T18:49:59.351186+00:00",
+      "path": "results/p1b_measurement_audit/v1/engineering/full_tests_01.json",
+      "sha256": "cb7a5feeca5d231ac2b0ceff0ebcb3a5b287e959836629e0ac89519d703bcf7a",
+      "started_utc": "2026-10-13T18:49:19.555956+00:00"
+    },
+    "integrity_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_measurement_verify.py",
+        "--output",
+        "docs/validation/p1b/measurement_audit_v1/integrity_v1.json"
+      ],
+      "duration_seconds": 303.59809049998876,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T19:02:13.654792+00:00",
+      "path": "results/p1b_measurement_audit/v1/engineering/integrity_01.json",
+      "sha256": "a6dc29fe5e307889bd17050e2fb8f87caee5a784884c3a12a2e579d8f42d0a96",
+      "started_utc": "2026-10-13T18:57:10.056704+00:00"
+    },
+    "reports_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_measurement_report.py"
+      ],
+      "duration_seconds": 0.321137799997814,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T18:55:38.565939+00:00",
+      "path": "results/p1b_measurement_audit/v1/engineering/reports_01.json",
+      "sha256": "7bbf014e16a181487bfd349af49eb408795a4ca551d730ddb78d67fc60bb39ea",
+      "started_utc": "2026-10-13T18:55:38.244800+00:00"
+    },
+    "setup_errors_registered.json": {
+      "path": "results/p1b_measurement_audit/v1/engineering/setup_errors_registered.json",
+      "sha256": "73e3e3aac7bee1c4a0d7db361cbfaab7206406d98db45dac18cfe97c6fb63963"
+    },
+    "targeted_tests_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_p1b_measurement_audit.py"
+      ],
+      "duration_seconds": 1.3240028000145685,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T18:47:38.532020+00:00",
+      "path": "results/p1b_measurement_audit/v1/engineering/targeted_tests_01.json",
+      "sha256": "aa2a974888411bd29cd0904a4dc3ec35dc6accc3ab378d7d57485d552ef6781c",
+      "started_utc": "2026-10-13T18:47:37.208010+00:00"
+    }
+  },
+  "created_utc": "2026-10-13T19:02:42.711005+00:00",
+  "current_delivery_capture": "results/p1b_measurement_audit/v1/engineering/delivery_01.json; finalized by the parent capture process after this script returns",
+  "current_delivery_script_argv": [
+    "results/p1b_measurement_audit/v1/finish_delivery.py"
+  ],
+  "current_delivery_script_sha256": "c0eef9c7205044a9ca5e834e5cc86b53022d5ad3ca8cd348823f245efb3fcf86",
+  "errors": [
+    {
+      "command": ".venv/Scripts/python.exe tools/p0_capture.py --output results/p1b_measurement_audit/v1/engineering/build_01.json -- .venv/Scripts/python.exe tools/p1b_measurement_audit.py build",
+      "correction": "Created the parent directory. Before retry, corrected the new audit to read the frozen reasons array rather than a nonexistent reason key. The child error cannot be certified from the missing capture.",
+      "error": "FileNotFoundError: engineering/build_01.json.tmp; capture output parent absent. Child streams unavailable.",
+      "exit_code": 1
+    },
+    {
+      "command_description": "PowerShell Test-Path checks; New-Item engineering directory; attempted inline Python error-register write",
+      "correction": "Used this saved script for error registration. No research source or experiment record was changed by the failed helper.",
+      "error": "SyntaxError: unmatched closing parenthesis in the inline error-register helper.",
+      "exit_code": 1
+    }
+  ],
+  "generation_requests": 0,
+  "inspection_timestamp_scope": "Exact earlier inspection clocks not captured separately; do not infer them from this registration timestamp.",
+  "mutations": "New audit, review derivatives, documentation and tests; append-only log and algorithm report. No frozen research inputs/outputs changed.",
+  "read_only_inspection": [
+    "Get-Location; Get-Content AGENTS.md; git rev-parse HEAD; git status --short",
+    "Get-Content of protocol, calibration execution/measurement/structural/next-experiment/algorithmic reports, Wave 1 factorial report, annotation guidelines and novelty matrix",
+    "rg --files and targeted rg/Get-Content inspection of existing audit, parser, routing, annotation and test implementations",
+    "Project-venv inline Python reads of dataset, manifests, mappings, raw first replies for all 192 responses and prior annotation counts",
+    "git diff --check",
+    "Primary-source browser opens recorded separately in literature_access_v1.json"
+  ],
+  "server_launches": 0,
+  "tests": {
+    "captured_command_seconds": 39.79522609998821,
+    "exit_code": 0,
+    "failed": 0,
+    "passed": 663,
+    "pytest_seconds": 39.0,
+    "warnings_reported": 0
+  },
+  "tokenizer_requests": 0,
+  "version": "p1b_measurement_command_register_v1"
+}

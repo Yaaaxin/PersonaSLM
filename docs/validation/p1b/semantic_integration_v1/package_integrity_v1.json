@@ -1,0 +1,34 @@
+{
+  "blank_human_fields": true,
+  "cases": 24,
+  "dataset_sha256": "fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6",
+  "eligibility": {
+    "conversational_coherence": 192,
+    "factual_consistency": 192,
+    "response_relevance": 192,
+    "temporal_consistency": 88
+  },
+  "factorial_mappings_verified": 192,
+  "human_reviews_imported": 0,
+  "manifest_sha256": "d73ceb403148b01f7b2c83a51a20165fdd625658e50c04a7ce0caa118ab22869",
+  "mapping_sha256": "2a6a33ee651e8944e968fed5dd544c82168b027cab86ba2c9a8cbcffa8920863",
+  "masking": "Column masking verified; text cues/prior knowledge can reveal treatment.",
+  "master_hashes": {
+    "docs/validation/p1b/measurement_audit_v1/semantic_scoring_view_v2.csv": "e2d4c098f7fb89539dff5998aee987322a28b6483f6bffb37c75d5323d1114ca",
+    "docs/validation/p1b/measurement_audit_v1/structural_review_view_v2.csv": "e5b9d08625927cc64a47341923c99961235b5a0bf13e7d085ecf4e49d328a788"
+  },
+  "new_inference": 0,
+  "records": 192,
+  "source_prompts_reconstructed": 192,
+  "speakers": 12,
+  "stage_a_columns": 35,
+  "stage_b_columns": 22,
+  "structural_statuses": {
+    "AMBIGUOUS": 1,
+    "CROSS_TURN": 186,
+    "TRUNCATED": 5
+  },
+  "text_hashes_verified": 192,
+  "verified_utc": "2026-10-13T19:40:59.394696+00:00",
+  "version": "p1b_researcher_semantic_integration_v1"
+}

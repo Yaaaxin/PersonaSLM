@@ -1,0 +1,38 @@
+{
+  "ambiguous_requests": [
+    "P1B-CAL1-036"
+  ],
+  "automated_semantic_labels": 0,
+  "created_utc": "2026-10-13T18:55:38.533440+00:00",
+  "interpretation": "Literal surface pattern, not 17 human-confirmed missing answers; embedded answer references need adjudication.",
+  "pattern": "first_reply.lstrip().startswith(\"I will check\")",
+  "prospective_check_opening_count": 17,
+  "prospective_check_opening_requests": [
+    "P1B-CAL1-019",
+    "P1B-CAL1-020",
+    "P1B-CAL1-049",
+    "P1B-CAL1-050",
+    "P1B-CAL1-051",
+    "P1B-CAL1-052",
+    "P1B-CAL1-053",
+    "P1B-CAL1-054",
+    "P1B-CAL1-055",
+    "P1B-CAL1-056",
+    "P1B-CAL1-093",
+    "P1B-CAL1-094",
+    "P1B-CAL1-122",
+    "P1B-CAL1-124",
+    "P1B-CAL1-127",
+    "P1B-CAL1-177",
+    "P1B-CAL1-183"
+  ],
+  "selection": "Every response inspected; text-pattern flags and all structural exceptions retained. No cases excluded.",
+  "truncated_requests": [
+    "P1B-CAL1-113",
+    "P1B-CAL1-139",
+    "P1B-CAL1-141",
+    "P1B-CAL1-143",
+    "P1B-CAL1-144"
+  ],
+  "version": "post_output_text_observations_v1"
+}

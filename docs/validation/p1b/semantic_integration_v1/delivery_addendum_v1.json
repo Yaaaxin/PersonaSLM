@@ -1,0 +1,16 @@
+{
+  "version": "p1b_semantic_integration_delivery_addendum_v1",
+  "recorded_utc": "2026-10-13T19:47:55.518566+00:00",
+  "prior_delivery_sha256": "b06245009034407d51cb36658fb237c5e137aefd911abafe30bb156198a5b63b",
+  "scope": "Supplement for newly observed unconfirmed assistance; no source, metric, protocol or experiment changes. Prior delivery log hash refers to the preserved pre-addendum snapshot.",
+  "prior_log_snapshot": {
+    "path": "results/p1b_semantic_integration/v1/development_log_delivery_v1.bin",
+    "sha256": "8cf108db1442807af2d9a23360c40663cd41b3f92236bb41f6c894778b1c974f"
+  },
+  "current_log_sha256": "9fab3baf08f741358c790d2686fd60e0c97215f9cfac85a5b5b71a53b864795d",
+  "external_observation_sha256": "16aaa1d78395ff67df782e9020c7ee32162bcd22139278a80423b0c43251f7db",
+  "human_reviews_imported": 0,
+  "new_inference": 0,
+  "git_head": "72d5845c25046a3f6207ccfbf315b1480aa67d8f",
+  "full_suite_result_unchanged": "688 passed in 38.64s; exit 0"
+}

@@ -29,3 +29,32 @@ First annotate and integrity-register the existing packet. Distinguish unsupport
 ## Publication Value
 
 The strongest current deliverable is auditable measurement infrastructure and a bounded development observation set. Increased error counts would not themselves establish novelty. Supported conditional effects or changed conclusions under valid structural/semantic measurement could motivate a contribution, but must survive independent validation and direct prior-work comparison. Exact tokenization, CPU deployment, a factorial table and a larger generation count are insufficient originality claims.
+
+
+## Measurement-audit addendum — v2 (original v1 retained)
+
+### Observed Failure Modes
+
+The [192-response measurement audit](P1b_calibration_measurement_audit.md) reproduces every native output and frozen parser result. Beyond the earlier execution summary, it distinguishes four unclosed thinking blocks, one unfinished date clause with no parser-deleted tail, one unrecognized-label ambiguity, and17 literal prospective-check openings. The latter are text-pattern observations, not17 human-confirmed missing answers. Supported intermediate facts can fail to answer a requested room/building question. All semantic judgments remain pending.
+
+### Existing Methods
+
+Role-transition extraction already exists in this repository; the official post-trained Qwen template supplies native turn delimiters. LongMemEval covers temporal retrieval/updates; memory admission/presentation and factual personalization mitigation already appear in the [novelty assessment](P1b_calibration_novelty_assessment.md). A date filter, prompt section or response verifier is not inherently novel. No existing algorithm has been rerun or claimed reproduced in this audit.
+
+### Potential Algorithmic Improvements
+
+| Candidate | Current support / unresolved problem | Required baselines and independent validation | Cost and publication value |
+|---|---|---|---|
+| Evidence-aware response selection | Intermediate-fact and promise openings show answer-delivery review targets; no validated selector target yet | No selection, first-unit extraction, evidence-aware selection; human true-unit/claim annotations and false-selection rate on independent outputs | Offline rules inexpensive; extra sampled generations cost new inference. Useful only if valid units improve without cherry-picking |
+| Temporal-aware historical retrieval | Concrete date/site discrepancies require confirmation; all trusted facts were already supplied | All-history/no-history, date filtering, relevance filtering, matched-budget random selection; crossed relevance/time and preserved evidence | Retrieval rules cheap; causal generation tests new cost. Strong prior overlap; no current method claim |
+| Persona/evidence separation | S/F/H packages and length differ; no semantic interaction estimated | Existing sectioned prompt, native chat, compute-matched multi-stage baseline and independent fidelity review | Extra stages add calls. Cannot infer representational entanglement from these outputs |
+| Response boundary management |186 cross-turns and one ambiguous boundary are observed; five prefixes end at96tokens | Frozen parser, native chat/EOG, predeclared stop strings; complete-answer retention, false cuts and full raw preservation on independent examples | Offline audit cheap, controlled new arms require approval. Instrument validity is more immediate than algorithm novelty |
+| Structured factual verification | Source oracle validates stimuli but is not a free-text semantic judge | Exact-match with abstention, existing factuality/NLI tools, human claim-level references; negation/date/multiple-claim tests and held-out validation | Learned scoring cost unmeasured. Do not train/test on this same reviewed bank and claim independent accuracy |
+
+### Validation Feasibility
+
+First score the existing bank and quantify boundary agreement, missing answer delivery, contradictions, uncertainty and temporal misattribution. Retain unscorable cases and protected assignments until review is frozen. A new method is justified only if a reproducible unresolved failure persists beyond established baselines and a separate development/evaluation allocation can test it. No algorithm implementation, new inference or training is authorized by this assessment.
+
+### Publication Value
+
+Current value is a truthful measurement package. A replicated difference between raw-structure conclusions and valid semantic-unit conclusions could support an empirical contribution; a high continuation count or more errors alone cannot. Independent validation, useful precision and literature comparison remain necessary. This addendum preserves every earlier observation and does not retroactively change the empirical study's primary track.

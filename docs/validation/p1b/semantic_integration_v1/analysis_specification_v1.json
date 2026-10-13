@@ -1,0 +1,151 @@
+{
+  "bootstrap_replicates": 10000,
+  "created_utc": "2026-10-13T19:40:59.408830+00:00",
+  "gate": "Exact-file researcher confirmation and two-stage immutable validation required; preparation computes no semantic effects.",
+  "git": {
+    "dirty_status": " M docs/P1b_calibration_algorithmic_opportunity.md\n M docs/research_development_log.md\n?? docs/P1b_calibration_instruct_arm_proposal.md\n?? docs/P1b_calibration_measurement_audit.md\n?? docs/P1b_calibration_novelty_assessment.md\n?? docs/P1b_calibration_publication_readiness.md\n?? docs/P1b_calibration_semantic_review_guide.md\n?? docs/P1b_calibration_task_discrimination.md\n?? docs/P1b_calibration_wave_comparison.md\n?? docs/validation/p1b/measurement_audit_v1/\n?? docs/validation/p1b/semantic_integration_v1/\n?? tests/test_p1b_measurement_audit.py\n?? tests/test_p1b_semantic_integration.py\n?? tools/p1b_measurement_audit.py\n?? tools/p1b_measurement_report.py\n?? tools/p1b_measurement_verify.py\n?? tools/p1b_semantic_integration.py\n",
+    "sha": "72d5845c25046a3f6207ccfbf315b1480aa67d8f"
+  },
+  "interval_scope": "Exploratory evaluable-pair percentile intervals; no simultaneous or population coverage guarantee. Unknown bounds are not confidence intervals.",
+  "metrics": {
+    "conversational_coherence": [
+      "human_conversational_coherence_1_to_5",
+      1,
+      5
+    ],
+    "factual_consistency": [
+      "human_factual_consistency",
+      0,
+      1
+    ],
+    "response_relevance": [
+      "human_response_relevance_1_to_5",
+      1,
+      5
+    ],
+    "semantic_completeness": [
+      "human_semantic_completeness",
+      0,
+      1
+    ],
+    "temporal_consistency": [
+      "human_temporal_consistency",
+      0,
+      1
+    ]
+  },
+  "missingness_policy": "Keep missing, Unverifiable, unresolved boundary, Incorrect and frozen N/A separate; report label and analysis-state counts plus signed unknown bounds.",
+  "new_inference": 0,
+  "novelty": "S/F/H, conditional task effects, structural/semantic differences and future history/model/external validity questions are hypotheses; no expected effect imposed.",
+  "sampling": "Whole-speaker bundles preserve all cases/cells; case-weighted mean. Family-specific summaries are descriptive, no per-family resampling with three cases.",
+  "scope": "Implementation prepared after outputs existed, before researcher semantic ratings; exploratory not confirmatory.",
+  "seed": 714005,
+  "semantic_effects_computed": false,
+  "source_hashes": {
+    "src/personaslm/human_factorial.py": "18c9fa31fbc04e63cfb7de507383f6ebd27d567af48870cb8ce0a6e534d6907f",
+    "src/personaslm/p1b_calibration.py": "cc8f12cb8975c5bc18e7ce9486411da1815b9cc0734e2f06620ced52265b3825",
+    "src/personaslm/p1b_readiness.py": "e167e1b83925697e875ad81d9283628e9fc2964caf032ba919eff152dd6e372d",
+    "tools/p1b_calibration_analysis.py": "1e09ff030426fca5870251c63e2ca916f22e592edc100f2ee0e8edcf238f17bb",
+    "tools/p1b_measurement_audit.py": "00df491980721867cc68b27792d69fae4a498fa74de0390c20958194da3ab3e5",
+    "tools/p1b_semantic_integration.py": "6555c06c08650e6e4f72a74e0307c656c928c09afb66ccc3758f1fc1ecc79f5c"
+  },
+  "source_sha256": "6555c06c08650e6e4f72a74e0307c656c928c09afb66ccc3758f1fc1ecc79f5c",
+  "units": {
+    "cases": 24,
+    "speakers": 12
+  },
+  "unresolved_boundary_policy": "Keep supplied labels but treat numeric primary outcomes as unknown until first unit is confirmed; never relabel the frozen structure.",
+  "version": "p1b_verified_semantic_factorial_v1",
+  "weights": {
+    "C1-C0": {
+      "C0": -1.0,
+      "C1": 1.0,
+      "C2": 0.0,
+      "C3": 0.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0
+    },
+    "C3-C0": {
+      "C0": -1.0,
+      "C1": 0.0,
+      "C2": 0.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0
+    },
+    "F": {
+      "C0": -0.25,
+      "C1": -0.25,
+      "C2": 0.25,
+      "C3": -0.25,
+      "C4": 0.25,
+      "C5": -0.25,
+      "C6": 0.25,
+      "C7": 0.25
+    },
+    "FxH": {
+      "C0": 0.5,
+      "C1": 0.5,
+      "C2": -0.5,
+      "C3": -0.5,
+      "C4": -0.5,
+      "C5": -0.5,
+      "C6": 0.5,
+      "C7": 0.5
+    },
+    "H": {
+      "C0": -0.25,
+      "C1": -0.25,
+      "C2": -0.25,
+      "C3": 0.25,
+      "C4": -0.25,
+      "C5": 0.25,
+      "C6": 0.25,
+      "C7": 0.25
+    },
+    "S": {
+      "C0": -0.25,
+      "C1": 0.25,
+      "C2": -0.25,
+      "C3": -0.25,
+      "C4": 0.25,
+      "C5": 0.25,
+      "C6": -0.25,
+      "C7": 0.25
+    },
+    "SxF": {
+      "C0": 0.5,
+      "C1": -0.5,
+      "C2": -0.5,
+      "C3": 0.5,
+      "C4": 0.5,
+      "C5": -0.5,
+      "C6": -0.5,
+      "C7": 0.5
+    },
+    "SxFxH": {
+      "C0": -1.0,
+      "C1": 1.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": -1.0,
+      "C5": -1.0,
+      "C6": -1.0,
+      "C7": 1.0
+    },
+    "SxH": {
+      "C0": 0.5,
+      "C1": -0.5,
+      "C2": 0.5,
+      "C3": -0.5,
+      "C4": -0.5,
+      "C5": 0.5,
+      "C6": -0.5,
+      "C7": 0.5
+    }
+  }
+}

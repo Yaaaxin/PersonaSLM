@@ -1,0 +1,99 @@
+{
+  "captured_commands": [
+    {
+      "argv": [
+        ".venv\\Scripts\\python.exe",
+        "results/p1b_semantic_integration/v1/finalize.py"
+      ],
+      "duration_seconds": 2.133469399996102,
+      "exit_code": 1,
+      "finished_utc": "2026-10-13T19:44:26.647963+00:00",
+      "path": "results/p1b_semantic_integration/v1/engineering/delivery_01.json",
+      "sha256": "d37964283d7b2e27011fc70e6cbd846b35c3a12099d2eb8a0fd9cd440412b9ab",
+      "started_utc": "2026-10-13T19:44:24.514491+00:00",
+      "stderr": "FileExistsError: an absolute helper path replaced the snapshot root. Existing files were not overwritten. Raw traceback remains in the local capture.",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        ".venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "duration_seconds": 39.39660950002144,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T19:41:43.006743+00:00",
+      "path": "results/p1b_semantic_integration/v1/engineering/full_tests_01.json",
+      "sha256": "a384b2e4554046ce012b4ea4788d12d1b85baf96a8195923d1b578991c87f019",
+      "started_utc": "2026-10-13T19:41:03.610136+00:00",
+      "stderr": "",
+      "stdout": "........................................................................ [ 10%]\n........................................................................ [ 20%]\n........................................................................ [ 31%]\n........................................................................ [ 41%]\n........................................................................ [ 52%]\n........................................................................ [ 62%]\n........................................................................ [ 73%]\n........................................................................ [ 83%]\n........................................................................ [ 94%]\n........................................                                 [100%]\n688 passed in 38.64s\n"
+    },
+    {
+      "argv": [
+        ".venv\\Scripts\\python.exe",
+        "tools/p1b_semantic_integration.py",
+        "prepare",
+        "--output",
+        "docs/validation/p1b/semantic_integration_v1"
+      ],
+      "duration_seconds": 0.5641407999792136,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T19:40:59.534498+00:00",
+      "path": "results/p1b_semantic_integration/v1/engineering/prepare_01.json",
+      "sha256": "8e733fd9e9f7c41e79b9824b5254142738eadbd9096aba7121033298f2a43703",
+      "started_utc": "2026-10-13T19:40:58.970361+00:00",
+      "stderr": "",
+      "stdout": "{\"records\": 192, \"cases\": 24, \"speakers\": 12, \"new_inference\": 0}\n"
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_p1b_semantic_integration.py"
+      ],
+      "duration_seconds": 3.003939599992009,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T19:37:48.528482+00:00",
+      "path": "results/p1b_semantic_integration/v1/engineering/targeted_tests_01.json",
+      "sha256": "b7090d5f0c62739a7af149f399e55b249343ee2f57805fc004516ab22bf8e5d1",
+      "started_utc": "2026-10-13T19:37:45.524538+00:00",
+      "stderr": "",
+      "stdout": ".........................                                                [100%]\n25 passed in 2.45s\n"
+    }
+  ],
+  "created_utc": "2026-10-13T19:45:21.076222+00:00",
+  "diff_check": {
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "stderr": "warning: in the working copy of 'docs/research_development_log.md', CRLF will be replaced by LF the next time Git touches it\n",
+    "stdout": ""
+  },
+  "final_capture": "results/p1b_semantic_integration/v1/engineering/delivery_02.json",
+  "final_verification_command": [
+    ".venv\\Scripts\\python.exe",
+    "results/p1b_semantic_integration/v1/finalize_v2.py"
+  ],
+  "inspection_examples": [
+    "Get-Content -LiteralPath AGENTS.md",
+    "git status --short",
+    "Get-Content -LiteralPath tools/p1b_semantic_integration.py",
+    "Get-Content -LiteralPath docs/P1b_calibration_semantic_review_guide.md",
+    "Get-Content -LiteralPath docs/validation/p1b/measurement_audit_v1/future_semantic_analysis_contract_v1.json"
+  ],
+  "inspection_scope": "Read-only AGENTS, existing review/analysis/protocol materials, git status and baseline inventory; original reads were not independently timestamped.",
+  "new_inference": 0,
+  "preserved_failed_helper": {
+    "path": "results/p1b_semantic_integration/v1/finalize.py",
+    "sha256": "4ca14e163573382f2a41d88d26c8c662f16bc1ff22dba1586d042208234778d6"
+  },
+  "real_human_annotations_imported": 0,
+  "version": "p1b_semantic_integration_command_register_v1"
+}

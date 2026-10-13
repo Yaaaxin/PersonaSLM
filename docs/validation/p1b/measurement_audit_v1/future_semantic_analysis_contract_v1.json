@@ -1,0 +1,135 @@
+{
+  "boundary_disagreement": "Preserve original span and stage-1 record; document adjudication separately before primary scoring. Alternative spans are a named sensitivity version.",
+  "categorical_outcomes": [
+    "Correct",
+    "Incorrect",
+    "Unverifiable",
+    "Not Applicable"
+  ],
+  "created_utc": "2026-10-13T18:55:38.536518+00:00",
+  "denominators": "All pre-eligible rows; no C0-correct filter. Show every category, missing and assessed-only descriptions separately.",
+  "eligible": {
+    "conversational_coherence": 192,
+    "factual_consistency": 192,
+    "response_relevance": 192,
+    "temporal_consistency": 88
+  },
+  "formal_policies": [
+    "response_status_v1",
+    "separate_axes_policy_v1",
+    "p1b_manual_semantic_routing_proposed_v1"
+  ],
+  "human_answer_delivery_role": "Additional diagnostic only, not replacement of four primary metrics",
+  "multiplicity": "No significance claims; intervals exploratory, not simultaneous. Future confirmation needs a chosen endpoint hierarchy and multiplicity plan.",
+  "neutral_adjusted_effects": "NOT_PERMITTED: controls OPEN",
+  "ordinal_scale": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "sampling": "Whole-speaker resampling retains every case and condition; purposive templates and small clusters limit generalization.",
+  "semantic_effects_computed": false,
+  "timing": "After generation and raw inspection, before human scoring; exploratory, not preregistration",
+  "units": {
+    "cases": 24,
+    "speaker_clusters": 12,
+    "temporal_cases": 11,
+    "temporal_speaker_clusters": 9
+  },
+  "unknowns": "Unverifiable/explicitly missing remain unknown; propagate case-wise min/max bounds under each contrast weight, then aggregate.",
+  "version": "p1b_semantic_analysis_pre_review_v1",
+  "weights": {
+    "C1-C0": {
+      "C0": -1.0,
+      "C1": 1.0,
+      "C2": 0.0,
+      "C3": 0.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0
+    },
+    "C3-C0": {
+      "C0": -1.0,
+      "C1": 0.0,
+      "C2": 0.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0
+    },
+    "F": {
+      "C0": -0.25,
+      "C1": -0.25,
+      "C2": 0.25,
+      "C3": -0.25,
+      "C4": 0.25,
+      "C5": -0.25,
+      "C6": 0.25,
+      "C7": 0.25
+    },
+    "FxH": {
+      "C0": 0.5,
+      "C1": 0.5,
+      "C2": -0.5,
+      "C3": -0.5,
+      "C4": -0.5,
+      "C5": -0.5,
+      "C6": 0.5,
+      "C7": 0.5
+    },
+    "H": {
+      "C0": -0.25,
+      "C1": -0.25,
+      "C2": -0.25,
+      "C3": 0.25,
+      "C4": -0.25,
+      "C5": 0.25,
+      "C6": 0.25,
+      "C7": 0.25
+    },
+    "S": {
+      "C0": -0.25,
+      "C1": 0.25,
+      "C2": -0.25,
+      "C3": -0.25,
+      "C4": 0.25,
+      "C5": 0.25,
+      "C6": -0.25,
+      "C7": 0.25
+    },
+    "SxF": {
+      "C0": 0.5,
+      "C1": -0.5,
+      "C2": -0.5,
+      "C3": 0.5,
+      "C4": 0.5,
+      "C5": -0.5,
+      "C6": -0.5,
+      "C7": 0.5
+    },
+    "SxFxH": {
+      "C0": -1.0,
+      "C1": 1.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": -1.0,
+      "C5": -1.0,
+      "C6": -1.0,
+      "C7": 1.0
+    },
+    "SxH": {
+      "C0": 0.5,
+      "C1": -0.5,
+      "C2": 0.5,
+      "C3": -0.5,
+      "C4": -0.5,
+      "C5": 0.5,
+      "C6": -0.5,
+      "C7": 0.5
+    }
+  }
+}

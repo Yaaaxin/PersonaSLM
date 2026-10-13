@@ -1,0 +1,34 @@
+{
+  "analysis_gate": "Register immutable-field-validated semantic and structural views and preserve initial/corrected versions before unblinding final semantic analysis.",
+  "anonymous_response_ids": "BR001 through BR192, unchanged",
+  "blinding_scope": "Condition labels masked; source/response cues and prior exposure may disclose treatment. Local mapping separation, not encryption.",
+  "cases": 24,
+  "created_utc": "2026-10-13T19:02:42.619682+00:00",
+  "eligibility": {
+    "conversational_coherence": 192,
+    "factual_consistency": 192,
+    "response_relevance": 192,
+    "temporal_consistency": 88
+  },
+  "execution_seed_unchanged": 714001,
+  "files": {
+    "optional_AI_assisted_observations_v1.csv": "f4ddd2ebf7a798f3c0f75eced33d4ee83b037fc98ae36ef63299fc254119de85",
+    "semantic_scoring_view_v2.csv": "e2d4c098f7fb89539dff5998aee987322a28b6483f6bffb37c75d5323d1114ca",
+    "structural_review_view_v2.csv": "e5b9d08625927cc64a47341923c99961235b5a0bf13e7d085ecf4e49d328a788"
+  },
+  "final_decision_authority": "researcher, pending actual review; no approval registered",
+  "human_annotations": 0,
+  "optional_assistance": "optional_AI_assisted_observations_v1.csv",
+  "original_master_sha256": "9d2cc438db5925c672bcee7a6f084d9bc7151911295d4ba6b50561f665c8051f",
+  "presentation_seed": 714003,
+  "protected_mapping_path": "results/p1b_measurement_audit/v1/protected/treatment_mapping_v1.json",
+  "protected_mapping_sha256": "2a6a33ee651e8944e968fed5dd544c82168b027cab86ba2c9a8cbcffa8920863",
+  "records": 192,
+  "review_timestamp": null,
+  "reviewer_identity": null,
+  "seed_timing": "New presentation seed fixed during this post-generation audit; no output-based item selection.",
+  "source_alias_seed": 714002,
+  "stage1": "semantic_scoring_view_v2.csv",
+  "stage2": "structural_review_view_v2.csv",
+  "version": "p1b_split_review_package_v2"
+}

@@ -1,0 +1,31 @@
+{
+  "annotation_sha256": "ed718f8e93b347cc33733edcc123f2811d9d48ec72af2139d697dd99df6cb3dd",
+  "budget_reached": 95,
+  "cases": 12,
+  "factual": {
+    "Correct": 72,
+    "Not Applicable": 24
+  },
+  "human_semantic_completeness": {
+    "COMPLETE": 79,
+    "INCOMPLETE": 17
+  },
+  "human_unit_confirmation": {
+    "YES": 96
+  },
+  "native_stops": {
+    "eos": 1,
+    "length": 95
+  },
+  "records": 96,
+  "structural_status": {
+    "AMBIGUOUS": 1,
+    "CROSS_TURN": 78,
+    "TRUNCATED": 17
+  },
+  "temporal": {
+    "Correct": 48,
+    "Not Applicable": 48
+  },
+  "unchanged_immutable_records": 96
+}

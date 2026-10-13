@@ -1,0 +1,259 @@
+{
+  "artifact_sha256": {
+    "docs/P1b_calibration_algorithmic_opportunity.md": "e460642d996f08749de0f8e99aceb42a4f0e03e444dfb3bc3440c075071df631",
+    "docs/P1b_calibration_instruct_arm_proposal.md": "97e1515a50e68c28e5af211d1937504fbad6e57c61ee386b4e1e13cbb518653a",
+    "docs/P1b_calibration_measurement_audit.md": "da5173db19fda56045ea76acc5d9868a5e42dfb539903a99dd33ff4873020091",
+    "docs/P1b_calibration_novelty_assessment.md": "dafee2c9c00a96e1a19b8b3bc3a2b89db0c3f227adaa6d8bc4bfed64867f691b",
+    "docs/P1b_calibration_publication_readiness.md": "070246bf3f024c5746b608704972e371a6ddbceaab5b8ca130b235fc73fb1608",
+    "docs/P1b_calibration_semantic_review_guide.md": "98b381ed4f1bc4a50e662ffe385ca076a9c90a91b90c5cbd22c76275e9cda6c0",
+    "docs/P1b_calibration_task_discrimination.md": "d50318b52c5e273a72714e99580a623f35a17322ee65315455245d79653a58f8",
+    "docs/P1b_calibration_wave_comparison.md": "7836362e4116730ec08a3bff7442bc6001f5996dad4067d305a55c3c524c9b99",
+    "docs/research_development_log.md": "7e0b380a30db45e57f41f4cdcc86dc1a6949dbc0f74a8aa4883e6adaf4930f85",
+    "docs/validation/p1b/measurement_audit_v1/audit_summary_v1.json": "4397bd5bc408a1d1642e6a29dd97e83978d11d458b8da27edc21ead0d2f7f199",
+    "docs/validation/p1b/measurement_audit_v1/command_register_v1.json": "5cae34a65bf584fa9794324b1e2d59b41776b40347dc2803cd8e35928d834670",
+    "docs/validation/p1b/measurement_audit_v1/diagnostic_observations_v1.json": "4b9f3c0e1265a7262d88e106b0aafa0e8219bdb2c0fbdc2b6436b366c2ef02db",
+    "docs/validation/p1b/measurement_audit_v1/future_semantic_analysis_contract_v1.json": "3d6bb09c73217a58817047a915f300e7c64c101447af227f4654d1a5d9fc7624",
+    "docs/validation/p1b/measurement_audit_v1/integrity_v1.json": "409efae0468faac1e7fe51b57d4265bc5f1ab96ad77adb8ca9f46ce926ec69b6",
+    "docs/validation/p1b/measurement_audit_v1/literature_access_v1.json": "8590be60a654845d516c80c1c46b2739554d06173c062bf6d1e601ba8e08cba5",
+    "docs/validation/p1b/measurement_audit_v1/native_transport_reaudit_v1.json": "3d15704eb8f4d02f3b4bc2f99e3b95d35fcc4489f2597dbfcd78d7da742ca17e",
+    "docs/validation/p1b/measurement_audit_v1/offline_identity_reaudit_v1.json": "22ffd4b4a8b49dff709ef5c136b218d1eae7ffbd4784307200db46eb7fe23f54",
+    "docs/validation/p1b/measurement_audit_v1/optional_AI_assisted_observations_v1.csv": "f4ddd2ebf7a798f3c0f75eced33d4ee83b037fc98ae36ef63299fc254119de85",
+    "docs/validation/p1b/measurement_audit_v1/response_boundary_audit_v1.csv": "55fb85c9438a23b8eb0d76f9da0b29787e23d0cccc09ed8950da8fd588d3a9bf",
+    "docs/validation/p1b/measurement_audit_v1/review_package_manifest_v2.json": "cd4f9806c1eb748ee617d542eff828292d4b13d5404148283d03d5503ab2c8e0",
+    "docs/validation/p1b/measurement_audit_v1/semantic_scoring_view_v2.csv": "e2d4c098f7fb89539dff5998aee987322a28b6483f6bffb37c75d5323d1114ca",
+    "docs/validation/p1b/measurement_audit_v1/structural_case_contrasts_v1.csv": "0df5c58f0d1b522ade5e3fa01e74a2a18259e7b9661bb0a9774e00d179e80213",
+    "docs/validation/p1b/measurement_audit_v1/structural_review_view_v2.csv": "e5b9d08625927cc64a47341923c99961235b5a0bf13e7d085ecf4e49d328a788",
+    "docs/validation/p1b/measurement_audit_v1/structural_uncertainty_v1.json": "e8a1937f31823e89bcebb2379c187800815febb992e0035378c49d59e1eac4ca",
+    "docs/validation/p1b/measurement_audit_v1/task_discrimination_inventory_v1.csv": "ad542e7245226773ecf0cf0801a25ddb7487fb784b7ae8cc518379f91d62efc3",
+    "docs/validation/p1b/measurement_audit_v1/wave1_verified_comparison_inputs_v1.json": "d2cac2ac9ee00c8aad7b4182efae32860736a173d19aae00ee40c9d6ac4a00d8",
+    "tests/test_p1b_measurement_audit.py": "7e808c63a98ab08ab527587aa063762df2d94f58f322e13dd04110bb24c25192",
+    "tools/p1b_measurement_audit.py": "00df491980721867cc68b27792d69fae4a498fa74de0390c20958194da3ab3e5",
+    "tools/p1b_measurement_report.py": "cd68d499fffa68c235bec0fb486083b470e99309dcfe8d09b9ce70d69e50bdc6",
+    "tools/p1b_measurement_verify.py": "0a4afd7fe484268933dc56f35f6a6142670fa2a2cd80d39ca23040b3b9e03543"
+  },
+  "baseline_tracked_files_preserved": 414,
+  "command_register_sha256": "5cae34a65bf584fa9794324b1e2d59b41776b40347dc2803cd8e35928d834670",
+  "created_utc": "2026-10-13T19:02:43.138170+00:00",
+  "errors_and_corrections": [
+    {
+      "command": ".venv/Scripts/python.exe tools/p0_capture.py --output results/p1b_measurement_audit/v1/engineering/build_01.json -- .venv/Scripts/python.exe tools/p1b_measurement_audit.py build",
+      "correction": "Created the parent directory. Before retry, corrected the new audit to read the frozen reasons array rather than a nonexistent reason key. The child error cannot be certified from the missing capture.",
+      "error": "FileNotFoundError: engineering/build_01.json.tmp; capture output parent absent. Child streams unavailable.",
+      "exit_code": 1
+    },
+    {
+      "command_description": "PowerShell Test-Path checks; New-Item engineering directory; attempted inline Python error-register write",
+      "correction": "Used this saved script for error registration. No research source or experiment record was changed by the failed helper.",
+      "error": "SyntaxError: unmatched closing parenthesis in the inline error-register helper.",
+      "exit_code": 1
+    }
+  ],
+  "git_diff_check_exit": 0,
+  "git_sha": "72d5845c25046a3f6207ccfbf315b1480aa67d8f",
+  "git_status": " M docs/P1b_calibration_algorithmic_opportunity.md\n M docs/research_development_log.md\n?? docs/P1b_calibration_instruct_arm_proposal.md\n?? docs/P1b_calibration_measurement_audit.md\n?? docs/P1b_calibration_novelty_assessment.md\n?? docs/P1b_calibration_publication_readiness.md\n?? docs/P1b_calibration_semantic_review_guide.md\n?? docs/P1b_calibration_task_discrimination.md\n?? docs/P1b_calibration_wave_comparison.md\n?? docs/validation/p1b/measurement_audit_v1/\n?? tests/test_p1b_measurement_audit.py\n?? tools/p1b_measurement_audit.py\n?? tools/p1b_measurement_report.py\n?? tools/p1b_measurement_verify.py\n",
+  "historical_docs_append_only": true,
+  "integrity_sha256": "409efae0468faac1e7fe51b57d4265bc5f1ab96ad77adb8ca9f46ce926ec69b6",
+  "literature_access_sha256": "8590be60a654845d516c80c1c46b2739554d06173c062bf6d1e601ba8e08cba5",
+  "local_document_links_checked": [
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "validation/p1b/measurement_audit_v1/native_transport_reaudit_v1.json"
+    },
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "validation/p1b/measurement_audit_v1/offline_identity_reaudit_v1.json"
+    },
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "validation/p1b/measurement_audit_v1/audit_summary_v1.json"
+    },
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "validation/p1b/measurement_audit_v1/response_boundary_audit_v1.csv"
+    },
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "validation/p1b/measurement_audit_v1/diagnostic_observations_v1.json"
+    },
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "P1b_calibration_semantic_review_guide.md"
+    },
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "validation/p1b/measurement_audit_v1/structural_case_contrasts_v1.csv"
+    },
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "validation/p1b/measurement_audit_v1/structural_uncertainty_v1.json"
+    },
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "validation/p1b/measurement_audit_v1/future_semantic_analysis_contract_v1.json"
+    },
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "P1b_calibration_publication_readiness.md"
+    },
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "P1b_calibration_algorithmic_opportunity.md"
+    },
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "validation/p1b/measurement_audit_v1/delivery_v1.json"
+    },
+    {
+      "document": "docs/P1b_calibration_measurement_audit.md",
+      "target": "../tools/p1b_measurement_audit.py"
+    },
+    {
+      "document": "docs/P1b_calibration_novelty_assessment.md",
+      "target": "related_work_novelty_matrix.md"
+    },
+    {
+      "document": "docs/P1b_calibration_novelty_assessment.md",
+      "target": "validation/p1b/measurement_audit_v1/literature_access_v1.json"
+    },
+    {
+      "document": "docs/P1b_calibration_novelty_assessment.md",
+      "target": "P1b_calibration_algorithmic_opportunity.md"
+    },
+    {
+      "document": "docs/P1b_calibration_publication_readiness.md",
+      "target": "P1b_sample_size_and_precision_plan.md"
+    },
+    {
+      "document": "docs/P1b_calibration_publication_readiness.md",
+      "target": "P1b_calibration_instruct_arm_proposal.md"
+    },
+    {
+      "document": "docs/P1b_calibration_publication_readiness.md",
+      "target": "P1b_calibration_algorithmic_opportunity.md"
+    },
+    {
+      "document": "docs/P1b_calibration_semantic_review_guide.md",
+      "target": "validation/p1b/measurement_audit_v1/semantic_scoring_view_v2.csv"
+    },
+    {
+      "document": "docs/P1b_calibration_semantic_review_guide.md",
+      "target": "validation/p1b/measurement_audit_v1/structural_review_view_v2.csv"
+    },
+    {
+      "document": "docs/P1b_calibration_semantic_review_guide.md",
+      "target": "annotation_guidelines.md"
+    },
+    {
+      "document": "docs/P1b_calibration_semantic_review_guide.md",
+      "target": "validation/p1b/final_v1/evaluation_routing_v1.json"
+    },
+    {
+      "document": "docs/P1b_calibration_semantic_review_guide.md",
+      "target": "P1b_calibration_output_review_guide.md"
+    },
+    {
+      "document": "docs/P1b_calibration_semantic_review_guide.md",
+      "target": "validation/p1b/measurement_audit_v1/optional_AI_assisted_observations_v1.csv"
+    },
+    {
+      "document": "docs/P1b_calibration_semantic_review_guide.md",
+      "target": "P1b_calibration_algorithmic_opportunity.md"
+    },
+    {
+      "document": "docs/P1b_calibration_task_discrimination.md",
+      "target": "validation/p1b/measurement_audit_v1/task_discrimination_inventory_v1.csv"
+    },
+    {
+      "document": "docs/P1b_calibration_wave_comparison.md",
+      "target": "validation/p1b/measurement_audit_v1/wave1_verified_comparison_inputs_v1.json"
+    },
+    {
+      "document": "docs/research_development_log.md",
+      "target": "P1b_calibration_measurement_audit.md"
+    },
+    {
+      "document": "docs/research_development_log.md",
+      "target": "validation/p1b/measurement_audit_v1/offline_identity_reaudit_v1.json"
+    },
+    {
+      "document": "docs/research_development_log.md",
+      "target": "validation/p1b/measurement_audit_v1/delivery_v1.json"
+    },
+    {
+      "document": "docs/research_development_log.md",
+      "target": "validation/p1b/measurement_audit_v1/command_register_v1.json"
+    },
+    {
+      "document": "docs/P1b_calibration_algorithmic_opportunity.md",
+      "target": "P1b_calibration_measurement_audit.md"
+    },
+    {
+      "document": "docs/P1b_calibration_algorithmic_opportunity.md",
+      "target": "P1b_calibration_novelty_assessment.md"
+    }
+  ],
+  "modified_existing_files": [
+    "docs/P1b_calibration_algorithmic_opportunity.md",
+    "docs/research_development_log.md"
+  ],
+  "new_files": [
+    "docs/P1b_calibration_instruct_arm_proposal.md",
+    "docs/P1b_calibration_measurement_audit.md",
+    "docs/P1b_calibration_novelty_assessment.md",
+    "docs/P1b_calibration_publication_readiness.md",
+    "docs/P1b_calibration_semantic_review_guide.md",
+    "docs/P1b_calibration_task_discrimination.md",
+    "docs/P1b_calibration_wave_comparison.md",
+    "docs/validation/p1b/measurement_audit_v1/audit_summary_v1.json",
+    "docs/validation/p1b/measurement_audit_v1/command_register_v1.json",
+    "docs/validation/p1b/measurement_audit_v1/diagnostic_observations_v1.json",
+    "docs/validation/p1b/measurement_audit_v1/future_semantic_analysis_contract_v1.json",
+    "docs/validation/p1b/measurement_audit_v1/integrity_v1.json",
+    "docs/validation/p1b/measurement_audit_v1/literature_access_v1.json",
+    "docs/validation/p1b/measurement_audit_v1/native_transport_reaudit_v1.json",
+    "docs/validation/p1b/measurement_audit_v1/offline_identity_reaudit_v1.json",
+    "docs/validation/p1b/measurement_audit_v1/optional_AI_assisted_observations_v1.csv",
+    "docs/validation/p1b/measurement_audit_v1/response_boundary_audit_v1.csv",
+    "docs/validation/p1b/measurement_audit_v1/review_package_manifest_v2.json",
+    "docs/validation/p1b/measurement_audit_v1/semantic_scoring_view_v2.csv",
+    "docs/validation/p1b/measurement_audit_v1/structural_case_contrasts_v1.csv",
+    "docs/validation/p1b/measurement_audit_v1/structural_review_view_v2.csv",
+    "docs/validation/p1b/measurement_audit_v1/structural_uncertainty_v1.json",
+    "docs/validation/p1b/measurement_audit_v1/task_discrimination_inventory_v1.csv",
+    "docs/validation/p1b/measurement_audit_v1/wave1_verified_comparison_inputs_v1.json",
+    "tests/test_p1b_measurement_audit.py",
+    "tools/p1b_measurement_audit.py",
+    "tools/p1b_measurement_report.py",
+    "tools/p1b_measurement_verify.py"
+  ],
+  "new_generation_requests": 0,
+  "new_tokenizer_requests": 0,
+  "next_experiment": "Not authorized or executed; finish human scoring first",
+  "protected_mapping_git_ignored": true,
+  "publication_readiness": "Development measurement package; independent evidence/precision/generalization still required",
+  "review_status": "OPEN",
+  "self_inventory_note": "This delivery file is excluded from its own hash inventory; its hash can be recorded by the maintainer.",
+  "semantic_factorial_effects": "NOT_ESTIMATED",
+  "semantic_human_annotations": 0,
+  "server_launches": 0,
+  "source_snapshots": {
+    "tests/test_p1b_measurement_audit.py": "7e808c63a98ab08ab527587aa063762df2d94f58f322e13dd04110bb24c25192",
+    "tools/p1b_measurement_audit.py": "00df491980721867cc68b27792d69fae4a498fa74de0390c20958194da3ab3e5",
+    "tools/p1b_measurement_report.py": "cd68d499fffa68c235bec0fb486083b470e99309dcfe8d09b9ce70d69e50bdc6",
+    "tools/p1b_measurement_verify.py": "0a4afd7fe484268933dc56f35f6a6142670fa2a2cd80d39ca23040b3b9e03543"
+  },
+  "targeted_tests": {
+    "exit_code": 0,
+    "failed": 0,
+    "passed": 19
+  },
+  "tests": {
+    "captured_command_seconds": 39.79522609998821,
+    "exit_code": 0,
+    "failed": 0,
+    "passed": 663,
+    "pytest_seconds": 39.0,
+    "warnings_reported": 0
+  },
+  "version": "p1b_measurement_delivery_v1"
+}

@@ -1,0 +1,67 @@
+{
+  "append_only_existing_files": [
+    "docs/research_development_log.md"
+  ],
+  "baseline_git_sha": "72d5845c25046a3f6207ccfbf315b1480aa67d8f",
+  "baseline_repository_files": 445,
+  "blank_human_fields_verified": true,
+  "calibration_artifact_files_unchanged": 1831,
+  "files": {
+    "docs/P1b_semantic_review_integration.md": "b2290dd74991b5db0026e9d3a27e3356322bc83ee5f5209d4295c2b3cb9499c3",
+    "docs/PersonaSLM_P1b_AI_semantic_review_audit_UNCONFIRMED_v1.md": "2ef20df1aef9eefd5111953c62be33e1df730c2cb4592fcc8b24985dd231b90e",
+    "docs/research_development_log.md": "8cf108db1442807af2d9a23360c40663cd41b3f92236bb41f6c894778b1c974f",
+    "docs/validation/p1b/measurement_audit_v1/review_support/PersonaSLM_P1b_192_AI_suggestions_UNCONFIRMED_v1.csv": "a546180e8ad03cb13ac4e22fd4998ebb1001231150fea6bd72cad726f5d0ef88",
+    "docs/validation/p1b/measurement_audit_v1/review_support/PersonaSLM_P1b_priority_semantic_review_UNCONFIRMED_v1.csv": "2246af63103ae6d3009a38edd3625e33c064588f00d27277b756e4cd79086ae6",
+    "docs/validation/p1b/semantic_integration_v1/analysis_specification_v1.json": "4f5df4767eccad556a397d7508f3ba94653578059923afe5222310d2e9c6af70",
+    "docs/validation/p1b/semantic_integration_v1/command_register_v1.json": "eca5010ea50c09b434fbaa647f570e8fa1eeadacdd3c1ac1960bca8fe915ab84",
+    "docs/validation/p1b/semantic_integration_v1/package_integrity_v1.json": "36efd8cbf7dd294fd7b2895954532f9d5ecaa569743bcc50d087222cdaa4b055",
+    "docs/validation/p1b/semantic_integration_v1/researcher_confirmation_PENDING_v1.json": "7e7da17884a09c7dd31f11480e99f99f1143b1b208f6178a95eab10992a9c608",
+    "tests/test_p1b_semantic_integration.py": "35eba04d82cb917f6d10741f396e16f169b2774a85614645498f98413faa4314",
+    "tools/p1b_semantic_integration.py": "6555c06c08650e6e4f72a74e0307c656c928c09afb66ccc3758f1fc1ecc79f5c"
+  },
+  "git": {
+    "dirty_status": " M docs/P1b_calibration_algorithmic_opportunity.md\n M docs/research_development_log.md\n?? docs/P1b_calibration_instruct_arm_proposal.md\n?? docs/P1b_calibration_measurement_audit.md\n?? docs/P1b_calibration_novelty_assessment.md\n?? docs/P1b_calibration_publication_readiness.md\n?? docs/P1b_calibration_semantic_review_guide.md\n?? docs/P1b_calibration_task_discrimination.md\n?? docs/P1b_calibration_wave_comparison.md\n?? docs/P1b_semantic_review_integration.md\n?? docs/PersonaSLM_P1b_AI_semantic_review_audit_UNCONFIRMED_v1.md\n?? docs/validation/p1b/measurement_audit_v1/\n?? docs/validation/p1b/semantic_integration_v1/\n?? tests/test_p1b_measurement_audit.py\n?? tests/test_p1b_semantic_integration.py\n?? tools/p1b_measurement_audit.py\n?? tools/p1b_measurement_report.py\n?? tools/p1b_measurement_verify.py\n?? tools/p1b_semantic_integration.py\n",
+    "sha": "72d5845c25046a3f6207ccfbf315b1480aa67d8f"
+  },
+  "limitations": [
+    "No real completed review supplied; confirmation template remains pending.",
+    "Prior native model/backend checks are reused, not newly measured.",
+    "Unknown-value bounds and small-cluster intervals do not establish significance or population effects."
+  ],
+  "new_document_links_validated": 11,
+  "new_inference": 0,
+  "new_json_files_validated_before_delivery": 4,
+  "original_source_inventory_unchanged": true,
+  "package_integrity_sha256": "36efd8cbf7dd294fd7b2895954532f9d5ecaa569743bcc50d087222cdaa4b055",
+  "prior_local_files_unchanged": 3967,
+  "protected_mapping_ignored": true,
+  "protocols_and_master_reviews_unchanged": true,
+  "review_records": 192,
+  "review_status": "PENDING",
+  "self_inventory_policy": "This delivery and its still-running capture are excluded from their own hash inventory.",
+  "semantic_effects_computed": false,
+  "source_snapshots": {
+    "results/p1b_semantic_integration/v1/finalize_v2.py": "118126b8093b997080a020b077ddbb859df0f2207e1379d9ccfe6747708da603",
+    "src/personaslm/human_factorial.py": "18c9fa31fbc04e63cfb7de507383f6ebd27d567af48870cb8ce0a6e534d6907f",
+    "src/personaslm/p1b_calibration.py": "cc8f12cb8975c5bc18e7ce9486411da1815b9cc0734e2f06620ced52265b3825",
+    "src/personaslm/p1b_readiness.py": "e167e1b83925697e875ad81d9283628e9fc2964caf032ba919eff152dd6e372d",
+    "tests/test_p1b_semantic_integration.py": "35eba04d82cb917f6d10741f396e16f169b2774a85614645498f98413faa4314",
+    "tools/p1b_calibration_analysis.py": "1e09ff030426fca5870251c63e2ca916f22e592edc100f2ee0e8edcf238f17bb",
+    "tools/p1b_measurement_audit.py": "00df491980721867cc68b27792d69fae4a498fa74de0390c20958194da3ab3e5",
+    "tools/p1b_semantic_integration.py": "6555c06c08650e6e4f72a74e0307c656c928c09afb66ccc3758f1fc1ecc79f5c"
+  },
+  "tests": {
+    "capture_path": "results/p1b_semantic_integration/v1/engineering/full_tests_01.json",
+    "capture_sha256": "a384b2e4554046ce012b4ea4788d12d1b85baf96a8195923d1b578991c87f019",
+    "exit_code": 0,
+    "failed": 0,
+    "passed": 688,
+    "pytest_seconds": 38.64,
+    "warnings_reported": 0
+  },
+  "unchanged_baseline_files": 444,
+  "vendor_neutral_files_scanned": 448,
+  "vendor_neutral_matches": 0,
+  "verified_utc": "2026-10-13T19:45:21.085732+00:00",
+  "version": "p1b_semantic_integration_delivery_v1"
+}
