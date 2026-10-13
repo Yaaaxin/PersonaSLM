@@ -1,0 +1,334 @@
+{
+  "F": 0,
+  "S": 0,
+  "backend": "llama.cpp b11573",
+  "dataset": "data/synthetic/p1c_development_proposed_v1.json",
+  "dataset_sha256": "f0f35d796197263527b444ae2d593648ba8181f4f2ba388453fd8a6f7a6c5d77",
+  "development_base_proxy_minutes": 13.100950305626066,
+  "evaluation_policy": "separate_axes_policy_v1",
+  "generation_authorized": false,
+  "generation_requests_executed": 0,
+  "independent_validation_allocations": [
+    {
+      "base_proxy_minutes": 104.80760244500853,
+      "cases": 96,
+      "requests": 576,
+      "speakers": 48
+    },
+    {
+      "base_proxy_minutes": 209.61520489001705,
+      "cases": 192,
+      "requests": 1152,
+      "speakers": 96
+    }
+  ],
+  "manual_task_specific_scoring": true,
+  "n_ctx": 4096,
+  "n_gpu_layers": 0,
+  "n_predict": 96,
+  "neutral_review": "OPEN",
+  "order_seed": 715001,
+  "planned_development_requests": 72,
+  "primary_arm": "Qwen3.5-2B-Base Q4_K_M",
+  "primary_family_proposed": "Temporal Incorrect-label incidence and task success under R,T,RxT; six tests Holm only at future confirmatory freeze",
+  "proposed_order": [
+    [
+      "p1c_02_current",
+      "N_history"
+    ],
+    [
+      "p1c_02_historical",
+      "R0T0"
+    ],
+    [
+      "p1c_01_current",
+      "R0T0"
+    ],
+    [
+      "p1c_06_historical",
+      "R0T0"
+    ],
+    [
+      "p1c_06_current",
+      "R1T1"
+    ],
+    [
+      "p1c_06_current",
+      "R1T0"
+    ],
+    [
+      "p1c_04_current",
+      "R0T0"
+    ],
+    [
+      "p1c_02_current",
+      "H_none"
+    ],
+    [
+      "p1c_04_current",
+      "R0T1"
+    ],
+    [
+      "p1c_03_historical",
+      "R1T1"
+    ],
+    [
+      "p1c_03_current",
+      "R0T0"
+    ],
+    [
+      "p1c_04_current",
+      "N_history"
+    ],
+    [
+      "p1c_05_current",
+      "R1T0"
+    ],
+    [
+      "p1c_04_historical",
+      "H_none"
+    ],
+    [
+      "p1c_06_current",
+      "N_history"
+    ],
+    [
+      "p1c_06_current",
+      "R0T1"
+    ],
+    [
+      "p1c_04_current",
+      "H_none"
+    ],
+    [
+      "p1c_01_historical",
+      "H_none"
+    ],
+    [
+      "p1c_03_historical",
+      "R0T0"
+    ],
+    [
+      "p1c_03_historical",
+      "H_none"
+    ],
+    [
+      "p1c_04_historical",
+      "R0T0"
+    ],
+    [
+      "p1c_01_current",
+      "R0T1"
+    ],
+    [
+      "p1c_03_current",
+      "R0T1"
+    ],
+    [
+      "p1c_05_historical",
+      "R0T1"
+    ],
+    [
+      "p1c_03_current",
+      "R1T1"
+    ],
+    [
+      "p1c_05_current",
+      "H_none"
+    ],
+    [
+      "p1c_03_current",
+      "R1T0"
+    ],
+    [
+      "p1c_02_current",
+      "R1T1"
+    ],
+    [
+      "p1c_05_historical",
+      "R1T0"
+    ],
+    [
+      "p1c_05_current",
+      "R1T1"
+    ],
+    [
+      "p1c_02_current",
+      "R0T0"
+    ],
+    [
+      "p1c_04_current",
+      "R1T1"
+    ],
+    [
+      "p1c_03_historical",
+      "R0T1"
+    ],
+    [
+      "p1c_06_historical",
+      "H_none"
+    ],
+    [
+      "p1c_02_historical",
+      "N_history"
+    ],
+    [
+      "p1c_03_historical",
+      "N_history"
+    ],
+    [
+      "p1c_02_current",
+      "R1T0"
+    ],
+    [
+      "p1c_06_historical",
+      "N_history"
+    ],
+    [
+      "p1c_04_historical",
+      "R1T0"
+    ],
+    [
+      "p1c_01_current",
+      "R1T1"
+    ],
+    [
+      "p1c_03_historical",
+      "R1T0"
+    ],
+    [
+      "p1c_06_current",
+      "R0T0"
+    ],
+    [
+      "p1c_05_current",
+      "R0T0"
+    ],
+    [
+      "p1c_06_historical",
+      "R0T1"
+    ],
+    [
+      "p1c_06_historical",
+      "R1T1"
+    ],
+    [
+      "p1c_05_historical",
+      "R0T0"
+    ],
+    [
+      "p1c_01_historical",
+      "R1T1"
+    ],
+    [
+      "p1c_05_historical",
+      "H_none"
+    ],
+    [
+      "p1c_02_historical",
+      "R0T1"
+    ],
+    [
+      "p1c_03_current",
+      "H_none"
+    ],
+    [
+      "p1c_06_current",
+      "H_none"
+    ],
+    [
+      "p1c_01_historical",
+      "R0T1"
+    ],
+    [
+      "p1c_05_current",
+      "R0T1"
+    ],
+    [
+      "p1c_02_current",
+      "R0T1"
+    ],
+    [
+      "p1c_05_historical",
+      "N_history"
+    ],
+    [
+      "p1c_04_historical",
+      "R1T1"
+    ],
+    [
+      "p1c_01_historical",
+      "R0T0"
+    ],
+    [
+      "p1c_02_historical",
+      "R1T1"
+    ],
+    [
+      "p1c_04_historical",
+      "R0T1"
+    ],
+    [
+      "p1c_05_historical",
+      "R1T1"
+    ],
+    [
+      "p1c_01_current",
+      "H_none"
+    ],
+    [
+      "p1c_01_historical",
+      "N_history"
+    ],
+    [
+      "p1c_02_historical",
+      "H_none"
+    ],
+    [
+      "p1c_04_current",
+      "R1T0"
+    ],
+    [
+      "p1c_05_current",
+      "N_history"
+    ],
+    [
+      "p1c_01_historical",
+      "R1T0"
+    ],
+    [
+      "p1c_03_current",
+      "N_history"
+    ],
+    [
+      "p1c_06_historical",
+      "R1T0"
+    ],
+    [
+      "p1c_02_historical",
+      "R1T0"
+    ],
+    [
+      "p1c_04_historical",
+      "N_history"
+    ],
+    [
+      "p1c_01_current",
+      "R1T0"
+    ],
+    [
+      "p1c_01_current",
+      "N_history"
+    ]
+  ],
+  "researcher_decision": "",
+  "response_policy": "response_status_v1",
+  "seed": 42,
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "structural_ambiguity": "Retain labels; conservative unknown values plus original-span sensitivity. Never choose later correct turns.",
+  "temperature": 0,
+  "threads": 4,
+  "threads_batch": 4,
+  "tokenizer_matching": "PENDING_NATIVE_OFFLINE_CHECK",
+  "version": "p1c_auxiliary_history_proposed_v1"
+}

@@ -1,0 +1,64 @@
+{
+  "R": "Topical auxiliary fact vs unrelated auxiliary fact",
+  "T": "Valid vs expired at requested date",
+  "conditions": {
+    "H_none": {
+      "R": null,
+      "T": null
+    },
+    "N_history": {
+      "R": null,
+      "T": null
+    },
+    "R0T0": {
+      "R": 0,
+      "T": 0
+    },
+    "R0T1": {
+      "R": 0,
+      "T": 1
+    },
+    "R1T0": {
+      "R": 1,
+      "T": 0
+    },
+    "R1T1": {
+      "R": 1,
+      "T": 1
+    }
+  },
+  "control_contrasts": [
+    "R0T0-N_history",
+    "R0T1-N_history",
+    "R1T0-N_history",
+    "R1T1-N_history",
+    "N_history-H_none"
+  ],
+  "scope": "New prospective estimands; not relabelled prior H effects; not approved.",
+  "simple_contrasts": [
+    "R1T0-R0T0",
+    "R1T1-R0T1",
+    "R1T1-R1T0",
+    "R0T1-R0T0"
+  ],
+  "weights": {
+    "R": {
+      "R0T0": -0.5,
+      "R0T1": -0.5,
+      "R1T0": 0.5,
+      "R1T1": 0.5
+    },
+    "RxT": {
+      "R0T0": 1,
+      "R0T1": -1,
+      "R1T0": -1,
+      "R1T1": 1
+    },
+    "T": {
+      "R0T0": -0.5,
+      "R0T1": 0.5,
+      "R1T0": -0.5,
+      "R1T1": 0.5
+    }
+  }
+}

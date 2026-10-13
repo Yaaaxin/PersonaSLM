@@ -1,0 +1,2019 @@
+{
+  "allocation": {
+    "cases": 12,
+    "cases_per_speaker": 2,
+    "conditions_per_case": 6,
+    "families": 3,
+    "proposed_generations": 72,
+    "speakers": 6
+  },
+  "candidate_rule": {
+    "active_same_variant_required": true,
+    "active_variants_per_cell": 16,
+    "neutral_variants": 32,
+    "selection": "First active variant with equal native full-prompt lengths and a same-question neutral match. No expansion after observed counts; failures preserved.",
+    "shared_archivist_question_required": true,
+    "token_tolerance": 0
+  },
+  "cases": [
+    {
+      "applicability": {
+        "component_coverage": true,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "response_relevance": true,
+        "semantic_completeness": true,
+        "structural_status": true,
+        "task_success": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1c_01_historical",
+      "evaluation_date": "2042-12-15",
+      "facts": [
+        {
+          "end": "2042-04-30",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f01",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Cobalt"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f02",
+          "period": 0,
+          "predicate": "parcel label",
+          "start": "2042-01-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f03",
+          "period": 0,
+          "predicate": "music label",
+          "start": "2042-01-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f04",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Laurel"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f05",
+          "period": 1,
+          "predicate": "parcel label",
+          "start": "2042-05-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f06",
+          "period": 1,
+          "predicate": "music label",
+          "start": "2042-05-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f07",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Harbor"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f08",
+          "period": 2,
+          "predicate": "parcel label",
+          "start": "2042-09-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f09",
+          "period": 2,
+          "predicate": "music label",
+          "start": "2042-09-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Archive colleague 1",
+          "fact_id": "p1c_speaker_01_f10",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Harbor"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Archive colleague 1",
+          "fact_id": "p1c_speaker_01_f11",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Maple"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Archive colleague 1",
+          "fact_id": "p1c_speaker_01_f12",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Orchid"
+        }
+      ],
+      "family": "single_retrieval",
+      "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+      "persona_fidelity_applicability": false,
+      "persona_id": "p1c_speaker_01",
+      "prompt_template_version": "p1c_evidence_first_transcript_proposed_v1",
+      "query_mode": "historical",
+      "question": "Using the schedule for 2042-06-15, give the collection desk assigned to Auden Vale.",
+      "question_template_id": "single_retrieval_wording_1",
+      "reference": {
+        "components": [
+          "Laurel"
+        ],
+        "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+        "fact_ids": [
+          "p1c_speaker_01_f04"
+        ]
+      },
+      "requested_date": "2042-06-15",
+      "researcher_approval": "",
+      "scope": "Synthetic prospective development; no outcome-based item selection; no confirmatory use.",
+      "speaker_name": "Auden Vale",
+      "target_period": 1,
+      "trusted_evidence": "[p1c_speaker_01_f01] Auden Vale: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_01_f10] Archive colleague 1: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_01_f11] Archive colleague 1: collection desk = Maple; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_01_f12] Archive colleague 1: collection desk = Orchid; valid 2042-09-01 through 2042-12-31."
+    },
+    {
+      "applicability": {
+        "component_coverage": true,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "response_relevance": true,
+        "semantic_completeness": true,
+        "structural_status": true,
+        "task_success": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1c_01_current",
+      "evaluation_date": "2042-12-15",
+      "facts": [
+        {
+          "end": "2042-04-30",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f01",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Cobalt"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f02",
+          "period": 0,
+          "predicate": "parcel label",
+          "start": "2042-01-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f03",
+          "period": 0,
+          "predicate": "music label",
+          "start": "2042-01-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f04",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Laurel"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f05",
+          "period": 1,
+          "predicate": "parcel label",
+          "start": "2042-05-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f06",
+          "period": 1,
+          "predicate": "music label",
+          "start": "2042-05-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f07",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Harbor"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f08",
+          "period": 2,
+          "predicate": "parcel label",
+          "start": "2042-09-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Auden Vale",
+          "fact_id": "p1c_speaker_01_f09",
+          "period": 2,
+          "predicate": "music label",
+          "start": "2042-09-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Archive colleague 1",
+          "fact_id": "p1c_speaker_01_f10",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Harbor"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Archive colleague 1",
+          "fact_id": "p1c_speaker_01_f11",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Maple"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Archive colleague 1",
+          "fact_id": "p1c_speaker_01_f12",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Orchid"
+        }
+      ],
+      "family": "single_retrieval",
+      "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+      "persona_fidelity_applicability": false,
+      "persona_id": "p1c_speaker_01",
+      "prompt_template_version": "p1c_evidence_first_transcript_proposed_v1",
+      "query_mode": "current",
+      "question": "Using the schedule for 2042-12-15, give the collection desk assigned to Auden Vale.",
+      "question_template_id": "single_retrieval_wording_1",
+      "reference": {
+        "components": [
+          "Harbor"
+        ],
+        "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+        "fact_ids": [
+          "p1c_speaker_01_f07"
+        ]
+      },
+      "requested_date": "2042-12-15",
+      "researcher_approval": "",
+      "scope": "Synthetic prospective development; no outcome-based item selection; no confirmatory use.",
+      "speaker_name": "Auden Vale",
+      "target_period": 2,
+      "trusted_evidence": "[p1c_speaker_01_f01] Auden Vale: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_01_f10] Archive colleague 1: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_01_f11] Archive colleague 1: collection desk = Maple; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_01_f12] Archive colleague 1: collection desk = Orchid; valid 2042-09-01 through 2042-12-31."
+    },
+    {
+      "applicability": {
+        "component_coverage": true,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "response_relevance": true,
+        "semantic_completeness": true,
+        "structural_status": true,
+        "task_success": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1c_02_historical",
+      "evaluation_date": "2042-12-15",
+      "facts": [
+        {
+          "end": "2042-04-30",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f01",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Laurel"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f02",
+          "period": 0,
+          "predicate": "parcel label",
+          "start": "2042-01-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f03",
+          "period": 0,
+          "predicate": "music label",
+          "start": "2042-01-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f04",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Harbor"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f05",
+          "period": 1,
+          "predicate": "parcel label",
+          "start": "2042-05-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f06",
+          "period": 1,
+          "predicate": "music label",
+          "start": "2042-05-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f07",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Maple"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f08",
+          "period": 2,
+          "predicate": "parcel label",
+          "start": "2042-09-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f09",
+          "period": 2,
+          "predicate": "music label",
+          "start": "2042-09-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Archive colleague 2",
+          "fact_id": "p1c_speaker_02_f10",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Maple"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Archive colleague 2",
+          "fact_id": "p1c_speaker_02_f11",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Orchid"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Archive colleague 2",
+          "fact_id": "p1c_speaker_02_f12",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Silver"
+        }
+      ],
+      "family": "single_retrieval",
+      "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+      "persona_fidelity_applicability": false,
+      "persona_id": "p1c_speaker_02",
+      "prompt_template_version": "p1c_evidence_first_transcript_proposed_v1",
+      "query_mode": "historical",
+      "question": "For 2042-06-15, what is Celia North's assigned collection desk?",
+      "question_template_id": "single_retrieval_wording_2",
+      "reference": {
+        "components": [
+          "Harbor"
+        ],
+        "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+        "fact_ids": [
+          "p1c_speaker_02_f04"
+        ]
+      },
+      "requested_date": "2042-06-15",
+      "researcher_approval": "",
+      "scope": "Synthetic prospective development; no outcome-based item selection; no confirmatory use.",
+      "speaker_name": "Celia North",
+      "target_period": 1,
+      "trusted_evidence": "[p1c_speaker_02_f01] Celia North: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_02_f10] Archive colleague 2: collection desk = Maple; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_02_f11] Archive colleague 2: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_02_f12] Archive colleague 2: collection desk = Silver; valid 2042-09-01 through 2042-12-31."
+    },
+    {
+      "applicability": {
+        "component_coverage": true,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "response_relevance": true,
+        "semantic_completeness": true,
+        "structural_status": true,
+        "task_success": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1c_02_current",
+      "evaluation_date": "2042-12-15",
+      "facts": [
+        {
+          "end": "2042-04-30",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f01",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Laurel"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f02",
+          "period": 0,
+          "predicate": "parcel label",
+          "start": "2042-01-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f03",
+          "period": 0,
+          "predicate": "music label",
+          "start": "2042-01-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f04",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Harbor"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f05",
+          "period": 1,
+          "predicate": "parcel label",
+          "start": "2042-05-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f06",
+          "period": 1,
+          "predicate": "music label",
+          "start": "2042-05-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f07",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Maple"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f08",
+          "period": 2,
+          "predicate": "parcel label",
+          "start": "2042-09-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Celia North",
+          "fact_id": "p1c_speaker_02_f09",
+          "period": 2,
+          "predicate": "music label",
+          "start": "2042-09-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Archive colleague 2",
+          "fact_id": "p1c_speaker_02_f10",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Maple"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Archive colleague 2",
+          "fact_id": "p1c_speaker_02_f11",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Orchid"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Archive colleague 2",
+          "fact_id": "p1c_speaker_02_f12",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Silver"
+        }
+      ],
+      "family": "single_retrieval",
+      "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+      "persona_fidelity_applicability": false,
+      "persona_id": "p1c_speaker_02",
+      "prompt_template_version": "p1c_evidence_first_transcript_proposed_v1",
+      "query_mode": "current",
+      "question": "For 2042-12-15, what is Celia North's assigned collection desk?",
+      "question_template_id": "single_retrieval_wording_2",
+      "reference": {
+        "components": [
+          "Maple"
+        ],
+        "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+        "fact_ids": [
+          "p1c_speaker_02_f07"
+        ]
+      },
+      "requested_date": "2042-12-15",
+      "researcher_approval": "",
+      "scope": "Synthetic prospective development; no outcome-based item selection; no confirmatory use.",
+      "speaker_name": "Celia North",
+      "target_period": 2,
+      "trusted_evidence": "[p1c_speaker_02_f01] Celia North: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_02_f10] Archive colleague 2: collection desk = Maple; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_02_f11] Archive colleague 2: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_02_f12] Archive colleague 2: collection desk = Silver; valid 2042-09-01 through 2042-12-31."
+    },
+    {
+      "applicability": {
+        "component_coverage": true,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "response_relevance": true,
+        "semantic_completeness": true,
+        "structural_status": true,
+        "task_success": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1c_03_historical",
+      "evaluation_date": "2042-12-15",
+      "facts": [
+        {
+          "end": "2042-04-30",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f01",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Harbor"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f02",
+          "period": 0,
+          "predicate": "service day",
+          "start": "2042-01-01",
+          "value": "Saturday"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f03",
+          "period": 0,
+          "predicate": "parcel label",
+          "start": "2042-01-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f04",
+          "period": 0,
+          "predicate": "music label",
+          "start": "2042-01-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f05",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Maple"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f06",
+          "period": 1,
+          "predicate": "service day",
+          "start": "2042-05-01",
+          "value": "Tuesday"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f07",
+          "period": 1,
+          "predicate": "parcel label",
+          "start": "2042-05-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f08",
+          "period": 1,
+          "predicate": "music label",
+          "start": "2042-05-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f09",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Orchid"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f10",
+          "period": 2,
+          "predicate": "service day",
+          "start": "2042-09-01",
+          "value": "Thursday"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f11",
+          "period": 2,
+          "predicate": "parcel label",
+          "start": "2042-09-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f12",
+          "period": 2,
+          "predicate": "music label",
+          "start": "2042-09-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Archive colleague 3",
+          "fact_id": "p1c_speaker_03_f13",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Orchid"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Archive colleague 3",
+          "fact_id": "p1c_speaker_03_f14",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Silver"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Archive colleague 3",
+          "fact_id": "p1c_speaker_03_f15",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Cobalt"
+        }
+      ],
+      "family": "multiple_components",
+      "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+      "persona_fidelity_applicability": false,
+      "persona_id": "p1c_speaker_03",
+      "prompt_template_version": "p1c_evidence_first_transcript_proposed_v1",
+      "query_mode": "historical",
+      "question": "Using the schedule for 2042-06-15, give the collection desk and service day assigned to Elian Moss.",
+      "question_template_id": "multiple_components_wording_1",
+      "reference": {
+        "components": [
+          "Maple",
+          "Tuesday"
+        ],
+        "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+        "fact_ids": [
+          "p1c_speaker_03_f05",
+          "p1c_speaker_03_f06"
+        ]
+      },
+      "requested_date": "2042-06-15",
+      "researcher_approval": "",
+      "scope": "Synthetic prospective development; no outcome-based item selection; no confirmatory use.",
+      "speaker_name": "Elian Moss",
+      "target_period": 1,
+      "trusted_evidence": "[p1c_speaker_03_f01] Elian Moss: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_03_f02] Elian Moss: service day = Saturday; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_03_f13] Archive colleague 3: collection desk = Orchid; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_03_f14] Archive colleague 3: collection desk = Silver; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_03_f15] Archive colleague 3: collection desk = Cobalt; valid 2042-09-01 through 2042-12-31."
+    },
+    {
+      "applicability": {
+        "component_coverage": true,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "response_relevance": true,
+        "semantic_completeness": true,
+        "structural_status": true,
+        "task_success": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1c_03_current",
+      "evaluation_date": "2042-12-15",
+      "facts": [
+        {
+          "end": "2042-04-30",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f01",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Harbor"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f02",
+          "period": 0,
+          "predicate": "service day",
+          "start": "2042-01-01",
+          "value": "Saturday"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f03",
+          "period": 0,
+          "predicate": "parcel label",
+          "start": "2042-01-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f04",
+          "period": 0,
+          "predicate": "music label",
+          "start": "2042-01-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f05",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Maple"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f06",
+          "period": 1,
+          "predicate": "service day",
+          "start": "2042-05-01",
+          "value": "Tuesday"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f07",
+          "period": 1,
+          "predicate": "parcel label",
+          "start": "2042-05-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f08",
+          "period": 1,
+          "predicate": "music label",
+          "start": "2042-05-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f09",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Orchid"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f10",
+          "period": 2,
+          "predicate": "service day",
+          "start": "2042-09-01",
+          "value": "Thursday"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f11",
+          "period": 2,
+          "predicate": "parcel label",
+          "start": "2042-09-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Elian Moss",
+          "fact_id": "p1c_speaker_03_f12",
+          "period": 2,
+          "predicate": "music label",
+          "start": "2042-09-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Archive colleague 3",
+          "fact_id": "p1c_speaker_03_f13",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Orchid"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Archive colleague 3",
+          "fact_id": "p1c_speaker_03_f14",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Silver"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Archive colleague 3",
+          "fact_id": "p1c_speaker_03_f15",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Cobalt"
+        }
+      ],
+      "family": "multiple_components",
+      "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+      "persona_fidelity_applicability": false,
+      "persona_id": "p1c_speaker_03",
+      "prompt_template_version": "p1c_evidence_first_transcript_proposed_v1",
+      "query_mode": "current",
+      "question": "Using the schedule for 2042-12-15, give the collection desk and service day assigned to Elian Moss.",
+      "question_template_id": "multiple_components_wording_1",
+      "reference": {
+        "components": [
+          "Orchid",
+          "Thursday"
+        ],
+        "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+        "fact_ids": [
+          "p1c_speaker_03_f09",
+          "p1c_speaker_03_f10"
+        ]
+      },
+      "requested_date": "2042-12-15",
+      "researcher_approval": "",
+      "scope": "Synthetic prospective development; no outcome-based item selection; no confirmatory use.",
+      "speaker_name": "Elian Moss",
+      "target_period": 2,
+      "trusted_evidence": "[p1c_speaker_03_f01] Elian Moss: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_03_f02] Elian Moss: service day = Saturday; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_03_f13] Archive colleague 3: collection desk = Orchid; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_03_f14] Archive colleague 3: collection desk = Silver; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_03_f15] Archive colleague 3: collection desk = Cobalt; valid 2042-09-01 through 2042-12-31."
+    },
+    {
+      "applicability": {
+        "component_coverage": true,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "response_relevance": true,
+        "semantic_completeness": true,
+        "structural_status": true,
+        "task_success": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1c_04_historical",
+      "evaluation_date": "2042-12-15",
+      "facts": [
+        {
+          "end": "2042-04-30",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f01",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Maple"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f02",
+          "period": 0,
+          "predicate": "service day",
+          "start": "2042-01-01",
+          "value": "Tuesday"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f03",
+          "period": 0,
+          "predicate": "parcel label",
+          "start": "2042-01-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f04",
+          "period": 0,
+          "predicate": "music label",
+          "start": "2042-01-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f05",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Orchid"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f06",
+          "period": 1,
+          "predicate": "service day",
+          "start": "2042-05-01",
+          "value": "Thursday"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f07",
+          "period": 1,
+          "predicate": "parcel label",
+          "start": "2042-05-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f08",
+          "period": 1,
+          "predicate": "music label",
+          "start": "2042-05-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f09",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Silver"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f10",
+          "period": 2,
+          "predicate": "service day",
+          "start": "2042-09-01",
+          "value": "Saturday"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f11",
+          "period": 2,
+          "predicate": "parcel label",
+          "start": "2042-09-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f12",
+          "period": 2,
+          "predicate": "music label",
+          "start": "2042-09-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Archive colleague 4",
+          "fact_id": "p1c_speaker_04_f13",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Silver"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Archive colleague 4",
+          "fact_id": "p1c_speaker_04_f14",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Cobalt"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Archive colleague 4",
+          "fact_id": "p1c_speaker_04_f15",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Laurel"
+        }
+      ],
+      "family": "multiple_components",
+      "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+      "persona_fidelity_applicability": false,
+      "persona_id": "p1c_speaker_04",
+      "prompt_template_version": "p1c_evidence_first_transcript_proposed_v1",
+      "query_mode": "historical",
+      "question": "For 2042-06-15, what is Greta Sable's assigned collection desk and service day?",
+      "question_template_id": "multiple_components_wording_2",
+      "reference": {
+        "components": [
+          "Orchid",
+          "Thursday"
+        ],
+        "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+        "fact_ids": [
+          "p1c_speaker_04_f05",
+          "p1c_speaker_04_f06"
+        ]
+      },
+      "requested_date": "2042-06-15",
+      "researcher_approval": "",
+      "scope": "Synthetic prospective development; no outcome-based item selection; no confirmatory use.",
+      "speaker_name": "Greta Sable",
+      "target_period": 1,
+      "trusted_evidence": "[p1c_speaker_04_f01] Greta Sable: collection desk = Maple; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_04_f02] Greta Sable: service day = Tuesday; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_04_f13] Archive colleague 4: collection desk = Silver; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_04_f14] Archive colleague 4: collection desk = Cobalt; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_04_f15] Archive colleague 4: collection desk = Laurel; valid 2042-09-01 through 2042-12-31."
+    },
+    {
+      "applicability": {
+        "component_coverage": true,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "response_relevance": true,
+        "semantic_completeness": true,
+        "structural_status": true,
+        "task_success": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1c_04_current",
+      "evaluation_date": "2042-12-15",
+      "facts": [
+        {
+          "end": "2042-04-30",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f01",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Maple"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f02",
+          "period": 0,
+          "predicate": "service day",
+          "start": "2042-01-01",
+          "value": "Tuesday"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f03",
+          "period": 0,
+          "predicate": "parcel label",
+          "start": "2042-01-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f04",
+          "period": 0,
+          "predicate": "music label",
+          "start": "2042-01-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f05",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Orchid"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f06",
+          "period": 1,
+          "predicate": "service day",
+          "start": "2042-05-01",
+          "value": "Thursday"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f07",
+          "period": 1,
+          "predicate": "parcel label",
+          "start": "2042-05-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f08",
+          "period": 1,
+          "predicate": "music label",
+          "start": "2042-05-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f09",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Silver"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f10",
+          "period": 2,
+          "predicate": "service day",
+          "start": "2042-09-01",
+          "value": "Saturday"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f11",
+          "period": 2,
+          "predicate": "parcel label",
+          "start": "2042-09-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Greta Sable",
+          "fact_id": "p1c_speaker_04_f12",
+          "period": 2,
+          "predicate": "music label",
+          "start": "2042-09-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Archive colleague 4",
+          "fact_id": "p1c_speaker_04_f13",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Silver"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Archive colleague 4",
+          "fact_id": "p1c_speaker_04_f14",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Cobalt"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Archive colleague 4",
+          "fact_id": "p1c_speaker_04_f15",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Laurel"
+        }
+      ],
+      "family": "multiple_components",
+      "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+      "persona_fidelity_applicability": false,
+      "persona_id": "p1c_speaker_04",
+      "prompt_template_version": "p1c_evidence_first_transcript_proposed_v1",
+      "query_mode": "current",
+      "question": "For 2042-12-15, what is Greta Sable's assigned collection desk and service day?",
+      "question_template_id": "multiple_components_wording_2",
+      "reference": {
+        "components": [
+          "Silver",
+          "Saturday"
+        ],
+        "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+        "fact_ids": [
+          "p1c_speaker_04_f09",
+          "p1c_speaker_04_f10"
+        ]
+      },
+      "requested_date": "2042-12-15",
+      "researcher_approval": "",
+      "scope": "Synthetic prospective development; no outcome-based item selection; no confirmatory use.",
+      "speaker_name": "Greta Sable",
+      "target_period": 2,
+      "trusted_evidence": "[p1c_speaker_04_f01] Greta Sable: collection desk = Maple; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_04_f02] Greta Sable: service day = Tuesday; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_04_f13] Archive colleague 4: collection desk = Silver; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_04_f14] Archive colleague 4: collection desk = Cobalt; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_04_f15] Archive colleague 4: collection desk = Laurel; valid 2042-09-01 through 2042-12-31."
+    },
+    {
+      "applicability": {
+        "component_coverage": true,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "response_relevance": true,
+        "semantic_completeness": true,
+        "structural_status": true,
+        "task_success": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1c_05_historical",
+      "evaluation_date": "2042-12-15",
+      "facts": [
+        {
+          "end": "2042-04-30",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f01",
+          "period": 0,
+          "predicate": "parcel route",
+          "start": "2042-01-01",
+          "value": "route 51"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f02",
+          "period": 0,
+          "predicate": "parcel label",
+          "start": "2042-01-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f03",
+          "period": 0,
+          "predicate": "music label",
+          "start": "2042-01-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f04",
+          "period": 1,
+          "predicate": "parcel route",
+          "start": "2042-05-01",
+          "value": "route 52"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f05",
+          "period": 1,
+          "predicate": "parcel label",
+          "start": "2042-05-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f06",
+          "period": 1,
+          "predicate": "music label",
+          "start": "2042-05-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f07",
+          "period": 2,
+          "predicate": "parcel route",
+          "start": "2042-09-01",
+          "value": "route 53"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f08",
+          "period": 2,
+          "predicate": "parcel label",
+          "start": "2042-09-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f09",
+          "period": 2,
+          "predicate": "music label",
+          "start": "2042-09-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "route 51",
+          "fact_id": "p1c_speaker_05_f10",
+          "period": null,
+          "predicate": "destination room",
+          "start": "2042-01-01",
+          "value": "Orchid"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "route 52",
+          "fact_id": "p1c_speaker_05_f11",
+          "period": null,
+          "predicate": "destination room",
+          "start": "2042-01-01",
+          "value": "Silver"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "route 53",
+          "fact_id": "p1c_speaker_05_f12",
+          "period": null,
+          "predicate": "destination room",
+          "start": "2042-01-01",
+          "value": "Cobalt"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Archive colleague 5",
+          "fact_id": "p1c_speaker_05_f13",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Cobalt"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Archive colleague 5",
+          "fact_id": "p1c_speaker_05_f14",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Laurel"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Archive colleague 5",
+          "fact_id": "p1c_speaker_05_f15",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Harbor"
+        }
+      ],
+      "family": "route_integration",
+      "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+      "persona_fidelity_applicability": false,
+      "persona_id": "p1c_speaker_05",
+      "prompt_template_version": "p1c_evidence_first_transcript_proposed_v1",
+      "query_mode": "historical",
+      "question": "Using the schedule for 2042-06-15, give the destination room for parcel collection assigned to Idris Fern.",
+      "question_template_id": "route_integration_wording_1",
+      "reference": {
+        "components": [
+          "Silver"
+        ],
+        "derivation": "Select target entity and inclusive requested-date interval then follow the route-to-room relation.",
+        "fact_ids": [
+          "p1c_speaker_05_f04",
+          "p1c_speaker_05_f11"
+        ]
+      },
+      "requested_date": "2042-06-15",
+      "researcher_approval": "",
+      "scope": "Synthetic prospective development; no outcome-based item selection; no confirmatory use.",
+      "speaker_name": "Idris Fern",
+      "target_period": 1,
+      "trusted_evidence": "[p1c_speaker_05_f01] Idris Fern: parcel route = route 51; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_05_f10] route 51: destination room = Orchid; valid 2042-01-01 through 2042-12-31.\n[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31.\n[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.\n[p1c_speaker_05_f13] Archive colleague 5: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_05_f14] Archive colleague 5: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_05_f15] Archive colleague 5: collection desk = Harbor; valid 2042-09-01 through 2042-12-31."
+    },
+    {
+      "applicability": {
+        "component_coverage": true,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "response_relevance": true,
+        "semantic_completeness": true,
+        "structural_status": true,
+        "task_success": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1c_05_current",
+      "evaluation_date": "2042-12-15",
+      "facts": [
+        {
+          "end": "2042-04-30",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f01",
+          "period": 0,
+          "predicate": "parcel route",
+          "start": "2042-01-01",
+          "value": "route 51"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f02",
+          "period": 0,
+          "predicate": "parcel label",
+          "start": "2042-01-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f03",
+          "period": 0,
+          "predicate": "music label",
+          "start": "2042-01-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f04",
+          "period": 1,
+          "predicate": "parcel route",
+          "start": "2042-05-01",
+          "value": "route 52"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f05",
+          "period": 1,
+          "predicate": "parcel label",
+          "start": "2042-05-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f06",
+          "period": 1,
+          "predicate": "music label",
+          "start": "2042-05-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f07",
+          "period": 2,
+          "predicate": "parcel route",
+          "start": "2042-09-01",
+          "value": "route 53"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f08",
+          "period": 2,
+          "predicate": "parcel label",
+          "start": "2042-09-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Idris Fern",
+          "fact_id": "p1c_speaker_05_f09",
+          "period": 2,
+          "predicate": "music label",
+          "start": "2042-09-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "route 51",
+          "fact_id": "p1c_speaker_05_f10",
+          "period": null,
+          "predicate": "destination room",
+          "start": "2042-01-01",
+          "value": "Orchid"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "route 52",
+          "fact_id": "p1c_speaker_05_f11",
+          "period": null,
+          "predicate": "destination room",
+          "start": "2042-01-01",
+          "value": "Silver"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "route 53",
+          "fact_id": "p1c_speaker_05_f12",
+          "period": null,
+          "predicate": "destination room",
+          "start": "2042-01-01",
+          "value": "Cobalt"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Archive colleague 5",
+          "fact_id": "p1c_speaker_05_f13",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Cobalt"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Archive colleague 5",
+          "fact_id": "p1c_speaker_05_f14",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Laurel"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Archive colleague 5",
+          "fact_id": "p1c_speaker_05_f15",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Harbor"
+        }
+      ],
+      "family": "route_integration",
+      "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+      "persona_fidelity_applicability": false,
+      "persona_id": "p1c_speaker_05",
+      "prompt_template_version": "p1c_evidence_first_transcript_proposed_v1",
+      "query_mode": "current",
+      "question": "Using the schedule for 2042-12-15, give the destination room for parcel collection assigned to Idris Fern.",
+      "question_template_id": "route_integration_wording_1",
+      "reference": {
+        "components": [
+          "Cobalt"
+        ],
+        "derivation": "Select target entity and inclusive requested-date interval then follow the route-to-room relation.",
+        "fact_ids": [
+          "p1c_speaker_05_f07",
+          "p1c_speaker_05_f12"
+        ]
+      },
+      "requested_date": "2042-12-15",
+      "researcher_approval": "",
+      "scope": "Synthetic prospective development; no outcome-based item selection; no confirmatory use.",
+      "speaker_name": "Idris Fern",
+      "target_period": 2,
+      "trusted_evidence": "[p1c_speaker_05_f01] Idris Fern: parcel route = route 51; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_05_f10] route 51: destination room = Orchid; valid 2042-01-01 through 2042-12-31.\n[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31.\n[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.\n[p1c_speaker_05_f13] Archive colleague 5: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_05_f14] Archive colleague 5: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_05_f15] Archive colleague 5: collection desk = Harbor; valid 2042-09-01 through 2042-12-31."
+    },
+    {
+      "applicability": {
+        "component_coverage": true,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "response_relevance": true,
+        "semantic_completeness": true,
+        "structural_status": true,
+        "task_success": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1c_06_historical",
+      "evaluation_date": "2042-12-15",
+      "facts": [
+        {
+          "end": "2042-04-30",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f01",
+          "period": 0,
+          "predicate": "parcel route",
+          "start": "2042-01-01",
+          "value": "route 61"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f02",
+          "period": 0,
+          "predicate": "parcel label",
+          "start": "2042-01-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f03",
+          "period": 0,
+          "predicate": "music label",
+          "start": "2042-01-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f04",
+          "period": 1,
+          "predicate": "parcel route",
+          "start": "2042-05-01",
+          "value": "route 62"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f05",
+          "period": 1,
+          "predicate": "parcel label",
+          "start": "2042-05-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f06",
+          "period": 1,
+          "predicate": "music label",
+          "start": "2042-05-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f07",
+          "period": 2,
+          "predicate": "parcel route",
+          "start": "2042-09-01",
+          "value": "route 63"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f08",
+          "period": 2,
+          "predicate": "parcel label",
+          "start": "2042-09-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f09",
+          "period": 2,
+          "predicate": "music label",
+          "start": "2042-09-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "route 61",
+          "fact_id": "p1c_speaker_06_f10",
+          "period": null,
+          "predicate": "destination room",
+          "start": "2042-01-01",
+          "value": "Silver"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "route 62",
+          "fact_id": "p1c_speaker_06_f11",
+          "period": null,
+          "predicate": "destination room",
+          "start": "2042-01-01",
+          "value": "Cobalt"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "route 63",
+          "fact_id": "p1c_speaker_06_f12",
+          "period": null,
+          "predicate": "destination room",
+          "start": "2042-01-01",
+          "value": "Laurel"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Archive colleague 6",
+          "fact_id": "p1c_speaker_06_f13",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Laurel"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Archive colleague 6",
+          "fact_id": "p1c_speaker_06_f14",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Harbor"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Archive colleague 6",
+          "fact_id": "p1c_speaker_06_f15",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Maple"
+        }
+      ],
+      "family": "route_integration",
+      "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+      "persona_fidelity_applicability": false,
+      "persona_id": "p1c_speaker_06",
+      "prompt_template_version": "p1c_evidence_first_transcript_proposed_v1",
+      "query_mode": "historical",
+      "question": "For 2042-06-15, what is Nora Finch's assigned destination room for parcel collection?",
+      "question_template_id": "route_integration_wording_2",
+      "reference": {
+        "components": [
+          "Cobalt"
+        ],
+        "derivation": "Select target entity and inclusive requested-date interval then follow the route-to-room relation.",
+        "fact_ids": [
+          "p1c_speaker_06_f04",
+          "p1c_speaker_06_f11"
+        ]
+      },
+      "requested_date": "2042-06-15",
+      "researcher_approval": "",
+      "scope": "Synthetic prospective development; no outcome-based item selection; no confirmatory use.",
+      "speaker_name": "Nora Finch",
+      "target_period": 1,
+      "trusted_evidence": "[p1c_speaker_06_f01] Nora Finch: parcel route = route 61; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_06_f10] route 61: destination room = Silver; valid 2042-01-01 through 2042-12-31.\n[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.\n[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31.\n[p1c_speaker_06_f13] Archive colleague 6: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_06_f14] Archive colleague 6: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_06_f15] Archive colleague 6: collection desk = Maple; valid 2042-09-01 through 2042-12-31."
+    },
+    {
+      "applicability": {
+        "component_coverage": true,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "response_relevance": true,
+        "semantic_completeness": true,
+        "structural_status": true,
+        "task_success": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1c_06_current",
+      "evaluation_date": "2042-12-15",
+      "facts": [
+        {
+          "end": "2042-04-30",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f01",
+          "period": 0,
+          "predicate": "parcel route",
+          "start": "2042-01-01",
+          "value": "route 61"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f02",
+          "period": 0,
+          "predicate": "parcel label",
+          "start": "2042-01-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f03",
+          "period": 0,
+          "predicate": "music label",
+          "start": "2042-01-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f04",
+          "period": 1,
+          "predicate": "parcel route",
+          "start": "2042-05-01",
+          "value": "route 62"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f05",
+          "period": 1,
+          "predicate": "parcel label",
+          "start": "2042-05-01",
+          "value": "blue"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f06",
+          "period": 1,
+          "predicate": "music label",
+          "start": "2042-05-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f07",
+          "period": 2,
+          "predicate": "parcel route",
+          "start": "2042-09-01",
+          "value": "route 63"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f08",
+          "period": 2,
+          "predicate": "parcel label",
+          "start": "2042-09-01",
+          "value": "green"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Nora Finch",
+          "fact_id": "p1c_speaker_06_f09",
+          "period": 2,
+          "predicate": "music label",
+          "start": "2042-09-01",
+          "value": "red"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "route 61",
+          "fact_id": "p1c_speaker_06_f10",
+          "period": null,
+          "predicate": "destination room",
+          "start": "2042-01-01",
+          "value": "Silver"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "route 62",
+          "fact_id": "p1c_speaker_06_f11",
+          "period": null,
+          "predicate": "destination room",
+          "start": "2042-01-01",
+          "value": "Cobalt"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "route 63",
+          "fact_id": "p1c_speaker_06_f12",
+          "period": null,
+          "predicate": "destination room",
+          "start": "2042-01-01",
+          "value": "Laurel"
+        },
+        {
+          "end": "2042-04-30",
+          "entity": "Archive colleague 6",
+          "fact_id": "p1c_speaker_06_f13",
+          "period": 0,
+          "predicate": "collection desk",
+          "start": "2042-01-01",
+          "value": "Laurel"
+        },
+        {
+          "end": "2042-08-31",
+          "entity": "Archive colleague 6",
+          "fact_id": "p1c_speaker_06_f14",
+          "period": 1,
+          "predicate": "collection desk",
+          "start": "2042-05-01",
+          "value": "Harbor"
+        },
+        {
+          "end": "2042-12-31",
+          "entity": "Archive colleague 6",
+          "fact_id": "p1c_speaker_06_f15",
+          "period": 2,
+          "predicate": "collection desk",
+          "start": "2042-09-01",
+          "value": "Maple"
+        }
+      ],
+      "family": "route_integration",
+      "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+      "persona_fidelity_applicability": false,
+      "persona_id": "p1c_speaker_06",
+      "prompt_template_version": "p1c_evidence_first_transcript_proposed_v1",
+      "query_mode": "current",
+      "question": "For 2042-12-15, what is Nora Finch's assigned destination room for parcel collection?",
+      "question_template_id": "route_integration_wording_2",
+      "reference": {
+        "components": [
+          "Laurel"
+        ],
+        "derivation": "Select target entity and inclusive requested-date interval then follow the route-to-room relation.",
+        "fact_ids": [
+          "p1c_speaker_06_f07",
+          "p1c_speaker_06_f12"
+        ]
+      },
+      "requested_date": "2042-12-15",
+      "researcher_approval": "",
+      "scope": "Synthetic prospective development; no outcome-based item selection; no confirmatory use.",
+      "speaker_name": "Nora Finch",
+      "target_period": 2,
+      "trusted_evidence": "[p1c_speaker_06_f01] Nora Finch: parcel route = route 61; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.\n[p1c_speaker_06_f10] route 61: destination room = Silver; valid 2042-01-01 through 2042-12-31.\n[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.\n[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31.\n[p1c_speaker_06_f13] Archive colleague 6: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.\n[p1c_speaker_06_f14] Archive colleague 6: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.\n[p1c_speaker_06_f15] Archive colleague 6: collection desk = Maple; valid 2042-09-01 through 2042-12-31."
+    }
+  ],
+  "confirmatory_material_created": false,
+  "factors": "S=F=0. R is topical relation of auxiliary non-answer facts. T is validity at requested date, not truth.",
+  "generation_authorized": false,
+  "language": "English",
+  "selection_rule": "All six fictional speakers, both requested-date strata, all three families; fixed before any responses.",
+  "status": "PROPOSED_RESEARCHER_REVIEW_OPEN",
+  "version": "p1c_auxiliary_history_proposed_v1"
+}

@@ -1,0 +1,192 @@
+{
+  "records": [
+    {
+      "case_id": "p1c_01_historical",
+      "components": [
+        "Laurel"
+      ],
+      "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+      "fact_ids": [
+        "p1c_speaker_01_f04"
+      ],
+      "requested_date": "2042-06-15",
+      "source_quotes": [
+        "[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31."
+      ]
+    },
+    {
+      "case_id": "p1c_01_current",
+      "components": [
+        "Harbor"
+      ],
+      "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+      "fact_ids": [
+        "p1c_speaker_01_f07"
+      ],
+      "requested_date": "2042-12-15",
+      "source_quotes": [
+        "[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31."
+      ]
+    },
+    {
+      "case_id": "p1c_02_historical",
+      "components": [
+        "Harbor"
+      ],
+      "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+      "fact_ids": [
+        "p1c_speaker_02_f04"
+      ],
+      "requested_date": "2042-06-15",
+      "source_quotes": [
+        "[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31."
+      ]
+    },
+    {
+      "case_id": "p1c_02_current",
+      "components": [
+        "Maple"
+      ],
+      "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+      "fact_ids": [
+        "p1c_speaker_02_f07"
+      ],
+      "requested_date": "2042-12-15",
+      "source_quotes": [
+        "[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31."
+      ]
+    },
+    {
+      "case_id": "p1c_03_historical",
+      "components": [
+        "Maple",
+        "Tuesday"
+      ],
+      "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+      "fact_ids": [
+        "p1c_speaker_03_f05",
+        "p1c_speaker_03_f06"
+      ],
+      "requested_date": "2042-06-15",
+      "source_quotes": [
+        "[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.",
+        "[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31."
+      ]
+    },
+    {
+      "case_id": "p1c_03_current",
+      "components": [
+        "Orchid",
+        "Thursday"
+      ],
+      "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+      "fact_ids": [
+        "p1c_speaker_03_f09",
+        "p1c_speaker_03_f10"
+      ],
+      "requested_date": "2042-12-15",
+      "source_quotes": [
+        "[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.",
+        "[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31."
+      ]
+    },
+    {
+      "case_id": "p1c_04_historical",
+      "components": [
+        "Orchid",
+        "Thursday"
+      ],
+      "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+      "fact_ids": [
+        "p1c_speaker_04_f05",
+        "p1c_speaker_04_f06"
+      ],
+      "requested_date": "2042-06-15",
+      "source_quotes": [
+        "[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.",
+        "[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31."
+      ]
+    },
+    {
+      "case_id": "p1c_04_current",
+      "components": [
+        "Silver",
+        "Saturday"
+      ],
+      "derivation": "Select target entity and inclusive requested-date interval; return every requested field.",
+      "fact_ids": [
+        "p1c_speaker_04_f09",
+        "p1c_speaker_04_f10"
+      ],
+      "requested_date": "2042-12-15",
+      "source_quotes": [
+        "[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.",
+        "[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31."
+      ]
+    },
+    {
+      "case_id": "p1c_05_historical",
+      "components": [
+        "Silver"
+      ],
+      "derivation": "Select target entity and inclusive requested-date interval then follow the route-to-room relation.",
+      "fact_ids": [
+        "p1c_speaker_05_f04",
+        "p1c_speaker_05_f11"
+      ],
+      "requested_date": "2042-06-15",
+      "source_quotes": [
+        "[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.",
+        "[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31."
+      ]
+    },
+    {
+      "case_id": "p1c_05_current",
+      "components": [
+        "Cobalt"
+      ],
+      "derivation": "Select target entity and inclusive requested-date interval then follow the route-to-room relation.",
+      "fact_ids": [
+        "p1c_speaker_05_f07",
+        "p1c_speaker_05_f12"
+      ],
+      "requested_date": "2042-12-15",
+      "source_quotes": [
+        "[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.",
+        "[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31."
+      ]
+    },
+    {
+      "case_id": "p1c_06_historical",
+      "components": [
+        "Cobalt"
+      ],
+      "derivation": "Select target entity and inclusive requested-date interval then follow the route-to-room relation.",
+      "fact_ids": [
+        "p1c_speaker_06_f04",
+        "p1c_speaker_06_f11"
+      ],
+      "requested_date": "2042-06-15",
+      "source_quotes": [
+        "[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.",
+        "[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31."
+      ]
+    },
+    {
+      "case_id": "p1c_06_current",
+      "components": [
+        "Laurel"
+      ],
+      "derivation": "Select target entity and inclusive requested-date interval then follow the route-to-room relation.",
+      "fact_ids": [
+        "p1c_speaker_06_f07",
+        "p1c_speaker_06_f12"
+      ],
+      "requested_date": "2042-12-15",
+      "source_quotes": [
+        "[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.",
+        "[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "version": "p1c_primary_source_access_v1",
+  "register_created_utc": "2026-10-13 21:29:26 UTC",
+  "individual_page_access_timestamps": "Not recorded; this is register creation time.",
+  "scope": "Primary bibliographic records and targeted full-text methods/results; no experiment reproduction or systematic-review claim.",
+  "queries_executed": [
+    "temporal reasoning conflicting retrieved context sufficient evidence language models history benchmark",
+    "site.aclanthology.org Distracting Large Language Models Can Be Easily Distracted Irrelevant Context",
+    "site.openreview.net LongMemEval Benchmarking Chat Assistants ICLR 2025",
+    "site.aclanthology.org 2026.findings-acl.395 FPPS PFQABench"
+  ],
+  "papers": [
+    {
+      "short_title": "When Personalization Misleads",
+      "url": "https://aclanthology.org/2026.findings-acl.395.pdf",
+      "inspection": "sections 3-5; small simulated learners are distinguished from teacher generators",
+      "replication": false
+    },
+    {
+      "short_title": "What to Admit and How to Present",
+      "url": "https://arxiv.org/html/2610.11188v1",
+      "inspection": "sections 3-5; single GLM-5.2 judge; preprint venue only independently verified",
+      "replication": false
+    },
+    {
+      "short_title": "LongMemEval",
+      "url": "https://arxiv.org/html/2410.10813v2",
+      "inspection": "sections 3-5; ICLR 2025 conference record also checked",
+      "replication": false
+    },
+    {
+      "short_title": "Decoupling Logic from Persona",
+      "url": "https://arxiv.org/html/2610.09772v2",
+      "inspection": "sections 4-6, limitations; same-base ablations, narrow tasks",
+      "replication": false
+    },
+    {
+      "short_title": "Wiki-Talkie",
+      "url": "https://arxiv.org/html/2610.08513v1",
+      "inspection": "sections 3-5; model identities withheld A-D",
+      "replication": false
+    },
+    {
+      "short_title": "TwinVoice",
+      "url": "https://aclanthology.org/2026.findings-acl.981.pdf",
+      "inspection": "sections 2-4, tables and bibliographic record",
+      "replication": false
+    },
+    {
+      "short_title": "Persistent Personas?",
+      "url": "https://aclanthology.org/2026.eacl-long.246.pdf",
+      "inspection": "sections 3-5; bibliographic record",
+      "replication": false
+    },
+    {
+      "short_title": "When Facts Change",
+      "url": "https://aclanthology.org/2026.findings-acl.103.pdf",
+      "inspection": "sections 3-5; newly located direct temporal-conflict comparison",
+      "replication": false
+    }
+  ],
+  "additional_sources": [
+    "https://proceedings.iclr.cc/paper_files/paper/2025/hash/d813d324dbf0598bbdc9c8e79740ed01-Abstract-Conference.html",
+    "https://huggingface.co/Qwen/Qwen3.5-2B",
+    "https://huggingface.co/Qwen/Qwen3.5-2B/blob/main/chat_template.jinja",
+    "https://journals.plos.org/plosone/s/criteria-for-publication"
+  ],
+  "access_failures": [
+    {
+      "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/0f701c882/tools/tokenize/tokenize.cpp",
+      "result": "web cache miss/internal error"
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/blob/0f701c882/tools/tokenize/tokenize.cpp",
+      "result": "web internal error"
+    }
+  ],
+  "limitation": "Pinned tokenizer source page was unavailable. Actual executable identity, native help, vocabulary token output and saved backend ID probes are used; no claim of source-code reproduction."
+}

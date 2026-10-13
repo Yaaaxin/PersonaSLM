@@ -1,0 +1,20 @@
+{
+  "changed_active_history": false,
+  "changed_evidence": false,
+  "changed_question": false,
+  "changed_reference": false,
+  "generation_used_for_selection": false,
+  "max_new_candidates_per_case": 4,
+  "max_new_candidates_total": 48,
+  "new_neutral_reply": "The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.",
+  "old_neutral_reply": "The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two parts.",
+  "reason": "Initial v1 cases have equal four-cell lengths but nearest neutral differs by one token.",
+  "recorded_utc": "2026-10-13T21:27:23.180474+00:00",
+  "researcher_approval": "",
+  "rule": "Change only the final reply modifier: two parts -> two distinct parts. Four existing question variants, four candidates per case. Same active variant within all R/T cells. Select first exact match; no further expansion.",
+  "source_bank_sha256": "65a9a99525a36d8b7564c3b11ba9da0e83b436221d110f248190fe1bec6387a7",
+  "source_dataset_sha256": "f0f35d796197263527b444ae2d593648ba8181f4f2ba388453fd8a6f7a6c5d77",
+  "status": "PROPOSED_NOT_HUMAN_REVIEWED",
+  "token_tolerance": 0,
+  "version": "p1c_neutral_minimal_revision_v2"
+}

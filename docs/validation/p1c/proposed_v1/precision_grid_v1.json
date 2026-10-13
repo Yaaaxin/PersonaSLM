@@ -1,0 +1,65 @@
+{
+  "assumed_effects": [
+    0,
+    0.05,
+    0.1
+  ],
+  "cases_per_speaker": 2,
+  "contrast_ICC": [
+    0,
+    0.2,
+    0.5
+  ],
+  "contrast_sd_pairs": [
+    [
+      "R_main",
+      0.25
+    ],
+    [
+      "R_main_high_variance",
+      0.5
+    ],
+    [
+      "RxT",
+      0.5
+    ],
+    [
+      "RxT_high_variance",
+      1.0
+    ],
+    [
+      "T_main",
+      0.25
+    ]
+  ],
+  "independent_validation_material_created": false,
+  "missingness_stress": [
+    {
+      "interaction_bound_width": 0,
+      "main_effect_bound_width": 0,
+      "scope": "Worst-case probability bounds with same unknown fraction in every cell, before sampling uncertainty; not observed missingness.",
+      "unknown_fraction_per_cell": 0
+    },
+    {
+      "interaction_bound_width": 0.4,
+      "main_effect_bound_width": 0.2,
+      "scope": "Worst-case probability bounds with same unknown fraction in every cell, before sampling uncertainty; not observed missingness.",
+      "unknown_fraction_per_cell": 0.1
+    },
+    {
+      "interaction_bound_width": 1.0,
+      "main_effect_bound_width": 0.5,
+      "scope": "Worst-case probability bounds with same unknown fraction in every cell, before sampling uncertainty; not observed missingness.",
+      "unknown_fraction_per_cell": 0.25
+    }
+  ],
+  "no_empirical_variance_estimates": true,
+  "repeats_per_scenario": 1000,
+  "scenario_count": 135,
+  "seed": 715003,
+  "speakers": [
+    6,
+    48,
+    96
+  ]
+}

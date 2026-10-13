@@ -1,0 +1,15 @@
+{
+  "argv": [
+    ".\\.venv\\Scripts\\python.exe",
+    "tools/p1c_neutral_revision.py",
+    "run"
+  ],
+  "duration_seconds": 13.66641289999825,
+  "exit_code": 1,
+  "finished_utc": "2026-10-13T21:32:09.124327+00:00",
+  "original_capture_sha256": "8c30ca35a7894454e3c4e04d46f4936bf1999d12f7f4104cb6648bc2ec9bae8e",
+  "public_path_redaction": "Repository absolute path replaced in tracebacks; original local capture retained.",
+  "started_utc": "2026-10-13T21:31:55.457921+00:00",
+  "stderr": "Traceback (most recent call last):\n  File \"<repository>\\tools\\p1c_neutral_revision.py\", line 94, in <module>\n    print(json.dumps(plan() if a.action=='plan' else run()))\n                                                     ~~~^^\n  File \"<repository>\\tools\\p1c_neutral_revision.py\", line 67, in run\n    d.require(ids[-len(suffix_ids):]==suffix_ids,'Final context/question suffix token boundary changed')\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<repository>\\tools\\p1c_design.py\", line 37, in require\n    if not x:raise ValueError(msg)\n             ^^^^^^^^^^^^^^^^^^^^^\nValueError: Final context/question suffix token boundary changed\n",
+  "stdout": ""
+}

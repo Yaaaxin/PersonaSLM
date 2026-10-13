@@ -1,0 +1,214 @@
+{
+  "candidate_calls": 48,
+  "historical_probes": [
+    {
+      "family": "C",
+      "input_token_ids_equal": true,
+      "prompt_sha256": "7467009236c031f9f77b1608b0ccc2a18a1adfb31feb65c7282c0159f2a002ea",
+      "request_id": "P1B-CAL1-001",
+      "source": "results/p1b_calibration/development_v1/runs/20261013T172032-271543cb614847e8ae2ef33cca902701/events/000630.json",
+      "source_sha256": "2551004bc6e94adb8e24470d83a77ca277783479778826de5fc3af3f52cd9e20",
+      "tokens": 315
+    },
+    {
+      "family": "D",
+      "input_token_ids_equal": true,
+      "prompt_sha256": "edf419233e70049e5aac035071cce7c6d67915e4adb47538af9a37ab3520e3e1",
+      "request_id": "P1B-CAL1-009",
+      "source": "results/p1b_calibration/development_v1/runs/20261013T172032-271543cb614847e8ae2ef33cca902701/events/000678.json",
+      "source_sha256": "4ba1cddb2f9c437e1e05409b5f2e8fbd44d77c054df3c76d3fd3bc790954298e",
+      "tokens": 332
+    },
+    {
+      "family": "H",
+      "input_token_ids_equal": true,
+      "prompt_sha256": "b9f4391951fc6653965baa4f1e825157a4d991f383e289679adba6b4bc7e6138",
+      "request_id": "P1B-CAL1-017",
+      "source": "results/p1b_calibration/development_v1/runs/20261013T172032-271543cb614847e8ae2ef33cca902701/events/000726.json",
+      "source_sha256": "766f7cdd0d021446e570b58c467b7a7235cecf09a52d1c522d8d932c9df4540d",
+      "tokens": 162
+    }
+  ],
+  "identity": {
+    "add_special": "Native default; equality checked against saved backend input IDs",
+    "argv_public": [
+      "llama-tokenize.exe",
+      "-m",
+      "Qwen3.5-2B-Base.Q4_K_M.gguf",
+      "--stdin",
+      "--ids",
+      "--no-parse-special",
+      "--offline"
+    ],
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "dll_hashes": {
+      "ggml-base.dll": "d960b9204111948863508bf2e72feb6bce4ce1b4240df52e8b6648e0a1b2e6be",
+      "ggml-cpu-alderlake.dll": "63e0f9d7b5adaf847329c71e80c4e882039978bb2406cd50b6d5c81294341018",
+      "ggml-cpu-cannonlake.dll": "40a7b43e69c7ec99298e038c644e16846651454d805926ab10549365faa310ca",
+      "ggml-cpu-cascadelake.dll": "568a1cafcfb72f3b42143b3bc7fc8c8ea6be2d13dbdc069616bc202828d2f915",
+      "ggml-cpu-cooperlake.dll": "8abee2db42a94e3bd3d03cc3f0b5d9592c4b60656e3c923f59eb6e476a0a58a6",
+      "ggml-cpu-haswell.dll": "47581d32e72ee7b02ca0722d154f9e107dd29ecdfc4a8eea3cb1d19ef6cb1c5d",
+      "ggml-cpu-icelake.dll": "cee6cb20fcad7c2b45d6a54e4fc0bb2661d1e1f3b60e7176efddb67f6b033393",
+      "ggml-cpu-ivybridge.dll": "a5efb4ab06dda71602dc749fccf808b6d106a76c153370dda56a9904aed9f1a4",
+      "ggml-cpu-piledriver.dll": "32c62b5f5cfdb2814d62f7057ffa912fe3a139013046a497d391a553d2dc1f77",
+      "ggml-cpu-sandybridge.dll": "534201d15039fd3eed115becdf08d5cd5bef7def88656d38695fdcb1130b5ad5",
+      "ggml-cpu-sapphirerapids.dll": "e3e73d813d0260e960a78bc99c1ed3c033f16325874d9a0f817bab9311af2b6b",
+      "ggml-cpu-skylakex.dll": "a22c0b6b2a65c76e9388e3618ad036006d344507a935c48959d892b72b6ef9dd",
+      "ggml-cpu-sse42.dll": "b101d8cf2ea49a8ee67b8cfad0cd023acbe643a2554b819e1d45f149917eb049",
+      "ggml-cpu-x64.dll": "26e2f992a4af291ab9277bab8f362004e0bd03608ac79d579da00773bf67b061",
+      "ggml-cpu-zen4.dll": "d0153474451b0750d357e8843b088dd2a224653399694a28e73f8df539325dae",
+      "ggml-rpc.dll": "888a261f713baa21c64d039496baa41f6ed76ddf4e88acddcbdf7a1625fb8682",
+      "ggml.dll": "6414687963b2467ab5d29f37829728aa4c116fd378f413898bdf683dac6d5c62",
+      "libomp.dll": "a12116ba72d1d6820407cf30be23da04ce79d6bb8a71a5ee71759c5a1faa6f1c",
+      "llama-batched-bench-impl.dll": "8ec17c3c6cc8d600289842f1cd51680514d22e0d89ee4c5785b0297f48f76fb2",
+      "llama-bench-impl.dll": "c8bb208f095bdc40bc5cea4d2048ff6d958a876884d89429aa73d4d74c91d0db",
+      "llama-cli-impl.dll": "892a72edc0f50895ead9b47e51bec14579ef74b092c9f8ad85fbea88140a8d3a",
+      "llama-common.dll": "50760444855fb4fb1478294b8f74e390b3f894a24d7857eedabbb598d37beba6",
+      "llama-completion-impl.dll": "192d880c9b699045a714b808facf1ab0a7e6171b02a79f30b070ef514104555a",
+      "llama-fit-params-impl.dll": "cab736d1adef221220df26a41af56f1d32119bbf003bbd5d7934fab32c11714f",
+      "llama-perplexity-impl.dll": "b02d625329c25550232fa21d42c1646f856b4fbef4808ca485553539de1ddb46",
+      "llama-quantize-impl.dll": "1aa47e8fec9212c9da4c82fc250a27baa88fcff57f7668151dd2b6d06030b475",
+      "llama-server-impl.dll": "0dbb02c7bb56b2502813b0bfdf8ac8e70d342ab2213c36cbe5966cf40a30fe4f",
+      "llama.dll": "5f2f6a2254692098953686609f23c289797a9772aad68df12ab59ebd5488812e",
+      "mtmd.dll": "9f483a3d4781fe6bf0aa6d6eb83a6f1938b9573e8167d62bd7cf91fd10fb2244"
+    },
+    "implementation": "Pinned native llama-tokenize vocabulary-only utility; no server launched.",
+    "model_sha256": "ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994",
+    "native_version": {
+      "exit_code": 0,
+      "stderr": "version: 0.6.0-dev (build 11573, commit 0f701c882)\r\nbuilt with Clang 20.1.8 for Windows x86_64\r\n",
+      "stdout": ""
+    },
+    "no_generation": true,
+    "parse_special": false,
+    "tokenizer_sha256": "e05dbdef761e577b3d56f3daea7b205a07f68e5d87242ea4e2544382ffdd358e"
+  },
+  "matches": [
+    {
+      "active_variant": 0,
+      "case_id": "p1c_01_historical",
+      "neutral_question_variant": 0,
+      "new_candidates_tested": 4,
+      "semantic_approval": "OPEN",
+      "status": "PASS",
+      "token_difference": 0,
+      "v1_match_status": "FAILED"
+    },
+    {
+      "active_variant": 0,
+      "case_id": "p1c_01_current",
+      "neutral_question_variant": 0,
+      "new_candidates_tested": 4,
+      "semantic_approval": "OPEN",
+      "status": "PASS",
+      "token_difference": 0,
+      "v1_match_status": "FAILED"
+    },
+    {
+      "active_variant": 0,
+      "case_id": "p1c_02_historical",
+      "neutral_question_variant": 0,
+      "new_candidates_tested": 4,
+      "semantic_approval": "OPEN",
+      "status": "PASS",
+      "token_difference": 0,
+      "v1_match_status": "FAILED"
+    },
+    {
+      "active_variant": 0,
+      "case_id": "p1c_02_current",
+      "neutral_question_variant": 0,
+      "new_candidates_tested": 4,
+      "semantic_approval": "OPEN",
+      "status": "PASS",
+      "token_difference": 0,
+      "v1_match_status": "FAILED"
+    },
+    {
+      "active_variant": 0,
+      "case_id": "p1c_03_historical",
+      "neutral_question_variant": 0,
+      "new_candidates_tested": 4,
+      "semantic_approval": "OPEN",
+      "status": "PASS",
+      "token_difference": 0,
+      "v1_match_status": "FAILED"
+    },
+    {
+      "active_variant": 0,
+      "case_id": "p1c_03_current",
+      "neutral_question_variant": 0,
+      "new_candidates_tested": 4,
+      "semantic_approval": "OPEN",
+      "status": "PASS",
+      "token_difference": 0,
+      "v1_match_status": "FAILED"
+    },
+    {
+      "active_variant": 0,
+      "case_id": "p1c_04_historical",
+      "neutral_question_variant": 0,
+      "new_candidates_tested": 4,
+      "semantic_approval": "OPEN",
+      "status": "PASS",
+      "token_difference": 0,
+      "v1_match_status": "FAILED"
+    },
+    {
+      "active_variant": 0,
+      "case_id": "p1c_04_current",
+      "neutral_question_variant": 0,
+      "new_candidates_tested": 4,
+      "semantic_approval": "OPEN",
+      "status": "PASS",
+      "token_difference": 0,
+      "v1_match_status": "FAILED"
+    },
+    {
+      "active_variant": 0,
+      "case_id": "p1c_05_historical",
+      "neutral_question_variant": 0,
+      "new_candidates_tested": 4,
+      "semantic_approval": "OPEN",
+      "status": "PASS",
+      "token_difference": 0,
+      "v1_match_status": "FAILED"
+    },
+    {
+      "active_variant": 0,
+      "case_id": "p1c_05_current",
+      "neutral_question_variant": 0,
+      "new_candidates_tested": 4,
+      "semantic_approval": "OPEN",
+      "status": "PASS",
+      "token_difference": 0,
+      "v1_match_status": "FAILED"
+    },
+    {
+      "active_variant": 0,
+      "case_id": "p1c_06_historical",
+      "neutral_question_variant": 0,
+      "new_candidates_tested": 4,
+      "semantic_approval": "OPEN",
+      "status": "PASS",
+      "token_difference": 0,
+      "v1_match_status": "FAILED"
+    },
+    {
+      "active_variant": 0,
+      "case_id": "p1c_06_current",
+      "neutral_question_variant": 0,
+      "new_candidates_tested": 4,
+      "semantic_approval": "OPEN",
+      "status": "PASS",
+      "token_difference": 0,
+      "v1_match_status": "FAILED"
+    }
+  ],
+  "native_calls_new": 61,
+  "new_generations": 0,
+  "plan_sha256": "58efc99ca006781b51d54d51993e72030b71c2c7f3e57b11b160bb451d9b2fa8",
+  "selected_prompts": 72,
+  "v1_results_sha256": "6092a06c78dd48015a084ce0f849d4ac801233b10471043d4cf2cbb31012ca14",
+  "version": "p1c_tokenizer_verification_v2"
+}

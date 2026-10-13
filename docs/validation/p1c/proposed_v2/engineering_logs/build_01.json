@@ -1,0 +1,15 @@
+{
+  "argv": [
+    ".\\.venv\\Scripts\\python.exe",
+    "tools/p1c_design.py",
+    "build"
+  ],
+  "duration_seconds": 171.3476451000024,
+  "exit_code": 0,
+  "finished_utc": "2026-10-13T21:13:11.081745+00:00",
+  "original_capture_sha256": "7719e9d10b37cafb0da7fcce1652e9db932ca2bb113cbbebb2d33f9f07b3793b",
+  "public_path_redaction": "Repository absolute path replaced in tracebacks; original local capture retained.",
+  "started_utc": "2026-10-13T21:10:19.734086+00:00",
+  "stderr": "",
+  "stdout": "{\"cases\": 12, \"speakers\": 6, \"conditions\": 6, \"proposed_requests\": 72, \"new_generations\": 0}\n"
+}

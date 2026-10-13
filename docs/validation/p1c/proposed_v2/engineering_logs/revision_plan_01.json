@@ -1,0 +1,15 @@
+{
+  "argv": [
+    ".\\.venv\\Scripts\\python.exe",
+    "tools/p1c_neutral_revision.py",
+    "plan"
+  ],
+  "duration_seconds": 0.1559797000081744,
+  "exit_code": 0,
+  "finished_utc": "2026-10-13T21:27:23.197239+00:00",
+  "original_capture_sha256": "08859f925d5c7dabd04e3903055200bd814c7a290f43108e560d69df3d6ca261",
+  "public_path_redaction": "Repository absolute path replaced in tracebacks; original local capture retained.",
+  "started_utc": "2026-10-13T21:27:23.041255+00:00",
+  "stderr": "",
+  "stdout": "{\"version\": \"p1c_neutral_minimal_revision_v2\", \"status\": \"PROPOSED_NOT_HUMAN_REVIEWED\", \"recorded_utc\": \"2026-10-13T21:27:23.180474+00:00\", \"reason\": \"Initial v1 cases have equal four-cell lengths but nearest neutral differs by one token.\", \"source_dataset_sha256\": \"f0f35d796197263527b444ae2d593648ba8181f4f2ba388453fd8a6f7a6c5d77\", \"source_bank_sha256\": \"65a9a99525a36d8b7564c3b11ba9da0e83b436221d110f248190fe1bec6387a7\", \"old_neutral_reply\": \"The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two parts.\", \"new_neutral_reply\": \"The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.\", \"rule\": \"Change only the final reply modifier: two parts -> two distinct parts. Four existing question variants, four candidates per case. Same active variant within all R/T cells. Select first exact match; no further expansion.\", \"max_new_candidates_per_case\": 4, \"max_new_candidates_total\": 48, \"token_tolerance\": 0, \"changed_evidence\": false, \"changed_question\": false, \"changed_reference\": false, \"changed_active_history\": false, \"generation_used_for_selection\": false, \"researcher_approval\": \"\"}\n"
+}

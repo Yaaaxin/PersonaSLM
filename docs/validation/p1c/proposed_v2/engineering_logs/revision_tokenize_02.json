@@ -1,0 +1,15 @@
+{
+  "argv": [
+    ".\\.venv\\Scripts\\python.exe",
+    "tools/p1c_neutral_revision.py",
+    "run"
+  ],
+  "duration_seconds": 43.35125809998135,
+  "exit_code": 0,
+  "finished_utc": "2026-10-13T21:34:06.260338+00:00",
+  "original_capture_sha256": "5ff8e9a20cee21ee3afb3e37c863bf77750b6c20dbdea0ab80919cfd1200f09e",
+  "public_path_redaction": "Repository absolute path replaced in tracebacks; original local capture retained.",
+  "started_utc": "2026-10-13T21:33:22.909081+00:00",
+  "stderr": "",
+  "stdout": "{\"matches\": 12, \"cases\": 12, \"selected_prompts\": 72}\n"
+}

@@ -1,0 +1,26 @@
+{
+  "allowed_append_only_files": [
+    "docs/related_work_novelty_matrix.md",
+    "docs/research_development_log.md"
+  ],
+  "allowed_configuration_change": ".gitignore: whitelist only the new fictional P1c dataset; existing exclusions preserved",
+  "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+  "blank_human_cells_checked": 876,
+  "cases_reconstructed": 12,
+  "checked_utc": "2026-10-13T21:36:29.730990+00:00",
+  "csv_validated": 4,
+  "documentation_links": "PASS",
+  "git_sha": "26437263b609852e30ee88e5bda9fc6957aef31b",
+  "git_status": " M .gitignore\n M docs/related_work_novelty_matrix.md\n M docs/research_development_log.md\n?? data/synthetic/p1c_development_proposed_v1.json\n?? docs/P1c_algorithmic_opportunity_assessment.md\n?? docs/P1c_annotation_reliability_plan.md\n?? docs/P1c_history_mechanism_design.md\n?? docs/P1c_identifiability_assessment.md\n?? docs/P1c_instruct_model_proposal.md\n?? docs/P1c_neutral_control_review.md\n?? docs/P1c_publication_strategy.md\n?? docs/P1c_related_work_novelty_audit.md\n?? docs/P1c_researcher_decision_packet.md\n?? docs/P1c_statistical_precision_plan.md\n?? docs/validation/p1c/\n?? tests/test_p1c_prospective_design.py\n?? tools/p1c_design.py\n?? tools/p1c_finalize.py\n?? tools/p1c_neutral_revision.py\n?? tools/p1c_tokenize.py\n?? tools/p1c_verify.py\n",
+  "historical_run_files_unchanged": 5798,
+  "human_approval": "OPEN",
+  "journal_scope": "Artifact byte hashes rechecked; previous chain audit evidence preserved, not rerun here.",
+  "json_validated": 29,
+  "model_sha256": "ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994",
+  "new_generations": 0,
+  "p1b_case_contrasts_reconstructed_twice": 480,
+  "proposed_prompts_reconstructed": 72,
+  "status": "PASS",
+  "tracked_files_compared": 492,
+  "version": "p1c_final_integrity_v1"
+}

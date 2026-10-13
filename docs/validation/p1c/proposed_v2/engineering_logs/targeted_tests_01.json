@@ -1,0 +1,17 @@
+{
+  "argv": [
+    ".\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_p1c_prospective_design.py"
+  ],
+  "duration_seconds": 0.8786183999909554,
+  "exit_code": 0,
+  "finished_utc": "2026-10-13T21:26:19.758339+00:00",
+  "original_capture_sha256": "9f31786890b8e293382e9d806a54d4896844500ac93ceb52589a7912a1d44f32",
+  "public_path_redaction": "Repository absolute path replaced in tracebacks; original local capture retained.",
+  "started_utc": "2026-10-13T21:26:18.879716+00:00",
+  "stderr": "",
+  "stdout": "...................................                                      [100%]\n35 passed in 0.26s\n"
+}
