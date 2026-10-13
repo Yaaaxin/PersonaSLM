@@ -1,0 +1,238 @@
+response_id,case_id,condition,family,question,evaluation_date,trusted_evidence,expected_components,model_claim_verbatim,source_quotes_verbatim,adopted_explanation,source_uncertainty,error_description,description_origin
+BR005,p1b_E_L3,C1,E,On which day does the hub serving Dara Wells's residence on 2027-04-15 open?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L3_f01: Dara Wells — residence: Alderwick 4. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f04: Alderwick 4 — collection hub: Plover Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f06: Plover Hub 4 — opening day: Monday. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L3_f05""], ""components"": {""day"": ""Tuesday""}, ""proof_fact_ids"": [""p1b_E_L3_f02"", ""p1b_E_L3_f03"", ""p1b_E_L3_f05""]}"," The hub serving Dara Wells's residence on 2027-04-15 is Plover Hub 4. It opens on Monday.
+
+",p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: day: Tuesday.,TEMPORAL_REFERENCE_REQUIRED,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR010,p1b_H_L3,C3,H,Which desk should it go to on 2027-04-10?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_H_L3_f01: Parcel 111 — recipient: Recipient 131. Valid 2027-01-01 through ongoing.
+p1b_H_L3_f02: Recipient 131 — delivery desk: Elm Desk. Valid 2027-01-01 through 2027-04-09.
+p1b_H_L3_f03: Recipient 131 — delivery desk: Ash Desk. Valid 2027-04-10 through ongoing.
+p1b_H_L3_f04: Parcel 151 — recipient: Recipient 171. Valid 2027-01-01 through ongoing.
+p1b_H_L3_f05: Recipient 171 — delivery desk: Oak Desk. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_H_L3_f03""], ""components"": {""desk"": ""Ash Desk""}, ""proof_fact_ids"": [""p1b_H_L3_f01"", ""p1b_H_L3_f03""]}"," Elm Desk.
+
+",p1b_H_L3_f01: Parcel 111 — recipient: Recipient 131. Valid 2027-01-01 through ongoing. | p1b_H_L3_f03: Recipient 131 — delivery desk: Ash Desk. Valid 2027-04-10 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: desk: Ash Desk.,,Outdated follow-up desk selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR029,p1b_C_L1,C4,C,Which collection counter applies to Gale Rowan on 2027-04-05?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L1_f01: Gale Rowan — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L1_f03: Gale Rowan — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L1_f02""], ""components"": {""counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L1_f02""]}"," Gale Rowan's collection counter is Maple Counter.
+
+",p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR030,p1b_G_L1,C0,G,Which pickup site was valid for Hollis Fern on 2027-04-15?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_G_L1_f01: Hollis Fern — pickup site: Orchard Lodge. Valid 2027-01-01 through 2027-02-28.
+p1b_G_L1_f02: Hollis Fern — pickup site: Meadow Lodge. Valid 2027-03-01 through 2027-03-31.
+p1b_G_L1_f03: Hollis Fern — pickup site: Harbor Lodge. Valid 2027-04-01 through ongoing.","{""answer_fact_ids"": [""p1b_G_L1_f03""], ""components"": {""site"": ""Harbor Lodge""}, ""proof_fact_ids"": [""p1b_G_L1_f03""]}"," The records show that Hollis Fern's pickup site was Orchard Lodge on 2027-04-15.
+
+",p1b_G_L1_f03: Hollis Fern — pickup site: Harbor Lodge. Valid 2027-04-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: site: Harbor Lodge.,TEMPORAL_REFERENCE_REQUIRED,Wrong past/current pickup-site selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR032,p1b_C_L3,C4,C,"Which counter applies to Indigo Shaw on 2027-04-10, and which applied on the preceding day?",2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L3_f01: Indigo Shaw — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""], ""components"": {""counter"": ""Cedar Counter"", ""previous_counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""]}"," The Cedar Counter applies to Indigo Shaw on 2027-04-10, and the Maple Counter applied on the preceding day.
+
+",p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing. | p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: previous_counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR033,p1b_G_L1,C5,G,Which pickup site was valid for Hollis Fern on 2027-04-15?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_G_L1_f01: Hollis Fern — pickup site: Orchard Lodge. Valid 2027-01-01 through 2027-02-28.
+p1b_G_L1_f02: Hollis Fern — pickup site: Meadow Lodge. Valid 2027-03-01 through 2027-03-31.
+p1b_G_L1_f03: Hollis Fern — pickup site: Harbor Lodge. Valid 2027-04-01 through ongoing.","{""answer_fact_ids"": [""p1b_G_L1_f03""], ""components"": {""site"": ""Harbor Lodge""}, ""proof_fact_ids"": [""p1b_G_L1_f03""]}"," The records show that Hollis Fern's pickup site was Orchard Lodge on 2027-04-15.
+
+",p1b_G_L1_f03: Hollis Fern — pickup site: Harbor Lodge. Valid 2027-04-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: site: Harbor Lodge.,TEMPORAL_REFERENCE_REQUIRED,Wrong past/current pickup-site selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR039,p1b_E_L2,C2,E,Which collection hub serves Cleo Reed's residence on 2027-04-15?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L2_f01: Cleo Reed — residence: Alderwick 3. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f04: Alderwick 3 — collection hub: Plover Hub 3. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L2_f03""], ""components"": {""hub"": ""Heron Hub 3""}, ""proof_fact_ids"": [""p1b_E_L2_f02"", ""p1b_E_L2_f03""]}"," Cleo Reed's residence on 2027-04-15 is Alderwick 3, which is served by Plover Hub 3.
+
+",p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing. | p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: hub: Heron Hub 3.,TEMPORAL_REFERENCE_REQUIRED,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR046,p1b_E_L3,C7,E,On which day does the hub serving Dara Wells's residence on 2027-04-15 open?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L3_f01: Dara Wells — residence: Alderwick 4. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f04: Alderwick 4 — collection hub: Plover Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f06: Plover Hub 4 — opening day: Monday. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L3_f05""], ""components"": {""day"": ""Tuesday""}, ""proof_fact_ids"": [""p1b_E_L3_f02"", ""p1b_E_L3_f03"", ""p1b_E_L3_f05""]}"," The hub serving Dara Wells's residence on 2027-04-15 is Plover Hub 4, which opens on Monday.
+
+",p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: day: Tuesday.,TEMPORAL_REFERENCE_REQUIRED,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR051,p1b_C_L1,C3,C,Which collection counter applies to Gale Rowan on 2027-04-05?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L1_f01: Gale Rowan — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L1_f03: Gale Rowan — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L1_f02""], ""components"": {""counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L1_f02""]}"," Gale Rowan's collection counter on 2027-04-05 is Maple Counter.
+
+",p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR055,p1b_C_L3,C1,C,"Which counter applies to Indigo Shaw on 2027-04-10, and which applied on the preceding day?",2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L3_f01: Indigo Shaw — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""], ""components"": {""counter"": ""Cedar Counter"", ""previous_counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""]}"," The Cedar Counter applies to Indigo Shaw on 2027-04-10, and the Maple Counter applied on the preceding day.
+
+",p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing. | p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: previous_counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR067,p1b_E_L3,C0,E,On which day does the hub serving Dara Wells's residence on 2027-04-15 open?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L3_f01: Dara Wells — residence: Alderwick 4. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f04: Alderwick 4 — collection hub: Plover Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f06: Plover Hub 4 — opening day: Monday. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L3_f05""], ""components"": {""day"": ""Tuesday""}, ""proof_fact_ids"": [""p1b_E_L3_f02"", ""p1b_E_L3_f03"", ""p1b_E_L3_f05""]}"," Dara Wells's residence is Alderwick 4, which is served by Plover Hub 4. Plover Hub 4 opens on Monday.
+
+",p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: day: Tuesday.,TEMPORAL_REFERENCE_REQUIRED,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR074,p1b_G_L2,C1,G,Which pickup site was valid for Indigo Shaw on 2027-03-20?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_G_L2_f01: Indigo Shaw — pickup site: Orchard Lodge. Valid 2027-01-01 through 2027-02-28.
+p1b_G_L2_f02: Indigo Shaw — pickup site: Meadow Lodge. Valid 2027-03-01 through 2027-03-31.
+p1b_G_L2_f03: Indigo Shaw — pickup site: Harbor Lodge. Valid 2027-04-01 through ongoing.","{""answer_fact_ids"": [""p1b_G_L2_f02""], ""components"": {""site"": ""Meadow Lodge""}, ""proof_fact_ids"": [""p1b_G_L2_f02""]}"," I checked the records. Indigo Shaw was at Orchard Lodge on 2027-03-20.
+
+",p1b_G_L2_f02: Indigo Shaw — pickup site: Meadow Lodge. Valid 2027-03-01 through 2027-03-31.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: site: Meadow Lodge.,TEMPORAL_REFERENCE_REQUIRED,Wrong past/current pickup-site selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR081,p1b_E_L3,C3,E,On which day does the hub serving Dara Wells's residence on 2027-04-15 open?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L3_f01: Dara Wells — residence: Alderwick 4. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f04: Alderwick 4 — collection hub: Plover Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f06: Plover Hub 4 — opening day: Monday. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L3_f05""], ""components"": {""day"": ""Tuesday""}, ""proof_fact_ids"": [""p1b_E_L3_f02"", ""p1b_E_L3_f03"", ""p1b_E_L3_f05""]}"," The hub serving Dara Wells's residence on 2027-04-15 opens on Monday.
+
+",p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: day: Tuesday.,TEMPORAL_REFERENCE_REQUIRED,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR088,p1b_C_L3,C6,C,"Which counter applies to Indigo Shaw on 2027-04-10, and which applied on the preceding day?",2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L3_f01: Indigo Shaw — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""], ""components"": {""counter"": ""Cedar Counter"", ""previous_counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""]}"," The Cedar Counter applies to Indigo Shaw on 2027-04-10, and the Maple Counter applied on 2027-04-09.
+
+",p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing. | p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: previous_counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR091,p1b_E_L2,C4,E,Which collection hub serves Cleo Reed's residence on 2027-04-15?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L2_f01: Cleo Reed — residence: Alderwick 3. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f04: Alderwick 3 — collection hub: Plover Hub 3. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L2_f03""], ""components"": {""hub"": ""Heron Hub 3""}, ""proof_fact_ids"": [""p1b_E_L2_f02"", ""p1b_E_L2_f03""]}"," Cleo Reed's residence is Alderwick 3. According to the verified records, Alderwick 3 is served by Plover Hub 3.
+
+",p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing. | p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: hub: Heron Hub 3.,TEMPORAL_REFERENCE_REQUIRED; IMPLICIT_DATE_FROM_QUESTION,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR093,p1b_C_L3,C5,C,"Which counter applies to Indigo Shaw on 2027-04-10, and which applied on the preceding day?",2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L3_f01: Indigo Shaw — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""], ""components"": {""counter"": ""Cedar Counter"", ""previous_counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""]}"," The Cedar Counter applies to Indigo Shaw on 2027-04-10, and the Maple Counter applied on the preceding day.
+
+",p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing. | p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: previous_counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR094,p1b_C_L1,C7,C,Which collection counter applies to Gale Rowan on 2027-04-05?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L1_f01: Gale Rowan — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L1_f03: Gale Rowan — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L1_f02""], ""components"": {""counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L1_f02""]}"," Gale Rowan's collection counter is Maple Counter.
+
+",p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR098,p1b_E_L2,C3,E,Which collection hub serves Cleo Reed's residence on 2027-04-15?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L2_f01: Cleo Reed — residence: Alderwick 3. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f04: Alderwick 3 — collection hub: Plover Hub 3. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L2_f03""], ""components"": {""hub"": ""Heron Hub 3""}, ""proof_fact_ids"": [""p1b_E_L2_f02"", ""p1b_E_L2_f03""]}"," Cleo Reed's residence is Alderwick 3, which is served by Plover Hub 3.
+
+",p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing. | p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: hub: Heron Hub 3.,TEMPORAL_REFERENCE_REQUIRED; IMPLICIT_DATE_FROM_QUESTION,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR101,p1b_E_L3,C5,E,On which day does the hub serving Dara Wells's residence on 2027-04-15 open?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L3_f01: Dara Wells — residence: Alderwick 4. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f04: Alderwick 4 — collection hub: Plover Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f06: Plover Hub 4 — opening day: Monday. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L3_f05""], ""components"": {""day"": ""Tuesday""}, ""proof_fact_ids"": [""p1b_E_L3_f02"", ""p1b_E_L3_f03"", ""p1b_E_L3_f05""]}"," The hub serving Dara Wells's residence on 2027-04-15 opens on Monday.
+
+",p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: day: Tuesday.,TEMPORAL_REFERENCE_REQUIRED,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR102,p1b_C_L3,C2,C,"Which counter applies to Indigo Shaw on 2027-04-10, and which applied on the preceding day?",2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L3_f01: Indigo Shaw — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""], ""components"": {""counter"": ""Cedar Counter"", ""previous_counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""]}"," The Cedar Counter applies to Indigo Shaw on 2027-04-10, and the Maple Counter applied on 2027-04-09.
+
+",p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing. | p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: previous_counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR110,p1b_C_L1,C0,C,Which collection counter applies to Gale Rowan on 2027-04-05?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L1_f01: Gale Rowan — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L1_f03: Gale Rowan — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L1_f02""], ""components"": {""counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L1_f02""]}"," Gale Rowan's collection counter on 2027-04-05 is Maple Counter.
+
+",p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR111,p1b_C_L1,C1,C,Which collection counter applies to Gale Rowan on 2027-04-05?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L1_f01: Gale Rowan — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L1_f03: Gale Rowan — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L1_f02""], ""components"": {""counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L1_f02""]}"," Gale Rowan's collection counter is Maple Counter.
+
+",p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR125,p1b_E_L2,C6,E,Which collection hub serves Cleo Reed's residence on 2027-04-15?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L2_f01: Cleo Reed — residence: Alderwick 3. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f04: Alderwick 3 — collection hub: Plover Hub 3. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L2_f03""], ""components"": {""hub"": ""Heron Hub 3""}, ""proof_fact_ids"": [""p1b_E_L2_f02"", ""p1b_E_L2_f03""]}"," Cleo Reed's residence is Alderwick 3.
+
+",p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing. | p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.,Requested answer component missing and the supplied claim uses a fact outdated at the asked date. Missing/incorrect reference values: hub: Heron Hub 3.,TEMPORAL_REFERENCE_REQUIRED,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR142,p1b_C_L3,C0,C,"Which counter applies to Indigo Shaw on 2027-04-10, and which applied on the preceding day?",2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L3_f01: Indigo Shaw — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""], ""components"": {""counter"": ""Cedar Counter"", ""previous_counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""]}"," The Cedar Counter applies on 2027-04-10, and the Maple Counter applied on 2027-04-09.
+
+",p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing. | p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: previous_counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR149,p1b_E_L3,C2,E,On which day does the hub serving Dara Wells's residence on 2027-04-15 open?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L3_f01: Dara Wells — residence: Alderwick 4. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f04: Alderwick 4 — collection hub: Plover Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f06: Plover Hub 4 — opening day: Monday. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L3_f05""], ""components"": {""day"": ""Tuesday""}, ""proof_fact_ids"": [""p1b_E_L3_f02"", ""p1b_E_L3_f03"", ""p1b_E_L3_f05""]}"," The hub serving Dara Wells's residence on 2027-04-15 is Plover Hub 4, which opens on Monday.
+
+",p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: day: Tuesday.,TEMPORAL_REFERENCE_REQUIRED,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR160,p1b_E_L3,C6,E,On which day does the hub serving Dara Wells's residence on 2027-04-15 open?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L3_f01: Dara Wells — residence: Alderwick 4. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f04: Alderwick 4 — collection hub: Plover Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f06: Plover Hub 4 — opening day: Monday. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L3_f05""], ""components"": {""day"": ""Tuesday""}, ""proof_fact_ids"": [""p1b_E_L3_f02"", ""p1b_E_L3_f03"", ""p1b_E_L3_f05""]}"," The hub serving Dara Wells's residence on 2027-04-15 opens on Monday.
+
+",p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: day: Tuesday.,TEMPORAL_REFERENCE_REQUIRED,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR164,p1b_G_L2,C5,G,Which pickup site was valid for Indigo Shaw on 2027-03-20?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_G_L2_f01: Indigo Shaw — pickup site: Orchard Lodge. Valid 2027-01-01 through 2027-02-28.
+p1b_G_L2_f02: Indigo Shaw — pickup site: Meadow Lodge. Valid 2027-03-01 through 2027-03-31.
+p1b_G_L2_f03: Indigo Shaw — pickup site: Harbor Lodge. Valid 2027-04-01 through ongoing.","{""answer_fact_ids"": [""p1b_G_L2_f02""], ""components"": {""site"": ""Meadow Lodge""}, ""proof_fact_ids"": [""p1b_G_L2_f02""]}"," I checked the records. Indigo Shaw was at Orchard Lodge on 2027-03-20.
+
+",p1b_G_L2_f02: Indigo Shaw — pickup site: Meadow Lodge. Valid 2027-03-01 through 2027-03-31.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: site: Meadow Lodge.,TEMPORAL_REFERENCE_REQUIRED,Wrong past/current pickup-site selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR165,p1b_H_L3,C6,H,Which desk should it go to on 2027-04-10?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_H_L3_f01: Parcel 111 — recipient: Recipient 131. Valid 2027-01-01 through ongoing.
+p1b_H_L3_f02: Recipient 131 — delivery desk: Elm Desk. Valid 2027-01-01 through 2027-04-09.
+p1b_H_L3_f03: Recipient 131 — delivery desk: Ash Desk. Valid 2027-04-10 through ongoing.
+p1b_H_L3_f04: Parcel 151 — recipient: Recipient 171. Valid 2027-01-01 through ongoing.
+p1b_H_L3_f05: Recipient 171 — delivery desk: Oak Desk. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_H_L3_f03""], ""components"": {""desk"": ""Ash Desk""}, ""proof_fact_ids"": [""p1b_H_L3_f01"", ""p1b_H_L3_f03""]}"," Elm Desk.
+",p1b_H_L3_f01: Parcel 111 — recipient: Recipient 131. Valid 2027-01-01 through ongoing. | p1b_H_L3_f03: Recipient 131 — delivery desk: Ash Desk. Valid 2027-04-10 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: desk: Ash Desk.,,Outdated follow-up desk selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR167,p1b_E_L2,C7,E,Which collection hub serves Cleo Reed's residence on 2027-04-15?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L2_f01: Cleo Reed — residence: Alderwick 3. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f04: Alderwick 3 — collection hub: Plover Hub 3. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L2_f03""], ""components"": {""hub"": ""Heron Hub 3""}, ""proof_fact_ids"": [""p1b_E_L2_f02"", ""p1b_E_L2_f03""]}"," Cleo Reed's residence is Alderwick 3. According to the verified records, Alderwick 3 is served by Plover Hub 3.
+
+",p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing. | p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: hub: Heron Hub 3.,TEMPORAL_REFERENCE_REQUIRED; IMPLICIT_DATE_FROM_QUESTION,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR172,p1b_C_L3,C7,C,"Which counter applies to Indigo Shaw on 2027-04-10, and which applied on the preceding day?",2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L3_f01: Indigo Shaw — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""], ""components"": {""counter"": ""Cedar Counter"", ""previous_counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L3_f03"", ""p1b_C_L3_f02""]}"," The Cedar Counter applies to Indigo Shaw on 2027-04-10, and the Maple Counter applied on 2027-04-09.
+
+",p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing. | p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: previous_counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR179,p1b_E_L3,C4,E,On which day does the hub serving Dara Wells's residence on 2027-04-15 open?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L3_f01: Dara Wells — residence: Alderwick 4. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f04: Alderwick 4 — collection hub: Plover Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f06: Plover Hub 4 — opening day: Monday. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L3_f05""], ""components"": {""day"": ""Tuesday""}, ""proof_fact_ids"": [""p1b_E_L3_f02"", ""p1b_E_L3_f03"", ""p1b_E_L3_f05""]}"," The hub serving Dara Wells's residence on 2027-04-15 is Plover Hub 4. It opens on Monday.
+
+",p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing. | p1b_E_L3_f05: Heron Hub 4 — opening day: Tuesday. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: day: Tuesday.,TEMPORAL_REFERENCE_REQUIRED,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR184,p1b_E_L2,C5,E,Which collection hub serves Cleo Reed's residence on 2027-04-15?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L2_f01: Cleo Reed — residence: Alderwick 3. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f04: Alderwick 3 — collection hub: Plover Hub 3. Valid 2027-01-01 through ongoing.","{""answer_fact_ids"": [""p1b_E_L2_f03""], ""components"": {""hub"": ""Heron Hub 3""}, ""proof_fact_ids"": [""p1b_E_L2_f02"", ""p1b_E_L2_f03""]}"," Cleo Reed's residence is Alderwick 3. According to the verified records, Alderwick 3 has a collection hub called Plover Hub 3.
+
+",p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing. | p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: hub: Heron Hub 3.,TEMPORAL_REFERENCE_REQUIRED; IMPLICIT_DATE_FROM_QUESTION,Outdated residence or linked hub/day selected,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR187,p1b_C_L1,C5,C,Which collection counter applies to Gale Rowan on 2027-04-05?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L1_f01: Gale Rowan — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L1_f03: Gale Rowan — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L1_f02""], ""components"": {""counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L1_f02""]}"," Gale Rowan's collection counter is Maple Counter.
+
+",p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism
+BR191,p1b_C_L1,C6,C,Which collection counter applies to Gale Rowan on 2027-04-05?,2027-04-15,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L1_f01: Gale Rowan — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L1_f03: Gale Rowan — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","{""answer_fact_ids"": [""p1b_C_L1_f02""], ""components"": {""counter"": ""Birch Counter""}, ""proof_fact_ids"": [""p1b_C_L1_f02""]}"," Gale Rowan's collection counter on 2027-04-05 is Maple Counter.
+
+",p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.,Direct answer contains a value incompatible with the trusted evidence/date; see quoted source. Missing/incorrect reference values: counter: Birch Counter.,TEMPORAL_REFERENCE_REQUIRED,Incorrect interval/boundary-state selection,Post-review tool-assisted task-family grouping; not new human labels or a causal mechanism

@@ -1,0 +1,122 @@
+{
+  "binary_sensitivity": "Correct=1/Incorrect=0; Unverifiable unknown, with signed unknown bounds and evaluable-only estimates.",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 714005,
+  "boundary_policies": {
+    "boundary_conservative": "Original AMBIGUOUS unit remains unknown numerically, with its adopted rating retained in distributions. Other 191 units use existing identifiable spans, not invented human Stage B PASS labels.",
+    "confirmed_span_sensitivity": "All 192 adopted semantic judgments on the original unmodified supplied spans; not new boundary adjudication."
+  },
+  "categorical_policy": "Report all label categories on frozen eligibility. Category-membership contrasts are not latent accuracy; Unverifiable stays its own observed category.",
+  "component_limit": "Source numerator/denominator adopted unchanged; occurrences in an uncommitted promise do not establish delivery or support.",
+  "created_utc": "2026-10-13T20:23:00.517566+00:00",
+  "legacy_importer": "Separate versioned semantic-only adoption adapter: user confirms existing 48-column proposals, not previously unfilled Stage B fields. Old two-stage importer/contract retained unchanged.",
+  "neutral_controls": "OPEN; no neutral-adjusted contrasts",
+  "ordinal_sensitivity": "Score thresholds >=2, >=3, >=4, >=5 under all nine contrasts. Monotone ordinal sensitivity, not an interval-scale assumption.",
+  "sampling": "24 paired cases in 12 whole-speaker bundles; 11 temporal cases in 9 speakers. Case-weighted mean; no C0-correct filter.",
+  "source_hashes": {
+    "src/personaslm/human_factorial.py": "18c9fa31fbc04e63cfb7de507383f6ebd27d567af48870cb8ce0a6e534d6907f",
+    "src/personaslm/p1b_calibration.py": "cc8f12cb8975c5bc18e7ce9486411da1815b9cc0734e2f06620ced52265b3825",
+    "src/personaslm/p1b_readiness.py": "e167e1b83925697e875ad81d9283628e9fc2964caf032ba919eff152dd6e372d",
+    "tools/p1b_calibration_analysis.py": "1e09ff030426fca5870251c63e2ca916f22e592edc100f2ee0e8edcf238f17bb",
+    "tools/p1b_confirmed_analysis.py": "9b4f70020018ce1375b6e3fbc53b659d962c5c0736abee653818c81020a98189",
+    "tools/p1b_measurement_audit.py": "00df491980721867cc68b27792d69fae4a498fa74de0390c20958194da3ab3e5",
+    "tools/p1b_semantic_integration.py": "6555c06c08650e6e4f72a74e0307c656c928c09afb66ccc3758f1fc1ecc79f5c"
+  },
+  "task_success": "Exploratory diagnostic: FULL_ANSWER AND Correct AND complete source component coverage; never substitutes for factual consistency.",
+  "timing": "Post-generation and source-label inspection; before treatment join in this analysis. Exploratory, not preregistration.",
+  "uncertainty": "Exploratory empirical percentile intervals, no multiplicity/significance/population guarantee. Also leave-one-speaker-out and family contribution tables.",
+  "unknowns": "Missing label, Unverifiable, frozen N/A, incompleteness and boundary ambiguity are distinct; no unknowns imputed as errors.",
+  "version": "p1b_confirmed_factorial_v2",
+  "weights": {
+    "C1-C0": {
+      "C0": -1.0,
+      "C1": 1.0,
+      "C2": 0.0,
+      "C3": 0.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0
+    },
+    "C3-C0": {
+      "C0": -1.0,
+      "C1": 0.0,
+      "C2": 0.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0
+    },
+    "F": {
+      "C0": -0.25,
+      "C1": -0.25,
+      "C2": 0.25,
+      "C3": -0.25,
+      "C4": 0.25,
+      "C5": -0.25,
+      "C6": 0.25,
+      "C7": 0.25
+    },
+    "FxH": {
+      "C0": 0.5,
+      "C1": 0.5,
+      "C2": -0.5,
+      "C3": -0.5,
+      "C4": -0.5,
+      "C5": -0.5,
+      "C6": 0.5,
+      "C7": 0.5
+    },
+    "H": {
+      "C0": -0.25,
+      "C1": -0.25,
+      "C2": -0.25,
+      "C3": 0.25,
+      "C4": -0.25,
+      "C5": 0.25,
+      "C6": 0.25,
+      "C7": 0.25
+    },
+    "S": {
+      "C0": -0.25,
+      "C1": 0.25,
+      "C2": -0.25,
+      "C3": -0.25,
+      "C4": 0.25,
+      "C5": 0.25,
+      "C6": -0.25,
+      "C7": 0.25
+    },
+    "SxF": {
+      "C0": 0.5,
+      "C1": -0.5,
+      "C2": -0.5,
+      "C3": 0.5,
+      "C4": 0.5,
+      "C5": -0.5,
+      "C6": -0.5,
+      "C7": 0.5
+    },
+    "SxFxH": {
+      "C0": -1.0,
+      "C1": 1.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": -1.0,
+      "C5": -1.0,
+      "C6": -1.0,
+      "C7": 1.0
+    },
+    "SxH": {
+      "C0": 0.5,
+      "C1": -0.5,
+      "C2": 0.5,
+      "C3": -0.5,
+      "C4": -0.5,
+      "C5": 0.5,
+      "C6": -0.5,
+      "C7": 0.5
+    }
+  }
+}

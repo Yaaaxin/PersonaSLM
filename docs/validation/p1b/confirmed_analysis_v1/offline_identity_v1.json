@@ -1,0 +1,28 @@
+{
+  "backend_build": "b11573-0f701c882",
+  "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+  "cases": 24,
+  "dataset_sha256": "fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6",
+  "evidence_scope": "Current file hashes plus replay of prior real native tokenizations; no new live server observation",
+  "factorial_inputs": "PASS",
+  "factual_eligible": 192,
+  "inference_authorization": "PENDING",
+  "live_pre_generation_gate": "Recheck all 192 prompt IDs on the owned pinned backend before any completion",
+  "manifest_sha256": "d73ceb403148b01f7b2c83a51a20165fdd625658e50c04a7ce0caa118ab22869",
+  "model_sha256": "ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994",
+  "native_tokenizations_reconciled": 192,
+  "new_generation_requests": 0,
+  "new_server_launches": 0,
+  "new_tokenizer_requests": 0,
+  "order_seed": 714001,
+  "requests": 192,
+  "routing_sha256": "cada764644efc87ce744905b6fcbcec2ad70b748bba3dbcdebc8fd4afff93e3d",
+  "scientific_review": "PENDING",
+  "technical_readiness": "PASS",
+  "temporal_eligible": 88,
+  "token_range": [
+    150,
+    434
+  ],
+  "version": "p1b_calibration_adapter_v1"
+}

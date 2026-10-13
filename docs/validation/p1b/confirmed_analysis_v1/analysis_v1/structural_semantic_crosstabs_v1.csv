@@ -1,0 +1,28 @@
+axis,structural_status,semantic_label,count
+semantic_completeness,AMBIGUOUS,YES,1
+semantic_completeness,CROSS_TURN,NO,17
+semantic_completeness,CROSS_TURN,PARTIAL,27
+semantic_completeness,CROSS_TURN,YES,142
+semantic_completeness,TRUNCATED,NO,4
+semantic_completeness,TRUNCATED,PARTIAL,1
+answer_delivery,AMBIGUOUS,FULL_ANSWER,1
+answer_delivery,CROSS_TURN,FULL_ANSWER,109
+answer_delivery,CROSS_TURN,NO_FINAL_ANSWER,17
+answer_delivery,CROSS_TURN,PARTIAL_ANSWER,26
+answer_delivery,CROSS_TURN,PARTIAL_WITH_FALSE_CLAIM,1
+answer_delivery,CROSS_TURN,WRONG_ANSWER_DELIVERED,33
+answer_delivery,TRUNCATED,NO_FINAL_ANSWER,4
+answer_delivery,TRUNCATED,PARTIAL_ANSWER,1
+factual_consistency,AMBIGUOUS,Correct,1
+factual_consistency,CROSS_TURN,Correct,135
+factual_consistency,CROSS_TURN,Incorrect,34
+factual_consistency,CROSS_TURN,Unverifiable,17
+factual_consistency,TRUNCATED,Correct,1
+factual_consistency,TRUNCATED,Unverifiable,4
+temporal_consistency,AMBIGUOUS,Not Applicable,1
+temporal_consistency,CROSS_TURN,Correct,39
+temporal_consistency,CROSS_TURN,Incorrect,34
+temporal_consistency,CROSS_TURN,Not Applicable,103
+temporal_consistency,CROSS_TURN,Unverifiable,10
+temporal_consistency,TRUNCATED,Correct,1
+temporal_consistency,TRUNCATED,Unverifiable,4

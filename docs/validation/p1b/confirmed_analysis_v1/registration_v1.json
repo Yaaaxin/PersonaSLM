@@ -1,0 +1,134 @@
+{
+  "annotation_origin": "AI_assisted_condition_masked_review",
+  "calibration_artifact_hashes_verified": 1831,
+  "count": 192,
+  "dataset_sha256": "fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6",
+  "dataset_version": "p1b_development_proposed_v2",
+  "decision_source": "researcher_confirmation",
+  "evaluation_policy": "separate_axes_policy_v1",
+  "files": {
+    "factorial_specification_v2.json": "206ab7602cfc9b9d0d173cac489515e4c9112783eb47c6e7ac6fd459aa813d18",
+    "offline_identity_v1.json": "22ffd4b4a8b49dff709ef5c136b218d1eae7ffbd4784307200db46eb7fe23f54",
+    "researcher_confirmation_v1.json": "145e8da320cfecb396f4478215e7896f59be032d22495da506fc373ac80293d9"
+  },
+  "final_annotation": {
+    "path": "docs/validation/p1b/researcher_confirmed_annotation_v1.csv",
+    "sha256": "db834321db44dd9a230d3a841f10e1b17b4acc21a74a8ed28010bd4c6550f1f1"
+  },
+  "final_decision_authority": "researcher",
+  "git": {
+    "dirty_status": "?? docs/validation/p1b/confirmed_analysis_v1/\n?? docs/validation/p1b/researcher_confirmed_annotation_v1.csv\n?? tests/test_p1b_confirmed_analysis.py\n?? tools/p1b_confirmed_analysis.py\n",
+    "sha": "b99a8ff467b4358b7eb468bb3d635b91c33d895f"
+  },
+  "new_inference": 0,
+  "packet_integrity": {
+    "blank_human_fields": true,
+    "cases": 24,
+    "dataset_sha256": "fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6",
+    "eligibility": {
+      "conversational_coherence": 192,
+      "factual_consistency": 192,
+      "response_relevance": 192,
+      "temporal_consistency": 88
+    },
+    "factorial_mappings_verified": 192,
+    "human_reviews_imported": 0,
+    "manifest_sha256": "d73ceb403148b01f7b2c83a51a20165fdd625658e50c04a7ce0caa118ab22869",
+    "mapping_sha256": "2a6a33ee651e8944e968fed5dd544c82168b027cab86ba2c9a8cbcffa8920863",
+    "masking": "Column masking verified; text cues/prior knowledge can reveal treatment.",
+    "master_hashes": {
+      "docs/validation/p1b/measurement_audit_v1/semantic_scoring_view_v2.csv": "e2d4c098f7fb89539dff5998aee987322a28b6483f6bffb37c75d5323d1114ca",
+      "docs/validation/p1b/measurement_audit_v1/structural_review_view_v2.csv": "e5b9d08625927cc64a47341923c99961235b5a0bf13e7d085ecf4e49d328a788"
+    },
+    "new_inference": 0,
+    "records": 192,
+    "source_prompts_reconstructed": 192,
+    "speakers": 12,
+    "stage_a_columns": 35,
+    "stage_b_columns": 22,
+    "structural_statuses": {
+      "AMBIGUOUS": 1,
+      "CROSS_TURN": 186,
+      "TRUNCATED": 5
+    },
+    "text_hashes_verified": 192,
+    "verified_utc": "2026-10-13T20:22:56.178722+00:00",
+    "version": "p1b_researcher_semantic_integration_v1"
+  },
+  "registered_utc": "2026-10-13T20:23:00.521961+00:00",
+  "response_policy": "response_status_v1",
+  "review_method": "Researcher verification and adoption of condition-masked AI-assisted semantic annotations.",
+  "review_status": "RESEARCHER_CONFIRMED",
+  "reviewer_id": "Yaxin_ZHENG",
+  "semantic_routing": "p1b_manual_semantic_routing_proposed_v1",
+  "source_hashes": {
+    "src/personaslm/human_factorial.py": "18c9fa31fbc04e63cfb7de507383f6ebd27d567af48870cb8ce0a6e534d6907f",
+    "src/personaslm/p1b_calibration.py": "cc8f12cb8975c5bc18e7ce9486411da1815b9cc0734e2f06620ced52265b3825",
+    "src/personaslm/p1b_readiness.py": "e167e1b83925697e875ad81d9283628e9fc2964caf032ba919eff152dd6e372d",
+    "tools/p1b_calibration_analysis.py": "1e09ff030426fca5870251c63e2ca916f22e592edc100f2ee0e8edcf238f17bb",
+    "tools/p1b_confirmed_analysis.py": "9b4f70020018ce1375b6e3fbc53b659d962c5c0736abee653818c81020a98189",
+    "tools/p1b_measurement_audit.py": "00df491980721867cc68b27792d69fae4a498fa74de0390c20958194da3ab3e5",
+    "tools/p1b_semantic_integration.py": "6555c06c08650e6e4f72a74e0307c656c928c09afb66ccc3758f1fc1ecc79f5c"
+  },
+  "sources": {
+    "docs/PersonaSLM_P1b_AI_semantic_review_audit_UNCONFIRMED_v1.md": "2ef20df1aef9eefd5111953c62be33e1df730c2cb4592fcc8b24985dd231b90e",
+    "docs/validation/p1b/measurement_audit_v1/review_support/PersonaSLM_P1b_192_AI_suggestions_UNCONFIRMED_v1.csv": "a546180e8ad03cb13ac4e22fd4998ebb1001231150fea6bd72cad726f5d0ef88",
+    "docs/validation/p1b/measurement_audit_v1/review_support/PersonaSLM_P1b_priority_semantic_review_UNCONFIRMED_v1.csv": "2246af63103ae6d3009a38edd3625e33c064588f00d27277b756e4cd79086ae6",
+    "docs/validation/p1b/measurement_audit_v1/semantic_scoring_view_v2.csv": "e2d4c098f7fb89539dff5998aee987322a28b6483f6bffb37c75d5323d1114ca",
+    "docs/validation/p1b/measurement_audit_v1/structural_review_view_v2.csv": "e5b9d08625927cc64a47341923c99961235b5a0bf13e7d085ecf4e49d328a788"
+  },
+  "treatment_join_performed": false,
+  "validation": {
+    "distributions": {
+      "answer_delivery": {
+        "FULL_ANSWER": 110,
+        "NO_FINAL_ANSWER": 21,
+        "PARTIAL_ANSWER": 27,
+        "PARTIAL_WITH_FALSE_CLAIM": 1,
+        "WRONG_ANSWER_DELIVERED": 33
+      },
+      "component_coverage": {
+        "0/1": 62,
+        "0/2": 2,
+        "0/3": 2,
+        "1/1": 90,
+        "1/2": 11,
+        "2/2": 11,
+        "3/3": 6,
+        "4/4": 8
+      },
+      "conversational_coherence": {
+        "2": 4,
+        "3": 1,
+        "4": 18,
+        "5": 169
+      },
+      "factual_consistency": {
+        "Correct": 137,
+        "Incorrect": 34,
+        "Unverifiable": 21
+      },
+      "response_relevance": {
+        "1": 4,
+        "2": 14,
+        "3": 31,
+        "5": 143
+      },
+      "semantic_completeness": {
+        "NO": 21,
+        "PARTIAL": 28,
+        "YES": 143
+      },
+      "temporal_consistency": {
+        "Correct": 40,
+        "Incorrect": 34,
+        "Not Applicable": 104,
+        "Unverifiable": 14
+      }
+    },
+    "original_fields_verified_per_record": 35,
+    "records": 192,
+    "source_quote_verification": "PASS"
+  },
+  "version": "p1b_confirmed_ai_adoption_v1"
+}

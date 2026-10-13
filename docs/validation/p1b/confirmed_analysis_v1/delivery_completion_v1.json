@@ -1,0 +1,122 @@
+{
+  "capture": {
+    "argv": [
+      ".\\.venv\\Scripts\\python.exe",
+      "tools/p1b_confirmed_delivery.py"
+    ],
+    "duration_seconds": 530.084907899989,
+    "exit_code": 0,
+    "finished_utc": "2026-10-13T20:51:01.762003+00:00",
+    "started_utc": "2026-10-13T20:42:11.677091+00:00",
+    "stderr": "",
+    "stdout": "{\"status\": \"PASS\", \"annotations\": 192, \"historical_journals\": 29, \"prior_files\": 3967, \"calibration_files\": 1831, \"identical_replay_files\": 10, \"tests_passed\": 712, \"new_inference\": 0}\n"
+  },
+  "capture_sha256": "4175ed9e94fa67676f0b374c021c5dbb431845547f53dbb4e4842eb303246e28",
+  "command_error_detail": {
+    "error_timestamp": null,
+    "exact_failed_inspection_command": "rg -n 'v 1|v 2|r 1|byone|hasfour|plusfour|andone|fromthree|withfour|nearzero|fullcorrect|onlyone|atC0|andfour|whileone|2BBase|R/Tisolation|AIcodes|Correctbut' docs/P1b_*analysis.md docs/P1b_researcher_confirmed_annotation_report.md docs/P1b_scientific_novelty_assessment.md docs/P1b_algorithmic_opportunity_assessment.md",
+    "exit_code": 1,
+    "reason": "PowerShell passed a literal wildcard path to rg (os error 123); explicit file lists were used afterward."
+  },
+  "delivery_inventory_hashes_match": true,
+  "delivery_sha256": "f110ebe097d086d9383bf512e79b1e7f1e75661528ac79e6cf76c880f1f9c4ed",
+  "git_diff_check": {
+    "exit_code": 0,
+    "stderr": "warning: in the working copy of 'docs/research_development_log.md', CRLF will be replaced by LF the next time Git touches it\n",
+    "stdout": ""
+  },
+  "git_status": " M docs/P1b_algorithmic_opportunity_assessment.md\n M docs/research_development_log.md\n?? docs/P1b_exploratory_factorial_analysis.md\n?? docs/P1b_factual_temporal_error_analysis.md\n?? docs/P1b_next_experiment_decision.md\n?? docs/P1b_publication_readiness.md\n?? docs/P1b_researcher_confirmed_annotation_report.md\n?? docs/P1b_scientific_novelty_assessment.md\n?? docs/P1b_structural_semantic_analysis.md\n?? docs/P1b_task_completion_analysis.md\n?? docs/validation/p1b/confirmed_analysis_v1/analysis_v1/analysis_reproducibility_manifest_v1.json\n?? docs/validation/p1b/confirmed_analysis_v1/analysis_v1/analysis_v1.json\n?? docs/validation/p1b/confirmed_analysis_v1/analysis_v1/case_contrasts_v1.csv\n?? docs/validation/p1b/confirmed_analysis_v1/analysis_v1/effect_summary_v1.csv\n?? docs/validation/p1b/confirmed_analysis_v1/analysis_v1/group_summaries_v1.csv\n?? docs/validation/p1b/confirmed_analysis_v1/analysis_v1/joint_table_v1.csv\n?? docs/validation/p1b/confirmed_analysis_v1/analysis_v1/metric_coverage_v1.csv\n?? docs/validation/p1b/confirmed_analysis_v1/analysis_v1/speaker_sensitivity_v1.csv\n?? docs/validation/p1b/confirmed_analysis_v1/analysis_v1/structural_semantic_crosstabs_v1.csv\n?? docs/validation/p1b/confirmed_analysis_v1/analysis_v1/temporal_error_evidence_v1.csv\n?? docs/validation/p1b/confirmed_analysis_v1/analysis_v1/unblinded_analysis_dataset_v1.json\n?? docs/validation/p1b/confirmed_analysis_v1/annotation_provenance_clarification_v2.json\n?? docs/validation/p1b/confirmed_analysis_v1/command_register_v1.json\n?? docs/validation/p1b/confirmed_analysis_v1/delivery_v1.json\n?? docs/validation/p1b/confirmed_analysis_v1/factorial_specification_v2.json\n?? docs/validation/p1b/confirmed_analysis_v1/final_integrity_v1.json\n?? docs/validation/p1b/confirmed_analysis_v1/literature_access_v1.json\n?? docs/validation/p1b/confirmed_analysis_v1/offline_identity_v1.json\n?? docs/validation/p1b/confirmed_analysis_v1/registration_v1.json\n?? docs/validation/p1b/confirmed_analysis_v1/researcher_confirmation_v1.json\n?? docs/validation/p1b/researcher_confirmed_annotation_v1.csv\n?? tests/test_p1b_confirmed_analysis.py\n?? tools/p1b_confirmed_analysis.py\n?? tools/p1b_confirmed_delivery.py\n?? tools/p1b_confirmed_report.py\n",
+  "json_csv_validation": {
+    "csv": 8,
+    "json": 12
+  },
+  "modified_tracked_files": 2,
+  "new_inference": 0,
+  "recorded_utc": "2026-10-13T20:52:08.218588+00:00",
+  "report_links": [
+    [
+      "docs/P1b_algorithmic_opportunity_assessment.md",
+      "P1_wave1_exploratory_factorial_analysis.md"
+    ],
+    [
+      "docs/P1b_algorithmic_opportunity_assessment.md",
+      "P1_wave1_structural_semantic_comparison.md"
+    ],
+    [
+      "docs/P1b_algorithmic_opportunity_assessment.md",
+      "related_work_novelty_matrix.md"
+    ],
+    [
+      "docs/P1b_algorithmic_opportunity_assessment.md",
+      "P1b_novelty_and_publication_assessment.md"
+    ],
+    [
+      "docs/P1b_exploratory_factorial_analysis.md",
+      "validation/p1b/confirmed_analysis_v1/factorial_specification_v2.json"
+    ],
+    [
+      "docs/P1b_exploratory_factorial_analysis.md",
+      "validation/p1b/confirmed_analysis_v1/analysis_v1/case_contrasts_v1.csv"
+    ],
+    [
+      "docs/P1b_exploratory_factorial_analysis.md",
+      "validation/p1b/confirmed_analysis_v1/analysis_v1/effect_summary_v1.csv"
+    ],
+    [
+      "docs/P1b_exploratory_factorial_analysis.md",
+      "validation/p1b/confirmed_analysis_v1/analysis_v1/speaker_sensitivity_v1.csv"
+    ],
+    [
+      "docs/P1b_exploratory_factorial_analysis.md",
+      "validation/p1b/confirmed_analysis_v1/analysis_v1/metric_coverage_v1.csv"
+    ],
+    [
+      "docs/P1b_exploratory_factorial_analysis.md",
+      "validation/p1b/confirmed_analysis_v1/analysis_v1/analysis_v1.json"
+    ],
+    [
+      "docs/P1b_exploratory_factorial_analysis.md",
+      "validation/p1b/confirmed_analysis_v1/analysis_v1/analysis_reproducibility_manifest_v1.json"
+    ],
+    [
+      "docs/P1b_factual_temporal_error_analysis.md",
+      "validation/p1b/confirmed_analysis_v1/analysis_v1/temporal_error_evidence_v1.csv"
+    ],
+    [
+      "docs/P1b_researcher_confirmed_annotation_report.md",
+      "validation/p1b/researcher_confirmed_annotation_v1.csv"
+    ],
+    [
+      "docs/P1b_researcher_confirmed_annotation_report.md",
+      "validation/p1b/confirmed_analysis_v1/registration_v1.json"
+    ],
+    [
+      "docs/P1b_researcher_confirmed_annotation_report.md",
+      "validation/p1b/confirmed_analysis_v1/offline_identity_v1.json"
+    ],
+    [
+      "docs/P1b_researcher_confirmed_annotation_report.md",
+      "validation/p1b/confirmed_analysis_v1/analysis_v1/unblinded_analysis_dataset_v1.json"
+    ],
+    [
+      "docs/P1b_researcher_confirmed_annotation_report.md",
+      "validation/p1b/confirmed_analysis_v1/delivery_v1.json"
+    ],
+    [
+      "docs/P1b_researcher_confirmed_annotation_report.md",
+      "validation/p1b/confirmed_analysis_v1/annotation_provenance_clarification_v2.json"
+    ],
+    [
+      "docs/P1b_scientific_novelty_assessment.md",
+      "related_work_novelty_matrix.md"
+    ],
+    [
+      "docs/P1b_task_completion_analysis.md",
+      "validation/p1b/confirmed_analysis_v1/analysis_v1/group_summaries_v1.csv"
+    ]
+  ],
+  "review_data_changes": 0,
+  "status": "PASS",
+  "untracked_files_before_this_completion_record": 33,
+  "version": "p1b_confirmed_delivery_completion_v1"
+}

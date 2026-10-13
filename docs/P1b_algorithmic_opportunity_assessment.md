@@ -119,3 +119,62 @@ The current preparation improves reference correctness, prospective applicabilit
 The next bounded experiment, if approved, can weaken as well as support the premise that the new bank is more informative: continued ceilings across all families would leave discrimination unresolved; condition-invariant errors would show task difficulty without persona sensitivity; poor semantic coverage would favor a boundary diagnostic over scaling. Any observed interactions require uncertainty and independent material before broader claims. A separate history R/T diagnostic is justified only by a concrete unresolved question, not because those factors sound novel. Presentation must remain separately motivated against existing admission/rendering evidence.
 
 Prioritize this calibration and honest measurement over algorithm invention or larger generation counts. Independent replication and configuration sensitivity may later strengthen a defensible empirical paper, but neither is silently added to this preparation task as a new mandatory experiment.
+
+
+## Researcher-confirmed P1b calibration addendum
+
+Maintainer: Yaxin ZHENG. Paper: *Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models*. Target: PLOS ONE. Protocol v1.1 remains formal; v1.2 Revised Proposed r1 is unadopted. Exploratory development evidence only. No new inference.
+
+The original pre-calibration assessment above is preserved as historical context. This addendum uses newly registered 192-response evidence. No algorithm is implemented or claimed original.
+
+### A. Temporal-aware selection and evidence-priority routing
+
+**Observed Failure Modes.**34 adopted temporal contradictions;four occur already at C0. Selecting an old counter/residence/site/desk is observed, but retrieval versus generation responsibility is unresolved because the trusted ledger was fully supplied.
+
+**Existing Methods and Published Prior Art.**[LongMemEval](https://arxiv.org/abs/2410.10813v2) includes temporal updates, indexing/retrieval/reading and time-aware query expansion. [What to Admit and How to Present](https://arxiv.org/abs/2610.11188v1) already separates admission/rendering and compares typed-unit versus whole-memory selection. These records/abstracts were checked; implementations were not reproduced.
+
+**Potential Algorithmic Improvements.**A provenance- and proposition-date-aware admissibility layer is a candidate, not an original contribution. It would need to distinguish current versus requested past states and preserve beneficial old facts. A simple date filter is existing method practice.
+
+**Validation Feasibility.**First identify a residual problem on independent ledger/reference-date material. Compare no-history/all-history, equal-budget random/relevance selection, deterministic interval lookup and established time-aware retrieval; ablate relevance, temporal eligibility and evidence priority separately. Keep trusted evidence constant. Rules cost little local computation; retrieval/extra decode cost must be measured. Removing relevant history can harm fidelity and utility.
+
+**Publication Value.**A new failure boundary or robust negative result could be useful; a renamed filter cannot support originality. No new method is justified until simple baselines fail under an identifying design.
+
+### B. Answer-component verification
+
+**Observed Failure Modes.**27 supported partial outputs, including 20 D-family outputs, show claim consistency is not full task success. Three promises contain a reference string without delivering an answer.
+
+**Existing Methods and Published Prior Art.**[AlignScore](https://aclanthology.org/2023.acl-long.634/) learns information alignment for factual consistency. Existing exact-match/abstention, QA/NLI and component checking address parts of verification; a support metric does not automatically verify task completion.
+
+**Potential Algorithmic Improvements.**A separate coverage-and-commitment checker might help, but the present annotation distinction is not itself a new algorithm. Current component counts sometimes reflect textual coverage, requiring semantic validation.
+
+**Validation Feasibility.**Compare reference exact-match with abstention, human claim/required-component inventory, established alignment/NLI verification and a deterministic component checklist. Use independent prompts with paraphrases, negation, promises and true intermediate facts. Ablate support, coverage and delivery separately. Offline rules are cheap; learned scoring or regenerated answers add measured CPU cost. Do not train and evaluate on these 192 responses.
+
+**Publication Value.**A validated discrepancy between claim support and task success is empirically useful; originality of a new verifier remains UNVERIFIED. Any checker that erases style must be evaluated separately for Persona Fidelity.
+
+### C. Persona/evidence separation and interaction-aware conditioning
+
+**Observed Failure Modes.**The H package has negative descriptive task effects; SxH varies by endpoint and cancels in temporal labels. This is not evidence of representational entanglement.
+
+**Existing Methods and Published Prior Art.**[FPPS](https://aclanthology.org/2026.findings-acl.395/) addresses personalized factual distortion. [AO-DA](https://arxiv.org/abs/2610.09772v2) separates reasoning and persona rendering. Prompt sectioning or two stages are not new by themselves.
+
+**Potential Algorithmic Improvements.**Condition-dependent gating is only a hypothesis. It should not be fitted to the signs in this development table. Current evidence does not justify beginning implementation.
+
+**Validation Feasibility.**Require independent factorial replication, matched-length/compute controls, native-template baselines, established separation/steering comparators and independent fidelity annotation. Ablate sectioning, extra decode and routing decision. One additional decode roughly doubles generation-call count, not necessarily latency; actual cost is unmeasured.
+
+**Publication Value.**Only a replicated benefit beyond existing methods with preserved fidelity could justify a method contribution. This study has not supplied that evidence.
+
+### D. Response-boundary management and recoverable outputs
+
+**Observed Failure Modes.**186 cross-turns include 109 full correct first replies, while one ambiguous span remains. Four truncated outputs are unfinished thinking; one is a supported partial answer.
+
+**Existing Methods and Published Prior Art.**Native chat/EOG templates, stop sequences, role-transition extraction and existing structured-output systems already manage boundaries; AO-DA studies structural failure. These are baselines, not invented methods.
+
+**Potential Algorithmic Improvements.**A conservative extractor with abstention could reduce ambiguous units, but choosing later correct turns would introduce selection bias. A parser change cannot create missing final-answer content.
+
+**Validation Feasibility.**Compare frozen extraction, native template/EOG and predeclared stop rules on independent material. Human unit annotations should measure false cuts, wrong-speaker inclusion, completion retention and semantic distortion. Offline extraction costs no model calls; generation arms require new authorization and matched controls.
+
+**Publication Value.**Measurement sensitivity may support an empirical contribution. Boundary heuristics alone do not establish an original algorithm or solve temporal errors.
+
+### Decision
+
+Prioritize an identifying empirical diagnostic and independent annotation before algorithm work. The above opportunities are prospective; no training, retrieval system, routing algorithm or new decoding experiment was launched. Evidence insufficient for an original algorithm claim is reported as such.

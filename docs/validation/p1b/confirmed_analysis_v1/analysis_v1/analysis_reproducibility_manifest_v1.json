@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-13T20:23:33.356635+00:00",
+  "files": {
+    "analysis_v1.json": "234015a339fe40a128033014eb90bd07bfc0790ef5dba0a73b88ea575be63778",
+    "case_contrasts_v1.csv": "5dcfed8e64d544d9c33e6e77916317a66100e909da7219c01fc519cb9810c578",
+    "effect_summary_v1.csv": "6be91f49dde39a5fb86bd72810a1d96069658e0f511472dadfb4b44ef32a24d2",
+    "group_summaries_v1.csv": "6c91ce366f4d336be3df51abf4166a5a3108474801088629bb9bc5947ced27ea",
+    "joint_table_v1.csv": "2075c9ad2ae66da0ce0a5afc732d46558c3a64e2eadb4748027f1d8bcdf9a9b2",
+    "metric_coverage_v1.csv": "6585ac45ad38d9931c3edddd78c613978dc89975329614fc9ff56138db43a952",
+    "speaker_sensitivity_v1.csv": "982d11daf3e63a8a0fdfde1f3034efa89ef316d2998a19bb9d34d43011cccf36",
+    "structural_semantic_crosstabs_v1.csv": "290f7ebd07e2de2fbe42c9431409ff1067f9d044bfd2116762cc4d7e681118e0",
+    "temporal_error_evidence_v1.csv": "7777185a98349dc92da72dd2f6fc40814d7013970aa8eeb7fbd4f4650c045b03",
+    "unblinded_analysis_dataset_v1.json": "4c9d6497d1cf019c72c352a5b41ecc2d0567f29b5f5a2d19fde738bebe43a1d2"
+  },
+  "git": {
+    "dirty_status": "?? docs/validation/p1b/confirmed_analysis_v1/\n?? docs/validation/p1b/researcher_confirmed_annotation_v1.csv\n?? tests/test_p1b_confirmed_analysis.py\n?? tools/p1b_confirmed_analysis.py\n",
+    "sha": "b99a8ff467b4358b7eb468bb3d635b91c33d895f"
+  },
+  "new_inference": 0,
+  "registration_sha256": "9fe88740d07f5317d3dd04e2c52e73e12747c7d019fad2c0d04cc78e4e9a1dcc",
+  "source_sha256": "9b4f70020018ce1375b6e3fbc53b659d962c5c0736abee653818c81020a98189",
+  "specification_sha256": "206ab7602cfc9b9d0d173cac489515e4c9112783eb47c6e7ac6fd459aa813d18",
+  "version": "p1b_confirmed_factorial_v2"
+}

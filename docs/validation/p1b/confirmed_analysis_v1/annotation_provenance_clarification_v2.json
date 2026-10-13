@@ -1,0 +1,23 @@
+{
+  "annotation_origin": "AI_assisted_condition_masked_review",
+  "confirmation_scope": "All 192 supplied semantic proposals; no fabricated Stage B boundary judgments",
+  "decision_source": "researcher_confirmation",
+  "explanation": "The original field counted the named confirming researcher but its name could imply independent annotation. Independence from AI proposals or prior knowledge is not established. No independent second reviewer or agreement measurement exists.",
+  "final_decision_authority": "researcher",
+  "human_review_timestamp": null,
+  "independent_annotation_reliability": "Not established",
+  "independent_human_annotators": null,
+  "inter_annotator_agreement": null,
+  "number_of_distinct_named_human_reviewers": 1,
+  "original_record": "researcher_confirmation_v1.json",
+  "original_sha256": "145e8da320cfecb396f4478215e7896f59be032d22495da506fc373ac80293d9",
+  "original_value": 1,
+  "rating_changes": 0,
+  "recorded_utc": "2026-10-13T20:50:59.346666+00:00",
+  "review_method": "Researcher verification and adoption of condition-masked AI-assisted semantic annotations.",
+  "review_status": "RESEARCHER_CONFIRMED",
+  "reviewer_id": "Yaxin_ZHENG",
+  "source_or_registration_overwritten": false,
+  "superseded_field": "independent_human_annotators",
+  "version": "p1b_annotation_provenance_clarification_v2"
+}

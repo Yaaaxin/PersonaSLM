@@ -1,0 +1,191 @@
+{
+  "additional_actual_read_only_commands": [
+    "git status --short",
+    "git rev-parse HEAD",
+    "Get-Content -LiteralPath AGENTS.md",
+    "Get-Content -LiteralPath tools/p1b_measurement_verify.py -TotalCount 240"
+  ],
+  "captures": {
+    "analysis_01.json": {
+      "argv": [
+        ".venv\\Scripts\\python.exe",
+        "tools/p1b_confirmed_analysis.py",
+        "analyze",
+        "--output",
+        "docs/validation/p1b/confirmed_analysis_v1/analysis_v1"
+      ],
+      "duration_seconds": 28.722676199977286,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T20:23:33.624336+00:00",
+      "started_utc": "2026-10-13T20:23:04.901655+00:00",
+      "stderr": "",
+      "stdout": "{\"responses\": 192, \"cases\": 24, \"speakers\": 12, \"new_inference\": 0}\n"
+    },
+    "analysis_replay_01.json": {
+      "argv": [
+        ".venv\\Scripts\\python.exe",
+        "tools/p1b_confirmed_analysis.py",
+        "analyze",
+        "--output",
+        "results/p1b_confirmed_analysis/v1/replay_v1"
+      ],
+      "duration_seconds": 30.441829199990025,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T20:24:17.656341+00:00",
+      "started_utc": "2026-10-13T20:23:47.214503+00:00",
+      "stderr": "",
+      "stdout": "{\"responses\": 192, \"cases\": 24, \"speakers\": 12, \"new_inference\": 0}\n"
+    },
+    "editorial_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "results/p1b_confirmed_analysis/v1/editorial_finalize.py"
+      ],
+      "duration_seconds": 0.3664023000164889,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T20:38:45.064427+00:00",
+      "started_utc": "2026-10-13T20:38:44.698023+00:00",
+      "stderr": "",
+      "stdout": "{\"files_edited\": 7, \"historical_data_modified\": false}\n"
+    },
+    "full_tests_01.json": {
+      "argv": [
+        ".venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "duration_seconds": 41.135918699990725,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T20:24:28.586867+00:00",
+      "started_utc": "2026-10-13T20:23:47.450944+00:00",
+      "stderr": "",
+      "stdout": "........................................................................ [ 10%]\n........................................................................ [ 20%]\n........................................................................ [ 30%]\n........................................................................ [ 40%]\n........................................................................ [ 50%]\n........................................................................ [ 60%]\n........................................................................ [ 70%]\n........................................................................ [ 80%]\n........................................................................ [ 91%]\n................................................................         [100%]\n712 passed in 40.41s\n"
+    },
+    "register_01.json": {
+      "argv": [
+        ".venv\\Scripts\\python.exe",
+        "tools/p1b_confirmed_analysis.py",
+        "register"
+      ],
+      "duration_seconds": 4.933144600014202,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T20:23:00.700037+00:00",
+      "started_utc": "2026-10-13T20:22:55.766882+00:00",
+      "stderr": "",
+      "stdout": "{\"registered\": 192, \"annotation_sha256\": \"db834321db44dd9a230d3a841f10e1b17b4acc21a74a8ed28010bd4c6550f1f1\", \"treatment_join_performed\": false}\n"
+    },
+    "reports_01.json": {
+      "argv": [
+        ".venv\\Scripts\\python.exe",
+        "tools/p1b_confirmed_report.py"
+      ],
+      "duration_seconds": 0.7855141000181902,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T20:30:25.364762+00:00",
+      "started_utc": "2026-10-13T20:30:24.579244+00:00",
+      "stderr": "",
+      "stdout": "{\"reports_created\": 8, \"historical_algorithmic_report_appended\": 1, \"new_inference\": 0}\n"
+    },
+    "targeted_tests_01.json": {
+      "argv": [
+        ".venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_p1b_confirmed_analysis.py"
+      ],
+      "duration_seconds": 1.560857100004796,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T20:22:47.204021+00:00",
+      "started_utc": "2026-10-13T20:22:45.643156+00:00",
+      "stderr": "",
+      "stdout": "........................                                                 [100%]\n24 passed in 0.90s\n"
+    }
+  },
+  "delivery_capture": "results/p1b_confirmed_analysis/v1/engineering/delivery_01.json",
+  "delivery_command": [
+    ".\\.venv\\Scripts\\python.exe",
+    "tools/p1b_confirmed_delivery.py"
+  ],
+  "editorial_corrections": {
+    "changes": [
+      {
+        "after_sha256": "a8f2bebf57db6299c4967764b38b1334928c9ee2531a2ad81e8dbd692fc76f47",
+        "before_sha256": "db9260a3994eeb2af97a3cba4c1dc7093952b85fdcd086d44fbeaf4555da1d04",
+        "path": "docs/P1b_researcher_confirmed_annotation_report.md"
+      },
+      {
+        "after_sha256": "778955fe6fa762d60169590f96bdae0628598d0165c7f1cfea2319224a09199a",
+        "before_sha256": "a6e242434906eba65f34522f39482371291aca1505f716f4eaa6414303d5888a",
+        "path": "docs/P1b_exploratory_factorial_analysis.md"
+      },
+      {
+        "after_sha256": "2a4a28e04124108552bd768b659bd701613c4b9fc3f77f294d47f6392ba2c712",
+        "before_sha256": "e6a368d9d71a64d483603f675ff029cd666c8327dbc6594a61354cc0afcf1e2c",
+        "path": "docs/P1b_factual_temporal_error_analysis.md"
+      },
+      {
+        "after_sha256": "cfc7bedcc14b002b7fccc8a9cd09f832938b09b512279901ba426bf6c8f6c214",
+        "before_sha256": "30f3ab2f4f4681a436972425763fa044474a3dc5c5e8ffef5df84a4e62413c1d",
+        "path": "docs/P1b_task_completion_analysis.md"
+      },
+      {
+        "after_sha256": "e5fdacf609d54917831835ee94b0ec4263c9a9ad3303896398005e9cb2fbbd07",
+        "before_sha256": "cac58b0b9f65e887995645080ab678e0174b3850f5bc7403891da4d82c85f4d6",
+        "path": "docs/P1b_structural_semantic_analysis.md"
+      },
+      {
+        "after_sha256": "459d0f01508e30413be20755bca6b8f6b5a21d86b620d1c60db0695b4b081e6a",
+        "before_sha256": "758cc78db7f8ba9b8b43967ff1ecfae895ba1b4fbaaf899bd6f40ee3bf53c417",
+        "path": "docs/P1b_scientific_novelty_assessment.md"
+      },
+      {
+        "after_sha256": "c558d244cfadfcdb803f1cbc6e58651e8a3946981110522dda28ed18691879ee",
+        "before_sha256": "ad7d6c72fec013f974147a9a42347c1c1e10cec0ba173043f8f2c4a83c83db89",
+        "path": "docs/P1b_algorithmic_opportunity_assessment.md"
+      }
+    ],
+    "data_modified": false,
+    "errors_preserved": [
+      {
+        "command": "rg -n <editorial patterns> docs/P1b_*analysis.md <explicit files>",
+        "correction": "Use explicit file list in saved editorial script",
+        "error": "Windows literal wildcard path: os error 123",
+        "exit_code": 1,
+        "original_error_timestamp": null
+      },
+      {
+        "correction": "Case-level frozen table identifies H_L2; H_L3 has six full and two wrong answers",
+        "issue": "Report prose assigned eight H-family nonanswers to H_L3",
+        "source": "docs/validation/p1b/confirmed_analysis_v1/analysis_v1/group_summaries_v1.csv"
+      }
+    ],
+    "recorded_utc": "2026-10-13T20:38:44.938594+00:00"
+  },
+  "previous_editorial_record": {
+    "error_preserved": {
+      "correction": "Used explicit updates of current-task reports; retained drafts locally.",
+      "message": "invalid patch: multiple operations target the same next-experiment report",
+      "mutation_occurred": false,
+      "operation": "apply_patch",
+      "original_timestamp": null
+    },
+    "files": {
+      "docs/P1b_next_experiment_decision.md": {
+        "after": "0f8b432f92d809bde9123f0732ad45834d0009ef9c3a542810eb87f761cc87d7",
+        "before": "031f85882f0940f3c52e16df3f858798782344c16e43a3f1ef078916b85f7c58"
+      },
+      "docs/P1b_publication_readiness.md": {
+        "after": "d36826735b21489cba9c8ddbc812a2e1103c6846cfd9acb2915b989bbc020cca",
+        "before": "91319fd11158cc9fc3a41ec17d84b4121f67d5ad177c9263c7d7c165266301b1"
+      }
+    },
+    "recorded_utc": "2026-10-13T20:34:12.933050+00:00",
+    "scope": "Editorial changes to newly generated prose only; analysis and source ratings unchanged. Historical algorithmic report prefix preserved."
+  },
+  "read_only_inspections": "Repository documents, source, inventories and case-level JSON/CSV were inspected with Get-Content, rg and project Python; no unrecorded inference is implied.",
+  "recorded_utc": "2026-10-13T20:50:59.447559+00:00",
+  "timestamp_limit": "Recorded engine times are actual; unavailable historical error/review times are null, not inferred.",
+  "version": "p1b_confirmed_commands_v1"
+}
