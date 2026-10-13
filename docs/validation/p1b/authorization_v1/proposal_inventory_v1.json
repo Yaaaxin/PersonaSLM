@@ -1,0 +1,20 @@
+{
+  "cases": 24,
+  "created_utc": "2026-10-13T16:55:49.465192+00:00",
+  "dataset_sha256": "fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6",
+  "human_decisions": 0,
+  "inference_authorized": false,
+  "manifest_sha256": "d73ceb403148b01f7b2c83a51a20165fdd625658e50c04a7ce0caa118ab22869",
+  "proposal_sha256": "652a21aa67a4ac04f357f95653cc7c449a2982719d2c375253fd1769158bd718",
+  "proposed_case_decisions": {
+    "ACCEPT": 24
+  },
+  "proposed_judgments": {
+    "PASS": 312
+  },
+  "provenance": "AI-assisted proposal with source-specific explanations; no human approval",
+  "source_fields_preserved": 984,
+  "source_master": "docs/validation/p1b/final_v1/stimulus_review_v2.csv",
+  "source_master_sha256": "810ca7e751895aaf3f50b308f1af79aa3c2c67fb9ae6032e93daa0e1cd8658f9",
+  "version": "p1b_stimulus_AI_proposal_v1"
+}

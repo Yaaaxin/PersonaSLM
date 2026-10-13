@@ -873,3 +873,120 @@ Deliverables: [final stimulus audit](P1b_final_stimulus_validation.md), [researc
 Delivery-check correction: the captured command `.\.venv\Scripts\python.exe results/p1b_readiness/v1/check_delivery.py` (delivery_check_01.json, actual2026-10-13T15:27:53.422857+00:00 to15:28:04.641673+00:00) exited1 after successful historical/prompt reconstruction. Its new path scanner falsely interpreted a prompt section ending in a capital letter plus colon and a literal newline escape as a drive path. This was a QC regex false positive, not a detected private-data leak or a scientific-data failure. Preserved the failed script using `Copy-Item -LiteralPath results/p1b_readiness/v1/check_delivery.py -Destination results/p1b_readiness/v1/check_delivery_failed_01.py`; required a standalone drive-letter boundary in the corrected scanner. Original raw stderr remains in the local capture; public summaries redact the repository's absolute root. No model, dataset, policy or application/test source was changed by this correction. The complete test suite result remains556passed; final delivery QC is rerun separately and its actual result is recorded below.
 
 Final delivery verification recorded 2026-10-13T15:30:13.798219+00:00: executed `.\.venv\Scripts\python.exe results/p1b_readiness/v1/check_delivery.py` under tools/p0_capture.py with capture delivery_check_02.json. All checks passed before writing the immutable delivery record: 192 prompts/source snapshots reconstructed;330 historical tracked files unchanged with only .gitignore/log exceptions; 3192 original run files unchanged; JSON/CSV valid;24+24 review masters blank; all new local report links resolve; append-only historical log verified; vendor-neutral wording and no new machine-specific absolute paths. The process exit and complete stdout/stderr are retained by the enclosing command capture. No code change occurred after the556-test full suite; this follow-up validates delivery metadata.
+
+
+## P1b final scientific review: unchanged stimuli and native tokenizer verification
+
+Recorded UTC: 2026-10-13T16:21:04.920278+00:00. Research phase: P1b development stimulus review and tokenizer preflight only. Maintainer: Yaxin ZHENG. Formal Protocol v1.1 and the proposed v1.2 r1 document are unchanged. Starting Git HEAD: `64f5f1a120289df9f4b866687c65bb4e7be4e4af`; the three researcher-supplied AI-analysis files were initially untracked. The present changes remain uncommitted.
+
+### Objective, source inspection and preservation
+
+Resolve the supplied AI audit's concrete stimulus concerns without generating answers or expanding the bank. The requested report was discovered at `docs/validation/p1b/PersonaSLM_P1b_independent_stimulus_audit_v1.md`; the shorter requested path was absent. This was a filename-location issue, not a missing scientific source. The report, both supplied CSVs, actual dataset, frozen prompts, prior readiness records and repository instructions were read. Read-only inspection used `Get-Content`, `rg`, `git status --short` and `git rev-parse HEAD`. These shell inspections were not individually instrumented with command timestamps; none are fabricated. Reproducible programmatic inspection and all test/tokenizer commands below have full capture records.
+
+The 24-row, 59-column augmented review preserves all 984 original fields from the 24-row, 41-column master; the separate AI audit has 27 columns. All human judgments remain blank: 0/24 reviewed. Supplied AI recommendations remain AI analysis awaiting researcher confirmation, with no blind-review claim. Original source bytes and the 24 original review records are unchanged.
+
+### Scientific resolution
+
+All 192 final prompts expose `Evaluation reference: 2027-04-15.` before trusted evidence, including the 13 cases with undated questions. H_L3 has explicit User / Assistant / User / User / Assistant-stub boundaries; the adjacent User messages are a labelled focus and follow-up, not a missing role delimiter. The offline source enumeration has one possible date-appropriate answer without focus for H_L1, one for H_L2 and two for H_L3. This is a source-information diagnostic, not a model ablation or proof of actual context use.
+
+Retain legitimate easy baselines. A has answer-position cues, D has unique terminal targets that permit shortcuts, F has repeated role mappings, H_L1/H_L2 lack competing referents, and B varies requested answer slots. No concrete evidence/key corruption requiring revision was found. Dataset v2 remains byte-identical: SHA-256 `fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6`. No new dataset version or harder item search was introduced. S/F/H remain operational intervention packages with family, speaker, length and relevance confounds.
+
+### Implementation and actual tokenizer observations
+
+Added `src/personaslm/p1b_review_resolution.py`, `tools/p1b_final_review.py` and 30 regression tests in `tests/test_p1b_review_resolution.py`. The tool exposes only inspect/tokenize/verify actions. Its HTTP client allows health/props/tokenize routes and refuses generation before HTTP. The exact frozen P1b strings are submitted directly; the legacy transport configuration's template field does not render or replace them.
+
+Actual pinned artifacts were checked before and after the tokenizer run: model SHA-256 `ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994`; backend executable SHA-256 `71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846`; native `/props` build `b11573-0f701c882`. The owned server log records 4 generation threads, 4 batch threads, context 4096 and 0/25 layers offloaded to GPU. The normal empty startup warmup is preserved in the log; it is not a calibration response. No generation endpoint was called.
+
+Native `/tokenize` returned all 192 ID arrays using `add_special=true`, `parse_special=false`, `with_pieces=false`: input range 150–434, maximum input plus frozen output budget 434+96=530, minimum context headroom 3566. No prompt was shortened. There were 657 journal events, zero completion requests and zero generated answers. Context fit does not establish 96-token semantic completeness or remove the earlier ceiling effect.
+
+Full raw run: `results/p1b_final_review/v1/runs/20261013T160202-8acbf8a975a04528bf59cd63852cd236`. Local baseline inventories 356 source/supplied files and 3192 historical Wave 1 run files. Offline reconstruction reconciles every native tokenization with the saved prompts/IDs and verifies unchanged order/applicability. All historical files remain unchanged except this append to the development log.
+
+### Executed validation commands
+
+Every listed command ran under `tools/p0_capture.py --output results/p1b_final_review/v1/engineering/<capture> -- <command>`. Full stdout/stderr, exit codes and durations are in those local JSON records; these are actual executions, not proposed commands.
+
+| Capture | Exact child command | Started UTC | Finished UTC | Exit |
+|---|---|---|---|---:|
+| `full_tests_01.json` | `.\.venv\Scripts\python.exe -m pytest -q` | 2026-10-13T16:06:09.967953+00:00 | 2026-10-13T16:06:22.957135+00:00 | 0 |
+| `inspect_01.json` | `.\.venv\Scripts\python.exe tools/p1b_final_review.py inspect` | 2026-10-13T16:01:46.979872+00:00 | 2026-10-13T16:01:47.711296+00:00 | 0 |
+| `portable_export_01.json` | `.\.venv\Scripts\python.exe results/p1b_final_review/v1/portable_export.py` | 2026-10-13T16:05:47.975659+00:00 | 2026-10-13T16:05:48.133502+00:00 | 0 |
+| `targeted_tests_01.json` | `.\.venv\Scripts\python.exe -m pytest -q tests/test_p1b_review_resolution.py` | 2026-10-13T16:01:31.377251+00:00 | 2026-10-13T16:01:32.252858+00:00 | 0 |
+| `tokenizer_01.json` | `.\.venv\Scripts\python.exe tools/p1b_final_review.py tokenize` | 2026-10-13T16:01:59.808220+00:00 | 2026-10-13T16:02:41.825323+00:00 | 0 |
+| `verify_01.json` | `.\.venv\Scripts\python.exe tools/p1b_final_review.py verify` | 2026-10-13T16:05:48.710417+00:00 | 2026-10-13T16:05:50.533078+00:00 | 0 |
+
+Targeted tests: 30 passed in 0.33 s. Complete suite: **586 passed in 12.38 s**, zero failures, no warnings reported, exit 0; captured process duration 12.989176800008863 s. No successful generation experiment was repeated. Unit-test mock token arrays are separate from the actual native tokenizer evidence.
+
+### Errors, corrections and provenance limitations
+
+The first new public tokenization export retained machine-specific absolute artifact paths from the journal object. A separate metadata-only export preserved both original files under `results/p1b_final_review/v1/original_exports`, normalized paths in the new public representation and documented original/new hashes in `metadata_export_v1.json`. No prompt, token, policy, journal or model measurement changed. Forty-four exact source byte copies were verified against the original run hashes; the later byte-copy capture is disclosed because embedded UTF-8 text can normalize line endings. No tokenization was rerun for this correction.
+
+A documentation patch initially failed because its historical development-log anchor used an incorrect timestamp literal. The patch verification error was inspected; no historical log text changed. The exact failure time was not captured. This entry is appended using the actual file contents instead of replacing a historical line. New report prose spacing was corrected by `results/p1b_final_review/v1/finish_documents.py`; original supplied materials were not edited. This helper was executed under the enclosing command capture, whose finish/exit are retained locally after this append completes.
+
+### Deliverables, acceptance and remaining work
+
+New English reports: `docs/P1b_final_scientific_review.md` and `docs/P1b_final_decision_packet_v1.md`. Versioned evidence, prompt/token manifest, unchanged review-master copy, per-case resolutions and the two-question blank decision CSV are under `docs/validation/p1b/final_review_v1/`. Their final delivery integrity inventory is recorded separately after this entry is written.
+
+Recommendation: **NO-GO for launch now; technical tokenizer preflight PASS; human stimulus review OPEN**. Only two scientific confirmations remain: complete the existing per-case validity review and accept the qualified role of easy/shortcut items, H_L3 follow-up format and fixed-budget completeness limitations. No human approval is inferred. The existing requirement for an authorized, reviewed manifest-consuming generation path with manual semantic routing remains operationally pending; this tokenization tool cannot generate answers. The 24 earlier neutral controls remain OPEN and are excluded from the 192 factorial requests, so their review does not block factorial-only calibration. Execution requires separate researcher authorization. No P0/Wave 1 history, protocol, old scoring or original annotations were changed; no commit or push was executed.
+
+Final review delivery checks recorded 2026-10-13T16:22:29.979604+00:00: executed `.\.venv\Scripts\python.exe results/p1b_final_review/v1/check_delivery.py` under `tools/p0_capture.py`, capture `results/p1b_final_review/v1/engineering/delivery_check_01.json`. Offline native-tokenizer reconstruction, all 192 prompt/token records, 44 byte source snapshots, original exports, 24 blank human review records, two blank decision questions, JSON/CSV schemas and local Markdown links passed. Historical log prefix and all 3192 baseline Wave 1 run files are unchanged; only this log is appended among the 356 original source/supplied files. `git diff --check` passed. No source changes followed the 586-test suite and no server was started by delivery validation. The immutable public integrity record is `docs/validation/p1b/final_review_v1/delivery_verification_v1.json`; the enclosing capture retains final process exit and output.
+
+
+## P1b final review proposal and authorization-ready execution adapter
+
+Recorded UTC: 2026-10-13T17:06:51.700691+00:00. Phase: P1b development calibration preparation only. Maintainer: Yaxin ZHENG. Starting HEAD: 64f5f1a120289df9f4b866687c65bb4e7be4e4af; existing uncommitted review work is preserved. Initial state: results/p1b_authorization/v1/baseline.json. Formal Protocol v1.1 and proposed v1.2 r1 are unchanged.
+
+### Source inspection, scientific judgments and preservation
+
+Read the current P1b scientific review, decision packet, stimulus validation, readiness, review guide, algorithmic assessment, original 41-column master, two-question sheet, supplied AI audit/support CSVs, all 24 actual cases, native-tokenizer evidence and existing inference/journal/policy code. Read-only inspection used Get-Content, rg, git status --short and git rev-parse HEAD. Individual inspection timestamps were not instrumented and are not invented. An executed inline Python baseline script recorded 371 repository source/supplied files and 3909 previous local Wave 1/review/tokenizer files, plus an exact copy of this log before appending. Its actual creation time is in baseline.json.
+
+The new 24-row proposal contains 312 AI-proposed PASS, 0 FAIL and 0 UNCERTAIN judgments, each with a case-specific explanation and source quotations; 984 quotation occurrences match their stated original fields. Case-level recommendations are 24 ACCEPT for bounded development calibration only. This is source-based AI analysis, not human approval or a mechanical conversion of an engineering status. All 984 original fields remain identical. All researcher confirmations are blank and no confirmed annotation register exists.
+
+No dataset, case, question, template, reference, applicability or experimental manifest was changed. Preserve simple A/F_L1/H_L1/H_L2 baselines; D terminal-value and F mapping shortcuts; H_L3 consecutive User turns; B answer-slot/96-token limitations; speaker/style nesting and family/history relevance confounds. Designed difficulty and P1b discrimination remain untested. Original Q1/Q2 and supplied AI assessments are unchanged; a new sheet links the proposals and separates execution authorization.
+
+### Implementation and execution policy
+
+Added src/personaslm/p1b_review_proposal.py, tools/p1b_review_proposal.py, src/personaslm/p1b_calibration.py, tools/p1b_calibration.py and tests/test_p1b_authorization.py. The new importer expands only explicit per-case confirmation of the 13 proposed judgments into a separate 41-column official copy, preserving the submitted source and actual provenance. No import or human approval was executed.
+
+The adapter consumes the original manifest, validates exact hashes/cells/order, requires separately bound review and execution authorization, and uses the existing owned CPU server, native client, token checks and immutable journal. Future execution rechecks all 192 live token arrays before any completion. Raw HTTP bytes precede JSON validation, raw replies precede parsing, and native reasons/counts/IDs/latencies/errors are retained. Segments have explicit indices, linked predecessor inventories and an exclusive writer lock. Uncertain sends do not silently retry; maximum total attempts remains 192. Offline raw recovery requires no new generation. All failed/unattempted planned rows remain in denominators.
+
+The frozen response/evaluation policies remain unchanged. Manual task-specific semantics replace no historical score and invoke neither a city-only checker nor the symbolic oracle on free text. Workflow PENDING is not a fifth factual category. Factual/relevance/coherence each have 192 eligible outputs; temporal consistency has 88 eligible and 104 N/A. Incomplete or CROSS_TURN does not imply Incorrect, and failed requests have no fabricated model structural label.
+
+### Actual non-generation verification
+
+Dataset SHA-256: fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6.
+Manifest SHA-256: d73ceb403148b01f7b2c83a51a20165fdd625658e50c04a7ce0caa118ab22869.
+Model SHA-256: ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994.
+Backend executable SHA-256: 71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846.
+Current binaries were rehashed; saved native build is b11573-0f701c882. Configuration stays CPU 4/4 threads, context 4096, output 96, order seed 714001, decoding seed 42, temperature 0, top_p 1, cache_prompt false, stop [].
+
+Offline preflight reconciled 192 previously observed native GGUF token arrays against unchanged prompts; range 150–434 and context fit PASS. It launched no server and made no new tokenizer or generation call. This is replayed real-tokenizer evidence plus current file hashes, not a new loaded-process observation. The separate pre-execution audit reports 192 planned, 0 attempted and 192 UNATTEMPTED records. No unit-double response is published as an experiment.
+
+### Exact executed commands and tests
+
+Every listed child command ran under tools/p0_capture.py --output results/p1b_authorization/v1/engineering/<capture> -- <child command>. Full output, timestamps, durations and exit codes remain in those local records.
+
+| Capture | Child command | Started UTC | Finished UTC | Exit |
+|---|---|---|---|---:|
+| empty_wave_audit_01.json | .\.venv\Scripts\python.exe tools/p1b_calibration.py audit --output results/p1b_authorization/v1/pre_execution_audit.json | 2026-10-13T17:02:10.782115+00:00 | 2026-10-13T17:02:11.182967+00:00 | 0 |
+| full_tests_01.json | .\.venv\Scripts\python.exe -m pytest -q | 2026-10-13T16:55:58.229332+00:00 | 2026-10-13T16:56:34.731022+00:00 | 0 |
+| preflight_01.json | .\.venv\Scripts\python.exe tools/p1b_calibration.py preflight --output docs/validation/p1b/authorization_v1/execution_preflight_v1 | 2026-10-13T16:57:00.527668+00:00 | 2026-10-13T16:57:03.802437+00:00 | 0 |
+| proposal_build_01.json | .\.venv\Scripts\python.exe tools/p1b_review_proposal.py build | 2026-10-13T16:55:49.203187+00:00 | 2026-10-13T16:55:49.508732+00:00 | 0 |
+| targeted_tests_01.json | .\.venv\Scripts\python.exe -m pytest -q tests/test_p1b_authorization.py | 2026-10-13T16:54:25.271359+00:00 | 2026-10-13T16:54:46.332465+00:00 | 0 |
+
+Initial targeted tests: 44 passed in 20.55 s. Following the segment-index correction and its regression test, the full suite passed **631 tests in 35.79 s**, zero failures, no warnings reported, exit 0; process duration 36.50168549999944 s. There are 45 new tests. No source change followed the full suite. Interruption and ordered execution tests use clearly labelled local doubles, not real inference.
+
+### Errors, corrections and limits
+
+An initial add-file patch for tests was rejected because a line lacked its patch marker. No file was created and no test command ran from that failed call. The patch was corrected; no test failure or error timestamp is invented. Code inspection then identified that second-resolution timestamp/UUID names cannot reliably order segments: explicit consecutive segment indices and an adversarial reverse-filename test corrected this before the final suite/preflight. No historical artifact or scientific threshold changed.
+
+An initial orchestration script intended to create this delivery checker failed JavaScript parsing because embedded Markdown backticks ended its source string. No underlying tool or filesystem action ran. The checker was recreated without that quoting ambiguity; its exact error time was not separately captured. Neither preparation error is a model-execution failure.
+
+No new algorithm is justified by unobserved P1b outputs. Reports retain the five-part algorithmic assessment and link existing direct-overlap literature; these comparisons were consulted, not newly externally verified. No novelty, mechanism, measured discrimination or publication success is claimed.
+
+### Delivery and remaining decisions
+
+New reports: docs/P1b_final_review_confirmation.md and docs/P1b_calibration_execution_readiness_v1.md. New proposal: docs/validation/p1b/final_review_v1/stimulus_review_AI_proposed_v1.csv. New decision/provenance/preflight/false-authorization records: docs/validation/p1b/authorization_v1/. Exact source byte copies in results/p1b_authorization/v1/source_snapshot were captured after preflight and verified against its pins; timing is not misrepresented.
+
+**TECHNICAL READINESS = PASS; SCIENTIFIC REVIEW = PENDING; INFERENCE AUTHORIZATION = PENDING.** The only remaining decisions are actual researcher Q1/Q2 confirmation and separate execution authorization. No new experimental objectives, dataset expansion or algorithmic requirements are added. Existing neutral review remains OPEN and outside the 192 factorial requests.
+
+Delivery checks ran through .\.venv\Scripts\python.exe results/p1b_authorization/v1/check_delivery.py under tools/p0_capture.py, capture delivery_check_01.json. Before this append, baseline files, quotation provenance, blank human fields, schemas, source hashes and document links passed; git diff --check returned 0. The new immutable delivery_verification_v1.json binds final files and full completed command captures. Its own hash and the unfinished enclosing capture are excluded to avoid circular hashes. The enclosing capture records final exit/output. Original log bytes and all previous files remain preserved; only this append changes an existing file. No inference, Wave 2, later phase, training, Commit or Push was executed.

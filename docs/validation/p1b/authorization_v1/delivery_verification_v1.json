@@ -1,0 +1,274 @@
+{
+  "baseline_log_sha256": "f5f743e07cdb42fac9dd2d7a859f2a253579aca30fa69daa5f5fe93498df9278",
+  "baseline_repository_files_checked": 371,
+  "dataset_sha256": "fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6",
+  "delivery_script_sha256": "0c5f5588fbf55a9bb28653aeb8771963cc716115e915b1f65db3c914f0e00883",
+  "engineering_command_captures": {
+    "empty_wave_audit_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_calibration.py",
+        "audit",
+        "--output",
+        "results/p1b_authorization/v1/pre_execution_audit.json"
+      ],
+      "duration_seconds": 0.40084819999174215,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T17:02:11.182967+00:00",
+      "started_utc": "2026-10-13T17:02:10.782115+00:00",
+      "stderr": "",
+      "stdout": "{\"planned\": 192, \"attempted\": 0, \"pending\": 192, \"new_generation_requests\": 0}\n"
+    },
+    "full_tests_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "duration_seconds": 36.50168549999944,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T16:56:34.731022+00:00",
+      "started_utc": "2026-10-13T16:55:58.229332+00:00",
+      "stderr": "",
+      "stdout": "........................................................................ [ 11%]\n........................................................................ [ 22%]\n........................................................................ [ 34%]\n........................................................................ [ 45%]\n........................................................................ [ 57%]\n........................................................................ [ 68%]\n........................................................................ [ 79%]\n........................................................................ [ 91%]\n.......................................................                  [100%]\n631 passed in 35.79s\n"
+    },
+    "preflight_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_calibration.py",
+        "preflight",
+        "--output",
+        "docs/validation/p1b/authorization_v1/execution_preflight_v1"
+      ],
+      "duration_seconds": 3.274764600006165,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T16:57:03.802437+00:00",
+      "started_utc": "2026-10-13T16:57:00.527668+00:00",
+      "stderr": "",
+      "stdout": "{\"cases\": 24, \"requests\": 192, \"factorial_inputs\": \"PASS\", \"order_seed\": 714001, \"factual_eligible\": 192, \"temporal_eligible\": 88, \"version\": \"p1b_calibration_adapter_v1\", \"technical_readiness\": \"PASS\", \"scientific_review\": \"PENDING\", \"inference_authorization\": \"PENDING\", \"manifest_sha256\": \"d73ceb403148b01f7b2c83a51a20165fdd625658e50c04a7ce0caa118ab22869\", \"dataset_sha256\": \"fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6\", \"model_sha256\": \"ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994\", \"backend_sha256\": \"71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846\", \"backend_build\": \"b11573-0f701c882\", \"native_tokenizations_reconciled\": 192, \"token_range\": [150, 434], \"evidence_scope\": \"Current file hashes plus replay of prior real native tokenizations; no new live server observation\", \"new_server_launches\": 0, \"new_generation_requests\": 0, \"new_tokenizer_requests\": 0, \"live_pre_generation_gate\": \"Recheck all 192 prompt IDs on the owned pinned backend before any completion\", \"routing_sha256\": \"cada764644efc87ce744905b6fcbcec2ad70b748bba3dbcdebc8fd4afff93e3d\", \"created_utc\": \"2026-10-13T16:57:03.622620+00:00\", \"source_hashes\": {\"src/personaslm/__init__.py\": \"50c9f2b9e8c5d2ac8956d2a1511eafb3189de2ec435c49947470efa23c59f63e\", \"src/personaslm/__main__.py\": \"cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3\", \"src/personaslm/boundary_review.py\": \"b2f1d39fa3bce223a7d28e03ff2aff804292563699e3e3c41d5cf7b560abc13a\", \"src/personaslm/cli.py\": \"ae7e206bb0985e127833600b4ab480cfadfffd0d808d87db810961ec5c81bf3b\", \"src/personaslm/conditioning.py\": \"7b0e6a2230b241f86fec024d6768a9a9c08662945b8cfd668f5445dd5f4d24e6\", \"src/personaslm/configuration.py\": \"8dc3c11eebeae67698d9afc64c61b1252edf5ee7219f59a27ff9e1d9179253f3\", \"src/personaslm/control_candidates.py\": \"6f8f7c705ea4df14bbda1e443b9f5a400dd9a46bc3025a3036c0ff02c5174417\", \"src/personaslm/control_candidates_v2.py\": \"0a8ae1643ac1c02a6cbf33fefc6ce3cdc63b14d66b87361824d97cdf999acce0\", \"src/personaslm/control_closure.py\": \"3642fb2ff7734ce2a7dae5c4b862b1fe09dc23301b9ade38b1ff6b8cde7c0fd2\", \"src/personaslm/control_decisions.py\": \"62672bdc63b115913362479a1683dcd56f0cc10b5899269d96b7843234f402bd\", \"src/personaslm/control_final_review.py\": \"21624b4cf08a0bf9a3662d5a6849dab1a2a18dbfbcc4bad6efecff31f144ad7e\", \"src/personaslm/control_resolution_review.py\": \"800dc60c97358a52d42d7c8e57a41d9736c17af87eb0d9e4e3ce07f10a0698e6\", \"src/personaslm/control_review_v2.py\": \"151d1996c0c160c1473cd0c5c9bc4e9f0903e5ea977be8771af5e6a676e505ac\", \"src/personaslm/diagnostics.py\": \"6609235e7a42894bde17a564ce828078682cecedf60a70e47daf3ab3ce8cee0e\", \"src/personaslm/evaluation.py\": \"dad279efdcad594c1328ff09b7e1752014afecfa6259cf54c52ecda678352f95\", \"src/personaslm/evaluation_policy.py\": \"dfe76a761c65966aeaf6a93bb4cd5ce186c704b2289e83b1184dac63aea76556\", \"src/personaslm/evaluation_v2.py\": \"d9e09a7a9095c7f2d58989fbb6d03bf9545c58cb538eecf69e38bae1c5be38c7\", \"src/personaslm/evaluation_v3.py\": \"83c63821303798a373da6491e39cc0aca4b3f7d35fa50491e38ce06b9ee36965\", \"src/personaslm/fixtures.py\": \"46e938f78cfbc601ab4bdf617421a87fa8a4176df5751f6ae6f359ab68c53e8e\", \"src/personaslm/human_factorial.py\": \"18c9fa31fbc04e63cfb7de507383f6ebd27d567af48870cb8ce0a6e534d6907f\", \"src/personaslm/inference.py\": \"5c9032a466e26393b69e215005466abe4ca11c6079742fed73610b3e7cfbedda\", \"src/personaslm/journal.py\": \"c2f2093b3f4728814089667d95e9c2bca685b9d3deb9151913fc891da49df07f\", \"src/personaslm/matching.py\": \"37963e2a4ade64889b521437b99d1cd7e9aa867ebfcb832429eae96377ee9150\", \"src/personaslm/measurement_audit.py\": \"f1e7449f9bc75db8b31982a7bca61aa105c0428bf6f571297c46301b3c5b98dc\", \"src/personaslm/neutral_review.py\": \"d9757d9d60c88c90112bcf977e0643351356f08add64561aa575dcbecfeed925\", \"src/personaslm/observations.py\": \"c276fe85b329e3d099e66c67f2c7afdd0b6f77d39ec9f134da43140ff4ddab4b\", \"src/personaslm/p1.py\": \"77a7f12bcbf4a862e5e5cb94ed57605652626fad2a8b00cfe0cd83e1c904196b\", \"src/personaslm/p1b.py\": \"3d2e036c90cf137d107116f59ed6f72ffa9fe8cc27b884ff10338d374b209ff1\", \"src/personaslm/p1b_calibration.py\": \"cc8f12cb8975c5bc18e7ce9486411da1815b9cc0734e2f06620ced52265b3825\", \"src/personaslm/p1b_readiness.py\": \"e167e1b83925697e875ad81d9283628e9fc2964caf032ba919eff152dd6e372d\", \"src/personaslm/p1b_review_proposal.py\": \"b1de9a9b1d766ce515850aed14c7ce53754a3ddd19a37dc66ec4250b3d1aee30\", \"src/personaslm/p1b_review_resolution.py\": \"20cebddc604e90a2d5adc4aaf0791c47ea1469fadf6cf16c8ed8cef2423072da\", \"src/personaslm/provenance.py\": \"7f64e9d2f40c3042d312896006511cfd7e277a7b2131d57644bcb5804503bcd1\", \"src/personaslm/reproducibility.py\": \"0d6cc5ad8dcc9e764e6522bb3fce581b64599d22be3314e54e38f7444257a64c\", \"src/personaslm/researcher_review.py\": \"885139f6687d516edad9d74fb1293247aeb22dc3171015b7565c39a7da5abbce\", \"src/personaslm/response_boundary.py\": \"a009274f49217cac7f5f725840f664566a3bdd970351f1137a37ce8b36b3bde3\", \"src/personaslm/response_status.py\": \"7d0cde00dcef5f75f82b9b95b06ba0b7e6a3b9a3f8209aa834be5c60e32ee0cd\", \"src/personaslm/run_audit.py\": \"31063924a782e1c48fbf3cfa70d87df1e6e8cc5aac9f3b745a08b07f529d2bec\", \"src/personaslm/runner.py\": \"e4e1d9314a6b57ae13c271736fcd529e4ec9181aa2647d725a260df9011dfe77\", \"src/personaslm/schemas.py\": \"fc2936e5f41c6342561156a18ee4a643395c538c01d24e704f80c3a893585af3\", \"src/personaslm/scientific_closure.py\": \"c6b18966aec9d8fbaa32d2fdf3961553a549138c41c8d43dc5eea52a804a8e09\", \"src/personaslm/server.py\": \"5df06c80c6095e76726af9ad97d48f63086a8c0748abb06625bce504ad605af6\", \"tools/p1b_calibration.py\": \"b1220858167d01744dd2bd174a9228f0b104f57a0d77d74100a936c985cf7b07\", \"tools/p1b_review_proposal.py\": \"c3ea79f167598152c17289c9714c6d1d10512bbe3a1c2c5c480ddd09e7cb0fbe\", \"docs/research_protocol_v1.1.md\": \"d2bacdc1beb8de578615134e159ad2335e298886c6506507264b22a52cffb21e\", \"configs/p1_wave1_v1.json\": \"2da0f9916699c2aa405db4cea7d56f043f23e3ebed7e5955a6cd519b67f6978e\", \"docs/validation/p1b/final_v1/evaluation_routing_v1.json\": \"cada764644efc87ce744905b6fcbcec2ad70b748bba3dbcdebc8fd4afff93e3d\"}, \"git_sha\": \"64f5f1a120289df9f4b866687c65bb4e7be4e4af\", \"git_status\": \" M docs/research_development_log.md\\n?? docs/P1b_final_decision_packet_v1.md\\n?? docs/P1b_final_scientific_review.md\\n?? docs/validation/p1b/PersonaSLM_P1b_independent_stimulus_audit_v1.md\\n?? docs/validation/p1b/authorization_v1/\\n?? docs/validation/p1b/final_review_v1/\\n?? docs/validation/p1b/review_support/\\n?? src/personaslm/p1b_calibration.py\\n?? src/personaslm/p1b_review_proposal.py\\n?? src/personaslm/p1b_review_resolution.py\\n?? tests/test_p1b_authorization.py\\n?? tests/test_p1b_review_resolution.py\\n?? tools/p1b_calibration.py\\n?? tools/p1b_final_review.py\\n?? tools/p1b_review_proposal.py\\n\", \"git_dirty\": true}\n"
+    },
+    "proposal_build_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_review_proposal.py",
+        "build"
+      ],
+      "duration_seconds": 0.3055298999825027,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T16:55:49.508732+00:00",
+      "started_utc": "2026-10-13T16:55:49.203187+00:00",
+      "stderr": "",
+      "stdout": "{\"version\": \"p1b_stimulus_AI_proposal_v1\", \"created_utc\": \"2026-10-13T16:55:49.465192+00:00\", \"source_master\": \"docs/validation/p1b/final_v1/stimulus_review_v2.csv\", \"source_master_sha256\": \"810ca7e751895aaf3f50b308f1af79aa3c2c67fb9ae6032e93daa0e1cd8658f9\", \"dataset_sha256\": \"fb2954ea90950bd9286617e58cff57435f1b6be7b3f775b9d84c9d67ae2e2cf6\", \"manifest_sha256\": \"d73ceb403148b01f7b2c83a51a20165fdd625658e50c04a7ce0caa118ab22869\", \"proposal_sha256\": \"652a21aa67a4ac04f357f95653cc7c449a2982719d2c375253fd1769158bd718\", \"cases\": 24, \"proposed_judgments\": {\"PASS\": 312}, \"proposed_case_decisions\": {\"ACCEPT\": 24}, \"human_decisions\": 0, \"source_fields_preserved\": 984, \"provenance\": \"AI-assisted proposal with source-specific explanations; no human approval\", \"inference_authorized\": false}\n"
+    },
+    "targeted_tests_01.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_p1b_authorization.py"
+      ],
+      "duration_seconds": 21.06111249999958,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T16:54:46.332465+00:00",
+      "started_utc": "2026-10-13T16:54:25.271359+00:00",
+      "stderr": "",
+      "stdout": "............................................                             [100%]\n44 passed in 20.55s\n"
+    }
+  },
+  "files": {
+    "docs/P1b_calibration_execution_readiness_v1.md": "6ce3935d5d5a64531ce0b795b4aa746afc9508e16f4ce5c8921b9caea50c4345",
+    "docs/P1b_final_review_confirmation.md": "e38ceba5261c51a1093c6cd0fb67853e91dac78b706fc78b74e4ac7ee27047ed",
+    "docs/research_development_log.md": "96c7a412561b81a5de40ab64715bac33d136a575a69f8ad19f04738eb551f165",
+    "docs/validation/p1b/authorization_v1/execution_preflight_v1/authorization_PENDING.json": "86d478f6114055918ffcbc54ecdcdcefb2ebb12c94324b618d938fbf98205f7e",
+    "docs/validation/p1b/authorization_v1/execution_preflight_v1/preflight.json": "268f81e3e3815c3cec1ce5dd1f14a40175750758007bdcb0b89d9df28703da5b",
+    "docs/validation/p1b/authorization_v1/proposal_inventory_v1.json": "512cc6856f06d9e861bfe29d982af2d8913febe21bbf8c264050467d322360e7",
+    "docs/validation/p1b/authorization_v1/researcher_decisions_v1.csv": "2567ef2b9b9f86e0e9a2219e345a1eddc5653e015e0a3deacef90f37ef8259cb",
+    "docs/validation/p1b/final_review_v1/stimulus_review_AI_proposed_v1.csv": "652a21aa67a4ac04f357f95653cc7c449a2982719d2c375253fd1769158bd718",
+    "src/personaslm/p1b_calibration.py": "cc8f12cb8975c5bc18e7ce9486411da1815b9cc0734e2f06620ced52265b3825",
+    "src/personaslm/p1b_review_proposal.py": "b1de9a9b1d766ce515850aed14c7ce53754a3ddd19a37dc66ec4250b3d1aee30",
+    "tests/test_p1b_authorization.py": "4c9ad2cfbf2f9213b17b4fd6c5207bbcc1864f3310f1d2fba3c96931493ee3e3",
+    "tools/p1b_calibration.py": "b1220858167d01744dd2bd174a9228f0b104f57a0d77d74100a936c985cf7b07",
+    "tools/p1b_review_proposal.py": "c3ea79f167598152c17289c9714c6d1d10512bbe3a1c2c5c480ddd09e7cb0fbe"
+  },
+  "git_diff_check": {
+    "exit_code": 0,
+    "stderr": "warning: in the working copy of 'docs/research_development_log.md', CRLF will be replaced by LF the next time Git touches it\n",
+    "stdout": ""
+  },
+  "git_dirty": true,
+  "git_sha": "64f5f1a120289df9f4b866687c65bb4e7be4e4af",
+  "git_status": " M docs/research_development_log.md\n?? docs/P1b_calibration_execution_readiness_v1.md\n?? docs/P1b_final_decision_packet_v1.md\n?? docs/P1b_final_review_confirmation.md\n?? docs/P1b_final_scientific_review.md\n?? docs/validation/p1b/PersonaSLM_P1b_independent_stimulus_audit_v1.md\n?? docs/validation/p1b/authorization_v1/\n?? docs/validation/p1b/final_review_v1/\n?? docs/validation/p1b/review_support/\n?? src/personaslm/p1b_calibration.py\n?? src/personaslm/p1b_review_proposal.py\n?? src/personaslm/p1b_review_resolution.py\n?? tests/test_p1b_authorization.py\n?? tests/test_p1b_review_resolution.py\n?? tools/p1b_calibration.py\n?? tools/p1b_final_review.py\n?? tools/p1b_review_proposal.py\n",
+  "human_confirmations": 0,
+  "inference_authorization": "PENDING",
+  "launch_decision": "NO_GO_PENDING_RESEARCHER_CONFIRMATION_AND_EXECUTION_AUTHORIZATION",
+  "local_document_links": [
+    {
+      "document": "docs/P1b_final_review_confirmation.md",
+      "target": "docs/validation/p1b/final_review_v1/stimulus_review_AI_proposed_v1.csv"
+    },
+    {
+      "document": "docs/P1b_final_review_confirmation.md",
+      "target": "docs/validation/p1b/authorization_v1/proposal_inventory_v1.json"
+    },
+    {
+      "document": "docs/P1b_final_review_confirmation.md",
+      "target": "docs/P1b_researcher_review_guide.md"
+    },
+    {
+      "document": "docs/P1b_final_review_confirmation.md",
+      "target": "docs/P1b_final_scientific_review.md"
+    },
+    {
+      "document": "docs/P1b_final_review_confirmation.md",
+      "target": "docs/validation/p1b/final_review_v1/decisions_pending_v1.csv"
+    },
+    {
+      "document": "docs/P1b_final_review_confirmation.md",
+      "target": "docs/validation/p1b/authorization_v1/researcher_decisions_v1.csv"
+    },
+    {
+      "document": "docs/P1b_final_review_confirmation.md",
+      "target": "docs/related_work_novelty_matrix.md"
+    },
+    {
+      "document": "docs/P1b_final_review_confirmation.md",
+      "target": "docs/P1b_algorithmic_opportunity_assessment.md"
+    },
+    {
+      "document": "docs/P1b_final_review_confirmation.md",
+      "target": "docs/P1b_calibration_execution_readiness_v1.md"
+    },
+    {
+      "document": "docs/P1b_calibration_execution_readiness_v1.md",
+      "target": "docs/validation/p1b/authorization_v1/execution_preflight_v1/preflight.json"
+    },
+    {
+      "document": "docs/P1b_calibration_execution_readiness_v1.md",
+      "target": "src/personaslm/p1b_calibration.py"
+    },
+    {
+      "document": "docs/P1b_calibration_execution_readiness_v1.md",
+      "target": "tools/p1b_calibration.py"
+    },
+    {
+      "document": "docs/P1b_calibration_execution_readiness_v1.md",
+      "target": "docs/validation/p1b/final_v1/evaluation_routing_v1.json"
+    },
+    {
+      "document": "docs/P1b_calibration_execution_readiness_v1.md",
+      "target": "docs/validation/p1b/final_v1/evaluation_applicability_v1.csv"
+    },
+    {
+      "document": "docs/P1b_calibration_execution_readiness_v1.md",
+      "target": "docs/P1b_final_review_confirmation.md"
+    },
+    {
+      "document": "docs/P1b_calibration_execution_readiness_v1.md",
+      "target": "docs/validation/p1b/authorization_v1/execution_preflight_v1/authorization_PENDING.json"
+    },
+    {
+      "document": "docs/P1b_calibration_execution_readiness_v1.md",
+      "target": "docs/validation/p1b/authorization_v1/delivery_verification_v1.json"
+    },
+    {
+      "document": "docs/P1b_calibration_execution_readiness_v1.md",
+      "target": "docs/P1b_algorithmic_opportunity_assessment.md"
+    },
+    {
+      "document": "docs/P1b_calibration_execution_readiness_v1.md",
+      "target": "docs/related_work_novelty_matrix.md"
+    }
+  ],
+  "manifest_sha256": "d73ceb403148b01f7b2c83a51a20165fdd625658e50c04a7ce0caa118ab22869",
+  "new_server_launches": 0,
+  "new_tokenizer_calls": 0,
+  "old_log_prefix_preserved": true,
+  "only_existing_source_change": "append docs/research_development_log.md",
+  "original_review_fields_preserved": 984,
+  "previous_local_files_unchanged": 3909,
+  "proposed_case_accept": 24,
+  "proposed_judgments": {
+    "PASS": 312
+  },
+  "real_generations": 0,
+  "recorded_utc": "2026-10-13T17:06:51.700691+00:00",
+  "schema_validation": {
+    "docs/validation/p1b/authorization_v1/execution_preflight_v1/authorization_PENDING.json": "VALID_JSON",
+    "docs/validation/p1b/authorization_v1/execution_preflight_v1/preflight.json": "VALID_JSON",
+    "docs/validation/p1b/authorization_v1/proposal_inventory_v1.json": "VALID_JSON",
+    "docs/validation/p1b/authorization_v1/researcher_decisions_v1.csv": {
+      "columns": 10,
+      "rows": 3
+    },
+    "docs/validation/p1b/final_review_v1/stimulus_review_AI_proposed_v1.csv": {
+      "columns": 78,
+      "rows": 24
+    }
+  },
+  "scientific_review": "PENDING",
+  "self_hash_excluded": true,
+  "source_hashes": {
+    "configs/p1_wave1_v1.json": "2da0f9916699c2aa405db4cea7d56f043f23e3ebed7e5955a6cd519b67f6978e",
+    "docs/research_protocol_v1.1.md": "d2bacdc1beb8de578615134e159ad2335e298886c6506507264b22a52cffb21e",
+    "docs/validation/p1b/final_v1/evaluation_routing_v1.json": "cada764644efc87ce744905b6fcbcec2ad70b748bba3dbcdebc8fd4afff93e3d",
+    "src/personaslm/__init__.py": "50c9f2b9e8c5d2ac8956d2a1511eafb3189de2ec435c49947470efa23c59f63e",
+    "src/personaslm/__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+    "src/personaslm/boundary_review.py": "b2f1d39fa3bce223a7d28e03ff2aff804292563699e3e3c41d5cf7b560abc13a",
+    "src/personaslm/cli.py": "ae7e206bb0985e127833600b4ab480cfadfffd0d808d87db810961ec5c81bf3b",
+    "src/personaslm/conditioning.py": "7b0e6a2230b241f86fec024d6768a9a9c08662945b8cfd668f5445dd5f4d24e6",
+    "src/personaslm/configuration.py": "8dc3c11eebeae67698d9afc64c61b1252edf5ee7219f59a27ff9e1d9179253f3",
+    "src/personaslm/control_candidates.py": "6f8f7c705ea4df14bbda1e443b9f5a400dd9a46bc3025a3036c0ff02c5174417",
+    "src/personaslm/control_candidates_v2.py": "0a8ae1643ac1c02a6cbf33fefc6ce3cdc63b14d66b87361824d97cdf999acce0",
+    "src/personaslm/control_closure.py": "3642fb2ff7734ce2a7dae5c4b862b1fe09dc23301b9ade38b1ff6b8cde7c0fd2",
+    "src/personaslm/control_decisions.py": "62672bdc63b115913362479a1683dcd56f0cc10b5899269d96b7843234f402bd",
+    "src/personaslm/control_final_review.py": "21624b4cf08a0bf9a3662d5a6849dab1a2a18dbfbcc4bad6efecff31f144ad7e",
+    "src/personaslm/control_resolution_review.py": "800dc60c97358a52d42d7c8e57a41d9736c17af87eb0d9e4e3ce07f10a0698e6",
+    "src/personaslm/control_review_v2.py": "151d1996c0c160c1473cd0c5c9bc4e9f0903e5ea977be8771af5e6a676e505ac",
+    "src/personaslm/diagnostics.py": "6609235e7a42894bde17a564ce828078682cecedf60a70e47daf3ab3ce8cee0e",
+    "src/personaslm/evaluation.py": "dad279efdcad594c1328ff09b7e1752014afecfa6259cf54c52ecda678352f95",
+    "src/personaslm/evaluation_policy.py": "dfe76a761c65966aeaf6a93bb4cd5ce186c704b2289e83b1184dac63aea76556",
+    "src/personaslm/evaluation_v2.py": "d9e09a7a9095c7f2d58989fbb6d03bf9545c58cb538eecf69e38bae1c5be38c7",
+    "src/personaslm/evaluation_v3.py": "83c63821303798a373da6491e39cc0aca4b3f7d35fa50491e38ce06b9ee36965",
+    "src/personaslm/fixtures.py": "46e938f78cfbc601ab4bdf617421a87fa8a4176df5751f6ae6f359ab68c53e8e",
+    "src/personaslm/human_factorial.py": "18c9fa31fbc04e63cfb7de507383f6ebd27d567af48870cb8ce0a6e534d6907f",
+    "src/personaslm/inference.py": "5c9032a466e26393b69e215005466abe4ca11c6079742fed73610b3e7cfbedda",
+    "src/personaslm/journal.py": "c2f2093b3f4728814089667d95e9c2bca685b9d3deb9151913fc891da49df07f",
+    "src/personaslm/matching.py": "37963e2a4ade64889b521437b99d1cd7e9aa867ebfcb832429eae96377ee9150",
+    "src/personaslm/measurement_audit.py": "f1e7449f9bc75db8b31982a7bca61aa105c0428bf6f571297c46301b3c5b98dc",
+    "src/personaslm/neutral_review.py": "d9757d9d60c88c90112bcf977e0643351356f08add64561aa575dcbecfeed925",
+    "src/personaslm/observations.py": "c276fe85b329e3d099e66c67f2c7afdd0b6f77d39ec9f134da43140ff4ddab4b",
+    "src/personaslm/p1.py": "77a7f12bcbf4a862e5e5cb94ed57605652626fad2a8b00cfe0cd83e1c904196b",
+    "src/personaslm/p1b.py": "3d2e036c90cf137d107116f59ed6f72ffa9fe8cc27b884ff10338d374b209ff1",
+    "src/personaslm/p1b_calibration.py": "cc8f12cb8975c5bc18e7ce9486411da1815b9cc0734e2f06620ced52265b3825",
+    "src/personaslm/p1b_readiness.py": "e167e1b83925697e875ad81d9283628e9fc2964caf032ba919eff152dd6e372d",
+    "src/personaslm/p1b_review_proposal.py": "b1de9a9b1d766ce515850aed14c7ce53754a3ddd19a37dc66ec4250b3d1aee30",
+    "src/personaslm/p1b_review_resolution.py": "20cebddc604e90a2d5adc4aaf0791c47ea1469fadf6cf16c8ed8cef2423072da",
+    "src/personaslm/provenance.py": "7f64e9d2f40c3042d312896006511cfd7e277a7b2131d57644bcb5804503bcd1",
+    "src/personaslm/reproducibility.py": "0d6cc5ad8dcc9e764e6522bb3fce581b64599d22be3314e54e38f7444257a64c",
+    "src/personaslm/researcher_review.py": "885139f6687d516edad9d74fb1293247aeb22dc3171015b7565c39a7da5abbce",
+    "src/personaslm/response_boundary.py": "a009274f49217cac7f5f725840f664566a3bdd970351f1137a37ce8b36b3bde3",
+    "src/personaslm/response_status.py": "7d0cde00dcef5f75f82b9b95b06ba0b7e6a3b9a3f8209aa834be5c60e32ee0cd",
+    "src/personaslm/run_audit.py": "31063924a782e1c48fbf3cfa70d87df1e6e8cc5aac9f3b745a08b07f529d2bec",
+    "src/personaslm/runner.py": "e4e1d9314a6b57ae13c271736fcd529e4ec9181aa2647d725a260df9011dfe77",
+    "src/personaslm/schemas.py": "fc2936e5f41c6342561156a18ee4a643395c538c01d24e704f80c3a893585af3",
+    "src/personaslm/scientific_closure.py": "c6b18966aec9d8fbaa32d2fdf3961553a549138c41c8d43dc5eea52a804a8e09",
+    "src/personaslm/server.py": "5df06c80c6095e76726af9ad97d48f63086a8c0748abb06625bce504ad605af6",
+    "tools/p1b_calibration.py": "b1220858167d01744dd2bd174a9228f0b104f57a0d77d74100a936c985cf7b07",
+    "tools/p1b_review_proposal.py": "c3ea79f167598152c17289c9714c6d1d10512bbe3a1c2c5c480ddd09e7cb0fbe"
+  },
+  "source_snapshot": "results/p1b_authorization/v1/source_snapshot",
+  "technical_readiness": "PASS",
+  "test_source_snapshot_sha256": "4c9ad2cfbf2f9213b17b4fd6c5207bbcc1864f3310f1d2fba3c96931493ee3e3",
+  "tests": {
+    "exit_code": 0,
+    "failed": 0,
+    "new_tests": 45,
+    "passed": 631,
+    "pytest_seconds": 35.79,
+    "warnings_reported": 0
+  },
+  "verbatim_quote_occurrences_verified": 984,
+  "version": "p1b_authorization_preparation_delivery_v1"
+}

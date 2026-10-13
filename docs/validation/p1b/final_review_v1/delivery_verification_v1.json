@@ -1,0 +1,271 @@
+{
+  "csv_inventory": {
+    "docs/validation/p1b/final_review_v1/decisions_pending_v1.csv": {
+      "columns": 10,
+      "rows": 2
+    },
+    "docs/validation/p1b/final_review_v1/prompt_token_counts_v1.csv": {
+      "columns": 8,
+      "rows": 192
+    },
+    "docs/validation/p1b/final_review_v1/researcher_review_v2.csv": {
+      "columns": 41,
+      "rows": 24
+    },
+    "docs/validation/p1b/final_review_v1/resolution_by_case_v1.csv": {
+      "columns": 15,
+      "rows": 24
+    }
+  },
+  "current_command_capture": "results/p1b_final_review/v1/engineering/delivery_check_01.json",
+  "dataset_changed": false,
+  "delivery_script": {
+    "path": "results/p1b_final_review/v1/check_delivery.py",
+    "sha256": "1b9b3da26ec1992283009a1d86694f233a836273e06f5bcd36d1c99409ec45ce"
+  },
+  "engineering_command_captures": {
+    "results/p1b_final_review/v1/engineering/finish_documents_01.json": {
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "results/p1b_final_review/v1/finish_documents.py"
+        ],
+        "duration_seconds": 0.11352959999931045,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T16:21:04.928576+00:00",
+        "started_utc": "2026-10-13T16:21:04.815046+00:00",
+        "stderr": "",
+        "stdout": "{\"documentation_append\": \"PASS\", \"recorded_utc\": \"2026-10-13T16:21:04.920278+00:00\", \"captured_commands_summarized\": 6}\n"
+      },
+      "source_sha256": "fa6412ef044ef3352f2ae40be63d5491181ba678c29668ffb8fc5d7f2f7b65df"
+    },
+    "results/p1b_final_review/v1/engineering/full_tests_01.json": {
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "duration_seconds": 12.989176800008863,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T16:06:22.957135+00:00",
+        "started_utc": "2026-10-13T16:06:09.967953+00:00",
+        "stderr": "",
+        "stdout": "........................................................................ [ 12%]\n........................................................................ [ 24%]\n........................................................................ [ 36%]\n........................................................................ [ 49%]\n........................................................................ [ 61%]\n........................................................................ [ 73%]\n........................................................................ [ 86%]\n........................................................................ [ 98%]\n..........                                                               [100%]\n586 passed in 12.38s\n"
+      },
+      "source_sha256": "5e0efddde2a4f66f80c93ecab637896687c167ebe56620689e95ff17fd67640a"
+    },
+    "results/p1b_final_review/v1/engineering/inspect_01.json": {
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p1b_final_review.py",
+          "inspect"
+        ],
+        "duration_seconds": 0.7314258999831509,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T16:01:47.711296+00:00",
+        "started_utc": "2026-10-13T16:01:46.979872+00:00",
+        "stderr": "",
+        "stdout": "{\"inspection\": \"PASS\", \"cases\": 24, \"prompts_with_reference_date\": 192, \"undated_question_cases_resolved\": 13, \"H_L3_prompts\": 8, \"original_review_fields_preserved\": 984, \"human_decisions_present\": 0, \"dataset_modified\": false, \"new_generations\": 0}\n"
+      },
+      "source_sha256": "244b46f89b4c2b02ff8dd10e904671e92356070c1f040499a9f5f4c6df9d285b"
+    },
+    "results/p1b_final_review/v1/engineering/portable_export_01.json": {
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "results/p1b_final_review/v1/portable_export.py"
+        ],
+        "duration_seconds": 0.15784349999739788,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T16:05:48.133502+00:00",
+        "started_utc": "2026-10-13T16:05:47.975659+00:00",
+        "stderr": "",
+        "stdout": "{\"status\": \"PASS\", \"relative_path_exports\": 2, \"original_exports_preserved\": 2, \"exact_source_files\": 44, \"new_requests\": 0}\n"
+      },
+      "source_sha256": "6d5307396790128ad4399b8767ff2d379ddd4d7904c56f0f922541846a711eba"
+    },
+    "results/p1b_final_review/v1/engineering/targeted_tests_01.json": {
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q",
+          "tests/test_p1b_review_resolution.py"
+        ],
+        "duration_seconds": 0.8756036999984644,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T16:01:32.252858+00:00",
+        "started_utc": "2026-10-13T16:01:31.377251+00:00",
+        "stderr": "",
+        "stdout": "..............................                                           [100%]\n30 passed in 0.33s\n"
+      },
+      "source_sha256": "7b04609a63980072bf77fd32a05cfdd86243926c00738875cbaa056115a6418a"
+    },
+    "results/p1b_final_review/v1/engineering/tokenizer_01.json": {
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p1b_final_review.py",
+          "tokenize"
+        ],
+        "duration_seconds": 42.017099699995015,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T16:02:41.825323+00:00",
+        "started_utc": "2026-10-13T16:01:59.808220+00:00",
+        "stderr": "",
+        "stdout": "{\"version\": \"p1b_actual_tokenizer_verification_v1\", \"status\": \"PASS\", \"requests\": 192, \"token_min\": 150, \"token_max\": 434, \"output_budget\": 96, \"context_capacity\": 4096, \"minimum_remaining_context\": 3566, \"model_sha256\": \"ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994\", \"backend_sha256\": \"71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846\", \"binding\": {\"model_path_matches\": true, \"n_ctx\": 4096, \"build_info\": \"b11573-0f701c882\", \"cpu_status\": \"launch_arguments_recorded; hardware observation still required\", \"model_identity_limit\": \"Path plus local digest and owned process, not a server-side tensor hash\"}, \"completion_requests\": 0, \"generated_responses\": 0, \"journal_events\": 657, \"run_directory\": \"<WORKSPACE>/results/p1b_final_review/v1/runs/20261013T160202-8acbf8a975a04528bf59cd63852cd236\", \"server_log_sha256\": \"bedc5c18c70c98a7aae47bd78cc0a5bc487a41598552dbade8daafc7db6c1838\", \"run_manifest_sha256\": \"5140528dd69f5b9f0e7c908fc8a7f7c85de9319e4a73384a9566ef6c439e2f05\", \"new_manifest_sha256\": \"3f2334ae3dbd5985290c4bb32e73bcefedee60f62e63f7ed99570a19a54cc939\"}\n"
+      },
+      "source_sha256": "7f104cd540f859e5ff1741a35bcf21b5779e01f61d1601a408e6417526f96597"
+    },
+    "results/p1b_final_review/v1/engineering/verify_01.json": {
+      "record": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p1b_final_review.py",
+          "verify"
+        ],
+        "duration_seconds": 1.8226673000026494,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T16:05:50.533078+00:00",
+        "started_utc": "2026-10-13T16:05:48.710417+00:00",
+        "stderr": "",
+        "stdout": "{\"status\": \"PASS\", \"native_tokenizations_reconstructed\": 192, \"completion_requests\": 0, \"prompt_order_and_applicability_preserved\": true, \"preservation\": {\"source_files_checked\": 356, \"changed_files\": [], \"historical_run_files_unchanged\": 3192}}\n"
+      },
+      "source_sha256": "d0e739dc83384dea19b4c2a83deba1fd528f1f1e8b0700fd02d913f33642397e"
+    }
+  },
+  "exact_source_files_verified": 44,
+  "files": {
+    "docs/P1b_final_decision_packet_v1.md": "7030c3b65dddc333a9039b44b3c30f8bcb06be0387a63f11ed5f71c5fc832f4b",
+    "docs/P1b_final_scientific_review.md": "5b3c2cc7a2612cd1cca433c515bcad0a0bf49bb4b7e1c8633945b344415adef6",
+    "docs/research_development_log.md": "f5f743e07cdb42fac9dd2d7a859f2a253579aca30fa69daa5f5fe93498df9278",
+    "docs/validation/p1b/final_review_v1/calibration_manifest_v2.json": "d73ceb403148b01f7b2c83a51a20165fdd625658e50c04a7ce0caa118ab22869",
+    "docs/validation/p1b/final_review_v1/context_necessity_v1.json": "f2d2d5dc90c17ad67e4f79b8956cd0bc5b02763d92c212d7d3cb913632a7b842",
+    "docs/validation/p1b/final_review_v1/decisions_pending_v1.csv": "666534c3ee3db342f6992529a19a284aea05e79829db6ce8e3fe76a202fe843a",
+    "docs/validation/p1b/final_review_v1/metadata_export_v1.json": "a11185b13fff5523f294b42f8cf761f3f9c98a012957c5e482a7b164d89968ef",
+    "docs/validation/p1b/final_review_v1/prompt_audit_v1.json": "d79fa8a486378470342d45fa77749fee80382540fb03351f6db780389211db27",
+    "docs/validation/p1b/final_review_v1/prompt_token_counts_v1.csv": "11691f9cc5b1dcf58be26b91a02e688e85ad971e950c7fd50fde712aaa5b566a",
+    "docs/validation/p1b/final_review_v1/researcher_review_v2.csv": "810ca7e751895aaf3f50b308f1af79aa3c2c67fb9ae6032e93daa0e1cd8658f9",
+    "docs/validation/p1b/final_review_v1/resolution_by_case_v1.csv": "bc69e722c3c2121bfa7ae802a63493951840dacab516511d486228698200047e",
+    "docs/validation/p1b/final_review_v1/source_registration_v1.json": "d8299b585b3c3877b4ba2ee72b59cb3a413f24530774d1704fbc34764173f871",
+    "docs/validation/p1b/final_review_v1/tokenizer_verification_v1.json": "84d7a6025ba45919d2f1179654fbe6c9dffa77e45c6750fb3413689a1faa8e72",
+    "src/personaslm/p1b_review_resolution.py": "20cebddc604e90a2d5adc4aaf0791c47ea1469fadf6cf16c8ed8cef2423072da",
+    "tests/test_p1b_review_resolution.py": "03e132ee1178d90f41f27a4902634c55f34c77dad007991e450a0da9618bb4d9",
+    "tools/p1b_final_review.py": "4657fc321b6bdc64a1874a978863e7992ea07c15c2875583b1213ffd0730060a"
+  },
+  "git_diff_check_exit": 0,
+  "git_dirty": true,
+  "git_sha": "64f5f1a120289df9f4b866687c65bb4e7be4e4af",
+  "git_status": " M docs/research_development_log.md\n?? docs/P1b_final_decision_packet_v1.md\n?? docs/P1b_final_scientific_review.md\n?? docs/validation/p1b/PersonaSLM_P1b_independent_stimulus_audit_v1.md\n?? docs/validation/p1b/final_review_v1/\n?? docs/validation/p1b/review_support/\n?? src/personaslm/p1b_review_resolution.py\n?? tests/test_p1b_review_resolution.py\n?? tools/p1b_final_review.py\n",
+  "historical_development_log_prefix_preserved": true,
+  "human_reviews_complete": 0,
+  "human_reviews_required": 24,
+  "json_files_validated": 6,
+  "launch_recommendation": "NO_GO_PENDING_RESEARCHER_REVIEW_AND_AUTHORIZATION",
+  "local_markdown_links_verified": [
+    {
+      "document": "docs/P1b_final_scientific_review.md",
+      "target": "docs/validation/p1b/PersonaSLM_P1b_independent_stimulus_audit_v1.md"
+    },
+    {
+      "document": "docs/P1b_final_scientific_review.md",
+      "target": "docs/validation/p1b/review_support/PersonaSLM_P1b_24case_independent_AI_stimulus_audit_v1.csv"
+    },
+    {
+      "document": "docs/P1b_final_scientific_review.md",
+      "target": "docs/validation/p1b/review_support/PersonaSLM_P1b_stimulus_review_v2_with_AI_suggestions.csv"
+    },
+    {
+      "document": "docs/P1b_final_scientific_review.md",
+      "target": "docs/validation/p1b/final_review_v1/source_registration_v1.json"
+    },
+    {
+      "document": "docs/P1b_final_scientific_review.md",
+      "target": "docs/validation/p1b/final_review_v1/calibration_manifest_v2.json"
+    },
+    {
+      "document": "docs/P1b_final_scientific_review.md",
+      "target": "docs/validation/p1b/final_review_v1/prompt_audit_v1.json"
+    },
+    {
+      "document": "docs/P1b_final_scientific_review.md",
+      "target": "docs/validation/p1b/final_review_v1/context_necessity_v1.json"
+    },
+    {
+      "document": "docs/P1b_final_scientific_review.md",
+      "target": "docs/validation/p1b/final_review_v1/prompt_token_counts_v1.csv"
+    },
+    {
+      "document": "docs/P1b_final_scientific_review.md",
+      "target": "docs/validation/p1b/final_review_v1/tokenizer_verification_v1.json"
+    },
+    {
+      "document": "docs/P1b_final_scientific_review.md",
+      "target": "docs/validation/p1b/final_review_v1/metadata_export_v1.json"
+    },
+    {
+      "document": "docs/P1b_final_scientific_review.md",
+      "target": "docs/P1b_final_decision_packet_v1.md"
+    },
+    {
+      "document": "docs/P1b_final_decision_packet_v1.md",
+      "target": "docs/P1b_final_scientific_review.md"
+    },
+    {
+      "document": "docs/P1b_final_decision_packet_v1.md",
+      "target": "docs/validation/p1b/final_review_v1/decisions_pending_v1.csv"
+    },
+    {
+      "document": "docs/P1b_final_decision_packet_v1.md",
+      "target": "docs/validation/p1b/final_review_v1/researcher_review_v2.csv"
+    },
+    {
+      "document": "docs/P1b_final_decision_packet_v1.md",
+      "target": "docs/P1b_researcher_review_guide.md"
+    }
+  ],
+  "new_generation_requests": 0,
+  "pending_scientific_questions": 2,
+  "reconstruction": {
+    "completion_requests": 0,
+    "native_tokenizations_reconstructed": 192,
+    "preservation": {
+      "changed_files": [
+        "docs/research_development_log.md"
+      ],
+      "historical_run_files_unchanged": 3192,
+      "source_files_checked": 356
+    },
+    "prompt_order_and_applicability_preserved": true,
+    "status": "PASS"
+  },
+  "recorded_utc": "2026-10-13T16:22:29.979604+00:00",
+  "scope_note": "This record excludes itself and its unfinished enclosing command capture to avoid circular hashes. Original local logs retain machine-specific paths; public capture copies replace only the workspace prefix.",
+  "technical_status": "PASS",
+  "test_result": {
+    "capture": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "duration_seconds": 12.989176800008863,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T16:06:22.957135+00:00",
+      "started_utc": "2026-10-13T16:06:09.967953+00:00",
+      "stderr": "",
+      "stdout": "........................................................................ [ 12%]\n........................................................................ [ 24%]\n........................................................................ [ 36%]\n........................................................................ [ 49%]\n........................................................................ [ 61%]\n........................................................................ [ 73%]\n........................................................................ [ 86%]\n........................................................................ [ 98%]\n..........                                                               [100%]\n586 passed in 12.38s\n"
+    },
+    "exit_code": 0,
+    "failed": 0,
+    "passed": 586,
+    "pytest_duration_seconds": 12.38,
+    "warnings_reported": 0
+  },
+  "version": "p1b_final_review_delivery_verification_v1"
+}
