@@ -1,0 +1,112 @@
+{
+  "actual_new_tokenizer_preflight": "NOT_EXECUTED",
+  "adopts_v1_2": false,
+  "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+  "case_ids": [
+    "p1b_A_L1",
+    "p1b_A_L2",
+    "p1b_A_L3",
+    "p1b_B_L1",
+    "p1b_B_L2",
+    "p1b_B_L3",
+    "p1b_C_L1",
+    "p1b_C_L2",
+    "p1b_C_L3",
+    "p1b_D_L1",
+    "p1b_D_L2",
+    "p1b_D_L3",
+    "p1b_E_L1",
+    "p1b_E_L2",
+    "p1b_E_L3",
+    "p1b_F_L1",
+    "p1b_F_L2",
+    "p1b_F_L3",
+    "p1b_G_L1",
+    "p1b_G_L2",
+    "p1b_G_L3",
+    "p1b_H_L1",
+    "p1b_H_L2",
+    "p1b_H_L3"
+  ],
+  "conditions": {
+    "C0": [
+      0,
+      0,
+      0
+    ],
+    "C1": [
+      1,
+      0,
+      0
+    ],
+    "C2": [
+      0,
+      1,
+      0
+    ],
+    "C3": [
+      0,
+      0,
+      1
+    ],
+    "C4": [
+      1,
+      1,
+      0
+    ],
+    "C5": [
+      1,
+      0,
+      1
+    ],
+    "C6": [
+      0,
+      1,
+      1
+    ],
+    "C7": [
+      1,
+      1,
+      1
+    ]
+  },
+  "cpu_proposal": {
+    "n_ctx": 4096,
+    "n_gpu_layers": 0,
+    "threads": 4,
+    "threads_batch": 4
+  },
+  "dataset_sha256": "feea8880314bea78e8b74aebbdbeb3439237551df56d7bd8b34a019ebeabd49a",
+  "decoding_proposal": {
+    "cache_prompt": false,
+    "n_predict": 96,
+    "return_tokens": true,
+    "seed": 42,
+    "stop": [],
+    "stream": false,
+    "temperature": 0.0,
+    "top_p": 1.0
+  },
+  "evaluation_policy": "separate_axes_policy_v1",
+  "executed_requests": 0,
+  "formal_protocol": "v1.1",
+  "future_confirmatory_material": "NOT_CREATED; these prototypes permanently development-only",
+  "human_semantic_review": "OPEN",
+  "model_sha256": "ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994",
+  "neutral_comparisons": "Excluded; old review OPEN and no new prompt matches yet",
+  "order_seed_proposed": 714001,
+  "proposed_requests": 192,
+  "researcher": "Yaxin ZHENG",
+  "researcher_decisions_needed": [
+    "Ground-truth and semantic review of all new items",
+    "Prospective rating anchors and coverage gate",
+    "Authorize or decline the bounded Base calibration",
+    "Scientifically useful precision margin before any larger allocation",
+    "Any subsequent Instruct or R/T/P arm requires separate approval"
+  ],
+  "response_policy": "response_status_v1",
+  "selection_rule": "All 24 prototypes and all eight cells; no output-based removal or replacement.",
+  "status": "PROPOSED_NOT_AUTHORIZED",
+  "template_version": "p1b_transcript_proposed_v1",
+  "version": "p1b_approval_request_v1"
+}

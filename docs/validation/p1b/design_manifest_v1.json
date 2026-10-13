@@ -1,0 +1,32 @@
+{
+  "case_selection": "All 24 fixed prototypes; no outputs inspected, no response-driven replacements",
+  "created_utc": "2026-10-13T14:12:26.056794+00:00",
+  "files": {
+    "data/synthetic/p1b_development_proposed_v1.json": "feea8880314bea78e8b74aebbdbeb3439237551df56d7bd8b34a019ebeabd49a",
+    "docs/validation/p1b/control_review_index_v1.csv": "806a2397286adf8f7ca7703798d632db7f3106dc738e02dd7a8a7a4b9fdc7dfd",
+    "docs/validation/p1b/historical_inspection_v1.json": "bc0e57484c85ea0181689fc1855215e4c5f9f12b2432f4548b37a5b58ce3b9f8",
+    "docs/validation/p1b/offline_validation_v1.json": "f579e59a33ff4f9b86b48c6f66862906fe08a99bac6a77130570f43f47c4029f",
+    "docs/validation/p1b/precision_plan_v1.json": "327cd8000e5b70563b609df6bf985363eb85c550789afee5bd887b6f2c050c8a",
+    "docs/validation/p1b/stimulus_review_v1.csv": "4ae9f4afdb83498a0078c80ff4d2717f906ae2418323e10faa4c9e27571c8133"
+  },
+  "git_sha": "287b74381ddef95ec530817dff76c676a59dd5bc",
+  "git_status": " M .gitignore\n?? data/synthetic/p1b_development_proposed_v1.json\n?? docs/validation/p1b/\n?? src/personaslm/p1b.py\n?? tests/test_p1b.py\n?? tools/p1b_design.py\n",
+  "inference_authorized": false,
+  "initial_calibration_proposal": {
+    "case_count": 24,
+    "executed": 0,
+    "factorial_cells_per_case": 8,
+    "model_arm": "Pinned Base first, conditional separate Instruct arm later",
+    "requests": 192,
+    "speakers": 12
+  },
+  "new_token_matching": "Not performed; new prompts require real tokenizer preflight after authorization",
+  "sources": {
+    "docs/PersonaSLM_Research_Protocol_v1.2_Revised_Proposed_r1.md": "a4a5b4a8d17ddd2d11814f8cd1b1bd48155a1d0689cade562e784d91f9a00395",
+    "docs/research_protocol_v1.1.md": "d2bacdc1beb8de578615134e159ad2335e298886c6506507264b22a52cffb21e",
+    "src/personaslm/p1b.py": "3d2e036c90cf137d107116f59ed6f72ffa9fe8cc27b884ff10338d374b209ff1",
+    "tools/p1b_design.py": "10955ce83515ea984df087949a4bdbcb7eac1d5d93c5028b35969ee3a094e681"
+  },
+  "status": "PROPOSAL_AWAITING_RESEARCHER_APPROVAL",
+  "version": "p1b_design_manifest_v1"
+}

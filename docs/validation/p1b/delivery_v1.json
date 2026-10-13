@@ -1,0 +1,158 @@
+{
+  "baseline_inventory_sha256": "64acaa1ccf02467c90da175562091889fd92dc5d71d3866f854429a88a2aebe6",
+  "broken_report_links": [],
+  "command_captures": {
+    "build.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_design.py",
+        "build"
+      ],
+      "capture_sha256": "66bf4178410bb5d6d05120bd2de093fea14ca80580c9877147dd52a465ed6bb3",
+      "duration_seconds": 11.102491400000872,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T14:12:26.209113+00:00",
+      "started_utc": "2026-10-13T14:12:15.106626+00:00"
+    },
+    "full_tests.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "capture_sha256": "0ba55a0f3cfa18fadb87fa1feaff25911a5855ce1be3159c267dec956fc03313",
+      "duration_seconds": 11.521585600014077,
+      "exit_code": 2,
+      "finished_utc": "2026-10-13T14:22:23.907406+00:00",
+      "started_utc": "2026-10-13T14:22:12.385817+00:00"
+    },
+    "full_tests_corrected.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "capture_sha256": "4ea0d59564b2cdb6662e88055b290fc078460ba41fa1ef944cb1ca0ecd8ff2e6",
+      "duration_seconds": 15.2910564999911,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T14:23:18.056464+00:00",
+      "started_utc": "2026-10-13T14:23:02.765416+00:00"
+    },
+    "targeted_tests.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_p1b.py"
+      ],
+      "capture_sha256": "2d89f974a269c5dba23ab139265614c2212336aa1d28955120e878e7b1a2af71",
+      "duration_seconds": 0.8452158999862149,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T14:12:08.951606+00:00",
+      "started_utc": "2026-10-13T14:12:08.106360+00:00"
+    },
+    "verify.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1b_design.py",
+        "verify"
+      ],
+      "capture_sha256": "a3b1b637ba543beba5964f133269c821881ca112a69a9ef124b8257cce63163b",
+      "duration_seconds": 11.098676499997964,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T14:22:23.493320+00:00",
+      "started_utc": "2026-10-13T14:22:12.394637+00:00"
+    }
+  },
+  "csv_validation": {
+    "control_review_index_v1.csv": {
+      "columns": 17,
+      "rows": 24
+    },
+    "stimulus_review_v1.csv": {
+      "columns": 25,
+      "rows": 24
+    }
+  },
+  "empirical_discrimination": "UNTESTED",
+  "file_hashes": {
+    ".gitignore": "d084f4e5c0f3373ab15580ca7dc1fe5875859d79e50019065fd3016a34956558",
+    "data/synthetic/p1b_development_proposed_v1.json": "feea8880314bea78e8b74aebbdbeb3439237551df56d7bd8b34a019ebeabd49a",
+    "docs/P1b_control_review_preparation.md": "a2c055890f5cd4ae5a5172cdafe1154aa17d3be04c135ef3aa7bb40c606ec4c2",
+    "docs/P1b_discriminative_task_design.md": "0947426b9952866699134886d9727becac201393a0c497cfb1043caca187698e",
+    "docs/P1b_model_arm_comparison.md": "9cd2832ced0ae2c4c4bd81c3287d09587a822565f075c645cf8f7e17d352d8af",
+    "docs/P1b_novelty_and_publication_assessment.md": "0c02208a44c63f72896230e1eacebf53754876d93675c2d5c45c437f027d87e3",
+    "docs/P1b_sample_size_and_precision_plan.md": "6ff1031b56dfc69d70f6cff427b5eadb71f9cb09ef376d4612bfbb54b32007e2",
+    "docs/P1b_stimulus_development_report.md": "f99c004d9afcbecfc0007bd4283e6b8692e9464991741f67c290165e1bba3f25",
+    "docs/research_development_log.md": "3ddb495d3608581da7f9b7e31722d5d7e24c08a4083eedf92133c071b4b22e68",
+    "docs/validation/p1b/approval_request_v1.json": "ca8d63df759fdf2b26ed6e0762f9d7498b741a4d0b1f4545f09377e38ef1455b",
+    "docs/validation/p1b/control_review_index_v1.csv": "806a2397286adf8f7ca7703798d632db7f3106dc738e02dd7a8a7a4b9fdc7dfd",
+    "docs/validation/p1b/design_manifest_v1.json": "f8cecbd4cb406fa4c98396c7e6090041ed7a0a43ab33a7f312262a00b2049dee",
+    "docs/validation/p1b/historical_inspection_v1.json": "bc0e57484c85ea0181689fc1855215e4c5f9f12b2432f4548b37a5b58ce3b9f8",
+    "docs/validation/p1b/literature_access_v1.json": "2a901caada44ae61f13302c203bed479d1770c3b3d5daa552a8250488f152475",
+    "docs/validation/p1b/offline_validation_v1.json": "f579e59a33ff4f9b86b48c6f66862906fe08a99bac6a77130570f43f47c4029f",
+    "docs/validation/p1b/precision_plan_v1.json": "327cd8000e5b70563b609df6bf985363eb85c550789afee5bd887b6f2c050c8a",
+    "docs/validation/p1b/stimulus_review_v1.csv": "4ae9f4afdb83498a0078c80ff4d2717f906ae2418323e10faa4c9e27571c8133",
+    "pyproject.toml": "9bf1c023c8c082d6d9ead8e84e9cc96ba1f2822e8bdadd61e7611ab1b538022c",
+    "src/personaslm/p1b.py": "3d2e036c90cf137d107116f59ed6f72ffa9fe8cc27b884ff10338d374b209ff1",
+    "tests/test_p1b.py": "b74c0559ee45664991f8953cccaf85737f842917431e67c54c837babeeb7a2fd",
+    "tools/p1b_design.py": "10955ce83515ea984df087949a4bdbcb7eac1d5d93c5028b35969ee3a094e681"
+  },
+  "git_diff_check_exit": 0,
+  "git_dirty": true,
+  "git_sha": "287b74381ddef95ec530817dff76c676a59dd5bc",
+  "historical_run_files_preserved": 3192,
+  "limitations": [
+    "Symbolic proof is not human validation or empirical task calibration",
+    "No new prompt token counts or new neutral matches",
+    "Sample precision and CPU cost are assumption-based planning scenarios",
+    "No fresh full audit of all ignored P0 run files"
+  ],
+  "local_report_links_checked": 24,
+  "modified_existing_files": [
+    ".gitignore",
+    "docs/research_development_log.md",
+    "pyproject.toml"
+  ],
+  "new_files_before_delivery": [
+    "data/synthetic/p1b_development_proposed_v1.json",
+    "docs/P1b_control_review_preparation.md",
+    "docs/P1b_discriminative_task_design.md",
+    "docs/P1b_model_arm_comparison.md",
+    "docs/P1b_novelty_and_publication_assessment.md",
+    "docs/P1b_sample_size_and_precision_plan.md",
+    "docs/P1b_stimulus_development_report.md",
+    "docs/validation/p1b/approval_request_v1.json",
+    "docs/validation/p1b/control_review_index_v1.csv",
+    "docs/validation/p1b/design_manifest_v1.json",
+    "docs/validation/p1b/historical_inspection_v1.json",
+    "docs/validation/p1b/literature_access_v1.json",
+    "docs/validation/p1b/offline_validation_v1.json",
+    "docs/validation/p1b/precision_plan_v1.json",
+    "docs/validation/p1b/stimulus_review_v1.csv",
+    "src/personaslm/p1b.py",
+    "tests/test_p1b.py",
+    "tools/p1b_design.py"
+  ],
+  "new_generations": 0,
+  "new_stimulus_human_reviews": 0,
+  "new_text_branding_matches": 0,
+  "new_tokenizer_requests": 0,
+  "old_control_human_reviews": 0,
+  "phase_status": "P1b proposal prepared; inference not authorized; P1 Wave2 not started",
+  "preserved_existing_tracked_files": 310,
+  "source_snapshot_directory": "results/p1b_design/v1/source_snapshot",
+  "tests": {
+    "failed": 0,
+    "final_capture": "results/p1b_design/v1/engineering/full_tests_corrected.json",
+    "initial_collection_failure_preserved": true,
+    "passed": 510,
+    "pytest_duration_seconds": 14.55,
+    "warnings_reported": 0
+  },
+  "verified_utc": "2026-10-13T14:29:26.584425+00:00",
+  "version": "p1b_design_delivery_v1"
+}

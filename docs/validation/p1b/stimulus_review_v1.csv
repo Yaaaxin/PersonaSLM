@@ -1,0 +1,175 @@
+review_version,case_id,persona_id,family,designed_complexity,trusted_evidence,question,fixed_context,expected_answer,supporting_fact_ids,style,supplemental_fact,history,applicability,answer_uniquely_supported,english_question_matches_oracle,complexity_rationale_valid,no_answer_leakage,no_unplanned_contradiction,speaker_and_context_clear,reviewer_id,review_assistance,reviewed_utc,evidence_quotations,reviewer_notes
+p1b_stimulus_semantic_review_proposed_v1,p1b_A_L1,p1b_persona_01,factual_retrieval,1,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_A_L1_f01: Arden Vale archive box — storage room: Juniper Room 1. Valid 2027-01-01 through ongoing.",Which room stores the archive box assigned to Arden Vale?,"User: We are checking the supplied records with Arden Vale.
+Assistant: Which record should I check?","{""room"": ""Juniper Room 1""}",p1b_A_L1_f01,Uses compact sentences while retaining requested details.,Arden Vale owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Arden Vale: I live in Alderwick 1.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_A_L2,p1b_persona_02,factual_retrieval,2,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_A_L2_f01: Briar Moss archive box — storage room: Juniper Room 2. Valid 2027-01-01 through ongoing.
+p1b_A_L2_f02: Briar Moss supply box 1 — storage room: Willow Room 1. Valid 2027-01-01 through ongoing.",Which room stores the archive box assigned to Briar Moss?,"User: We are checking the supplied records with Briar Moss.
+Assistant: Which record should I check?","{""room"": ""Juniper Room 2""}",p1b_A_L2_f01,Uses a formal register and avoids contractions.,Briar Moss owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Briar Moss: I live in Alderwick 2.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_A_L3,p1b_persona_03,factual_retrieval,3,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_A_L3_f01: Cleo Reed archive box — storage room: Juniper Room 3. Valid 2027-01-01 through ongoing.
+p1b_A_L3_f02: Cleo Reed supply box 1 — storage room: Willow Room 1. Valid 2027-01-01 through ongoing.
+p1b_A_L3_f03: Cleo Reed supply box 2 — storage room: Willow Room 2. Valid 2027-01-01 through ongoing.",Which room stores the archive box assigned to Cleo Reed?,"User: We are checking the supplied records with Cleo Reed.
+Assistant: Which record should I check?","{""room"": ""Juniper Room 3""}",p1b_A_L3_f01,Prefers everyday vocabulary to specialist synonyms.,Cleo Reed owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Cleo Reed: I live in Alderwick 3.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_B_L1,p1b_persona_04,related_facts,1,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_B_L1_f01: Dara Wells — workshop: Bookbinding Group 4. Valid 2027-01-01 through ongoing.
+p1b_B_L1_f02: Dara Wells — workshop role: materials coordinator. Valid 2027-01-01 through ongoing.",Name Dara Wells's workshop and role.,"User: We are checking the supplied records with Dara Wells.
+Assistant: Which record should I check?","{""workshop"": ""Bookbinding Group 4"", ""role"": ""materials coordinator""}",p1b_B_L1_f01; p1b_B_L1_f02,Usually presents related clauses as separate sentences.,Dara Wells owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Dara Wells: I live in Alderwick 4.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_B_L2,p1b_persona_05,related_facts,2,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_B_L2_f01: Emery Lake — workshop: Bookbinding Group 5. Valid 2027-01-01 through ongoing.
+p1b_B_L2_f02: Emery Lake — workshop role: materials coordinator. Valid 2027-01-01 through ongoing.
+p1b_B_L2_f03: Bookbinding Group 5 — meeting place: Cedar Hall 5. Valid 2027-01-01 through ongoing.","Name Emery Lake's workshop and role, its meeting place.","User: We are checking the supplied records with Emery Lake.
+Assistant: Which record should I check?","{""workshop"": ""Bookbinding Group 5"", ""role"": ""materials coordinator"", ""place"": ""Cedar Hall 5""}",p1b_B_L2_f01; p1b_B_L2_f02; p1b_B_L2_f03,Usually acknowledges the request briefly before answering.,Emery Lake owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Emery Lake: I live in Alderwick 5.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_B_L3,p1b_persona_06,related_facts,3,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_B_L3_f01: Finley Ash — workshop: Bookbinding Group 6. Valid 2027-01-01 through ongoing.
+p1b_B_L3_f02: Finley Ash — workshop role: materials coordinator. Valid 2027-01-01 through ongoing.
+p1b_B_L3_f03: Bookbinding Group 6 — meeting place: Cedar Hall 6. Valid 2027-01-01 through ongoing.
+p1b_B_L3_f04: Cedar Hall 6 — entrance: east entrance. Valid 2027-01-01 through ongoing.","Name Finley Ash's workshop and role, its meeting place, and that place's entrance.","User: We are checking the supplied records with Finley Ash.
+Assistant: Which record should I check?","{""workshop"": ""Bookbinding Group 6"", ""role"": ""materials coordinator"", ""place"": ""Cedar Hall 6"", ""entrance"": ""east entrance""}",p1b_B_L3_f01; p1b_B_L3_f02; p1b_B_L3_f03; p1b_B_L3_f04,Prefers precise nouns rather than informal substitutes.,Finley Ash owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Finley Ash: I live in Alderwick 6.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_C_L1,p1b_persona_07,validity_intervals,1,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L1_f01: Gale Rowan — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L1_f02: Gale Rowan — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L1_f03: Gale Rowan — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.",Which collection counter applies to Gale Rowan on 2027-04-05?,"User: We are checking the supplied records with Gale Rowan.
+Assistant: Which record should I check?","{""counter"": ""Birch Counter""}",p1b_C_L1_f02,Usually answers in short sentences without redundant restatement.,Gale Rowan owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Gale Rowan: I live in Alderwick 7.","{""factual_consistency"": true, ""temporal_consistency"": true, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_C_L2,p1b_persona_08,validity_intervals,2,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L2_f01: Hollis Fern — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L2_f02: Hollis Fern — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L2_f03: Hollis Fern — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.",Which collection counter applies to Hollis Fern on 2027-04-10?,"User: We are checking the supplied records with Hollis Fern.
+Assistant: Which record should I check?","{""counter"": ""Cedar Counter""}",p1b_C_L2_f03,Uses a conversational register with ordinary contractions.,Hollis Fern owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Hollis Fern: I live in Alderwick 8.","{""factual_consistency"": true, ""temporal_consistency"": true, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_C_L3,p1b_persona_09,validity_intervals,3,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_C_L3_f01: Indigo Shaw — collection counter: Maple Counter. Valid 2027-01-01 through 2027-03-31.
+p1b_C_L3_f02: Indigo Shaw — collection counter: Birch Counter. Valid 2027-04-01 through 2027-04-09.
+p1b_C_L3_f03: Indigo Shaw — collection counter: Cedar Counter. Valid 2027-04-10 through ongoing.","Which counter applies to Indigo Shaw on 2027-04-10, and which applied on the preceding day?","User: We are checking the supplied records with Indigo Shaw.
+Assistant: Which record should I check?","{""counter"": ""Cedar Counter"", ""previous_counter"": ""Birch Counter""}",p1b_C_L3_f03; p1b_C_L3_f02,Usually connects related clauses within a sentence.,Indigo Shaw owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Indigo Shaw: I live in Alderwick 9.","{""factual_consistency"": true, ""temporal_consistency"": true, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_D_L1,p1b_persona_10,relational_reasoning,1,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_D_L1_f01: Jules Finch — assigned crate: Crate 40. Valid 2027-01-01 through ongoing.
+p1b_D_L1_f02: Crate 40 — stored in: Locker 60. Valid 2027-01-01 through ongoing.",Which locker contains the crate assigned to Jules Finch?,"User: We are checking the supplied records with Jules Finch.
+Assistant: Which record should I check?","{""locker"": ""Locker 60""}",p1b_D_L1_f01; p1b_D_L1_f02,Usually begins directly with the requested information.,Jules Finch owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Jules Finch: I live in Alderwick 10.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_D_L2,p1b_persona_11,relational_reasoning,2,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_D_L2_f01: Kit Sorrel — assigned crate: Crate 41. Valid 2027-01-01 through ongoing.
+p1b_D_L2_f02: Crate 41 — stored in: Locker 61. Valid 2027-01-01 through ongoing.
+p1b_D_L2_f03: Locker 61 — located in: Fern Room 11. Valid 2027-01-01 through ongoing.",Which room contains the crate assigned to Kit Sorrel?,"User: We are checking the supplied records with Kit Sorrel.
+Assistant: Which record should I check?","{""room"": ""Fern Room 11""}",p1b_D_L2_f01; p1b_D_L2_f02; p1b_D_L2_f03,"Uses polite, matter-of-fact phrasing.",Kit Sorrel owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Kit Sorrel: I live in Alderwick 11.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_D_L3,p1b_persona_12,relational_reasoning,3,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_D_L3_f01: Linden West — assigned crate: Crate 42. Valid 2027-01-01 through ongoing.
+p1b_D_L3_f02: Crate 42 — stored in: Locker 62. Valid 2027-01-01 through ongoing.
+p1b_D_L3_f03: Locker 62 — located in: Fern Room 12. Valid 2027-01-01 through ongoing.
+p1b_D_L3_f04: Fern Room 12 — building: West Annex 12. Valid 2027-01-01 through ongoing.",Which building contains the crate assigned to Linden West?,"User: We are checking the supplied records with Linden West.
+Assistant: Which record should I check?","{""building"": ""West Annex 12""}",p1b_D_L3_f01; p1b_D_L3_f02; p1b_D_L3_f03; p1b_D_L3_f04,Usually alternates a short opening clause with a fuller sentence.,Linden West owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Linden West: I live in Alderwick 12.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_E_L1,p1b_persona_02,relevant_history,1,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L1_f01: Briar Moss — residence: Alderwick 2. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L1_f02: Briar Moss — residence: Mereford 2. Valid 2027-01-01 through ongoing.",Where does Briar Moss live on 2027-04-15?,"User: We are checking the supplied records with Briar Moss.
+Assistant: Which record should I check?","{""city"": ""Mereford 2""}",p1b_E_L1_f02,Uses a formal register and avoids contractions.,Briar Moss owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Briar Moss: I live in Alderwick 2.","{""factual_consistency"": true, ""temporal_consistency"": true, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_E_L2,p1b_persona_03,relevant_history,2,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L2_f01: Cleo Reed — residence: Alderwick 3. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L2_f02: Cleo Reed — residence: Mereford 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f03: Mereford 3 — collection hub: Heron Hub 3. Valid 2027-01-01 through ongoing.
+p1b_E_L2_f04: Alderwick 3 — collection hub: Plover Hub 3. Valid 2027-01-01 through ongoing.",Which collection hub serves Cleo Reed's residence on 2027-04-15?,"User: We are checking the supplied records with Cleo Reed.
+Assistant: Which record should I check?","{""hub"": ""Heron Hub 3""}",p1b_E_L2_f02; p1b_E_L2_f03,Prefers everyday vocabulary to specialist synonyms.,Cleo Reed owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Cleo Reed: I live in Alderwick 3.","{""factual_consistency"": true, ""temporal_consistency"": true, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_E_L3,p1b_persona_04,relevant_history,3,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_E_L3_f01: Dara Wells — residence: Alderwick 4. Valid 2026-01-01 through 2026-12-31.
+p1b_E_L3_f02: Dara Wells — residence: Mereford 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f03: Mereford 4 — collection hub: Heron Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f04: Alderwick 4 — collection hub: Plover Hub 4. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f05: Heron Hub 4 — opening day: Thursday. Valid 2027-01-01 through ongoing.
+p1b_E_L3_f06: Plover Hub 4 — opening day: Monday. Valid 2027-01-01 through ongoing.",On which day does the hub serving Dara Wells's residence on 2027-04-15 open?,"User: We are checking the supplied records with Dara Wells.
+Assistant: Which record should I check?","{""day"": ""Thursday""}",p1b_E_L3_f02; p1b_E_L3_f03; p1b_E_L3_f05,Usually presents related clauses as separate sentences.,Dara Wells owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Dara Wells: I live in Alderwick 4.","{""factual_consistency"": true, ""temporal_consistency"": true, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_F_L1,p1b_persona_05,entity_disambiguation,1,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_F_L1_f01: Morgan North (p1b_F_L1-N) — project role: archivist. Valid 2027-01-01 through ongoing.
+p1b_F_L1_f02: Morgan South (p1b_F_L1-S) — project role: treasurer. Valid 2027-01-01 through ongoing.
+p1b_F_L1_f03: Morgan North (p1b_F_L1-N) — shelf: Amber Shelf. Valid 2027-01-01 through ongoing.
+p1b_F_L1_f04: Morgan South (p1b_F_L1-S) — shelf: Violet Shelf. Valid 2027-01-01 through ongoing.",Emery Lake is checking the project: which shelf is assigned to Morgan North (p1b_F_L1-N)?,"User: We are checking the supplied records with Emery Lake.
+Assistant: Which record should I check?","{""shelf"": ""Amber Shelf""}",p1b_F_L1_f03,Usually acknowledges the request briefly before answering.,Emery Lake owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Emery Lake: I live in Alderwick 5.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_F_L2,p1b_persona_06,entity_disambiguation,2,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_F_L2_f01: Morgan North (p1b_F_L2-N) — project role: archivist. Valid 2027-01-01 through ongoing.
+p1b_F_L2_f02: Morgan South (p1b_F_L2-S) — project role: treasurer. Valid 2027-01-01 through ongoing.
+p1b_F_L2_f03: Morgan North (p1b_F_L2-N) — folder: Folder 76. Valid 2027-01-01 through ongoing.
+p1b_F_L2_f04: Morgan South (p1b_F_L2-S) — folder: Folder 96. Valid 2027-01-01 through ongoing.",Finley Ash needs the folder assigned to the archivist. Which is it?,"User: We are checking the supplied records with Finley Ash.
+Assistant: Which record should I check?","{""folder"": ""Folder 76""}",p1b_F_L2_f01; p1b_F_L2_f03,Prefers precise nouns rather than informal substitutes.,Finley Ash owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Finley Ash: I live in Alderwick 6.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_F_L3,p1b_persona_07,entity_disambiguation,3,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_F_L3_f01: Morgan North (p1b_F_L3-N) — project role: archivist. Valid 2027-01-01 through ongoing.
+p1b_F_L3_f02: Morgan South (p1b_F_L3-S) — project role: treasurer. Valid 2027-01-01 through ongoing.
+p1b_F_L3_f03: Morgan North (p1b_F_L3-N) — folder: Folder 77. Valid 2027-01-01 through ongoing.
+p1b_F_L3_f04: Morgan South (p1b_F_L3-S) — folder: Folder 97. Valid 2027-01-01 through ongoing.
+p1b_F_L3_f05: Folder 77 — shelf: Amber Shelf. Valid 2027-01-01 through ongoing.
+p1b_F_L3_f06: Folder 97 — shelf: Violet Shelf. Valid 2027-01-01 through ongoing.",Gale Rowan needs the shelf holding the folder assigned to the archivist. Which is it?,"User: We are checking the supplied records with Gale Rowan.
+Assistant: Which record should I check?","{""shelf"": ""Amber Shelf""}",p1b_F_L3_f01; p1b_F_L3_f03; p1b_F_L3_f05,Usually answers in short sentences without redundant restatement.,Gale Rowan owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Gale Rowan: I live in Alderwick 7.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_G_L1,p1b_persona_08,historical_vs_current,1,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_G_L1_f01: Hollis Fern — pickup site: Orchard Lodge. Valid 2027-01-01 through 2027-02-28.
+p1b_G_L1_f02: Hollis Fern — pickup site: Meadow Lodge. Valid 2027-03-01 through 2027-03-31.
+p1b_G_L1_f03: Hollis Fern — pickup site: Harbor Lodge. Valid 2027-04-01 through ongoing.",Which pickup site was valid for Hollis Fern on 2027-04-15?,"User: We are checking the supplied records with Hollis Fern.
+Assistant: Which record should I check?","{""site"": ""Harbor Lodge""}",p1b_G_L1_f03,Uses a conversational register with ordinary contractions.,Hollis Fern owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Hollis Fern: I live in Alderwick 8.","{""factual_consistency"": true, ""temporal_consistency"": true, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_G_L2,p1b_persona_09,historical_vs_current,2,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_G_L2_f01: Indigo Shaw — pickup site: Orchard Lodge. Valid 2027-01-01 through 2027-02-28.
+p1b_G_L2_f02: Indigo Shaw — pickup site: Meadow Lodge. Valid 2027-03-01 through 2027-03-31.
+p1b_G_L2_f03: Indigo Shaw — pickup site: Harbor Lodge. Valid 2027-04-01 through ongoing.",Which pickup site was valid for Indigo Shaw on 2027-03-20?,"User: We are checking the supplied records with Indigo Shaw.
+Assistant: Which record should I check?","{""site"": ""Meadow Lodge""}",p1b_G_L2_f02,Usually connects related clauses within a sentence.,Indigo Shaw owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Indigo Shaw: I live in Alderwick 9.","{""factual_consistency"": true, ""temporal_consistency"": true, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_G_L3,p1b_persona_10,historical_vs_current,3,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_G_L3_f01: Jules Finch — pickup site: Orchard Lodge. Valid 2027-01-01 through 2027-02-28.
+p1b_G_L3_f02: Jules Finch — pickup site: Meadow Lodge. Valid 2027-03-01 through 2027-03-31.
+p1b_G_L3_f03: Jules Finch — pickup site: Harbor Lodge. Valid 2027-04-01 through ongoing.",Name Jules Finch's pickup site on 2027-03-20 and the different site valid on 2027-04-15.,"User: We are checking the supplied records with Jules Finch.
+Assistant: Which record should I check?","{""site"": ""Meadow Lodge"", ""current_site"": ""Harbor Lodge""}",p1b_G_L3_f02; p1b_G_L3_f03,Usually begins directly with the requested information.,Jules Finch owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Jules Finch: I live in Alderwick 10.","{""factual_consistency"": true, ""temporal_consistency"": true, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_H_L1,p1b_persona_11,context_followup,1,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_H_L1_f01: Parcel 121 — delivery desk: Elm Desk. Valid 2027-01-01 through ongoing.",Which desk should it go to?,"User: Kit Sorrel is arranging delivery. Please focus on Parcel 121.
+Assistant: I will check that parcel.","{""desk"": ""Elm Desk""}",p1b_H_L1_f01,"Uses polite, matter-of-fact phrasing.",Kit Sorrel owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Kit Sorrel: I live in Alderwick 11.","{""factual_consistency"": true, ""temporal_consistency"": false, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_H_L2,p1b_persona_12,context_followup,2,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_H_L2_f01: Parcel 122 — recipient: Recipient 142. Valid 2027-01-01 through ongoing.
+p1b_H_L2_f02: Recipient 142 — delivery desk: Elm Desk. Valid 2027-01-01 through 2027-04-09.
+p1b_H_L2_f03: Recipient 142 — delivery desk: Ash Desk. Valid 2027-04-10 through ongoing.",Which desk should it go to on 2027-04-15?,"User: Linden West is arranging delivery. Please focus on Parcel 122.
+Assistant: I will check that parcel.","{""desk"": ""Ash Desk""}",p1b_H_L2_f01; p1b_H_L2_f03,Usually alternates a short opening clause with a fuller sentence.,Linden West owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Linden West: I live in Alderwick 12.","{""factual_consistency"": true, ""temporal_consistency"": true, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
+p1b_stimulus_semantic_review_proposed_v1,p1b_H_L3,p1b_persona_01,context_followup,3,"Verified fictional records. Dates use inclusive validity intervals; an absent end means ongoing.
+p1b_H_L3_f01: Parcel 111 — recipient: Recipient 131. Valid 2027-01-01 through ongoing.
+p1b_H_L3_f02: Recipient 131 — delivery desk: Elm Desk. Valid 2027-01-01 through 2027-04-09.
+p1b_H_L3_f03: Recipient 131 — delivery desk: Ash Desk. Valid 2027-04-10 through ongoing.
+p1b_H_L3_f04: Parcel 151 — recipient: Recipient 171. Valid 2027-01-01 through ongoing.
+p1b_H_L3_f05: Recipient 171 — delivery desk: Oak Desk. Valid 2027-01-01 through ongoing.",Which desk should it go to on 2027-04-10?,"User: Arden Vale has Parcel 151 and Parcel 111.
+Assistant: Which one are we arranging?
+User: Please focus on Parcel 111.","{""desk"": ""Ash Desk""}",p1b_H_L3_f01; p1b_H_L3_f03,Uses compact sentences while retaining requested details.,Arden Vale owns a woven bookmark.,"Historical dialogue (2026-11-15):
+User: Where are you living?
+Arden Vale: I live in Alderwick 1.","{""factual_consistency"": true, ""temporal_consistency"": true, ""response_relevance"": true, ""conversational_coherence"": true, ""linguistic_fidelity"": false, ""behavioral_fidelity"": false}",,,,,,,,,,,
