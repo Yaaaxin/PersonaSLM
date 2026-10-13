@@ -1,0 +1,1534 @@
+{
+  "analysis_specification_sha256": "c9327c3210462a508027becb265f6f92bcff34a3eef3a1398851b766b4f65673",
+  "annotation_count": 96,
+  "authority": {
+    "confirmation_statement": "The previously proposed categorical and numerical annotations are now confirmed by the researcher.",
+    "confirmation_utc": null,
+    "decision_source": "explicit researcher instruction in this conversation",
+    "final_decision_authority": "researcher",
+    "full_prior_knowledge_independence_verified": false,
+    "independent_numeric_entry_in_original_pdf": false,
+    "inter_annotator_agreement": null,
+    "registered_utc": "2026-10-13T13:22:03.430368+00:00",
+    "review_method": "condition-masked human narrative review followed by AI-assisted structured coding and explicit researcher confirmation",
+    "review_status": "RESEARCHER_CONFIRMED",
+    "reviewer_id": "Yaxin_ZHENG",
+    "second_reviewer": null
+  },
+  "final_csv": "docs/validation/p1/output_human_review_researcher_verified_v1.csv",
+  "final_sha256": "ed718f8e93b347cc33733edcc123f2811d9d48ec72af2139d697dd99df6cb3dd",
+  "git": {
+    "dirty_status": "?? docs/PersonaSLM_P1_Wave1_annotation_transcription_audit.md\n?? docs/validation/p1/PersonaSLM_P1_Wave1_96_AI_assisted_structured_review_PENDING_CONFIRMATION.csv\n?? docs/validation/p1/PersonaSLM_P1_Wave1_annotation_provenance_and_confirmation.csv\n?? docs/validation/p1/output_human_review_researcher_verified_v1.csv\n?? docs/validation/p1/researcher_analysis_specification_v1.json\n?? docs/validation/p1/researcher_annotation_normalization_v1.json\n?? docs/validation/p1/researcher_annotation_provenance_v1.csv\n?? docs/validation/p1/review_sources/\n?? src/personaslm/human_factorial.py\n?? tests/test_human_factorial.py\n?? tools/p1_human_analysis.py\n",
+    "sha": "6a7c3e88c3dd50032b8d4ec266ae80e21d2863b7"
+  },
+  "historical_scores_overwritten": false,
+  "mapping_read_before_freeze": false,
+  "new_generation_requests": 0,
+  "non_annotation_field_differences": [],
+  "normalization_changes": 576,
+  "notes_language": "Original researcher notes include Chinese and remain verbatim provenance, not newly introduced dialogue data or silent translations. New reports are English.",
+  "original_case_count": 12,
+  "pdf_audit": {
+    "differences": [],
+    "form_fields": 991,
+    "masked_narrative_provenance": "Researcher explicitly confirms condition labels were masked; complete independence from prior experimental knowledge is unknown.",
+    "original_pdf_availability_limit": "Original uncoded PDF not found in requested directory or scoped public repository search. Derived PDF verifies narratives/codings but does not independently establish how original radio buttons were filled.",
+    "original_uncoded_pdf_located": false,
+    "pages": 98,
+    "reader_version": "6.20.1",
+    "recorded_calendar_date": "13/10/2026",
+    "records": [
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR001"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR002"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR003"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR004"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR005"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR006"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR007"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR008"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR009"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR010"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR011"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR012"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR013"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR014"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR015"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR016"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR017"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR018"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR019"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR020"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR021"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR022"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR023"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR024"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR025"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR026"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR027"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR028"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR029"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR030"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR031"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR032"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR033"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR034"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR035"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR036"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR037"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR038"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR039"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR040"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR041"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR042"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR043"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR044"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR045"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR046"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR047"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR048"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR049"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR050"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR051"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR052"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR053"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR054"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR055"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR056"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR057"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR058"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR059"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR060"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR061"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR062"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR063"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR064"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR065"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR066"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR067"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR068"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR069"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR070"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR071"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR072"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR073"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR074"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR075"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR076"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR077"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR078"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR079"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR080"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR081"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR082"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR083"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR084"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR085"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR086"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR087"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR088"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR089"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR090"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR091"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR092"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR093"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR094"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_temporal_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR095"
+      },
+      {
+        "fields_verified": [
+          "human_reply_unit_confirmed",
+          "human_semantic_completeness",
+          "human_factual_consistency",
+          "human_response_relevance_1_to_5",
+          "human_conversational_coherence_1_to_5",
+          "human_unverifiable_reason",
+          "human_evidence_quotations",
+          "human_continuation_notes",
+          "reviewer_notes"
+        ],
+        "marked_done": "/Yes",
+        "response_id": "MR096"
+      }
+    ],
+    "review_utc": null,
+    "sha256": "e538dd87b75edc60e9bb20a49138b41fbf3c46c4309816e60798bb6411cf0aef",
+    "source": "docs/validation/p1/review_sources/PersonaSLM_P1_96_已回填_待研究者确认.pdf",
+    "source_assistance_verbatim": "人工盲审"
+  },
+  "review_times_invented": false,
+  "source_files": {
+    "docs/PersonaSLM_P1_Wave1_annotation_transcription_audit.md": "a4266dd9ab7e729f25f5d94e0c743bf29a46b7819a1d17b01d92849f98cacea2",
+    "docs/validation/p1/PersonaSLM_P1_Wave1_96_AI_assisted_structured_review_PENDING_CONFIRMATION.csv": "2cacb56efde3100fbba6e6d57f0d8e772dddf0a9d7854dc8fdb84b87fce73e39",
+    "docs/validation/p1/PersonaSLM_P1_Wave1_annotation_provenance_and_confirmation.csv": "719ad5fa6f5005f4ff6ee44bf6b197fd4eab6774946ad7cebfb7829c2b7f4c1c",
+    "docs/validation/p1/output_human_review_v1.csv": "39527ca232a46741aa4bb20c68ee88e41de65ebab78f71446e09e08c0350174a"
+  },
+  "source_sha256": {
+    "src/personaslm/human_factorial.py": "18c9fa31fbc04e63cfb7de507383f6ebd27d567af48870cb8ce0a6e534d6907f",
+    "tools/p1_human_analysis.py": "a62ffcda1bdec42056488af46054b336ea5c2f7f21a1d538b0bbc88b60772a15"
+  },
+  "validation": {
+    "blind_review_asserted": false,
+    "frozen_scores_overwritten": false,
+    "review_status": "COMPLETE",
+    "review_version": "p1_output_human_review_v1",
+    "reviewer_ids": [
+      "Yaxin_ZHENG"
+    ],
+    "unavailable_review_times": 96,
+    "validated_records": 96
+  },
+  "version": "researcher_verified_annotation_v1"
+}

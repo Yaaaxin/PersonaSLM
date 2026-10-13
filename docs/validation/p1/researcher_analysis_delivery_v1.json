@@ -1,0 +1,821 @@
+{
+  "analysis_replay": {
+    "finished_utc": "2026-10-13T13:38:42.083290+00:00",
+    "identical": true,
+    "replayed_core_keys": [
+      "version",
+      "conditions",
+      "contrasts",
+      "planned_cases",
+      "received_responses",
+      "significance_test",
+      "fidelity_scored",
+      "neutral_control_contrasts"
+    ],
+    "started_utc": "2026-10-13T13:38:30.627578+00:00"
+  },
+  "analysis_sha256": "56d87be0fc80783bf65afa4cbafa8d5629889a113333767cbbd9a728ccc5615b",
+  "analysis_status": "COMPLETE_EXPLORATORY",
+  "browser_access_clocks": null,
+  "command_captures": {
+    "analyze.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1_human_analysis.py",
+        "analyze"
+      ],
+      "duration_seconds": 8.466906500019832,
+      "exit_code": 1,
+      "finished_utc": "2026-10-13T13:22:31.311323+00:00",
+      "path": "results/p1_human_analysis/v1/engineering/analyze.json",
+      "sha256": "d8bc8dcaab217704f2fb565829bc06f9b52b33edb8461d55c54c2627dfc7c9ec",
+      "started_utc": "2026-10-13T13:22:22.844420+00:00"
+    },
+    "analyze_corrected.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1_human_analysis.py",
+        "analyze"
+      ],
+      "duration_seconds": 19.72062849998474,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T13:23:32.552541+00:00",
+      "path": "results/p1_human_analysis/v1/engineering/analyze_corrected.json",
+      "sha256": "127182f666a6f2d1e8cc16a52839e6a87ac520b4f21a1bf545638de7f2524c63",
+      "started_utc": "2026-10-13T13:23:12.831912+00:00"
+    },
+    "existing_importer.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1_measurement_audit.py",
+        "import-review",
+        "--csv",
+        "docs/validation/p1/output_human_review_researcher_verified_v1.csv",
+        "--output",
+        "results/p1_human_analysis/v1/imported_review_v1"
+      ],
+      "duration_seconds": 0.38360060000559315,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T13:26:00.567386+00:00",
+      "path": "results/p1_human_analysis/v1/engineering/existing_importer.json",
+      "sha256": "c583fd8b3c78885c7b39bf7daab8828cea451252f8215f5c028970b69b5f3a11",
+      "started_utc": "2026-10-13T13:26:00.183783+00:00"
+    },
+    "final_tests.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "duration_seconds": 23.88383450001129,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T13:24:03.685643+00:00",
+      "path": "results/p1_human_analysis/v1/engineering/final_tests.json",
+      "sha256": "52424e82bab7d7da33ae285580ff82e95affd5426f08e8e2b1394a698de9ecff",
+      "started_utc": "2026-10-13T13:23:39.801804+00:00"
+    },
+    "full_tests.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "duration_seconds": 25.598591299989494,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T13:22:48.680427+00:00",
+      "path": "results/p1_human_analysis/v1/engineering/full_tests.json",
+      "sha256": "5f5577f3bd9ddbf3367aee34d5405bab2fa0ff415d0f89924d13609b933871d5",
+      "started_utc": "2026-10-13T13:22:23.081824+00:00"
+    },
+    "pdf_reader_install.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "install",
+        "--disable-pip-version-check",
+        "--target",
+        "results/p1_human_analysis/v1/pdf_reader",
+        "pypdf"
+      ],
+      "duration_seconds": 10.446104900009232,
+      "exit_code": 1,
+      "finished_utc": "2026-10-13T13:11:23.468381+00:00",
+      "path": "results/p1_human_analysis/v1/engineering/pdf_reader_install.json",
+      "sha256": "031b765249a94cae7dae58581f05cbafaef8a149683bf7d413875904ae01aded",
+      "started_utc": "2026-10-13T13:11:13.022286+00:00"
+    },
+    "pdf_reader_install_approved.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pip",
+        "install",
+        "--disable-pip-version-check",
+        "--retries",
+        "0",
+        "--target",
+        "results/p1_human_analysis/v1/pdf_reader",
+        "pypdf"
+      ],
+      "duration_seconds": 4.494335800001863,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T13:13:24.723471+00:00",
+      "path": "results/p1_human_analysis/v1/engineering/pdf_reader_install_approved.json",
+      "sha256": "e382cc70c4a9774767fbb32f64a687afbb766d77ff2ecc7041eb1aba509e885a",
+      "started_utc": "2026-10-13T13:13:20.229144+00:00"
+    },
+    "register.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1_human_analysis.py",
+        "register"
+      ],
+      "duration_seconds": 1.9674175000109244,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T13:22:03.762489+00:00",
+      "path": "results/p1_human_analysis/v1/engineering/register.json",
+      "sha256": "41a0ab416af5322f5384d926bcd9e976cb9b6587681f10b6ebd6595034cd1d34",
+      "started_utc": "2026-10-13T13:22:01.795070+00:00"
+    },
+    "report_tables.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "results/p1_human_analysis/v1/make_reports.py"
+      ],
+      "duration_seconds": 0.26786220000940375,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T13:33:52.817398+00:00",
+      "path": "results/p1_human_analysis/v1/engineering/report_tables.json",
+      "sha256": "056796b60aa0e4c677da5e0b96ec0fa2d761e48396061fae5f609064cb756759",
+      "started_utc": "2026-10-13T13:33:52.549531+00:00"
+    },
+    "targeted_tests.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_human_factorial.py"
+      ],
+      "duration_seconds": 1.656627699994715,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T13:21:55.433962+00:00",
+      "path": "results/p1_human_analysis/v1/engineering/targeted_tests.json",
+      "sha256": "fa62b7fc9d7b0538e216116ccf7d32749bbe052374f333828969834ce48e2856",
+      "started_utc": "2026-10-13T13:21:53.777325+00:00"
+    }
+  },
+  "controls_status": "OPEN",
+  "created_utc": "2026-10-13T13:38:43.682550+00:00",
+  "csv_validated": [
+    {
+      "path": "docs/validation/p1/control_review_v1.csv",
+      "records": 24
+    },
+    {
+      "path": "docs/validation/p1/output_human_review_researcher_verified_v1.csv",
+      "records": 96
+    },
+    {
+      "path": "docs/validation/p1/output_human_review_v1.csv",
+      "records": 96
+    },
+    {
+      "path": "docs/validation/p1/output_review_v1.csv",
+      "records": 96
+    },
+    {
+      "path": "docs/validation/p1/PersonaSLM_P1_Wave1_96_AI_assisted_structured_review_PENDING_CONFIRMATION.csv",
+      "records": 96
+    },
+    {
+      "path": "docs/validation/p1/PersonaSLM_P1_Wave1_annotation_provenance_and_confirmation.csv",
+      "records": 96
+    },
+    {
+      "path": "docs/validation/p1/researcher_annotation_provenance_v1.csv",
+      "records": 96
+    },
+    {
+      "path": "docs/validation/p1/researcher_case_contrasts_v1.csv",
+      "records": 972
+    },
+    {
+      "path": "docs/validation/p1/researcher_contrast_summary_v1.csv",
+      "records": 81
+    }
+  ],
+  "errors_and_limits": [
+    "Original uncoded review PDF not located; derived PDF and all96notes retained and verified",
+    "Initial category-format validation failed;576 explicit representation/provenance conversions recorded",
+    "Sandbox PDF-reader install blocked; approved isolated install succeeded",
+    "Initial analysis prompt-dictionary error preserved; corrected with regression test before analysis output",
+    "Single researcher confirmed assisted coding; prior knowledge unknown; no independent-rater agreement",
+    "Ceiling and small clustered development sample; empirical intervals are not population inference"
+  ],
+  "git": {
+    "argv": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "duration_seconds": 0.034840399981476367,
+    "exit_code": 0,
+    "finished_utc": "2026-10-13T13:38:43.580556+00:00",
+    "started_utc": "2026-10-13T13:38:43.545736+00:00",
+    "stderr": "",
+    "stdout": " M docs/research_development_log.md\n?? docs/P1_wave1_exploratory_factorial_analysis.md\n?? docs/P1_wave1_next_experiment_recommendation.md\n?? docs/P1_wave1_publication_readiness.md\n?? docs/P1_wave1_researcher_annotation_report.md\n?? docs/P1_wave1_structural_semantic_comparison.md\n?? docs/PersonaSLM_P1_Wave1_annotation_transcription_audit.md\n?? docs/validation/p1/PersonaSLM_P1_Wave1_96_AI_assisted_structured_review_PENDING_CONFIRMATION.csv\n?? docs/validation/p1/PersonaSLM_P1_Wave1_annotation_provenance_and_confirmation.csv\n?? docs/validation/p1/output_human_review_researcher_verified_v1.csv\n?? docs/validation/p1/researcher_analysis_dataset_v1.json\n?? docs/validation/p1/researcher_analysis_specification_v1.json\n?? docs/validation/p1/researcher_annotation_normalization_v1.json\n?? docs/validation/p1/researcher_annotation_provenance_v1.csv\n?? docs/validation/p1/researcher_annotation_registration_v1.json\n?? docs/validation/p1/researcher_case_contrasts_v1.csv\n?? docs/validation/p1/researcher_constraint_diagnostic_v1.json\n?? docs/validation/p1/researcher_contrast_summary_v1.csv\n?? docs/validation/p1/researcher_control_review_handoff_v1.json\n?? docs/validation/p1/researcher_factorial_analysis_v1.json\n?? docs/validation/p1/review_sources/\n?? src/personaslm/human_factorial.py\n?? tests/test_human_factorial.py\n?? tools/p1_human_analysis.py\n"
+  },
+  "git_sha": "6a7c3e88c3dd50032b8d4ec266ae80e21d2863b7",
+  "json_validated": [
+    "docs/validation/p1/control_matching_v1.json",
+    "docs/validation/p1/control_review_master_v1.json",
+    "docs/validation/p1/delivery_v1.json",
+    "docs/validation/p1/literature_verification_v1.json",
+    "docs/validation/p1/manipulation_v1.json",
+    "docs/validation/p1/measurement_audit_v1.json",
+    "docs/validation/p1/measurement_coverage_diagnostic_v1.json",
+    "docs/validation/p1/measurement_delivery_v1.json",
+    "docs/validation/p1/native_stop_compatibility_diagnostic_v1.json",
+    "docs/validation/p1/output_human_review_schema_v1.json",
+    "docs/validation/p1/output_review_key_v1.json",
+    "docs/validation/p1/researcher_analysis_dataset_v1.json",
+    "docs/validation/p1/researcher_analysis_specification_v1.json",
+    "docs/validation/p1/researcher_annotation_normalization_v1.json",
+    "docs/validation/p1/researcher_annotation_registration_v1.json",
+    "docs/validation/p1/researcher_constraint_diagnostic_v1.json",
+    "docs/validation/p1/researcher_control_review_handoff_v1.json",
+    "docs/validation/p1/researcher_factorial_analysis_v1.json",
+    "docs/validation/p1/verification_v1.json",
+    "docs/validation/p1/wave1_analysis_v1.json",
+    "docs/validation/p1/wave1_design_v1.json",
+    "docs/validation/p1/wave1_manifest_v1.json",
+    "docs/validation/p1/wave1_results_v1.json"
+  ],
+  "literature_sources": [
+    "https://aclanthology.org/2025.emnlp-main.1364/",
+    "https://aclanthology.org/2026.findings-acl.395/",
+    "https://aclanthology.org/2026.acl-long.2079/",
+    "https://arxiv.org/abs/2610.09772",
+    "https://arxiv.org/abs/2610.11188v1",
+    "https://arxiv.org/html/2610.08513v1",
+    "https://aclanthology.org/2026.findings-acl.981/",
+    "https://aclanthology.org/2026.eacl-long.246/",
+    "https://journals.plos.org/plosone/s/criteria-for-publication"
+  ],
+  "local_document_links_checked": [
+    {
+      "source": "docs/P1_wave1_researcher_annotation_report.md",
+      "target": "validation/p1/output_human_review_researcher_verified_v1.csv"
+    },
+    {
+      "source": "docs/P1_wave1_researcher_annotation_report.md",
+      "target": "validation/p1/researcher_annotation_registration_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_researcher_annotation_report.md",
+      "target": "validation/p1/researcher_annotation_normalization_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_researcher_annotation_report.md",
+      "target": "validation/p1/researcher_annotation_provenance_v1.csv"
+    },
+    {
+      "source": "docs/P1_wave1_researcher_annotation_report.md",
+      "target": "validation/p1/researcher_analysis_specification_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_researcher_annotation_report.md",
+      "target": "validation/p1/researcher_analysis_dataset_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_researcher_annotation_report.md",
+      "target": "validation/p1/researcher_analysis_delivery_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_exploratory_factorial_analysis.md",
+      "target": "validation/p1/researcher_analysis_specification_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_exploratory_factorial_analysis.md",
+      "target": "validation/p1/researcher_case_contrasts_v1.csv"
+    },
+    {
+      "source": "docs/P1_wave1_exploratory_factorial_analysis.md",
+      "target": "validation/p1/researcher_contrast_summary_v1.csv"
+    },
+    {
+      "source": "docs/P1_wave1_exploratory_factorial_analysis.md",
+      "target": "validation/p1/researcher_factorial_analysis_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_exploratory_factorial_analysis.md",
+      "target": "P1_wave1_structural_semantic_comparison.md"
+    },
+    {
+      "source": "docs/P1_wave1_exploratory_factorial_analysis.md",
+      "target": "P1_wave1_publication_readiness.md"
+    },
+    {
+      "source": "docs/P1_wave1_exploratory_factorial_analysis.md",
+      "target": "P1_wave1_next_experiment_recommendation.md"
+    },
+    {
+      "source": "docs/P1_wave1_structural_semantic_comparison.md",
+      "target": "validation/p1/researcher_constraint_diagnostic_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_structural_semantic_comparison.md",
+      "target": "P1_wave1_exploratory_factorial_analysis.md"
+    },
+    {
+      "source": "docs/P1_wave1_publication_readiness.md",
+      "target": "related_work_novelty_matrix.md"
+    },
+    {
+      "source": "docs/P1_wave1_publication_readiness.md",
+      "target": "P1_novelty_assessment.md"
+    },
+    {
+      "source": "docs/P1_wave1_publication_readiness.md",
+      "target": "P1_wave1_next_experiment_recommendation.md"
+    },
+    {
+      "source": "docs/P1_wave1_next_experiment_recommendation.md",
+      "target": "validation/p1/control_review_v1.csv"
+    },
+    {
+      "source": "docs/P1_wave1_next_experiment_recommendation.md",
+      "target": "validation/p1/control_review_master_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_next_experiment_recommendation.md",
+      "target": "P1_annotation_guide.md"
+    },
+    {
+      "source": "docs/P1_wave1_next_experiment_recommendation.md",
+      "target": "P1_wave1_exploratory_factorial_analysis.md"
+    },
+    {
+      "source": "docs/P1_wave1_next_experiment_recommendation.md",
+      "target": "P1_wave1_publication_readiness.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "../AGENTS.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_environment_transcript.txt"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_command_results.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_real_inference_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_acceptance_checklist.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_final_validation_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_model_provenance_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_reproducibility_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_acceptance_checklist.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_case_audit.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_matching.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_evidence.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_evaluator_review.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_evaluator_review_addendum.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_neutral_blinded_review.jsonl"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_commands.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_methodology_commands.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_methodology_delivery_checks.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_remaining_blockers.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_response_termination_diagnostics.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_neutral_annotation_form_v3.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_evaluation_validity_v3.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_methodological_integrity.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_response_termination_evidence.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_evaluation_validity_v3.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_methodological_commands.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_methodological_delivery.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_policy_acceptance_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_vendor_neutral_attribution_audit.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_policy_acceptance_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_policy_acceptance_delivery.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_neutral_control_diagnostic.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_neutral_control_resolution_guide.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_experimental_design_proposal.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "related_work_novelty_matrix.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_control_acceptance_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_neutral_validity_final_checks_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_control_development_report_v2.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_development_selection_v2.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_tokenizer_validation_v2.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_control_development_review_v2_guide.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_development_integrity_v2.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_development_commands_v2.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "related_work_novelty_matrix.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_development_final_checks_v2.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_final_neutral_control_validation_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_control_identification_matrix_v3.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_control_review_v3.csv"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_final_control_review_v3_guide.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_control_analysis_v3.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_control_evidence_v3.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_control_delivery_v3.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_engineering_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_engineering_report_validation_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_control_researcher_registration_v1/registration.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_control_decision_registration_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_decision_delivery_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_closure_delivery_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_scientific_commands_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_acceptance_verification_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_tessa_researcher_approval_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_acceptance_decision_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_acceptance_delivery_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_novelty_assessment.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_experiment_plan.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_manipulation_validation.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_pilot_wave1_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_annotation_guide.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_novelty_assessment.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/p1/wave1_analysis_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/p1/verification_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/p1/delivery_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_measurement_audit.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_structural_analysis.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_evaluation_coverage.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_human_annotation_guide.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_next_experiment_decision.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_protocol_compatibility_assessment.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/p1/measurement_delivery_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_researcher_annotation_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_exploratory_factorial_analysis.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_structural_semantic_comparison.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_publication_readiness.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_next_experiment_recommendation.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/p1/researcher_analysis_delivery_v1.json"
+    }
+  ],
+  "modified_existing_files": [
+    "docs/research_development_log.md"
+  ],
+  "new_and_modified_file_sha256": {
+    "docs/P1_wave1_exploratory_factorial_analysis.md": "d8c86b278be0b3b55482649ba753915171a83d4d6b4b28e6410729349e9e5bcb",
+    "docs/P1_wave1_next_experiment_recommendation.md": "67cc43bc3bef4b774f8a4c391446297177343a6ecfafbe9fcb42e66af23d80b9",
+    "docs/P1_wave1_publication_readiness.md": "afd3c66ecf0ccecc055f882b04086a784698b444a4b3cb190508858e18ff62fa",
+    "docs/P1_wave1_researcher_annotation_report.md": "4aa24388426448e171488b01ebbb092d0de4411b4fa8104ed79eb96a86097e53",
+    "docs/P1_wave1_structural_semantic_comparison.md": "64dd10cf33f9ca505364a60887abd36f99973ade7919502cb891035b3e1c37fe",
+    "docs/research_development_log.md": "c41838ab09de4fbd65d9d230440cbd448c601bd41a3007ab98b4bd39c229d5f5",
+    "docs/validation/p1/output_human_review_researcher_verified_v1.csv": "ed718f8e93b347cc33733edcc123f2811d9d48ec72af2139d697dd99df6cb3dd",
+    "docs/validation/p1/researcher_analysis_dataset_v1.json": "ee6d6a35ce1cb94c48b62fb99560d1d0993fec56d941e4d5ccbb1e5175298b55",
+    "docs/validation/p1/researcher_analysis_specification_v1.json": "c9327c3210462a508027becb265f6f92bcff34a3eef3a1398851b766b4f65673",
+    "docs/validation/p1/researcher_annotation_normalization_v1.json": "17e23eb090990c6cea44c27b03c13b713002e4efba8c18022eed9678756ec73d",
+    "docs/validation/p1/researcher_annotation_provenance_v1.csv": "5b791f1e3e4d6c0a1455b2113821d860d4d9c8b122b39094d3bbc4b20574014a",
+    "docs/validation/p1/researcher_annotation_registration_v1.json": "f4b6788dedf1f7ecbfd1786f7e89b9b35c3c9174e2614a146376d8af1ca71c77",
+    "docs/validation/p1/researcher_case_contrasts_v1.csv": "412290c247758dde7a9c4d2c180ada3619a53c6a3a4789e3e7f787f1b8060f66",
+    "docs/validation/p1/researcher_constraint_diagnostic_v1.json": "5e7ee95a2f04673be84ebb8bc1f5d90cd1bcfa2adef19a3154f3b2fd54a127ff",
+    "docs/validation/p1/researcher_contrast_summary_v1.csv": "710bbac60aa5c82468574ecb124d7f3336e7e4ccb346ce1292f186b4ed29c596",
+    "docs/validation/p1/researcher_control_review_handoff_v1.json": "c0777239a83e213ee7b42fd4c62a7e7c6acf1fc9ae64f83ed0960505b7a1a726",
+    "docs/validation/p1/researcher_factorial_analysis_v1.json": "56d87be0fc80783bf65afa4cbafa8d5629889a113333767cbbd9a728ccc5615b",
+    "src/personaslm/human_factorial.py": "18c9fa31fbc04e63cfb7de507383f6ebd27d567af48870cb8ce0a6e534d6907f",
+    "tests/test_human_factorial.py": "803417d486f5ad486b340f27d41f83756197451dd8d55335720004caa1859dd8",
+    "tools/p1_human_analysis.py": "318683a75cc1c5023335cc2badd8f0f5fdd8d1b7f98983c4b70b247204e43907"
+  },
+  "new_files_this_work": [
+    "docs/P1_wave1_exploratory_factorial_analysis.md",
+    "docs/P1_wave1_next_experiment_recommendation.md",
+    "docs/P1_wave1_publication_readiness.md",
+    "docs/P1_wave1_researcher_annotation_report.md",
+    "docs/P1_wave1_structural_semantic_comparison.md",
+    "docs/validation/p1/output_human_review_researcher_verified_v1.csv",
+    "docs/validation/p1/researcher_analysis_dataset_v1.json",
+    "docs/validation/p1/researcher_analysis_specification_v1.json",
+    "docs/validation/p1/researcher_annotation_normalization_v1.json",
+    "docs/validation/p1/researcher_annotation_provenance_v1.csv",
+    "docs/validation/p1/researcher_annotation_registration_v1.json",
+    "docs/validation/p1/researcher_case_contrasts_v1.csv",
+    "docs/validation/p1/researcher_constraint_diagnostic_v1.json",
+    "docs/validation/p1/researcher_contrast_summary_v1.csv",
+    "docs/validation/p1/researcher_control_review_handoff_v1.json",
+    "docs/validation/p1/researcher_factorial_analysis_v1.json",
+    "src/personaslm/human_factorial.py",
+    "tests/test_human_factorial.py",
+    "tools/p1_human_analysis.py",
+    "docs/validation/p1/researcher_analysis_delivery_v1.json"
+  ],
+  "new_generation_requests": 0,
+  "next_experiment_started": false,
+  "original_log_prefix_sha256": "a965eb3de2aa4474f54da8aaf9110667760eb717a990d581c084e1aa0e4fc268",
+  "preserved_baseline_files": 292,
+  "preserved_run_files": [
+    {
+      "directory": "results/p1_wave1/development_v1/runs/20261013T065000-5b7eb2b7a3d64b29945f557bdf2abb59",
+      "unchanged_files": 2280
+    },
+    {
+      "directory": "results/p1_wave1/development_v1/runs/20261013T065228-971f93c4c1434254a5298dde72dd9061",
+      "unchanged_files": 912
+    }
+  ],
+  "prior_scores_modified": false,
+  "protocols_modified": false,
+  "publication_readiness": "PARTIAL",
+  "read_only_checks": [
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "duration_seconds": 0.05569320000358857,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T13:38:43.545716+00:00",
+      "started_utc": "2026-10-13T13:38:43.490024+00:00",
+      "stderr": "warning: in the working copy of 'docs/research_development_log.md', CRLF will be replaced by LF the next time Git touches it\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "duration_seconds": 0.030557499994756654,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T13:38:43.611131+00:00",
+      "started_utc": "2026-10-13T13:38:43.580585+00:00",
+      "stderr": "",
+      "stdout": "6a7c3e88c3dd50032b8d4ec266ae80e21d2863b7\n"
+    }
+  ],
+  "records": 96,
+  "registered_csv_sha256": "ed718f8e93b347cc33733edcc123f2811d9d48ec72af2139d697dd99df6cb3dd",
+  "registration_sha256": "f4b6788dedf1f7ecbfd1786f7e89b9b35c3c9174e2614a146376d8af1ca71c77",
+  "registration_status": "RESEARCHER_CONFIRMED",
+  "source_review_scope": "Official records/abstracts and relevant HTML; not new replications or a claim of rereading every entire paper.",
+  "source_snapshot_hashes": {
+    "results/p1_human_analysis/v1/source_final_snapshot/finalize.py": "fab5f5f2c7de67bfb904419c2ff3d77fe7c97c744fa6e0c6ec91240fc3489041",
+    "results/p1_human_analysis/v1/source_final_snapshot/human_factorial.py": "18c9fa31fbc04e63cfb7de507383f6ebd27d567af48870cb8ce0a6e534d6907f",
+    "results/p1_human_analysis/v1/source_final_snapshot/make_reports.py": "21a2ba1b08ccf919f621fe056878c0b1fb3ba673d4d351619dda3b2b827eccc9",
+    "results/p1_human_analysis/v1/source_final_snapshot/p1_human_analysis.py": "318683a75cc1c5023335cc2badd8f0f5fdd8d1b7f98983c4b70b247204e43907",
+    "results/p1_human_analysis/v1/source_final_snapshot/researcher_analysis_specification_v1.json": "c9327c3210462a508027becb265f6f92bcff34a3eef3a1398851b766b4f65673",
+    "results/p1_human_analysis/v1/source_final_snapshot/test_human_factorial.py": "803417d486f5ad486b340f27d41f83756197451dd8d55335720004caa1859dd8"
+  },
+  "tests": {
+    "exit_code": 0,
+    "failed": 0,
+    "passed": 479,
+    "pytest_seconds": 23.12,
+    "warnings_reported": 0
+  },
+  "vendor_neutral_files_scanned": 308,
+  "version": "p1_researcher_analysis_delivery_v1"
+}

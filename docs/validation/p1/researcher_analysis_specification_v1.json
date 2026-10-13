@@ -1,0 +1,22 @@
+{
+  "version": "p1_researcher_annotation_analysis_v1",
+  "status": "Post-generation exploratory specification; recorded before this registration and unblinding, not preregistered",
+  "formal_protocol": "v1.1",
+  "prospective_protocol_adopted": false,
+  "annotation_freeze_before_unblinding": true,
+  "unit": "12 paired cases, one per fictional speaker; eight conditions per case",
+  "metrics": ["relevance", "coherence", "factual", "temporal", "semantic_complete", "COMPLETE", "TRUNCATED", "CROSS_TURN", "AMBIGUOUS"],
+  "contrasts": ["C1-C0", "C3-C0", "S", "F", "H", "SxF", "SxH", "FxH", "SxFxH"],
+  "coding": "Numeric 1-5 ratings retained; Correct=1 and Incorrect=0 only for applicable factual/temporal outcomes; Unverifiable remains missing, not zero. Completeness and structural status analyzed separately.",
+  "factorial_scaling": "Average on-off main differences /4; pairwise differences-in-differences /2 over remaining factor; triple difference-in-differences-in-differences /1.",
+  "weighting": "Equal paired-case weights within frozen eligibility; no C0-correct selection",
+  "uncertainty": "Case-level range, leave-one-case-out range, and family-stratified whole-case percentile bootstrap; 10000 draws, seed 713113. Ordinal rating means are descriptive score-point summaries. Degenerate ceiling intervals do not imply population certainty.",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 713113,
+  "significance_tests": false,
+  "multiple_testing": "No confirmatory tests, adjusted p-values, discovery selection or significance claims",
+  "missingness": "Retain all frozen eligible cases; report missing contrasts explicitly; no imputation",
+  "constraint_diagnostic": "Separate exploratory description using source narrative categories: complete greeting with constraint violation, unfinished reasoning, direct supported answer; no alteration to primary applicability or ratings",
+  "control_review": "24 P1 controls remain OPEN; no matched-control outcomes or contrasts",
+  "unblinding_scope": "Existing curator mapping read only after immutable researcher registration. Analysts may already know historical treatment results; no claim of analyst blindness."
+}
