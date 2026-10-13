@@ -1,0 +1,1499 @@
+{
+  "candidate_pool": [
+    "No speaker-specific style information is provided.",
+    "No speaker-specific style information is provided in this profile.",
+    "No speaker-specific linguistic style information is provided in this profile.",
+    "No speaker-specific linguistic style information is provided in this profile entry.",
+    "No speaker-specific linguistic style information is provided in this particular profile entry.",
+    "This profile contains no speaker-specific style information.",
+    "This profile contains no speaker-specific information about linguistic style.",
+    "This profile entry contains no speaker-specific information about linguistic style.",
+    "This profile entry contains no speaker-specific information about linguistic style or expression.",
+    "Linguistic style information for the speaker is not specified in this profile.",
+    "Linguistic style information for the speaker is not specified in this profile entry.",
+    "Linguistic style information for the speaker is not specified in this particular profile entry."
+  ],
+  "candidates_per_case": 12,
+  "case_count": 6,
+  "completion_requests_authorized": 0,
+  "config_file_sha256": "61dfc5a026d80715c80c8b3ffb6ee05f27689f4f068a86bffb49bbee16c82bfa",
+  "configuration": {
+    "endpoint": "http://127.0.0.1:8080",
+    "engine_revision": "0f701c882",
+    "max_match_candidates": 256,
+    "max_new_tokens": 96,
+    "model_file": "models/gguf/Qwen3.5-2B-Base.Q4_K_M.gguf",
+    "model_label": "Qwen3.5-2B-Base-Q4_K_M",
+    "model_sha256": "AB36F9A7B0194ED9A6F80EEB000DAC73002BCB14D0397C11C39417B6CD814994",
+    "n_ctx": 4096,
+    "prompt_template": "transcript_base_v1",
+    "seed": 42,
+    "server_file": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+    "startup_timeout": 120.0,
+    "threads": 4,
+    "timeout": 180.0,
+    "token_tolerance": 0
+  },
+  "created_utc": "2026-10-12T22:03:08.578243+00:00",
+  "dataset_records": [
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "control_v2_dev_001",
+      "context": [
+        "User: Please use the dated factual record when answering."
+      ],
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Leeds",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "old_residence",
+          "valid_from": "2024-01-01",
+          "valid_until": "2026-09-30",
+          "value": "York"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "current_residence",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Leeds"
+        }
+      ],
+      "history_dialogue": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: In York at the time.",
+      "neutral_history": "Development override required.",
+      "neutral_style": "Development override required.",
+      "persona_id": "riley",
+      "question": "Where does Riley currently live?",
+      "split": "development_only",
+      "style_only": "The speaker favors brief replies with short sentences and avoids extended elaboration.",
+      "supplemental_fact": "Not manipulated in this development-only diagnostic.",
+      "task_type": "current_city",
+      "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "control_v2_dev_002",
+      "context": [
+        "User: Please use the dated factual record when answering."
+      ],
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Bristol",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "old_residence",
+          "valid_from": "2024-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Bath"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "current_residence",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Bristol"
+        }
+      ],
+      "history_dialogue": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: In Bath at the time.",
+      "neutral_history": "Development override required.",
+      "neutral_style": "Development override required.",
+      "persona_id": "samara",
+      "question": "Where does Samara currently live?",
+      "split": "development_only",
+      "style_only": "The speaker favors formal wording and complete sentences in ordinary conversation.",
+      "supplemental_fact": "Not manipulated in this development-only diagnostic.",
+      "task_type": "current_city",
+      "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "control_v2_dev_003",
+      "context": [
+        "User: Please use the dated factual record when answering."
+      ],
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Durham",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "old_residence",
+          "valid_from": "2024-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Exeter"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "current_residence",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Durham"
+        }
+      ],
+      "history_dialogue": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: In Exeter at the time.",
+      "neutral_history": "Development override required.",
+      "neutral_style": "Development override required.",
+      "persona_id": "devon",
+      "question": "Where does Devon currently live?",
+      "split": "development_only",
+      "style_only": "The speaker sometimes uses the word certainly when acknowledging a request.",
+      "supplemental_fact": "Not manipulated in this development-only diagnostic.",
+      "task_type": "current_city",
+      "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "control_v2_dev_004",
+      "context": [
+        "User: Please use the dated factual record when answering."
+      ],
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Norwich",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "old_residence",
+          "valid_from": "2024-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Hull"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "current_residence",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Norwich"
+        }
+      ],
+      "history_dialogue": "Historical dialogue (2025-06-18):\nUser: Where were you living back then?\nTessa: In Hull at the time.",
+      "neutral_history": "Development override required.",
+      "neutral_style": "Development override required.",
+      "persona_id": "tessa",
+      "question": "Where does Tessa currently live?",
+      "split": "development_only",
+      "style_only": "The speaker uses contractions in conversational replies.",
+      "supplemental_fact": "Not manipulated in this development-only diagnostic.",
+      "task_type": "current_city",
+      "trusted_evidence": "Verified current fact (2026-10-12): Tessa currently lives in Norwich."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "control_v2_dev_005",
+      "context": [
+        "User: Please use the dated factual record when answering."
+      ],
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Lancaster",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "old_residence",
+          "valid_from": "2024-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Carlisle"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "current_residence",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Lancaster"
+        }
+      ],
+      "history_dialogue": "Historical dialogue (2025-08-21):\nUser: Where were you living back then?\nBlair: In Carlisle at the time.",
+      "neutral_history": "Development override required.",
+      "neutral_style": "Development override required.",
+      "persona_id": "blair",
+      "question": "Where does Blair currently live?",
+      "split": "development_only",
+      "style_only": "The speaker tends to acknowledge a question before giving an answer.",
+      "supplemental_fact": "Not manipulated in this development-only diagnostic.",
+      "task_type": "current_city",
+      "trusted_evidence": "Verified current fact (2026-10-12): Blair currently lives in Lancaster."
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "control_v2_dev_006",
+      "context": [
+        "User: Please use the dated factual record when answering."
+      ],
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Plymouth",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "old_residence",
+          "valid_from": "2024-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Gloucester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "current_residence",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Plymouth"
+        }
+      ],
+      "history_dialogue": "Historical dialogue (2025-11-09):\nUser: Where were you living back then?\nRobin: In Gloucester at the time.",
+      "neutral_history": "Development override required.",
+      "neutral_style": "Development override required.",
+      "persona_id": "robin",
+      "question": "Where does Robin currently live?",
+      "split": "development_only",
+      "style_only": "The speaker favors a single sentence when responding to a straightforward question.",
+      "supplemental_fact": "Not manipulated in this development-only diagnostic.",
+      "task_type": "current_city",
+      "trusted_evidence": "Verified current fact (2026-10-12): Robin currently lives in Plymouth."
+    }
+  ],
+  "dataset_sha256": "2469c88daeddd5f91882ccdd670a18ed0a7c7b2e55926feba9f4b7bd8dfe1453",
+  "dataset_version": "unchanged_six_control_v2_development_cases",
+  "freeze_id": "f7d9b96f6e58d5bd3215c3dead98ae8983c430cd8a4fb292c8287c4902660dee",
+  "git": {
+    "commit": "e1da38723b310ff6a12b04e1164ac20bb12feb1f",
+    "dirty": true,
+    "status_porcelain": " M README.md\n M docs/P0_acceptance_checklist.md\n M docs/P0_control_acceptance_report.md\n M docs/P0_final_validation_report.md\n M docs/P0_methodology_acceptance_report.md\n M docs/P0_neutral_control_diagnostic.md\n M docs/P0_policy_acceptance_report.md\n M docs/P0_real_inference_report.md\n M docs/P0_remaining_blockers.md\n M docs/P0_reproducibility_report.md\n M docs/related_work_novelty_matrix.md\n M docs/research_development_log.md\n?? docs/P0_control_decision_registration_report.md\n?? docs/P0_control_development_report_v2.md\n?? docs/P0_control_hypotheses_v3.md\n?? docs/P0_control_identification_matrix_v3.md\n?? docs/P0_engineering_report.md\n?? docs/P0_final_control_review_v3_guide.md\n?? docs/P0_final_neutral_control_validation_report.md\n?? docs/validation/P0_control_decision_delivery_v1.json\n?? docs/validation/P0_control_development_commands_v2.json\n?? docs/validation/P0_control_development_delivery_v2.json\n?? docs/validation/P0_control_development_final_checks_v2.json\n?? docs/validation/P0_control_development_selection_v2.json\n?? docs/validation/P0_control_literature_access_v2.json\n?? docs/validation/P0_engineering_report_validation_v1.json\n?? docs/validation/P0_final_control_analysis_v3.json\n?? docs/validation/P0_final_control_decision_attestation_v1.json\n?? docs/validation/P0_final_control_delivery_v3.json\n?? docs/validation/P0_final_control_evidence_v3.json\n?? docs/validation/P0_final_control_researcher_registration_v1/\n?? docs/validation/P0_final_control_review_v3.csv\n?? docs/validation/P0_final_control_review_v3.json\n?? docs/validation/PersonaSLM_P0_final_control_researcher_approved_v1.csv\n?? src/personaslm/control_closure.py\n?? src/personaslm/control_decisions.py\n?? src/personaslm/control_final_review.py\n?? tests/test_control_closure.py\n?? tests/test_control_decisions.py\n?? tests/test_control_final_review.py\n?? tools/p0_closure_review_import.py\n?? tools/p0_control_closure.py\n?? tools/p0_control_development_delivery_v2.py\n?? tools/p0_final_control_report.py\n?? tools/p0_final_control_review.py"
+  },
+  "limitations": [
+    "Header and style-related vocabulary still cue a profile frame",
+    "Explicit absence can influence default behavior; neutrality requires review",
+    "Declarative register is not proven stylistically inert",
+    "This reuses six development cases, not a holdout"
+  ],
+  "maximum_candidate_requests": 72,
+  "maximum_reference_requests": 6,
+  "model_sha256": "ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994",
+  "pairs": [
+    {
+      "candidates": [
+        {
+          "candidate_index": 0,
+          "conditioning_text": "No speaker-specific style information is provided.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific style information is provided."
+            ],
+            "case_id": "control_v2_dev_001",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific style information is provided.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+          },
+          "prompt_sha256": "b9f7e0640a59edef7b19e80c99571050ad72bdf46f32c5885bf08c946e66b7f5"
+        },
+        {
+          "candidate_index": 1,
+          "conditioning_text": "No speaker-specific style information is provided in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific style information is provided in this profile."
+            ],
+            "case_id": "control_v2_dev_001",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific style information is provided in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+          },
+          "prompt_sha256": "2e7e15b4e2d3844c54c98b7720302caa63e2a7f2adabd9e91ca746bd3d3e49bb"
+        },
+        {
+          "candidate_index": 2,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this profile."
+            ],
+            "case_id": "control_v2_dev_001",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+          },
+          "prompt_sha256": "5c614975637ab89610fee2acba481fe13c34f7ccf60ce668602d1399283c559a"
+        },
+        {
+          "candidate_index": 3,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this profile entry."
+            ],
+            "case_id": "control_v2_dev_001",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+          },
+          "prompt_sha256": "7e6bfa8bc7a17633663a302b218fd8f42e9c92666e9a25889502e321e497c1d3"
+        },
+        {
+          "candidate_index": 4,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this particular profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry."
+            ],
+            "case_id": "control_v2_dev_001",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+          },
+          "prompt_sha256": "043bc1811d043143a62b15d135f24d00d37352f5340f442b1e5adbcaf03820b1"
+        },
+        {
+          "candidate_index": 5,
+          "conditioning_text": "This profile contains no speaker-specific style information.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile contains no speaker-specific style information."
+            ],
+            "case_id": "control_v2_dev_001",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile contains no speaker-specific style information.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+          },
+          "prompt_sha256": "ef218b1f2535619db7bc8dcf86fddcaced3b0374bd48c5610a4becf47d4197f1"
+        },
+        {
+          "candidate_index": 6,
+          "conditioning_text": "This profile contains no speaker-specific information about linguistic style.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile contains no speaker-specific information about linguistic style."
+            ],
+            "case_id": "control_v2_dev_001",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile contains no speaker-specific information about linguistic style.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+          },
+          "prompt_sha256": "3fc5e404a68a28d064398d4ef13ce2135891a565c54ea59368492ca483a05fe0"
+        },
+        {
+          "candidate_index": 7,
+          "conditioning_text": "This profile entry contains no speaker-specific information about linguistic style.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile entry contains no speaker-specific information about linguistic style."
+            ],
+            "case_id": "control_v2_dev_001",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile entry contains no speaker-specific information about linguistic style.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+          },
+          "prompt_sha256": "b4f03e7a4372f6e3175ab05e5d385681965e41aec70eb955aebdeb710e8e8406"
+        },
+        {
+          "candidate_index": 8,
+          "conditioning_text": "This profile entry contains no speaker-specific information about linguistic style or expression.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile entry contains no speaker-specific information about linguistic style or expression."
+            ],
+            "case_id": "control_v2_dev_001",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile entry contains no speaker-specific information about linguistic style or expression.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+          },
+          "prompt_sha256": "384aa124dba087f6559f36819dbd9cf81598df986f5ac2d1efd50a69d159c7d3"
+        },
+        {
+          "candidate_index": 9,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this profile."
+            ],
+            "case_id": "control_v2_dev_001",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+          },
+          "prompt_sha256": "788afe07b15388152cfe8207d13efca68577e71dfcd571a1e7bf4035b6abac7c"
+        },
+        {
+          "candidate_index": 10,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this profile entry."
+            ],
+            "case_id": "control_v2_dev_001",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+          },
+          "prompt_sha256": "af61d67a1ddb0c8f0508adedc181feb6d5e5aa4be37bcea71f278120bfa5323a"
+        },
+        {
+          "candidate_index": 11,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this particular profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this particular profile entry."
+            ],
+            "case_id": "control_v2_dev_001",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this particular profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+          },
+          "prompt_sha256": "71707aecddf0df5edaf66889b1f0321c6c3dfc01eabc38e77c87697645d4c45f"
+        }
+      ],
+      "case_id": "control_v2_dev_001",
+      "current_question": "Where does Riley currently live?",
+      "previous_candidate_id": "control_v2_dev_001__style_generic__pool23__294bd9df9d55",
+      "reference_prompt": {
+        "additions": [
+          "Speaker style profile: The speaker favors brief replies with short sentences and avoids extended elaboration."
+        ],
+        "case_id": "control_v2_dev_001",
+        "condition": "C1",
+        "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.",
+        "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Riley currently lives in Leeds.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: The speaker favors brief replies with short sentences and avoids extended elaboration.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Riley currently live?\nAssistant:"
+      },
+      "reference_prompt_sha256": "a7cb04379138287b6182d9531892840d78a2bf3484e48a26f7e6759de1fbfebb",
+      "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds.",
+      "trusted_evidence_hash": "447ffd6cd3c867f69af2ca472ee86eb88421d895bfb46e20c41cd7610b6de109"
+    },
+    {
+      "candidates": [
+        {
+          "candidate_index": 0,
+          "conditioning_text": "No speaker-specific style information is provided.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific style information is provided."
+            ],
+            "case_id": "control_v2_dev_002",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific style information is provided.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+          },
+          "prompt_sha256": "a9a10873fea5f2a80c9ac38f1201d5876cbc6dd2627d0d177519e4d51c08e7b1"
+        },
+        {
+          "candidate_index": 1,
+          "conditioning_text": "No speaker-specific style information is provided in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific style information is provided in this profile."
+            ],
+            "case_id": "control_v2_dev_002",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific style information is provided in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+          },
+          "prompt_sha256": "0645af150aee4471c6ae3d9493adf2dfa468026576a02150ddee257f53c59e3b"
+        },
+        {
+          "candidate_index": 2,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this profile."
+            ],
+            "case_id": "control_v2_dev_002",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+          },
+          "prompt_sha256": "df265e565707780170616611732146d9a2411c7acb9d753727310ba768d09cdd"
+        },
+        {
+          "candidate_index": 3,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this profile entry."
+            ],
+            "case_id": "control_v2_dev_002",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+          },
+          "prompt_sha256": "917f8014984952df22b421d360550164e4a85023bd8b3bf9765011c4028cbaea"
+        },
+        {
+          "candidate_index": 4,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this particular profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry."
+            ],
+            "case_id": "control_v2_dev_002",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+          },
+          "prompt_sha256": "353a8c43ab3986180aa09c0245dfa039baf97f71db833fbb7f46df72b52d657b"
+        },
+        {
+          "candidate_index": 5,
+          "conditioning_text": "This profile contains no speaker-specific style information.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile contains no speaker-specific style information."
+            ],
+            "case_id": "control_v2_dev_002",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile contains no speaker-specific style information.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+          },
+          "prompt_sha256": "0db6a53e83a00065e5d0ba61e5d459989a3dd22cb086fe88031924540e8b39ef"
+        },
+        {
+          "candidate_index": 6,
+          "conditioning_text": "This profile contains no speaker-specific information about linguistic style.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile contains no speaker-specific information about linguistic style."
+            ],
+            "case_id": "control_v2_dev_002",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile contains no speaker-specific information about linguistic style.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+          },
+          "prompt_sha256": "58cd29c1beab13ef1f3b16369ce3a620e26b34dc9ac2f7c0c4ba1856a7a2a71c"
+        },
+        {
+          "candidate_index": 7,
+          "conditioning_text": "This profile entry contains no speaker-specific information about linguistic style.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile entry contains no speaker-specific information about linguistic style."
+            ],
+            "case_id": "control_v2_dev_002",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile entry contains no speaker-specific information about linguistic style.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+          },
+          "prompt_sha256": "d95dfbd1969c155bca0ed4b624595b6263f99d8b70452704d54ca5656a1a9ce0"
+        },
+        {
+          "candidate_index": 8,
+          "conditioning_text": "This profile entry contains no speaker-specific information about linguistic style or expression.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile entry contains no speaker-specific information about linguistic style or expression."
+            ],
+            "case_id": "control_v2_dev_002",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile entry contains no speaker-specific information about linguistic style or expression.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+          },
+          "prompt_sha256": "e7bf468330da4614a864841ea0206327e9a0df163ba2ef22efef24d48dd15bb6"
+        },
+        {
+          "candidate_index": 9,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this profile."
+            ],
+            "case_id": "control_v2_dev_002",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+          },
+          "prompt_sha256": "c48422c68c0dcb3efa8bb6ebf8f2c3b01cd6073ba84b59ab877ee63edc8ee910"
+        },
+        {
+          "candidate_index": 10,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this profile entry."
+            ],
+            "case_id": "control_v2_dev_002",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+          },
+          "prompt_sha256": "fa3676032cea01570c07cf04e1cfd20a4e2a8c741300b8479e669eb6d2a4f5c4"
+        },
+        {
+          "candidate_index": 11,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this particular profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this particular profile entry."
+            ],
+            "case_id": "control_v2_dev_002",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this particular profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+          },
+          "prompt_sha256": "f05c588c2d6a9d46fda2907e82aa400e145775cf49cac598416407f9e8f171de"
+        }
+      ],
+      "case_id": "control_v2_dev_002",
+      "current_question": "Where does Samara currently live?",
+      "previous_candidate_id": "control_v2_dev_002__style_generic__pool04__adcd59ceae18",
+      "reference_prompt": {
+        "additions": [
+          "Speaker style profile: The speaker favors formal wording and complete sentences in ordinary conversation."
+        ],
+        "case_id": "control_v2_dev_002",
+        "condition": "C1",
+        "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.",
+        "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Samara currently lives in Bristol.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: The speaker favors formal wording and complete sentences in ordinary conversation.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Samara currently live?\nAssistant:"
+      },
+      "reference_prompt_sha256": "866bb97489772c23f39bde16836fb70bfd836ca726996706d2d00118d06131f2",
+      "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol.",
+      "trusted_evidence_hash": "8a9c1df0e05bfdbf58db7374e362c5c16e781e2c767ada967da7c24f6e08f28e"
+    },
+    {
+      "candidates": [
+        {
+          "candidate_index": 0,
+          "conditioning_text": "No speaker-specific style information is provided.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific style information is provided."
+            ],
+            "case_id": "control_v2_dev_003",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific style information is provided.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+          },
+          "prompt_sha256": "9e2e9b5864543d9d1d47c716b3ddcc04450d6b52154247516a935171be074d02"
+        },
+        {
+          "candidate_index": 1,
+          "conditioning_text": "No speaker-specific style information is provided in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific style information is provided in this profile."
+            ],
+            "case_id": "control_v2_dev_003",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific style information is provided in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+          },
+          "prompt_sha256": "02dfb8a944c74ff7f773b9239d1ae57cde4cdb083b7f1d152214353035df3b52"
+        },
+        {
+          "candidate_index": 2,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this profile."
+            ],
+            "case_id": "control_v2_dev_003",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+          },
+          "prompt_sha256": "b7688daafb6c2e074467e1562a1b47e065bd962d44963b3af41187607b893236"
+        },
+        {
+          "candidate_index": 3,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this profile entry."
+            ],
+            "case_id": "control_v2_dev_003",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+          },
+          "prompt_sha256": "bbc8b39caa1dbe4682b6c794faa2b10970bdc77030e7f391037bfc953d26ef02"
+        },
+        {
+          "candidate_index": 4,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this particular profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry."
+            ],
+            "case_id": "control_v2_dev_003",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+          },
+          "prompt_sha256": "62fcf03e7803e78c23ce6ad7c7df2e9f673471a8f476dfc2e13ac1bd5eaa3359"
+        },
+        {
+          "candidate_index": 5,
+          "conditioning_text": "This profile contains no speaker-specific style information.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile contains no speaker-specific style information."
+            ],
+            "case_id": "control_v2_dev_003",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile contains no speaker-specific style information.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+          },
+          "prompt_sha256": "564131452fe11ce0671daaf3e542db00f4a5e04606a2f402a40ea0f8a675bd9d"
+        },
+        {
+          "candidate_index": 6,
+          "conditioning_text": "This profile contains no speaker-specific information about linguistic style.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile contains no speaker-specific information about linguistic style."
+            ],
+            "case_id": "control_v2_dev_003",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile contains no speaker-specific information about linguistic style.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+          },
+          "prompt_sha256": "b7d405cd96415b41f3a17e9a2baeceb27ad20fb0e8254a54b574489ea3a8b95f"
+        },
+        {
+          "candidate_index": 7,
+          "conditioning_text": "This profile entry contains no speaker-specific information about linguistic style.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile entry contains no speaker-specific information about linguistic style."
+            ],
+            "case_id": "control_v2_dev_003",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile entry contains no speaker-specific information about linguistic style.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+          },
+          "prompt_sha256": "858f0db6049892e81b010a0b354edb280418f4cffa9aef49396f0f3a4f871723"
+        },
+        {
+          "candidate_index": 8,
+          "conditioning_text": "This profile entry contains no speaker-specific information about linguistic style or expression.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile entry contains no speaker-specific information about linguistic style or expression."
+            ],
+            "case_id": "control_v2_dev_003",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile entry contains no speaker-specific information about linguistic style or expression.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+          },
+          "prompt_sha256": "6c3bc58baf1b150fe8c0dce5befb4623c46ae9a1607919b6c8c84dba8ab37c5b"
+        },
+        {
+          "candidate_index": 9,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this profile."
+            ],
+            "case_id": "control_v2_dev_003",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+          },
+          "prompt_sha256": "ca27dba551b753069c3bf4113774572311afd2b464e10507ea0f7905dea68126"
+        },
+        {
+          "candidate_index": 10,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this profile entry."
+            ],
+            "case_id": "control_v2_dev_003",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+          },
+          "prompt_sha256": "aab41912d842fc59be0b2bc55a9204e6ecfe6626a2373328189dbf8a0c5e921c"
+        },
+        {
+          "candidate_index": 11,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this particular profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this particular profile entry."
+            ],
+            "case_id": "control_v2_dev_003",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this particular profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+          },
+          "prompt_sha256": "c88123b1f68ed231ef864061ec564577a80bfb9ab22ca5eabd7aeac033907c74"
+        }
+      ],
+      "case_id": "control_v2_dev_003",
+      "current_question": "Where does Devon currently live?",
+      "previous_candidate_id": "control_v2_dev_003__style_generic__pool04__0adac871074b",
+      "reference_prompt": {
+        "additions": [
+          "Speaker style profile: The speaker sometimes uses the word certainly when acknowledging a request."
+        ],
+        "case_id": "control_v2_dev_003",
+        "condition": "C1",
+        "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.",
+        "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Devon currently lives in Durham.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: The speaker sometimes uses the word certainly when acknowledging a request.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Devon currently live?\nAssistant:"
+      },
+      "reference_prompt_sha256": "50d4e175b82408748541e4d1e3af91810b55e62d9939a40ec57d86d49018543f",
+      "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham.",
+      "trusted_evidence_hash": "881fa800089c086c0a64f1798007faed8cdec67334a50d7b5d9d9dcc8fde785c"
+    },
+    {
+      "candidates": [
+        {
+          "candidate_index": 0,
+          "conditioning_text": "No speaker-specific style information is provided.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific style information is provided."
+            ],
+            "case_id": "control_v2_dev_004",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific style information is provided.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+          },
+          "prompt_sha256": "55ec7a6503367e0430f7c73b4f24bb4050c91e98ca8fa4747c79c302a295c5c0"
+        },
+        {
+          "candidate_index": 1,
+          "conditioning_text": "No speaker-specific style information is provided in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific style information is provided in this profile."
+            ],
+            "case_id": "control_v2_dev_004",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific style information is provided in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+          },
+          "prompt_sha256": "3551d63e3544bab02943856a6c8bceca49e35b7e385bc662cfe6e0d39a3c21c5"
+        },
+        {
+          "candidate_index": 2,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this profile."
+            ],
+            "case_id": "control_v2_dev_004",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+          },
+          "prompt_sha256": "7bc18c83bc486836d850ef5c6803b4b9167fcd619d15b7ab217dbc19d5911c06"
+        },
+        {
+          "candidate_index": 3,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this profile entry."
+            ],
+            "case_id": "control_v2_dev_004",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+          },
+          "prompt_sha256": "95ca2675352d59c2ed4569ec6b60b002e1f887ac2792cab70fb93a27649a7984"
+        },
+        {
+          "candidate_index": 4,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this particular profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry."
+            ],
+            "case_id": "control_v2_dev_004",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+          },
+          "prompt_sha256": "ed23967bf000e8e40147cda159b04e5b6cebee7deed9e951db3c325000765165"
+        },
+        {
+          "candidate_index": 5,
+          "conditioning_text": "This profile contains no speaker-specific style information.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile contains no speaker-specific style information."
+            ],
+            "case_id": "control_v2_dev_004",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile contains no speaker-specific style information.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+          },
+          "prompt_sha256": "742194f51a8e928c2e851e259946cf58cac9d6034d3bcc887894f4d6dee015a3"
+        },
+        {
+          "candidate_index": 6,
+          "conditioning_text": "This profile contains no speaker-specific information about linguistic style.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile contains no speaker-specific information about linguistic style."
+            ],
+            "case_id": "control_v2_dev_004",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile contains no speaker-specific information about linguistic style.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+          },
+          "prompt_sha256": "5e7b5736ddf8a1962108085bbbe2f4766787a05b3140ff9fd78a11b596ba9b58"
+        },
+        {
+          "candidate_index": 7,
+          "conditioning_text": "This profile entry contains no speaker-specific information about linguistic style.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile entry contains no speaker-specific information about linguistic style."
+            ],
+            "case_id": "control_v2_dev_004",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile entry contains no speaker-specific information about linguistic style.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+          },
+          "prompt_sha256": "51cedb2cc29a5a28e3bca2ddc5419c2443c2f051b9ca32f3b9bf05f441beff14"
+        },
+        {
+          "candidate_index": 8,
+          "conditioning_text": "This profile entry contains no speaker-specific information about linguistic style or expression.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile entry contains no speaker-specific information about linguistic style or expression."
+            ],
+            "case_id": "control_v2_dev_004",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile entry contains no speaker-specific information about linguistic style or expression.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+          },
+          "prompt_sha256": "c761dc0751246267548cd928f9e61675e40e3ea0ceb60b58a1d73048c9263f67"
+        },
+        {
+          "candidate_index": 9,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this profile."
+            ],
+            "case_id": "control_v2_dev_004",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+          },
+          "prompt_sha256": "f0fb081ce7ef60456967882b0272771ccfe726cbfde861c7c1d8be9d6cb1b5ce"
+        },
+        {
+          "candidate_index": 10,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this profile entry."
+            ],
+            "case_id": "control_v2_dev_004",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+          },
+          "prompt_sha256": "a30294c277bc4589606d91bf2ccab5d3daaffe34b8ac4ea86acda7007150b724"
+        },
+        {
+          "candidate_index": 11,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this particular profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this particular profile entry."
+            ],
+            "case_id": "control_v2_dev_004",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this particular profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+          },
+          "prompt_sha256": "07d98f488c4c097c55f2bcea19b83fb4b0ccf3fff449f32fd27a22e4ffa04e68"
+        }
+      ],
+      "case_id": "control_v2_dev_004",
+      "current_question": "Where does Tessa currently live?",
+      "previous_candidate_id": "control_v2_dev_004__style_generic__pool01__237a2b6e80ab",
+      "reference_prompt": {
+        "additions": [
+          "Speaker style profile: The speaker uses contractions in conversational replies."
+        ],
+        "case_id": "control_v2_dev_004",
+        "condition": "C1",
+        "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.",
+        "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Tessa currently lives in Norwich.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: The speaker uses contractions in conversational replies.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Tessa currently live?\nAssistant:"
+      },
+      "reference_prompt_sha256": "420294b895b631db5b59f98bfbfeed0e4b5f37b9dc204fd12cd22b5c060289d3",
+      "trusted_evidence": "Verified current fact (2026-10-12): Tessa currently lives in Norwich.",
+      "trusted_evidence_hash": "7a35cf41beb66ae8e0a165dbb230539760b899a08e4c2135cfb85edcf8dcb2ca"
+    },
+    {
+      "candidates": [
+        {
+          "candidate_index": 0,
+          "conditioning_text": "No speaker-specific style information is provided.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific style information is provided."
+            ],
+            "case_id": "control_v2_dev_005",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific style information is provided.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+          },
+          "prompt_sha256": "b398ae2ed4822445ad544d6d7bd03d18d4e7817855895ff381471dcb1e86ce0c"
+        },
+        {
+          "candidate_index": 1,
+          "conditioning_text": "No speaker-specific style information is provided in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific style information is provided in this profile."
+            ],
+            "case_id": "control_v2_dev_005",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific style information is provided in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+          },
+          "prompt_sha256": "0b9c72f095f787469e5568288b59f0cb61595249f16e7958a5015f13547be4d1"
+        },
+        {
+          "candidate_index": 2,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this profile."
+            ],
+            "case_id": "control_v2_dev_005",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+          },
+          "prompt_sha256": "c0ca518a070d3e11eeb633944e48f48bd2b1e186aa6c360824ea9b84098c4737"
+        },
+        {
+          "candidate_index": 3,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this profile entry."
+            ],
+            "case_id": "control_v2_dev_005",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+          },
+          "prompt_sha256": "e5b49fdb71740f32f102e066cb5235ad0eeef42dc7a48263cbbf1270db8f1cd8"
+        },
+        {
+          "candidate_index": 4,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this particular profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry."
+            ],
+            "case_id": "control_v2_dev_005",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+          },
+          "prompt_sha256": "35ec263e931b63cf09195f080e337a87e2bd94e157e1991024a5d8f67a5d1331"
+        },
+        {
+          "candidate_index": 5,
+          "conditioning_text": "This profile contains no speaker-specific style information.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile contains no speaker-specific style information."
+            ],
+            "case_id": "control_v2_dev_005",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile contains no speaker-specific style information.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+          },
+          "prompt_sha256": "1aadf2f883d40656ff3cfc814413e34620fb8273629f6e2fc04160147fd10c27"
+        },
+        {
+          "candidate_index": 6,
+          "conditioning_text": "This profile contains no speaker-specific information about linguistic style.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile contains no speaker-specific information about linguistic style."
+            ],
+            "case_id": "control_v2_dev_005",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile contains no speaker-specific information about linguistic style.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+          },
+          "prompt_sha256": "415ff18099bea6cb27f1f97e7c1e983432501a951f2078b3d1d0c4072216178a"
+        },
+        {
+          "candidate_index": 7,
+          "conditioning_text": "This profile entry contains no speaker-specific information about linguistic style.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile entry contains no speaker-specific information about linguistic style."
+            ],
+            "case_id": "control_v2_dev_005",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile entry contains no speaker-specific information about linguistic style.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+          },
+          "prompt_sha256": "956decae35ee1fef96f8631fc47261133c9254e6be6dbb47cad91c8ea4382374"
+        },
+        {
+          "candidate_index": 8,
+          "conditioning_text": "This profile entry contains no speaker-specific information about linguistic style or expression.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile entry contains no speaker-specific information about linguistic style or expression."
+            ],
+            "case_id": "control_v2_dev_005",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile entry contains no speaker-specific information about linguistic style or expression.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+          },
+          "prompt_sha256": "d962cbe5518d5a1fd02905a1a034b7c7442362b9380f7447e9b48d4ba46f4f4f"
+        },
+        {
+          "candidate_index": 9,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this profile."
+            ],
+            "case_id": "control_v2_dev_005",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+          },
+          "prompt_sha256": "170315bff4c1c17b598e7292d2ab97fab918b9f71f80da7ce174beecdb5fcd5f"
+        },
+        {
+          "candidate_index": 10,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this profile entry."
+            ],
+            "case_id": "control_v2_dev_005",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+          },
+          "prompt_sha256": "00fcd9ec9dc8fefcf704c1407903f2a348431d581505f89a2080d11f89f939fe"
+        },
+        {
+          "candidate_index": 11,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this particular profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this particular profile entry."
+            ],
+            "case_id": "control_v2_dev_005",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this particular profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+          },
+          "prompt_sha256": "1d89a0c423b33087cf7d90602ac04ae1247ac7e02f00b63699f855b7137407d4"
+        }
+      ],
+      "case_id": "control_v2_dev_005",
+      "current_question": "Where does Blair currently live?",
+      "previous_candidate_id": "control_v2_dev_005__style_generic__pool04__3c4e66c531c3",
+      "reference_prompt": {
+        "additions": [
+          "Speaker style profile: The speaker tends to acknowledge a question before giving an answer."
+        ],
+        "case_id": "control_v2_dev_005",
+        "condition": "C1",
+        "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.",
+        "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Blair currently lives in Lancaster.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: The speaker tends to acknowledge a question before giving an answer.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Blair currently live?\nAssistant:"
+      },
+      "reference_prompt_sha256": "b503837fbdc64669403e669b12ae982c640702fa47498fb622b4282fdb6ee524",
+      "trusted_evidence": "Verified current fact (2026-10-12): Blair currently lives in Lancaster.",
+      "trusted_evidence_hash": "fc9413f7afc909d46e1ff092424a8868e51ac9d546a77fb32f3a715732b16842"
+    },
+    {
+      "candidates": [
+        {
+          "candidate_index": 0,
+          "conditioning_text": "No speaker-specific style information is provided.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific style information is provided."
+            ],
+            "case_id": "control_v2_dev_006",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific style information is provided.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+          },
+          "prompt_sha256": "748c469e94bce225f574ba64b2c7ef0dcda566d9cf03629cb504cf9432109c85"
+        },
+        {
+          "candidate_index": 1,
+          "conditioning_text": "No speaker-specific style information is provided in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific style information is provided in this profile."
+            ],
+            "case_id": "control_v2_dev_006",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific style information is provided in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+          },
+          "prompt_sha256": "9addcde1d71b9af95ca96fa1b344b0b0602fd3dae9fd4713d149473a4be88995"
+        },
+        {
+          "candidate_index": 2,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this profile."
+            ],
+            "case_id": "control_v2_dev_006",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+          },
+          "prompt_sha256": "10b6195e683ef59f27000120ef38164e6032f643e633444bf6aef4afa0f07173"
+        },
+        {
+          "candidate_index": 3,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this profile entry."
+            ],
+            "case_id": "control_v2_dev_006",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+          },
+          "prompt_sha256": "84aff73be631c71a2a71a1c35a20e251f566db5faef9f4bb66ae44f30509a09d"
+        },
+        {
+          "candidate_index": 4,
+          "conditioning_text": "No speaker-specific linguistic style information is provided in this particular profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry."
+            ],
+            "case_id": "control_v2_dev_006",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+          },
+          "prompt_sha256": "5508d61908992318e59cdf34603a845a06267a8c032237fd2dce820e1732b68b"
+        },
+        {
+          "candidate_index": 5,
+          "conditioning_text": "This profile contains no speaker-specific style information.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile contains no speaker-specific style information."
+            ],
+            "case_id": "control_v2_dev_006",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile contains no speaker-specific style information.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+          },
+          "prompt_sha256": "01e81e4ab98b2afc51257aa8a27eddf29635c6a33e5cde61233f9d13569f0165"
+        },
+        {
+          "candidate_index": 6,
+          "conditioning_text": "This profile contains no speaker-specific information about linguistic style.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile contains no speaker-specific information about linguistic style."
+            ],
+            "case_id": "control_v2_dev_006",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile contains no speaker-specific information about linguistic style.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+          },
+          "prompt_sha256": "57ff139614babd249a46047dd99158214c8f0b3bae678b83b1cef019e847aacc"
+        },
+        {
+          "candidate_index": 7,
+          "conditioning_text": "This profile entry contains no speaker-specific information about linguistic style.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile entry contains no speaker-specific information about linguistic style."
+            ],
+            "case_id": "control_v2_dev_006",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile entry contains no speaker-specific information about linguistic style.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+          },
+          "prompt_sha256": "345a4115fd110e7a2db0bef0e63015d0a323ba9d130eb9f8e7df5023b49accb7"
+        },
+        {
+          "candidate_index": 8,
+          "conditioning_text": "This profile entry contains no speaker-specific information about linguistic style or expression.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: This profile entry contains no speaker-specific information about linguistic style or expression."
+            ],
+            "case_id": "control_v2_dev_006",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: This profile entry contains no speaker-specific information about linguistic style or expression.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+          },
+          "prompt_sha256": "1ad807c905bfdc9d47c010ee4b9e0a6228ca7eaeb8080798c5dad30c53b96462"
+        },
+        {
+          "candidate_index": 9,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this profile.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this profile."
+            ],
+            "case_id": "control_v2_dev_006",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this profile.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+          },
+          "prompt_sha256": "7a7664d6bd8f356eef5ba3389a8da634d7078e670b8b8bf7454e6a12d0ac5625"
+        },
+        {
+          "candidate_index": 10,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this profile entry."
+            ],
+            "case_id": "control_v2_dev_006",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+          },
+          "prompt_sha256": "f44b12202fca013468cb8a27570f64cd4e1ac634c8e939bc3ed5acac41991de8"
+        },
+        {
+          "candidate_index": 11,
+          "conditioning_text": "Linguistic style information for the speaker is not specified in this particular profile entry.",
+          "prompt": {
+            "additions": [
+              "Speaker style profile: Linguistic style information for the speaker is not specified in this particular profile entry."
+            ],
+            "case_id": "control_v2_dev_006",
+            "condition": "N_style",
+            "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+            "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: Linguistic style information for the speaker is not specified in this particular profile entry.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+          },
+          "prompt_sha256": "42ed4ee6e924ec0aa394ee8ce853ce9566d1f991433b545f019387906e08389b"
+        }
+      ],
+      "case_id": "control_v2_dev_006",
+      "current_question": "Where does Robin currently live?",
+      "previous_candidate_id": "control_v2_dev_006__style_generic__pool03__a0012f6e5297",
+      "reference_prompt": {
+        "additions": [
+          "Speaker style profile: The speaker favors a single sentence when responding to a straightforward question."
+        ],
+        "case_id": "control_v2_dev_006",
+        "condition": "C1",
+        "evidence_block": "TRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.",
+        "text": "CONTINUE THE DIALOGUE. Use the verified facts for factual questions.\n\nTRUSTED EVIDENCE:\nVerified current fact (2026-10-12): Robin currently lives in Plymouth.\n\nADDITIONAL CONTEXT:\nSpeaker style profile: The speaker favors a single sentence when responding to a straightforward question.\n\nRECENT CONVERSATION:\nUser: Please use the dated factual record when answering.\n\nUser: Where does Robin currently live?\nAssistant:"
+      },
+      "reference_prompt_sha256": "15acc7a4a4895f350ccd55188800254caa49a0d3e9fb153cde244b03b4b2dcf3",
+      "trusted_evidence": "Verified current fact (2026-10-12): Robin currently lives in Plymouth.",
+      "trusted_evidence_hash": "94fd43844bb169b0e788e8b149776101632f190449ca1710390e4881f7d97e02"
+    }
+  ],
+  "prompt_template_version": "transcript_base_v1",
+  "rationale": "Replace generic discourse definitions with declarative absence-of-style-metadata statements. Preserve heading and all task input. No specified style preference or personal fact is added.",
+  "selection": "Evaluate the12 frozen alternatives per case once; earliest exact match. If none, report the smallest absolute difference then earliest index, mark FAILED and do not expand.",
+  "server_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+  "source_candidate_freeze_sha256": "62b213ce7741ebf1a10d585077f783a4180430955e5599260e15790c7ee392d4",
+  "source_master_sha256": "8036dd091711e404f824b4de0bf65be89baa5e9962afc0b64f6c94893682c154",
+  "source_registration_sha256": "5820ee733469a0cf9d615f2ba56816e4597af22624c9f7863dcb5fc0fccb0a6e",
+  "source_sha256": {
+    "__init__.py": "50c9f2b9e8c5d2ac8956d2a1511eafb3189de2ec435c49947470efa23c59f63e",
+    "__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+    "boundary_review.py": "b2f1d39fa3bce223a7d28e03ff2aff804292563699e3e3c41d5cf7b560abc13a",
+    "cli.py": "ae7e206bb0985e127833600b4ab480cfadfffd0d808d87db810961ec5c81bf3b",
+    "conditioning.py": "7b0e6a2230b241f86fec024d6768a9a9c08662945b8cfd668f5445dd5f4d24e6",
+    "configuration.py": "8dc3c11eebeae67698d9afc64c61b1252edf5ee7219f59a27ff9e1d9179253f3",
+    "control_candidates.py": "6f8f7c705ea4df14bbda1e443b9f5a400dd9a46bc3025a3036c0ff02c5174417",
+    "control_candidates_v2.py": "0a8ae1643ac1c02a6cbf33fefc6ce3cdc63b14d66b87361824d97cdf999acce0",
+    "control_closure.py": "3642fb2ff7734ce2a7dae5c4b862b1fe09dc23301b9ade38b1ff6b8cde7c0fd2",
+    "control_decisions.py": "62672bdc63b115913362479a1683dcd56f0cc10b5899269d96b7843234f402bd",
+    "control_final_review.py": "21624b4cf08a0bf9a3662d5a6849dab1a2a18dbfbcc4bad6efecff31f144ad7e",
+    "control_resolution_review.py": "800dc60c97358a52d42d7c8e57a41d9736c17af87eb0d9e4e3ce07f10a0698e6",
+    "control_review_v2.py": "151d1996c0c160c1473cd0c5c9bc4e9f0903e5ea977be8771af5e6a676e505ac",
+    "diagnostics.py": "6609235e7a42894bde17a564ce828078682cecedf60a70e47daf3ab3ce8cee0e",
+    "evaluation.py": "dad279efdcad594c1328ff09b7e1752014afecfa6259cf54c52ecda678352f95",
+    "evaluation_policy.py": "dfe76a761c65966aeaf6a93bb4cd5ce186c704b2289e83b1184dac63aea76556",
+    "evaluation_v2.py": "d9e09a7a9095c7f2d58989fbb6d03bf9545c58cb538eecf69e38bae1c5be38c7",
+    "evaluation_v3.py": "83c63821303798a373da6491e39cc0aca4b3f7d35fa50491e38ce06b9ee36965",
+    "fixtures.py": "46e938f78cfbc601ab4bdf617421a87fa8a4176df5751f6ae6f359ab68c53e8e",
+    "inference.py": "5c9032a466e26393b69e215005466abe4ca11c6079742fed73610b3e7cfbedda",
+    "journal.py": "c2f2093b3f4728814089667d95e9c2bca685b9d3deb9151913fc891da49df07f",
+    "matching.py": "37963e2a4ade64889b521437b99d1cd7e9aa867ebfcb832429eae96377ee9150",
+    "neutral_review.py": "d9757d9d60c88c90112bcf977e0643351356f08add64561aa575dcbecfeed925",
+    "observations.py": "c276fe85b329e3d099e66c67f2c7afdd0b6f77d39ec9f134da43140ff4ddab4b",
+    "provenance.py": "7f64e9d2f40c3042d312896006511cfd7e277a7b2131d57644bcb5804503bcd1",
+    "reproducibility.py": "0d6cc5ad8dcc9e764e6522bb3fce581b64599d22be3314e54e38f7444257a64c",
+    "researcher_review.py": "885139f6687d516edad9d74fb1293247aeb22dc3171015b7565c39a7da5abbce",
+    "response_boundary.py": "a009274f49217cac7f5f725840f664566a3bdd970351f1137a37ce8b36b3bde3",
+    "response_status.py": "7d0cde00dcef5f75f82b9b95b06ba0b7e6a3b9a3f8209aa834be5c60e32ee0cd",
+    "run_audit.py": "31063924a782e1c48fbf3cfa70d87df1e6e8cc5aac9f3b745a08b07f529d2bec",
+    "runner.py": "e4e1d9314a6b57ae13c271736fcd529e4ec9181aa2647d725a260df9011dfe77",
+    "schemas.py": "fc2936e5f41c6342561156a18ee4a643395c538c01d24e704f80c3a893585af3",
+    "server.py": "5df06c80c6095e76726af9ad97d48f63086a8c0748abb06625bce504ad605af6"
+  },
+  "token_tolerance": 0,
+  "tool_sha256": {
+    "tools/p0_capture.py": "8ab562f7effc85375718b06bea52d7e9c45bdd9da9b14c249d050714a4f76832",
+    "tools/p0_closure_review_import.py": "14c8a4220b7d7357e73fb3b80210d9098d473365ddd36f724682d6e16108a57a",
+    "tools/p0_control_closure.py": "253375c16570a272e0e1ad0d00f8856e900b43177033cd3881eb810209d401ad",
+    "tools/p0_control_delivery.py": "c0e323ed835a72ffcfdeda02d080cb8de3945d7ee8cc714d5287aeed2700ae7c",
+    "tools/p0_control_development_delivery_v2.py": "9217b638891d5470e91fc1de758c2de6ab588a0229e8691dda06e02bf1de637b",
+    "tools/p0_control_development_report_v2.py": "503bbb1118ea6e5de0c97bd244a4f5200049657437878a6e36aa27352d587c77",
+    "tools/p0_control_development_v2.py": "087282a1f61a552d3cd2e4c2810b1a98f5694fb6856fb65bf043fdeb4b842458",
+    "tools/p0_control_report.py": "17946ebf192b46d2e75f8f0dd97e36cbe448d7b4b7c15a0ae208c06f52a019dc",
+    "tools/p0_control_validation.py": "36137915d3e58b3fcde11a7e3d23743014f4d31694b06052567c7080441ffa43",
+    "tools/p0_export_evidence.py": "d94285b2fc7b776d99e89aa7bdd9fe40923760f3d6fa37821e95f1d1433db534",
+    "tools/p0_fetch_provenance.py": "822e3d43768b3035bc75659cb82f4c51170ef756f52a49fc7455373436feac34",
+    "tools/p0_final_control_report.py": "b4d609cbbf525dbe280546801f9ee39c5b101062736fa4d1754800e4d6b634d3",
+    "tools/p0_final_control_review.py": "3daab37d0b8022abe10deb4e68f8e1f4892399d5029239738557832fe8fbe597",
+    "tools/p0_final_methodology.py": "759787731571fe7b93026fa9e3213b9d3e6c6f8b7d81468f45df16c582cfd853",
+    "tools/p0_methodology.py": "1de5979449490f82e1814e447cb2bf2683b731197b0f88710a591868440a45a9",
+    "tools/p0_methodology_report.py": "c3bf60cb3cef6e2bfcc1aa451fba959cc604d60e6413af3a0c12b1449880b2d1",
+    "tools/p0_policy_validation.py": "06b4adb9f0e6e6a29e72e413b40de7da4d8594161d1469645bcc306b9caa7028",
+    "tools/p0_review_controls.py": "d299296800010a1bf6d576fac9177623c19f66aabad4583e74599fbf909cbc3d",
+    "tools/p0_turn_boundary.py": "80af8829f828b1fbe752acc7b354deda13c0ff6e43e0309c670ccead34a9ebeb",
+    "tools/p0_validate.py": "965eeb3685c5872eb12d567c19609b4add1e51b4f754ad07501d0b400e3902d0"
+  },
+  "version": "neutral_style_closure_v1_dev"
+}

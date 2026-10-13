@@ -1,3 +1,97 @@
+# Final P0 Closure - Current Acceptance
+
+**P0 = PASS. Engineering and Methodological Infrastructure Validation Completed. P1 = NOT STARTED.**
+
+The exact final Tessa sentence has explicit researcher ACCEPT_NARROW approval, registered separately without modifying its historical pending/failed records. Selected N_style: 6/6 narrowly accepted and exactly matched. History A: 6/6 narrowly accepted, 18 confirmed evidence links, all exact matches. Its topic/temporal FAIL and original coherence UNCERTAIN are retained; B remains rejected as neutral and C diagnostic-only. These are scoped comparisons, not complete semantic neutrality or equivalence to C0.
+
+All 15 mandatory P0 infrastructure/measurement checks pass within their declared scope. Remaining mandatory P0 blockers: **none**. Full suite: **365 passed, 0 failed, 0 warnings reported, exit 0**. Protocol v1.1, original annotations, policies and experiments are unchanged. No generation was run for this acceptance. See the [final acceptance report](P0_final_scientific_acceptance_report.md), [hash-bound researcher approval](validation/P0_tessa_researcher_approval_v1.json), [verification](validation/P0_acceptance_verification_v1.json) and [delivery evidence](validation/P0_acceptance_delivery_v1.json).
+
+Earlier statuses below are retained historical checkpoints, superseded only as current acceptance statements. Their measurements, missing fields, limitations and original decisions remain valid historical records.
+
+---
+
+| Mandatory P0 requirement | Status | Evidence / scope |
+|---|---|---|
+| 1. Reliable CPU inference infrastructure | PASS | Historical real CPU execution and observed four-thread, 4096-context, zero-offload server logs remain byte-identical. No new generation. |
+| 2. Verified model and backend identity | PASS | Pinned GGUF and executable rehashed; build 11573/0f701c882 confirmed with --version. Metadata/loading evidence preserved; no upstream-equivalence claim. |
+| 3. Actual-tokenizer accounting | PASS | All 12 selected final prompts have exact length equality. 524 original native request/response pairs reconstructed twice; no approximated counts. |
+| 4. Trusted evidence and questions preserved | PASS | Both arms retain the exact shared evidence and question; prompt hashes and IDs checked against native records. |
+| 5. Reproducible prompt construction | PASS | transcript_base_v1, dataset hashes and frozen source/tool hashes verified. No prompt or policy changed during closure. |
+| 6. S/F/H intervention construction | PASS | Existing software routing/manipulation checks cover 160 original-fixture factorial prompts. Development controls do not establish perfectly orthogonal semantics or a completed factorial study. |
+| 7. Explicit response boundary policy | PASS | Frozen response_status_v1 and its development/holdout evidence retained; stop cause is separate from semantic completeness. |
+| 8. Separate COMPLETE/TRUNCATED/CROSS_TURN/AMBIGUOUS statuses | PASS | Existing instrumentation and tests preserve uncertainty and raw spans. Natural EOS is not required for every model answer. |
+| 9. Consistent evaluation units and predeclared applicability | PASS | separate_axes_policy_v1 retains Correct/Incorrect/Unverifiable/Not Applicable and separate completeness, support, relevance and temporal axes; first-reply/prefix policy unchanged. |
+| 10. Raw output and parser traceability | PASS | Historical raw responses, parser traces and earlier evaluations are unchanged. No retrospective replacement by a newer score. |
+| 11. Required researcher reviews | PASS | Six selected style decisions and six History A decisions are ACCEPT_NARROW; 18 History A evidence links confirmed. Final Tessa approval is explicit and hash-bound; missing review time remains null. |
+| 12. Defensible selected-control comparisons | PASS | Style compares information against explicit absence; History A compares residence history against unrelated coherent dialogue at matched length/format. Residual lexical, topic and temporal confounds are explicit. |
+| 13. Reproducibility and provenance | PASS | 25 journals / 32919 original files rehashed; all hash chains recomputed. Original annotations, source snapshots, inputs and failures retained. |
+| 14. Passed engineering validation | PASS | 365 tests passed, 0 failed, 0 warnings reported, exit code 0. No source functionality or test threshold changed. |
+| 15. Documented scientific limitations | PASS | Bounded synthetic-city evaluation, assisted single-researcher review, limited stimuli, unsupported backend arrays and unverified upstream quantization equivalence remain disclosed. |
+
+---
+
+# Current Final P0 Acceptance
+
+**P0 = PARTIAL; P1 NOT STARTED.** Only one mandatory blocker remains: researcher approval of the exact revised Tessa text, `No speaker-specific style information appears in this profile.` Its real GGUF count is99/99, difference0. The other five style candidates remain unchanged and ACCEPT_NARROW.
+
+History A is complete for its declared scope:6 ACCEPT_NARROW,18 confirmed source associations,6 explicit comparison_suitability PASS labels. Topic alignment and temporal relationships remain FAIL; original coherence remains UNCERTAIN. These findings are preserved limitations, not automatically reversed by narrow acceptance.
+
+| Remaining mandatory requirement | Existing evidence | Why not yet complete | Minimum corrective action |
+|---|---|---|---|
+|Protocol v1.1 P0 manipulation checks / Track A controlled placebo input; researcher-required approval of new wording|Tessa99/99 tokens; unchanged wrapper, evidence/question/identity; new prompt/hash saved|The new sentence did not exist when earlier approval was supplied|One researcher ACCEPT_NARROW/REVISION_REQUIRED/UNCERTAIN decision on the [exact sentence and context](P0_tessa_final_confirmation.md); no broad development cycle |
+
+Full tests365 passed,0 failed. All selected lengths pass; original reviews, raw generations, policies and failures remain preserved. [Final checklist and evidence](P0_final_scientific_acceptance_report.md); [four-contrast identification assessment](P0_final_identification_assessment.md). The supplied files contain visible preliminary analysis; researcher's explicit agreement is registered as researcher-verified assisted review, not an invented blind procedure. This provenance distinction is not a new P0 blocker.
+
+Earlier statements below are historical assessments, including earlier multiple-blocker and incomplete-review counts.
+
+| P0 requirement | Status | Evidence and scientific boundary |
+|---|---|---|
+|1. Reliable CPU inference infrastructure |PASS|Preserved real CPU runs; owned-server instrumentation; no new generation requested |
+|2. Model and backend identity |PASS within artifact scope|Pinned GGUF/executable hashes, metadata and loaded build; upstream quantization equivalence is not asserted |
+|3. Actual-tokenizer accounting |PASS|Six style and six History A selected pairs have difference0; new Tessa99/99; raw native IDs retained |
+|4. Trusted evidence and questions preserved |PASS|Exact prompt invariants, selected-control reconstruction and original fixture routing checks |
+|5. Reproducible prompt construction |PASS|Frozen inputs, template, IDs, dataset/source hashes; all five approved style strings unchanged |
+|6. S/F/H intervention construction |PASS for software scope|160 original-fixture prompts checked; semantic packages are not claimed orthogonal; no factorial experiment executed |
+|7. Explicit response boundary policy |PASS within declared scope|Frozen response_status_v1; raw spans, conservative uncertainty and versioned holdout evidence |
+|8. COMPLETE/TRUNCATED/CROSS_TURN/AMBIGUOUS separation |PASS for instrument contract|Separate backend stop/completeness evidence; no fabricated real-output accuracy |
+|9. Evaluation units and predeclared applicability |PASS within declared scope|separate_axes_policy_v1; first reply/prefix, four factual outcomes, preserved eligibility and manual routing |
+|10. Raw output and parser traceability |PASS|Historical140 generations across17 runs preserved; no scores or raw outputs rewritten |
+|11. Required researcher review completion |PARTIAL|Five unchanged style texts approved narrowly; History A complete; exact new Tessa text awaits one confirmation |
+|12. Defensible control comparisons |PARTIAL solely for new Tessa approval|Length matching complete; narrow estimands documented; History A content differences remain explicit |
+|13. Reproducibility and provenance |PASS within audited scope|Original sources, current attestation, snapshots, native logs and linked preservation inventory |
+|14. Engineering tests |PASS|365 passed,0 failed,0 warnings reported,exit0 |
+|15. Scientific limitations documented |PASS|No perfect model, broad causal, blind-review, upstream-equivalence or novelty claims |
+|Overall P0 |PARTIAL|Only the exact revised Tessa control requires researcher approval |
+|P1 |NOT STARTED|No execution authorization follows from this report |
+
+---
+
+# Current P0 Narrow Closure Assessment
+
+**P0 PARTIAL; P1 NOT STARTED.** Maintainer: Yaxin ZHENG. Protocol v1.1 unchanged. The final bounded style cycle produced **5/6 exact matches**, with Tessa99/100 (difference+1) explicitly FAILED. No further search or answer generation followed. All40 original reviews,24 researcher decisions and336 supplied checks remain unchanged; revised style review is0/6.
+
+| Mandatory remaining action | Status | Minimum closure evidence |
+|---|---|---|
+| Resolve the single unmatched revised style case | PARTIAL |A separately justified researcher decision is needed before any further versioned repair; current twelve-entry pool exhausted, tolerance remains0, failed case is not silently dropped |
+| Confirm semantic validity of the exact revised style materials | PARTIAL / OPEN |Fresh human review of selected wording;5 exact matches do not establish neutrality, and review cannot cure the sixth mismatch |
+| Complete narrowly adopted History A evidence attribution | PARTIAL / OPEN |18 prepared verbatim associations await confirmation; preserve original FAIL/FAIL/UNCERTAIN and ACCEPT_NARROW |
+| Explicitly confirm History A comparison_suitability categories | PARTIAL / OPEN |Six-row correction form; previous derived PASS is preserved but not claimed as a direct human label |
+
+The last two actions document existing narrow adoption, not a request for new overall decisions. History A is format/length matched with a topic/content/temporal-reference bundle; it is not fully neutral or an isolated formatting intervention. History B remains rejected as neutral; C remains diagnostic only. Their redesign and exhaustive historical form repair are not extra P0 gates. Missing human times, optional PASS quotations, second reviewers, universal natural EOS, unavailable backend token arrays and upstream conversion proof are not added blanket requirements.
+
+Instrumentation and frozen response/evaluation policies retain scoped PASS. New tokenizer execution PASS:78 native requests,294 journal events,0 completions. Full tests:348 passed,0 failed,exit0. Semantic acceptance remains separate from these checks. See the [closure report](P0_final_control_closure_report.md), [annotation audit](P0_annotation_integrity_audit.md), [review guide](P0_control_closure_review_guide.md) and [delivery evidence](validation/P0_control_closure_delivery_v1.json).
+
+Earlier status statements below are preserved historical assessments; this notice governs the current source version.
+
+
+---
+
+> **Current researcher-decision update:**24/24 new candidate decisions are registered as AI-assisted human review. N_style:6 REVISION_REQUIRED; History A:6 ACCEPT_NARROW; History B:6 REJECT_AS_NEUTRAL; History C:6 DIAGNOSTIC_ONLY. The official65-column conversion preserves336 supplied checks but has18 missing suitability labels,6 disallowed N/A labels and81 missing required field-quote associations. **P0 PARTIAL; P1 NOT STARTED;334 tests passed.** See [the current decision and acceptance report](P0_control_decision_registration_report.md). Earlier review-status statements below remain historical records.
+
+> **Current update — 2026-10-12T21:09:15.271521+00:00: P0 PARTIAL; P1 NOT STARTED.** Final review v3 presents the unchanged24 candidates; all24 exact matches and444 original native tokenizations reconcile offline. New human review0/24 remains OPEN; original40/40 reviews remain complete. 307 tests pass. See [the current control validation report](P0_final_neutral_control_validation_report.md). Earlier dated evidence remains intact.
+
+> **Current update — 2026-10-12T20:45:56.264380+00:00: P0 PARTIAL; P1 NOT STARTED.** Historical human review remains complete (40/40). New development controls have 24/24 exact tokenizer matches across six cases and four families, with 0/24 new human reviews; semantic acceptance is OPEN. The full suite passes 285 tests. See [the v2 control-development report](P0_control_development_report_v2.md). All earlier dated evidence below is retained.
+
 > **Current assessment — 2026-10-12T20:13:26.793933+00:00:** Human annotation **PASS, 40/40 completed**; final review is AI-assisted and not blind. Semantic-control validity remains **PARTIAL / resolution OPEN**; researcher overall ratings are PASS 0 / PARTIAL 40 / FAILED 0. Overall **P0 PARTIAL; P1 NOT STARTED**. See the [current control acceptance report](P0_control_acceptance_report.md) and [researcher annotation report](P0_researcher_annotation_report.md). Tests: **263 passed**. All earlier status/readiness statements below are preserved dated history, including earlier 0/40 review counts.
 
 # P0 验收清单

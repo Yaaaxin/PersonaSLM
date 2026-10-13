@@ -1,17 +1,35 @@
+> **Final current acceptance: P0 PASS - Engineering and Methodological Infrastructure Validation Completed. P1 NOT STARTED.** Six explicit absence-of-style and six History A comparisons are researcher-approved only within their narrow scopes; all 12 token differences are zero. Final Tessa approval is registered; 18 History A evidence links are confirmed. Full suite: 365 passed. Historical scores, annotation limitations and confounds remain preserved. See the [final acceptance report](docs/P0_final_scientific_acceptance_report.md). Earlier status entries below are historical checkpoints.
+
+---
+
+> **Current final assessment:** P0 PARTIAL only pending the exact new Tessa wording's researcher approval. Style matching6/6 (Tessa99/99); other five style texts unchanged and ACCEPT_NARROW. History A6 narrow decisions,18 associations and6 scope-limited suitability PASS labels registered. Tests365 passed. Visible preliminary-analysis provenance remains disclosed; no blind-review claim. See the [final scientific acceptance report](docs/P0_final_scientific_acceptance_report.md). Earlier records below are preserved history.
+
+---
+
+> **Current narrow closure:** P0 PARTIAL; P1 NOT STARTED. Revised style exact matches5/6; one FAILED (+1 token), no pool expansion and no answer generation. New style review0/6; History A needs18 source-association confirmations and6 explicit suitability labels. Original40 reviews,24 decisions and336 checks are preserved. Tests348 passed. See the [current closure report](docs/P0_final_control_closure_report.md) and [minimum remaining gate](docs/P0_remaining_blockers.md). Prior statements below remain historical evidence.
+
+
+---
+
+> **Current P0 acceptance:**24/24 new researcher decisions registered;334 tests passed. N_style requires revision; History A is accepted only for the stated narrow comparison; B is rejected as neutral and C is diagnostic only. Detailed annotation gaps remain visible. **P0 PARTIAL; P1 NOT STARTED.** See the [decision registration report](docs/P0_control_decision_registration_report.md) and [minimum remaining gate](docs/P0_remaining_blockers.md). Original status entries below are preserved history.
+
 # PersonaSLM-Lab — P0 Research Engineering
+
+**Latest validation (2026-10-12): 307 tests passed; P0 PARTIAL; P1 NOT STARTED.** The [final control review report](docs/P0_final_neutral_control_validation_report.md) and [24-item English review form](docs/validation/P0_final_control_review_v3.csv) are the current delivery. Engineering matching passes; new human review remains 0/24 and semantic validity is OPEN. Earlier dated statements below are preserved history.
 
 **Working paper:** *Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models*
 
 Official repository: <https://github.com/Yaaaxin/PersonaSLM>.
 
-**Current status (2026-10-12): P0 PARTIAL; P1 NOT STARTED.** Yaxin ZHENG has completed human review of all 40 neutral controls; the final review is AI-assisted, not blind. All 40 remain PARTIAL in the researcher's overall suitability judgments. The [current acceptance report](docs/P0_control_acceptance_report.md) distinguishes review completion from unresolved semantic-control validity. Qwen3.5-2B-Base Q4_K_M and llama.cpp b11573 execute on CPU; 100 historical prompts and token-ID arrays have been reconstructed, and the latest suite passes 263 tests. No P1 experiment or LoRA training has been performed.
+**Current status (2026-10-12): P0 PARTIAL; P1 NOT STARTED.** Yaxin ZHENG has completed human review of all 40 neutral controls; the final review is AI-assisted, not blind. All 40 remain PARTIAL in the researcher's overall suitability judgments. The [current acceptance report](docs/P0_control_acceptance_report.md) distinguishes review completion from unresolved semantic-control validity. Qwen3.5-2B-Base Q4_K_M and llama.cpp b11573 execute on CPU; 100 historical prompts and token-ID arrays have been reconstructed, and the latest suite passes 285 tests. No P1 experiment or LoRA training has been performed.
 
 Historical state before independent model files were supplied: real inference was BLOCKED. The original missing-configuration run and earlier engineering failures remain preserved in the reports and development log.
 
-This is an independent research project. It does not read, reuse or link MimooPet code, data, binaries, models or history. Only the 20 fictional P0 cases in `data/synthetic/p0_cases.jsonl` are used.
+This is an independent research project. It does not read, reuse or link MimooPet code, data, binaries, models or history. The historical benchmark uses the 20 fictional P0 cases in `data/synthetic/p0_cases.jsonl`; separately versioned synthetic development fixtures support methods validation.
 
 ## Evidence and design
 
+- [P0 engineering history](docs/P0_engineering_report.md) — detailed technical account organized by eleven development stages; original logs and experiments remain preserved.
 - [P0 real inference report](docs/P0_real_inference_report.md) — environment, changes, actual results, failures and limits.
 - [P0 acceptance checklist](docs/P0_acceptance_checklist.md) — PASS / PARTIAL / BLOCKED.
 - [Model provenance](docs/P0_model_provenance_report.md), [reproducibility audit](docs/P0_reproducibility_report.md), and [neutral-control blinded review packet](docs/validation/P0_neutral_blinded_review.jsonl).
@@ -109,3 +127,13 @@ Commits and pushes remain exclusively researcher-managed under [AGENTS.md](AGENT
 `origin` is configured for `Yaaaxin/PersonaSLM`. Work is currently local, with no commit or push. Ignore rules exclude environments, models, binaries, private/chat data, experiment outputs, credentials and machine-specific runtime config. Only the explicitly named synthetic case file is allowlisted under `data/`.
 
 Do not interpret passing parser or synthetic tests as evidence that persona conditioning changes dialogue reliability.
+
+
+## Control development v2
+
+Six development cases yield 24/24 exact final-prompt token matches across style and three history families. These are engineering checks only; new human review is 0/24 and P0 remains PARTIAL. See [the report](docs/P0_control_development_report_v2.md) and [English review guide](docs/P0_control_development_review_v2_guide.md). Historical controls, annotations and model generations remain preserved.
+
+
+## Final neutral-control review
+
+The [current P0 report](docs/P0_final_neutral_control_validation_report.md) records307 passing tests and offline reconciliation of24 matched candidate pairs. The [final24-item English form](docs/validation/P0_final_control_review_v3.csv) adds dates, expected answers and review questions without changing prompts. New human review remains0/24; P0 remains PARTIAL. See [the import guide](docs/P0_final_control_review_v3_guide.md).

@@ -1,0 +1,35 @@
+{
+  "authority_limit": "This attestation covers the supplied wording, not a future Tessa revision",
+  "blind_label_request": "Researcher requested blind-review wording in a follow-up. Source forms expose preliminary assessments; blind status is not asserted. Agreement is registered without changing procedural provenance.",
+  "confirmation_provenance": "Current researcher instruction Final P0 Scientific Acceptance and Closure and subsequent confirmation of agreement with blank human fields",
+  "decision_source": "researcher",
+  "final_decision_authority": "researcher",
+  "history_associations_confirmed": true,
+  "history_comparison_suitability": "PASS",
+  "history_decision": "ACCEPT_NARROW",
+  "recorded_utc": "2026-10-12T23:03:27.761999+00:00",
+  "recording_time_is_not_review_time": true,
+  "review_type": "researcher_verified_human_review",
+  "reviewed_utc": null,
+  "reviewer_id": "Yaxin_ZHENG",
+  "source_judgments_confirmed": true,
+  "sources": [
+    {
+      "path": "docs/validation/PersonaSLM_P0_style_v1.csv",
+      "sha256": "d6591cc494bb527dcf8993f3e701246d7529562f6b9f5dc439a89eea9ebdd650"
+    },
+    {
+      "path": "docs/validation/PersonaSLM_P0_historyA_evidence_notes_v1.csv",
+      "sha256": "ae80e71652125b228911204637ad579928a4713e3b227db1d68efda2c2928860"
+    }
+  ],
+  "style_decisions": {
+    "Blair": "ACCEPT_NARROW",
+    "Devon": "ACCEPT_NARROW",
+    "Riley": "ACCEPT_NARROW",
+    "Robin": "ACCEPT_NARROW",
+    "Samara": "ACCEPT_NARROW",
+    "Tessa": "REVISION_REQUIRED"
+  },
+  "version": "researcher_scientific_closure_attestation_v1"
+}

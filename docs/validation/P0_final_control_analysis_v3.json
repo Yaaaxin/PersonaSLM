@@ -1,0 +1,1497 @@
+{
+  "analysis_version": "control_identification_v3",
+  "candidates": [
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 101,
+        "candidate_prompt_sha256": "294bd9df9d554672a7d38b2598040172e8f957e549c01b0ee335880a39730b34",
+        "case_id": "control_v2_dev_001",
+        "difference": 0,
+        "family": "style_generic",
+        "native_candidate_request": 121,
+        "native_candidate_response": 122,
+        "native_reference_request": 50,
+        "native_reference_response": 51,
+        "reference_count": 101,
+        "reference_prompt_sha256": "a7cb04379138287b6182d9531892840d78a2bf3484e48a26f7e6759de1fbfebb",
+        "review_material_exact": true,
+        "selected_candidate_index": 23,
+        "trusted_evidence_hash": "447ffd6cd3c867f69af2ca472ee86eb88421d895bfb46e20c41cd7610b6de109",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Length-matched style-profile versus generic-description replacement, conditional on semantic review; not style versus an inert string",
+      "candidate_control_text": "Speaker style profile: A question from a participant forms part of an exchange with another participant.",
+      "candidate_id": "control_v2_dev_001__style_generic__pool23__294bd9df9d55",
+      "case_id": "control_v2_dev_001",
+      "classification": "Proposed neutral-style control; validity OPEN",
+      "current_question": "Where does Riley currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Leeds",
+      "family": "style_generic",
+      "information_accounting": {
+        "changed": "Style prescription to description",
+        "removed": "The speaker favors brief replies with short sentences and avoids extended elaboration.",
+        "retained": "Same profile heading and generic discourse statement"
+      },
+      "intended_experimental_contrast": "Style profile versus generic discourse text, holding wrapper and total token length fixed",
+      "original_active_intervention": "Speaker style profile: The speaker favors brief replies with short sentences and avoids extended elaboration.",
+      "reference_date": "NOT_APPLICABLE",
+      "remaining_confounders": [
+        "Instructional force and semantic salience",
+        "Generic expository register and concise complete sentence",
+        "Heading can frame generic prose as a style exemplar"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "The generic control is itself a concise single sentence, potentially cueing the brevity under investigation.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Speaker style profile heading"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named style prescription replaced by generic discourse description"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 118,
+        "candidate_prompt_sha256": "5f2142adbc480e2ba18a95e25728e3f359137800a0d4938a61b4b4f10772ba83",
+        "case_id": "control_v2_dev_001",
+        "difference": 0,
+        "family": "history_format",
+        "native_candidate_request": 154,
+        "native_candidate_response": 155,
+        "native_reference_request": 149,
+        "native_reference_response": 150,
+        "reference_count": 118,
+        "reference_prompt_sha256": "8407e7692b31ca2c840cc6d399a40c6a6a048b7084cc3c84065972b44329762d",
+        "review_material_exact": true,
+        "selected_candidate_index": 1,
+        "trusted_evidence_hash": "447ffd6cd3c867f69af2ca472ee86eb88421d895bfb46e20c41cd7610b6de109",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Format/length-controlled content replacement; not the causal effect of history format or topic alone",
+      "candidate_control_text": "Historical dialogue (2025-03-14):\nUser: What does a conversation involve?\nRiley: An exchange of questions and replies.",
+      "candidate_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48",
+      "case_id": "control_v2_dev_001",
+      "classification": "Proposed format/length placebo; semantic validity OPEN",
+      "current_question": "Where does Riley currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Leeds",
+      "family": "history_format",
+      "information_accounting": {
+        "changed": "Residence content to generic discourse",
+        "removed": "Named old residence York and its residence question",
+        "retained": "Date label, attribution and question-answer structure"
+      },
+      "intended_experimental_contrast": "Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ",
+      "original_active_intervention": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: In York at the time.",
+      "reference_date": "2025-03-14",
+      "remaining_confounders": [
+        "Topic relevance",
+        "Personal versus generic factual content",
+        "Internal past reference versus generic statement",
+        "Deictic wording and register"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "The question and reply concern conversation, not residence; generic propositions replace dated personal information.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Same historical date/header",
+        "User then named-speaker roles",
+        "Two turns with question-answer organization"
+      ],
+      "variables_intentionally_manipulated": [
+        "Residence question replaced by a conversation question",
+        "Specific old-city residence replaced by generic discourse content"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 118,
+        "candidate_prompt_sha256": "471aadd78588a4b1b6af3baa3fe12dd903d79911a1ac0e32ca77c43c7bad7192",
+        "case_id": "control_v2_dev_001",
+        "difference": 0,
+        "family": "history_topic",
+        "native_candidate_request": 211,
+        "native_candidate_response": 212,
+        "native_reference_request": 200,
+        "native_reference_response": 201,
+        "reference_count": 118,
+        "reference_prompt_sha256": "8407e7692b31ca2c840cc6d399a40c6a6a048b7084cc3c84065972b44329762d",
+        "review_material_exact": true,
+        "selected_candidate_index": 3,
+        "trusted_evidence_hash": "447ffd6cd3c867f69af2ca472ee86eb88421d895bfb46e20c41cd7610b6de109",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Residence-topic-aligned answer-versus-clarification contrast; not an information-only or neutral-placebo intervention",
+      "candidate_control_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: The city or the address?",
+      "candidate_id": "control_v2_dev_001__history_topic__pool03__471aadd78588",
+      "case_id": "control_v2_dev_001",
+      "classification": "Topic-matched comparison candidate; neutrality unestablished",
+      "current_question": "Where does Riley currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Leeds",
+      "family": "history_topic",
+      "information_accounting": {
+        "changed": "Answer becomes a question",
+        "removed": "The assertion of past residence in York",
+        "retained": "Past-residence question, date and attribution"
+      },
+      "intended_experimental_contrast": "Old-residence answer versus residence clarification; question, speaker, date and length matched, pragmatics differ",
+      "original_active_intervention": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: In York at the time.",
+      "reference_date": "2025-03-14",
+      "remaining_confounders": [
+        "Question-answer versus question-clarification speech act",
+        "Questioning/uncertainty/non-answer priming",
+        "Different epistemic commitment"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "Adds an address-versus-city distinction not present in the active answer.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Exact past-residence question",
+        "Same historical date/header",
+        "Same named speaker and role order",
+        "Two turns"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named past-city answer replaced by a clarification question",
+        "Historical residence assertion removed"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 118,
+        "candidate_prompt_sha256": "e9d16e06115638a82927894a7b006c6cb832a337bdbe9adac46f83e31e82644d",
+        "case_id": "control_v2_dev_001",
+        "difference": 0,
+        "family": "history_stale_generalized",
+        "native_candidate_request": 247,
+        "native_candidate_response": 248,
+        "native_reference_request": 239,
+        "native_reference_response": 240,
+        "reference_count": 118,
+        "reference_prompt_sha256": "8407e7692b31ca2c840cc6d399a40c6a6a048b7084cc3c84065972b44329762d",
+        "review_material_exact": true,
+        "selected_candidate_index": 2,
+        "trusted_evidence_hash": "447ffd6cd3c867f69af2ca472ee86eb88421d895bfb46e20c41cd7610b6de109",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Information-specificity ablation; not a neutral control or a pure temporal-conflict effect",
+      "candidate_control_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: In a city back then.",
+      "candidate_id": "control_v2_dev_001__history_stale_generalized__pool02__e9d16e061156",
+      "case_id": "control_v2_dev_001",
+      "classification": "Diagnostic intervention; not a neutral placebo",
+      "current_question": "Where does Riley currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Leeds",
+      "family": "history_stale_generalized",
+      "information_accounting": {
+        "changed": "City specificity and response informativeness; temporal phrase also changes",
+        "removed": "Exact old-city identity: York",
+        "retained": "Riley lived in some city at the historical time"
+      },
+      "intended_experimental_contrast": "Named old residence versus unspecified city residence; a specificity ablation, not a neutral placebo",
+      "original_active_intervention": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: In York at the time.",
+      "reference_date": "2025-03-14",
+      "remaining_confounders": [
+        "Informativeness",
+        "Vague or evasive answer pragmatics",
+        "Lexical material changes",
+        "Some temporal phrasing changes"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "Changes at the time to back then as well as replacing the city name.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Exact past-residence question",
+        "Same historical date/header and roles",
+        "Past-city-residence proposition and topic"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named city replaced by the category a city",
+        "Geographic specificity and named alternative-answer exposure removed"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 101,
+        "candidate_prompt_sha256": "adcd59ceae18e341c7dff8e9672015818bb5c81b04bd8733e60b4f58f1e6ac1c",
+        "case_id": "control_v2_dev_002",
+        "difference": 0,
+        "family": "style_generic",
+        "native_candidate_request": 286,
+        "native_candidate_response": 287,
+        "native_reference_request": 272,
+        "native_reference_response": 273,
+        "reference_count": 101,
+        "reference_prompt_sha256": "866bb97489772c23f39bde16836fb70bfd836ca726996706d2d00118d06131f2",
+        "review_material_exact": true,
+        "selected_candidate_index": 4,
+        "trusted_evidence_hash": "8a9c1df0e05bfdbf58db7374e362c5c16e781e2c767ada967da7c24f6e08f28e",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Length-matched style-profile versus generic-description replacement, conditional on semantic review; not style versus an inert string",
+      "candidate_control_text": "Speaker style profile: A conversation includes an exchange of questions and replies between participants.",
+      "candidate_id": "control_v2_dev_002__style_generic__pool04__adcd59ceae18",
+      "case_id": "control_v2_dev_002",
+      "classification": "Proposed neutral-style control; validity OPEN",
+      "current_question": "Where does Samara currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Bristol",
+      "family": "style_generic",
+      "information_accounting": {
+        "changed": "Style prescription to description",
+        "removed": "The speaker favors formal wording and complete sentences in ordinary conversation.",
+        "retained": "Same profile heading and generic discourse statement"
+      },
+      "intended_experimental_contrast": "Style profile versus generic discourse text, holding wrapper and total token length fixed",
+      "original_active_intervention": "Speaker style profile: The speaker favors formal wording and complete sentences in ordinary conversation.",
+      "reference_date": "NOT_APPLICABLE",
+      "remaining_confounders": [
+        "Instructional force and semantic salience",
+        "Generic expository register and concise complete sentence",
+        "Heading can frame generic prose as a style exemplar"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "The generic control is formal, grammatical expository prose, potentially overlapping the formality intervention.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Speaker style profile heading"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named style prescription replaced by generic discourse description"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 120,
+        "candidate_prompt_sha256": "7765840a29128036bb7af29598e866d332c42fb653273b6d8a6b5b34e752fe5c",
+        "case_id": "control_v2_dev_002",
+        "difference": 0,
+        "family": "history_format",
+        "native_candidate_request": 376,
+        "native_candidate_response": 377,
+        "native_reference_request": 371,
+        "native_reference_response": 372,
+        "reference_count": 120,
+        "reference_prompt_sha256": "5aa31b2b4c3bd1950eabeae4edcf33b543a7f194f79c8d88d9791e3c6b67a9fd",
+        "review_material_exact": true,
+        "selected_candidate_index": 1,
+        "trusted_evidence_hash": "8a9c1df0e05bfdbf58db7374e362c5c16e781e2c767ada967da7c24f6e08f28e",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Format/length-controlled content replacement; not the causal effect of history format or topic alone",
+      "candidate_control_text": "Historical dialogue (2025-03-14):\nUser: What does a conversation involve?\nSamara: An exchange of questions and replies.",
+      "candidate_id": "control_v2_dev_002__history_format__pool01__7765840a2912",
+      "case_id": "control_v2_dev_002",
+      "classification": "Proposed format/length placebo; semantic validity OPEN",
+      "current_question": "Where does Samara currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Bristol",
+      "family": "history_format",
+      "information_accounting": {
+        "changed": "Residence content to generic discourse",
+        "removed": "Named old residence Bath and its residence question",
+        "retained": "Date label, attribution and question-answer structure"
+      },
+      "intended_experimental_contrast": "Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ",
+      "original_active_intervention": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: In Bath at the time.",
+      "reference_date": "2025-03-14",
+      "remaining_confounders": [
+        "Topic relevance",
+        "Personal versus generic factual content",
+        "Internal past reference versus generic statement",
+        "Deictic wording and register"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "The question and reply concern conversation, not residence; generic propositions replace dated personal information.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Same historical date/header",
+        "User then named-speaker roles",
+        "Two turns with question-answer organization"
+      ],
+      "variables_intentionally_manipulated": [
+        "Residence question replaced by a conversation question",
+        "Specific old-city residence replaced by generic discourse content"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 120,
+        "candidate_prompt_sha256": "fecd6452a6dfe91b2fe7ab7271547af8a1625c8dfbf2339b054af85f3cf1ff00",
+        "case_id": "control_v2_dev_002",
+        "difference": 0,
+        "family": "history_topic",
+        "native_candidate_request": 433,
+        "native_candidate_response": 434,
+        "native_reference_request": 422,
+        "native_reference_response": 423,
+        "reference_count": 120,
+        "reference_prompt_sha256": "5aa31b2b4c3bd1950eabeae4edcf33b543a7f194f79c8d88d9791e3c6b67a9fd",
+        "review_material_exact": true,
+        "selected_candidate_index": 3,
+        "trusted_evidence_hash": "8a9c1df0e05bfdbf58db7374e362c5c16e781e2c767ada967da7c24f6e08f28e",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Residence-topic-aligned answer-versus-clarification contrast; not an information-only or neutral-placebo intervention",
+      "candidate_control_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: The city or the address?",
+      "candidate_id": "control_v2_dev_002__history_topic__pool03__fecd6452a6df",
+      "case_id": "control_v2_dev_002",
+      "classification": "Topic-matched comparison candidate; neutrality unestablished",
+      "current_question": "Where does Samara currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Bristol",
+      "family": "history_topic",
+      "information_accounting": {
+        "changed": "Answer becomes a question",
+        "removed": "The assertion of past residence in Bath",
+        "retained": "Past-residence question, date and attribution"
+      },
+      "intended_experimental_contrast": "Old-residence answer versus residence clarification; question, speaker, date and length matched, pragmatics differ",
+      "original_active_intervention": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: In Bath at the time.",
+      "reference_date": "2025-03-14",
+      "remaining_confounders": [
+        "Question-answer versus question-clarification speech act",
+        "Questioning/uncertainty/non-answer priming",
+        "Different epistemic commitment"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "Adds an address-versus-city distinction not present in the active answer.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Exact past-residence question",
+        "Same historical date/header",
+        "Same named speaker and role order",
+        "Two turns"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named past-city answer replaced by a clarification question",
+        "Historical residence assertion removed"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 120,
+        "candidate_prompt_sha256": "5661c465e1cefe5f813753cd3dc40fae00c603af3991800102b9163c5341e8f7",
+        "case_id": "control_v2_dev_002",
+        "difference": 0,
+        "family": "history_stale_generalized",
+        "native_candidate_request": 469,
+        "native_candidate_response": 470,
+        "native_reference_request": 461,
+        "native_reference_response": 462,
+        "reference_count": 120,
+        "reference_prompt_sha256": "5aa31b2b4c3bd1950eabeae4edcf33b543a7f194f79c8d88d9791e3c6b67a9fd",
+        "review_material_exact": true,
+        "selected_candidate_index": 2,
+        "trusted_evidence_hash": "8a9c1df0e05bfdbf58db7374e362c5c16e781e2c767ada967da7c24f6e08f28e",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Information-specificity ablation; not a neutral control or a pure temporal-conflict effect",
+      "candidate_control_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: In a city back then.",
+      "candidate_id": "control_v2_dev_002__history_stale_generalized__pool02__5661c465e1ce",
+      "case_id": "control_v2_dev_002",
+      "classification": "Diagnostic intervention; not a neutral placebo",
+      "current_question": "Where does Samara currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Bristol",
+      "family": "history_stale_generalized",
+      "information_accounting": {
+        "changed": "City specificity and response informativeness; temporal phrase also changes",
+        "removed": "Exact old-city identity: Bath",
+        "retained": "Samara lived in some city at the historical time"
+      },
+      "intended_experimental_contrast": "Named old residence versus unspecified city residence; a specificity ablation, not a neutral placebo",
+      "original_active_intervention": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: In Bath at the time.",
+      "reference_date": "2025-03-14",
+      "remaining_confounders": [
+        "Informativeness",
+        "Vague or evasive answer pragmatics",
+        "Lexical material changes",
+        "Some temporal phrasing changes"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "Changes at the time to back then as well as replacing the city name.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Exact past-residence question",
+        "Same historical date/header and roles",
+        "Past-city-residence proposition and topic"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named city replaced by the category a city",
+        "Geographic specificity and named alternative-answer exposure removed"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 99,
+        "candidate_prompt_sha256": "0adac871074b66d4615b749827597b142bfb628f5fc0de4493e9ed4f4bd8cb0a",
+        "case_id": "control_v2_dev_003",
+        "difference": 0,
+        "family": "style_generic",
+        "native_candidate_request": 508,
+        "native_candidate_response": 509,
+        "native_reference_request": 494,
+        "native_reference_response": 495,
+        "reference_count": 99,
+        "reference_prompt_sha256": "50d4e175b82408748541e4d1e3af91810b55e62d9939a40ec57d86d49018543f",
+        "review_material_exact": true,
+        "selected_candidate_index": 4,
+        "trusted_evidence_hash": "881fa800089c086c0a64f1798007faed8cdec67334a50d7b5d9d9dcc8fde785c",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Length-matched style-profile versus generic-description replacement, conditional on semantic review; not style versus an inert string",
+      "candidate_control_text": "Speaker style profile: A conversation includes an exchange of questions and replies between participants.",
+      "candidate_id": "control_v2_dev_003__style_generic__pool04__0adac871074b",
+      "case_id": "control_v2_dev_003",
+      "classification": "Proposed neutral-style control; validity OPEN",
+      "current_question": "Where does Devon currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Durham",
+      "family": "style_generic",
+      "information_accounting": {
+        "changed": "Style prescription to description",
+        "removed": "The speaker sometimes uses the word certainly when acknowledging a request.",
+        "retained": "Same profile heading and generic discourse statement"
+      },
+      "intended_experimental_contrast": "Style profile versus generic discourse text, holding wrapper and total token length fixed",
+      "original_active_intervention": "Speaker style profile: The speaker sometimes uses the word certainly when acknowledging a request.",
+      "reference_date": "NOT_APPLICABLE",
+      "remaining_confounders": [
+        "Instructional force and semantic salience",
+        "Generic expository register and concise complete sentence",
+        "Heading can frame generic prose as a style exemplar"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "The control does not use certainly, but changes instruction force and semantic content as well as the lexical preference.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Speaker style profile heading"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named style prescription replaced by generic discourse description"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 119,
+        "candidate_prompt_sha256": "d1c203038d13b1a5f06a84a7268345566a8fcacd0421a4beaa1033459ce80aec",
+        "case_id": "control_v2_dev_003",
+        "difference": 0,
+        "family": "history_format",
+        "native_candidate_request": 604,
+        "native_candidate_response": 605,
+        "native_reference_request": 593,
+        "native_reference_response": 594,
+        "reference_count": 119,
+        "reference_prompt_sha256": "e0913fda8d0dda40dbcf12a6ee2a505b398c5789572a830da3ce78baef909096",
+        "review_material_exact": true,
+        "selected_candidate_index": 3,
+        "trusted_evidence_hash": "881fa800089c086c0a64f1798007faed8cdec67334a50d7b5d9d9dcc8fde785c",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Format/length-controlled content replacement; not the causal effect of history format or topic alone",
+      "candidate_control_text": "Historical dialogue (2025-03-14):\nUser: What does a conversation involve?\nDevon: An exchange between the people taking part.",
+      "candidate_id": "control_v2_dev_003__history_format__pool03__d1c203038d13",
+      "case_id": "control_v2_dev_003",
+      "classification": "Proposed format/length placebo; semantic validity OPEN",
+      "current_question": "Where does Devon currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Durham",
+      "family": "history_format",
+      "information_accounting": {
+        "changed": "Residence content to generic discourse",
+        "removed": "Named old residence Exeter and its residence question",
+        "retained": "Date label, attribution and question-answer structure"
+      },
+      "intended_experimental_contrast": "Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ",
+      "original_active_intervention": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: In Exeter at the time.",
+      "reference_date": "2025-03-14",
+      "remaining_confounders": [
+        "Topic relevance",
+        "Personal versus generic factual content",
+        "Internal past reference versus generic statement",
+        "Deictic wording and register"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "The question and reply concern conversation, not residence; generic propositions replace dated personal information.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Same historical date/header",
+        "User then named-speaker roles",
+        "Two turns with question-answer organization"
+      ],
+      "variables_intentionally_manipulated": [
+        "Residence question replaced by a conversation question",
+        "Specific old-city residence replaced by generic discourse content"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 119,
+        "candidate_prompt_sha256": "3cbd45ba74bfc1ba947cfd2860df5c84e7266c3bc9691bf28c9e3ed852a9a03c",
+        "case_id": "control_v2_dev_003",
+        "difference": 0,
+        "family": "history_topic",
+        "native_candidate_request": 667,
+        "native_candidate_response": 668,
+        "native_reference_request": 644,
+        "native_reference_response": 645,
+        "reference_count": 119,
+        "reference_prompt_sha256": "e0913fda8d0dda40dbcf12a6ee2a505b398c5789572a830da3ce78baef909096",
+        "review_material_exact": true,
+        "selected_candidate_index": 7,
+        "trusted_evidence_hash": "881fa800089c086c0a64f1798007faed8cdec67334a50d7b5d9d9dcc8fde785c",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Residence-topic-aligned answer-versus-clarification contrast; not an information-only or neutral-placebo intervention",
+      "candidate_control_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: Are you asking about the city?",
+      "candidate_id": "control_v2_dev_003__history_topic__pool07__3cbd45ba74bf",
+      "case_id": "control_v2_dev_003",
+      "classification": "Topic-matched comparison candidate; neutrality unestablished",
+      "current_question": "Where does Devon currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Durham",
+      "family": "history_topic",
+      "information_accounting": {
+        "changed": "Answer becomes a question",
+        "removed": "The assertion of past residence in Exeter",
+        "retained": "Past-residence question, date and attribution"
+      },
+      "intended_experimental_contrast": "Old-residence answer versus residence clarification; question, speaker, date and length matched, pragmatics differ",
+      "original_active_intervention": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: In Exeter at the time.",
+      "reference_date": "2025-03-14",
+      "remaining_confounders": [
+        "Question-answer versus question-clarification speech act",
+        "Questioning/uncertainty/non-answer priming",
+        "Different epistemic commitment"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "Uses a second-person clarification about city granularity, not a residence assertion.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Exact past-residence question",
+        "Same historical date/header",
+        "Same named speaker and role order",
+        "Two turns"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named past-city answer replaced by a clarification question",
+        "Historical residence assertion removed"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 119,
+        "candidate_prompt_sha256": "fd566983911883a38f514c7f70153edab0d581d3a834016d93839436e8bc6067",
+        "case_id": "control_v2_dev_003",
+        "difference": 0,
+        "family": "history_stale_generalized",
+        "native_candidate_request": 694,
+        "native_candidate_response": 695,
+        "native_reference_request": 683,
+        "native_reference_response": 684,
+        "reference_count": 119,
+        "reference_prompt_sha256": "e0913fda8d0dda40dbcf12a6ee2a505b398c5789572a830da3ce78baef909096",
+        "review_material_exact": true,
+        "selected_candidate_index": 3,
+        "trusted_evidence_hash": "881fa800089c086c0a64f1798007faed8cdec67334a50d7b5d9d9dcc8fde785c",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Information-specificity ablation; not a neutral control or a pure temporal-conflict effect",
+      "candidate_control_text": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: In a city at the time.",
+      "candidate_id": "control_v2_dev_003__history_stale_generalized__pool03__fd5669839118",
+      "case_id": "control_v2_dev_003",
+      "classification": "Diagnostic intervention; not a neutral placebo",
+      "current_question": "Where does Devon currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Durham",
+      "family": "history_stale_generalized",
+      "information_accounting": {
+        "changed": "City specificity and response informativeness; temporal phrase unchanged",
+        "removed": "Exact old-city identity: Exeter",
+        "retained": "Devon lived in some city at the historical time"
+      },
+      "intended_experimental_contrast": "Named old residence versus unspecified city residence; a specificity ablation, not a neutral placebo",
+      "original_active_intervention": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: In Exeter at the time.",
+      "reference_date": "2025-03-14",
+      "remaining_confounders": [
+        "Informativeness",
+        "Vague or evasive answer pragmatics",
+        "Lexical material changes",
+        "Some temporal phrasing changes"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "Retains at the time verbatim; the city name becomes a city.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Exact past-residence question",
+        "Same historical date/header and roles",
+        "Past-city-residence proposition and topic"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named city replaced by the category a city",
+        "Geographic specificity and named alternative-answer exposure removed"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 99,
+        "candidate_prompt_sha256": "237a2b6e80ab57055abab1072ecd0733d6480800173f0241f84c4e2a59e33472",
+        "case_id": "control_v2_dev_004",
+        "difference": 0,
+        "family": "style_generic",
+        "native_candidate_request": 721,
+        "native_candidate_response": 722,
+        "native_reference_request": 716,
+        "native_reference_response": 717,
+        "reference_count": 99,
+        "reference_prompt_sha256": "420294b895b631db5b59f98bfbfeed0e4b5f37b9dc204fd12cd22b5c060289d3",
+        "review_material_exact": true,
+        "selected_candidate_index": 1,
+        "trusted_evidence_hash": "7a35cf41beb66ae8e0a165dbb230539760b899a08e4c2135cfb85edcf8dcb2ca",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Length-matched style-profile versus generic-description replacement, conditional on semantic review; not style versus an inert string",
+      "candidate_control_text": "Speaker style profile: A conversation includes questions and replies from its participants.",
+      "candidate_id": "control_v2_dev_004__style_generic__pool01__237a2b6e80ab",
+      "case_id": "control_v2_dev_004",
+      "classification": "Proposed neutral-style control; validity OPEN",
+      "current_question": "Where does Tessa currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Norwich",
+      "family": "style_generic",
+      "information_accounting": {
+        "changed": "Style prescription to description",
+        "removed": "The speaker uses contractions in conversational replies.",
+        "retained": "Same profile heading and generic discourse statement"
+      },
+      "intended_experimental_contrast": "Style profile versus generic discourse text, holding wrapper and total token length fixed",
+      "original_active_intervention": "Speaker style profile: The speaker uses contractions in conversational replies.",
+      "reference_date": "NOT_APPLICABLE",
+      "remaining_confounders": [
+        "Instructional force and semantic salience",
+        "Generic expository register and concise complete sentence",
+        "Heading can frame generic prose as a style exemplar"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "The control uses no contraction; absence of a prescribed contraction habit does not establish style neutrality.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Tessa currently lives in Norwich.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Speaker style profile heading"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named style prescription replaced by generic discourse description"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 120,
+        "candidate_prompt_sha256": "8a27dbe7c690d4198f217a405c9e130ef29201740cf265df8fdb0dd549236a44",
+        "case_id": "control_v2_dev_004",
+        "difference": 0,
+        "family": "history_format",
+        "native_candidate_request": 820,
+        "native_candidate_response": 821,
+        "native_reference_request": 815,
+        "native_reference_response": 816,
+        "reference_count": 120,
+        "reference_prompt_sha256": "5eb97a5495430b9806a2e985b84343f665d2e33d640a513e1719d9505da84d91",
+        "review_material_exact": true,
+        "selected_candidate_index": 1,
+        "trusted_evidence_hash": "7a35cf41beb66ae8e0a165dbb230539760b899a08e4c2135cfb85edcf8dcb2ca",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Format/length-controlled content replacement; not the causal effect of history format or topic alone",
+      "candidate_control_text": "Historical dialogue (2025-06-18):\nUser: What does a conversation involve?\nTessa: An exchange of questions and replies.",
+      "candidate_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690",
+      "case_id": "control_v2_dev_004",
+      "classification": "Proposed format/length placebo; semantic validity OPEN",
+      "current_question": "Where does Tessa currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Norwich",
+      "family": "history_format",
+      "information_accounting": {
+        "changed": "Residence content to generic discourse",
+        "removed": "Named old residence Hull and its residence question",
+        "retained": "Date label, attribution and question-answer structure"
+      },
+      "intended_experimental_contrast": "Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ",
+      "original_active_intervention": "Historical dialogue (2025-06-18):\nUser: Where were you living back then?\nTessa: In Hull at the time.",
+      "reference_date": "2025-06-18",
+      "remaining_confounders": [
+        "Topic relevance",
+        "Personal versus generic factual content",
+        "Internal past reference versus generic statement",
+        "Deictic wording and register"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "The question and reply concern conversation, not residence; generic propositions replace dated personal information.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Tessa currently lives in Norwich.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Same historical date/header",
+        "User then named-speaker roles",
+        "Two turns with question-answer organization"
+      ],
+      "variables_intentionally_manipulated": [
+        "Residence question replaced by a conversation question",
+        "Specific old-city residence replaced by generic discourse content"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 120,
+        "candidate_prompt_sha256": "0cf290145a89fd2d391fadc74ab5cd47d35184db0bb27069f525e695d71b698f",
+        "case_id": "control_v2_dev_004",
+        "difference": 0,
+        "family": "history_topic",
+        "native_candidate_request": 877,
+        "native_candidate_response": 878,
+        "native_reference_request": 866,
+        "native_reference_response": 867,
+        "reference_count": 120,
+        "reference_prompt_sha256": "5eb97a5495430b9806a2e985b84343f665d2e33d640a513e1719d9505da84d91",
+        "review_material_exact": true,
+        "selected_candidate_index": 3,
+        "trusted_evidence_hash": "7a35cf41beb66ae8e0a165dbb230539760b899a08e4c2135cfb85edcf8dcb2ca",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Residence-topic-aligned answer-versus-clarification contrast; not an information-only or neutral-placebo intervention",
+      "candidate_control_text": "Historical dialogue (2025-06-18):\nUser: Where were you living back then?\nTessa: The city or the address?",
+      "candidate_id": "control_v2_dev_004__history_topic__pool03__0cf290145a89",
+      "case_id": "control_v2_dev_004",
+      "classification": "Topic-matched comparison candidate; neutrality unestablished",
+      "current_question": "Where does Tessa currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Norwich",
+      "family": "history_topic",
+      "information_accounting": {
+        "changed": "Answer becomes a question",
+        "removed": "The assertion of past residence in Hull",
+        "retained": "Past-residence question, date and attribution"
+      },
+      "intended_experimental_contrast": "Old-residence answer versus residence clarification; question, speaker, date and length matched, pragmatics differ",
+      "original_active_intervention": "Historical dialogue (2025-06-18):\nUser: Where were you living back then?\nTessa: In Hull at the time.",
+      "reference_date": "2025-06-18",
+      "remaining_confounders": [
+        "Question-answer versus question-clarification speech act",
+        "Questioning/uncertainty/non-answer priming",
+        "Different epistemic commitment"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "Adds an address-versus-city distinction not present in the active answer.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Tessa currently lives in Norwich.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Exact past-residence question",
+        "Same historical date/header",
+        "Same named speaker and role order",
+        "Two turns"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named past-city answer replaced by a clarification question",
+        "Historical residence assertion removed"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 120,
+        "candidate_prompt_sha256": "d6b16e08289265884ae2697a90f39dda2fe4e7bf7de66f05519b8406da469f88",
+        "case_id": "control_v2_dev_004",
+        "difference": 0,
+        "family": "history_stale_generalized",
+        "native_candidate_request": 913,
+        "native_candidate_response": 914,
+        "native_reference_request": 905,
+        "native_reference_response": 906,
+        "reference_count": 120,
+        "reference_prompt_sha256": "5eb97a5495430b9806a2e985b84343f665d2e33d640a513e1719d9505da84d91",
+        "review_material_exact": true,
+        "selected_candidate_index": 2,
+        "trusted_evidence_hash": "7a35cf41beb66ae8e0a165dbb230539760b899a08e4c2135cfb85edcf8dcb2ca",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Information-specificity ablation; not a neutral control or a pure temporal-conflict effect",
+      "candidate_control_text": "Historical dialogue (2025-06-18):\nUser: Where were you living back then?\nTessa: In a city back then.",
+      "candidate_id": "control_v2_dev_004__history_stale_generalized__pool02__d6b16e082892",
+      "case_id": "control_v2_dev_004",
+      "classification": "Diagnostic intervention; not a neutral placebo",
+      "current_question": "Where does Tessa currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Norwich",
+      "family": "history_stale_generalized",
+      "information_accounting": {
+        "changed": "City specificity and response informativeness; temporal phrase also changes",
+        "removed": "Exact old-city identity: Hull",
+        "retained": "Tessa lived in some city at the historical time"
+      },
+      "intended_experimental_contrast": "Named old residence versus unspecified city residence; a specificity ablation, not a neutral placebo",
+      "original_active_intervention": "Historical dialogue (2025-06-18):\nUser: Where were you living back then?\nTessa: In Hull at the time.",
+      "reference_date": "2025-06-18",
+      "remaining_confounders": [
+        "Informativeness",
+        "Vague or evasive answer pragmatics",
+        "Lexical material changes",
+        "Some temporal phrasing changes"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "Changes at the time to back then as well as replacing the city name.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Tessa currently lives in Norwich.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Exact past-residence question",
+        "Same historical date/header and roles",
+        "Past-city-residence proposition and topic"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named city replaced by the category a city",
+        "Geographic specificity and named alternative-answer exposure removed"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 99,
+        "candidate_prompt_sha256": "3c4e66c531c390dcf0d45d4f77aad09ff3ef24e747e04c37cb91354ec4ebf8ef",
+        "case_id": "control_v2_dev_005",
+        "difference": 0,
+        "family": "style_generic",
+        "native_candidate_request": 952,
+        "native_candidate_response": 953,
+        "native_reference_request": 938,
+        "native_reference_response": 939,
+        "reference_count": 99,
+        "reference_prompt_sha256": "b503837fbdc64669403e669b12ae982c640702fa47498fb622b4282fdb6ee524",
+        "review_material_exact": true,
+        "selected_candidate_index": 4,
+        "trusted_evidence_hash": "fc9413f7afc909d46e1ff092424a8868e51ac9d546a77fb32f3a715732b16842",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Length-matched style-profile versus generic-description replacement, conditional on semantic review; not style versus an inert string",
+      "candidate_control_text": "Speaker style profile: A conversation includes an exchange of questions and replies between participants.",
+      "candidate_id": "control_v2_dev_005__style_generic__pool04__3c4e66c531c3",
+      "case_id": "control_v2_dev_005",
+      "classification": "Proposed neutral-style control; validity OPEN",
+      "current_question": "Where does Blair currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Lancaster",
+      "family": "style_generic",
+      "information_accounting": {
+        "changed": "Style prescription to description",
+        "removed": "The speaker tends to acknowledge a question before giving an answer.",
+        "retained": "Same profile heading and generic discourse statement"
+      },
+      "intended_experimental_contrast": "Style profile versus generic discourse text, holding wrapper and total token length fixed",
+      "original_active_intervention": "Speaker style profile: The speaker tends to acknowledge a question before giving an answer.",
+      "reference_date": "NOT_APPLICABLE",
+      "remaining_confounders": [
+        "Instructional force and semantic salience",
+        "Generic expository register and concise complete sentence",
+        "Heading can frame generic prose as a style exemplar"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "The control describes questions and replies; it can frame conversational response structure without explicitly prescribing an acknowledgment.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Blair currently lives in Lancaster.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Speaker style profile heading"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named style prescription replaced by generic discourse description"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 119,
+        "candidate_prompt_sha256": "01b74af39fd84bdf0dd10dd906d1de866fd2317349f1ec659458a0c72c3a10d7",
+        "case_id": "control_v2_dev_005",
+        "difference": 0,
+        "family": "history_format",
+        "native_candidate_request": 1048,
+        "native_candidate_response": 1049,
+        "native_reference_request": 1037,
+        "native_reference_response": 1038,
+        "reference_count": 119,
+        "reference_prompt_sha256": "26cdda3c57e8972265bd55fc12039ebe03d306da93ebd4ac8820a64993b004e4",
+        "review_material_exact": true,
+        "selected_candidate_index": 3,
+        "trusted_evidence_hash": "fc9413f7afc909d46e1ff092424a8868e51ac9d546a77fb32f3a715732b16842",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Format/length-controlled content replacement; not the causal effect of history format or topic alone",
+      "candidate_control_text": "Historical dialogue (2025-08-21):\nUser: What does a conversation involve?\nBlair: An exchange between the people taking part.",
+      "candidate_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8",
+      "case_id": "control_v2_dev_005",
+      "classification": "Proposed format/length placebo; semantic validity OPEN",
+      "current_question": "Where does Blair currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Lancaster",
+      "family": "history_format",
+      "information_accounting": {
+        "changed": "Residence content to generic discourse",
+        "removed": "Named old residence Carlisle and its residence question",
+        "retained": "Date label, attribution and question-answer structure"
+      },
+      "intended_experimental_contrast": "Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ",
+      "original_active_intervention": "Historical dialogue (2025-08-21):\nUser: Where were you living back then?\nBlair: In Carlisle at the time.",
+      "reference_date": "2025-08-21",
+      "remaining_confounders": [
+        "Topic relevance",
+        "Personal versus generic factual content",
+        "Internal past reference versus generic statement",
+        "Deictic wording and register"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "The question and reply concern conversation, not residence; generic propositions replace dated personal information.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Blair currently lives in Lancaster.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Same historical date/header",
+        "User then named-speaker roles",
+        "Two turns with question-answer organization"
+      ],
+      "variables_intentionally_manipulated": [
+        "Residence question replaced by a conversation question",
+        "Specific old-city residence replaced by generic discourse content"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 119,
+        "candidate_prompt_sha256": "59cc45bd5e0b03a3743c622e44fae3b02592100202e5fc49314ac1238c57e604",
+        "case_id": "control_v2_dev_005",
+        "difference": 0,
+        "family": "history_topic",
+        "native_candidate_request": 1111,
+        "native_candidate_response": 1112,
+        "native_reference_request": 1088,
+        "native_reference_response": 1089,
+        "reference_count": 119,
+        "reference_prompt_sha256": "26cdda3c57e8972265bd55fc12039ebe03d306da93ebd4ac8820a64993b004e4",
+        "review_material_exact": true,
+        "selected_candidate_index": 7,
+        "trusted_evidence_hash": "fc9413f7afc909d46e1ff092424a8868e51ac9d546a77fb32f3a715732b16842",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Residence-topic-aligned answer-versus-clarification contrast; not an information-only or neutral-placebo intervention",
+      "candidate_control_text": "Historical dialogue (2025-08-21):\nUser: Where were you living back then?\nBlair: Are you asking about the city?",
+      "candidate_id": "control_v2_dev_005__history_topic__pool07__59cc45bd5e0b",
+      "case_id": "control_v2_dev_005",
+      "classification": "Topic-matched comparison candidate; neutrality unestablished",
+      "current_question": "Where does Blair currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Lancaster",
+      "family": "history_topic",
+      "information_accounting": {
+        "changed": "Answer becomes a question",
+        "removed": "The assertion of past residence in Carlisle",
+        "retained": "Past-residence question, date and attribution"
+      },
+      "intended_experimental_contrast": "Old-residence answer versus residence clarification; question, speaker, date and length matched, pragmatics differ",
+      "original_active_intervention": "Historical dialogue (2025-08-21):\nUser: Where were you living back then?\nBlair: In Carlisle at the time.",
+      "reference_date": "2025-08-21",
+      "remaining_confounders": [
+        "Question-answer versus question-clarification speech act",
+        "Questioning/uncertainty/non-answer priming",
+        "Different epistemic commitment"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "Uses a second-person clarification about city granularity, not a residence assertion.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Blair currently lives in Lancaster.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Exact past-residence question",
+        "Same historical date/header",
+        "Same named speaker and role order",
+        "Two turns"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named past-city answer replaced by a clarification question",
+        "Historical residence assertion removed"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 119,
+        "candidate_prompt_sha256": "aca4b8c3b0f65d3bab908e7e5093cc452cc0926576d1f0980b9ad1b21153f878",
+        "case_id": "control_v2_dev_005",
+        "difference": 0,
+        "family": "history_stale_generalized",
+        "native_candidate_request": 1138,
+        "native_candidate_response": 1139,
+        "native_reference_request": 1127,
+        "native_reference_response": 1128,
+        "reference_count": 119,
+        "reference_prompt_sha256": "26cdda3c57e8972265bd55fc12039ebe03d306da93ebd4ac8820a64993b004e4",
+        "review_material_exact": true,
+        "selected_candidate_index": 3,
+        "trusted_evidence_hash": "fc9413f7afc909d46e1ff092424a8868e51ac9d546a77fb32f3a715732b16842",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Information-specificity ablation; not a neutral control or a pure temporal-conflict effect",
+      "candidate_control_text": "Historical dialogue (2025-08-21):\nUser: Where were you living back then?\nBlair: In a city at the time.",
+      "candidate_id": "control_v2_dev_005__history_stale_generalized__pool03__aca4b8c3b0f6",
+      "case_id": "control_v2_dev_005",
+      "classification": "Diagnostic intervention; not a neutral placebo",
+      "current_question": "Where does Blair currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Lancaster",
+      "family": "history_stale_generalized",
+      "information_accounting": {
+        "changed": "City specificity and response informativeness; temporal phrase unchanged",
+        "removed": "Exact old-city identity: Carlisle",
+        "retained": "Blair lived in some city at the historical time"
+      },
+      "intended_experimental_contrast": "Named old residence versus unspecified city residence; a specificity ablation, not a neutral placebo",
+      "original_active_intervention": "Historical dialogue (2025-08-21):\nUser: Where were you living back then?\nBlair: In Carlisle at the time.",
+      "reference_date": "2025-08-21",
+      "remaining_confounders": [
+        "Informativeness",
+        "Vague or evasive answer pragmatics",
+        "Lexical material changes",
+        "Some temporal phrasing changes"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "Retains at the time verbatim; the city name becomes a city.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Blair currently lives in Lancaster.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Exact past-residence question",
+        "Same historical date/header and roles",
+        "Past-city-residence proposition and topic"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named city replaced by the category a city",
+        "Geographic specificity and named alternative-answer exposure removed"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 100,
+        "candidate_prompt_sha256": "a0012f6e52974557a87d8a1d51d2f7d0784ec60488169634830b6a0e16f0d132",
+        "case_id": "control_v2_dev_006",
+        "difference": 0,
+        "family": "style_generic",
+        "native_candidate_request": 1171,
+        "native_candidate_response": 1172,
+        "native_reference_request": 1160,
+        "native_reference_response": 1161,
+        "reference_count": 100,
+        "reference_prompt_sha256": "15acc7a4a4895f350ccd55188800254caa49a0d3e9fb153cde244b03b4b2dcf3",
+        "review_material_exact": true,
+        "selected_candidate_index": 3,
+        "trusted_evidence_hash": "94fd43844bb169b0e788e8b149776101632f190449ca1710390e4881f7d97e02",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Length-matched style-profile versus generic-description replacement, conditional on semantic review; not style versus an inert string",
+      "candidate_control_text": "Speaker style profile: A conversation consists of questions and replies from the people taking part.",
+      "candidate_id": "control_v2_dev_006__style_generic__pool03__a0012f6e5297",
+      "case_id": "control_v2_dev_006",
+      "classification": "Proposed neutral-style control; validity OPEN",
+      "current_question": "Where does Robin currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Plymouth",
+      "family": "style_generic",
+      "information_accounting": {
+        "changed": "Style prescription to description",
+        "removed": "The speaker favors a single sentence when responding to a straightforward question.",
+        "retained": "Same profile heading and generic discourse statement"
+      },
+      "intended_experimental_contrast": "Style profile versus generic discourse text, holding wrapper and total token length fixed",
+      "original_active_intervention": "Speaker style profile: The speaker favors a single sentence when responding to a straightforward question.",
+      "reference_date": "NOT_APPLICABLE",
+      "remaining_confounders": [
+        "Instructional force and semantic salience",
+        "Generic expository register and concise complete sentence",
+        "Heading can frame generic prose as a style exemplar"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "The control itself demonstrates a single sentence, potentially overlapping the active single-sentence response tendency.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Robin currently lives in Plymouth.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Speaker style profile heading"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named style prescription replaced by generic discourse description"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 118,
+        "candidate_prompt_sha256": "fcf5f46b8102686040014da48b030510e17aa7ba85b7248b62e6169fcb7bf7d2",
+        "case_id": "control_v2_dev_006",
+        "difference": 0,
+        "family": "history_format",
+        "native_candidate_request": 1270,
+        "native_candidate_response": 1271,
+        "native_reference_request": 1259,
+        "native_reference_response": 1260,
+        "reference_count": 118,
+        "reference_prompt_sha256": "e47a6f3d6c39025d3fbdf6cbe85707c2d3c5ecaa6508228957c99a603a601e4b",
+        "review_material_exact": true,
+        "selected_candidate_index": 3,
+        "trusted_evidence_hash": "94fd43844bb169b0e788e8b149776101632f190449ca1710390e4881f7d97e02",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Format/length-controlled content replacement; not the causal effect of history format or topic alone",
+      "candidate_control_text": "Historical dialogue (2025-11-09):\nUser: What does a conversation involve?\nRobin: An exchange between the people taking part.",
+      "candidate_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102",
+      "case_id": "control_v2_dev_006",
+      "classification": "Proposed format/length placebo; semantic validity OPEN",
+      "current_question": "Where does Robin currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Plymouth",
+      "family": "history_format",
+      "information_accounting": {
+        "changed": "Residence content to generic discourse",
+        "removed": "Named old residence Gloucester and its residence question",
+        "retained": "Date label, attribution and question-answer structure"
+      },
+      "intended_experimental_contrast": "Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ",
+      "original_active_intervention": "Historical dialogue (2025-11-09):\nUser: Where were you living back then?\nRobin: In Gloucester at the time.",
+      "reference_date": "2025-11-09",
+      "remaining_confounders": [
+        "Topic relevance",
+        "Personal versus generic factual content",
+        "Internal past reference versus generic statement",
+        "Deictic wording and register"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "The question and reply concern conversation, not residence; generic propositions replace dated personal information.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Robin currently lives in Plymouth.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Same historical date/header",
+        "User then named-speaker roles",
+        "Two turns with question-answer organization"
+      ],
+      "variables_intentionally_manipulated": [
+        "Residence question replaced by a conversation question",
+        "Specific old-city residence replaced by generic discourse content"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 118,
+        "candidate_prompt_sha256": "5a7d1c29531e849659aae4d381bd4c7284b986f5d145d45fb10bbd87a255b140",
+        "case_id": "control_v2_dev_006",
+        "difference": 0,
+        "family": "history_topic",
+        "native_candidate_request": 1333,
+        "native_candidate_response": 1334,
+        "native_reference_request": 1310,
+        "native_reference_response": 1311,
+        "reference_count": 118,
+        "reference_prompt_sha256": "e47a6f3d6c39025d3fbdf6cbe85707c2d3c5ecaa6508228957c99a603a601e4b",
+        "review_material_exact": true,
+        "selected_candidate_index": 7,
+        "trusted_evidence_hash": "94fd43844bb169b0e788e8b149776101632f190449ca1710390e4881f7d97e02",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Residence-topic-aligned answer-versus-clarification contrast; not an information-only or neutral-placebo intervention",
+      "candidate_control_text": "Historical dialogue (2025-11-09):\nUser: Where were you living back then?\nRobin: Are you asking about the city?",
+      "candidate_id": "control_v2_dev_006__history_topic__pool07__5a7d1c29531e",
+      "case_id": "control_v2_dev_006",
+      "classification": "Topic-matched comparison candidate; neutrality unestablished",
+      "current_question": "Where does Robin currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Plymouth",
+      "family": "history_topic",
+      "information_accounting": {
+        "changed": "Answer becomes a question",
+        "removed": "The assertion of past residence in Gloucester",
+        "retained": "Past-residence question, date and attribution"
+      },
+      "intended_experimental_contrast": "Old-residence answer versus residence clarification; question, speaker, date and length matched, pragmatics differ",
+      "original_active_intervention": "Historical dialogue (2025-11-09):\nUser: Where were you living back then?\nRobin: In Gloucester at the time.",
+      "reference_date": "2025-11-09",
+      "remaining_confounders": [
+        "Question-answer versus question-clarification speech act",
+        "Questioning/uncertainty/non-answer priming",
+        "Different epistemic commitment"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "Uses a second-person clarification about city granularity, not a residence assertion.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Robin currently lives in Plymouth.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Exact past-residence question",
+        "Same historical date/header",
+        "Same named speaker and role order",
+        "Two turns"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named past-city answer replaced by a clarification question",
+        "Historical residence assertion removed"
+      ]
+    },
+    {
+      "actual_tokenizer_evidence": {
+        "candidate_count": 118,
+        "candidate_prompt_sha256": "726134061d9dd47c428b276a38e30c75d3a93525755c20fed4f947c813d2f401",
+        "case_id": "control_v2_dev_006",
+        "difference": 0,
+        "family": "history_stale_generalized",
+        "native_candidate_request": 1360,
+        "native_candidate_response": 1361,
+        "native_reference_request": 1349,
+        "native_reference_response": 1350,
+        "reference_count": 118,
+        "reference_prompt_sha256": "e47a6f3d6c39025d3fbdf6cbe85707c2d3c5ecaa6508228957c99a603a601e4b",
+        "review_material_exact": true,
+        "selected_candidate_index": 3,
+        "trusted_evidence_hash": "94fd43844bb169b0e788e8b149776101632f190449ca1710390e4881f7d97e02",
+        "wrapper_evidence_question_exact": true
+      },
+      "analysis_type": "automated_development_analysis_not_human_annotation",
+      "appropriate_interpretation": "Information-specificity ablation; not a neutral control or a pure temporal-conflict effect",
+      "candidate_control_text": "Historical dialogue (2025-11-09):\nUser: Where were you living back then?\nRobin: In a city at the time.",
+      "candidate_id": "control_v2_dev_006__history_stale_generalized__pool03__726134061d9d",
+      "case_id": "control_v2_dev_006",
+      "classification": "Diagnostic intervention; not a neutral placebo",
+      "current_question": "Where does Robin currently live?",
+      "evaluation_date": "2026-10-12",
+      "expected_answer": "Plymouth",
+      "family": "history_stale_generalized",
+      "information_accounting": {
+        "changed": "City specificity and response informativeness; temporal phrase unchanged",
+        "removed": "Exact old-city identity: Gloucester",
+        "retained": "Robin lived in some city at the historical time"
+      },
+      "intended_experimental_contrast": "Named old residence versus unspecified city residence; a specificity ablation, not a neutral placebo",
+      "original_active_intervention": "Historical dialogue (2025-11-09):\nUser: Where were you living back then?\nRobin: In Gloucester at the time.",
+      "reference_date": "2025-11-09",
+      "remaining_confounders": [
+        "Informativeness",
+        "Vague or evasive answer pragmatics",
+        "Lexical material changes",
+        "Some temporal phrasing changes"
+      ],
+      "review_status": "OPEN",
+      "semantic_validity_risks": [
+        "Retains at the time verbatim; the city name becomes a city.",
+        "No new human judgment is available; input equivalence does not imply semantic equivalence"
+      ],
+      "trusted_evidence": "Verified current fact (2026-10-12): Robin currently lives in Plymouth.",
+      "variables_held_constant": [
+        "Exact trusted current evidence and current question",
+        "Recent context and original transcript wrapper",
+        "Same case and named subject",
+        "Same intervention section position",
+        "Exact total input-token count under recorded native tokenizer",
+        "Exact past-residence question",
+        "Same historical date/header and roles",
+        "Past-city-residence proposition and topic"
+      ],
+      "variables_intentionally_manipulated": [
+        "Named city replaced by the category a city",
+        "Geographic specificity and named alternative-answer exposure removed"
+      ]
+    }
+  ],
+  "created_utc": "2026-10-12T21:09:15.271521+00:00",
+  "evidence_sha256": "390dac86624d3ce529444c7f0e88a93945224e5073b1f5eb1e06f3deebb4282a",
+  "review_master_sha256": "8036dd091711e404f824b4de0bf65be89baa5e9962afc0b64f6c94893682c154",
+  "scope": "Per-candidate input analysis only; no human labels or output-based selection"
+}

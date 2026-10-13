@@ -1,0 +1,124 @@
+{
+  "P0": "PASS",
+  "P1": "NOT STARTED",
+  "P1_execution_authorized": false,
+  "acceptance": "Engineering and Methodological Infrastructure Validation Completed.",
+  "acceptance_is_not_scientific_effect_or_novelty_evidence": true,
+  "approval_sha256": "59746563037323912008c955f49c9e4c7f2a232a97abf44b3a963e86fd2498a9",
+  "authority": "Research Protocol v1.1 P0 Pipeline / Parser Validation and explicit researcher-confirmed selected-control scope",
+  "limitations": [
+    "Explicit absence-of-style is not C0-equivalent or fully semantically neutral",
+    "History A retains topic/content/temporal confounding; B rejected as neutral; C diagnostic only",
+    "Original controls and superseded detailed forms retain their original PARTIAL/FAIL/UNCERTAIN and missing fields",
+    "Researcher-verified review had preliminary assessments available; independent blind review is not established",
+    "Synthetic instrumentation validation does not establish effects, general factual accuracy, real-speaker fidelity or novelty",
+    "Upstream quantization equivalence not independently reproduced; backend internal evaluated-input IDs unavailable"
+  ],
+  "mandatory_blockers": [],
+  "recorded_utc": "2026-10-13T06:04:18.935115+00:00",
+  "requirements": [
+    {
+      "evidence_and_scope": "Historical real CPU execution and observed four-thread, 4096-context, zero-offload server logs remain byte-identical. No new generation.",
+      "id": 1,
+      "requirement": "Reliable CPU inference infrastructure",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "Pinned GGUF and executable rehashed; build 11573/0f701c882 confirmed with --version. Metadata/loading evidence preserved; no upstream-equivalence claim.",
+      "id": 2,
+      "requirement": "Verified model and backend identity",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "All 12 selected final prompts have exact length equality. 524 original native request/response pairs reconstructed twice; no approximated counts.",
+      "id": 3,
+      "requirement": "Actual-tokenizer accounting",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "Both arms retain the exact shared evidence and question; prompt hashes and IDs checked against native records.",
+      "id": 4,
+      "requirement": "Trusted evidence and questions preserved",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "transcript_base_v1, dataset hashes and frozen source/tool hashes verified. No prompt or policy changed during closure.",
+      "id": 5,
+      "requirement": "Reproducible prompt construction",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "Existing software routing/manipulation checks cover 160 original-fixture factorial prompts. Development controls do not establish perfectly orthogonal semantics or a completed factorial study.",
+      "id": 6,
+      "requirement": "S/F/H intervention construction",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "Frozen response_status_v1 and its development/holdout evidence retained; stop cause is separate from semantic completeness.",
+      "id": 7,
+      "requirement": "Explicit response boundary policy",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "Existing instrumentation and tests preserve uncertainty and raw spans. Natural EOS is not required for every model answer.",
+      "id": 8,
+      "requirement": "Separate COMPLETE/TRUNCATED/CROSS_TURN/AMBIGUOUS statuses",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "separate_axes_policy_v1 retains Correct/Incorrect/Unverifiable/Not Applicable and separate completeness, support, relevance and temporal axes; first-reply/prefix policy unchanged.",
+      "id": 9,
+      "requirement": "Consistent evaluation units and predeclared applicability",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "Historical raw responses, parser traces and earlier evaluations are unchanged. No retrospective replacement by a newer score.",
+      "id": 10,
+      "requirement": "Raw output and parser traceability",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "Six selected style decisions and six History A decisions are ACCEPT_NARROW; 18 History A evidence links confirmed. Final Tessa approval is explicit and hash-bound; missing review time remains null.",
+      "id": 11,
+      "requirement": "Required researcher reviews",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "Style compares information against explicit absence; History A compares residence history against unrelated coherent dialogue at matched length/format. Residual lexical, topic and temporal confounds are explicit.",
+      "id": 12,
+      "requirement": "Defensible selected-control comparisons",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "25 journals / 32919 original files rehashed; all hash chains recomputed. Original annotations, source snapshots, inputs and failures retained.",
+      "id": 13,
+      "requirement": "Reproducibility and provenance",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "365 tests passed, 0 failed, 0 warnings reported, exit code 0. No source functionality or test threshold changed.",
+      "id": 14,
+      "requirement": "Passed engineering validation",
+      "status": "PASS"
+    },
+    {
+      "evidence_and_scope": "Bounded synthetic-city evaluation, assisted single-researcher review, limited stimuli, unsupported backend arrays and unverified upstream quantization equivalence remain disclosed.",
+      "id": 15,
+      "requirement": "Documented scientific limitations",
+      "status": "PASS"
+    }
+  ],
+  "research_maintainer": "Yaxin ZHENG",
+  "selected_controls_sha256": "a45ecf0b387b35d1b8c0b7004f57cade8c7c8828f799fe4ca1e7e26591deacb2",
+  "test_capture_sha256": "8935290c85b2834821959538ac786a670880efd25c092970310b51aaf4a42d64",
+  "test_result": {
+    "capture_duration_seconds": 17.694732600008138,
+    "exit_code": 0,
+    "failed": 0,
+    "passed": 365,
+    "pytest_seconds": 17.0,
+    "warnings_reported": 0
+  },
+  "verification_sha256": "ce0f6247e96c9a6b011bff24e00abac50a336c50722347f8389e96df573ba144",
+  "version": "p0_acceptance_decision_v1"
+}

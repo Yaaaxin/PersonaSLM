@@ -1,0 +1,1081 @@
+﻿candidate_id,case_id,candidate_family,original_active_intervention,candidate_control_text,trusted_evidence,current_question,reference_date,evaluation_date,expected_answer,speaker_name,reference_condition,reference_token_count,candidate_token_count,token_difference,intended_comparison,review_questions,answer_leakage,additional_factual_information,contradictory_information,temporal_interference,unintended_linguistic_style,semantic_neutrality,unnecessary_repetition,speaker_identity,dialogue_structure,timestamp_format,topic_alignment,temporal_relationships,conversational_coherence,evidence_question_preservation,comparison_suitability,answer_leakage_evidence_quote,additional_factual_information_evidence_quote,contradictory_information_evidence_quote,temporal_interference_evidence_quote,unintended_linguistic_style_evidence_quote,semantic_neutrality_evidence_quote,unnecessary_repetition_evidence_quote,speaker_identity_evidence_quote,dialogue_structure_evidence_quote,timestamp_format_evidence_quote,topic_alignment_evidence_quote,temporal_relationships_evidence_quote,conversational_coherence_evidence_quote,evidence_question_preservation_evidence_quote,comparison_suitability_evidence_quote,reviewer_notes,reviewer_id,review_assistance,reviewed_utc,reference_prompt,candidate_prompt,form_version,candidate_version,prompt_template_version,source_condition_id,source_candidate_index,prompt_sha256,reference_prompt_sha256,trusted_evidence_hash,reference_date_scope,not_applicable_fields,candidate_class,material_sha256
+control_v2_dev_001__style_generic__pool23__294bd9df9d55,control_v2_dev_001,style_generic,Speaker style profile: The speaker favors brief replies with short sentences and avoids extended elaboration.,Speaker style profile: A question from a participant forms part of an exchange with another participant.,Verified current fact (2026-10-12): Riley currently lives in Leeds.,Where does Riley currently live?,NOT_APPLICABLE,2026-10-12,Leeds,Riley,C1,101,101,0,"Style profile versus generic discourse text, holding wrapper and total token length fixed","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Riley currently lives in Leeds.
+
+ADDITIONAL CONTEXT:
+Speaker style profile: The speaker favors brief replies with short sentences and avoids extended elaboration.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Riley currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Riley currently lives in Leeds.
+
+ADDITIONAL CONTEXT:
+Speaker style profile: A question from a participant forms part of an exchange with another participant.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Riley currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,style_generic_v2_dev,23,294bd9df9d554672a7d38b2598040172e8f957e549c01b0ee335880a39730b34,a7cb04379138287b6182d9531892840d78a2bf3484e48a26f7e6759de1fbfebb,447ffd6cd3c867f69af2ca472ee86eb88421d895bfb46e20c41cd7610b6de109,No dated style block,"speaker_identity, dialogue_structure, timestamp_format, topic_alignment, temporal_relationships",Proposed neutral control; unreviewed,cb3d4ea9a7e99b90063f7f532cb23aab938706440457fd42eebbbcf72c328d41
+control_v2_dev_001__history_format__pool01__5f2142adbc48,control_v2_dev_001,history_format,"Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Riley: In York at the time.","Historical dialogue (2025-03-14):
+User: What does a conversation involve?
+Riley: An exchange of questions and replies.",Verified current fact (2026-10-12): Riley currently lives in Leeds.,Where does Riley currently live?,2025-03-14,2026-10-12,Leeds,Riley,C3,118,118,0,"Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Riley currently lives in Leeds.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Riley: In York at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Riley currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Riley currently lives in Leeds.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: What does a conversation involve?
+Riley: An exchange of questions and replies.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Riley currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_format_v2_dev,1,5f2142adbc480e2ba18a95e25728e3f359137800a0d4938a61b4b4f10772ba83,8407e7692b31ca2c840cc6d399a40c6a6a048b7084cc3c84065972b44329762d,447ffd6cd3c867f69af2ca472ee86eb88421d895bfb46e20c41cd7610b6de109,"Historical header date, not evaluation date",,Proposed neutral control; unreviewed,bc1fb4951cc9de4032d172059ed1c44f37300b215883480e872923b260315fa9
+control_v2_dev_001__history_topic__pool03__471aadd78588,control_v2_dev_001,history_topic,"Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Riley: In York at the time.","Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Riley: The city or the address?",Verified current fact (2026-10-12): Riley currently lives in Leeds.,Where does Riley currently live?,2025-03-14,2026-10-12,Leeds,Riley,C3,118,118,0,"Old-residence answer versus residence clarification; question, speaker, date and length matched, pragmatics differ","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Riley currently lives in Leeds.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Riley: In York at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Riley currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Riley currently lives in Leeds.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Riley: The city or the address?
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Riley currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_topic_v2_dev,3,471aadd78588a4b1b6af3baa3fe12dd903d79911a1ac0e32ca77c43c7bad7192,8407e7692b31ca2c840cc6d399a40c6a6a048b7084cc3c84065972b44329762d,447ffd6cd3c867f69af2ca472ee86eb88421d895bfb46e20c41cd7610b6de109,"Historical header date, not evaluation date",,Topic-matched clarification comparison; neutrality unestablished,cdf7c95ebac24a665e87cee68f96ee98ba92be438119a0d90cb0724b42c539d0
+control_v2_dev_001__history_stale_generalized__pool02__e9d16e061156,control_v2_dev_001,history_stale_generalized,"Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Riley: In York at the time.","Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Riley: In a city back then.",Verified current fact (2026-10-12): Riley currently lives in Leeds.,Where does Riley currently live?,2025-03-14,2026-10-12,Leeds,Riley,C3,118,118,0,"Named old residence versus unspecified city residence; a specificity ablation, not a neutral placebo","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Riley currently lives in Leeds.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Riley: In York at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Riley currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Riley currently lives in Leeds.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Riley: In a city back then.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Riley currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_stale_generalized_v2_dev,2,e9d16e06115638a82927894a7b006c6cb832a337bdbe9adac46f83e31e82644d,8407e7692b31ca2c840cc6d399a40c6a6a048b7084cc3c84065972b44329762d,447ffd6cd3c867f69af2ca472ee86eb88421d895bfb46e20c41cd7610b6de109,"Historical header date, not evaluation date",semantic_neutrality,Diagnostic; not a neutral placebo,f604f0fa7e92f7ca98367304bf60e5bec32e87b7d8deb15a7cd253f9b01ce873
+control_v2_dev_002__style_generic__pool04__adcd59ceae18,control_v2_dev_002,style_generic,Speaker style profile: The speaker favors formal wording and complete sentences in ordinary conversation.,Speaker style profile: A conversation includes an exchange of questions and replies between participants.,Verified current fact (2026-10-12): Samara currently lives in Bristol.,Where does Samara currently live?,NOT_APPLICABLE,2026-10-12,Bristol,Samara,C1,101,101,0,"Style profile versus generic discourse text, holding wrapper and total token length fixed","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Samara currently lives in Bristol.
+
+ADDITIONAL CONTEXT:
+Speaker style profile: The speaker favors formal wording and complete sentences in ordinary conversation.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Samara currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Samara currently lives in Bristol.
+
+ADDITIONAL CONTEXT:
+Speaker style profile: A conversation includes an exchange of questions and replies between participants.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Samara currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,style_generic_v2_dev,4,adcd59ceae18e341c7dff8e9672015818bb5c81b04bd8733e60b4f58f1e6ac1c,866bb97489772c23f39bde16836fb70bfd836ca726996706d2d00118d06131f2,8a9c1df0e05bfdbf58db7374e362c5c16e781e2c767ada967da7c24f6e08f28e,No dated style block,"speaker_identity, dialogue_structure, timestamp_format, topic_alignment, temporal_relationships",Proposed neutral control; unreviewed,7cb71864c97c753c3ec6530efe1ebb8efa85cc6141c9bc17094f1900625013b6
+control_v2_dev_002__history_format__pool01__7765840a2912,control_v2_dev_002,history_format,"Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Samara: In Bath at the time.","Historical dialogue (2025-03-14):
+User: What does a conversation involve?
+Samara: An exchange of questions and replies.",Verified current fact (2026-10-12): Samara currently lives in Bristol.,Where does Samara currently live?,2025-03-14,2026-10-12,Bristol,Samara,C3,120,120,0,"Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Samara currently lives in Bristol.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Samara: In Bath at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Samara currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Samara currently lives in Bristol.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: What does a conversation involve?
+Samara: An exchange of questions and replies.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Samara currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_format_v2_dev,1,7765840a29128036bb7af29598e866d332c42fb653273b6d8a6b5b34e752fe5c,5aa31b2b4c3bd1950eabeae4edcf33b543a7f194f79c8d88d9791e3c6b67a9fd,8a9c1df0e05bfdbf58db7374e362c5c16e781e2c767ada967da7c24f6e08f28e,"Historical header date, not evaluation date",,Proposed neutral control; unreviewed,4284dfe7b560f5b0cb147c6864ce75aa55135024c50a4c74fd6c309a9d7384b2
+control_v2_dev_002__history_topic__pool03__fecd6452a6df,control_v2_dev_002,history_topic,"Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Samara: In Bath at the time.","Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Samara: The city or the address?",Verified current fact (2026-10-12): Samara currently lives in Bristol.,Where does Samara currently live?,2025-03-14,2026-10-12,Bristol,Samara,C3,120,120,0,"Old-residence answer versus residence clarification; question, speaker, date and length matched, pragmatics differ","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Samara currently lives in Bristol.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Samara: In Bath at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Samara currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Samara currently lives in Bristol.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Samara: The city or the address?
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Samara currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_topic_v2_dev,3,fecd6452a6dfe91b2fe7ab7271547af8a1625c8dfbf2339b054af85f3cf1ff00,5aa31b2b4c3bd1950eabeae4edcf33b543a7f194f79c8d88d9791e3c6b67a9fd,8a9c1df0e05bfdbf58db7374e362c5c16e781e2c767ada967da7c24f6e08f28e,"Historical header date, not evaluation date",,Topic-matched clarification comparison; neutrality unestablished,3aae0f2094644b8b617c3624263003734401d01f53a9cf9f5399336f6c21653f
+control_v2_dev_002__history_stale_generalized__pool02__5661c465e1ce,control_v2_dev_002,history_stale_generalized,"Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Samara: In Bath at the time.","Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Samara: In a city back then.",Verified current fact (2026-10-12): Samara currently lives in Bristol.,Where does Samara currently live?,2025-03-14,2026-10-12,Bristol,Samara,C3,120,120,0,"Named old residence versus unspecified city residence; a specificity ablation, not a neutral placebo","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Samara currently lives in Bristol.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Samara: In Bath at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Samara currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Samara currently lives in Bristol.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Samara: In a city back then.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Samara currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_stale_generalized_v2_dev,2,5661c465e1cefe5f813753cd3dc40fae00c603af3991800102b9163c5341e8f7,5aa31b2b4c3bd1950eabeae4edcf33b543a7f194f79c8d88d9791e3c6b67a9fd,8a9c1df0e05bfdbf58db7374e362c5c16e781e2c767ada967da7c24f6e08f28e,"Historical header date, not evaluation date",semantic_neutrality,Diagnostic; not a neutral placebo,487ceed48aaccac87cbca6e616a6e6ae576125b6c21779a64e8100dd258a20f9
+control_v2_dev_003__style_generic__pool04__0adac871074b,control_v2_dev_003,style_generic,Speaker style profile: The speaker sometimes uses the word certainly when acknowledging a request.,Speaker style profile: A conversation includes an exchange of questions and replies between participants.,Verified current fact (2026-10-12): Devon currently lives in Durham.,Where does Devon currently live?,NOT_APPLICABLE,2026-10-12,Durham,Devon,C1,99,99,0,"Style profile versus generic discourse text, holding wrapper and total token length fixed","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Devon currently lives in Durham.
+
+ADDITIONAL CONTEXT:
+Speaker style profile: The speaker sometimes uses the word certainly when acknowledging a request.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Devon currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Devon currently lives in Durham.
+
+ADDITIONAL CONTEXT:
+Speaker style profile: A conversation includes an exchange of questions and replies between participants.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Devon currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,style_generic_v2_dev,4,0adac871074b66d4615b749827597b142bfb628f5fc0de4493e9ed4f4bd8cb0a,50d4e175b82408748541e4d1e3af91810b55e62d9939a40ec57d86d49018543f,881fa800089c086c0a64f1798007faed8cdec67334a50d7b5d9d9dcc8fde785c,No dated style block,"speaker_identity, dialogue_structure, timestamp_format, topic_alignment, temporal_relationships",Proposed neutral control; unreviewed,3f312c96b878e2bd46d908ddfdc4725efd11db3183ec213439f675fbe3b8897d
+control_v2_dev_003__history_format__pool03__d1c203038d13,control_v2_dev_003,history_format,"Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Devon: In Exeter at the time.","Historical dialogue (2025-03-14):
+User: What does a conversation involve?
+Devon: An exchange between the people taking part.",Verified current fact (2026-10-12): Devon currently lives in Durham.,Where does Devon currently live?,2025-03-14,2026-10-12,Durham,Devon,C3,119,119,0,"Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Devon currently lives in Durham.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Devon: In Exeter at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Devon currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Devon currently lives in Durham.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: What does a conversation involve?
+Devon: An exchange between the people taking part.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Devon currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_format_v2_dev,3,d1c203038d13b1a5f06a84a7268345566a8fcacd0421a4beaa1033459ce80aec,e0913fda8d0dda40dbcf12a6ee2a505b398c5789572a830da3ce78baef909096,881fa800089c086c0a64f1798007faed8cdec67334a50d7b5d9d9dcc8fde785c,"Historical header date, not evaluation date",,Proposed neutral control; unreviewed,60d92ff51488affd86f951416ae1bf4b52a7963472c01b4e76120b682bf6f57b
+control_v2_dev_003__history_topic__pool07__3cbd45ba74bf,control_v2_dev_003,history_topic,"Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Devon: In Exeter at the time.","Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Devon: Are you asking about the city?",Verified current fact (2026-10-12): Devon currently lives in Durham.,Where does Devon currently live?,2025-03-14,2026-10-12,Durham,Devon,C3,119,119,0,"Old-residence answer versus residence clarification; question, speaker, date and length matched, pragmatics differ","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Devon currently lives in Durham.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Devon: In Exeter at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Devon currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Devon currently lives in Durham.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Devon: Are you asking about the city?
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Devon currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_topic_v2_dev,7,3cbd45ba74bfc1ba947cfd2860df5c84e7266c3bc9691bf28c9e3ed852a9a03c,e0913fda8d0dda40dbcf12a6ee2a505b398c5789572a830da3ce78baef909096,881fa800089c086c0a64f1798007faed8cdec67334a50d7b5d9d9dcc8fde785c,"Historical header date, not evaluation date",,Topic-matched clarification comparison; neutrality unestablished,3646bcdd3193bb28ada50c40b5253c316134567489bd68f7e250d12afe9fb8c1
+control_v2_dev_003__history_stale_generalized__pool03__fd5669839118,control_v2_dev_003,history_stale_generalized,"Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Devon: In Exeter at the time.","Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Devon: In a city at the time.",Verified current fact (2026-10-12): Devon currently lives in Durham.,Where does Devon currently live?,2025-03-14,2026-10-12,Durham,Devon,C3,119,119,0,"Named old residence versus unspecified city residence; a specificity ablation, not a neutral placebo","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Devon currently lives in Durham.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Devon: In Exeter at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Devon currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Devon currently lives in Durham.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Devon: In a city at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Devon currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_stale_generalized_v2_dev,3,fd566983911883a38f514c7f70153edab0d581d3a834016d93839436e8bc6067,e0913fda8d0dda40dbcf12a6ee2a505b398c5789572a830da3ce78baef909096,881fa800089c086c0a64f1798007faed8cdec67334a50d7b5d9d9dcc8fde785c,"Historical header date, not evaluation date",semantic_neutrality,Diagnostic; not a neutral placebo,0f024b03d59165beacf5eeeadf1a4d91cf6e778e36431ad510edbf915ebab3fe
+control_v2_dev_004__style_generic__pool01__237a2b6e80ab,control_v2_dev_004,style_generic,Speaker style profile: The speaker uses contractions in conversational replies.,Speaker style profile: A conversation includes questions and replies from its participants.,Verified current fact (2026-10-12): Tessa currently lives in Norwich.,Where does Tessa currently live?,NOT_APPLICABLE,2026-10-12,Norwich,Tessa,C1,99,99,0,"Style profile versus generic discourse text, holding wrapper and total token length fixed","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Tessa currently lives in Norwich.
+
+ADDITIONAL CONTEXT:
+Speaker style profile: The speaker uses contractions in conversational replies.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Tessa currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Tessa currently lives in Norwich.
+
+ADDITIONAL CONTEXT:
+Speaker style profile: A conversation includes questions and replies from its participants.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Tessa currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,style_generic_v2_dev,1,237a2b6e80ab57055abab1072ecd0733d6480800173f0241f84c4e2a59e33472,420294b895b631db5b59f98bfbfeed0e4b5f37b9dc204fd12cd22b5c060289d3,7a35cf41beb66ae8e0a165dbb230539760b899a08e4c2135cfb85edcf8dcb2ca,No dated style block,"speaker_identity, dialogue_structure, timestamp_format, topic_alignment, temporal_relationships",Proposed neutral control; unreviewed,421edb59c5d4e5aa90cc7764c2c2c521d7c2da5d967d02b18774f4c16b885198
+control_v2_dev_004__history_format__pool01__8a27dbe7c690,control_v2_dev_004,history_format,"Historical dialogue (2025-06-18):
+User: Where were you living back then?
+Tessa: In Hull at the time.","Historical dialogue (2025-06-18):
+User: What does a conversation involve?
+Tessa: An exchange of questions and replies.",Verified current fact (2026-10-12): Tessa currently lives in Norwich.,Where does Tessa currently live?,2025-06-18,2026-10-12,Norwich,Tessa,C3,120,120,0,"Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Tessa currently lives in Norwich.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-06-18):
+User: Where were you living back then?
+Tessa: In Hull at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Tessa currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Tessa currently lives in Norwich.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-06-18):
+User: What does a conversation involve?
+Tessa: An exchange of questions and replies.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Tessa currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_format_v2_dev,1,8a27dbe7c690d4198f217a405c9e130ef29201740cf265df8fdb0dd549236a44,5eb97a5495430b9806a2e985b84343f665d2e33d640a513e1719d9505da84d91,7a35cf41beb66ae8e0a165dbb230539760b899a08e4c2135cfb85edcf8dcb2ca,"Historical header date, not evaluation date",,Proposed neutral control; unreviewed,754cd5a17ff1d0a96417d44156f327b362a9b87e53882ba65aa8ee2c6f4ed78d
+control_v2_dev_004__history_topic__pool03__0cf290145a89,control_v2_dev_004,history_topic,"Historical dialogue (2025-06-18):
+User: Where were you living back then?
+Tessa: In Hull at the time.","Historical dialogue (2025-06-18):
+User: Where were you living back then?
+Tessa: The city or the address?",Verified current fact (2026-10-12): Tessa currently lives in Norwich.,Where does Tessa currently live?,2025-06-18,2026-10-12,Norwich,Tessa,C3,120,120,0,"Old-residence answer versus residence clarification; question, speaker, date and length matched, pragmatics differ","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Tessa currently lives in Norwich.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-06-18):
+User: Where were you living back then?
+Tessa: In Hull at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Tessa currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Tessa currently lives in Norwich.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-06-18):
+User: Where were you living back then?
+Tessa: The city or the address?
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Tessa currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_topic_v2_dev,3,0cf290145a89fd2d391fadc74ab5cd47d35184db0bb27069f525e695d71b698f,5eb97a5495430b9806a2e985b84343f665d2e33d640a513e1719d9505da84d91,7a35cf41beb66ae8e0a165dbb230539760b899a08e4c2135cfb85edcf8dcb2ca,"Historical header date, not evaluation date",,Topic-matched clarification comparison; neutrality unestablished,5cab5e202fd15264cab9a9049c932e0a102ccab1d5b54a07a865de7a928d6e6f
+control_v2_dev_004__history_stale_generalized__pool02__d6b16e082892,control_v2_dev_004,history_stale_generalized,"Historical dialogue (2025-06-18):
+User: Where were you living back then?
+Tessa: In Hull at the time.","Historical dialogue (2025-06-18):
+User: Where were you living back then?
+Tessa: In a city back then.",Verified current fact (2026-10-12): Tessa currently lives in Norwich.,Where does Tessa currently live?,2025-06-18,2026-10-12,Norwich,Tessa,C3,120,120,0,"Named old residence versus unspecified city residence; a specificity ablation, not a neutral placebo","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Tessa currently lives in Norwich.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-06-18):
+User: Where were you living back then?
+Tessa: In Hull at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Tessa currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Tessa currently lives in Norwich.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-06-18):
+User: Where were you living back then?
+Tessa: In a city back then.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Tessa currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_stale_generalized_v2_dev,2,d6b16e08289265884ae2697a90f39dda2fe4e7bf7de66f05519b8406da469f88,5eb97a5495430b9806a2e985b84343f665d2e33d640a513e1719d9505da84d91,7a35cf41beb66ae8e0a165dbb230539760b899a08e4c2135cfb85edcf8dcb2ca,"Historical header date, not evaluation date",semantic_neutrality,Diagnostic; not a neutral placebo,ef45caff42da80b1fa5cf2817ff090d6cd9badc17006c7a0f6cc328084f047fe
+control_v2_dev_005__style_generic__pool04__3c4e66c531c3,control_v2_dev_005,style_generic,Speaker style profile: The speaker tends to acknowledge a question before giving an answer.,Speaker style profile: A conversation includes an exchange of questions and replies between participants.,Verified current fact (2026-10-12): Blair currently lives in Lancaster.,Where does Blair currently live?,NOT_APPLICABLE,2026-10-12,Lancaster,Blair,C1,99,99,0,"Style profile versus generic discourse text, holding wrapper and total token length fixed","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Blair currently lives in Lancaster.
+
+ADDITIONAL CONTEXT:
+Speaker style profile: The speaker tends to acknowledge a question before giving an answer.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Blair currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Blair currently lives in Lancaster.
+
+ADDITIONAL CONTEXT:
+Speaker style profile: A conversation includes an exchange of questions and replies between participants.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Blair currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,style_generic_v2_dev,4,3c4e66c531c390dcf0d45d4f77aad09ff3ef24e747e04c37cb91354ec4ebf8ef,b503837fbdc64669403e669b12ae982c640702fa47498fb622b4282fdb6ee524,fc9413f7afc909d46e1ff092424a8868e51ac9d546a77fb32f3a715732b16842,No dated style block,"speaker_identity, dialogue_structure, timestamp_format, topic_alignment, temporal_relationships",Proposed neutral control; unreviewed,1bcb10aefe8addd36e620b81a14514e47d5180e1136a53a5ddc6f8a5b6a148c4
+control_v2_dev_005__history_format__pool03__01b74af39fd8,control_v2_dev_005,history_format,"Historical dialogue (2025-08-21):
+User: Where were you living back then?
+Blair: In Carlisle at the time.","Historical dialogue (2025-08-21):
+User: What does a conversation involve?
+Blair: An exchange between the people taking part.",Verified current fact (2026-10-12): Blair currently lives in Lancaster.,Where does Blair currently live?,2025-08-21,2026-10-12,Lancaster,Blair,C3,119,119,0,"Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Blair currently lives in Lancaster.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-08-21):
+User: Where were you living back then?
+Blair: In Carlisle at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Blair currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Blair currently lives in Lancaster.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-08-21):
+User: What does a conversation involve?
+Blair: An exchange between the people taking part.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Blair currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_format_v2_dev,3,01b74af39fd84bdf0dd10dd906d1de866fd2317349f1ec659458a0c72c3a10d7,26cdda3c57e8972265bd55fc12039ebe03d306da93ebd4ac8820a64993b004e4,fc9413f7afc909d46e1ff092424a8868e51ac9d546a77fb32f3a715732b16842,"Historical header date, not evaluation date",,Proposed neutral control; unreviewed,cd2698279aeb3d083d855e92b0ddaa4b2b430f7df83bdd7d1db43f3242b5bec0
+control_v2_dev_005__history_topic__pool07__59cc45bd5e0b,control_v2_dev_005,history_topic,"Historical dialogue (2025-08-21):
+User: Where were you living back then?
+Blair: In Carlisle at the time.","Historical dialogue (2025-08-21):
+User: Where were you living back then?
+Blair: Are you asking about the city?",Verified current fact (2026-10-12): Blair currently lives in Lancaster.,Where does Blair currently live?,2025-08-21,2026-10-12,Lancaster,Blair,C3,119,119,0,"Old-residence answer versus residence clarification; question, speaker, date and length matched, pragmatics differ","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Blair currently lives in Lancaster.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-08-21):
+User: Where were you living back then?
+Blair: In Carlisle at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Blair currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Blair currently lives in Lancaster.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-08-21):
+User: Where were you living back then?
+Blair: Are you asking about the city?
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Blair currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_topic_v2_dev,7,59cc45bd5e0b03a3743c622e44fae3b02592100202e5fc49314ac1238c57e604,26cdda3c57e8972265bd55fc12039ebe03d306da93ebd4ac8820a64993b004e4,fc9413f7afc909d46e1ff092424a8868e51ac9d546a77fb32f3a715732b16842,"Historical header date, not evaluation date",,Topic-matched clarification comparison; neutrality unestablished,10636750a58bff1b8e2c5b06d7a594f1be305a0e89856f5b7189b182cc9722f2
+control_v2_dev_005__history_stale_generalized__pool03__aca4b8c3b0f6,control_v2_dev_005,history_stale_generalized,"Historical dialogue (2025-08-21):
+User: Where were you living back then?
+Blair: In Carlisle at the time.","Historical dialogue (2025-08-21):
+User: Where were you living back then?
+Blair: In a city at the time.",Verified current fact (2026-10-12): Blair currently lives in Lancaster.,Where does Blair currently live?,2025-08-21,2026-10-12,Lancaster,Blair,C3,119,119,0,"Named old residence versus unspecified city residence; a specificity ablation, not a neutral placebo","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Blair currently lives in Lancaster.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-08-21):
+User: Where were you living back then?
+Blair: In Carlisle at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Blair currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Blair currently lives in Lancaster.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-08-21):
+User: Where were you living back then?
+Blair: In a city at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Blair currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_stale_generalized_v2_dev,3,aca4b8c3b0f65d3bab908e7e5093cc452cc0926576d1f0980b9ad1b21153f878,26cdda3c57e8972265bd55fc12039ebe03d306da93ebd4ac8820a64993b004e4,fc9413f7afc909d46e1ff092424a8868e51ac9d546a77fb32f3a715732b16842,"Historical header date, not evaluation date",semantic_neutrality,Diagnostic; not a neutral placebo,81fae61dc206a760b1753fb6d3bf60e03f78f7e503df05421f9ecab713aaefe4
+control_v2_dev_006__style_generic__pool03__a0012f6e5297,control_v2_dev_006,style_generic,Speaker style profile: The speaker favors a single sentence when responding to a straightforward question.,Speaker style profile: A conversation consists of questions and replies from the people taking part.,Verified current fact (2026-10-12): Robin currently lives in Plymouth.,Where does Robin currently live?,NOT_APPLICABLE,2026-10-12,Plymouth,Robin,C1,100,100,0,"Style profile versus generic discourse text, holding wrapper and total token length fixed","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Robin currently lives in Plymouth.
+
+ADDITIONAL CONTEXT:
+Speaker style profile: The speaker favors a single sentence when responding to a straightforward question.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Robin currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Robin currently lives in Plymouth.
+
+ADDITIONAL CONTEXT:
+Speaker style profile: A conversation consists of questions and replies from the people taking part.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Robin currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,style_generic_v2_dev,3,a0012f6e52974557a87d8a1d51d2f7d0784ec60488169634830b6a0e16f0d132,15acc7a4a4895f350ccd55188800254caa49a0d3e9fb153cde244b03b4b2dcf3,94fd43844bb169b0e788e8b149776101632f190449ca1710390e4881f7d97e02,No dated style block,"speaker_identity, dialogue_structure, timestamp_format, topic_alignment, temporal_relationships",Proposed neutral control; unreviewed,297828d3f83e253d501751a495961b9d9c785aa670789fe4d5057c68c4f15f12
+control_v2_dev_006__history_format__pool03__fcf5f46b8102,control_v2_dev_006,history_format,"Historical dialogue (2025-11-09):
+User: Where were you living back then?
+Robin: In Gloucester at the time.","Historical dialogue (2025-11-09):
+User: What does a conversation involve?
+Robin: An exchange between the people taking part.",Verified current fact (2026-10-12): Robin currently lives in Plymouth.,Where does Robin currently live?,2025-11-09,2026-10-12,Plymouth,Robin,C3,118,118,0,"Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Robin currently lives in Plymouth.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-11-09):
+User: Where were you living back then?
+Robin: In Gloucester at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Robin currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Robin currently lives in Plymouth.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-11-09):
+User: What does a conversation involve?
+Robin: An exchange between the people taking part.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Robin currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_format_v2_dev,3,fcf5f46b8102686040014da48b030510e17aa7ba85b7248b62e6169fcb7bf7d2,e47a6f3d6c39025d3fbdf6cbe85707c2d3c5ecaa6508228957c99a603a601e4b,94fd43844bb169b0e788e8b149776101632f190449ca1710390e4881f7d97e02,"Historical header date, not evaluation date",,Proposed neutral control; unreviewed,677447f65c7c2318d1990717ba7ecc8707cff87f210c44af9635c4e39f4b6236
+control_v2_dev_006__history_topic__pool07__5a7d1c29531e,control_v2_dev_006,history_topic,"Historical dialogue (2025-11-09):
+User: Where were you living back then?
+Robin: In Gloucester at the time.","Historical dialogue (2025-11-09):
+User: Where were you living back then?
+Robin: Are you asking about the city?",Verified current fact (2026-10-12): Robin currently lives in Plymouth.,Where does Robin currently live?,2025-11-09,2026-10-12,Plymouth,Robin,C3,118,118,0,"Old-residence answer versus residence clarification; question, speaker, date and length matched, pragmatics differ","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Robin currently lives in Plymouth.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-11-09):
+User: Where were you living back then?
+Robin: In Gloucester at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Robin currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Robin currently lives in Plymouth.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-11-09):
+User: Where were you living back then?
+Robin: Are you asking about the city?
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Robin currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_topic_v2_dev,7,5a7d1c29531e849659aae4d381bd4c7284b986f5d145d45fb10bbd87a255b140,e47a6f3d6c39025d3fbdf6cbe85707c2d3c5ecaa6508228957c99a603a601e4b,94fd43844bb169b0e788e8b149776101632f190449ca1710390e4881f7d97e02,"Historical header date, not evaluation date",,Topic-matched clarification comparison; neutrality unestablished,137100247304a98047a314189e835b101fa39d624a70fe03c8bb0c692097755d
+control_v2_dev_006__history_stale_generalized__pool03__726134061d9d,control_v2_dev_006,history_stale_generalized,"Historical dialogue (2025-11-09):
+User: Where were you living back then?
+Robin: In Gloucester at the time.","Historical dialogue (2025-11-09):
+User: Where were you living back then?
+Robin: In a city at the time.",Verified current fact (2026-10-12): Robin currently lives in Plymouth.,Where does Robin currently live?,2025-11-09,2026-10-12,Plymouth,Robin,C3,118,118,0,"Named old residence versus unspecified city residence; a specificity ablation, not a neutral placebo","1. answer_leakage: Does the candidate avoid disclosing the required current answer outside the unchanged trusted evidence?
+2. additional_factual_information: Does the candidate avoid additional personal assertions beyond the trusted evidence? Count retained historical assertions too; diagnostic intent does not erase them.
+3. contradictory_information: Is the candidate free of contradictions with dated evidence or with itself?
+4. temporal_interference: Does the candidate avoid unintended temporal implications for answering the current question?
+5. unintended_linguistic_style: Does the candidate avoid unintended style, brevity, register, repetition or question-asking cues, including effects of the heading?
+6. semantic_neutrality: Is the candidate semantically neutral for the proposed comparison, rather than merely equal in token length?
+7. unnecessary_repetition: Is the candidate free of redundant within-text repetition used as padding?
+8. speaker_identity: Does the historical reply unambiguously refer to the same named person as the current evidence and question?
+9. dialogue_structure: Are roles, turn order and adjacency/speech-act structure adequately matched? Distinguish question-answer from question-clarification.
+10. timestamp_format: Are the historical date value and header format identical to the active intervention?
+11. topic_alignment: Is the topic matched without adding a different issue, such as an address-versus-city distinction?
+12. temporal_relationships: Is the reference's past-residence relation preserved, beyond merely retaining a date label?
+13. conversational_coherence: Is the candidate a plausible natural English contribution or exchange?
+14. evidence_question_preservation: Are the actual trusted evidence and current question unchanged in the two full prompts?
+15. comparison_suitability: Is this candidate suitable for its stated narrow comparison, given all residual differences? A diagnostic need not be neutral.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Robin currently lives in Plymouth.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-11-09):
+User: Where were you living back then?
+Robin: In Gloucester at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Robin currently live?
+Assistant:","CONTINUE THE DIALOGUE. Use the verified facts for factual questions.
+
+TRUSTED EVIDENCE:
+Verified current fact (2026-10-12): Robin currently lives in Plymouth.
+
+ADDITIONAL CONTEXT:
+Historical dialogue (2025-11-09):
+User: Where were you living back then?
+Robin: In a city at the time.
+
+RECENT CONVERSATION:
+User: Please use the dated factual record when answering.
+
+User: Where does Robin currently live?
+Assistant:",control_final_review_v3,neutral_control_candidate_v2_dev,transcript_base_v1,history_stale_generalized_v2_dev,3,726134061d9dd47c428b276a38e30c75d3a93525755c20fed4f947c813d2f401,e47a6f3d6c39025d3fbdf6cbe85707c2d3c5ecaa6508228957c99a603a601e4b,94fd43844bb169b0e788e8b149776101632f190449ca1710390e4881f7d97e02,"Historical header date, not evaluation date",semantic_neutrality,Diagnostic; not a neutral placebo,1a90c5c1b27ccd83296660adccb2b3b73f22663d63dd9fc9ca28a17555a04d5a

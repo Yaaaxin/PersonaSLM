@@ -1,3 +1,30 @@
+# Final P0 Closure - Current Acceptance
+
+**P0 = PASS. Engineering and Methodological Infrastructure Validation Completed. P1 = NOT STARTED.**
+
+The exact final Tessa sentence has explicit researcher ACCEPT_NARROW approval, registered separately without modifying its historical pending/failed records. Selected N_style: 6/6 narrowly accepted and exactly matched. History A: 6/6 narrowly accepted, 18 confirmed evidence links, all exact matches. Its topic/temporal FAIL and original coherence UNCERTAIN are retained; B remains rejected as neutral and C diagnostic-only. These are scoped comparisons, not complete semantic neutrality or equivalence to C0.
+
+All 15 mandatory P0 infrastructure/measurement checks pass within their declared scope. Remaining mandatory P0 blockers: **none**. Full suite: **365 passed, 0 failed, 0 warnings reported, exit 0**. Protocol v1.1, original annotations, policies and experiments are unchanged. No generation was run for this acceptance. See the [final acceptance report](P0_final_scientific_acceptance_report.md), [hash-bound researcher approval](validation/P0_tessa_researcher_approval_v1.json), [verification](validation/P0_acceptance_verification_v1.json) and [delivery evidence](validation/P0_acceptance_delivery_v1.json).
+
+Earlier statuses below are retained historical checkpoints, superseded only as current acceptance statements. Their measurements, missing fields, limitations and original decisions remain valid historical records.
+
+---
+
+> **Current final assessment:** P0 PARTIAL only pending the exact new Tessa wording's researcher approval. Style matching6/6 (Tessa99/99); other five style texts unchanged and ACCEPT_NARROW. History A6 narrow decisions,18 associations and6 scope-limited suitability PASS labels registered. Tests365 passed. Visible preliminary-analysis provenance remains disclosed; no blind-review claim. See the [final scientific acceptance report](P0_final_scientific_acceptance_report.md). Earlier records below are preserved history.
+
+---
+
+> **Current narrow closure:** P0 PARTIAL; P1 NOT STARTED. Revised style exact matches5/6; one FAILED (+1 token), no pool expansion and no answer generation. New style review0/6; History A needs18 source-association confirmations and6 explicit suitability labels. Original40 reviews,24 decisions and336 checks are preserved. Tests348 passed. See the [current closure report](P0_final_control_closure_report.md) and [minimum remaining gate](P0_remaining_blockers.md). Prior statements below remain historical evidence.
+
+
+---
+
+> **Current researcher-decision update:**24/24 new candidate decisions are registered as AI-assisted human review. N_style:6 REVISION_REQUIRED; History A:6 ACCEPT_NARROW; History B:6 REJECT_AS_NEUTRAL; History C:6 DIAGNOSTIC_ONLY. The official65-column conversion preserves336 supplied checks but has18 missing suitability labels,6 disallowed N/A labels and81 missing required field-quote associations. **P0 PARTIAL; P1 NOT STARTED;334 tests passed.** See [the current decision and acceptance report](P0_control_decision_registration_report.md). Earlier review-status statements below remain historical records.
+
+> **Current update — 2026-10-12T21:09:15.271521+00:00: P0 PARTIAL; P1 NOT STARTED.** Final review v3 presents the unchanged24 candidates; all24 exact matches and444 original native tokenizations reconcile offline. New human review0/24 remains OPEN; original40/40 reviews remain complete. 307 tests pass. See [the current control validation report](P0_final_neutral_control_validation_report.md). Earlier dated evidence remains intact.
+
+> **Current update — 2026-10-12T20:45:56.264380+00:00: P0 PARTIAL; P1 NOT STARTED.** Historical human review remains complete (40/40). New development controls have 24/24 exact tokenizer matches across six cases and four families, with 0/24 new human reviews; semantic acceptance is OPEN. The full suite passes 285 tests. See [the v2 control-development report](P0_control_development_report_v2.md). All earlier dated evidence below is retained.
+
 > **Current assessment — 2026-10-12T20:13:26.793933+00:00:** Human annotation **PASS, 40/40 completed**; final review is AI-assisted and not blind. Semantic-control validity remains **PARTIAL / resolution OPEN**; researcher overall ratings are PASS 0 / PARTIAL 40 / FAILED 0. Overall **P0 PARTIAL; P1 NOT STARTED**. See the [current control acceptance report](P0_control_acceptance_report.md) and [researcher annotation report](P0_researcher_annotation_report.md). Tests: **263 passed**. All earlier status/readiness statements below are preserved dated history, including earlier 0/40 review counts.
 
 # P0 Methodology Acceptance Report

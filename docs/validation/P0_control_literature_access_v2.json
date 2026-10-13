@@ -1,0 +1,41 @@
+{
+  "access_date": "2026-10-12",
+  "indexed_utc": "2026-10-12T20:47:15.663640+00:00",
+  "limitations": [
+    "Primary sources checked; experiments, source repositories and data releases not reproduced",
+    "Search results served discovery only; secondary summaries not used for scientific claims",
+    "Not a systematic literature review or originality certification"
+  ],
+  "new_primary_access_errors": [],
+  "queries": [
+    "\"persona\" \"length-matched\" control language models",
+    "\"persona\" \"neutral\" \"control\" \"factual\" language models benchmark",
+    "\"Measuring and Narrowing the Compositionality Gap\" \"irrelevant\"",
+    "\"Large Language Models Can Be Easily Distracted by Irrelevant Context\""
+  ],
+  "sources": [
+    {
+      "id": "W10",
+      "inspected": "Bibliographic metadata, abstract, PDF access; full size inventory not extracted",
+      "paper": "https://proceedings.mlr.press/v202/shi23a/shi23a.pdf",
+      "record": "https://proceedings.mlr.press/v202/shi23a.html",
+      "version": "ICML 2023 proceedings"
+    },
+    {
+      "id": "W11",
+      "inspected": "Title/authors, abstract, section2.1, length-matched/filler methods; character/token wording distinguished",
+      "paper": "https://arxiv.org/pdf/2605.24279v2",
+      "record": "https://arxiv.org/abs/2605.24279",
+      "version": "v2, 2026-08-27"
+    },
+    {
+      "id": "W12",
+      "inspected": "Title/authors, abstract, sections3.2-3.4, expert/random and prompt-length comparisons",
+      "paper": "https://arxiv.org/pdf/2603.18507v1",
+      "record": "https://arxiv.org/abs/2603.18507",
+      "version": "v1, 2026-03-19"
+    }
+  ],
+  "timestamp_scope": "Actual index time; per-request times not reconstructed from the interface transcript",
+  "tool": "web search/open/find"
+}

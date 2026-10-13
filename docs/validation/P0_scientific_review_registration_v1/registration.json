@@ -1,0 +1,1099 @@
+{
+  "attestation_sha256": "ee3bfeeca276ed39ca5463fe59fd4fe2b7f1849522c8a2a01a29f338fb611c4e",
+  "blinding": "Not blind to preliminary assessments in the supplied materials; no independent blind review established",
+  "counts": {
+    "history_confirmations": 18,
+    "history_narrow_decisions": 6,
+    "source_style_axis_judgments": 90,
+    "style_accepted_narrow": 5,
+    "style_decisions": 6
+  },
+  "decision_source": "researcher",
+  "final_decision_authority": "researcher",
+  "history_associations": [
+    {
+      "active_excerpt": {
+        "end": 72,
+        "quote": "User: Where were you living back then?",
+        "source_text_sha256": "364c2c6cb79443659d22f6a353567565d786cc5d022e8af283a0b7d939be7902",
+        "start": 34
+      },
+      "axis": "topic_alignment",
+      "candidate_excerpt": {
+        "end": 73,
+        "quote": "User: What does a conversation involve?",
+        "source_text_sha256": "4adb44af2a8d605e6a09258e07bd2fca450aa2c21e966a9762909fb6639fa34f",
+        "start": 34
+      },
+      "candidate_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48",
+      "case_id": "control_v2_dev_001",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48__topic_alignment",
+      "preserved_axis_judgment": "FAIL",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "Residence versus conversation topic; the excerpt documents the difference, not its causal effect.",
+        "axis": "topic_alignment",
+        "candidate_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48",
+        "case_id": "control_v2_dev_001",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "FAIL",
+        "source_passage_active": "User: Where were you living back then?",
+        "source_passage_candidate": "User: What does a conversation involve?"
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 100,
+        "quote": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: In York at the time.",
+        "source_text_sha256": "364c2c6cb79443659d22f6a353567565d786cc5d022e8af283a0b7d939be7902",
+        "start": 0
+      },
+      "axis": "temporal_relationships",
+      "candidate_excerpt": {
+        "end": 118,
+        "quote": "Historical dialogue (2025-03-14):\nUser: What does a conversation involve?\nRiley: An exchange of questions and replies.",
+        "source_text_sha256": "4adb44af2a8d605e6a09258e07bd2fca450aa2c21e966a9762909fb6639fa34f",
+        "start": 0
+      },
+      "candidate_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48",
+      "case_id": "control_v2_dev_001",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48__temporal_relationships",
+      "preserved_axis_judgment": "FAIL",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "Identical dated headers; the active reply asserts past residence whereas the generic reply does not.",
+        "axis": "temporal_relationships",
+        "candidate_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48",
+        "case_id": "control_v2_dev_001",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "FAIL",
+        "source_passage_active": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nRiley: In York at the time.",
+        "source_passage_candidate": "Historical dialogue (2025-03-14):\nUser: What does a conversation involve?\nRiley: An exchange of questions and replies."
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 100,
+        "quote": "User: Where were you living back then?\nRiley: In York at the time.",
+        "source_text_sha256": "364c2c6cb79443659d22f6a353567565d786cc5d022e8af283a0b7d939be7902",
+        "start": 34
+      },
+      "axis": "conversational_coherence",
+      "candidate_excerpt": {
+        "end": 118,
+        "quote": "User: What does a conversation involve?\nRiley: An exchange of questions and replies.",
+        "source_text_sha256": "4adb44af2a8d605e6a09258e07bd2fca450aa2c21e966a9762909fb6639fa34f",
+        "start": 34
+      },
+      "candidate_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48",
+      "case_id": "control_v2_dev_001",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48__conversational_coherence",
+      "preserved_axis_judgment": "UNCERTAIN",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "The full question-answer adjacency is shown; excerpts cannot establish a human coherence verdict.",
+        "axis": "conversational_coherence",
+        "candidate_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48",
+        "case_id": "control_v2_dev_001",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "UNCERTAIN",
+        "source_passage_active": "User: Where were you living back then?\nRiley: In York at the time.",
+        "source_passage_candidate": "User: What does a conversation involve?\nRiley: An exchange of questions and replies."
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 72,
+        "quote": "User: Where were you living back then?",
+        "source_text_sha256": "7176a260dcabf6e8a3e7a1a444a4fa9fa1cc708cdcc5db054156847d34aca076",
+        "start": 34
+      },
+      "axis": "topic_alignment",
+      "candidate_excerpt": {
+        "end": 73,
+        "quote": "User: What does a conversation involve?",
+        "source_text_sha256": "b97204415481c8fb80b8f2594d595d1e26570b06052caae7524f5193997a9f28",
+        "start": 34
+      },
+      "candidate_id": "control_v2_dev_002__history_format__pool01__7765840a2912",
+      "case_id": "control_v2_dev_002",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_002__history_format__pool01__7765840a2912__topic_alignment",
+      "preserved_axis_judgment": "FAIL",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "Residence versus conversation topic; the excerpt documents the difference, not its causal effect.",
+        "axis": "topic_alignment",
+        "candidate_id": "control_v2_dev_002__history_format__pool01__7765840a2912",
+        "case_id": "control_v2_dev_002",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "FAIL",
+        "source_passage_active": "User: Where were you living back then?",
+        "source_passage_candidate": "User: What does a conversation involve?"
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 101,
+        "quote": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: In Bath at the time.",
+        "source_text_sha256": "7176a260dcabf6e8a3e7a1a444a4fa9fa1cc708cdcc5db054156847d34aca076",
+        "start": 0
+      },
+      "axis": "temporal_relationships",
+      "candidate_excerpt": {
+        "end": 119,
+        "quote": "Historical dialogue (2025-03-14):\nUser: What does a conversation involve?\nSamara: An exchange of questions and replies.",
+        "source_text_sha256": "b97204415481c8fb80b8f2594d595d1e26570b06052caae7524f5193997a9f28",
+        "start": 0
+      },
+      "candidate_id": "control_v2_dev_002__history_format__pool01__7765840a2912",
+      "case_id": "control_v2_dev_002",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_002__history_format__pool01__7765840a2912__temporal_relationships",
+      "preserved_axis_judgment": "FAIL",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "Identical dated headers; the active reply asserts past residence whereas the generic reply does not.",
+        "axis": "temporal_relationships",
+        "candidate_id": "control_v2_dev_002__history_format__pool01__7765840a2912",
+        "case_id": "control_v2_dev_002",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "FAIL",
+        "source_passage_active": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nSamara: In Bath at the time.",
+        "source_passage_candidate": "Historical dialogue (2025-03-14):\nUser: What does a conversation involve?\nSamara: An exchange of questions and replies."
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 101,
+        "quote": "User: Where were you living back then?\nSamara: In Bath at the time.",
+        "source_text_sha256": "7176a260dcabf6e8a3e7a1a444a4fa9fa1cc708cdcc5db054156847d34aca076",
+        "start": 34
+      },
+      "axis": "conversational_coherence",
+      "candidate_excerpt": {
+        "end": 119,
+        "quote": "User: What does a conversation involve?\nSamara: An exchange of questions and replies.",
+        "source_text_sha256": "b97204415481c8fb80b8f2594d595d1e26570b06052caae7524f5193997a9f28",
+        "start": 34
+      },
+      "candidate_id": "control_v2_dev_002__history_format__pool01__7765840a2912",
+      "case_id": "control_v2_dev_002",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_002__history_format__pool01__7765840a2912__conversational_coherence",
+      "preserved_axis_judgment": "UNCERTAIN",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "The full question-answer adjacency is shown; excerpts cannot establish a human coherence verdict.",
+        "axis": "conversational_coherence",
+        "candidate_id": "control_v2_dev_002__history_format__pool01__7765840a2912",
+        "case_id": "control_v2_dev_002",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "UNCERTAIN",
+        "source_passage_active": "User: Where were you living back then?\nSamara: In Bath at the time.",
+        "source_passage_candidate": "User: What does a conversation involve?\nSamara: An exchange of questions and replies."
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 72,
+        "quote": "User: Where were you living back then?",
+        "source_text_sha256": "8fc920d923c4a0be9da31afa1248079c8b00b3992e827ad251f4df668f33c303",
+        "start": 34
+      },
+      "axis": "topic_alignment",
+      "candidate_excerpt": {
+        "end": 73,
+        "quote": "User: What does a conversation involve?",
+        "source_text_sha256": "b7b3646367389cab8030e2c3dc15848a6cbe8eaaf13cda6e584e0164b23aa975",
+        "start": 34
+      },
+      "candidate_id": "control_v2_dev_003__history_format__pool03__d1c203038d13",
+      "case_id": "control_v2_dev_003",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_003__history_format__pool03__d1c203038d13__topic_alignment",
+      "preserved_axis_judgment": "FAIL",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "Residence versus conversation topic; the excerpt documents the difference, not its causal effect.",
+        "axis": "topic_alignment",
+        "candidate_id": "control_v2_dev_003__history_format__pool03__d1c203038d13",
+        "case_id": "control_v2_dev_003",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "FAIL",
+        "source_passage_active": "User: Where were you living back then?",
+        "source_passage_candidate": "User: What does a conversation involve?"
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 102,
+        "quote": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: In Exeter at the time.",
+        "source_text_sha256": "8fc920d923c4a0be9da31afa1248079c8b00b3992e827ad251f4df668f33c303",
+        "start": 0
+      },
+      "axis": "temporal_relationships",
+      "candidate_excerpt": {
+        "end": 124,
+        "quote": "Historical dialogue (2025-03-14):\nUser: What does a conversation involve?\nDevon: An exchange between the people taking part.",
+        "source_text_sha256": "b7b3646367389cab8030e2c3dc15848a6cbe8eaaf13cda6e584e0164b23aa975",
+        "start": 0
+      },
+      "candidate_id": "control_v2_dev_003__history_format__pool03__d1c203038d13",
+      "case_id": "control_v2_dev_003",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_003__history_format__pool03__d1c203038d13__temporal_relationships",
+      "preserved_axis_judgment": "FAIL",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "Identical dated headers; the active reply asserts past residence whereas the generic reply does not.",
+        "axis": "temporal_relationships",
+        "candidate_id": "control_v2_dev_003__history_format__pool03__d1c203038d13",
+        "case_id": "control_v2_dev_003",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "FAIL",
+        "source_passage_active": "Historical dialogue (2025-03-14):\nUser: Where were you living back then?\nDevon: In Exeter at the time.",
+        "source_passage_candidate": "Historical dialogue (2025-03-14):\nUser: What does a conversation involve?\nDevon: An exchange between the people taking part."
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 102,
+        "quote": "User: Where were you living back then?\nDevon: In Exeter at the time.",
+        "source_text_sha256": "8fc920d923c4a0be9da31afa1248079c8b00b3992e827ad251f4df668f33c303",
+        "start": 34
+      },
+      "axis": "conversational_coherence",
+      "candidate_excerpt": {
+        "end": 124,
+        "quote": "User: What does a conversation involve?\nDevon: An exchange between the people taking part.",
+        "source_text_sha256": "b7b3646367389cab8030e2c3dc15848a6cbe8eaaf13cda6e584e0164b23aa975",
+        "start": 34
+      },
+      "candidate_id": "control_v2_dev_003__history_format__pool03__d1c203038d13",
+      "case_id": "control_v2_dev_003",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_003__history_format__pool03__d1c203038d13__conversational_coherence",
+      "preserved_axis_judgment": "UNCERTAIN",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "The full question-answer adjacency is shown; excerpts cannot establish a human coherence verdict.",
+        "axis": "conversational_coherence",
+        "candidate_id": "control_v2_dev_003__history_format__pool03__d1c203038d13",
+        "case_id": "control_v2_dev_003",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "UNCERTAIN",
+        "source_passage_active": "User: Where were you living back then?\nDevon: In Exeter at the time.",
+        "source_passage_candidate": "User: What does a conversation involve?\nDevon: An exchange between the people taking part."
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 72,
+        "quote": "User: Where were you living back then?",
+        "source_text_sha256": "4ced60e65c2b83ec0d6725c382b94bae56ebb7f06615b87bcf83dea05f818e7d",
+        "start": 34
+      },
+      "axis": "topic_alignment",
+      "candidate_excerpt": {
+        "end": 73,
+        "quote": "User: What does a conversation involve?",
+        "source_text_sha256": "9438e6a006c04434deb6f5fcb84f73a641e2d58336aa3f8fb123acc601e6ee4a",
+        "start": 34
+      },
+      "candidate_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690",
+      "case_id": "control_v2_dev_004",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690__topic_alignment",
+      "preserved_axis_judgment": "FAIL",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "Residence versus conversation topic; the excerpt documents the difference, not its causal effect.",
+        "axis": "topic_alignment",
+        "candidate_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690",
+        "case_id": "control_v2_dev_004",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "FAIL",
+        "source_passage_active": "User: Where were you living back then?",
+        "source_passage_candidate": "User: What does a conversation involve?"
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 100,
+        "quote": "Historical dialogue (2025-06-18):\nUser: Where were you living back then?\nTessa: In Hull at the time.",
+        "source_text_sha256": "4ced60e65c2b83ec0d6725c382b94bae56ebb7f06615b87bcf83dea05f818e7d",
+        "start": 0
+      },
+      "axis": "temporal_relationships",
+      "candidate_excerpt": {
+        "end": 118,
+        "quote": "Historical dialogue (2025-06-18):\nUser: What does a conversation involve?\nTessa: An exchange of questions and replies.",
+        "source_text_sha256": "9438e6a006c04434deb6f5fcb84f73a641e2d58336aa3f8fb123acc601e6ee4a",
+        "start": 0
+      },
+      "candidate_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690",
+      "case_id": "control_v2_dev_004",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690__temporal_relationships",
+      "preserved_axis_judgment": "FAIL",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "Identical dated headers; the active reply asserts past residence whereas the generic reply does not.",
+        "axis": "temporal_relationships",
+        "candidate_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690",
+        "case_id": "control_v2_dev_004",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "FAIL",
+        "source_passage_active": "Historical dialogue (2025-06-18):\nUser: Where were you living back then?\nTessa: In Hull at the time.",
+        "source_passage_candidate": "Historical dialogue (2025-06-18):\nUser: What does a conversation involve?\nTessa: An exchange of questions and replies."
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 100,
+        "quote": "User: Where were you living back then?\nTessa: In Hull at the time.",
+        "source_text_sha256": "4ced60e65c2b83ec0d6725c382b94bae56ebb7f06615b87bcf83dea05f818e7d",
+        "start": 34
+      },
+      "axis": "conversational_coherence",
+      "candidate_excerpt": {
+        "end": 118,
+        "quote": "User: What does a conversation involve?\nTessa: An exchange of questions and replies.",
+        "source_text_sha256": "9438e6a006c04434deb6f5fcb84f73a641e2d58336aa3f8fb123acc601e6ee4a",
+        "start": 34
+      },
+      "candidate_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690",
+      "case_id": "control_v2_dev_004",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690__conversational_coherence",
+      "preserved_axis_judgment": "UNCERTAIN",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "The full question-answer adjacency is shown; excerpts cannot establish a human coherence verdict.",
+        "axis": "conversational_coherence",
+        "candidate_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690",
+        "case_id": "control_v2_dev_004",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "UNCERTAIN",
+        "source_passage_active": "User: Where were you living back then?\nTessa: In Hull at the time.",
+        "source_passage_candidate": "User: What does a conversation involve?\nTessa: An exchange of questions and replies."
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 72,
+        "quote": "User: Where were you living back then?",
+        "source_text_sha256": "124b57d5380bc156046e97e054a45dc707cba5697e8ab4d35947d1aeb707efd3",
+        "start": 34
+      },
+      "axis": "topic_alignment",
+      "candidate_excerpt": {
+        "end": 73,
+        "quote": "User: What does a conversation involve?",
+        "source_text_sha256": "4f180aedfe4418fb0dc0f21be46cbed4db48da447d947c7fc954879e0996fe2d",
+        "start": 34
+      },
+      "candidate_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8",
+      "case_id": "control_v2_dev_005",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8__topic_alignment",
+      "preserved_axis_judgment": "FAIL",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "Residence versus conversation topic; the excerpt documents the difference, not its causal effect.",
+        "axis": "topic_alignment",
+        "candidate_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8",
+        "case_id": "control_v2_dev_005",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "FAIL",
+        "source_passage_active": "User: Where were you living back then?",
+        "source_passage_candidate": "User: What does a conversation involve?"
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 104,
+        "quote": "Historical dialogue (2025-08-21):\nUser: Where were you living back then?\nBlair: In Carlisle at the time.",
+        "source_text_sha256": "124b57d5380bc156046e97e054a45dc707cba5697e8ab4d35947d1aeb707efd3",
+        "start": 0
+      },
+      "axis": "temporal_relationships",
+      "candidate_excerpt": {
+        "end": 124,
+        "quote": "Historical dialogue (2025-08-21):\nUser: What does a conversation involve?\nBlair: An exchange between the people taking part.",
+        "source_text_sha256": "4f180aedfe4418fb0dc0f21be46cbed4db48da447d947c7fc954879e0996fe2d",
+        "start": 0
+      },
+      "candidate_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8",
+      "case_id": "control_v2_dev_005",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8__temporal_relationships",
+      "preserved_axis_judgment": "FAIL",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "Identical dated headers; the active reply asserts past residence whereas the generic reply does not.",
+        "axis": "temporal_relationships",
+        "candidate_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8",
+        "case_id": "control_v2_dev_005",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "FAIL",
+        "source_passage_active": "Historical dialogue (2025-08-21):\nUser: Where were you living back then?\nBlair: In Carlisle at the time.",
+        "source_passage_candidate": "Historical dialogue (2025-08-21):\nUser: What does a conversation involve?\nBlair: An exchange between the people taking part."
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 104,
+        "quote": "User: Where were you living back then?\nBlair: In Carlisle at the time.",
+        "source_text_sha256": "124b57d5380bc156046e97e054a45dc707cba5697e8ab4d35947d1aeb707efd3",
+        "start": 34
+      },
+      "axis": "conversational_coherence",
+      "candidate_excerpt": {
+        "end": 124,
+        "quote": "User: What does a conversation involve?\nBlair: An exchange between the people taking part.",
+        "source_text_sha256": "4f180aedfe4418fb0dc0f21be46cbed4db48da447d947c7fc954879e0996fe2d",
+        "start": 34
+      },
+      "candidate_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8",
+      "case_id": "control_v2_dev_005",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8__conversational_coherence",
+      "preserved_axis_judgment": "UNCERTAIN",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "The full question-answer adjacency is shown; excerpts cannot establish a human coherence verdict.",
+        "axis": "conversational_coherence",
+        "candidate_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8",
+        "case_id": "control_v2_dev_005",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "UNCERTAIN",
+        "source_passage_active": "User: Where were you living back then?\nBlair: In Carlisle at the time.",
+        "source_passage_candidate": "User: What does a conversation involve?\nBlair: An exchange between the people taking part."
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 72,
+        "quote": "User: Where were you living back then?",
+        "source_text_sha256": "05db54469fc6f9b543fd02afe0c7db356b61d9ecebffc39ddc99f747e0777e9b",
+        "start": 34
+      },
+      "axis": "topic_alignment",
+      "candidate_excerpt": {
+        "end": 73,
+        "quote": "User: What does a conversation involve?",
+        "source_text_sha256": "fd98f96641123500c08c8c2c658348aa77061ed94e6e57f73d6f65652e86972b",
+        "start": 34
+      },
+      "candidate_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102",
+      "case_id": "control_v2_dev_006",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102__topic_alignment",
+      "preserved_axis_judgment": "FAIL",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "Residence versus conversation topic; the excerpt documents the difference, not its causal effect.",
+        "axis": "topic_alignment",
+        "candidate_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102",
+        "case_id": "control_v2_dev_006",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "FAIL",
+        "source_passage_active": "User: Where were you living back then?",
+        "source_passage_candidate": "User: What does a conversation involve?"
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 106,
+        "quote": "Historical dialogue (2025-11-09):\nUser: Where were you living back then?\nRobin: In Gloucester at the time.",
+        "source_text_sha256": "05db54469fc6f9b543fd02afe0c7db356b61d9ecebffc39ddc99f747e0777e9b",
+        "start": 0
+      },
+      "axis": "temporal_relationships",
+      "candidate_excerpt": {
+        "end": 124,
+        "quote": "Historical dialogue (2025-11-09):\nUser: What does a conversation involve?\nRobin: An exchange between the people taking part.",
+        "source_text_sha256": "fd98f96641123500c08c8c2c658348aa77061ed94e6e57f73d6f65652e86972b",
+        "start": 0
+      },
+      "candidate_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102",
+      "case_id": "control_v2_dev_006",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102__temporal_relationships",
+      "preserved_axis_judgment": "FAIL",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "Identical dated headers; the active reply asserts past residence whereas the generic reply does not.",
+        "axis": "temporal_relationships",
+        "candidate_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102",
+        "case_id": "control_v2_dev_006",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "FAIL",
+        "source_passage_active": "Historical dialogue (2025-11-09):\nUser: Where were you living back then?\nRobin: In Gloucester at the time.",
+        "source_passage_candidate": "Historical dialogue (2025-11-09):\nUser: What does a conversation involve?\nRobin: An exchange between the people taking part."
+      }
+    },
+    {
+      "active_excerpt": {
+        "end": 106,
+        "quote": "User: Where were you living back then?\nRobin: In Gloucester at the time.",
+        "source_text_sha256": "05db54469fc6f9b543fd02afe0c7db356b61d9ecebffc39ddc99f747e0777e9b",
+        "start": 34
+      },
+      "axis": "conversational_coherence",
+      "candidate_excerpt": {
+        "end": 124,
+        "quote": "User: What does a conversation involve?\nRobin: An exchange between the people taking part.",
+        "source_text_sha256": "fd98f96641123500c08c8c2c658348aa77061ed94e6e57f73d6f65652e86972b",
+        "start": 34
+      },
+      "candidate_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102",
+      "case_id": "control_v2_dev_006",
+      "confirmation_source": "Explicit current researcher instruction; source human cell preserved separately",
+      "evidence_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102__conversational_coherence",
+      "preserved_axis_judgment": "UNCERTAIN",
+      "researcher_confirmation": "CONFIRM",
+      "reviewed_utc": null,
+      "source_row_verbatim": {
+        "ai_reading": "The full question-answer adjacency is shown; excerpts cannot establish a human coherence verdict.",
+        "axis": "conversational_coherence",
+        "candidate_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102",
+        "case_id": "control_v2_dev_006",
+        "exact_quote_match_active": "YES",
+        "exact_quote_match_candidate": "YES",
+        "human_notes": "",
+        "human_quote_association_verified": "",
+        "prior_human_axis_judgment": "UNCERTAIN",
+        "source_passage_active": "User: Where were you living back then?\nRobin: In Gloucester at the time.",
+        "source_passage_candidate": "User: What does a conversation involve?\nRobin: An exchange between the people taking part."
+      }
+    }
+  ],
+  "history_decisions": [
+    {
+      "candidate_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48",
+      "comparison_suitability": "PASS",
+      "permitted_scope": "Length- and format-matched comparison between historical residence information and unrelated coherent historical dialogue.",
+      "preserved_judgments": {
+        "conversational_coherence": "UNCERTAIN",
+        "temporal_relationships": "FAIL",
+        "topic_alignment": "FAIL"
+      },
+      "researcher_decision": "ACCEPT_NARROW",
+      "semantic_neutrality_claim": false,
+      "suitability_source": "Explicit researcher instruction; not inferred from ACCEPT_NARROW"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_format__pool01__7765840a2912",
+      "comparison_suitability": "PASS",
+      "permitted_scope": "Length- and format-matched comparison between historical residence information and unrelated coherent historical dialogue.",
+      "preserved_judgments": {
+        "conversational_coherence": "UNCERTAIN",
+        "temporal_relationships": "FAIL",
+        "topic_alignment": "FAIL"
+      },
+      "researcher_decision": "ACCEPT_NARROW",
+      "semantic_neutrality_claim": false,
+      "suitability_source": "Explicit researcher instruction; not inferred from ACCEPT_NARROW"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_format__pool03__d1c203038d13",
+      "comparison_suitability": "PASS",
+      "permitted_scope": "Length- and format-matched comparison between historical residence information and unrelated coherent historical dialogue.",
+      "preserved_judgments": {
+        "conversational_coherence": "UNCERTAIN",
+        "temporal_relationships": "FAIL",
+        "topic_alignment": "FAIL"
+      },
+      "researcher_decision": "ACCEPT_NARROW",
+      "semantic_neutrality_claim": false,
+      "suitability_source": "Explicit researcher instruction; not inferred from ACCEPT_NARROW"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690",
+      "comparison_suitability": "PASS",
+      "permitted_scope": "Length- and format-matched comparison between historical residence information and unrelated coherent historical dialogue.",
+      "preserved_judgments": {
+        "conversational_coherence": "UNCERTAIN",
+        "temporal_relationships": "FAIL",
+        "topic_alignment": "FAIL"
+      },
+      "researcher_decision": "ACCEPT_NARROW",
+      "semantic_neutrality_claim": false,
+      "suitability_source": "Explicit researcher instruction; not inferred from ACCEPT_NARROW"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8",
+      "comparison_suitability": "PASS",
+      "permitted_scope": "Length- and format-matched comparison between historical residence information and unrelated coherent historical dialogue.",
+      "preserved_judgments": {
+        "conversational_coherence": "UNCERTAIN",
+        "temporal_relationships": "FAIL",
+        "topic_alignment": "FAIL"
+      },
+      "researcher_decision": "ACCEPT_NARROW",
+      "semantic_neutrality_claim": false,
+      "suitability_source": "Explicit researcher instruction; not inferred from ACCEPT_NARROW"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102",
+      "comparison_suitability": "PASS",
+      "permitted_scope": "Length- and format-matched comparison between historical residence information and unrelated coherent historical dialogue.",
+      "preserved_judgments": {
+        "conversational_coherence": "UNCERTAIN",
+        "temporal_relationships": "FAIL",
+        "topic_alignment": "FAIL"
+      },
+      "researcher_decision": "ACCEPT_NARROW",
+      "semantic_neutrality_claim": false,
+      "suitability_source": "Explicit researcher instruction; not inferred from ACCEPT_NARROW"
+    }
+  ],
+  "human_review_timestamp": null,
+  "registered_utc": "2026-10-12T23:03:27.768798+00:00",
+  "review_assistance": "AI-assisted",
+  "review_type": "researcher_verified_human_review",
+  "reviewer_id": "Yaxin_ZHENG",
+  "reviewer_identity_authentication": "Researcher attestation, not software authentication",
+  "source_files": [
+    {
+      "path": "docs/validation/PersonaSLM_P0_style_v1.csv",
+      "sha256": "d6591cc494bb527dcf8993f3e701246d7529562f6b9f5dc439a89eea9ebdd650"
+    },
+    {
+      "path": "docs/validation/PersonaSLM_P0_historyA_evidence_notes_v1.csv",
+      "sha256": "ae80e71652125b228911204637ad579928a4713e3b227db1d68efda2c2928860"
+    }
+  ],
+  "source_human_fields": "Blank in both original files; no CSV cell is backfilled. Explicit conversation confirmation supplies final authority.",
+  "styles": [
+    {
+      "candidate_id": "control_v2_dev_001__style_closure_v1__pool04__043bc1811d04",
+      "case_id": "control_v2_dev_001",
+      "decision_provenance": "Explicit current researcher instruction, bound to the checked source item",
+      "judgment_origin": "Preliminary AI-prefixed fields, subsequently confirmed by researcher; original field names retained",
+      "permitted_scope": "Specific linguistic-style profile versus explicit absence of style information; same wrapper and exactly matched total tokens. Not equivalent to C0.",
+      "prompt_sha256": "043bc1811d043143a62b15d135f24d00d37352f5340f442b1e5adbcaf03820b1",
+      "researcher_confirmed_source_judgments": {
+        "additional_factual_information": "PASS",
+        "answer_leakage": "PASS",
+        "comparison_suitability": "UNCERTAIN",
+        "contradictory_information": "PASS",
+        "conversational_coherence": "PASS",
+        "dialogue_structure": "NOT_APPLICABLE",
+        "evidence_question_preservation": "PASS",
+        "semantic_neutrality": "UNCERTAIN",
+        "speaker_identity": "NOT_APPLICABLE",
+        "temporal_interference": "PASS",
+        "temporal_relationships": "NOT_APPLICABLE",
+        "timestamp_format": "NOT_APPLICABLE",
+        "topic_alignment": "NOT_APPLICABLE",
+        "unintended_linguistic_style": "UNCERTAIN",
+        "unnecessary_repetition": "PASS"
+      },
+      "researcher_decision": "ACCEPT_NARROW",
+      "reviewed_utc": null,
+      "semantic_neutrality_not_overridden": "UNCERTAIN",
+      "source_row_verbatim": {
+        "active_style": "Speaker style profile: The speaker favors brief replies with short sentences and avoids extended elaboration.",
+        "ai_additional_factual_information": "PASS",
+        "ai_answer_leakage": "PASS",
+        "ai_comparison_suitability": "UNCERTAIN",
+        "ai_contradictory_information": "PASS",
+        "ai_conversational_coherence": "PASS",
+        "ai_dialogue_structure": "NOT_APPLICABLE",
+        "ai_evidence_question_preservation": "PASS",
+        "ai_explanation": "The candidate does not prescribe a speaker-specific style and discloses no residence fact, but it explicitly says no style information is provided within a \"Speaker style profile\" wrapper; this is an explicit-absence placebo, not semantically identical to C0. Exact full-prompt token match recorded; acceptable only as a narrowly interpreted absence-of-style-information comparator, subject to the human decision.",
+        "ai_semantic_neutrality": "UNCERTAIN",
+        "ai_speaker_identity": "NOT_APPLICABLE",
+        "ai_temporal_interference": "PASS",
+        "ai_temporal_relationships": "NOT_APPLICABLE",
+        "ai_timestamp_format": "NOT_APPLICABLE",
+        "ai_topic_alignment": "NOT_APPLICABLE",
+        "ai_unintended_linguistic_style": "UNCERTAIN",
+        "ai_unnecessary_repetition": "PASS",
+        "candidate_id": "control_v2_dev_001__style_closure_v1__pool04__043bc1811d04",
+        "candidate_token_count": "101",
+        "case_id": "control_v2_dev_001",
+        "current_question": "Where does Riley currently live?",
+        "human_final_review": "",
+        "human_review_notes": "",
+        "neutral_candidate": "Speaker style profile: No speaker-specific linguistic style information is provided in this particular profile entry.",
+        "reference_token_count": "101",
+        "speaker_name": "Riley",
+        "token_difference": "0",
+        "trusted_evidence": "Verified current fact (2026-10-12): Riley currently lives in Leeds."
+      },
+      "speaker_name": "Riley"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__style_closure_v1__pool02__df265e565707",
+      "case_id": "control_v2_dev_002",
+      "decision_provenance": "Explicit current researcher instruction, bound to the checked source item",
+      "judgment_origin": "Preliminary AI-prefixed fields, subsequently confirmed by researcher; original field names retained",
+      "permitted_scope": "Specific linguistic-style profile versus explicit absence of style information; same wrapper and exactly matched total tokens. Not equivalent to C0.",
+      "prompt_sha256": "df265e565707780170616611732146d9a2411c7acb9d753727310ba768d09cdd",
+      "researcher_confirmed_source_judgments": {
+        "additional_factual_information": "PASS",
+        "answer_leakage": "PASS",
+        "comparison_suitability": "UNCERTAIN",
+        "contradictory_information": "PASS",
+        "conversational_coherence": "PASS",
+        "dialogue_structure": "NOT_APPLICABLE",
+        "evidence_question_preservation": "PASS",
+        "semantic_neutrality": "UNCERTAIN",
+        "speaker_identity": "NOT_APPLICABLE",
+        "temporal_interference": "PASS",
+        "temporal_relationships": "NOT_APPLICABLE",
+        "timestamp_format": "NOT_APPLICABLE",
+        "topic_alignment": "NOT_APPLICABLE",
+        "unintended_linguistic_style": "UNCERTAIN",
+        "unnecessary_repetition": "PASS"
+      },
+      "researcher_decision": "ACCEPT_NARROW",
+      "reviewed_utc": null,
+      "semantic_neutrality_not_overridden": "UNCERTAIN",
+      "source_row_verbatim": {
+        "active_style": "Speaker style profile: The speaker favors formal wording and complete sentences in ordinary conversation.",
+        "ai_additional_factual_information": "PASS",
+        "ai_answer_leakage": "PASS",
+        "ai_comparison_suitability": "UNCERTAIN",
+        "ai_contradictory_information": "PASS",
+        "ai_conversational_coherence": "PASS",
+        "ai_dialogue_structure": "NOT_APPLICABLE",
+        "ai_evidence_question_preservation": "PASS",
+        "ai_explanation": "The candidate does not prescribe a speaker-specific style and discloses no residence fact, but it explicitly says no style information is provided within a \"Speaker style profile\" wrapper; this is an explicit-absence placebo, not semantically identical to C0. Exact full-prompt token match recorded; acceptable only as a narrowly interpreted absence-of-style-information comparator, subject to the human decision.",
+        "ai_semantic_neutrality": "UNCERTAIN",
+        "ai_speaker_identity": "NOT_APPLICABLE",
+        "ai_temporal_interference": "PASS",
+        "ai_temporal_relationships": "NOT_APPLICABLE",
+        "ai_timestamp_format": "NOT_APPLICABLE",
+        "ai_topic_alignment": "NOT_APPLICABLE",
+        "ai_unintended_linguistic_style": "UNCERTAIN",
+        "ai_unnecessary_repetition": "PASS",
+        "candidate_id": "control_v2_dev_002__style_closure_v1__pool02__df265e565707",
+        "candidate_token_count": "101",
+        "case_id": "control_v2_dev_002",
+        "current_question": "Where does Samara currently live?",
+        "human_final_review": "",
+        "human_review_notes": "",
+        "neutral_candidate": "Speaker style profile: No speaker-specific linguistic style information is provided in this profile.",
+        "reference_token_count": "101",
+        "speaker_name": "Samara",
+        "token_difference": "0",
+        "trusted_evidence": "Verified current fact (2026-10-12): Samara currently lives in Bristol."
+      },
+      "speaker_name": "Samara"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__style_closure_v1__pool02__b7688daafb6c",
+      "case_id": "control_v2_dev_003",
+      "decision_provenance": "Explicit current researcher instruction, bound to the checked source item",
+      "judgment_origin": "Preliminary AI-prefixed fields, subsequently confirmed by researcher; original field names retained",
+      "permitted_scope": "Specific linguistic-style profile versus explicit absence of style information; same wrapper and exactly matched total tokens. Not equivalent to C0.",
+      "prompt_sha256": "b7688daafb6c2e074467e1562a1b47e065bd962d44963b3af41187607b893236",
+      "researcher_confirmed_source_judgments": {
+        "additional_factual_information": "PASS",
+        "answer_leakage": "PASS",
+        "comparison_suitability": "UNCERTAIN",
+        "contradictory_information": "PASS",
+        "conversational_coherence": "PASS",
+        "dialogue_structure": "NOT_APPLICABLE",
+        "evidence_question_preservation": "PASS",
+        "semantic_neutrality": "UNCERTAIN",
+        "speaker_identity": "NOT_APPLICABLE",
+        "temporal_interference": "PASS",
+        "temporal_relationships": "NOT_APPLICABLE",
+        "timestamp_format": "NOT_APPLICABLE",
+        "topic_alignment": "NOT_APPLICABLE",
+        "unintended_linguistic_style": "UNCERTAIN",
+        "unnecessary_repetition": "PASS"
+      },
+      "researcher_decision": "ACCEPT_NARROW",
+      "reviewed_utc": null,
+      "semantic_neutrality_not_overridden": "UNCERTAIN",
+      "source_row_verbatim": {
+        "active_style": "Speaker style profile: The speaker sometimes uses the word certainly when acknowledging a request.",
+        "ai_additional_factual_information": "PASS",
+        "ai_answer_leakage": "PASS",
+        "ai_comparison_suitability": "UNCERTAIN",
+        "ai_contradictory_information": "PASS",
+        "ai_conversational_coherence": "PASS",
+        "ai_dialogue_structure": "NOT_APPLICABLE",
+        "ai_evidence_question_preservation": "PASS",
+        "ai_explanation": "The candidate does not prescribe a speaker-specific style and discloses no residence fact, but it explicitly says no style information is provided within a \"Speaker style profile\" wrapper; this is an explicit-absence placebo, not semantically identical to C0. Exact full-prompt token match recorded; acceptable only as a narrowly interpreted absence-of-style-information comparator, subject to the human decision.",
+        "ai_semantic_neutrality": "UNCERTAIN",
+        "ai_speaker_identity": "NOT_APPLICABLE",
+        "ai_temporal_interference": "PASS",
+        "ai_temporal_relationships": "NOT_APPLICABLE",
+        "ai_timestamp_format": "NOT_APPLICABLE",
+        "ai_topic_alignment": "NOT_APPLICABLE",
+        "ai_unintended_linguistic_style": "UNCERTAIN",
+        "ai_unnecessary_repetition": "PASS",
+        "candidate_id": "control_v2_dev_003__style_closure_v1__pool02__b7688daafb6c",
+        "candidate_token_count": "99",
+        "case_id": "control_v2_dev_003",
+        "current_question": "Where does Devon currently live?",
+        "human_final_review": "",
+        "human_review_notes": "",
+        "neutral_candidate": "Speaker style profile: No speaker-specific linguistic style information is provided in this profile.",
+        "reference_token_count": "99",
+        "speaker_name": "Devon",
+        "token_difference": "0",
+        "trusted_evidence": "Verified current fact (2026-10-12): Devon currently lives in Durham."
+      },
+      "speaker_name": "Devon"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__style_closure_v1__pool01__3551d63e3544",
+      "case_id": "control_v2_dev_004",
+      "decision_provenance": "Explicit current researcher instruction, bound to the checked source item",
+      "judgment_origin": "Preliminary AI-prefixed fields, subsequently confirmed by researcher; original field names retained",
+      "permitted_scope": "Specific linguistic-style profile versus explicit absence of style information; same wrapper and exactly matched total tokens. Not equivalent to C0.",
+      "prompt_sha256": "3551d63e3544bab02943856a6c8bceca49e35b7e385bc662cfe6e0d39a3c21c5",
+      "researcher_confirmed_source_judgments": {
+        "additional_factual_information": "PASS",
+        "answer_leakage": "PASS",
+        "comparison_suitability": "FAIL",
+        "contradictory_information": "PASS",
+        "conversational_coherence": "PASS",
+        "dialogue_structure": "NOT_APPLICABLE",
+        "evidence_question_preservation": "PASS",
+        "semantic_neutrality": "UNCERTAIN",
+        "speaker_identity": "NOT_APPLICABLE",
+        "temporal_interference": "PASS",
+        "temporal_relationships": "NOT_APPLICABLE",
+        "timestamp_format": "NOT_APPLICABLE",
+        "topic_alignment": "NOT_APPLICABLE",
+        "unintended_linguistic_style": "UNCERTAIN",
+        "unnecessary_repetition": "PASS"
+      },
+      "researcher_decision": "REVISION_REQUIRED",
+      "reviewed_utc": null,
+      "semantic_neutrality_not_overridden": "UNCERTAIN",
+      "source_row_verbatim": {
+        "active_style": "Speaker style profile: The speaker uses contractions in conversational replies.",
+        "ai_additional_factual_information": "PASS",
+        "ai_answer_leakage": "PASS",
+        "ai_comparison_suitability": "FAIL",
+        "ai_contradictory_information": "PASS",
+        "ai_conversational_coherence": "PASS",
+        "ai_dialogue_structure": "NOT_APPLICABLE",
+        "ai_evidence_question_preservation": "PASS",
+        "ai_explanation": "The candidate does not prescribe a speaker-specific style and discloses no residence fact, but it explicitly says no style information is provided within a \"Speaker style profile\" wrapper; this is an explicit-absence placebo, not semantically identical to C0. Full-prompt token mismatch +1: invalid as a zero-tolerance matched control until regenerated, retokenized and reviewed.",
+        "ai_semantic_neutrality": "UNCERTAIN",
+        "ai_speaker_identity": "NOT_APPLICABLE",
+        "ai_temporal_interference": "PASS",
+        "ai_temporal_relationships": "NOT_APPLICABLE",
+        "ai_timestamp_format": "NOT_APPLICABLE",
+        "ai_topic_alignment": "NOT_APPLICABLE",
+        "ai_unintended_linguistic_style": "UNCERTAIN",
+        "ai_unnecessary_repetition": "PASS",
+        "candidate_id": "control_v2_dev_004__style_closure_v1__pool01__3551d63e3544",
+        "candidate_token_count": "100",
+        "case_id": "control_v2_dev_004",
+        "current_question": "Where does Tessa currently live?",
+        "human_final_review": "",
+        "human_review_notes": "",
+        "neutral_candidate": "Speaker style profile: No speaker-specific style information is provided in this profile.",
+        "reference_token_count": "99",
+        "speaker_name": "Tessa",
+        "token_difference": "1",
+        "trusted_evidence": "Verified current fact (2026-10-12): Tessa currently lives in Norwich."
+      },
+      "speaker_name": "Tessa"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__style_closure_v1__pool02__c0ca518a070d",
+      "case_id": "control_v2_dev_005",
+      "decision_provenance": "Explicit current researcher instruction, bound to the checked source item",
+      "judgment_origin": "Preliminary AI-prefixed fields, subsequently confirmed by researcher; original field names retained",
+      "permitted_scope": "Specific linguistic-style profile versus explicit absence of style information; same wrapper and exactly matched total tokens. Not equivalent to C0.",
+      "prompt_sha256": "c0ca518a070d3e11eeb633944e48f48bd2b1e186aa6c360824ea9b84098c4737",
+      "researcher_confirmed_source_judgments": {
+        "additional_factual_information": "PASS",
+        "answer_leakage": "PASS",
+        "comparison_suitability": "UNCERTAIN",
+        "contradictory_information": "PASS",
+        "conversational_coherence": "PASS",
+        "dialogue_structure": "NOT_APPLICABLE",
+        "evidence_question_preservation": "PASS",
+        "semantic_neutrality": "UNCERTAIN",
+        "speaker_identity": "NOT_APPLICABLE",
+        "temporal_interference": "PASS",
+        "temporal_relationships": "NOT_APPLICABLE",
+        "timestamp_format": "NOT_APPLICABLE",
+        "topic_alignment": "NOT_APPLICABLE",
+        "unintended_linguistic_style": "UNCERTAIN",
+        "unnecessary_repetition": "PASS"
+      },
+      "researcher_decision": "ACCEPT_NARROW",
+      "reviewed_utc": null,
+      "semantic_neutrality_not_overridden": "UNCERTAIN",
+      "source_row_verbatim": {
+        "active_style": "Speaker style profile: The speaker tends to acknowledge a question before giving an answer.",
+        "ai_additional_factual_information": "PASS",
+        "ai_answer_leakage": "PASS",
+        "ai_comparison_suitability": "UNCERTAIN",
+        "ai_contradictory_information": "PASS",
+        "ai_conversational_coherence": "PASS",
+        "ai_dialogue_structure": "NOT_APPLICABLE",
+        "ai_evidence_question_preservation": "PASS",
+        "ai_explanation": "The candidate does not prescribe a speaker-specific style and discloses no residence fact, but it explicitly says no style information is provided within a \"Speaker style profile\" wrapper; this is an explicit-absence placebo, not semantically identical to C0. Exact full-prompt token match recorded; acceptable only as a narrowly interpreted absence-of-style-information comparator, subject to the human decision.",
+        "ai_semantic_neutrality": "UNCERTAIN",
+        "ai_speaker_identity": "NOT_APPLICABLE",
+        "ai_temporal_interference": "PASS",
+        "ai_temporal_relationships": "NOT_APPLICABLE",
+        "ai_timestamp_format": "NOT_APPLICABLE",
+        "ai_topic_alignment": "NOT_APPLICABLE",
+        "ai_unintended_linguistic_style": "UNCERTAIN",
+        "ai_unnecessary_repetition": "PASS",
+        "candidate_id": "control_v2_dev_005__style_closure_v1__pool02__c0ca518a070d",
+        "candidate_token_count": "99",
+        "case_id": "control_v2_dev_005",
+        "current_question": "Where does Blair currently live?",
+        "human_final_review": "",
+        "human_review_notes": "",
+        "neutral_candidate": "Speaker style profile: No speaker-specific linguistic style information is provided in this profile.",
+        "reference_token_count": "99",
+        "speaker_name": "Blair",
+        "token_difference": "0",
+        "trusted_evidence": "Verified current fact (2026-10-12): Blair currently lives in Lancaster."
+      },
+      "speaker_name": "Blair"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__style_closure_v1__pool03__84aff73be631",
+      "case_id": "control_v2_dev_006",
+      "decision_provenance": "Explicit current researcher instruction, bound to the checked source item",
+      "judgment_origin": "Preliminary AI-prefixed fields, subsequently confirmed by researcher; original field names retained",
+      "permitted_scope": "Specific linguistic-style profile versus explicit absence of style information; same wrapper and exactly matched total tokens. Not equivalent to C0.",
+      "prompt_sha256": "84aff73be631c71a2a71a1c35a20e251f566db5faef9f4bb66ae44f30509a09d",
+      "researcher_confirmed_source_judgments": {
+        "additional_factual_information": "PASS",
+        "answer_leakage": "PASS",
+        "comparison_suitability": "UNCERTAIN",
+        "contradictory_information": "PASS",
+        "conversational_coherence": "PASS",
+        "dialogue_structure": "NOT_APPLICABLE",
+        "evidence_question_preservation": "PASS",
+        "semantic_neutrality": "UNCERTAIN",
+        "speaker_identity": "NOT_APPLICABLE",
+        "temporal_interference": "PASS",
+        "temporal_relationships": "NOT_APPLICABLE",
+        "timestamp_format": "NOT_APPLICABLE",
+        "topic_alignment": "NOT_APPLICABLE",
+        "unintended_linguistic_style": "UNCERTAIN",
+        "unnecessary_repetition": "PASS"
+      },
+      "researcher_decision": "ACCEPT_NARROW",
+      "reviewed_utc": null,
+      "semantic_neutrality_not_overridden": "UNCERTAIN",
+      "source_row_verbatim": {
+        "active_style": "Speaker style profile: The speaker favors a single sentence when responding to a straightforward question.",
+        "ai_additional_factual_information": "PASS",
+        "ai_answer_leakage": "PASS",
+        "ai_comparison_suitability": "UNCERTAIN",
+        "ai_contradictory_information": "PASS",
+        "ai_conversational_coherence": "PASS",
+        "ai_dialogue_structure": "NOT_APPLICABLE",
+        "ai_evidence_question_preservation": "PASS",
+        "ai_explanation": "The candidate does not prescribe a speaker-specific style and discloses no residence fact, but it explicitly says no style information is provided within a \"Speaker style profile\" wrapper; this is an explicit-absence placebo, not semantically identical to C0. Exact full-prompt token match recorded; acceptable only as a narrowly interpreted absence-of-style-information comparator, subject to the human decision.",
+        "ai_semantic_neutrality": "UNCERTAIN",
+        "ai_speaker_identity": "NOT_APPLICABLE",
+        "ai_temporal_interference": "PASS",
+        "ai_temporal_relationships": "NOT_APPLICABLE",
+        "ai_timestamp_format": "NOT_APPLICABLE",
+        "ai_topic_alignment": "NOT_APPLICABLE",
+        "ai_unintended_linguistic_style": "UNCERTAIN",
+        "ai_unnecessary_repetition": "PASS",
+        "candidate_id": "control_v2_dev_006__style_closure_v1__pool03__84aff73be631",
+        "candidate_token_count": "100",
+        "case_id": "control_v2_dev_006",
+        "current_question": "Where does Robin currently live?",
+        "human_final_review": "",
+        "human_review_notes": "",
+        "neutral_candidate": "Speaker style profile: No speaker-specific linguistic style information is provided in this profile entry.",
+        "reference_token_count": "100",
+        "speaker_name": "Robin",
+        "token_difference": "0",
+        "trusted_evidence": "Verified current fact (2026-10-12): Robin currently lives in Plymouth."
+      },
+      "speaker_name": "Robin"
+    }
+  ],
+  "version": "p0_scientific_closure_v1"
+}

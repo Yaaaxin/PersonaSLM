@@ -1,0 +1,259 @@
+{
+  "P0": "PARTIAL",
+  "P1": "NOT STARTED",
+  "broken_local_links": [],
+  "completed_command_captures": [
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_development_delivery_v2.py"
+      ],
+      "capture": "results/p0_control_development_v2/20261012T202741/engineering/delivery_command.json",
+      "duration_seconds": 0.8905506999872159,
+      "exit_code": 1,
+      "finished_utc": "2026-10-12T20:47:16.369511+00:00",
+      "sha256": "00be5cd3af3ce2db7e68f4cdd76ef2830bc52f3d94b7e46ed82f73eb094105c0",
+      "started_utc": "2026-10-12T20:47:15.478956+00:00",
+      "stdout_summary": []
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_development_v2.py",
+        "freeze"
+      ],
+      "capture": "results/p0_control_development_v2/20261012T202741/engineering/freeze.json",
+      "duration_seconds": 0.44677219999721274,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:39:19.805335+00:00",
+      "sha256": "abe5622934b2d47721c4637bf9f3c911b05be16370dbb557e6e2218679038c74",
+      "started_utc": "2026-10-12T20:39:19.358564+00:00",
+      "stdout_summary": [
+        "{\"frozen_utc\": \"2026-10-12T20:39:19.571775+00:00\", \"freeze_sha256\": \"62b213ce7741ebf1a10d585077f783a4180430955e5599260e15790c7ee392d4\", \"pairs\": 24, \"candidate_prompts\": 420}"
+      ]
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "capture": "results/p0_control_development_v2/20261012T202741/engineering/full_tests.json",
+      "duration_seconds": 16.105557699978817,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:41:06.881737+00:00",
+      "sha256": "76d5750b94d4a32c57ec7aa5b7f821bf5c81e045a8adf58d0aa8482da17faf12",
+      "started_utc": "2026-10-12T20:40:50.776176+00:00",
+      "stdout_summary": [
+        "285 passed in 15.44s"
+      ]
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_development_v2.py",
+        "verify"
+      ],
+      "capture": "results/p0_control_development_v2/20261012T202741/engineering/integrity.json",
+      "duration_seconds": 52.51059549997444,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:41:23.525524+00:00",
+      "sha256": "4894a52f4ee34d6b3c068a8af4cdeb2a9fd93b20d8cfa34625682a52ea806c85",
+      "started_utc": "2026-10-12T20:40:31.014921+00:00",
+      "stdout_summary": [
+        "{\"protected_files_unchanged\": 110, \"historical_journals_unchanged\": 22, \"new_journal_replay\": true, \"pairs\": 24}"
+      ]
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_development_report_v2.py"
+      ],
+      "capture": "results/p0_control_development_v2/20261012T202741/engineering/report_command.json",
+      "duration_seconds": 0.2559884999936912,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:45:56.303990+00:00",
+      "sha256": "13e358a741cb0b362dac903e26854e6ae154e4be39776fecea6eca54a3b046bb",
+      "started_utc": "2026-10-12T20:45:56.047998+00:00",
+      "stdout_summary": [
+        "{\"recorded_utc\": \"2026-10-12T20:45:56.264380+00:00\", \"report\": \"docs/P0_control_development_report_v2.md\", \"P0\": \"PARTIAL\", \"new_human_reviews\": \"0/24\", \"tests\": \"285 passed in 15.44s\"}"
+      ]
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_development_v2.py",
+        "review"
+      ],
+      "capture": "results/p0_control_development_v2/20261012T202741/engineering/review_packet.json",
+      "duration_seconds": 0.25686300001689233,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:40:30.119203+00:00",
+      "sha256": "23cbeeb4ad7fec8b964a43eefd6a18668ffdac359bb2e4c1e0de99505b23cc3c",
+      "started_utc": "2026-10-12T20:40:29.862337+00:00",
+      "stdout_summary": [
+        "{\"items\": 24, \"human_completed\": 0, \"failed_pairs_retained\": 0}"
+      ]
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_control_candidates_v2.py"
+      ],
+      "capture": "results/p0_control_development_v2/20261012T202741/engineering/targeted_tests.json",
+      "duration_seconds": 1.035535799979698,
+      "exit_code": 1,
+      "finished_utc": "2026-10-12T20:39:02.622131+00:00",
+      "sha256": "c258a2be6728a810f45ad4a8f3bf0146e205177b66232ea3b6ec2193aac217bb",
+      "started_utc": "2026-10-12T20:39:01.586590+00:00",
+      "stdout_summary": [
+        "6 failed, 16 passed in 0.36s"
+      ]
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_control_candidates_v2.py"
+      ],
+      "capture": "results/p0_control_development_v2/20261012T202741/engineering/targeted_tests_corrected.json",
+      "duration_seconds": 0.8026149999932386,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:39:12.532180+00:00",
+      "sha256": "1bfa737bfb91b008525707eeaffd5e6098cc17353051637ecc92f243e3a58432",
+      "started_utc": "2026-10-12T20:39:11.729563+00:00",
+      "stdout_summary": [
+        "22 passed in 0.13s"
+      ]
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_control_development_v2.py",
+        "tokenize"
+      ],
+      "capture": "results/p0_control_development_v2/20261012T202741/engineering/tokenize.json",
+      "duration_seconds": 33.602992700005416,
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:39:57.544149+00:00",
+      "sha256": "68c371bc20a703864c2a04978de00a809c1e3a1be14632133af4bd0327ca2d79",
+      "started_utc": "2026-10-12T20:39:23.941146+00:00",
+      "stdout_summary": [
+        "}"
+      ]
+    }
+  ],
+  "earlier_report_bodies_preserved": true,
+  "existing_dirty_files_at_start": 40,
+  "files_changed_this_task": {
+    "README.md": "9a3810f11a5dd41441ec6ac380b40d61b330890e0297b11051804e1ef191d845",
+    "docs/P0_acceptance_checklist.md": "16e3b8676cfddbf0db6c2669d3b1789e3748a7fe18ba7901b0eaf891a5b3b462",
+    "docs/P0_control_acceptance_report.md": "6a04de43b8b6b2ecf635b2f0ff339f95727f35e5f3d96c22a6cafe27fbdac6b5",
+    "docs/P0_control_development_report_v2.md": "61563ae146ace7617e3439770b22674262d288f6feed275412d9604e6726a7ff",
+    "docs/P0_control_development_review_v2_guide.md": "d8d3d165f9ca8f2299b8176a2bc0e496fd19a464529a2332baf74d163d24d426",
+    "docs/P0_final_validation_report.md": "b6a4e45e88702be791a0604561ce5bd16bdc28cd9f6925fd690448bca0755eee",
+    "docs/P0_methodology_acceptance_report.md": "787abff072e6d0caaf917214aab4febe5a41c64534802283415027ce43f96a11",
+    "docs/P0_neutral_control_diagnostic.md": "9907a2e4a0c81102764f3aa233a112d1a6612de8b9cd0e793fbcec0d52d5f2c5",
+    "docs/P0_policy_acceptance_report.md": "cb557f2db45581d8d60ead959e76e7e2566c46ca5b25f3e18ee5d41979bc1bfb",
+    "docs/P0_real_inference_report.md": "e3fc90222cc7f124ad021a2f96817cfc3aa18b6cf333f7ea1b163daf05a91c33",
+    "docs/P0_remaining_blockers.md": "878987ccaf46e850ca440371d282636423ceef59a5c9489cfb06fa9c6ebe6be6",
+    "docs/P0_reproducibility_report.md": "3bf6e483ef3bf0f999dda454c5ab184b7cb0d4e128b069f413e8405ac58bd652",
+    "docs/PersonaSLM_related_work_novelty_audit_2026-10-12.md": "8083dd74f44a60dc4b067e503737077d2fd1aaf6ed52f01c8ccbff8c653ffaeb",
+    "docs/related_work_novelty_matrix.md": "4ed7ff367451589049f06adcbbbc375ea2efed2ec7f85c3f140e917a2a61b5d3",
+    "docs/research_development_log.md": "092d17d5d3a7b920f35315556a4a4102c3a159c3e1ff974a34cd71a52a7ea09c",
+    "docs/validation/P0_control_candidate_freeze_v2.json": "62b213ce7741ebf1a10d585077f783a4180430955e5599260e15790c7ee392d4",
+    "docs/validation/P0_control_development_commands_v2.json": "49f474434de96453f631458c19472d8ce2f3496d8adadc35f03ce92e6c4a6dc1",
+    "docs/validation/P0_control_development_integrity_v2.json": "0e63acf429f5a46bf808c897d4a56dde89e10b03340964134504821cb723eb21",
+    "docs/validation/P0_control_development_review_v2.csv": "ec640280e1dc6fa5198139bb4659ddd2c614416afedb331f86ace78a6f20e538",
+    "docs/validation/P0_control_development_review_v2.json": "930c2a74ef2175a670a50472411a1542776276776777586d9b4591d810fc464b",
+    "docs/validation/P0_control_development_selection_v2.json": "87a00555d5d241ec79dead33b27c94a79eccbd5e9e8080936e1afdf62d686c09",
+    "docs/validation/P0_control_literature_access_v2.json": "410b3308d063135b84b809bb3a1148be58f1989f55732080e523e5b8c6982fb3",
+    "docs/validation/P0_control_tokenizer_validation_v2.json": "b441e41dc8bd0b580e7ed202e2381321d1c0824b51d5e038227e2d51d62cff74",
+    "src/personaslm/control_candidates_v2.py": "0a8ae1643ac1c02a6cbf33fefc6ce3cdc63b14d66b87361824d97cdf999acce0",
+    "src/personaslm/control_review_v2.py": "151d1996c0c160c1473cd0c5c9bc4e9f0903e5ea977be8771af5e6a676e505ac",
+    "tests/test_control_candidates_v2.py": "6b69e8037342730ef266f6c7d1ac0dc84c0b00894f0753a7ddc61d6d5b4c887b",
+    "tools/p0_control_development_delivery_v2.py": "b3668eb0cd129765dca4018d74035d495889ed8e8231680c3d5e5ed0aaea8a73",
+    "tools/p0_control_development_report_v2.py": "503bbb1118ea6e5de0c97bd244a4f5200049657437878a6e36aa27352d587c77",
+    "tools/p0_control_development_v2.py": "087282a1f61a552d3cd2e4c2810b1a98f5694fb6856fb65bf043fdeb4b842458"
+  },
+  "files_removed": [],
+  "finished_utc": "2026-10-12T20:47:48.780253+00:00",
+  "git_checks": {
+    "diff_check": {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:47:48.540306+00:00",
+      "started_utc": "2026-10-12T20:47:48.490344+00:00",
+      "stderr": "warning: in the working copy of 'docs/P0_acceptance_checklist.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'docs/P0_final_validation_report.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'docs/P0_methodology_acceptance_report.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'docs/P0_remaining_blockers.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'docs/P0_reproducibility_report.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'docs/research_development_log.md', CRLF will be replaced by LF the next time Git touches it\n",
+      "stdout": ""
+    },
+    "diff_stat": {
+      "argv": [
+        "git",
+        "diff",
+        "--stat"
+      ],
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:47:48.633305+00:00",
+      "started_utc": "2026-10-12T20:47:48.585067+00:00",
+      "stderr": "warning: in the working copy of 'docs/P0_acceptance_checklist.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'docs/P0_final_validation_report.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'docs/P0_methodology_acceptance_report.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'docs/P0_remaining_blockers.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'docs/P0_reproducibility_report.md', CRLF will be replaced by LF the next time Git touches it\nwarning: in the working copy of 'docs/research_development_log.md', CRLF will be replaced by LF the next time Git touches it\n",
+      "stdout": " README.md                                |  9 +++++++--\n docs/P0_acceptance_checklist.md          |  2 ++\n docs/P0_control_acceptance_report.md     |  2 ++\n docs/P0_final_validation_report.md       |  2 ++\n docs/P0_methodology_acceptance_report.md |  2 ++\n docs/P0_neutral_control_diagnostic.md    |  2 ++\n docs/P0_policy_acceptance_report.md      |  2 ++\n docs/P0_real_inference_report.md         |  2 ++\n docs/P0_remaining_blockers.md            |  7 +++++++\n docs/P0_reproducibility_report.md        | 19 +++++++++++++++++++\n docs/research_development_log.md         | 19 +++++++++++++++++++\n 11 files changed, 66 insertions(+), 2 deletions(-)\n"
+    },
+    "head": {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:47:48.671028+00:00",
+      "started_utc": "2026-10-12T20:47:48.637444+00:00",
+      "stderr": "",
+      "stdout": "4d00ee1adbe538d24175d5c3e83c318bff8365a3\n"
+    },
+    "status": {
+      "argv": [
+        "git",
+        "status",
+        "--short"
+      ],
+      "exit_code": 0,
+      "finished_utc": "2026-10-12T20:47:48.582113+00:00",
+      "started_utc": "2026-10-12T20:47:48.543738+00:00",
+      "stderr": "",
+      "stdout": "MM README.md\nMM docs/P0_acceptance_checklist.md\nAM docs/P0_control_acceptance_report.md\nA  docs/P0_control_development_review_v2_guide.md\nMM docs/P0_final_validation_report.md\nMM docs/P0_methodology_acceptance_report.md\nM  docs/P0_neutral_annotation_form_v3.md\nAM docs/P0_neutral_control_diagnostic.md\nA  docs/P0_neutral_control_resolution_guide.md\nM  docs/P0_neutral_review_instructions.md\nMM docs/P0_policy_acceptance_report.md\nMM docs/P0_real_inference_report.md\nMM docs/P0_remaining_blockers.md\nMM docs/P0_reproducibility_report.md\nA  docs/P0_researcher_annotation_report.md\nA  docs/P1_experimental_design_proposal.md\nA  docs/PersonaSLM_related_work_novelty_audit_2026-10-12.md\nA  docs/related_work_novelty_matrix.md\nMM docs/research_development_log.md\nA  docs/validation/P0_control_candidate_freeze_v1.json\nA  docs/validation/P0_control_candidate_freeze_v2.json\nA  docs/validation/P0_control_development_integrity_v2.json\nA  docs/validation/P0_control_development_review_v2.csv\nA  docs/validation/P0_control_development_review_v2.json\nA  docs/validation/P0_control_reconstruction_v1.json\nA  docs/validation/P0_control_tokenizer_validation_v1.json\nA  docs/validation/P0_control_tokenizer_validation_v2.json\nA  docs/validation/P0_literature_access_v1.json\nA  docs/validation/P0_neutral_resolution_form_v1.csv\nA  docs/validation/P0_neutral_resolution_form_v1.json\nA  docs/validation/P0_neutral_validity_commands_v1.json\nA  docs/validation/P0_neutral_validity_delivery_v1.json\nA  docs/validation/P0_neutral_validity_final_checks_v1.json\nA  docs/validation/P0_received_review_source_v1.csv\nA  docs/validation/P0_researcher_annotation_version_comparison_v1.json\nA  docs/validation/P0_researcher_verified_annotation_v1.json\nA  docs/validation/P0_researcher_verified_annotation_v1_revision2.json\nA  docs/validation/PersonaSLM_P0_Researcher_Reviewed_v3.csv\nA  src/personaslm/control_candidates.py\nA  src/personaslm/control_candidates_v2.py\nA  src/personaslm/control_resolution_review.py\nA  src/personaslm/control_review_v2.py\nA  src/personaslm/researcher_review.py\nA  tests/test_control_candidates.py\nA  tests/test_control_candidates_v2.py\nA  tests/test_control_resolution_review.py\nA  tests/test_researcher_review.py\nA  tools/p0_control_delivery.py\nA  tools/p0_control_development_report_v2.py\nA  tools/p0_control_development_v2.py\nA  tools/p0_control_report.py\nA  tools/p0_control_validation.py\n?? docs/P0_control_development_report_v2.md\n?? docs/validation/P0_control_development_commands_v2.json\n?? docs/validation/P0_control_development_selection_v2.json\n?? docs/validation/P0_control_literature_access_v2.json\n?? tools/p0_control_development_delivery_v2.py\n"
+    }
+  },
+  "machine_private_paths_in_additions": 0,
+  "new_human_reviews": 0,
+  "new_review_items": 24,
+  "product_name_occurrences": 0,
+  "protected_files_unchanged": 110,
+  "scope": "Self and outer command capture are created after the file inventory; no recursive self-hash",
+  "started_utc": "2026-10-12T20:47:48.099735+00:00",
+  "test_capture": {
+    "argv": [
+      ".\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "duration_seconds": 16.105557699978817,
+    "exit_code": 0,
+    "finished_utc": "2026-10-12T20:41:06.881737+00:00",
+    "started_utc": "2026-10-12T20:40:50.776176+00:00",
+    "stderr": "",
+    "stdout": "........................................................................ [ 25%]\n........................................................................ [ 50%]\n........................................................................ [ 75%]\n.....................................................................    [100%]\n285 passed in 15.44s\n"
+  },
+  "text_files_scanned": 171
+}

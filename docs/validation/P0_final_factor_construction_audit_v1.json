@@ -1,0 +1,3049 @@
+{
+  "constructed_prompts": 160,
+  "created_utc": "2026-10-12T23:09:45.142433+00:00",
+  "dataset_sha256": "31b5242c2cc01411f524c2b922086de0ef216105920e723f1270560e0bc1f282",
+  "generation_requests": 0,
+  "limit": "Software routing check only. Original fixture F is the board-games preference. The six style/history development fixtures have a non-manipulated F placeholder and are not a factorial pilot dataset.",
+  "records": [
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_001",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_001",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_001",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_001",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_001",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_001",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_001",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_001",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_002",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_002",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_002",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_002",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_002",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_002",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_002",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_002",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_003",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_003",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_003",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_003",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_003",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_003",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_003",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_003",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_004",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_004",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_004",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_004",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_004",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_004",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_004",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_004",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_005",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_005",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_005",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_005",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_005",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_005",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_005",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_005",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_006",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_006",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_006",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_006",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_006",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_006",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_006",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_006",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_007",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_007",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_007",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_007",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_007",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_007",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_007",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_007",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_008",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_008",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_008",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_008",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_008",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_008",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_008",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_008",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_009",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_009",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_009",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_009",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_009",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_009",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_009",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_009",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_010",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_010",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_010",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_010",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_010",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_010",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_010",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_010",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_011",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_011",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_011",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_011",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_011",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_011",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_011",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_011",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_012",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_012",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_012",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_012",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_012",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_012",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_012",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_012",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_013",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_013",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_013",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_013",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_013",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_013",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_013",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_013",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_014",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_014",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_014",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_014",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_014",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_014",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_014",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_014",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_015",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_015",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_015",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_015",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_015",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_015",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_015",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_015",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_016",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_016",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_016",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_016",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_016",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_016",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_016",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_016",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_017",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_017",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_017",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_017",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_017",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_017",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_017",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_017",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_018",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_018",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_018",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_018",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_018",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_018",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_018",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_018",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_019",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_019",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_019",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_019",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_019",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_019",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_019",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_019",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_020",
+      "condition": "C0",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_020",
+      "condition": "C1",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_020",
+      "condition": "C2",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_020",
+      "condition": "C3",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_020",
+      "condition": "C4",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        0
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_020",
+      "condition": "C5",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        0,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_020",
+      "condition": "C6",
+      "evidence_unchanged": true,
+      "factors": [
+        0,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": false,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "synthetic_020",
+      "condition": "C7",
+      "evidence_unchanged": true,
+      "factors": [
+        1,
+        1,
+        1
+      ],
+      "question_unchanged": true
+    }
+  ]
+}

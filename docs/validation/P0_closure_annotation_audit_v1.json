@@ -1,0 +1,745 @@
+{
+  "adopted_history_quote_confirmations": 18,
+  "adopted_history_suitability_confirmations": 6,
+  "created_utc": "2026-10-12T22:06:09.444881+00:00",
+  "derived_labels_requiring_explicit_confirmation": [
+    {
+      "candidate_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48",
+      "case_id": "control_v2_dev_001",
+      "field": "comparison_suitability",
+      "finding": "Historical PASS was conversion-derived, not a supplied per-axis rating. Do not use it as a uniquely inferred human label.",
+      "historical_converted_value": "PASS",
+      "intended_comparison": "Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ",
+      "researcher_notes": "",
+      "researcher_value": "",
+      "review_question": "For this exact narrow comparison, explicitly supply PASS, FAIL or UNCERTAIN; the ACCEPT_NARROW decision remains unchanged.",
+      "reviewed_utc": "",
+      "reviewer_id": "",
+      "source_categorical_label": null,
+      "source_decision_verbatim": "ACCEPT_NARROW"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_format__pool01__7765840a2912",
+      "case_id": "control_v2_dev_002",
+      "field": "comparison_suitability",
+      "finding": "Historical PASS was conversion-derived, not a supplied per-axis rating. Do not use it as a uniquely inferred human label.",
+      "historical_converted_value": "PASS",
+      "intended_comparison": "Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ",
+      "researcher_notes": "",
+      "researcher_value": "",
+      "review_question": "For this exact narrow comparison, explicitly supply PASS, FAIL or UNCERTAIN; the ACCEPT_NARROW decision remains unchanged.",
+      "reviewed_utc": "",
+      "reviewer_id": "",
+      "source_categorical_label": null,
+      "source_decision_verbatim": "ACCEPT_NARROW"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_format__pool03__d1c203038d13",
+      "case_id": "control_v2_dev_003",
+      "field": "comparison_suitability",
+      "finding": "Historical PASS was conversion-derived, not a supplied per-axis rating. Do not use it as a uniquely inferred human label.",
+      "historical_converted_value": "PASS",
+      "intended_comparison": "Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ",
+      "researcher_notes": "",
+      "researcher_value": "",
+      "review_question": "For this exact narrow comparison, explicitly supply PASS, FAIL or UNCERTAIN; the ACCEPT_NARROW decision remains unchanged.",
+      "reviewed_utc": "",
+      "reviewer_id": "",
+      "source_categorical_label": null,
+      "source_decision_verbatim": "ACCEPT_NARROW"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690",
+      "case_id": "control_v2_dev_004",
+      "field": "comparison_suitability",
+      "finding": "Historical PASS was conversion-derived, not a supplied per-axis rating. Do not use it as a uniquely inferred human label.",
+      "historical_converted_value": "PASS",
+      "intended_comparison": "Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ",
+      "researcher_notes": "",
+      "researcher_value": "",
+      "review_question": "For this exact narrow comparison, explicitly supply PASS, FAIL or UNCERTAIN; the ACCEPT_NARROW decision remains unchanged.",
+      "reviewed_utc": "",
+      "reviewer_id": "",
+      "source_categorical_label": null,
+      "source_decision_verbatim": "ACCEPT_NARROW"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8",
+      "case_id": "control_v2_dev_005",
+      "field": "comparison_suitability",
+      "finding": "Historical PASS was conversion-derived, not a supplied per-axis rating. Do not use it as a uniquely inferred human label.",
+      "historical_converted_value": "PASS",
+      "intended_comparison": "Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ",
+      "researcher_notes": "",
+      "researcher_value": "",
+      "review_question": "For this exact narrow comparison, explicitly supply PASS, FAIL or UNCERTAIN; the ACCEPT_NARROW decision remains unchanged.",
+      "reviewed_utc": "",
+      "reviewer_id": "",
+      "source_categorical_label": null,
+      "source_decision_verbatim": "ACCEPT_NARROW"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102",
+      "case_id": "control_v2_dev_006",
+      "field": "comparison_suitability",
+      "finding": "Historical PASS was conversion-derived, not a supplied per-axis rating. Do not use it as a uniquely inferred human label.",
+      "historical_converted_value": "PASS",
+      "intended_comparison": "Old-residence history versus unrelated coherent dialogue; format and length matched, topic and information differ",
+      "researcher_notes": "",
+      "researcher_value": "",
+      "review_question": "For this exact narrow comparison, explicitly supply PASS, FAIL or UNCERTAIN; the ACCEPT_NARROW decision remains unchanged.",
+      "reviewed_utc": "",
+      "reviewer_id": "",
+      "source_categorical_label": null,
+      "source_decision_verbatim": "ACCEPT_NARROW"
+    }
+  ],
+  "details": [
+    {
+      "candidate_id": "control_v2_dev_001__style_generic__pool23__294bd9df9d55",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__style_generic__pool23__294bd9df9d55",
+      "field": "semantic_neutrality_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__style_generic__pool23__294bd9df9d55",
+      "field": "conversational_coherence",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "not_applicable_not_allowed"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__style_generic__pool23__294bd9df9d55",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48",
+      "field": "topic_alignment_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48",
+      "field": "temporal_relationships_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_format__pool01__5f2142adbc48",
+      "field": "conversational_coherence_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_topic__pool03__471aadd78588",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_topic__pool03__471aadd78588",
+      "field": "semantic_neutrality_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_topic__pool03__471aadd78588",
+      "field": "dialogue_structure_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_topic__pool03__471aadd78588",
+      "field": "topic_alignment_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_topic__pool03__471aadd78588",
+      "field": "temporal_relationships_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_topic__pool03__471aadd78588",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_stale_generalized__pool02__e9d16e061156",
+      "field": "additional_factual_information_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_stale_generalized__pool02__e9d16e061156",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_stale_generalized__pool02__e9d16e061156",
+      "field": "unnecessary_repetition_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_stale_generalized__pool02__e9d16e061156",
+      "field": "conversational_coherence_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_001__history_stale_generalized__pool02__e9d16e061156",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__style_generic__pool04__adcd59ceae18",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__style_generic__pool04__adcd59ceae18",
+      "field": "semantic_neutrality_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__style_generic__pool04__adcd59ceae18",
+      "field": "conversational_coherence",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "not_applicable_not_allowed"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__style_generic__pool04__adcd59ceae18",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_format__pool01__7765840a2912",
+      "field": "topic_alignment_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_format__pool01__7765840a2912",
+      "field": "temporal_relationships_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_format__pool01__7765840a2912",
+      "field": "conversational_coherence_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_topic__pool03__fecd6452a6df",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_topic__pool03__fecd6452a6df",
+      "field": "semantic_neutrality_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_topic__pool03__fecd6452a6df",
+      "field": "dialogue_structure_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_topic__pool03__fecd6452a6df",
+      "field": "topic_alignment_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_topic__pool03__fecd6452a6df",
+      "field": "temporal_relationships_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_topic__pool03__fecd6452a6df",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_stale_generalized__pool02__5661c465e1ce",
+      "field": "additional_factual_information_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_stale_generalized__pool02__5661c465e1ce",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_stale_generalized__pool02__5661c465e1ce",
+      "field": "unnecessary_repetition_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_stale_generalized__pool02__5661c465e1ce",
+      "field": "conversational_coherence_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_002__history_stale_generalized__pool02__5661c465e1ce",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__style_generic__pool04__0adac871074b",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__style_generic__pool04__0adac871074b",
+      "field": "semantic_neutrality_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__style_generic__pool04__0adac871074b",
+      "field": "conversational_coherence",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "not_applicable_not_allowed"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__style_generic__pool04__0adac871074b",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_format__pool03__d1c203038d13",
+      "field": "topic_alignment_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_format__pool03__d1c203038d13",
+      "field": "temporal_relationships_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_format__pool03__d1c203038d13",
+      "field": "conversational_coherence_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_topic__pool07__3cbd45ba74bf",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_topic__pool07__3cbd45ba74bf",
+      "field": "semantic_neutrality_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_topic__pool07__3cbd45ba74bf",
+      "field": "dialogue_structure_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_topic__pool07__3cbd45ba74bf",
+      "field": "topic_alignment_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_topic__pool07__3cbd45ba74bf",
+      "field": "temporal_relationships_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_topic__pool07__3cbd45ba74bf",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_stale_generalized__pool03__fd5669839118",
+      "field": "additional_factual_information_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_stale_generalized__pool03__fd5669839118",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_stale_generalized__pool03__fd5669839118",
+      "field": "conversational_coherence_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_003__history_stale_generalized__pool03__fd5669839118",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__style_generic__pool01__237a2b6e80ab",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__style_generic__pool01__237a2b6e80ab",
+      "field": "semantic_neutrality_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__style_generic__pool01__237a2b6e80ab",
+      "field": "conversational_coherence",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "not_applicable_not_allowed"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__style_generic__pool01__237a2b6e80ab",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690",
+      "field": "topic_alignment_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690",
+      "field": "temporal_relationships_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_format__pool01__8a27dbe7c690",
+      "field": "conversational_coherence_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_topic__pool03__0cf290145a89",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_topic__pool03__0cf290145a89",
+      "field": "semantic_neutrality_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_topic__pool03__0cf290145a89",
+      "field": "dialogue_structure_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_topic__pool03__0cf290145a89",
+      "field": "topic_alignment_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_topic__pool03__0cf290145a89",
+      "field": "temporal_relationships_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_topic__pool03__0cf290145a89",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_stale_generalized__pool02__d6b16e082892",
+      "field": "additional_factual_information_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_stale_generalized__pool02__d6b16e082892",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_stale_generalized__pool02__d6b16e082892",
+      "field": "unnecessary_repetition_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_stale_generalized__pool02__d6b16e082892",
+      "field": "conversational_coherence_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_004__history_stale_generalized__pool02__d6b16e082892",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__style_generic__pool04__3c4e66c531c3",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__style_generic__pool04__3c4e66c531c3",
+      "field": "semantic_neutrality_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__style_generic__pool04__3c4e66c531c3",
+      "field": "conversational_coherence",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "not_applicable_not_allowed"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__style_generic__pool04__3c4e66c531c3",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8",
+      "field": "topic_alignment_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8",
+      "field": "temporal_relationships_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_format__pool03__01b74af39fd8",
+      "field": "conversational_coherence_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_topic__pool07__59cc45bd5e0b",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_topic__pool07__59cc45bd5e0b",
+      "field": "semantic_neutrality_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_topic__pool07__59cc45bd5e0b",
+      "field": "dialogue_structure_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_topic__pool07__59cc45bd5e0b",
+      "field": "topic_alignment_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_topic__pool07__59cc45bd5e0b",
+      "field": "temporal_relationships_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_topic__pool07__59cc45bd5e0b",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_stale_generalized__pool03__aca4b8c3b0f6",
+      "field": "additional_factual_information_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_stale_generalized__pool03__aca4b8c3b0f6",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_stale_generalized__pool03__aca4b8c3b0f6",
+      "field": "conversational_coherence_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_005__history_stale_generalized__pool03__aca4b8c3b0f6",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__style_generic__pool03__a0012f6e5297",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__style_generic__pool03__a0012f6e5297",
+      "field": "semantic_neutrality_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__style_generic__pool03__a0012f6e5297",
+      "field": "conversational_coherence",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "not_applicable_not_allowed"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__style_generic__pool03__a0012f6e5297",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102",
+      "field": "topic_alignment_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102",
+      "field": "temporal_relationships_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_format__pool03__fcf5f46b8102",
+      "field": "conversational_coherence_evidence_quote",
+      "gate": "adopted_history_a_confirmation",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_topic__pool07__5a7d1c29531e",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_topic__pool07__5a7d1c29531e",
+      "field": "semantic_neutrality_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_topic__pool07__5a7d1c29531e",
+      "field": "dialogue_structure_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_topic__pool07__5a7d1c29531e",
+      "field": "topic_alignment_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_topic__pool07__5a7d1c29531e",
+      "field": "temporal_relationships_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_topic__pool07__5a7d1c29531e",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_stale_generalized__pool03__726134061d9d",
+      "field": "additional_factual_information_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_stale_generalized__pool03__726134061d9d",
+      "field": "unintended_linguistic_style_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_stale_generalized__pool03__726134061d9d",
+      "field": "conversational_coherence_evidence_quote",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_required_field_quote"
+    },
+    {
+      "candidate_id": "control_v2_dev_006__history_stale_generalized__pool03__726134061d9d",
+      "field": "comparison_suitability",
+      "gate": "archival_only_for_superseded_or_excluded_controls",
+      "issue": "missing_official_label"
+    }
+  ],
+  "historical_counts_verified": {
+    "missing_official_label": 18,
+    "missing_required_field_quote": 81,
+    "not_applicable_not_allowed": 6
+  },
+  "labels_are": "Comparison suitability ratings, not endpoint applicability; do not change the frozen applicability matrix",
+  "new_style_review": "All six revised texts need new human review; historical labels never transfer",
+  "nonblocking": [
+    "Unknown review time",
+    "No second reviewer",
+    "Missing optional PASS quotes",
+    "Unresolved fields on superseded style, excluded B or diagnostic-only C"
+  ],
+  "optional_empty_quote_fields": 279,
+  "source_sha256": "550e9e140995ac10dc6578c65e0a17ec63fc3b3da1a5b7a7db20cf213f10c651",
+  "strict_archive_issues": 105
+}

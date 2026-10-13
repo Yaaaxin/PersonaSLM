@@ -1,0 +1,55 @@
+﻿case_id,candidate_id,axis,prior_human_axis_judgment,source_passage_active,source_passage_candidate,exact_quote_match_active,exact_quote_match_candidate,ai_reading,human_quote_association_verified,human_notes
+control_v2_dev_001,control_v2_dev_001__history_format__pool01__5f2142adbc48,topic_alignment,FAIL,User: Where were you living back then?,User: What does a conversation involve?,YES,YES,"Residence versus conversation topic; the excerpt documents the difference, not its causal effect.",,
+control_v2_dev_001,control_v2_dev_001__history_format__pool01__5f2142adbc48,temporal_relationships,FAIL,"Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Riley: In York at the time.","Historical dialogue (2025-03-14):
+User: What does a conversation involve?
+Riley: An exchange of questions and replies.",YES,YES,Identical dated headers; the active reply asserts past residence whereas the generic reply does not.,,
+control_v2_dev_001,control_v2_dev_001__history_format__pool01__5f2142adbc48,conversational_coherence,UNCERTAIN,"User: Where were you living back then?
+Riley: In York at the time.","User: What does a conversation involve?
+Riley: An exchange of questions and replies.",YES,YES,The full question-answer adjacency is shown; excerpts cannot establish a human coherence verdict.,,
+control_v2_dev_002,control_v2_dev_002__history_format__pool01__7765840a2912,topic_alignment,FAIL,User: Where were you living back then?,User: What does a conversation involve?,YES,YES,"Residence versus conversation topic; the excerpt documents the difference, not its causal effect.",,
+control_v2_dev_002,control_v2_dev_002__history_format__pool01__7765840a2912,temporal_relationships,FAIL,"Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Samara: In Bath at the time.","Historical dialogue (2025-03-14):
+User: What does a conversation involve?
+Samara: An exchange of questions and replies.",YES,YES,Identical dated headers; the active reply asserts past residence whereas the generic reply does not.,,
+control_v2_dev_002,control_v2_dev_002__history_format__pool01__7765840a2912,conversational_coherence,UNCERTAIN,"User: Where were you living back then?
+Samara: In Bath at the time.","User: What does a conversation involve?
+Samara: An exchange of questions and replies.",YES,YES,The full question-answer adjacency is shown; excerpts cannot establish a human coherence verdict.,,
+control_v2_dev_003,control_v2_dev_003__history_format__pool03__d1c203038d13,topic_alignment,FAIL,User: Where were you living back then?,User: What does a conversation involve?,YES,YES,"Residence versus conversation topic; the excerpt documents the difference, not its causal effect.",,
+control_v2_dev_003,control_v2_dev_003__history_format__pool03__d1c203038d13,temporal_relationships,FAIL,"Historical dialogue (2025-03-14):
+User: Where were you living back then?
+Devon: In Exeter at the time.","Historical dialogue (2025-03-14):
+User: What does a conversation involve?
+Devon: An exchange between the people taking part.",YES,YES,Identical dated headers; the active reply asserts past residence whereas the generic reply does not.,,
+control_v2_dev_003,control_v2_dev_003__history_format__pool03__d1c203038d13,conversational_coherence,UNCERTAIN,"User: Where were you living back then?
+Devon: In Exeter at the time.","User: What does a conversation involve?
+Devon: An exchange between the people taking part.",YES,YES,The full question-answer adjacency is shown; excerpts cannot establish a human coherence verdict.,,
+control_v2_dev_004,control_v2_dev_004__history_format__pool01__8a27dbe7c690,topic_alignment,FAIL,User: Where were you living back then?,User: What does a conversation involve?,YES,YES,"Residence versus conversation topic; the excerpt documents the difference, not its causal effect.",,
+control_v2_dev_004,control_v2_dev_004__history_format__pool01__8a27dbe7c690,temporal_relationships,FAIL,"Historical dialogue (2025-06-18):
+User: Where were you living back then?
+Tessa: In Hull at the time.","Historical dialogue (2025-06-18):
+User: What does a conversation involve?
+Tessa: An exchange of questions and replies.",YES,YES,Identical dated headers; the active reply asserts past residence whereas the generic reply does not.,,
+control_v2_dev_004,control_v2_dev_004__history_format__pool01__8a27dbe7c690,conversational_coherence,UNCERTAIN,"User: Where were you living back then?
+Tessa: In Hull at the time.","User: What does a conversation involve?
+Tessa: An exchange of questions and replies.",YES,YES,The full question-answer adjacency is shown; excerpts cannot establish a human coherence verdict.,,
+control_v2_dev_005,control_v2_dev_005__history_format__pool03__01b74af39fd8,topic_alignment,FAIL,User: Where were you living back then?,User: What does a conversation involve?,YES,YES,"Residence versus conversation topic; the excerpt documents the difference, not its causal effect.",,
+control_v2_dev_005,control_v2_dev_005__history_format__pool03__01b74af39fd8,temporal_relationships,FAIL,"Historical dialogue (2025-08-21):
+User: Where were you living back then?
+Blair: In Carlisle at the time.","Historical dialogue (2025-08-21):
+User: What does a conversation involve?
+Blair: An exchange between the people taking part.",YES,YES,Identical dated headers; the active reply asserts past residence whereas the generic reply does not.,,
+control_v2_dev_005,control_v2_dev_005__history_format__pool03__01b74af39fd8,conversational_coherence,UNCERTAIN,"User: Where were you living back then?
+Blair: In Carlisle at the time.","User: What does a conversation involve?
+Blair: An exchange between the people taking part.",YES,YES,The full question-answer adjacency is shown; excerpts cannot establish a human coherence verdict.,,
+control_v2_dev_006,control_v2_dev_006__history_format__pool03__fcf5f46b8102,topic_alignment,FAIL,User: Where were you living back then?,User: What does a conversation involve?,YES,YES,"Residence versus conversation topic; the excerpt documents the difference, not its causal effect.",,
+control_v2_dev_006,control_v2_dev_006__history_format__pool03__fcf5f46b8102,temporal_relationships,FAIL,"Historical dialogue (2025-11-09):
+User: Where were you living back then?
+Robin: In Gloucester at the time.","Historical dialogue (2025-11-09):
+User: What does a conversation involve?
+Robin: An exchange between the people taking part.",YES,YES,Identical dated headers; the active reply asserts past residence whereas the generic reply does not.,,
+control_v2_dev_006,control_v2_dev_006__history_format__pool03__fcf5f46b8102,conversational_coherence,UNCERTAIN,"User: Where were you living back then?
+Robin: In Gloucester at the time.","User: What does a conversation involve?
+Robin: An exchange between the people taking part.",YES,YES,The full question-answer adjacency is shown; excerpts cannot establish a human coherence verdict.,,
