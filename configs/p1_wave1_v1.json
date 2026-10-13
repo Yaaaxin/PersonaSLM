@@ -1,0 +1,17 @@
+{
+  "endpoint": "http://127.0.0.1:8080",
+  "engine_revision": "0f701c882",
+  "max_match_candidates": 256,
+  "max_new_tokens": 96,
+  "model_file": "models/gguf/Qwen3.5-2B-Base.Q4_K_M.gguf",
+  "model_label": "Qwen3.5-2B-Base-Q4_K_M",
+  "model_sha256": "AB36F9A7B0194ED9A6F80EEB000DAC73002BCB14D0397C11C39417B6CD814994",
+  "n_ctx": 4096,
+  "prompt_template": "transcript_base_v1",
+  "seed": 42,
+  "server_file": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+  "startup_timeout": 120.0,
+  "threads": 4,
+  "timeout": 180.0,
+  "token_tolerance": 0
+}

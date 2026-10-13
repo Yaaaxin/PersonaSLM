@@ -1,3 +1,7 @@
+> **Current phase: P1 exploratory wave 1 completed, with 96/96 real CPU generations. P0 remains PASS.** The new 48-case fictional English dataset supplies 12 selected speaker-cases and eight factorial cells. Structural and semantic measurement limits are reported separately; 24 exact-token controls await new human review and no neutral generations were run. Full suite: 401 passed. See the [wave report](docs/P1_pilot_wave1_report.md), [manipulation validation](docs/P1_manipulation_validation.md), [annotation guide](docs/P1_annotation_guide.md) and [novelty assessment](docs/P1_novelty_assessment.md). All older status notices below are preserved historical checkpoints. Protocol v1.1 remains unchanged; no later-wave expansion is authorized by this report.
+
+---
+
 > **Final current acceptance: P0 PASS - Engineering and Methodological Infrastructure Validation Completed. P1 NOT STARTED.** Six explicit absence-of-style and six History A comparisons are researcher-approved only within their narrow scopes; all 12 token differences are zero. Final Tessa approval is registered; 18 History A evidence links are confirmed. Full suite: 365 passed. Historical scores, annotation limitations and confounds remain preserved. See the [final acceptance report](docs/P0_final_scientific_acceptance_report.md). Earlier status entries below are historical checkpoints.
 
 ---

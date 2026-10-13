@@ -1,0 +1,4429 @@
+{
+  "cases": [
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_01_A",
+      "context_sha256": "6343681882dbf50be2ff2210858d249830e397267f2331023dc615144ddffb39",
+      "evidence_character_offset": 70,
+      "family": "A",
+      "persona_id": "p1_speaker_01",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "047d4c910fb40256be9d7c8d3107aa143a52e93c7536555a87058c6fc04a0997"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "39db62e2b4bccbecfa6ecb606db9b473ca7f655fb7f46bb87eaa89af515704db"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "302fd61d20d67f87cd185b4bcf193334ac2d0ae72bcd7bd68ec36ac9b5c3693f"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "f17fb55a9982e63aaf4846d60718faebbf2ab01b44d9000a71c5d66a44b3a7ac"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "e3f2a78af490daaf3bfa46eb6d50fab05750b7dbb57827647cf6d5b2c3b14420"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "0acc722db976df9bc33082320877bca3e4875c421d8b2864b8534c1765773a55"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "05926601d1cb8a52a184b9a168dd5c162161675825972f30419a8f4b61529bb8"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "eaa5b3e8abe2518e5645753cddd071e7cc934c3522549fb9db26dfb6888664b2"
+        }
+      ],
+      "question_sha256": "e44d742d215ee3cf59615c0ee04d931d6d286e31d7161b106502aec3ecdc53fb",
+      "status": "PASS",
+      "trusted_evidence_sha256": "7e4e932d2d7473d9e3c9edecdadb401e97055ded61155bf9657a0dd527335ddd"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_01_B",
+      "context_sha256": "ab935f144d4d6169398758e6435b429fbff7fa4961b99674b69eaed5ee721ae3",
+      "evidence_character_offset": 70,
+      "family": "B",
+      "persona_id": "p1_speaker_01",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "b7b5c872731687b3060d065dd9bdf5146f14ba2c9d6db6758b24dcec896f9420"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "64f1b7fbf5b48aca0e45ee112aeea88657861363edcae35dbd1d28c74fa8fc26"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "fd904b791f7262f7f992d4d8dbf13ac88fddc5d299d6db4e6a57ab59318ef1a3"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "cfcd291585096a3095cfec30dcf642c1bad4f82eb9b25578e05761a1261c12dd"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "c2a14223bbcad0489425fa64cda1dba23d4a80fb3ea869e8428300554c5b7a82"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "470c9489e9ce4c24ee960d79944ed9c4d0f9d14655a5b1773c66eba9ba13bdc4"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "763787668d24f2f7473146eff6f5a88eaa4ecc2992940d536c305b92166fd33a"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "3416d42b3d4faea1eb8f4458812557dd3348044d013a4f5769f3e5c4198f3340"
+        }
+      ],
+      "question_sha256": "c6a03b1a012d4575b26a8c4adc2d3a48a8158973162751baa5a0cc451658a147",
+      "status": "PASS",
+      "trusted_evidence_sha256": "7e4e932d2d7473d9e3c9edecdadb401e97055ded61155bf9657a0dd527335ddd"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_01_C",
+      "context_sha256": "a79b4b88e2105e76442385d39f7a2ae0363634c602398f65d8ae02ced4a11f7f",
+      "evidence_character_offset": 70,
+      "family": "C",
+      "persona_id": "p1_speaker_01",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "faa6bd49337561bc6304444eb17b750ee202219f2f6b791d194896d62e8cf4ca"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "2a9bb9ba3ada29dcd69fe2915ed1783a6120dd37f37b8eebd1525ead42aec226"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "2ab4738643c5be10e9ee9923178c99c4767ebea3d08f967e98dc75a2ca7d97d8"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "2bdc6a3cc1901b0ca46d25b7ddaa462ad7cce7cf55d11445693885549adf2e58"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "bfbc15afdf6dc5618ecf22b846770c44c2fa6dcff97a059e13ebfe59b4512376"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "26834e0915e67d874a3e9fe4d4171bccf67b6266685d1dbcc6c0e614701ad8a2"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "a9260bc7b1a9c6ab0c7d976b7337d012a2b49e860ee8bac3c7756a14e6f6da83"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "34d315856605069c1002166a84baa2f13c7af26bbd572206246e5ae3d16d7365"
+        }
+      ],
+      "question_sha256": "d4f7cd1757dc9fb0f86f49a662f82437150a9fce041945feb7b94a3a2969bb66",
+      "status": "PASS",
+      "trusted_evidence_sha256": "7e4e932d2d7473d9e3c9edecdadb401e97055ded61155bf9657a0dd527335ddd"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_01_D",
+      "context_sha256": "89861663bd508b707dc9b53d0edeab0fd6e48f00a86fcbe05f26caf934868b93",
+      "evidence_character_offset": 70,
+      "family": "D",
+      "persona_id": "p1_speaker_01",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "a24b9b23006878376beda490e3d0ff5cd49ee4a0d0a7c77eb273e0a38930a740"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "427eefdd3aa79145d4947117abc5d30ae20f2a8dbcedab95c2df46a0c6896f7f"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "2a338d2390027148e1b90ab93d8216b74240e9dea6b65edb7891babb64ac221a"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "05ee75ac314135e6b32a54c29ca7b078c172334e5a1e91c898066180078f1805"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "f4631e644ac80ce2d7b053932c904e7139e6b06f8b5cd40c75edcbef37b6e886"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "faa986a79f34d71941fc9f35bce626bfead978682af0912e574763d804b29873"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "918c39939d3a67be140938c77065cf41b4b549e35511936b4fbf5dfe6c0d444f"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "0a2e1593ba8fb8b9f21bb871532e84712b20930ca5897fa952a85e9e5607c96b"
+        }
+      ],
+      "question_sha256": "0aa0064db6e2ff74ccbba3e89b9e19337d029e0830e26a907b783e816af00f0f",
+      "status": "PASS",
+      "trusted_evidence_sha256": "7e4e932d2d7473d9e3c9edecdadb401e97055ded61155bf9657a0dd527335ddd"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_02_A",
+      "context_sha256": "0e2a0d279d4f4eb4ecd822dd1f91b0535c4fc3965c550d6468e78d0851fe4681",
+      "evidence_character_offset": 70,
+      "family": "A",
+      "persona_id": "p1_speaker_02",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "3e9252ea273358df6d0e2a1d94243d3eedfbcb3b58e837641f7a2c6fa614d2b4"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "c254f056ba607ff196ae2be57efea32e93d57254e704a22ed63f5dbb18ac82da"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "2b3fc56bd15c99edf69ea3f68c19aa50b965f5982972c733df22db52c7780cfa"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "27e7a19219cefef62d5823c222b735cea585b7a8720ed56da57d83279fcc6fd0"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "e9ae29a6b7939e5f52bd8161eeb46dbf3dbf32d350d2270fb401c8ed212f6037"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "ec319c2af0029c0bc86aea0878269fb27900813d5e26bd54a947bd2ecee79139"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "8f9bea8693caef93f4066a701e6deb2851ceb7d219c4ea88b5f773142a6ec165"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "8803afa97909bbc89061df6f3ea301cf2b328f12b5bf2c943fcca373f459ad05"
+        }
+      ],
+      "question_sha256": "1bc6f448499b611e3924243b07cd6e4285f431c03ecdd4e29cf52f0279e77593",
+      "status": "PASS",
+      "trusted_evidence_sha256": "3f625fe10444129dee90f1153de5c441a4e18669fa1c8100d09bfcb95493f58a"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_02_B",
+      "context_sha256": "9f1014ba49523cc68feb6312a9dad8e9b50bca138c2b1c5369028ba4ed79ff41",
+      "evidence_character_offset": 70,
+      "family": "B",
+      "persona_id": "p1_speaker_02",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "cf834c410cce628d1dfd37f171d759f4c489da44f1f7ef6bdd5e764c241b3d35"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "791fe4fb4e900b3624c70ee0e6e9956c640cee2c988511cd1e68d443901980a0"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "84a4fc14e888f33e512b32a0514ee4253fdad73c4a067db9c5bb955bf1db08b2"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "eefe0ebca37b7cb72ec0c920ee8fbe4797cf9f2d7e891a443305b403fc89a152"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "0af1b5eb15ba018b740b5fd9c688e0ae25cdf1f03962f1cf51ebbaaeb684a5c6"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "17b261941b4b9a7d1f7adc65f137b609e2b522fa2ea48c2994d987f97da9f954"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "86c4a0e1a706d27d5ea77844cda84943e3204a2afc19c4aa6923b0f5c5756301"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "1e9c182cc9560a620877344c87265b9f1d8bd01cc79f5ace594f6beeef6feef4"
+        }
+      ],
+      "question_sha256": "b09f9354157ffd4008f3c2a2fe853a719607bb2cfe28f54cfd3b7f25dc4be384",
+      "status": "PASS",
+      "trusted_evidence_sha256": "3f625fe10444129dee90f1153de5c441a4e18669fa1c8100d09bfcb95493f58a"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_02_C",
+      "context_sha256": "956e632bd4fdea8cb59d175305df0cd12efbac076073a7116edf5acf8e0b0143",
+      "evidence_character_offset": 70,
+      "family": "C",
+      "persona_id": "p1_speaker_02",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "1f9a50a55cd99e8aaa54796de76722d8c34a5b7226401fe17c059ad1ee62b6d5"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "03be1afbbc1dd722cc011531f3d92afc8bafcb1c78871e7a854a3837b8a67841"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "f1fce420440ba3f97ad17eee80227cbbb408b893aeb6e597b08e845ca61ea1b5"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "94b7c95dda263017a721b335a30c994781ed6b05949c1d3a8d84a9a3cd660c16"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "6c961d444e7a03f7aad2734ab6061cb7c059bb5e8b024696d5a49292c507a4cd"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "f82604a1ebea82be0f745083617c12b30c34d6c9700f89363576c1309f394747"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "d954b8b2e3862d8364ad64b59ad52441e5d15456d57df5136a86b766a23cda4e"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "eb22e0b81fc7977059b44d3c3c5d6ce1a4ccead61b8fb46e3f642d00a582f393"
+        }
+      ],
+      "question_sha256": "1210e51a92296f89837c04912727c2462c50b042601c4cdb79d830c5113714d4",
+      "status": "PASS",
+      "trusted_evidence_sha256": "3f625fe10444129dee90f1153de5c441a4e18669fa1c8100d09bfcb95493f58a"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_02_D",
+      "context_sha256": "935a2096a2e9a1aa4220938290b9afbfc30485c93b2700828608f1e70fb1fe35",
+      "evidence_character_offset": 70,
+      "family": "D",
+      "persona_id": "p1_speaker_02",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "fda5087d30c791e77404b0414853f1ecde59f39c432f59d9dde585f3e6c7af60"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "5e774c6d1c1ca18fff8b2a13f55e9cd8164838f765d7c02a3a5e9fe8f0fa406c"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "dff9bcbcf31273ba00889b5a6e7cad147b73c4e1b4a9f6bb50418b59e652bfda"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "eee9ce51709b6280399b0b55715f373aacef1dc913e85104a357de8aa573b17a"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "404c2bfb98cc6de5035eafaacb969cfcf524f65c8b7935ba25e7b18c717c6ae1"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "0bb5285e633ee086cfe5558888437de28a9e6deccb1430df68a6693f0c8cd3f7"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "6f35387c7e172667526797ab1c0a0dcecc3ecdd1ff0aee7305e765f67cf8e36b"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "4fdb0022d68d28c483ff68a6b0beaff2d48e8182570f8d46a0cc7ca8d9e31c4a"
+        }
+      ],
+      "question_sha256": "7aa0b8c2ccd323dc73b182d4e9e32fb6c5703d294ac2c31892c22a1698e8cba8",
+      "status": "PASS",
+      "trusted_evidence_sha256": "3f625fe10444129dee90f1153de5c441a4e18669fa1c8100d09bfcb95493f58a"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_03_A",
+      "context_sha256": "c07b512f44513c0b3890065e8b942816c1694191862a6746cf48477b64b84d1e",
+      "evidence_character_offset": 70,
+      "family": "A",
+      "persona_id": "p1_speaker_03",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "8cebef876d96f488b291e13edb4a6d97a82242df1183350c72ad966689d6d9fe"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "7ab3c982c8174e7a2a71e24ba1c86fd2c422ea9391185a545fa68635e7500c42"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "e5d6e37362bea34ea24849157d47b26b7915ce51fb018bba0ea1400cfd23f21b"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "2ffc00f0fac79f57ed428469462fc93d60daaa7a0959e67615f59ca41bcd64bd"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "b708423802d9cf72014ac5913c074168f8146c718e48ad6cbb39a5f5ee45528f"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "9c9af88f5fe4630e226dd70bd4ab28390729872dddebb9f268ab26bbf0bd90a8"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "98d6562fdd83cc002f70f14a45c5f93ca1522c57eace7ef7969eab0a8ea7842c"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "e75c712556707fa1b1b648f48c412623aba2f122e746e07dbabb84f7b0357051"
+        }
+      ],
+      "question_sha256": "bf688c1568a46f7e72f3e0d9b5e29bb2fb93a5db204af6c761bf121be735dd47",
+      "status": "PASS",
+      "trusted_evidence_sha256": "31187d402e445391832a621c506484e95ae5783d470f3249345700a03a8a5aec"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_03_B",
+      "context_sha256": "d04a9291e0bfd7525c28a9e7d24f99fb423016b1c35bc8fe78f537c83fe29bf1",
+      "evidence_character_offset": 70,
+      "family": "B",
+      "persona_id": "p1_speaker_03",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "0ed1ec40b085384e3072ff31f72bc7ddbe70230dd3c71e3ba38463400c6b7cd7"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "09c23f854df3376c68e09f0cdc3e9e9fbe446fcfbe41e64e751c3fb36c0d40fb"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "9d612dc6c57ca8671f2c22ff9b90d5fcf4f8ba21517cbc63a2af9fc99312f441"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "18b26b93a12b1d53dc1c5850f15f6b824b247e621f397fc24b61b7668ce84502"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "b0a31b439223442dd6af6ec4d0ce4b7b87935c2b7cdb4c57f1a2a5524c23da40"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "182961f8cf42ccdd331646ffb8a7be839d505ea1fd89a068da35cad091eed129"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "0a5d0dd46e2731089611edebdf1b3af2173c726b83a76b556ac16aacad1bef76"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "47eb24de594f06591b38c261fc07c60d2c35d0fccbdae95b9071c4b65313eaec"
+        }
+      ],
+      "question_sha256": "d6f3172bc11b3dcda18bbcbdc3d478913e45e019aac870a2cf6ca52695c8be1e",
+      "status": "PASS",
+      "trusted_evidence_sha256": "31187d402e445391832a621c506484e95ae5783d470f3249345700a03a8a5aec"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_03_C",
+      "context_sha256": "cc88bcef3768df2be4d56601b730d76f4e441bbccafcdb630198ea56e52d02a7",
+      "evidence_character_offset": 70,
+      "family": "C",
+      "persona_id": "p1_speaker_03",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "54db25b47b8312990a69362627909600adc5098a89548850683f14ec4a30cdbc"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "d91406323b9be7278cbe690828f0543d7ec555f46fef0bb600fc276444661865"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "46a607bdb86acb6978c643e836911ba618aaec4eb18b1d12e36690550f96ae55"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "f0fb109bd9e9de218362bd6c2bbb73ae8917fca24c20d663996fe82a816febbb"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "6a8e27a6f71d61452f21b785302ea70cba80f5bc5a894581adda02515ae037c6"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "dc405c8dd45e0527e0e37f13e26cc855dde21de9f07cc6d1f8a8dda41c8cd37a"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "229c0d33595b413937774cdc969db10b610405cd67e28a59a32cf2e85cbafdf8"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "5160474c8adec1ebb5799d2426c3e94b204152cd57831e0bdb66cd62c8787ee7"
+        }
+      ],
+      "question_sha256": "248bdae9c38eac797d2a805868105a09b7ef2726bff4f9894642187e268c6777",
+      "status": "PASS",
+      "trusted_evidence_sha256": "31187d402e445391832a621c506484e95ae5783d470f3249345700a03a8a5aec"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_03_D",
+      "context_sha256": "7b17bf1d70aa70fd56ba1d67916963154a361008745f0420d839b21b61d602c6",
+      "evidence_character_offset": 70,
+      "family": "D",
+      "persona_id": "p1_speaker_03",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "efcbba5828f5a88d7f17764ee7169f45dd686a933470332aa1806ed96c07e120"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "ca889dae4edf1c4d7499118a34f7aa0aef6f592485f79a568df1c9cb27d97f6c"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "ab6a867a9d2387d881ca3533e4f1b6e74671bbeaecbe25bd5762aa09cf4a4253"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "19509c142851870da18a5a70c277f0cc97fc0c2c0d7bfa051761de326ea5abc7"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "fe34f66ae5a3a236278a728665f2eaccc21e9790b93ad0928360c717b0087e12"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "999ceba6e285a04769347eb372397eb77b266003e599fd0ff39790337f54882e"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "77a084e32a2bc227f091588ac1c504a9b44837e1e083cbb51221520f305901e9"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "b434896ea86131eb41e0a7965d52fad454ec8e3427a4dcd303a66d68de87f515"
+        }
+      ],
+      "question_sha256": "32650c69d3da01a6f1368a91714687ad820a0174611c78fed6522d4006caa912",
+      "status": "PASS",
+      "trusted_evidence_sha256": "31187d402e445391832a621c506484e95ae5783d470f3249345700a03a8a5aec"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_04_A",
+      "context_sha256": "ce05d1b72ba83b1dcfa83377dbca27398781c2c805cabd3214168aa481598ae5",
+      "evidence_character_offset": 70,
+      "family": "A",
+      "persona_id": "p1_speaker_04",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "e3d45a939f1cd6c0350effa7135ed02f2bd66d9c05aa41c392fcf9e70a31dbe1"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "398dbf5a7b8954e742eee4ec0ca55320256cd8ec80378edbf43e91b3b1c9d35a"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "8f130c3287a751025f7a828c6f90c4b046c731c81b3d4d933bac0ba30beccb31"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "e68108fa3c9f801286ed47e04174df1156700eaf9060cd8e5f16c5f20c3d8782"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "3620a7cdc1a61d7ee21741db3d95366abb4f330c5e61b6703a86b1de75c924e1"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "ad62ac08fc3a101b25a79d36d63b774a9a7917f43aa13e9c4da340d2c0356ccf"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "fbfa3fb422b0156f5daf24ea07aa8a4c1ca20c35399b6a92ee05993ce8a11ef8"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "5651050efe31947f7645bb63ea200af80ed532daa91057396f7eb5427822ab83"
+        }
+      ],
+      "question_sha256": "e8d97bd7ab8e790b2e8f9525c14da524154896bf31ae4dfc05232ad1de122165",
+      "status": "PASS",
+      "trusted_evidence_sha256": "026d45a842197a34e96a64e1d341799276a9f0fc374164be4512ed95f13da4ba"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_04_B",
+      "context_sha256": "5348c398b937ccc28d4f2aa2238436f9b6527a8e18c8b92327745f9131c4e16e",
+      "evidence_character_offset": 70,
+      "family": "B",
+      "persona_id": "p1_speaker_04",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "0fc7bd1c6eb7deb2a9d5227debd371b0d9f11a85ef6360026eea3a81f008e15b"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "02536d75533ec586e1e2ec48fb9a876bb045eaa78e79fdcdc8ec6dd85ba4179f"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "6466a15c071f7f5a95fb5286f2ca4cecab73a45283ca7af8eefe3433eb8455b2"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "4abc1115480373b1d5b32a2ca15fe840e7de318768952bd1f5901ab9b866b6ff"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "ff19c31bd0abf0b8a7dd497b98252a4cf9e82a0a7bd64bedee92daf843ebbdd5"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "b9101e0c5a0e6d2158943ea03fcccff8fe2f92656429b20b528267c8845bac1d"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "1ac7c050645d05de2d06fd08d718c2e2f77b58efd526b7727e3fd003edc27abe"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "5c5432cd0059d5b1a592e114ff1e23ccb9de28252755d1f42454969450337500"
+        }
+      ],
+      "question_sha256": "639e80e3d4154d46b604c51058572034c24bd995dc5964d1f604ee781f160f54",
+      "status": "PASS",
+      "trusted_evidence_sha256": "026d45a842197a34e96a64e1d341799276a9f0fc374164be4512ed95f13da4ba"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_04_C",
+      "context_sha256": "580c00541fe6c83d4067e9160a18ea010543063d636e59c866c0df158b10f9a9",
+      "evidence_character_offset": 70,
+      "family": "C",
+      "persona_id": "p1_speaker_04",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "3b523cf341bde0c6e5e2d92493b86cbe99a14203f7bd74dd88f8b438f9c910f7"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "9508f624cd52f83ed431f2b1b317393c367264d7799eb5a0e6d07fa1b9d722cf"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "1762dec2d6393215631543707c61e802358722eaa6f4bf807b0bf428b3613a78"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "c03af68f972b36ca645cca98bcf0bc221968581e8f871e70f4202908aa28cf33"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "60bf2ce7d8156ea99f75297b8824c647a706224cead751ec564beed08576e85f"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "e11924424636dfdeffe21cec50d2864ed5fb80d135f5c0e0d94243f427a6f317"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "8860cf144be7805cf50a0bcc01a27a14783ec5bea299fe73e6c2ab793ab1096d"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "469eae7e6056f45f11953ed189fa65de363f93e41801a26b2b858b50bb9ff0b0"
+        }
+      ],
+      "question_sha256": "9dcb35075ee95b97ce4fb98dc3e9e2421d8b740387eab08d067964cfaf7e6015",
+      "status": "PASS",
+      "trusted_evidence_sha256": "026d45a842197a34e96a64e1d341799276a9f0fc374164be4512ed95f13da4ba"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_04_D",
+      "context_sha256": "6078cdd164884359b0f086160d397dc163f1751d26527ecde0e6933f40b80e55",
+      "evidence_character_offset": 70,
+      "family": "D",
+      "persona_id": "p1_speaker_04",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "bb9e40060ab813a5627fb42d4428398ce335c1b67dbfa453672a13e681952c26"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "a37f750daf14a253911d20a764c1736f777bb7972b3e93500daf272279712803"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "0f3f17e8634d6e5f6bd5931b1a9eec9dda6d9e777a69cb0f3da90c1a3eef37d5"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "c8c457f2f04eec0e52da7b6e7570adac0ff2c79b870651be3ab5854a65e471a1"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "a9eface126fe2af5dab3de1fd679c5ce867f0f5c563f7a72ae9e49ea2d07596d"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "dcd151ccc80e83c6c20c956209ff56116b71418799aaaed9dc3e89263f30d272"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "3d7761018bee553e920b001e773d8981f5c90f582ab67be150fef3b4e3350e6c"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "4d6c94a72d1eb6f25d0944ab9f0f699a1ea3d5b991031c10361b837abf34381c"
+        }
+      ],
+      "question_sha256": "4688184fb3205a7d3125baec6693286b1bbe4c20f70338dce47a989d26924cac",
+      "status": "PASS",
+      "trusted_evidence_sha256": "026d45a842197a34e96a64e1d341799276a9f0fc374164be4512ed95f13da4ba"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_05_A",
+      "context_sha256": "c6adf2f63368595337f218bbe5533b151e9c1a71b3acb382d35763bba5d5e2de",
+      "evidence_character_offset": 70,
+      "family": "A",
+      "persona_id": "p1_speaker_05",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "12ac0b680c95c637529ba0d74ce530ccf5abc6306ffe66f584422f75687dd367"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "7df231e64c54972d890d5ba57893d75dd19474f6e0c950984f19023cfb21d8f9"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "829e885050327d2c3400ccdeb390b2c9b44d94fc15f36d76f5ba0023a13c03ad"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "e1a2848963d307cad29e5a26f51fca58dd55fab672cef58fa42ba3cb7c6a103b"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "4ca288845ba85b2a4e7f22e19f08ea9c6ef9b8cd09598f2755e613bd49870ddd"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "6f7726a855d09645826ea63ef847bb520ddda74b3ae8822fd8ceb0f8ca2ac4c8"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "0f395449375fb04684a9067a52a65c57a9cce5bbdff9eb26d3d98d640b6d5506"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "affbb1ab4745ea12af18a0cbc7d0b5f3bcf1cf15699abbaf2eb2524a36cbaff7"
+        }
+      ],
+      "question_sha256": "5250a59eaabc953c6b558358dcd9197f87b7b5d6cd04bdb243f46e1650360428",
+      "status": "PASS",
+      "trusted_evidence_sha256": "e75df75a113d9aaae43afdd872a801030e1912f173a3bb0df89a584e15ac8446"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_05_B",
+      "context_sha256": "51d84b4b44e20f0b3635d366ff7588b2398e25734bba313386935de7915c8e80",
+      "evidence_character_offset": 70,
+      "family": "B",
+      "persona_id": "p1_speaker_05",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "dafd7e9a59b30eb31f5bb573e4e71bcafb28d129662783567e2613e78d83ac27"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "1da738ab9318934b96f12207b6225b2c6e510da9aaed783bcb1fd5ffedc36415"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "a32c385b3ae93d2ae309dd84e68a948c04b4ce8990e0440d7c27ce69777f8b18"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "fcfefda4e3aeb042ff844cb5bee6b1ca0ea7c5e28a17eac39136956a38406147"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "314c5c1397954888ce7121d84f9b33d90015835879067f26703f0ecfe9621459"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "3af4a772274d80245ed4fe61d8a849467146358a1ef68d1ede8aeebde3ccd27b"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "8eb1021148402b7fc70c09186c4d7d225443143f4eabe3ed1a5cf17a347c14d5"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "4a33cde60ff662c52fdf83f3e63eb508b9486a76cca823fb282ad72e1d275e25"
+        }
+      ],
+      "question_sha256": "ec49bd71fca53a44e68ce13ddcc559aebad26a1d4ac46a602acde5051bc27089",
+      "status": "PASS",
+      "trusted_evidence_sha256": "e75df75a113d9aaae43afdd872a801030e1912f173a3bb0df89a584e15ac8446"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_05_C",
+      "context_sha256": "778b192a7e4288bfa96e80145eb9bf18c04fa5a38b496ee9ad3d961ff645531c",
+      "evidence_character_offset": 70,
+      "family": "C",
+      "persona_id": "p1_speaker_05",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "7b7072cdb846d6a3bac5afd345ab56bcaad4642f8fcc2d1b4e151f109b054685"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "025915ae2e3b0f0f425e1469b1fa38acb6c87fa9550f74f53fffeeb1e1eb4b99"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "a9c5c9452e5bc811901f369a37b2499623c97e770dcb41fe4d6b9192be65b76e"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "2404e0fce99c6eb43f149f90a6a44c0a5a6167c8f8bbe03df979dbf8ecadca24"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "ce9b7321dd21362a06d1aa235761b8724860d0556c98133b0629b94abf7aaa1a"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "26dc93445afa438beb9383dc45c2890a07bfc558ef213038751d905f929bc3a6"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "225e009e19ccc9fb069320ffded55c909ab7f933e76736a5df6ef6ca58b3c168"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "6e144b4a53d89d0830a0f7e5c33bb5e37b013c33cda1a5bc20f81c89cf3d62a1"
+        }
+      ],
+      "question_sha256": "ffe9504a75b1c81c77a1b78b4c091ed6c038ddbe8ddf797d7f1eff707ae2c3db",
+      "status": "PASS",
+      "trusted_evidence_sha256": "e75df75a113d9aaae43afdd872a801030e1912f173a3bb0df89a584e15ac8446"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_05_D",
+      "context_sha256": "8ea6a994ec56f296615002ac1d073a4560f20121bab07e228922ee1b6760a9df",
+      "evidence_character_offset": 70,
+      "family": "D",
+      "persona_id": "p1_speaker_05",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "598aa774f6c33bcd7b40fb923b2db6e60ffaefa543a58aeb5eaba3bf1ffb022a"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "66b437e2da425f7c17ca980f7c5c734714fdd30f2c683464be1a3e496e9c3454"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "d2e8eb7973b8650ba8fb578326efb8cadef79c2f4a59cea935dd353e767677dd"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "7d3bb8cfd11d2e95680867935e2cbbd2410f4f1a34773cfcb80e7d8fa5c24df7"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "1063e93aefd0ef50711657bcb895635c36bfef7cbf85fc0ca50076fbfbd5c83c"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "f368ec2223cf6e9c0b8036147c0f7b3d08925ed929832ea90bb7eb1f00d9fea0"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "acd65dafd8e9dbb1a51be23805e8d51440a251b569adf5f668a0b09919c322c0"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "ef1667ee438b884b1dacff133c54bfc1ccbc56dc5031bb98823f5c9c8261ac43"
+        }
+      ],
+      "question_sha256": "ce26379650d29791e39609a2c0bc5ac0baaf2c2eb63caa05790e5aa360c1a780",
+      "status": "PASS",
+      "trusted_evidence_sha256": "e75df75a113d9aaae43afdd872a801030e1912f173a3bb0df89a584e15ac8446"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_06_A",
+      "context_sha256": "9cc547bffa320ca239d09e712d440c064bab251de3a9c79b9c4145201f802511",
+      "evidence_character_offset": 70,
+      "family": "A",
+      "persona_id": "p1_speaker_06",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "f5966c6a3b6632537b4cddde6a558954a926f8cd0617788ad6c2ec93dce280ba"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "4b9c654301e72adc429a51144d0172580093d682b6128c10263ae365211db5c4"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "e2d068f1adfe4765753393c13a874018370bfe0f968e777fe8c1d1eb5be63cd7"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "089d74c36244fca0766769f7f6bee05e40b665de1f3d7353ed505be05540038a"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "c9efb862656cbac2cfa789157a85a790067b00f09b42d81ef8531d571beb1abc"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "c6d3dfd982dd47b31aa2ba8420e366d8a524bafdc22b09612ceadc7ed9d36f40"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "757d5c2e077546f9920041bfd1cd42580da419ef9caa18f5554b8e7539edfa6f"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "3c18924e3902523d65bf3f7b59c05ba64f7cde891a997dd5d824111e24d44adb"
+        }
+      ],
+      "question_sha256": "124c4c92d72415b5993696c57b4471e11cda16c2c76d24f89dfe37ea1347989c",
+      "status": "PASS",
+      "trusted_evidence_sha256": "b06ca86fbdd69fd6fb1d0669ee763b9ca01250431d74ef347d738a7c99e3cd00"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_06_B",
+      "context_sha256": "76e040aebab2a990f932cdb1d36ad97b208ea3b14861f8a0bfaee8ff685d966c",
+      "evidence_character_offset": 70,
+      "family": "B",
+      "persona_id": "p1_speaker_06",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "41b26cdccf2160e8e175a34bd8ec4a2f24b726532ead08377fe7861f0a199321"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "31d0742040d64268f056641c7b6e7c246b22292586720a891f37385ab8e9b863"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "447e50f6d405eacfe8f9b33d78c6e328e7cc84b9efa0b97652fec67cebe729e1"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "af0816d2efadd0f6e1eada9b97b7bb480355007344841509d2f524298f2af256"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "683d512c3c3898c8731cc209d7ca60384df84a899b83c562a2ac2c5fb95bef38"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "3a28929dc17da6b84aa5c259d8926a43df3b924c71b04472d592f41addaa2b1b"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "4b00d209874b46eecea22fffea00b6ef613fecfa7129742076e4a463c8370c9e"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "2ccf387f4e0887c517deedb7caf037138c6aa3b06068e083e25f58fc98ae3b6f"
+        }
+      ],
+      "question_sha256": "6ad980de78227bdfb52c4c048e93a7dcb3bfcfba508cee1ab64d091f4f22a624",
+      "status": "PASS",
+      "trusted_evidence_sha256": "b06ca86fbdd69fd6fb1d0669ee763b9ca01250431d74ef347d738a7c99e3cd00"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_06_C",
+      "context_sha256": "bd5fe46b806ec3a35b56eeecc7004c3e9e114db66671de321d26cb9edd687425",
+      "evidence_character_offset": 70,
+      "family": "C",
+      "persona_id": "p1_speaker_06",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "2a3bb7f94a64a33118ec7ef83240506b170e893b737979084b4613e8d0a99dff"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "698d71805303f2aef884f5285c64ac33287adae62445a0fd561aa14dd3c3d6d5"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "baec465e567cbfb37af5b3fe33ea62685f6328a50408ffd9cd7c5374e64469c3"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "764e980c8d54298811597512185a6c07faed6a4f7adb2eaafe996075cf0e7854"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "598307a61fbcd0109b2c80afaebe5c3096c3722d45fdaad09f62e768b7bcd9de"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "94a24df2b128a02f40e5cb79048888e25078505d29844d66e2bda7ed9365cfad"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "4bdb7017c42933b4b904869e1c5b311543f35ead1bc5a2ae6fdbb39a9e6bb9af"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "e7ce79f62fe8d296b1c9950068980e3ff252028870bfad4f4b6598d239cb44c6"
+        }
+      ],
+      "question_sha256": "a3d3b0aee29d91625a8a2b2f9933b7c9ec3d44b731cc8d8267481df713c3d4a5",
+      "status": "PASS",
+      "trusted_evidence_sha256": "b06ca86fbdd69fd6fb1d0669ee763b9ca01250431d74ef347d738a7c99e3cd00"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_06_D",
+      "context_sha256": "3c289fd70e932e30e133b8f3dd339569078f8e52058038c51055262335fb724c",
+      "evidence_character_offset": 70,
+      "family": "D",
+      "persona_id": "p1_speaker_06",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "8f058aeaa59586185e452e1305ea1aec5523c1ff1ec0a45a9969bba28b11c853"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "07ac2af3237a248c14049f230dd03e6080c1ee3464c7c2720d499756810d5217"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "dc86afa072db28717db35d49fb46da2813e317d7d5a9fd95969c96a5650b1185"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "5fc4b5d2cc6c84dbb0f24286060f2818fee93485b620ee6a7acdc3333db93c34"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "ea43d9d69fe07d006d08b175c808d8862803c71a6bf46cb6e9a3d57ebb806c01"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "715613733d7b1fba836f1ec987ad287687b00c0faaa8c7dce4be264eb30d251f"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "f7f9ab79adaabf26451a5ffdf5e2338327e38293afdd8337048fb5c5e1bedf48"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "040e8bf1aad0fde9f55d6c1386fe48161706c4fe34473a2037d8197acdd3e245"
+        }
+      ],
+      "question_sha256": "337542961ca92a8a75e6e31095b3f8d8a81d359bcc1476c3419103311f4a4615",
+      "status": "PASS",
+      "trusted_evidence_sha256": "b06ca86fbdd69fd6fb1d0669ee763b9ca01250431d74ef347d738a7c99e3cd00"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_07_A",
+      "context_sha256": "ef1516c0950ad3b89adc72873e8926b6a5809b56c5b1f2f515eca148a79ab6ab",
+      "evidence_character_offset": 70,
+      "family": "A",
+      "persona_id": "p1_speaker_07",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "ef4829c6a7405de52a06ac39dd33bb19dd33ad8fda033261ed95c4583cc04aa2"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "1f16d07f7f706b26efcc66d695a66e8a7024f42994820a71c8883798f47ebd81"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "0b09e2765fa9b58361b2f3eed40e37b2b6d037f08f7a6307a2f6b0e54d76320e"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "b3163ed636f934afe92aab4ed9fb4c732a2464010afcd98d22b2ffd5e1d223a1"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "f0dc3b90eeab6dd29aae67216fa1de34a18214e7b30cf44e8f3cfd8a5f8f1115"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "5d4133f996d111f1185bdeae15d4d96433db49d1fe177b174ceb92069ccda043"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "6684fd67ceef9c55b238e56e1a81d8290bfaf1b2bc136611cbf1d2d4d49c10c7"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "7f5370c6ae0b011d27f8484899604f684f0d77402060b30eef2202f80c3fdf77"
+        }
+      ],
+      "question_sha256": "285c27ecebfb2edc5024cccc316c3ca8d47bcfba6e7a6b792b6ac07ce0c0502a",
+      "status": "PASS",
+      "trusted_evidence_sha256": "36286894e63f5a7ff3c33e8f7be0168d885bf34a304ae76dbe60dc32bf11c0c1"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_07_B",
+      "context_sha256": "5c8215d4def3ff7a0ab84f68bd0567b4a344e52e1ec04555d674c62a842edd9a",
+      "evidence_character_offset": 70,
+      "family": "B",
+      "persona_id": "p1_speaker_07",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "c4a0b9cbc23e23da7f73354b990f94ee54b9149c787c86aaa140305f7e1f623d"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "0553241057f4c98ceb20347f93c30845e2933fc2a9806ad2f51a079ba091a267"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "d5fe34ac234132f9988a6262b0c1991671d11b94d629af0c231d67d94d0168a5"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "fdf16c5fe3022b975b3bd09d9ec812034ee3bb1f839d4d25c471820523abb9ab"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "5298d3c5314d2926a9349baf3192e3164f97549a6c8458b01b2ecef49f202c15"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "97d0e676fc41a39796195f0d5d8a24f2828b06c0a344bc51263a96f3eae31d04"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "a36753036b9a96975b128f4f39c125010cd2323f3b9fe2bfd6b9e779242401d4"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "abd309fd713f67dfc750d1dc569656bfb5631229e84d2f3b4d865f86a01d1ff3"
+        }
+      ],
+      "question_sha256": "9fddb6343aaaf20a01557c3d720474501eedb95785f57bb7beaa6c9b05b13514",
+      "status": "PASS",
+      "trusted_evidence_sha256": "36286894e63f5a7ff3c33e8f7be0168d885bf34a304ae76dbe60dc32bf11c0c1"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_07_C",
+      "context_sha256": "3b0f4c93bb8b0f5a9bde9c4ecf1e608c9c09c2f3f3a0dd8ef9d08b0029d23b32",
+      "evidence_character_offset": 70,
+      "family": "C",
+      "persona_id": "p1_speaker_07",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "2993f4c9ff4f34f8b0930085d5ff3ca02602c1e096a877dff1a6385982abad1d"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "4be2a3979ed0953e8ca1db391ee50c962bd34ba594f555c4177b67f1c29e3807"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "207eeef2adbaf558259ef99f51304e4834286e436ec94bc51960cd2a90608fcd"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "b601ee8ee8c34ab15b31ed81aedb78c8d8e2a25ba999a8cd35cae765288b31b0"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "8cab1e0d6a932edc8fbf6e16e47dc1d426ba111fef0c4b33b186ccee797b5efd"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "955d5de32ca0407d0606db4e185808ef307c25455136857733c51aa738688982"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "a6fa85e2d0b18a9cff271c9c54f29b77589d034c8843cfa86b363ae26b7dc1e3"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "0ec846cfeab0ab711c6f0d68e556a69180de71e1968dd509eae9847913a8aaaf"
+        }
+      ],
+      "question_sha256": "4755f6b8bdfff293d94cf0829f5d44d87cda269f10be290a3146c1db8405333f",
+      "status": "PASS",
+      "trusted_evidence_sha256": "36286894e63f5a7ff3c33e8f7be0168d885bf34a304ae76dbe60dc32bf11c0c1"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_07_D",
+      "context_sha256": "66fe7cb85fb1bb692724a393a541cdef2be40c3b5568f3186b7fdd56e5b7b381",
+      "evidence_character_offset": 70,
+      "family": "D",
+      "persona_id": "p1_speaker_07",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "dbdf24262a93f86bc47b7be22040f3fffe0589da496a939207dddd9a57c76a35"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "4be3a931756ec97d3bcd701ac986bdafc61fc9ede2194c7b80b367cbaf76be4b"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "d13f12e66cde9c2407d689212009f988982817c90247f5fdb1e6c674206edddd"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "3393652bf24588d14c5e0cb9c9e8eb778d1d967ae3fa660d11690d03aab7a343"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "7dcd46dab9453664bd30bbde7d0e09435bdc971dd345c85db0ab968bd4a11cef"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "c9d475137ccfe41c8280f39e7979e17c95aab28795ad6dc116a4e8851d0d34b3"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "8c7662e9b3932de407df5dd247350dd7ba56b0aed55c246f932523b9370b7c0c"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "0870e4df5838b6767467370b8ae5af19622a9244186d18e8279a5291a2f461b4"
+        }
+      ],
+      "question_sha256": "c92944ea6863fc5ec30ba6a1d328fa85b2b0a7982bea47c73ce45c0140ebe968",
+      "status": "PASS",
+      "trusted_evidence_sha256": "36286894e63f5a7ff3c33e8f7be0168d885bf34a304ae76dbe60dc32bf11c0c1"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_08_A",
+      "context_sha256": "f5fc1115e1391eee4506f73951c8ace150029e1c76c10a9b013a216068c7f79c",
+      "evidence_character_offset": 70,
+      "family": "A",
+      "persona_id": "p1_speaker_08",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "04c692ef4eab02fd9b6dcb4569dd6b5673bc98e1abf74c0dc397be9b5a3b3bed"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "3a0d1412ea479e35b6a5032aedd8884311add1b06f5b423fbaa245bedbfafaf9"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "8c581ff837c7890442fe24ce27393ed78ae0ac11ff5d3172cf3fd175dbcc2a39"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "c547f9439ad6f9a139537a27f96c0db5e56fd011a9b657f6e0145c8eb7c6db0d"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "6e06481273f6a748948971f25837e7fd923d530581da4e65f4ad58de38189979"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "1909717e0edeabc250d744e7ce2176f71ea7e7053ca81a51e118ba9cd76f59b8"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "bc744ae38cc83a62bd59a50f08a933bc437fae2148101c71f20e0bbcf042a4db"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "3dc2c76028e45c0a2c301bfce10230fcb2b18ea9c97b09e32f3c6663e09b4b26"
+        }
+      ],
+      "question_sha256": "73303e1204892eb950a196ac84054644e6d5de9a836e54ccb725f502c40ee3d7",
+      "status": "PASS",
+      "trusted_evidence_sha256": "ec1c636f787ce736e6ccd9f0058a399248dd2787e2e8f766110d0d5c549d0f0f"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_08_B",
+      "context_sha256": "3ebdab23143f91cde4f071e0756ca24c65d00bee25bb451e9bae102cd553471e",
+      "evidence_character_offset": 70,
+      "family": "B",
+      "persona_id": "p1_speaker_08",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "eef5b19bc911de28cea9d090b1157d59f63193403151128145837fdcfd2ea704"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "09ff3ede17fb4574bb0a27b8a4001a9a68eb42baebaecd3170a8c5acece50bf8"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "b87a84a133dc3702e8f6facfb62c12bcfbc2f3c43c54d4554ab98b7df23eb38a"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "5bb5ed2f9d2e6952444d091d51f4c45256c7f46e55a3bd1800b8606c913ac020"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "472819a902ba43cd9aac65629c1a09f1f198a15ecb90673060795c7a5167e8f1"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "38dce65e7473cbc3f9b8239d8f815f9ad9bac9133eb263d4c8c04d11e4c3c9cd"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "4fb314c888de84c39641a2bdad9d1d2af52e0cfa11350c902020e5954618c50d"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "8f471f969850c75298b67ee09c715f55d13e69f4bfc4cc43939b9635fde161da"
+        }
+      ],
+      "question_sha256": "c05f9261d1b96073ee8efe866810cff6d5f4b2fd4c504e8853e2e119b9e56b5a",
+      "status": "PASS",
+      "trusted_evidence_sha256": "ec1c636f787ce736e6ccd9f0058a399248dd2787e2e8f766110d0d5c549d0f0f"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_08_C",
+      "context_sha256": "01105f2731829e03095306bc3e48e9ca20da525d8c42761161841e6f8262a271",
+      "evidence_character_offset": 70,
+      "family": "C",
+      "persona_id": "p1_speaker_08",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "1f19536fd7b351471d156d27c01d8b67bbcc96db8175c788bcbcb479454e2adc"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "10ab3cdac53da997eff4828f31d67088e2b39916d22038a7d20c808d70b4753b"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "31bd236038e2f6bff7f3904b2c344ec92721a3c6fc7f82e18edba564b64fd93d"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "2fb31c60bd74e032b006b8d2d74098d79dc1d611c137435c026396892b4999cd"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "8e2725fa25ffc6a20d0a3cee2a9f80ea61d9e3a0c464a93bf137d82aa18e9590"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "cfe3f97bd65501c15d29a117755043e792f69207223737f416d9eebee264ca89"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "c54257be4d8a17a139acc98ab15507c332a34ce78b48ae63fdb737e4675c2dfe"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "8e24c13f678090d55113f31dd45e2af05ed7d7d23383f6fc5576eeab71785a0b"
+        }
+      ],
+      "question_sha256": "b4a278af0fb209862ee2cbd76177e2a0a07e48089a1ac5ec5825bf960415758e",
+      "status": "PASS",
+      "trusted_evidence_sha256": "ec1c636f787ce736e6ccd9f0058a399248dd2787e2e8f766110d0d5c549d0f0f"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_08_D",
+      "context_sha256": "7c68427c0f8144348cee7b496da334593b14ad4e0269658ab334902e98735353",
+      "evidence_character_offset": 70,
+      "family": "D",
+      "persona_id": "p1_speaker_08",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "01862da0d168126327b760ec97a1a489416c98932652cc731e0d89fbedce3f3f"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "e61774e9a3c8958777c17e07c557ddcbeb02a86c81d576118a14f82611f98888"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "c8ce8760cd81c4c6451a5c58843042b341334b4a747c9fc8ec28f3e6a874dd02"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "74cb5e1fb9a7dcf59623dba76771305a7589d44bbdafe3db3adf6fa55071cd11"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "7afb36e10736a95b5a9ae94a791b211a49356ca272786547f14b2ad8d5f27edc"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "e1edd88bcf76247c045864885275f1e8892e17ca1d4321a2f307937926a66366"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "8f02a07f14470aa87ddc4607cc48732c04c4a10469bcc9dc3bfeaf22aa5f9fd2"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "4c744af6d4f950a831714f0ce8d836e4fd3aa0d534a9ba7aa65271004506ed7f"
+        }
+      ],
+      "question_sha256": "ee7f946c1a0a7667badf167f143982893ec5a69f3e79988907bc140e3fddfa65",
+      "status": "PASS",
+      "trusted_evidence_sha256": "ec1c636f787ce736e6ccd9f0058a399248dd2787e2e8f766110d0d5c549d0f0f"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_09_A",
+      "context_sha256": "b986b862b4a85bc26cf3b97dfb5137ce78e98c6fbd9d5b2e9330892735f04331",
+      "evidence_character_offset": 70,
+      "family": "A",
+      "persona_id": "p1_speaker_09",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "b3775ab551a0b39ed260d97bb1f8ec7e581fb3ca800c727f2168518873886495"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "5eebaef531d4ee53acc0e2da248b2bc244e27e2c9141fcdad54ee86387b272aa"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "6854448931b0c88dbc281a34099debcccd43e1510bc45ceea454f32a59f1c1db"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "0efcc1b6082c5164b927d33a388b448b765bf318e3208d7da36530ed606703c2"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "7547bc5a0398e3b63784c3d20344100e3cbf5a6a6fae1ed09ef251da8224f385"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "be6b85aab8d92f3e138e66bce78a7f2363192a2f75db52e07a73ec51a2f76c3d"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "f9894c0fb6c3856fb49d2a0fb63c694e31a32dc460f80ae085005ab84fa7df19"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "ffaf2ba8a10f7f442246777c298095bc8e380d13519bcc53927eebff7e3d7cdd"
+        }
+      ],
+      "question_sha256": "144a0a970acaa59144095aedc81d50ea631b3fb750756151def11c1a67fad888",
+      "status": "PASS",
+      "trusted_evidence_sha256": "d2afdab9b5d4017c7232547e221f613faa4ed77d052e18bd1dbbc81a95f9b712"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_09_B",
+      "context_sha256": "57c93016b5023c149050a3822292182c9aca0e99a5f8d083fc7778d5b48f1735",
+      "evidence_character_offset": 70,
+      "family": "B",
+      "persona_id": "p1_speaker_09",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "542ae59c7c8aded31ade7045a246a5aa1257ced8c4fc173cf087cecfcfe9cb65"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "f565dbfc78135865abd2a3218f8f76bed2a9a847d97ec99105ae84d33c0cb8e7"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "e36bb8088fc480530a935e8cf02c983d8c3577404da75fda07d7da9b7198083e"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "0c699a61d7c070a0e705b5f19daa4799112724941c1088922ecf67bdbead7016"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "3e26490c726b93033d19a480ca436201c4dbb1d8206c2515829bb0c9275644c3"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "780e2c72e391a903cf0e46a8042cd3bc4d29a40e069620eb9f9c08145dcebad8"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "64e0e7198b1701710d3494dea5a0fddb24468d4a2df06cbf855d5d8e64453bff"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "988f95d94b3b3ba458845e1e4ef0bc7295234fafa8acc735eb7b5748af59180f"
+        }
+      ],
+      "question_sha256": "863efdf6f5d5cb355f630fab31e2bb3ccf330fe7bdfb4be8b85ce8f264f4f78d",
+      "status": "PASS",
+      "trusted_evidence_sha256": "d2afdab9b5d4017c7232547e221f613faa4ed77d052e18bd1dbbc81a95f9b712"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_09_C",
+      "context_sha256": "c5f3411d866eef042d68faee4fc32b9fff1b3e4f50f18324fe5578a4b9c591c4",
+      "evidence_character_offset": 70,
+      "family": "C",
+      "persona_id": "p1_speaker_09",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "80a29deb10f969e8f8204037e48193ed895c351cf60b47129d7e356aaf8682a4"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "cc399729be6a82bd25a479bee4605f389ed227aa9825e8d81e6b4044729422c9"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "94f6935bf781cf477b3572eb55a6310eed236efd5a439f0987520d1a48888710"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "2bb10fd233c6cd4484bda68f03385bd9fad52900bfd6cd2e5a5fe52a7a327e66"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "7a562ddde1d9772d1a5fba61bf9491f557841c2ed060281e308d714587a1efb0"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "0ea59dfb6722ef9fe9cdc43b746a4e47e45ce733a7945fb2954c987cf724ed97"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "584ac283524a4997959eecb6ba413e3119f3923151073673fa476f925052a4f2"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "f36fb904ada64e451e74285e0541d258035b476eb513a79b3733cd4b4e776e26"
+        }
+      ],
+      "question_sha256": "92a1de23d6c710581f54046cad50c3c0fdf1ce06010c9dcffea5394090a2e224",
+      "status": "PASS",
+      "trusted_evidence_sha256": "d2afdab9b5d4017c7232547e221f613faa4ed77d052e18bd1dbbc81a95f9b712"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_09_D",
+      "context_sha256": "9d3643fe0ed62cb4512c93906532a7b9fda664e585dd8066fe22450ce6630c9e",
+      "evidence_character_offset": 70,
+      "family": "D",
+      "persona_id": "p1_speaker_09",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "cf9561082f4773b4bb4b4b57d73db364e106cd74ab1f68346430906b29c3c6ff"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "4f396fa679c3a20fd215b7a8bc5d2b924d468f93db3cf66cd4bfb1c99d3b20e2"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "2d90545215f994c044a693376d1a86c43967f35ac4337bcbce6e0482ecc52b95"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "c3c4a2b3c50a44e7841ec86be92f6915757091124c442c874d37511964ed1ea0"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "c0f15f00a062ceddad4be8780be9e7768ddbae84edd263d7cb2902e6a3413d64"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "6c1a69e5d3a235c982d038b0bfdcc2449dfcf6094f1f378671801bcbf64efc16"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "129d932a22475d3f71e61918b787946cd59723e6bff6c21751c7dc1ead4692a9"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "67ccb0ec56c7efce4160a7674ad0aebde1901907fd557b91c42ebf67d2aa0c74"
+        }
+      ],
+      "question_sha256": "b44cbf0db1dcc407aa27bbfc0edfd22e097b952d644c10800f4fde87c4a17ce4",
+      "status": "PASS",
+      "trusted_evidence_sha256": "d2afdab9b5d4017c7232547e221f613faa4ed77d052e18bd1dbbc81a95f9b712"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_10_A",
+      "context_sha256": "edc5fc702af5a6167312723f239f1386540f2254b4f7b634e5a572bfff0a1a20",
+      "evidence_character_offset": 70,
+      "family": "A",
+      "persona_id": "p1_speaker_10",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "6fa8fab6f0fcca28690dccb35c64bf4159115850e1aca5ce733e1701a95d66c7"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "8dc0e875993f159e467cb6388aa1c88a0714126eef6b8b58dc1c3247dc683d82"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "4d4ff1c282a35ea3e9de8a529daa2aa939920d6f64a22238d4bbc92951616f2e"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "36745f7e5ba62a2cc5a16115f0e76adac9198e4fcbcc5e83e8009251619d1b48"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "9e516513a5ff220c56819628dd6a31a1f5fd335e621632d972b2af05d5abedfe"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "b223b482d4f29fbf9b361abd80699e0e87301befc8b289d197efebb6e7eb5c35"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "70e22c8c2aa25cd7130dcffeda306d15b3cc720cd6f7f6e5111b334c46ddd497"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "4042c767480d30962edb20c34cfaccffdafc9894e250da1e18a6f0de83c58621"
+        }
+      ],
+      "question_sha256": "db9b60cad86e3f7ea3b1a4f3ef5e9504099b4c3047eada544eba79e8f7a7078c",
+      "status": "PASS",
+      "trusted_evidence_sha256": "162b7fb56a35da2a6e101806e2e95cea09c7b722f6bcf090a35316c199266a3b"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_10_B",
+      "context_sha256": "422dab5057cf9c15d3ec3d9b1f7f613224621073149f896ef2694b69931c747a",
+      "evidence_character_offset": 70,
+      "family": "B",
+      "persona_id": "p1_speaker_10",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "913f222e51ad26f41bd8f90e54918e9013e60f8e3c3870113553f2b07700b47b"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "c73a97572be42ca0e65917144d4a48e624017932fe986c55d5c0a0a9281abc6f"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "1fb5b8f68d36ec938b9bf4b259d6047aacabb6788ac4a7f37f9d327faf2b47f4"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "11da24b8f050c3e71385f5a7142c7a0aa8da58edc4b4b1c4ef6245fcb22f45b3"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "0ff8fbe864c216a2e60cb86b8a7ee52feca4a1c3996af3323c466f7bc9c0e22a"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "f1b38c90ca30b65049568cdc72fd67cd5cfce700b034121754bc7b4dbb859085"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "2915ebfc0e9630794010a15c5e69a476a3d446df319cfe6a53b6f700e3c72313"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "c4f08145759870cfc3c1ba56317b97924d131624f8036797f79384ee6ebecd3a"
+        }
+      ],
+      "question_sha256": "fee55f67a9e90a37de05bf6ac7753e4ba4030bcd741b35e18b745547e515c0c7",
+      "status": "PASS",
+      "trusted_evidence_sha256": "162b7fb56a35da2a6e101806e2e95cea09c7b722f6bcf090a35316c199266a3b"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_10_C",
+      "context_sha256": "62c8762ada1d98fbe5db472da1dbb080751ea5690c47e2f2227abcb5ec9eca76",
+      "evidence_character_offset": 70,
+      "family": "C",
+      "persona_id": "p1_speaker_10",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "be9862bee026905fde0dcdacc1eabbaa370cb8a7bc7983e37b98f278f89c3dc8"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "c1479dde2650b777bedda044448c08a05b38aab443abed8f6a225dcac329e7f5"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "49d1a5ddbd3d3d301a3a0639a4fb016701422dee53a9675dd2573a00b7c34cd9"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "98dabf4d398d16e671ebe9e560d2019a49a51b92151dfe47688b5f2d32db96dd"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "26305293400e98bacc2bc27c2be24fc4cab1a614f9698f644205720d35316dda"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "82a9d982b97e1e62fedd12763ded74b4a1658b29568ec95eebcb8b8a6c4a8758"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "4bff038252500ce245fc2debd2295dd1465b60db9f75dbd6df40f9d6359ec235"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "e4746bea1b6eb88d2aeed51968477e3868ffda568eff287bdb3d5aee697ef356"
+        }
+      ],
+      "question_sha256": "da2477921a4def001db21894044a3b39b923fbef38df6ceac46d0fb5f1b7dc6c",
+      "status": "PASS",
+      "trusted_evidence_sha256": "162b7fb56a35da2a6e101806e2e95cea09c7b722f6bcf090a35316c199266a3b"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_10_D",
+      "context_sha256": "02f5965e59dbc37739125105f799ee74c41062cd02c525a45af1f1f2803f4877",
+      "evidence_character_offset": 70,
+      "family": "D",
+      "persona_id": "p1_speaker_10",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "122c858eba84615d2253e917cf89bb5719d092e50f0586f3baef2765daaea5df"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "eac818d0b727196cd1036ad58fe08d7ccb2bc512d8300d5ca16ee563b58d90ea"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "ab8ef603132ad920d2840a12581f893401f9bce8b0f884d8b10673e55759732c"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "c1ace360d00f77fbffe139220eeb902f1f208874269dea146a4cb52f90bcd0ab"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "823a6e8d20dbea06c528fbd049ea5e715ce4fb346aca990cb01effa2b2299f1b"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "5b1a84e34e820ed8260e7273d8d5bb8431085d60a7f208b47b9f68eb9a00dcdc"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "53a149e78dceccc990f47d8d7d55199ef24030a2c7868e966dbc2a75890a3f8b"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "f89548d0bdecee730b9fb5f83cacf710a3790f7d9f0d67687444346a5e0b6e73"
+        }
+      ],
+      "question_sha256": "74e347b720390a0949bad7b0471ffc46b1def9a6c38ea2e26dd638b70f063aa1",
+      "status": "PASS",
+      "trusted_evidence_sha256": "162b7fb56a35da2a6e101806e2e95cea09c7b722f6bcf090a35316c199266a3b"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_11_A",
+      "context_sha256": "8cde1fdbde55e7ab6561f51e47e991866970394a91fcebe1492bf6ed13ad211e",
+      "evidence_character_offset": 70,
+      "family": "A",
+      "persona_id": "p1_speaker_11",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "18adacf95e18b649b627ce5e6cfa967a0c6dad132568b7bcfd22ae0702f28abe"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "d13d542063e762273926672c496bfa8f57b2cdca458fe186d0125747ac2bbbca"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "b4294e8d1de098933e6267fc1b2c8a1788fe0e2ec7a133372041ece7a30ca3ab"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "0217bf0a62d79763ee559c54d37ce87aa38469dbfca8d6e7da29c0a81e29ee77"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "f4c8eb331ca3d337346b258b25a4055d2b8fc5a7ecd6449f3595b209acaeca59"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "ef46c9fc38f272cc142d547e4f0dc74ba37cb14c51a1b2cb1fd4a5ed2d088fe4"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "de80be05ec2a4ba101bed89e8c6a4735e4ff6a7428abbdd9b0844cac7f83e19a"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "e2d2f17f169a5e0d3c43ce3dd3773e9e4e1486695587178ab0e4617514523641"
+        }
+      ],
+      "question_sha256": "bbeacf15292c74c8401c365e1986e63e98882fbfcf6d2c6e68d55bee820d3329",
+      "status": "PASS",
+      "trusted_evidence_sha256": "cb20c66827e120de179ff8fafdb91da9fda623e86ea156d92510420900bbbbc7"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_11_B",
+      "context_sha256": "7927ad51cd92e416c9139abdc8b576df0f0b302dc2c18c4cbb9fba0e89a897da",
+      "evidence_character_offset": 70,
+      "family": "B",
+      "persona_id": "p1_speaker_11",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "e025db35d513c7a62c14e0b4eb25cfbe1194cb98b2ec20b19652e9fc87e31446"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "c8ffbedbc89c4b7922bf266e9fe2d45acd5ec004f213ab1d833b54e36491409c"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "bcde26ef1295bb28d18a2b68dd52a44f3b9ccbb98bc9058de155e174eedae37f"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "12c3ca2809a5786055b44250d79b00d925f27ff4deb98b473d1555834ff26859"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "e8709fd87c4936c2ee137ba7d0bd2de5ecabe1764d39c0ec5ef7098e8d9385ec"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "139d12b749b60ca002a1d635e1a3445c5c1903a829b5408087dbc6aaaca9222b"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "b084ed56fd500bfee5f37591b0417f53286dcb2612e73ad9aa1af0e1ed8e8be7"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "6009ed508c60dbc5929ac499c48a05f9b0b65c534a0cc257a8edbec72fef761f"
+        }
+      ],
+      "question_sha256": "34230dde9ff171fd07439d79413bd7bb8af755bb89145f40766662c0d273a471",
+      "status": "PASS",
+      "trusted_evidence_sha256": "cb20c66827e120de179ff8fafdb91da9fda623e86ea156d92510420900bbbbc7"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_11_C",
+      "context_sha256": "653a039ce362f273cdd91c189baaa7f8d3236a94eb11b1024198a59ae3f31221",
+      "evidence_character_offset": 70,
+      "family": "C",
+      "persona_id": "p1_speaker_11",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "a6d0cfa0d01872a4004cb8439b54883852ca2539f3321c080e86dd78a4ff4ad7"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "0141eb1d603483ec3eae91fa5a35abd4fbc7de191128a36d9c80cdb2b7eaa2b7"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "5400e4574f2218a6d5c1aeb25c4133bfeb856c86d839cc6b72190d90c2b44f30"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "c426a8d1fec9a16d2040e9a2bc6c8f0fef73252d9d32377e5d13d24481abc469"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "77847892647d37c40439635679f0ebb436701da77c822b9416f3d5bd5b0281b9"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "4d4db80e09db1e840655c2c642947e781d8a6124b80d8bc397f924cbdc993702"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "4afb3215de0e5aa85b87a58a28cd5f2b9c30bf17887bbce867c690fac70b71c1"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "1e0b0d6fa228cf75a2f5e15419bcd2a662ac8801592f541c76f6986022b8e6e7"
+        }
+      ],
+      "question_sha256": "fe607e4b21fb1669b507a0a0d67e30a1bba69997660138300927b439d52135a6",
+      "status": "PASS",
+      "trusted_evidence_sha256": "cb20c66827e120de179ff8fafdb91da9fda623e86ea156d92510420900bbbbc7"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_11_D",
+      "context_sha256": "92a76b74f8c766e47b4c7549a6762579771f6c52f91c9b76c035790bc2ae8221",
+      "evidence_character_offset": 70,
+      "family": "D",
+      "persona_id": "p1_speaker_11",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "7c26297f31f9dadc532d611b33a3be33a212f10455bf138cd98638a1cd1da582"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "73e84350e4f1fe2fa68730e140f0972653a144ef5cbaabf29193ad6034835f04"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "f89ed2c7ba73b150208d9bcafc3dfc1e1338d977b5edc0bda06cf01f4d4677d7"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "0e7c4dd84fb634b3a5506fdfaebe8788bd06096a53c45a051b036398af18171c"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "474e2b56c6369dcf43c092b8bd5fd346a286b29d6a7942079b45b6362c9564ec"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "54545e0b890cba9374d44399d8e506a6bcacfc378627ec3acc7c80fe160842c9"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "97563c2074864bd79473a1cb0311a95012ca992cac48ba450b23b037eea15823"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "5b31b4f1f01ccf336e0c3b2f1a73c7637c7ee892f23b32ec627f381d7a20917f"
+        }
+      ],
+      "question_sha256": "1b9d085cd7eaf78925b1a2ce0fddf135f018afc63436f554628b867809b3b370",
+      "status": "PASS",
+      "trusted_evidence_sha256": "cb20c66827e120de179ff8fafdb91da9fda623e86ea156d92510420900bbbbc7"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_12_A",
+      "context_sha256": "f1f408c6b6bc7cb40def1bee2b3ff7db865f0303fa137e44acb17bd8e4241ccf",
+      "evidence_character_offset": 70,
+      "family": "A",
+      "persona_id": "p1_speaker_12",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "9e9d3438569438e9bdec2a4caf1332e07af28f6f81c085639bd1ff54d7e4d42a"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "97af5a846dba8e4f63894998ace4f87892278fb6a4bc006238d2d98cfc2fbc76"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "264835482db879dcc9a94da906801eea4f21214597ab16448c9e3cbe437ed7ab"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "f18765d15128c5b2c671b85a1fc3af1c3eba8e89b5f72fb438b5cb5bb2ed4c10"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "872b0b9cfc89ef30ad1d80761f09fc9050d154d8eea0a145ac98444e8ae45ab6"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "24a3da50ee4f104317002f59882762a05af91976086e043ecc36fbeb0fbe5db8"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "71224dc792732843c09ddad0ff2fdb4b4acb8d6fd6daa1e9cdfa971565288801"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "aca908b338b504d75a063b6553bcdaebe07986829f441ef7c1df049dd1960f2d"
+        }
+      ],
+      "question_sha256": "1b38ca0ff0ee921d101862629eea274ab0dbd7a7b05ecc221c27cd7f881bb521",
+      "status": "PASS",
+      "trusted_evidence_sha256": "73c06c3900ac2e1aeaadc169a029a3b7a5b693d6295e1835d57f61bc8a86bcfd"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_12_B",
+      "context_sha256": "038c4244b1ad20cd05c4f8a6f09547ffdf8f5b27b27139e240521941c7cab895",
+      "evidence_character_offset": 70,
+      "family": "B",
+      "persona_id": "p1_speaker_12",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "7f481c96041754464977474a895e1794c336cf135e27cc516e905a7398df11c9"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "3f55a094c5f47ee907edca4cd136bb36f30eae4b3d4bcc920288f4621f202879"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "9aaa210f7c47b3869d776fdd0734a4a193337cdd50e90fdfef3d4e0676c11110"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "e966b80b029069b13f99605ba63ace1a266c0ea494f33a5d3a3e2ef599757ba4"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "c0fa43f0798069149dc0b6178dda3b4388226c7f92753209894971a7db99e9b5"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "720d138588821256ce5f389a61731f37e5c6a275de6b138e354bac7a8b30f90d"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "a884daae04b985544777ef0c6520a2ce7b57669189c279afbd9f6f87897327d4"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "ae54d2b4fed9322c3b57d10898ecd1d91d0bc9ba131814067dd26643e999888d"
+        }
+      ],
+      "question_sha256": "dd842c4053e9da1961b02f521c995c5d6c44415409ffcd42fa41de5a43dc3c1f",
+      "status": "PASS",
+      "trusted_evidence_sha256": "73c06c3900ac2e1aeaadc169a029a3b7a5b693d6295e1835d57f61bc8a86bcfd"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "case_id": "p1_speaker_12_C",
+      "context_sha256": "8575fd35af0ddf9131170eaca69a2035296ac6f32f14bbfa3a29cd2e81bfc731",
+      "evidence_character_offset": 70,
+      "family": "C",
+      "persona_id": "p1_speaker_12",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "c12caac5693737ace790db3a533a779225a81d961a935d2d58744d3960426d61"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "fba654d91b86ebab3bbb6b363985095c264afa979786332020f756c933f4889b"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "202222d8393420d88159275ae181415252fe9d7a4eadbe7b4b7c98902ceacf00"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "5298abd9bcc4c3d82370da1e976174ea4586da60b96e8c2309484a82e5b49d18"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "685ad90d7a3c2eb67ee202613d52136f92abf05009debd91fc7b15e92357d567"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "016cee0ca166151b2c02ef1e457c2ecf805637524f51ce9d1f1ef7bc8eb1f251"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "90bd47ef34164756237f8067efd0c86cae3cde58db6eaa00ac4ea3b1c8967d1a"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "7efbe8ccff8fa4dfc3e498d02d46160524f5c6a8ae91cee21cc5b7409b645263"
+        }
+      ],
+      "question_sha256": "3316096b3e497bb889cfce684cb84fa7b1459241fe042b84025aafd8b33efd5b",
+      "status": "PASS",
+      "trusted_evidence_sha256": "73c06c3900ac2e1aeaadc169a029a3b7a5b693d6295e1835d57f61bc8a86bcfd"
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "case_id": "p1_speaker_12_D",
+      "context_sha256": "e2ac4dbe1a88b419f0629b7440005e17cb6ef692d9b2ebc85464fa4e4b174b5a",
+      "evidence_character_offset": 70,
+      "family": "D",
+      "persona_id": "p1_speaker_12",
+      "prompts": [
+        {
+          "condition": "C0",
+          "factors": [
+            0,
+            0,
+            0
+          ],
+          "prompt_sha256": "3a4b91c44d11ea73ede60e227374749e012f8f039d11aa6b2468db8e478c1bd5"
+        },
+        {
+          "condition": "C1",
+          "factors": [
+            1,
+            0,
+            0
+          ],
+          "prompt_sha256": "c4ac89d3995e90eaf451445e86870b9d8505f46d04fa66534cc9a21fc6a9a363"
+        },
+        {
+          "condition": "C2",
+          "factors": [
+            0,
+            1,
+            0
+          ],
+          "prompt_sha256": "c57e429f9dd851378eb264ba89d165c15bdf98a9df51cdcb71386e38bb70e12e"
+        },
+        {
+          "condition": "C3",
+          "factors": [
+            0,
+            0,
+            1
+          ],
+          "prompt_sha256": "d248936f7e3977311749a8bcc0f57149de42b89edbb523f883837d130cfc7598"
+        },
+        {
+          "condition": "C4",
+          "factors": [
+            1,
+            1,
+            0
+          ],
+          "prompt_sha256": "fb12838d1f7888521fbd1ad4d399264c6852ec0de524c65c5eaa9898a863e56a"
+        },
+        {
+          "condition": "C5",
+          "factors": [
+            1,
+            0,
+            1
+          ],
+          "prompt_sha256": "fbfe80967055c381fc8c509518bed8258f65d50ccf7c90ff511619a4b0607f4d"
+        },
+        {
+          "condition": "C6",
+          "factors": [
+            0,
+            1,
+            1
+          ],
+          "prompt_sha256": "cf54e23100d63cc959ce9491862fa311f25446ee0147c7d53432a99cef2c6724"
+        },
+        {
+          "condition": "C7",
+          "factors": [
+            1,
+            1,
+            1
+          ],
+          "prompt_sha256": "c7cfa9233ae20d898d3af43547c872424b4c42f3ac63046fdafee5a45b1a0d82"
+        }
+      ],
+      "question_sha256": "1ae8dba21e8adeb5d9de6374cee4171579ea9a48d2ae9d2e5f7c9e07380bddb0",
+      "status": "PASS",
+      "trusted_evidence_sha256": "73c06c3900ac2e1aeaadc169a029a3b7a5b693d6295e1835d57f61bc8a86bcfd"
+    }
+  ],
+  "prompt_count": 384,
+  "remaining_confounds": [
+    "Style realization is nested in speaker; six categories have two realizations each",
+    "Length, lexical material and positions vary in factorial cells",
+    "H residence history relevance differs by task family; true old facts are not simultaneous contradictions"
+  ],
+  "scope": "Scripted construction checks and author analytical inspection; not independent human validation or response quality",
+  "status": "PASS",
+  "version": "p1_manipulation_validation_v1"
+}

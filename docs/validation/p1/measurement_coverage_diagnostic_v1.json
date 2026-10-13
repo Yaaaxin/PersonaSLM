@@ -1,0 +1,1017 @@
+{
+  "analysis_scope": "Post-output lexical coverage diagnostic only; frozen scores and eligibility remain unchanged",
+  "counts": {
+    "exact_current_city_sentence": 15,
+    "exact_current_city_sentence_with_source_validity_suffix": 33
+  },
+  "created_utc": "2026-10-13T07:22:11.342499+00:00",
+  "human_review": "PENDING",
+  "interpretation": "City grammar coverage depends on suffix form. Do not interpret category transitions as semantic accuracy effects. Visible model-produced deliberation remains raw output, not a completed answer or a verified internal mechanism.",
+  "new_evaluation_version": false,
+  "rows": [
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_01_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Bath"
+      },
+      "expected_answer": "Bath",
+      "first_reply_sha256": "41619c78090e8181db15089fc78405647ac0efa0f473a8f5b6181b0b367db1d7",
+      "first_reply_verbatim": " Kendall currently lives in Bath.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_01_A__C7",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_01_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Bath"
+      },
+      "expected_answer": "Bath",
+      "first_reply_sha256": "41619c78090e8181db15089fc78405647ac0efa0f473a8f5b6181b0b367db1d7",
+      "first_reply_verbatim": " Kendall currently lives in Bath.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_01_A__C4",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_01_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Bath"
+      },
+      "expected_answer": "Bath",
+      "first_reply_sha256": "41619c78090e8181db15089fc78405647ac0efa0f473a8f5b6181b0b367db1d7",
+      "first_reply_verbatim": " Kendall currently lives in Bath.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_01_A__C5",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_01_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Bath"
+      },
+      "expected_answer": "Bath",
+      "first_reply_sha256": "0f7ae8a5125d129eb48b9130dd8d480fe3277c36e4451cb16a7e7d7f7a9ae59a",
+      "first_reply_verbatim": " Kendall currently lives in Bath, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_01_A__C3",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_01_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Bath"
+      },
+      "expected_answer": "Bath",
+      "first_reply_sha256": "41619c78090e8181db15089fc78405647ac0efa0f473a8f5b6181b0b367db1d7",
+      "first_reply_verbatim": " Kendall currently lives in Bath.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_01_A__C1",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_01_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Bath"
+      },
+      "expected_answer": "Bath",
+      "first_reply_sha256": "41619c78090e8181db15089fc78405647ac0efa0f473a8f5b6181b0b367db1d7",
+      "first_reply_verbatim": " Kendall currently lives in Bath.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_01_A__C6",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_01_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Bath"
+      },
+      "expected_answer": "Bath",
+      "first_reply_sha256": "0f7ae8a5125d129eb48b9130dd8d480fe3277c36e4451cb16a7e7d7f7a9ae59a",
+      "first_reply_verbatim": " Kendall currently lives in Bath, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_01_A__C0",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_01_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Bath"
+      },
+      "expected_answer": "Bath",
+      "first_reply_sha256": "0f7ae8a5125d129eb48b9130dd8d480fe3277c36e4451cb16a7e7d7f7a9ae59a",
+      "first_reply_verbatim": " Kendall currently lives in Bath, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_01_A__C2",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_08_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Cambridge"
+      },
+      "expected_answer": "Cambridge",
+      "first_reply_sha256": "9145642ac29a31512c2fdb9c4945865aae426d0ca6ea707996afad3adf399079",
+      "first_reply_verbatim": " Sutton currently lives in Cambridge, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_08_D__C1",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_08_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Cambridge"
+      },
+      "expected_answer": "Cambridge",
+      "first_reply_sha256": "9145642ac29a31512c2fdb9c4945865aae426d0ca6ea707996afad3adf399079",
+      "first_reply_verbatim": " Sutton currently lives in Cambridge, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_08_D__C2",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_08_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Cambridge"
+      },
+      "expected_answer": "Cambridge",
+      "first_reply_sha256": "5332c22905529cf6b95b8cbdb0f8dc5966a8c2308bb5775efde42eaf185cc525",
+      "first_reply_verbatim": " Sutton currently lives in Cambridge.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_08_D__C5",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_08_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Cambridge"
+      },
+      "expected_answer": "Cambridge",
+      "first_reply_sha256": "5332c22905529cf6b95b8cbdb0f8dc5966a8c2308bb5775efde42eaf185cc525",
+      "first_reply_verbatim": " Sutton currently lives in Cambridge.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_08_D__C3",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_08_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Cambridge"
+      },
+      "expected_answer": "Cambridge",
+      "first_reply_sha256": "5332c22905529cf6b95b8cbdb0f8dc5966a8c2308bb5775efde42eaf185cc525",
+      "first_reply_verbatim": " Sutton currently lives in Cambridge.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_08_D__C7",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_08_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Cambridge"
+      },
+      "expected_answer": "Cambridge",
+      "first_reply_sha256": "9145642ac29a31512c2fdb9c4945865aae426d0ca6ea707996afad3adf399079",
+      "first_reply_verbatim": " Sutton currently lives in Cambridge, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_08_D__C4",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_08_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Cambridge"
+      },
+      "expected_answer": "Cambridge",
+      "first_reply_sha256": "5332c22905529cf6b95b8cbdb0f8dc5966a8c2308bb5775efde42eaf185cc525",
+      "first_reply_verbatim": " Sutton currently lives in Cambridge.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_08_D__C6",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_08_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Cambridge"
+      },
+      "expected_answer": "Cambridge",
+      "first_reply_sha256": "9145642ac29a31512c2fdb9c4945865aae426d0ca6ea707996afad3adf399079",
+      "first_reply_verbatim": " Sutton currently lives in Cambridge, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_08_D__C0",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_12_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Plymouth"
+      },
+      "expected_answer": "Plymouth",
+      "first_reply_sha256": "d31945ef7e2f42923eb6834eda883c4ef10de0ea9eb6082af10abcae1d5ab504",
+      "first_reply_verbatim": " Quinn currently lives in Plymouth, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_12_D__C5",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_12_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Plymouth"
+      },
+      "expected_answer": "Plymouth",
+      "first_reply_sha256": "d31945ef7e2f42923eb6834eda883c4ef10de0ea9eb6082af10abcae1d5ab504",
+      "first_reply_verbatim": " Quinn currently lives in Plymouth, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_12_D__C3",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_12_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Plymouth"
+      },
+      "expected_answer": "Plymouth",
+      "first_reply_sha256": "30207d4a22962232f670e8416f494075b3027cc09aaad788416b1cf149c9ecc4",
+      "first_reply_verbatim": " Quinn currently lives in Plymouth.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_12_D__C7",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_12_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Plymouth"
+      },
+      "expected_answer": "Plymouth",
+      "first_reply_sha256": "d31945ef7e2f42923eb6834eda883c4ef10de0ea9eb6082af10abcae1d5ab504",
+      "first_reply_verbatim": " Quinn currently lives in Plymouth, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_12_D__C2",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_12_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Plymouth"
+      },
+      "expected_answer": "Plymouth",
+      "first_reply_sha256": "30207d4a22962232f670e8416f494075b3027cc09aaad788416b1cf149c9ecc4",
+      "first_reply_verbatim": " Quinn currently lives in Plymouth.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_12_D__C6",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_12_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Plymouth"
+      },
+      "expected_answer": "Plymouth",
+      "first_reply_sha256": "d31945ef7e2f42923eb6834eda883c4ef10de0ea9eb6082af10abcae1d5ab504",
+      "first_reply_verbatim": " Quinn currently lives in Plymouth, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_12_D__C0",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_12_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Plymouth"
+      },
+      "expected_answer": "Plymouth",
+      "first_reply_sha256": "d31945ef7e2f42923eb6834eda883c4ef10de0ea9eb6082af10abcae1d5ab504",
+      "first_reply_verbatim": " Quinn currently lives in Plymouth, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_12_D__C1",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_12_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Plymouth"
+      },
+      "expected_answer": "Plymouth",
+      "first_reply_sha256": "d31945ef7e2f42923eb6834eda883c4ef10de0ea9eb6082af10abcae1d5ab504",
+      "first_reply_verbatim": " Quinn currently lives in Plymouth, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_12_D__C4",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_05_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Exeter"
+      },
+      "expected_answer": "Exeter",
+      "first_reply_sha256": "ff6841a3e9abcceee15e39b2241c5d716888a343fc85caba3e78ccf8db614210",
+      "first_reply_verbatim": " Cameron currently lives in Exeter, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_05_A__C2",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_05_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Exeter"
+      },
+      "expected_answer": "Exeter",
+      "first_reply_sha256": "ff6841a3e9abcceee15e39b2241c5d716888a343fc85caba3e78ccf8db614210",
+      "first_reply_verbatim": " Cameron currently lives in Exeter, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_05_A__C4",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_05_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Exeter"
+      },
+      "expected_answer": "Exeter",
+      "first_reply_sha256": "ff6841a3e9abcceee15e39b2241c5d716888a343fc85caba3e78ccf8db614210",
+      "first_reply_verbatim": " Cameron currently lives in Exeter, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_05_A__C1",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_05_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Exeter"
+      },
+      "expected_answer": "Exeter",
+      "first_reply_sha256": "ff6841a3e9abcceee15e39b2241c5d716888a343fc85caba3e78ccf8db614210",
+      "first_reply_verbatim": " Cameron currently lives in Exeter, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_05_A__C0",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_05_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Exeter"
+      },
+      "expected_answer": "Exeter",
+      "first_reply_sha256": "ff6841a3e9abcceee15e39b2241c5d716888a343fc85caba3e78ccf8db614210",
+      "first_reply_verbatim": " Cameron currently lives in Exeter, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_05_A__C5",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_05_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Exeter"
+      },
+      "expected_answer": "Exeter",
+      "first_reply_sha256": "ff6841a3e9abcceee15e39b2241c5d716888a343fc85caba3e78ccf8db614210",
+      "first_reply_verbatim": " Cameron currently lives in Exeter, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_05_A__C7",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_05_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Exeter"
+      },
+      "expected_answer": "Exeter",
+      "first_reply_sha256": "ff6841a3e9abcceee15e39b2241c5d716888a343fc85caba3e78ccf8db614210",
+      "first_reply_verbatim": " Cameron currently lives in Exeter, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_05_A__C6",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_05_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Exeter"
+      },
+      "expected_answer": "Exeter",
+      "first_reply_sha256": "ff6841a3e9abcceee15e39b2241c5d716888a343fc85caba3e78ccf8db614210",
+      "first_reply_verbatim": " Cameron currently lives in Exeter, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_05_A__C3",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_09_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "York"
+      },
+      "expected_answer": "York",
+      "first_reply_sha256": "51da0b12556639187e9a4098c8d9f067330dcd05db0baade86275081b4b90115",
+      "first_reply_verbatim": " Reese currently lives in York, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_09_A__C1",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_09_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "York"
+      },
+      "expected_answer": "York",
+      "first_reply_sha256": "51da0b12556639187e9a4098c8d9f067330dcd05db0baade86275081b4b90115",
+      "first_reply_verbatim": " Reese currently lives in York, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_09_A__C4",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_09_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "York"
+      },
+      "expected_answer": "York",
+      "first_reply_sha256": "51da0b12556639187e9a4098c8d9f067330dcd05db0baade86275081b4b90115",
+      "first_reply_verbatim": " Reese currently lives in York, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_09_A__C7",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_09_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "York"
+      },
+      "expected_answer": "York",
+      "first_reply_sha256": "51da0b12556639187e9a4098c8d9f067330dcd05db0baade86275081b4b90115",
+      "first_reply_verbatim": " Reese currently lives in York, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_09_A__C5",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_09_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "York"
+      },
+      "expected_answer": "York",
+      "first_reply_sha256": "51da0b12556639187e9a4098c8d9f067330dcd05db0baade86275081b4b90115",
+      "first_reply_verbatim": " Reese currently lives in York, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_09_A__C3",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_09_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "York"
+      },
+      "expected_answer": "York",
+      "first_reply_sha256": "51da0b12556639187e9a4098c8d9f067330dcd05db0baade86275081b4b90115",
+      "first_reply_verbatim": " Reese currently lives in York, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_09_A__C2",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_09_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "York"
+      },
+      "expected_answer": "York",
+      "first_reply_sha256": "51da0b12556639187e9a4098c8d9f067330dcd05db0baade86275081b4b90115",
+      "first_reply_verbatim": " Reese currently lives in York, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_09_A__C6",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_09_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "York"
+      },
+      "expected_answer": "York",
+      "first_reply_sha256": "51da0b12556639187e9a4098c8d9f067330dcd05db0baade86275081b4b90115",
+      "first_reply_verbatim": " Reese currently lives in York, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_09_A__C0",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_04_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Lincoln"
+      },
+      "expected_answer": "Lincoln",
+      "first_reply_sha256": "aecdaf04e6641bf9bc89aa3ff248b0c8d83201db980f833e13da3eb61f6bf51e",
+      "first_reply_verbatim": " Harper currently lives in Lincoln.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_04_D__C5",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_04_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Lincoln"
+      },
+      "expected_answer": "Lincoln",
+      "first_reply_sha256": "bcab6e049d5e9ebfacad03d6541d959ccc5ac545e277e1bf7e6fd87f4ba53299",
+      "first_reply_verbatim": " Harper currently lives in Lincoln, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_04_D__C2",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_04_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Lincoln"
+      },
+      "expected_answer": "Lincoln",
+      "first_reply_sha256": "bcab6e049d5e9ebfacad03d6541d959ccc5ac545e277e1bf7e6fd87f4ba53299",
+      "first_reply_verbatim": " Harper currently lives in Lincoln, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_04_D__C4",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_04_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Lincoln"
+      },
+      "expected_answer": "Lincoln",
+      "first_reply_sha256": "aecdaf04e6641bf9bc89aa3ff248b0c8d83201db980f833e13da3eb61f6bf51e",
+      "first_reply_verbatim": " Harper currently lives in Lincoln.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_04_D__C6",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_04_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Lincoln"
+      },
+      "expected_answer": "Lincoln",
+      "first_reply_sha256": "bcab6e049d5e9ebfacad03d6541d959ccc5ac545e277e1bf7e6fd87f4ba53299",
+      "first_reply_verbatim": " Harper currently lives in Lincoln, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_04_D__C1",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_04_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Lincoln"
+      },
+      "expected_answer": "Lincoln",
+      "first_reply_sha256": "aecdaf04e6641bf9bc89aa3ff248b0c8d83201db980f833e13da3eb61f6bf51e",
+      "first_reply_verbatim": " Harper currently lives in Lincoln.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_04_D__C3",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_04_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Lincoln"
+      },
+      "expected_answer": "Lincoln",
+      "first_reply_sha256": "bcab6e049d5e9ebfacad03d6541d959ccc5ac545e277e1bf7e6fd87f4ba53299",
+      "first_reply_verbatim": " Harper currently lives in Lincoln, valid from 2026-10-01 onward.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence_with_source_validity_suffix",
+      "original_factual_label": "Unverifiable",
+      "replacement_score": null,
+      "request_id": "p1_speaker_04_D__C0",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward."
+    },
+    {
+      "current_source_fact": {
+        "attribute": "current_city",
+        "fact_id": "p1_speaker_04_current_city",
+        "valid_from": "2026-10-01",
+        "valid_until": null,
+        "value": "Lincoln"
+      },
+      "expected_answer": "Lincoln",
+      "first_reply_sha256": "aecdaf04e6641bf9bc89aa3ff248b0c8d83201db980f833e13da3eb61f6bf51e",
+      "first_reply_verbatim": " Harper currently lives in Lincoln.\n\n",
+      "human_judgment": null,
+      "observed_string_form": "exact_current_city_sentence",
+      "original_factual_label": "Correct",
+      "replacement_score": null,
+      "request_id": "p1_speaker_04_D__C7",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward."
+    }
+  ],
+  "source_results_sha256": "25ccd117baf2a2e5adb9e51d7211dc04a06cfd49133ca9202eca126e131f1dab",
+  "version": "p1_measurement_coverage_diagnostic_v1",
+  "visible_think_markers": [
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "a7a7fb77f861102818aa3924b7682965f0bc534cf2d1ac649b81d669388c3cf3",
+      "request_id": "p1_speaker_07_C__C4"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "b447397a1267394977e65036b89ee207ddb47ca5982d2bb0c19b24cdf15e9551",
+      "request_id": "p1_speaker_07_C__C1"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "4a316dc86418df640c1a85b03d87bf86929884122e9b6be54bfb9329dbc17936",
+      "request_id": "p1_speaker_07_C__C2"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "2506c4f31f0ee5396f064eb1e4961150b3d4e811c703ca6c23f19c33846d8960",
+      "request_id": "p1_speaker_07_C__C3"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "712d1848d7a52458294be1bfcf246be0a3f6960f6c779433bc7af0e2b3a54b22",
+      "request_id": "p1_speaker_07_C__C0"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "c37852c51675c1523be96cc06d747a201f2c80839ae30aa4519c01b71c708dd0",
+      "request_id": "p1_speaker_07_C__C7"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "658e95179bed506002a714fc78582ee2d15d580e3ad597dd7b13c53d1d151be0",
+      "request_id": "p1_speaker_07_C__C5"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "10004a70164797fcf43fc7293f83287f0598c70db2a09e2a712e4d4763f3a0e2",
+      "request_id": "p1_speaker_07_C__C6"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "5646aedecdf3cab68ee472288dfe337f26355784e04c6d84607af7c613f00255",
+      "request_id": "p1_speaker_03_C__C2"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "db8d5570054b527776720bb9fe469e45716b95a0f93a40e611d8f5a3d2fbc072",
+      "request_id": "p1_speaker_03_C__C1"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "c51221b89f4d1a982254705c7401ad2637064007bf6d2d2f9acb50ce4601ec7f",
+      "request_id": "p1_speaker_03_C__C7"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "90bffa6a0fbe60e368a5454009d5f41f0db63d578ed176fb547e27ba5855358e",
+      "request_id": "p1_speaker_03_C__C3"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "9e5019bfdf6daa774ca1c15bf517590cfdd9645cf628590d5f3bd40a5f713576",
+      "request_id": "p1_speaker_03_C__C5"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "113bf91cf305b53865e27da6417ba70c090491b6cc0038aafd5310ba16237eeb",
+      "request_id": "p1_speaker_03_C__C0"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "e68f3b96b26f3a1564f8388b3ab5b2806ec2bb5bcb7bb8253073c1e167ca1686",
+      "request_id": "p1_speaker_03_C__C4"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "ae2e139cb0142ec9b81b54060f6026f6f086d82c15b28c978cd2c66d848e4656",
+      "request_id": "p1_speaker_11_C__C3"
+    },
+    {
+      "closing_marker_count": 0,
+      "family": "C",
+      "opening_marker_count": 1,
+      "original_status": "TRUNCATED",
+      "raw_sha256": "3b46b2a4f26ef61a0813277293e68117ae9a3010b210f636572c0ee78291123f",
+      "request_id": "p1_speaker_11_C__C7"
+    }
+  ]
+}

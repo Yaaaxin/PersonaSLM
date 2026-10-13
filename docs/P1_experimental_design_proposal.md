@@ -1,3 +1,7 @@
+> **Implementation status:** The researcher subsequently authorized P1. The [frozen wave-1 plan](P1_experiment_plan.md) and [completed first-wave report](P1_pilot_wave1_report.md) are the current executed scope. The proposal below remains unchanged as historical design material; it is not a claim that P1 is still unstarted.
+
+---
+
 # P1 Controlled Factorial Pilot — Proposal v0.1
 
 2026-10-12. **PROPOSED ONLY. P1 NOT STARTED.** Researcher: Yaxin ZHENG. Paper: *Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models*. Protocol v1.1 remains frozen. This document requests no automatic amendment and creates no confirmatory test set. Implementation and execution require researcher approval after P0 acceptance.

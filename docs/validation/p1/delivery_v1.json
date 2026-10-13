@@ -1,0 +1,444 @@
+{
+  "P0": "PASS",
+  "actual_command_captures": [
+    {
+      "capture": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p1_analyze.py"
+        ],
+        "duration_seconds": 1.9397365999757312,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T07:07:58.633284+00:00",
+        "started_utc": "2026-10-13T07:07:56.693545+00:00",
+        "stderr": "",
+        "stdout": "{\"planned\": 96, \"attempted\": 96, \"completed\": 96, \"structure\": {\"CROSS_TURN\": 78, \"TRUNCATED\": 17, \"AMBIGUOUS\": 1}, \"stops\": {\"length\": 95, \"eos\": 1}, \"tokens\": 9148, \"outcome_human_reviews\": 0}\n"
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/analyze.json",
+      "original_sha256": "eacf0fa04358a3065253bc4d44cf3c50119c3c82ae47ec4d3f37a889e0aa2f7c",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    },
+    {
+      "capture": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p1_review.py",
+          "import",
+          "--csv",
+          "docs/validation/p1/control_review_v1.csv",
+          "--output",
+          "results/p1_wave1/development_v1/materials/blank_review_must_not_import"
+        ],
+        "duration_seconds": 0.3962362999736797,
+        "exit_code": 1,
+        "finished_utc": "2026-10-13T07:05:56.246051+00:00",
+        "started_utc": "2026-10-13T07:05:55.849809+00:00",
+        "stderr": "Traceback (most recent call last):\n  File \"<WORKSPACE>\\tools\\p1_review.py\", line 103, in <module>\n    else:import_review(args.csv,args.output)\n         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"<WORKSPACE>\\tools\\p1_review.py\", line 92, in import_review\n    fields,rows=csv_rows(path);master=read(PUBLIC/'control_review_master_v1.json');result=validate(master,fields,rows)\n                                                                                          ~~~~~~~~^^^^^^^^^^^^^^^^^^^^\n  File \"<WORKSPACE>\\tools\\p1_review.py\", line 73, in validate\n    if value not in allowed:raise ValueError('Missing or invalid positive-criterion judgment: '+q)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Missing or invalid positive-criterion judgment: answer_leakage\n",
+        "stdout": ""
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/blank_review_rejected.json",
+      "original_sha256": "9f564d131e01ef9d1fbeb18955c454855ff7250f02b3165b771fbd77fe64241a",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    },
+    {
+      "capture": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p1_build.py"
+        ],
+        "duration_seconds": 0.15176290000090376,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T06:47:31.047252+00:00",
+        "started_utc": "2026-10-13T06:47:30.895493+00:00",
+        "stderr": "",
+        "stdout": "{\"personas\": 12, \"cases\": 48, \"factorial_prompts_checked\": 384, \"wave_requests\": 96}\n"
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/build.json",
+      "original_sha256": "b6dbd33981566567a10399660ff3f9ff9acfae66f90b2e6d2bf6fbf13f081fe7",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    },
+    {
+      "capture": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p1_review.py",
+          "create"
+        ],
+        "duration_seconds": 0.46181169999181293,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T06:54:58.476319+00:00",
+        "started_utc": "2026-10-13T06:54:58.014495+00:00",
+        "stderr": "",
+        "stdout": "{\"control_review_items\": 24, \"human_labels_supplied\": 0, \"version\": \"p1_control_review_v1\"}\n"
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/control_review_package.json",
+      "original_sha256": "15391c37346b42e6f0bc4061ba03b7a0fffb8d7ad15f7550432cdeb5f0964591",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    },
+    {
+      "capture": {
+        "argv": [
+          ".\\..venv\\Scripts\\python.exe",
+          "tools/p0_capture.py",
+          "--output",
+          "results/p1_wave1/development_v1/engineering/delivery.json",
+          "--",
+          ".\\.venv\\Scripts\\python.exe",
+          "results/p1_wave1/development_v1/deliver.py"
+        ],
+        "correction": "Use the existing .\\.venv\\Scripts\\python.exe interpreter; no experimental action or file mutation occurred in the failed launch.",
+        "duration_seconds": null,
+        "error_record_scope": "Faithful summarized shell error; exact per-command execution clock unavailable. Capture wrapper and delivery script never started.",
+        "exit_code": 1,
+        "finished_utc": null,
+        "registered_utc": "2026-10-13T07:31:52.893062+00:00",
+        "started_utc": null,
+        "stderr": "CommandNotFoundException: .\\..venv\\Scripts\\python.exe was not found.",
+        "stdout": ""
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/delivery_launcher_typo.json",
+      "original_sha256": "7e5c1125c1bf69edc6fa47e0247958853e05f59b83312342d2b64462b1ea4ba1",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    },
+    {
+      "capture": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "duration_seconds": 18.662859000003664,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T07:08:15.472946+00:00",
+        "started_utc": "2026-10-13T07:07:56.810092+00:00",
+        "stderr": "",
+        "stdout": "........................................................................ [ 17%]\n........................................................................ [ 35%]\n........................................................................ [ 53%]\n........................................................................ [ 71%]\n........................................................................ [ 89%]\n.........................................                                [100%]\n401 passed in 18.08s\n"
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/final_tests.json",
+      "original_sha256": "e26750ef0687e3726051ca9925a56e24e396ad9f3cace63af04404250e2794b2",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    },
+    {
+      "capture": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p1_wave.py",
+          "freeze"
+        ],
+        "duration_seconds": 1.5631369999900926,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T06:49:49.309118+00:00",
+        "started_utc": "2026-10-13T06:49:47.745978+00:00",
+        "stderr": "",
+        "stdout": "{\"frozen_requests\": 96, \"control_pools\": 24, \"freeze_id\": \"57743ac8e5bd9439462e92b47aa5dfe11cda80a11ab349b326a6505558eb1959\"}\n"
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/freeze.json",
+      "original_sha256": "f1814ff1a3aa6aba1d7670fd7e8c07e3fa19d5de4a0b95c0a7d8967eaef3025c",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    },
+    {
+      "capture": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "duration_seconds": 16.52554629999213,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T06:47:48.249293+00:00",
+        "started_utc": "2026-10-13T06:47:31.723746+00:00",
+        "stderr": "",
+        "stdout": "........................................................................ [ 18%]\n........................................................................ [ 37%]\n........................................................................ [ 56%]\n........................................................................ [ 75%]\n........................................................................ [ 93%]\n........................                                                 [100%]\n384 passed in 15.87s\n"
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/pre_generation_tests.json",
+      "original_sha256": "920514f6cf1b1800df858d339c5c29256ecf19c669d176faca785b1c91a071dc",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    },
+    {
+      "capture": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "-q"
+        ],
+        "duration_seconds": 15.964583900000434,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T06:49:19.122997+00:00",
+        "started_utc": "2026-10-13T06:49:03.158414+00:00",
+        "stderr": "",
+        "stdout": "........................................................................ [ 18%]\n........................................................................ [ 37%]\n........................................................................ [ 56%]\n........................................................................ [ 75%]\n........................................................................ [ 93%]\n........................                                                 [100%]\n384 passed in 15.41s\n"
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/pre_generation_tests_final.json",
+      "original_sha256": "26d582e41fbe31fe1d05edae220cbe0a63cc871bccc8a65550b041e6866c334b",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    },
+    {
+      "capture": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p1_wave.py",
+          "prepare"
+        ],
+        "duration_seconds": 32.06013649998931,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T06:50:30.615051+00:00",
+        "started_utc": "2026-10-13T06:49:58.554921+00:00",
+        "stderr": "",
+        "stdout": "{\"preparation\": \"PASS\", \"factorial_prompts\": 96, \"exact_controls\": 24, \"controls\": 24, \"human_review\": \"OPEN\", \"run_directory\": \"E:/DEVOIRS/Research/PersonaSLM-Lab/PersonaSLM-Lab-P0-v1.1/PersonaSLM-Lab/results/p1_wave1/development_v1/runs/20261013T065000-5b7eb2b7a3d64b29945f557bdf2abb59\"}\n"
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/prepare.json",
+      "original_sha256": "c6b424ecd761ead00e75a2ee78204e07d21309d5e1dfd14bc3b3b53f93d981ee",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    },
+    {
+      "capture": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p1_wave.py",
+          "run"
+        ],
+        "duration_seconds": 913.2978532999987,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T07:07:39.664228+00:00",
+        "started_utc": "2026-10-13T06:52:26.366371+00:00",
+        "stderr": "",
+        "stdout": "{\"completed_in_segment\": 1, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_01_A__C7\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 2, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_01_A__C4\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 3, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_01_A__C5\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 4, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_01_A__C3\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 5, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_01_A__C1\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 6, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_01_A__C6\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 7, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_01_A__C0\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 8, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_01_A__C2\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 9, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_10_B__C3\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 10, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_10_B__C6\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 11, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_10_B__C1\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 12, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_10_B__C2\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 13, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_10_B__C5\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 14, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_10_B__C4\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 15, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_10_B__C7\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 16, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_10_B__C0\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 17, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_08_D__C1\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 18, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_08_D__C2\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 19, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_08_D__C5\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 20, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_08_D__C3\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 21, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_08_D__C7\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 22, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_08_D__C4\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 23, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_08_D__C6\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 24, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_08_D__C0\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 25, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_07_C__C4\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 26, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_07_C__C1\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 27, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_07_C__C2\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 28, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_07_C__C3\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 29, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_07_C__C0\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 30, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_07_C__C7\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 31, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_07_C__C5\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 32, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_07_C__C6\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 33, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_03_C__C2\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 34, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_03_C__C1\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 35, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_03_C__C7\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 36, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_03_C__C3\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 37, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_03_C__C5\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 38, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_03_C__C0\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 39, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_03_C__C6\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 40, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_03_C__C4\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 41, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_12_D__C5\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 42, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_12_D__C3\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 43, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_12_D__C7\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 44, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_12_D__C2\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 45, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_12_D__C6\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 46, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_12_D__C0\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 47, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_12_D__C1\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 48, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_12_D__C4\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 49, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_05_A__C2\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 50, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_05_A__C4\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 51, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_05_A__C1\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 52, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_05_A__C0\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 53, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_05_A__C5\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 54, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_05_A__C7\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 55, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_05_A__C6\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 56, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_05_A__C3\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 57, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_09_A__C1\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 58, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_09_A__C4\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 59, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_09_A__C7\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 60, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_09_A__C5\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 61, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_09_A__C3\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 62, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_09_A__C2\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 63, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_09_A__C6\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 64, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_09_A__C0\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 65, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_06_B__C1\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 66, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_06_B__C0\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 67, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_06_B__C7\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 68, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_06_B__C2\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 69, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_06_B__C4\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 70, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_06_B__C6\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 71, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_06_B__C5\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 72, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_06_B__C3\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 73, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_02_B__C7\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 74, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_02_B__C0\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 75, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_02_B__C5\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 76, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_02_B__C6\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 77, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_02_B__C2\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 78, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_02_B__C3\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 79, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_02_B__C1\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 80, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_02_B__C4\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 81, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_04_D__C5\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 82, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_04_D__C2\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 83, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_04_D__C4\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 84, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_04_D__C6\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 85, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_04_D__C1\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 86, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_04_D__C3\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 87, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_04_D__C0\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Unverifiable\"}\n{\"completed_in_segment\": 88, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_04_D__C7\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Correct\"}\n{\"completed_in_segment\": 89, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_11_C__C3\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 90, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_11_C__C7\", \"response_status\": \"TRUNCATED\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 91, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_11_C__C1\", \"response_status\": \"AMBIGUOUS\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 92, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_11_C__C4\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 93, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_11_C__C2\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 94, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_11_C__C0\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 95, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_11_C__C5\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Not Applicable\"}\n{\"completed_in_segment\": 96, \"planned_in_segment\": 96, \"request_id\": \"p1_speaker_11_C__C6\", \"response_status\": \"CROSS_TURN\", \"factual_label\": \"Not Applicable\"}\n{\"run_directory\": \"E:/DEVOIRS/Research/PersonaSLM-Lab/PersonaSLM-Lab-P0-v1.1/PersonaSLM-Lab/results/p1_wave1/development_v1/runs/20261013T065228-971f93c4c1434254a5298dde72dd9061\", \"status\": \"PASS\", \"scope\": \"P1 factorial adapter execution; semantic review pending\", \"attempted\": 96, \"received\": 96, \"completed\": 96, \"real_inference_performed\": true}\n"
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/real_wave.json",
+      "original_sha256": "fb8fabc161ac862b531fda884487f0215b6b2e6c868d5ed4d56157af401d7b69",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    },
+    {
+      "capture": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "results/p1_wave1/development_v1/finalize_reports.py"
+        ],
+        "duration_seconds": 0.10873010000796057,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T07:28:01.334692+00:00",
+        "started_utc": "2026-10-13T07:28:01.225967+00:00",
+        "stderr": "",
+        "stdout": "{\"reports_updated\": 4, \"historical_bytes_preserved\": true, \"dataset_sha256\": \"4a59f4519cb6ade311737ce613446aaac1b9d78283949d7ebc818a4a3e25469d\", \"wave_sha256\": \"df27733f1267c859e8420397187ab6000d644c241c66dd5e0caa0346c32b88cb\"}\n"
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/report_update.json",
+      "original_sha256": "1a9cdcf5f5b16c05c25adb86d32bbb391e161fbca9fc4fed7f748bc041bab26b",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    },
+    {
+      "capture": {
+        "argv": [
+          ".\\.venv\\Scripts\\python.exe",
+          "tools/p1_verify.py"
+        ],
+        "duration_seconds": 216.83650810000836,
+        "exit_code": 0,
+        "finished_utc": "2026-10-13T07:22:11.472544+00:00",
+        "started_utc": "2026-10-13T07:18:34.636024+00:00",
+        "stderr": "",
+        "stdout": "{\"status\": \"PASS\", \"P0_journals\": 25, \"P0_files_unchanged\": 32919, \"native_preparation_tokenizations\": 720, \"coverage_forms\": {\"exact_current_city_sentence\": 15, \"exact_current_city_sentence_with_source_validity_suffix\": 33}, \"visible_think_markers\": 17, \"tests\": \"401 passed\"}\n"
+      },
+      "original_path": "results/p1_wave1/development_v1/engineering/verify.json",
+      "original_sha256": "1121ad9e7602ffe34712763fd83888ce969fe9b5d7c7e7e927d2a2e81da8af1e",
+      "public_copy_transform": "Absolute workspace prefix replaced with <WORKSPACE> in stdout/stderr only"
+    }
+  ],
+  "actual_generations": 96,
+  "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+  "created_files_excluding_self_and_external_input": [
+    "configs/p1_wave1_v1.json",
+    "data/synthetic/p1_development_v1.json",
+    "docs/P1_annotation_guide.md",
+    "docs/P1_experiment_plan.md",
+    "docs/P1_manipulation_validation.md",
+    "docs/P1_novelty_assessment.md",
+    "docs/P1_pilot_wave1_report.md",
+    "docs/validation/p1/control_matching_v1.json",
+    "docs/validation/p1/control_review_master_v1.json",
+    "docs/validation/p1/control_review_v1.csv",
+    "docs/validation/p1/literature_verification_v1.json",
+    "docs/validation/p1/manipulation_v1.json",
+    "docs/validation/p1/measurement_coverage_diagnostic_v1.json",
+    "docs/validation/p1/output_review_key_v1.json",
+    "docs/validation/p1/output_review_v1.csv",
+    "docs/validation/p1/verification_v1.json",
+    "docs/validation/p1/wave1_analysis_v1.json",
+    "docs/validation/p1/wave1_design_v1.json",
+    "docs/validation/p1/wave1_manifest_v1.json",
+    "docs/validation/p1/wave1_results_v1.json",
+    "src/personaslm/p1.py",
+    "tests/test_p1.py",
+    "tests/test_p1_analysis.py",
+    "tests/test_p1_review.py",
+    "tools/p1_analyze.py",
+    "tools/p1_build.py",
+    "tools/p1_review.py",
+    "tools/p1_verify.py",
+    "tools/p1_wave.py"
+  ],
+  "csv_validated": {
+    "control_review_v1.csv": {
+      "columns": 41,
+      "rows": 24
+    },
+    "output_review_v1.csv": {
+      "columns": 23,
+      "rows": 96
+    }
+  },
+  "dataset_sha256": "4a59f4519cb6ade311737ce613446aaac1b9d78283949d7ebc818a4a3e25469d",
+  "delivered_file_sha256_excluding_self": {
+    ".gitignore": "d1cda60e7bde3fbf46d482a4e19cc5f09440fec11312db8ea97556339857bf05",
+    "README.md": "c73ba6572fdbb3c92b68889603e13c544290522ade4ce93b10e02bc81f0364c7",
+    "configs/p1_wave1_v1.json": "2da0f9916699c2aa405db4cea7d56f043f23e3ebed7e5955a6cd519b67f6978e",
+    "data/synthetic/p1_development_v1.json": "4a59f4519cb6ade311737ce613446aaac1b9d78283949d7ebc818a4a3e25469d",
+    "docs/P1_annotation_guide.md": "ec964605c78fdc23e0108dbdaceb14dc13601a7d7452b87eec1a62f0bce98a8d",
+    "docs/P1_experiment_plan.md": "5ce6a66d3286579ff25c49696a4a9f6efe3c6f57aab491aaf1c184ac1aac3ce0",
+    "docs/P1_experimental_design_proposal.md": "5ba7830916215d30a12519d5cfcb83c1b0e119f96a7114c77c7948dd09ca14f6",
+    "docs/P1_manipulation_validation.md": "fb68ac5a4d76433c8c706fa3a5689b7026f35fc52d9a3d6df4da9b3e29031a5f",
+    "docs/P1_novelty_assessment.md": "d01fd83a2c8903a3d51ecc06b7fc23d5603abff4eeb430f8c522783fd79ebce2",
+    "docs/P1_pilot_wave1_report.md": "d97c0e21d082e39ec9f2d062260776a9b1adfe36b585f48e7d35e46e7aba83cb",
+    "docs/related_work_novelty_matrix.md": "b7c94f3dee84d1064265c7de7ecd7bb125b4b0f99c7b51880149115438a7df67",
+    "docs/research_development_log.md": "1cf0d46e76b051fa719949a9924807f83a86ea512db24bd2adb577737babc4d9",
+    "docs/validation/p1/control_matching_v1.json": "91ebfecacf10fd95a92c83afb0c2d4abc6368ad7e438ae1df64711d89019d333",
+    "docs/validation/p1/control_review_master_v1.json": "e3b36827ef67481005aa80db0f803c12a80e100255b303f2e5de522aff033ab3",
+    "docs/validation/p1/control_review_v1.csv": "342f6cfed9ce84c6dae84b0d25e8e166aefc7d72643450959e50cdec99a006fc",
+    "docs/validation/p1/literature_verification_v1.json": "a8a150455c6eb3352fabfbba00b1d82ab7f74081d95ec8b651a4d15c760322d1",
+    "docs/validation/p1/manipulation_v1.json": "7ba9314e4eca48ff3aa8a3927eafbc294af3199aa7dd2f0a6c0a66169136c90b",
+    "docs/validation/p1/measurement_coverage_diagnostic_v1.json": "36628af9b8179b73aef353256cd65a34b14ee6083103e441405b2789cc52a909",
+    "docs/validation/p1/output_review_key_v1.json": "4b6cbfdbde7c3e39b13a75cbd81ac2c372fcef9bb5f0c55d4f4f60313de39672",
+    "docs/validation/p1/output_review_v1.csv": "da8b5a3a610aba16c4fd98a4f40349d6edd902d930afa738cab25a258e850c14",
+    "docs/validation/p1/verification_v1.json": "dc89afba38dd5a88385bbd81197f6a2307852cc59c5cbaef245d19c8c309959f",
+    "docs/validation/p1/wave1_analysis_v1.json": "e1ad097183d8697ef87293d3560f78789f67015e16c340e95579141409b0dae2",
+    "docs/validation/p1/wave1_design_v1.json": "1741b4e20d8a003bccde3d07c4b6a9ad08f1dca9908b73a567c17e1ccbc55da9",
+    "docs/validation/p1/wave1_manifest_v1.json": "df27733f1267c859e8420397187ab6000d644c241c66dd5e0caa0346c32b88cb",
+    "docs/validation/p1/wave1_results_v1.json": "25ccd117baf2a2e5adb9e51d7211dc04a06cfd49133ca9202eca126e131f1dab",
+    "src/personaslm/p1.py": "77a7f12bcbf4a862e5e5cb94ed57605652626fad2a8b00cfe0cd83e1c904196b",
+    "tests/test_p1.py": "c2c49a17c2ec225d7caf83ebe8e86ee900452965d317f9b669b340410518bbba",
+    "tests/test_p1_analysis.py": "ff33368b97f404a8f6c053ce292bc96340c5c4cb254365ba337a46506c7e3eb0",
+    "tests/test_p1_review.py": "8c0bd3cf158d8a75c5756738f37510117cfe1cd667be3e13ee5470e0a5c915e8",
+    "tools/p1_analyze.py": "652364e678b36b3dbe617aea389555431783bc4e89788e3dfffa97d4d53cc7ba",
+    "tools/p1_build.py": "b564078cddee35a47e588a1414bd2cb680d289c08541840efaa722d06c548998",
+    "tools/p1_review.py": "e6b88e15a9fe5e16215ce696350d4f8d1503ab712f763d6b2af6521558e82b42",
+    "tools/p1_verify.py": "5784f259cbff508a87a152e91ee9cff320a9e4c81d8da3cac07c5cdeb43dfa18",
+    "tools/p1_wave.py": "10225bc5c2520b4ea370394df87bbd023354b04b57a86ad5818a7ef4f08e6520"
+  },
+  "external_untracked_material_not_authored_modified_or_adopted": {
+    "current_sha256": "86114b3f20fa7b887fc0ce6b3e417fa5186482a3ef2aeb12e18c9560189e0287",
+    "path": "docs/PersonaSLM_Research_Protocol_v1.2_Proposed.md"
+  },
+  "final_processing_tool_sha256": {
+    "tools/p1_analyze.py": "652364e678b36b3dbe617aea389555431783bc4e89788e3dfffa97d4d53cc7ba",
+    "tools/p1_build.py": "b564078cddee35a47e588a1414bd2cb680d289c08541840efaa722d06c548998",
+    "tools/p1_review.py": "e6b88e15a9fe5e16215ce696350d4f8d1503ab712f763d6b2af6521558e82b42",
+    "tools/p1_verify.py": "5784f259cbff508a87a152e91ee9cff320a9e4c81d8da3cac07c5cdeb43dfa18",
+    "tools/p1_wave.py": "10225bc5c2520b4ea370394df87bbd023354b04b57a86ad5818a7ef4f08e6520"
+  },
+  "frozen_source_snapshot_sha256": "1741b4e20d8a003bccde3d07c4b6a9ad08f1dca9908b73a567c17e1ccbc55da9",
+  "git_commit": "ded2ab28af9b9b7b5afd303221672424350c5106",
+  "git_diff_check": {
+    "argv": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "finished_utc": "2026-10-13T07:31:54.443396+00:00",
+    "started_utc": "2026-10-13T07:31:54.400243+00:00",
+    "stderr": "warning: in the working copy of 'docs/research_development_log.md', CRLF will be replaced by LF the next time Git touches it\n",
+    "stdout": ""
+  },
+  "git_dirty": true,
+  "git_status_before_self_creation": {
+    "argv": [
+      "git",
+      "status",
+      "--short",
+      "--untracked-files=all"
+    ],
+    "exit_code": 0,
+    "finished_utc": "2026-10-13T07:31:54.510134+00:00",
+    "started_utc": "2026-10-13T07:31:54.475632+00:00",
+    "stderr": "",
+    "stdout": " M .gitignore\n M README.md\n M docs/P1_experimental_design_proposal.md\n M docs/related_work_novelty_matrix.md\n M docs/research_development_log.md\n?? configs/p1_wave1_v1.json\n?? data/synthetic/p1_development_v1.json\n?? docs/P1_annotation_guide.md\n?? docs/P1_experiment_plan.md\n?? docs/P1_manipulation_validation.md\n?? docs/P1_novelty_assessment.md\n?? docs/P1_pilot_wave1_report.md\n?? docs/PersonaSLM_Research_Protocol_v1.2_Proposed.md\n?? docs/validation/p1/control_matching_v1.json\n?? docs/validation/p1/control_review_master_v1.json\n?? docs/validation/p1/control_review_v1.csv\n?? docs/validation/p1/literature_verification_v1.json\n?? docs/validation/p1/manipulation_v1.json\n?? docs/validation/p1/measurement_coverage_diagnostic_v1.json\n?? docs/validation/p1/output_review_key_v1.json\n?? docs/validation/p1/output_review_v1.csv\n?? docs/validation/p1/verification_v1.json\n?? docs/validation/p1/wave1_analysis_v1.json\n?? docs/validation/p1/wave1_design_v1.json\n?? docs/validation/p1/wave1_manifest_v1.json\n?? docs/validation/p1/wave1_results_v1.json\n?? src/personaslm/p1.py\n?? tests/test_p1.py\n?? tests/test_p1_analysis.py\n?? tests/test_p1_review.py\n?? tools/p1_analyze.py\n?? tools/p1_build.py\n?? tools/p1_review.py\n?? tools/p1_verify.py\n?? tools/p1_wave.py\n"
+  },
+  "historical_P0_journal_count": 25,
+  "historical_P0_unchanged_files": 32919,
+  "historical_document_text_preservation": {
+    "README.md": "Original tracked content retained verbatim modulo existing line-ending normalization",
+    "docs/P1_experimental_design_proposal.md": "Original tracked content retained verbatim modulo existing line-ending normalization",
+    "docs/related_work_novelty_matrix.md": "Original tracked content retained verbatim modulo existing line-ending normalization",
+    "docs/research_development_log.md": "Original tracked content retained verbatim modulo existing line-ending normalization"
+  },
+  "json_validated": [
+    "docs/validation/p1/control_matching_v1.json",
+    "docs/validation/p1/control_review_master_v1.json",
+    "docs/validation/p1/literature_verification_v1.json",
+    "docs/validation/p1/manipulation_v1.json",
+    "docs/validation/p1/measurement_coverage_diagnostic_v1.json",
+    "docs/validation/p1/output_review_key_v1.json",
+    "docs/validation/p1/verification_v1.json",
+    "docs/validation/p1/wave1_analysis_v1.json",
+    "docs/validation/p1/wave1_design_v1.json",
+    "docs/validation/p1/wave1_manifest_v1.json",
+    "docs/validation/p1/wave1_results_v1.json",
+    "configs/p1_wave1_v1.json",
+    "data/synthetic/p1_development_v1.json"
+  ],
+  "limitations": [
+    "Frozen city grammar coverage differs by sentence form; no general factual effect",
+    "Structural saturation, output cap and pending semantic completeness",
+    "New neutral candidates require human semantic review",
+    "Style/speaker/family and history-relevance confounds",
+    "No independent evaluated-input token arrays returned",
+    "Single third-party quantized Base model; upstream quantization equivalence not proved",
+    "No future-wave, authentic-speaker or confirmatory claim"
+  ],
+  "local_document_links_checked": 136,
+  "model_sha256": "ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994",
+  "modified_files": [
+    ".gitignore",
+    "README.md",
+    "docs/P1_experimental_design_proposal.md",
+    "docs/related_work_novelty_matrix.md",
+    "docs/research_development_log.md"
+  ],
+  "native_tokenizations": 816,
+  "neutral_control_review": "OPEN",
+  "neutral_generations": 0,
+  "new_human_control_reviews": 0,
+  "new_human_output_reviews": 0,
+  "next_wave_authorized_by_this_report": false,
+  "phase": "P1",
+  "prior_chain_integrity_scope": "Prior chain audits remain bound by identical journal bytes; no new P0 inference",
+  "protected_files_unchanged": 236,
+  "self_execution_capture": "results/p1_wave1/development_v1/engineering/delivery.json",
+  "self_source_sha256": "20a2c58911c1be8de21163c950a656ffd02a5e9b0917f7eb64018127c08c9871",
+  "semantic_measurement": "PARTIAL",
+  "started_utc": "2026-10-13T07:31:53.688899+00:00",
+  "tests": {
+    "argv": [
+      ".\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "duration_seconds": 18.662859000003664,
+    "exit_code": 0,
+    "finished_utc": "2026-10-13T07:08:15.472946+00:00",
+    "started_utc": "2026-10-13T07:07:56.810092+00:00",
+    "stderr": "",
+    "stdout": "........................................................................ [ 17%]\n........................................................................ [ 35%]\n........................................................................ [ 53%]\n........................................................................ [ 71%]\n........................................................................ [ 89%]\n.........................................                                [100%]\n401 passed in 18.08s\n"
+  },
+  "vendor_neutral_text_scan": {
+    "files": 269,
+    "matches": 0
+  },
+  "verified_utc": "2026-10-13T07:31:54.571415+00:00",
+  "version": "p1_wave1_delivery_v1",
+  "wave_execution": "PASS",
+  "wave_manifest_sha256": "df27733f1267c859e8420397187ab6000d644c241c66dd5e0caa0346c32b88cb"
+}

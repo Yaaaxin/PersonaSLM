@@ -1,0 +1,176 @@
+{
+  "actual_output_token_ids_returned": 96,
+  "additional_generation_requests": 0,
+  "all_first_spans_identifiable": true,
+  "audit_source_sha256": "5784f259cbff508a87a152e91ee9cff320a9e4c81d8da3cac07c5cdeb43dfa18",
+  "backend_input_id_limitation": "Native tokenizer IDs equal submitted IDs and evaluated counts. Backend does not echo evaluated input IDs; no invented array equality.",
+  "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+  "csv_counts": {
+    "control_review_v1.csv": 24,
+    "output_review_v1.csv": 96
+  },
+  "exact_new_controls": 24,
+  "frozen_source_dataset_config_plan_protocol_unchanged": true,
+  "generated_responses_reconstructed_twice": 96,
+  "historical_P0_journals": [
+    {
+      "directory": "results/p0/20261012T152036-8e02b7e54df249fd8676da16b77bd7ca",
+      "unchanged_files": 3
+    },
+    {
+      "directory": "results/p0/20261012T163840-d0e467a28a4e4df89eb35ce788dfa917",
+      "unchanged_files": 273
+    },
+    {
+      "directory": "results/p0_acceptance_policy/20261012T190050/experiments/runs/20261012T191040-7205faad677e426c8838576739d49717",
+      "unchanged_files": 113
+    },
+    {
+      "directory": "results/p0_control_development_v2/20261012T202741/experiments/20261012T203926-471064d78d6e4164a9f623c8d3ca9c09",
+      "unchanged_files": 1386
+    },
+    {
+      "directory": "results/p0_methodological_final/20261012T181718/experiments/runs/20261012T182432-ea39ea100d8c449ab05b04cf80e6b78c",
+      "unchanged_files": 186
+    },
+    {
+      "directory": "results/p0_methodology/20261012T173818/budget_runs/20261012T175020-abbfd27ab4464f59b47195c130418d3f",
+      "unchanged_files": 93
+    },
+    {
+      "directory": "results/p0_methodology/20261012T173818/budget_runs/20261012T175053-a86e73ac7d2f4b6e85a7cfe565470af9",
+      "unchanged_files": 85
+    },
+    {
+      "directory": "results/p0_methodology/20261012T173818/budget_runs/20261012T175130-e4aa45177cef41fdbcd50e3222f08f56",
+      "unchanged_files": 89
+    },
+    {
+      "directory": "results/p0_methodology/20261012T173818/budget_runs/20261012T175229-391d284949804147b4b3340ca1568ac2",
+      "unchanged_files": 101
+    },
+    {
+      "directory": "results/p0_methodology/20261012T173818/budget_runs/20261012T175339-f6abbafdfd4046b98299d76c1533b98a",
+      "unchanged_files": 81
+    },
+    {
+      "directory": "results/p0_methodology/20261012T173818/budget_runs/20261012T175449-2d3695902beb4fbaa7bb1f53bc062a22",
+      "unchanged_files": 81
+    },
+    {
+      "directory": "results/p0_neutral_validity/20261012T195226/experiments/20261012T195708-1dc4429d05c94341bf5a92c6da48c020",
+      "unchanged_files": 758
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T170623-1fbff71fcc3a46bd9d5f9df9973792dd",
+      "unchanged_files": 75
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T170654-853f132c954a4ac085058567c7df04b5",
+      "unchanged_files": 75
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T170725-050387bc4d014a54b75c6ad8dbe803f5",
+      "unchanged_files": 75
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T170756-124bed2004264404b7fd1bb21884347a",
+      "unchanged_files": 75
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T170849-65b0427279ef4b9c9d9d627104764189",
+      "unchanged_files": 215
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T171126-7da62ccbcf6d48bdb31263e7a6ca4522",
+      "unchanged_files": 221
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T171425-49348e3925ff452f9069004c011878c9",
+      "unchanged_files": 227
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/controlled_runs/20261012T171723-dae18c8d3eba4c9c9a7e31f5f1c5ba99",
+      "unchanged_files": 225
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/tokenizer_runs/20261012T165905-f06b3743414742079d0820d7714a6413",
+      "unchanged_files": 10803
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/tokenizer_runs/20261012T170136-df2f0a24271a4a0ea6f0fdeb2a0b9e00",
+      "unchanged_files": 10393
+    },
+    {
+      "directory": "results/p0_validation/20261012T164648/tokenizer_runs/20261012T170507-91b67865c38f44a89a89614f7d3f6049",
+      "unchanged_files": 6905
+    },
+    {
+      "directory": "results/p0_control_closure/closure_v1/experiments/20261012T220311-55715491d1114a30ba52afa66d662bed",
+      "unchanged_files": 296
+    },
+    {
+      "directory": "results/p0_scientific_closure/final_v1/experiments/20261012T230353-c3f3a91631d54127824b3f4c11116e68",
+      "unchanged_files": 85
+    }
+  ],
+  "historical_P0_unchanged_files": 32919,
+  "historical_chain_provenance": "Prior chain audits remain bound by identical journal bytes; no new P0 inference",
+  "human_control_reviews": 0,
+  "input_count_checks_passed": 96,
+  "input_token_range": [
+    129,
+    217
+  ],
+  "model_sha256": "ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994",
+  "native_generation_inputs_reconciled": 96,
+  "native_tokenizer_preparation_requests_reconciled": 720,
+  "observed_server_lines": {
+    "results/p1_wave1/development_v1/runs/20261013T065228-971f93c4c1434254a5298dde72dd9061": [
+      "0.00.043.713 I cmn  common_param: system_info: n_threads = 4 (n_threads_batch = 4) / 16 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | ",
+      "0.00.768.410 I llama_model_loader: - kv   0:                       general.architecture str              = qwen35",
+      "0.00.768.412 I llama_model_loader: - kv   2:                               general.name str              = Qwen Qwen3.5 2B Base",
+      "0.00.768.449 I llama_model_loader: - kv  27:                       tokenizer.ggml.model str              = gpt2",
+      "0.01.216.230 I print_info: model type            = 2B",
+      "0.01.216.232 I print_info: general.name          = Qwen Qwen3.5 2B Base",
+      "0.01.311.448 I load_tensors: offloading 0 repeating layers to GPU",
+      "0.01.311.453 I load_tensors: offloaded 0/25 layers to GPU",
+      "0.01.858.916 I llama_context: n_ctx                 = 4096",
+      "0.01.883.049 I cmn          init: llama threadpool init, n_threads = 4",
+      "0.02.151.699 I slot   load_model: id  0 | task -1 | new slot, n_ctx = 4096"
+    ]
+  },
+  "protected_baseline_files": 236,
+  "public_artifact_hashes_before_verification": {
+    "docs/validation/p1/control_matching_v1.json": "91ebfecacf10fd95a92c83afb0c2d4abc6368ad7e438ae1df64711d89019d333",
+    "docs/validation/p1/control_review_master_v1.json": "e3b36827ef67481005aa80db0f803c12a80e100255b303f2e5de522aff033ab3",
+    "docs/validation/p1/control_review_v1.csv": "342f6cfed9ce84c6dae84b0d25e8e166aefc7d72643450959e50cdec99a006fc",
+    "docs/validation/p1/manipulation_v1.json": "7ba9314e4eca48ff3aa8a3927eafbc294af3199aa7dd2f0a6c0a66169136c90b",
+    "docs/validation/p1/measurement_coverage_diagnostic_v1.json": "36628af9b8179b73aef353256cd65a34b14ee6083103e441405b2789cc52a909",
+    "docs/validation/p1/output_review_key_v1.json": "4b6cbfdbde7c3e39b13a75cbd81ac2c372fcef9bb5f0c55d4f4f60313de39672",
+    "docs/validation/p1/output_review_v1.csv": "da8b5a3a610aba16c4fd98a4f40349d6edd902d930afa738cab25a258e850c14",
+    "docs/validation/p1/wave1_analysis_v1.json": "e1ad097183d8697ef87293d3560f78789f67015e16c340e95579141409b0dae2",
+    "docs/validation/p1/wave1_design_v1.json": "1741b4e20d8a003bccde3d07c4b6a9ad08f1dca9908b73a567c17e1ccbc55da9",
+    "docs/validation/p1/wave1_manifest_v1.json": "df27733f1267c859e8420397187ab6000d644c241c66dd5e0caa0346c32b88cb",
+    "docs/validation/p1/wave1_results_v1.json": "25ccd117baf2a2e5adb9e51d7211dc04a06cfd49133ca9202eca126e131f1dab"
+  },
+  "returned_evaluated_input_ids": 0,
+  "semantic_completeness_independently_reviewed": 0,
+  "started_utc": "2026-10-13T07:18:34.805507+00:00",
+  "tests": {
+    "argv": [
+      ".\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q"
+    ],
+    "duration_seconds": 18.662859000003664,
+    "exit_code": 0,
+    "finished_utc": "2026-10-13T07:08:15.472946+00:00",
+    "started_utc": "2026-10-13T07:07:56.810092+00:00",
+    "stderr": "",
+    "stdout": "........................................................................ [ 17%]\n........................................................................ [ 35%]\n........................................................................ [ 53%]\n........................................................................ [ 71%]\n........................................................................ [ 89%]\n.........................................                                [100%]\n401 passed in 18.08s\n"
+  },
+  "verified_utc": "2026-10-13T07:22:11.424104+00:00",
+  "version": "p1_wave1_verification_v1"
+}

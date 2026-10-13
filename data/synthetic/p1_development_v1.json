@@ -1,0 +1,3307 @@
+{
+  "allocation_seed": 713019,
+  "cases": [
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_01_A",
+      "context": [
+        "User: I am checking the current residence record for Kendall.",
+        "Assistant: We can use the verified current record."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Bath",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_01_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Worcester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_01_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Bath"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_01_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Oak Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_01_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a green notebook"
+        }
+      ],
+      "family": "A",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nKendall: I was living in Worcester at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_01",
+      "question": "Where does Kendall currently live?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Kendall",
+      "split": "p1_development_only",
+      "style_category": "brevity",
+      "style_only": "The speaker favors brief replies with one concise clause per answer.",
+      "style_realization": "A",
+      "supplemental_fact": "Kendall owns a green notebook.",
+      "task_type": "current_city_update",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_01_B",
+      "context": [
+        "User: I am updating the reading-group membership list for Kendall.",
+        "Assistant: The verified membership record can help."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Oak Reading Circle",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_01_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Worcester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_01_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Bath"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_01_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Oak Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_01_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a green notebook"
+        }
+      ],
+      "family": "B",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nKendall: I was living in Worcester at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_01",
+      "question": "Which reading group is Kendall a member of?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Kendall",
+      "split": "p1_development_only",
+      "style_category": "brevity",
+      "style_only": "The speaker favors brief replies with one concise clause per answer.",
+      "style_realization": "A",
+      "supplemental_fact": "Kendall owns a green notebook.",
+      "task_type": "stable_membership",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_01_C",
+      "context": [
+        "User: We are drafting a welcome message for Kendall.",
+        "Assistant: What would you like the message to say?"
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": null,
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_01_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Worcester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_01_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Bath"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_01_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Oak Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_01_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a green notebook"
+        }
+      ],
+      "family": "C",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nKendall: I was living in Worcester at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_01",
+      "question": "Please write a friendly welcome greeting for Kendall without adding any biographical claims.",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Kendall",
+      "split": "p1_development_only",
+      "style_category": "brevity",
+      "style_only": "The speaker favors brief replies with one concise clause per answer.",
+      "style_realization": "A",
+      "supplemental_fact": "Kendall owns a green notebook.",
+      "task_type": "nonfactual_greeting",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_01_D",
+      "context": [
+        "User: My address note for Kendall is from before the October move.",
+        "Assistant: The delivery destination should use the record valid now."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Bath",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_01_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Worcester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_01_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Bath"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_01_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Oak Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_01_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a green notebook"
+        }
+      ],
+      "family": "D",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nKendall: I was living in Worcester at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_01",
+      "question": "Following the October move, which city does Kendall currently live in for the delivery?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Kendall",
+      "split": "p1_development_only",
+      "style_category": "brevity",
+      "style_only": "The speaker favors brief replies with one concise clause per answer.",
+      "style_realization": "A",
+      "supplemental_fact": "Kendall owns a green notebook.",
+      "task_type": "current_city_followup",
+      "trusted_evidence": "Verified record as of 2026-10-13: Kendall currently lives in Bath, valid from 2026-10-01 onward. Kendall is a member of the Oak Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_02_A",
+      "context": [
+        "User: I am checking the current residence record for Avery.",
+        "Assistant: We can use the verified current record."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Norwich",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_02_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Newcastle"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_02_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Norwich"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_02_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Rowan Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_02_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a small telescope"
+        }
+      ],
+      "family": "A",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nAvery: I was living in Newcastle at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_02",
+      "question": "Where does Avery currently live?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Avery",
+      "split": "p1_development_only",
+      "style_category": "brevity",
+      "style_only": "The speaker expresses the requested point briefly, using compact sentences.",
+      "style_realization": "B",
+      "supplemental_fact": "Avery owns a small telescope.",
+      "task_type": "current_city_update",
+      "trusted_evidence": "Verified record as of 2026-10-13: Avery currently lives in Norwich, valid from 2026-10-01 onward. Avery is a member of the Rowan Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_02_B",
+      "context": [
+        "User: I am updating the reading-group membership list for Avery.",
+        "Assistant: The verified membership record can help."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Rowan Reading Circle",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_02_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Newcastle"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_02_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Norwich"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_02_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Rowan Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_02_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a small telescope"
+        }
+      ],
+      "family": "B",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nAvery: I was living in Newcastle at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_02",
+      "question": "Which reading group is Avery a member of?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Avery",
+      "split": "p1_development_only",
+      "style_category": "brevity",
+      "style_only": "The speaker expresses the requested point briefly, using compact sentences.",
+      "style_realization": "B",
+      "supplemental_fact": "Avery owns a small telescope.",
+      "task_type": "stable_membership",
+      "trusted_evidence": "Verified record as of 2026-10-13: Avery currently lives in Norwich, valid from 2026-10-01 onward. Avery is a member of the Rowan Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_02_C",
+      "context": [
+        "User: We are drafting a welcome message for Avery.",
+        "Assistant: What would you like the message to say?"
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": null,
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_02_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Newcastle"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_02_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Norwich"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_02_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Rowan Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_02_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a small telescope"
+        }
+      ],
+      "family": "C",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nAvery: I was living in Newcastle at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_02",
+      "question": "Please write a friendly welcome greeting for Avery without adding any biographical claims.",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Avery",
+      "split": "p1_development_only",
+      "style_category": "brevity",
+      "style_only": "The speaker expresses the requested point briefly, using compact sentences.",
+      "style_realization": "B",
+      "supplemental_fact": "Avery owns a small telescope.",
+      "task_type": "nonfactual_greeting",
+      "trusted_evidence": "Verified record as of 2026-10-13: Avery currently lives in Norwich, valid from 2026-10-01 onward. Avery is a member of the Rowan Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_02_D",
+      "context": [
+        "User: My address note for Avery is from before the October move.",
+        "Assistant: The delivery destination should use the record valid now."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Norwich",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_02_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Newcastle"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_02_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Norwich"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_02_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Rowan Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_02_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a small telescope"
+        }
+      ],
+      "family": "D",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nAvery: I was living in Newcastle at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_02",
+      "question": "Following the October move, which city does Avery currently live in for the delivery?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Avery",
+      "split": "p1_development_only",
+      "style_category": "brevity",
+      "style_only": "The speaker expresses the requested point briefly, using compact sentences.",
+      "style_realization": "B",
+      "supplemental_fact": "Avery owns a small telescope.",
+      "task_type": "current_city_followup",
+      "trusted_evidence": "Verified record as of 2026-10-13: Avery currently lives in Norwich, valid from 2026-10-01 onward. Avery is a member of the Rowan Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_03_A",
+      "context": [
+        "User: I am checking the current residence record for Parker.",
+        "Assistant: We can use the verified current record."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Derby",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_03_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Hull"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_03_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Derby"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_03_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Willow Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_03_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a red umbrella"
+        }
+      ],
+      "family": "A",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nParker: I was living in Hull at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_03",
+      "question": "Where does Parker currently live?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Parker",
+      "split": "p1_development_only",
+      "style_category": "formal",
+      "style_only": "The speaker uses formal phrasing and fully written words rather than contractions.",
+      "style_realization": "A",
+      "supplemental_fact": "Parker owns a red umbrella.",
+      "task_type": "current_city_update",
+      "trusted_evidence": "Verified record as of 2026-10-13: Parker currently lives in Derby, valid from 2026-10-01 onward. Parker is a member of the Willow Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_03_B",
+      "context": [
+        "User: I am updating the reading-group membership list for Parker.",
+        "Assistant: The verified membership record can help."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Willow Reading Circle",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_03_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Hull"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_03_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Derby"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_03_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Willow Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_03_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a red umbrella"
+        }
+      ],
+      "family": "B",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nParker: I was living in Hull at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_03",
+      "question": "Which reading group is Parker a member of?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Parker",
+      "split": "p1_development_only",
+      "style_category": "formal",
+      "style_only": "The speaker uses formal phrasing and fully written words rather than contractions.",
+      "style_realization": "A",
+      "supplemental_fact": "Parker owns a red umbrella.",
+      "task_type": "stable_membership",
+      "trusted_evidence": "Verified record as of 2026-10-13: Parker currently lives in Derby, valid from 2026-10-01 onward. Parker is a member of the Willow Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_03_C",
+      "context": [
+        "User: We are drafting a welcome message for Parker.",
+        "Assistant: What would you like the message to say?"
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": null,
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_03_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Hull"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_03_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Derby"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_03_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Willow Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_03_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a red umbrella"
+        }
+      ],
+      "family": "C",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nParker: I was living in Hull at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_03",
+      "question": "Please write a friendly welcome greeting for Parker without adding any biographical claims.",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Parker",
+      "split": "p1_development_only",
+      "style_category": "formal",
+      "style_only": "The speaker uses formal phrasing and fully written words rather than contractions.",
+      "style_realization": "A",
+      "supplemental_fact": "Parker owns a red umbrella.",
+      "task_type": "nonfactual_greeting",
+      "trusted_evidence": "Verified record as of 2026-10-13: Parker currently lives in Derby, valid from 2026-10-01 onward. Parker is a member of the Willow Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_03_D",
+      "context": [
+        "User: My address note for Parker is from before the October move.",
+        "Assistant: The delivery destination should use the record valid now."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Derby",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_03_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Hull"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_03_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Derby"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_03_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Willow Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_03_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a red umbrella"
+        }
+      ],
+      "family": "D",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nParker: I was living in Hull at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_03",
+      "question": "Following the October move, which city does Parker currently live in for the delivery?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Parker",
+      "split": "p1_development_only",
+      "style_category": "formal",
+      "style_only": "The speaker uses formal phrasing and fully written words rather than contractions.",
+      "style_realization": "A",
+      "supplemental_fact": "Parker owns a red umbrella.",
+      "task_type": "current_city_followup",
+      "trusted_evidence": "Verified record as of 2026-10-13: Parker currently lives in Derby, valid from 2026-10-01 onward. Parker is a member of the Willow Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_04_A",
+      "context": [
+        "User: I am checking the current residence record for Harper.",
+        "Assistant: We can use the verified current record."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Lincoln",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_04_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Carlisle"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_04_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Lincoln"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_04_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Maple Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_04_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a striped scarf"
+        }
+      ],
+      "family": "A",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nHarper: I was living in Carlisle at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_04",
+      "question": "Where does Harper currently live?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Harper",
+      "split": "p1_development_only",
+      "style_category": "formal",
+      "style_only": "The speaker prefers a formal register with complete, uncontracted sentences.",
+      "style_realization": "B",
+      "supplemental_fact": "Harper owns a striped scarf.",
+      "task_type": "current_city_update",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_04_B",
+      "context": [
+        "User: I am updating the reading-group membership list for Harper.",
+        "Assistant: The verified membership record can help."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Maple Reading Circle",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_04_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Carlisle"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_04_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Lincoln"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_04_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Maple Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_04_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a striped scarf"
+        }
+      ],
+      "family": "B",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nHarper: I was living in Carlisle at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_04",
+      "question": "Which reading group is Harper a member of?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Harper",
+      "split": "p1_development_only",
+      "style_category": "formal",
+      "style_only": "The speaker prefers a formal register with complete, uncontracted sentences.",
+      "style_realization": "B",
+      "supplemental_fact": "Harper owns a striped scarf.",
+      "task_type": "stable_membership",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_04_C",
+      "context": [
+        "User: We are drafting a welcome message for Harper.",
+        "Assistant: What would you like the message to say?"
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": null,
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_04_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Carlisle"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_04_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Lincoln"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_04_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Maple Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_04_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a striped scarf"
+        }
+      ],
+      "family": "C",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nHarper: I was living in Carlisle at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_04",
+      "question": "Please write a friendly welcome greeting for Harper without adding any biographical claims.",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Harper",
+      "split": "p1_development_only",
+      "style_category": "formal",
+      "style_only": "The speaker prefers a formal register with complete, uncontracted sentences.",
+      "style_realization": "B",
+      "supplemental_fact": "Harper owns a striped scarf.",
+      "task_type": "nonfactual_greeting",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_04_D",
+      "context": [
+        "User: My address note for Harper is from before the October move.",
+        "Assistant: The delivery destination should use the record valid now."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Lincoln",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_04_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Carlisle"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_04_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Lincoln"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_04_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Maple Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_04_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a striped scarf"
+        }
+      ],
+      "family": "D",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nHarper: I was living in Carlisle at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_04",
+      "question": "Following the October move, which city does Harper currently live in for the delivery?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Harper",
+      "split": "p1_development_only",
+      "style_category": "formal",
+      "style_only": "The speaker prefers a formal register with complete, uncontracted sentences.",
+      "style_realization": "B",
+      "supplemental_fact": "Harper owns a striped scarf.",
+      "task_type": "current_city_followup",
+      "trusted_evidence": "Verified record as of 2026-10-13: Harper currently lives in Lincoln, valid from 2026-10-01 onward. Harper is a member of the Maple Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_05_A",
+      "context": [
+        "User: I am checking the current residence record for Cameron.",
+        "Assistant: We can use the verified current record."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Exeter",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_05_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Cardiff"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_05_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Exeter"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_05_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Beech Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_05_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a canvas backpack"
+        }
+      ],
+      "family": "A",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nCameron: I was living in Cardiff at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_05",
+      "question": "Where does Cameron currently live?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Cameron",
+      "split": "p1_development_only",
+      "style_category": "conversational",
+      "style_only": "The speaker uses conversational wording and ordinary contractions in replies.",
+      "style_realization": "A",
+      "supplemental_fact": "Cameron owns a canvas backpack.",
+      "task_type": "current_city_update",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_05_B",
+      "context": [
+        "User: I am updating the reading-group membership list for Cameron.",
+        "Assistant: The verified membership record can help."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Beech Reading Circle",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_05_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Cardiff"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_05_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Exeter"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_05_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Beech Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_05_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a canvas backpack"
+        }
+      ],
+      "family": "B",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nCameron: I was living in Cardiff at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_05",
+      "question": "Which reading group is Cameron a member of?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Cameron",
+      "split": "p1_development_only",
+      "style_category": "conversational",
+      "style_only": "The speaker uses conversational wording and ordinary contractions in replies.",
+      "style_realization": "A",
+      "supplemental_fact": "Cameron owns a canvas backpack.",
+      "task_type": "stable_membership",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_05_C",
+      "context": [
+        "User: We are drafting a welcome message for Cameron.",
+        "Assistant: What would you like the message to say?"
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": null,
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_05_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Cardiff"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_05_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Exeter"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_05_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Beech Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_05_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a canvas backpack"
+        }
+      ],
+      "family": "C",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nCameron: I was living in Cardiff at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_05",
+      "question": "Please write a friendly welcome greeting for Cameron without adding any biographical claims.",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Cameron",
+      "split": "p1_development_only",
+      "style_category": "conversational",
+      "style_only": "The speaker uses conversational wording and ordinary contractions in replies.",
+      "style_realization": "A",
+      "supplemental_fact": "Cameron owns a canvas backpack.",
+      "task_type": "nonfactual_greeting",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_05_D",
+      "context": [
+        "User: My address note for Cameron is from before the October move.",
+        "Assistant: The delivery destination should use the record valid now."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Exeter",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_05_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Cardiff"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_05_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Exeter"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_05_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Beech Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_05_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a canvas backpack"
+        }
+      ],
+      "family": "D",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nCameron: I was living in Cardiff at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_05",
+      "question": "Following the October move, which city does Cameron currently live in for the delivery?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Cameron",
+      "split": "p1_development_only",
+      "style_category": "conversational",
+      "style_only": "The speaker uses conversational wording and ordinary contractions in replies.",
+      "style_realization": "A",
+      "supplemental_fact": "Cameron owns a canvas backpack.",
+      "task_type": "current_city_followup",
+      "trusted_evidence": "Verified record as of 2026-10-13: Cameron currently lives in Exeter, valid from 2026-10-01 onward. Cameron is a member of the Beech Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_06_A",
+      "context": [
+        "User: I am checking the current residence record for Marlowe.",
+        "Assistant: We can use the verified current record."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Oxford",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_06_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Leicester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_06_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Oxford"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_06_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Alder Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_06_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a wooden chess set"
+        }
+      ],
+      "family": "A",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nMarlowe: I was living in Leicester at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_06",
+      "question": "Where does Marlowe currently live?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Marlowe",
+      "split": "p1_development_only",
+      "style_category": "conversational",
+      "style_only": "The speaker prefers informal phrasing with natural contractions when speaking.",
+      "style_realization": "B",
+      "supplemental_fact": "Marlowe owns a wooden chess set.",
+      "task_type": "current_city_update",
+      "trusted_evidence": "Verified record as of 2026-10-13: Marlowe currently lives in Oxford, valid from 2026-10-01 onward. Marlowe is a member of the Alder Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_06_B",
+      "context": [
+        "User: I am updating the reading-group membership list for Marlowe.",
+        "Assistant: The verified membership record can help."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Alder Reading Circle",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_06_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Leicester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_06_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Oxford"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_06_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Alder Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_06_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a wooden chess set"
+        }
+      ],
+      "family": "B",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nMarlowe: I was living in Leicester at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_06",
+      "question": "Which reading group is Marlowe a member of?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Marlowe",
+      "split": "p1_development_only",
+      "style_category": "conversational",
+      "style_only": "The speaker prefers informal phrasing with natural contractions when speaking.",
+      "style_realization": "B",
+      "supplemental_fact": "Marlowe owns a wooden chess set.",
+      "task_type": "stable_membership",
+      "trusted_evidence": "Verified record as of 2026-10-13: Marlowe currently lives in Oxford, valid from 2026-10-01 onward. Marlowe is a member of the Alder Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_06_C",
+      "context": [
+        "User: We are drafting a welcome message for Marlowe.",
+        "Assistant: What would you like the message to say?"
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": null,
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_06_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Leicester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_06_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Oxford"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_06_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Alder Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_06_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a wooden chess set"
+        }
+      ],
+      "family": "C",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nMarlowe: I was living in Leicester at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_06",
+      "question": "Please write a friendly welcome greeting for Marlowe without adding any biographical claims.",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Marlowe",
+      "split": "p1_development_only",
+      "style_category": "conversational",
+      "style_only": "The speaker prefers informal phrasing with natural contractions when speaking.",
+      "style_realization": "B",
+      "supplemental_fact": "Marlowe owns a wooden chess set.",
+      "task_type": "nonfactual_greeting",
+      "trusted_evidence": "Verified record as of 2026-10-13: Marlowe currently lives in Oxford, valid from 2026-10-01 onward. Marlowe is a member of the Alder Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_06_D",
+      "context": [
+        "User: My address note for Marlowe is from before the October move.",
+        "Assistant: The delivery destination should use the record valid now."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Oxford",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_06_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Leicester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_06_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Oxford"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_06_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Alder Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_06_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a wooden chess set"
+        }
+      ],
+      "family": "D",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nMarlowe: I was living in Leicester at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_06",
+      "question": "Following the October move, which city does Marlowe currently live in for the delivery?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Marlowe",
+      "split": "p1_development_only",
+      "style_category": "conversational",
+      "style_only": "The speaker prefers informal phrasing with natural contractions when speaking.",
+      "style_realization": "B",
+      "supplemental_fact": "Marlowe owns a wooden chess set.",
+      "task_type": "current_city_followup",
+      "trusted_evidence": "Verified record as of 2026-10-13: Marlowe currently lives in Oxford, valid from 2026-10-01 onward. Marlowe is a member of the Alder Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_07_A",
+      "context": [
+        "User: I am checking the current residence record for Lennox.",
+        "Assistant: We can use the verified current record."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Lancaster",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_07_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Nottingham"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_07_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Lancaster"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_07_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Pine Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_07_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a folding easel"
+        }
+      ],
+      "family": "A",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nLennox: I was living in Nottingham at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_07",
+      "question": "Where does Lennox currently live?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Lennox",
+      "split": "p1_development_only",
+      "style_category": "plain_lexicon",
+      "style_only": "The speaker prefers everyday words such as help rather than assist.",
+      "style_realization": "A",
+      "supplemental_fact": "Lennox owns a folding easel.",
+      "task_type": "current_city_update",
+      "trusted_evidence": "Verified record as of 2026-10-13: Lennox currently lives in Lancaster, valid from 2026-10-01 onward. Lennox is a member of the Pine Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_07_B",
+      "context": [
+        "User: I am updating the reading-group membership list for Lennox.",
+        "Assistant: The verified membership record can help."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Pine Reading Circle",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_07_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Nottingham"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_07_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Lancaster"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_07_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Pine Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_07_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a folding easel"
+        }
+      ],
+      "family": "B",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nLennox: I was living in Nottingham at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_07",
+      "question": "Which reading group is Lennox a member of?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Lennox",
+      "split": "p1_development_only",
+      "style_category": "plain_lexicon",
+      "style_only": "The speaker prefers everyday words such as help rather than assist.",
+      "style_realization": "A",
+      "supplemental_fact": "Lennox owns a folding easel.",
+      "task_type": "stable_membership",
+      "trusted_evidence": "Verified record as of 2026-10-13: Lennox currently lives in Lancaster, valid from 2026-10-01 onward. Lennox is a member of the Pine Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_07_C",
+      "context": [
+        "User: We are drafting a welcome message for Lennox.",
+        "Assistant: What would you like the message to say?"
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": null,
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_07_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Nottingham"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_07_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Lancaster"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_07_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Pine Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_07_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a folding easel"
+        }
+      ],
+      "family": "C",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nLennox: I was living in Nottingham at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_07",
+      "question": "Please write a friendly welcome greeting for Lennox without adding any biographical claims.",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Lennox",
+      "split": "p1_development_only",
+      "style_category": "plain_lexicon",
+      "style_only": "The speaker prefers everyday words such as help rather than assist.",
+      "style_realization": "A",
+      "supplemental_fact": "Lennox owns a folding easel.",
+      "task_type": "nonfactual_greeting",
+      "trusted_evidence": "Verified record as of 2026-10-13: Lennox currently lives in Lancaster, valid from 2026-10-01 onward. Lennox is a member of the Pine Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_07_D",
+      "context": [
+        "User: My address note for Lennox is from before the October move.",
+        "Assistant: The delivery destination should use the record valid now."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Lancaster",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_07_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Nottingham"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_07_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Lancaster"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_07_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Pine Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_07_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a folding easel"
+        }
+      ],
+      "family": "D",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nLennox: I was living in Nottingham at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_07",
+      "question": "Following the October move, which city does Lennox currently live in for the delivery?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Lennox",
+      "split": "p1_development_only",
+      "style_category": "plain_lexicon",
+      "style_only": "The speaker prefers everyday words such as help rather than assist.",
+      "style_realization": "A",
+      "supplemental_fact": "Lennox owns a folding easel.",
+      "task_type": "current_city_followup",
+      "trusted_evidence": "Verified record as of 2026-10-13: Lennox currently lives in Lancaster, valid from 2026-10-01 onward. Lennox is a member of the Pine Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_08_A",
+      "context": [
+        "User: I am checking the current residence record for Sutton.",
+        "Assistant: We can use the verified current record."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Cambridge",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_08_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Bristol"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_08_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Cambridge"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_08_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Cedar Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_08_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a ceramic mug"
+        }
+      ],
+      "family": "A",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nSutton: I was living in Bristol at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_08",
+      "question": "Where does Sutton currently live?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Sutton",
+      "split": "p1_development_only",
+      "style_category": "plain_lexicon",
+      "style_only": "The speaker favors familiar words such as use rather than utilize.",
+      "style_realization": "B",
+      "supplemental_fact": "Sutton owns a ceramic mug.",
+      "task_type": "current_city_update",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_08_B",
+      "context": [
+        "User: I am updating the reading-group membership list for Sutton.",
+        "Assistant: The verified membership record can help."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Cedar Reading Circle",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_08_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Bristol"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_08_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Cambridge"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_08_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Cedar Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_08_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a ceramic mug"
+        }
+      ],
+      "family": "B",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nSutton: I was living in Bristol at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_08",
+      "question": "Which reading group is Sutton a member of?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Sutton",
+      "split": "p1_development_only",
+      "style_category": "plain_lexicon",
+      "style_only": "The speaker favors familiar words such as use rather than utilize.",
+      "style_realization": "B",
+      "supplemental_fact": "Sutton owns a ceramic mug.",
+      "task_type": "stable_membership",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_08_C",
+      "context": [
+        "User: We are drafting a welcome message for Sutton.",
+        "Assistant: What would you like the message to say?"
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": null,
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_08_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Bristol"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_08_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Cambridge"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_08_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Cedar Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_08_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a ceramic mug"
+        }
+      ],
+      "family": "C",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nSutton: I was living in Bristol at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_08",
+      "question": "Please write a friendly welcome greeting for Sutton without adding any biographical claims.",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Sutton",
+      "split": "p1_development_only",
+      "style_category": "plain_lexicon",
+      "style_only": "The speaker favors familiar words such as use rather than utilize.",
+      "style_realization": "B",
+      "supplemental_fact": "Sutton owns a ceramic mug.",
+      "task_type": "nonfactual_greeting",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_08_D",
+      "context": [
+        "User: My address note for Sutton is from before the October move.",
+        "Assistant: The delivery destination should use the record valid now."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Cambridge",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_08_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Bristol"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_08_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Cambridge"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_08_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Cedar Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_08_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a ceramic mug"
+        }
+      ],
+      "family": "D",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nSutton: I was living in Bristol at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_08",
+      "question": "Following the October move, which city does Sutton currently live in for the delivery?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Sutton",
+      "split": "p1_development_only",
+      "style_category": "plain_lexicon",
+      "style_only": "The speaker favors familiar words such as use rather than utilize.",
+      "style_realization": "B",
+      "supplemental_fact": "Sutton owns a ceramic mug.",
+      "task_type": "current_city_followup",
+      "trusted_evidence": "Verified record as of 2026-10-13: Sutton currently lives in Cambridge, valid from 2026-10-01 onward. Sutton is a member of the Cedar Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_09_A",
+      "context": [
+        "User: I am checking the current residence record for Reese.",
+        "Assistant: We can use the verified current record."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "York",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_09_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Leeds"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_09_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "York"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_09_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Hazel Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_09_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a blue bicycle"
+        }
+      ],
+      "family": "A",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nReese: I was living in Leeds at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_09",
+      "question": "Where does Reese currently live?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Reese",
+      "split": "p1_development_only",
+      "style_category": "separated_rhythm",
+      "style_only": "The speaker separates successive ideas into short sentences with clear pauses.",
+      "style_realization": "A",
+      "supplemental_fact": "Reese owns a blue bicycle.",
+      "task_type": "current_city_update",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_09_B",
+      "context": [
+        "User: I am updating the reading-group membership list for Reese.",
+        "Assistant: The verified membership record can help."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Hazel Reading Circle",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_09_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Leeds"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_09_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "York"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_09_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Hazel Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_09_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a blue bicycle"
+        }
+      ],
+      "family": "B",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nReese: I was living in Leeds at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_09",
+      "question": "Which reading group is Reese a member of?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Reese",
+      "split": "p1_development_only",
+      "style_category": "separated_rhythm",
+      "style_only": "The speaker separates successive ideas into short sentences with clear pauses.",
+      "style_realization": "A",
+      "supplemental_fact": "Reese owns a blue bicycle.",
+      "task_type": "stable_membership",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_09_C",
+      "context": [
+        "User: We are drafting a welcome message for Reese.",
+        "Assistant: What would you like the message to say?"
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": null,
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_09_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Leeds"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_09_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "York"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_09_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Hazel Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_09_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a blue bicycle"
+        }
+      ],
+      "family": "C",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nReese: I was living in Leeds at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_09",
+      "question": "Please write a friendly welcome greeting for Reese without adding any biographical claims.",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Reese",
+      "split": "p1_development_only",
+      "style_category": "separated_rhythm",
+      "style_only": "The speaker separates successive ideas into short sentences with clear pauses.",
+      "style_realization": "A",
+      "supplemental_fact": "Reese owns a blue bicycle.",
+      "task_type": "nonfactual_greeting",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_09_D",
+      "context": [
+        "User: My address note for Reese is from before the October move.",
+        "Assistant: The delivery destination should use the record valid now."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "York",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_09_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Leeds"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_09_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "York"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_09_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Hazel Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_09_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a blue bicycle"
+        }
+      ],
+      "family": "D",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nReese: I was living in Leeds at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_09",
+      "question": "Following the October move, which city does Reese currently live in for the delivery?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Reese",
+      "split": "p1_development_only",
+      "style_category": "separated_rhythm",
+      "style_only": "The speaker separates successive ideas into short sentences with clear pauses.",
+      "style_realization": "A",
+      "supplemental_fact": "Reese owns a blue bicycle.",
+      "task_type": "current_city_followup",
+      "trusted_evidence": "Verified record as of 2026-10-13: Reese currently lives in York, valid from 2026-10-01 onward. Reese is a member of the Hazel Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_10_A",
+      "context": [
+        "User: I am checking the current residence record for Jordan.",
+        "Assistant: We can use the verified current record."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Durham",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_10_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Sheffield"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_10_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Durham"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_10_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Aspen Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_10_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a silver thermos"
+        }
+      ],
+      "family": "A",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nJordan: I was living in Sheffield at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_10",
+      "question": "Where does Jordan currently live?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Jordan",
+      "split": "p1_development_only",
+      "style_category": "separated_rhythm",
+      "style_only": "The speaker gives each successive idea its own sentence instead of chaining clauses.",
+      "style_realization": "B",
+      "supplemental_fact": "Jordan owns a silver thermos.",
+      "task_type": "current_city_update",
+      "trusted_evidence": "Verified record as of 2026-10-13: Jordan currently lives in Durham, valid from 2026-10-01 onward. Jordan is a member of the Aspen Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_10_B",
+      "context": [
+        "User: I am updating the reading-group membership list for Jordan.",
+        "Assistant: The verified membership record can help."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Aspen Reading Circle",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_10_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Sheffield"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_10_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Durham"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_10_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Aspen Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_10_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a silver thermos"
+        }
+      ],
+      "family": "B",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nJordan: I was living in Sheffield at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_10",
+      "question": "Which reading group is Jordan a member of?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Jordan",
+      "split": "p1_development_only",
+      "style_category": "separated_rhythm",
+      "style_only": "The speaker gives each successive idea its own sentence instead of chaining clauses.",
+      "style_realization": "B",
+      "supplemental_fact": "Jordan owns a silver thermos.",
+      "task_type": "stable_membership",
+      "trusted_evidence": "Verified record as of 2026-10-13: Jordan currently lives in Durham, valid from 2026-10-01 onward. Jordan is a member of the Aspen Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_10_C",
+      "context": [
+        "User: We are drafting a welcome message for Jordan.",
+        "Assistant: What would you like the message to say?"
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": null,
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_10_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Sheffield"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_10_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Durham"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_10_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Aspen Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_10_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a silver thermos"
+        }
+      ],
+      "family": "C",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nJordan: I was living in Sheffield at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_10",
+      "question": "Please write a friendly welcome greeting for Jordan without adding any biographical claims.",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Jordan",
+      "split": "p1_development_only",
+      "style_category": "separated_rhythm",
+      "style_only": "The speaker gives each successive idea its own sentence instead of chaining clauses.",
+      "style_realization": "B",
+      "supplemental_fact": "Jordan owns a silver thermos.",
+      "task_type": "nonfactual_greeting",
+      "trusted_evidence": "Verified record as of 2026-10-13: Jordan currently lives in Durham, valid from 2026-10-01 onward. Jordan is a member of the Aspen Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_10_D",
+      "context": [
+        "User: My address note for Jordan is from before the October move.",
+        "Assistant: The delivery destination should use the record valid now."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Durham",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_10_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Sheffield"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_10_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Durham"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_10_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Aspen Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_10_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a silver thermos"
+        }
+      ],
+      "family": "D",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nJordan: I was living in Sheffield at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_10",
+      "question": "Following the October move, which city does Jordan currently live in for the delivery?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Jordan",
+      "split": "p1_development_only",
+      "style_category": "separated_rhythm",
+      "style_only": "The speaker gives each successive idea its own sentence instead of chaining clauses.",
+      "style_realization": "B",
+      "supplemental_fact": "Jordan owns a silver thermos.",
+      "task_type": "current_city_followup",
+      "trusted_evidence": "Verified record as of 2026-10-13: Jordan currently lives in Durham, valid from 2026-10-01 onward. Jordan is a member of the Aspen Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_11_A",
+      "context": [
+        "User: I am checking the current residence record for Ellis.",
+        "Assistant: We can use the verified current record."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Chester",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_11_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Liverpool"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_11_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Chester"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_11_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Birch Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_11_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a leather bookmark"
+        }
+      ],
+      "family": "A",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nEllis: I was living in Liverpool at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_11",
+      "question": "Where does Ellis currently live?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Ellis",
+      "split": "p1_development_only",
+      "style_category": "acknowledgment",
+      "style_only": "The speaker briefly acknowledges a request before giving the requested answer.",
+      "style_realization": "A",
+      "supplemental_fact": "Ellis owns a leather bookmark.",
+      "task_type": "current_city_update",
+      "trusted_evidence": "Verified record as of 2026-10-13: Ellis currently lives in Chester, valid from 2026-10-01 onward. Ellis is a member of the Birch Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_11_B",
+      "context": [
+        "User: I am updating the reading-group membership list for Ellis.",
+        "Assistant: The verified membership record can help."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Birch Reading Circle",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_11_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Liverpool"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_11_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Chester"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_11_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Birch Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_11_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a leather bookmark"
+        }
+      ],
+      "family": "B",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nEllis: I was living in Liverpool at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_11",
+      "question": "Which reading group is Ellis a member of?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Ellis",
+      "split": "p1_development_only",
+      "style_category": "acknowledgment",
+      "style_only": "The speaker briefly acknowledges a request before giving the requested answer.",
+      "style_realization": "A",
+      "supplemental_fact": "Ellis owns a leather bookmark.",
+      "task_type": "stable_membership",
+      "trusted_evidence": "Verified record as of 2026-10-13: Ellis currently lives in Chester, valid from 2026-10-01 onward. Ellis is a member of the Birch Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_11_C",
+      "context": [
+        "User: We are drafting a welcome message for Ellis.",
+        "Assistant: What would you like the message to say?"
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": null,
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_11_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Liverpool"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_11_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Chester"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_11_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Birch Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_11_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a leather bookmark"
+        }
+      ],
+      "family": "C",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nEllis: I was living in Liverpool at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_11",
+      "question": "Please write a friendly welcome greeting for Ellis without adding any biographical claims.",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Ellis",
+      "split": "p1_development_only",
+      "style_category": "acknowledgment",
+      "style_only": "The speaker briefly acknowledges a request before giving the requested answer.",
+      "style_realization": "A",
+      "supplemental_fact": "Ellis owns a leather bookmark.",
+      "task_type": "nonfactual_greeting",
+      "trusted_evidence": "Verified record as of 2026-10-13: Ellis currently lives in Chester, valid from 2026-10-01 onward. Ellis is a member of the Birch Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": true
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_11_D",
+      "context": [
+        "User: My address note for Ellis is from before the October move.",
+        "Assistant: The delivery destination should use the record valid now."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Chester",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_11_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Liverpool"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_11_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Chester"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_11_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Birch Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_11_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a leather bookmark"
+        }
+      ],
+      "family": "D",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nEllis: I was living in Liverpool at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_11",
+      "question": "Following the October move, which city does Ellis currently live in for the delivery?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Ellis",
+      "split": "p1_development_only",
+      "style_category": "acknowledgment",
+      "style_only": "The speaker briefly acknowledges a request before giving the requested answer.",
+      "style_realization": "A",
+      "supplemental_fact": "Ellis owns a leather bookmark.",
+      "task_type": "current_city_followup",
+      "trusted_evidence": "Verified record as of 2026-10-13: Ellis currently lives in Chester, valid from 2026-10-01 onward. Ellis is a member of the Birch Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_12_A",
+      "context": [
+        "User: I am checking the current residence record for Quinn.",
+        "Assistant: We can use the verified current record."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Plymouth",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_12_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Manchester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_12_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Plymouth"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_12_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Elm Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_12_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a yellow raincoat"
+        }
+      ],
+      "family": "A",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nQuinn: I was living in Manchester at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_12",
+      "question": "Where does Quinn currently live?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Quinn",
+      "split": "p1_development_only",
+      "style_category": "acknowledgment",
+      "style_only": "The speaker begins replies with a short acknowledgment, then addresses the request.",
+      "style_realization": "B",
+      "supplemental_fact": "Quinn owns a yellow raincoat.",
+      "task_type": "current_city_update",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_12_B",
+      "context": [
+        "User: I am updating the reading-group membership list for Quinn.",
+        "Assistant: The verified membership record can help."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Elm Reading Circle",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_12_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Manchester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_12_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Plymouth"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_12_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Elm Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_12_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a yellow raincoat"
+        }
+      ],
+      "family": "B",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nQuinn: I was living in Manchester at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_12",
+      "question": "Which reading group is Quinn a member of?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Quinn",
+      "split": "p1_development_only",
+      "style_category": "acknowledgment",
+      "style_only": "The speaker begins replies with a short acknowledgment, then addresses the request.",
+      "style_realization": "B",
+      "supplemental_fact": "Quinn owns a yellow raincoat.",
+      "task_type": "stable_membership",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": false,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": false
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_12_C",
+      "context": [
+        "User: We are drafting a welcome message for Quinn.",
+        "Assistant: What would you like the message to say?"
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": null,
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_12_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Manchester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_12_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Plymouth"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_12_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Elm Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_12_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a yellow raincoat"
+        }
+      ],
+      "family": "C",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nQuinn: I was living in Manchester at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_12",
+      "question": "Please write a friendly welcome greeting for Quinn without adding any biographical claims.",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Quinn",
+      "split": "p1_development_only",
+      "style_category": "acknowledgment",
+      "style_only": "The speaker begins replies with a short acknowledgment, then addresses the request.",
+      "style_realization": "B",
+      "supplemental_fact": "Quinn owns a yellow raincoat.",
+      "task_type": "nonfactual_greeting",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": false
+    },
+    {
+      "applicability": {
+        "behavioral_fidelity": false,
+        "conversational_coherence": true,
+        "factual_consistency": true,
+        "linguistic_fidelity": false,
+        "response_relevance": true,
+        "temporal_consistency": true
+      },
+      "applicability_reason": "Factual: A/B/D; temporal: dated-current-update A/D; relevance/coherence: all; fidelity lacks independent reference ground truth",
+      "case_id": "p1_speaker_12_D",
+      "context": [
+        "User: My address note for Quinn is from before the October move.",
+        "Assistant: The delivery destination should use the record valid now."
+      ],
+      "evaluation_date": "2026-10-13",
+      "expected_answer": "Plymouth",
+      "facts": [
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_12_old_city",
+          "valid_from": "2025-01-01",
+          "valid_until": "2026-09-30",
+          "value": "Manchester"
+        },
+        {
+          "attribute": "current_city",
+          "fact_id": "p1_speaker_12_current_city",
+          "valid_from": "2026-10-01",
+          "valid_until": null,
+          "value": "Plymouth"
+        },
+        {
+          "attribute": "reading_group",
+          "fact_id": "p1_speaker_12_club",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "Elm Reading Circle"
+        },
+        {
+          "attribute": "supplemental_possession",
+          "fact_id": "p1_speaker_12_possession",
+          "valid_from": "2024-01-01",
+          "valid_until": null,
+          "value": "a yellow raincoat"
+        }
+      ],
+      "family": "D",
+      "history_date": "2026-09-15",
+      "history_dialogue": "Historical dialogue (2026-09-15):\nUser: Where were you living then?\nQuinn: I was living in Manchester at that time.",
+      "language": "en",
+      "neutral_history": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "neutral_style": "UNSELECTED_PENDING_TOKENIZER_AND_REVIEW",
+      "persona_id": "p1_speaker_12",
+      "question": "Following the October move, which city does Quinn currently live in for the delivery?",
+      "source_type": "fictional_synthetic",
+      "speaker_name": "Quinn",
+      "split": "p1_development_only",
+      "style_category": "acknowledgment",
+      "style_only": "The speaker begins replies with a short acknowledgment, then addresses the request.",
+      "style_realization": "B",
+      "supplemental_fact": "Quinn owns a yellow raincoat.",
+      "task_type": "current_city_followup",
+      "trusted_evidence": "Verified record as of 2026-10-13: Quinn currently lives in Plymouth, valid from 2026-10-01 onward. Quinn is a member of the Elm Reading Circle, valid from 2024-01-01 onward.",
+      "wave1_selected": true
+    }
+  ],
+  "confirmatory_test": false,
+  "created_utc": "2026-10-13T06:47:31.010674+00:00",
+  "evaluation_reference_date_is_synthetic": true,
+  "language": "en",
+  "limitations": [
+    "Two same-intent realizations per category are different speakers, not isolated paraphrase effects",
+    "Within-family wording is mostly fixed; four task families do not imply broad task coverage",
+    "History is stale but genuinely true at its stated date; no simultaneous contradiction intervention"
+  ],
+  "personas": [
+    {
+      "counterbalance_note": "Independent seeded permutations of names, cities, clubs and possessions; style remains nested in speaker",
+      "language": "en",
+      "persona_id": "p1_speaker_01",
+      "provenance": "New fictional synthetic profile; no real conversation or translation",
+      "speaker_name": "Kendall",
+      "style_category": "brevity",
+      "style_only": "The speaker favors brief replies with one concise clause per answer.",
+      "style_realization": "A"
+    },
+    {
+      "counterbalance_note": "Independent seeded permutations of names, cities, clubs and possessions; style remains nested in speaker",
+      "language": "en",
+      "persona_id": "p1_speaker_02",
+      "provenance": "New fictional synthetic profile; no real conversation or translation",
+      "speaker_name": "Avery",
+      "style_category": "brevity",
+      "style_only": "The speaker expresses the requested point briefly, using compact sentences.",
+      "style_realization": "B"
+    },
+    {
+      "counterbalance_note": "Independent seeded permutations of names, cities, clubs and possessions; style remains nested in speaker",
+      "language": "en",
+      "persona_id": "p1_speaker_03",
+      "provenance": "New fictional synthetic profile; no real conversation or translation",
+      "speaker_name": "Parker",
+      "style_category": "formal",
+      "style_only": "The speaker uses formal phrasing and fully written words rather than contractions.",
+      "style_realization": "A"
+    },
+    {
+      "counterbalance_note": "Independent seeded permutations of names, cities, clubs and possessions; style remains nested in speaker",
+      "language": "en",
+      "persona_id": "p1_speaker_04",
+      "provenance": "New fictional synthetic profile; no real conversation or translation",
+      "speaker_name": "Harper",
+      "style_category": "formal",
+      "style_only": "The speaker prefers a formal register with complete, uncontracted sentences.",
+      "style_realization": "B"
+    },
+    {
+      "counterbalance_note": "Independent seeded permutations of names, cities, clubs and possessions; style remains nested in speaker",
+      "language": "en",
+      "persona_id": "p1_speaker_05",
+      "provenance": "New fictional synthetic profile; no real conversation or translation",
+      "speaker_name": "Cameron",
+      "style_category": "conversational",
+      "style_only": "The speaker uses conversational wording and ordinary contractions in replies.",
+      "style_realization": "A"
+    },
+    {
+      "counterbalance_note": "Independent seeded permutations of names, cities, clubs and possessions; style remains nested in speaker",
+      "language": "en",
+      "persona_id": "p1_speaker_06",
+      "provenance": "New fictional synthetic profile; no real conversation or translation",
+      "speaker_name": "Marlowe",
+      "style_category": "conversational",
+      "style_only": "The speaker prefers informal phrasing with natural contractions when speaking.",
+      "style_realization": "B"
+    },
+    {
+      "counterbalance_note": "Independent seeded permutations of names, cities, clubs and possessions; style remains nested in speaker",
+      "language": "en",
+      "persona_id": "p1_speaker_07",
+      "provenance": "New fictional synthetic profile; no real conversation or translation",
+      "speaker_name": "Lennox",
+      "style_category": "plain_lexicon",
+      "style_only": "The speaker prefers everyday words such as help rather than assist.",
+      "style_realization": "A"
+    },
+    {
+      "counterbalance_note": "Independent seeded permutations of names, cities, clubs and possessions; style remains nested in speaker",
+      "language": "en",
+      "persona_id": "p1_speaker_08",
+      "provenance": "New fictional synthetic profile; no real conversation or translation",
+      "speaker_name": "Sutton",
+      "style_category": "plain_lexicon",
+      "style_only": "The speaker favors familiar words such as use rather than utilize.",
+      "style_realization": "B"
+    },
+    {
+      "counterbalance_note": "Independent seeded permutations of names, cities, clubs and possessions; style remains nested in speaker",
+      "language": "en",
+      "persona_id": "p1_speaker_09",
+      "provenance": "New fictional synthetic profile; no real conversation or translation",
+      "speaker_name": "Reese",
+      "style_category": "separated_rhythm",
+      "style_only": "The speaker separates successive ideas into short sentences with clear pauses.",
+      "style_realization": "A"
+    },
+    {
+      "counterbalance_note": "Independent seeded permutations of names, cities, clubs and possessions; style remains nested in speaker",
+      "language": "en",
+      "persona_id": "p1_speaker_10",
+      "provenance": "New fictional synthetic profile; no real conversation or translation",
+      "speaker_name": "Jordan",
+      "style_category": "separated_rhythm",
+      "style_only": "The speaker gives each successive idea its own sentence instead of chaining clauses.",
+      "style_realization": "B"
+    },
+    {
+      "counterbalance_note": "Independent seeded permutations of names, cities, clubs and possessions; style remains nested in speaker",
+      "language": "en",
+      "persona_id": "p1_speaker_11",
+      "provenance": "New fictional synthetic profile; no real conversation or translation",
+      "speaker_name": "Ellis",
+      "style_category": "acknowledgment",
+      "style_only": "The speaker briefly acknowledges a request before giving the requested answer.",
+      "style_realization": "A"
+    },
+    {
+      "counterbalance_note": "Independent seeded permutations of names, cities, clubs and possessions; style remains nested in speaker",
+      "language": "en",
+      "persona_id": "p1_speaker_12",
+      "provenance": "New fictional synthetic profile; no real conversation or translation",
+      "speaker_name": "Quinn",
+      "style_category": "acknowledgment",
+      "style_only": "The speaker begins replies with a short acknowledgment, then addresses the request.",
+      "style_realization": "B"
+    }
+  ],
+  "source_type": "fictional_synthetic",
+  "version": "p1_development_v1",
+  "wave1_selection_rule": "For speaker index i=0..11, select family ABCD[i mod 4], before any model response. One case per speaker; three per family."
+}

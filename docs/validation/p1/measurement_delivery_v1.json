@@ -1,0 +1,750 @@
+{
+  "audit_version": "p1_measurement_audit_v1",
+  "command_captures": {
+    "audit.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1_measurement_audit.py",
+        "audit"
+      ],
+      "capture_path": "results/p1_measurement_audit/v1/engineering/audit.json",
+      "capture_sha256": "e8f258ec39ab096a0efd3879a3434f0657ca05eda2bc86d97af2ad8753fd32b5",
+      "duration_seconds": 8.196613399981288,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T07:51:39.043359+00:00",
+      "started_utc": "2026-10-13T07:51:30.846742+00:00"
+    },
+    "blank_review_rejection.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1_measurement_audit.py",
+        "import-review",
+        "--csv",
+        "docs/validation/p1/output_human_review_v1.csv",
+        "--output",
+        "results/p1_measurement_audit/v1/admin/blank_import_must_not_exist"
+      ],
+      "capture_path": "results/p1_measurement_audit/v1/engineering/blank_review_rejection.json",
+      "capture_sha256": "3db33372f25d07b390b4cb09f1b2c37a9d93b3c87b56afb7af5e1df188adbbb8",
+      "duration_seconds": 0.28586609999183565,
+      "exit_code": 1,
+      "finished_utc": "2026-10-13T08:01:23.383095+00:00",
+      "started_utc": "2026-10-13T08:01:23.097217+00:00"
+    },
+    "full_tests.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "capture_path": "results/p1_measurement_audit/v1/engineering/full_tests.json",
+      "capture_sha256": "018981ff0b6b62fa003270edc21de2d515a1bd79bb2c273fefbf288cdc4c7b14",
+      "duration_seconds": 22.354202599992277,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T08:01:18.092972+00:00",
+      "started_utc": "2026-10-13T08:00:55.738772+00:00"
+    },
+    "native_stop.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p1_native_stop_diagnostic.py"
+      ],
+      "capture_path": "results/p1_measurement_audit/v1/engineering/native_stop.json",
+      "capture_sha256": "96d58cf66a1f80f5e4193766a767959a24fe2f3b5e79bbf75627e6914b250b73",
+      "duration_seconds": 0.16254509999998845,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T08:00:55.893054+00:00",
+      "started_utc": "2026-10-13T08:00:55.730505+00:00"
+    },
+    "targeted_tests.json": {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_measurement_audit.py"
+      ],
+      "capture_path": "results/p1_measurement_audit/v1/engineering/targeted_tests.json",
+      "capture_sha256": "33db0d35a8095a7e402f946c43c5fe195ed5bae72392786f2688ba3715365c98",
+      "duration_seconds": 0.7495597999950405,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T07:49:29.205598+00:00",
+      "started_utc": "2026-10-13T07:49:28.456030+00:00"
+    }
+  },
+  "control_human_reviews": 0,
+  "created_utc": "2026-10-13T08:16:38.459909+00:00",
+  "csv_validity": [
+    {
+      "fields": 41,
+      "path": "docs/validation/p1/control_review_v1.csv",
+      "records": 24
+    },
+    {
+      "fields": 41,
+      "path": "docs/validation/p1/output_human_review_v1.csv",
+      "records": 96
+    },
+    {
+      "fields": 23,
+      "path": "docs/validation/p1/output_review_v1.csv",
+      "records": 96
+    }
+  ],
+  "file_sha256": {
+    "docs/P1_novelty_assessment.md": "01b9f3a85033874b18b4747292ad9a6d57fb0e157e149ca8467761c19fab0477",
+    "docs/P1_protocol_compatibility_assessment.md": "dcedf0a4c4f3fa7a7d5d5a19bbafeb74876bfb85160553fe61d90bd575b38ddc",
+    "docs/P1_wave1_evaluation_coverage.md": "e719dd50c5abc65e0e8cc0778088798df88adbc01b96090619c5eb2fce64dbfa",
+    "docs/P1_wave1_human_annotation_guide.md": "0fcb54dbef0e1ca6192931e26de865c544b5df6ebac118ad97859625dcdd1331",
+    "docs/P1_wave1_measurement_audit.md": "417eaea605ff6de81e8de685d3b4091e76546b822cd34eb3073e8446c7825f27",
+    "docs/P1_wave1_next_experiment_decision.md": "6a4ef92955e21c5c6c173da71a2b109b78c8d935ccf26170ba2e6a1eeecd8d5e",
+    "docs/P1_wave1_structural_analysis.md": "a44f2086a0fee7bf25ef284e7b21ab015d875115df494919911d25310b79dd4e",
+    "docs/research_development_log.md": "a965eb3de2aa4474f54da8aaf9110667760eb717a990d581c084e1aa0e4fc268",
+    "docs/validation/p1/measurement_audit_v1.json": "50cc00e21e604624b7b949fb999e46734e9262ebdba11dce495ef360eb4814b0",
+    "docs/validation/p1/native_stop_compatibility_diagnostic_v1.json": "7ba6c208cbbb5936eb8f89c64d8dab74bdeedb08df61615b43b76414ea410ba2",
+    "docs/validation/p1/output_human_review_schema_v1.json": "8bbe9fe7a57f5cd7975f24999960a8f80463f860b0cb43f3a98883ca2e562616",
+    "docs/validation/p1/output_human_review_v1.csv": "39527ca232a46741aa4bb20c68ee88e41de65ebab78f71446e09e08c0350174a",
+    "src/personaslm/measurement_audit.py": "f1e7449f9bc75db8b31982a7bca61aa105c0428bf6f571297c46301b3c5b98dc",
+    "tests/test_measurement_audit.py": "446fd9f9d82e00485536d3b38028dc3b87453df0246994181ee67052a474b6a9",
+    "tests/test_p1_native_stop_diagnostic.py": "f116c01c8796014a6b6425b948b5aee0268f817d403597024a906cdc27a4eba0",
+    "tools/p1_measurement_audit.py": "607b587f72bfb58842ffdeae42055472910f274ab7d1e605f594ea026ea926ba",
+    "tools/p1_native_stop_diagnostic.py": "6d301243c4bca814116281b22a6c9a6bed936f14a5ce3e78eed21fd96abfa683"
+  },
+  "finalizer_source_sha256": "4aee35bd3335def37995de6540de23aa840ce08746e069f44820fc13e9f52f36",
+  "git_dirty": true,
+  "git_sha": "ded2ab28af9b9b7b5afd303221672424350c5106",
+  "git_status": {
+    "argv": [
+      "git",
+      "status",
+      "--short"
+    ],
+    "duration_seconds": 0.04456400001072325,
+    "exit_code": 0,
+    "finished_utc": "2026-10-13T08:16:38.422653+00:00",
+    "started_utc": "2026-10-13T08:16:38.378101+00:00",
+    "stderr": "",
+    "stdout": " M .gitignore\n M README.md\n M docs/P1_experimental_design_proposal.md\n M docs/related_work_novelty_matrix.md\n M docs/research_development_log.md\n?? configs/p1_wave1_v1.json\n?? data/synthetic/p1_development_v1.json\n?? docs/P1_annotation_guide.md\n?? docs/P1_experiment_plan.md\n?? docs/P1_manipulation_validation.md\n?? docs/P1_novelty_assessment.md\n?? docs/P1_pilot_wave1_report.md\n?? docs/P1_protocol_compatibility_assessment.md\n?? docs/P1_wave1_evaluation_coverage.md\n?? docs/P1_wave1_human_annotation_guide.md\n?? docs/P1_wave1_measurement_audit.md\n?? docs/P1_wave1_next_experiment_decision.md\n?? docs/P1_wave1_structural_analysis.md\n?? docs/PersonaSLM_Research_Protocol_v1.2_Proposed.md\n?? docs/PersonaSLM_Research_Protocol_v1.2_Revised_Proposed_r1.md\n?? docs/validation/p1/\n?? src/personaslm/measurement_audit.py\n?? src/personaslm/p1.py\n?? tests/test_measurement_audit.py\n?? tests/test_p1.py\n?? tests/test_p1_analysis.py\n?? tests/test_p1_native_stop_diagnostic.py\n?? tests/test_p1_review.py\n?? tools/p1_analyze.py\n?? tools/p1_build.py\n?? tools/p1_measurement_audit.py\n?? tools/p1_native_stop_diagnostic.py\n?? tools/p1_review.py\n?? tools/p1_verify.py\n?? tools/p1_wave.py\n"
+  },
+  "historical_run_integrity": {
+    "results/p1_wave1/development_v1/runs/20261013T065000-5b7eb2b7a3d64b29945f557bdf2abb59": {
+      "unchanged": true,
+      "unchanged_files": 2280
+    },
+    "results/p1_wave1/development_v1/runs/20261013T065228-971f93c4c1434254a5298dde72dd9061": {
+      "unchanged": true,
+      "unchanged_files": 912
+    }
+  },
+  "json_validity_files": [
+    "docs/validation/p1/control_matching_v1.json",
+    "docs/validation/p1/control_review_master_v1.json",
+    "docs/validation/p1/delivery_v1.json",
+    "docs/validation/p1/literature_verification_v1.json",
+    "docs/validation/p1/manipulation_v1.json",
+    "docs/validation/p1/measurement_audit_v1.json",
+    "docs/validation/p1/measurement_coverage_diagnostic_v1.json",
+    "docs/validation/p1/native_stop_compatibility_diagnostic_v1.json",
+    "docs/validation/p1/output_human_review_schema_v1.json",
+    "docs/validation/p1/output_review_key_v1.json",
+    "docs/validation/p1/verification_v1.json",
+    "docs/validation/p1/wave1_analysis_v1.json",
+    "docs/validation/p1/wave1_design_v1.json",
+    "docs/validation/p1/wave1_manifest_v1.json",
+    "docs/validation/p1/wave1_results_v1.json"
+  ],
+  "literature_verification": [
+    {
+      "replication": false,
+      "scope": "primary methods/results, sections 3-5; abs metadata also inspected",
+      "url": "https://arxiv.org/html/2610.11188v1"
+    },
+    {
+      "replication": false,
+      "scope": "primary methods/results, sections 3-5; abs metadata also inspected",
+      "url": "https://arxiv.org/html/2610.08513v1"
+    },
+    {
+      "scope": "official publication criteria",
+      "url": "https://journals.plos.org/plosone/s/criteria-for-publication"
+    },
+    {
+      "scope": "official abstract",
+      "url": "https://aclanthology.org/2025.emnlp-main.1364/"
+    },
+    {
+      "scope": "official abstract",
+      "url": "https://aclanthology.org/2026.findings-acl.395/"
+    },
+    {
+      "scope": "fresh retrieval failed: cache miss; prior verification not replaced",
+      "url": "https://arxiv.org/abs/2610.09772v2"
+    }
+  ],
+  "local_document_links_checked": [
+    {
+      "source": "docs/P1_wave1_measurement_audit.md",
+      "target": "validation/p1/measurement_audit_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_measurement_audit.md",
+      "target": "validation/p1/native_stop_compatibility_diagnostic_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_measurement_audit.md",
+      "target": "P1_wave1_structural_analysis.md"
+    },
+    {
+      "source": "docs/P1_wave1_measurement_audit.md",
+      "target": "P1_wave1_structural_analysis.md"
+    },
+    {
+      "source": "docs/P1_wave1_measurement_audit.md",
+      "target": "P1_wave1_evaluation_coverage.md"
+    },
+    {
+      "source": "docs/P1_wave1_measurement_audit.md",
+      "target": "validation/p1/output_human_review_v1.csv"
+    },
+    {
+      "source": "docs/P1_wave1_measurement_audit.md",
+      "target": "validation/p1/output_human_review_schema_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_measurement_audit.md",
+      "target": "P1_wave1_human_annotation_guide.md"
+    },
+    {
+      "source": "docs/P1_wave1_measurement_audit.md",
+      "target": "validation/p1/measurement_delivery_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_measurement_audit.md",
+      "target": "P1_wave1_next_experiment_decision.md"
+    },
+    {
+      "source": "docs/P1_wave1_measurement_audit.md",
+      "target": "P1_protocol_compatibility_assessment.md"
+    },
+    {
+      "source": "docs/P1_wave1_structural_analysis.md",
+      "target": "validation/p1/measurement_audit_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_structural_analysis.md",
+      "target": "validation/p1/native_stop_compatibility_diagnostic_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_evaluation_coverage.md",
+      "target": "validation/p1/measurement_audit_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_evaluation_coverage.md",
+      "target": "validation/p1/output_human_review_v1.csv"
+    },
+    {
+      "source": "docs/P1_wave1_evaluation_coverage.md",
+      "target": "P1_wave1_human_annotation_guide.md"
+    },
+    {
+      "source": "docs/P1_wave1_evaluation_coverage.md",
+      "target": "validation/p1/output_human_review_schema_v1.json"
+    },
+    {
+      "source": "docs/P1_wave1_next_experiment_decision.md",
+      "target": "P1_wave1_measurement_audit.md"
+    },
+    {
+      "source": "docs/P1_wave1_next_experiment_decision.md",
+      "target": "P1_novelty_assessment.md"
+    },
+    {
+      "source": "docs/P1_wave1_human_annotation_guide.md",
+      "target": "validation/p1/output_human_review_v1.csv"
+    },
+    {
+      "source": "docs/P1_wave1_human_annotation_guide.md",
+      "target": "annotation_guidelines.md"
+    },
+    {
+      "source": "docs/P1_protocol_compatibility_assessment.md",
+      "target": "research_protocol_v1.1.md"
+    },
+    {
+      "source": "docs/P1_protocol_compatibility_assessment.md",
+      "target": "PersonaSLM_Research_Protocol_v1.2_Revised_Proposed_r1.md"
+    },
+    {
+      "source": "docs/P1_protocol_compatibility_assessment.md",
+      "target": "P1_wave1_measurement_audit.md"
+    },
+    {
+      "source": "docs/P1_protocol_compatibility_assessment.md",
+      "target": "P1_wave1_next_experiment_decision.md"
+    },
+    {
+      "source": "docs/P1_novelty_assessment.md",
+      "target": "related_work_novelty_matrix.md"
+    },
+    {
+      "source": "docs/P1_novelty_assessment.md",
+      "target": "PersonaSLM_related_work_novelty_audit_2026-10-12.md"
+    },
+    {
+      "source": "docs/P1_novelty_assessment.md",
+      "target": "P1_pilot_wave1_report.md"
+    },
+    {
+      "source": "docs/P1_novelty_assessment.md",
+      "target": "P1_wave1_measurement_audit.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "../AGENTS.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_environment_transcript.txt"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_command_results.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_real_inference_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_acceptance_checklist.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_final_validation_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_model_provenance_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_reproducibility_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_acceptance_checklist.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_case_audit.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_matching.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_evidence.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_evaluator_review.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_evaluator_review_addendum.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_neutral_blinded_review.jsonl"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_commands.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_methodology_commands.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_methodology_delivery_checks.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_remaining_blockers.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_response_termination_diagnostics.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_neutral_annotation_form_v3.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_evaluation_validity_v3.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_methodological_integrity.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_response_termination_evidence.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_evaluation_validity_v3.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_methodological_commands.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_methodological_delivery.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_policy_acceptance_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_vendor_neutral_attribution_audit.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_policy_acceptance_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_policy_acceptance_delivery.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_neutral_control_diagnostic.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_neutral_control_resolution_guide.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_experimental_design_proposal.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "related_work_novelty_matrix.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_control_acceptance_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_neutral_validity_final_checks_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_control_development_report_v2.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_development_selection_v2.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_tokenizer_validation_v2.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_control_development_review_v2_guide.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_development_integrity_v2.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_development_commands_v2.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "related_work_novelty_matrix.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_development_final_checks_v2.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_final_neutral_control_validation_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_control_identification_matrix_v3.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_control_review_v3.csv"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_final_control_review_v3_guide.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_control_analysis_v3.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_control_evidence_v3.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_control_delivery_v3.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_engineering_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_engineering_report_validation_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_control_researcher_registration_v1/registration.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P0_control_decision_registration_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_decision_delivery_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_control_closure_delivery_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_final_scientific_commands_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_acceptance_verification_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_tessa_researcher_approval_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_acceptance_decision_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/P0_acceptance_delivery_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_novelty_assessment.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_experiment_plan.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_manipulation_validation.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_pilot_wave1_report.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_annotation_guide.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_novelty_assessment.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/p1/wave1_analysis_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/p1/verification_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/p1/delivery_v1.json"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_measurement_audit.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_structural_analysis.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_evaluation_coverage.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_human_annotation_guide.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_wave1_next_experiment_decision.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "P1_protocol_compatibility_assessment.md"
+    },
+    {
+      "source": "docs/research_development_log.md",
+      "target": "validation/p1/measurement_delivery_v1.json"
+    }
+  ],
+  "masking_limit": "Ignored curator storage is not encryption; output clues/prior repository access can reveal treatments. No completed blind review claimed.",
+  "modified_existing_files_this_audit": [
+    "docs/P1_novelty_assessment.md",
+    "docs/research_development_log.md"
+  ],
+  "new_files_this_audit": [
+    "docs/P1_protocol_compatibility_assessment.md",
+    "docs/P1_wave1_evaluation_coverage.md",
+    "docs/P1_wave1_human_annotation_guide.md",
+    "docs/P1_wave1_measurement_audit.md",
+    "docs/P1_wave1_next_experiment_decision.md",
+    "docs/P1_wave1_structural_analysis.md",
+    "docs/validation/p1/measurement_audit_v1.json",
+    "docs/validation/p1/native_stop_compatibility_diagnostic_v1.json",
+    "docs/validation/p1/output_human_review_schema_v1.json",
+    "docs/validation/p1/output_human_review_v1.csv",
+    "src/personaslm/measurement_audit.py",
+    "tests/test_measurement_audit.py",
+    "tests/test_p1_native_stop_diagnostic.py",
+    "tools/p1_measurement_audit.py",
+    "tools/p1_native_stop_diagnostic.py",
+    "docs/validation/p1/measurement_delivery_v1.json"
+  ],
+  "new_generations": 0,
+  "original_development_log_prefix_sha256": "1cf0d46e76b051fa719949a9924807f83a86ea512db24bd2adb577737babc4d9",
+  "original_novelty_prefix_sha256": "d01fd83a2c8903a3d51ecc06b7fc23d5603abff4eeb430f8c522783fd79ebce2",
+  "preservation_scope": "Fresh checks cover both P1 run trees and baseline visible files. Full P0 ignored-run rehash from the previous stage is not repeated or claimed here.",
+  "private_mapping_published": false,
+  "private_mapping_sha256": "3c1df3687d2e075686d5a0def7184f627a410e911628cc5c1be5de21b85d4185",
+  "protected_baseline_files": 270,
+  "protocol_adopted": false,
+  "read_only_git_checks": [
+    {
+      "argv": [
+        "git",
+        "check-ignore",
+        "results/p1_measurement_audit/v1/admin/output_human_review_mapping_v1.json"
+      ],
+      "duration_seconds": 0.04445359998499043,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T08:16:37.608162+00:00",
+      "started_utc": "2026-10-13T08:16:37.563708+00:00",
+      "stderr": "",
+      "stdout": "results/p1_measurement_audit/v1/admin/output_human_review_mapping_v1.json\n"
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "duration_seconds": 0.05057130000204779,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T08:16:38.378078+00:00",
+      "started_utc": "2026-10-13T08:16:38.327498+00:00",
+      "stderr": "warning: in the working copy of 'docs/research_development_log.md', CRLF will be replaced by LF the next time Git touches it\n",
+      "stdout": ""
+    },
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "duration_seconds": 0.037073300016345456,
+      "exit_code": 0,
+      "finished_utc": "2026-10-13T08:16:38.459738+00:00",
+      "started_utc": "2026-10-13T08:16:38.422678+00:00",
+      "stderr": "",
+      "stdout": "ded2ab28af9b9b7b5afd303221672424350c5106\n"
+    }
+  ],
+  "response_human_reviews": 0,
+  "retained_engineering_issues": [
+    {
+      "correction": "Inspect the original run_finished event instead. Generic journal.finish stores a chained event; preparation has no separate summary file. Do not write a replacement historical file.",
+      "error": "FileNotFoundError reading tokenizer preparation summary.json after baseline.json had been saved",
+      "execution_timestamp": null,
+      "exit_code": 1,
+      "experimental_failure": false,
+      "operation": "Initial read-only baseline/CSV/run inspection via project Python stdin",
+      "original_history_modified": false,
+      "registered_utc": "2026-10-13T07:49:07.246431+00:00",
+      "subsequent_evidence": "Terminal preparation event 2278 reports PASS, 96 prompts, 24 exact matches, zero completion requests; generation has summary.json and terminal event909."
+    },
+    {
+      "argv": [
+        ".\\.venv\\Scripts\\python.exe",
+        "tools/p0_capture.py",
+        "--output",
+        "results/p1_measurement_audit/v1/engineering/targeted_tests.json",
+        "--",
+        ".\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_measurement_audit.py"
+      ],
+      "correction": "Create the local engineering directory and repeat this software test with a successful capture. No inference or historical record modified.",
+      "error": "Capture wrapper could not create targeted_tests.json.tmp because the engineering directory had not been created.",
+      "execution_timestamp": null,
+      "exit_code": 1,
+      "registered_utc": "2026-10-13T07:49:27.561851+00:00",
+      "test_result": "The subprocess ran but stdout/exit status were not persisted by the failed wrapper; do not infer a test result."
+    }
+  ],
+  "semantic_measurement_status": "PARTIAL",
+  "source_access_time_note": "Individual browser request clocks unavailable; registration time is not a fabricated access time.",
+  "source_access_times": null,
+  "status": "PASS",
+  "supplied_proposal_unchanged": {
+    "authority": "Protocol v1.1 remains formal baseline; user requested compatibility analysis only.",
+    "observed_utc": "2026-10-13T07:51:29.985053+00:00",
+    "path": "docs/PersonaSLM_Research_Protocol_v1.2_Revised_Proposed_r1.md",
+    "sha256": "a4a5b4a8d17ddd2d11814f8cd1b1bd48155a1d0689cade562e784d91f9a00395",
+    "status": "REVISED PROPOSAL NOT ADOPTED"
+  },
+  "test_source_hashes": {
+    "tests/test_measurement_audit.py": "446fd9f9d82e00485536d3b38028dc3b87453df0246994181ee67052a474b6a9",
+    "tests/test_p1_native_stop_diagnostic.py": "f116c01c8796014a6b6425b948b5aee0268f817d403597024a906cdc27a4eba0"
+  },
+  "tests": {
+    "exit_code": 0,
+    "failed": 0,
+    "passed": 433,
+    "process_seconds": 22.354202599992277,
+    "pytest_seconds": 21.76,
+    "warnings_reported": 0
+  },
+  "vendor_neutral_files_scanned": 286,
+  "version": "p1_measurement_delivery_v1"
+}
