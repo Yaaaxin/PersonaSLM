@@ -1,0 +1,44 @@
+{
+  "actual_requests": 0,
+  "all_other_configuration": "Same original prompts/IDs, temperature, seeds, policies; randomize future arm order under separately frozen seed 715006.",
+  "budgets": [
+    96,
+    192,
+    256
+  ],
+  "candidate_requests": 54,
+  "case_ids": [
+    "p1c_01_historical",
+    "p1c_03_current",
+    "p1c_05_historical"
+  ],
+  "compare": [
+    "first_reply_delivery",
+    "component_coverage",
+    "native_termination",
+    "structural_status",
+    "extraction_validity",
+    "latency"
+  ],
+  "conditions": [
+    "R0T0",
+    "R0T1",
+    "R1T0",
+    "R1T1",
+    "N_history",
+    "H_none"
+  ],
+  "cost_limits": "Linear output-budget scaling of old total latency is an illustration, not a measured token-speed or upper bound; prefill and early stopping differ.",
+  "no_selection_by": [
+    "factual_effect_sign",
+    "R_effect_sign",
+    "T_effect_sign",
+    "interaction_sign"
+  ],
+  "original_96_token_configuration_unchanged": true,
+  "response_minutes_proxy": 18.559679599636922,
+  "scope": "Three cases cannot select a universally adequate budget. All conditions compared at each cap; any later adoption applies to a new entire arm.",
+  "selection_rule": "First speaker in each existing task family; historical/current/historical alternation; no output observed.",
+  "status": "OPTIONAL_NOT_AUTHORIZED_NOT_A_NEW_MANDATORY_GATE",
+  "version": "p1c_budget_proposal_v1"
+}

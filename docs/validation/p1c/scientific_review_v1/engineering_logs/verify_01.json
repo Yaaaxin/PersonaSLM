@@ -1,0 +1,15 @@
+{
+  "argv": [
+    ".\\.venv\\Scripts\\python.exe",
+    "tools/p1c_scientific_review.py",
+    "verify",
+    "--output",
+    "docs/validation/p1c/scientific_review_v1/verification_v1.json"
+  ],
+  "duration_seconds": 2.262642699992284,
+  "exit_code": 0,
+  "finished_utc": "2026-10-13T22:45:11.946997+00:00",
+  "started_utc": "2026-10-13T22:45:09.684354+00:00",
+  "stderr": "",
+  "stdout": "{\"status\": \"PASS\", \"checked_utc\": \"2026-10-13T22:45:11.878929+00:00\", \"git_sha\": \"417714f64b27dca822083e2060f512034c7d9d82\", \"git_status\": \" M docs/P1c_algorithmic_opportunity_assessment.md\\n M docs/related_work_novelty_matrix.md\\n M docs/research_development_log.md\\n?? docs/P1c_counterfactual_pair_audit.md\\n?? docs/P1c_final_scientific_decision.md\\n?? docs/P1c_identifiability_resolution.md\\n?? docs/P1c_neutral_semantic_validity.md\\n?? docs/P1c_output_budget_risk.md\\n?? docs/P1c_scientific_prior_art_review.md\\n?? docs/P1c_scientific_review_guide.md\\n?? docs/P1c_statistical_estimand_review.md\\n?? docs/validation/p1c/scientific_review_v1/\\n?? tests/test_p1c_scientific_review.py\\n?? tools/p1c_scientific_finalize.py\\n?? tools/p1c_scientific_review.py\\n?? tools/p1c_scientific_supplement.py\\n\", \"tracked_baseline_files\": 551, \"historical_run_files_unchanged\": 5798, \"original_native_logs_unchanged\": 1234, \"append_only_documents\": [\"docs/research_development_log.md\", \"docs/P1c_algorithmic_opportunity_assessment.md\", \"docs/related_work_novelty_matrix.md\"], \"json_files\": 20, \"csv_files\": 4, \"blank_human_cells\": 588, \"reconstructed_prompts\": 72, \"p1b_contrasts\": 480, \"documentation_links\": \"PASS\", \"native_tokens\": \"72/72 identical\", \"new_generations\": 0, \"limits\": \"Historical byte preservation checked; prior chain audits retained, not rerun. Semantic approval remains OPEN.\"}\n"
+}

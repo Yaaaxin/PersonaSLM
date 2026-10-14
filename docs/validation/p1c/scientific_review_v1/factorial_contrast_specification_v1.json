@@ -1,0 +1,173 @@
+{
+  "applicable_cases": 12,
+  "categorical_policy": "Report Correct/Incorrect/Unverifiable/Not Applicable/Missing separately on frozen eligible denominator. Correct-label incidence is not assessed-only accuracy.",
+  "complete_case_sensitivity": "Only assessable required cells; state case/speaker coverage and possible condition-dependent censoring.",
+  "condition_order": [
+    "R0T0",
+    "R0T1",
+    "R1T0",
+    "R1T1",
+    "N_history",
+    "H_none"
+  ],
+  "eligible_per_condition": 12,
+  "eligible_per_metric": 72,
+  "estimand_scope": "Replacements of specific auxiliary-topic and interval/value packages; no direct answer competition or unique mechanism.",
+  "metrics": [
+    "response_relevance",
+    "factual_consistency",
+    "temporal_consistency",
+    "conversational_coherence",
+    "task_success",
+    "component_coverage",
+    "semantic_completeness",
+    "structural_status"
+  ],
+  "multiplicity": "Development: all prespecified estimates, no significance selection. Prior proposed six-test temporal Incorrect/task-success R/T/RxT family remains unapproved; hierarchy must be resolved before independent confirmation.",
+  "new_outcomes_or_effects_computed": false,
+  "ordinal_policy": "Full 1-5 distributions, paired higher/equal/lower and threshold sensitivities; means descriptive.",
+  "persona_fidelity": "Not Applicable: no fidelity target or authorized ground truth.",
+  "recommendation": "Report four fixed-factor simple contrasts before averaged R/T and secondary operational RxT; no historical hierarchy overwritten.",
+  "status": "PROPOSED_PENDING_RESEARCHER",
+  "structural_policy": "response_status_v1; no later-turn substitution; unidentifiable first reply remains unknown, not Incorrect.",
+  "uncertainty": {
+    "bootstrap_seed": 715004,
+    "cluster": "speaker",
+    "leave_one_speaker_out": true,
+    "replicates": 10000,
+    "warning": "Six clusters cannot support reliable population-level significance claims."
+  },
+  "unit": "Within-case paired contrast; two cases per speaker, six speaker clusters; equal speaker means of case means.",
+  "unknown_bounds": "For each unknown cell use [0,1]; choose interval endpoints by the sign of its original weight. Do not reweight cells.",
+  "version": "p1c_operational_contrasts_review_v1",
+  "weights": {
+    "N_history-H_none": {
+      "H_none": -1,
+      "N_history": 1,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -0.5,
+      "R0T1": -0.5,
+      "R1T0": 0.5,
+      "R1T1": 0.5
+    },
+    "R0T0-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 1,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T0-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 1,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T1-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 1,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T1-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 0,
+      "R0T1": 1,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T1-R0T0": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -1,
+      "R0T1": 1,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R1T0-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 1,
+      "R1T1": 0
+    },
+    "R1T0-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 1,
+      "R1T1": 0
+    },
+    "R1T0-R0T0": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -1,
+      "R0T1": 0,
+      "R1T0": 1,
+      "R1T1": 0
+    },
+    "R1T1-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 1
+    },
+    "R1T1-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 1
+    },
+    "R1T1-R0T1": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": -1,
+      "R1T0": 0,
+      "R1T1": 1
+    },
+    "R1T1-R1T0": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": -1,
+      "R1T1": 1
+    },
+    "RxT": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": 1,
+      "R0T1": -1,
+      "R1T0": -1,
+      "R1T1": 1
+    },
+    "T": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -0.5,
+      "R0T1": 0.5,
+      "R1T0": -0.5,
+      "R1T1": 0.5
+    }
+  }
+}

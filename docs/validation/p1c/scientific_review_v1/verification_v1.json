@@ -1,0 +1,23 @@
+{
+  "append_only_documents": [
+    "docs/research_development_log.md",
+    "docs/P1c_algorithmic_opportunity_assessment.md",
+    "docs/related_work_novelty_matrix.md"
+  ],
+  "blank_human_cells": 588,
+  "checked_utc": "2026-10-13T22:45:11.878929+00:00",
+  "csv_files": 4,
+  "documentation_links": "PASS",
+  "git_sha": "417714f64b27dca822083e2060f512034c7d9d82",
+  "git_status": " M docs/P1c_algorithmic_opportunity_assessment.md\n M docs/related_work_novelty_matrix.md\n M docs/research_development_log.md\n?? docs/P1c_counterfactual_pair_audit.md\n?? docs/P1c_final_scientific_decision.md\n?? docs/P1c_identifiability_resolution.md\n?? docs/P1c_neutral_semantic_validity.md\n?? docs/P1c_output_budget_risk.md\n?? docs/P1c_scientific_prior_art_review.md\n?? docs/P1c_scientific_review_guide.md\n?? docs/P1c_statistical_estimand_review.md\n?? docs/validation/p1c/scientific_review_v1/\n?? tests/test_p1c_scientific_review.py\n?? tools/p1c_scientific_finalize.py\n?? tools/p1c_scientific_review.py\n?? tools/p1c_scientific_supplement.py\n",
+  "historical_run_files_unchanged": 5798,
+  "json_files": 20,
+  "limits": "Historical byte preservation checked; prior chain audits retained, not rerun. Semantic approval remains OPEN.",
+  "native_tokens": "72/72 identical",
+  "new_generations": 0,
+  "original_native_logs_unchanged": 1234,
+  "p1b_contrasts": 480,
+  "reconstructed_prompts": 72,
+  "status": "PASS",
+  "tracked_baseline_files": 551
+}

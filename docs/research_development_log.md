@@ -1131,3 +1131,39 @@ Neutral controls remain OPEN and absent from these contrasts. An independent ann
 ### 2026-10-13T21:37:10.591573+00:00 — P1c final verification
 
 Final full suite: 751 passed in 29.95 s (capture wall time 30.443 s), exit 0, no pytest warnings. Final integrity checks passed: 5,798 historical artifacts unchanged, 492 tracked baseline files compared, 72 prompts reconstructed, 480 original case contrasts independently rechecked twice, 29 JSON and four CSV files validated, 876 blank human fields checked, and local documentation links resolved. New source snapshots accompany the package. Additional commands: python -m py_compile for the five new tools; git diff --check; git status --short; vendor-name and machine-path scans. A Windows wildcard-path rg call failed with error 123; corrected -g filters returned no product-name matches. An overbroad machine-path expression matched EVIDENCE text; a path-specific scan found no leaked absolute paths. Git reports an existing CRLF-to-LF normalization warning for the appended development log; historical raw bytes remain unchanged as verified. The final manifest hashes the completed proposal and source snapshots. Inference and human approval remain ungranted.
+
+
+## 2026-10-13T22:45:09.081084+00:00 — P1c scientific identification review and offline audit
+
+Maintainer: Yaxin ZHENG. Objective: audit unchanged P1c relevance/temporal packages, prepare genuine scientific decisions and preserve a reviewable calibration-input snapshot. No inference, new case bank, algorithm implementation, protocol adoption, commit or push was performed.
+
+### Source inspection and preservation
+
+Entry HEAD `417714f64b27dca822083e2060f512034c7d9d82`; working tree clean. Entry inventory: 551 tracked files and 5798 historical run artifacts. AGENTS, both protocols, requested P1c reports, P1b reports/case-level analyses, original neutral banks/repair records, review forms and tokenizer manifests were read. Baseline creation used the actual project-venv Python inventory command; its recorded UTC, hashes and original document prefixes remain in `results/p1c_scientific_review/v1/baseline.json` and `.before` files. Source prompts, condition IDs and both historical protocols remain unchanged.
+
+### Actual commands and evidence
+
+The exact argv, UTC timestamps, stdout/stderr, exit codes and process durations for substantive build/tokenizer/supplement/test/verification commands are preserved in [engineering logs](validation/p1c/scientific_review_v1/engineering_logs/). Commands executed through `tools/p0_capture.py`: `tools/p1c_scientific_review.py build`, `tools/p1c_scientific_review.py native`, `tools/p1c_scientific_supplement.py`, targeted pytest and full `python -m pytest -q`. Native calls used the existing `llama-tokenize.exe -m <pinned model> --stdin --ids --no-parse-special --offline` vocabulary-only interface, not a completion endpoint. All 72 prompts were retokenized; IDs matched saved records exactly. Native prompt/ID/stdout/stderr logs are retained locally and hash-indexed by the final manifest.
+
+Reference/dependency checks and 72 R/T pair comparisons passed; 480 P1b case contrasts were reconstructed twice with unchanged numerical results. The 135 stored precision scenarios were checked against their inputs and analytical formula; their Monte Carlo simulations were not rerun. Original v1 neutral failures (-1 token for the selected predecessor) and repaired v2 zero differences remain recorded. No stimulus text was changed. H_none is shorter by65 tokens in10 cases and66 in2, a detail that must not be generalized as a constant gap.
+
+### Scientific findings and review package
+
+R changes parcel/music predicate and color; T changes color and interval. All24 T-only pairs preserve predicate but change full propositions; all24 R-only pairs change predicate/value. Twelve off-diagonal pairs share colors because of cyclic construction. All48 active histories omit required answer components and source IDs. Formal auxiliary deletion/substitution leaves all12 references unchanged, but does not exclude model shortcuts. Historical requested dates precede archive recording dates in6 cases; retrospective-state interpretation requires approval. The new12-case,60-text and12-control-subset CSVs retain blank human fields and explicit AI-assisted recommendations. No original human approval was transferred.
+
+New reports cover resolution, counterfactual comparisons, neutral risks, budget/model risks, estimands, review instructions, prior art and the final scientific decision. Existing algorithm assessment and novelty matrix receive append-only updates. Machine artifacts include exhaustive field differences, exact contrast weights, source quotations, native repair links, risk inventory, a proposed addendum and an input snapshot that explicitly does not authorize execution.
+
+### Tests, errors and limitations
+
+Targeted first run:27 passed in0.16s, exit0. Full suite: `781 passed in 31.91s`, exit0; actual process duration 32.482s. No pytest warnings were reported. Native warnings, if present, remain in the per-call logs and are not counted as pytest warnings. Before final integrity execution, review caught JSON integer-key normalization and missing future-manifest link handling in the audit verifier; both checks were corrected without changing data or weakening assertions. No failed generation or fabricated annotation was introduced.
+
+Primary-source literature was accessed via web open/find tools, with inspected scopes and unavailable per-request timestamps recorded in [access ledger](validation/p1c/scientific_review_v1/literature_access_v1.json). No external code replication or exhaustive originality validation is claimed.
+
+### Decision
+
+Technical checks support the unchanged proposal; scientific review and inference authorization remain pending. NO-GO for execution. Minimal next actions are researcher acceptance of narrow package/date interpretation,12-case/60-text reviews including neutral suitability, prospective addendum/outcome approval, and a final authorized logging/resume manifest. Optional budget/Instruct/algorithm extensions are not new mandatory gates. Six clusters, cyclic cues, topic/date/value coupling and unknown future semantic coverage limit inference. The existing72-request order and96-token budget are preserved; P1c outcomes do not exist.
+
+
+### 2026-10-13T22:46:34.845738+00:00 — P1c final source and review verification
+
+After the final verifier/source additions, the full suite was rerun: 781 passed in 30.27s, exit0, no reported warnings; captured duration30.757s. py_compile passed for the three new tools and test module. Final integrity passed:551 baseline files,5798 historical artifacts,1234 original native logs;72 prompts/ID lists,480 P1b case contrasts;20 JSON/four CSV at that verification point;588 blank human cells. Local documentation targets resolve, with the verification/manifest outputs finalized in delivery order. Git diff --check passed with the existing CRLF normalization warning on the appended development log. The vendor-neutral wording scan found no matches (rg exit1 denotes no match); the new-material machine-specific-path scan found no matches. No failed scientific check was bypassed. The input snapshot remains unapproved.

@@ -1,0 +1,13 @@
+{
+  "argv": [
+    ".\\.venv\\Scripts\\python.exe",
+    "tools/p1c_scientific_review.py",
+    "build"
+  ],
+  "duration_seconds": 1.6917198000010103,
+  "exit_code": 0,
+  "finished_utc": "2026-10-13T22:32:24.571283+00:00",
+  "started_utc": "2026-10-13T22:32:22.879563+00:00",
+  "stderr": "",
+  "stdout": "{\"cases\": 12, \"speakers\": 6, \"conditions\": [\"R0T0\", \"R0T1\", \"R1T0\", \"R1T1\", \"N_history\", \"H_none\"], \"planned_identities\": 72, \"identity_definition\": \"Original case_id/condition tuple; original configuration has no separate request_id. Order unchanged.\", \"planned_order_sha256\": \"3a352d9778b5d39aef80df5064dd3a64ede2657b382718731de371894e9ce4be\", \"rt_pairs\": 72, \"rt_cells\": 48, \"matched_sets\": 12, \"history_review_items\": 60, \"neutral_review_items\": 12, \"same_proposition_pairs\": 0, \"same_color_cross_topic_pairs\": 12, \"active_token_range\": [766, 938], \"no_history_token_differences\": {\"65\": 10, \"66\": 2}, \"precision_configurations_checked\": 135, \"precision_checks\": \"Saved scenario inputs, analytical formula and provenance; Monte Carlo draws not rerun.\", \"generation_executed\": 0, \"human_review\": \"OPEN\", \"scientific_decision\": \"NO_GO_PENDING_RESEARCHER\", \"stimulus_changes\": 0}\n"
+}

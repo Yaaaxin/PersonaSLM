@@ -1,0 +1,96 @@
+{
+  "records": [
+    {
+      "disposition": "RESEARCHER_SCOPE_APPROVAL",
+      "observation": "R changes parcel/music predicate and value; neither is the answer property. Eight questions do not explicitly say parcel.",
+      "resolution": "Accept auxiliary-topic replacement only; confirm intended topic relation case by case.",
+      "risk_id": "R_SCOPE",
+      "scope": "All 12"
+    },
+    {
+      "disposition": "RESEARCHER_SCOPE_APPROVAL",
+      "observation": "Every T contrast changes value and validity dates, repeating a different existing ledger fact.",
+      "resolution": "Interpret interval/value selection package, not an isolated temporal tag.",
+      "risk_id": "T_BUNDLE",
+      "scope": "All 12"
+    },
+    {
+      "disposition": "LIMITATION",
+      "observation": "Colors follow a deterministic cyclic assignment. Historical R1T1 equals R0T0 color; current R0T1 equals R1T0 color.",
+      "resolution": "Retain as documented calibration limitation; future independent validation needs separately generated and counterbalanced values.",
+      "risk_id": "CYCLIC_CUE",
+      "scope": "All 12"
+    },
+    {
+      "disposition": "LIMITATION",
+      "observation": "T1 repeats the requested month in interval start; T0 does not. Date-token similarity changes with validity.",
+      "resolution": "No pure recency/attention/temporal mechanism claim.",
+      "risk_id": "DATE_OVERLAP",
+      "scope": "All 12"
+    },
+    {
+      "disposition": "RESEARCHER_TIME_APPROVAL",
+      "observation": "Archive recording date is later than the question date; facts are retrospectively available in identical trusted schedules.",
+      "resolution": "Approve historical-state question interpretation, not knowledge-available-as-of-date evaluation.",
+      "risk_id": "ARCHIVE_TIME",
+      "scope": "Six historical cases"
+    },
+    {
+      "disposition": "LIMITATION",
+      "observation": "Music is answer-unrelated but concerns the same named person; personal/entity relevance remains.",
+      "resolution": "Use task-topic unrelated, not globally irrelevant.",
+      "risk_id": "R0_PERSONAL",
+      "scope": "All 12"
+    },
+    {
+      "disposition": "MANDATORY_SEMANTIC_REVIEW",
+      "observation": "Self-referential procedural reply, formal archive vocabulary, contrastive phrase and archive date can prime record reading.",
+      "resolution": "Review naturalness and limited comparison suitability; token match is not approval.",
+      "risk_id": "NEUTRAL_PRAGMATICS",
+      "scope": "All 12 neutral texts"
+    },
+    {
+      "disposition": "LIMITATION",
+      "observation": "Active personal assertion and embedded interval are replaced by procedural text lacking those fields.",
+      "resolution": "No claim that neutral contrast isolates topicality, temporal status or length alone.",
+      "risk_id": "CONTROL_CONTENT",
+      "scope": "All active-neutral contrasts"
+    },
+    {
+      "disposition": "LIMITATION",
+      "observation": "H_none is 65 tokens shorter in ten cases and 66 in two; no two-turn dialogue.",
+      "resolution": "Total addition contrast only.",
+      "risk_id": "NO_HISTORY",
+      "scope": "All 12"
+    },
+    {
+      "disposition": "LIMITATION",
+      "observation": "Two cases share each speaker/ledger; task family is nested within two speakers. Lexical realizations are limited.",
+      "resolution": "Six clusters; do not count 12 independent speakers or 72 independent observations.",
+      "risk_id": "BANK_STRUCTURE",
+      "scope": "All 12"
+    },
+    {
+      "disposition": "LIMITATION",
+      "observation": "Base continuation and 96-token censoring are plausible; P1c outcomes do not exist.",
+      "resolution": "Retain frozen structural policy and unknown units. Optional separate budget diagnostic, never effect-sign tuning.",
+      "risk_id": "BOUNDARY_BUDGET",
+      "scope": "All planned outputs"
+    },
+    {
+      "disposition": "MANDATORY_REVIEW",
+      "observation": "No new human decisions or reliability estimates supplied.",
+      "resolution": "Complete scientific review and approve prospective scoring plan before authorization.",
+      "risk_id": "HUMAN_REVIEW",
+      "scope": "12 cases and 60 texts"
+    },
+    {
+      "disposition": "MANDATORY_AUTHORIZATION",
+      "observation": "Configuration proposal is not an authorized run manifest; no separate original request_id exists.",
+      "resolution": "Pin ordered case-condition identities and source hashes; create execution manifest only after explicit approval.",
+      "risk_id": "EXECUTION",
+      "scope": "72 proposed identities"
+    }
+  ],
+  "version": "p1c_risk_v1"
+}

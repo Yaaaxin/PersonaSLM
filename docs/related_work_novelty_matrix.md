@@ -110,3 +110,8 @@ The actual 96-response wave combines shared evidence, a bounded S/F/H interventi
 ## P1c prospective history-mechanism follow-up
 
 The [P1c primary-source audit](P1c_related_work_novelty_audit.md) extends the existing matrix with eight targeted full-text comparisons. It distinguishes temporally scoped auxiliary conditioning from answer disclosure, preserves the prior studies, and adds When Facts Change as a direct temporal-conflict competitor. [The access register](validation/p1c/proposed_v1/literature_access_v1.json) records actual searches, sources, verification scope and access failures. No study was reproduced; implementation availability and originality are not presumed. The proposed R/T diagnostic is narrower than the P1b H package and requires approval. Presentation, gating, routing and structural/semantic separation already have direct precedents. Independent evidence, not model size or token matching, must establish any contribution.
+
+
+## P1c scientific identification review supplement
+
+The [primary-source overlap check](P1c_scientific_prior_art_review.md) revisits personalization steering, memory admission/presentation, temporal retrieval and structural/persona separation. The [counterfactual audit](P1c_counterfactual_pair_audit.md) establishes that the proposed bank concerns auxiliary topical records, not stale target-answer competition. Any prospective contribution must retain that narrower scope and survive independent lexical, date and response-unit checks. No P1c results or original algorithm are claimed; previous matrix entries and historical findings remain intact.

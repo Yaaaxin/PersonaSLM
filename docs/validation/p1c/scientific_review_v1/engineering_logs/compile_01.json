@@ -1,0 +1,17 @@
+{
+  "argv": [
+    ".\\.venv\\Scripts\\python.exe",
+    "-m",
+    "py_compile",
+    "tools/p1c_scientific_review.py",
+    "tools/p1c_scientific_supplement.py",
+    "tools/p1c_scientific_finalize.py",
+    "tests/test_p1c_scientific_review.py"
+  ],
+  "duration_seconds": 0.10953000001609325,
+  "exit_code": 0,
+  "finished_utc": "2026-10-13T22:45:27.752082+00:00",
+  "started_utc": "2026-10-13T22:45:27.642546+00:00",
+  "stderr": "",
+  "stdout": ""
+}
