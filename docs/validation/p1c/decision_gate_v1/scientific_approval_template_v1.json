@@ -1,0 +1,47 @@
+{
+  "confirmation_statement": "",
+  "decision_source": "",
+  "manifest_sha256": "b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b",
+  "policy_decisions": [
+    {
+      "decision": "",
+      "policy_id": "restricted_estimands",
+      "reason": "",
+      "source_path": "docs/validation/p1c/decision_gate_v1/analysis_restrictions_v1.json",
+      "source_sha256": "6cded9a50ce60249dd9383544816c6aebd0b3b66243ecea87a24301abaab4fd4"
+    },
+    {
+      "decision": "",
+      "policy_id": "diagnostic_control_policy",
+      "reason": "",
+      "source_path": "docs/validation/p1c/decision_gate_v1/analysis_restrictions_v1.json",
+      "source_sha256": "6cded9a50ce60249dd9383544816c6aebd0b3b66243ecea87a24301abaab4fd4"
+    },
+    {
+      "decision": "",
+      "policy_id": "evaluation_applicability",
+      "reason": "",
+      "source_path": "docs/validation/p1c/final_review_v1/evaluation_policy_proposed_v1.json",
+      "source_sha256": "1fe5bfb170f192e53ce566eebf304cbeb93b5014c08112c05f6b06caf122e7ca"
+    },
+    {
+      "decision": "",
+      "policy_id": "statistical_analysis_policy",
+      "reason": "",
+      "source_path": "docs/validation/p1c/final_review_v1/estimand_registry_proposed_v1.json",
+      "source_sha256": "713a7679d5a606707f8075bae51d3fa5716a721eccf86f1f56cebc73b4bbc4e7"
+    },
+    {
+      "decision": "",
+      "policy_id": "protocol_addendum",
+      "reason": "",
+      "source_path": "docs/validation/p1c/final_review_v1/protocol_addendum_proposed_v2.json",
+      "source_sha256": "51d1987e2e91e2f4e72735304380e3f4442f418b731e972828677d24b7b96f55"
+    }
+  ],
+  "review_method": "",
+  "review_status": "",
+  "review_timestamp": null,
+  "reviewer_id": "",
+  "schema_version": "p1c_scientific_approval_v1"
+}

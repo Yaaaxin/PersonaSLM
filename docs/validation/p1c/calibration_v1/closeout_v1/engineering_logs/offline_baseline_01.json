@@ -1,0 +1,14 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "tools/development_component_baseline.py",
+    "--output",
+    "docs/validation/method_development/component_baseline_v1"
+  ],
+  "duration_seconds": 0.1875490000238642,
+  "exit_code": 0,
+  "finished_utc": "2026-10-14T06:17:14.007979+00:00",
+  "started_utc": "2026-10-14T06:17:13.820424+00:00",
+  "stderr": "",
+  "stdout": "{\n  \"version\": \"literal_component_presence_baseline_v1\",\n  \"records\": 192,\n  \"paired_cases\": 24,\n  \"speaker_clusters\": 12,\n  \"comparison_tables\": {\n    \"always_predict_full\": {\n      \"TP\": 110,\n      \"FP\": 82,\n      \"FN\": 0,\n      \"TN\": 0\n    },\n    \"never_predict_full\": {\n      \"TP\": 0,\n      \"FP\": 0,\n      \"FN\": 110,\n      \"TN\": 82\n    },\n    \"literal_component_presence\": {\n      \"TP\": 110,\n      \"FP\": 5,\n      \"FN\": 0,\n      \"TN\": 77\n    }\n  },\n  \"false_positive_delivery_categories\": {\n    \"PARTIAL_ANSWER\": 2,\n    \"NO_FINAL_ANSWER\": 3\n  },\n  \"families\": {\n    \"A\": {\n      \"records\": 24,\n      \"false_positive\": 0,\n      \"false_negative\": 0\n    },\n    \"B\": {\n      \"records\": 24,\n      \"false_positive\": 0,\n      \"false_negative\": 0\n    },\n    \"C\": {\n      \"records\": 24,\n      \"false_positive\": 0,\n      \"false_negative\": 0\n    },\n    \"D\": {\n      \"records\": 24,\n      \"false_positive\": 0,\n      \"false_negative\": 0\n    },\n    \"E\": {\n      \"records\": 24,\n      \"false_positive\": 0,\n      \"false_negative\": 0\n    },\n    \"F\": {\n      \"records\": 24,\n      \"false_positive\": 3,\n      \"false_negative\": 0\n    },\n    \"G\": {\n      \"records\": 24,\n      \"false_positive\": 2,\n      \"false_negative\": 0\n    },\n    \"H\": {\n      \"records\": 24,\n      \"false_positive\": 0,\n      \"false_negative\": 0\n    }\n  },\n  \"repeat_numerical_agreement\": true,\n  \"new_generations\": 0,\n  \"originality\": \"KNOWN_ENGINEERING_BASELINE\",\n  \"scientific_level\": \"LEVEL_0_ENGINEERING_DIAGNOSTIC\",\n  \"fidelity\": \"NOT_EVALUATED; no outputs modified\"\n}\n"
+}

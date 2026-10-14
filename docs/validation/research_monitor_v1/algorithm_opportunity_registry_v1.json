@@ -1,0 +1,117 @@
+{
+  "compiled_utc": "2026-10-14T06:29:42.491211+00:00",
+  "maintainer": "Yaxin ZHENG",
+  "new_generations": 0,
+  "new_human_annotations": 0,
+  "rows": [
+    {
+      "candidate": "Provenance-preserving requested-date resolution; incremental candidate only.",
+      "empirical_track": "Remains primary",
+      "gap": "Residual requested-date errors beyond simple interval selection and state adjudication not established.",
+      "id": "temporal_resolution",
+      "independent_validation": "Required before an original-contribution claim",
+      "level": 1,
+      "observed_failure": "P1b temporal errors despite sufficient ledger; no identified retrieval cause.",
+      "originality": "UNVERIFIED",
+      "prior_art": [
+        "LongMemEval time-aware retrieval",
+        "STALE/CUPMem state adjudication",
+        "MemConflict conflict diagnostics"
+      ],
+      "publication_value": "Potential empirical failure boundary, not a novel filter.",
+      "status": "PROSPECTIVE_NO_NEW_METHOD_IMPLEMENTED",
+      "validation": "Full ledger versus interval baseline versus feasible published methods; historical and current queries; ablate date parsing and state updates; independent cases."
+    },
+    {
+      "candidate": "Joint authority/date/use assessment; unverified overlap with FC/PS and CUPMem.",
+      "empirical_track": "Remains primary",
+      "gap": "Benefit beyond query relevance with beneficial history retained is unresolved.",
+      "id": "history_admission",
+      "independent_validation": "Required before an original-contribution claim",
+      "level": 1,
+      "observed_failure": "Prior H package effect does not isolate relevance. P1c remains in execution.",
+      "originality": "UNVERIFIED",
+      "prior_art": [
+        "FC/PS admission",
+        "random and relevance selection at matched budgets",
+        "LongMemEval retrieval"
+      ],
+      "publication_value": "Strong overlap; controlled replication may be more defensible than novelty.",
+      "status": "PROSPECTIVE",
+      "validation": "Equal injected-content budgets, same trusted ledger, utility/fidelity separately; ablate admission and rendering."
+    },
+    {
+      "candidate": "Adaptive separation conditional on verified failures; unverified.",
+      "empirical_track": "Remains primary",
+      "gap": "No demonstrated residual beyond published separation/steering under equal compute.",
+      "id": "persona_evidence_separation",
+      "independent_validation": "Required before an original-contribution claim",
+      "level": 1,
+      "observed_failure": "S/F/H package differences and structural failures, not identified representation conflicts.",
+      "originality": "UNVERIFIED",
+      "prior_art": [
+        "FPPS hard/soft/mixed steering",
+        "AO-DA separated inference"
+      ],
+      "publication_value": "No original algorithm claim until replicated advantage.",
+      "status": "PROSPECTIVE",
+      "validation": "Mixed/evidence-first/separated/steering comparisons; independent fidelity judgments and equal-compute ablations."
+    },
+    {
+      "candidate": "Answer-act detection plus component audit; incremental and unverified.",
+      "empirical_track": "Remains primary",
+      "gap": "Mention, assertion, temporal support and delivery are different; non-oracle generalization untested.",
+      "id": "component_verification",
+      "independent_validation": "Required before an original-contribution claim",
+      "level": 0,
+      "observed_failure": "Literal component baseline: 5 false positives on 192 frozen P1b records (2 partial, 3 no-final); source labels remain unchanged.",
+      "originality": "UNVERIFIED",
+      "prior_art": [
+        "Literal checklist",
+        "CoVe",
+        "RARR",
+        "Structured answer requirements"
+      ],
+      "publication_value": "Measurement validation evidence only.",
+      "status": "KNOWN_BASELINE_IMPLEMENTED; automatic replacement of human labels REJECTED",
+      "validation": "Independent negation/promise/alternative/paraphrase cases, fair verifier baselines and ablations; no gold answer access at deployment; latency and fidelity trade-offs."
+    },
+    {
+      "candidate": "Boundary diagnostic, not a new stop-sequence algorithm.",
+      "empirical_track": "Remains primary",
+      "gap": "Independent unit validity and effect on user-facing completion remain unmeasured.",
+      "id": "response_boundary",
+      "independent_validation": "Required before an original-contribution claim",
+      "level": 0,
+      "observed_failure": "Frozen P1b 186 CROSS_TURN, 5 TRUNCATED, 1 AMBIGUOUS; semantic meaning differs.",
+      "originality": "UNVERIFIED",
+      "prior_art": [
+        "Native EOS/EOG",
+        "Official chat templates",
+        "Stop strings",
+        "Frozen first-reply parser"
+      ],
+      "publication_value": "Potential measurement-bias contribution; no new algorithm.",
+      "status": "PROSPECTIVE",
+      "validation": "Independent human spans, unchanged raw continuation, template/budget arms, evaluate lost valid text and completeness."
+    },
+    {
+      "candidate": "Do not implement adaptive conditioning yet.",
+      "empirical_track": "Remains primary",
+      "gap": "No reproducible interaction-specific residual established.",
+      "id": "interaction_aware_conditioning",
+      "independent_validation": "Required before an original-contribution claim",
+      "level": 1,
+      "observed_failure": "Exploratory heterogeneous contributions do not establish a robust interaction.",
+      "originality": "UNVERIFIED",
+      "prior_art": [
+        "Factorial statistical contrasts",
+        "FPPS adaptive steering"
+      ],
+      "publication_value": "Unsupported originality claim rejected; retain hypothesis.",
+      "status": "DEFERRED_FOR_EVIDENCE",
+      "validation": "Independent speakers and matched implementations; prospective interactions and replication before tuning."
+    }
+  ],
+  "version": "algorithm_opportunity_registry_v1"
+}

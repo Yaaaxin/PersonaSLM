@@ -1,0 +1,17 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "tools/p1c_decision_compatibility.py",
+    "prepare-approval",
+    "--registration",
+    "docs/validation/p1c/decision_compatibility_v1/registration/registration_v1.json",
+    "--output",
+    "docs/validation/p1c/decision_compatibility_v1/consolidated_approval_pending_v1.json"
+  ],
+  "duration_seconds": 0.17513619997771457,
+  "exit_code": 0,
+  "finished_utc": "2026-10-14T06:13:03.821295+00:00",
+  "started_utc": "2026-10-14T06:13:03.646156+00:00",
+  "stderr": "",
+  "stdout": "{\n  \"version\": \"p1c_consolidated_approval_v1\",\n  \"registration_sha256\": \"65953be7c037fcfbfef4b92fb025deab2a0237a8bcebc9533808fb122142cccf\",\n  \"manifest_sha256\": \"b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b\",\n  \"request_count\": 72,\n  \"reviewer_id\": \"\",\n  \"decision_source\": \"\",\n  \"confirmation_statement\": \"\",\n  \"review_timestamp\": null,\n  \"decisions\": [\n    {\n      \"item_id\": \"evaluation_and_statistics\",\n      \"documents\": [\n        {\n          \"path\": \"docs/validation/p1c/final_review_v1/evaluation_policy_proposed_v1.json\",\n          \"sha256\": \"1fe5bfb170f192e53ce566eebf304cbeb93b5014c08112c05f6b06caf122e7ca\"\n        },\n        {\n          \"path\": \"docs/validation/p1c/final_review_v1/estimand_registry_proposed_v1.json\",\n          \"sha256\": \"713a7679d5a606707f8075bae51d3fa5716a721eccf86f1f56cebc73b4bbc4e7\"\n        },\n        {\n          \"path\": \"docs/validation/p1c/final_review_v1/applicability_matrix_v1.json\",\n          \"sha256\": \"2d2ab43f5100bcfa408cf5095f95ce3472d01af77638cad6814c482fc960cc57\"\n        },\n        {\n          \"path\": \"docs/validation/p1c/decision_gate_v1/analysis_restrictions_v1.json\",\n          \"sha256\": \"6cded9a50ce60249dd9383544816c6aebd0b3b66243ecea87a24301abaab4fd4\"\n        }\n      ],\n      \"decision\": \"\",\n      \"reason\": \"\"\n    },\n    {\n      \"item_id\": \"protocol_addendum\",\n      \"documents\": [\n        {\n          \"path\": \"docs/validation/p1c/final_review_v1/protocol_addendum_proposed_v2.json\",\n          \"sha256\": \"51d1987e2e91e2f4e72735304380e3f4442f418b731e972828677d24b7b96f55\"\n        }\n      ],\n      \"decision\": \"\",\n      \"reason\": \"\"\n    },\n    {\n      \"item_id\": \"execution_authorization\",\n      \"documents\": [\n        {\n          \"path\": \"docs/validation/p1c/final_review_v1/calibration_manifest_candidate_v1.json\",\n          \"sha256\": \"b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b\"\n        }\n      ],\n      \"decision\": \"\",\n      \"reason\": \"\"\n    }\n  ]\n}\n"
+}

@@ -1,0 +1,33 @@
+{
+  "additional_competitors": [
+    "MemConflict",
+    "STALE/CUPMem"
+  ],
+  "compiled_utc": "2026-10-14T06:29:42.492136+00:00",
+  "primary_sources": [
+    "https://aclanthology.org/2026.findings-acl.395/",
+    "https://arxiv.org/html/2610.11188v1",
+    "https://arxiv.org/html/2410.10813v2",
+    "https://arxiv.org/html/2610.09772v2",
+    "https://aclanthology.org/2026.eacl-long.246/",
+    "https://aclanthology.org/2026.findings-acl.981/",
+    "https://arxiv.org/html/2610.08513v1",
+    "https://arxiv.org/html/2605.20926v1",
+    "https://arxiv.org/html/2605.06527v1",
+    "https://aclanthology.org/2024.findings-acl.212/",
+    "https://aclanthology.org/2023.acl-long.910/"
+  ],
+  "queries": [
+    "\"LongMemEval\" time-aware retrieval ICLR 2025",
+    "\"When Personalization Misleads\" \"2026\"",
+    "\"What to Admit and How to Present\" memory",
+    "\"Decoupling Logic from Persona\"",
+    "\"Persistent Personas?\" EACL 2026",
+    "\"TwinVoice\" ACL 2026",
+    "\"Wiki-Talkie\" arxiv",
+    "temporal memory admission retrieval evidence conflict benchmark algorithm 2026 arxiv"
+  ],
+  "report": "docs/related_work_novelty_matrix_monitor_v1.md",
+  "scope": "Primary metadata plus targeted methods/experiments sections; not an exhaustive literature review or implementation reproduction.",
+  "version": "targeted_primary_source_monitor_v1"
+}

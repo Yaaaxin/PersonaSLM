@@ -1,0 +1,74 @@
+{
+  "files": {
+    "cases.csv": "38a269e64f608cd87c0abd1e8f4540af6d743835305bc4708c8e41f6411e56db",
+    "confirmation.csv": "fcd898aaaae95a2bcb5877099fb6543879e9bde066ac1ed42b8de346ffe93db6",
+    "history.csv": "678bd4a33c4f66e761715eada38473f8a424db7f72d59523f73bf359d243992c",
+    "manifest.json": "bb3fc377edc714325bca8267b6d483be610bc6077fb30956000122c13748fab1",
+    "operational_decisions_v1.csv": "b7439d7442c44c41ce8c2ff10c7aab4c35be9f8b86c60315f6e586693b7c8252",
+    "registered_decisions_v1.json": "68f899d1c739f9c31e99a3016c16e4ef637f66d401d2c0092373f6f96bb06c43",
+    "report.md": "fe40070fff4431ad1591f55db3b34dcd77ad2b4b2c964aab27707f1c2feeebb4",
+    "unified.csv": "3e75d1be85472aa811e393d9488c32af4c9e1d5380405db84af883fee2b8f1b9"
+  },
+  "git_head": "ab588dd973dfbb3743279d15bf1f72b8909efa6b",
+  "git_status": " M docs/research_development_log.md\n?? PersonaSLM_P1c_Researcher_Confirmed_Registration_v1/\n?? docs/P1c_decision_registration_and_execution_gate.md\n?? docs/P1c_received_researcher_decision_bundle.md\n?? docs/validation/p1c/decision_compatibility_v1/\n?? docs/validation/p1c/decision_gate_v1/\n?? tests/test_p1c_decision_compatibility.py\n?? tests/test_p1c_decisions.py\n?? tools/p1c_decision_compatibility.py\n?? tools/p1c_decisions.py\n",
+  "importer_sha256": "02b3fc7d543adc98a8d37c7e36321715ee26965f8e559e106ea14c68c0d3d701",
+  "manifest_sha256": "b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b",
+  "new_generations": 0,
+  "original_source_files": {
+    "PersonaSLM_P1c_Researcher_Confirmed_Registration_v1/docs/P1c_researcher_confirmation_registration_v1.md": "fe40070fff4431ad1591f55db3b34dcd77ad2b4b2c964aab27707f1c2feeebb4",
+    "PersonaSLM_P1c_Researcher_Confirmed_Registration_v1/docs/validation/p1c/final_review_v1/PersonaSLM_P1c_77_item_RESEARCHER_CONFIRMED_v1.csv": "3e75d1be85472aa811e393d9488c32af4c9e1d5380405db84af883fee2b8f1b9",
+    "PersonaSLM_P1c_Researcher_Confirmed_Registration_v1/docs/validation/p1c/final_review_v1/researcher_confirmation_form_RESEARCHER_CONFIRMED_v1.csv": "fcd898aaaae95a2bcb5877099fb6543879e9bde066ac1ed42b8de346ffe93db6",
+    "PersonaSLM_P1c_Researcher_Confirmed_Registration_v1/docs/validation/p1c/final_review_v1/researcher_confirmation_manifest_v1.json": "bb3fc377edc714325bca8267b6d483be610bc6077fb30956000122c13748fab1",
+    "PersonaSLM_P1c_Researcher_Confirmed_Registration_v1/docs/validation/p1c/scientific_review_v1/case_review_RESEARCHER_CONFIRMED_v1.csv": "38a269e64f608cd87c0abd1e8f4540af6d743835305bc4708c8e41f6411e56db",
+    "PersonaSLM_P1c_Researcher_Confirmed_Registration_v1/docs/validation/p1c/scientific_review_v1/history_text_review_RESEARCHER_CONFIRMED_v1.csv": "678bd4a33c4f66e761715eada38473f8a424db7f72d59523f73bf359d243992c"
+  },
+  "registered_utc": "2026-10-14T06:13:02.961484+00:00",
+  "source_pins_sha256": "d6fc13e869a1bde554c0dc6f21842ed3bed2a8c6f73b2031fe89b19452497a16",
+  "technical": {
+    "actual_tokenizer_ID_records": 72,
+    "binary_identity": "PASS",
+    "cases": 12,
+    "control_subset": 12,
+    "history_texts": 60,
+    "new_generations": 0,
+    "original_order": "PASS",
+    "requests": 72,
+    "source_files": 45,
+    "status": "PASS"
+  },
+  "validation": {
+    "cases": 12,
+    "confirmed_scoped_decisions": 74,
+    "control_assessments_subset": 12,
+    "decision_counts": {
+      "case__ACCEPT_WITH_RESTRICTED_ESTIMAND": 12,
+      "global__ACCEPT_WITH_RESTRICTED_ESTIMAND": 1,
+      "global__DIAGNOSTIC_ONLY": 1,
+      "global__NO_GO_PENDING_EXPLICIT_AUTHORIZATION": 1,
+      "global__PENDING_DOCUMENT_REVIEW": 2,
+      "history_text__ACCEPT_WITH_LIMITATIONS": 48,
+      "history_text__DIAGNOSTIC_ONLY": 12
+    },
+    "derived_legacy_categories": 48,
+    "entries": 77,
+    "global_scopes": 2,
+    "history_texts": 60,
+    "inference_authorized": false,
+    "non_annotation_fields_compared": 1772,
+    "non_annotation_mismatches": 0,
+    "pending_decisions": {
+      "evaluation_and_statistics": "PENDING_DOCUMENT_REVIEW",
+      "execution_authorization": "NO_GO_PENDING_EXPLICIT_AUTHORIZATION",
+      "protocol_addendum": "PENDING_DOCUMENT_REVIEW"
+    },
+    "unrated_subcriteria": "Original blanks retained; no new item-review gate or invented YES ratings.",
+    "unresolved_compatibility_records": [],
+    "unverified_declaration_note": "External original proposal/report not separately supplied. Their declarations are retained, not claimed independently hash-verified.",
+    "unverified_declared_sources": {
+      "proposal": "4b3aeecc1ffcdf92960c54c12c129b621c939927e604309f7710a594887e2c77",
+      "report": "9cb0528d54f0cd641df338f1719c6d289d84747c62728f3b434e1930c9af9b68"
+    },
+    "version": "p1c_legacy_scope_compatibility_v1"
+  },
+  "version": "p1c_legacy_scope_compatibility_v1"
+}

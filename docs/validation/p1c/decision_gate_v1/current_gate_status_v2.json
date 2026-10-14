@@ -1,0 +1,34 @@
+{
+  "canonical_registered_decisions": 0,
+  "checked_utc": "2026-10-14T05:56:09.882580+00:00",
+  "control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+  "earlier_gate_preserved": "current_gate_status_v1.json",
+  "legacy_label_mappings_pending": 48,
+  "manifest_sha256": "b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b",
+  "new_case_reviews_requested": false,
+  "new_generations": 0,
+  "remaining_source_global_decisions": {
+    "evaluation_and_statistics": "PENDING_DOCUMENT_REVIEW",
+    "execution_authorization": "NO_GO_PENDING_EXPLICIT_AUTHORIZATION",
+    "protocol_addendum": "PENDING_DOCUMENT_REVIEW"
+  },
+  "source_intake_status": "SOURCE_INTEGRITY_PASS_CANONICAL_REGISTRATION_PENDING",
+  "status": "NO_GO",
+  "subcriterion_ratings": "Not separately supplied; retained blank",
+  "supplied_confirmed_control_subset": 12,
+  "supplied_confirmed_global_scopes": 2,
+  "supplied_confirmed_unique_case_text_items": 72,
+  "technical_checks": {
+    "actual_tokenizer_ID_records": 72,
+    "binary_identity": "PASS",
+    "cases": 12,
+    "control_subset": 12,
+    "history_texts": 60,
+    "new_generations": 0,
+    "original_order": "PASS",
+    "requests": 72,
+    "source_files": 45,
+    "status": "PASS"
+  },
+  "version": "p1c_execution_gate_intake_update_v2"
+}

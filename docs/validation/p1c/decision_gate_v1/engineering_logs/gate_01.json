@@ -1,0 +1,15 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "tools/p1c_decisions.py",
+    "gate",
+    "--output",
+    "docs/validation/p1c/decision_gate_v1/current_gate_status_v1.json"
+  ],
+  "duration_seconds": 1.192136199970264,
+  "exit_code": 2,
+  "finished_utc": "2026-10-14T05:44:45.873474+00:00",
+  "started_utc": "2026-10-14T05:44:44.681336+00:00",
+  "stderr": "",
+  "stdout": "{\n  \"version\": \"p1c_execution_gate_v1\",\n  \"evaluated_utc\": \"2026-10-14T05:44:45.859491+00:00\",\n  \"status\": \"NO_GO\",\n  \"valid_registered_unique_decisions\": 0,\n  \"unregistered_unique_decisions\": 72,\n  \"registered_control_assessments_subset\": 0,\n  \"unregistered_control_assessments_subset\": 12,\n  \"registered_scientific_policy_decisions\": 0,\n  \"checks\": {\n    \"technical\": {\n      \"status\": \"PASS\",\n      \"source_files\": 45,\n      \"cases\": 12,\n      \"history_texts\": 60,\n      \"control_subset\": 12,\n      \"requests\": 72,\n      \"original_order\": \"PASS\",\n      \"actual_tokenizer_ID_records\": 72,\n      \"binary_identity\": \"PASS\",\n      \"new_generations\": 0\n    },\n    \"scientific\": {\n      \"status\": \"PENDING\"\n    },\n    \"authorization\": {\n      \"status\": \"PENDING_OR_NOT_GRANTED\"\n    }\n  },\n  \"blockers\": [\n    \"72 unique researcher item decisions missing (12 cases, 60 texts)\",\n    \"12 linked diagnostic-control assessments missing; not 12 extra observations\",\n    \"Five scientific policy decisions missing\",\n    \"Separate explicit authorization for the exact 72-request manifest/registration is absent or not granted\"\n  ],\n  \"control_class\": \"LENGTH_MATCHED_DIAGNOSTIC_CONTROL\",\n  \"manifest_sha256\": \"b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b\",\n  \"generation_requests_executed\": 0,\n  \"scope\": \"Offline gate only. GO never launches a model; runtime logging/disk/resume preflight remains required at an authorized execution.\",\n  \"approval_is_not_inferred_from_form_presence\": true\n}\n"
+}

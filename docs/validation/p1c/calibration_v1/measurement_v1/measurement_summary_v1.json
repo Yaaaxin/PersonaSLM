@@ -1,0 +1,96 @@
+{
+  "actual_generated_tokens": 6898,
+  "cases": 12,
+  "conditions": {
+    "H_none": {
+      "CROSS_TURN": 12
+    },
+    "N_history": {
+      "AMBIGUOUS": 1,
+      "CROSS_TURN": 11
+    },
+    "R0T0": {
+      "AMBIGUOUS": 1,
+      "CROSS_TURN": 11
+    },
+    "R0T1": {
+      "AMBIGUOUS": 1,
+      "CROSS_TURN": 11
+    },
+    "R1T0": {
+      "AMBIGUOUS": 3,
+      "CROSS_TURN": 9
+    },
+    "R1T1": {
+      "AMBIGUOUS": 2,
+      "CROSS_TURN": 10
+    }
+  },
+  "failed": 0,
+  "families": {
+    "multiple_components": {
+      "AMBIGUOUS": 6,
+      "CROSS_TURN": 18
+    },
+    "route_integration": {
+      "AMBIGUOUS": 2,
+      "CROSS_TURN": 22
+    },
+    "single_retrieval": {
+      "CROSS_TURN": 24
+    }
+  },
+  "first_replies_identifiable": 64,
+  "inference_latency_seconds_sum": 1156.5636820999207,
+  "metric_eligible": {
+    "component_coverage": 72,
+    "conversational_coherence": 72,
+    "factual_consistency": 72,
+    "response_relevance": 72,
+    "semantic_completeness": 72,
+    "structural_status": 72,
+    "task_success": 72,
+    "temporal_consistency": 72
+  },
+  "native_stop_types": {
+    "eos": 2,
+    "limit": 70
+  },
+  "no_additional_generation": true,
+  "planned": 72,
+  "reconstructed_twice": true,
+  "semantic_effects_computed": false,
+  "semantic_human_judgments": 0,
+  "source_integrity": {
+    "actual_tokenizer_ID_records": 72,
+    "binary_identity": "PASS",
+    "cases": 12,
+    "control_subset": 12,
+    "history_texts": 60,
+    "new_generations": 0,
+    "original_order": "PASS",
+    "requests": 72,
+    "source_files": 45,
+    "status": "PASS"
+  },
+  "speakers": 6,
+  "statistical_reconstruction_twice": true,
+  "structural_status": {
+    "AMBIGUOUS": 8,
+    "CROSS_TURN": 64
+  },
+  "successful": 72,
+  "termination": {
+    "eos": 2,
+    "length": 70
+  },
+  "transport_checks": [
+    {
+      "ordered_raw_bytes_verified": 72,
+      "payloads_verified": 72,
+      "segment": "results/p1c_calibration/development_v1/runs/20261014T062351-c6724f67d31c4f7e83341957adcc42a4",
+      "token_arrays_verified": 72
+    }
+  ],
+  "version": "p1c_measurement_summary_v1"
+}

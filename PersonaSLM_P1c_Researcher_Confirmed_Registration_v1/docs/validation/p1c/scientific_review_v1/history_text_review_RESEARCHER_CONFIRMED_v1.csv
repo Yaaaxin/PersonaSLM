@@ -1,0 +1,961 @@
+﻿item_id,case_id,condition,R,T,full_history_text,trusted_evidence,current_question,expected_answer,requested_date,evaluation_date,scientific_purpose,source_quote,input_tokens,matching_difference,prompt_sha256,specific_semantic_risks,automated_validation,AI_assisted_recommendation,supporting_explanation,source_reference,researcher_no_answer_leakage,researcher_topic_and_time,researcher_speaker_and_coherence,researcher_narrow_comparison,researcher_decision,researcher_notes,reviewer_id
+p1c_01_historical__R0T0,p1c_01_historical,R0T0,0,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Auden Vale: The record lists my music label as green for 2042-01-01 through 2042-04-30.","[p1c_speaker_01_f01] Auden Vale: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f10] Archive colleague 1: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f11] Archive colleague 1: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f12] Archive colleague 1: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the collection desk assigned to Auden Vale.","[""Laurel""]",2042-06-15,2042-12-15,"Auxiliary music-topic record, expired at 2042-06-15; no target-answer fact.",[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.,770,0,34e79839b0377d71b5e2fb438e3adf48a85f52793410156295a0307443646f80,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_01_historical/R0T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_01_historical__R0T1,p1c_01_historical,R0T1,0,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Auden Vale: The record lists my music label as red for 2042-05-01 through 2042-08-31.","[p1c_speaker_01_f01] Auden Vale: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f10] Archive colleague 1: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f11] Archive colleague 1: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f12] Archive colleague 1: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the collection desk assigned to Auden Vale.","[""Laurel""]",2042-06-15,2042-12-15,"Auxiliary music-topic record, valid at 2042-06-15; no target-answer fact.",[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.,770,0,369fba244eae1b309732c2a9a40048b85166296b8cfbcc2e117154d329df3e1b,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_01_historical/R0T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_01_historical__R1T0,p1c_01_historical,R1T0,1,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Auden Vale: The record lists my parcel label as blue for 2042-01-01 through 2042-04-30.","[p1c_speaker_01_f01] Auden Vale: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f10] Archive colleague 1: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f11] Archive colleague 1: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f12] Archive colleague 1: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the collection desk assigned to Auden Vale.","[""Laurel""]",2042-06-15,2042-12-15,"Auxiliary parcel-topic record, expired at 2042-06-15; no target-answer fact.",[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.,770,0,7bedb5c3aacd55cd1a8e06e8663e9afe988e97b7b903fc5ff50c5ae05d09a506,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_01_historical/R1T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_01_historical__R1T1,p1c_01_historical,R1T1,1,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Auden Vale: The record lists my parcel label as green for 2042-05-01 through 2042-08-31.","[p1c_speaker_01_f01] Auden Vale: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f10] Archive colleague 1: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f11] Archive colleague 1: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f12] Archive colleague 1: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the collection desk assigned to Auden Vale.","[""Laurel""]",2042-06-15,2042-12-15,"Auxiliary parcel-topic record, valid at 2042-06-15; no target-answer fact.",[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.,770,0,862207a5cf43306d9a5278f9a34290b50881b03e6ca21c1494b91167c92b8b32,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_01_historical/R1T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_01_historical__N_history,p1c_01_historical,N_history,,,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Auden Vale: The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.","[p1c_speaker_01_f01] Auden Vale: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f10] Archive colleague 1: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f11] Archive colleague 1: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f12] Archive colleague 1: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the collection desk assigned to Auden Vale.","[""Laurel""]",2042-06-15,2042-12-15,Length/format-matched procedural archive comparator; no claim of semantic inertness.,,770,0,3492c0a7cc3a2f419925b2c4c40fa9f7b7ad54a4b4c762be99633051d29683df,Procedural record-reading priming; repeated archive vocabulary; contrastive rather than; no personal validity interval; formal self-referential reply; archive timestamp remains.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,Text describes archive organization rather than a personal interval-valued fact; it is not equivalent to an empty history.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_01_historical/N_history,,,,,DIAGNOSTIC_ONLY,Researcher reviewed and adopted the diagnostic-only treatment. Token-matched procedural comparator; strict semantic neutrality and information equivalence NOT established. No pure-control claim.,Yaxin_ZHENG
+p1c_01_current__R0T0,p1c_01_current,R0T0,0,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Auden Vale: The record lists my music label as green for 2042-01-01 through 2042-04-30.","[p1c_speaker_01_f01] Auden Vale: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f10] Archive colleague 1: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f11] Archive colleague 1: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f12] Archive colleague 1: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the collection desk assigned to Auden Vale.","[""Harbor""]",2042-12-15,2042-12-15,"Auxiliary music-topic record, expired at 2042-12-15; no target-answer fact.",[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.,770,0,f7c166ca9457317e69cdb36fc775e7510f2f5463a8fefc4ce3698a79f6383db7,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_01_current/R0T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_01_current__R0T1,p1c_01_current,R0T1,0,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Auden Vale: The record lists my music label as blue for 2042-09-01 through 2042-12-31.","[p1c_speaker_01_f01] Auden Vale: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f10] Archive colleague 1: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f11] Archive colleague 1: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f12] Archive colleague 1: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the collection desk assigned to Auden Vale.","[""Harbor""]",2042-12-15,2042-12-15,"Auxiliary music-topic record, valid at 2042-12-15; no target-answer fact.",[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.,770,0,2de6e608751ba69ab9efc621a82a73b766b87202e508d8b5be5fd2291ad57c08,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_01_current/R0T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_01_current__R1T0,p1c_01_current,R1T0,1,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Auden Vale: The record lists my parcel label as blue for 2042-01-01 through 2042-04-30.","[p1c_speaker_01_f01] Auden Vale: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f10] Archive colleague 1: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f11] Archive colleague 1: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f12] Archive colleague 1: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the collection desk assigned to Auden Vale.","[""Harbor""]",2042-12-15,2042-12-15,"Auxiliary parcel-topic record, expired at 2042-12-15; no target-answer fact.",[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.,770,0,5f79c862e4709d3e19463c59c9bef2f0687ae42e0ceb8d11ba6669f123ec2b1a,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_01_current/R1T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_01_current__R1T1,p1c_01_current,R1T1,1,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Auden Vale: The record lists my parcel label as red for 2042-09-01 through 2042-12-31.","[p1c_speaker_01_f01] Auden Vale: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f10] Archive colleague 1: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f11] Archive colleague 1: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f12] Archive colleague 1: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the collection desk assigned to Auden Vale.","[""Harbor""]",2042-12-15,2042-12-15,"Auxiliary parcel-topic record, valid at 2042-12-15; no target-answer fact.",[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.,770,0,d0de0e77544144218e7bd00530a3ffbd10d68dab2755d1599ecca289153ec421,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_01_current/R1T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_01_current__N_history,p1c_01_current,N_history,,,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Auden Vale: The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.","[p1c_speaker_01_f01] Auden Vale: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f02] Auden Vale: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f03] Auden Vale: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f04] Auden Vale: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f05] Auden Vale: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f06] Auden Vale: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f07] Auden Vale: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f08] Auden Vale: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f09] Auden Vale: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_01_f10] Archive colleague 1: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_01_f11] Archive colleague 1: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_01_f12] Archive colleague 1: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the collection desk assigned to Auden Vale.","[""Harbor""]",2042-12-15,2042-12-15,Length/format-matched procedural archive comparator; no claim of semantic inertness.,,770,0,f07aa2d4644372cfc2a7ff081dd303e39d9ce040cbfa5e71ef613d52d821d449,Procedural record-reading priming; repeated archive vocabulary; contrastive rather than; no personal validity interval; formal self-referential reply; archive timestamp remains.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,Text describes archive organization rather than a personal interval-valued fact; it is not equivalent to an empty history.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_01_current/N_history,,,,,DIAGNOSTIC_ONLY,Researcher reviewed and adopted the diagnostic-only treatment. Token-matched procedural comparator; strict semantic neutrality and information equivalence NOT established. No pure-control claim.,Yaxin_ZHENG
+p1c_02_historical__R0T0,p1c_02_historical,R0T0,0,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Celia North: The record lists my music label as red for 2042-01-01 through 2042-04-30.","[p1c_speaker_02_f01] Celia North: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f10] Archive colleague 2: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f11] Archive colleague 2: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f12] Archive colleague 2: collection desk = Silver; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Celia North's assigned collection desk?","[""Harbor""]",2042-06-15,2042-12-15,"Auxiliary music-topic record, expired at 2042-06-15; no target-answer fact.",[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.,766,0,20f81d5a0eb0adbdcfe2ee39b69b9176aedc5c0222704943cd655d97730d34c3,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_02_historical/R0T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_02_historical__R0T1,p1c_02_historical,R0T1,0,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Celia North: The record lists my music label as blue for 2042-05-01 through 2042-08-31.","[p1c_speaker_02_f01] Celia North: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f10] Archive colleague 2: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f11] Archive colleague 2: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f12] Archive colleague 2: collection desk = Silver; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Celia North's assigned collection desk?","[""Harbor""]",2042-06-15,2042-12-15,"Auxiliary music-topic record, valid at 2042-06-15; no target-answer fact.",[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.,766,0,3e7c9e6d052bc8dc09f5f01b879a1cd0373cd119334fa258860b3222ec56ec12,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_02_historical/R0T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_02_historical__R1T0,p1c_02_historical,R1T0,1,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Celia North: The record lists my parcel label as green for 2042-01-01 through 2042-04-30.","[p1c_speaker_02_f01] Celia North: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f10] Archive colleague 2: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f11] Archive colleague 2: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f12] Archive colleague 2: collection desk = Silver; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Celia North's assigned collection desk?","[""Harbor""]",2042-06-15,2042-12-15,"Auxiliary parcel-topic record, expired at 2042-06-15; no target-answer fact.",[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.,766,0,2c51a9500a4e7c33d167ed1327dda6b4d4e39d66a35581e705aa9d3fc0f9d46d,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_02_historical/R1T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_02_historical__R1T1,p1c_02_historical,R1T1,1,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Celia North: The record lists my parcel label as red for 2042-05-01 through 2042-08-31.","[p1c_speaker_02_f01] Celia North: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f10] Archive colleague 2: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f11] Archive colleague 2: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f12] Archive colleague 2: collection desk = Silver; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Celia North's assigned collection desk?","[""Harbor""]",2042-06-15,2042-12-15,"Auxiliary parcel-topic record, valid at 2042-06-15; no target-answer fact.",[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.,766,0,5e57b61b14fcbbf1937c698de30a00a2065d585aec4699ab13da8ef6fc76c61f,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_02_historical/R1T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_02_historical__N_history,p1c_02_historical,N_history,,,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Celia North: The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.","[p1c_speaker_02_f01] Celia North: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f10] Archive colleague 2: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f11] Archive colleague 2: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f12] Archive colleague 2: collection desk = Silver; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Celia North's assigned collection desk?","[""Harbor""]",2042-06-15,2042-12-15,Length/format-matched procedural archive comparator; no claim of semantic inertness.,,766,0,5fe341a16ea11bcee3ed3d92b6f44cf78b90720f93c8bbc5900c499c45e4a022,Procedural record-reading priming; repeated archive vocabulary; contrastive rather than; no personal validity interval; formal self-referential reply; archive timestamp remains.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,Text describes archive organization rather than a personal interval-valued fact; it is not equivalent to an empty history.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_02_historical/N_history,,,,,DIAGNOSTIC_ONLY,Researcher reviewed and adopted the diagnostic-only treatment. Token-matched procedural comparator; strict semantic neutrality and information equivalence NOT established. No pure-control claim.,Yaxin_ZHENG
+p1c_02_current__R0T0,p1c_02_current,R0T0,0,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Celia North: The record lists my music label as red for 2042-01-01 through 2042-04-30.","[p1c_speaker_02_f01] Celia North: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f10] Archive colleague 2: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f11] Archive colleague 2: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f12] Archive colleague 2: collection desk = Silver; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Celia North's assigned collection desk?","[""Maple""]",2042-12-15,2042-12-15,"Auxiliary music-topic record, expired at 2042-12-15; no target-answer fact.",[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.,766,0,db2a014c66f00cda96b44bf7c222fbc3e17f8ad9dba532dc43ac8bfe17272c15,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_02_current/R0T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_02_current__R0T1,p1c_02_current,R0T1,0,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Celia North: The record lists my music label as green for 2042-09-01 through 2042-12-31.","[p1c_speaker_02_f01] Celia North: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f10] Archive colleague 2: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f11] Archive colleague 2: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f12] Archive colleague 2: collection desk = Silver; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Celia North's assigned collection desk?","[""Maple""]",2042-12-15,2042-12-15,"Auxiliary music-topic record, valid at 2042-12-15; no target-answer fact.",[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.,766,0,e4f8f546bdb0c9508df2be8358a987352b69002448da01ae9bc45649dec7a519,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_02_current/R0T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_02_current__R1T0,p1c_02_current,R1T0,1,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Celia North: The record lists my parcel label as green for 2042-01-01 through 2042-04-30.","[p1c_speaker_02_f01] Celia North: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f10] Archive colleague 2: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f11] Archive colleague 2: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f12] Archive colleague 2: collection desk = Silver; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Celia North's assigned collection desk?","[""Maple""]",2042-12-15,2042-12-15,"Auxiliary parcel-topic record, expired at 2042-12-15; no target-answer fact.",[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.,766,0,4e99ad71d88a790cd09438da0b82d900fe69669165dad39ac8492b120321cd85,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_02_current/R1T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_02_current__R1T1,p1c_02_current,R1T1,1,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Celia North: The record lists my parcel label as blue for 2042-09-01 through 2042-12-31.","[p1c_speaker_02_f01] Celia North: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f10] Archive colleague 2: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f11] Archive colleague 2: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f12] Archive colleague 2: collection desk = Silver; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Celia North's assigned collection desk?","[""Maple""]",2042-12-15,2042-12-15,"Auxiliary parcel-topic record, valid at 2042-12-15; no target-answer fact.",[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.,766,0,7332256130472c9415e0bfefec00b8a2f32c4933fece4bb81ee3248382f94c81,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_02_current/R1T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_02_current__N_history,p1c_02_current,N_history,,,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Celia North: The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.","[p1c_speaker_02_f01] Celia North: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f02] Celia North: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f03] Celia North: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f04] Celia North: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f05] Celia North: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f06] Celia North: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f07] Celia North: collection desk = Maple; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f08] Celia North: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f09] Celia North: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_02_f10] Archive colleague 2: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_02_f11] Archive colleague 2: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_02_f12] Archive colleague 2: collection desk = Silver; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Celia North's assigned collection desk?","[""Maple""]",2042-12-15,2042-12-15,Length/format-matched procedural archive comparator; no claim of semantic inertness.,,766,0,71c25c7c7d6509bae79614e2432e212c174d516666b417209866f6d9412e481d,Procedural record-reading priming; repeated archive vocabulary; contrastive rather than; no personal validity interval; formal self-referential reply; archive timestamp remains.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,Text describes archive organization rather than a personal interval-valued fact; it is not equivalent to an empty history.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_02_current/N_history,,,,,DIAGNOSTIC_ONLY,Researcher reviewed and adopted the diagnostic-only treatment. Token-matched procedural comparator; strict semantic neutrality and information equivalence NOT established. No pure-control claim.,Yaxin_ZHENG
+p1c_03_historical__R0T0,p1c_03_historical,R0T0,0,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Elian Moss: The record lists my music label as blue for 2042-01-01 through 2042-04-30.","[p1c_speaker_03_f01] Elian Moss: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f02] Elian Moss: service day = Saturday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f13] Archive colleague 3: collection desk = Orchid; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f14] Archive colleague 3: collection desk = Silver; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f15] Archive colleague 3: collection desk = Cobalt; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the collection desk and service day assigned to Elian Moss.","[""Maple"", ""Tuesday""]",2042-06-15,2042-12-15,"Auxiliary music-topic record, expired at 2042-06-15; no target-answer fact.",[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.,915,0,b58478da95ae6beb23909badc23965743ef3ab022004f48863ae6610a248bdd8,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_03_historical/R0T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_03_historical__R0T1,p1c_03_historical,R0T1,0,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Elian Moss: The record lists my music label as green for 2042-05-01 through 2042-08-31.","[p1c_speaker_03_f01] Elian Moss: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f02] Elian Moss: service day = Saturday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f13] Archive colleague 3: collection desk = Orchid; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f14] Archive colleague 3: collection desk = Silver; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f15] Archive colleague 3: collection desk = Cobalt; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the collection desk and service day assigned to Elian Moss.","[""Maple"", ""Tuesday""]",2042-06-15,2042-12-15,"Auxiliary music-topic record, valid at 2042-06-15; no target-answer fact.",[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.,915,0,53025b7c90fae7676d82abc40a7d18a954f216d9a275db4f2c3759429920aa51,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_03_historical/R0T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_03_historical__R1T0,p1c_03_historical,R1T0,1,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Elian Moss: The record lists my parcel label as red for 2042-01-01 through 2042-04-30.","[p1c_speaker_03_f01] Elian Moss: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f02] Elian Moss: service day = Saturday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f13] Archive colleague 3: collection desk = Orchid; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f14] Archive colleague 3: collection desk = Silver; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f15] Archive colleague 3: collection desk = Cobalt; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the collection desk and service day assigned to Elian Moss.","[""Maple"", ""Tuesday""]",2042-06-15,2042-12-15,"Auxiliary parcel-topic record, expired at 2042-06-15; no target-answer fact.",[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.,915,0,9171b5a754d542e739c182d274be94cf7fba1d6572da6f248fd674430a9f676e,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_03_historical/R1T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_03_historical__R1T1,p1c_03_historical,R1T1,1,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Elian Moss: The record lists my parcel label as blue for 2042-05-01 through 2042-08-31.","[p1c_speaker_03_f01] Elian Moss: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f02] Elian Moss: service day = Saturday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f13] Archive colleague 3: collection desk = Orchid; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f14] Archive colleague 3: collection desk = Silver; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f15] Archive colleague 3: collection desk = Cobalt; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the collection desk and service day assigned to Elian Moss.","[""Maple"", ""Tuesday""]",2042-06-15,2042-12-15,"Auxiliary parcel-topic record, valid at 2042-06-15; no target-answer fact.",[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.,915,0,07d5a6b462cf8d17a64feb93be07de18709caa5d611c0d4db8eac42934bd1426,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_03_historical/R1T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_03_historical__N_history,p1c_03_historical,N_history,,,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Elian Moss: The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.","[p1c_speaker_03_f01] Elian Moss: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f02] Elian Moss: service day = Saturday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f13] Archive colleague 3: collection desk = Orchid; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f14] Archive colleague 3: collection desk = Silver; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f15] Archive colleague 3: collection desk = Cobalt; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the collection desk and service day assigned to Elian Moss.","[""Maple"", ""Tuesday""]",2042-06-15,2042-12-15,Length/format-matched procedural archive comparator; no claim of semantic inertness.,,915,0,21ee62f6a5c89806f3401191b9fe2a7c837c891b15f1c4231aa96077d6b6559d,Procedural record-reading priming; repeated archive vocabulary; contrastive rather than; no personal validity interval; formal self-referential reply; archive timestamp remains.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,Text describes archive organization rather than a personal interval-valued fact; it is not equivalent to an empty history.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_03_historical/N_history,,,,,DIAGNOSTIC_ONLY,Researcher reviewed and adopted the diagnostic-only treatment. Token-matched procedural comparator; strict semantic neutrality and information equivalence NOT established. No pure-control claim.,Yaxin_ZHENG
+p1c_03_current__R0T0,p1c_03_current,R0T0,0,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Elian Moss: The record lists my music label as blue for 2042-01-01 through 2042-04-30.","[p1c_speaker_03_f01] Elian Moss: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f02] Elian Moss: service day = Saturday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f13] Archive colleague 3: collection desk = Orchid; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f14] Archive colleague 3: collection desk = Silver; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f15] Archive colleague 3: collection desk = Cobalt; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the collection desk and service day assigned to Elian Moss.","[""Orchid"", ""Thursday""]",2042-12-15,2042-12-15,"Auxiliary music-topic record, expired at 2042-12-15; no target-answer fact.",[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.,915,0,26dfd1bd3d4a05a7e223f1e128ed08e4027280a6a9d74318be504ed16b2e1e0c,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_03_current/R0T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_03_current__R0T1,p1c_03_current,R0T1,0,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Elian Moss: The record lists my music label as red for 2042-09-01 through 2042-12-31.","[p1c_speaker_03_f01] Elian Moss: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f02] Elian Moss: service day = Saturday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f13] Archive colleague 3: collection desk = Orchid; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f14] Archive colleague 3: collection desk = Silver; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f15] Archive colleague 3: collection desk = Cobalt; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the collection desk and service day assigned to Elian Moss.","[""Orchid"", ""Thursday""]",2042-12-15,2042-12-15,"Auxiliary music-topic record, valid at 2042-12-15; no target-answer fact.",[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.,915,0,00d496900dccf1d07d043f62cd2ad8125172ef8a7b7363634b4a59d99fe6a0ec,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_03_current/R0T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_03_current__R1T0,p1c_03_current,R1T0,1,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Elian Moss: The record lists my parcel label as red for 2042-01-01 through 2042-04-30.","[p1c_speaker_03_f01] Elian Moss: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f02] Elian Moss: service day = Saturday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f13] Archive colleague 3: collection desk = Orchid; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f14] Archive colleague 3: collection desk = Silver; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f15] Archive colleague 3: collection desk = Cobalt; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the collection desk and service day assigned to Elian Moss.","[""Orchid"", ""Thursday""]",2042-12-15,2042-12-15,"Auxiliary parcel-topic record, expired at 2042-12-15; no target-answer fact.",[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.,915,0,d58884236fd8096f464ea2a052fb79515cb23f01c4f05fd79614d65cd12de5a2,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_03_current/R1T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_03_current__R1T1,p1c_03_current,R1T1,1,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Elian Moss: The record lists my parcel label as green for 2042-09-01 through 2042-12-31.","[p1c_speaker_03_f01] Elian Moss: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f02] Elian Moss: service day = Saturday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f13] Archive colleague 3: collection desk = Orchid; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f14] Archive colleague 3: collection desk = Silver; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f15] Archive colleague 3: collection desk = Cobalt; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the collection desk and service day assigned to Elian Moss.","[""Orchid"", ""Thursday""]",2042-12-15,2042-12-15,"Auxiliary parcel-topic record, valid at 2042-12-15; no target-answer fact.",[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.,915,0,31e534411e25c50ddd992740f17c62f6105e6f8aaba80cea34da1dab532d1556,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_03_current/R1T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_03_current__N_history,p1c_03_current,N_history,,,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Elian Moss: The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.","[p1c_speaker_03_f01] Elian Moss: collection desk = Harbor; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f02] Elian Moss: service day = Saturday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f03] Elian Moss: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f04] Elian Moss: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f05] Elian Moss: collection desk = Maple; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f06] Elian Moss: service day = Tuesday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f07] Elian Moss: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f08] Elian Moss: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f11] Elian Moss: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f12] Elian Moss: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_03_f13] Archive colleague 3: collection desk = Orchid; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_03_f14] Archive colleague 3: collection desk = Silver; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_03_f15] Archive colleague 3: collection desk = Cobalt; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the collection desk and service day assigned to Elian Moss.","[""Orchid"", ""Thursday""]",2042-12-15,2042-12-15,Length/format-matched procedural archive comparator; no claim of semantic inertness.,,915,0,6d2d5d485a7e4fc2332ce6699461508f2868d7868ff0709b8ccb39f89fb3d115,Procedural record-reading priming; repeated archive vocabulary; contrastive rather than; no personal validity interval; formal self-referential reply; archive timestamp remains.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,Text describes archive organization rather than a personal interval-valued fact; it is not equivalent to an empty history.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_03_current/N_history,,,,,DIAGNOSTIC_ONLY,Researcher reviewed and adopted the diagnostic-only treatment. Token-matched procedural comparator; strict semantic neutrality and information equivalence NOT established. No pure-control claim.,Yaxin_ZHENG
+p1c_04_historical__R0T0,p1c_04_historical,R0T0,0,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Greta Sable: The record lists my music label as green for 2042-01-01 through 2042-04-30.","[p1c_speaker_04_f01] Greta Sable: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f02] Greta Sable: service day = Tuesday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f13] Archive colleague 4: collection desk = Silver; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f14] Archive colleague 4: collection desk = Cobalt; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f15] Archive colleague 4: collection desk = Laurel; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Greta Sable's assigned collection desk and service day?","[""Orchid"", ""Thursday""]",2042-06-15,2042-12-15,"Auxiliary music-topic record, expired at 2042-06-15; no target-answer fact.",[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.,926,0,9da14830bb1afa96c1cc7b6a62ccf265c6f6fa1bdd4feea249984008795d7134,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_04_historical/R0T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_04_historical__R0T1,p1c_04_historical,R0T1,0,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Greta Sable: The record lists my music label as red for 2042-05-01 through 2042-08-31.","[p1c_speaker_04_f01] Greta Sable: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f02] Greta Sable: service day = Tuesday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f13] Archive colleague 4: collection desk = Silver; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f14] Archive colleague 4: collection desk = Cobalt; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f15] Archive colleague 4: collection desk = Laurel; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Greta Sable's assigned collection desk and service day?","[""Orchid"", ""Thursday""]",2042-06-15,2042-12-15,"Auxiliary music-topic record, valid at 2042-06-15; no target-answer fact.",[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.,926,0,a44918438ddf3cba344564088c05874fd704b67c654a2e6bef027a4954060da2,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_04_historical/R0T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_04_historical__R1T0,p1c_04_historical,R1T0,1,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Greta Sable: The record lists my parcel label as blue for 2042-01-01 through 2042-04-30.","[p1c_speaker_04_f01] Greta Sable: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f02] Greta Sable: service day = Tuesday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f13] Archive colleague 4: collection desk = Silver; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f14] Archive colleague 4: collection desk = Cobalt; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f15] Archive colleague 4: collection desk = Laurel; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Greta Sable's assigned collection desk and service day?","[""Orchid"", ""Thursday""]",2042-06-15,2042-12-15,"Auxiliary parcel-topic record, expired at 2042-06-15; no target-answer fact.",[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.,926,0,338c522e72425f82eaec37c5fa73c780c07075271ab179694c8eb62016a19d14,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_04_historical/R1T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_04_historical__R1T1,p1c_04_historical,R1T1,1,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Greta Sable: The record lists my parcel label as green for 2042-05-01 through 2042-08-31.","[p1c_speaker_04_f01] Greta Sable: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f02] Greta Sable: service day = Tuesday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f13] Archive colleague 4: collection desk = Silver; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f14] Archive colleague 4: collection desk = Cobalt; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f15] Archive colleague 4: collection desk = Laurel; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Greta Sable's assigned collection desk and service day?","[""Orchid"", ""Thursday""]",2042-06-15,2042-12-15,"Auxiliary parcel-topic record, valid at 2042-06-15; no target-answer fact.",[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.,926,0,840996e109920c49de3c2cb3b98da3f5cf4f1d70f8ccd6a5771a8b1fce8ff0b2,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_04_historical/R1T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_04_historical__N_history,p1c_04_historical,N_history,,,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Greta Sable: The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.","[p1c_speaker_04_f01] Greta Sable: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f02] Greta Sable: service day = Tuesday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f13] Archive colleague 4: collection desk = Silver; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f14] Archive colleague 4: collection desk = Cobalt; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f15] Archive colleague 4: collection desk = Laurel; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Greta Sable's assigned collection desk and service day?","[""Orchid"", ""Thursday""]",2042-06-15,2042-12-15,Length/format-matched procedural archive comparator; no claim of semantic inertness.,,926,0,3d8df8ad7594092d278daa074d69948281461642c9352568aae4713136ebe160,Procedural record-reading priming; repeated archive vocabulary; contrastive rather than; no personal validity interval; formal self-referential reply; archive timestamp remains.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,Text describes archive organization rather than a personal interval-valued fact; it is not equivalent to an empty history.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_04_historical/N_history,,,,,DIAGNOSTIC_ONLY,Researcher reviewed and adopted the diagnostic-only treatment. Token-matched procedural comparator; strict semantic neutrality and information equivalence NOT established. No pure-control claim.,Yaxin_ZHENG
+p1c_04_current__R0T0,p1c_04_current,R0T0,0,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Greta Sable: The record lists my music label as green for 2042-01-01 through 2042-04-30.","[p1c_speaker_04_f01] Greta Sable: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f02] Greta Sable: service day = Tuesday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f13] Archive colleague 4: collection desk = Silver; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f14] Archive colleague 4: collection desk = Cobalt; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f15] Archive colleague 4: collection desk = Laurel; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Greta Sable's assigned collection desk and service day?","[""Silver"", ""Saturday""]",2042-12-15,2042-12-15,"Auxiliary music-topic record, expired at 2042-12-15; no target-answer fact.",[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.,926,0,a7ddf17e600b19d974bcf994bf596286919879a416c2553198bf22e6ff033fa5,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_04_current/R0T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_04_current__R0T1,p1c_04_current,R0T1,0,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Greta Sable: The record lists my music label as blue for 2042-09-01 through 2042-12-31.","[p1c_speaker_04_f01] Greta Sable: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f02] Greta Sable: service day = Tuesday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f13] Archive colleague 4: collection desk = Silver; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f14] Archive colleague 4: collection desk = Cobalt; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f15] Archive colleague 4: collection desk = Laurel; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Greta Sable's assigned collection desk and service day?","[""Silver"", ""Saturday""]",2042-12-15,2042-12-15,"Auxiliary music-topic record, valid at 2042-12-15; no target-answer fact.",[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.,926,0,f652b7e3e1f4057536dd34161548015fda2ca7075dcd5ba0982cc12bb350b625,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_04_current/R0T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_04_current__R1T0,p1c_04_current,R1T0,1,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Greta Sable: The record lists my parcel label as blue for 2042-01-01 through 2042-04-30.","[p1c_speaker_04_f01] Greta Sable: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f02] Greta Sable: service day = Tuesday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f13] Archive colleague 4: collection desk = Silver; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f14] Archive colleague 4: collection desk = Cobalt; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f15] Archive colleague 4: collection desk = Laurel; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Greta Sable's assigned collection desk and service day?","[""Silver"", ""Saturday""]",2042-12-15,2042-12-15,"Auxiliary parcel-topic record, expired at 2042-12-15; no target-answer fact.",[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.,926,0,921583c8a2e8b025f5309c2007513cb2ddc476916bdedeaf758d9ffbe43263b4,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_04_current/R1T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_04_current__R1T1,p1c_04_current,R1T1,1,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Greta Sable: The record lists my parcel label as red for 2042-09-01 through 2042-12-31.","[p1c_speaker_04_f01] Greta Sable: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f02] Greta Sable: service day = Tuesday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f13] Archive colleague 4: collection desk = Silver; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f14] Archive colleague 4: collection desk = Cobalt; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f15] Archive colleague 4: collection desk = Laurel; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Greta Sable's assigned collection desk and service day?","[""Silver"", ""Saturday""]",2042-12-15,2042-12-15,"Auxiliary parcel-topic record, valid at 2042-12-15; no target-answer fact.",[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.,926,0,14bbe21c2d873ac51b4e19e22b96ddae71f7358440d73dfb2579b77421f322ef,"Parcel versus music is a topic/predicate/value package. Question says collection desk, not parcel: topical relation is assumed from scenario and requires confirmation. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_04_current/R1T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_04_current__N_history,p1c_04_current,N_history,,,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Greta Sable: The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.","[p1c_speaker_04_f01] Greta Sable: collection desk = Maple; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f02] Greta Sable: service day = Tuesday; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f03] Greta Sable: parcel label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f04] Greta Sable: music label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f05] Greta Sable: collection desk = Orchid; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f06] Greta Sable: service day = Thursday; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f07] Greta Sable: parcel label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f08] Greta Sable: music label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f09] Greta Sable: collection desk = Silver; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f10] Greta Sable: service day = Saturday; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f11] Greta Sable: parcel label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f12] Greta Sable: music label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_04_f13] Archive colleague 4: collection desk = Silver; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_04_f14] Archive colleague 4: collection desk = Cobalt; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_04_f15] Archive colleague 4: collection desk = Laurel; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Greta Sable's assigned collection desk and service day?","[""Silver"", ""Saturday""]",2042-12-15,2042-12-15,Length/format-matched procedural archive comparator; no claim of semantic inertness.,,926,0,77f15499a65968d47c3044fcc074d96ac8bb30d4196f60bd8780d5e291f9f999,Procedural record-reading priming; repeated archive vocabulary; contrastive rather than; no personal validity interval; formal self-referential reply; archive timestamp remains.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,Text describes archive organization rather than a personal interval-valued fact; it is not equivalent to an empty history.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_04_current/N_history,,,,,DIAGNOSTIC_ONLY,Researcher reviewed and adopted the diagnostic-only treatment. Token-matched procedural comparator; strict semantic neutrality and information equivalence NOT established. No pure-control claim.,Yaxin_ZHENG
+p1c_05_historical__R0T0,p1c_05_historical,R0T0,0,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Idris Fern: The record lists my music label as red for 2042-01-01 through 2042-04-30.","[p1c_speaker_05_f01] Idris Fern: parcel route = route 51; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f10] route 51: destination room = Orchid; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f13] Archive colleague 5: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f14] Archive colleague 5: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f15] Archive colleague 5: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the destination room for parcel collection assigned to Idris Fern.","[""Silver""]",2042-06-15,2042-12-15,"Auxiliary music-topic record, expired at 2042-06-15; no target-answer fact.",[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.,938,0,ad7961bb530e1ebd14a061270e28231ad965ef527cc2f05dfd5c85faaa8bf974,"Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_05_historical/R0T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_05_historical__R0T1,p1c_05_historical,R0T1,0,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Idris Fern: The record lists my music label as blue for 2042-05-01 through 2042-08-31.","[p1c_speaker_05_f01] Idris Fern: parcel route = route 51; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f10] route 51: destination room = Orchid; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f13] Archive colleague 5: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f14] Archive colleague 5: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f15] Archive colleague 5: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the destination room for parcel collection assigned to Idris Fern.","[""Silver""]",2042-06-15,2042-12-15,"Auxiliary music-topic record, valid at 2042-06-15; no target-answer fact.",[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.,938,0,63f4eaae80950a62c26b3ca6ad404eaa958d2f2bc956c7e4f19eb8176fb0b547,"Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_05_historical/R0T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_05_historical__R1T0,p1c_05_historical,R1T0,1,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Idris Fern: The record lists my parcel label as green for 2042-01-01 through 2042-04-30.","[p1c_speaker_05_f01] Idris Fern: parcel route = route 51; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f10] route 51: destination room = Orchid; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f13] Archive colleague 5: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f14] Archive colleague 5: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f15] Archive colleague 5: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the destination room for parcel collection assigned to Idris Fern.","[""Silver""]",2042-06-15,2042-12-15,"Auxiliary parcel-topic record, expired at 2042-06-15; no target-answer fact.",[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.,938,0,460ef4adeed6e1fdd0475b624343f378bc779b37801b131b59cb000c1342eab3,"Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_05_historical/R1T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_05_historical__R1T1,p1c_05_historical,R1T1,1,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Idris Fern: The record lists my parcel label as red for 2042-05-01 through 2042-08-31.","[p1c_speaker_05_f01] Idris Fern: parcel route = route 51; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f10] route 51: destination room = Orchid; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f13] Archive colleague 5: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f14] Archive colleague 5: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f15] Archive colleague 5: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the destination room for parcel collection assigned to Idris Fern.","[""Silver""]",2042-06-15,2042-12-15,"Auxiliary parcel-topic record, valid at 2042-06-15; no target-answer fact.",[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.,938,0,844f4a85a84556daa2b7628a18a912996ac59fa48fe40260e0b8914e60786f1b,"Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_05_historical/R1T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_05_historical__N_history,p1c_05_historical,N_history,,,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Idris Fern: The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.","[p1c_speaker_05_f01] Idris Fern: parcel route = route 51; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f10] route 51: destination room = Orchid; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f13] Archive colleague 5: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f14] Archive colleague 5: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f15] Archive colleague 5: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-06-15, give the destination room for parcel collection assigned to Idris Fern.","[""Silver""]",2042-06-15,2042-12-15,Length/format-matched procedural archive comparator; no claim of semantic inertness.,,938,0,7e38b64caef690c61f41f67759d8cee34897310e0372b075dd481d7e653bb1e3,Procedural record-reading priming; repeated archive vocabulary; contrastive rather than; no personal validity interval; formal self-referential reply; archive timestamp remains.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,Text describes archive organization rather than a personal interval-valued fact; it is not equivalent to an empty history.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_05_historical/N_history,,,,,DIAGNOSTIC_ONLY,Researcher reviewed and adopted the diagnostic-only treatment. Token-matched procedural comparator; strict semantic neutrality and information equivalence NOT established. No pure-control claim.,Yaxin_ZHENG
+p1c_05_current__R0T0,p1c_05_current,R0T0,0,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Idris Fern: The record lists my music label as red for 2042-01-01 through 2042-04-30.","[p1c_speaker_05_f01] Idris Fern: parcel route = route 51; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f10] route 51: destination room = Orchid; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f13] Archive colleague 5: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f14] Archive colleague 5: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f15] Archive colleague 5: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the destination room for parcel collection assigned to Idris Fern.","[""Cobalt""]",2042-12-15,2042-12-15,"Auxiliary music-topic record, expired at 2042-12-15; no target-answer fact.",[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.,938,0,ddc8a226483c175564e284b2916be0f8a7eb39b1e6c45096c58a3f57edb5d202,Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_05_current/R0T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_05_current__R0T1,p1c_05_current,R0T1,0,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Idris Fern: The record lists my music label as green for 2042-09-01 through 2042-12-31.","[p1c_speaker_05_f01] Idris Fern: parcel route = route 51; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f10] route 51: destination room = Orchid; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f13] Archive colleague 5: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f14] Archive colleague 5: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f15] Archive colleague 5: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the destination room for parcel collection assigned to Idris Fern.","[""Cobalt""]",2042-12-15,2042-12-15,"Auxiliary music-topic record, valid at 2042-12-15; no target-answer fact.",[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.,938,0,d5aad132b19ed08fc18bb764d44b2fd14bda132c916f9fcad65256959517effe,Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_05_current/R0T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_05_current__R1T0,p1c_05_current,R1T0,1,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Idris Fern: The record lists my parcel label as green for 2042-01-01 through 2042-04-30.","[p1c_speaker_05_f01] Idris Fern: parcel route = route 51; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f10] route 51: destination room = Orchid; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f13] Archive colleague 5: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f14] Archive colleague 5: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f15] Archive colleague 5: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the destination room for parcel collection assigned to Idris Fern.","[""Cobalt""]",2042-12-15,2042-12-15,"Auxiliary parcel-topic record, expired at 2042-12-15; no target-answer fact.",[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.,938,0,64e76654e829eb56ecdf390f044035eba1a391e532c7c86585d85b12fa94fa6b,Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_05_current/R1T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_05_current__R1T1,p1c_05_current,R1T1,1,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Idris Fern: The record lists my parcel label as blue for 2042-09-01 through 2042-12-31.","[p1c_speaker_05_f01] Idris Fern: parcel route = route 51; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f10] route 51: destination room = Orchid; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f13] Archive colleague 5: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f14] Archive colleague 5: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f15] Archive colleague 5: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the destination room for parcel collection assigned to Idris Fern.","[""Cobalt""]",2042-12-15,2042-12-15,"Auxiliary parcel-topic record, valid at 2042-12-15; no target-answer fact.",[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.,938,0,46d07e92635ca24f2efedc280eba37abe0624a008238252e3b9e2e648ceb3bcd,Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_05_current/R1T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_05_current__N_history,p1c_05_current,N_history,,,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Idris Fern: The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.","[p1c_speaker_05_f01] Idris Fern: parcel route = route 51; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f02] Idris Fern: parcel label = green; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f03] Idris Fern: music label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f05] Idris Fern: parcel label = red; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f06] Idris Fern: music label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f08] Idris Fern: parcel label = blue; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f09] Idris Fern: music label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_05_f10] route 51: destination room = Orchid; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_05_f13] Archive colleague 5: collection desk = Cobalt; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_05_f14] Archive colleague 5: collection desk = Laurel; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_05_f15] Archive colleague 5: collection desk = Harbor; valid 2042-09-01 through 2042-12-31.","Using the schedule for 2042-12-15, give the destination room for parcel collection assigned to Idris Fern.","[""Cobalt""]",2042-12-15,2042-12-15,Length/format-matched procedural archive comparator; no claim of semantic inertness.,,938,0,ce4eb4eb4c4d7d16f48ea0554d18b3da2401b3993ccc19c6f0250d704de75ce9,Procedural record-reading priming; repeated archive vocabulary; contrastive rather than; no personal validity interval; formal self-referential reply; archive timestamp remains.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,Text describes archive organization rather than a personal interval-valued fact; it is not equivalent to an empty history.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_05_current/N_history,,,,,DIAGNOSTIC_ONLY,Researcher reviewed and adopted the diagnostic-only treatment. Token-matched procedural comparator; strict semantic neutrality and information equivalence NOT established. No pure-control claim.,Yaxin_ZHENG
+p1c_06_historical__R0T0,p1c_06_historical,R0T0,0,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Nora Finch: The record lists my music label as blue for 2042-01-01 through 2042-04-30.","[p1c_speaker_06_f01] Nora Finch: parcel route = route 61; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f10] route 61: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f13] Archive colleague 6: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f14] Archive colleague 6: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f15] Archive colleague 6: collection desk = Maple; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Nora Finch's assigned destination room for parcel collection?","[""Cobalt""]",2042-06-15,2042-12-15,"Auxiliary music-topic record, expired at 2042-06-15; no target-answer fact.",[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.,911,0,e28e02e255639ba3bc444535e88423e6766fbbfc926286fdbb577cd3217a3e2f,"Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_06_historical/R0T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_06_historical__R0T1,p1c_06_historical,R0T1,0,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Nora Finch: The record lists my music label as green for 2042-05-01 through 2042-08-31.","[p1c_speaker_06_f01] Nora Finch: parcel route = route 61; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f10] route 61: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f13] Archive colleague 6: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f14] Archive colleague 6: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f15] Archive colleague 6: collection desk = Maple; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Nora Finch's assigned destination room for parcel collection?","[""Cobalt""]",2042-06-15,2042-12-15,"Auxiliary music-topic record, valid at 2042-06-15; no target-answer fact.",[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.,911,0,8f97f372ab54cee62230e74475be4f1c45d80324d08abc2a77d939756ec2d92f,"Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_06_historical/R0T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_06_historical__R1T0,p1c_06_historical,R1T0,1,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Nora Finch: The record lists my parcel label as red for 2042-01-01 through 2042-04-30.","[p1c_speaker_06_f01] Nora Finch: parcel route = route 61; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f10] route 61: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f13] Archive colleague 6: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f14] Archive colleague 6: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f15] Archive colleague 6: collection desk = Maple; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Nora Finch's assigned destination room for parcel collection?","[""Cobalt""]",2042-06-15,2042-12-15,"Auxiliary parcel-topic record, expired at 2042-06-15; no target-answer fact.",[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.,911,0,7d0fa781bee4e3f87fdc07a037c6fd1d1df3ad6f5df79cc6d2f1dcd655a2b567,"Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_06_historical/R1T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_06_historical__R1T1,p1c_06_historical,R1T1,1,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Nora Finch: The record lists my parcel label as blue for 2042-05-01 through 2042-08-31.","[p1c_speaker_06_f01] Nora Finch: parcel route = route 61; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f10] route 61: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f13] Archive colleague 6: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f14] Archive colleague 6: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f15] Archive colleague 6: collection desk = Maple; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Nora Finch's assigned destination room for parcel collection?","[""Cobalt""]",2042-06-15,2042-12-15,"Auxiliary parcel-topic record, valid at 2042-06-15; no target-answer fact.",[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.,911,0,0365d34d98075e45f1d1a28d801c374421d9655e6faa6a69006fdaae9a112675,"Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive is recorded after the historical requested date; retrospective records are permitted, not an as-of-information-availability task.","Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_06_historical/R1T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_06_historical__N_history,p1c_06_historical,N_history,,,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Nora Finch: The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.","[p1c_speaker_06_f01] Nora Finch: parcel route = route 61; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f10] route 61: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f13] Archive colleague 6: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f14] Archive colleague 6: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f15] Archive colleague 6: collection desk = Maple; valid 2042-09-01 through 2042-12-31.","For 2042-06-15, what is Nora Finch's assigned destination room for parcel collection?","[""Cobalt""]",2042-06-15,2042-12-15,Length/format-matched procedural archive comparator; no claim of semantic inertness.,,911,0,fee273bcf45e634b825d1c83bba67a29a57fd9f40230151bb752b2600ac3f5c6,Procedural record-reading priming; repeated archive vocabulary; contrastive rather than; no personal validity interval; formal self-referential reply; archive timestamp remains.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,Text describes archive organization rather than a personal interval-valued fact; it is not equivalent to an empty history.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_06_historical/N_history,,,,,DIAGNOSTIC_ONLY,Researcher reviewed and adopted the diagnostic-only treatment. Token-matched procedural comparator; strict semantic neutrality and information equivalence NOT established. No pure-control claim.,Yaxin_ZHENG
+p1c_06_current__R0T0,p1c_06_current,R0T0,0,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Nora Finch: The record lists my music label as blue for 2042-01-01 through 2042-04-30.","[p1c_speaker_06_f01] Nora Finch: parcel route = route 61; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f10] route 61: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f13] Archive colleague 6: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f14] Archive colleague 6: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f15] Archive colleague 6: collection desk = Maple; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Nora Finch's assigned destination room for parcel collection?","[""Laurel""]",2042-12-15,2042-12-15,"Auxiliary music-topic record, expired at 2042-12-15; no target-answer fact.",[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.,911,0,e88a5a2d3f4f6d9da65c7d24d666d224b7ba4518fa419d7f415e3d3ae2e462cf,Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_06_current/R0T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_06_current__R0T1,p1c_06_current,R0T1,0,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Nora Finch: The record lists my music label as red for 2042-09-01 through 2042-12-31.","[p1c_speaker_06_f01] Nora Finch: parcel route = route 61; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f10] route 61: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f13] Archive colleague 6: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f14] Archive colleague 6: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f15] Archive colleague 6: collection desk = Maple; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Nora Finch's assigned destination room for parcel collection?","[""Laurel""]",2042-12-15,2042-12-15,"Auxiliary music-topic record, valid at 2042-12-15; no target-answer fact.",[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.,911,0,861cc6eadbd466258a9aa42e53fb31a1f84b01b506cdfc834574526f0fd2ca9e,Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_06_current/R0T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_06_current__R1T0,p1c_06_current,R1T0,1,0,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Nora Finch: The record lists my parcel label as red for 2042-01-01 through 2042-04-30.","[p1c_speaker_06_f01] Nora Finch: parcel route = route 61; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f10] route 61: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f13] Archive colleague 6: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f14] Archive colleague 6: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f15] Archive colleague 6: collection desk = Maple; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Nora Finch's assigned destination room for parcel collection?","[""Laurel""]",2042-12-15,2042-12-15,"Auxiliary parcel-topic record, expired at 2042-12-15; no target-answer fact.",[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.,911,0,97715477118f286aefc3404dac274661b38b9f818603fb59d011426652fc7edd,Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_06_current/R1T0,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_06_current__R1T1,p1c_06_current,R1T1,1,1,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Nora Finch: The record lists my parcel label as green for 2042-09-01 through 2042-12-31.","[p1c_speaker_06_f01] Nora Finch: parcel route = route 61; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f10] route 61: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f13] Archive colleague 6: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f14] Archive colleague 6: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f15] Archive colleague 6: collection desk = Maple; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Nora Finch's assigned destination room for parcel collection?","[""Laurel""]",2042-12-15,2042-12-15,"Auxiliary parcel-topic record, valid at 2042-12-15; no target-answer fact.",[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.,911,0,0c2ecd9814f9957aa414ac4a23e9b0c823aa1fb4a03e8251cd17587d7c74a8ca,Parcel versus music is a topic/predicate/value package. Question explicitly says parcel; lexical overlap differs. Colors follow a shared cyclic construction; auxiliary labels may cue periods. Archive predates the requested current date; scheduled validity extends through it.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_06_current/R1T1,,,,,ACCEPT_WITH_LIMITATIONS,"Researcher reviewed and adopted the AI-assisted proposal, with stated topical/temporal/lexical confounds and package-level interpretation. Not an independently identified mechanism.",Yaxin_ZHENG
+p1c_06_current__N_history,p1c_06_current,N_history,,,"[Archive recorded 2042-12-01]
+Archivist: What does this archived entry say?
+Nora Finch: The record places this question before its reply. Both are retained together in the archive entry, which preserves the exchange as one item rather than separating its two distinct parts.","[p1c_speaker_06_f01] Nora Finch: parcel route = route 61; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f02] Nora Finch: parcel label = red; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f03] Nora Finch: music label = blue; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f04] Nora Finch: parcel route = route 62; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f05] Nora Finch: parcel label = blue; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f06] Nora Finch: music label = green; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f07] Nora Finch: parcel route = route 63; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f08] Nora Finch: parcel label = green; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f09] Nora Finch: music label = red; valid 2042-09-01 through 2042-12-31.
+[p1c_speaker_06_f10] route 61: destination room = Silver; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f11] route 62: destination room = Cobalt; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f12] route 63: destination room = Laurel; valid 2042-01-01 through 2042-12-31.
+[p1c_speaker_06_f13] Archive colleague 6: collection desk = Laurel; valid 2042-01-01 through 2042-04-30.
+[p1c_speaker_06_f14] Archive colleague 6: collection desk = Harbor; valid 2042-05-01 through 2042-08-31.
+[p1c_speaker_06_f15] Archive colleague 6: collection desk = Maple; valid 2042-09-01 through 2042-12-31.","For 2042-12-15, what is Nora Finch's assigned destination room for parcel collection?","[""Laurel""]",2042-12-15,2042-12-15,Length/format-matched procedural archive comparator; no claim of semantic inertness.,,911,0,a355cf02a802db25493c1341f3e0ffd2fec0a62c6f20f103e1553787d5cabf78,Procedural record-reading priming; repeated archive vocabulary; contrastive rather than; no personal validity interval; formal self-referential reply; archive timestamp remains.,"Identity, source truth (active only), no direct answer string, final-token matching PASS; semantics OPEN.",REVIEW_REQUIRED; consider only the stated limited replacement comparison.,Text describes archive organization rather than a personal interval-valued fact; it is not equivalent to an empty history.,docs/validation/p1c/proposed_v2/selected_prompts_v2.json#p1c_06_current/N_history,,,,,DIAGNOSTIC_ONLY,Researcher reviewed and adopted the diagnostic-only treatment. Token-matched procedural comparator; strict semantic neutrality and information equivalence NOT established. No pure-control claim.,Yaxin_ZHENG

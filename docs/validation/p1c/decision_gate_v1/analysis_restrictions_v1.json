@@ -1,0 +1,264 @@
+{
+  "applicability_sha256": "2d2ab43f5100bcfa408cf5095f95ce3472d01af77638cad6814c482fc960cc57",
+  "approval_status": "PENDING_RESEARCHER",
+  "categories": [
+    "Correct",
+    "Incorrect",
+    "Unverifiable",
+    "Not Applicable",
+    "Missing"
+  ],
+  "control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+  "control_rows": [
+    {
+      "analysis_control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+      "item_id": "p1c_01_historical/N_history",
+      "original_condition_id": "N_history",
+      "strict_semantic_neutrality": "NOT_ESTABLISHED"
+    },
+    {
+      "analysis_control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+      "item_id": "p1c_01_current/N_history",
+      "original_condition_id": "N_history",
+      "strict_semantic_neutrality": "NOT_ESTABLISHED"
+    },
+    {
+      "analysis_control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+      "item_id": "p1c_02_historical/N_history",
+      "original_condition_id": "N_history",
+      "strict_semantic_neutrality": "NOT_ESTABLISHED"
+    },
+    {
+      "analysis_control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+      "item_id": "p1c_02_current/N_history",
+      "original_condition_id": "N_history",
+      "strict_semantic_neutrality": "NOT_ESTABLISHED"
+    },
+    {
+      "analysis_control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+      "item_id": "p1c_03_historical/N_history",
+      "original_condition_id": "N_history",
+      "strict_semantic_neutrality": "NOT_ESTABLISHED"
+    },
+    {
+      "analysis_control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+      "item_id": "p1c_03_current/N_history",
+      "original_condition_id": "N_history",
+      "strict_semantic_neutrality": "NOT_ESTABLISHED"
+    },
+    {
+      "analysis_control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+      "item_id": "p1c_04_historical/N_history",
+      "original_condition_id": "N_history",
+      "strict_semantic_neutrality": "NOT_ESTABLISHED"
+    },
+    {
+      "analysis_control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+      "item_id": "p1c_04_current/N_history",
+      "original_condition_id": "N_history",
+      "strict_semantic_neutrality": "NOT_ESTABLISHED"
+    },
+    {
+      "analysis_control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+      "item_id": "p1c_05_historical/N_history",
+      "original_condition_id": "N_history",
+      "strict_semantic_neutrality": "NOT_ESTABLISHED"
+    },
+    {
+      "analysis_control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+      "item_id": "p1c_05_current/N_history",
+      "original_condition_id": "N_history",
+      "strict_semantic_neutrality": "NOT_ESTABLISHED"
+    },
+    {
+      "analysis_control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+      "item_id": "p1c_06_historical/N_history",
+      "original_condition_id": "N_history",
+      "strict_semantic_neutrality": "NOT_ESTABLISHED"
+    },
+    {
+      "analysis_control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+      "item_id": "p1c_06_current/N_history",
+      "original_condition_id": "N_history",
+      "strict_semantic_neutrality": "NOT_ESTABLISHED"
+    }
+  ],
+  "endpoints": [
+    "Response Relevance",
+    "Factual Consistency",
+    "Temporal Consistency",
+    "Conversational Coherence",
+    "Task Success",
+    "Required-Component Coverage",
+    "Semantic Completeness",
+    "Structural Response Status",
+    "Persona Fidelity"
+  ],
+  "evaluation_policy_sha256": "1fe5bfb170f192e53ce566eebf304cbeb93b5014c08112c05f6b06caf122e7ca",
+  "limitations": [
+    "R replaces auxiliary topic, attribute words and color values; not pure topical relevance.",
+    "T replaces validity interval and factual attribute value; not pure temporal validity.",
+    "No direct stale target-answer competition is manipulated.",
+    "No internal model mechanism is identified by factorial contrasts.",
+    "Procedural controls can prime topic/style/chronology; matching tokens does not establish neutrality.",
+    "No-history comparisons include length and archive-format changes.",
+    "Six speakers / twelve paired development cases are not 72 independent units.",
+    "The fixed 96-token budget and first-reply extraction can censor semantic evaluation."
+  ],
+  "manifest_sha256": "b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b",
+  "neutral_contrast_scope": "Length/format-matched diagnostic content replacement only, never a fully controlled semantic history effect.",
+  "original_condition_ids": [
+    "R0T0",
+    "R0T1",
+    "R1T0",
+    "R1T1",
+    "N_history",
+    "H_none"
+  ],
+  "original_registry_sha256": "713a7679d5a606707f8075bae51d3fa5716a721eccf86f1f56cebc73b4bbc4e7",
+  "original_weights_unchanged": {
+    "N_history-H_none": {
+      "H_none": -1,
+      "N_history": 1,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -0.5,
+      "R0T1": -0.5,
+      "R1T0": 0.5,
+      "R1T1": 0.5
+    },
+    "R0T0-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 1,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T0-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 1,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T1-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 1,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T1-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 0,
+      "R0T1": 1,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T1-R0T0": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -1,
+      "R0T1": 1,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R1T0-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 1,
+      "R1T1": 0
+    },
+    "R1T0-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 1,
+      "R1T1": 0
+    },
+    "R1T0-R0T0": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -1,
+      "R0T1": 0,
+      "R1T0": 1,
+      "R1T1": 0
+    },
+    "R1T1-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 1
+    },
+    "R1T1-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 1
+    },
+    "R1T1-R0T1": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": -1,
+      "R1T0": 0,
+      "R1T1": 1
+    },
+    "R1T1-R1T0": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": -1,
+      "R1T1": 1
+    },
+    "RxT": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": 1,
+      "R0T1": -1,
+      "R1T0": -1,
+      "R1T1": 1
+    },
+    "T": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -0.5,
+      "R0T1": 0.5,
+      "R1T0": -0.5,
+      "R1T1": 0.5
+    }
+  },
+  "protocol_v1_1_modified": false,
+  "statistics": {
+    "bootstrap_draws": 10000,
+    "cluster_seed": 715004,
+    "composite_score": false,
+    "incomplete_is_factual_error": false,
+    "leave_one_speaker_out": true,
+    "paired_cases": 12,
+    "planned_outputs": 72,
+    "scope": "Exploratory development",
+    "speaker_clusters": 6,
+    "unverifiable_is_incorrect": false
+  },
+  "v1_2_adopted": false,
+  "version": "p1c_analysis_restrictions_v1"
+}

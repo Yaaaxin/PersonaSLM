@@ -1,0 +1,41 @@
+{
+  "approval_is_not_inferred_from_form_presence": true,
+  "blockers": [
+    "72 unique researcher item decisions missing (12 cases, 60 texts)",
+    "12 linked diagnostic-control assessments missing; not 12 extra observations",
+    "Five scientific policy decisions missing",
+    "Separate explicit authorization for the exact 72-request manifest/registration is absent or not granted"
+  ],
+  "checks": {
+    "authorization": {
+      "status": "PENDING_OR_NOT_GRANTED"
+    },
+    "scientific": {
+      "status": "PENDING"
+    },
+    "technical": {
+      "actual_tokenizer_ID_records": 72,
+      "binary_identity": "PASS",
+      "cases": 12,
+      "control_subset": 12,
+      "history_texts": 60,
+      "new_generations": 0,
+      "original_order": "PASS",
+      "requests": 72,
+      "source_files": 45,
+      "status": "PASS"
+    }
+  },
+  "control_class": "LENGTH_MATCHED_DIAGNOSTIC_CONTROL",
+  "evaluated_utc": "2026-10-14T05:44:45.859491+00:00",
+  "generation_requests_executed": 0,
+  "manifest_sha256": "b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b",
+  "registered_control_assessments_subset": 0,
+  "registered_scientific_policy_decisions": 0,
+  "scope": "Offline gate only. GO never launches a model; runtime logging/disk/resume preflight remains required at an authorized execution.",
+  "status": "NO_GO",
+  "unregistered_control_assessments_subset": 12,
+  "unregistered_unique_decisions": 72,
+  "valid_registered_unique_decisions": 0,
+  "version": "p1c_execution_gate_v1"
+}

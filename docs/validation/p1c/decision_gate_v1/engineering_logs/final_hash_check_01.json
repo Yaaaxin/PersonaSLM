@@ -1,0 +1,13 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "-c",
+    "import json,hashlib;from pathlib import Path;p=Path('docs/validation/p1c/decision_gate_v1');m=json.loads((p/'reproducibility_manifest_v1.json').read_text());sha=lambda x:hashlib.sha256(Path(x).read_bytes()).hexdigest();bad=[x for x,h in m['files'].items() if sha(x)!=h];assert not bad,bad;assert sha(p/'reproducibility_manifest_v1.json')==json.loads((p/'reproducibility_receipt_v1.json').read_text())['manifest_sha256'];print(json.dumps({'pinned_files':len(m['files']),'hashes':'PASS','source_preservation':m['entry_files_preserved'],'registered_decisions':m['human_registered_decisions'],'tests':m['tests'],'new_generations':0},indent=2))"
+  ],
+  "duration_seconds": 0.0822881999774836,
+  "exit_code": 0,
+  "finished_utc": "2026-10-14T05:50:22.458067+00:00",
+  "started_utc": "2026-10-14T05:50:22.375777+00:00",
+  "stderr": "",
+  "stdout": "{\n  \"pinned_files\": 19,\n  \"hashes\": \"PASS\",\n  \"source_preservation\": 638,\n  \"registered_decisions\": 0,\n  \"tests\": {\n    \"exit_code\": 0,\n    \"full_suite_rerun\": false,\n    \"new_cases\": 60,\n    \"selected_suite\": 105\n  },\n  \"new_generations\": 0\n}\n"
+}

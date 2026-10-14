@@ -1,0 +1,14 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "tools/p1c_measurement.py",
+    "--output",
+    "docs/validation/p1c/calibration_v1/measurement_v1"
+  ],
+  "duration_seconds": 19.37858520000009,
+  "exit_code": 0,
+  "finished_utc": "2026-10-14T06:45:09.324015+00:00",
+  "started_utc": "2026-10-14T06:44:49.945431+00:00",
+  "stderr": "",
+  "stdout": "{\n  \"version\": \"p1c_measurement_summary_v1\",\n  \"planned\": 72,\n  \"successful\": 72,\n  \"failed\": 0,\n  \"cases\": 12,\n  \"speakers\": 6,\n  \"structural_status\": {\n    \"CROSS_TURN\": 64,\n    \"AMBIGUOUS\": 8\n  },\n  \"first_replies_identifiable\": 64,\n  \"termination\": {\n    \"length\": 70,\n    \"eos\": 2\n  },\n  \"native_stop_types\": {\n    \"limit\": 70,\n    \"eos\": 2\n  },\n  \"actual_generated_tokens\": 6898,\n  \"inference_latency_seconds_sum\": 1156.5636820999207,\n  \"semantic_human_judgments\": 0,\n  \"semantic_effects_computed\": false,\n  \"metric_eligible\": {\n    \"component_coverage\": 72,\n    \"conversational_coherence\": 72,\n    \"factual_consistency\": 72,\n    \"response_relevance\": 72,\n    \"semantic_completeness\": 72,\n    \"structural_status\": 72,\n    \"task_success\": 72,\n    \"temporal_consistency\": 72\n  },\n  \"conditions\": {\n    \"R0T0\": {\n      \"CROSS_TURN\": 11,\n      \"AMBIGUOUS\": 1\n    },\n    \"R0T1\": {\n      \"CROSS_TURN\": 11,\n      \"AMBIGUOUS\": 1\n    },\n    \"R1T0\": {\n      \"AMBIGUOUS\": 3,\n      \"CROSS_TURN\": 9\n    },\n    \"R1T1\": {\n      \"CROSS_TURN\": 10,\n      \"AMBIGUOUS\": 2\n    },\n    \"N_history\": {\n      \"CROSS_TURN\": 11,\n      \"AMBIGUOUS\": 1\n    },\n    \"H_none\": {\n      \"CROSS_TURN\": 12\n    }\n  },\n  \"families\": {\n    \"multiple_components\": {\n      \"CROSS_TURN\": 18,\n      \"AMBIGUOUS\": 6\n    },\n    \"route_integration\": {\n      \"CROSS_TURN\": 22,\n      \"AMBIGUOUS\": 2\n    },\n    \"single_retrieval\": {\n      \"CROSS_TURN\": 24\n    }\n  },\n  \"reconstructed_twice\": true,\n  \"no_additional_generation\": true,\n  \"transport_checks\": [\n    {\n      \"segment\": \"results/p1c_calibration/development_v1/runs/20261014T062351-c6724f67d31c4f7e83341957adcc42a4\",\n      \"token_arrays_verified\": 72,\n      \"ordered_raw_bytes_verified\": 72,\n      \"payloads_verified\": 72\n    }\n  ],\n  \"source_integrity\": {\n    \"status\": \"PASS\",\n    \"source_files\": 45,\n    \"cases\": 12,\n    \"history_texts\": 60,\n    \"control_subset\": 12,\n    \"requests\": 72,\n    \"original_order\": \"PASS\",\n    \"actual_tokenizer_ID_records\": 72,\n    \"binary_identity\": \"PASS\",\n    \"new_generations\": 0\n  },\n  \"statistical_reconstruction_twice\": true\n}\n"
+}

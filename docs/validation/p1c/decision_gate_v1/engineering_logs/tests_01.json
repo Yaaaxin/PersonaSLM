@@ -1,0 +1,17 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_p1c_decisions.py",
+    "tests/test_p1c_final_review.py",
+    "tests/test_p1c_scientific_review.py"
+  ],
+  "duration_seconds": 3.0270804000319913,
+  "exit_code": 0,
+  "finished_utc": "2026-10-14T05:44:16.262533+00:00",
+  "started_utc": "2026-10-14T05:44:13.235454+00:00",
+  "stderr": "",
+  "stdout": "........................................................................ [ 70%]\n..............................                                           [100%]\n102 passed in 2.37s\n"
+}

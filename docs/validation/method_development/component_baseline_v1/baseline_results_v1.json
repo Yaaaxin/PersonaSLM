@@ -1,0 +1,77 @@
+{
+  "comparison_tables": {
+    "always_predict_full": {
+      "FN": 0,
+      "FP": 82,
+      "TN": 0,
+      "TP": 110
+    },
+    "literal_component_presence": {
+      "FN": 0,
+      "FP": 5,
+      "TN": 77,
+      "TP": 110
+    },
+    "never_predict_full": {
+      "FN": 110,
+      "FP": 0,
+      "TN": 82,
+      "TP": 0
+    }
+  },
+  "false_positive_delivery_categories": {
+    "NO_FINAL_ANSWER": 3,
+    "PARTIAL_ANSWER": 2
+  },
+  "families": {
+    "A": {
+      "false_negative": 0,
+      "false_positive": 0,
+      "records": 24
+    },
+    "B": {
+      "false_negative": 0,
+      "false_positive": 0,
+      "records": 24
+    },
+    "C": {
+      "false_negative": 0,
+      "false_positive": 0,
+      "records": 24
+    },
+    "D": {
+      "false_negative": 0,
+      "false_positive": 0,
+      "records": 24
+    },
+    "E": {
+      "false_negative": 0,
+      "false_positive": 0,
+      "records": 24
+    },
+    "F": {
+      "false_negative": 0,
+      "false_positive": 3,
+      "records": 24
+    },
+    "G": {
+      "false_negative": 0,
+      "false_positive": 2,
+      "records": 24
+    },
+    "H": {
+      "false_negative": 0,
+      "false_positive": 0,
+      "records": 24
+    }
+  },
+  "fidelity": "NOT_EVALUATED; no outputs modified",
+  "new_generations": 0,
+  "originality": "KNOWN_ENGINEERING_BASELINE",
+  "paired_cases": 24,
+  "records": 192,
+  "repeat_numerical_agreement": true,
+  "scientific_level": "LEVEL_0_ENGINEERING_DIAGNOSTIC",
+  "speaker_clusters": 12,
+  "version": "literal_component_presence_baseline_v1"
+}

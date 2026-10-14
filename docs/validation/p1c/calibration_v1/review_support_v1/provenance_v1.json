@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-14T06:46:55.337498+00:00",
+  "formal_endpoint_ratings": 0,
+  "masking_limit": "Item-note input was condition-masked. The analyst also had access to design and run information; this is not independent blinded annotation.",
+  "method": "AI inspected all 72 masked first spans and target references. Code transcribes explicit item-specific review notes; it is not a semantic scoring algorithm.",
+  "output_sha256": "1a7263089c629febb87614c404004a6aabb02ff1b3e08a866bf625f15e31859d",
+  "records": 72,
+  "researcher_confirmations": 0,
+  "restriction": "Distribute only as optional assistance after preserving initial Stage A work. Do not import these notes as human labels.",
+  "semantic_effects_computed": false,
+  "source": "docs/validation/p1c/calibration_v1/measurement_v1/semantic_scoring_view_v1.csv",
+  "source_code_sha256": "ff6277b328874b1add2b3cc9bf1196063c5399558ff5f3bd35f83a031cf71b0f",
+  "source_sha256": "1317cf06609f5f80721f95c2131ae596f32f9cb69029d555459f594cf4f7fcb3",
+  "version": "p1c_AI_review_observations_v1"
+}

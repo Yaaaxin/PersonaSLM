@@ -1,0 +1,15 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "tools/p1c_decision_compatibility.py",
+    "register",
+    "--output",
+    "docs/validation/p1c/decision_compatibility_v1/registration"
+  ],
+  "duration_seconds": 1.3004072000039741,
+  "exit_code": 0,
+  "finished_utc": "2026-10-14T06:13:03.108438+00:00",
+  "started_utc": "2026-10-14T06:13:01.808006+00:00",
+  "stderr": "",
+  "stdout": "{\n  \"version\": \"p1c_legacy_scope_compatibility_v1\",\n  \"entries\": 77,\n  \"confirmed_scoped_decisions\": 74,\n  \"pending_decisions\": {\n    \"evaluation_and_statistics\": \"PENDING_DOCUMENT_REVIEW\",\n    \"protocol_addendum\": \"PENDING_DOCUMENT_REVIEW\",\n    \"execution_authorization\": \"NO_GO_PENDING_EXPLICIT_AUTHORIZATION\"\n  },\n  \"cases\": 12,\n  \"history_texts\": 60,\n  \"control_assessments_subset\": 12,\n  \"global_scopes\": 2,\n  \"derived_legacy_categories\": 48,\n  \"unresolved_compatibility_records\": [],\n  \"non_annotation_fields_compared\": 1772,\n  \"non_annotation_mismatches\": 0,\n  \"decision_counts\": {\n    \"case__ACCEPT_WITH_RESTRICTED_ESTIMAND\": 12,\n    \"history_text__ACCEPT_WITH_LIMITATIONS\": 48,\n    \"history_text__DIAGNOSTIC_ONLY\": 12,\n    \"global__ACCEPT_WITH_RESTRICTED_ESTIMAND\": 1,\n    \"global__DIAGNOSTIC_ONLY\": 1,\n    \"global__PENDING_DOCUMENT_REVIEW\": 2,\n    \"global__NO_GO_PENDING_EXPLICIT_AUTHORIZATION\": 1\n  },\n  \"unrated_subcriteria\": \"Original blanks retained; no new item-review gate or invented YES ratings.\",\n  \"unverified_declared_sources\": {\n    \"proposal\": \"4b3aeecc1ffcdf92960c54c12c129b621c939927e604309f7710a594887e2c77\",\n    \"report\": \"9cb0528d54f0cd641df338f1719c6d289d84747c62728f3b434e1930c9af9b68\"\n  },\n  \"unverified_declaration_note\": \"External original proposal/report not separately supplied. Their declarations are retained, not claimed independently hash-verified.\",\n  \"inference_authorized\": false\n}\n"
+}

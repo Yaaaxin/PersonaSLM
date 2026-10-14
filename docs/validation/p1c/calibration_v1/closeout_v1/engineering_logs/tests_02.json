@@ -1,0 +1,20 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_p1c_decision_compatibility.py",
+    "tests/test_p1c_offline_methods.py",
+    "tests/test_p1c_decisions.py",
+    "tests/test_p1c_final_review.py",
+    "tests/test_p1c_scientific_review.py",
+    "tests/test_p1c_prospective_design.py"
+  ],
+  "duration_seconds": 8.368658100022003,
+  "exit_code": 0,
+  "finished_utc": "2026-10-14T06:17:41.552864+00:00",
+  "started_utc": "2026-10-14T06:17:33.184205+00:00",
+  "stderr": "",
+  "stdout": "........................................................................ [ 39%]\n........................................................................ [ 78%]\n........................................                                 [100%]\n184 passed in 7.84s\n"
+}

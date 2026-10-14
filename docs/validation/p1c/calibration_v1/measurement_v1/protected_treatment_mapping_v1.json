@@ -1,0 +1,1016 @@
+{
+  "access_policy": "Analysis-only. Keep separate from Stage A review distribution; this is file separation, not encryption.",
+  "mask_seed": 715005,
+  "original_mapping_sha256": "da87ef4798f72e3d22e70531bf06964ddb8853703e67509f974ba4815ac2be6d",
+  "presentation_seed": 715005,
+  "rows": [
+    {
+      "anonymous_case_id": "CC08",
+      "anonymous_response_id": "PC043",
+      "case_id": "p1c_02_current",
+      "condition": "N_history",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "7a879a0fd7848267a3f27314c649d90bbb21711717536a9b70029514fb6d2c5f",
+      "persona_id": "p1c_speaker_02",
+      "prompt_sha256": "71c25c7c7d6509bae79614e2432e212c174d516666b417209866f6d9412e481d",
+      "request_key": "0:p1c_02_current/N_history"
+    },
+    {
+      "anonymous_case_id": "CC10",
+      "anonymous_response_id": "PC029",
+      "case_id": "p1c_02_historical",
+      "condition": "R0T0",
+      "factor_assignment": {
+        "R": 0,
+        "T": 0
+      },
+      "first_reply_sha256": "235720727c63bc344a8f09ba5a2caccedb6399b25c69c301ace586734b547811",
+      "persona_id": "p1c_speaker_02",
+      "prompt_sha256": "20f81d5a0eb0adbdcfe2ee39b69b9176aedc5c0222704943cd655d97730d34c3",
+      "request_key": "1:p1c_02_historical/R0T0"
+    },
+    {
+      "anonymous_case_id": "CC11",
+      "anonymous_response_id": "PC062",
+      "case_id": "p1c_01_current",
+      "condition": "R0T0",
+      "factor_assignment": {
+        "R": 0,
+        "T": 0
+      },
+      "first_reply_sha256": "4aacb83e507a340e936d2011c85951713f2428a72bf18512b25a2b541ea80039",
+      "persona_id": "p1c_speaker_01",
+      "prompt_sha256": "f7c166ca9457317e69cdb36fc775e7510f2f5463a8fefc4ce3698a79f6383db7",
+      "request_key": "2:p1c_01_current/R0T0"
+    },
+    {
+      "anonymous_case_id": "CC06",
+      "anonymous_response_id": "PC031",
+      "case_id": "p1c_06_historical",
+      "condition": "R0T0",
+      "factor_assignment": {
+        "R": 0,
+        "T": 0
+      },
+      "first_reply_sha256": "fba2f2e372c36864304e0848249ca4953ffebfa06237b28783e1959e9bdc668d",
+      "persona_id": "p1c_speaker_06",
+      "prompt_sha256": "e28e02e255639ba3bc444535e88423e6766fbbfc926286fdbb577cd3217a3e2f",
+      "request_key": "3:p1c_06_historical/R0T0"
+    },
+    {
+      "anonymous_case_id": "CC05",
+      "anonymous_response_id": "PC026",
+      "case_id": "p1c_06_current",
+      "condition": "R1T1",
+      "factor_assignment": {
+        "R": 1,
+        "T": 1
+      },
+      "first_reply_sha256": "3d5ba806e5ec189d2075a870024040aecd8f4d801a9c1e933c3ddee69cd6e7b4",
+      "persona_id": "p1c_speaker_06",
+      "prompt_sha256": "0c2ecd9814f9957aa414ac4a23e9b0c823aa1fb4a03e8251cd17587d7c74a8ca",
+      "request_key": "4:p1c_06_current/R1T1"
+    },
+    {
+      "anonymous_case_id": "CC05",
+      "anonymous_response_id": "PC063",
+      "case_id": "p1c_06_current",
+      "condition": "R1T0",
+      "factor_assignment": {
+        "R": 1,
+        "T": 0
+      },
+      "first_reply_sha256": "19e68f9d846a1ff183d2d0c78c48ee2134da26ca47cc9c20c7e69bb39fb20be6",
+      "persona_id": "p1c_speaker_06",
+      "prompt_sha256": "97715477118f286aefc3404dac274661b38b9f818603fb59d011426652fc7edd",
+      "request_key": "5:p1c_06_current/R1T0"
+    },
+    {
+      "anonymous_case_id": "CC09",
+      "anonymous_response_id": "PC049",
+      "case_id": "p1c_04_current",
+      "condition": "R0T0",
+      "factor_assignment": {
+        "R": 0,
+        "T": 0
+      },
+      "first_reply_sha256": "4b49ca1ee27e6398f30bf7bc9c32bff8b91c93c8bc55a9804dfa6e740dcf9a1a",
+      "persona_id": "p1c_speaker_04",
+      "prompt_sha256": "a7ddf17e600b19d974bcf994bf596286919879a416c2553198bf22e6ff033fa5",
+      "request_key": "6:p1c_04_current/R0T0"
+    },
+    {
+      "anonymous_case_id": "CC08",
+      "anonymous_response_id": "PC034",
+      "case_id": "p1c_02_current",
+      "condition": "H_none",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "1b6023ce9f1547705b1181e012722533d6c54731c2768a6ff11114fc58513a85",
+      "persona_id": "p1c_speaker_02",
+      "prompt_sha256": "1d5ddd60c98ed918734a2fa667c38370beaec33277ba97c632a63817a4a176fe",
+      "request_key": "7:p1c_02_current/H_none"
+    },
+    {
+      "anonymous_case_id": "CC09",
+      "anonymous_response_id": "PC016",
+      "case_id": "p1c_04_current",
+      "condition": "R0T1",
+      "factor_assignment": {
+        "R": 0,
+        "T": 1
+      },
+      "first_reply_sha256": "4b49ca1ee27e6398f30bf7bc9c32bff8b91c93c8bc55a9804dfa6e740dcf9a1a",
+      "persona_id": "p1c_speaker_04",
+      "prompt_sha256": "f652b7e3e1f4057536dd34161548015fda2ca7075dcd5ba0982cc12bb350b625",
+      "request_key": "8:p1c_04_current/R0T1"
+    },
+    {
+      "anonymous_case_id": "CC12",
+      "anonymous_response_id": "PC033",
+      "case_id": "p1c_03_historical",
+      "condition": "R1T1",
+      "factor_assignment": {
+        "R": 1,
+        "T": 1
+      },
+      "first_reply_sha256": "3d2754f8fb71f99507bbe7311abed0706fa361d428c944b31927b013ccd18359",
+      "persona_id": "p1c_speaker_03",
+      "prompt_sha256": "07d5a6b462cf8d17a64feb93be07de18709caa5d611c0d4db8eac42934bd1426",
+      "request_key": "9:p1c_03_historical/R1T1"
+    },
+    {
+      "anonymous_case_id": "CC03",
+      "anonymous_response_id": "PC010",
+      "case_id": "p1c_03_current",
+      "condition": "R0T0",
+      "factor_assignment": {
+        "R": 0,
+        "T": 0
+      },
+      "first_reply_sha256": "6eea1433b1c184d795cf63b8da8298c97244633170e2f98be2eebf7c04aee1e0",
+      "persona_id": "p1c_speaker_03",
+      "prompt_sha256": "26dfd1bd3d4a05a7e223f1e128ed08e4027280a6a9d74318be504ed16b2e1e0c",
+      "request_key": "10:p1c_03_current/R0T0"
+    },
+    {
+      "anonymous_case_id": "CC09",
+      "anonymous_response_id": "PC037",
+      "case_id": "p1c_04_current",
+      "condition": "N_history",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "a91241591b857b88340630ea06a8f941c3c067f5d7a441479bf32302adecfb46",
+      "persona_id": "p1c_speaker_04",
+      "prompt_sha256": "77f15499a65968d47c3044fcc074d96ac8bb30d4196f60bd8780d5e291f9f999",
+      "request_key": "11:p1c_04_current/N_history"
+    },
+    {
+      "anonymous_case_id": "CC01",
+      "anonymous_response_id": "PC014",
+      "case_id": "p1c_05_current",
+      "condition": "R1T0",
+      "factor_assignment": {
+        "R": 1,
+        "T": 0
+      },
+      "first_reply_sha256": "871113e2e44d6bf75e50d991f48444419e4eb850601beb2471929e87e0e9c377",
+      "persona_id": "p1c_speaker_05",
+      "prompt_sha256": "64e76654e829eb56ecdf390f044035eba1a391e532c7c86585d85b12fa94fa6b",
+      "request_key": "12:p1c_05_current/R1T0"
+    },
+    {
+      "anonymous_case_id": "CC02",
+      "anonymous_response_id": "PC018",
+      "case_id": "p1c_04_historical",
+      "condition": "H_none",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "4b49ca1ee27e6398f30bf7bc9c32bff8b91c93c8bc55a9804dfa6e740dcf9a1a",
+      "persona_id": "p1c_speaker_04",
+      "prompt_sha256": "5cd86c4c088a8042a32482f2ef63d3ff2a3f8bce29ec64717bab35b655f101cb",
+      "request_key": "13:p1c_04_historical/H_none"
+    },
+    {
+      "anonymous_case_id": "CC05",
+      "anonymous_response_id": "PC008",
+      "case_id": "p1c_06_current",
+      "condition": "N_history",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "7ddef8b25d92cc5afd87f68f790993d24f9096bb2d31451046894a4261b2f4f3",
+      "persona_id": "p1c_speaker_06",
+      "prompt_sha256": "a355cf02a802db25493c1341f3e0ffd2fec0a62c6f20f103e1553787d5cabf78",
+      "request_key": "14:p1c_06_current/N_history"
+    },
+    {
+      "anonymous_case_id": "CC05",
+      "anonymous_response_id": "PC068",
+      "case_id": "p1c_06_current",
+      "condition": "R0T1",
+      "factor_assignment": {
+        "R": 0,
+        "T": 1
+      },
+      "first_reply_sha256": "3d5ba806e5ec189d2075a870024040aecd8f4d801a9c1e933c3ddee69cd6e7b4",
+      "persona_id": "p1c_speaker_06",
+      "prompt_sha256": "861cc6eadbd466258a9aa42e53fb31a1f84b01b506cdfc834574526f0fd2ca9e",
+      "request_key": "15:p1c_06_current/R0T1"
+    },
+    {
+      "anonymous_case_id": "CC09",
+      "anonymous_response_id": "PC038",
+      "case_id": "p1c_04_current",
+      "condition": "H_none",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "bae243e780b421339044063451558b194f684f894be0bf58b544618ceab6164c",
+      "persona_id": "p1c_speaker_04",
+      "prompt_sha256": "54209e73046d53fda6870d92248b187edc803062147254838a6e037bc937828b",
+      "request_key": "16:p1c_04_current/H_none"
+    },
+    {
+      "anonymous_case_id": "CC04",
+      "anonymous_response_id": "PC024",
+      "case_id": "p1c_01_historical",
+      "condition": "H_none",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "0e010742dcf9295f793e5ef0d4c1bce16da0092fd33d5f838bf429a42738bb5a",
+      "persona_id": "p1c_speaker_01",
+      "prompt_sha256": "9272eeefa06f34179719da11444ff05b96b233f2658260563f36233afc80da73",
+      "request_key": "17:p1c_01_historical/H_none"
+    },
+    {
+      "anonymous_case_id": "CC12",
+      "anonymous_response_id": "PC053",
+      "case_id": "p1c_03_historical",
+      "condition": "R0T0",
+      "factor_assignment": {
+        "R": 0,
+        "T": 0
+      },
+      "first_reply_sha256": "eddd33c5595bfbe5d102dd3ba35b3d52e02974573d9a93c9bea9da320a3932b4",
+      "persona_id": "p1c_speaker_03",
+      "prompt_sha256": "b58478da95ae6beb23909badc23965743ef3ab022004f48863ae6610a248bdd8",
+      "request_key": "18:p1c_03_historical/R0T0"
+    },
+    {
+      "anonymous_case_id": "CC12",
+      "anonymous_response_id": "PC070",
+      "case_id": "p1c_03_historical",
+      "condition": "H_none",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "2e3700840f8fd08ff479b1dc3851cde2a9a5b390e34976e204d4194f9db28ad1",
+      "persona_id": "p1c_speaker_03",
+      "prompt_sha256": "5372f1e631f697a80156f773342f6013fc2447d479ea4eed5ad6d55782539994",
+      "request_key": "19:p1c_03_historical/H_none"
+    },
+    {
+      "anonymous_case_id": "CC02",
+      "anonymous_response_id": "PC052",
+      "case_id": "p1c_04_historical",
+      "condition": "R0T0",
+      "factor_assignment": {
+        "R": 0,
+        "T": 0
+      },
+      "first_reply_sha256": "4b49ca1ee27e6398f30bf7bc9c32bff8b91c93c8bc55a9804dfa6e740dcf9a1a",
+      "persona_id": "p1c_speaker_04",
+      "prompt_sha256": "9da14830bb1afa96c1cc7b6a62ccf265c6f6fa1bdd4feea249984008795d7134",
+      "request_key": "20:p1c_04_historical/R0T0"
+    },
+    {
+      "anonymous_case_id": "CC11",
+      "anonymous_response_id": "PC022",
+      "case_id": "p1c_01_current",
+      "condition": "R0T1",
+      "factor_assignment": {
+        "R": 0,
+        "T": 1
+      },
+      "first_reply_sha256": "4aacb83e507a340e936d2011c85951713f2428a72bf18512b25a2b541ea80039",
+      "persona_id": "p1c_speaker_01",
+      "prompt_sha256": "2de6e608751ba69ab9efc621a82a73b766b87202e508d8b5be5fd2291ad57c08",
+      "request_key": "21:p1c_01_current/R0T1"
+    },
+    {
+      "anonymous_case_id": "CC03",
+      "anonymous_response_id": "PC021",
+      "case_id": "p1c_03_current",
+      "condition": "R0T1",
+      "factor_assignment": {
+        "R": 0,
+        "T": 1
+      },
+      "first_reply_sha256": "60fe106a642037a118d5e52097d4ee5ebe529e4de958c617d9d32015d78c6060",
+      "persona_id": "p1c_speaker_03",
+      "prompt_sha256": "00d496900dccf1d07d043f62cd2ad8125172ef8a7b7363634b4a59d99fe6a0ec",
+      "request_key": "22:p1c_03_current/R0T1"
+    },
+    {
+      "anonymous_case_id": "CC07",
+      "anonymous_response_id": "PC040",
+      "case_id": "p1c_05_historical",
+      "condition": "R0T1",
+      "factor_assignment": {
+        "R": 0,
+        "T": 1
+      },
+      "first_reply_sha256": "c31d18eae359b344c455af360f076682d23c01a9d26d9b5ffb7bb0c89a8e6561",
+      "persona_id": "p1c_speaker_05",
+      "prompt_sha256": "63f4eaae80950a62c26b3ca6ad404eaa958d2f2bc956c7e4f19eb8176fb0b547",
+      "request_key": "23:p1c_05_historical/R0T1"
+    },
+    {
+      "anonymous_case_id": "CC03",
+      "anonymous_response_id": "PC023",
+      "case_id": "p1c_03_current",
+      "condition": "R1T1",
+      "factor_assignment": {
+        "R": 1,
+        "T": 1
+      },
+      "first_reply_sha256": "e77eb57ac919de08eb04dfe1fcc7ac2d5af9d04e9458e6827a5dca26f6ffcd62",
+      "persona_id": "p1c_speaker_03",
+      "prompt_sha256": "31e534411e25c50ddd992740f17c62f6105e6f8aaba80cea34da1dab532d1556",
+      "request_key": "24:p1c_03_current/R1T1"
+    },
+    {
+      "anonymous_case_id": "CC01",
+      "anonymous_response_id": "PC005",
+      "case_id": "p1c_05_current",
+      "condition": "H_none",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "6088f5cf91366b2ab693411c4d4ad5e83601362d5b6ee6a8ce8de8b8804eb05a",
+      "persona_id": "p1c_speaker_05",
+      "prompt_sha256": "9d4f40562f7843e6551d5ee0a80c8150b414081ccff04c37741b173faecdea7c",
+      "request_key": "25:p1c_05_current/H_none"
+    },
+    {
+      "anonymous_case_id": "CC03",
+      "anonymous_response_id": "PC055",
+      "case_id": "p1c_03_current",
+      "condition": "R1T0",
+      "factor_assignment": {
+        "R": 1,
+        "T": 0
+      },
+      "first_reply_sha256": "5e5286d1e4f20e14aaebc78d08985aa41b753b836ef27bbe70768cad5dc67109",
+      "persona_id": "p1c_speaker_03",
+      "prompt_sha256": "d58884236fd8096f464ea2a052fb79515cb23f01c4f05fd79614d65cd12de5a2",
+      "request_key": "26:p1c_03_current/R1T0"
+    },
+    {
+      "anonymous_case_id": "CC08",
+      "anonymous_response_id": "PC013",
+      "case_id": "p1c_02_current",
+      "condition": "R1T1",
+      "factor_assignment": {
+        "R": 1,
+        "T": 1
+      },
+      "first_reply_sha256": "82d261e765a58ead2e1f348b52fb96cf7664b1bf4db17150774836211e5382ff",
+      "persona_id": "p1c_speaker_02",
+      "prompt_sha256": "7332256130472c9415e0bfefec00b8a2f32c4933fece4bb81ee3248382f94c81",
+      "request_key": "27:p1c_02_current/R1T1"
+    },
+    {
+      "anonymous_case_id": "CC07",
+      "anonymous_response_id": "PC035",
+      "case_id": "p1c_05_historical",
+      "condition": "R1T0",
+      "factor_assignment": {
+        "R": 1,
+        "T": 0
+      },
+      "first_reply_sha256": "c31d18eae359b344c455af360f076682d23c01a9d26d9b5ffb7bb0c89a8e6561",
+      "persona_id": "p1c_speaker_05",
+      "prompt_sha256": "460ef4adeed6e1fdd0475b624343f378bc779b37801b131b59cb000c1342eab3",
+      "request_key": "28:p1c_05_historical/R1T0"
+    },
+    {
+      "anonymous_case_id": "CC01",
+      "anonymous_response_id": "PC002",
+      "case_id": "p1c_05_current",
+      "condition": "R1T1",
+      "factor_assignment": {
+        "R": 1,
+        "T": 1
+      },
+      "first_reply_sha256": "6088f5cf91366b2ab693411c4d4ad5e83601362d5b6ee6a8ce8de8b8804eb05a",
+      "persona_id": "p1c_speaker_05",
+      "prompt_sha256": "46d07e92635ca24f2efedc280eba37abe0624a008238252e3b9e2e648ceb3bcd",
+      "request_key": "29:p1c_05_current/R1T1"
+    },
+    {
+      "anonymous_case_id": "CC08",
+      "anonymous_response_id": "PC017",
+      "case_id": "p1c_02_current",
+      "condition": "R0T0",
+      "factor_assignment": {
+        "R": 0,
+        "T": 0
+      },
+      "first_reply_sha256": "1b6023ce9f1547705b1181e012722533d6c54731c2768a6ff11114fc58513a85",
+      "persona_id": "p1c_speaker_02",
+      "prompt_sha256": "db2a014c66f00cda96b44bf7c222fbc3e17f8ad9dba532dc43ac8bfe17272c15",
+      "request_key": "30:p1c_02_current/R0T0"
+    },
+    {
+      "anonymous_case_id": "CC09",
+      "anonymous_response_id": "PC064",
+      "case_id": "p1c_04_current",
+      "condition": "R1T1",
+      "factor_assignment": {
+        "R": 1,
+        "T": 1
+      },
+      "first_reply_sha256": "bae243e780b421339044063451558b194f684f894be0bf58b544618ceab6164c",
+      "persona_id": "p1c_speaker_04",
+      "prompt_sha256": "14bbe21c2d873ac51b4e19e22b96ddae71f7358440d73dfb2579b77421f322ef",
+      "request_key": "31:p1c_04_current/R1T1"
+    },
+    {
+      "anonymous_case_id": "CC12",
+      "anonymous_response_id": "PC042",
+      "case_id": "p1c_03_historical",
+      "condition": "R0T1",
+      "factor_assignment": {
+        "R": 0,
+        "T": 1
+      },
+      "first_reply_sha256": "2d97f862dec0538489d7ed4d8120c12da2ae7b047db64f6bb665b9b39cadf736",
+      "persona_id": "p1c_speaker_03",
+      "prompt_sha256": "53025b7c90fae7676d82abc40a7d18a954f216d9a275db4f2c3759429920aa51",
+      "request_key": "32:p1c_03_historical/R0T1"
+    },
+    {
+      "anonymous_case_id": "CC06",
+      "anonymous_response_id": "PC067",
+      "case_id": "p1c_06_historical",
+      "condition": "H_none",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "fba2f2e372c36864304e0848249ca4953ffebfa06237b28783e1959e9bdc668d",
+      "persona_id": "p1c_speaker_06",
+      "prompt_sha256": "a2e80b636b5e14540e2abec66083c2766cd4710b91c075ed82f46c2bbb0f6ef6",
+      "request_key": "33:p1c_06_historical/H_none"
+    },
+    {
+      "anonymous_case_id": "CC10",
+      "anonymous_response_id": "PC019",
+      "case_id": "p1c_02_historical",
+      "condition": "N_history",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "d10ba269aafe6361096f3eb6fc680ccfb6da10578e47028b28b51af161f585af",
+      "persona_id": "p1c_speaker_02",
+      "prompt_sha256": "5fe341a16ea11bcee3ed3d92b6f44cf78b90720f93c8bbc5900c499c45e4a022",
+      "request_key": "34:p1c_02_historical/N_history"
+    },
+    {
+      "anonymous_case_id": "CC12",
+      "anonymous_response_id": "PC044",
+      "case_id": "p1c_03_historical",
+      "condition": "N_history",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "b9b3e64df5009c7708ba924fbe3c609d1b50d93cb5b1b9c7fcba81903becc004",
+      "persona_id": "p1c_speaker_03",
+      "prompt_sha256": "21ee62f6a5c89806f3401191b9fe2a7c837c891b15f1c4231aa96077d6b6559d",
+      "request_key": "35:p1c_03_historical/N_history"
+    },
+    {
+      "anonymous_case_id": "CC08",
+      "anonymous_response_id": "PC050",
+      "case_id": "p1c_02_current",
+      "condition": "R1T0",
+      "factor_assignment": {
+        "R": 1,
+        "T": 0
+      },
+      "first_reply_sha256": "1b6023ce9f1547705b1181e012722533d6c54731c2768a6ff11114fc58513a85",
+      "persona_id": "p1c_speaker_02",
+      "prompt_sha256": "4e99ad71d88a790cd09438da0b82d900fe69669165dad39ac8492b120321cd85",
+      "request_key": "36:p1c_02_current/R1T0"
+    },
+    {
+      "anonymous_case_id": "CC06",
+      "anonymous_response_id": "PC012",
+      "case_id": "p1c_06_historical",
+      "condition": "N_history",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "8be7e36406ea86cc814b122c2f4cee368b53cb109384ebb7c507e8c67a3d5e0e",
+      "persona_id": "p1c_speaker_06",
+      "prompt_sha256": "fee273bcf45e634b825d1c83bba67a29a57fd9f40230151bb752b2600ac3f5c6",
+      "request_key": "37:p1c_06_historical/N_history"
+    },
+    {
+      "anonymous_case_id": "CC02",
+      "anonymous_response_id": "PC025",
+      "case_id": "p1c_04_historical",
+      "condition": "R1T0",
+      "factor_assignment": {
+        "R": 1,
+        "T": 0
+      },
+      "first_reply_sha256": "4b49ca1ee27e6398f30bf7bc9c32bff8b91c93c8bc55a9804dfa6e740dcf9a1a",
+      "persona_id": "p1c_speaker_04",
+      "prompt_sha256": "338c522e72425f82eaec37c5fa73c780c07075271ab179694c8eb62016a19d14",
+      "request_key": "38:p1c_04_historical/R1T0"
+    },
+    {
+      "anonymous_case_id": "CC11",
+      "anonymous_response_id": "PC032",
+      "case_id": "p1c_01_current",
+      "condition": "R1T1",
+      "factor_assignment": {
+        "R": 1,
+        "T": 1
+      },
+      "first_reply_sha256": "4aacb83e507a340e936d2011c85951713f2428a72bf18512b25a2b541ea80039",
+      "persona_id": "p1c_speaker_01",
+      "prompt_sha256": "d0de0e77544144218e7bd00530a3ffbd10d68dab2755d1599ecca289153ec421",
+      "request_key": "39:p1c_01_current/R1T1"
+    },
+    {
+      "anonymous_case_id": "CC12",
+      "anonymous_response_id": "PC039",
+      "case_id": "p1c_03_historical",
+      "condition": "R1T0",
+      "factor_assignment": {
+        "R": 1,
+        "T": 0
+      },
+      "first_reply_sha256": "4c0d9990f35a44a063673fdf0134f5157ff2ec93c08793ff0f330553fba42480",
+      "persona_id": "p1c_speaker_03",
+      "prompt_sha256": "9171b5a754d542e739c182d274be94cf7fba1d6572da6f248fd674430a9f676e",
+      "request_key": "40:p1c_03_historical/R1T0"
+    },
+    {
+      "anonymous_case_id": "CC05",
+      "anonymous_response_id": "PC036",
+      "case_id": "p1c_06_current",
+      "condition": "R0T0",
+      "factor_assignment": {
+        "R": 0,
+        "T": 0
+      },
+      "first_reply_sha256": "3d5ba806e5ec189d2075a870024040aecd8f4d801a9c1e933c3ddee69cd6e7b4",
+      "persona_id": "p1c_speaker_06",
+      "prompt_sha256": "e88a5a2d3f4f6d9da65c7d24d666d224b7ba4518fa419d7f415e3d3ae2e462cf",
+      "request_key": "41:p1c_06_current/R0T0"
+    },
+    {
+      "anonymous_case_id": "CC01",
+      "anonymous_response_id": "PC001",
+      "case_id": "p1c_05_current",
+      "condition": "R0T0",
+      "factor_assignment": {
+        "R": 0,
+        "T": 0
+      },
+      "first_reply_sha256": "6088f5cf91366b2ab693411c4d4ad5e83601362d5b6ee6a8ce8de8b8804eb05a",
+      "persona_id": "p1c_speaker_05",
+      "prompt_sha256": "ddc8a226483c175564e284b2916be0f8a7eb39b1e6c45096c58a3f57edb5d202",
+      "request_key": "42:p1c_05_current/R0T0"
+    },
+    {
+      "anonymous_case_id": "CC06",
+      "anonymous_response_id": "PC069",
+      "case_id": "p1c_06_historical",
+      "condition": "R0T1",
+      "factor_assignment": {
+        "R": 0,
+        "T": 1
+      },
+      "first_reply_sha256": "0bddd794ccbcea9ad427a38529ff8bf3647d193fb56e95f0e7fcd32143a39eeb",
+      "persona_id": "p1c_speaker_06",
+      "prompt_sha256": "8f97f372ab54cee62230e74475be4f1c45d80324d08abc2a77d939756ec2d92f",
+      "request_key": "43:p1c_06_historical/R0T1"
+    },
+    {
+      "anonymous_case_id": "CC06",
+      "anonymous_response_id": "PC009",
+      "case_id": "p1c_06_historical",
+      "condition": "R1T1",
+      "factor_assignment": {
+        "R": 1,
+        "T": 1
+      },
+      "first_reply_sha256": "fba2f2e372c36864304e0848249ca4953ffebfa06237b28783e1959e9bdc668d",
+      "persona_id": "p1c_speaker_06",
+      "prompt_sha256": "0365d34d98075e45f1d1a28d801c374421d9655e6faa6a69006fdaae9a112675",
+      "request_key": "44:p1c_06_historical/R1T1"
+    },
+    {
+      "anonymous_case_id": "CC07",
+      "anonymous_response_id": "PC047",
+      "case_id": "p1c_05_historical",
+      "condition": "R0T0",
+      "factor_assignment": {
+        "R": 0,
+        "T": 0
+      },
+      "first_reply_sha256": "8d84be30fc584795f21e3e9a635940722bfbc9b99cf8874fdd63be6281937769",
+      "persona_id": "p1c_speaker_05",
+      "prompt_sha256": "ad7961bb530e1ebd14a061270e28231ad965ef527cc2f05dfd5c85faaa8bf974",
+      "request_key": "45:p1c_05_historical/R0T0"
+    },
+    {
+      "anonymous_case_id": "CC04",
+      "anonymous_response_id": "PC046",
+      "case_id": "p1c_01_historical",
+      "condition": "R1T1",
+      "factor_assignment": {
+        "R": 1,
+        "T": 1
+      },
+      "first_reply_sha256": "bc2c8b0830a83304cba659e2a135ab7cc530bca558a24d48f04b47f52b967ace",
+      "persona_id": "p1c_speaker_01",
+      "prompt_sha256": "862207a5cf43306d9a5278f9a34290b50881b03e6ca21c1494b91167c92b8b32",
+      "request_key": "46:p1c_01_historical/R1T1"
+    },
+    {
+      "anonymous_case_id": "CC07",
+      "anonymous_response_id": "PC030",
+      "case_id": "p1c_05_historical",
+      "condition": "H_none",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "2a7de91e9a483534a311b1c256b8d593a821b4053c82146f4fb0e61f77b32c4c",
+      "persona_id": "p1c_speaker_05",
+      "prompt_sha256": "c7745c5ca64b8986c3a96072df8f5a77ceaa0469d121fa93b5614c5dcb226997",
+      "request_key": "47:p1c_05_historical/H_none"
+    },
+    {
+      "anonymous_case_id": "CC10",
+      "anonymous_response_id": "PC058",
+      "case_id": "p1c_02_historical",
+      "condition": "R0T1",
+      "factor_assignment": {
+        "R": 0,
+        "T": 1
+      },
+      "first_reply_sha256": "235720727c63bc344a8f09ba5a2caccedb6399b25c69c301ace586734b547811",
+      "persona_id": "p1c_speaker_02",
+      "prompt_sha256": "3e7c9e6d052bc8dc09f5f01b879a1cd0373cd119334fa258860b3222ec56ec12",
+      "request_key": "48:p1c_02_historical/R0T1"
+    },
+    {
+      "anonymous_case_id": "CC03",
+      "anonymous_response_id": "PC006",
+      "case_id": "p1c_03_current",
+      "condition": "H_none",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "f7b8ac9f9463e811e2e15938996ae916de2af9d196e960adfd807624ee7816eb",
+      "persona_id": "p1c_speaker_03",
+      "prompt_sha256": "b62231d4059e7861d676abf07d3ff380b99bbe7ac8182a1356a71f55d706380e",
+      "request_key": "49:p1c_03_current/H_none"
+    },
+    {
+      "anonymous_case_id": "CC05",
+      "anonymous_response_id": "PC057",
+      "case_id": "p1c_06_current",
+      "condition": "H_none",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "3d5ba806e5ec189d2075a870024040aecd8f4d801a9c1e933c3ddee69cd6e7b4",
+      "persona_id": "p1c_speaker_06",
+      "prompt_sha256": "c79caa5cd5c1423be20f1e543cf07d01f891051184d2c0439fb3478fa7c18d63",
+      "request_key": "50:p1c_06_current/H_none"
+    },
+    {
+      "anonymous_case_id": "CC04",
+      "anonymous_response_id": "PC020",
+      "case_id": "p1c_01_historical",
+      "condition": "R0T1",
+      "factor_assignment": {
+        "R": 0,
+        "T": 1
+      },
+      "first_reply_sha256": "bc2c8b0830a83304cba659e2a135ab7cc530bca558a24d48f04b47f52b967ace",
+      "persona_id": "p1c_speaker_01",
+      "prompt_sha256": "369fba244eae1b309732c2a9a40048b85166296b8cfbcc2e117154d329df3e1b",
+      "request_key": "51:p1c_01_historical/R0T1"
+    },
+    {
+      "anonymous_case_id": "CC01",
+      "anonymous_response_id": "PC056",
+      "case_id": "p1c_05_current",
+      "condition": "R0T1",
+      "factor_assignment": {
+        "R": 0,
+        "T": 1
+      },
+      "first_reply_sha256": "871113e2e44d6bf75e50d991f48444419e4eb850601beb2471929e87e0e9c377",
+      "persona_id": "p1c_speaker_05",
+      "prompt_sha256": "d5aad132b19ed08fc18bb764d44b2fd14bda132c916f9fcad65256959517effe",
+      "request_key": "52:p1c_05_current/R0T1"
+    },
+    {
+      "anonymous_case_id": "CC08",
+      "anonymous_response_id": "PC059",
+      "case_id": "p1c_02_current",
+      "condition": "R0T1",
+      "factor_assignment": {
+        "R": 0,
+        "T": 1
+      },
+      "first_reply_sha256": "82d261e765a58ead2e1f348b52fb96cf7664b1bf4db17150774836211e5382ff",
+      "persona_id": "p1c_speaker_02",
+      "prompt_sha256": "e4f8f546bdb0c9508df2be8358a987352b69002448da01ae9bc45649dec7a519",
+      "request_key": "53:p1c_02_current/R0T1"
+    },
+    {
+      "anonymous_case_id": "CC07",
+      "anonymous_response_id": "PC027",
+      "case_id": "p1c_05_historical",
+      "condition": "N_history",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "c51a028e3f11d62ba1e36141e4f4874ba08596aa7ac54e2323565d463adf9951",
+      "persona_id": "p1c_speaker_05",
+      "prompt_sha256": "7e38b64caef690c61f41f67759d8cee34897310e0372b075dd481d7e653bb1e3",
+      "request_key": "54:p1c_05_historical/N_history"
+    },
+    {
+      "anonymous_case_id": "CC02",
+      "anonymous_response_id": "PC066",
+      "case_id": "p1c_04_historical",
+      "condition": "R1T1",
+      "factor_assignment": {
+        "R": 1,
+        "T": 1
+      },
+      "first_reply_sha256": "4b49ca1ee27e6398f30bf7bc9c32bff8b91c93c8bc55a9804dfa6e740dcf9a1a",
+      "persona_id": "p1c_speaker_04",
+      "prompt_sha256": "840996e109920c49de3c2cb3b98da3f5cf4f1d70f8ccd6a5771a8b1fce8ff0b2",
+      "request_key": "55:p1c_04_historical/R1T1"
+    },
+    {
+      "anonymous_case_id": "CC04",
+      "anonymous_response_id": "PC072",
+      "case_id": "p1c_01_historical",
+      "condition": "R0T0",
+      "factor_assignment": {
+        "R": 0,
+        "T": 0
+      },
+      "first_reply_sha256": "bc2c8b0830a83304cba659e2a135ab7cc530bca558a24d48f04b47f52b967ace",
+      "persona_id": "p1c_speaker_01",
+      "prompt_sha256": "34e79839b0377d71b5e2fb438e3adf48a85f52793410156295a0307443646f80",
+      "request_key": "56:p1c_01_historical/R0T0"
+    },
+    {
+      "anonymous_case_id": "CC10",
+      "anonymous_response_id": "PC048",
+      "case_id": "p1c_02_historical",
+      "condition": "R1T1",
+      "factor_assignment": {
+        "R": 1,
+        "T": 1
+      },
+      "first_reply_sha256": "23989ede9825c1c4bd206e6d6ad8de0bbb989c4b841ac63efe76cb0c1bb17ef1",
+      "persona_id": "p1c_speaker_02",
+      "prompt_sha256": "5e57b61b14fcbbf1937c698de30a00a2065d585aec4699ab13da8ef6fc76c61f",
+      "request_key": "57:p1c_02_historical/R1T1"
+    },
+    {
+      "anonymous_case_id": "CC02",
+      "anonymous_response_id": "PC060",
+      "case_id": "p1c_04_historical",
+      "condition": "R0T1",
+      "factor_assignment": {
+        "R": 0,
+        "T": 1
+      },
+      "first_reply_sha256": "4b49ca1ee27e6398f30bf7bc9c32bff8b91c93c8bc55a9804dfa6e740dcf9a1a",
+      "persona_id": "p1c_speaker_04",
+      "prompt_sha256": "a44918438ddf3cba344564088c05874fd704b67c654a2e6bef027a4954060da2",
+      "request_key": "58:p1c_04_historical/R0T1"
+    },
+    {
+      "anonymous_case_id": "CC07",
+      "anonymous_response_id": "PC011",
+      "case_id": "p1c_05_historical",
+      "condition": "R1T1",
+      "factor_assignment": {
+        "R": 1,
+        "T": 1
+      },
+      "first_reply_sha256": "40a52f24d6965976917a645454a563564230b87e160b22be261d1833b4505e95",
+      "persona_id": "p1c_speaker_05",
+      "prompt_sha256": "844f4a85a84556daa2b7628a18a912996ac59fa48fe40260e0b8914e60786f1b",
+      "request_key": "59:p1c_05_historical/R1T1"
+    },
+    {
+      "anonymous_case_id": "CC11",
+      "anonymous_response_id": "PC051",
+      "case_id": "p1c_01_current",
+      "condition": "H_none",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "cd5da548973ded04d4e18c3fff0d748dd27f9b039e71d4ac5323643a9c6d26a4",
+      "persona_id": "p1c_speaker_01",
+      "prompt_sha256": "14ae798cab7ecdaa88276c253e97e1387348e3505e7edff974fbe214494574e1",
+      "request_key": "60:p1c_01_current/H_none"
+    },
+    {
+      "anonymous_case_id": "CC04",
+      "anonymous_response_id": "PC045",
+      "case_id": "p1c_01_historical",
+      "condition": "N_history",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "ad4466e2b4edebff8adcf3e5b564a364d94b59eb8e34dc1b9a5f9ed28ff1823f",
+      "persona_id": "p1c_speaker_01",
+      "prompt_sha256": "3492c0a7cc3a2f419925b2c4c40fa9f7b7ad54a4b4c762be99633051d29683df",
+      "request_key": "61:p1c_01_historical/N_history"
+    },
+    {
+      "anonymous_case_id": "CC10",
+      "anonymous_response_id": "PC065",
+      "case_id": "p1c_02_historical",
+      "condition": "H_none",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "23989ede9825c1c4bd206e6d6ad8de0bbb989c4b841ac63efe76cb0c1bb17ef1",
+      "persona_id": "p1c_speaker_02",
+      "prompt_sha256": "d0c8a2eddd3fb172b55d75bcf92b09cf7fb8e70753566b10d46170d31bad562d",
+      "request_key": "62:p1c_02_historical/H_none"
+    },
+    {
+      "anonymous_case_id": "CC09",
+      "anonymous_response_id": "PC041",
+      "case_id": "p1c_04_current",
+      "condition": "R1T0",
+      "factor_assignment": {
+        "R": 1,
+        "T": 0
+      },
+      "first_reply_sha256": "bae243e780b421339044063451558b194f684f894be0bf58b544618ceab6164c",
+      "persona_id": "p1c_speaker_04",
+      "prompt_sha256": "921583c8a2e8b025f5309c2007513cb2ddc476916bdedeaf758d9ffbe43263b4",
+      "request_key": "63:p1c_04_current/R1T0"
+    },
+    {
+      "anonymous_case_id": "CC01",
+      "anonymous_response_id": "PC004",
+      "case_id": "p1c_05_current",
+      "condition": "N_history",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "4df088c1ea637a871976c38c9f65d1f99cde2681fcd82e808ece7b04347d2e70",
+      "persona_id": "p1c_speaker_05",
+      "prompt_sha256": "ce4eb4eb4c4d7d16f48ea0554d18b3da2401b3993ccc19c6f0250d704de75ce9",
+      "request_key": "64:p1c_05_current/N_history"
+    },
+    {
+      "anonymous_case_id": "CC04",
+      "anonymous_response_id": "PC007",
+      "case_id": "p1c_01_historical",
+      "condition": "R1T0",
+      "factor_assignment": {
+        "R": 1,
+        "T": 0
+      },
+      "first_reply_sha256": "bc2c8b0830a83304cba659e2a135ab7cc530bca558a24d48f04b47f52b967ace",
+      "persona_id": "p1c_speaker_01",
+      "prompt_sha256": "7bedb5c3aacd55cd1a8e06e8663e9afe988e97b7b903fc5ff50c5ae05d09a506",
+      "request_key": "65:p1c_01_historical/R1T0"
+    },
+    {
+      "anonymous_case_id": "CC03",
+      "anonymous_response_id": "PC015",
+      "case_id": "p1c_03_current",
+      "condition": "N_history",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "0199d27be2a814cbe6969c487927157ba6a10e30666da3d6562043a71f280ecb",
+      "persona_id": "p1c_speaker_03",
+      "prompt_sha256": "6d2d5d485a7e4fc2332ce6699461508f2868d7868ff0709b8ccb39f89fb3d115",
+      "request_key": "66:p1c_03_current/N_history"
+    },
+    {
+      "anonymous_case_id": "CC06",
+      "anonymous_response_id": "PC054",
+      "case_id": "p1c_06_historical",
+      "condition": "R1T0",
+      "factor_assignment": {
+        "R": 1,
+        "T": 0
+      },
+      "first_reply_sha256": "dfd6a95e8a8bcbbe0253130be8231b5fba70f483b4fb7d69b932697c44fc5080",
+      "persona_id": "p1c_speaker_06",
+      "prompt_sha256": "7d0fa781bee4e3f87fdc07a037c6fd1d1df3ad6f5df79cc6d2f1dcd655a2b567",
+      "request_key": "67:p1c_06_historical/R1T0"
+    },
+    {
+      "anonymous_case_id": "CC10",
+      "anonymous_response_id": "PC071",
+      "case_id": "p1c_02_historical",
+      "condition": "R1T0",
+      "factor_assignment": {
+        "R": 1,
+        "T": 0
+      },
+      "first_reply_sha256": "235720727c63bc344a8f09ba5a2caccedb6399b25c69c301ace586734b547811",
+      "persona_id": "p1c_speaker_02",
+      "prompt_sha256": "2c51a9500a4e7c33d167ed1327dda6b4d4e39d66a35581e705aa9d3fc0f9d46d",
+      "request_key": "68:p1c_02_historical/R1T0"
+    },
+    {
+      "anonymous_case_id": "CC02",
+      "anonymous_response_id": "PC003",
+      "case_id": "p1c_04_historical",
+      "condition": "N_history",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "4b49ca1ee27e6398f30bf7bc9c32bff8b91c93c8bc55a9804dfa6e740dcf9a1a",
+      "persona_id": "p1c_speaker_04",
+      "prompt_sha256": "3d8df8ad7594092d278daa074d69948281461642c9352568aae4713136ebe160",
+      "request_key": "69:p1c_04_historical/N_history"
+    },
+    {
+      "anonymous_case_id": "CC11",
+      "anonymous_response_id": "PC061",
+      "case_id": "p1c_01_current",
+      "condition": "R1T0",
+      "factor_assignment": {
+        "R": 1,
+        "T": 0
+      },
+      "first_reply_sha256": "4aacb83e507a340e936d2011c85951713f2428a72bf18512b25a2b541ea80039",
+      "persona_id": "p1c_speaker_01",
+      "prompt_sha256": "5f79c862e4709d3e19463c59c9bef2f0687ae42e0ceb8d11ba6669f123ec2b1a",
+      "request_key": "70:p1c_01_current/R1T0"
+    },
+    {
+      "anonymous_case_id": "CC11",
+      "anonymous_response_id": "PC028",
+      "case_id": "p1c_01_current",
+      "condition": "N_history",
+      "factor_assignment": {
+        "R": null,
+        "T": null
+      },
+      "first_reply_sha256": "4aacb83e507a340e936d2011c85951713f2428a72bf18512b25a2b541ea80039",
+      "persona_id": "p1c_speaker_01",
+      "prompt_sha256": "f07aa2d4644372cfc2a7ff081dd303e39d9ce040cbfa5e71ef613d52d821d449",
+      "request_key": "71:p1c_01_current/N_history"
+    }
+  ]
+}

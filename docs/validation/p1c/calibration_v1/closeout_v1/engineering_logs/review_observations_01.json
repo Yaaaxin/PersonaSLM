@@ -1,0 +1,14 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "tools/p1c_review_observations.py",
+    "--output",
+    "docs/validation/p1c/calibration_v1/review_support_v1"
+  ],
+  "duration_seconds": 0.14171759999589995,
+  "exit_code": 0,
+  "finished_utc": "2026-10-14T06:46:55.351330+00:00",
+  "started_utc": "2026-10-14T06:46:55.209612+00:00",
+  "stderr": "",
+  "stdout": "{\n  \"records\": 72,\n  \"formal_endpoint_ratings\": 0,\n  \"human_confirmation\": \"PENDING\",\n  \"new_generations\": 0\n}\n"
+}

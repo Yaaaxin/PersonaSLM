@@ -1,0 +1,14 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "tools/p1c_measurement.py",
+    "--output",
+    "docs/validation/p1c/calibration_v1/measurement_v1"
+  ],
+  "duration_seconds": 4.565126699977554,
+  "exit_code": 1,
+  "finished_utc": "2026-10-14T06:43:55.850059+00:00",
+  "started_utc": "2026-10-14T06:43:51.284932+00:00",
+  "stderr": "Traceback (most recent call last):\n  File \"E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\tools\\p1c_measurement.py\", line 155, in <module>\n    print(json.dumps(prepare(a.parse_args().output),indent=2))\n                     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\tools\\p1c_measurement.py\", line 57, in prepare\n    n=reconcile_tokenizations(events,[(r['prompt'],r['input_token_ids']) for r in plan['requests']])\n  File \"E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\src\\personaslm\\scientific_closure.py\", line 122, in reconcile_tokenizations\n    raise ValueError(\"No answer generation is authorized\")\nValueError: No answer generation is authorized\n",
+  "stdout": ""
+}

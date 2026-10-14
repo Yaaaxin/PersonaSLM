@@ -1,0 +1,50 @@
+{
+  "project": "PersonaSLM",
+  "phase": "P1c development scientific review",
+  "artifact_version": "researcher_confirmation_v1",
+  "reviewer_id": "Yaxin_ZHENG",
+  "confirmation_basis": "Researcher states in this conversation that all 77 AI-assisted review proposals were read and confirmed.",
+  "initial_assessment_origin": "AI-assisted independent document assessment, NOT an independent human blinded reviewer",
+  "total_review_items": 77,
+  "confirmed_scoped_decisions": 74,
+  "acknowledged_not_approved": 3,
+  "decision_counts": {
+    "case__ACCEPT_WITH_RESTRICTED_ESTIMAND": 12,
+    "global__ACCEPT_WITH_RESTRICTED_ESTIMAND": 1,
+    "global__DIAGNOSTIC_ONLY": 1,
+    "global__NO_GO_PENDING_EXPLICIT_AUTHORIZATION": 1,
+    "global__PENDING_DOCUMENT_REVIEW": 2,
+    "history_text__ACCEPT_WITH_LIMITATIONS": 48,
+    "history_text__DIAGNOSTIC_ONLY": 12
+  },
+  "unresolved_gates": {
+    "evaluation_and_statistics": "PENDING_DOCUMENT_REVIEW",
+    "protocol_addendum": "PENDING_DOCUMENT_REVIEW",
+    "execution_authorization": "NO_GO_PENDING_EXPLICIT_AUTHORIZATION"
+  },
+  "inference_execution_authorized": false,
+  "proposed_requests": 72,
+  "human_subcriterion_fields": "Retained blank where source review did not contain distinct human subcriterion decisions.",
+  "review_timestamp": "not recorded",
+  "sources_sha256": {
+    "proposal": "4b3aeecc1ffcdf92960c54c12c129b621c939927e604309f7710a594887e2c77",
+    "confirmation": "84acbea45f26f6ac13585fa27c8aaf33093a2485e8872d015d2c1b8ebdb2bf7f",
+    "cases": "c7e868d82c0a9bb7ac01b4b756c128329035f2190d9f5cb6b847db682aaa780c",
+    "history": "82f77dec440b1ca9966de7933dc13f9128bc201efa428cdf8e5a9982680c1150",
+    "report": "9cb0528d54f0cd641df338f1719c6d289d84747c62728f3b434e1930c9af9b68"
+  },
+  "generated_csv_sha256": {
+    "unified": "3e75d1be85472aa811e393d9488c32af4c9e1d5380405db84af883fee2b8f1b9",
+    "confirmation": "fcd898aaaae95a2bcb5877099fb6543879e9bde066ac1ed42b8de346ffe93db6",
+    "cases": "38a269e64f608cd87c0abd1e8f4540af6d743835305bc4708c8e41f6411e56db",
+    "history": "678bd4a33c4f66e761715eada38473f8a424db7f72d59523f73bf359d243992c"
+  },
+  "relative_repository_destination": {
+    "unified": "docs/validation/p1c/final_review_v1/PersonaSLM_P1c_77_item_RESEARCHER_CONFIRMED_v1.csv",
+    "confirmation": "docs/validation/p1c/final_review_v1/researcher_confirmation_form_RESEARCHER_CONFIRMED_v1.csv",
+    "cases": "docs/validation/p1c/scientific_review_v1/case_review_RESEARCHER_CONFIRMED_v1.csv",
+    "history": "docs/validation/p1c/scientific_review_v1/history_text_review_RESEARCHER_CONFIRMED_v1.csv",
+    "report": "docs/P1c_researcher_confirmation_registration_v1.md",
+    "manifest": "docs/validation/p1c/final_review_v1/researcher_confirmation_manifest_v1.json"
+  }
+}

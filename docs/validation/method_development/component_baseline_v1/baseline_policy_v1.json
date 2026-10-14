@@ -1,0 +1,15 @@
+{
+  "comparators": [
+    "always_predict_full",
+    "never_predict_full",
+    "literal_component_presence"
+  ],
+  "human_reference": "Researcher-confirmed AI-assisted answer_delivery == FULL_ANSWER",
+  "inputs": "Reference components are oracle evaluation metadata, not a deployment-time verifier.",
+  "limitations": "Mention is not assertion, support, temporal validity or answer delivery. Reference leakage makes this an oracle-aided baseline, not a new algorithm.",
+  "new_generations": 0,
+  "rule": "All reference component values must appear as contiguous case-insensitive Unicode word-token sequences in the frozen first reply.",
+  "selection": "All 192 existing P1b outputs; no condition/correctness filtering; no tuning or regeneration.",
+  "status": "RETROSPECTIVE_DEVELOPMENT_DIAGNOSTIC",
+  "version": "literal_component_presence_baseline_v1"
+}

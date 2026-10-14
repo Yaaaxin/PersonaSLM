@@ -1,0 +1,57 @@
+{
+  "confirmation_statement": "I have reviewed the consolidated P1c approval request and accept the proposed restricted scientific interpretation.",
+  "decision_source": "researcher",
+  "decisions": [
+    {
+      "decision": "APPROVE",
+      "documents": [
+        {
+          "path": "docs/validation/p1c/final_review_v1/evaluation_policy_proposed_v1.json",
+          "sha256": "1fe5bfb170f192e53ce566eebf304cbeb93b5014c08112c05f6b06caf122e7ca"
+        },
+        {
+          "path": "docs/validation/p1c/final_review_v1/estimand_registry_proposed_v1.json",
+          "sha256": "713a7679d5a606707f8075bae51d3fa5716a721eccf86f1f56cebc73b4bbc4e7"
+        },
+        {
+          "path": "docs/validation/p1c/final_review_v1/applicability_matrix_v1.json",
+          "sha256": "2d2ab43f5100bcfa408cf5095f95ce3472d01af77638cad6814c482fc960cc57"
+        },
+        {
+          "path": "docs/validation/p1c/decision_gate_v1/analysis_restrictions_v1.json",
+          "sha256": "6cded9a50ce60249dd9383544816c6aebd0b3b66243ecea87a24301abaab4fd4"
+        }
+      ],
+      "item_id": "evaluation_and_statistics",
+      "reason": "All R/T effects must retain their restricted package-level interpretation. The matched procedural controls remain DIAGNOSTIC_ONLY."
+    },
+    {
+      "decision": "APPROVE",
+      "documents": [
+        {
+          "path": "docs/validation/p1c/final_review_v1/protocol_addendum_proposed_v2.json",
+          "sha256": "51d1987e2e91e2f4e72735304380e3f4442f418b731e972828677d24b7b96f55"
+        }
+      ],
+      "item_id": "protocol_addendum",
+      "reason": "This approval applies exclusively to the specified P1c development calibration. Research Protocol v1.1 remains unchanged. Research Protocol v1.2 is not automatically adopted."
+    },
+    {
+      "decision": "AUTHORIZE_72_REQUESTS",
+      "documents": [
+        {
+          "path": "docs/validation/p1c/final_review_v1/calibration_manifest_candidate_v1.json",
+          "sha256": "b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b"
+        }
+      ],
+      "item_id": "execution_authorization",
+      "reason": "I explicitly authorize exactly 72 real CPU inference requests using the frozen P1c calibration manifest. Authorization is conditional on successful final preflight and exact manifest integrity."
+    }
+  ],
+  "manifest_sha256": "b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b",
+  "registration_sha256": "65953be7c037fcfbfef4b92fb025deab2a0237a8bcebc9533808fb122142cccf",
+  "request_count": 72,
+  "review_timestamp": null,
+  "reviewer_id": "Yaxin_ZHENG",
+  "version": "p1c_consolidated_approval_v1"
+}

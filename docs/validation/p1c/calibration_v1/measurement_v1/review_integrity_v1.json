@@ -1,0 +1,25 @@
+{
+  "blank_human_fields": true,
+  "case_ids": 12,
+  "created_utc": "2026-10-14T06:45:09.293513+00:00",
+  "files": {
+    "execution_integrity_v1.json": "30d0740cf99c7832ebed6eb96e520253c21d6c8ba5bfb24fd4c755be67fc8679",
+    "measurement_summary_v1.json": "f5b5ea4384832f391867cc657b7671fcb2cc1270538c932ccf704c768963edf0",
+    "protected_treatment_mapping_v1.json": "f4e8db2eac6d10ec9a4dfe72155f7b6e1a048951771e5635f704802fff32a572",
+    "semantic_scoring_view_v1.csv": "1317cf06609f5f80721f95c2131ae596f32f9cb69029d555459f594cf4f7fcb3",
+    "structural_case_contrasts_v1.csv": "8992d8aa8d468ee60eeb1eda0e921b7baf567dfb2fda5f99e1a843140cc4ff8e",
+    "structural_contrasts_v1.json": "0f5890112ab1ee79507b11253a75fd9e2968708cebd6e2caf02d0abe215bcf34",
+    "structural_review_view_v1.csv": "c511b290070a6efa614772922e9b2043396b92c394a8e6fda72c0a5e8153184f"
+  },
+  "first_reply_hashes": "PASS",
+  "frozen_review_ids_and_presentation_order_preserved": true,
+  "mask_seed": 715005,
+  "masking_limit": "Speaker names and linguistic/answer cues can reveal information; do not claim perfect blinding.",
+  "new_generations": 0,
+  "presentation_seed": 715005,
+  "records": 72,
+  "source_code_sha256": "d96c5b44a22110f9c09c86a44b045d4a010652766d827e6dc34ef0b9f576391e",
+  "stage_A_forbidden_columns_absent": true,
+  "statistics_code_sha256": "8490111257fb7f55c1f200798ea152cdd071874574d08816eda4c37eceec9429",
+  "version": "p1c_review_integrity_v1"
+}

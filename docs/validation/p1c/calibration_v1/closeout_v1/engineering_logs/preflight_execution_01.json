@@ -1,0 +1,15 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "tools/p1c_calibration.py",
+    "preflight",
+    "--output",
+    "docs/validation/p1c/authorization_v2/preflight_v1.json"
+  ],
+  "duration_seconds": 2.4090091999969445,
+  "exit_code": 0,
+  "finished_utc": "2026-10-14T06:23:42.695330+00:00",
+  "started_utc": "2026-10-14T06:23:40.286322+00:00",
+  "stderr": "",
+  "stdout": "{\n  \"version\": \"p1c_calibration_adapter_v1\",\n  \"status\": \"PASS\",\n  \"checked_utc\": \"2026-10-14T06:23:42.634959+00:00\",\n  \"disk_free_bytes\": 10780135424,\n  \"minimum_log_reserve_bytes\": 1073741824,\n  \"manifest_sha256\": \"b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b\",\n  \"authorization_sha256\": \"aa1cf2a59a9fea995a3aa3300952bdd16b89bd4ed745d5567e5e7a18e4d0faca\",\n  \"registration_sha256\": \"65953be7c037fcfbfef4b92fb025deab2a0237a8bcebc9533808fb122142cccf\",\n  \"new_generations\": 0,\n  \"live_gate\": \"Verify all 72 token arrays on the owned pinned server before any completion.\"\n}\n"
+}
