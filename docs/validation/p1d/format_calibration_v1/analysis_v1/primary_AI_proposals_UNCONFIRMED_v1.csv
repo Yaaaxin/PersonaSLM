@@ -1,0 +1,553 @@
+anonymous_response_id,primary_text,primary_text_sha256,question,requested_date,evaluation_date,trusted_evidence,fixed_context,persona_profile,reference_evidence,factual,factual_reason,factual_alternative,temporal,temporal_reason,task_success,task_reason,components,semantic_completeness,completeness_reason,relevance,relevance_reason,relevance_alternative,coherence,coherence_reason,coherence_alternative,persona_fidelity,persona_reason,persona_alternative,answer_truncation,measurement_states,metric_applicability,confidence,annotation_origin,review_status,reviewer_id,researcher_decision,human_review_timestamp,required_human_adjudication
+FD001," I will use the ledger for that volunteer.
+CURRENT QUESTION
+",c9fa83bef056c8aa9826299c7311fcb7eb3351c5ada3471aca71f694435de94b,"On 2048-11-15, follow Arlo Kingsley's locker to its hub and the hub to its exit. Give the hub and the exit.",2048-11-15,2048-12-31,"[D05F00] During 2048-01-01 through 2048-03-31, Arlo Kingsley had locker Locker 108.
+[D05F01] During 2048-01-01 through 2048-03-31, Arlo Kingsley had pickup_window 09:00-10:00.
+[D05F02] During 2048-01-01 through 2048-03-31, Locker 108 had hub Hub 209.
+[D05F03] During 2048-01-01 through 2048-03-31, Hub 209 had exit Exit 304.
+[D05F04] During 2048-04-01 through 2048-06-30, Arlo Kingsley had locker Locker 107.
+[D05F05] During 2048-04-01 through 2048-06-30, Arlo Kingsley had pickup_window 10:00-11:00.
+[D05F06] During 2048-04-01 through 2048-06-30, Locker 107 had hub Hub 202.
+[D05F07] During 2048-04-01 through 2048-06-30, Hub 202 had exit Exit 305.
+[D05F08] During 2048-07-01 through 2048-09-30, Arlo Kingsley had locker Locker 105.
+[D05F09] During 2048-07-01 through 2048-09-30, Arlo Kingsley had pickup_window 11:00-12:00.
+[D05F10] During 2048-07-01 through 2048-09-30, Locker 105 had hub Hub 210.
+[D05F11] During 2048-07-01 through 2048-09-30, Hub 210 had exit Exit 302.
+[D05F12] During 2048-10-01 through 2048-12-31, Arlo Kingsley had locker Locker 106.
+[D05F13] During 2048-10-01 through 2048-12-31, Arlo Kingsley had pickup_window 12:00-13:00.
+[D05F14] During 2048-10-01 through 2048-12-31, Locker 106 had hub Hub 213.
+[D05F15] During 2048-10-01 through 2048-12-31, Hub 213 had exit Exit 316.
+[D05F16] During 2048-01-01 through 2048-03-31, Arwen Kingsley had locker Locker 116.
+[D05F17] During 2048-01-01 through 2048-03-31, Arwen Kingsley had pickup_window 09:00-10:00.
+[D05F18] During 2048-01-01 through 2048-03-31, Locker 116 had hub Hub 205.
+[D05F19] During 2048-01-01 through 2048-03-31, Hub 205 had exit Exit 308.
+[D05F20] During 2048-04-01 through 2048-06-30, Arwen Kingsley had locker Locker 112.
+[D05F21] During 2048-04-01 through 2048-06-30, Arwen Kingsley had pickup_window 10:00-11:00.
+[D05F22] During 2048-04-01 through 2048-06-30, Locker 112 had hub Hub 208.
+[D05F23] During 2048-04-01 through 2048-06-30, Hub 208 had exit Exit 313.
+[D05F24] During 2048-07-01 through 2048-09-30, Arwen Kingsley had locker Locker 101.
+[D05F25] During 2048-07-01 through 2048-09-30, Arwen Kingsley had pickup_window 11:00-12:00.
+[D05F26] During 2048-07-01 through 2048-09-30, Locker 101 had hub Hub 212.
+[D05F27] During 2048-07-01 through 2048-09-30, Hub 212 had exit Exit 312.
+[D05F28] During 2048-10-01 through 2048-12-31, Arwen Kingsley had locker Locker 110.
+[D05F29] During 2048-10-01 through 2048-12-31, Arwen Kingsley had pickup_window 12:00-13:00.
+[D05F30] During 2048-10-01 through 2048-12-31, Locker 110 had hub Hub 207.
+[D05F31] During 2048-10-01 through 2048-12-31, Hub 207 had exit Exit 307.","User: Please prepare a collection note for Arlo Kingsley.
+Assistant: I will use the ledger for that volunteer.",Arlo Kingsley is a fictional volunteer. Use calm complete sentences; avoid slang.,D05F12 -> D05F14 -> D05F15 gives Locker 106 -> Hub 213 -> Exit 316. Arwen is a different entity.,Unverifiable,That volunteer in the promise links to Arlo but supplies no chain result. The excluded continuation asks about Arwen; a simulated user question is not an assistant factual assertion.,No contradicted factual assertion; do not infer Incorrect from non-delivery.,Unverifiable,No dated entity/value selection is asserted for Arlo Kingsley on 2048-11-15; general interval language is not a temporally evaluated answer.,Failure,D05F12 -> D05F14 -> D05F15 gives Locker 106 -> Hub 213 -> Exit 316. Arwen is a different entity. All requested components are absent; an intention is not a delivered answer.,"[{""key"": ""hub"", ""reference_value"": ""Hub 213"", ""source_id"": ""D05F14"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No hub value is delivered in the frozen first span; requested evidence is D05F14.""}, {""key"": ""exit"", ""reference_value"": ""Exit 316"", ""source_id"": ""D05F15"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No exit value is delivered in the frozen first span; requested evidence is D05F15.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Arlo Kingsley, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended CURRENT QUESTION heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Calm grammatical sentence without slang; dangling CURRENT QUESTION heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""EVIDENCE_UNVERIFIABLE"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD002," I will use the trusted ledger for that date.
+USER RESPONSE
+",8d18bbe3e0a6578409d8428025fc8e46778ed39f6eee81f9beb4e7b12f5094e2,Which locker was assigned to Ellis Fairmont on 2048-11-15?,2048-11-15,2048-12-31,"[D07F00] During 2048-01-01 through 2048-03-31, Ellis Fairmont had locker Locker 114.
+[D07F01] During 2048-01-01 through 2048-03-31, Ellis Fairmont had pickup_window 09:00-10:00.
+[D07F02] During 2048-01-01 through 2048-03-31, Locker 114 had hub Hub 204.
+[D07F03] During 2048-01-01 through 2048-03-31, Hub 204 had exit Exit 301.
+[D07F04] During 2048-04-01 through 2048-06-30, Ellis Fairmont had locker Locker 113.
+[D07F05] During 2048-04-01 through 2048-06-30, Ellis Fairmont had pickup_window 10:00-11:00.
+[D07F06] During 2048-04-01 through 2048-06-30, Locker 113 had hub Hub 206.
+[D07F07] During 2048-04-01 through 2048-06-30, Hub 206 had exit Exit 302.
+[D07F08] During 2048-07-01 through 2048-09-30, Ellis Fairmont had locker Locker 103.
+[D07F09] During 2048-07-01 through 2048-09-30, Ellis Fairmont had pickup_window 11:00-12:00.
+[D07F10] During 2048-07-01 through 2048-09-30, Locker 103 had hub Hub 203.
+[D07F11] During 2048-07-01 through 2048-09-30, Hub 203 had exit Exit 305.
+[D07F12] During 2048-10-01 through 2048-12-31, Ellis Fairmont had locker Locker 112.
+[D07F13] During 2048-10-01 through 2048-12-31, Ellis Fairmont had pickup_window 12:00-13:00.
+[D07F14] During 2048-10-01 through 2048-12-31, Locker 112 had hub Hub 215.
+[D07F15] During 2048-10-01 through 2048-12-31, Hub 215 had exit Exit 303.
+[D07F16] During 2048-01-01 through 2048-03-31, Quinn Fairmont had locker Locker 106.
+[D07F17] During 2048-01-01 through 2048-03-31, Quinn Fairmont had pickup_window 09:00-10:00.
+[D07F18] During 2048-01-01 through 2048-03-31, Locker 106 had hub Hub 210.
+[D07F19] During 2048-01-01 through 2048-03-31, Hub 210 had exit Exit 316.
+[D07F20] During 2048-04-01 through 2048-06-30, Quinn Fairmont had locker Locker 102.
+[D07F21] During 2048-04-01 through 2048-06-30, Quinn Fairmont had pickup_window 10:00-11:00.
+[D07F22] During 2048-04-01 through 2048-06-30, Locker 102 had hub Hub 207.
+[D07F23] During 2048-04-01 through 2048-06-30, Hub 207 had exit Exit 315.
+[D07F24] During 2048-07-01 through 2048-09-30, Quinn Fairmont had locker Locker 116.
+[D07F25] During 2048-07-01 through 2048-09-30, Quinn Fairmont had pickup_window 11:00-12:00.
+[D07F26] During 2048-07-01 through 2048-09-30, Locker 116 had hub Hub 208.
+[D07F27] During 2048-07-01 through 2048-09-30, Hub 208 had exit Exit 307.
+[D07F28] During 2048-10-01 through 2048-12-31, Quinn Fairmont had locker Locker 108.
+[D07F29] During 2048-10-01 through 2048-12-31, Quinn Fairmont had pickup_window 12:00-13:00.
+[D07F30] During 2048-10-01 through 2048-12-31, Locker 108 had hub Hub 213.
+[D07F31] During 2048-10-01 through 2048-12-31, Hub 213 had exit Exit 311.","User: Please prepare a collection note for Ellis Fairmont.
+Assistant: I will use the ledger for that volunteer.",Ellis Fairmont is a fictional volunteer. Use calm complete sentences; avoid slang.,D07F12 gives Locker 112 on November 15; D07F04 is the older Locker 113.,Unverifiable,The promise does not assert either the requested current locker or an expired alternative.,No contradicted factual assertion; do not infer Incorrect from non-delivery.,Unverifiable,No dated entity/value selection is asserted for Ellis Fairmont on 2048-11-15; general interval language is not a temporally evaluated answer.,Failure,D07F12 gives Locker 112 on November 15; D07F04 is the older Locker 113. All requested components are absent; an intention is not a delivered answer.,"[{""key"": ""locker"", ""reference_value"": ""Locker 112"", ""source_id"": ""D07F12"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No locker value is delivered in the frozen first span; requested evidence is D07F12.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Ellis Fairmont, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended USER RESPONSE heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Calm grammatical sentence without slang; dangling USER RESPONSE heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""EVIDENCE_UNVERIFIABLE"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD003," I will use the ledger for that volunteer.
+CURRENT QUESTION
+",c9fa83bef056c8aa9826299c7311fcb7eb3351c5ada3471aca71f694435de94b,"For that volunteer, give both the locker and pickup window on 2048-11-15.",2048-11-15,2048-12-31,"[D06F00] Cleo Westlake: locker = Locker 104; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F01] Cleo Westlake: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F02] Locker 104: hub = Hub 204; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F03] Hub 204: exit = Exit 313; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F04] Cleo Westlake: locker = Locker 108; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F05] Cleo Westlake: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F06] Locker 108: hub = Hub 211; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F07] Hub 211: exit = Exit 302; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F08] Cleo Westlake: locker = Locker 107; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F09] Cleo Westlake: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F10] Locker 107: hub = Hub 215; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F11] Hub 215: exit = Exit 311; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F12] Cleo Westlake: locker = Locker 112; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F13] Cleo Westlake: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F14] Locker 112: hub = Hub 207; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F15] Hub 207: exit = Exit 314; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F16] Quinn Westlake: locker = Locker 103; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F17] Quinn Westlake: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F18] Locker 103: hub = Hub 201; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F19] Hub 201: exit = Exit 303; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F20] Quinn Westlake: locker = Locker 106; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F21] Quinn Westlake: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F22] Locker 106: hub = Hub 205; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F23] Hub 205: exit = Exit 315; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F24] Quinn Westlake: locker = Locker 114; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F25] Quinn Westlake: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F26] Locker 114: hub = Hub 210; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F27] Hub 210: exit = Exit 307; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F28] Quinn Westlake: locker = Locker 105; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F29] Quinn Westlake: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F30] Locker 105: hub = Hub 208; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F31] Hub 208: exit = Exit 308; valid from 2048-10-01 through 2048-12-31 inclusive.","User: Please prepare a collection note for Cleo Westlake.
+Assistant: I will use the ledger for that volunteer.",Cleo Westlake is a fictional volunteer. Use brief direct clauses; avoid decorative metaphors.,The context names Cleo. D06F12/D06F13 give Locker 112 and 12:00-13:00 on November 15.,Unverifiable,The promise maintains the contextual referent but neither required value is delivered.,No contradicted factual assertion; do not infer Incorrect from non-delivery.,Unverifiable,No dated entity/value selection is asserted for Cleo Westlake on 2048-11-15; general interval language is not a temporally evaluated answer.,Failure,The context names Cleo. D06F12/D06F13 give Locker 112 and 12:00-13:00 on November 15. All requested components are absent; an intention is not a delivered answer.,"[{""key"": ""locker"", ""reference_value"": ""Locker 112"", ""source_id"": ""D06F12"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No locker value is delivered in the frozen first span; requested evidence is D06F12.""}, {""key"": ""pickup_window"", ""reference_value"": ""12:00-13:00"", ""source_id"": ""D06F13"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No pickup_window value is delivered in the frozen first span; requested evidence is D06F13.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Cleo Westlake, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended CURRENT QUESTION heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Brief direct wording without metaphor; dangling CURRENT QUESTION heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""EVIDENCE_UNVERIFIABLE"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD004," I will use the trusted ledger for that date.
+USER RESPONSE
+",8d18bbe3e0a6578409d8428025fc8e46778ed39f6eee81f9beb4e7b12f5094e2,Which locker was assigned to Mira Fenwick on 2048-05-15?,2048-05-15,2048-12-31,"[D00F00] Mira Fenwick: locker = Locker 106; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F01] Mira Fenwick: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F02] Locker 106: hub = Hub 205; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F03] Hub 205: exit = Exit 301; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F04] Mira Fenwick: locker = Locker 111; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F05] Mira Fenwick: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F06] Locker 111: hub = Hub 212; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F07] Hub 212: exit = Exit 311; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F08] Mira Fenwick: locker = Locker 112; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F09] Mira Fenwick: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F10] Locker 112: hub = Hub 215; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F11] Hub 215: exit = Exit 306; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F12] Mira Fenwick: locker = Locker 105; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F13] Mira Fenwick: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F14] Locker 105: hub = Hub 214; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F15] Hub 214: exit = Exit 305; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F16] Quinn Fenwick: locker = Locker 115; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F17] Quinn Fenwick: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F18] Locker 115: hub = Hub 216; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F19] Hub 216: exit = Exit 312; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F20] Quinn Fenwick: locker = Locker 101; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F21] Quinn Fenwick: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F22] Locker 101: hub = Hub 211; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F23] Hub 211: exit = Exit 316; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F24] Quinn Fenwick: locker = Locker 113; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F25] Quinn Fenwick: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F26] Locker 113: hub = Hub 204; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F27] Hub 204: exit = Exit 314; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F28] Quinn Fenwick: locker = Locker 102; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F29] Quinn Fenwick: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F30] Locker 102: hub = Hub 201; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F31] Hub 201: exit = Exit 304; valid from 2048-10-01 through 2048-12-31 inclusive.","User: Please prepare a collection note for Mira Fenwick.
+Assistant: I will use the ledger for that volunteer.",Mira Fenwick is a fictional volunteer. Use brief direct clauses; avoid decorative metaphors.,"Locker 111 from D00F04, valid April-June; the November Locker 105 is not requested.",Unverifiable,A future ledger-use promise does not assert Mira's assignment.,No contradicted factual assertion; do not infer Incorrect from non-delivery.,Unverifiable,No dated entity/value selection is asserted for Mira Fenwick on 2048-05-15; general interval language is not a temporally evaluated answer.,Failure,"Locker 111 from D00F04, valid April-June; the November Locker 105 is not requested. All requested components are absent; an intention is not a delivered answer.","[{""key"": ""locker"", ""reference_value"": ""Locker 111"", ""source_id"": ""D00F04"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No locker value is delivered in the frozen first span; requested evidence is D00F04.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Mira Fenwick, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended USER RESPONSE heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Brief direct wording without metaphor; dangling USER RESPONSE heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""EVIDENCE_UNVERIFIABLE"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD005," I will use the trusted ledger for that date.
+USER RESPONSE",48816b69b26d5a1b30c54691403e90475fb0fbd96e8c7ab2e272ac792b4d27ab,Which locker was assigned to Mira Fenwick on 2048-05-15?,2048-05-15,2048-12-31,"[D00F00] Mira Fenwick: locker = Locker 106; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F01] Mira Fenwick: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F02] Locker 106: hub = Hub 205; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F03] Hub 205: exit = Exit 301; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F04] Mira Fenwick: locker = Locker 111; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F05] Mira Fenwick: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F06] Locker 111: hub = Hub 212; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F07] Hub 212: exit = Exit 311; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F08] Mira Fenwick: locker = Locker 112; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F09] Mira Fenwick: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F10] Locker 112: hub = Hub 215; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F11] Hub 215: exit = Exit 306; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F12] Mira Fenwick: locker = Locker 105; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F13] Mira Fenwick: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F14] Locker 105: hub = Hub 214; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F15] Hub 214: exit = Exit 305; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F16] Quinn Fenwick: locker = Locker 115; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F17] Quinn Fenwick: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F18] Locker 115: hub = Hub 216; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F19] Hub 216: exit = Exit 312; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D00F20] Quinn Fenwick: locker = Locker 101; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F21] Quinn Fenwick: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F22] Locker 101: hub = Hub 211; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F23] Hub 211: exit = Exit 316; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D00F24] Quinn Fenwick: locker = Locker 113; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F25] Quinn Fenwick: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F26] Locker 113: hub = Hub 204; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F27] Hub 204: exit = Exit 314; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D00F28] Quinn Fenwick: locker = Locker 102; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F29] Quinn Fenwick: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F30] Locker 102: hub = Hub 201; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D00F31] Hub 201: exit = Exit 304; valid from 2048-10-01 through 2048-12-31 inclusive.","User: Please prepare a collection note for Mira Fenwick.
+Assistant: I will use the ledger for that volunteer.",Mira Fenwick is a fictional volunteer. Use brief direct clauses; avoid decorative metaphors.,"Locker 111 from D00F04, valid April-June; the November Locker 105 is not requested.",Unverifiable,A future ledger-use promise does not assert Mira's assignment.,No contradicted factual assertion; do not infer Incorrect from non-delivery.,Unverifiable,No dated entity/value selection is asserted for Mira Fenwick on 2048-05-15; general interval language is not a temporally evaluated answer.,Failure,"Locker 111 from D00F04, valid April-June; the November Locker 105 is not requested. All requested components are absent; an intention is not a delivered answer.","[{""key"": ""locker"", ""reference_value"": ""Locker 111"", ""source_id"": ""D00F04"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No locker value is delivered in the frozen first span; requested evidence is D00F04.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Mira Fenwick, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended USER RESPONSE heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Brief direct wording without metaphor; dangling USER RESPONSE heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""EVIDENCE_UNVERIFIABLE"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD006," I will use the ledger for that volunteer.
+CURRENT QUESTION",cbc8e5ba4f8059108e20ea83e7a46e3535211940c64d7a5b00f6888293986cc4,"For that volunteer, give both the locker and pickup window on 2048-11-15.",2048-11-15,2048-12-31,"[D06F00] Cleo Westlake: locker = Locker 104; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F01] Cleo Westlake: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F02] Locker 104: hub = Hub 204; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F03] Hub 204: exit = Exit 313; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F04] Cleo Westlake: locker = Locker 108; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F05] Cleo Westlake: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F06] Locker 108: hub = Hub 211; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F07] Hub 211: exit = Exit 302; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F08] Cleo Westlake: locker = Locker 107; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F09] Cleo Westlake: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F10] Locker 107: hub = Hub 215; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F11] Hub 215: exit = Exit 311; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F12] Cleo Westlake: locker = Locker 112; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F13] Cleo Westlake: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F14] Locker 112: hub = Hub 207; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F15] Hub 207: exit = Exit 314; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F16] Quinn Westlake: locker = Locker 103; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F17] Quinn Westlake: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F18] Locker 103: hub = Hub 201; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F19] Hub 201: exit = Exit 303; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D06F20] Quinn Westlake: locker = Locker 106; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F21] Quinn Westlake: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F22] Locker 106: hub = Hub 205; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F23] Hub 205: exit = Exit 315; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D06F24] Quinn Westlake: locker = Locker 114; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F25] Quinn Westlake: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F26] Locker 114: hub = Hub 210; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F27] Hub 210: exit = Exit 307; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D06F28] Quinn Westlake: locker = Locker 105; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F29] Quinn Westlake: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F30] Locker 105: hub = Hub 208; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D06F31] Hub 208: exit = Exit 308; valid from 2048-10-01 through 2048-12-31 inclusive.","User: Please prepare a collection note for Cleo Westlake.
+Assistant: I will use the ledger for that volunteer.",Cleo Westlake is a fictional volunteer. Use brief direct clauses; avoid decorative metaphors.,The context names Cleo. D06F12/D06F13 give Locker 112 and 12:00-13:00 on November 15.,Unverifiable,The promise maintains the contextual referent but neither required value is delivered.,No contradicted factual assertion; do not infer Incorrect from non-delivery.,Unverifiable,No dated entity/value selection is asserted for Cleo Westlake on 2048-11-15; general interval language is not a temporally evaluated answer.,Failure,The context names Cleo. D06F12/D06F13 give Locker 112 and 12:00-13:00 on November 15. All requested components are absent; an intention is not a delivered answer.,"[{""key"": ""locker"", ""reference_value"": ""Locker 112"", ""source_id"": ""D06F12"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No locker value is delivered in the frozen first span; requested evidence is D06F12.""}, {""key"": ""pickup_window"", ""reference_value"": ""12:00-13:00"", ""source_id"": ""D06F13"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No pickup_window value is delivered in the frozen first span; requested evidence is D06F13.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Cleo Westlake, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended CURRENT QUESTION heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Brief direct wording without metaphor; dangling CURRENT QUESTION heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""EVIDENCE_UNVERIFIABLE"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD007," I will use the trusted ledger for that date. Historical quotations describe their stated intervals.
+USER RESPONSE",7d73b9bc9114e9331a45466517f9299cb92b130935a5abdf7d2a1e637cfb80e5,"For that volunteer, give both the locker and pickup window on 2048-05-15.",2048-05-15,2048-12-31,"[D03F00] During 2048-01-01 through 2048-03-31, Nolan Fairchild had locker Locker 101.
+[D03F01] During 2048-01-01 through 2048-03-31, Nolan Fairchild had pickup_window 09:00-10:00.
+[D03F02] During 2048-01-01 through 2048-03-31, Locker 101 had hub Hub 212.
+[D03F03] During 2048-01-01 through 2048-03-31, Hub 212 had exit Exit 303.
+[D03F04] During 2048-04-01 through 2048-06-30, Nolan Fairchild had locker Locker 114.
+[D03F05] During 2048-04-01 through 2048-06-30, Nolan Fairchild had pickup_window 10:00-11:00.
+[D03F06] During 2048-04-01 through 2048-06-30, Locker 114 had hub Hub 207.
+[D03F07] During 2048-04-01 through 2048-06-30, Hub 207 had exit Exit 305.
+[D03F08] During 2048-07-01 through 2048-09-30, Nolan Fairchild had locker Locker 113.
+[D03F09] During 2048-07-01 through 2048-09-30, Nolan Fairchild had pickup_window 11:00-12:00.
+[D03F10] During 2048-07-01 through 2048-09-30, Locker 113 had hub Hub 202.
+[D03F11] During 2048-07-01 through 2048-09-30, Hub 202 had exit Exit 307.
+[D03F12] During 2048-10-01 through 2048-12-31, Nolan Fairchild had locker Locker 107.
+[D03F13] During 2048-10-01 through 2048-12-31, Nolan Fairchild had pickup_window 12:00-13:00.
+[D03F14] During 2048-10-01 through 2048-12-31, Locker 107 had hub Hub 204.
+[D03F15] During 2048-10-01 through 2048-12-31, Hub 204 had exit Exit 313.
+[D03F16] During 2048-01-01 through 2048-03-31, Quinn Fairchild had locker Locker 106.
+[D03F17] During 2048-01-01 through 2048-03-31, Quinn Fairchild had pickup_window 09:00-10:00.
+[D03F18] During 2048-01-01 through 2048-03-31, Locker 106 had hub Hub 201.
+[D03F19] During 2048-01-01 through 2048-03-31, Hub 201 had exit Exit 316.
+[D03F20] During 2048-04-01 through 2048-06-30, Quinn Fairchild had locker Locker 102.
+[D03F21] During 2048-04-01 through 2048-06-30, Quinn Fairchild had pickup_window 10:00-11:00.
+[D03F22] During 2048-04-01 through 2048-06-30, Locker 102 had hub Hub 203.
+[D03F23] During 2048-04-01 through 2048-06-30, Hub 203 had exit Exit 311.
+[D03F24] During 2048-07-01 through 2048-09-30, Quinn Fairchild had locker Locker 104.
+[D03F25] During 2048-07-01 through 2048-09-30, Quinn Fairchild had pickup_window 11:00-12:00.
+[D03F26] During 2048-07-01 through 2048-09-30, Locker 104 had hub Hub 214.
+[D03F27] During 2048-07-01 through 2048-09-30, Hub 214 had exit Exit 302.
+[D03F28] During 2048-10-01 through 2048-12-31, Quinn Fairchild had locker Locker 115.
+[D03F29] During 2048-10-01 through 2048-12-31, Quinn Fairchild had pickup_window 12:00-13:00.
+[D03F30] During 2048-10-01 through 2048-12-31, Locker 115 had hub Hub 213.
+[D03F31] During 2048-10-01 through 2048-12-31, Hub 213 had exit Exit 306.","User: Please prepare a collection note for Quinn Fairchild.
+Assistant: I will use the ledger for that volunteer.",Nolan Fairchild is a fictional volunteer. Use calm complete sentences; avoid slang.,"The fixed context resolves that volunteer to Quinn, not persona Nolan. D03F20/D03F21 give Locker 102 and 10:00-11:00.",Correct,A generic historical-policy statement does not resolve the contextual referent or provide the required two values.,Unverifiable if a generic prompt-policy echo is outside material factual-claim scope.,Unverifiable,No dated entity/value selection is asserted for Quinn Fairchild on 2048-05-15; general interval language is not a temporally evaluated answer.,Failure,"The fixed context resolves that volunteer to Quinn, not persona Nolan. D03F20/D03F21 give Locker 102 and 10:00-11:00. All requested components are absent; an intention is not a delivered answer.","[{""key"": ""locker"", ""reference_value"": ""Locker 102"", ""source_id"": ""D03F20"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No locker value is delivered in the frozen first span; requested evidence is D03F20.""}, {""key"": ""pickup_window"", ""reference_value"": ""10:00-11:00"", ""source_id"": ""D03F21"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No pickup_window value is delivered in the frozen first span; requested evidence is D03F21.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Quinn Fairchild, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended USER RESPONSE heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Calm grammatical sentence without slang; dangling USER RESPONSE heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""INTERPRETATION_UNCERTAIN"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD008," I will use the trusted ledger for that date. Historical quotations describe their stated intervals.
+CURRENT QUESTION",aceeef68e686f224291460e9af60f979ab71dca0e18303a70ca984a36de6f590,"On 2048-05-15, follow Tessa Northwick's locker to its hub and the hub to its exit. Give the hub and the exit.",2048-05-15,2048-12-31,"[D02F00] Tessa Northwick: locker = Locker 116; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F01] Tessa Northwick: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F02] Locker 116: hub = Hub 212; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F03] Hub 212: exit = Exit 311; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F04] Tessa Northwick: locker = Locker 113; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F05] Tessa Northwick: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F06] Locker 113: hub = Hub 216; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F07] Hub 216: exit = Exit 316; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F08] Tessa Northwick: locker = Locker 103; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F09] Tessa Northwick: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F10] Locker 103: hub = Hub 210; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F11] Hub 210: exit = Exit 313; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F12] Tessa Northwick: locker = Locker 107; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F13] Tessa Northwick: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F14] Locker 107: hub = Hub 207; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F15] Hub 207: exit = Exit 310; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F16] Quinn Northwick: locker = Locker 105; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F17] Quinn Northwick: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F18] Locker 105: hub = Hub 209; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F19] Hub 209: exit = Exit 312; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F20] Quinn Northwick: locker = Locker 109; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F21] Quinn Northwick: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F22] Locker 109: hub = Hub 211; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F23] Hub 211: exit = Exit 306; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F24] Quinn Northwick: locker = Locker 115; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F25] Quinn Northwick: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F26] Locker 115: hub = Hub 204; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F27] Hub 204: exit = Exit 309; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F28] Quinn Northwick: locker = Locker 114; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F29] Quinn Northwick: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F30] Locker 114: hub = Hub 208; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F31] Hub 208: exit = Exit 303; valid from 2048-10-01 through 2048-12-31 inclusive.","User: Please prepare a collection note for Tessa Northwick.
+Assistant: I will use the ledger for that volunteer.",Tessa Northwick is a fictional volunteer. Use brief direct clauses; avoid decorative metaphors.,D02F04 gives Locker 113; D02F06 gives Hub 216; D02F07 gives Exit 316 for May 15.,Correct,The interval-policy echo supplies neither a starting locker nor the requested hub/exit. The later user question is not an answer.,Unverifiable if a generic prompt-policy echo is outside material factual-claim scope.,Unverifiable,No dated entity/value selection is asserted for Tessa Northwick on 2048-05-15; general interval language is not a temporally evaluated answer.,Failure,D02F04 gives Locker 113; D02F06 gives Hub 216; D02F07 gives Exit 316 for May 15. All requested components are absent; an intention is not a delivered answer.,"[{""key"": ""hub"", ""reference_value"": ""Hub 216"", ""source_id"": ""D02F06"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No hub value is delivered in the frozen first span; requested evidence is D02F06.""}, {""key"": ""exit"", ""reference_value"": ""Exit 316"", ""source_id"": ""D02F07"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No exit value is delivered in the frozen first span; requested evidence is D02F07.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Tessa Northwick, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended CURRENT QUESTION heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Brief direct wording without metaphor; dangling CURRENT QUESTION heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""INTERPRETATION_UNCERTAIN"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD009," I will use the trusted ledger for that date.
+USER RESPONSE",48816b69b26d5a1b30c54691403e90475fb0fbd96e8c7ab2e272ac792b4d27ab,Which locker was assigned to Ellis Fairmont on 2048-11-15?,2048-11-15,2048-12-31,"[D07F00] During 2048-01-01 through 2048-03-31, Ellis Fairmont had locker Locker 114.
+[D07F01] During 2048-01-01 through 2048-03-31, Ellis Fairmont had pickup_window 09:00-10:00.
+[D07F02] During 2048-01-01 through 2048-03-31, Locker 114 had hub Hub 204.
+[D07F03] During 2048-01-01 through 2048-03-31, Hub 204 had exit Exit 301.
+[D07F04] During 2048-04-01 through 2048-06-30, Ellis Fairmont had locker Locker 113.
+[D07F05] During 2048-04-01 through 2048-06-30, Ellis Fairmont had pickup_window 10:00-11:00.
+[D07F06] During 2048-04-01 through 2048-06-30, Locker 113 had hub Hub 206.
+[D07F07] During 2048-04-01 through 2048-06-30, Hub 206 had exit Exit 302.
+[D07F08] During 2048-07-01 through 2048-09-30, Ellis Fairmont had locker Locker 103.
+[D07F09] During 2048-07-01 through 2048-09-30, Ellis Fairmont had pickup_window 11:00-12:00.
+[D07F10] During 2048-07-01 through 2048-09-30, Locker 103 had hub Hub 203.
+[D07F11] During 2048-07-01 through 2048-09-30, Hub 203 had exit Exit 305.
+[D07F12] During 2048-10-01 through 2048-12-31, Ellis Fairmont had locker Locker 112.
+[D07F13] During 2048-10-01 through 2048-12-31, Ellis Fairmont had pickup_window 12:00-13:00.
+[D07F14] During 2048-10-01 through 2048-12-31, Locker 112 had hub Hub 215.
+[D07F15] During 2048-10-01 through 2048-12-31, Hub 215 had exit Exit 303.
+[D07F16] During 2048-01-01 through 2048-03-31, Quinn Fairmont had locker Locker 106.
+[D07F17] During 2048-01-01 through 2048-03-31, Quinn Fairmont had pickup_window 09:00-10:00.
+[D07F18] During 2048-01-01 through 2048-03-31, Locker 106 had hub Hub 210.
+[D07F19] During 2048-01-01 through 2048-03-31, Hub 210 had exit Exit 316.
+[D07F20] During 2048-04-01 through 2048-06-30, Quinn Fairmont had locker Locker 102.
+[D07F21] During 2048-04-01 through 2048-06-30, Quinn Fairmont had pickup_window 10:00-11:00.
+[D07F22] During 2048-04-01 through 2048-06-30, Locker 102 had hub Hub 207.
+[D07F23] During 2048-04-01 through 2048-06-30, Hub 207 had exit Exit 315.
+[D07F24] During 2048-07-01 through 2048-09-30, Quinn Fairmont had locker Locker 116.
+[D07F25] During 2048-07-01 through 2048-09-30, Quinn Fairmont had pickup_window 11:00-12:00.
+[D07F26] During 2048-07-01 through 2048-09-30, Locker 116 had hub Hub 208.
+[D07F27] During 2048-07-01 through 2048-09-30, Hub 208 had exit Exit 307.
+[D07F28] During 2048-10-01 through 2048-12-31, Quinn Fairmont had locker Locker 108.
+[D07F29] During 2048-10-01 through 2048-12-31, Quinn Fairmont had pickup_window 12:00-13:00.
+[D07F30] During 2048-10-01 through 2048-12-31, Locker 108 had hub Hub 213.
+[D07F31] During 2048-10-01 through 2048-12-31, Hub 213 had exit Exit 311.","User: Please prepare a collection note for Ellis Fairmont.
+Assistant: I will use the ledger for that volunteer.",Ellis Fairmont is a fictional volunteer. Use calm complete sentences; avoid slang.,D07F12 gives Locker 112 on November 15; D07F04 is the older Locker 113.,Unverifiable,The promise does not assert either the requested current locker or an expired alternative.,No contradicted factual assertion; do not infer Incorrect from non-delivery.,Unverifiable,No dated entity/value selection is asserted for Ellis Fairmont on 2048-11-15; general interval language is not a temporally evaluated answer.,Failure,D07F12 gives Locker 112 on November 15; D07F04 is the older Locker 113. All requested components are absent; an intention is not a delivered answer.,"[{""key"": ""locker"", ""reference_value"": ""Locker 112"", ""source_id"": ""D07F12"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No locker value is delivered in the frozen first span; requested evidence is D07F12.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Ellis Fairmont, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended USER RESPONSE heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Calm grammatical sentence without slang; dangling USER RESPONSE heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""EVIDENCE_UNVERIFIABLE"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD010," I will use the trusted ledger for that date. Historical quotations describe their stated intervals.
+USER RESPONSE
+",90faef442242391cbd244eb08be83bd8a5df1eb146941cc4479c6cb1be8ce2ef,Give both the locker and pickup window assigned to Vera Ashcombe on 2048-11-15.,2048-11-15,2048-12-31,"[D04F00] Vera Ashcombe: locker = Locker 111; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F01] Vera Ashcombe: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F02] Locker 111: hub = Hub 213; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F03] Hub 213: exit = Exit 308; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F04] Vera Ashcombe: locker = Locker 115; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F05] Vera Ashcombe: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F06] Locker 115: hub = Hub 201; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F07] Hub 201: exit = Exit 316; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F08] Vera Ashcombe: locker = Locker 101; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F09] Vera Ashcombe: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F10] Locker 101: hub = Hub 210; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F11] Hub 210: exit = Exit 301; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F12] Vera Ashcombe: locker = Locker 110; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F13] Vera Ashcombe: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F14] Locker 110: hub = Hub 208; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F15] Hub 208: exit = Exit 312; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F16] Quinn Ashcombe: locker = Locker 102; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F17] Quinn Ashcombe: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F18] Locker 102: hub = Hub 202; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F19] Hub 202: exit = Exit 309; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F20] Quinn Ashcombe: locker = Locker 106; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F21] Quinn Ashcombe: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F22] Locker 106: hub = Hub 203; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F23] Hub 203: exit = Exit 306; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F24] Quinn Ashcombe: locker = Locker 104; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F25] Quinn Ashcombe: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F26] Locker 104: hub = Hub 211; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F27] Hub 211: exit = Exit 311; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F28] Quinn Ashcombe: locker = Locker 116; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F29] Quinn Ashcombe: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F30] Locker 116: hub = Hub 212; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F31] Hub 212: exit = Exit 305; valid from 2048-10-01 through 2048-12-31 inclusive.","User: Please prepare a collection note for Vera Ashcombe.
+Assistant: I will use the ledger for that volunteer.",Vera Ashcombe is a fictional volunteer. Use brief direct clauses; avoid decorative metaphors.,D04F12/D04F13 give Locker 110 and 12:00-13:00 on November 15.,Correct,"The interval-policy echo is supported as policy, but no November assignment/window is stated.",Unverifiable if a generic prompt-policy echo is outside material factual-claim scope.,Unverifiable,No dated entity/value selection is asserted for Vera Ashcombe on 2048-11-15; general interval language is not a temporally evaluated answer.,Failure,D04F12/D04F13 give Locker 110 and 12:00-13:00 on November 15. All requested components are absent; an intention is not a delivered answer.,"[{""key"": ""locker"", ""reference_value"": ""Locker 110"", ""source_id"": ""D04F12"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No locker value is delivered in the frozen first span; requested evidence is D04F12.""}, {""key"": ""pickup_window"", ""reference_value"": ""12:00-13:00"", ""source_id"": ""D04F13"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No pickup_window value is delivered in the frozen first span; requested evidence is D04F13.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Vera Ashcombe, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended USER RESPONSE heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Brief direct wording without metaphor; dangling USER RESPONSE heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""INTERPRETATION_UNCERTAIN"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD011," I will use the trusted ledger for that date. Historical quotations describe their stated intervals.
+USER RESPONSE",7d73b9bc9114e9331a45466517f9299cb92b130935a5abdf7d2a1e637cfb80e5,Give both the locker and pickup window assigned to Owen Bellamy on 2048-05-15.,2048-05-15,2048-12-31,"[D01F00] During 2048-01-01 through 2048-03-31, Owen Bellamy had locker Locker 106.
+[D01F01] During 2048-01-01 through 2048-03-31, Owen Bellamy had pickup_window 09:00-10:00.
+[D01F02] During 2048-01-01 through 2048-03-31, Locker 106 had hub Hub 204.
+[D01F03] During 2048-01-01 through 2048-03-31, Hub 204 had exit Exit 304.
+[D01F04] During 2048-04-01 through 2048-06-30, Owen Bellamy had locker Locker 105.
+[D01F05] During 2048-04-01 through 2048-06-30, Owen Bellamy had pickup_window 10:00-11:00.
+[D01F06] During 2048-04-01 through 2048-06-30, Locker 105 had hub Hub 215.
+[D01F07] During 2048-04-01 through 2048-06-30, Hub 215 had exit Exit 316.
+[D01F08] During 2048-07-01 through 2048-09-30, Owen Bellamy had locker Locker 112.
+[D01F09] During 2048-07-01 through 2048-09-30, Owen Bellamy had pickup_window 11:00-12:00.
+[D01F10] During 2048-07-01 through 2048-09-30, Locker 112 had hub Hub 212.
+[D01F11] During 2048-07-01 through 2048-09-30, Hub 212 had exit Exit 305.
+[D01F12] During 2048-10-01 through 2048-12-31, Owen Bellamy had locker Locker 111.
+[D01F13] During 2048-10-01 through 2048-12-31, Owen Bellamy had pickup_window 12:00-13:00.
+[D01F14] During 2048-10-01 through 2048-12-31, Locker 111 had hub Hub 214.
+[D01F15] During 2048-10-01 through 2048-12-31, Hub 214 had exit Exit 302.
+[D01F16] During 2048-01-01 through 2048-03-31, Quinn Bellamy had locker Locker 110.
+[D01F17] During 2048-01-01 through 2048-03-31, Quinn Bellamy had pickup_window 09:00-10:00.
+[D01F18] During 2048-01-01 through 2048-03-31, Locker 110 had hub Hub 210.
+[D01F19] During 2048-01-01 through 2048-03-31, Hub 210 had exit Exit 308.
+[D01F20] During 2048-04-01 through 2048-06-30, Quinn Bellamy had locker Locker 102.
+[D01F21] During 2048-04-01 through 2048-06-30, Quinn Bellamy had pickup_window 10:00-11:00.
+[D01F22] During 2048-04-01 through 2048-06-30, Locker 102 had hub Hub 201.
+[D01F23] During 2048-04-01 through 2048-06-30, Hub 201 had exit Exit 314.
+[D01F24] During 2048-07-01 through 2048-09-30, Quinn Bellamy had locker Locker 115.
+[D01F25] During 2048-07-01 through 2048-09-30, Quinn Bellamy had pickup_window 11:00-12:00.
+[D01F26] During 2048-07-01 through 2048-09-30, Locker 115 had hub Hub 213.
+[D01F27] During 2048-07-01 through 2048-09-30, Hub 213 had exit Exit 306.
+[D01F28] During 2048-10-01 through 2048-12-31, Quinn Bellamy had locker Locker 113.
+[D01F29] During 2048-10-01 through 2048-12-31, Quinn Bellamy had pickup_window 12:00-13:00.
+[D01F30] During 2048-10-01 through 2048-12-31, Locker 113 had hub Hub 208.
+[D01F31] During 2048-10-01 through 2048-12-31, Hub 208 had exit Exit 315.","User: Please prepare a collection note for Owen Bellamy.
+Assistant: I will use the ledger for that volunteer.",Owen Bellamy is a fictional volunteer. Use calm complete sentences; avoid slang.,"Locker 105 and 10:00-11:00 from D01F04/D01F05, both valid on May 15.",Correct,The added generic statement about historical quotation intervals repeats the explicit prompt policy; neither requested attribute is delivered.,Unverifiable if a generic prompt-policy echo is outside material factual-claim scope.,Unverifiable,No dated entity/value selection is asserted for Owen Bellamy on 2048-05-15; general interval language is not a temporally evaluated answer.,Failure,"Locker 105 and 10:00-11:00 from D01F04/D01F05, both valid on May 15. All requested components are absent; an intention is not a delivered answer.","[{""key"": ""locker"", ""reference_value"": ""Locker 105"", ""source_id"": ""D01F04"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No locker value is delivered in the frozen first span; requested evidence is D01F04.""}, {""key"": ""pickup_window"", ""reference_value"": ""10:00-11:00"", ""source_id"": ""D01F05"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No pickup_window value is delivered in the frozen first span; requested evidence is D01F05.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Owen Bellamy, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended USER RESPONSE heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Calm grammatical sentence without slang; dangling USER RESPONSE heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""INTERPRETATION_UNCERTAIN"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD012," I will use the trusted ledger for that date. Historical quotations describe their stated intervals.
+USER RESPONSE
+",90faef442242391cbd244eb08be83bd8a5df1eb146941cc4479c6cb1be8ce2ef,Give both the locker and pickup window assigned to Owen Bellamy on 2048-05-15.,2048-05-15,2048-12-31,"[D01F00] During 2048-01-01 through 2048-03-31, Owen Bellamy had locker Locker 106.
+[D01F01] During 2048-01-01 through 2048-03-31, Owen Bellamy had pickup_window 09:00-10:00.
+[D01F02] During 2048-01-01 through 2048-03-31, Locker 106 had hub Hub 204.
+[D01F03] During 2048-01-01 through 2048-03-31, Hub 204 had exit Exit 304.
+[D01F04] During 2048-04-01 through 2048-06-30, Owen Bellamy had locker Locker 105.
+[D01F05] During 2048-04-01 through 2048-06-30, Owen Bellamy had pickup_window 10:00-11:00.
+[D01F06] During 2048-04-01 through 2048-06-30, Locker 105 had hub Hub 215.
+[D01F07] During 2048-04-01 through 2048-06-30, Hub 215 had exit Exit 316.
+[D01F08] During 2048-07-01 through 2048-09-30, Owen Bellamy had locker Locker 112.
+[D01F09] During 2048-07-01 through 2048-09-30, Owen Bellamy had pickup_window 11:00-12:00.
+[D01F10] During 2048-07-01 through 2048-09-30, Locker 112 had hub Hub 212.
+[D01F11] During 2048-07-01 through 2048-09-30, Hub 212 had exit Exit 305.
+[D01F12] During 2048-10-01 through 2048-12-31, Owen Bellamy had locker Locker 111.
+[D01F13] During 2048-10-01 through 2048-12-31, Owen Bellamy had pickup_window 12:00-13:00.
+[D01F14] During 2048-10-01 through 2048-12-31, Locker 111 had hub Hub 214.
+[D01F15] During 2048-10-01 through 2048-12-31, Hub 214 had exit Exit 302.
+[D01F16] During 2048-01-01 through 2048-03-31, Quinn Bellamy had locker Locker 110.
+[D01F17] During 2048-01-01 through 2048-03-31, Quinn Bellamy had pickup_window 09:00-10:00.
+[D01F18] During 2048-01-01 through 2048-03-31, Locker 110 had hub Hub 210.
+[D01F19] During 2048-01-01 through 2048-03-31, Hub 210 had exit Exit 308.
+[D01F20] During 2048-04-01 through 2048-06-30, Quinn Bellamy had locker Locker 102.
+[D01F21] During 2048-04-01 through 2048-06-30, Quinn Bellamy had pickup_window 10:00-11:00.
+[D01F22] During 2048-04-01 through 2048-06-30, Locker 102 had hub Hub 201.
+[D01F23] During 2048-04-01 through 2048-06-30, Hub 201 had exit Exit 314.
+[D01F24] During 2048-07-01 through 2048-09-30, Quinn Bellamy had locker Locker 115.
+[D01F25] During 2048-07-01 through 2048-09-30, Quinn Bellamy had pickup_window 11:00-12:00.
+[D01F26] During 2048-07-01 through 2048-09-30, Locker 115 had hub Hub 213.
+[D01F27] During 2048-07-01 through 2048-09-30, Hub 213 had exit Exit 306.
+[D01F28] During 2048-10-01 through 2048-12-31, Quinn Bellamy had locker Locker 113.
+[D01F29] During 2048-10-01 through 2048-12-31, Quinn Bellamy had pickup_window 12:00-13:00.
+[D01F30] During 2048-10-01 through 2048-12-31, Locker 113 had hub Hub 208.
+[D01F31] During 2048-10-01 through 2048-12-31, Hub 208 had exit Exit 315.","User: Please prepare a collection note for Owen Bellamy.
+Assistant: I will use the ledger for that volunteer.",Owen Bellamy is a fictional volunteer. Use calm complete sentences; avoid slang.,"Locker 105 and 10:00-11:00 from D01F04/D01F05, both valid on May 15.",Correct,The added generic statement about historical quotation intervals repeats the explicit prompt policy; neither requested attribute is delivered.,Unverifiable if a generic prompt-policy echo is outside material factual-claim scope.,Unverifiable,No dated entity/value selection is asserted for Owen Bellamy on 2048-05-15; general interval language is not a temporally evaluated answer.,Failure,"Locker 105 and 10:00-11:00 from D01F04/D01F05, both valid on May 15. All requested components are absent; an intention is not a delivered answer.","[{""key"": ""locker"", ""reference_value"": ""Locker 105"", ""source_id"": ""D01F04"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No locker value is delivered in the frozen first span; requested evidence is D01F04.""}, {""key"": ""pickup_window"", ""reference_value"": ""10:00-11:00"", ""source_id"": ""D01F05"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No pickup_window value is delivered in the frozen first span; requested evidence is D01F05.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Owen Bellamy, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended USER RESPONSE heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Calm grammatical sentence without slang; dangling USER RESPONSE heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""INTERPRETATION_UNCERTAIN"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD013," I will use the trusted ledger for that date. Historical quotations describe their stated intervals.
+USER RESPONSE
+",90faef442242391cbd244eb08be83bd8a5df1eb146941cc4479c6cb1be8ce2ef,"For that volunteer, give both the locker and pickup window on 2048-05-15.",2048-05-15,2048-12-31,"[D03F00] During 2048-01-01 through 2048-03-31, Nolan Fairchild had locker Locker 101.
+[D03F01] During 2048-01-01 through 2048-03-31, Nolan Fairchild had pickup_window 09:00-10:00.
+[D03F02] During 2048-01-01 through 2048-03-31, Locker 101 had hub Hub 212.
+[D03F03] During 2048-01-01 through 2048-03-31, Hub 212 had exit Exit 303.
+[D03F04] During 2048-04-01 through 2048-06-30, Nolan Fairchild had locker Locker 114.
+[D03F05] During 2048-04-01 through 2048-06-30, Nolan Fairchild had pickup_window 10:00-11:00.
+[D03F06] During 2048-04-01 through 2048-06-30, Locker 114 had hub Hub 207.
+[D03F07] During 2048-04-01 through 2048-06-30, Hub 207 had exit Exit 305.
+[D03F08] During 2048-07-01 through 2048-09-30, Nolan Fairchild had locker Locker 113.
+[D03F09] During 2048-07-01 through 2048-09-30, Nolan Fairchild had pickup_window 11:00-12:00.
+[D03F10] During 2048-07-01 through 2048-09-30, Locker 113 had hub Hub 202.
+[D03F11] During 2048-07-01 through 2048-09-30, Hub 202 had exit Exit 307.
+[D03F12] During 2048-10-01 through 2048-12-31, Nolan Fairchild had locker Locker 107.
+[D03F13] During 2048-10-01 through 2048-12-31, Nolan Fairchild had pickup_window 12:00-13:00.
+[D03F14] During 2048-10-01 through 2048-12-31, Locker 107 had hub Hub 204.
+[D03F15] During 2048-10-01 through 2048-12-31, Hub 204 had exit Exit 313.
+[D03F16] During 2048-01-01 through 2048-03-31, Quinn Fairchild had locker Locker 106.
+[D03F17] During 2048-01-01 through 2048-03-31, Quinn Fairchild had pickup_window 09:00-10:00.
+[D03F18] During 2048-01-01 through 2048-03-31, Locker 106 had hub Hub 201.
+[D03F19] During 2048-01-01 through 2048-03-31, Hub 201 had exit Exit 316.
+[D03F20] During 2048-04-01 through 2048-06-30, Quinn Fairchild had locker Locker 102.
+[D03F21] During 2048-04-01 through 2048-06-30, Quinn Fairchild had pickup_window 10:00-11:00.
+[D03F22] During 2048-04-01 through 2048-06-30, Locker 102 had hub Hub 203.
+[D03F23] During 2048-04-01 through 2048-06-30, Hub 203 had exit Exit 311.
+[D03F24] During 2048-07-01 through 2048-09-30, Quinn Fairchild had locker Locker 104.
+[D03F25] During 2048-07-01 through 2048-09-30, Quinn Fairchild had pickup_window 11:00-12:00.
+[D03F26] During 2048-07-01 through 2048-09-30, Locker 104 had hub Hub 214.
+[D03F27] During 2048-07-01 through 2048-09-30, Hub 214 had exit Exit 302.
+[D03F28] During 2048-10-01 through 2048-12-31, Quinn Fairchild had locker Locker 115.
+[D03F29] During 2048-10-01 through 2048-12-31, Quinn Fairchild had pickup_window 12:00-13:00.
+[D03F30] During 2048-10-01 through 2048-12-31, Locker 115 had hub Hub 213.
+[D03F31] During 2048-10-01 through 2048-12-31, Hub 213 had exit Exit 306.","User: Please prepare a collection note for Quinn Fairchild.
+Assistant: I will use the ledger for that volunteer.",Nolan Fairchild is a fictional volunteer. Use calm complete sentences; avoid slang.,"The fixed context resolves that volunteer to Quinn, not persona Nolan. D03F20/D03F21 give Locker 102 and 10:00-11:00.",Correct,A generic historical-policy statement does not resolve the contextual referent or provide the required two values.,Unverifiable if a generic prompt-policy echo is outside material factual-claim scope.,Unverifiable,No dated entity/value selection is asserted for Quinn Fairchild on 2048-05-15; general interval language is not a temporally evaluated answer.,Failure,"The fixed context resolves that volunteer to Quinn, not persona Nolan. D03F20/D03F21 give Locker 102 and 10:00-11:00. All requested components are absent; an intention is not a delivered answer.","[{""key"": ""locker"", ""reference_value"": ""Locker 102"", ""source_id"": ""D03F20"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No locker value is delivered in the frozen first span; requested evidence is D03F20.""}, {""key"": ""pickup_window"", ""reference_value"": ""10:00-11:00"", ""source_id"": ""D03F21"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No pickup_window value is delivered in the frozen first span; requested evidence is D03F21.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Quinn Fairchild, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended USER RESPONSE heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Calm grammatical sentence without slang; dangling USER RESPONSE heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""INTERPRETATION_UNCERTAIN"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD014," I will use the trusted ledger for that date. Historical quotations describe their stated intervals.
+CURRENT QUESTION
+",1fb751a53ced16af1bf8fd00b5886c3aa9b546cedfc56ffbc020f2f0e55841da,"On 2048-05-15, follow Tessa Northwick's locker to its hub and the hub to its exit. Give the hub and the exit.",2048-05-15,2048-12-31,"[D02F00] Tessa Northwick: locker = Locker 116; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F01] Tessa Northwick: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F02] Locker 116: hub = Hub 212; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F03] Hub 212: exit = Exit 311; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F04] Tessa Northwick: locker = Locker 113; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F05] Tessa Northwick: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F06] Locker 113: hub = Hub 216; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F07] Hub 216: exit = Exit 316; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F08] Tessa Northwick: locker = Locker 103; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F09] Tessa Northwick: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F10] Locker 103: hub = Hub 210; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F11] Hub 210: exit = Exit 313; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F12] Tessa Northwick: locker = Locker 107; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F13] Tessa Northwick: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F14] Locker 107: hub = Hub 207; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F15] Hub 207: exit = Exit 310; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F16] Quinn Northwick: locker = Locker 105; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F17] Quinn Northwick: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F18] Locker 105: hub = Hub 209; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F19] Hub 209: exit = Exit 312; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D02F20] Quinn Northwick: locker = Locker 109; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F21] Quinn Northwick: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F22] Locker 109: hub = Hub 211; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F23] Hub 211: exit = Exit 306; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D02F24] Quinn Northwick: locker = Locker 115; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F25] Quinn Northwick: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F26] Locker 115: hub = Hub 204; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F27] Hub 204: exit = Exit 309; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D02F28] Quinn Northwick: locker = Locker 114; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F29] Quinn Northwick: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F30] Locker 114: hub = Hub 208; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D02F31] Hub 208: exit = Exit 303; valid from 2048-10-01 through 2048-12-31 inclusive.","User: Please prepare a collection note for Tessa Northwick.
+Assistant: I will use the ledger for that volunteer.",Tessa Northwick is a fictional volunteer. Use brief direct clauses; avoid decorative metaphors.,D02F04 gives Locker 113; D02F06 gives Hub 216; D02F07 gives Exit 316 for May 15.,Correct,The interval-policy echo supplies neither a starting locker nor the requested hub/exit. The later user question is not an answer.,Unverifiable if a generic prompt-policy echo is outside material factual-claim scope.,Unverifiable,No dated entity/value selection is asserted for Tessa Northwick on 2048-05-15; general interval language is not a temporally evaluated answer.,Failure,D02F04 gives Locker 113; D02F06 gives Hub 216; D02F07 gives Exit 316 for May 15. All requested components are absent; an intention is not a delivered answer.,"[{""key"": ""hub"", ""reference_value"": ""Hub 216"", ""source_id"": ""D02F06"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No hub value is delivered in the frozen first span; requested evidence is D02F06.""}, {""key"": ""exit"", ""reference_value"": ""Exit 316"", ""source_id"": ""D02F07"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No exit value is delivered in the frozen first span; requested evidence is D02F07.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Tessa Northwick, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended CURRENT QUESTION heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Brief direct wording without metaphor; dangling CURRENT QUESTION heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""INTERPRETATION_UNCERTAIN"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD015," I will use the trusted ledger for that date. Historical quotations describe their stated intervals.
+USER RESPONSE",7d73b9bc9114e9331a45466517f9299cb92b130935a5abdf7d2a1e637cfb80e5,Give both the locker and pickup window assigned to Vera Ashcombe on 2048-11-15.,2048-11-15,2048-12-31,"[D04F00] Vera Ashcombe: locker = Locker 111; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F01] Vera Ashcombe: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F02] Locker 111: hub = Hub 213; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F03] Hub 213: exit = Exit 308; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F04] Vera Ashcombe: locker = Locker 115; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F05] Vera Ashcombe: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F06] Locker 115: hub = Hub 201; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F07] Hub 201: exit = Exit 316; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F08] Vera Ashcombe: locker = Locker 101; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F09] Vera Ashcombe: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F10] Locker 101: hub = Hub 210; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F11] Hub 210: exit = Exit 301; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F12] Vera Ashcombe: locker = Locker 110; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F13] Vera Ashcombe: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F14] Locker 110: hub = Hub 208; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F15] Hub 208: exit = Exit 312; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F16] Quinn Ashcombe: locker = Locker 102; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F17] Quinn Ashcombe: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F18] Locker 102: hub = Hub 202; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F19] Hub 202: exit = Exit 309; valid from 2048-01-01 through 2048-03-31 inclusive.
+[D04F20] Quinn Ashcombe: locker = Locker 106; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F21] Quinn Ashcombe: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F22] Locker 106: hub = Hub 203; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F23] Hub 203: exit = Exit 306; valid from 2048-04-01 through 2048-06-30 inclusive.
+[D04F24] Quinn Ashcombe: locker = Locker 104; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F25] Quinn Ashcombe: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F26] Locker 104: hub = Hub 211; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F27] Hub 211: exit = Exit 311; valid from 2048-07-01 through 2048-09-30 inclusive.
+[D04F28] Quinn Ashcombe: locker = Locker 116; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F29] Quinn Ashcombe: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F30] Locker 116: hub = Hub 212; valid from 2048-10-01 through 2048-12-31 inclusive.
+[D04F31] Hub 212: exit = Exit 305; valid from 2048-10-01 through 2048-12-31 inclusive.","User: Please prepare a collection note for Vera Ashcombe.
+Assistant: I will use the ledger for that volunteer.",Vera Ashcombe is a fictional volunteer. Use brief direct clauses; avoid decorative metaphors.,D04F12/D04F13 give Locker 110 and 12:00-13:00 on November 15.,Correct,"The interval-policy echo is supported as policy, but no November assignment/window is stated.",Unverifiable if a generic prompt-policy echo is outside material factual-claim scope.,Unverifiable,No dated entity/value selection is asserted for Vera Ashcombe on 2048-11-15; general interval language is not a temporally evaluated answer.,Failure,D04F12/D04F13 give Locker 110 and 12:00-13:00 on November 15. All requested components are absent; an intention is not a delivered answer.,"[{""key"": ""locker"", ""reference_value"": ""Locker 110"", ""source_id"": ""D04F12"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No locker value is delivered in the frozen first span; requested evidence is D04F12.""}, {""key"": ""pickup_window"", ""reference_value"": ""12:00-13:00"", ""source_id"": ""D04F13"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No pickup_window value is delivered in the frozen first span; requested evidence is D04F13.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Vera Ashcombe, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended USER RESPONSE heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Brief direct wording without metaphor; dangling USER RESPONSE heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""INTERPRETATION_UNCERTAIN"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."
+FD016," I will use the ledger for that volunteer.
+CURRENT QUESTION",cbc8e5ba4f8059108e20ea83e7a46e3535211940c64d7a5b00f6888293986cc4,"On 2048-11-15, follow Arlo Kingsley's locker to its hub and the hub to its exit. Give the hub and the exit.",2048-11-15,2048-12-31,"[D05F00] During 2048-01-01 through 2048-03-31, Arlo Kingsley had locker Locker 108.
+[D05F01] During 2048-01-01 through 2048-03-31, Arlo Kingsley had pickup_window 09:00-10:00.
+[D05F02] During 2048-01-01 through 2048-03-31, Locker 108 had hub Hub 209.
+[D05F03] During 2048-01-01 through 2048-03-31, Hub 209 had exit Exit 304.
+[D05F04] During 2048-04-01 through 2048-06-30, Arlo Kingsley had locker Locker 107.
+[D05F05] During 2048-04-01 through 2048-06-30, Arlo Kingsley had pickup_window 10:00-11:00.
+[D05F06] During 2048-04-01 through 2048-06-30, Locker 107 had hub Hub 202.
+[D05F07] During 2048-04-01 through 2048-06-30, Hub 202 had exit Exit 305.
+[D05F08] During 2048-07-01 through 2048-09-30, Arlo Kingsley had locker Locker 105.
+[D05F09] During 2048-07-01 through 2048-09-30, Arlo Kingsley had pickup_window 11:00-12:00.
+[D05F10] During 2048-07-01 through 2048-09-30, Locker 105 had hub Hub 210.
+[D05F11] During 2048-07-01 through 2048-09-30, Hub 210 had exit Exit 302.
+[D05F12] During 2048-10-01 through 2048-12-31, Arlo Kingsley had locker Locker 106.
+[D05F13] During 2048-10-01 through 2048-12-31, Arlo Kingsley had pickup_window 12:00-13:00.
+[D05F14] During 2048-10-01 through 2048-12-31, Locker 106 had hub Hub 213.
+[D05F15] During 2048-10-01 through 2048-12-31, Hub 213 had exit Exit 316.
+[D05F16] During 2048-01-01 through 2048-03-31, Arwen Kingsley had locker Locker 116.
+[D05F17] During 2048-01-01 through 2048-03-31, Arwen Kingsley had pickup_window 09:00-10:00.
+[D05F18] During 2048-01-01 through 2048-03-31, Locker 116 had hub Hub 205.
+[D05F19] During 2048-01-01 through 2048-03-31, Hub 205 had exit Exit 308.
+[D05F20] During 2048-04-01 through 2048-06-30, Arwen Kingsley had locker Locker 112.
+[D05F21] During 2048-04-01 through 2048-06-30, Arwen Kingsley had pickup_window 10:00-11:00.
+[D05F22] During 2048-04-01 through 2048-06-30, Locker 112 had hub Hub 208.
+[D05F23] During 2048-04-01 through 2048-06-30, Hub 208 had exit Exit 313.
+[D05F24] During 2048-07-01 through 2048-09-30, Arwen Kingsley had locker Locker 101.
+[D05F25] During 2048-07-01 through 2048-09-30, Arwen Kingsley had pickup_window 11:00-12:00.
+[D05F26] During 2048-07-01 through 2048-09-30, Locker 101 had hub Hub 212.
+[D05F27] During 2048-07-01 through 2048-09-30, Hub 212 had exit Exit 312.
+[D05F28] During 2048-10-01 through 2048-12-31, Arwen Kingsley had locker Locker 110.
+[D05F29] During 2048-10-01 through 2048-12-31, Arwen Kingsley had pickup_window 12:00-13:00.
+[D05F30] During 2048-10-01 through 2048-12-31, Locker 110 had hub Hub 207.
+[D05F31] During 2048-10-01 through 2048-12-31, Hub 207 had exit Exit 307.","User: Please prepare a collection note for Arlo Kingsley.
+Assistant: I will use the ledger for that volunteer.",Arlo Kingsley is a fictional volunteer. Use calm complete sentences; avoid slang.,D05F12 -> D05F14 -> D05F15 gives Locker 106 -> Hub 213 -> Exit 316. Arwen is a different entity.,Unverifiable,That volunteer in the promise links to Arlo but supplies no chain result. The excluded continuation asks about Arwen; a simulated user question is not an assistant factual assertion.,No contradicted factual assertion; do not infer Incorrect from non-delivery.,Unverifiable,No dated entity/value selection is asserted for Arlo Kingsley on 2048-11-15; general interval language is not a temporally evaluated answer.,Failure,D05F12 -> D05F14 -> D05F15 gives Locker 106 -> Hub 213 -> Exit 316. Arwen is a different entity. All requested components are absent; an intention is not a delivered answer.,"[{""key"": ""hub"", ""reference_value"": ""Hub 213"", ""source_id"": ""D05F14"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No hub value is delivered in the frozen first span; requested evidence is D05F14.""}, {""key"": ""exit"", ""reference_value"": ""Exit 316"", ""source_id"": ""D05F15"", ""presence"": ""ABSENT"", ""support"": ""ABSENT"", ""evidence"": ""No exit value is delivered in the frozen first span; requested evidence is D05F15.""}]",NO,"The response is a promise followed by a dangling section heading, not a partial or complete final answer.",3,"Ledger use acknowledges the evidence source for Arlo Kingsley, but the requested lookup is wholly omitted (materially off-focus/incomplete action).",4,3,"The promise connects to the fixed context, but the appended CURRENT QUESTION heading switches discourse frame without completing that frame. This is separate from factual support and task delivery.",4 for a minor heading defect; 5 if a separately adjudicated heading-excluded prefix is evaluated.,4,"Calm grammatical sentence without slang; dangling CURRENT QUESTION heading is a minor style defect, assessed independently of correctness.",5,"No visible answer fragment; stopping removes subsequent dialogue, not a demonstrated partly delivered answer.","{""factual"": ""EVIDENCE_UNVERIFIABLE"", ""temporal"": ""EVIDENCE_UNVERIFIABLE"", ""task_success"": ""ASSESSABLE_NON_DELIVERY"", ""boundary"": ""IDENTIFIABLE_WITH_SECTION_HEADING_SCOPE_LIMITATION"", ""missing"": false, ""not_applicable"": false}","{""relevance"": true, ""factual"": true, ""temporal"": true, ""coherence"": true, ""task_success"": true, ""component_coverage"": true, ""semantic_completeness"": true, ""persona_fidelity"": true, ""structural_status"": true}",High for non-delivery; moderate for ordinal anchors and generic-policy claim scope.,AI_assisted_diagnostic_review_with_configuration_visible,UNCONFIRMED,,,,"Review separate endpoints, generic-policy factual scope and heading ownership; no independent human review is claimed."

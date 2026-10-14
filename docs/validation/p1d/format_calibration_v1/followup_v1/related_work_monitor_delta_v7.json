@@ -1,0 +1,45 @@
+{
+  "methods_and_results_review": {
+    "path": "docs/related_work_novelty_matrix_monitor_v6.md",
+    "sha256": "5f71262e98bea948196d32d8a103ec603d0857dd048ba44bbf1dbe7c6c83ab8f"
+  },
+  "no_claim_of_local_published_method_replication": true,
+  "parent": {
+    "path": "docs/validation/p1d/final_preparation_v1/related_work_monitor_delta_v6.json",
+    "sha256": "8a3af60b8598d3cc7310570026472752fe75dad186ec5a832418c5a8be745f4b"
+  },
+  "sources": [
+    {
+      "id": "10.18653/v1/2026.findings-acl.395",
+      "method": "FPPS",
+      "status": "PEER_REVIEWED_FINDINGS",
+      "url": "https://aclanthology.org/2026.findings-acl.395.pdf"
+    },
+    {
+      "id": "2410.10813v2",
+      "method": "LongMemEval",
+      "status": "ICLR_2025",
+      "url": "https://arxiv.org/html/2410.10813v2"
+    },
+    {
+      "id": "10.18653/v1/2024.findings-acl.212",
+      "method": "Chain-of-Verification",
+      "status": "PEER_REVIEWED_FINDINGS",
+      "url": "https://aclanthology.org/2024.findings-acl.212.pdf"
+    },
+    {
+      "id": "10.18653/v1/2023.acl-long.910",
+      "method": "RARR",
+      "status": "PEER_REVIEWED_ACL",
+      "url": "https://aclanthology.org/2023.acl-long.910.pdf"
+    },
+    {
+      "id": "2610.11188v1",
+      "method": "FC/PS admission and PN/CH presentation",
+      "status": "PREPRINT_NOT_VERIFIED_PEER_REVIEWED",
+      "url": "https://arxiv.org/html/2610.11188v1"
+    }
+  ],
+  "unmodified_other_papers": "Inherited prior matrices retain Persistent Personas?, TwinVoice, Wiki-Talkie and Decoupling Logic from Persona.",
+  "version": "related_work_monitor_delta_v7"
+}

@@ -1,0 +1,11 @@
+{
+  "closeout_script_preflight": "An unterminated multiline f-string caused SyntaxError before any execution; corrected and py_compile passed. No source data or log was changed by the failed invocation.",
+  "csv_format_note": "Nested CSV cells are JSON except legacy paired bounds rendered as Python tuple text. Canonical JSON tables are authoritative; tests compare decoded values.",
+  "historical_log_byte_check": "Git-normalized line endings differ from the initial local-byte baseline. Preserve the exact pre-append working-tree log only after its baseline hash matches; verify subsequent prefix bytes. No historical-content change was detected.",
+  "inference_failures": 0,
+  "initial_analysis_verification": "Python tuple versus JSON array comparison failed; canonical JSON comparison fixed verification only; original assembly code retained.",
+  "initial_expanded_regression": "1 failed, 50 passed: CSV nested-object key order comparison was too strict; test now compares decoded objects and preserves legacy tuple notation in CSV bounds.",
+  "link_check_invocation": "An inline PowerShell/Python quoting attempt failed before execution; a literal here-string read-only check succeeded with zero broken links.",
+  "network": "Initial sandbox access returned WinError 10013; public metadata/artifact requests were rerun only after tool-level approval.",
+  "no_numerical_or_annotation_revision": true
+}

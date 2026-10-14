@@ -1,0 +1,154 @@
+{
+  "case_pairing": "One case per speaker; all paired contributions retained; no available-cell renormalization",
+  "clusters": 8,
+  "coherence_difference": {
+    "bootstrap_percentile_95": [
+      0.0,
+      0.0
+    ],
+    "leave_one_speaker_out": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mean": 0
+  },
+  "completeness_difference": {
+    "bootstrap_percentile_95": [
+      0.0,
+      0.0
+    ],
+    "leave_one_speaker_out": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mean": 0
+  },
+  "draws": 10000,
+  "factual_Correct_label_incidence_difference": {
+    "bootstrap_percentile_95": [
+      0.0,
+      0.0
+    ],
+    "leave_one_speaker_out": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mean": 0
+  },
+  "factual_all_eligible_unknown_difference_bounds": [
+    -0.5,
+    0.5
+  ],
+  "latency_stop_minus_no_stop": {
+    "bootstrap_percentile_95": [
+      -7.296710106561477,
+      -5.682586374990933
+    ],
+    "leave_one_speaker_out": [
+      -6.2831609999910665,
+      -6.435633014272233,
+      -6.818072742849056,
+      -6.450175285705233,
+      -6.567964628555013,
+      -6.356122828562677,
+      -6.529328685702889,
+      -6.6983065142828435
+    ],
+    "mean": -6.5173455874901265
+  },
+  "missing": 0,
+  "paired_cases": 8,
+  "persona_fidelity_difference": {
+    "bootstrap_percentile_95": [
+      0.0,
+      0.0
+    ],
+    "leave_one_speaker_out": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mean": 0
+  },
+  "relevance_difference": {
+    "bootstrap_percentile_95": [
+      0.0,
+      0.0
+    ],
+    "leave_one_speaker_out": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mean": 0
+  },
+  "scope": "Development sensitivity conditional on unconfirmed AI proposals; degenerate zero intervals are not evidence of no population effect. No confirmatory significance.",
+  "seed": 716710,
+  "task_success_difference": {
+    "bootstrap_percentile_95": [
+      0.0,
+      0.0
+    ],
+    "leave_one_speaker_out": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "mean": 0
+  },
+  "temporal_all_eligible_unknown_difference_bounds": [
+    -1,
+    1
+  ],
+  "tokens_stop_minus_no_stop": {
+    "bootstrap_percentile_95": [
+      -79.5,
+      -74.0
+    ],
+    "leave_one_speaker_out": [
+      -76.28571428571429,
+      -77.28571428571429,
+      -77.28571428571429,
+      -77.28571428571429,
+      -77.28571428571429,
+      -76.14285714285714,
+      -76.14285714285714,
+      -76.28571428571429
+    ],
+    "mean": -76.75
+  },
+  "unverifiable_not_incorrect": true
+}

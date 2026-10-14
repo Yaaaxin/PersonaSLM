@@ -1,0 +1,18 @@
+{
+  "case_count": 288,
+  "fixed_assistant_statements": {
+    "I will check that person in the ledger.": 72,
+    "I will check the requested date.": 72,
+    "I will consult the ledger.": 48,
+    "I will use the dated ledger for that person.": 96
+  },
+  "new_scientific_approvals": 0,
+  "no_reference_answers_used_for_algorithm_tuning": true,
+  "prompts": 1728,
+  "scope": "Targeted prompt-format propagation audit; previous full scientific reference/control audits retained, not redundantly rerun.",
+  "source_sha256": {
+    "docs/validation/p1d/independent_candidates_v4/base_candidate_prompts_v1.json": "af6836fdbd0f9a7b7d72603bbb6c05b5326c8c023c0f12f9992164c8de00b45e",
+    "docs/validation/p1d/independent_candidates_v4/candidate_bank_v1.json": "170e43772e0e45753638228a8c2fc2bf2d5a9f06830374b22887a5929486afbd"
+  },
+  "unmarked_current_question_prompts": 1728
+}

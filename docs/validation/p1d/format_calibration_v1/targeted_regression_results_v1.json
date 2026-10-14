@@ -1,0 +1,20 @@
+{
+  "command": [
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_p1d_format_calibration.py",
+    "tests/test_p1d_format_analysis.py",
+    "tests/test_p1d_instruct_preparation_v3.py",
+    "tests/test_p1d_format_diagnostic.py",
+    "tests/test_inference.py",
+    "tests/test_response_status.py"
+  ],
+  "elapsed_seconds": 7.063949399976991,
+  "finished_utc": "2026-10-14T15:24:44.185452+00:00",
+  "returncode": 0,
+  "started_utc": "2026-10-14T15:24:37.121497+00:00",
+  "stderr": "",
+  "stdout": "...................................................                      [100%]\n51 passed in 6.35s\n"
+}

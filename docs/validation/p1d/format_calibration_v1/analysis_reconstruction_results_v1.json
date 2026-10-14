@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+      "tools/p1d_format_analysis.py",
+      "--verify"
+    ],
+    "elapsed_seconds": 1.3756107999943197,
+    "finished_utc": "2026-10-14T15:24:45.561568+00:00",
+    "returncode": 0,
+    "started_utc": "2026-10-14T15:24:44.185966+00:00",
+    "stderr": "",
+    "stdout": "{\n  \"verification_only\": true,\n  \"outputs\": 11,\n  \"summary\": {\n    \"F_user_marker\": {\n      \"n\": 8,\n      \"structural\": {\n        \"CROSS_TURN\": 8\n      },\n      \"termination\": {\n        \"length\": 8\n      },\n      \"first_response_identifiable\": 8,\n      \"generated_tokens\": 768,\n      \"mean_latency_seconds\": 28.336445487497258,\n      \"distributions\": {\n        \"factual\": {\n          \"Unverifiable\": 4,\n          \"Correct\": 4\n        },\n        \"temporal\": {\n          \"Unverifiable\": 8\n        },\n        \"task_success\": {\n          \"Failure\": 8\n        },\n        \"semantic_completeness\": {\n          \"NO\": 8\n        },\n        \"relevance\": {\n          \"3\": 8\n        },\n        \"coherence\": {\n          \"3\": 8\n        },\n        \"persona_fidelity\": {\n          \"4\": 8\n        }\n      },\n      \"supported_components\": 0,\n      \"required_components\": 14,\n      \"diagnostic_qualification\": false\n    },\n    \"F_user_marker_stops\": {\n      \"n\": 8,\n      \"structural\": {\n        \"AMBIGUOUS\": 8\n      },\n      \"termination\": {\n        \"stop_sequence\": 8\n      },\n      \"first_response_identifiable\": 8,\n      \"generated_tokens\": 154,\n      \"mean_latency_seconds\": 21.81909990000713,\n      \"distributions\": {\n        \"factual\": {\n          \"Unverifiable\": 4,\n          \"Correct\": 4\n        },\n        \"temporal\": {\n          \"Unverifiable\": 8\n        },\n        \"task_success\": {\n          \"Failure\": 8\n        },\n        \"semantic_completeness\": {\n          \"NO\": 8\n        },\n        \"relevance\": {\n          \"3\": 8\n        },\n        \"coherence\": {\n          \"3\": 8\n        },\n        \"persona_fidelity\": {\n          \"4\": 8\n        }\n      },\n      \"supported_components\": 0,\n      \"required_components\": 14,\n      \"diagnostic_qualification\": false\n    }\n  },\n  \"metrics\": {\n    \"n\": 16,\n    \"relevance_coherence_concordance\": 16,\n    \"factual_correct_task_failure\": 8,\n    \"variance\": {\n      \"relevance\": 0,\n      \"coherence\": 0,\n      \"persona_fidelity\": 0\n    },\n    \"limitations\": \"All three ordinal measures have zero observed variance here. Separate constructs and evidence fields do not prove empirical discriminant validity or independent human scoring.\"\n  }\n}\n"
+  },
+  {
+    "command": [
+      "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+      "tools/p1d_format_analysis.py",
+      "--verify"
+    ],
+    "elapsed_seconds": 1.3956733000231907,
+    "finished_utc": "2026-10-14T15:24:46.957257+00:00",
+    "returncode": 0,
+    "started_utc": "2026-10-14T15:24:45.561594+00:00",
+    "stderr": "",
+    "stdout": "{\n  \"verification_only\": true,\n  \"outputs\": 11,\n  \"summary\": {\n    \"F_user_marker\": {\n      \"n\": 8,\n      \"structural\": {\n        \"CROSS_TURN\": 8\n      },\n      \"termination\": {\n        \"length\": 8\n      },\n      \"first_response_identifiable\": 8,\n      \"generated_tokens\": 768,\n      \"mean_latency_seconds\": 28.336445487497258,\n      \"distributions\": {\n        \"factual\": {\n          \"Unverifiable\": 4,\n          \"Correct\": 4\n        },\n        \"temporal\": {\n          \"Unverifiable\": 8\n        },\n        \"task_success\": {\n          \"Failure\": 8\n        },\n        \"semantic_completeness\": {\n          \"NO\": 8\n        },\n        \"relevance\": {\n          \"3\": 8\n        },\n        \"coherence\": {\n          \"3\": 8\n        },\n        \"persona_fidelity\": {\n          \"4\": 8\n        }\n      },\n      \"supported_components\": 0,\n      \"required_components\": 14,\n      \"diagnostic_qualification\": false\n    },\n    \"F_user_marker_stops\": {\n      \"n\": 8,\n      \"structural\": {\n        \"AMBIGUOUS\": 8\n      },\n      \"termination\": {\n        \"stop_sequence\": 8\n      },\n      \"first_response_identifiable\": 8,\n      \"generated_tokens\": 154,\n      \"mean_latency_seconds\": 21.81909990000713,\n      \"distributions\": {\n        \"factual\": {\n          \"Unverifiable\": 4,\n          \"Correct\": 4\n        },\n        \"temporal\": {\n          \"Unverifiable\": 8\n        },\n        \"task_success\": {\n          \"Failure\": 8\n        },\n        \"semantic_completeness\": {\n          \"NO\": 8\n        },\n        \"relevance\": {\n          \"3\": 8\n        },\n        \"coherence\": {\n          \"3\": 8\n        },\n        \"persona_fidelity\": {\n          \"4\": 8\n        }\n      },\n      \"supported_components\": 0,\n      \"required_components\": 14,\n      \"diagnostic_qualification\": false\n    }\n  },\n  \"metrics\": {\n    \"n\": 16,\n    \"relevance_coherence_concordance\": 16,\n    \"factual_correct_task_failure\": 8,\n    \"variance\": {\n      \"relevance\": 0,\n      \"coherence\": 0,\n      \"persona_fidelity\": 0\n    },\n    \"limitations\": \"All three ordinal measures have zero observed variance here. Separate constructs and evidence fields do not prove empirical discriminant validity or independent human scoring.\"\n  }\n}\n"
+  }
+]

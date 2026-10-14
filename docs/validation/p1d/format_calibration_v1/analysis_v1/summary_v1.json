@@ -1,0 +1,80 @@
+{
+  "F_user_marker": {
+    "diagnostic_qualification": false,
+    "distributions": {
+      "coherence": {
+        "3": 8
+      },
+      "factual": {
+        "Correct": 4,
+        "Unverifiable": 4
+      },
+      "persona_fidelity": {
+        "4": 8
+      },
+      "relevance": {
+        "3": 8
+      },
+      "semantic_completeness": {
+        "NO": 8
+      },
+      "task_success": {
+        "Failure": 8
+      },
+      "temporal": {
+        "Unverifiable": 8
+      }
+    },
+    "first_response_identifiable": 8,
+    "generated_tokens": 768,
+    "mean_latency_seconds": 28.336445487497258,
+    "n": 8,
+    "required_components": 14,
+    "structural": {
+      "CROSS_TURN": 8
+    },
+    "supported_components": 0,
+    "termination": {
+      "length": 8
+    }
+  },
+  "F_user_marker_stops": {
+    "diagnostic_qualification": false,
+    "distributions": {
+      "coherence": {
+        "3": 8
+      },
+      "factual": {
+        "Correct": 4,
+        "Unverifiable": 4
+      },
+      "persona_fidelity": {
+        "4": 8
+      },
+      "relevance": {
+        "3": 8
+      },
+      "semantic_completeness": {
+        "NO": 8
+      },
+      "task_success": {
+        "Failure": 8
+      },
+      "temporal": {
+        "Unverifiable": 8
+      }
+    },
+    "first_response_identifiable": 8,
+    "generated_tokens": 154,
+    "mean_latency_seconds": 21.81909990000713,
+    "n": 8,
+    "required_components": 14,
+    "structural": {
+      "AMBIGUOUS": 8
+    },
+    "supported_components": 0,
+    "termination": {
+      "stop_sequence": 8
+    }
+  }
+}

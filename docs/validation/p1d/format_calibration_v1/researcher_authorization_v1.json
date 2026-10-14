@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "cases": 8,
+    "heldout_overlap": 0,
+    "historical_change": "current User marker and optionally stops",
+    "input_tokens": [
+      1635,
+      1758
+    ],
+    "requests": 16,
+    "speakers": 8,
+    "unique_prompts": 8,
+    "within_new_pair_change": "stop strings only"
+  },
+  "decision": "AUTHORIZED",
+  "decision_source": "Explicit user instruction: PersonaSLM — P1d Format Diagnosis, Model Readiness and Scientific Acceleration",
+  "manifest_sha256": "3f0e68b0fbe4cf5abfeab3bef9f6fbc39460b9219d118500ccc10d6fda121523",
+  "maximum_attempts": 16,
+  "original_proposal_status": "Preserved; this separate explicit authorization is operative.",
+  "prohibited": [
+    "additional retries or generations",
+    "Instruct inference",
+    "independent validation cohort",
+    "training"
+  ],
+  "registered_utc": "2026-10-14T14:51:47.239828+00:00",
+  "researcher": "Yaxin ZHENG",
+  "researcher_decision_timestamp": null,
+  "scope": "Eight registered development cases, H_none, two frozen format/stop configurations, 96-token cap, Base CPU only.",
+  "semantic_adoption": "No adoption of prior 144 AI assessments or future format assessments.",
+  "version": "p1d_format_authorization_v1"
+}

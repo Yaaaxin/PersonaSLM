@@ -1,0 +1,842 @@
+[
+  {
+    "candidate_span": [
+      0,
+      60
+    ],
+    "candidate_text": " I will use the trusted ledger for that date.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_00_0_F_user_marker"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_00_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      59
+    ],
+    "candidate_text": " I will use the trusted ledger for that date.\nUSER RESPONSE",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_00_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      60
+    ],
+    "candidate_text": " I will use the trusted ledger for that date.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_00_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      60
+    ],
+    "candidate_text": " I will use the trusted ledger for that date.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_00_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      59
+    ],
+    "candidate_text": " I will use the trusted ledger for that date.\nUSER RESPONSE",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_00_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_00_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_00_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_00_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_00_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": [
+      0,
+      115
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_01_0_F_user_marker"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_01_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      114
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_01_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      115
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_01_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      115
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_01_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      114
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_01_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_01_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_01_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_01_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_01_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": [
+      0,
+      115
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_03_0_F_user_marker"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_03_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      114
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_03_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      115
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_03_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      115
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_03_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      114
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_03_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_03_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_03_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_03_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_03_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": [
+      0,
+      59
+    ],
+    "candidate_text": " I will use the ledger for that volunteer.\nCURRENT QUESTION",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_05_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_05_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_05_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_05_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_05_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": [
+      0,
+      60
+    ],
+    "candidate_text": " I will use the ledger for that volunteer.\nCURRENT QUESTION\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_05_1_F_user_marker"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_05_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      59
+    ],
+    "candidate_text": " I will use the ledger for that volunteer.\nCURRENT QUESTION",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_05_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      60
+    ],
+    "candidate_text": " I will use the ledger for that volunteer.\nCURRENT QUESTION\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_05_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      60
+    ],
+    "candidate_text": " I will use the ledger for that volunteer.\nCURRENT QUESTION\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_05_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      117
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nCURRENT QUESTION",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_02_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_02_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_02_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_02_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_02_0_F_user_marker_stops"
+  },
+  {
+    "candidate_span": [
+      0,
+      118
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nCURRENT QUESTION\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_02_0_F_user_marker"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_02_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      117
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nCURRENT QUESTION",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_02_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      118
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nCURRENT QUESTION\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_02_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      118
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nCURRENT QUESTION\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_02_0_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      59
+    ],
+    "candidate_text": " I will use the ledger for that volunteer.\nCURRENT QUESTION",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_06_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_06_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_06_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_06_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_06_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": [
+      0,
+      60
+    ],
+    "candidate_text": " I will use the ledger for that volunteer.\nCURRENT QUESTION\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_06_1_F_user_marker"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_06_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      59
+    ],
+    "candidate_text": " I will use the ledger for that volunteer.\nCURRENT QUESTION",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_06_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      60
+    ],
+    "candidate_text": " I will use the ledger for that volunteer.\nCURRENT QUESTION\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_06_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      60
+    ],
+    "candidate_text": " I will use the ledger for that volunteer.\nCURRENT QUESTION\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_06_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      59
+    ],
+    "candidate_text": " I will use the trusted ledger for that date.\nUSER RESPONSE",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_07_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_07_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_07_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_07_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_07_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": [
+      0,
+      60
+    ],
+    "candidate_text": " I will use the trusted ledger for that date.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_07_1_F_user_marker"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_07_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      59
+    ],
+    "candidate_text": " I will use the trusted ledger for that date.\nUSER RESPONSE",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_07_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      60
+    ],
+    "candidate_text": " I will use the trusted ledger for that date.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_07_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      60
+    ],
+    "candidate_text": " I will use the trusted ledger for that date.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_07_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      114
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_04_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_04_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_04_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_04_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_04_1_F_user_marker_stops"
+  },
+  {
+    "candidate_span": [
+      0,
+      115
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "frozen_v1",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_04_1_F_user_marker"
+  },
+  {
+    "candidate_span": null,
+    "candidate_text": null,
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "native_eos_only",
+    "primary_content_equal": false,
+    "request_id": "p1d_format_dev_v1_p1d_dev_04_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      114
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "literal_role_stop_shadow",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_04_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      115
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_04_1_F_user_marker"
+  },
+  {
+    "candidate_span": [
+      0,
+      115
+    ],
+    "candidate_text": " I will use the trusted ledger for that date. Historical quotations describe their stated intervals.\nUSER RESPONSE\n",
+    "independent_accuracy": null,
+    "limitation": "Frozen baseline uses no declared custom stops; abstention on stop-arm outputs is configuration coverage, not empirical boundary error.",
+    "method": "fence_aware_role_or_section",
+    "primary_content_equal": true,
+    "request_id": "p1d_format_dev_v1_p1d_dev_04_1_F_user_marker"
+  }
+]

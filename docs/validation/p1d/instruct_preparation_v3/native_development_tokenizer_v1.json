@@ -1,0 +1,66 @@
+{
+  "add_special": "Native default; exact upstream array equality checked",
+  "generation_requests": 0,
+  "model_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+  "parse_special": true,
+  "rows": [
+    {
+      "embedded_template_same_for_this_mapping": true,
+      "official_ids_equal": true,
+      "path": "results/p1d_instruct_preparation/v3/native_tokenizer/0000.json",
+      "sha256": "7cb9f4dcaf37d667c8c682ceaba982c3f41c070710f9b9faf7c98f3bd7631d06",
+      "tokens": 1744
+    },
+    {
+      "embedded_template_same_for_this_mapping": true,
+      "official_ids_equal": true,
+      "path": "results/p1d_instruct_preparation/v3/native_tokenizer/0001.json",
+      "sha256": "1deb833a30fcac7a844822c090c079b883d91171314ddf282bb9e17cbe69d42e",
+      "tokens": 1645
+    },
+    {
+      "embedded_template_same_for_this_mapping": true,
+      "official_ids_equal": true,
+      "path": "results/p1d_instruct_preparation/v3/native_tokenizer/0002.json",
+      "sha256": "b74b0249ddb766370a7d02bce79b24874de65adf527a1167c5f3f195d39adbf1",
+      "tokens": 1646
+    },
+    {
+      "embedded_template_same_for_this_mapping": true,
+      "official_ids_equal": true,
+      "path": "results/p1d_instruct_preparation/v3/native_tokenizer/0003.json",
+      "sha256": "51acaf8088f64efec42e83b6c52c32ce30ba3824f8019325593259bed42f9696",
+      "tokens": 1642
+    },
+    {
+      "embedded_template_same_for_this_mapping": true,
+      "official_ids_equal": true,
+      "path": "results/p1d_instruct_preparation/v3/native_tokenizer/0004.json",
+      "sha256": "5ee2aa40363c87ad8df31d53e1c418194ace8ee1a97382d92efe20b173fa66d2",
+      "tokens": 1675
+    },
+    {
+      "embedded_template_same_for_this_mapping": true,
+      "official_ids_equal": true,
+      "path": "results/p1d_instruct_preparation/v3/native_tokenizer/0005.json",
+      "sha256": "f93ee29cae90047ad8b43ac0a000a6cf5cc0a75075fe9ea9d2be844e99a9e0c4",
+      "tokens": 1765
+    },
+    {
+      "embedded_template_same_for_this_mapping": true,
+      "official_ids_equal": true,
+      "path": "results/p1d_instruct_preparation/v3/native_tokenizer/0006.json",
+      "sha256": "ecc9b090d2157f29098fcdd7f1844d88d2bda3ab51add394d6498325bc38c348",
+      "tokens": 1752
+    },
+    {
+      "embedded_template_same_for_this_mapping": true,
+      "official_ids_equal": true,
+      "path": "results/p1d_instruct_preparation/v3/native_tokenizer/0007.json",
+      "sha256": "13df14c5dc6bbe77422162c013150c43afc17f6e67842ebff43a9a2130853a48",
+      "tokens": 1740
+    }
+  ],
+  "scope": "Eight development prompts only; no tensor computation or model server. Not native certification of all 288 candidate prompts.",
+  "tokenizer_sha256": "e05dbdef761e577b3d56f3daea7b205a07f68e5d87242ea4e2544382ffdd358e"
+}

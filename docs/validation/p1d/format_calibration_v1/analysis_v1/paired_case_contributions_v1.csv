@@ -1,0 +1,9 @@
+case_id,speaker_id,family,first_text_exact_equal,first_text_strip_equal,stop_shadow_exact_equal,latency_stop_minus_no_stop,tokens_stop_minus_no_stop,task_success_difference,completeness_difference,relevance_difference,coherence_difference,persona_fidelity_difference,factual_Correct_label_incidence_difference,factual_unknown_correctness_bounds,temporal_unknown_correctness_bounds
+p1d_dev_00_0,p1d_dev_s00,single_fact,False,True,True,-8.156637699983548,-80,0,0,0,0,0,0,"(-1.0, 1.0)","[-1, 1]"
+p1d_dev_01_0,p1d_dev_s01,multi_component,False,True,True,-7.0893336000153795,-73,0,0,0,0,0,0,"(0, 0)","[-1, 1]"
+p1d_dev_02_0,p1d_dev_s02,relational_integration,False,True,True,-4.4122554999776185,-73,0,0,0,0,0,0,"(0, 0)","[-1, 1]"
+p1d_dev_03_0,p1d_dev_s03,context_followup,False,True,True,-6.987537699984387,-73,0,0,0,0,0,0,"(0, 0)","[-1, 1]"
+p1d_dev_04_1,p1d_dev_s04,multi_component,False,True,True,-6.163012300035916,-73,0,0,0,0,0,0,"(0, 0)","[-1, 1]"
+p1d_dev_05_1,p1d_dev_s05,relational_integration,False,True,True,-7.64590489998227,-81,0,0,0,0,0,0,"(-1.0, 1.0)","[-1, 1]"
+p1d_dev_06_1,p1d_dev_s06,context_followup,False,True,True,-6.433463900000788,-81,0,0,0,0,0,0,"(-1.0, 1.0)","[-1, 1]"
+p1d_dev_07_1,p1d_dev_s07,single_fact,False,True,True,-5.250619099941105,-80,0,0,0,0,0,0,"(-1.0, 1.0)","[-1, 1]"

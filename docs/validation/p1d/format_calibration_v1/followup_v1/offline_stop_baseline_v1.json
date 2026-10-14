@@ -1,0 +1,159 @@
+{
+  "actual_pairs": 8,
+  "exact_shadow_vs_generated_stop_matches": 8,
+  "fixture_checks": [
+    {
+      "authored_reference": "Answer.",
+      "candidate": "Answer.",
+      "fixture_id": "role_transition",
+      "matches_authored_content": true,
+      "premature_cut": false,
+      "source": "Existing p1c_boundary_baselines.fixture_bank; authored software fixture, not independent boundary labels"
+    },
+    {
+      "authored_reference": "Answer.",
+      "candidate": "Answer.",
+      "fixture_id": "assistant_replay",
+      "matches_authored_content": true,
+      "premature_cut": false,
+      "source": "Existing p1c_boundary_baselines.fixture_bank; authored software fixture, not independent boundary labels"
+    },
+    {
+      "authored_reference": "Answer.",
+      "candidate": null,
+      "fixture_id": "question_heading",
+      "matches_authored_content": false,
+      "premature_cut": false,
+      "source": "Existing p1c_boundary_baselines.fixture_bank; authored software fixture, not independent boundary labels"
+    },
+    {
+      "authored_reference": "Answer.",
+      "candidate": "Answer.\n\nRECENT CONVERSATION:",
+      "fixture_id": "context_heading",
+      "matches_authored_content": false,
+      "premature_cut": false,
+      "source": "Existing p1c_boundary_baselines.fixture_bank; authored software fixture, not independent boundary labels"
+    },
+    {
+      "authored_reference": "Example:\n```text\nUser: literal label\n```\nDone.",
+      "candidate": "Example:\n```text",
+      "fixture_id": "fenced_role",
+      "matches_authored_content": false,
+      "premature_cut": true,
+      "source": "Existing p1c_boundary_baselines.fixture_bank; authored software fixture, not independent boundary labels"
+    },
+    {
+      "authored_reference": "Example:\n```text\nUSER QUESTION:\nliteral\n```\nDone.",
+      "candidate": null,
+      "fixture_id": "fenced_heading",
+      "matches_authored_content": false,
+      "premature_cut": false,
+      "source": "Existing p1c_boundary_baselines.fixture_bank; authored software fixture, not independent boundary labels"
+    },
+    {
+      "authored_reference": "Example:\n~~~\nRECENT CONVERSATION:\nliteral\n~~~\nDone.",
+      "candidate": null,
+      "fixture_id": "tilde_heading",
+      "matches_authored_content": false,
+      "premature_cut": false,
+      "source": "Existing p1c_boundary_baselines.fixture_bank; authored software fixture, not independent boundary labels"
+    },
+    {
+      "authored_reference": "The quotation is:\n\"\nUSER QUESTION:\nliteral\n\"\nDone.",
+      "candidate": null,
+      "fixture_id": "multiline_quote",
+      "matches_authored_content": false,
+      "premature_cut": false,
+      "source": "Existing p1c_boundary_baselines.fixture_bank; authored software fixture, not independent boundary labels"
+    },
+    {
+      "authored_reference": "The requested document follows.\nUSER QUESTION:\nA heading within the requested document.",
+      "candidate": null,
+      "fixture_id": "document_heading",
+      "matches_authored_content": false,
+      "premature_cut": false,
+      "source": "Existing p1c_boundary_baselines.fixture_bank; authored software fixture, not independent boundary labels"
+    },
+    {
+      "authored_reference": "A complete answer.",
+      "candidate": null,
+      "fixture_id": "plain_eos",
+      "matches_authored_content": false,
+      "premature_cut": false,
+      "source": "Existing p1c_boundary_baselines.fixture_bank; authored software fixture, not independent boundary labels"
+    },
+    {
+      "authored_reference": "The literal User: string is part of my explanation.",
+      "candidate": null,
+      "fixture_id": "inline_role",
+      "matches_authored_content": false,
+      "premature_cut": false,
+      "source": "Existing p1c_boundary_baselines.fixture_bank; authored software fixture, not independent boundary labels"
+    },
+    {
+      "authored_reference": "Example:\n```\nUser: literal\n```\nDone.",
+      "candidate": "Example:\n```",
+      "fixture_id": "fence_then_transition",
+      "matches_authored_content": false,
+      "premature_cut": true,
+      "source": "Existing p1c_boundary_baselines.fixture_bank; authored software fixture, not independent boundary labels"
+    }
+  ],
+  "independent_accuracy": null,
+  "negative_result": "Conventional stops reproduce observed cuts, but cannot supply missing task content. Literal role strings can cut fenced examples.",
+  "new_algorithm": false,
+  "new_generation": 0,
+  "source_sha256": "c7234c924766e086218f480c145aa81232fa4dfd9bafa96415bc607f73fe943c",
+  "timing": {
+    "fence_aware_role_or_section": {
+      "cpu_ns_per_record_batches": [
+        0.0,
+        9765.625,
+        9765.625,
+        9765.625,
+        0.0
+      ],
+      "median_cpu_ns": 9765.625
+    },
+    "frozen_v1": {
+      "cpu_ns_per_record_batches": [
+        48828.125,
+        39062.5,
+        48828.125,
+        39062.5,
+        48828.125
+      ],
+      "median_cpu_ns": 48828.125
+    },
+    "literal_role_stop_shadow": {
+      "cpu_ns_per_record_batches": [
+        9765.625,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "median_cpu_ns": 0.0
+    },
+    "native_eos_only": {
+      "cpu_ns_per_record_batches": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "median_cpu_ns": 0.0
+    },
+    "role_or_section": {
+      "cpu_ns_per_record_batches": [
+        9765.625,
+        9765.625,
+        9765.625,
+        9765.625,
+        9765.625
+      ],
+      "median_cpu_ns": 9765.625
+    }
+  }
+}
