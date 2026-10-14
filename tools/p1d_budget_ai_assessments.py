@@ -1,0 +1,253 @@
+"""Explicit AI-authored item assessments; never researcher confirmations.
+
+Each entry is keyed to exact masked measurement inputs. The assembler only
+checks and carries judgments; it does not derive task/ordinal ratings from FC.
+"""
+import json
+from pathlib import Path
+import p1d_budget_calibration as b
+from p1d_budget_review_groups import OUT, current_groups
+
+ASSESSMENTS = {
+ 'adade87dcf7b': {
+  'factual':'Unverifiable','factual_reason':'The echoed instruction substitutes Arwen for requested Arlo but asserts no locker, hub or exit value. An incorrectly addressed question is not automatically a false factual assertion.',
+  'temporal':'Unverifiable','temporal_reason':'The November date is repeated without choosing either entity\'s validity-specific values. No expired/current selection claim is delivered.',
+  'task_success':'Failure','task_reason':'Arlo\'s D05F12 -> D05F14 -> D05F15 chain yields Hub 213 and Exit 316; neither requested value appears. The alternative Arwen chain D05F28/D05F30/D05F31 is also not actually answered.',
+  'semantic_completeness':'NO','completeness_reason':'A ledger-use commitment and rewritten CURRENT QUESTION replace, rather than deliver, the two-component final answer.',
+  'relevance':2,'relevance_reason':'It retains the chain-task shape but changes the requested subject from Arlo to Arwen and supplies no required components.',
+  'coherence':3,'coherence_reason':'The commitment is followed by an instruction back to the assistant and a changed referent, disrupting the current conversational turn.',
+  'persona_fidelity':5,'persona_reason':'The sentences remain calm and grammatical, without slang; this narrow style criterion is separate from wrong referent and task non-delivery.',
+  'alternative':'Relevance 3 if preserving the chain-task topic receives more credit; coherence 2 if the entity substitution is judged a major continuity break. No supported task answer under either interpretation.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for missing components and entity substitution; moderate for ordinal severity.'},
+ 'dc97be31a3c0': {
+  'factual':'Unverifiable','factual_reason':'"I will use the trusted evidence" states a future intention and no assignment fact; it neither contradicts nor reports the D07 ledger values.',
+  'temporal':'Unverifiable','temporal_reason':'The response selects no date or validity interval for Ellis\'s November assignment.',
+  'task_success':'Failure','task_reason':'D07F12 supplies Locker 112 for Ellis during October–December. No locker value is delivered.',
+  'semantic_completeness':'NO','completeness_reason':'A commitment to use evidence is not a completed user-facing answer to which locker was assigned.',
+  'relevance':3,'relevance_reason':'Using the provided evidence is task-related but the response stops before performing the requested lookup.',
+  'coherence':5,'coherence_reason':'The single complete sentence is consistent with the prior ledger commitment and contains no internal or referential disruption.',
+  'persona_fidelity':5,'persona_reason':'Calm complete sentence with no slang matches the narrow assigned style.',
+  'alternative':'Relevance 4 under a lenient acknowledgement interpretation; factual remains Unverifiable and task Failure because no answer claim is made.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for absence of an answer; moderate for relevance score.'},
+ 'b223b82ae146': {
+  'factual':'Unverifiable','factual_reason':'The response commits to using the ledger for that date but asserts no locker/window fact. D04F12/D04F13 provide sufficient unused evidence.',
+  'temporal':'Unverifiable','temporal_reason':'Referring to that date does not choose the applicable November values.',
+  'task_success':'Failure','task_reason':'Locker 110 and 12:00-13:00 are both missing from the answer.',
+  'semantic_completeness':'NO','completeness_reason':'A future action promise is not the requested completed collection note.',
+  'relevance':3,'relevance_reason':'The ledger/date commitment is related to the task, with material omission of both requested values.',
+  'coherence':5,'coherence_reason':'A grammatical single sentence links coherently to the question date and preceding ledger context.',
+  'persona_fidelity':5,'persona_reason':'One brief direct clause, without decorative metaphor.',
+  'alternative':'Relevance 4 under a lenient acknowledgement interpretation; completion remains NO.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for no answer; moderate for relevance anchor.'},
+ 'cc8308044f0e': {
+  'factual':'Unverifiable','factual_reason':'An intention and the attributed statement of having a question assert no ledger value. The USER RESPONSE speaker is unresolved.',
+  'temporal':'Unverifiable','temporal_reason':'No November locker selection is made; the date appears only in an intention.',
+  'task_success':'Failure','task_reason':'Locker 112 from D07F12 is absent, replaced by an apparent new question preface.',
+  'semantic_completeness':'NO','completeness_reason':'No final answer is delivered before the next parsed assistant boundary.',
+  'relevance':3,'relevance_reason':'The opening mentions the relevant evidence source; the generic question preface contributes no requested assignment.',
+  'coherence':3,'coherence_reason':'USER RESPONSE creates an unprovided turn transition, interrupting the assistant response with a new speaker-like preface.',
+  'persona_fidelity':5,'persona_reason':'Calm complete sentences without slang satisfy the narrow style requirement.',
+  'alternative':'Relevance 2 if the generic new-question direction dominates the acknowledgement; shorter boundary before USER RESPONSE remains sensitivity only.',
+  'measurement_state':'INTERPRETATION_UNCERTAIN','confidence':'High for non-delivery; moderate for role attribution and relevance.'},
+ 'f5dc68224306': {
+  'factual':'Unverifiable','factual_reason':'The output asks about Quinn rather than asserting an assignment for Vera. A substituted entity in an imperative/question is not itself a false locker claim. Neither D04F12 nor D04F13 is answered.',
+  'temporal':'Unverifiable','temporal_reason':'November 15 is repeated, but the requested dated values are not selected; wrong entity mention alone does not prove outdated interval use.',
+  'task_success':'Failure','task_reason':'The requested Vera values Locker 110 and 12:00-13:00 are absent, and the reproduced request concerns a different person.',
+  'semantic_completeness':'NO','completeness_reason':'A future commitment and altered question supply no final answer.',
+  'relevance':2,'relevance_reason':'The requested action is not performed and the question is redirected from Vera to Quinn, although the ledger domain remains related.',
+  'coherence':3,'coherence_reason':'The fixed context identifies Vera; CURRENT QUESTION introduces Quinn without a user-provided transition. The text remains interpretable but reference continuity is substantially defective.',
+  'persona_fidelity':4,'persona_reason':'Direct nonfigurative clauses are retained, with avoidable question repetition weakening brevity.',
+  'alternative':'Relevance 3 if domain continuity receives greater weight; coherence 2 if entity switching is judged severely fragmented. No false factual value or completed answer is asserted.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for wrong question referent and absent answer; moderate for ordinal severity.'},
+ '44659b753c1a': {
+  'factual':'Unverifiable','factual_reason':'No locker/window value is asserted; the date-bearing follow-up is copied after a promise. D06F12/D06F13 remain unused.',
+  'temporal':'Unverifiable','temporal_reason':'The November date is part of a copied request, not an explicit interval selection.',
+  'task_success':'Failure','task_reason':'Both Locker 112 and 12:00-13:00 required for Cleo are absent.',
+  'semantic_completeness':'NO','completeness_reason':'A future commitment plus the repeated follow-up supplies no user-facing result.',
+  'relevance':3,'relevance_reason':'The correct referent and requested attributes remain topical, but the actual lookup is not delivered.',
+  'coherence':3,'coherence_reason':'The implicit volunteer referent remains resolvable, but the CURRENT QUESTION header shifts into a user-like instruction inside the response.',
+  'persona_fidelity':4,'persona_reason':'Brief direct vocabulary without metaphor, with unnecessary full question replay.',
+  'alternative':'Coherence 4 if the header is interpreted as a planning restatement; it still is not an answer.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for absent components; moderate for organization score.'},
+ '4c2662e51d9a': {
+  'factual':'Unverifiable','factual_reason':'Neither a locker nor a pickup window is stated; the span repeats the follow-up instead of asserting a claim supported by D03F20/D03F21.',
+  'temporal':'Unverifiable','temporal_reason':'The May date occurs only in the copied instruction; no dated reference value is selected.',
+  'task_success':'Failure','task_reason':'Locker 102 and 10:00-11:00 for Quinn Fairchild are both absent.',
+  'semantic_completeness':'NO','completeness_reason':'An intention and task restatement leave the requested collection note undelivered.',
+  'relevance':3,'relevance_reason':'The reply preserves the contextual volunteer and task attributes but supplies neither requested value.',
+  'coherence':3,'coherence_reason':'CURRENT QUESTION changes the direction of the turn from a response to a repeated imperative; contextual reference itself remains understandable.',
+  'persona_fidelity':5,'persona_reason':'Calm grammatical sentences without slang match the narrow assigned style, despite failed completion.',
+  'alternative':'Coherence 4 under a deliberate restatement interpretation; no completion under either reading.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for component absence; moderate for coherence anchor.'},
+ '7626100d85f1': {
+  'factual':'Unverifiable','factual_reason':'No assignment or window is asserted. The fixed context identifies Quinn Fairchild, and D03F20/D03F21 establish the answer, but the response only promises ledger use.',
+  'temporal':'Unverifiable','temporal_reason':'No date-dependent value is stated or selected for May 15.',
+  'task_success':'Failure','task_reason':'Locker 102 and 10:00-11:00 are both absent. Repeating the contextual referent in a promise is not delivery.',
+  'semantic_completeness':'NO','completeness_reason':'The entire first reply is a future commitment, with neither requested component.',
+  'relevance':3,'relevance_reason':'The reply acknowledges the correct evidence source and volunteer but materially omits the requested lookup.',
+  'coherence':5,'coherence_reason':'The pronoun-like phrase that volunteer links naturally to Quinn in the fixed context; no internal role change is present.',
+  'persona_fidelity':5,'persona_reason':'Calm complete sentence with no slang; task failure is distinct from the style requirement.',
+  'alternative':'Relevance 4 is plausible for a polite acknowledgement, but neither final-answer completion nor correct temporal selection follows.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for absent answer and referent continuity; moderate for relevance anchor.'},
+ '513235f7d34b': {
+  'factual':'Unverifiable','factual_reason':'The promise and repeated question assert no locker/window answer. D01F04/D01F05 give the reference values, neither of which is delivered.',
+  'temporal':'Unverifiable','temporal_reason':'The May date is copied in a question rather than used to select its April-June assignments.',
+  'task_success':'Failure','task_reason':'Locker 105 and 10:00-11:00 are both absent; the two-component request is reproduced rather than answered.',
+  'semantic_completeness':'NO','completeness_reason':'The response stops after an acknowledgement and task restatement without a final collection note.',
+  'relevance':3,'relevance_reason':'The volunteer, locker and pickup window remain topical, but no requested component is supplied.',
+  'coherence':3,'coherence_reason':'CURRENT QUESTION converts a response into an imperative user request inside the same frozen span.',
+  'persona_fidelity':5,'persona_reason':'The clauses are calm, grammatical and free of slang; the style target does not itself prohibit repetition.',
+  'alternative':'Coherence 4 if the task restatement is read as deliberate planning. No interpretation supplies either required component.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for absent components; moderate for coherence anchor.'},
+ '4d9904f17910': {
+  'factual':'Unverifiable','factual_reason':'The sole intention to use the ledger states no locker, hub or exit proposition. D05F12 to D05F14 to D05F15 supports the chain but is not expressed.',
+  'temporal':'Unverifiable','temporal_reason':'No November interval or time-specific relationship is selected.',
+  'task_success':'Failure','task_reason':'Neither Hub 213 nor Exit 316 is delivered. Acknowledging the volunteer does not complete the two-link request.',
+  'semantic_completeness':'NO','completeness_reason':'A promise to consult the ledger is the entire first reply; the requested result is absent.',
+  'relevance':3,'relevance_reason':'The evidence-use intention is task-related but materially omits both requested relational outputs.',
+  'coherence':5,'coherence_reason':'The grammatical single sentence preserves the volunteer referent and has no internal turn shift.',
+  'persona_fidelity':5,'persona_reason':'Calm complete sentence without slang, consistent with the narrow style target.',
+  'alternative':'Relevance 4 under a lenient acknowledgement anchor; task non-delivery is unchanged.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for component absence; moderate for relevance anchor.'},
+ 'ce200782ff3b': {
+  'factual':'Unverifiable','factual_reason':'The future ledger-use commitment and copied question assert neither assignment value. D04F12/D04F13 supply the reference, but the reply does not state it.',
+  'temporal':'Unverifiable','temporal_reason':'The November date is repeated only as part of the request; no interval-dependent locker or window is selected.',
+  'task_success':'Failure','task_reason':'Locker 110 and 12:00-13:00 are both absent. Referring to that date instead of that volunteer does not deliver either component.',
+  'semantic_completeness':'NO','completeness_reason':'The reply promises evidence use then reprints CURRENT QUESTION, without a final collection note.',
+  'relevance':3,'relevance_reason':'The date and requested locker/window are on-topic, but the requested action is repeated rather than performed.',
+  'coherence':3,'coherence_reason':'The future commitment shifts into a user-like imperative under CURRENT QUESTION, producing a substantial but interpretable turn-organization defect.',
+  'persona_fidelity':4,'persona_reason':'Direct nonfigurative wording, weakened brevity through unnecessary request repetition.',
+  'alternative':'Coherence 4 under a deliberate-restatement interpretation. Neither interpretation supplies the answer.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for absent answer; moderate for organization and relevance anchors.'},
+ 'd7215b04cfc4': {
+  'factual':'Unverifiable','factual_reason':'Having a question and intending to use a ledger do not assert an assignment fact. USER RESPONSE makes attribution of the second sentence uncertain.',
+  'temporal':'Unverifiable','temporal_reason':'No November validity-interval selection is expressed despite sufficient D07F12 evidence.',
+  'task_success':'Failure','task_reason':'The requested Locker 112 is not supplied; announcing another question does not answer the existing one.',
+  'semantic_completeness':'NO','completeness_reason':'An intention and an apparent new user question preface replace the requested final answer.',
+  'relevance':3,'relevance_reason':'The ledger is correctly topical, but no locker information is delivered and the conversation is redirected to another question.',
+  'coherence':3,'coherence_reason':'USER RESPONSE creates an apparent role transition within the frozen assistant span, with no genuine intervening user input.',
+  'persona_fidelity':5,'persona_reason':'Both clauses are calm complete sentences without slang; this narrow stylistic conformity is separate from failed delivery.',
+  'alternative':'A shorter span ending before USER RESPONSE is a plausible boundary sensitivity; it still contains only a promise.',
+  'measurement_state':'INTERPRETATION_UNCERTAIN','confidence':'High for missing answer; moderate for speaker attribution.'},
+ '6e8e19c63615': {
+  'uncertainty_subtype':'MATERIAL_CLAIM_SCOPE',
+  'factual':'Correct','factual_reason':'The only substantive declarative content, "Historical quotations describe their stated intervals", repeats the common frozen TASK RULES verbatim. This is supported policy/metadata content, not a hub/exit fact or successful reasoning.',
+  'temporal':'Unverifiable','temporal_reason':'A general interval principle is stated, but no requested-date hub/exit value or actual interval selection is delivered.',
+  'task_success':'Failure','task_reason':'Hub 216 and Exit 316 are absent; a correct general rule and copied question do not complete the requested relational answer.',
+  'semantic_completeness':'NO','completeness_reason':'A future commitment, policy echo and repeated question contain no final answer.',
+  'relevance':3,'relevance_reason':'The interval principle is related to the task, but the requested outputs are omitted and the question is merely repeated.',
+  'coherence':3,'coherence_reason':'CURRENT QUESTION switches from assistant commentary to a reproduced user command inside the first span.',
+  'persona_fidelity':4,'persona_reason':'Direct nonfigurative clauses, with unnecessary policy/question repetition reducing brevity.',
+  'alternative':'Factual Unverifiable if the researcher treats a generic task-rule echo as no material factual claim. Preserve this interpretation sensitivity; neither choice establishes task success or temporal selection.',
+  'measurement_state':'INTERPRETATION_UNCERTAIN','confidence':'High for supported literal policy echo and no delivered answer; moderate for whether that echo qualifies as a material factual claim.'},
+ 'a55a97c52441': {
+  'factual':'Unverifiable','factual_reason':'The sole future commitment makes no hub or exit claim; the ledger chain D02F04 to D02F06 to D02F07 is not stated.',
+  'temporal':'Unverifiable','temporal_reason':'No May interval selection or dated value appears in the promise.',
+  'task_success':'Failure','task_reason':'Neither Hub 216 nor Exit 316 is delivered. Promising to consult the ledger does not complete the two-link request.',
+  'semantic_completeness':'NO','completeness_reason':'The first reply ends after an intention to use the ledger, without an answer.',
+  'relevance':3,'relevance_reason':'The commitment concerns the right evidence source but materially omits the requested hub/exit outputs.',
+  'coherence':5,'coherence_reason':'The single grammatical sentence refers consistently to the volunteer in the preceding context, without an internal role shift.',
+  'persona_fidelity':5,'persona_reason':'A brief direct clause with no decorative metaphor matches the style target.',
+  'alternative':'Relevance 4 under a lenient acknowledgement interpretation; no interpretation makes the missing hub/exit delivered.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for missing components; moderate for relevance anchor.'},
+ '51db13fa968a': {
+  'factual':'Unverifiable','factual_reason':'Reading, closing, shelving and leaving are procedural claims under a USER RESPONSE label; the trusted assignment evidence does not establish these actions or their speaker.',
+  'temporal':'Unverifiable','temporal_reason':'No locker value is attributed to 2048-11-15; event ordering in the procedural narrative is not requested-date selection.',
+  'task_success':'Failure','task_reason':'The Locker 112 value from D07F12 is absent despite sufficient evidence.',
+  'semantic_completeness':'NO','completeness_reason':'A ledger-use promise followed by unrelated procedural narration supplies no final assignment answer.',
+  'relevance':2,'relevance_reason':'Most of the span describes handling a folder rather than answering which locker applies.',
+  'coherence':3,'coherence_reason':'USER RESPONSE introduces an unprovided speaker turn inside the extracted reply, disrupting attribution and dialogue organization.',
+  'persona_fidelity':5,'persona_reason':'The sentences are calm and complete, with no slang; irrelevance is scored separately from this narrow style target.',
+  'alternative':'A shorter assistant-only promise before USER RESPONSE could be defensible, but remains a separate boundary sensitivity and still lacks the answer.',
+  'measurement_state':'INTERPRETATION_UNCERTAIN','confidence':'High for no delivery; moderate for role attribution.'},
+ 'eb6c59250845': {
+  'factual':'Unverifiable','factual_reason':'No locker/window value is asserted; a future intention to consult a ledger is not a supported assignment claim.',
+  'temporal':'Unverifiable','temporal_reason':'The span contains no requested-date interval choice. D01F04/D01F05 are sufficient but unused.',
+  'task_success':'Failure','task_reason':'Locker 105 and 10:00-11:00 are both missing from the reply.',
+  'semantic_completeness':'NO','completeness_reason':'The sole promise does not deliver the requested two-component answer.',
+  'relevance':3,'relevance_reason':'Related to the evidence-seeking action, but materially incomplete in the actual requested outputs.',
+  'coherence':5,'coherence_reason':'The sentence is organized and preserves the volunteer referent from fixed context; its lack of answer does not make it incoherent.',
+  'persona_fidelity':5,'persona_reason':'A calm complete sentence without slang conforms to the assigned style.',
+  'alternative':'A more generous relevance score of 4 is plausible for an acknowledgement, while task Failure and semantic NO remain unchanged.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for absent answer; moderate for ordinal relevance.'},
+ '010a04ae8240': {
+  'factual':'Unverifiable','factual_reason':'The future commitment and copied question assert no locker or pickup-window answer. D04F12/D04F13 support an answer but none is asserted.',
+  'temporal':'Unverifiable','temporal_reason':'2048-11-15 appears only in the reproduced request; no dated attribute selection is delivered.',
+  'task_success':'Failure','task_reason':'Neither Locker 110 nor 12:00-13:00 is supplied; repeating the two-component request is not its completion.',
+  'semantic_completeness':'NO','completeness_reason':'"I will use the ledger" promises work, followed by CURRENT QUESTION and a restatement rather than a final answer.',
+  'relevance':3,'relevance_reason':'The volunteer and both requested attributes remain on-topic, but the reply repeats the action requested instead of performing it.',
+  'coherence':3,'coherence_reason':'CURRENT QUESTION switches from an assistant commitment into an imperative user-like request within the frozen span; this disrupts turn organization.',
+  'persona_fidelity':4,'persona_reason':'Direct vocabulary and no decorative metaphors; unnecessary question repetition weakens the requested brevity.',
+  'alternative':'Coherence 4 if the copied question is read as a deliberate restatement. The task still fails. A header-based shorter span is sensitivity only.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for absent answer components; moderate for ordinal anchors and header attribution.'},
+ '1dfd7c029a23': {
+  'factual':'Unverifiable','factual_reason':'No actual locker-to-hub or hub-to-exit value is asserted; the prompt relationship is echoed rather than solved.',
+  'temporal':'Unverifiable','temporal_reason':'The requested May date is copied without selecting its interval. D02F06/D02F07 remain unused answer evidence.',
+  'task_success':'Failure','task_reason':'Hub 216 and Exit 316 are both absent. Mentioning the required chain is not an intermediate fact or a completed chain answer.',
+  'semantic_completeness':'NO','completeness_reason':'Only a promise and an echoed CURRENT QUESTION occur before the next Assistant marker.',
+  'relevance':3,'relevance_reason':'It names the correct subject and repeats the exact relational task, but supplies neither requested output.',
+  'coherence':3,'coherence_reason':'The commitment is followed by a question-section replay that commands the assistant to act, confusing the direction of the current turn.',
+  'persona_fidelity':4,'persona_reason':'Direct non-metaphorical wording is retained, with avoidable repetition and a long copied instruction.',
+  'alternative':'Coherence 4 if restating the task is treated as intentional planning; no answer completion under either interpretation.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for no delivered components; moderate for organization/style.'},
+ '348f3c0bbc04': {
+  'factual':'Unverifiable','factual_reason':'The procedural narrative describes reading, closing and leaving, not the ledger assignment. USER RESPONSE leaves speaker attribution unresolved; these actions are not established by the trusted ledger.',
+  'temporal':'Unverifiable','temporal_reason':'"that date" in a future promise does not select the April-June locker value. The narrative has no requested-date attribution.',
+  'task_success':'Failure','task_reason':'The required Locker 111 answer supported by D00F04 is absent regardless of who is attributed the procedural narrative.',
+  'semantic_completeness':'NO','completeness_reason':'No requested answer follows the promise; procedural prose cannot complete the locker query.',
+  'relevance':2,'relevance_reason':'Most of the span concerns folder handling and leaving the room, tangential to the requested assignment.',
+  'coherence':3,'coherence_reason':'USER RESPONSE introduces an apparent second speaker inside the extracted assistant span, with no conversationally justified transition.',
+  'persona_fidelity':3,'persona_reason':'A multi-sentence procedural digression is substantially less brief than the assigned direct style, though it contains no decorative metaphor.',
+  'alternative':'If USER RESPONSE marks a real user turn, the assistant span is only the opening promise; factual remains unassessable and task still fails. Do not relabel the frozen boundary.',
+  'measurement_state':'INTERPRETATION_UNCERTAIN','confidence':'High for task non-delivery; moderate for factual attribution and ordinal ratings.'},
+ '6285292cc3a5': {
+  'factual':'Unverifiable','factual_reason':'A future intention and "I am not sure" contain no verifiable assignment assertion; D00F04 is sufficient evidence but is not used in an answer.',
+  'temporal':'Unverifiable','temporal_reason':'No validity interval or date-specific locker choice is asserted.',
+  'task_success':'Failure','task_reason':'Locker 111 is not delivered; a promise followed by uncertainty does not satisfy the one-component request.',
+  'semantic_completeness':'NO','completeness_reason':'The response does not provide the requested final answer.',
+  'relevance':3,'relevance_reason':'The date/ledger commitment is related to the task, but the subsequent uncertainty does not answer it.',
+  'coherence':3,'coherence_reason':'USER RESPONSE changes apparent speaker without a genuine user input; the commitment/uncertainty sequence has unresolved attribution.',
+  'persona_fidelity':5,'persona_reason':'Both utterances use brief direct clauses without figurative language; style adherence does not imply reliability.',
+  'alternative':'Coherence 4 if the second utterance is self-reported uncertainty rather than a simulated user. Task Failure remains the same.',
+  'measurement_state':'INTERPRETATION_UNCERTAIN','confidence':'High for no answer; moderate for coherence attribution.'},
+ 'b6c712f64ea1': {
+  'factual':'Unverifiable','factual_reason':'The exact statement "I don\'t have the ledger for that date." under USER RESPONSE has uncertain speaker and epistemic attribution. If attributed to the assistant as prompt-availability denial it conflicts with the supplied ledger; if simulated user speech it is not a ledger fact.',
+  'temporal':'Unverifiable','temporal_reason':'No November locker value is chosen. The availability statement does not identify an expired interval selection.',
+  'task_success':'Failure','task_reason':'D07F12 supports Locker 112; no locker answer is delivered under either attribution.',
+  'semantic_completeness':'NO','completeness_reason':'A promise and an attributed lack-of-ledger statement do not complete the requested lookup.',
+  'relevance':3,'relevance_reason':'Mentions the relevant ledger/date but replaces the requested answer with an availability statement.',
+  'coherence':3,'coherence_reason':'An assistant commitment is followed by a USER RESPONSE section, so the frozen span conflates apparent speakers.',
+  'persona_fidelity':5,'persona_reason':'Calm grammatical complete sentences, no slang; delivery failure is not itself a style violation.',
+  'alternative':'Factual Incorrect if the lack-of-ledger statement is adjudicated as the assistant denying evidence supplied in its prompt; Unverifiable under the primary unresolved attribution.',
+  'measurement_state':'INTERPRETATION_UNCERTAIN','confidence':'High for task failure; lower for factual attribution, explicitly requiring human adjudication.'},
+ 'b842afae91f4': {
+  'factual':'Unverifiable','factual_reason':'"I will use the ledger" is an intention, with no material locker/window assertion to verify.',
+  'temporal':'Unverifiable','temporal_reason':'No date-specific value or interval reasoning is delivered.',
+  'task_success':'Failure','task_reason':'Both Locker 112 and 12:00-13:00 from D06F12/D06F13 are absent; resolving "that volunteer" in a promise is not task completion.',
+  'semantic_completeness':'NO','completeness_reason':'The sole sentence promises an answer rather than delivering one.',
+  'relevance':3,'relevance_reason':'The intended ledger action is responsive in topic but materially incomplete relative to the two requested components.',
+  'coherence':5,'coherence_reason':'A grammatical single turn refers consistently to the volunteer in fixed context; it is coherent despite failing to answer.',
+  'persona_fidelity':5,'persona_reason':'One brief direct clause without metaphor conforms to the assigned style.',
+  'alternative':'Relevance 4 if a task-related acknowledgement is scored leniently; the rubric emphasis on performing the requested action supports 3.',
+  'measurement_state':'EVIDENCE_UNVERIFIABLE','confidence':'High for delivery/support; moderate for ordinal relevance.'},
+}
+
+def assemble():
+    groups=current_groups();out=[];missing=[]
+    for key,g in groups.items():
+        match=[p for p in ASSESSMENTS if key.startswith(p)]
+        if not match:missing.append(key);continue
+        if len(match)!=1:raise ValueError('Nonunique assessment key')
+        a=ASSESSMENTS[match[0]]
+        if any(c['value'] in g['primary_text'] for c in g['required_components']):
+            raise ValueError('This manually reviewed no-component assessment requires reinspection: '+key)
+        out.append({'group_id':key,'primary_text_sha256':g['primary_text_sha256'],'primary_text':g['primary_text'],
+            'anonymous_members':g['anonymous_members'],**a,
+            'components':[{'key':c['key'],'reference_value':c['value'],'source_id':c['source_id'],
+                'presence':'ABSENT','support':'ABSENT','evidence':'No delivered value in the preserved primary span.'} for c in g['required_components']],
+            'uncertainty_subtype':a.get('uncertainty_subtype','NO_EVALUABLE_ANSWER_CLAIM' if a['measurement_state']=='EVIDENCE_UNVERIFIABLE' else 'ROLE_OR_EPISTEMIC_ATTRIBUTION'),
+            'annotation_origin':'AI_assisted_masked_file_review','review_status':'UNCONFIRMED','researcher_decision':'','reviewer_id':'','human_review_timestamp':None})
+    return out,missing
+
+if __name__=='__main__':
+    rows,missing=assemble();print(json.dumps({'assessed_groups':len(rows),'unassessed_groups':missing,'human_decisions':0},indent=2))

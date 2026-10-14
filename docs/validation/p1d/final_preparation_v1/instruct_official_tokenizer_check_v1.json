@@ -1,0 +1,44 @@
+{
+  "version": "p1d_instruct_official_tokenizer_check_v1",
+  "records": 288,
+  "runtime": "0.22.2",
+  "input_token_range": [
+    1965,
+    2083
+  ],
+  "exact_roundtrips": 288,
+  "base_native_equivalence_on_matched_body": 288,
+  "minimum_remaining_context_at_256": 1757,
+  "special_handling": "Official rendered chat markers parsed as added tokens; encode(add_special_tokens=False), no truncation/padding; decode retains special tokens.",
+  "sources": {
+    "docs\\validation\\p1d\\scientific_validation_v1\\instruct_rendered_candidates_v1.json": "af85ff614979dafc3903f1eeb75efdd83df140ec937562a83d3cdb0b4404d6b3",
+    "results\\p1d_final_preparation\\v1\\official_tokenizer\\tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "docs\\validation\\p1d\\independent_candidates_v4\\native_tokenizer_validation_v1.json": "9b35e30cfae7cbd5dc10fdd95110a474c874573cd9aa2113f1821d1d0fb69bf1",
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\tools\\p1d_instruct_tokenize_offline.py": "9a7ed7392b221ae9e5a6fca1027d589f2e3b730ac58105b0f277df6e2769737d"
+  },
+  "runtime_file_hashes": {
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/tokenizers.pyd": "7acb83f5b89136597e0d14b788d82917bf2870df94575bf77e12731c4e49c4df",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/__init__.py": "510d5e23458612433da9f1fe430b5009fb88ba90508ee4340d2397b32c319080",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/decoders/__init__.py": "42bd636c0d9fbeac23801058384c9a0e32c1c03c2405fb4fe63377b51bd3d638",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/implementations/base_tokenizer.py": "d9114c96c585a92f0069c5cad9d6d3f630925673b2f3a1115b099a587f2f6454",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/implementations/bert_wordpiece.py": "8d150c4985350bb9d510364c29dc86dd5a7bf825289e0135906261bce3ff1073",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/implementations/byte_level_bpe.py": "a567db49e69ec3d6ad58a5fc35fdb321189aeaa840c1731f66069e20d227ce8f",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/implementations/char_level_bpe.py": "06dd79ac4719452cc9d917c47aad98bce5d9f30fd4606abd8ba3b7cbee35023e",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/implementations/sentencepiece_bpe.py": "e3f74915c36ccaf0bf175c019d60c1aae5acb1b50c57890ff811177ae1dcc6d2",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/implementations/sentencepiece_unigram.py": "2868e12335ee930264a5aa354087b95d5ac42003232a219a1c4ce90072fed48f",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/implementations/__init__.py": "f592367091cf0940995cfdfb18d9911ed07321888a5b3caa932d6bb5c61dacfc",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/models/__init__.py": "a84ef7ab270f00a71ecbfa52f28bf5148cf5d0bd986f3cb513ed4a19e7b6ed08",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/normalizers/__init__.py": "3e06ffc04d50428bf7b7f496e2f72c5d8ea55410d8c8635f606909324df023b7",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/pre_tokenizers/__init__.py": "42f366313b55d111a468a48df614f010f8a60f538b1d153a3dbcd5c57c0ce330",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/processors/__init__.py": "5f538a2adaf721479e75ef39988d5c2c5d0caa60d196becb345318744cb928c5",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/tools/visualizer.py": "8d67318454ecca242bf994260c94a3cc4712199bd96682837acd88adad44560f",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/tools/__init__.py": "9892d5ac737514fdb709fe3f1095a8614761f324dbe416c914d7daf04739bc73",
+    "results/p1d_final_preparation/v1/tokenizer_runtime/tokenizers/trainers/__init__.py": "bfd09db6855abb00fa6f5c0003a47982848b66c9416cf139bd91ccd9df2c80a3"
+  },
+  "shared_vocab_defined_ids_equal": 248070,
+  "base_extra_ids_without_official_definition": 250,
+  "merges_equal": 247587,
+  "local_instruct_model_ready": false,
+  "new_generations": 0,
+  "limits": "Upstream JSON tokenizer only; final quantized Instruct tokenizer, backend/minja template equivalence, stop behavior, RAM and latency still need verification. No substitution of these IDs into an executable manifest."
+}

@@ -1,0 +1,70 @@
+{
+  "classification": "Known-method parsing adaptation; no original algorithm claim",
+  "failure_test": "Late labels can veto earlier spans under the frozen parser; authored tests demonstrate the code property, empirical frequency is separately counted.",
+  "historical_labels_changed": false,
+  "methods": {
+    "fence_aware_role_or_section": {
+      "candidates": 72,
+      "independent_accuracy": null,
+      "previously_unidentifiable_with_candidate": [
+        "PC010",
+        "PC023",
+        "PC033",
+        "PC039",
+        "PC042",
+        "PC044",
+        "PC054",
+        "PC063"
+      ]
+    },
+    "frozen_v1": {
+      "candidates": 64,
+      "independent_accuracy": null,
+      "previously_unidentifiable_with_candidate": []
+    },
+    "literal_role_stop_shadow": {
+      "candidates": 71,
+      "independent_accuracy": null,
+      "previously_unidentifiable_with_candidate": [
+        "PC010",
+        "PC023",
+        "PC033",
+        "PC039",
+        "PC042",
+        "PC044",
+        "PC054",
+        "PC063"
+      ]
+    },
+    "native_eos_only": {
+      "candidates": 2,
+      "independent_accuracy": null,
+      "previously_unidentifiable_with_candidate": [
+        "PC010",
+        "PC023"
+      ]
+    },
+    "prefix_locality_diagnostic": {
+      "candidates": 64,
+      "independent_accuracy": null,
+      "previously_unidentifiable_with_candidate": []
+    },
+    "role_or_section": {
+      "candidates": 72,
+      "independent_accuracy": null,
+      "previously_unidentifiable_with_candidate": [
+        "PC010",
+        "PC023",
+        "PC033",
+        "PC039",
+        "PC042",
+        "PC044",
+        "PC054",
+        "PC063"
+      ]
+    }
+  },
+  "new_generations": 0,
+  "source": "docs/validation/p1c/calibration_v1/measurement_v1/structural_review_view_v1.csv",
+  "source_sha256": "c511b290070a6efa614772922e9b2043396b92c394a8e6fda72c0a5e8153184f"
+}

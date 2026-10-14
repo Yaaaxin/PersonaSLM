@@ -1,0 +1,22 @@
+{
+  "historical_inputs_modified": false,
+  "interpretation": "Concrete prompt-framing difference supports a bounded diagnostic, not a causal explanation of between-wave outcomes. Evidence length, tasks, identities and fixed context also differ.",
+  "new_generations": 0,
+  "p1c_context": "Assistant asks which assignment to check, followed by explicitly marked User question.",
+  "p1c_current_question_with_User_marker": 72,
+  "p1c_input_token_range": [
+    701,
+    938
+  ],
+  "p1c_requests": 72,
+  "p1d_context": "Assistant commits to use the ledger, followed by CURRENT QUESTION section and an unmarked question.",
+  "p1d_current_question_without_User_marker": 144,
+  "p1d_input_token_range": [
+    1633,
+    1807
+  ],
+  "p1d_requests": 144,
+  "source_p1c_sha256": "b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b",
+  "source_p1d_sha256": "510e46b214dda23dea2a3e5462d44982d25b7a9db022626a7a5a1ba504d5e039",
+  "version": "frozen_prompt_role_format_comparison_v1"
+}

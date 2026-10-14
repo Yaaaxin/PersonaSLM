@@ -1,0 +1,1442 @@
+[
+  {
+    "anonymous_response_id": "BC001",
+    "budget": 96,
+    "case_id": "p1d_dev_03_0",
+    "condition": "E0V1",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_E0V1_b96",
+    "request_sha256": "b8cfa602a2d280af7a8673e69462de9aa82b218d304273fc82509f52faf74da8",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC002",
+    "budget": 96,
+    "case_id": "p1d_dev_07_1",
+    "condition": "H_none",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_H_none_b96",
+    "request_sha256": "b419921b1167fe6e72e55c88a6a351f59d490b93942eec9c33e4139a1c95a0cc",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC003",
+    "budget": 256,
+    "case_id": "p1d_dev_01_0",
+    "condition": "E0V0",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_E0V0_b256",
+    "request_sha256": "2f1e6fbf10f3c88c9b7d96ad659ec6c4425cf7ae1dcddc0e004fe546635c43f8",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC004",
+    "budget": 256,
+    "case_id": "p1d_dev_06_1",
+    "condition": "E0V1",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_E0V1_b256",
+    "request_sha256": "4b78bcbf0ec2b460fc028edd359569f86b9015d9c37cf40a6098c7bb603640e9",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC005",
+    "budget": 192,
+    "case_id": "p1d_dev_06_1",
+    "condition": "E0V1",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_E0V1_b192",
+    "request_sha256": "f37ce93ac14669bbc6fd720353f941d03f4630f20f8de225a5e74e933f9c74d7",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC006",
+    "budget": 96,
+    "case_id": "p1d_dev_00_0",
+    "condition": "E1V0",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_E1V0_b96",
+    "request_sha256": "4c4317fad8ddd0fda7e73db54c4a27a1c985e743f79133b7e808f5ab597c46e3",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC007",
+    "budget": 256,
+    "case_id": "p1d_dev_04_1",
+    "condition": "E0V0",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_E0V0_b256",
+    "request_sha256": "d2111303112537a7bf1d090955a734dbffd07a9cb229d2ea0120a7e458769d32",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC008",
+    "budget": 192,
+    "case_id": "p1d_dev_05_1",
+    "condition": "E0V1",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_E0V1_b192",
+    "request_sha256": "108937c4138642f87bff6b9d1eb65cb4dc7faa8bbb6c54c1369e781386c0c5b9",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC009",
+    "budget": 256,
+    "case_id": "p1d_dev_04_1",
+    "condition": "E1V1",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_E1V1_b256",
+    "request_sha256": "e2fff090d23c891aa3792e2d47f94f6254e075898711aa9a4512ad2ffbcd5942",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC010",
+    "budget": 256,
+    "case_id": "p1d_dev_03_0",
+    "condition": "H_none",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_H_none_b256",
+    "request_sha256": "00a53f8fb0346f2e81476087c6a6889f949a0ee0cdab09877515c4980331c443",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC011",
+    "budget": 256,
+    "case_id": "p1d_dev_03_0",
+    "condition": "E0V0",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_E0V0_b256",
+    "request_sha256": "b1d1af5f9e83f1df02d38ecc235e28da50c2920c70c11cd54ae1b2101fae27bf",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC012",
+    "budget": 256,
+    "case_id": "p1d_dev_06_1",
+    "condition": "E1V1",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_E1V1_b256",
+    "request_sha256": "3bae789ab507478a89b149d24fee2bc3e3d77d4c875ac46237300296cf8e16f8",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC013",
+    "budget": 96,
+    "case_id": "p1d_dev_00_0",
+    "condition": "D_procedural",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_D_procedural_b96",
+    "request_sha256": "3eb655380dcc569eb7f6c97cc9d375e7ed505481d0b733082ead8a1c420cb0e4",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC014",
+    "budget": 256,
+    "case_id": "p1d_dev_01_0",
+    "condition": "D_procedural",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_D_procedural_b256",
+    "request_sha256": "bc7d6c6b17b3e9dab2fc3524bc125d0333a97c312097b82d52cc4287119bd404",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC015",
+    "budget": 96,
+    "case_id": "p1d_dev_04_1",
+    "condition": "E0V1",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_E0V1_b96",
+    "request_sha256": "03b743d01f3a5c02d0eac439b5a98d60c14351be5b7fcffc0e9b16d33865aedd",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC016",
+    "budget": 192,
+    "case_id": "p1d_dev_06_1",
+    "condition": "E1V0",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_E1V0_b192",
+    "request_sha256": "47f89398e03de7f4d7a28baef0338ab328ae6d59ff3138f37bc7f1c097310d0e",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC017",
+    "budget": 256,
+    "case_id": "p1d_dev_02_0",
+    "condition": "D_procedural",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_D_procedural_b256",
+    "request_sha256": "d846f62f03925ca54b28ff203f79df244b1074bae42fd5929e641f3821b2b8c1",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC018",
+    "budget": 256,
+    "case_id": "p1d_dev_01_0",
+    "condition": "E0V1",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_E0V1_b256",
+    "request_sha256": "2bf9778cbca09a7085062a2a18d21de38ebb753734aa0dd2b6baa3d32745146a",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC019",
+    "budget": 192,
+    "case_id": "p1d_dev_04_1",
+    "condition": "E0V0",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_E0V0_b192",
+    "request_sha256": "172187fa9453a81a60f9e47e6a0637fa9816d2d05f0153c2859a3365aaad3d50",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC020",
+    "budget": 192,
+    "case_id": "p1d_dev_03_0",
+    "condition": "E0V1",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_E0V1_b192",
+    "request_sha256": "7f84a84b8048c142b8befe240c3d6ef636039a321cf86126106572db3968cf97",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC021",
+    "budget": 256,
+    "case_id": "p1d_dev_01_0",
+    "condition": "E1V1",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_E1V1_b256",
+    "request_sha256": "682becd71a55ea9fa93a0ca24b053dafbeace8cc36fae91ff3b09958de805545",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC022",
+    "budget": 256,
+    "case_id": "p1d_dev_02_0",
+    "condition": "E1V1",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_E1V1_b256",
+    "request_sha256": "0bcee7205402cf1bf3183612fd89855632dbb64e6fe5144a5f74f7b073c2d076",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC023",
+    "budget": 256,
+    "case_id": "p1d_dev_06_1",
+    "condition": "H_none",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_H_none_b256",
+    "request_sha256": "456568ced76fedbc075cab723a65f5bc99c8663fcb2b7619cd69ab7a663d3802",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC024",
+    "budget": 192,
+    "case_id": "p1d_dev_00_0",
+    "condition": "E1V0",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_E1V0_b192",
+    "request_sha256": "397a0341f9319ac93d2d8feafdbd53c7ab2b62a1287cd9b8428339eebf1f6dd0",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC025",
+    "budget": 192,
+    "case_id": "p1d_dev_01_0",
+    "condition": "D_procedural",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_D_procedural_b192",
+    "request_sha256": "f14498078c82a432116a315bdf63f909e47b20b77dfa566b162e45f7545ff620",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC026",
+    "budget": 96,
+    "case_id": "p1d_dev_01_0",
+    "condition": "E0V0",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_E0V0_b96",
+    "request_sha256": "cbd45ae3fd3ab19a7dcdec464e72263f4afc6aecb636d5c73c9a6eb12040cd16",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC027",
+    "budget": 96,
+    "case_id": "p1d_dev_04_1",
+    "condition": "E1V0",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_E1V0_b96",
+    "request_sha256": "72a2c112743e3996171bf96779f3e4426f71c08b3fe95a9344e5847cea7137fa",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC028",
+    "budget": 256,
+    "case_id": "p1d_dev_02_0",
+    "condition": "E0V1",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_E0V1_b256",
+    "request_sha256": "98f66bbc6316a23c7b6eb0c5d4711dbfd8cf9126d742694f694c79dd0644abbc",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC029",
+    "budget": 192,
+    "case_id": "p1d_dev_00_0",
+    "condition": "E1V1",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_E1V1_b192",
+    "request_sha256": "9a1deaa659c6ef8654d698d326bf6dbea881e94c5096905434c4c590a9598e2b",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC030",
+    "budget": 256,
+    "case_id": "p1d_dev_07_1",
+    "condition": "E0V0",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_E0V0_b256",
+    "request_sha256": "c40f8d8e3272261347960d86c9d0c85c911f721d859d658f6750dfd3eb54b8a8",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC031",
+    "budget": 96,
+    "case_id": "p1d_dev_05_1",
+    "condition": "E0V0",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_E0V0_b96",
+    "request_sha256": "6485b337de01f35b313ba46087e903aa9832c9ccbdd56b192ce78af504c205bc",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC032",
+    "budget": 192,
+    "case_id": "p1d_dev_04_1",
+    "condition": "E1V0",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_E1V0_b192",
+    "request_sha256": "e1c82efe6d841e8cab45501dff4e42a50148e4844dd4ffc2379d0fd01a46e195",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC033",
+    "budget": 96,
+    "case_id": "p1d_dev_04_1",
+    "condition": "H_none",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_H_none_b96",
+    "request_sha256": "c41ae2c0e3885305583d089e344ddd90a213dbedc8e4aca98eed488b77d237d2",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC034",
+    "budget": 192,
+    "case_id": "p1d_dev_03_0",
+    "condition": "E0V0",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_E0V0_b192",
+    "request_sha256": "8f246b3765d9ca39c9b38c6dcca6fea087b8f3857bb4f67c9f6978a8677e168a",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC035",
+    "budget": 96,
+    "case_id": "p1d_dev_02_0",
+    "condition": "E0V1",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_E0V1_b96",
+    "request_sha256": "b8dc6ba0ea89dac9d6b1b65ea1167bd250211bdc690690acfdea68cce09f30b4",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC036",
+    "budget": 96,
+    "case_id": "p1d_dev_01_0",
+    "condition": "D_procedural",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_D_procedural_b96",
+    "request_sha256": "ae79b3ede5db0e6e7fd7a422dd05ab213cdf0f3c11c07e339eb02d5c5d7515d1",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC037",
+    "budget": 96,
+    "case_id": "p1d_dev_07_1",
+    "condition": "E1V0",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_E1V0_b96",
+    "request_sha256": "8818e8d562d45b79e0556f4554479d0d51f3f63e693d6ba13b9eb7f59f201494",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC038",
+    "budget": 96,
+    "case_id": "p1d_dev_07_1",
+    "condition": "E1V1",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_E1V1_b96",
+    "request_sha256": "6be65e0c98950c3f52d3cec09ef49f68c90d1eef3635434d84d017c2bbb3576a",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC039",
+    "budget": 192,
+    "case_id": "p1d_dev_02_0",
+    "condition": "E1V0",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_E1V0_b192",
+    "request_sha256": "48a9b94a64293a3ddd83625b93a784ebd851c0e499743806dd1a0788863c0b0e",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC040",
+    "budget": 96,
+    "case_id": "p1d_dev_03_0",
+    "condition": "E0V0",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_E0V0_b96",
+    "request_sha256": "948be4367ac595f480ed90dba54e0f40916dadba98e706ebd2a628a453363571",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC041",
+    "budget": 192,
+    "case_id": "p1d_dev_01_0",
+    "condition": "E1V0",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_E1V0_b192",
+    "request_sha256": "7b510e78d83f1f4d208d5f7ba93f8973703cd590a213b83464283f6f9693278d",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC042",
+    "budget": 192,
+    "case_id": "p1d_dev_00_0",
+    "condition": "H_none",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_H_none_b192",
+    "request_sha256": "3aea73c845d2930dbbe1681351d2cdfdffe1e28d7bd6761966ac365233dc32c6",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC043",
+    "budget": 256,
+    "case_id": "p1d_dev_02_0",
+    "condition": "E0V0",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_E0V0_b256",
+    "request_sha256": "b740cc8d5634d694309ed4d78f90fc75180d52d94519e5ff2932992b954cf258",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC044",
+    "budget": 192,
+    "case_id": "p1d_dev_07_1",
+    "condition": "E1V1",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_E1V1_b192",
+    "request_sha256": "8169238122ef3f29253810689d595f18372f75ef202ed17d6e13b03a141eb624",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC045",
+    "budget": 192,
+    "case_id": "p1d_dev_06_1",
+    "condition": "D_procedural",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_D_procedural_b192",
+    "request_sha256": "bf281962407ca128d2281ede3e489d1ed50890823ed44855af96f9e5b3ddeded",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC046",
+    "budget": 192,
+    "case_id": "p1d_dev_00_0",
+    "condition": "E0V0",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_E0V0_b192",
+    "request_sha256": "17a2c87c4fa43b8a580f5a3ddc72a95d974592b2ef783fa63b57b0dc4502f58e",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC047",
+    "budget": 192,
+    "case_id": "p1d_dev_01_0",
+    "condition": "E0V1",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_E0V1_b192",
+    "request_sha256": "b0bab8c048c59b0479650928b414ee3bc25811e0dee1ec07e4f1c1f43e87d662",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC048",
+    "budget": 256,
+    "case_id": "p1d_dev_02_0",
+    "condition": "E1V0",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_E1V0_b256",
+    "request_sha256": "4f95c375808b2864a63b5241a2e1926b3f73ea8488c0a6ad367563f864c02853",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC049",
+    "budget": 96,
+    "case_id": "p1d_dev_01_0",
+    "condition": "E0V1",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_E0V1_b96",
+    "request_sha256": "b0371a9ab37ffb85f26826f10a9e8ffbd888b8393434649f2609d3f9ed834999",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC050",
+    "budget": 256,
+    "case_id": "p1d_dev_05_1",
+    "condition": "D_procedural",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_D_procedural_b256",
+    "request_sha256": "b222d2d0e5109c1f7a86563912d6341d96e5c8931cecdeb7dbb69611c50bbc7a",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC051",
+    "budget": 96,
+    "case_id": "p1d_dev_00_0",
+    "condition": "E1V1",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_E1V1_b96",
+    "request_sha256": "b69a9265164083c506b8a64177bebaba2f7e10bd7b7240bebc2c20a7c9dfff0d",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC052",
+    "budget": 256,
+    "case_id": "p1d_dev_05_1",
+    "condition": "H_none",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_H_none_b256",
+    "request_sha256": "362f4c5ea5a026f36c81ec57da449444407a454d0801cd671cfd0230039e607a",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC053",
+    "budget": 192,
+    "case_id": "p1d_dev_07_1",
+    "condition": "E0V1",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_E0V1_b192",
+    "request_sha256": "eb5545672c2fedd369f650eb1acfb0da4d2fede79b91ec8e92785d95c0fd7c1e",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC054",
+    "budget": 96,
+    "case_id": "p1d_dev_02_0",
+    "condition": "E1V0",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_E1V0_b96",
+    "request_sha256": "cfb33e3d3e499dcb619b9fb72b63684d4fc27e5c996592985280d967beed2b95",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC055",
+    "budget": 192,
+    "case_id": "p1d_dev_01_0",
+    "condition": "E0V0",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_E0V0_b192",
+    "request_sha256": "53e6142a81d550a0309a558bb18dc5e4a4e0fe4a75f559ad8f1f76fa43e7df77",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC056",
+    "budget": 96,
+    "case_id": "p1d_dev_03_0",
+    "condition": "E1V1",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_E1V1_b96",
+    "request_sha256": "f37cfbb208a03863735f06b84da7f28c4c08b2a738d7acd014e7a813f000ab0a",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC057",
+    "budget": 256,
+    "case_id": "p1d_dev_05_1",
+    "condition": "E1V1",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_E1V1_b256",
+    "request_sha256": "8df7d87dd5847e0ad5794e600fd02aa80382d4570690cb9437c95306bbbd855a",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC058",
+    "budget": 256,
+    "case_id": "p1d_dev_00_0",
+    "condition": "H_none",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_H_none_b256",
+    "request_sha256": "0e26c06a10f5a86008c505450d1949a0ce005fb100323639ff4386d7df043a4d",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC059",
+    "budget": 96,
+    "case_id": "p1d_dev_06_1",
+    "condition": "E1V1",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_E1V1_b96",
+    "request_sha256": "7a1aaf3e8b16949598b3d32a4a1391171f71d0bf0099e680827aef551fc2713b",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC060",
+    "budget": 256,
+    "case_id": "p1d_dev_06_1",
+    "condition": "E1V0",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_E1V0_b256",
+    "request_sha256": "c0dff7a0acda504c1e8b2dca3014d8d4d03a67ac047e4f7ce4caafd1ffb8b8df",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC061",
+    "budget": 192,
+    "case_id": "p1d_dev_02_0",
+    "condition": "D_procedural",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_D_procedural_b192",
+    "request_sha256": "d151279fc917040dbf01669c8730dcc30fe5067b0c4263c15349480e1cb2acbc",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC062",
+    "budget": 256,
+    "case_id": "p1d_dev_03_0",
+    "condition": "E1V0",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_E1V0_b256",
+    "request_sha256": "919b36cfbd2c9ad0c26952c13c4b3bac32ffa29402b15633f5c162790389dc77",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC063",
+    "budget": 256,
+    "case_id": "p1d_dev_00_0",
+    "condition": "E0V0",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_E0V0_b256",
+    "request_sha256": "a545b66c14b4094990fcce26ea9abd4f7bc74ffcfd2ac156cd26d75448e23e5d",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC064",
+    "budget": 96,
+    "case_id": "p1d_dev_00_0",
+    "condition": "E0V0",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_E0V0_b96",
+    "request_sha256": "b99386ffa968e4adcebf3bbedf1a40f4b0d4678d58ab1e954c4f1d59655ef71d",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC065",
+    "budget": 96,
+    "case_id": "p1d_dev_07_1",
+    "condition": "E0V0",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_E0V0_b96",
+    "request_sha256": "cc4bc93d596e85db5f833c2c0a7d7176195a31442f85dd3f2cd8ac5e192ad8f1",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC066",
+    "budget": 192,
+    "case_id": "p1d_dev_02_0",
+    "condition": "E0V0",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_E0V0_b192",
+    "request_sha256": "916c2288845d1852a3496071c70b428b34839adf1369cc8a822ac41024ca9bd7",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC067",
+    "budget": 192,
+    "case_id": "p1d_dev_03_0",
+    "condition": "D_procedural",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_D_procedural_b192",
+    "request_sha256": "ccabe97bae9d140289944773873ef359218bf9544841d87843f5567541bf2d29",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC068",
+    "budget": 256,
+    "case_id": "p1d_dev_05_1",
+    "condition": "E0V0",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_E0V0_b256",
+    "request_sha256": "209e0fe5c155ec3026c879fb5ce900b32d57b540c3d888136d6b5c9cc843cf86",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC069",
+    "budget": 96,
+    "case_id": "p1d_dev_05_1",
+    "condition": "E1V1",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_E1V1_b96",
+    "request_sha256": "efc93ec56485235ffb46c58f7309280bb14bc188b1434a87b23cac00d52573d9",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC070",
+    "budget": 192,
+    "case_id": "p1d_dev_00_0",
+    "condition": "E0V1",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_E0V1_b192",
+    "request_sha256": "06f414534fc1d196b081c235311b0fe17c83f6d08c2a061c290431fb071fbde6",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC071",
+    "budget": 96,
+    "case_id": "p1d_dev_05_1",
+    "condition": "D_procedural",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_D_procedural_b96",
+    "request_sha256": "c6a05a2f152f405dc3d63b2c434cdb06426db99aa90d0e86a8ab1f320d3b9e25",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC072",
+    "budget": 96,
+    "case_id": "p1d_dev_07_1",
+    "condition": "E0V1",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_E0V1_b96",
+    "request_sha256": "9d6927bd57228226a66ffe65f27a58fb5093c020e425e49375596b2e786953e2",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC073",
+    "budget": 256,
+    "case_id": "p1d_dev_04_1",
+    "condition": "E1V0",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_E1V0_b256",
+    "request_sha256": "c548112c46b1455184fe4557abed59aa70a34f41bd9389246b200a8ba3d57f66",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC074",
+    "budget": 96,
+    "case_id": "p1d_dev_05_1",
+    "condition": "E0V1",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_E0V1_b96",
+    "request_sha256": "4ffd2de665c57d3dc66d4aab7a84eeda68d04ff97e25880a502809bbfdad1a59",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC075",
+    "budget": 192,
+    "case_id": "p1d_dev_05_1",
+    "condition": "E1V1",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_E1V1_b192",
+    "request_sha256": "13dce30a9e0da9be20f3d8329f4a9c99b5734a0b14d718aa540f6ae0a529213a",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC076",
+    "budget": 96,
+    "case_id": "p1d_dev_00_0",
+    "condition": "E0V1",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_E0V1_b96",
+    "request_sha256": "0b56a3e853f22c7c004e833c1eb93debae74c5347982832ba6d064245ab0f80c",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC077",
+    "budget": 96,
+    "case_id": "p1d_dev_02_0",
+    "condition": "D_procedural",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_D_procedural_b96",
+    "request_sha256": "4e30539acd9e57b702e3c66f15ddaf3633a11a9666109948a596c032e52acabc",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC078",
+    "budget": 192,
+    "case_id": "p1d_dev_05_1",
+    "condition": "E0V0",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_E0V0_b192",
+    "request_sha256": "615ffd19bb5fb0224bf1d2f0f31c6f07b2786aa8320f0fa25f4761047960e22c",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC079",
+    "budget": 192,
+    "case_id": "p1d_dev_05_1",
+    "condition": "E1V0",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_E1V0_b192",
+    "request_sha256": "339ad3930471b915760f09e7e51bed86136718044a721b8244770c4c878187e1",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC080",
+    "budget": 256,
+    "case_id": "p1d_dev_03_0",
+    "condition": "E1V1",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_E1V1_b256",
+    "request_sha256": "5911af3dcc08414e77630f9b1952eadff67ea2c41bad055c5c58dc4383190251",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC081",
+    "budget": 192,
+    "case_id": "p1d_dev_07_1",
+    "condition": "D_procedural",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_D_procedural_b192",
+    "request_sha256": "deb371c7a0fce692fed82e013012bcc26b054feb65575910093025035888bab1",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC082",
+    "budget": 256,
+    "case_id": "p1d_dev_03_0",
+    "condition": "D_procedural",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_D_procedural_b256",
+    "request_sha256": "0f0313f4d6ece00779e115cbf51187e4226baf229c24b25eb0afefd184fa2f64",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC083",
+    "budget": 96,
+    "case_id": "p1d_dev_06_1",
+    "condition": "E0V1",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_E0V1_b96",
+    "request_sha256": "cc81b813a2b188d8bba62b84aa863adf5a4e1aa9fc8a9f2e36273cda7ceb1f55",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC084",
+    "budget": 256,
+    "case_id": "p1d_dev_02_0",
+    "condition": "H_none",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_H_none_b256",
+    "request_sha256": "8cc5b8d895130b1e8c848799eb6d77ea9b5744e98e338821b6ead26ca9617e54",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC085",
+    "budget": 192,
+    "case_id": "p1d_dev_07_1",
+    "condition": "E1V0",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_E1V0_b192",
+    "request_sha256": "f2c929c57f84db08023b935516de3c1aa242f0d5c9026bb6406f2b001ffc4252",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC086",
+    "budget": 96,
+    "case_id": "p1d_dev_02_0",
+    "condition": "H_none",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_H_none_b96",
+    "request_sha256": "c42be75c7246d7c1ca9b12a5ce8e40cecd9079a6cede33309376759ff09b3c1e",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC087",
+    "budget": 192,
+    "case_id": "p1d_dev_02_0",
+    "condition": "E0V1",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_E0V1_b192",
+    "request_sha256": "b9ec549eeed2945839c2840ad59db18c9839742f3c16c049bfb4da3355439f12",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC088",
+    "budget": 256,
+    "case_id": "p1d_dev_00_0",
+    "condition": "D_procedural",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_D_procedural_b256",
+    "request_sha256": "07ea072931518666a60e3d322e6ba490c2f483316d4823afa0b7ab7e1e7aab64",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC089",
+    "budget": 192,
+    "case_id": "p1d_dev_03_0",
+    "condition": "H_none",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_H_none_b192",
+    "request_sha256": "148369934cae78f7b7784a1e482b526c9d13a5fca0c2c095513bf79643fb7e6a",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC090",
+    "budget": 96,
+    "case_id": "p1d_dev_06_1",
+    "condition": "H_none",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_H_none_b96",
+    "request_sha256": "743f4a4c930a179b2f477de68f2fd4cc43ba3cdd303f42a2ad933b4aeac12076",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC091",
+    "budget": 256,
+    "case_id": "p1d_dev_01_0",
+    "condition": "H_none",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_H_none_b256",
+    "request_sha256": "0bda4116a1e6739e025b844d56986d0c3fc2fda9fdb79daa47adee358cab30e0",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC092",
+    "budget": 96,
+    "case_id": "p1d_dev_03_0",
+    "condition": "H_none",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_H_none_b96",
+    "request_sha256": "c9d981eb7bebf529b766ce7c06cc2cde9ac03951d1eff58301199affd7f01c16",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC093",
+    "budget": 192,
+    "case_id": "p1d_dev_05_1",
+    "condition": "H_none",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_H_none_b192",
+    "request_sha256": "43d43f554b7164d23fe4887d58abc733305e7b48daa072b5f68bf24edd9bb6be",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC094",
+    "budget": 96,
+    "case_id": "p1d_dev_05_1",
+    "condition": "H_none",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_H_none_b96",
+    "request_sha256": "3c6975342c22c6310826232c7978ff1b5872a4a38186be13b3f4cc1cc46a210b",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC095",
+    "budget": 256,
+    "case_id": "p1d_dev_00_0",
+    "condition": "E1V1",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_E1V1_b256",
+    "request_sha256": "0ed487b82d07f461751fd384f6020131e151830b2f8051650484e90ca0722a62",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC096",
+    "budget": 256,
+    "case_id": "p1d_dev_01_0",
+    "condition": "E1V0",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_E1V0_b256",
+    "request_sha256": "f5bb5824eae15217c496dabf8ebbf8c2be5f7d27f7064135cb036529ddd30626",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC097",
+    "budget": 256,
+    "case_id": "p1d_dev_04_1",
+    "condition": "E0V1",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_E0V1_b256",
+    "request_sha256": "0179b77ad50173561cd46d55711926e1d74a0807106a47befd0ffb53107e0a6b",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC098",
+    "budget": 256,
+    "case_id": "p1d_dev_07_1",
+    "condition": "D_procedural",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_D_procedural_b256",
+    "request_sha256": "4e396840b93866ac685c5eadea7f079efd8daca8f21586c3264554804b38c360",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC099",
+    "budget": 192,
+    "case_id": "p1d_dev_06_1",
+    "condition": "E0V0",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_E0V0_b192",
+    "request_sha256": "81af0ddb88957b9c9a13827601c6bd17b558528b7aca2e588d354eb989cfc804",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC100",
+    "budget": 192,
+    "case_id": "p1d_dev_04_1",
+    "condition": "E1V1",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_E1V1_b192",
+    "request_sha256": "d9afc0433caddf58415e26c20da31e1a9ff352e1a53f7677df4cff3812a3c188",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC101",
+    "budget": 256,
+    "case_id": "p1d_dev_07_1",
+    "condition": "E1V1",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_E1V1_b256",
+    "request_sha256": "b8acba63dab6fcd2d3d79ab99535a0401fd1cb2e349124d49c3ffe6bde7f855d",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC102",
+    "budget": 256,
+    "case_id": "p1d_dev_06_1",
+    "condition": "E0V0",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_E0V0_b256",
+    "request_sha256": "508a242bd410cc1db0c64550290bc3a647e091ea3ceca349d7b806346855d864",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC103",
+    "budget": 256,
+    "case_id": "p1d_dev_00_0",
+    "condition": "E1V0",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_E1V0_b256",
+    "request_sha256": "08e196da2e9f3b120d8af0d695f97a3ba7c2056627ab1b05a8fc92937383860f",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC104",
+    "budget": 256,
+    "case_id": "p1d_dev_07_1",
+    "condition": "H_none",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_H_none_b256",
+    "request_sha256": "89e17169648fb6f2e400ff6ca709480b8d8ab024d13376b33c7fe1dda4222604",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC105",
+    "budget": 256,
+    "case_id": "p1d_dev_00_0",
+    "condition": "E0V1",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_E0V1_b256",
+    "request_sha256": "0ae4c7be4fe0a5e902644eabfd4d97d6e2996ad2fcabb42b6c5f192c488a26f4",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC106",
+    "budget": 96,
+    "case_id": "p1d_dev_01_0",
+    "condition": "E1V0",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_E1V0_b96",
+    "request_sha256": "d407803ef7eb0cff042adeed2e2296675882c60077917bf5ae8f641f8e32ae8f",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC107",
+    "budget": 192,
+    "case_id": "p1d_dev_04_1",
+    "condition": "D_procedural",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_D_procedural_b192",
+    "request_sha256": "09ac101b9d789ccc683e45a71c771506bc067826cd82782650c903547b1cc452",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC108",
+    "budget": 256,
+    "case_id": "p1d_dev_05_1",
+    "condition": "E1V0",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_E1V0_b256",
+    "request_sha256": "a89bfaa3d156bc0951f8a9c950a9fe4eea06b04774449cf2e84a65d2b6c26579",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC109",
+    "budget": 192,
+    "case_id": "p1d_dev_04_1",
+    "condition": "E0V1",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_E0V1_b192",
+    "request_sha256": "2c40676402a8109a37b74a40f838c9a6026139165554e891b525f95646f961f5",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC110",
+    "budget": 96,
+    "case_id": "p1d_dev_04_1",
+    "condition": "D_procedural",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_D_procedural_b96",
+    "request_sha256": "bf47a4b2e318c22d5f1a8ece2815495ce7c93da8db559f32234bc0cefecb69b8",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC111",
+    "budget": 256,
+    "case_id": "p1d_dev_07_1",
+    "condition": "E0V1",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_E0V1_b256",
+    "request_sha256": "39568f605b5233c87218246c6bbeec2c843d26e4fd4db549026d5cc46764ffad",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC112",
+    "budget": 96,
+    "case_id": "p1d_dev_04_1",
+    "condition": "E1V1",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_E1V1_b96",
+    "request_sha256": "1e31147663ede666a197c87c9aa0d2b5f7cc21ec1c79d5749154c9c45d7271b8",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC113",
+    "budget": 96,
+    "case_id": "p1d_dev_06_1",
+    "condition": "E0V0",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_E0V0_b96",
+    "request_sha256": "ffcba2fabf9d6c575075f1700673fb9ee2f53921e9aa67300f88c4c138a0fc03",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC114",
+    "budget": 192,
+    "case_id": "p1d_dev_05_1",
+    "condition": "D_procedural",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_D_procedural_b192",
+    "request_sha256": "c9ab28d276e3b591ecdbec100ed8e9b9c2f6742a529005ea96ee660ad17d7cf4",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC115",
+    "budget": 96,
+    "case_id": "p1d_dev_03_0",
+    "condition": "D_procedural",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_D_procedural_b96",
+    "request_sha256": "daeb02c3877c8f553f29e4cae29d6eb390aa121997073586f2e1b519188965d0",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC116",
+    "budget": 256,
+    "case_id": "p1d_dev_06_1",
+    "condition": "D_procedural",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_D_procedural_b256",
+    "request_sha256": "e634fbbc2854f79734b0b46c6eafdfe6d54ececa922c91688c44b38b6a26d181",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC117",
+    "budget": 192,
+    "case_id": "p1d_dev_02_0",
+    "condition": "E1V1",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_E1V1_b192",
+    "request_sha256": "a08e3cdf6394b874f96d663b90a3f8544f0d67317e090770501e11af3ffa4b18",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC118",
+    "budget": 192,
+    "case_id": "p1d_dev_07_1",
+    "condition": "H_none",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_H_none_b192",
+    "request_sha256": "0e2a0505b7a69c533555e0a373cad8b872e4264a68b7ddb374e854591936c34c",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC119",
+    "budget": 192,
+    "case_id": "p1d_dev_07_1",
+    "condition": "E0V0",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_E0V0_b192",
+    "request_sha256": "46a38d254c9c0e3af55f7ebf28c7756ad9f78683f86573590e2f37f4641f122f",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC120",
+    "budget": 96,
+    "case_id": "p1d_dev_02_0",
+    "condition": "E1V1",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_E1V1_b96",
+    "request_sha256": "f0d10d23dbe14f1c2935f064435d5647813935fef88cf37a21048f6a4659ea97",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC121",
+    "budget": 256,
+    "case_id": "p1d_dev_03_0",
+    "condition": "E0V1",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_E0V1_b256",
+    "request_sha256": "f7cbd5849b91a40f006cfa92397685fde197d10581dab5de84dfe2d27ec892e0",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC122",
+    "budget": 192,
+    "case_id": "p1d_dev_00_0",
+    "condition": "D_procedural",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_D_procedural_b192",
+    "request_sha256": "3c8e778f6a1a130fb1e7a61750cc58b71770e88d02e27a3d7ffe19e4ff13029f",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC123",
+    "budget": 96,
+    "case_id": "p1d_dev_01_0",
+    "condition": "E1V1",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_E1V1_b96",
+    "request_sha256": "4b892b941b9f00871230d0309727659a8af3bdbb545b33b2c1179f9a1791a11d",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC124",
+    "budget": 192,
+    "case_id": "p1d_dev_03_0",
+    "condition": "E1V0",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_E1V0_b192",
+    "request_sha256": "b47d916c6d733673d6ea7216fb8fae1b4bd420a52a5fd4ff0cb10cb972643cf1",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC125",
+    "budget": 192,
+    "case_id": "p1d_dev_06_1",
+    "condition": "H_none",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_H_none_b192",
+    "request_sha256": "3ac2de211e3377caa0624f677921f33f58b5b18bc98d5d64a510ac871f03af15",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC126",
+    "budget": 256,
+    "case_id": "p1d_dev_05_1",
+    "condition": "E0V1",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_E0V1_b256",
+    "request_sha256": "e16475393a9d8e7e8a62ff6b03c3de1d8db8d36a8855580cbae3e0f8f6de6806",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC127",
+    "budget": 96,
+    "case_id": "p1d_dev_00_0",
+    "condition": "H_none",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_00_0_H_none_b96",
+    "request_sha256": "1f0ee9f52bf71c264aee8055fb19e1d39b4ce85619397f2827d863d10c397a3d",
+    "speaker_id": "p1d_dev_s00"
+  },
+  {
+    "anonymous_response_id": "BC128",
+    "budget": 96,
+    "case_id": "p1d_dev_06_1",
+    "condition": "E1V0",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_E1V0_b96",
+    "request_sha256": "e10cf5ce4c0c3ece8a02107b158ae862866c7fb7c949561439be6f128e6aed36",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC129",
+    "budget": 96,
+    "case_id": "p1d_dev_03_0",
+    "condition": "E1V0",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_E1V0_b96",
+    "request_sha256": "cf8dc1479c23e7434dad5e20074c86b794e2b00f47d61f8cb6f93b0fb8224f29",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC130",
+    "budget": 256,
+    "case_id": "p1d_dev_04_1",
+    "condition": "D_procedural",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_D_procedural_b256",
+    "request_sha256": "7541edd4157cef53a321c3532d3091758840a070f9c7eb5e698c3756f05b981a",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC131",
+    "budget": 96,
+    "case_id": "p1d_dev_06_1",
+    "condition": "D_procedural",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_D_procedural_b96",
+    "request_sha256": "462d403dc9a7bf7339384a24d68d7ba350572cc127a06cc055988a0de5894bc7",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC132",
+    "budget": 192,
+    "case_id": "p1d_dev_01_0",
+    "condition": "H_none",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_H_none_b192",
+    "request_sha256": "c5d5a4fdcbba0544d3731a4eee2f1e68fff02b607afc434d09e184c663c66844",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC133",
+    "budget": 192,
+    "case_id": "p1d_dev_04_1",
+    "condition": "H_none",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_H_none_b192",
+    "request_sha256": "026f2a53f81a16b9b240aa8be47f94b27660becb520fb73ec47c11069bac5f58",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC134",
+    "budget": 96,
+    "case_id": "p1d_dev_02_0",
+    "condition": "E0V0",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_E0V0_b96",
+    "request_sha256": "17bef5c04c5c255a0a890e13b27da6b1b16b0a74f01c3c680061fd307e5e12b5",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC135",
+    "budget": 96,
+    "case_id": "p1d_dev_05_1",
+    "condition": "E1V0",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_05_1_E1V0_b96",
+    "request_sha256": "79135baf5a059ffce9ee07500866ab84d047221015ad395e7705490b44c180a9",
+    "speaker_id": "p1d_dev_s05"
+  },
+  {
+    "anonymous_response_id": "BC136",
+    "budget": 192,
+    "case_id": "p1d_dev_02_0",
+    "condition": "H_none",
+    "family": "relational_integration",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_02_0_H_none_b192",
+    "request_sha256": "800e5cd246591fe2f18a48a3a87bac2f82875ffc5322b5c9aca95e8f2fcdc0af",
+    "speaker_id": "p1d_dev_s02"
+  },
+  {
+    "anonymous_response_id": "BC137",
+    "budget": 96,
+    "case_id": "p1d_dev_04_1",
+    "condition": "E0V0",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_E0V0_b96",
+    "request_sha256": "90d2f54a16460c8bbe84c1e1fb25f6ba1018bd65b3f05da94776c00bc7c637b3",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC138",
+    "budget": 256,
+    "case_id": "p1d_dev_04_1",
+    "condition": "H_none",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_04_1_H_none_b256",
+    "request_sha256": "6efe63d00293856220a77da1b651325ddc36fb86236adb88078a5a73838abe04",
+    "speaker_id": "p1d_dev_s04"
+  },
+  {
+    "anonymous_response_id": "BC139",
+    "budget": 192,
+    "case_id": "p1d_dev_06_1",
+    "condition": "E1V1",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_06_1_E1V1_b192",
+    "request_sha256": "fddfc337fdf9e88498d1cb0bafb24ff1f219b7ee9aed1341ba9953123a71f74e",
+    "speaker_id": "p1d_dev_s06"
+  },
+  {
+    "anonymous_response_id": "BC140",
+    "budget": 96,
+    "case_id": "p1d_dev_07_1",
+    "condition": "D_procedural",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_D_procedural_b96",
+    "request_sha256": "54aba5a0186e875b0a8f80e4b928f6dc71b7712779e5875d31726b10d4c841c1",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC141",
+    "budget": 256,
+    "case_id": "p1d_dev_07_1",
+    "condition": "E1V0",
+    "family": "single_fact",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_07_1_E1V0_b256",
+    "request_sha256": "0cc5e87edb325b53686c499ae177ff4b16cc05bdcad0eaf89b3a67bb27c25b15",
+    "speaker_id": "p1d_dev_s07"
+  },
+  {
+    "anonymous_response_id": "BC142",
+    "budget": 192,
+    "case_id": "p1d_dev_01_0",
+    "condition": "E1V1",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_E1V1_b192",
+    "request_sha256": "0266394a4d6af9f8b6e657f98fe24963688d7c5de7c76dbfa9168972bcb5be61",
+    "speaker_id": "p1d_dev_s01"
+  },
+  {
+    "anonymous_response_id": "BC143",
+    "budget": 192,
+    "case_id": "p1d_dev_03_0",
+    "condition": "E1V1",
+    "family": "context_followup",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_03_0_E1V1_b192",
+    "request_sha256": "3d94e36a158f13b5f4f3ebf0ed303fa3c4ac0158dfe894cb6bcdba1ae3d8a5ed",
+    "speaker_id": "p1d_dev_s03"
+  },
+  {
+    "anonymous_response_id": "BC144",
+    "budget": 96,
+    "case_id": "p1d_dev_01_0",
+    "condition": "H_none",
+    "family": "multi_component",
+    "request_id": "p1d_budget_dev_v1_p1d_dev_01_0_H_none_b96",
+    "request_sha256": "72d98e57dbf00fbb7c49d5abe27397ac305f3dc637c4ecf9ff90564a72bf633c",
+    "speaker_id": "p1d_dev_s01"
+  }
+]

@@ -1,0 +1,659 @@
+[
+  {
+    "budget": 96,
+    "coherence": {
+      "3": 28,
+      "5": 20
+    },
+    "factual": {
+      "Correct": 1,
+      "Unverifiable": 47
+    },
+    "factual_assessable_correct_fraction": 1.0,
+    "factual_assessable_denominator": 1,
+    "factual_correct_label_fraction": 0.020833333333333332,
+    "family": "ALL",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 36,
+      "INTERPRETATION_UNCERTAIN": 12
+    },
+    "persona_fidelity": {
+      "3": 1,
+      "4": 14,
+      "5": 33
+    },
+    "relevance": {
+      "2": 5,
+      "3": 43
+    },
+    "requests": 48,
+    "semantic_completeness": {
+      "NO": 48
+    },
+    "task_success": {
+      "Failure": 48
+    },
+    "temporal": {
+      "Unverifiable": 48
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "MATERIAL_CLAIM_SCOPE": 1,
+      "NO_EVALUABLE_ANSWER_CLAIM": 36,
+      "ROLE_OR_EPISTEMIC_ATTRIBUTION": 11
+    }
+  },
+  {
+    "budget": 96,
+    "coherence": {
+      "3": 5,
+      "5": 7
+    },
+    "factual": {
+      "Unverifiable": 12
+    },
+    "factual_assessable_correct_fraction": null,
+    "factual_assessable_denominator": 0,
+    "factual_correct_label_fraction": 0.0,
+    "family": "context_followup",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 12
+    },
+    "persona_fidelity": {
+      "4": 4,
+      "5": 8
+    },
+    "relevance": {
+      "3": 12
+    },
+    "requests": 12,
+    "semantic_completeness": {
+      "NO": 12
+    },
+    "task_success": {
+      "Failure": 12
+    },
+    "temporal": {
+      "Unverifiable": 12
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "NO_EVALUABLE_ANSWER_CLAIM": 12
+    }
+  },
+  {
+    "budget": 96,
+    "coherence": {
+      "3": 6,
+      "5": 6
+    },
+    "factual": {
+      "Unverifiable": 12
+    },
+    "factual_assessable_correct_fraction": null,
+    "factual_assessable_denominator": 0,
+    "factual_correct_label_fraction": 0.0,
+    "family": "multi_component",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 12
+    },
+    "persona_fidelity": {
+      "4": 5,
+      "5": 7
+    },
+    "relevance": {
+      "2": 2,
+      "3": 10
+    },
+    "requests": 12,
+    "semantic_completeness": {
+      "NO": 12
+    },
+    "task_success": {
+      "Failure": 12
+    },
+    "temporal": {
+      "Unverifiable": 12
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "NO_EVALUABLE_ANSWER_CLAIM": 12
+    }
+  },
+  {
+    "budget": 96,
+    "coherence": {
+      "3": 6,
+      "5": 6
+    },
+    "factual": {
+      "Correct": 1,
+      "Unverifiable": 11
+    },
+    "factual_assessable_correct_fraction": 1.0,
+    "factual_assessable_denominator": 1,
+    "factual_correct_label_fraction": 0.08333333333333333,
+    "family": "relational_integration",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 11,
+      "INTERPRETATION_UNCERTAIN": 1
+    },
+    "persona_fidelity": {
+      "4": 5,
+      "5": 7
+    },
+    "relevance": {
+      "2": 1,
+      "3": 11
+    },
+    "requests": 12,
+    "semantic_completeness": {
+      "NO": 12
+    },
+    "task_success": {
+      "Failure": 12
+    },
+    "temporal": {
+      "Unverifiable": 12
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "MATERIAL_CLAIM_SCOPE": 1,
+      "NO_EVALUABLE_ANSWER_CLAIM": 11
+    }
+  },
+  {
+    "budget": 96,
+    "coherence": {
+      "3": 11,
+      "5": 1
+    },
+    "factual": {
+      "Unverifiable": 12
+    },
+    "factual_assessable_correct_fraction": null,
+    "factual_assessable_denominator": 0,
+    "factual_correct_label_fraction": 0.0,
+    "family": "single_fact",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 1,
+      "INTERPRETATION_UNCERTAIN": 11
+    },
+    "persona_fidelity": {
+      "3": 1,
+      "5": 11
+    },
+    "relevance": {
+      "2": 2,
+      "3": 10
+    },
+    "requests": 12,
+    "semantic_completeness": {
+      "NO": 12
+    },
+    "task_success": {
+      "Failure": 12
+    },
+    "temporal": {
+      "Unverifiable": 12
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "NO_EVALUABLE_ANSWER_CLAIM": 1,
+      "ROLE_OR_EPISTEMIC_ATTRIBUTION": 11
+    }
+  },
+  {
+    "budget": 192,
+    "coherence": {
+      "3": 28,
+      "5": 20
+    },
+    "factual": {
+      "Correct": 1,
+      "Unverifiable": 47
+    },
+    "factual_assessable_correct_fraction": 1.0,
+    "factual_assessable_denominator": 1,
+    "factual_correct_label_fraction": 0.020833333333333332,
+    "family": "ALL",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 36,
+      "INTERPRETATION_UNCERTAIN": 12
+    },
+    "persona_fidelity": {
+      "3": 1,
+      "4": 14,
+      "5": 33
+    },
+    "relevance": {
+      "2": 5,
+      "3": 43
+    },
+    "requests": 48,
+    "semantic_completeness": {
+      "NO": 48
+    },
+    "task_success": {
+      "Failure": 48
+    },
+    "temporal": {
+      "Unverifiable": 48
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "MATERIAL_CLAIM_SCOPE": 1,
+      "NO_EVALUABLE_ANSWER_CLAIM": 36,
+      "ROLE_OR_EPISTEMIC_ATTRIBUTION": 11
+    }
+  },
+  {
+    "budget": 192,
+    "coherence": {
+      "3": 5,
+      "5": 7
+    },
+    "factual": {
+      "Unverifiable": 12
+    },
+    "factual_assessable_correct_fraction": null,
+    "factual_assessable_denominator": 0,
+    "factual_correct_label_fraction": 0.0,
+    "family": "context_followup",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 12
+    },
+    "persona_fidelity": {
+      "4": 4,
+      "5": 8
+    },
+    "relevance": {
+      "3": 12
+    },
+    "requests": 12,
+    "semantic_completeness": {
+      "NO": 12
+    },
+    "task_success": {
+      "Failure": 12
+    },
+    "temporal": {
+      "Unverifiable": 12
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "NO_EVALUABLE_ANSWER_CLAIM": 12
+    }
+  },
+  {
+    "budget": 192,
+    "coherence": {
+      "3": 6,
+      "5": 6
+    },
+    "factual": {
+      "Unverifiable": 12
+    },
+    "factual_assessable_correct_fraction": null,
+    "factual_assessable_denominator": 0,
+    "factual_correct_label_fraction": 0.0,
+    "family": "multi_component",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 12
+    },
+    "persona_fidelity": {
+      "4": 5,
+      "5": 7
+    },
+    "relevance": {
+      "2": 2,
+      "3": 10
+    },
+    "requests": 12,
+    "semantic_completeness": {
+      "NO": 12
+    },
+    "task_success": {
+      "Failure": 12
+    },
+    "temporal": {
+      "Unverifiable": 12
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "NO_EVALUABLE_ANSWER_CLAIM": 12
+    }
+  },
+  {
+    "budget": 192,
+    "coherence": {
+      "3": 6,
+      "5": 6
+    },
+    "factual": {
+      "Correct": 1,
+      "Unverifiable": 11
+    },
+    "factual_assessable_correct_fraction": 1.0,
+    "factual_assessable_denominator": 1,
+    "factual_correct_label_fraction": 0.08333333333333333,
+    "family": "relational_integration",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 11,
+      "INTERPRETATION_UNCERTAIN": 1
+    },
+    "persona_fidelity": {
+      "4": 5,
+      "5": 7
+    },
+    "relevance": {
+      "2": 1,
+      "3": 11
+    },
+    "requests": 12,
+    "semantic_completeness": {
+      "NO": 12
+    },
+    "task_success": {
+      "Failure": 12
+    },
+    "temporal": {
+      "Unverifiable": 12
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "MATERIAL_CLAIM_SCOPE": 1,
+      "NO_EVALUABLE_ANSWER_CLAIM": 11
+    }
+  },
+  {
+    "budget": 192,
+    "coherence": {
+      "3": 11,
+      "5": 1
+    },
+    "factual": {
+      "Unverifiable": 12
+    },
+    "factual_assessable_correct_fraction": null,
+    "factual_assessable_denominator": 0,
+    "factual_correct_label_fraction": 0.0,
+    "family": "single_fact",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 1,
+      "INTERPRETATION_UNCERTAIN": 11
+    },
+    "persona_fidelity": {
+      "3": 1,
+      "5": 11
+    },
+    "relevance": {
+      "2": 2,
+      "3": 10
+    },
+    "requests": 12,
+    "semantic_completeness": {
+      "NO": 12
+    },
+    "task_success": {
+      "Failure": 12
+    },
+    "temporal": {
+      "Unverifiable": 12
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "NO_EVALUABLE_ANSWER_CLAIM": 1,
+      "ROLE_OR_EPISTEMIC_ATTRIBUTION": 11
+    }
+  },
+  {
+    "budget": 256,
+    "coherence": {
+      "3": 28,
+      "5": 20
+    },
+    "factual": {
+      "Correct": 1,
+      "Unverifiable": 47
+    },
+    "factual_assessable_correct_fraction": 1.0,
+    "factual_assessable_denominator": 1,
+    "factual_correct_label_fraction": 0.020833333333333332,
+    "family": "ALL",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 36,
+      "INTERPRETATION_UNCERTAIN": 12
+    },
+    "persona_fidelity": {
+      "3": 1,
+      "4": 14,
+      "5": 33
+    },
+    "relevance": {
+      "2": 5,
+      "3": 43
+    },
+    "requests": 48,
+    "semantic_completeness": {
+      "NO": 48
+    },
+    "task_success": {
+      "Failure": 48
+    },
+    "temporal": {
+      "Unverifiable": 48
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "MATERIAL_CLAIM_SCOPE": 1,
+      "NO_EVALUABLE_ANSWER_CLAIM": 36,
+      "ROLE_OR_EPISTEMIC_ATTRIBUTION": 11
+    }
+  },
+  {
+    "budget": 256,
+    "coherence": {
+      "3": 5,
+      "5": 7
+    },
+    "factual": {
+      "Unverifiable": 12
+    },
+    "factual_assessable_correct_fraction": null,
+    "factual_assessable_denominator": 0,
+    "factual_correct_label_fraction": 0.0,
+    "family": "context_followup",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 12
+    },
+    "persona_fidelity": {
+      "4": 4,
+      "5": 8
+    },
+    "relevance": {
+      "3": 12
+    },
+    "requests": 12,
+    "semantic_completeness": {
+      "NO": 12
+    },
+    "task_success": {
+      "Failure": 12
+    },
+    "temporal": {
+      "Unverifiable": 12
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "NO_EVALUABLE_ANSWER_CLAIM": 12
+    }
+  },
+  {
+    "budget": 256,
+    "coherence": {
+      "3": 6,
+      "5": 6
+    },
+    "factual": {
+      "Unverifiable": 12
+    },
+    "factual_assessable_correct_fraction": null,
+    "factual_assessable_denominator": 0,
+    "factual_correct_label_fraction": 0.0,
+    "family": "multi_component",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 12
+    },
+    "persona_fidelity": {
+      "4": 5,
+      "5": 7
+    },
+    "relevance": {
+      "2": 2,
+      "3": 10
+    },
+    "requests": 12,
+    "semantic_completeness": {
+      "NO": 12
+    },
+    "task_success": {
+      "Failure": 12
+    },
+    "temporal": {
+      "Unverifiable": 12
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "NO_EVALUABLE_ANSWER_CLAIM": 12
+    }
+  },
+  {
+    "budget": 256,
+    "coherence": {
+      "3": 6,
+      "5": 6
+    },
+    "factual": {
+      "Correct": 1,
+      "Unverifiable": 11
+    },
+    "factual_assessable_correct_fraction": 1.0,
+    "factual_assessable_denominator": 1,
+    "factual_correct_label_fraction": 0.08333333333333333,
+    "family": "relational_integration",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 11,
+      "INTERPRETATION_UNCERTAIN": 1
+    },
+    "persona_fidelity": {
+      "4": 5,
+      "5": 7
+    },
+    "relevance": {
+      "2": 1,
+      "3": 11
+    },
+    "requests": 12,
+    "semantic_completeness": {
+      "NO": 12
+    },
+    "task_success": {
+      "Failure": 12
+    },
+    "temporal": {
+      "Unverifiable": 12
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "MATERIAL_CLAIM_SCOPE": 1,
+      "NO_EVALUABLE_ANSWER_CLAIM": 11
+    }
+  },
+  {
+    "budget": 256,
+    "coherence": {
+      "3": 11,
+      "5": 1
+    },
+    "factual": {
+      "Unverifiable": 12
+    },
+    "factual_assessable_correct_fraction": null,
+    "factual_assessable_denominator": 0,
+    "factual_correct_label_fraction": 0.0,
+    "family": "single_fact",
+    "human_confirmed": 0,
+    "measurement_state": {
+      "EVIDENCE_UNVERIFIABLE": 1,
+      "INTERPRETATION_UNCERTAIN": 11
+    },
+    "persona_fidelity": {
+      "3": 1,
+      "5": 11
+    },
+    "relevance": {
+      "2": 2,
+      "3": 10
+    },
+    "requests": 12,
+    "semantic_completeness": {
+      "NO": 12
+    },
+    "task_success": {
+      "Failure": 12
+    },
+    "temporal": {
+      "Unverifiable": 12
+    },
+    "temporal_assessable_correct_fraction": null,
+    "temporal_assessable_denominator": 0,
+    "temporal_correct_label_fraction": 0.0,
+    "uncertainty_subtype": {
+      "NO_EVALUABLE_ANSWER_CLAIM": 1,
+      "ROLE_OR_EPISTEMIC_ATTRIBUTION": 11
+    }
+  }
+]

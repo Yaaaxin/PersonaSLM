@@ -1,0 +1,1312 @@
+{
+  "version": "p1d_instruct_tokenizer_metadata_comparison_v1",
+  "official_model": "Qwen/Qwen3.5-2B",
+  "revision": "965dcc54bc9c0591873df0e9869c056a54d323d1",
+  "official_tokenizer_path": "results/p1d_final_preparation/v1/official_tokenizer/tokenizer.json",
+  "official_tokenizer_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+  "base_gguf_sha256": "ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994",
+  "base_token_count": 248320,
+  "official_total_token_count": 248070,
+  "id_string_mismatch_count": 250,
+  "id_string_mismatches": [
+    {
+      "id": 248070,
+      "base": "<|audio_start|>",
+      "official_instruct": null
+    },
+    {
+      "id": 248071,
+      "base": "<|audio_end|>",
+      "official_instruct": null
+    },
+    {
+      "id": 248072,
+      "base": "<tts_pad>",
+      "official_instruct": null
+    },
+    {
+      "id": 248073,
+      "base": "<tts_text_bos>",
+      "official_instruct": null
+    },
+    {
+      "id": 248074,
+      "base": "<tts_text_eod>",
+      "official_instruct": null
+    },
+    {
+      "id": 248075,
+      "base": "<tts_text_bos_single>",
+      "official_instruct": null
+    },
+    {
+      "id": 248076,
+      "base": "<|audio_pad|>",
+      "official_instruct": null
+    },
+    {
+      "id": 248077,
+      "base": "[PAD248077]",
+      "official_instruct": null
+    },
+    {
+      "id": 248078,
+      "base": "[PAD248078]",
+      "official_instruct": null
+    },
+    {
+      "id": 248079,
+      "base": "[PAD248079]",
+      "official_instruct": null
+    },
+    {
+      "id": 248080,
+      "base": "[PAD248080]",
+      "official_instruct": null
+    },
+    {
+      "id": 248081,
+      "base": "[PAD248081]",
+      "official_instruct": null
+    },
+    {
+      "id": 248082,
+      "base": "[PAD248082]",
+      "official_instruct": null
+    },
+    {
+      "id": 248083,
+      "base": "[PAD248083]",
+      "official_instruct": null
+    },
+    {
+      "id": 248084,
+      "base": "[PAD248084]",
+      "official_instruct": null
+    },
+    {
+      "id": 248085,
+      "base": "[PAD248085]",
+      "official_instruct": null
+    },
+    {
+      "id": 248086,
+      "base": "[PAD248086]",
+      "official_instruct": null
+    },
+    {
+      "id": 248087,
+      "base": "[PAD248087]",
+      "official_instruct": null
+    },
+    {
+      "id": 248088,
+      "base": "[PAD248088]",
+      "official_instruct": null
+    },
+    {
+      "id": 248089,
+      "base": "[PAD248089]",
+      "official_instruct": null
+    },
+    {
+      "id": 248090,
+      "base": "[PAD248090]",
+      "official_instruct": null
+    },
+    {
+      "id": 248091,
+      "base": "[PAD248091]",
+      "official_instruct": null
+    },
+    {
+      "id": 248092,
+      "base": "[PAD248092]",
+      "official_instruct": null
+    },
+    {
+      "id": 248093,
+      "base": "[PAD248093]",
+      "official_instruct": null
+    },
+    {
+      "id": 248094,
+      "base": "[PAD248094]",
+      "official_instruct": null
+    },
+    {
+      "id": 248095,
+      "base": "[PAD248095]",
+      "official_instruct": null
+    },
+    {
+      "id": 248096,
+      "base": "[PAD248096]",
+      "official_instruct": null
+    },
+    {
+      "id": 248097,
+      "base": "[PAD248097]",
+      "official_instruct": null
+    },
+    {
+      "id": 248098,
+      "base": "[PAD248098]",
+      "official_instruct": null
+    },
+    {
+      "id": 248099,
+      "base": "[PAD248099]",
+      "official_instruct": null
+    },
+    {
+      "id": 248100,
+      "base": "[PAD248100]",
+      "official_instruct": null
+    },
+    {
+      "id": 248101,
+      "base": "[PAD248101]",
+      "official_instruct": null
+    },
+    {
+      "id": 248102,
+      "base": "[PAD248102]",
+      "official_instruct": null
+    },
+    {
+      "id": 248103,
+      "base": "[PAD248103]",
+      "official_instruct": null
+    },
+    {
+      "id": 248104,
+      "base": "[PAD248104]",
+      "official_instruct": null
+    },
+    {
+      "id": 248105,
+      "base": "[PAD248105]",
+      "official_instruct": null
+    },
+    {
+      "id": 248106,
+      "base": "[PAD248106]",
+      "official_instruct": null
+    },
+    {
+      "id": 248107,
+      "base": "[PAD248107]",
+      "official_instruct": null
+    },
+    {
+      "id": 248108,
+      "base": "[PAD248108]",
+      "official_instruct": null
+    },
+    {
+      "id": 248109,
+      "base": "[PAD248109]",
+      "official_instruct": null
+    },
+    {
+      "id": 248110,
+      "base": "[PAD248110]",
+      "official_instruct": null
+    },
+    {
+      "id": 248111,
+      "base": "[PAD248111]",
+      "official_instruct": null
+    },
+    {
+      "id": 248112,
+      "base": "[PAD248112]",
+      "official_instruct": null
+    },
+    {
+      "id": 248113,
+      "base": "[PAD248113]",
+      "official_instruct": null
+    },
+    {
+      "id": 248114,
+      "base": "[PAD248114]",
+      "official_instruct": null
+    },
+    {
+      "id": 248115,
+      "base": "[PAD248115]",
+      "official_instruct": null
+    },
+    {
+      "id": 248116,
+      "base": "[PAD248116]",
+      "official_instruct": null
+    },
+    {
+      "id": 248117,
+      "base": "[PAD248117]",
+      "official_instruct": null
+    },
+    {
+      "id": 248118,
+      "base": "[PAD248118]",
+      "official_instruct": null
+    },
+    {
+      "id": 248119,
+      "base": "[PAD248119]",
+      "official_instruct": null
+    },
+    {
+      "id": 248120,
+      "base": "[PAD248120]",
+      "official_instruct": null
+    },
+    {
+      "id": 248121,
+      "base": "[PAD248121]",
+      "official_instruct": null
+    },
+    {
+      "id": 248122,
+      "base": "[PAD248122]",
+      "official_instruct": null
+    },
+    {
+      "id": 248123,
+      "base": "[PAD248123]",
+      "official_instruct": null
+    },
+    {
+      "id": 248124,
+      "base": "[PAD248124]",
+      "official_instruct": null
+    },
+    {
+      "id": 248125,
+      "base": "[PAD248125]",
+      "official_instruct": null
+    },
+    {
+      "id": 248126,
+      "base": "[PAD248126]",
+      "official_instruct": null
+    },
+    {
+      "id": 248127,
+      "base": "[PAD248127]",
+      "official_instruct": null
+    },
+    {
+      "id": 248128,
+      "base": "[PAD248128]",
+      "official_instruct": null
+    },
+    {
+      "id": 248129,
+      "base": "[PAD248129]",
+      "official_instruct": null
+    },
+    {
+      "id": 248130,
+      "base": "[PAD248130]",
+      "official_instruct": null
+    },
+    {
+      "id": 248131,
+      "base": "[PAD248131]",
+      "official_instruct": null
+    },
+    {
+      "id": 248132,
+      "base": "[PAD248132]",
+      "official_instruct": null
+    },
+    {
+      "id": 248133,
+      "base": "[PAD248133]",
+      "official_instruct": null
+    },
+    {
+      "id": 248134,
+      "base": "[PAD248134]",
+      "official_instruct": null
+    },
+    {
+      "id": 248135,
+      "base": "[PAD248135]",
+      "official_instruct": null
+    },
+    {
+      "id": 248136,
+      "base": "[PAD248136]",
+      "official_instruct": null
+    },
+    {
+      "id": 248137,
+      "base": "[PAD248137]",
+      "official_instruct": null
+    },
+    {
+      "id": 248138,
+      "base": "[PAD248138]",
+      "official_instruct": null
+    },
+    {
+      "id": 248139,
+      "base": "[PAD248139]",
+      "official_instruct": null
+    },
+    {
+      "id": 248140,
+      "base": "[PAD248140]",
+      "official_instruct": null
+    },
+    {
+      "id": 248141,
+      "base": "[PAD248141]",
+      "official_instruct": null
+    },
+    {
+      "id": 248142,
+      "base": "[PAD248142]",
+      "official_instruct": null
+    },
+    {
+      "id": 248143,
+      "base": "[PAD248143]",
+      "official_instruct": null
+    },
+    {
+      "id": 248144,
+      "base": "[PAD248144]",
+      "official_instruct": null
+    },
+    {
+      "id": 248145,
+      "base": "[PAD248145]",
+      "official_instruct": null
+    },
+    {
+      "id": 248146,
+      "base": "[PAD248146]",
+      "official_instruct": null
+    },
+    {
+      "id": 248147,
+      "base": "[PAD248147]",
+      "official_instruct": null
+    },
+    {
+      "id": 248148,
+      "base": "[PAD248148]",
+      "official_instruct": null
+    },
+    {
+      "id": 248149,
+      "base": "[PAD248149]",
+      "official_instruct": null
+    },
+    {
+      "id": 248150,
+      "base": "[PAD248150]",
+      "official_instruct": null
+    },
+    {
+      "id": 248151,
+      "base": "[PAD248151]",
+      "official_instruct": null
+    },
+    {
+      "id": 248152,
+      "base": "[PAD248152]",
+      "official_instruct": null
+    },
+    {
+      "id": 248153,
+      "base": "[PAD248153]",
+      "official_instruct": null
+    },
+    {
+      "id": 248154,
+      "base": "[PAD248154]",
+      "official_instruct": null
+    },
+    {
+      "id": 248155,
+      "base": "[PAD248155]",
+      "official_instruct": null
+    },
+    {
+      "id": 248156,
+      "base": "[PAD248156]",
+      "official_instruct": null
+    },
+    {
+      "id": 248157,
+      "base": "[PAD248157]",
+      "official_instruct": null
+    },
+    {
+      "id": 248158,
+      "base": "[PAD248158]",
+      "official_instruct": null
+    },
+    {
+      "id": 248159,
+      "base": "[PAD248159]",
+      "official_instruct": null
+    },
+    {
+      "id": 248160,
+      "base": "[PAD248160]",
+      "official_instruct": null
+    },
+    {
+      "id": 248161,
+      "base": "[PAD248161]",
+      "official_instruct": null
+    },
+    {
+      "id": 248162,
+      "base": "[PAD248162]",
+      "official_instruct": null
+    },
+    {
+      "id": 248163,
+      "base": "[PAD248163]",
+      "official_instruct": null
+    },
+    {
+      "id": 248164,
+      "base": "[PAD248164]",
+      "official_instruct": null
+    },
+    {
+      "id": 248165,
+      "base": "[PAD248165]",
+      "official_instruct": null
+    },
+    {
+      "id": 248166,
+      "base": "[PAD248166]",
+      "official_instruct": null
+    },
+    {
+      "id": 248167,
+      "base": "[PAD248167]",
+      "official_instruct": null
+    },
+    {
+      "id": 248168,
+      "base": "[PAD248168]",
+      "official_instruct": null
+    },
+    {
+      "id": 248169,
+      "base": "[PAD248169]",
+      "official_instruct": null
+    },
+    {
+      "id": 248170,
+      "base": "[PAD248170]",
+      "official_instruct": null
+    },
+    {
+      "id": 248171,
+      "base": "[PAD248171]",
+      "official_instruct": null
+    },
+    {
+      "id": 248172,
+      "base": "[PAD248172]",
+      "official_instruct": null
+    },
+    {
+      "id": 248173,
+      "base": "[PAD248173]",
+      "official_instruct": null
+    },
+    {
+      "id": 248174,
+      "base": "[PAD248174]",
+      "official_instruct": null
+    },
+    {
+      "id": 248175,
+      "base": "[PAD248175]",
+      "official_instruct": null
+    },
+    {
+      "id": 248176,
+      "base": "[PAD248176]",
+      "official_instruct": null
+    },
+    {
+      "id": 248177,
+      "base": "[PAD248177]",
+      "official_instruct": null
+    },
+    {
+      "id": 248178,
+      "base": "[PAD248178]",
+      "official_instruct": null
+    },
+    {
+      "id": 248179,
+      "base": "[PAD248179]",
+      "official_instruct": null
+    },
+    {
+      "id": 248180,
+      "base": "[PAD248180]",
+      "official_instruct": null
+    },
+    {
+      "id": 248181,
+      "base": "[PAD248181]",
+      "official_instruct": null
+    },
+    {
+      "id": 248182,
+      "base": "[PAD248182]",
+      "official_instruct": null
+    },
+    {
+      "id": 248183,
+      "base": "[PAD248183]",
+      "official_instruct": null
+    },
+    {
+      "id": 248184,
+      "base": "[PAD248184]",
+      "official_instruct": null
+    },
+    {
+      "id": 248185,
+      "base": "[PAD248185]",
+      "official_instruct": null
+    },
+    {
+      "id": 248186,
+      "base": "[PAD248186]",
+      "official_instruct": null
+    },
+    {
+      "id": 248187,
+      "base": "[PAD248187]",
+      "official_instruct": null
+    },
+    {
+      "id": 248188,
+      "base": "[PAD248188]",
+      "official_instruct": null
+    },
+    {
+      "id": 248189,
+      "base": "[PAD248189]",
+      "official_instruct": null
+    },
+    {
+      "id": 248190,
+      "base": "[PAD248190]",
+      "official_instruct": null
+    },
+    {
+      "id": 248191,
+      "base": "[PAD248191]",
+      "official_instruct": null
+    },
+    {
+      "id": 248192,
+      "base": "[PAD248192]",
+      "official_instruct": null
+    },
+    {
+      "id": 248193,
+      "base": "[PAD248193]",
+      "official_instruct": null
+    },
+    {
+      "id": 248194,
+      "base": "[PAD248194]",
+      "official_instruct": null
+    },
+    {
+      "id": 248195,
+      "base": "[PAD248195]",
+      "official_instruct": null
+    },
+    {
+      "id": 248196,
+      "base": "[PAD248196]",
+      "official_instruct": null
+    },
+    {
+      "id": 248197,
+      "base": "[PAD248197]",
+      "official_instruct": null
+    },
+    {
+      "id": 248198,
+      "base": "[PAD248198]",
+      "official_instruct": null
+    },
+    {
+      "id": 248199,
+      "base": "[PAD248199]",
+      "official_instruct": null
+    },
+    {
+      "id": 248200,
+      "base": "[PAD248200]",
+      "official_instruct": null
+    },
+    {
+      "id": 248201,
+      "base": "[PAD248201]",
+      "official_instruct": null
+    },
+    {
+      "id": 248202,
+      "base": "[PAD248202]",
+      "official_instruct": null
+    },
+    {
+      "id": 248203,
+      "base": "[PAD248203]",
+      "official_instruct": null
+    },
+    {
+      "id": 248204,
+      "base": "[PAD248204]",
+      "official_instruct": null
+    },
+    {
+      "id": 248205,
+      "base": "[PAD248205]",
+      "official_instruct": null
+    },
+    {
+      "id": 248206,
+      "base": "[PAD248206]",
+      "official_instruct": null
+    },
+    {
+      "id": 248207,
+      "base": "[PAD248207]",
+      "official_instruct": null
+    },
+    {
+      "id": 248208,
+      "base": "[PAD248208]",
+      "official_instruct": null
+    },
+    {
+      "id": 248209,
+      "base": "[PAD248209]",
+      "official_instruct": null
+    },
+    {
+      "id": 248210,
+      "base": "[PAD248210]",
+      "official_instruct": null
+    },
+    {
+      "id": 248211,
+      "base": "[PAD248211]",
+      "official_instruct": null
+    },
+    {
+      "id": 248212,
+      "base": "[PAD248212]",
+      "official_instruct": null
+    },
+    {
+      "id": 248213,
+      "base": "[PAD248213]",
+      "official_instruct": null
+    },
+    {
+      "id": 248214,
+      "base": "[PAD248214]",
+      "official_instruct": null
+    },
+    {
+      "id": 248215,
+      "base": "[PAD248215]",
+      "official_instruct": null
+    },
+    {
+      "id": 248216,
+      "base": "[PAD248216]",
+      "official_instruct": null
+    },
+    {
+      "id": 248217,
+      "base": "[PAD248217]",
+      "official_instruct": null
+    },
+    {
+      "id": 248218,
+      "base": "[PAD248218]",
+      "official_instruct": null
+    },
+    {
+      "id": 248219,
+      "base": "[PAD248219]",
+      "official_instruct": null
+    },
+    {
+      "id": 248220,
+      "base": "[PAD248220]",
+      "official_instruct": null
+    },
+    {
+      "id": 248221,
+      "base": "[PAD248221]",
+      "official_instruct": null
+    },
+    {
+      "id": 248222,
+      "base": "[PAD248222]",
+      "official_instruct": null
+    },
+    {
+      "id": 248223,
+      "base": "[PAD248223]",
+      "official_instruct": null
+    },
+    {
+      "id": 248224,
+      "base": "[PAD248224]",
+      "official_instruct": null
+    },
+    {
+      "id": 248225,
+      "base": "[PAD248225]",
+      "official_instruct": null
+    },
+    {
+      "id": 248226,
+      "base": "[PAD248226]",
+      "official_instruct": null
+    },
+    {
+      "id": 248227,
+      "base": "[PAD248227]",
+      "official_instruct": null
+    },
+    {
+      "id": 248228,
+      "base": "[PAD248228]",
+      "official_instruct": null
+    },
+    {
+      "id": 248229,
+      "base": "[PAD248229]",
+      "official_instruct": null
+    },
+    {
+      "id": 248230,
+      "base": "[PAD248230]",
+      "official_instruct": null
+    },
+    {
+      "id": 248231,
+      "base": "[PAD248231]",
+      "official_instruct": null
+    },
+    {
+      "id": 248232,
+      "base": "[PAD248232]",
+      "official_instruct": null
+    },
+    {
+      "id": 248233,
+      "base": "[PAD248233]",
+      "official_instruct": null
+    },
+    {
+      "id": 248234,
+      "base": "[PAD248234]",
+      "official_instruct": null
+    },
+    {
+      "id": 248235,
+      "base": "[PAD248235]",
+      "official_instruct": null
+    },
+    {
+      "id": 248236,
+      "base": "[PAD248236]",
+      "official_instruct": null
+    },
+    {
+      "id": 248237,
+      "base": "[PAD248237]",
+      "official_instruct": null
+    },
+    {
+      "id": 248238,
+      "base": "[PAD248238]",
+      "official_instruct": null
+    },
+    {
+      "id": 248239,
+      "base": "[PAD248239]",
+      "official_instruct": null
+    },
+    {
+      "id": 248240,
+      "base": "[PAD248240]",
+      "official_instruct": null
+    },
+    {
+      "id": 248241,
+      "base": "[PAD248241]",
+      "official_instruct": null
+    },
+    {
+      "id": 248242,
+      "base": "[PAD248242]",
+      "official_instruct": null
+    },
+    {
+      "id": 248243,
+      "base": "[PAD248243]",
+      "official_instruct": null
+    },
+    {
+      "id": 248244,
+      "base": "[PAD248244]",
+      "official_instruct": null
+    },
+    {
+      "id": 248245,
+      "base": "[PAD248245]",
+      "official_instruct": null
+    },
+    {
+      "id": 248246,
+      "base": "[PAD248246]",
+      "official_instruct": null
+    },
+    {
+      "id": 248247,
+      "base": "[PAD248247]",
+      "official_instruct": null
+    },
+    {
+      "id": 248248,
+      "base": "[PAD248248]",
+      "official_instruct": null
+    },
+    {
+      "id": 248249,
+      "base": "[PAD248249]",
+      "official_instruct": null
+    },
+    {
+      "id": 248250,
+      "base": "[PAD248250]",
+      "official_instruct": null
+    },
+    {
+      "id": 248251,
+      "base": "[PAD248251]",
+      "official_instruct": null
+    },
+    {
+      "id": 248252,
+      "base": "[PAD248252]",
+      "official_instruct": null
+    },
+    {
+      "id": 248253,
+      "base": "[PAD248253]",
+      "official_instruct": null
+    },
+    {
+      "id": 248254,
+      "base": "[PAD248254]",
+      "official_instruct": null
+    },
+    {
+      "id": 248255,
+      "base": "[PAD248255]",
+      "official_instruct": null
+    },
+    {
+      "id": 248256,
+      "base": "[PAD248256]",
+      "official_instruct": null
+    },
+    {
+      "id": 248257,
+      "base": "[PAD248257]",
+      "official_instruct": null
+    },
+    {
+      "id": 248258,
+      "base": "[PAD248258]",
+      "official_instruct": null
+    },
+    {
+      "id": 248259,
+      "base": "[PAD248259]",
+      "official_instruct": null
+    },
+    {
+      "id": 248260,
+      "base": "[PAD248260]",
+      "official_instruct": null
+    },
+    {
+      "id": 248261,
+      "base": "[PAD248261]",
+      "official_instruct": null
+    },
+    {
+      "id": 248262,
+      "base": "[PAD248262]",
+      "official_instruct": null
+    },
+    {
+      "id": 248263,
+      "base": "[PAD248263]",
+      "official_instruct": null
+    },
+    {
+      "id": 248264,
+      "base": "[PAD248264]",
+      "official_instruct": null
+    },
+    {
+      "id": 248265,
+      "base": "[PAD248265]",
+      "official_instruct": null
+    },
+    {
+      "id": 248266,
+      "base": "[PAD248266]",
+      "official_instruct": null
+    },
+    {
+      "id": 248267,
+      "base": "[PAD248267]",
+      "official_instruct": null
+    },
+    {
+      "id": 248268,
+      "base": "[PAD248268]",
+      "official_instruct": null
+    },
+    {
+      "id": 248269,
+      "base": "[PAD248269]",
+      "official_instruct": null
+    },
+    {
+      "id": 248270,
+      "base": "[PAD248270]",
+      "official_instruct": null
+    },
+    {
+      "id": 248271,
+      "base": "[PAD248271]",
+      "official_instruct": null
+    },
+    {
+      "id": 248272,
+      "base": "[PAD248272]",
+      "official_instruct": null
+    },
+    {
+      "id": 248273,
+      "base": "[PAD248273]",
+      "official_instruct": null
+    },
+    {
+      "id": 248274,
+      "base": "[PAD248274]",
+      "official_instruct": null
+    },
+    {
+      "id": 248275,
+      "base": "[PAD248275]",
+      "official_instruct": null
+    },
+    {
+      "id": 248276,
+      "base": "[PAD248276]",
+      "official_instruct": null
+    },
+    {
+      "id": 248277,
+      "base": "[PAD248277]",
+      "official_instruct": null
+    },
+    {
+      "id": 248278,
+      "base": "[PAD248278]",
+      "official_instruct": null
+    },
+    {
+      "id": 248279,
+      "base": "[PAD248279]",
+      "official_instruct": null
+    },
+    {
+      "id": 248280,
+      "base": "[PAD248280]",
+      "official_instruct": null
+    },
+    {
+      "id": 248281,
+      "base": "[PAD248281]",
+      "official_instruct": null
+    },
+    {
+      "id": 248282,
+      "base": "[PAD248282]",
+      "official_instruct": null
+    },
+    {
+      "id": 248283,
+      "base": "[PAD248283]",
+      "official_instruct": null
+    },
+    {
+      "id": 248284,
+      "base": "[PAD248284]",
+      "official_instruct": null
+    },
+    {
+      "id": 248285,
+      "base": "[PAD248285]",
+      "official_instruct": null
+    },
+    {
+      "id": 248286,
+      "base": "[PAD248286]",
+      "official_instruct": null
+    },
+    {
+      "id": 248287,
+      "base": "[PAD248287]",
+      "official_instruct": null
+    },
+    {
+      "id": 248288,
+      "base": "[PAD248288]",
+      "official_instruct": null
+    },
+    {
+      "id": 248289,
+      "base": "[PAD248289]",
+      "official_instruct": null
+    },
+    {
+      "id": 248290,
+      "base": "[PAD248290]",
+      "official_instruct": null
+    },
+    {
+      "id": 248291,
+      "base": "[PAD248291]",
+      "official_instruct": null
+    },
+    {
+      "id": 248292,
+      "base": "[PAD248292]",
+      "official_instruct": null
+    },
+    {
+      "id": 248293,
+      "base": "[PAD248293]",
+      "official_instruct": null
+    },
+    {
+      "id": 248294,
+      "base": "[PAD248294]",
+      "official_instruct": null
+    },
+    {
+      "id": 248295,
+      "base": "[PAD248295]",
+      "official_instruct": null
+    },
+    {
+      "id": 248296,
+      "base": "[PAD248296]",
+      "official_instruct": null
+    },
+    {
+      "id": 248297,
+      "base": "[PAD248297]",
+      "official_instruct": null
+    },
+    {
+      "id": 248298,
+      "base": "[PAD248298]",
+      "official_instruct": null
+    },
+    {
+      "id": 248299,
+      "base": "[PAD248299]",
+      "official_instruct": null
+    },
+    {
+      "id": 248300,
+      "base": "[PAD248300]",
+      "official_instruct": null
+    },
+    {
+      "id": 248301,
+      "base": "[PAD248301]",
+      "official_instruct": null
+    },
+    {
+      "id": 248302,
+      "base": "[PAD248302]",
+      "official_instruct": null
+    },
+    {
+      "id": 248303,
+      "base": "[PAD248303]",
+      "official_instruct": null
+    },
+    {
+      "id": 248304,
+      "base": "[PAD248304]",
+      "official_instruct": null
+    },
+    {
+      "id": 248305,
+      "base": "[PAD248305]",
+      "official_instruct": null
+    },
+    {
+      "id": 248306,
+      "base": "[PAD248306]",
+      "official_instruct": null
+    },
+    {
+      "id": 248307,
+      "base": "[PAD248307]",
+      "official_instruct": null
+    },
+    {
+      "id": 248308,
+      "base": "[PAD248308]",
+      "official_instruct": null
+    },
+    {
+      "id": 248309,
+      "base": "[PAD248309]",
+      "official_instruct": null
+    },
+    {
+      "id": 248310,
+      "base": "[PAD248310]",
+      "official_instruct": null
+    },
+    {
+      "id": 248311,
+      "base": "[PAD248311]",
+      "official_instruct": null
+    },
+    {
+      "id": 248312,
+      "base": "[PAD248312]",
+      "official_instruct": null
+    },
+    {
+      "id": 248313,
+      "base": "[PAD248313]",
+      "official_instruct": null
+    },
+    {
+      "id": 248314,
+      "base": "[PAD248314]",
+      "official_instruct": null
+    },
+    {
+      "id": 248315,
+      "base": "[PAD248315]",
+      "official_instruct": null
+    },
+    {
+      "id": 248316,
+      "base": "[PAD248316]",
+      "official_instruct": null
+    },
+    {
+      "id": 248317,
+      "base": "[PAD248317]",
+      "official_instruct": null
+    },
+    {
+      "id": 248318,
+      "base": "[PAD248318]",
+      "official_instruct": null
+    },
+    {
+      "id": 248319,
+      "base": "[PAD248319]",
+      "official_instruct": null
+    }
+  ],
+  "extra_official_ids": [],
+  "merge_count_base": 247587,
+  "merge_count_official": 247587,
+  "merges_identical": true,
+  "base_special_metadata": {
+    "tokenizer.ggml.model": "gpt2",
+    "tokenizer.ggml.pre": "qwen35",
+    "tokenizer.ggml.eos_token_id": 248044,
+    "tokenizer.ggml.padding_token_id": 248044,
+    "tokenizer.ggml.add_bos_token": false
+  },
+  "official_pre_tokenizer": {
+    "type": "Sequence",
+    "pretokenizers": [
+      {
+        "type": "Split",
+        "pattern": {
+          "Regex": "(?i:'s|'t|'re|'ve|'m|'ll|'d)|[^\\r\\n\\p{L}\\p{N}]?[\\p{L}\\p{M}]+|\\p{N}| ?[^\\s\\p{L}\\p{M}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+        },
+        "behavior": "Isolated",
+        "invert": false
+      },
+      {
+        "type": "ByteLevel",
+        "add_prefix_space": false,
+        "trim_offsets": false,
+        "use_regex": false
+      }
+    ]
+  },
+  "official_normalizer": {
+    "type": "NFC"
+  },
+  "official_post_processor": {
+    "type": "ByteLevel",
+    "add_prefix_space": false,
+    "trim_offsets": false,
+    "use_regex": false
+  },
+  "read_info": {
+    "metadata_bytes_read": 10942505,
+    "tensor_count": 320,
+    "tensor_data_read": false
+  },
+  "weights_downloaded": false,
+  "generation_requests": 0,
+  "local_instruct_gguf": null,
+  "conclusion": "Static vocabulary/merge comparison only. Native Instruct tokenization, special-token insertion, template runtime, quantized model loading and EOG termination remain unverified.",
+  "code_sha256": "fe4344dea7935c636fd8629cfe0766021d2757812a528373bb8f97d8fa180d59"
+}

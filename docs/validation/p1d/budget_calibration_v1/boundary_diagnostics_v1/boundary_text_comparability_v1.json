@@ -1,0 +1,61 @@
+{
+  "independent_accuracy": null,
+  "interpretation": "Offset/whitespace changes are not automatically semantic boundary changes. Case-sensitive literal stops can abstain on uppercase role transitions.",
+  "methods": {
+    "fence_aware_role_or_section": {
+      "abstentions": 0,
+      "candidates": 144,
+      "non_whitespace_content_difference": 0,
+      "same_content_after_outer_whitespace_trim": 144,
+      "whitespace_only_difference": 0
+    },
+    "frozen_v1": {
+      "abstentions": 0,
+      "candidates": 144,
+      "non_whitespace_content_difference": 0,
+      "same_content_after_outer_whitespace_trim": 144,
+      "whitespace_only_difference": 0
+    },
+    "literal_role_stop_shadow": {
+      "abstentions": 15,
+      "candidates": 129,
+      "non_whitespace_content_difference": 0,
+      "same_content_after_outer_whitespace_trim": 129,
+      "whitespace_only_difference": 129
+    },
+    "native_eos_only": {
+      "abstentions": 144,
+      "candidates": 0,
+      "non_whitespace_content_difference": 0,
+      "same_content_after_outer_whitespace_trim": 0,
+      "whitespace_only_difference": 0
+    },
+    "prefix_locality_diagnostic": {
+      "abstentions": 0,
+      "candidates": 144,
+      "non_whitespace_content_difference": 0,
+      "same_content_after_outer_whitespace_trim": 144,
+      "whitespace_only_difference": 0
+    },
+    "question_response_heading_shadow": {
+      "abstentions": 0,
+      "candidates": 144,
+      "non_whitespace_content_difference": 99,
+      "same_content_after_outer_whitespace_trim": 45,
+      "whitespace_only_difference": 45
+    },
+    "role_or_section": {
+      "abstentions": 0,
+      "candidates": 144,
+      "non_whitespace_content_difference": 0,
+      "same_content_after_outer_whitespace_trim": 144,
+      "whitespace_only_difference": 0
+    }
+  },
+  "primary_bytes_modified": false,
+  "source_sha256": {
+    "docs\\validation\\p1d\\budget_calibration_v1\\boundary_diagnostics_v1\\boundary_candidate_views_v1.csv": "fc9c14b5479c03b250904d494ad78747b9b9482e6680d373f347fa7467d42e93",
+    "docs\\validation\\p1d\\budget_calibration_v1\\measurement_v1\\execution_integrity_v1.json": "7193f237d9b02406cdc9f89b739bb4664a58fd052577ac79a89f0729fed17d9a"
+  },
+  "version": "boundary_content_comparability_v1"
+}

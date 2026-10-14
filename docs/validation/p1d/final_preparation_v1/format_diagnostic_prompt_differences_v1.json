@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "p1d_dev_00_0",
+    "diff": "--- authorized_original\n+++ proposed_user_marker\n@@ -43,5 +43,5 @@\n User: Please prepare a collection note for Mira Fenwick.\n Assistant: I will use the ledger for that volunteer.\n CURRENT QUESTION\n-Which locker was assigned to Mira Fenwick on 2048-05-15?\n+User: Which locker was assigned to Mira Fenwick on 2048-05-15?\n Assistant:",
+    "new_input_tokens": 1733,
+    "new_prompt_sha256": "0db679e379e40bbebd6c199772aa2958fd1669bcbf2471a1f99448fb3197ad94",
+    "old_input_tokens": 1731,
+    "old_prompt_sha256": "93613e48fa2d8144da7fcbe4bf629a50db314ae3b4ebdbe83f7598a74402c742",
+    "token_count_change": 2
+  },
+  {
+    "case_id": "p1d_dev_01_0",
+    "diff": "--- authorized_original\n+++ proposed_user_marker\n@@ -43,5 +43,5 @@\n User: Please prepare a collection note for Owen Bellamy.\n Assistant: I will use the ledger for that volunteer.\n CURRENT QUESTION\n-Give both the locker and pickup window assigned to Owen Bellamy on 2048-05-15.\n+User: Give both the locker and pickup window assigned to Owen Bellamy on 2048-05-15.\n Assistant:",
+    "new_input_tokens": 1639,
+    "new_prompt_sha256": "814aafd933bfcfcc5fcd772c0fd669524da34754fa5245d8cedafb4c28e57f6e",
+    "old_input_tokens": 1637,
+    "old_prompt_sha256": "fd4f51e48a712a771d3cc9ae52da130f524d2183b00a4762cd588f02670498fe",
+    "token_count_change": 2
+  },
+  {
+    "case_id": "p1d_dev_03_0",
+    "diff": "--- authorized_original\n+++ proposed_user_marker\n@@ -43,5 +43,5 @@\n User: Please prepare a collection note for Quinn Fairchild.\n Assistant: I will use the ledger for that volunteer.\n CURRENT QUESTION\n-For that volunteer, give both the locker and pickup window on 2048-05-15.\n+User: For that volunteer, give both the locker and pickup window on 2048-05-15.\n Assistant:",
+    "new_input_tokens": 1638,
+    "new_prompt_sha256": "a499093b930e3258d1062de633fe3f12800de9627f43d0cb41013a3428ece35a",
+    "old_input_tokens": 1636,
+    "old_prompt_sha256": "4c8d1c1883ae48ebf11c0c0234f4165228752a0b38f36458259534395ed7dbce",
+    "token_count_change": 2
+  },
+  {
+    "case_id": "p1d_dev_05_1",
+    "diff": "--- authorized_original\n+++ proposed_user_marker\n@@ -43,5 +43,5 @@\n User: Please prepare a collection note for Arlo Kingsley.\n Assistant: I will use the ledger for that volunteer.\n CURRENT QUESTION\n-On 2048-11-15, follow Arlo Kingsley's locker to its hub and the hub to its exit. Give the hub and the exit.\n+User: On 2048-11-15, follow Arlo Kingsley's locker to its hub and the hub to its exit. Give the hub and the exit.\n Assistant:",
+    "new_input_tokens": 1668,
+    "new_prompt_sha256": "44630961a3a509b54b8f6ceae4fe8218a978d71ac07e1223d1add06d6b99cb5b",
+    "old_input_tokens": 1666,
+    "old_prompt_sha256": "ab59196bf5a7fc76dd9b9033567f1b9a9254e4691840cc8ff5ce07fc0c2b4f67",
+    "token_count_change": 2
+  },
+  {
+    "case_id": "p1d_dev_02_0",
+    "diff": "--- authorized_original\n+++ proposed_user_marker\n@@ -43,5 +43,5 @@\n User: Please prepare a collection note for Tessa Northwick.\n Assistant: I will use the ledger for that volunteer.\n CURRENT QUESTION\n-On 2048-05-15, follow Tessa Northwick's locker to its hub and the hub to its exit. Give the hub and the exit.\n+User: On 2048-05-15, follow Tessa Northwick's locker to its hub and the hub to its exit. Give the hub and the exit.\n Assistant:",
+    "new_input_tokens": 1758,
+    "new_prompt_sha256": "a4cbc26821517f2c1001e6eb1e518dd9a26cadafbe9558b3e404a8eddb44c3e5",
+    "old_input_tokens": 1756,
+    "old_prompt_sha256": "3f035b6f3ce1474f0e58acc0cd6fcd40878792e540e16d1fd3e5da1e3ed710e9",
+    "token_count_change": 2
+  },
+  {
+    "case_id": "p1d_dev_06_1",
+    "diff": "--- authorized_original\n+++ proposed_user_marker\n@@ -43,5 +43,5 @@\n User: Please prepare a collection note for Cleo Westlake.\n Assistant: I will use the ledger for that volunteer.\n CURRENT QUESTION\n-For that volunteer, give both the locker and pickup window on 2048-11-15.\n+User: For that volunteer, give both the locker and pickup window on 2048-11-15.\n Assistant:",
+    "new_input_tokens": 1745,
+    "new_prompt_sha256": "6ad424bcb3eba53c962ee0bd7dd1d3d0159558c0b2e12850f549ec0ef9247831",
+    "old_input_tokens": 1743,
+    "old_prompt_sha256": "09ed13681d78025ced9234af8886d0a5df0d4e9016965987f4eac871b74601dd",
+    "token_count_change": 2
+  },
+  {
+    "case_id": "p1d_dev_07_1",
+    "diff": "--- authorized_original\n+++ proposed_user_marker\n@@ -43,5 +43,5 @@\n User: Please prepare a collection note for Ellis Fairmont.\n Assistant: I will use the ledger for that volunteer.\n CURRENT QUESTION\n-Which locker was assigned to Ellis Fairmont on 2048-11-15?\n+User: Which locker was assigned to Ellis Fairmont on 2048-11-15?\n Assistant:",
+    "new_input_tokens": 1635,
+    "new_prompt_sha256": "0ab2ae8b1c727692fe50e33d0fc581db10e7a50cfc215eaefd7c8d0e6444cbae",
+    "old_input_tokens": 1633,
+    "old_prompt_sha256": "fefb7d1f3a6e3e2ff734f1599b285d395f641876ecbcead087fcdb00e70efaed",
+    "token_count_change": 2
+  },
+  {
+    "case_id": "p1d_dev_04_1",
+    "diff": "--- authorized_original\n+++ proposed_user_marker\n@@ -43,5 +43,5 @@\n User: Please prepare a collection note for Vera Ashcombe.\n Assistant: I will use the ledger for that volunteer.\n CURRENT QUESTION\n-Give both the locker and pickup window assigned to Vera Ashcombe on 2048-11-15.\n+User: Give both the locker and pickup window assigned to Vera Ashcombe on 2048-11-15.\n Assistant:",
+    "new_input_tokens": 1737,
+    "new_prompt_sha256": "fc0b34cf853dc1723fe029e549e0db1db17cdb645f29fe301c8eb387fd42be45",
+    "old_input_tokens": 1735,
+    "old_prompt_sha256": "df4b058051ad6bd23a8755e670189e66f86f3d3ce7d41c35a52b0a057c2a0e89",
+    "token_count_change": 2
+  }
+]

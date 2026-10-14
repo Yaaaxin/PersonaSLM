@@ -1,0 +1,342 @@
+{
+  "conditions_or_budgets_exposed": false,
+  "created_utc": "2026-10-14T13:04:25.789857+00:00",
+  "groups": [
+    {
+      "anonymous_members": [
+        "BC078",
+        "BC031",
+        "BC068"
+      ],
+      "evaluation_date": "2048-12-31",
+      "facts": [
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Arlo Kingsley",
+          "id": "D05F00",
+          "predicate": "locker",
+          "start": "2048-01-01",
+          "value": "Locker 108"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Arlo Kingsley",
+          "id": "D05F01",
+          "predicate": "pickup_window",
+          "start": "2048-01-01",
+          "value": "09:00-10:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Locker 108",
+          "id": "D05F02",
+          "predicate": "hub",
+          "start": "2048-01-01",
+          "value": "Hub 209"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Hub 209",
+          "id": "D05F03",
+          "predicate": "exit",
+          "start": "2048-01-01",
+          "value": "Exit 304"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Arlo Kingsley",
+          "id": "D05F04",
+          "predicate": "locker",
+          "start": "2048-04-01",
+          "value": "Locker 107"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Arlo Kingsley",
+          "id": "D05F05",
+          "predicate": "pickup_window",
+          "start": "2048-04-01",
+          "value": "10:00-11:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Locker 107",
+          "id": "D05F06",
+          "predicate": "hub",
+          "start": "2048-04-01",
+          "value": "Hub 202"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Hub 202",
+          "id": "D05F07",
+          "predicate": "exit",
+          "start": "2048-04-01",
+          "value": "Exit 305"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Arlo Kingsley",
+          "id": "D05F08",
+          "predicate": "locker",
+          "start": "2048-07-01",
+          "value": "Locker 105"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Arlo Kingsley",
+          "id": "D05F09",
+          "predicate": "pickup_window",
+          "start": "2048-07-01",
+          "value": "11:00-12:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Locker 105",
+          "id": "D05F10",
+          "predicate": "hub",
+          "start": "2048-07-01",
+          "value": "Hub 210"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Hub 210",
+          "id": "D05F11",
+          "predicate": "exit",
+          "start": "2048-07-01",
+          "value": "Exit 302"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Arlo Kingsley",
+          "id": "D05F12",
+          "predicate": "locker",
+          "start": "2048-10-01",
+          "value": "Locker 106"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Arlo Kingsley",
+          "id": "D05F13",
+          "predicate": "pickup_window",
+          "start": "2048-10-01",
+          "value": "12:00-13:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Locker 106",
+          "id": "D05F14",
+          "predicate": "hub",
+          "start": "2048-10-01",
+          "value": "Hub 213"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Hub 213",
+          "id": "D05F15",
+          "predicate": "exit",
+          "start": "2048-10-01",
+          "value": "Exit 316"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Arwen Kingsley",
+          "id": "D05F16",
+          "predicate": "locker",
+          "start": "2048-01-01",
+          "value": "Locker 116"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Arwen Kingsley",
+          "id": "D05F17",
+          "predicate": "pickup_window",
+          "start": "2048-01-01",
+          "value": "09:00-10:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Locker 116",
+          "id": "D05F18",
+          "predicate": "hub",
+          "start": "2048-01-01",
+          "value": "Hub 205"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Hub 205",
+          "id": "D05F19",
+          "predicate": "exit",
+          "start": "2048-01-01",
+          "value": "Exit 308"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Arwen Kingsley",
+          "id": "D05F20",
+          "predicate": "locker",
+          "start": "2048-04-01",
+          "value": "Locker 112"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Arwen Kingsley",
+          "id": "D05F21",
+          "predicate": "pickup_window",
+          "start": "2048-04-01",
+          "value": "10:00-11:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Locker 112",
+          "id": "D05F22",
+          "predicate": "hub",
+          "start": "2048-04-01",
+          "value": "Hub 208"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Hub 208",
+          "id": "D05F23",
+          "predicate": "exit",
+          "start": "2048-04-01",
+          "value": "Exit 313"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Arwen Kingsley",
+          "id": "D05F24",
+          "predicate": "locker",
+          "start": "2048-07-01",
+          "value": "Locker 101"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Arwen Kingsley",
+          "id": "D05F25",
+          "predicate": "pickup_window",
+          "start": "2048-07-01",
+          "value": "11:00-12:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Locker 101",
+          "id": "D05F26",
+          "predicate": "hub",
+          "start": "2048-07-01",
+          "value": "Hub 212"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Hub 212",
+          "id": "D05F27",
+          "predicate": "exit",
+          "start": "2048-07-01",
+          "value": "Exit 312"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Arwen Kingsley",
+          "id": "D05F28",
+          "predicate": "locker",
+          "start": "2048-10-01",
+          "value": "Locker 110"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Arwen Kingsley",
+          "id": "D05F29",
+          "predicate": "pickup_window",
+          "start": "2048-10-01",
+          "value": "12:00-13:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Locker 110",
+          "id": "D05F30",
+          "predicate": "hub",
+          "start": "2048-10-01",
+          "value": "Hub 207"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Hub 207",
+          "id": "D05F31",
+          "predicate": "exit",
+          "start": "2048-10-01",
+          "value": "Exit 307"
+        }
+      ],
+      "fixed_context": "User: Please prepare a collection note for Arlo Kingsley.\nAssistant: I will use the ledger for that volunteer.",
+      "group_id": "4d9904f1791047aab24f8fd880047754a3a77fb38d8a3d4dcc02ed9a2a85e45d",
+      "measurement_state": "ASSESSABLE",
+      "persona_style": "Use calm complete sentences; avoid slang.",
+      "primary_text": " I will use the ledger for that volunteer.\n",
+      "primary_text_sha256": "bb8368af8bc2f8d5a62fd72a739d5361cd99d4c307691a3a28512ef805ea903f",
+      "question": "On 2048-11-15, follow Arlo Kingsley's locker to its hub and the hub to its exit. Give the hub and the exit.",
+      "requested_date": "2048-11-15",
+      "required_components": [
+        {
+          "key": "hub",
+          "source_id": "D05F14",
+          "value": "Hub 213"
+        },
+        {
+          "key": "exit",
+          "source_id": "D05F15",
+          "value": "Exit 316"
+        }
+      ],
+      "source_result_events": [
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000517.json",
+          "sha256": "b7dd4b454d905032e8b8fe3043390bfd84ba3e0b364b602bc72f89525dc96f9c"
+        },
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000523.json",
+          "sha256": "23135886455c6a089392d5caa55c0fbe8cdbbfe50eeed3ec9eb6b648a85b2c05"
+        },
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000529.json",
+          "sha256": "8859106da1aace87447969827c55f8de60e61c73d8486dfcc2a1cae529702147"
+        }
+      ],
+      "trusted_evidence": "[D05F00] During 2048-01-01 through 2048-03-31, Arlo Kingsley had locker Locker 108.\n[D05F01] During 2048-01-01 through 2048-03-31, Arlo Kingsley had pickup_window 09:00-10:00.\n[D05F02] During 2048-01-01 through 2048-03-31, Locker 108 had hub Hub 209.\n[D05F03] During 2048-01-01 through 2048-03-31, Hub 209 had exit Exit 304.\n[D05F04] During 2048-04-01 through 2048-06-30, Arlo Kingsley had locker Locker 107.\n[D05F05] During 2048-04-01 through 2048-06-30, Arlo Kingsley had pickup_window 10:00-11:00.\n[D05F06] During 2048-04-01 through 2048-06-30, Locker 107 had hub Hub 202.\n[D05F07] During 2048-04-01 through 2048-06-30, Hub 202 had exit Exit 305.\n[D05F08] During 2048-07-01 through 2048-09-30, Arlo Kingsley had locker Locker 105.\n[D05F09] During 2048-07-01 through 2048-09-30, Arlo Kingsley had pickup_window 11:00-12:00.\n[D05F10] During 2048-07-01 through 2048-09-30, Locker 105 had hub Hub 210.\n[D05F11] During 2048-07-01 through 2048-09-30, Hub 210 had exit Exit 302.\n[D05F12] During 2048-10-01 through 2048-12-31, Arlo Kingsley had locker Locker 106.\n[D05F13] During 2048-10-01 through 2048-12-31, Arlo Kingsley had pickup_window 12:00-13:00.\n[D05F14] During 2048-10-01 through 2048-12-31, Locker 106 had hub Hub 213.\n[D05F15] During 2048-10-01 through 2048-12-31, Hub 213 had exit Exit 316.\n[D05F16] During 2048-01-01 through 2048-03-31, Arwen Kingsley had locker Locker 116.\n[D05F17] During 2048-01-01 through 2048-03-31, Arwen Kingsley had pickup_window 09:00-10:00.\n[D05F18] During 2048-01-01 through 2048-03-31, Locker 116 had hub Hub 205.\n[D05F19] During 2048-01-01 through 2048-03-31, Hub 205 had exit Exit 308.\n[D05F20] During 2048-04-01 through 2048-06-30, Arwen Kingsley had locker Locker 112.\n[D05F21] During 2048-04-01 through 2048-06-30, Arwen Kingsley had pickup_window 10:00-11:00.\n[D05F22] During 2048-04-01 through 2048-06-30, Locker 112 had hub Hub 208.\n[D05F23] During 2048-04-01 through 2048-06-30, Hub 208 had exit Exit 313.\n[D05F24] During 2048-07-01 through 2048-09-30, Arwen Kingsley had locker Locker 101.\n[D05F25] During 2048-07-01 through 2048-09-30, Arwen Kingsley had pickup_window 11:00-12:00.\n[D05F26] During 2048-07-01 through 2048-09-30, Locker 101 had hub Hub 212.\n[D05F27] During 2048-07-01 through 2048-09-30, Hub 212 had exit Exit 312.\n[D05F28] During 2048-10-01 through 2048-12-31, Arwen Kingsley had locker Locker 110.\n[D05F29] During 2048-10-01 through 2048-12-31, Arwen Kingsley had pickup_window 12:00-13:00.\n[D05F30] During 2048-10-01 through 2048-12-31, Locker 110 had hub Hub 207.\n[D05F31] During 2048-10-01 through 2048-12-31, Hub 207 had exit Exit 307."
+    }
+  ],
+  "human_decisions": 0,
+  "scope": "Identical evidence/question/date/context/style/span groups only. Every original request remains a separate observation.",
+  "version": "masked_measurement_input_groups_v1"
+}

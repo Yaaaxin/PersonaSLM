@@ -1,0 +1,32 @@
+{
+  "checks": {
+    "development_cases": 8,
+    "heldout_overlap": 0,
+    "input_tokens": [
+      1633,
+      1807
+    ],
+    "requests": 144,
+    "speakers": 8,
+    "unique_prompts": 48
+  },
+  "conditions": "Successful mandatory preflight; unchanged inputs/settings except registered output caps; no automatic main-policy amendment.",
+  "decision": "AUTHORIZED",
+  "decision_source": "Explicit user instruction: PersonaSLM — P1d Bounded CPU Calibration, Scientific Validation and Final Execution Preparation",
+  "frozen_copy": "docs/validation/p1d/budget_calibration_v1/frozen_manifest_v2.json",
+  "manifest_path": "docs/validation/p1d/scientific_validation_v1/budget_calibration_manifest_candidate_v2.json",
+  "manifest_sha256": "510e46b214dda23dea2a3e5462d44982d25b7a9db022626a7a5a1ba504d5e039",
+  "maximum_attempts": 144,
+  "original_manifest_status": "Preserved historical proposal status; this separate authorization is operative.",
+  "prohibited": [
+    "1728 independent Base requests",
+    "288 Instruct requests",
+    "additional generation or training",
+    "silent retries"
+  ],
+  "registered_utc": "2026-10-14T12:33:36.321069+00:00",
+  "researcher": "Yaxin ZHENG",
+  "researcher_decision_timestamp": null,
+  "scope": "Exactly eight registered development cases x six conditions x budgets 96, 192, 256; Base CPU only.",
+  "version": "p1d_budget_researcher_authorization_v1"
+}

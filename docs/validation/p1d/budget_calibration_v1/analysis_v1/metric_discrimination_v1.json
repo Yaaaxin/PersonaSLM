@@ -1,0 +1,61 @@
+{
+  "human_confirmed": 0,
+  "limit": "Observed discrimination is not construct validation, independent annotation reliability or population variation. Invariant metrics cannot distinguish cells here.",
+  "method": "Explicit metric-specific AI rationales, not label-to-label conversion. Exact input duplicates share a disclosed assessment.",
+  "ordinal_ceiling_counts": {
+    "coherence": 60,
+    "persona_fidelity": 99,
+    "relevance": 0
+  },
+  "records": 144,
+  "tables": {
+    "coherence__semantic_completeness": [
+      {
+        "coherence": 3,
+        "count": 84,
+        "semantic_completeness": "NO"
+      },
+      {
+        "coherence": 5,
+        "count": 60,
+        "semantic_completeness": "NO"
+      }
+    ],
+    "factual__task_success__semantic_completeness": [
+      {
+        "count": 3,
+        "factual": "Correct",
+        "semantic_completeness": "NO",
+        "task_success": "Failure"
+      },
+      {
+        "count": 141,
+        "factual": "Unverifiable",
+        "semantic_completeness": "NO",
+        "task_success": "Failure"
+      }
+    ],
+    "relevance__coherence": [
+      {
+        "coherence": 3,
+        "count": 15,
+        "relevance": 2
+      },
+      {
+        "coherence": 3,
+        "count": 69,
+        "relevance": 3
+      },
+      {
+        "coherence": 5,
+        "count": 60,
+        "relevance": 3
+      }
+    ]
+  },
+  "zero_observed_variance": [
+    "temporal",
+    "task_success",
+    "semantic_completeness"
+  ]
+}

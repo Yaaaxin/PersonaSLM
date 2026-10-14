@@ -1,0 +1,670 @@
+{
+  "conditions_or_budgets_exposed": false,
+  "created_utc": "2026-10-14T13:02:02.203360+00:00",
+  "groups": [
+    {
+      "anonymous_members": [
+        "BC133",
+        "BC033",
+        "BC138"
+      ],
+      "evaluation_date": "2048-12-31",
+      "facts": [
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Vera Ashcombe",
+          "id": "D04F00",
+          "predicate": "locker",
+          "start": "2048-01-01",
+          "value": "Locker 111"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Vera Ashcombe",
+          "id": "D04F01",
+          "predicate": "pickup_window",
+          "start": "2048-01-01",
+          "value": "09:00-10:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Locker 111",
+          "id": "D04F02",
+          "predicate": "hub",
+          "start": "2048-01-01",
+          "value": "Hub 213"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Hub 213",
+          "id": "D04F03",
+          "predicate": "exit",
+          "start": "2048-01-01",
+          "value": "Exit 308"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Vera Ashcombe",
+          "id": "D04F04",
+          "predicate": "locker",
+          "start": "2048-04-01",
+          "value": "Locker 115"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Vera Ashcombe",
+          "id": "D04F05",
+          "predicate": "pickup_window",
+          "start": "2048-04-01",
+          "value": "10:00-11:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Locker 115",
+          "id": "D04F06",
+          "predicate": "hub",
+          "start": "2048-04-01",
+          "value": "Hub 201"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Hub 201",
+          "id": "D04F07",
+          "predicate": "exit",
+          "start": "2048-04-01",
+          "value": "Exit 316"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Vera Ashcombe",
+          "id": "D04F08",
+          "predicate": "locker",
+          "start": "2048-07-01",
+          "value": "Locker 101"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Vera Ashcombe",
+          "id": "D04F09",
+          "predicate": "pickup_window",
+          "start": "2048-07-01",
+          "value": "11:00-12:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Locker 101",
+          "id": "D04F10",
+          "predicate": "hub",
+          "start": "2048-07-01",
+          "value": "Hub 210"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Hub 210",
+          "id": "D04F11",
+          "predicate": "exit",
+          "start": "2048-07-01",
+          "value": "Exit 301"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Vera Ashcombe",
+          "id": "D04F12",
+          "predicate": "locker",
+          "start": "2048-10-01",
+          "value": "Locker 110"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Vera Ashcombe",
+          "id": "D04F13",
+          "predicate": "pickup_window",
+          "start": "2048-10-01",
+          "value": "12:00-13:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Locker 110",
+          "id": "D04F14",
+          "predicate": "hub",
+          "start": "2048-10-01",
+          "value": "Hub 208"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Hub 208",
+          "id": "D04F15",
+          "predicate": "exit",
+          "start": "2048-10-01",
+          "value": "Exit 312"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Quinn Ashcombe",
+          "id": "D04F16",
+          "predicate": "locker",
+          "start": "2048-01-01",
+          "value": "Locker 102"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Quinn Ashcombe",
+          "id": "D04F17",
+          "predicate": "pickup_window",
+          "start": "2048-01-01",
+          "value": "09:00-10:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Locker 102",
+          "id": "D04F18",
+          "predicate": "hub",
+          "start": "2048-01-01",
+          "value": "Hub 202"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Hub 202",
+          "id": "D04F19",
+          "predicate": "exit",
+          "start": "2048-01-01",
+          "value": "Exit 309"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Quinn Ashcombe",
+          "id": "D04F20",
+          "predicate": "locker",
+          "start": "2048-04-01",
+          "value": "Locker 106"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Quinn Ashcombe",
+          "id": "D04F21",
+          "predicate": "pickup_window",
+          "start": "2048-04-01",
+          "value": "10:00-11:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Locker 106",
+          "id": "D04F22",
+          "predicate": "hub",
+          "start": "2048-04-01",
+          "value": "Hub 203"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Hub 203",
+          "id": "D04F23",
+          "predicate": "exit",
+          "start": "2048-04-01",
+          "value": "Exit 306"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Quinn Ashcombe",
+          "id": "D04F24",
+          "predicate": "locker",
+          "start": "2048-07-01",
+          "value": "Locker 104"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Quinn Ashcombe",
+          "id": "D04F25",
+          "predicate": "pickup_window",
+          "start": "2048-07-01",
+          "value": "11:00-12:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Locker 104",
+          "id": "D04F26",
+          "predicate": "hub",
+          "start": "2048-07-01",
+          "value": "Hub 211"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Hub 211",
+          "id": "D04F27",
+          "predicate": "exit",
+          "start": "2048-07-01",
+          "value": "Exit 311"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Quinn Ashcombe",
+          "id": "D04F28",
+          "predicate": "locker",
+          "start": "2048-10-01",
+          "value": "Locker 116"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Quinn Ashcombe",
+          "id": "D04F29",
+          "predicate": "pickup_window",
+          "start": "2048-10-01",
+          "value": "12:00-13:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Locker 116",
+          "id": "D04F30",
+          "predicate": "hub",
+          "start": "2048-10-01",
+          "value": "Hub 212"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Hub 212",
+          "id": "D04F31",
+          "predicate": "exit",
+          "start": "2048-10-01",
+          "value": "Exit 305"
+        }
+      ],
+      "fixed_context": "User: Please prepare a collection note for Vera Ashcombe.\nAssistant: I will use the ledger for that volunteer.",
+      "group_id": "ce200782ff3b3b5ce243770db12d0cf2398b66cdba8b866de736dbafa154c931",
+      "measurement_state": "ASSESSABLE",
+      "persona_style": "Use brief direct clauses; avoid decorative metaphors.",
+      "primary_text": " I will use the ledger for that date.\nCURRENT QUESTION\nGive both the locker and pickup window assigned to Vera Ashcombe on 2048-11-15.\n",
+      "primary_text_sha256": "577db98dd8dc5613c42eecbd399f6ab829cd4c859e1215b4af522223987b668b",
+      "question": "Give both the locker and pickup window assigned to Vera Ashcombe on 2048-11-15.",
+      "requested_date": "2048-11-15",
+      "required_components": [
+        {
+          "key": "locker",
+          "source_id": "D04F12",
+          "value": "Locker 110"
+        },
+        {
+          "key": "pickup_window",
+          "source_id": "D04F13",
+          "value": "12:00-13:00"
+        }
+      ],
+      "source_result_events": [
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000445.json",
+          "sha256": "c3a406bac792cbe915a2aabe3a732f05aa1514fc674cae69350e2ad54ba758b3"
+        },
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000451.json",
+          "sha256": "9776674ade66c343d56c31a0365a0d55f2745a2dafaa0cfb07b1f3218622d2d4"
+        },
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000457.json",
+          "sha256": "511c0a2b892c8b8be8c48cf5e3a1187a809b04d1fdde50c7477fffcd2d1cb7fe"
+        }
+      ],
+      "trusted_evidence": "[D04F00] Vera Ashcombe: locker = Locker 111; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D04F01] Vera Ashcombe: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D04F02] Locker 111: hub = Hub 213; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D04F03] Hub 213: exit = Exit 308; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D04F04] Vera Ashcombe: locker = Locker 115; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D04F05] Vera Ashcombe: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D04F06] Locker 115: hub = Hub 201; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D04F07] Hub 201: exit = Exit 316; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D04F08] Vera Ashcombe: locker = Locker 101; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D04F09] Vera Ashcombe: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D04F10] Locker 101: hub = Hub 210; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D04F11] Hub 210: exit = Exit 301; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D04F12] Vera Ashcombe: locker = Locker 110; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D04F13] Vera Ashcombe: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D04F14] Locker 110: hub = Hub 208; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D04F15] Hub 208: exit = Exit 312; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D04F16] Quinn Ashcombe: locker = Locker 102; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D04F17] Quinn Ashcombe: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D04F18] Locker 102: hub = Hub 202; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D04F19] Hub 202: exit = Exit 309; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D04F20] Quinn Ashcombe: locker = Locker 106; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D04F21] Quinn Ashcombe: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D04F22] Locker 106: hub = Hub 203; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D04F23] Hub 203: exit = Exit 306; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D04F24] Quinn Ashcombe: locker = Locker 104; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D04F25] Quinn Ashcombe: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D04F26] Locker 104: hub = Hub 211; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D04F27] Hub 211: exit = Exit 311; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D04F28] Quinn Ashcombe: locker = Locker 116; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D04F29] Quinn Ashcombe: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D04F30] Locker 116: hub = Hub 212; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D04F31] Hub 212: exit = Exit 305; valid from 2048-10-01 through 2048-12-31 inclusive."
+    },
+    {
+      "anonymous_members": [
+        "BC101",
+        "BC044",
+        "BC038"
+      ],
+      "evaluation_date": "2048-12-31",
+      "facts": [
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Ellis Fairmont",
+          "id": "D07F00",
+          "predicate": "locker",
+          "start": "2048-01-01",
+          "value": "Locker 114"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Ellis Fairmont",
+          "id": "D07F01",
+          "predicate": "pickup_window",
+          "start": "2048-01-01",
+          "value": "09:00-10:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Locker 114",
+          "id": "D07F02",
+          "predicate": "hub",
+          "start": "2048-01-01",
+          "value": "Hub 204"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Hub 204",
+          "id": "D07F03",
+          "predicate": "exit",
+          "start": "2048-01-01",
+          "value": "Exit 301"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Ellis Fairmont",
+          "id": "D07F04",
+          "predicate": "locker",
+          "start": "2048-04-01",
+          "value": "Locker 113"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Ellis Fairmont",
+          "id": "D07F05",
+          "predicate": "pickup_window",
+          "start": "2048-04-01",
+          "value": "10:00-11:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Locker 113",
+          "id": "D07F06",
+          "predicate": "hub",
+          "start": "2048-04-01",
+          "value": "Hub 206"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Hub 206",
+          "id": "D07F07",
+          "predicate": "exit",
+          "start": "2048-04-01",
+          "value": "Exit 302"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Ellis Fairmont",
+          "id": "D07F08",
+          "predicate": "locker",
+          "start": "2048-07-01",
+          "value": "Locker 103"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Ellis Fairmont",
+          "id": "D07F09",
+          "predicate": "pickup_window",
+          "start": "2048-07-01",
+          "value": "11:00-12:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Locker 103",
+          "id": "D07F10",
+          "predicate": "hub",
+          "start": "2048-07-01",
+          "value": "Hub 203"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Hub 203",
+          "id": "D07F11",
+          "predicate": "exit",
+          "start": "2048-07-01",
+          "value": "Exit 305"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Ellis Fairmont",
+          "id": "D07F12",
+          "predicate": "locker",
+          "start": "2048-10-01",
+          "value": "Locker 112"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Ellis Fairmont",
+          "id": "D07F13",
+          "predicate": "pickup_window",
+          "start": "2048-10-01",
+          "value": "12:00-13:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Locker 112",
+          "id": "D07F14",
+          "predicate": "hub",
+          "start": "2048-10-01",
+          "value": "Hub 215"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Hub 215",
+          "id": "D07F15",
+          "predicate": "exit",
+          "start": "2048-10-01",
+          "value": "Exit 303"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Quinn Fairmont",
+          "id": "D07F16",
+          "predicate": "locker",
+          "start": "2048-01-01",
+          "value": "Locker 106"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Quinn Fairmont",
+          "id": "D07F17",
+          "predicate": "pickup_window",
+          "start": "2048-01-01",
+          "value": "09:00-10:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Locker 106",
+          "id": "D07F18",
+          "predicate": "hub",
+          "start": "2048-01-01",
+          "value": "Hub 210"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Hub 210",
+          "id": "D07F19",
+          "predicate": "exit",
+          "start": "2048-01-01",
+          "value": "Exit 316"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Quinn Fairmont",
+          "id": "D07F20",
+          "predicate": "locker",
+          "start": "2048-04-01",
+          "value": "Locker 102"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Quinn Fairmont",
+          "id": "D07F21",
+          "predicate": "pickup_window",
+          "start": "2048-04-01",
+          "value": "10:00-11:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Locker 102",
+          "id": "D07F22",
+          "predicate": "hub",
+          "start": "2048-04-01",
+          "value": "Hub 207"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Hub 207",
+          "id": "D07F23",
+          "predicate": "exit",
+          "start": "2048-04-01",
+          "value": "Exit 315"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Quinn Fairmont",
+          "id": "D07F24",
+          "predicate": "locker",
+          "start": "2048-07-01",
+          "value": "Locker 116"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Quinn Fairmont",
+          "id": "D07F25",
+          "predicate": "pickup_window",
+          "start": "2048-07-01",
+          "value": "11:00-12:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Locker 116",
+          "id": "D07F26",
+          "predicate": "hub",
+          "start": "2048-07-01",
+          "value": "Hub 208"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Hub 208",
+          "id": "D07F27",
+          "predicate": "exit",
+          "start": "2048-07-01",
+          "value": "Exit 307"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Quinn Fairmont",
+          "id": "D07F28",
+          "predicate": "locker",
+          "start": "2048-10-01",
+          "value": "Locker 108"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Quinn Fairmont",
+          "id": "D07F29",
+          "predicate": "pickup_window",
+          "start": "2048-10-01",
+          "value": "12:00-13:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Locker 108",
+          "id": "D07F30",
+          "predicate": "hub",
+          "start": "2048-10-01",
+          "value": "Hub 213"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Hub 213",
+          "id": "D07F31",
+          "predicate": "exit",
+          "start": "2048-10-01",
+          "value": "Exit 311"
+        }
+      ],
+      "fixed_context": "User: Please prepare a collection note for Ellis Fairmont.\nAssistant: I will use the ledger for that volunteer.",
+      "group_id": "d7215b04cfc4955d8c7afb773e8024ac1b3e62cd2d62ac6e17ec6407bd41de38",
+      "measurement_state": "ASSESSABLE",
+      "persona_style": "Use calm complete sentences; avoid slang.",
+      "primary_text": " I will use the trusted ledger for that date.\nUSER RESPONSE\nI have a question about the trusted ledger.\n",
+      "primary_text_sha256": "ed0c91c0c11435e074917cf12e4bd9448119200a9a2d54e9952ef10b9ff3d1d2",
+      "question": "Which locker was assigned to Ellis Fairmont on 2048-11-15?",
+      "requested_date": "2048-11-15",
+      "required_components": [
+        {
+          "key": "locker",
+          "source_id": "D07F12",
+          "value": "Locker 112"
+        }
+      ],
+      "source_result_events": [
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000481.json",
+          "sha256": "c0c8cab8d565562cbbf6e607deb71fb3bade61769cbeae0ffe28fe177213f954"
+        },
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000487.json",
+          "sha256": "41e6623692dc14139e36a25a23bf28c5c775a88142eab084ad5fed1ef9a642dd"
+        },
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000493.json",
+          "sha256": "8787d46eb340547fe2e6218482581bdd6a96be8e0f56ce3cc6bcfbacb008fde2"
+        }
+      ],
+      "trusted_evidence": "[D07F00] During 2048-01-01 through 2048-03-31, Ellis Fairmont had locker Locker 114.\n[D07F01] During 2048-01-01 through 2048-03-31, Ellis Fairmont had pickup_window 09:00-10:00.\n[D07F02] During 2048-01-01 through 2048-03-31, Locker 114 had hub Hub 204.\n[D07F03] During 2048-01-01 through 2048-03-31, Hub 204 had exit Exit 301.\n[D07F04] During 2048-04-01 through 2048-06-30, Ellis Fairmont had locker Locker 113.\n[D07F05] During 2048-04-01 through 2048-06-30, Ellis Fairmont had pickup_window 10:00-11:00.\n[D07F06] During 2048-04-01 through 2048-06-30, Locker 113 had hub Hub 206.\n[D07F07] During 2048-04-01 through 2048-06-30, Hub 206 had exit Exit 302.\n[D07F08] During 2048-07-01 through 2048-09-30, Ellis Fairmont had locker Locker 103.\n[D07F09] During 2048-07-01 through 2048-09-30, Ellis Fairmont had pickup_window 11:00-12:00.\n[D07F10] During 2048-07-01 through 2048-09-30, Locker 103 had hub Hub 203.\n[D07F11] During 2048-07-01 through 2048-09-30, Hub 203 had exit Exit 305.\n[D07F12] During 2048-10-01 through 2048-12-31, Ellis Fairmont had locker Locker 112.\n[D07F13] During 2048-10-01 through 2048-12-31, Ellis Fairmont had pickup_window 12:00-13:00.\n[D07F14] During 2048-10-01 through 2048-12-31, Locker 112 had hub Hub 215.\n[D07F15] During 2048-10-01 through 2048-12-31, Hub 215 had exit Exit 303.\n[D07F16] During 2048-01-01 through 2048-03-31, Quinn Fairmont had locker Locker 106.\n[D07F17] During 2048-01-01 through 2048-03-31, Quinn Fairmont had pickup_window 09:00-10:00.\n[D07F18] During 2048-01-01 through 2048-03-31, Locker 106 had hub Hub 210.\n[D07F19] During 2048-01-01 through 2048-03-31, Hub 210 had exit Exit 316.\n[D07F20] During 2048-04-01 through 2048-06-30, Quinn Fairmont had locker Locker 102.\n[D07F21] During 2048-04-01 through 2048-06-30, Quinn Fairmont had pickup_window 10:00-11:00.\n[D07F22] During 2048-04-01 through 2048-06-30, Locker 102 had hub Hub 207.\n[D07F23] During 2048-04-01 through 2048-06-30, Hub 207 had exit Exit 315.\n[D07F24] During 2048-07-01 through 2048-09-30, Quinn Fairmont had locker Locker 116.\n[D07F25] During 2048-07-01 through 2048-09-30, Quinn Fairmont had pickup_window 11:00-12:00.\n[D07F26] During 2048-07-01 through 2048-09-30, Locker 116 had hub Hub 208.\n[D07F27] During 2048-07-01 through 2048-09-30, Hub 208 had exit Exit 307.\n[D07F28] During 2048-10-01 through 2048-12-31, Quinn Fairmont had locker Locker 108.\n[D07F29] During 2048-10-01 through 2048-12-31, Quinn Fairmont had pickup_window 12:00-13:00.\n[D07F30] During 2048-10-01 through 2048-12-31, Locker 108 had hub Hub 213.\n[D07F31] During 2048-10-01 through 2048-12-31, Hub 213 had exit Exit 311."
+    }
+  ],
+  "human_decisions": 0,
+  "scope": "Identical evidence/question/date/context/style/span groups only. Every original request remains a separate observation.",
+  "version": "masked_measurement_input_groups_v1"
+}

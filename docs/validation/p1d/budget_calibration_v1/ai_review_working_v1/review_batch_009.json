@@ -1,0 +1,670 @@
+{
+  "conditions_or_budgets_exposed": false,
+  "created_utc": "2026-10-14T13:17:48.649457+00:00",
+  "groups": [
+    {
+      "anonymous_members": [
+        "BC016",
+        "BC128"
+      ],
+      "evaluation_date": "2048-12-31",
+      "facts": [
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Cleo Westlake",
+          "id": "D06F00",
+          "predicate": "locker",
+          "start": "2048-01-01",
+          "value": "Locker 104"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Cleo Westlake",
+          "id": "D06F01",
+          "predicate": "pickup_window",
+          "start": "2048-01-01",
+          "value": "09:00-10:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Locker 104",
+          "id": "D06F02",
+          "predicate": "hub",
+          "start": "2048-01-01",
+          "value": "Hub 204"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Hub 204",
+          "id": "D06F03",
+          "predicate": "exit",
+          "start": "2048-01-01",
+          "value": "Exit 313"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Cleo Westlake",
+          "id": "D06F04",
+          "predicate": "locker",
+          "start": "2048-04-01",
+          "value": "Locker 108"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Cleo Westlake",
+          "id": "D06F05",
+          "predicate": "pickup_window",
+          "start": "2048-04-01",
+          "value": "10:00-11:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Locker 108",
+          "id": "D06F06",
+          "predicate": "hub",
+          "start": "2048-04-01",
+          "value": "Hub 211"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Hub 211",
+          "id": "D06F07",
+          "predicate": "exit",
+          "start": "2048-04-01",
+          "value": "Exit 302"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Cleo Westlake",
+          "id": "D06F08",
+          "predicate": "locker",
+          "start": "2048-07-01",
+          "value": "Locker 107"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Cleo Westlake",
+          "id": "D06F09",
+          "predicate": "pickup_window",
+          "start": "2048-07-01",
+          "value": "11:00-12:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Locker 107",
+          "id": "D06F10",
+          "predicate": "hub",
+          "start": "2048-07-01",
+          "value": "Hub 215"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Hub 215",
+          "id": "D06F11",
+          "predicate": "exit",
+          "start": "2048-07-01",
+          "value": "Exit 311"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Cleo Westlake",
+          "id": "D06F12",
+          "predicate": "locker",
+          "start": "2048-10-01",
+          "value": "Locker 112"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Cleo Westlake",
+          "id": "D06F13",
+          "predicate": "pickup_window",
+          "start": "2048-10-01",
+          "value": "12:00-13:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Locker 112",
+          "id": "D06F14",
+          "predicate": "hub",
+          "start": "2048-10-01",
+          "value": "Hub 207"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Hub 207",
+          "id": "D06F15",
+          "predicate": "exit",
+          "start": "2048-10-01",
+          "value": "Exit 314"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Quinn Westlake",
+          "id": "D06F16",
+          "predicate": "locker",
+          "start": "2048-01-01",
+          "value": "Locker 103"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Quinn Westlake",
+          "id": "D06F17",
+          "predicate": "pickup_window",
+          "start": "2048-01-01",
+          "value": "09:00-10:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Locker 103",
+          "id": "D06F18",
+          "predicate": "hub",
+          "start": "2048-01-01",
+          "value": "Hub 201"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Hub 201",
+          "id": "D06F19",
+          "predicate": "exit",
+          "start": "2048-01-01",
+          "value": "Exit 303"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Quinn Westlake",
+          "id": "D06F20",
+          "predicate": "locker",
+          "start": "2048-04-01",
+          "value": "Locker 106"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Quinn Westlake",
+          "id": "D06F21",
+          "predicate": "pickup_window",
+          "start": "2048-04-01",
+          "value": "10:00-11:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Locker 106",
+          "id": "D06F22",
+          "predicate": "hub",
+          "start": "2048-04-01",
+          "value": "Hub 205"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Hub 205",
+          "id": "D06F23",
+          "predicate": "exit",
+          "start": "2048-04-01",
+          "value": "Exit 315"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Quinn Westlake",
+          "id": "D06F24",
+          "predicate": "locker",
+          "start": "2048-07-01",
+          "value": "Locker 114"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Quinn Westlake",
+          "id": "D06F25",
+          "predicate": "pickup_window",
+          "start": "2048-07-01",
+          "value": "11:00-12:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Locker 114",
+          "id": "D06F26",
+          "predicate": "hub",
+          "start": "2048-07-01",
+          "value": "Hub 210"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Hub 210",
+          "id": "D06F27",
+          "predicate": "exit",
+          "start": "2048-07-01",
+          "value": "Exit 307"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Quinn Westlake",
+          "id": "D06F28",
+          "predicate": "locker",
+          "start": "2048-10-01",
+          "value": "Locker 105"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Quinn Westlake",
+          "id": "D06F29",
+          "predicate": "pickup_window",
+          "start": "2048-10-01",
+          "value": "12:00-13:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Locker 105",
+          "id": "D06F30",
+          "predicate": "hub",
+          "start": "2048-10-01",
+          "value": "Hub 208"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Hub 208",
+          "id": "D06F31",
+          "predicate": "exit",
+          "start": "2048-10-01",
+          "value": "Exit 308"
+        }
+      ],
+      "fixed_context": "User: Please prepare a collection note for Cleo Westlake.\nAssistant: I will use the ledger for that volunteer.",
+      "group_id": "44659b753c1a726abbecbdd06748475311870a3326e9f434b4ea09ad6f5ea0c3",
+      "measurement_state": "ASSESSABLE",
+      "persona_style": "Use brief direct clauses; avoid decorative metaphors.",
+      "primary_text": " I will use the ledger for that volunteer.\nCURRENT QUESTION\nFor that volunteer, give both the locker and pickup window on 2048-11-15.\n",
+      "primary_text_sha256": "24b9adf9d8cfbd090cb64447b1894e2e9640943d6ba0f84b41e0f866feb359fc",
+      "question": "For that volunteer, give both the locker and pickup window on 2048-11-15.",
+      "requested_date": "2048-11-15",
+      "required_components": [
+        {
+          "key": "locker",
+          "source_id": "D06F12",
+          "value": "Locker 112"
+        },
+        {
+          "key": "pickup_window",
+          "source_id": "D06F13",
+          "value": "12:00-13:00"
+        }
+      ],
+      "source_result_events": [
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000661.json",
+          "sha256": "15c0a16a22e0af34cde3c0a9d9f8321fc9cad722499eff843915dd615adf758c"
+        },
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000667.json",
+          "sha256": "8e6f62b48b5c29964283d19f919903ba0654a0fac71e7b41af30e132d1a98c75"
+        }
+      ],
+      "trusted_evidence": "[D06F00] Cleo Westlake: locker = Locker 104; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D06F01] Cleo Westlake: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D06F02] Locker 104: hub = Hub 204; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D06F03] Hub 204: exit = Exit 313; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D06F04] Cleo Westlake: locker = Locker 108; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D06F05] Cleo Westlake: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D06F06] Locker 108: hub = Hub 211; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D06F07] Hub 211: exit = Exit 302; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D06F08] Cleo Westlake: locker = Locker 107; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D06F09] Cleo Westlake: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D06F10] Locker 107: hub = Hub 215; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D06F11] Hub 215: exit = Exit 311; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D06F12] Cleo Westlake: locker = Locker 112; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D06F13] Cleo Westlake: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D06F14] Locker 112: hub = Hub 207; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D06F15] Hub 207: exit = Exit 314; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D06F16] Quinn Westlake: locker = Locker 103; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D06F17] Quinn Westlake: pickup_window = 09:00-10:00; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D06F18] Locker 103: hub = Hub 201; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D06F19] Hub 201: exit = Exit 303; valid from 2048-01-01 through 2048-03-31 inclusive.\n[D06F20] Quinn Westlake: locker = Locker 106; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D06F21] Quinn Westlake: pickup_window = 10:00-11:00; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D06F22] Locker 106: hub = Hub 205; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D06F23] Hub 205: exit = Exit 315; valid from 2048-04-01 through 2048-06-30 inclusive.\n[D06F24] Quinn Westlake: locker = Locker 114; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D06F25] Quinn Westlake: pickup_window = 11:00-12:00; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D06F26] Locker 114: hub = Hub 210; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D06F27] Hub 210: exit = Exit 307; valid from 2048-07-01 through 2048-09-30 inclusive.\n[D06F28] Quinn Westlake: locker = Locker 105; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D06F29] Quinn Westlake: pickup_window = 12:00-13:00; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D06F30] Locker 105: hub = Hub 208; valid from 2048-10-01 through 2048-12-31 inclusive.\n[D06F31] Hub 208: exit = Exit 308; valid from 2048-10-01 through 2048-12-31 inclusive."
+    },
+    {
+      "anonymous_members": [
+        "BC010",
+        "BC092",
+        "BC089"
+      ],
+      "evaluation_date": "2048-12-31",
+      "facts": [
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Nolan Fairchild",
+          "id": "D03F00",
+          "predicate": "locker",
+          "start": "2048-01-01",
+          "value": "Locker 101"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Nolan Fairchild",
+          "id": "D03F01",
+          "predicate": "pickup_window",
+          "start": "2048-01-01",
+          "value": "09:00-10:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Locker 101",
+          "id": "D03F02",
+          "predicate": "hub",
+          "start": "2048-01-01",
+          "value": "Hub 212"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Hub 212",
+          "id": "D03F03",
+          "predicate": "exit",
+          "start": "2048-01-01",
+          "value": "Exit 303"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Nolan Fairchild",
+          "id": "D03F04",
+          "predicate": "locker",
+          "start": "2048-04-01",
+          "value": "Locker 114"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Nolan Fairchild",
+          "id": "D03F05",
+          "predicate": "pickup_window",
+          "start": "2048-04-01",
+          "value": "10:00-11:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Locker 114",
+          "id": "D03F06",
+          "predicate": "hub",
+          "start": "2048-04-01",
+          "value": "Hub 207"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Hub 207",
+          "id": "D03F07",
+          "predicate": "exit",
+          "start": "2048-04-01",
+          "value": "Exit 305"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Nolan Fairchild",
+          "id": "D03F08",
+          "predicate": "locker",
+          "start": "2048-07-01",
+          "value": "Locker 113"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Nolan Fairchild",
+          "id": "D03F09",
+          "predicate": "pickup_window",
+          "start": "2048-07-01",
+          "value": "11:00-12:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Locker 113",
+          "id": "D03F10",
+          "predicate": "hub",
+          "start": "2048-07-01",
+          "value": "Hub 202"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Hub 202",
+          "id": "D03F11",
+          "predicate": "exit",
+          "start": "2048-07-01",
+          "value": "Exit 307"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Nolan Fairchild",
+          "id": "D03F12",
+          "predicate": "locker",
+          "start": "2048-10-01",
+          "value": "Locker 107"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Nolan Fairchild",
+          "id": "D03F13",
+          "predicate": "pickup_window",
+          "start": "2048-10-01",
+          "value": "12:00-13:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Locker 107",
+          "id": "D03F14",
+          "predicate": "hub",
+          "start": "2048-10-01",
+          "value": "Hub 204"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Hub 204",
+          "id": "D03F15",
+          "predicate": "exit",
+          "start": "2048-10-01",
+          "value": "Exit 313"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Quinn Fairchild",
+          "id": "D03F16",
+          "predicate": "locker",
+          "start": "2048-01-01",
+          "value": "Locker 106"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Quinn Fairchild",
+          "id": "D03F17",
+          "predicate": "pickup_window",
+          "start": "2048-01-01",
+          "value": "09:00-10:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Locker 106",
+          "id": "D03F18",
+          "predicate": "hub",
+          "start": "2048-01-01",
+          "value": "Hub 201"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-03-31",
+          "entity": "Hub 201",
+          "id": "D03F19",
+          "predicate": "exit",
+          "start": "2048-01-01",
+          "value": "Exit 316"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Quinn Fairchild",
+          "id": "D03F20",
+          "predicate": "locker",
+          "start": "2048-04-01",
+          "value": "Locker 102"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Quinn Fairchild",
+          "id": "D03F21",
+          "predicate": "pickup_window",
+          "start": "2048-04-01",
+          "value": "10:00-11:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Locker 102",
+          "id": "D03F22",
+          "predicate": "hub",
+          "start": "2048-04-01",
+          "value": "Hub 203"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-06-30",
+          "entity": "Hub 203",
+          "id": "D03F23",
+          "predicate": "exit",
+          "start": "2048-04-01",
+          "value": "Exit 311"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Quinn Fairchild",
+          "id": "D03F24",
+          "predicate": "locker",
+          "start": "2048-07-01",
+          "value": "Locker 104"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Quinn Fairchild",
+          "id": "D03F25",
+          "predicate": "pickup_window",
+          "start": "2048-07-01",
+          "value": "11:00-12:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Locker 104",
+          "id": "D03F26",
+          "predicate": "hub",
+          "start": "2048-07-01",
+          "value": "Hub 214"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-09-30",
+          "entity": "Hub 214",
+          "id": "D03F27",
+          "predicate": "exit",
+          "start": "2048-07-01",
+          "value": "Exit 302"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Quinn Fairchild",
+          "id": "D03F28",
+          "predicate": "locker",
+          "start": "2048-10-01",
+          "value": "Locker 115"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Quinn Fairchild",
+          "id": "D03F29",
+          "predicate": "pickup_window",
+          "start": "2048-10-01",
+          "value": "12:00-13:00"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Locker 115",
+          "id": "D03F30",
+          "predicate": "hub",
+          "start": "2048-10-01",
+          "value": "Hub 213"
+        },
+        {
+          "authority": "trusted",
+          "end": "2048-12-31",
+          "entity": "Hub 213",
+          "id": "D03F31",
+          "predicate": "exit",
+          "start": "2048-10-01",
+          "value": "Exit 306"
+        }
+      ],
+      "fixed_context": "User: Please prepare a collection note for Quinn Fairchild.\nAssistant: I will use the ledger for that volunteer.",
+      "group_id": "4c2662e51d9aafaf6e376fb3e59ad4678649e8b81af6c37cc2525ef3b93ee96e",
+      "measurement_state": "ASSESSABLE",
+      "persona_style": "Use calm complete sentences; avoid slang.",
+      "primary_text": " I will use the ledger for that volunteer.\nCURRENT QUESTION\nFor that volunteer, give both the locker and pickup window on 2048-05-15.\n",
+      "primary_text_sha256": "7ca59adc3781adaab5a1ec36d463a69951415d04d60dbbff1468c11f32f34d64",
+      "question": "For that volunteer, give both the locker and pickup window on 2048-05-15.",
+      "requested_date": "2048-05-15",
+      "required_components": [
+        {
+          "key": "locker",
+          "source_id": "D03F20",
+          "value": "Locker 102"
+        },
+        {
+          "key": "pickup_window",
+          "source_id": "D03F21",
+          "value": "10:00-11:00"
+        }
+      ],
+      "source_result_events": [
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000625.json",
+          "sha256": "d7d329e2427290c9b86f4fc73dccc04c6307c4fc409d26b06f0a903fcd18e5f8"
+        },
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000631.json",
+          "sha256": "ad0f16375b7fac1acb5c6dd97653c57911efeca63b3024ae16b96d7ae275dad3"
+        },
+        {
+          "path": "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2/events/000637.json",
+          "sha256": "707b67dd1e3b81ffe367d8d22cbe4a10505386417075253cd728077d35a22d68"
+        }
+      ],
+      "trusted_evidence": "[D03F00] During 2048-01-01 through 2048-03-31, Nolan Fairchild had locker Locker 101.\n[D03F01] During 2048-01-01 through 2048-03-31, Nolan Fairchild had pickup_window 09:00-10:00.\n[D03F02] During 2048-01-01 through 2048-03-31, Locker 101 had hub Hub 212.\n[D03F03] During 2048-01-01 through 2048-03-31, Hub 212 had exit Exit 303.\n[D03F04] During 2048-04-01 through 2048-06-30, Nolan Fairchild had locker Locker 114.\n[D03F05] During 2048-04-01 through 2048-06-30, Nolan Fairchild had pickup_window 10:00-11:00.\n[D03F06] During 2048-04-01 through 2048-06-30, Locker 114 had hub Hub 207.\n[D03F07] During 2048-04-01 through 2048-06-30, Hub 207 had exit Exit 305.\n[D03F08] During 2048-07-01 through 2048-09-30, Nolan Fairchild had locker Locker 113.\n[D03F09] During 2048-07-01 through 2048-09-30, Nolan Fairchild had pickup_window 11:00-12:00.\n[D03F10] During 2048-07-01 through 2048-09-30, Locker 113 had hub Hub 202.\n[D03F11] During 2048-07-01 through 2048-09-30, Hub 202 had exit Exit 307.\n[D03F12] During 2048-10-01 through 2048-12-31, Nolan Fairchild had locker Locker 107.\n[D03F13] During 2048-10-01 through 2048-12-31, Nolan Fairchild had pickup_window 12:00-13:00.\n[D03F14] During 2048-10-01 through 2048-12-31, Locker 107 had hub Hub 204.\n[D03F15] During 2048-10-01 through 2048-12-31, Hub 204 had exit Exit 313.\n[D03F16] During 2048-01-01 through 2048-03-31, Quinn Fairchild had locker Locker 106.\n[D03F17] During 2048-01-01 through 2048-03-31, Quinn Fairchild had pickup_window 09:00-10:00.\n[D03F18] During 2048-01-01 through 2048-03-31, Locker 106 had hub Hub 201.\n[D03F19] During 2048-01-01 through 2048-03-31, Hub 201 had exit Exit 316.\n[D03F20] During 2048-04-01 through 2048-06-30, Quinn Fairchild had locker Locker 102.\n[D03F21] During 2048-04-01 through 2048-06-30, Quinn Fairchild had pickup_window 10:00-11:00.\n[D03F22] During 2048-04-01 through 2048-06-30, Locker 102 had hub Hub 203.\n[D03F23] During 2048-04-01 through 2048-06-30, Hub 203 had exit Exit 311.\n[D03F24] During 2048-07-01 through 2048-09-30, Quinn Fairchild had locker Locker 104.\n[D03F25] During 2048-07-01 through 2048-09-30, Quinn Fairchild had pickup_window 11:00-12:00.\n[D03F26] During 2048-07-01 through 2048-09-30, Locker 104 had hub Hub 214.\n[D03F27] During 2048-07-01 through 2048-09-30, Hub 214 had exit Exit 302.\n[D03F28] During 2048-10-01 through 2048-12-31, Quinn Fairchild had locker Locker 115.\n[D03F29] During 2048-10-01 through 2048-12-31, Quinn Fairchild had pickup_window 12:00-13:00.\n[D03F30] During 2048-10-01 through 2048-12-31, Locker 115 had hub Hub 213.\n[D03F31] During 2048-10-01 through 2048-12-31, Hub 213 had exit Exit 306."
+    }
+  ],
+  "human_decisions": 0,
+  "scope": "Identical evidence/question/date/context/style/span groups only. Every original request remains a separate observation.",
+  "version": "masked_measurement_input_groups_v1"
+}

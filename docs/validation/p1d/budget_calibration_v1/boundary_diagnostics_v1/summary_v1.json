@@ -1,0 +1,250 @@
+{
+  "by_budget": {
+    "96": {
+      "exact_context_promise_only": 18,
+      "n": 48,
+      "primary_with_required_literal": 0,
+      "question_echo_outputs": 21,
+      "raw_with_required_literal": 0
+    },
+    "192": {
+      "exact_context_promise_only": 18,
+      "n": 48,
+      "primary_with_required_literal": 0,
+      "question_echo_outputs": 22,
+      "raw_with_required_literal": 0
+    },
+    "256": {
+      "exact_context_promise_only": 18,
+      "n": 48,
+      "primary_with_required_literal": 0,
+      "question_echo_outputs": 22,
+      "raw_with_required_literal": 0
+    }
+  },
+  "changed_primary_labels": 0,
+  "limits": "Reference literal absence is a lexical diagnostic, not proof against paraphrases. Candidate agreement is not boundary accuracy. Heading shadow is post-hoc and can split legitimate document content. Stops/templates require future authorized generation.",
+  "methods": {
+    "fence_aware_role_or_section": {
+      "candidates": 144,
+      "changed_text_from_primary": 0,
+      "with_required_literal": 0
+    },
+    "frozen_v1": {
+      "candidates": 144,
+      "changed_text_from_primary": 0,
+      "with_required_literal": 0
+    },
+    "literal_role_stop_shadow": {
+      "candidates": 129,
+      "changed_text_from_primary": 129,
+      "with_required_literal": 0
+    },
+    "native_eos_only": {
+      "candidates": 0,
+      "changed_text_from_primary": 0,
+      "with_required_literal": 0
+    },
+    "prefix_locality_diagnostic": {
+      "candidates": 144,
+      "changed_text_from_primary": 0,
+      "with_required_literal": 0
+    },
+    "question_response_heading_shadow": {
+      "candidates": 144,
+      "changed_text_from_primary": 144,
+      "with_required_literal": 0
+    },
+    "role_or_section": {
+      "candidates": 144,
+      "changed_text_from_primary": 0,
+      "with_required_literal": 0
+    }
+  },
+  "new_generations": 0,
+  "records": 144,
+  "source_sha256": {
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\tools\\p1d_budget_continuation_diagnostics.py": "56726e8cd5d81d29f66182e0c02e4777b3d8c2cd1c656c05cecc72c0bd5d057e",
+    "docs\\validation\\p1d\\budget_calibration_v1\\measurement_v1\\execution_integrity_v1.json": "7193f237d9b02406cdc9f89b739bb4664a58fd052577ac79a89f0729fed17d9a",
+    "src\\personaslm\\response_status.py": "7d0cde00dcef5f75f82b9b95b06ba0b7e6a3b9a3f8209aa834be5c60e32ee0cd"
+  },
+  "timing_scope": "Offline Python methods, preloaded strings; no model execution or I/O; process CPU and wall reported",
+  "timings": {
+    "fence_aware_role_or_section": {
+      "batches": [
+        {
+          "cpu_ns_per_output": 21701.38888888889,
+          "wall_ns_per_output": 23923.784722222223
+        },
+        {
+          "cpu_ns_per_output": 27126.73611111111,
+          "wall_ns_per_output": 23983.958333333332
+        },
+        {
+          "cpu_ns_per_output": 21701.38888888889,
+          "wall_ns_per_output": 24652.083333333332
+        },
+        {
+          "cpu_ns_per_output": 27126.73611111111,
+          "wall_ns_per_output": 24495.034722222223
+        },
+        {
+          "cpu_ns_per_output": 21701.38888888889,
+          "wall_ns_per_output": 23404.54861111111
+        }
+      ],
+      "median_cpu_ns_per_output": 21701.38888888889
+    },
+    "frozen_v1": {
+      "batches": [
+        {
+          "cpu_ns_per_output": 141059.02777777778,
+          "wall_ns_per_output": 141220.59027777778
+        },
+        {
+          "cpu_ns_per_output": 141059.02777777778,
+          "wall_ns_per_output": 141250.625
+        },
+        {
+          "cpu_ns_per_output": 146484.375,
+          "wall_ns_per_output": 147009.82638888888
+        },
+        {
+          "cpu_ns_per_output": 141059.02777777778,
+          "wall_ns_per_output": 141552.11805555556
+        },
+        {
+          "cpu_ns_per_output": 146484.375,
+          "wall_ns_per_output": 150186.97916666666
+        }
+      ],
+      "median_cpu_ns_per_output": 141059.02777777778
+    },
+    "literal_role_stop_shadow": {
+      "batches": [
+        {
+          "cpu_ns_per_output": 5425.347222222223,
+          "wall_ns_per_output": 3669.2708333333335
+        },
+        {
+          "cpu_ns_per_output": 0.0,
+          "wall_ns_per_output": 2914.5138888888887
+        },
+        {
+          "cpu_ns_per_output": 5425.347222222223,
+          "wall_ns_per_output": 3335.5555555555557
+        },
+        {
+          "cpu_ns_per_output": 0.0,
+          "wall_ns_per_output": 3240.1388888888887
+        },
+        {
+          "cpu_ns_per_output": 5425.347222222223,
+          "wall_ns_per_output": 3100.625
+        }
+      ],
+      "median_cpu_ns_per_output": 5425.347222222223
+    },
+    "native_eos_only": {
+      "batches": [
+        {
+          "cpu_ns_per_output": 5425.347222222223,
+          "wall_ns_per_output": 495.38194444444446
+        },
+        {
+          "cpu_ns_per_output": 0.0,
+          "wall_ns_per_output": 452.11805555555554
+        },
+        {
+          "cpu_ns_per_output": 0.0,
+          "wall_ns_per_output": 451.31944444444446
+        },
+        {
+          "cpu_ns_per_output": 0.0,
+          "wall_ns_per_output": 504.30555555555554
+        },
+        {
+          "cpu_ns_per_output": 0.0,
+          "wall_ns_per_output": 459.02777777777777
+        }
+      ],
+      "median_cpu_ns_per_output": 0.0
+    },
+    "prefix_locality_diagnostic": {
+      "batches": [
+        {
+          "cpu_ns_per_output": 222439.23611111112,
+          "wall_ns_per_output": 218794.65277777778
+        },
+        {
+          "cpu_ns_per_output": 217013.88888888888,
+          "wall_ns_per_output": 221224.09722222222
+        },
+        {
+          "cpu_ns_per_output": 227864.58333333334,
+          "wall_ns_per_output": 224393.36805555556
+        },
+        {
+          "cpu_ns_per_output": 211588.54166666666,
+          "wall_ns_per_output": 221333.29861111112
+        },
+        {
+          "cpu_ns_per_output": 222439.23611111112,
+          "wall_ns_per_output": 222614.93055555556
+        }
+      ],
+      "median_cpu_ns_per_output": 222439.23611111112
+    },
+    "question_response_heading_shadow": {
+      "batches": [
+        {
+          "cpu_ns_per_output": 16276.041666666666,
+          "wall_ns_per_output": 17551.38888888889
+        },
+        {
+          "cpu_ns_per_output": 16276.041666666666,
+          "wall_ns_per_output": 17898.61111111111
+        },
+        {
+          "cpu_ns_per_output": 21701.38888888889,
+          "wall_ns_per_output": 18587.95138888889
+        },
+        {
+          "cpu_ns_per_output": 16276.041666666666,
+          "wall_ns_per_output": 18923.61111111111
+        },
+        {
+          "cpu_ns_per_output": 16276.041666666666,
+          "wall_ns_per_output": 18782.01388888889
+        }
+      ],
+      "median_cpu_ns_per_output": 16276.041666666666
+    },
+    "role_or_section": {
+      "batches": [
+        {
+          "cpu_ns_per_output": 32552.083333333332,
+          "wall_ns_per_output": 32313.88888888889
+        },
+        {
+          "cpu_ns_per_output": 32552.083333333332,
+          "wall_ns_per_output": 34202.53472222222
+        },
+        {
+          "cpu_ns_per_output": 37977.430555555555,
+          "wall_ns_per_output": 35336.805555555555
+        },
+        {
+          "cpu_ns_per_output": 32552.083333333332,
+          "wall_ns_per_output": 34594.40972222222
+        },
+        {
+          "cpu_ns_per_output": 32552.083333333332,
+          "wall_ns_per_output": 32783.333333333336
+        }
+      ],
+      "median_cpu_ns_per_output": 32552.083333333332
+    }
+  },
+  "version": "p1d_saved_continuation_diagnostics_v1"
+}

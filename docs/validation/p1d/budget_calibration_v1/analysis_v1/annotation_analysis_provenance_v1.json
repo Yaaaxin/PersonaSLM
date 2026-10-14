@@ -1,0 +1,41 @@
+{
+  "annotation_origin": "AI-assisted assessment; exact-input deduplication explicitly recorded",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 716707,
+  "contrast_scope": "Three paired budget contrasts only; no E/V factor-effect selection",
+  "exact_review_groups": 22,
+  "execution_integrity_sha256": "7193f237d9b02406cdc9f89b739bb4664a58fd052577ac79a89f0729fed17d9a",
+  "files": {
+    "budget_qualification_v1.json": "c850e19c6b3fc2cfab1e511f630cfa2f2b1998d06445acf4af295572cfb73d22",
+    "case_speaker_differences_v1.csv": "50836250dfe0b0bbdf1d9617eb9c1660b4524ec954c8a79d1c2e889fea03a387",
+    "cluster_sensitivity_v1.json": "7f4cdda2fcf0777289ffebee212eac5e7221ef706b44dff43fc09aaf99852cab",
+    "distributions_v1.json": "2fa3eb5bcc7a99a0f209c64179b17c1886f1841e548aaa4dcd84d1f59e4e9c5a",
+    "exact_group_AI_assessments_UNCONFIRMED_v1.json": "e3b341c740e0a14a02f62b5273ae21705bca3e919d2ad38888fd3d7fa60b53a4",
+    "metric_discrimination_v1.json": "7d4a29f79f52aaf56d4d727543c2b4b569a4302c69b88a5a6331e76250f5820b",
+    "paired_block_differences_v1.csv": "5fe229fe480e3f1230a5c5bc307ec38bd8a0ad3f1d210506585e1d883ed6384c",
+    "primary_AI_proposals_UNCONFIRMED_v1.csv": "3f1067a333b4db4412fba35871c8f8c654599f8dde257b4b64b10753c6e762c1",
+    "primary_AI_proposals_UNCONFIRMED_v1.json": "dbd49664e054082ed45a42fecd7d229867afecfea7660a5c2ab4cba08749eb71",
+    "provisional_analysis_dataset_v1.csv": "ba1a619aa57f626edefe0a04ca7d16c8ddaf02c0c313087b82d7776b29ae6bb5",
+    "provisional_analysis_dataset_v1.json": "09913fca1564932a78ffd43e152a28231ae6623885c5576cfc0a1d62641b6e48"
+  },
+  "frozen_applicability_sha256": "3579c68178612765534aa3559bfe7cfd3c401371efb4dcd35df884c48cb78e3c",
+  "frozen_applicability_source": "docs/validation/p1d/proposed_v1/metric_applicability_v2.json",
+  "human_confirmed": 0,
+  "masking": "Review fields omit budget and treatment labels; analyst prepared inputs and can access mapping. No independent/perfect blinding.",
+  "multiplicity": "Descriptive development diagnostics across all metrics/three contrasts; no confirmatory significance claims",
+  "numerical_reconstruction": "Two deterministic reconstructions exactly equal; not an independent implementation",
+  "official_semantic_effects": false,
+  "python_version": "3.14.3",
+  "random_generator": "Python random.Random; uniform whole-speaker draws",
+  "records": 144,
+  "researcher_adoption_gate": "Pending; cannot register these as human ratings",
+  "source_outputs_modified": false,
+  "source_sha256": {
+    "tools/p1d_budget_ai_assessments.py": "d00f42ed1a6a38cefd22079446d8b6c5883e3837696318b4896a2253d2a2316e",
+    "tools/p1d_budget_analysis.py": "997dadf937a0af54afff319e3fde8aaadb070b047eff8554bb5662748cce34ed",
+    "tools/p1d_budget_measurement.py": "b107bf2a0c151f3a589bfe2ece311ec424d198064812ae8f60c014e0eb91e48f",
+    "tools/p1d_budget_review_groups.py": "d13fbb421de5463cd9a2398f1cfe8513900832cac9689d91419de3226c196aa3"
+  },
+  "unknown_policy": "Preserve Unverifiable and measurement states; unknown correctness bounds do not recode labels. No missing-cell renormalization.",
+  "version": "p1d_budget_AI_proposed_diagnostics_v1"
+}

@@ -1,0 +1,21 @@
+{
+  "version": "p1d_stratified_scientific_review_v1",
+  "source_bank": "docs/validation/p1d/independent_candidates_v4/candidate_bank_v1.json",
+  "source_sha256": "170e43772e0e45753638228a8c2fc2bf2d5a9f06830374b22887a5929486afbd",
+  "full_census": 288,
+  "AI_VALID_WITH_LIMITATIONS": 288,
+  "AI_diagnostic_controls": 288,
+  "selected_cases": 64,
+  "selected_controls": 64,
+  "selection_seed": 716704,
+  "mask_order_seed": 716705,
+  "strata": 32,
+  "minimum_per_stratum": 2,
+  "grammars_covered": 16,
+  "human_decisions": 0,
+  "new_independent_validation_claim": false,
+  "no_new_or_modified_cases": true,
+  "selection_policy": "Risk-prioritized two per family x domain x date stratum, then uncovered grammar supplement. Not a random prevalence sample. Full 288-item audit remains authoritative source.",
+  "masking": "Case mapping and AI proposals separated from control review CSV, not encrypted/access-controlled; context may reveal intended treatment.",
+  "approval_scope": "Review selected consequential risks and explicitly decide full-bank scoped adoption or required correction; sample review alone does not certify all 288 individually."
+}

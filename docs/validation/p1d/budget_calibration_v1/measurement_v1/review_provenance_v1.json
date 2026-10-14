@@ -1,0 +1,12 @@
+{
+  "analyst_masking_limit": "Analyst prepared execution inputs and can access mapping. Review file hides assignments/budgets; no independent or perfect blinding claim.",
+  "condition_budget_labels_in_semantic_view": false,
+  "human_ratings": 0,
+  "manifest_sha256": "510e46b214dda23dea2a3e5462d44982d25b7a9db022626a7a5a1ba504d5e039",
+  "records": 144,
+  "rules": "Original first span when unit_identifiable; otherwise primary unknown. Alternative candidates separately reviewed. No structural status is a factual score.",
+  "shuffle_seed": 716706,
+  "source_integrity_sha256": "7193f237d9b02406cdc9f89b739bb4664a58fd052577ac79a89f0729fed17d9a",
+  "statistical_unit": "Eight paired development cases/speaker clusters; six conditions repeated per case, three caps. Not 144 independent participants.",
+  "version": "p1d_budget_masked_review_v1"
+}

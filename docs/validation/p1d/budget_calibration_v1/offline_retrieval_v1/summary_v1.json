@@ -1,0 +1,74 @@
+{
+  "bm25": {
+    "b": 0.75,
+    "idf": "log(1 + (N - df + 0.5)/(df + 0.5))",
+    "k1": 1.2,
+    "query_terms": "unique lowercase regex word tokens",
+    "reference": "https://lucene.apache.org/core/9_12_1/core/org/apache/lucene/search/similarities/BM25Similarity.html"
+  },
+  "classification": "EXISTING_METHOD_ENGINEERING_ADAPTATION",
+  "cost_scope": "Pure Python retrieval including pool preparation, no model or I/O; concurrent CPU calibration can affect wall time",
+  "cpu_cost_batches": [
+    {
+      "cpu_ns_per_case_method": 121093.75,
+      "wall_ns_per_case_method": 120624.875
+    },
+    {
+      "cpu_ns_per_case_method": 113281.25,
+      "wall_ns_per_case_method": 115153.525
+    },
+    {
+      "cpu_ns_per_case_method": 121093.75,
+      "wall_ns_per_case_method": 120096.075
+    },
+    {
+      "cpu_ns_per_case_method": 117187.5,
+      "wall_ns_per_case_method": 116337.125
+    },
+    {
+      "cpu_ns_per_case_method": 121093.75,
+      "wall_ns_per_case_method": 121180.4
+    }
+  ],
+  "development_cases": 16,
+  "generation_calls": 0,
+  "limitations": [
+    "Four curated ledger candidates, no natural-memory or independent test evaluation",
+    "Date/entity supplied by author metadata; extraction errors are not evaluated",
+    "Time-filtered and entity-filtered methods have privileged structured input, so comparisons are diagnostics, not equal-information superiority",
+    "A selected locker fact does not itself answer a multi-component/relational question",
+    "LongMemEval timestamp pruning reorders candidates using an LLM-derived interval; this hard interval filter is not its replication",
+    "No measured factual, task-delivery or Persona Fidelity gain"
+  ],
+  "methods": {
+    "binary_overlap_top1": {
+      "cases": 16,
+      "expected_target_query_valid_top1": 4.5,
+      "tied_cases": 16
+    },
+    "bm25_top1": {
+      "cases": 16,
+      "expected_target_query_valid_top1": 8.0,
+      "tied_cases": 16
+    },
+    "entity_time_then_bm25_top1": {
+      "cases": 16,
+      "expected_target_query_valid_top1": 16.0,
+      "tied_cases": 0
+    },
+    "random_top1": {
+      "cases": 16,
+      "expected_target_query_valid_top1": 4.0,
+      "tied_cases": 16
+    },
+    "time_then_bm25_top1": {
+      "cases": 16,
+      "expected_target_query_valid_top1": 16.0,
+      "tied_cases": 0
+    }
+  },
+  "script_sha256": "434b853b175c01e0da3f78e014bf784b389e872cd316b432168b4a97102d786c",
+  "source_sha256": "5e89d9eaff8e3a628e4943a7bdf29b44293f2eb6af846d00df7a00144a1dc932",
+  "tie_policy": "Exact expected top-1 retention under uniform tie breaking; no arbitrary source-ID advantage",
+  "version": "fair_development_retrieval_v1"
+}

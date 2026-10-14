@@ -1,0 +1,207 @@
+{
+  "all_raw_results_reconstructed": true,
+  "effective_common_settings": {
+    "adaptive_decay": 0.8999999761581421,
+    "adaptive_target": -1.0,
+    "backend_sampling": false,
+    "chat_format": "Content-only",
+    "dry_allowed_length": 2,
+    "dry_base": 1.75,
+    "dry_multiplier": 0.0,
+    "dry_penalty_last_n": 64,
+    "dry_sequence_breakers": [
+      "\n",
+      ":",
+      "\"",
+      "*"
+    ],
+    "dynatemp_exponent": 1.0,
+    "dynatemp_range": 0.0,
+    "frequency_penalty": 0.0,
+    "generation_prompt": "",
+    "grammar": "",
+    "grammar_lazy": false,
+    "grammar_triggers": [],
+    "ignore_eos": false,
+    "logit_bias": [],
+    "lora": [],
+    "min_keep": 0,
+    "min_p": 0.05000000074505806,
+    "mirostat": 0,
+    "mirostat_eta": 0.10000000149011612,
+    "mirostat_tau": 5.0,
+    "n_discard": 0,
+    "n_keep": 0,
+    "n_probs": 0,
+    "post_sampling_probs": false,
+    "presence_penalty": 0.0,
+    "preserved_tokens": [],
+    "reasoning_format": "deepseek",
+    "reasoning_in_content": false,
+    "repeat_last_n": 64,
+    "repeat_penalty": 1.0,
+    "samplers": [
+      "penalties",
+      "dry",
+      "top_n_sigma",
+      "top_k",
+      "typ_p",
+      "top_p",
+      "min_p",
+      "xtc",
+      "temperature"
+    ],
+    "seed": 42,
+    "speculative.types": "none",
+    "stop": [],
+    "stream": false,
+    "temperature": 0.0,
+    "timings_per_token": false,
+    "top_k": 40,
+    "top_n_sigma": -1.0,
+    "top_p": 1.0,
+    "typical_p": 1.0,
+    "xtc_probability": 0.0,
+    "xtc_threshold": 0.10000000149011612
+  },
+  "effective_decoding_identical_except_caps": true,
+  "elapsed_seconds": 5203.059141399979,
+  "failed_requests": 0,
+  "finished_utc": [
+    "2026-10-14T14:00:31.473856+00:00"
+  ],
+  "full_HTTP_payload_order_and_tokens_match": true,
+  "generated_tokens": 26112,
+  "http_completion_requests": 144,
+  "human_semantic_confirmations": 0,
+  "main_study_decision": "NO_GO",
+  "manifest_sha256": "510e46b214dda23dea2a3e5462d44982d25b7a9db022626a7a5a1ba504d5e039",
+  "memory_observations": 146,
+  "memory_scope": "Windows process peak for full server lifetime; not a separate peak attributable to each cap",
+  "model": {
+    "backend_file": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "cache_prompt": false,
+    "ctx": 4096,
+    "gpu_layers": 0,
+    "max_new_tokens": 96,
+    "model_file": "models/gguf/Qwen3.5-2B-Base.Q4_K_M.gguf",
+    "model_sha256": "ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994",
+    "seed": 42,
+    "source_config": "configs/p1_wave1_v1.json",
+    "source_config_sha256": "2da0f9916699c2aa405db4cea7d56f043f23e3ebed7e5955a6cd519b67f6978e",
+    "stop": [],
+    "temperature": 0,
+    "threads": 4,
+    "threads_batch": 4
+  },
+  "native_cost_by_budget": {
+    "96": {
+      "mean_generation_ms": 8319.186333333333,
+      "mean_prompt_ms": 20330.027791666667,
+      "mean_reported_generated_tokens_per_second": 11.434279187075418
+    },
+    "192": {
+      "mean_generation_ms": 16622.259020833335,
+      "mean_prompt_ms": 20400.264875,
+      "mean_reported_generated_tokens_per_second": 11.502959728834925
+    },
+    "256": {
+      "mean_generation_ms": 22123.02595833333,
+      "mean_prompt_ms": 20220.738854166666,
+      "mean_reported_generated_tokens_per_second": 11.534466594438516
+    }
+  },
+  "native_tokenizer_identity": {
+    "add_special": "Native default; equality checked against saved backend input IDs",
+    "argv_public": [
+      "llama-tokenize.exe",
+      "-m",
+      "Qwen3.5-2B-Base.Q4_K_M.gguf",
+      "--stdin",
+      "--ids",
+      "--no-parse-special",
+      "--offline"
+    ],
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "dll_hashes": {
+      "ggml-base.dll": "d960b9204111948863508bf2e72feb6bce4ce1b4240df52e8b6648e0a1b2e6be",
+      "ggml-cpu-alderlake.dll": "63e0f9d7b5adaf847329c71e80c4e882039978bb2406cd50b6d5c81294341018",
+      "ggml-cpu-cannonlake.dll": "40a7b43e69c7ec99298e038c644e16846651454d805926ab10549365faa310ca",
+      "ggml-cpu-cascadelake.dll": "568a1cafcfb72f3b42143b3bc7fc8c8ea6be2d13dbdc069616bc202828d2f915",
+      "ggml-cpu-cooperlake.dll": "8abee2db42a94e3bd3d03cc3f0b5d9592c4b60656e3c923f59eb6e476a0a58a6",
+      "ggml-cpu-haswell.dll": "47581d32e72ee7b02ca0722d154f9e107dd29ecdfc4a8eea3cb1d19ef6cb1c5d",
+      "ggml-cpu-icelake.dll": "cee6cb20fcad7c2b45d6a54e4fc0bb2661d1e1f3b60e7176efddb67f6b033393",
+      "ggml-cpu-ivybridge.dll": "a5efb4ab06dda71602dc749fccf808b6d106a76c153370dda56a9904aed9f1a4",
+      "ggml-cpu-piledriver.dll": "32c62b5f5cfdb2814d62f7057ffa912fe3a139013046a497d391a553d2dc1f77",
+      "ggml-cpu-sandybridge.dll": "534201d15039fd3eed115becdf08d5cd5bef7def88656d38695fdcb1130b5ad5",
+      "ggml-cpu-sapphirerapids.dll": "e3e73d813d0260e960a78bc99c1ed3c033f16325874d9a0f817bab9311af2b6b",
+      "ggml-cpu-skylakex.dll": "a22c0b6b2a65c76e9388e3618ad036006d344507a935c48959d892b72b6ef9dd",
+      "ggml-cpu-sse42.dll": "b101d8cf2ea49a8ee67b8cfad0cd023acbe643a2554b819e1d45f149917eb049",
+      "ggml-cpu-x64.dll": "26e2f992a4af291ab9277bab8f362004e0bd03608ac79d579da00773bf67b061",
+      "ggml-cpu-zen4.dll": "d0153474451b0750d357e8843b088dd2a224653399694a28e73f8df539325dae",
+      "ggml-rpc.dll": "888a261f713baa21c64d039496baa41f6ed76ddf4e88acddcbdf7a1625fb8682",
+      "ggml.dll": "6414687963b2467ab5d29f37829728aa4c116fd378f413898bdf683dac6d5c62",
+      "libomp.dll": "a12116ba72d1d6820407cf30be23da04ce79d6bb8a71a5ee71759c5a1faa6f1c",
+      "llama-batched-bench-impl.dll": "8ec17c3c6cc8d600289842f1cd51680514d22e0d89ee4c5785b0297f48f76fb2",
+      "llama-bench-impl.dll": "c8bb208f095bdc40bc5cea4d2048ff6d958a876884d89429aa73d4d74c91d0db",
+      "llama-cli-impl.dll": "892a72edc0f50895ead9b47e51bec14579ef74b092c9f8ad85fbea88140a8d3a",
+      "llama-common.dll": "50760444855fb4fb1478294b8f74e390b3f894a24d7857eedabbb598d37beba6",
+      "llama-completion-impl.dll": "192d880c9b699045a714b808facf1ab0a7e6171b02a79f30b070ef514104555a",
+      "llama-fit-params-impl.dll": "cab736d1adef221220df26a41af56f1d32119bbf003bbd5d7934fab32c11714f",
+      "llama-perplexity-impl.dll": "b02d625329c25550232fa21d42c1646f856b4fbef4808ca485553539de1ddb46",
+      "llama-quantize-impl.dll": "1aa47e8fec9212c9da4c82fc250a27baa88fcff57f7668151dd2b6d06030b475",
+      "llama-server-impl.dll": "0dbb02c7bb56b2502813b0bfdf8ac8e70d342ab2213c36cbe5966cf40a30fe4f",
+      "llama.dll": "5f2f6a2254692098953686609f23c289797a9772aad68df12ab59ebd5488812e",
+      "mtmd.dll": "9f483a3d4781fe6bf0aa6d6eb83a6f1938b9573e8167d62bd7cf91fd10fb2244"
+    },
+    "implementation": "Pinned native llama-tokenize vocabulary-only utility; no server launched.",
+    "model_sha256": "ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994",
+    "native_version": {
+      "exit_code": 0,
+      "stderr": "version: 0.6.0-dev (build 11573, commit 0f701c882)\r\nbuilt with Clang 20.1.8 for Windows x86_64\r\n",
+      "stdout": ""
+    },
+    "no_generation": true,
+    "parse_special": false,
+    "tokenizer_sha256": "e05dbdef761e577b3d56f3daea7b205a07f68e5d87242ea4e2544382ffdd358e"
+  },
+  "new_independent_validation_requests": 0,
+  "new_instruct_requests": 0,
+  "peak_server_working_set_bytes": 2485653504,
+  "postflight_events": 1,
+  "prefix_diagnostics": {
+    "192-256": {
+      "blocks": 48,
+      "lower_token_prefix": 48,
+      "same_first_span": 48
+    },
+    "96-192": {
+      "blocks": 48,
+      "lower_token_prefix": 48,
+      "same_first_span": 48
+    },
+    "96-256": {
+      "blocks": 48,
+      "lower_token_prefix": 48,
+      "same_first_span": 48
+    }
+  },
+  "registered_authorization_sha256": "f30bf9004aef034514369d95547604b792467b498d84c87fb52a0e7c827bdd58",
+  "remaining_authorized_requests": 0,
+  "requests_attempted": 144,
+  "segments": [
+    "results/p1d_budget_calibration/development_v1/runs/20261014T123347-2ab6ce581f6a46abbdeb83fea75469a2"
+  ],
+  "source_sha256": {
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\tools\\p1d_budget_reporting.py": "83120a5b3d7ed44aa0cd10ccb1aae3685bf71b6a7492c25fb8890e93b16f4295",
+    "docs\\validation\\p1d\\budget_calibration_v1\\analysis_v1\\annotation_analysis_provenance_v1.json": "190a2592a08e1908d2df0337a099f19339e74f8243a04b1e5d2a8e992731c4d1",
+    "docs\\validation\\p1d\\budget_calibration_v1\\frozen_manifest_v2.json": "510e46b214dda23dea2a3e5462d44982d25b7a9db022626a7a5a1ba504d5e039",
+    "docs\\validation\\p1d\\budget_calibration_v1\\measurement_v1\\execution_integrity_v1.json": "7193f237d9b02406cdc9f89b739bb4664a58fd052577ac79a89f0729fed17d9a",
+    "docs\\validation\\p1d\\budget_calibration_v1\\researcher_authorization_v1.json": "f30bf9004aef034514369d95547604b792467b498d84c87fb52a0e7c827bdd58"
+  },
+  "started_utc": "2026-10-14T12:33:47.444197+00:00",
+  "successful_raw_responses": 144,
+  "validated_results": 144,
+  "version": "p1d_budget_completed_engineering_v1"
+}

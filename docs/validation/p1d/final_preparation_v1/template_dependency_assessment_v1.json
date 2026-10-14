@@ -1,0 +1,136 @@
+{
+  "version": "p1d_template_dependence_accounting_v1",
+  "case_count": 288,
+  "speaker_count": 144,
+  "literal_questions": 247,
+  "repeated_question_records": 62,
+  "abstract_grammars": 16,
+  "grammar_counts": {
+    "Which ASSIGNMENT was assigned to PERSON on DATE?": 18,
+    "For PERSON on DATE, report the assigned ASSIGNMENT together with the WINDOW.": 24,
+    "Use PERSON's assigned ASSIGNMENT for DATE to find its linked MIDDLE and then DESTINATION. Report both.": 24,
+    "For that person on DATE, report the assigned ASSIGNMENT together with the WINDOW.": 24,
+    "Give both the ASSIGNMENT and WINDOW assigned to PERSON on DATE.": 18,
+    "For DATE, identify the ASSIGNMENT assigned to PERSON.": 24,
+    "On DATE, follow PERSON's ASSIGNMENT to its MIDDLE, then to its DESTINATION. Give the MIDDLE and DESTINATION.": 18,
+    "Give both the ASSIGNMENT and WINDOW assigned to that person on DATE.": 18,
+    "What were the ASSIGNMENT and WINDOW for PERSON on DATE? Include both details.": 18,
+    "Which MIDDLE and DESTINATION follow from PERSON's ASSIGNMENT on DATE? Use both ledger links.": 18,
+    "What were the ASSIGNMENT and WINDOW for that person on DATE? Include both details.": 18,
+    "Give PERSON's assigned ASSIGNMENT for DATE.": 18,
+    "On DATE, which ASSIGNMENT and WINDOW applied to PERSON?": 12,
+    "For PERSON on DATE, give the MIDDLE linked to the assigned ASSIGNMENT and the DESTINATION linked to that MIDDLE.": 12,
+    "On DATE, which ASSIGNMENT and WINDOW applied to that person?": 12,
+    "On DATE, what was PERSON's assigned ASSIGNMENT?": 12
+  },
+  "common_paraphrase_ancestors": {
+    "0": 72,
+    "1": 96,
+    "2": 72,
+    "3": 48
+  },
+  "inverse_concentration_grammar_count": 15.157894736842104,
+  "inverse_concentration_ancestor_count": 3.789473684210526,
+  "interpretation": "Concentration descriptors, NOT effective sample size or empirical ICC. Six conditions are repeated measures, not independent samples.",
+  "cross_tabs": [
+    {
+      "family": "context_followup",
+      "template_block": 0,
+      "cases": 18,
+      "target_persona": 12
+    },
+    {
+      "family": "context_followup",
+      "template_block": 1,
+      "cases": 24,
+      "target_persona": 12
+    },
+    {
+      "family": "context_followup",
+      "template_block": 2,
+      "cases": 18,
+      "target_persona": 6
+    },
+    {
+      "family": "context_followup",
+      "template_block": 3,
+      "cases": 12,
+      "target_persona": 6
+    },
+    {
+      "family": "multi_component",
+      "template_block": 0,
+      "cases": 18,
+      "target_persona": 12
+    },
+    {
+      "family": "multi_component",
+      "template_block": 1,
+      "cases": 24,
+      "target_persona": 12
+    },
+    {
+      "family": "multi_component",
+      "template_block": 2,
+      "cases": 18,
+      "target_persona": 6
+    },
+    {
+      "family": "multi_component",
+      "template_block": 3,
+      "cases": 12,
+      "target_persona": 6
+    },
+    {
+      "family": "relational_integration",
+      "template_block": 0,
+      "cases": 18,
+      "target_persona": 12
+    },
+    {
+      "family": "relational_integration",
+      "template_block": 1,
+      "cases": 24,
+      "target_persona": 12
+    },
+    {
+      "family": "relational_integration",
+      "template_block": 2,
+      "cases": 18,
+      "target_persona": 6
+    },
+    {
+      "family": "relational_integration",
+      "template_block": 3,
+      "cases": 12,
+      "target_persona": 6
+    },
+    {
+      "family": "single_fact",
+      "template_block": 0,
+      "cases": 18,
+      "target_persona": 12
+    },
+    {
+      "family": "single_fact",
+      "template_block": 1,
+      "cases": 24,
+      "target_persona": 12
+    },
+    {
+      "family": "single_fact",
+      "template_block": 2,
+      "cases": 18,
+      "target_persona": 6
+    },
+    {
+      "family": "single_fact",
+      "template_block": 3,
+      "cases": 12,
+      "target_persona": 6
+    }
+  ],
+  "recommended_scope": "Paired synthetic-speaker case distribution conditional on these authored ledger grammars. No independently authored template or real-speaker generalization.",
+  "prospective_amendment_option": "Before confirmatory freeze, independently author and balance additional template families with entity/date roles; keep current version. Requires substantive scope approval; not implemented.",
+  "simulations": "Existing template_precision_simulation_v1 and earlier precision/stress results preserved; no repeat simulation needed."
+}
