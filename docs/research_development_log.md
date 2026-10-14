@@ -1167,3 +1167,22 @@ Technical checks support the unchanged proposal; scientific review and inference
 ### 2026-10-13T22:46:34.845738+00:00 — P1c final source and review verification
 
 After the final verifier/source additions, the full suite was rerun: 781 passed in 30.27s, exit0, no reported warnings; captured duration30.757s. py_compile passed for the three new tools and test module. Final integrity passed:551 baseline files,5798 historical artifacts,1234 original native logs;72 prompts/ID lists,480 P1b case contrasts;20 JSON/four CSV at that verification point;588 blank human cells. Local documentation targets resolve, with the verification/manifest outputs finalized in delivery order. Git diff --check passed with the existing CRLF normalization warning on the appended development log. The vendor-neutral wording scan found no matches (rg exit1 denotes no match); the new-material machine-specific-path scan found no matches. No failed scientific check was bypassed. The input snapshot remains unapproved.
+
+
+## P1c final researcher-review and calibration candidate preparation
+
+Engineering record created: 2026-10-14T05:23:05.793616+00:00. Maintainer: Yaxin ZHENG.
+
+Entry HEAD: `24ff0bef076aae412e58f62d77746a306962aae1`; working tree clean at entry. All changes remain uncommitted. No generation, model training, algorithm implementation, protocol modification or new experimental cell.
+
+Objective: convert the existing identification audit into concrete case/text proposals and a complete disabled 72-request candidate. Implemented `tools/p1c_final_review.py` and 15 acceptance guards; original stimuli and order retained. Twelve case proposals are ACCEPT_WITH_RESTRICTED_ESTIMAND. Sixty text operational labels are 32 PASS and 28 UNCERTAIN; the 12 neutral assessments are a subset, not additional items. Strict neutrality/isolated-mechanism criteria remain FAIL where applicable. No human judgment, identity or review timestamp was supplied or inferred.
+
+Reports: P1c_final_researcher_review_packet, P1c_final_identification_decision, P1c_final_estimand_registry, P1c_calibration_freeze_readiness, P1c_protocol_addendum_proposal; append-only algorithmic assessment update. Machine records are in `docs/validation/p1c/final_review_v1/`; original inputs and prior report snapshots are pinned in the new provenance manifest.
+
+Actual commands, with stdout/stderr, timestamps and return codes, are preserved in the new engineering_logs: `.venv\Scripts\python.exe tools/p1c_final_review.py build`; `.venv\Scripts\python.exe -m pytest -q tests/test_p1c_final_review.py` (15 passed in 0.91s); `.venv\Scripts\python.exe tools/p1c_final_review.py verify`; `.venv\Scripts\python.exe -m pytest -q` (796 passed in 32.01s); `.venv\Scripts\python.exe results/p1c_final_review/v1/finalize_packet.py`; `git rev-parse HEAD`; `git status --short`; final compile/diff checks have separate captures. The p0_capture wrapper records each executed child argv; no review time is inferred from engineering time.
+
+Verification: all 72 saved native token-ID arrays and prompt bytes rechecked; current pinned model/backend/tokenizer/DLL hashes rechecked; 12 zero-difference active/neutral sets. No fresh tokenizer or generation calls were needed. Historical scope: 5,798 run artifacts, 1,234 original tokenizer logs and 72 later recheck logs; prior chain audits retained, not re-executed. P1b 480 case-level contrast values reconstructed against their preserved analysis. All 597 entry files remain unchanged except append-only prefixes of the two named log/report files.
+
+Read-only search correction: a Windows rg path wildcard `src/personaslm/p1b*` produced an OS path error; the directory search with `-g` filtering was used instead. That console diagnostic was not a generation or a failed validation test; its full original command capture is unavailable, so none is fabricated. No model-output or reference repair was necessary.
+
+Scientific decision: recommend scoped development acceptance, but scientific review, limited neutral suitability, addendum/evaluation approval and explicit 72-request inference authorization remain pending. Six clusters cannot establish population interaction precision. No claim of pure temporal mechanism, stale-answer competition, algorithmic novelty or publication readiness. Primary prior-art methods were reused from the earlier verified audit; CoVe and RARR method sections were additionally inspected. Independent data and annotation remain future publication needs, not invented additional gates for this development packet.

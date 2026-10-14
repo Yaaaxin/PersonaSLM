@@ -1,0 +1,56 @@
+{
+  "case_decisions": {
+    "ACCEPT_WITH_RESTRICTED_ESTIMAND": 12
+  },
+  "global_decisions": 5,
+  "history_AI_labels": {
+    "PASS": 32,
+    "UNCERTAIN": 28
+  },
+  "human_approved_items": 0,
+  "manifest_sha256": "b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b",
+  "neutral_AI_labels": {
+    "UNCERTAIN": 12
+  },
+  "neutral_subset_not_extra_items": 12,
+  "new_generations": 0,
+  "planned_requests": 72,
+  "source_audit": {
+    "active_token_range": [
+      766,
+      938
+    ],
+    "cases": 12,
+    "conditions": [
+      "R0T0",
+      "R0T1",
+      "R1T0",
+      "R1T1",
+      "N_history",
+      "H_none"
+    ],
+    "generation_executed": 0,
+    "history_review_items": 60,
+    "human_review": "OPEN",
+    "identity_definition": "Original case_id/condition tuple; original configuration has no separate request_id. Order unchanged.",
+    "matched_sets": 12,
+    "neutral_review_items": 12,
+    "no_history_token_differences": {
+      "65": 10,
+      "66": 2
+    },
+    "planned_identities": 72,
+    "planned_order_sha256": "3a352d9778b5d39aef80df5064dd3a64ede2657b382718731de371894e9ce4be",
+    "precision_checks": "Saved scenario inputs, analytical formula and provenance; Monte Carlo draws not rerun.",
+    "precision_configurations_checked": 135,
+    "rt_cells": 48,
+    "rt_pairs": 72,
+    "same_color_cross_topic_pairs": 12,
+    "same_proposition_pairs": 0,
+    "scientific_decision": "NO_GO_PENDING_RESEARCHER",
+    "speakers": 6,
+    "stimulus_changes": 0
+  },
+  "stimulus_changes": 0,
+  "unique_review_items": 72
+}

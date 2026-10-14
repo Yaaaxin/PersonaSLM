@@ -1,0 +1,49 @@
+{
+  "version": "p1c_final_review_completion_receipt_v1",
+  "engineering_record_utc": "2026-10-14T05:24:45.462392+00:00",
+  "core_manifest_sha256": "c8746d676243edbe07efb70719fdd4789b8ada9f5e2890025a8755cc38d9e82e",
+  "final_commands": {
+    "finalize_01.json": {
+      "argv": [
+        ".venv\\Scripts\\python.exe",
+        "results/p1c_final_review/v1/finalize_packet.py"
+      ],
+      "duration_seconds": 12.505100100010168,
+      "exit_code": 0,
+      "finished_utc": "2026-10-14T05:23:07.942342+00:00",
+      "started_utc": "2026-10-14T05:22:55.437243+00:00",
+      "stderr": "",
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"entry_files_preserved\": 597,\n  \"historical_artifacts_preserved\": 5798,\n  \"native_evidence_logs_preserved\": 72,\n  \"pinned_model_backend_tokenizer_and_dll_hashes\": \"PASS\",\n  \"native_tokenizer_evidence_scope\": \"Reused all 72 previous actual native calls; exact inputs, IDs, logs and binaries revalidated. No new tokenization or inference was needed.\",\n  \"prompts\": 72,\n  \"original_order_preserved\": true,\n  \"matched_sets\": 12,\n  \"blank_human_fields_in_primary_and_subset_json\": 336,\n  \"new_generations\": 0,\n  \"case_review_status\": \"PENDING\",\n  \"neutral_review_status\": \"OPEN\",\n  \"execution\": \"NO_GO_PENDING_RESEARCHER\",\n  \"git_sha\": \"24ff0bef076aae412e58f62d77746a306962aae1\",\n  \"git_status\": \" M docs/P1c_algorithmic_opportunity_assessment.md\\n M docs/research_development_log.md\\n?? docs/P1c_calibration_freeze_readiness.md\\n?? docs/P1c_final_estimand_registry.md\\n?? docs/P1c_final_identification_decision.md\\n?? docs/P1c_final_researcher_review_packet.md\\n?? docs/P1c_protocol_addendum_proposal.md\\n?? docs/validation/p1c/final_review_v1/applicability_matrix_v1.json\\n?? docs/validation/p1c/final_review_v1/calibration_manifest_candidate_v1.json\\n?? docs/validation/p1c/final_review_v1/calibration_manifest_sha256_v1.json\\n?? docs/validation/p1c/final_review_v1/estimand_registry_proposed_v1.csv\\n?? docs/validation/p1c/final_review_v1/estimand_registry_proposed_v1.json\\n?? docs/validation/p1c/final_review_v1/evaluation_policy_proposed_v1.json\\n?? docs/validation/p1c/final_review_v1/final_case_review_proposed_v1.csv\\n?? docs/validation/p1c/final_review_v1/final_case_review_proposed_v1.json\\n?? docs/validation/p1c/final_review_v1/final_history_review_proposed_v1.csv\\n?? docs/validation/p1c/final_review_v1/final_history_review_proposed_v1.json\\n?? docs/validation/p1c/final_review_v1/final_neutral_review_proposed_v1.csv\\n?? docs/validation/p1c/final_review_v1/final_neutral_review_proposed_v1.json\\n?? docs/validation/p1c/final_review_v1/intervention_confound_inventory_v1.json\\n?? docs/validation/p1c/final_review_v1/proposal_summary_v1.json\\n?? docs/validation/p1c/final_review_v1/protected_treatment_mapping_proposed_v1.json\\n?? docs/validation/p1c/final_review_v1/protocol_addendum_proposed_v2.json\\n?? docs/validation/p1c/final_review_v1/researcher_confirmation_form_v1.csv\\n?? docs/validation/p1c/final_review_v1/source_snapshots/P1c_algorithmic_opportunity_assessment.md.before\\n?? docs/validation/p1c/final_review_v1/source_snapshots/research_development_log.md.before\\n?? docs/validation/p1c/final_review_v1/stage_a_semantic_template_v1.csv\\n?? docs/validation/p1c/final_review_v1/stage_b_structure_template_v1.csv\\n?? tests/test_p1c_final_review.py\\n?? tools/p1c_final_review.py\\n\",\n  \"verified_utc\": \"2026-10-14T05:23:07.755825+00:00\"\n}\n{\n  \"files_pinned\": 40,\n  \"historical_artifacts\": 5798,\n  \"original_native_logs\": 1234,\n  \"documentation_links\": \"PASS\",\n  \"tests\": 796,\n  \"new_generations\": 0\n}\n"
+    },
+    "final_hash_check_01.json": {
+      "argv": [
+        ".venv\\Scripts\\python.exe",
+        "-c",
+        "import json,hashlib,csv,re; from pathlib import Path; p=Path('docs/validation/p1c/final_review_v1'); m=json.loads((p/'reproducibility_manifest_v1.json').read_text()); sha=lambda x:hashlib.sha256(Path(x).read_bytes()).hexdigest(); bad=[x for x,h in m['files'].items() if sha(x)!=h]; receipt=json.loads((p/'reproducibility_manifest_sha256_v1.json').read_text()); assert not bad,bad; assert sha(receipt['path'])==receipt['sha256']; js=list(p.rglob('*.json')); [json.loads(x.read_text()) for x in js]; cs=list(p.glob('*.csv')); rows={x.name:list(csv.DictReader(x.open(encoding='utf-8-sig',newline=''))) for x in cs}; assert all(None not in row and all(v is not None for v in row.values()) for rs in rows.values() for row in rs); print(json.dumps({'pinned_hashes_verified':len(m['files']),'manifest_receipt':'PASS','json_files':len(js),'csv_rows':{k:len(v) for k,v in rows.items()},'new_generations':0},indent=2))"
+      ],
+      "duration_seconds": 0.1166475999634713,
+      "exit_code": 0,
+      "finished_utc": "2026-10-14T05:24:17.728574+00:00",
+      "started_utc": "2026-10-14T05:24:17.611928+00:00",
+      "stderr": "",
+      "stdout": "{\n  \"pinned_hashes_verified\": 40,\n  \"manifest_receipt\": \"PASS\",\n  \"json_files\": 21,\n  \"csv_rows\": {\n    \"estimand_registry_proposed_v1.csv\": 16,\n    \"final_case_review_proposed_v1.csv\": 12,\n    \"final_history_review_proposed_v1.csv\": 60,\n    \"final_neutral_review_proposed_v1.csv\": 12,\n    \"researcher_confirmation_form_v1.csv\": 77,\n    \"stage_a_semantic_template_v1.csv\": 72,\n    \"stage_b_structure_template_v1.csv\": 72\n  },\n  \"new_generations\": 0\n}\n"
+    },
+    "diff_check_02.json": {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "duration_seconds": 0.033880400005728006,
+      "exit_code": 0,
+      "finished_utc": "2026-10-14T05:24:18.320354+00:00",
+      "started_utc": "2026-10-14T05:24:18.286472+00:00",
+      "stderr": "warning: in the working copy of 'docs/research_development_log.md', CRLF will be replaced by LF the next time Git touches it\n",
+      "stdout": ""
+    }
+  },
+  "git_sha": "24ff0bef076aae412e58f62d77746a306962aae1",
+  "git_status_before_receipt": " M docs/P1c_algorithmic_opportunity_assessment.md\n M docs/research_development_log.md\n?? docs/P1c_calibration_freeze_readiness.md\n?? docs/P1c_final_estimand_registry.md\n?? docs/P1c_final_identification_decision.md\n?? docs/P1c_final_researcher_review_packet.md\n?? docs/P1c_protocol_addendum_proposal.md\n?? docs/validation/p1c/final_review_v1/applicability_matrix_v1.json\n?? docs/validation/p1c/final_review_v1/calibration_manifest_candidate_v1.json\n?? docs/validation/p1c/final_review_v1/calibration_manifest_sha256_v1.json\n?? docs/validation/p1c/final_review_v1/engineering_logs/build_01.json\n?? docs/validation/p1c/final_review_v1/engineering_logs/compile_01.json\n?? docs/validation/p1c/final_review_v1/engineering_logs/diff_check_01.json\n?? docs/validation/p1c/final_review_v1/engineering_logs/full_tests_01.json\n?? docs/validation/p1c/final_review_v1/engineering_logs/targeted_tests_01.json\n?? docs/validation/p1c/final_review_v1/engineering_logs/verify_01.json\n?? docs/validation/p1c/final_review_v1/estimand_registry_proposed_v1.csv\n?? docs/validation/p1c/final_review_v1/estimand_registry_proposed_v1.json\n?? docs/validation/p1c/final_review_v1/evaluation_policy_proposed_v1.json\n?? docs/validation/p1c/final_review_v1/final_case_review_proposed_v1.csv\n?? docs/validation/p1c/final_review_v1/final_case_review_proposed_v1.json\n?? docs/validation/p1c/final_review_v1/final_history_review_proposed_v1.csv\n?? docs/validation/p1c/final_review_v1/final_history_review_proposed_v1.json\n?? docs/validation/p1c/final_review_v1/final_neutral_review_proposed_v1.csv\n?? docs/validation/p1c/final_review_v1/final_neutral_review_proposed_v1.json\n?? docs/validation/p1c/final_review_v1/intervention_confound_inventory_v1.json\n?? docs/validation/p1c/final_review_v1/proposal_summary_v1.json\n?? docs/validation/p1c/final_review_v1/protected_treatment_mapping_proposed_v1.json\n?? docs/validation/p1c/final_review_v1/protocol_addendum_proposed_v2.json\n?? docs/validation/p1c/final_review_v1/reproducibility_manifest_sha256_v1.json\n?? docs/validation/p1c/final_review_v1/reproducibility_manifest_v1.json\n?? docs/validation/p1c/final_review_v1/researcher_confirmation_form_v1.csv\n?? docs/validation/p1c/final_review_v1/source_snapshots/P1c_algorithmic_opportunity_assessment.md.before\n?? docs/validation/p1c/final_review_v1/source_snapshots/finalize_packet.py\n?? docs/validation/p1c/final_review_v1/source_snapshots/p1c_final_review.py\n?? docs/validation/p1c/final_review_v1/source_snapshots/research_development_log.md.before\n?? docs/validation/p1c/final_review_v1/source_snapshots/test_p1c_final_review.py\n?? docs/validation/p1c/final_review_v1/stage_a_semantic_template_v1.csv\n?? docs/validation/p1c/final_review_v1/stage_b_structure_template_v1.csv\n?? docs/validation/p1c/final_review_v1/verification_v1.json\n?? tests/test_p1c_final_review.py\n?? tools/p1c_final_review.py\n",
+  "human_approval": "PENDING",
+  "new_generations": 0
+}

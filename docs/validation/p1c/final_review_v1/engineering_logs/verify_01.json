@@ -1,0 +1,13 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "tools/p1c_final_review.py",
+    "verify"
+  ],
+  "duration_seconds": 87.77313000004506,
+  "exit_code": 0,
+  "finished_utc": "2026-10-14T05:16:24.729335+00:00",
+  "started_utc": "2026-10-14T05:14:56.956206+00:00",
+  "stderr": "",
+  "stdout": "{\n  \"status\": \"PASS\",\n  \"entry_files_preserved\": 597,\n  \"historical_artifacts_preserved\": 5798,\n  \"native_evidence_logs_preserved\": 72,\n  \"pinned_model_backend_tokenizer_and_dll_hashes\": \"PASS\",\n  \"native_tokenizer_evidence_scope\": \"Reused all 72 previous actual native calls; exact inputs, IDs, logs and binaries revalidated. No new tokenization or inference was needed.\",\n  \"prompts\": 72,\n  \"original_order_preserved\": true,\n  \"matched_sets\": 12,\n  \"blank_human_fields_in_primary_and_subset_json\": 336,\n  \"new_generations\": 0,\n  \"case_review_status\": \"PENDING\",\n  \"neutral_review_status\": \"OPEN\",\n  \"execution\": \"NO_GO_PENDING_RESEARCHER\",\n  \"git_sha\": \"24ff0bef076aae412e58f62d77746a306962aae1\",\n  \"git_status\": \"?? docs/validation/p1c/final_review_v1/applicability_matrix_v1.json\\n?? docs/validation/p1c/final_review_v1/calibration_manifest_candidate_v1.json\\n?? docs/validation/p1c/final_review_v1/calibration_manifest_sha256_v1.json\\n?? docs/validation/p1c/final_review_v1/estimand_registry_proposed_v1.csv\\n?? docs/validation/p1c/final_review_v1/estimand_registry_proposed_v1.json\\n?? docs/validation/p1c/final_review_v1/evaluation_policy_proposed_v1.json\\n?? docs/validation/p1c/final_review_v1/final_case_review_proposed_v1.csv\\n?? docs/validation/p1c/final_review_v1/final_case_review_proposed_v1.json\\n?? docs/validation/p1c/final_review_v1/final_history_review_proposed_v1.csv\\n?? docs/validation/p1c/final_review_v1/final_history_review_proposed_v1.json\\n?? docs/validation/p1c/final_review_v1/final_neutral_review_proposed_v1.csv\\n?? docs/validation/p1c/final_review_v1/final_neutral_review_proposed_v1.json\\n?? docs/validation/p1c/final_review_v1/intervention_confound_inventory_v1.json\\n?? docs/validation/p1c/final_review_v1/proposal_summary_v1.json\\n?? docs/validation/p1c/final_review_v1/protected_treatment_mapping_proposed_v1.json\\n?? docs/validation/p1c/final_review_v1/protocol_addendum_proposed_v2.json\\n?? docs/validation/p1c/final_review_v1/researcher_confirmation_form_v1.csv\\n?? docs/validation/p1c/final_review_v1/stage_a_semantic_template_v1.csv\\n?? docs/validation/p1c/final_review_v1/stage_b_structure_template_v1.csv\\n?? tests/test_p1c_final_review.py\\n?? tools/p1c_final_review.py\\n\",\n  \"verified_utc\": \"2026-10-14T05:16:24.713702+00:00\"\n}\n"
+}

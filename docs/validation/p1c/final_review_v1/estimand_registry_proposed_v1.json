@@ -1,0 +1,773 @@
+{
+  "applicable_cases": 12,
+  "categorical_policy": "Report Correct/Incorrect/Unverifiable/Not Applicable/Missing separately on frozen eligible denominator. Correct-label incidence is not assessed-only accuracy.",
+  "complete_case_sensitivity": "Only assessable required cells; state case/speaker coverage and possible condition-dependent censoring.",
+  "condition_order": [
+    "R0T0",
+    "R0T1",
+    "R1T0",
+    "R1T1",
+    "N_history",
+    "H_none"
+  ],
+  "eligible_per_condition": 12,
+  "eligible_per_metric": 72,
+  "estimand_scope": "Replacements of specific auxiliary-topic and interval/value packages; no direct answer competition or unique mechanism.",
+  "metrics": [
+    "response_relevance",
+    "factual_consistency",
+    "temporal_consistency",
+    "conversational_coherence",
+    "task_success",
+    "component_coverage",
+    "semantic_completeness",
+    "structural_status"
+  ],
+  "multiplicity": "Development: all prespecified estimates, no significance selection. Prior proposed six-test temporal Incorrect/task-success R/T/RxT family remains unapproved; hierarchy must be resolved before independent confirmation.",
+  "new_outcomes_or_effects_computed": false,
+  "ordinal_policy": "Full 1-5 distributions, paired higher/equal/lower and threshold sensitivities; means descriptive.",
+  "persona_fidelity": "Not Applicable: no fidelity target or authorized ground truth.",
+  "recommendation": "Report four fixed-factor simple contrasts before averaged R/T and secondary operational RxT; no historical hierarchy overwritten.",
+  "registry": [
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R0T0",
+        "R0T1",
+        "R1T0",
+        "R1T1"
+      ],
+      "contrast_id": "R",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Mean parcel-minus-music auxiliary record replacement, averaged equally over T. In these reviewed synthetic development cases only.",
+      "target_estimand": "Mean parcel-minus-music auxiliary record replacement, averaged equally over T.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": 0,
+        "N_history": 0,
+        "R0T0": -0.5,
+        "R0T1": -0.5,
+        "R1T0": 0.5,
+        "R1T1": 0.5
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R0T0",
+        "R0T1",
+        "R1T0",
+        "R1T1"
+      ],
+      "contrast_id": "RxT",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Difference of parcel-minus-music differences across interval/value settings; unscaled difference in differences. In these reviewed synthetic development cases only.",
+      "target_estimand": "Difference of parcel-minus-music differences across interval/value settings; unscaled difference in differences.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": 0,
+        "N_history": 0,
+        "R0T0": 1,
+        "R0T1": -1,
+        "R1T0": -1,
+        "R1T1": 1
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R0T0",
+        "R0T1",
+        "R1T0",
+        "R1T1"
+      ],
+      "contrast_id": "T",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Mean query-valid-minus-expired interval/value replacement, averaged equally over R. In these reviewed synthetic development cases only.",
+      "target_estimand": "Mean query-valid-minus-expired interval/value replacement, averaged equally over R.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": 0,
+        "N_history": 0,
+        "R0T0": -0.5,
+        "R0T1": 0.5,
+        "R1T0": -0.5,
+        "R1T1": 0.5
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R0T0",
+        "R1T0"
+      ],
+      "contrast_id": "R1T0-R0T0",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Replacement of one implemented factor package at the fixed level of the other factor. In these reviewed synthetic development cases only.",
+      "target_estimand": "Replacement of one implemented factor package at the fixed level of the other factor.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": 0,
+        "N_history": 0,
+        "R0T0": -1,
+        "R0T1": 0,
+        "R1T0": 1,
+        "R1T1": 0
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R0T1",
+        "R1T1"
+      ],
+      "contrast_id": "R1T1-R0T1",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Replacement of one implemented factor package at the fixed level of the other factor. In these reviewed synthetic development cases only.",
+      "target_estimand": "Replacement of one implemented factor package at the fixed level of the other factor.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": 0,
+        "N_history": 0,
+        "R0T0": 0,
+        "R0T1": -1,
+        "R1T0": 0,
+        "R1T1": 1
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R0T0",
+        "R0T1"
+      ],
+      "contrast_id": "R0T1-R0T0",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Replacement of one implemented factor package at the fixed level of the other factor. In these reviewed synthetic development cases only.",
+      "target_estimand": "Replacement of one implemented factor package at the fixed level of the other factor.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": 0,
+        "N_history": 0,
+        "R0T0": -1,
+        "R0T1": 1,
+        "R1T0": 0,
+        "R1T1": 0
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R1T0",
+        "R1T1"
+      ],
+      "contrast_id": "R1T1-R1T0",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Replacement of one implemented factor package at the fixed level of the other factor. In these reviewed synthetic development cases only.",
+      "target_estimand": "Replacement of one implemented factor package at the fixed level of the other factor.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": 0,
+        "N_history": 0,
+        "R0T0": 0,
+        "R0T1": 0,
+        "R1T0": -1,
+        "R1T1": 1
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R0T0",
+        "N_history"
+      ],
+      "contrast_id": "R0T0-N_history",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting. Procedural and style priming; temporal content differs.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Active auxiliary historical content versus procedural archive content with equal length, turns and wrapper. In these reviewed synthetic development cases only.",
+      "target_estimand": "Active auxiliary historical content versus procedural archive content with equal length, turns and wrapper.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": 0,
+        "N_history": -1,
+        "R0T0": 1,
+        "R0T1": 0,
+        "R1T0": 0,
+        "R1T1": 0
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R0T1",
+        "N_history"
+      ],
+      "contrast_id": "R0T1-N_history",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting. Procedural and style priming; temporal content differs.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Active auxiliary historical content versus procedural archive content with equal length, turns and wrapper. In these reviewed synthetic development cases only.",
+      "target_estimand": "Active auxiliary historical content versus procedural archive content with equal length, turns and wrapper.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": 0,
+        "N_history": -1,
+        "R0T0": 0,
+        "R0T1": 1,
+        "R1T0": 0,
+        "R1T1": 0
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R1T0",
+        "N_history"
+      ],
+      "contrast_id": "R1T0-N_history",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting. Procedural and style priming; temporal content differs.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Active auxiliary historical content versus procedural archive content with equal length, turns and wrapper. In these reviewed synthetic development cases only.",
+      "target_estimand": "Active auxiliary historical content versus procedural archive content with equal length, turns and wrapper.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": 0,
+        "N_history": -1,
+        "R0T0": 0,
+        "R0T1": 0,
+        "R1T0": 1,
+        "R1T1": 0
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R1T1",
+        "N_history"
+      ],
+      "contrast_id": "R1T1-N_history",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting. Procedural and style priming; temporal content differs.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Active auxiliary historical content versus procedural archive content with equal length, turns and wrapper. In these reviewed synthetic development cases only.",
+      "target_estimand": "Active auxiliary historical content versus procedural archive content with equal length, turns and wrapper.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": 0,
+        "N_history": -1,
+        "R0T0": 0,
+        "R0T1": 0,
+        "R1T0": 0,
+        "R1T1": 1
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R0T0",
+        "H_none"
+      ],
+      "contrast_id": "R0T0-H_none",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting. Added length and archive formatting.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Total added historical/procedural content package versus no history, including added length and wrapper. In these reviewed synthetic development cases only.",
+      "target_estimand": "Total added historical/procedural content package versus no history, including added length and wrapper.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": -1,
+        "N_history": 0,
+        "R0T0": 1,
+        "R0T1": 0,
+        "R1T0": 0,
+        "R1T1": 0
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R0T1",
+        "H_none"
+      ],
+      "contrast_id": "R0T1-H_none",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting. Added length and archive formatting.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Total added historical/procedural content package versus no history, including added length and wrapper. In these reviewed synthetic development cases only.",
+      "target_estimand": "Total added historical/procedural content package versus no history, including added length and wrapper.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": -1,
+        "N_history": 0,
+        "R0T0": 0,
+        "R0T1": 1,
+        "R1T0": 0,
+        "R1T1": 0
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R1T0",
+        "H_none"
+      ],
+      "contrast_id": "R1T0-H_none",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting. Added length and archive formatting.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Total added historical/procedural content package versus no history, including added length and wrapper. In these reviewed synthetic development cases only.",
+      "target_estimand": "Total added historical/procedural content package versus no history, including added length and wrapper.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": -1,
+        "N_history": 0,
+        "R0T0": 0,
+        "R0T1": 0,
+        "R1T0": 1,
+        "R1T1": 0
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "R1T1",
+        "H_none"
+      ],
+      "contrast_id": "R1T1-H_none",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting. Added length and archive formatting.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Total added historical/procedural content package versus no history, including added length and wrapper. In these reviewed synthetic development cases only.",
+      "target_estimand": "Total added historical/procedural content package versus no history, including added length and wrapper.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": -1,
+        "N_history": 0,
+        "R0T0": 0,
+        "R0T1": 0,
+        "R1T0": 0,
+        "R1T1": 1
+      }
+    },
+    {
+      "approval_status": "PENDING",
+      "comparison_cells": [
+        "N_history",
+        "H_none"
+      ],
+      "contrast_id": "N_history-H_none",
+      "eligible_case_ids": [
+        "p1c_01_historical",
+        "p1c_01_current",
+        "p1c_02_historical",
+        "p1c_02_current",
+        "p1c_03_historical",
+        "p1c_03_current",
+        "p1c_04_historical",
+        "p1c_04_current",
+        "p1c_05_historical",
+        "p1c_05_current",
+        "p1c_06_historical",
+        "p1c_06_current"
+      ],
+      "eligible_cases": 12,
+      "known_confounders": "Attribute/color lexical cues; date/value coupling; repeated evidence salience; family/speaker nesting. Added length and archive formatting. Procedural and style priming; temporal content differs.",
+      "required_assumptions": "Approved operational meanings, common answer/evidence, stateless requests, valid first-reply judgments. No silent complete-case reweighting.",
+      "supported_interpretation": "Total added historical/procedural content package versus no history, including added length and wrapper. In these reviewed synthetic development cases only.",
+      "target_estimand": "Total added historical/procedural content package versus no history, including added length and wrapper.",
+      "unit": "Paired case contrast, then equal speaker means of two cases; six clusters.",
+      "unsupported_interpretation": "Pure relevance, pure temporal mechanism, established stale-answer competition, or population causal law.",
+      "weights": {
+        "H_none": -1,
+        "N_history": 1,
+        "R0T0": 0,
+        "R0T1": 0,
+        "R1T0": 0,
+        "R1T1": 0
+      }
+    }
+  ],
+  "status": "PROPOSED_PENDING_RESEARCHER",
+  "structural_policy": "response_status_v1; no later-turn substitution; unidentifiable first reply remains unknown, not Incorrect.",
+  "uncertainty": {
+    "bootstrap_seed": 715004,
+    "cluster": "speaker",
+    "leave_one_speaker_out": true,
+    "replicates": 10000,
+    "warning": "Six clusters cannot support reliable population-level significance claims."
+  },
+  "unit": "Within-case paired contrast; two cases per speaker, six speaker clusters; equal speaker means of case means.",
+  "unknown_bounds": "For each unknown cell use [0,1]; choose interval endpoints by the sign of its original weight. Do not reweight cells.",
+  "version": "p1c_final_estimand_registry_proposed_v1",
+  "weights": {
+    "N_history-H_none": {
+      "H_none": -1,
+      "N_history": 1,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -0.5,
+      "R0T1": -0.5,
+      "R1T0": 0.5,
+      "R1T1": 0.5
+    },
+    "R0T0-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 1,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T0-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 1,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T1-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 1,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T1-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 0,
+      "R0T1": 1,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T1-R0T0": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -1,
+      "R0T1": 1,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R1T0-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 1,
+      "R1T1": 0
+    },
+    "R1T0-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 1,
+      "R1T1": 0
+    },
+    "R1T0-R0T0": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -1,
+      "R0T1": 0,
+      "R1T0": 1,
+      "R1T1": 0
+    },
+    "R1T1-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 1
+    },
+    "R1T1-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 1
+    },
+    "R1T1-R0T1": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": -1,
+      "R1T0": 0,
+      "R1T1": 1
+    },
+    "R1T1-R1T0": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": -1,
+      "R1T1": 1
+    },
+    "RxT": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": 1,
+      "R0T1": -1,
+      "R1T0": -1,
+      "R1T1": 1
+    },
+    "T": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -0.5,
+      "R0T1": 0.5,
+      "R1T0": -0.5,
+      "R1T1": 0.5
+    }
+  }
+}

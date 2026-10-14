@@ -1,0 +1,116 @@
+{
+  "answer_competition_note": "Separate future experiment would repeat actual answer-bearing facts with query-valid versus expired intervals, plus auxiliary-topic controls; identical sufficient ledger and historical/current questions. Not a new P1c cell or authorized implementation.",
+  "approval": "",
+  "base_protocol_unchanged": "v1.1",
+  "budget": 96,
+  "conditions_unchanged": true,
+  "design_size": {
+    "cases": 12,
+    "requests": 72,
+    "speakers": 6
+  },
+  "estimands": "docs\\validation\\p1c\\final_review_v1\\estimand_registry_proposed_v1.json",
+  "evaluation": "docs\\validation\\p1c\\final_review_v1\\evaluation_policy_proposed_v1.json",
+  "independent_validation": "New speakers/templates and counterbalanced attribute values; review and precision/family approval before any confirmatory freeze. Current materials remain development.",
+  "interventions": {
+    "H_none": {
+      "R": null,
+      "T": null
+    },
+    "N_history": {
+      "R": null,
+      "T": null
+    },
+    "R0T0": {
+      "R": 0,
+      "T": 0
+    },
+    "R0T1": {
+      "R": 0,
+      "T": 1
+    },
+    "R1T0": {
+      "R": 1,
+      "T": 0
+    },
+    "R1T1": {
+      "R": 1,
+      "T": 1
+    }
+  },
+  "limitations": [
+    "Color/value coupling; small cyclic templates; family nested within two speakers; auxiliary facts repeated from common ledger; retrospective archive; parcel-domain relevance is assumed, not demonstrated.",
+    "Color/value coupling; small cyclic templates; family nested within two speakers; auxiliary facts repeated from common ledger; parcel-domain relevance is assumed, not demonstrated.",
+    "Color/value coupling; small cyclic templates; family nested within two speakers; auxiliary facts repeated from common ledger; retrospective archive; parcel-domain relevance is assumed, not demonstrated.",
+    "Color/value coupling; small cyclic templates; family nested within two speakers; auxiliary facts repeated from common ledger; parcel-domain relevance is assumed, not demonstrated.",
+    "Color/value coupling; small cyclic templates; family nested within two speakers; auxiliary facts repeated from common ledger; retrospective archive; parcel-domain relevance is assumed, not demonstrated.",
+    "Color/value coupling; small cyclic templates; family nested within two speakers; auxiliary facts repeated from common ledger; parcel-domain relevance is assumed, not demonstrated.",
+    "Color/value coupling; small cyclic templates; family nested within two speakers; auxiliary facts repeated from common ledger; retrospective archive; parcel-domain relevance is assumed, not demonstrated.",
+    "Color/value coupling; small cyclic templates; family nested within two speakers; auxiliary facts repeated from common ledger; parcel-domain relevance is assumed, not demonstrated.",
+    "Color/value coupling; small cyclic templates; family nested within two speakers; auxiliary facts repeated from common ledger; retrospective archive; route shortcut cannot be excluded.",
+    "Color/value coupling; small cyclic templates; family nested within two speakers; auxiliary facts repeated from common ledger; route shortcut cannot be excluded.",
+    "Color/value coupling; small cyclic templates; family nested within two speakers; auxiliary facts repeated from common ledger; retrospective archive; route shortcut cannot be excluded.",
+    "Color/value coupling; small cyclic templates; family nested within two speakers; auxiliary facts repeated from common ledger; route shortcut cannot be excluded."
+  ],
+  "new_hypotheses": [
+    "Operational topical package effect",
+    "Operational valid/expired package effect",
+    "Operational R by T difference in differences"
+  ],
+  "required_decisions": [
+    {
+      "AI_recommendation": "RESEARCHER_DECISION_REQUIRED",
+      "item_id": "operational_scope",
+      "item_type": "global",
+      "question": "Approve package-level R/T interpretations, implicit parcel relevance for desk/day cases, and retrospective ledger semantics?",
+      "researcher_decision": "",
+      "researcher_notes": "",
+      "review_timestamp": "",
+      "reviewer_id": ""
+    },
+    {
+      "AI_recommendation": "RESEARCHER_DECISION_REQUIRED",
+      "item_id": "neutral_scope",
+      "item_type": "global",
+      "question": "Approve all 12 texts only as matched procedural comparators, not inert or information-equivalent controls?",
+      "researcher_decision": "",
+      "researcher_notes": "",
+      "review_timestamp": "",
+      "reviewer_id": ""
+    },
+    {
+      "AI_recommendation": "RESEARCHER_DECISION_REQUIRED",
+      "item_id": "evaluation_and_statistics",
+      "item_type": "global",
+      "question": "Approve the proposed P1c task rubric, fixed applicability, all 16 contrasts and descriptive clustered analysis?",
+      "researcher_decision": "",
+      "researcher_notes": "",
+      "review_timestamp": "",
+      "reviewer_id": ""
+    },
+    {
+      "AI_recommendation": "RESEARCHER_DECISION_REQUIRED",
+      "item_id": "protocol_addendum",
+      "item_type": "global",
+      "question": "Approve the P1c addendum without modifying historical v1.1 or adopting v1.2?",
+      "researcher_decision": "",
+      "researcher_notes": "",
+      "review_timestamp": "",
+      "reviewer_id": ""
+    },
+    {
+      "AI_recommendation": "RESEARCHER_DECISION_REQUIRED",
+      "item_id": "execution_authorization",
+      "item_type": "global",
+      "question": "Separately authorize exactly the 72 frozen requests at 96 tokens only after item decisions and technical preflight pass?",
+      "researcher_decision": "",
+      "researcher_notes": "",
+      "review_timestamp": "",
+      "reviewer_id": ""
+    }
+  ],
+  "reviewer_id": "",
+  "status": "PENDING_RESEARCHER",
+  "v1_2_adopted": false,
+  "version": "p1c_addendum_proposed_v2"
+}

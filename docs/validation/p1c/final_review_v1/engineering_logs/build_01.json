@@ -1,0 +1,13 @@
+{
+  "argv": [
+    ".venv\\Scripts\\python.exe",
+    "tools/p1c_final_review.py",
+    "build"
+  ],
+  "duration_seconds": 0.3152731000445783,
+  "exit_code": 0,
+  "finished_utc": "2026-10-14T05:13:17.203237+00:00",
+  "started_utc": "2026-10-14T05:13:16.887963+00:00",
+  "stderr": "",
+  "stdout": "{\n  \"case_decisions\": {\n    \"ACCEPT_WITH_RESTRICTED_ESTIMAND\": 12\n  },\n  \"global_decisions\": 5,\n  \"history_AI_labels\": {\n    \"PASS\": 32,\n    \"UNCERTAIN\": 28\n  },\n  \"human_approved_items\": 0,\n  \"manifest_sha256\": \"b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b\",\n  \"neutral_AI_labels\": {\n    \"UNCERTAIN\": 12\n  },\n  \"neutral_subset_not_extra_items\": 12,\n  \"new_generations\": 0,\n  \"planned_requests\": 72,\n  \"source_audit\": {\n    \"active_token_range\": [\n      766,\n      938\n    ],\n    \"cases\": 12,\n    \"conditions\": [\n      \"R0T0\",\n      \"R0T1\",\n      \"R1T0\",\n      \"R1T1\",\n      \"N_history\",\n      \"H_none\"\n    ],\n    \"generation_executed\": 0,\n    \"history_review_items\": 60,\n    \"human_review\": \"OPEN\",\n    \"identity_definition\": \"Original case_id/condition tuple; original configuration has no separate request_id. Order unchanged.\",\n    \"matched_sets\": 12,\n    \"neutral_review_items\": 12,\n    \"no_history_token_differences\": {\n      \"65\": 10,\n      \"66\": 2\n    },\n    \"planned_identities\": 72,\n    \"planned_order_sha256\": \"3a352d9778b5d39aef80df5064dd3a64ede2657b382718731de371894e9ce4be\",\n    \"precision_checks\": \"Saved scenario inputs, analytical formula and provenance; Monte Carlo draws not rerun.\",\n    \"precision_configurations_checked\": 135,\n    \"rt_cells\": 48,\n    \"rt_pairs\": 72,\n    \"same_color_cross_topic_pairs\": 12,\n    \"same_proposition_pairs\": 0,\n    \"scientific_decision\": \"NO_GO_PENDING_RESEARCHER\",\n    \"speakers\": 6,\n    \"stimulus_changes\": 0\n  },\n  \"stimulus_changes\": 0,\n  \"unique_review_items\": 72\n}\n"
+}

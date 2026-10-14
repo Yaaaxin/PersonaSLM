@@ -1,0 +1,52 @@
+{
+  "administrative_missing": "Missing",
+  "annotation_provenance": "Human fields blank. AI assistance, if used later, must remain separately disclosed. No fictitious second reviewer or agreement.",
+  "categories": [
+    "Correct",
+    "Incorrect",
+    "Unverifiable",
+    "Not Applicable"
+  ],
+  "component_coverage": "Count supported requested components / fixed reference-component count; intermediate route is not requested room success. Preserve unsupported, missing and contradictory components separately.",
+  "denominators": {
+    "cases": 12,
+    "per_applicable_axis": 72,
+    "per_condition": 12,
+    "speakers": 6
+  },
+  "factual": "Judge supported factual claims in an identifiable first reply against the common ledger and requested time. A demonstrably false assertion is Incorrect; absent, unsupported or unassessable answers are Unverifiable, not automatically false.",
+  "historical_policies_unchanged": [
+    "response_status_v1",
+    "separate_axes_policy_v1"
+  ],
+  "multiplicity": "Development: report all planned contrasts without significance selection. Independent confirmatory primary family, useful precision margin and adjustment require a later prospective freeze.",
+  "ordinal": "Existing 1-5 relevance/coherence rubrics; full categories and paired higher/equal/lower. Means descriptive; threshold/rank sensitivity without interval-scale claims.",
+  "persona_fidelity": "Not Applicable; no fidelity reference exists.",
+  "primary_descriptive_endpoints": [
+    "response_relevance",
+    "factual_consistency",
+    "temporal_consistency",
+    "conversational_coherence"
+  ],
+  "rule_scope": "Proposed P1c-specific task application of historical policies, not retroactive rescoring.",
+  "semantic_completeness": "YES / PARTIAL / NO / UNCERTAIN, independent of truth and backend stopping. A complete wrong answer may be YES.",
+  "separate_diagnostics": [
+    "task_success",
+    "component_coverage",
+    "semantic_completeness",
+    "structural_status"
+  ],
+  "statistics": {
+    "bootstrap_unit": "whole speaker",
+    "leave_one_speaker_out": true,
+    "population_significance_claims": false,
+    "replicates": 10000,
+    "seed": 715004
+  },
+  "status": "PENDING_RESEARCHER",
+  "task_success": "Exploratory binary delivery diagnostic: 1 only when every required component is delivered, evidence-supported and no incompatible answer is asserted. Known partial/wrong/no-final delivery is 0 task success, not automatically factual Incorrect. Unknown response unit or missing review stays unknown.",
+  "temporal": "Judge date/interval use against requested_date, not automatically evaluation_date or newest record. All 72 are eligible; missing final answer without assessable temporal claim is Unverifiable.",
+  "unit": "Frozen first-reply extraction; never select a later correct turn. Stage A cannot see treatment, structural labels, automated predictions or full continuation. Stage B may audit extraction separately, preserving original span and status.",
+  "unknowns": "Report eligible, evaluated, Missing, Unverifiable, structural-unscorable and incomplete counts separately. Categorical incidences retain all eligible records; do not identify non-Correct with Incorrect. Assessed-only sensitivity uses all required assessable cells and discloses selection; signed unknown bounds retain original weights.",
+  "version": "p1c_evaluation_freeze_proposed_v1"
+}

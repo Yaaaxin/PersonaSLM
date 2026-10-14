@@ -1,0 +1,26 @@
+{
+  "automated_tests": {
+    "capture": "engineering_logs/full_tests_01.json",
+    "exit_code": 0,
+    "passed": 796
+  },
+  "blank_human_fields_in_primary_and_subset_json": 336,
+  "case_review_status": "PENDING",
+  "entry_files_preserved": 597,
+  "execution": "NO_GO_PENDING_RESEARCHER",
+  "git_sha": "24ff0bef076aae412e58f62d77746a306962aae1",
+  "git_status": " M docs/P1c_algorithmic_opportunity_assessment.md\n M docs/research_development_log.md\n?? docs/P1c_calibration_freeze_readiness.md\n?? docs/P1c_final_estimand_registry.md\n?? docs/P1c_final_identification_decision.md\n?? docs/P1c_final_researcher_review_packet.md\n?? docs/P1c_protocol_addendum_proposal.md\n?? docs/validation/p1c/final_review_v1/applicability_matrix_v1.json\n?? docs/validation/p1c/final_review_v1/calibration_manifest_candidate_v1.json\n?? docs/validation/p1c/final_review_v1/calibration_manifest_sha256_v1.json\n?? docs/validation/p1c/final_review_v1/estimand_registry_proposed_v1.csv\n?? docs/validation/p1c/final_review_v1/estimand_registry_proposed_v1.json\n?? docs/validation/p1c/final_review_v1/evaluation_policy_proposed_v1.json\n?? docs/validation/p1c/final_review_v1/final_case_review_proposed_v1.csv\n?? docs/validation/p1c/final_review_v1/final_case_review_proposed_v1.json\n?? docs/validation/p1c/final_review_v1/final_history_review_proposed_v1.csv\n?? docs/validation/p1c/final_review_v1/final_history_review_proposed_v1.json\n?? docs/validation/p1c/final_review_v1/final_neutral_review_proposed_v1.csv\n?? docs/validation/p1c/final_review_v1/final_neutral_review_proposed_v1.json\n?? docs/validation/p1c/final_review_v1/intervention_confound_inventory_v1.json\n?? docs/validation/p1c/final_review_v1/proposal_summary_v1.json\n?? docs/validation/p1c/final_review_v1/protected_treatment_mapping_proposed_v1.json\n?? docs/validation/p1c/final_review_v1/protocol_addendum_proposed_v2.json\n?? docs/validation/p1c/final_review_v1/researcher_confirmation_form_v1.csv\n?? docs/validation/p1c/final_review_v1/source_snapshots/P1c_algorithmic_opportunity_assessment.md.before\n?? docs/validation/p1c/final_review_v1/source_snapshots/research_development_log.md.before\n?? docs/validation/p1c/final_review_v1/stage_a_semantic_template_v1.csv\n?? docs/validation/p1c/final_review_v1/stage_b_structure_template_v1.csv\n?? tests/test_p1c_final_review.py\n?? tools/p1c_final_review.py\n",
+  "historical_artifacts_preserved": 5798,
+  "matched_sets": 12,
+  "native_evidence_logs_preserved": 72,
+  "native_tokenizer_evidence_scope": "Reused all 72 previous actual native calls; exact inputs, IDs, logs and binaries revalidated. No new tokenization or inference was needed.",
+  "neutral_review_status": "OPEN",
+  "new_generations": 0,
+  "original_order_preserved": true,
+  "original_tokenizer_logs_preserved": 1234,
+  "p1b_case_contrasts_reconstructed": 480,
+  "pinned_model_backend_tokenizer_and_dll_hashes": "PASS",
+  "prompts": 72,
+  "status": "PASS",
+  "verified_utc": "2026-10-14T05:23:07.755825+00:00"
+}

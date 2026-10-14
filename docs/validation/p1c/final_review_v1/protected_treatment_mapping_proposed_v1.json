@@ -1,0 +1,870 @@
+{
+  "purpose": "Analyst-only separation, not filesystem encryption. Empty future forms, not completed annotations.",
+  "records": [
+    {
+      "R": 0,
+      "T": 0,
+      "anonymous_response_id": "PC001",
+      "condition": "R0T0",
+      "persona_id": "p1c_speaker_05",
+      "request_identity": [
+        "p1c_05_current",
+        "R0T0"
+      ],
+      "sequence_index": 42
+    },
+    {
+      "R": 1,
+      "T": 1,
+      "anonymous_response_id": "PC002",
+      "condition": "R1T1",
+      "persona_id": "p1c_speaker_05",
+      "request_identity": [
+        "p1c_05_current",
+        "R1T1"
+      ],
+      "sequence_index": 29
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC003",
+      "condition": "N_history",
+      "persona_id": "p1c_speaker_04",
+      "request_identity": [
+        "p1c_04_historical",
+        "N_history"
+      ],
+      "sequence_index": 69
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC004",
+      "condition": "N_history",
+      "persona_id": "p1c_speaker_05",
+      "request_identity": [
+        "p1c_05_current",
+        "N_history"
+      ],
+      "sequence_index": 64
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC005",
+      "condition": "H_none",
+      "persona_id": "p1c_speaker_05",
+      "request_identity": [
+        "p1c_05_current",
+        "H_none"
+      ],
+      "sequence_index": 25
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC006",
+      "condition": "H_none",
+      "persona_id": "p1c_speaker_03",
+      "request_identity": [
+        "p1c_03_current",
+        "H_none"
+      ],
+      "sequence_index": 49
+    },
+    {
+      "R": 1,
+      "T": 0,
+      "anonymous_response_id": "PC007",
+      "condition": "R1T0",
+      "persona_id": "p1c_speaker_01",
+      "request_identity": [
+        "p1c_01_historical",
+        "R1T0"
+      ],
+      "sequence_index": 65
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC008",
+      "condition": "N_history",
+      "persona_id": "p1c_speaker_06",
+      "request_identity": [
+        "p1c_06_current",
+        "N_history"
+      ],
+      "sequence_index": 14
+    },
+    {
+      "R": 1,
+      "T": 1,
+      "anonymous_response_id": "PC009",
+      "condition": "R1T1",
+      "persona_id": "p1c_speaker_06",
+      "request_identity": [
+        "p1c_06_historical",
+        "R1T1"
+      ],
+      "sequence_index": 44
+    },
+    {
+      "R": 0,
+      "T": 0,
+      "anonymous_response_id": "PC010",
+      "condition": "R0T0",
+      "persona_id": "p1c_speaker_03",
+      "request_identity": [
+        "p1c_03_current",
+        "R0T0"
+      ],
+      "sequence_index": 10
+    },
+    {
+      "R": 1,
+      "T": 1,
+      "anonymous_response_id": "PC011",
+      "condition": "R1T1",
+      "persona_id": "p1c_speaker_05",
+      "request_identity": [
+        "p1c_05_historical",
+        "R1T1"
+      ],
+      "sequence_index": 59
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC012",
+      "condition": "N_history",
+      "persona_id": "p1c_speaker_06",
+      "request_identity": [
+        "p1c_06_historical",
+        "N_history"
+      ],
+      "sequence_index": 37
+    },
+    {
+      "R": 1,
+      "T": 1,
+      "anonymous_response_id": "PC013",
+      "condition": "R1T1",
+      "persona_id": "p1c_speaker_02",
+      "request_identity": [
+        "p1c_02_current",
+        "R1T1"
+      ],
+      "sequence_index": 27
+    },
+    {
+      "R": 1,
+      "T": 0,
+      "anonymous_response_id": "PC014",
+      "condition": "R1T0",
+      "persona_id": "p1c_speaker_05",
+      "request_identity": [
+        "p1c_05_current",
+        "R1T0"
+      ],
+      "sequence_index": 12
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC015",
+      "condition": "N_history",
+      "persona_id": "p1c_speaker_03",
+      "request_identity": [
+        "p1c_03_current",
+        "N_history"
+      ],
+      "sequence_index": 66
+    },
+    {
+      "R": 0,
+      "T": 1,
+      "anonymous_response_id": "PC016",
+      "condition": "R0T1",
+      "persona_id": "p1c_speaker_04",
+      "request_identity": [
+        "p1c_04_current",
+        "R0T1"
+      ],
+      "sequence_index": 8
+    },
+    {
+      "R": 0,
+      "T": 0,
+      "anonymous_response_id": "PC017",
+      "condition": "R0T0",
+      "persona_id": "p1c_speaker_02",
+      "request_identity": [
+        "p1c_02_current",
+        "R0T0"
+      ],
+      "sequence_index": 30
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC018",
+      "condition": "H_none",
+      "persona_id": "p1c_speaker_04",
+      "request_identity": [
+        "p1c_04_historical",
+        "H_none"
+      ],
+      "sequence_index": 13
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC019",
+      "condition": "N_history",
+      "persona_id": "p1c_speaker_02",
+      "request_identity": [
+        "p1c_02_historical",
+        "N_history"
+      ],
+      "sequence_index": 34
+    },
+    {
+      "R": 0,
+      "T": 1,
+      "anonymous_response_id": "PC020",
+      "condition": "R0T1",
+      "persona_id": "p1c_speaker_01",
+      "request_identity": [
+        "p1c_01_historical",
+        "R0T1"
+      ],
+      "sequence_index": 51
+    },
+    {
+      "R": 0,
+      "T": 1,
+      "anonymous_response_id": "PC021",
+      "condition": "R0T1",
+      "persona_id": "p1c_speaker_03",
+      "request_identity": [
+        "p1c_03_current",
+        "R0T1"
+      ],
+      "sequence_index": 22
+    },
+    {
+      "R": 0,
+      "T": 1,
+      "anonymous_response_id": "PC022",
+      "condition": "R0T1",
+      "persona_id": "p1c_speaker_01",
+      "request_identity": [
+        "p1c_01_current",
+        "R0T1"
+      ],
+      "sequence_index": 21
+    },
+    {
+      "R": 1,
+      "T": 1,
+      "anonymous_response_id": "PC023",
+      "condition": "R1T1",
+      "persona_id": "p1c_speaker_03",
+      "request_identity": [
+        "p1c_03_current",
+        "R1T1"
+      ],
+      "sequence_index": 24
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC024",
+      "condition": "H_none",
+      "persona_id": "p1c_speaker_01",
+      "request_identity": [
+        "p1c_01_historical",
+        "H_none"
+      ],
+      "sequence_index": 17
+    },
+    {
+      "R": 1,
+      "T": 0,
+      "anonymous_response_id": "PC025",
+      "condition": "R1T0",
+      "persona_id": "p1c_speaker_04",
+      "request_identity": [
+        "p1c_04_historical",
+        "R1T0"
+      ],
+      "sequence_index": 38
+    },
+    {
+      "R": 1,
+      "T": 1,
+      "anonymous_response_id": "PC026",
+      "condition": "R1T1",
+      "persona_id": "p1c_speaker_06",
+      "request_identity": [
+        "p1c_06_current",
+        "R1T1"
+      ],
+      "sequence_index": 4
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC027",
+      "condition": "N_history",
+      "persona_id": "p1c_speaker_05",
+      "request_identity": [
+        "p1c_05_historical",
+        "N_history"
+      ],
+      "sequence_index": 54
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC028",
+      "condition": "N_history",
+      "persona_id": "p1c_speaker_01",
+      "request_identity": [
+        "p1c_01_current",
+        "N_history"
+      ],
+      "sequence_index": 71
+    },
+    {
+      "R": 0,
+      "T": 0,
+      "anonymous_response_id": "PC029",
+      "condition": "R0T0",
+      "persona_id": "p1c_speaker_02",
+      "request_identity": [
+        "p1c_02_historical",
+        "R0T0"
+      ],
+      "sequence_index": 1
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC030",
+      "condition": "H_none",
+      "persona_id": "p1c_speaker_05",
+      "request_identity": [
+        "p1c_05_historical",
+        "H_none"
+      ],
+      "sequence_index": 47
+    },
+    {
+      "R": 0,
+      "T": 0,
+      "anonymous_response_id": "PC031",
+      "condition": "R0T0",
+      "persona_id": "p1c_speaker_06",
+      "request_identity": [
+        "p1c_06_historical",
+        "R0T0"
+      ],
+      "sequence_index": 3
+    },
+    {
+      "R": 1,
+      "T": 1,
+      "anonymous_response_id": "PC032",
+      "condition": "R1T1",
+      "persona_id": "p1c_speaker_01",
+      "request_identity": [
+        "p1c_01_current",
+        "R1T1"
+      ],
+      "sequence_index": 39
+    },
+    {
+      "R": 1,
+      "T": 1,
+      "anonymous_response_id": "PC033",
+      "condition": "R1T1",
+      "persona_id": "p1c_speaker_03",
+      "request_identity": [
+        "p1c_03_historical",
+        "R1T1"
+      ],
+      "sequence_index": 9
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC034",
+      "condition": "H_none",
+      "persona_id": "p1c_speaker_02",
+      "request_identity": [
+        "p1c_02_current",
+        "H_none"
+      ],
+      "sequence_index": 7
+    },
+    {
+      "R": 1,
+      "T": 0,
+      "anonymous_response_id": "PC035",
+      "condition": "R1T0",
+      "persona_id": "p1c_speaker_05",
+      "request_identity": [
+        "p1c_05_historical",
+        "R1T0"
+      ],
+      "sequence_index": 28
+    },
+    {
+      "R": 0,
+      "T": 0,
+      "anonymous_response_id": "PC036",
+      "condition": "R0T0",
+      "persona_id": "p1c_speaker_06",
+      "request_identity": [
+        "p1c_06_current",
+        "R0T0"
+      ],
+      "sequence_index": 41
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC037",
+      "condition": "N_history",
+      "persona_id": "p1c_speaker_04",
+      "request_identity": [
+        "p1c_04_current",
+        "N_history"
+      ],
+      "sequence_index": 11
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC038",
+      "condition": "H_none",
+      "persona_id": "p1c_speaker_04",
+      "request_identity": [
+        "p1c_04_current",
+        "H_none"
+      ],
+      "sequence_index": 16
+    },
+    {
+      "R": 1,
+      "T": 0,
+      "anonymous_response_id": "PC039",
+      "condition": "R1T0",
+      "persona_id": "p1c_speaker_03",
+      "request_identity": [
+        "p1c_03_historical",
+        "R1T0"
+      ],
+      "sequence_index": 40
+    },
+    {
+      "R": 0,
+      "T": 1,
+      "anonymous_response_id": "PC040",
+      "condition": "R0T1",
+      "persona_id": "p1c_speaker_05",
+      "request_identity": [
+        "p1c_05_historical",
+        "R0T1"
+      ],
+      "sequence_index": 23
+    },
+    {
+      "R": 1,
+      "T": 0,
+      "anonymous_response_id": "PC041",
+      "condition": "R1T0",
+      "persona_id": "p1c_speaker_04",
+      "request_identity": [
+        "p1c_04_current",
+        "R1T0"
+      ],
+      "sequence_index": 63
+    },
+    {
+      "R": 0,
+      "T": 1,
+      "anonymous_response_id": "PC042",
+      "condition": "R0T1",
+      "persona_id": "p1c_speaker_03",
+      "request_identity": [
+        "p1c_03_historical",
+        "R0T1"
+      ],
+      "sequence_index": 32
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC043",
+      "condition": "N_history",
+      "persona_id": "p1c_speaker_02",
+      "request_identity": [
+        "p1c_02_current",
+        "N_history"
+      ],
+      "sequence_index": 0
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC044",
+      "condition": "N_history",
+      "persona_id": "p1c_speaker_03",
+      "request_identity": [
+        "p1c_03_historical",
+        "N_history"
+      ],
+      "sequence_index": 35
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC045",
+      "condition": "N_history",
+      "persona_id": "p1c_speaker_01",
+      "request_identity": [
+        "p1c_01_historical",
+        "N_history"
+      ],
+      "sequence_index": 61
+    },
+    {
+      "R": 1,
+      "T": 1,
+      "anonymous_response_id": "PC046",
+      "condition": "R1T1",
+      "persona_id": "p1c_speaker_01",
+      "request_identity": [
+        "p1c_01_historical",
+        "R1T1"
+      ],
+      "sequence_index": 46
+    },
+    {
+      "R": 0,
+      "T": 0,
+      "anonymous_response_id": "PC047",
+      "condition": "R0T0",
+      "persona_id": "p1c_speaker_05",
+      "request_identity": [
+        "p1c_05_historical",
+        "R0T0"
+      ],
+      "sequence_index": 45
+    },
+    {
+      "R": 1,
+      "T": 1,
+      "anonymous_response_id": "PC048",
+      "condition": "R1T1",
+      "persona_id": "p1c_speaker_02",
+      "request_identity": [
+        "p1c_02_historical",
+        "R1T1"
+      ],
+      "sequence_index": 57
+    },
+    {
+      "R": 0,
+      "T": 0,
+      "anonymous_response_id": "PC049",
+      "condition": "R0T0",
+      "persona_id": "p1c_speaker_04",
+      "request_identity": [
+        "p1c_04_current",
+        "R0T0"
+      ],
+      "sequence_index": 6
+    },
+    {
+      "R": 1,
+      "T": 0,
+      "anonymous_response_id": "PC050",
+      "condition": "R1T0",
+      "persona_id": "p1c_speaker_02",
+      "request_identity": [
+        "p1c_02_current",
+        "R1T0"
+      ],
+      "sequence_index": 36
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC051",
+      "condition": "H_none",
+      "persona_id": "p1c_speaker_01",
+      "request_identity": [
+        "p1c_01_current",
+        "H_none"
+      ],
+      "sequence_index": 60
+    },
+    {
+      "R": 0,
+      "T": 0,
+      "anonymous_response_id": "PC052",
+      "condition": "R0T0",
+      "persona_id": "p1c_speaker_04",
+      "request_identity": [
+        "p1c_04_historical",
+        "R0T0"
+      ],
+      "sequence_index": 20
+    },
+    {
+      "R": 0,
+      "T": 0,
+      "anonymous_response_id": "PC053",
+      "condition": "R0T0",
+      "persona_id": "p1c_speaker_03",
+      "request_identity": [
+        "p1c_03_historical",
+        "R0T0"
+      ],
+      "sequence_index": 18
+    },
+    {
+      "R": 1,
+      "T": 0,
+      "anonymous_response_id": "PC054",
+      "condition": "R1T0",
+      "persona_id": "p1c_speaker_06",
+      "request_identity": [
+        "p1c_06_historical",
+        "R1T0"
+      ],
+      "sequence_index": 67
+    },
+    {
+      "R": 1,
+      "T": 0,
+      "anonymous_response_id": "PC055",
+      "condition": "R1T0",
+      "persona_id": "p1c_speaker_03",
+      "request_identity": [
+        "p1c_03_current",
+        "R1T0"
+      ],
+      "sequence_index": 26
+    },
+    {
+      "R": 0,
+      "T": 1,
+      "anonymous_response_id": "PC056",
+      "condition": "R0T1",
+      "persona_id": "p1c_speaker_05",
+      "request_identity": [
+        "p1c_05_current",
+        "R0T1"
+      ],
+      "sequence_index": 52
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC057",
+      "condition": "H_none",
+      "persona_id": "p1c_speaker_06",
+      "request_identity": [
+        "p1c_06_current",
+        "H_none"
+      ],
+      "sequence_index": 50
+    },
+    {
+      "R": 0,
+      "T": 1,
+      "anonymous_response_id": "PC058",
+      "condition": "R0T1",
+      "persona_id": "p1c_speaker_02",
+      "request_identity": [
+        "p1c_02_historical",
+        "R0T1"
+      ],
+      "sequence_index": 48
+    },
+    {
+      "R": 0,
+      "T": 1,
+      "anonymous_response_id": "PC059",
+      "condition": "R0T1",
+      "persona_id": "p1c_speaker_02",
+      "request_identity": [
+        "p1c_02_current",
+        "R0T1"
+      ],
+      "sequence_index": 53
+    },
+    {
+      "R": 0,
+      "T": 1,
+      "anonymous_response_id": "PC060",
+      "condition": "R0T1",
+      "persona_id": "p1c_speaker_04",
+      "request_identity": [
+        "p1c_04_historical",
+        "R0T1"
+      ],
+      "sequence_index": 58
+    },
+    {
+      "R": 1,
+      "T": 0,
+      "anonymous_response_id": "PC061",
+      "condition": "R1T0",
+      "persona_id": "p1c_speaker_01",
+      "request_identity": [
+        "p1c_01_current",
+        "R1T0"
+      ],
+      "sequence_index": 70
+    },
+    {
+      "R": 0,
+      "T": 0,
+      "anonymous_response_id": "PC062",
+      "condition": "R0T0",
+      "persona_id": "p1c_speaker_01",
+      "request_identity": [
+        "p1c_01_current",
+        "R0T0"
+      ],
+      "sequence_index": 2
+    },
+    {
+      "R": 1,
+      "T": 0,
+      "anonymous_response_id": "PC063",
+      "condition": "R1T0",
+      "persona_id": "p1c_speaker_06",
+      "request_identity": [
+        "p1c_06_current",
+        "R1T0"
+      ],
+      "sequence_index": 5
+    },
+    {
+      "R": 1,
+      "T": 1,
+      "anonymous_response_id": "PC064",
+      "condition": "R1T1",
+      "persona_id": "p1c_speaker_04",
+      "request_identity": [
+        "p1c_04_current",
+        "R1T1"
+      ],
+      "sequence_index": 31
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC065",
+      "condition": "H_none",
+      "persona_id": "p1c_speaker_02",
+      "request_identity": [
+        "p1c_02_historical",
+        "H_none"
+      ],
+      "sequence_index": 62
+    },
+    {
+      "R": 1,
+      "T": 1,
+      "anonymous_response_id": "PC066",
+      "condition": "R1T1",
+      "persona_id": "p1c_speaker_04",
+      "request_identity": [
+        "p1c_04_historical",
+        "R1T1"
+      ],
+      "sequence_index": 55
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC067",
+      "condition": "H_none",
+      "persona_id": "p1c_speaker_06",
+      "request_identity": [
+        "p1c_06_historical",
+        "H_none"
+      ],
+      "sequence_index": 33
+    },
+    {
+      "R": 0,
+      "T": 1,
+      "anonymous_response_id": "PC068",
+      "condition": "R0T1",
+      "persona_id": "p1c_speaker_06",
+      "request_identity": [
+        "p1c_06_current",
+        "R0T1"
+      ],
+      "sequence_index": 15
+    },
+    {
+      "R": 0,
+      "T": 1,
+      "anonymous_response_id": "PC069",
+      "condition": "R0T1",
+      "persona_id": "p1c_speaker_06",
+      "request_identity": [
+        "p1c_06_historical",
+        "R0T1"
+      ],
+      "sequence_index": 43
+    },
+    {
+      "R": null,
+      "T": null,
+      "anonymous_response_id": "PC070",
+      "condition": "H_none",
+      "persona_id": "p1c_speaker_03",
+      "request_identity": [
+        "p1c_03_historical",
+        "H_none"
+      ],
+      "sequence_index": 19
+    },
+    {
+      "R": 1,
+      "T": 0,
+      "anonymous_response_id": "PC071",
+      "condition": "R1T0",
+      "persona_id": "p1c_speaker_02",
+      "request_identity": [
+        "p1c_02_historical",
+        "R1T0"
+      ],
+      "sequence_index": 68
+    },
+    {
+      "R": 0,
+      "T": 0,
+      "anonymous_response_id": "PC072",
+      "condition": "R0T0",
+      "persona_id": "p1c_speaker_01",
+      "request_identity": [
+        "p1c_01_historical",
+        "R0T0"
+      ],
+      "sequence_index": 56
+    }
+  ],
+  "seed": 715005
+}
