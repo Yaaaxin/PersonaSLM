@@ -1,0 +1,47 @@
+{
+  "version": "related_work_monitor_delta_v5",
+  "parent_path": "docs/validation/p1d/proposed_v1/related_work_matrix_v4.json",
+  "parent_sha256": "94e2da9a4bf77cad8ca00b9826d10557d4a339c64a62074b6c5f40382944f993",
+  "software_checked_utc": "2026-10-14T11:00:57.275467+00:00",
+  "scope": "Focused primary-source recheck of implementation overlap and model provenance. Previous ten-paper methods matrix retained; no claim that all full texts were reread in this turn.",
+  "queries_or_direct_sources": [
+    "https://aclanthology.org/2026.findings-acl.395/",
+    "https://arxiv.org/html/2410.10813v2",
+    "https://arxiv.org/html/2610.11188v1",
+    "https://aclanthology.org/2024.findings-acl.212/",
+    "https://aclanthology.org/2023.acl-long.910/",
+    "https://huggingface.co/Qwen/Qwen3.5-2B/blob/965dcc54bc9c0591873df0e9869c056a54d323d1/README.md",
+    "https://huggingface.co/bartowski/Qwen_Qwen3.5-2B-GGUF/blob/main/README.md"
+  ],
+  "findings": [
+    {
+      "work": "LongMemEval",
+      "status": "ICLR 2025; official venue bound in parent matrix",
+      "inspected_sections": "5.4 and D: event timestamp indexing and extracted query-range filtering",
+      "overlap": "Direct overlap with time filtering; weak time-range extraction by smaller reader is already reported",
+      "distinguishing_test": "Separate explicit query-date extraction from supplied-date entity/value checking; matched compute and persona fidelity, independently annotated text."
+    },
+    {
+      "work": "When Personalization Misleads / FPPS",
+      "status": "Findings of ACL 2026",
+      "canonical_id": "10.18653/v1/2026.findings-acl.395",
+      "scope": "Publication record refreshed; activation steering implementation details inherited from prior full-method matrix",
+      "overlap": "Factuality-preserving persona conditioning already targeted",
+      "distinguishing_test": "Fair steering/admission/verification baselines under CPU and fidelity constraints; no such empirical comparison yet."
+    },
+    {
+      "work": "What to Admit and How to Present",
+      "status": "arXiv preprint 2610.11188v1; peer review not established",
+      "overlap": "Factual/persona consistency admission and presentation controls already studied",
+      "distinguishing_test": "Measure admission errors, task completeness, style fidelity and additional judge/model cost."
+    },
+    {
+      "work": "Chain-of-Verification / RARR",
+      "status": "Findings ACL 2024 / ACL 2023",
+      "overlap": "Verification and revision already published",
+      "distinguishing_test": "Supplied structured claims do not replicate language extraction/search/revision; equal additional computation needed."
+    }
+  ],
+  "novelty_status": "NO_SUPPORTED_ORIGINAL_ALGORITHM",
+  "missing_evidence": "Independent text/boundary annotations, fair complete-system baselines and held-out outcomes."
+}

@@ -1,0 +1,27 @@
+{
+  "failed_artifacts": [
+    "historical_budget_summary_v1.json",
+    "historical_budget_delivery_audit_v1.csv",
+    "failed_attempts/p1d_budget_manifest_hash_join_v1.py"
+  ],
+  "active_artifacts": [
+    "historical_budget_summary_v2.json",
+    "historical_budget_delivery_audit_v2.csv"
+  ],
+  "failure": "Joining historical annotations by non-unique raw-response hash duplicated one P1c rating in the new diagnostic.",
+  "old_P1c_delivery": {
+    "True|Success": 44,
+    "True|Failure": 19,
+    "True|Uncertain": 7,
+    "False|Uncertain": 2
+  },
+  "correct_P1c_delivery": {
+    "True|Success": 43,
+    "True|Failure": 20,
+    "True|Uncertain": 7,
+    "False|Uncertain": 2
+  },
+  "resolution": "Join P1b by request_id and P1c by registered request_key -> anonymous_response_id, then verify raw hashes. Assert one-to-one response IDs.",
+  "historical_sources_modified": false,
+  "official_P1c_analysis_affected": false
+}

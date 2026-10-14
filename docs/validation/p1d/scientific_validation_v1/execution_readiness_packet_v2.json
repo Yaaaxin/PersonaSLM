@@ -1,0 +1,86 @@
+{
+  "version": "p1d_execution_readiness_v2",
+  "status": "NO_GO",
+  "approved_prospective_design": true,
+  "current_candidate_version": "p1d_independent_candidate_bank_v4",
+  "candidate_frozen_for_confirmatory_use": false,
+  "main_planned_base": 1728,
+  "main_planned_instruct": 288,
+  "main_total": 2016,
+  "authorized_inference": 0,
+  "development_budget_diagnostic_proposed": 144,
+  "development_budget_included_in_main": false,
+  "approved_contrasts": 16,
+  "primary_endpoints": [
+    "temporal_Incorrect_label_incidence",
+    "task_success"
+  ],
+  "primary_family": [
+    "E",
+    "V",
+    "ExV"
+  ],
+  "restricted_estimand": "Entity-match and requested-interval package contrasts conditional on fixed templates/model; not pure R/T or full S/F/H.",
+  "source_sha256": {
+    "docs/validation/p1d/independent_candidates_v4/candidate_bank_v1.json": "170e43772e0e45753638228a8c2fc2bf2d5a9f06830374b22887a5929486afbd",
+    "docs/validation/p1d/independent_candidates_v4/candidate_provenance_manifest_v1.json": "4a34f547cfce470340b3a2acc5d5c2ce55498b52d6f3d42bb38c5e4023fa6c7f",
+    "docs/validation/p1d/independent_candidates_v4/base_candidate_prompts_v1.json": "af6836fdbd0f9a7b7d72603bbb6c05b5326c8c023c0f12f9992164c8de00b45e",
+    "docs/validation/p1d/independent_candidates_v4/native_tokenizer_validation_v1.json": "9b35e30cfae7cbd5dc10fdd95110a474c874573cd9aa2113f1821d1d0fb69bf1",
+    "docs/validation/p1d/independent_candidates_v4/metric_applicability_candidate_v1.json": "6a41d5f89abfa08eda5c8f63f29b079cf8d3850119d27049702699b5fd3216a4",
+    "docs/P1d_protocol_addendum_proposed.md": "1ea81f56548d6685fc0eb67bdc291283f0867e73008f8fd7e26eea432bc30319",
+    "docs/P1d_researcher_decision_packet_v1.md": "2474ad11bd37622f8dcb00034f35c4d329a38c7a07704788274f90a349a7b882",
+    "docs/validation/p1d/authorization_v1/researcher_plan_approval_corrected_v1.json": "7131728fded7b37d5121b32cef5ec6256b95b06a942c519370716db4b3850365",
+    "docs/validation/p1d/proposed_v1/analysis_policy_proposal_v1.json": "08503570fdc4a8e6597f54efb217a1b432d1ce05d6e1fb2f833eed7e2687fc92",
+    "docs/validation/p1d/proposed_v1/contrast_specification_v1.json": "f2395c19e7c88b80ca0498335739a730e85cebba4afcdf15484995048e10e4ef",
+    "docs/validation/p1d/scientific_validation_v1/budget_calibration_manifest_candidate_v2.json": "510e46b214dda23dea2a3e5462d44982d25b7a9db022626a7a5a1ba504d5e039",
+    "docs/validation/p1d/scientific_validation_v1/case_scientific_review_v1.csv": "6e732c187287823a4948f067d9f7467a0b1789e3580468fd077ffa9172413e06",
+    "docs/validation/p1d/scientific_validation_v1/control_review_masked_v1.csv": "f690a3d1a3e4be5452a1c5b354fca16068c642735d7e36b910022d296122845e",
+    "docs/validation/p1d/scientific_validation_v1/control_semantic_risks_v1.csv": "b46f1faa6f87650d42698cbecaea40bdd277105330dae88237f082a51742e221",
+    "docs/validation/p1d/scientific_validation_v1/instruct_rendered_candidates_v1.json": "af85ff614979dafc3903f1eeb75efdd83df140ec937562a83d3cdb0b4404d6b3"
+  },
+  "blockers": [
+    {
+      "id": "stimulus_scope",
+      "status": "OPEN_SCIENTIFIC",
+      "problem": "Shared development grammar does not establish independently authored template validation.",
+      "resolution": "Explicit restricted-population amendment or new independently reviewed templates; preserve existing bank.",
+      "human_confirmation_required": true
+    },
+    {
+      "id": "material_controls",
+      "status": "HUMAN_REVIEW_PENDING",
+      "problem": "288 AI validity/control proposals are not researcher or independent-human decisions.",
+      "resolution": "Review case evidence and masked controls; diagnostic interpretation only; resolve material leakage if found.",
+      "human_confirmation_required": true
+    },
+    {
+      "id": "measurement",
+      "status": "INDEPENDENT_REVIEW_PENDING",
+      "problem": "No independent reviewer/pilot evidence; construct and boundary uncertainty.",
+      "resolution": "Obtain actual blinded ratings and adjudication under existing plan; report infeasibility honestly.",
+      "human_confirmation_required": true
+    },
+    {
+      "id": "instruct",
+      "status": "TECHNICALLY_INCOMPLETE",
+      "problem": "No traceable local GGUF or native runtime/template/token/RAM/stop validation.",
+      "resolution": "Select verifiable conversion/source revision and validate exact local artifact; no silent model substitution.",
+      "human_confirmation_required": "Only if substantive approved model configuration changes or new inference is requested."
+    },
+    {
+      "id": "budget",
+      "status": "BOUNDED_DEVELOPMENT_AUTHORIZATION_REQUIRED",
+      "problem": "96-token suitability not established.",
+      "resolution": "Exact 144-request development manifest v2, conditional preflight, then adopted semantic assessment and any required main-budget amendment.",
+      "human_confirmation_required": true
+    },
+    {
+      "id": "full_execution",
+      "status": "NO_GO",
+      "problem": "No complete frozen validated main-study manifest or execution authorization.",
+      "resolution": "One final 2016-request readiness/authorization packet after prerequisites, retaining all targets unless amended.",
+      "human_confirmation_required": true
+    }
+  ],
+  "latest_user_hash_transcription_mismatch": "User repeated ...26eae432...; actual corrected/approved addendum is ...26eea432...; existing explicit correction preserved, no new approval gate."
+}

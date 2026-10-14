@@ -1,0 +1,357 @@
+[
+  {
+    "contrast": "E",
+    "weights": {
+      "E0V0": -0.5,
+      "E0V1": -0.5,
+      "E1V0": 0.5,
+      "E1V1": 0.5,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [
+      "temporal_Incorrect_label_incidence",
+      "task_success"
+    ],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "V",
+    "weights": {
+      "E0V0": -0.5,
+      "E0V1": 0.5,
+      "E1V0": -0.5,
+      "E1V1": 0.5,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [
+      "temporal_Incorrect_label_incidence",
+      "task_success"
+    ],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "ExV",
+    "weights": {
+      "E0V0": 1,
+      "E0V1": -1,
+      "E1V0": -1,
+      "E1V1": 1,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [
+      "temporal_Incorrect_label_incidence",
+      "task_success"
+    ],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "E1V0-E0V0",
+    "weights": {
+      "E0V0": -1,
+      "E0V1": 0,
+      "E1V0": 1,
+      "E1V1": 0,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "E1V1-E0V1",
+    "weights": {
+      "E0V0": 0,
+      "E0V1": -1,
+      "E1V0": 0,
+      "E1V1": 1,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "E0V1-E0V0",
+    "weights": {
+      "E0V0": -1,
+      "E0V1": 1,
+      "E1V0": 0,
+      "E1V1": 0,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "E1V1-E1V0",
+    "weights": {
+      "E0V0": 0,
+      "E0V1": 0,
+      "E1V0": -1,
+      "E1V1": 1,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "E0V0-D_procedural",
+    "weights": {
+      "E0V0": 1,
+      "E0V1": 0,
+      "E1V0": 0,
+      "E1V1": 0,
+      "D_procedural": -1,
+      "H_none": 0
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient.",
+      "Procedural narrative has verification/style/topic/chronology cues; diagnostic comparison only."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "E0V1-D_procedural",
+    "weights": {
+      "E0V0": 0,
+      "E0V1": 1,
+      "E1V0": 0,
+      "E1V1": 0,
+      "D_procedural": -1,
+      "H_none": 0
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient.",
+      "Procedural narrative has verification/style/topic/chronology cues; diagnostic comparison only."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "E1V0-D_procedural",
+    "weights": {
+      "E0V0": 0,
+      "E0V1": 0,
+      "E1V0": 1,
+      "E1V1": 0,
+      "D_procedural": -1,
+      "H_none": 0
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient.",
+      "Procedural narrative has verification/style/topic/chronology cues; diagnostic comparison only."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "E1V1-D_procedural",
+    "weights": {
+      "E0V0": 0,
+      "E0V1": 0,
+      "E1V0": 0,
+      "E1V1": 1,
+      "D_procedural": -1,
+      "H_none": 0
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient.",
+      "Procedural narrative has verification/style/topic/chronology cues; diagnostic comparison only."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "E0V0-H_none",
+    "weights": {
+      "E0V0": 1,
+      "E0V1": 0,
+      "E1V0": 0,
+      "E1V1": 0,
+      "D_procedural": 0,
+      "H_none": -1
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient.",
+      "No-history prompt is shorter; length and archive-content effects are bundled."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "E0V1-H_none",
+    "weights": {
+      "E0V0": 0,
+      "E0V1": 1,
+      "E1V0": 0,
+      "E1V1": 0,
+      "D_procedural": 0,
+      "H_none": -1
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient.",
+      "No-history prompt is shorter; length and archive-content effects are bundled."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "E1V0-H_none",
+    "weights": {
+      "E0V0": 0,
+      "E0V1": 0,
+      "E1V0": 1,
+      "E1V1": 0,
+      "D_procedural": 0,
+      "H_none": -1
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient.",
+      "No-history prompt is shorter; length and archive-content effects are bundled."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "E1V1-H_none",
+    "weights": {
+      "E0V0": 0,
+      "E0V1": 0,
+      "E1V0": 0,
+      "E1V1": 1,
+      "D_procedural": 0,
+      "H_none": -1
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient.",
+      "No-history prompt is shorter; length and archive-content effects are bundled."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  },
+  {
+    "contrast": "D_procedural-H_none",
+    "weights": {
+      "E0V0": 0,
+      "E0V1": 0,
+      "E1V0": 0,
+      "E1V1": 0,
+      "D_procedural": 1,
+      "H_none": -1
+    },
+    "eligible_cases": 288,
+    "unit": "paired case, two cases per speaker",
+    "identified_intervention": "Weighted contrast of the specified E(entity-match)/V(query-interval-match) source-selection packages or listed baseline packages.",
+    "known_confounds": [
+      "Names, assignment values and/or validity intervals move with source selection; identical trusted ledger remains sufficient.",
+      "Procedural narrative has verification/style/topic/chronology cues; diagnostic comparison only.",
+      "No-history prompt is shorter; length and archive-content effects are bundled."
+    ],
+    "supported": "Finite-template synthetic task package effect conditional on model/template/budget and registered measurement.",
+    "unsupported": "Pure topical relevance, pure temporal cognition, internal mechanism, complete S/F/H or full-cohort Base/Instruct interaction.",
+    "primary_for": [],
+    "same_original_weights": true
+  }
+]

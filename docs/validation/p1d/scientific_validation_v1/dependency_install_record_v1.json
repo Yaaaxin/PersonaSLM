@@ -1,0 +1,11 @@
+{
+  "purpose": "Official template-only rendering; no weights or inference",
+  "first_attempt": "Sandbox socket access failed with WinError 10013; no usable cached Jinja2 wheel.",
+  "resolution": "Approved escalation of the same bounded pip install into project-local results directory.",
+  "installed": {
+    "Jinja2": "3.1.6",
+    "MarkupSafe": "3.0.4"
+  },
+  "project_venv_modified": false,
+  "reproduce": "Install exact template_runtime_requirements_v1.txt into results/p1d_scientific_validation/v1/template_runtime, then run tools/p1d_instruct_template_check.py into a new versioned output directory."
+}

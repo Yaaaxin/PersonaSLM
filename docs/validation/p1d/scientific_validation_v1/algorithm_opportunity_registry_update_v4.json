@@ -1,0 +1,78 @@
+{
+  "parent_path": "docs/validation/p1d/development_readiness_v1/algorithm_opportunity_registry_update_v3.json",
+  "parent_sha256": "4f94d0ef7a3ac735b98f1859153f042fc7f912fab41e36da03f586bff7e6ab1e",
+  "rows": [
+    {
+      "candidate": "temporal_entity_verification",
+      "observed_failure_evidence": "Historical errors/ambiguity; checker date-scope fixture defect",
+      "published_or_simple_baselines": "Requested-date and entity joins; LongMemEval temporal retrieval",
+      "unresolved_gap": "Natural-language date/entity attribution unresolved; not a demonstrated failure of prior methods",
+      "potential_improvement_and_validation": "Independently label free-text claims, compare extraction-aware checks and abstention at equal cost",
+      "classification": "ENGINEERING_ADAPTATION",
+      "new_inference": false,
+      "CPU_cost": "End-to-end unmeasured; offline checker timings exclude extraction/model calls.",
+      "persona_fidelity": "Must be measured separately; deleting all persona/history is a baseline, not sufficient success.",
+      "publication_value": "Measurement/empirical contribution possible; no independently validated algorithmic originality."
+    },
+    {
+      "candidate": "history_admission",
+      "observed_failure_evidence": "Package manipulations supply competing source values; no new outcomes",
+      "published_or_simple_baselines": "All/remove history, lexical filtering, FC/PS admission",
+      "unresolved_gap": "Fidelity/reliability tradeoff under CPU constraints unmeasured",
+      "potential_improvement_and_validation": "Separate admission correctness from downstream quality and budget; no candidate outputs for tuning",
+      "classification": "INCREMENTAL_CANDIDATE_UNVALIDATED",
+      "new_inference": false,
+      "CPU_cost": "End-to-end unmeasured; offline checker timings exclude extraction/model calls.",
+      "persona_fidelity": "Must be measured separately; deleting all persona/history is a baseline, not sufficient success.",
+      "publication_value": "Measurement/empirical contribution possible; no independently validated algorithmic originality."
+    },
+    {
+      "candidate": "persona_evidence_separation",
+      "observed_failure_evidence": "P1b/P1c patterns do not identify unique persona interference",
+      "published_or_simple_baselines": "FPPS, evidence-priority prompt, AO-DA paths",
+      "unresolved_gap": "Strong published overlap; local activation baseline unavailable",
+      "potential_improvement_and_validation": "Traceable same-family comparisons and persona fidelity outcomes before algorithm claim",
+      "classification": "POTENTIAL_GAP_UNVERIFIED",
+      "new_inference": false,
+      "CPU_cost": "End-to-end unmeasured; offline checker timings exclude extraction/model calls.",
+      "persona_fidelity": "Must be measured separately; deleting all persona/history is a baseline, not sufficient success.",
+      "publication_value": "Measurement/empirical contribution possible; no independently validated algorithmic originality."
+    },
+    {
+      "candidate": "component_verification",
+      "observed_failure_evidence": "P1b correct partial answers; P1c factual/task coincidence",
+      "published_or_simple_baselines": "Structured component checks, CoVe, RARR",
+      "unresolved_gap": "Free-text extraction and task-delivery adjudication remain unvalidated",
+      "potential_improvement_and_validation": "Separate evidence-input contracts implemented; eight authored fixtures, then independent human-labeled text",
+      "classification": "ENGINEERING_ADAPTATION",
+      "new_inference": false,
+      "CPU_cost": "End-to-end unmeasured; offline checker timings exclude extraction/model calls.",
+      "persona_fidelity": "Must be measured separately; deleting all persona/history is a baseline, not sufficient success.",
+      "publication_value": "Measurement/empirical contribution possible; no independently validated algorithmic originality."
+    },
+    {
+      "candidate": "response_boundary",
+      "observed_failure_evidence": "Eight P1c ambiguities; both EOS outputs ambiguous",
+      "published_or_simple_baselines": "EOS, literal stops, role/heading/fence parsers, official template",
+      "unresolved_gap": "No independent span gold; parser agreement is not accuracy",
+      "potential_improvement_and_validation": "Existing masked 72-item review; compare accepted spans and answer loss, then independent new outputs",
+      "classification": "KNOWN_ENGINEERING_APPROACH",
+      "new_inference": false,
+      "CPU_cost": "End-to-end unmeasured; offline checker timings exclude extraction/model calls.",
+      "persona_fidelity": "Must be measured separately; deleting all persona/history is a baseline, not sufficient success.",
+      "publication_value": "Measurement/empirical contribution possible; no independently validated algorithmic originality."
+    },
+    {
+      "candidate": "interaction_aware_conditioning",
+      "observed_failure_evidence": "P1c package estimates uncertain and extraction-sensitive",
+      "published_or_simple_baselines": "Fixed policies plus full factorial comparisons",
+      "unresolved_gap": "No replicated interaction supporting adaptation",
+      "potential_improvement_and_validation": "Defer routing prototype; retain null/adverse results and require independent replication",
+      "classification": "DEFERRED_INSUFFICIENT_EVIDENCE",
+      "new_inference": false,
+      "CPU_cost": "End-to-end unmeasured; offline checker timings exclude extraction/model calls.",
+      "persona_fidelity": "Must be measured separately; deleting all persona/history is a baseline, not sufficient success.",
+      "publication_value": "Measurement/empirical contribution possible; no independently validated algorithmic originality."
+    }
+  ]
+}

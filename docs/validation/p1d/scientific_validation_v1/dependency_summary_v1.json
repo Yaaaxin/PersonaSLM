@@ -1,0 +1,60 @@
+{
+  "cases": 288,
+  "speakers": 144,
+  "unique_question_strings": 247,
+  "unique_full_evidence": 288,
+  "abstract_question_grammars": 16,
+  "question_grammar_frequency": {
+    "Which ASSIGNMENT was assigned to PERSON on DATE?": 18,
+    "For PERSON on DATE, report the assigned ASSIGNMENT together with the WINDOW.": 24,
+    "Use PERSON's assigned ASSIGNMENT for DATE to find its linked MIDDLE and then DESTINATION. Report both.": 24,
+    "For that person on DATE, report the assigned ASSIGNMENT together with the WINDOW.": 24,
+    "Give both the ASSIGNMENT and WINDOW assigned to PERSON on DATE.": 18,
+    "For DATE, identify the ASSIGNMENT assigned to PERSON.": 24,
+    "On DATE, follow PERSON's ASSIGNMENT to its MIDDLE, then to its DESTINATION. Give the MIDDLE and DESTINATION.": 18,
+    "Give both the ASSIGNMENT and WINDOW assigned to that person on DATE.": 18,
+    "What were the ASSIGNMENT and WINDOW for PERSON on DATE? Include both details.": 18,
+    "Which MIDDLE and DESTINATION follow from PERSON's ASSIGNMENT on DATE? Use both ledger links.": 18,
+    "What were the ASSIGNMENT and WINDOW for that person on DATE? Include both details.": 18,
+    "Give PERSON's assigned ASSIGNMENT for DATE.": 18,
+    "On DATE, which ASSIGNMENT and WINDOW applied to PERSON?": 12,
+    "For PERSON on DATE, give the MIDDLE linked to the assigned ASSIGNMENT and the DESTINATION linked to that MIDDLE.": 12,
+    "On DATE, which ASSIGNMENT and WINDOW applied to that person?": 12,
+    "On DATE, what was PERSON's assigned ASSIGNMENT?": 12
+  },
+  "template_target_cross_tab": [
+    {
+      "template_block": 0,
+      "cases": 72,
+      "target_is_persona": 48,
+      "current": 36,
+      "style_brief": 36
+    },
+    {
+      "template_block": 1,
+      "cases": 96,
+      "target_is_persona": 48,
+      "current": 48,
+      "style_brief": 48
+    },
+    {
+      "template_block": 2,
+      "cases": 72,
+      "target_is_persona": 24,
+      "current": 36,
+      "style_brief": 36
+    },
+    {
+      "template_block": 3,
+      "cases": 48,
+      "target_is_persona": 24,
+      "current": 24,
+      "style_brief": 24
+    }
+  ],
+  "same_domain_speaker_pairs": 40,
+  "prior_exact_questions": 0,
+  "prior_name_reuse": 0,
+  "reference_value_reuse_within_bank": 58,
+  "warning": "Fresh IDs/values do not make 288 independent linguistic templates. Same service-ledger construction as development; publication scope must be conditional unless independently authored task families are added under an amendment."
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "fixture": "correct_complete",
+    "provenance": "AUTHORED_CONTRACT_FIXTURE_NOT_HUMAN_OR_MODEL_DATA",
+    "factual": {
+      "label": "Correct",
+      "state": "ASSESSABLE"
+    },
+    "temporal": {
+      "label": "Correct",
+      "state": "ASSESSABLE"
+    },
+    "task": "Success",
+    "delivered_answer": true,
+    "supported_components": [
+      true,
+      true
+    ],
+    "independent_accuracy": null
+  },
+  {
+    "fixture": "correct_partial",
+    "provenance": "AUTHORED_CONTRACT_FIXTURE_NOT_HUMAN_OR_MODEL_DATA",
+    "factual": {
+      "label": "Correct",
+      "state": "ASSESSABLE"
+    },
+    "temporal": {
+      "label": "Correct",
+      "state": "ASSESSABLE"
+    },
+    "task": "Failure",
+    "delivered_answer": true,
+    "supported_components": [
+      true,
+      false
+    ],
+    "independent_accuracy": null
+  },
+  {
+    "fixture": "incorrect_complete",
+    "provenance": "AUTHORED_CONTRACT_FIXTURE_NOT_HUMAN_OR_MODEL_DATA",
+    "factual": {
+      "label": "Incorrect",
+      "state": "ASSESSABLE"
+    },
+    "temporal": {
+      "label": "Incorrect",
+      "state": "ASSESSABLE"
+    },
+    "task": "Failure",
+    "delivered_answer": true,
+    "supported_components": [
+      false,
+      false
+    ],
+    "independent_accuracy": null
+  },
+  {
+    "fixture": "wrong_entity_unknown_time",
+    "provenance": "AUTHORED_CONTRACT_FIXTURE_NOT_HUMAN_OR_MODEL_DATA",
+    "factual": {
+      "label": "Incorrect",
+      "state": "ASSESSABLE"
+    },
+    "temporal": {
+      "label": "Unverifiable",
+      "state": "INTERPRETATION_UNCERTAIN"
+    },
+    "task": "Failure",
+    "delivered_answer": true,
+    "supported_components": [
+      false,
+      false
+    ],
+    "independent_accuracy": null
+  },
+  {
+    "fixture": "true_historical_not_requested",
+    "provenance": "AUTHORED_CONTRACT_FIXTURE_NOT_HUMAN_OR_MODEL_DATA",
+    "factual": {
+      "label": "Correct",
+      "state": "ASSESSABLE"
+    },
+    "temporal": {
+      "label": "Unverifiable",
+      "state": "INTERPRETATION_UNCERTAIN"
+    },
+    "task": "Failure",
+    "delivered_answer": true,
+    "supported_components": [
+      false,
+      false
+    ],
+    "independent_accuracy": null
+  },
+  {
+    "fixture": "unsupported_complete",
+    "provenance": "AUTHORED_CONTRACT_FIXTURE_NOT_HUMAN_OR_MODEL_DATA",
+    "factual": {
+      "label": "Unverifiable",
+      "state": "EVIDENCE_UNVERIFIABLE"
+    },
+    "temporal": {
+      "label": "Unverifiable",
+      "state": "INTERPRETATION_UNCERTAIN"
+    },
+    "task": "Uncertain",
+    "delivered_answer": true,
+    "supported_components": [
+      null,
+      null
+    ],
+    "independent_accuracy": null
+  },
+  {
+    "fixture": "correct_claims_no_answer",
+    "provenance": "AUTHORED_CONTRACT_FIXTURE_NOT_HUMAN_OR_MODEL_DATA",
+    "factual": {
+      "label": "Correct",
+      "state": "ASSESSABLE"
+    },
+    "temporal": {
+      "label": "Correct",
+      "state": "ASSESSABLE"
+    },
+    "task": "Failure",
+    "delivered_answer": false,
+    "supported_components": [
+      true,
+      true
+    ],
+    "independent_accuracy": null
+  },
+  {
+    "fixture": "boundary_unresolved",
+    "provenance": "AUTHORED_CONTRACT_FIXTURE_NOT_HUMAN_OR_MODEL_DATA",
+    "factual": {
+      "label": "Unverifiable",
+      "state": "BOUNDARY_UNRESOLVED"
+    },
+    "temporal": {
+      "label": "Unverifiable",
+      "state": "BOUNDARY_UNRESOLVED"
+    },
+    "task": "Uncertain",
+    "delivered_answer": null,
+    "supported_components": [
+      null,
+      null
+    ],
+    "independent_accuracy": null
+  }
+]

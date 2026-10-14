@@ -1,0 +1,29 @@
+{
+  "version": "p1d_scientific_census_v1",
+  "case_decisions": {
+    "VALID_WITH_LIMITATIONS": 288
+  },
+  "control_decisions": {
+    "LENGTH_MATCHED_DIAGNOSTIC_CONTROL": 288
+  },
+  "history_records": 1152,
+  "token_prompts": 1728,
+  "token_range": [
+    1946,
+    2085
+  ],
+  "active_and_control_matches": 288,
+  "direct_full_answer_positive_controls": 72,
+  "partial_answer_positive_controls": 144,
+  "chain_entry_positive_controls": 72,
+  "human_confirmations": 0,
+  "new_inference": 0,
+  "candidate_frozen": false,
+  "source_sha256": {
+    "docs/validation/p1d/independent_candidates_v4/candidate_bank_v1.json": "170e43772e0e45753638228a8c2fc2bf2d5a9f06830374b22887a5929486afbd",
+    "docs/validation/p1d/independent_candidates_v4/base_candidate_prompts_v1.json": "af6836fdbd0f9a7b7d72603bbb6c05b5326c8c023c0f12f9992164c8de00b45e",
+    "docs/validation/p1d/independent_candidates_v4/native_tokenizer_validation_v1.json": "9b35e30cfae7cbd5dc10fdd95110a474c874573cd9aa2113f1821d1d0fb69bf1",
+    "docs/validation/p1d/independent_candidates_v4/metric_applicability_candidate_v1.json": "6a41d5f89abfa08eda5c8f63f29b079cf8d3850119d27049702699b5fd3216a4"
+  },
+  "review_method": "AI-assisted inspection of all finite question/control grammars plus exhaustive case-specific ledger, text, reference and routing checks. Not 288 independent human reviews."
+}

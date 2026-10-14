@@ -1,0 +1,57 @@
+{
+  "counts": {
+    "p1b": {
+      "n": 192,
+      "termination": {
+        "limit": 190,
+        "eos": 2
+      },
+      "structural": {
+        "CROSS_TURN": 186,
+        "AMBIGUOUS": 1,
+        "TRUNCATED": 5
+      },
+      "budget_and_completeness": {
+        "True|YES": 141,
+        "True|PARTIAL": 28,
+        "True|NO": 21,
+        "False|YES": 2
+      },
+      "budget_and_delivery": {
+        "True|WRONG_ANSWER_DELIVERED": 33,
+        "True|FULL_ANSWER": 108,
+        "True|PARTIAL_ANSWER": 27,
+        "True|NO_FINAL_ANSWER": 21,
+        "False|FULL_ANSWER": 2,
+        "True|PARTIAL_WITH_FALSE_CLAIM": 1
+      }
+    },
+    "p1c": {
+      "n": 72,
+      "termination": {
+        "limit": 70,
+        "eos": 2
+      },
+      "structural": {
+        "CROSS_TURN": 64,
+        "AMBIGUOUS": 8
+      },
+      "budget_and_completeness": {
+        "True|YES": 64,
+        "True|UNCERTAIN": 6,
+        "False|UNCERTAIN": 2
+      },
+      "budget_and_delivery": {
+        "True|Success": 43,
+        "True|Failure": 20,
+        "True|Uncertain": 7,
+        "False|Uncertain": 2
+      }
+    }
+  },
+  "new_ratings": 0,
+  "new_generations": 0,
+  "raw_result_events_verified": 264,
+  "supersedes": "historical_budget_summary_v1.json",
+  "correction": "Request identity join replaces non-unique raw-text-hash join; v1 preserved as failed diagnostic, not historical science."
+}

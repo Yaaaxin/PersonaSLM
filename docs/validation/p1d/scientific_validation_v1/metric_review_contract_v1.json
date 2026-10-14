@@ -1,0 +1,39 @@
+{
+  "policy_source": "docs/validation/p1d/proposed_v1/analysis_policy_proposal_v1.json",
+  "changes_to_approved_rubric": false,
+  "independence_claim": "Separate inputs/code paths; no claim of independently produced human ratings or proven construct validity.",
+  "review_stages": [
+    "Masked relevance pass: question responsiveness/required scope, quote and rubric anchor",
+    "Separate masked coherence pass: dialogue continuity/referent resolution/organization, quote and anchor",
+    "Claim support pass: subject/predicate/value/asserted date/source IDs/uncertainty",
+    "Temporal pass: requested date and interval evidence; wrong entity alone does not prove a temporal error",
+    "Task/component pass: delivered requested supported components and material false claims, no copy of factual score",
+    "Persona fidelity pass: narrow frozen style target, not task correctness or biography imitation",
+    "Boundary pass: unchanged full output after initial semantic assessment; multiple defensible spans allowed"
+  ],
+  "blank_human_fields": [
+    "reviewer_id",
+    "actual_review_time",
+    "decision",
+    "evidence_quotes",
+    "reason",
+    "alternative_score",
+    "uncertainty",
+    "adjudication"
+  ],
+  "required_separate_states": [
+    "EVIDENCE_UNVERIFIABLE",
+    "BOUNDARY_UNRESOLVED",
+    "INTERPRETATION_UNCERTAIN",
+    "STRUCTURALLY_UNSCORABLE",
+    "MISSING",
+    "NOT_APPLICABLE"
+  ],
+  "do_not_impute": [
+    "No reply boundary -> unknown, not false",
+    "No annotation -> Missing, not Unverifiable",
+    "CROSS_TURN/TRUNCATED alone never sets factual category",
+    "Zero variance retained and reported"
+  ],
+  "readiness": "Independent reviewer and rubric pilot pending. Existing P1c masked 72-item boundary packet retained; no fictional second reviewer."
+}

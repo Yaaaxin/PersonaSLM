@@ -1,0 +1,173 @@
+{
+  "groups": [
+    {
+      "question": "For that person on 2054-11-15, report the assigned station together with the equipment window.",
+      "cases": [
+        "p1d_candidate_s004_c1",
+        "p1d_candidate_s100_c1",
+        "p1d_candidate_s112_c1"
+      ]
+    },
+    {
+      "question": "For that person on 2054-05-15, report the assigned bin together with the tool window.",
+      "cases": [
+        "p1d_candidate_s005_c1",
+        "p1d_candidate_s017_c1",
+        "p1d_candidate_s042_c0",
+        "p1d_candidate_s046_c0",
+        "p1d_candidate_s142_c0"
+      ]
+    },
+    {
+      "question": "For that person on 2054-11-15, report the assigned bin together with the tool window.",
+      "cases": [
+        "p1d_candidate_s010_c1",
+        "p1d_candidate_s047_c0",
+        "p1d_candidate_s106_c1",
+        "p1d_candidate_s143_c0"
+      ]
+    },
+    {
+      "question": "For that person on 2054-05-15, report the assigned station together with the equipment window.",
+      "cases": [
+        "p1d_candidate_s011_c1",
+        "p1d_candidate_s044_c0",
+        "p1d_candidate_s101_c1",
+        "p1d_candidate_s113_c1",
+        "p1d_candidate_s138_c0"
+      ]
+    },
+    {
+      "question": "For that person on 2054-11-15, report the assigned cabinet together with the retrieval window.",
+      "cases": [
+        "p1d_candidate_s016_c1",
+        "p1d_candidate_s139_c0"
+      ]
+    },
+    {
+      "question": "Give both the bin and tool window assigned to that person on 2054-05-15.",
+      "cases": [
+        "p1d_candidate_s018_c0",
+        "p1d_candidate_s022_c0"
+      ]
+    },
+    {
+      "question": "Give both the station and equipment window assigned to that person on 2054-11-15.",
+      "cases": [
+        "p1d_candidate_s019_c0",
+        "p1d_candidate_s088_c1"
+      ]
+    },
+    {
+      "question": "Give both the station and equipment window assigned to that person on 2054-05-15.",
+      "cases": [
+        "p1d_candidate_s020_c0",
+        "p1d_candidate_s077_c1"
+      ]
+    },
+    {
+      "question": "Give both the cabinet and retrieval window assigned to that person on 2054-11-15.",
+      "cases": [
+        "p1d_candidate_s021_c0",
+        "p1d_candidate_s023_c0",
+        "p1d_candidate_s082_c1",
+        "p1d_candidate_s117_c0"
+      ]
+    },
+    {
+      "question": "What were the rack and instrument window for that person on 2054-11-15? Include both details.",
+      "cases": [
+        "p1d_candidate_s028_c1",
+        "p1d_candidate_s034_c1",
+        "p1d_candidate_s136_c1"
+      ]
+    },
+    {
+      "question": "What were the rack and instrument window for that person on 2054-05-15? Include both details.",
+      "cases": [
+        "p1d_candidate_s029_c1",
+        "p1d_candidate_s041_c1",
+        "p1d_candidate_s131_c1"
+      ]
+    },
+    {
+      "question": "What were the station and equipment window for that person on 2054-11-15? Include both details.",
+      "cases": [
+        "p1d_candidate_s040_c1",
+        "p1d_candidate_s069_c0",
+        "p1d_candidate_s071_c0"
+      ]
+    },
+    {
+      "question": "For that person on 2054-11-15, report the assigned rack together with the instrument window.",
+      "cases": [
+        "p1d_candidate_s043_c0",
+        "p1d_candidate_s045_c0",
+        "p1d_candidate_s141_c0"
+      ]
+    },
+    {
+      "question": "On 2054-11-15, which cabinet and retrieval window applied to that person?",
+      "cases": [
+        "p1d_candidate_s052_c1",
+        "p1d_candidate_s058_c1",
+        "p1d_candidate_s091_c0"
+      ]
+    },
+    {
+      "question": "On 2054-05-15, which rack and instrument window applied to that person?",
+      "cases": [
+        "p1d_candidate_s053_c1",
+        "p1d_candidate_s090_c0"
+      ]
+    },
+    {
+      "question": "On 2054-05-15, which cabinet and retrieval window applied to that person?",
+      "cases": [
+        "p1d_candidate_s059_c1",
+        "p1d_candidate_s094_c0"
+      ]
+    },
+    {
+      "question": "What were the cabinet and retrieval window for that person on 2054-05-15? Include both details.",
+      "cases": [
+        "p1d_candidate_s066_c0",
+        "p1d_candidate_s070_c0",
+        "p1d_candidate_s125_c1",
+        "p1d_candidate_s137_c1"
+      ]
+    },
+    {
+      "question": "What were the bin and tool window for that person on 2054-11-15? Include both details.",
+      "cases": [
+        "p1d_candidate_s067_c0",
+        "p1d_candidate_s124_c1",
+        "p1d_candidate_s130_c1"
+      ]
+    },
+    {
+      "question": "Give both the rack and instrument window assigned to that person on 2054-11-15.",
+      "cases": [
+        "p1d_candidate_s076_c1",
+        "p1d_candidate_s115_c0"
+      ]
+    },
+    {
+      "question": "Give both the rack and instrument window assigned to that person on 2054-05-15.",
+      "cases": [
+        "p1d_candidate_s083_c1",
+        "p1d_candidate_s089_c1",
+        "p1d_candidate_s116_c0"
+      ]
+    },
+    {
+      "question": "Give both the cabinet and retrieval window assigned to that person on 2054-05-15.",
+      "cases": [
+        "p1d_candidate_s114_c0",
+        "p1d_candidate_s118_c0"
+      ]
+    }
+  ],
+  "interpretation": "Same literal follow-up can refer to different context entities/ledgers. These are not duplicate whole cases; they expose template reuse.",
+  "whole_case_identity": "Question + fixed context + evidence + required components"
+}

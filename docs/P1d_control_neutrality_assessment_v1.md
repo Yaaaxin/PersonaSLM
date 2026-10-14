@@ -1,0 +1,11 @@
+# P1d control validity — v1
+
+Maintainer: Yaxin ZHENG. All decisions below are AI-assisted proposals. Human adoption is pending.
+
+All 288 controls match all four active histories in full-prompt native token length. All are classified **LENGTH_MATCHED_DIAGNOSTIC_CONTROL**; strict-neutral, invalid and rejected counts are zero. No literal required answer value or reference-changing contradiction was detected. This is not evidence of information equivalence: E1V1 deliberately provides answer support that the control omits.
+
+The control uses the same archive section, quotation attribution and speaker, but a multi-sentence first-person narrative replaces a single dated key/value statement. Reading/checking a record can prime evidence verification; “no further notes/no other entries” may prime restraint or omission. Past tense and sequence words introduce chronology without validity dates. Folder/shelf/record language is particularly close to the archive domain (72 cases), and overlaps the common ledger activity in every domain. Additional fictional actions and changes of discourse style prevent a strict-neutrality claim. Naturalness and behavioral consequences remain unmeasured.
+
+The [288 case-specific risk assessments](validation/p1d/scientific_validation_v1/control_semantic_risks_v1.csv) and [masked review form](validation/p1d/scientific_validation_v1/control_review_masked_v1.csv) are complementary. Distribute the latter alone for a first pass; it excludes condition IDs and AI recommendations. It includes full evidence, question and required answer, with blank leakage, priming, naturalness, decision and explanation fields. Seed 716701 determines the recorded order. The separate mapping is file-separated, not encrypted. All items are known control candidates, and their content reveals their procedural nature; perfect blinding is not claimed.
+
+Reviewers should decide whether each text preserves the answer and whether its diagnostic use is acceptable. A material contradiction or answer leak requires revision. Acceptance authorizes only the stated diagnostic interpretation. Do not count this material review as independent semantic response annotation. History versus H_none additionally changes context length; history versus D_procedural changes content/information/discourse despite equal length.

@@ -1,0 +1,2234 @@
+[
+  {
+    "case_id": "p1d_candidate_s004_c1",
+    "question": "For that person on 2054-11-15, report the assigned station together with the equipment window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Dara Jarrow",
+        "component_values": [
+          "Station 245",
+          "11:00-12:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s004_c1_f12",
+          "p1d_candidate_s004_c1_f13"
+        ]
+      },
+      {
+        "entity": "Nadia Jarrow",
+        "component_values": [
+          "Station 274",
+          "09:15-10:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s004_c1_f28",
+          "p1d_candidate_s004_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s005_c1",
+    "question": "For that person on 2054-05-15, report the assigned bin together with the tool window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Galen Calder",
+        "component_values": [
+          "Bin 188",
+          "15:30-16:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s005_c1_f04",
+          "p1d_candidate_s005_c1_f05"
+        ]
+      },
+      {
+        "entity": "Cora Calder",
+        "component_values": [
+          "Bin 244",
+          "10:00-11:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s005_c1_f20",
+          "p1d_candidate_s005_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s010_c1",
+    "question": "For that person on 2054-11-15, report the assigned bin together with the tool window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Marek Keaton",
+        "component_values": [
+          "Bin 176",
+          "10:30-11:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s010_c1_f12",
+          "p1d_candidate_s010_c1_f13"
+        ]
+      },
+      {
+        "entity": "Liora Keaton",
+        "component_values": [
+          "Bin 251",
+          "11:15-12:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s010_c1_f28",
+          "p1d_candidate_s010_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s011_c1",
+    "question": "For that person on 2054-05-15, report the assigned station together with the equipment window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Ivo Keaton",
+        "component_values": [
+          "Station 151",
+          "10:00-11:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s011_c1_f04",
+          "p1d_candidate_s011_c1_f05"
+        ]
+      },
+      {
+        "entity": "Mabel Keaton",
+        "component_values": [
+          "Station 192",
+          "09:15-10:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s011_c1_f20",
+          "p1d_candidate_s011_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s016_c1",
+    "question": "For that person on 2054-11-15, report the assigned cabinet together with the retrieval window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Jori Hollis",
+        "component_values": [
+          "Cabinet 194",
+          "13:00-14:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s016_c1_f12",
+          "p1d_candidate_s016_c1_f13"
+        ]
+      },
+      {
+        "entity": "Marlo Hollis",
+        "component_values": [
+          "Cabinet 178",
+          "09:15-10:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s016_c1_f28",
+          "p1d_candidate_s016_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s017_c1",
+    "question": "For that person on 2054-05-15, report the assigned bin together with the tool window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Faye Jarrow",
+        "component_values": [
+          "Bin 192",
+          "13:15-14:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s017_c1_f04",
+          "p1d_candidate_s017_c1_f05"
+        ]
+      },
+      {
+        "entity": "Tarin Jarrow",
+        "component_values": [
+          "Bin 241",
+          "14:30-15:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s017_c1_f20",
+          "p1d_candidate_s017_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s018_c0",
+    "question": "Give both the bin and tool window assigned to that person on 2054-05-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Hana Marden",
+        "component_values": [
+          "Bin 156",
+          "08:30-09:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s018_c0_f04",
+          "p1d_candidate_s018_c0_f05"
+        ]
+      },
+      {
+        "entity": "Soren Marden",
+        "component_values": [
+          "Bin 169",
+          "13:00-14:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s018_c0_f20",
+          "p1d_candidate_s018_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s019_c0",
+    "question": "Give both the station and equipment window assigned to that person on 2054-11-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Jori Marden",
+        "component_values": [
+          "Station 163",
+          "15:30-16:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s019_c0_f12",
+          "p1d_candidate_s019_c0_f13"
+        ]
+      },
+      {
+        "entity": "Marlo Marden",
+        "component_values": [
+          "Station 249",
+          "12:15-13:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s019_c0_f28",
+          "p1d_candidate_s019_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s020_c0",
+    "question": "Give both the station and equipment window assigned to that person on 2054-05-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Faye Norcross",
+        "component_values": [
+          "Station 160",
+          "15:00-16:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s020_c0_f04",
+          "p1d_candidate_s020_c0_f05"
+        ]
+      },
+      {
+        "entity": "Tarin Norcross",
+        "component_values": [
+          "Station 158",
+          "10:00-11:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s020_c0_f20",
+          "p1d_candidate_s020_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s021_c0",
+    "question": "Give both the cabinet and retrieval window assigned to that person on 2054-11-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Lena Estwick",
+        "component_values": [
+          "Cabinet 169",
+          "08:00-09:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s021_c0_f12",
+          "p1d_candidate_s021_c0_f13"
+        ]
+      },
+      {
+        "entity": "Noel Estwick",
+        "component_values": [
+          "Cabinet 267",
+          "12:15-13:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s021_c0_f28",
+          "p1d_candidate_s021_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s022_c0",
+    "question": "Give both the bin and tool window assigned to that person on 2054-05-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Dara Farnell",
+        "component_values": [
+          "Bin 193",
+          "11:00-12:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s022_c0_f04",
+          "p1d_candidate_s022_c0_f05"
+        ]
+      },
+      {
+        "entity": "Nadia Farnell",
+        "component_values": [
+          "Bin 239",
+          "16:30-17:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s022_c0_f20",
+          "p1d_candidate_s022_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s023_c0",
+    "question": "Give both the cabinet and retrieval window assigned to that person on 2054-11-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Ivo Norcross",
+        "component_values": [
+          "Cabinet 170",
+          "12:15-13:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s023_c0_f12",
+          "p1d_candidate_s023_c0_f13"
+        ]
+      },
+      {
+        "entity": "Mabel Norcross",
+        "component_values": [
+          "Cabinet 192",
+          "16:00-17:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s023_c0_f28",
+          "p1d_candidate_s023_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s028_c1",
+    "question": "What were the rack and instrument window for that person on 2054-11-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Lena Marden",
+        "component_values": [
+          "Rack 145",
+          "13:30-14:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s028_c1_f12",
+          "p1d_candidate_s028_c1_f13"
+        ]
+      },
+      {
+        "entity": "Noel Marden",
+        "component_values": [
+          "Rack 264",
+          "15:30-16:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s028_c1_f28",
+          "p1d_candidate_s028_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s029_c1",
+    "question": "What were the rack and instrument window for that person on 2054-05-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Dara Keaton",
+        "component_values": [
+          "Rack 239",
+          "12:30-13:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s029_c1_f04",
+          "p1d_candidate_s029_c1_f05"
+        ]
+      },
+      {
+        "entity": "Nadia Keaton",
+        "component_values": [
+          "Rack 251",
+          "13:30-14:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s029_c1_f20",
+          "p1d_candidate_s029_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s034_c1",
+    "question": "What were the rack and instrument window for that person on 2054-11-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Dara Dunley",
+        "component_values": [
+          "Rack 214",
+          "13:00-14:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s034_c1_f12",
+          "p1d_candidate_s034_c1_f13"
+        ]
+      },
+      {
+        "entity": "Nadia Dunley",
+        "component_values": [
+          "Rack 274",
+          "09:00-10:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s034_c1_f28",
+          "p1d_candidate_s034_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s035_c1",
+    "question": "What were the station and equipment window for that person on 2054-05-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Galen Lydell",
+        "component_values": [
+          "Station 255",
+          "15:00-16:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s035_c1_f04",
+          "p1d_candidate_s035_c1_f05"
+        ]
+      },
+      {
+        "entity": "Cora Lydell",
+        "component_values": [
+          "Station 176",
+          "12:30-13:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s035_c1_f20",
+          "p1d_candidate_s035_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s040_c1",
+    "question": "What were the station and equipment window for that person on 2054-11-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Lena Dunley",
+        "component_values": [
+          "Station 276",
+          "08:30-09:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s040_c1_f12",
+          "p1d_candidate_s040_c1_f13"
+        ]
+      },
+      {
+        "entity": "Noel Dunley",
+        "component_values": [
+          "Station 105",
+          "11:00-12:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s040_c1_f28",
+          "p1d_candidate_s040_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s041_c1",
+    "question": "What were the rack and instrument window for that person on 2054-05-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Dara Lydell",
+        "component_values": [
+          "Rack 270",
+          "14:15-15:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s041_c1_f04",
+          "p1d_candidate_s041_c1_f05"
+        ]
+      },
+      {
+        "entity": "Nadia Lydell",
+        "component_values": [
+          "Rack 217",
+          "12:15-13:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s041_c1_f20",
+          "p1d_candidate_s041_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s042_c0",
+    "question": "For that person on 2054-05-15, report the assigned bin together with the tool window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Jori Norcross",
+        "component_values": [
+          "Bin 245",
+          "14:30-15:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s042_c0_f04",
+          "p1d_candidate_s042_c0_f05"
+        ]
+      },
+      {
+        "entity": "Marlo Norcross",
+        "component_values": [
+          "Bin 193",
+          "13:00-14:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s042_c0_f20",
+          "p1d_candidate_s042_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s043_c0",
+    "question": "For that person on 2054-11-15, report the assigned rack together with the instrument window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Faye Farnell",
+        "component_values": [
+          "Rack 191",
+          "13:15-14:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s043_c0_f12",
+          "p1d_candidate_s043_c0_f13"
+        ]
+      },
+      {
+        "entity": "Tarin Farnell",
+        "component_values": [
+          "Rack 103",
+          "13:30-14:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s043_c0_f28",
+          "p1d_candidate_s043_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s044_c0",
+    "question": "For that person on 2054-05-15, report the assigned station together with the equipment window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Galen Jarrow",
+        "component_values": [
+          "Station 110",
+          "09:00-10:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s044_c0_f04",
+          "p1d_candidate_s044_c0_f05"
+        ]
+      },
+      {
+        "entity": "Cora Jarrow",
+        "component_values": [
+          "Station 156",
+          "10:30-11:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s044_c0_f20",
+          "p1d_candidate_s044_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s045_c0",
+    "question": "For that person on 2054-11-15, report the assigned rack together with the instrument window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Jori Dunley",
+        "component_values": [
+          "Rack 243",
+          "11:15-12:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s045_c0_f12",
+          "p1d_candidate_s045_c0_f13"
+        ]
+      },
+      {
+        "entity": "Marlo Dunley",
+        "component_values": [
+          "Rack 157",
+          "15:30-16:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s045_c0_f28",
+          "p1d_candidate_s045_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s046_c0",
+    "question": "For that person on 2054-05-15, report the assigned bin together with the tool window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Lena Norcross",
+        "component_values": [
+          "Bin 102",
+          "10:00-11:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s046_c0_f04",
+          "p1d_candidate_s046_c0_f05"
+        ]
+      },
+      {
+        "entity": "Noel Norcross",
+        "component_values": [
+          "Bin 266",
+          "09:15-10:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s046_c0_f20",
+          "p1d_candidate_s046_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s047_c0",
+    "question": "For that person on 2054-11-15, report the assigned bin together with the tool window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Asha Dunley",
+        "component_values": [
+          "Bin 230",
+          "12:00-13:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s047_c0_f12",
+          "p1d_candidate_s047_c0_f13"
+        ]
+      },
+      {
+        "entity": "Neri Dunley",
+        "component_values": [
+          "Bin 127",
+          "14:30-15:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s047_c0_f28",
+          "p1d_candidate_s047_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s052_c1",
+    "question": "On 2054-11-15, which cabinet and retrieval window applied to that person?",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Dara Gresham",
+        "component_values": [
+          "Cabinet 185",
+          "09:00-10:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s052_c1_f12",
+          "p1d_candidate_s052_c1_f13"
+        ]
+      },
+      {
+        "entity": "Nadia Gresham",
+        "component_values": [
+          "Cabinet 204",
+          "16:30-17:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s052_c1_f28",
+          "p1d_candidate_s052_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s053_c1",
+    "question": "On 2054-05-15, which rack and instrument window applied to that person?",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Hana Keaton",
+        "component_values": [
+          "Rack 130",
+          "16:30-17:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s053_c1_f04",
+          "p1d_candidate_s053_c1_f05"
+        ]
+      },
+      {
+        "entity": "Soren Keaton",
+        "component_values": [
+          "Rack 129",
+          "16:15-17:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s053_c1_f20",
+          "p1d_candidate_s053_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s058_c1",
+    "question": "On 2054-11-15, which cabinet and retrieval window applied to that person?",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Emil Isley",
+        "component_values": [
+          "Cabinet 223",
+          "16:15-17:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s058_c1_f12",
+          "p1d_candidate_s058_c1_f13"
+        ]
+      },
+      {
+        "entity": "Arwen Isley",
+        "component_values": [
+          "Cabinet 242",
+          "15:30-16:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s058_c1_f28",
+          "p1d_candidate_s058_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s059_c1",
+    "question": "On 2054-05-15, which cabinet and retrieval window applied to that person?",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Faye Marden",
+        "component_values": [
+          "Cabinet 169",
+          "12:00-13:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s059_c1_f04",
+          "p1d_candidate_s059_c1_f05"
+        ]
+      },
+      {
+        "entity": "Tarin Marden",
+        "component_values": [
+          "Cabinet 162",
+          "15:15-16:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s059_c1_f20",
+          "p1d_candidate_s059_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s064_c1",
+    "question": "On 2054-11-15, which rack and instrument window applied to that person?",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Asha Gresham",
+        "component_values": [
+          "Rack 162",
+          "11:00-12:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s064_c1_f12",
+          "p1d_candidate_s064_c1_f13"
+        ]
+      },
+      {
+        "entity": "Neri Gresham",
+        "component_values": [
+          "Rack 234",
+          "09:30-10:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s064_c1_f28",
+          "p1d_candidate_s064_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s065_c1",
+    "question": "On 2054-05-15, which bin and tool window applied to that person?",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Emil Jarrow",
+        "component_values": [
+          "Bin 116",
+          "14:15-15:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s065_c1_f04",
+          "p1d_candidate_s065_c1_f05"
+        ]
+      },
+      {
+        "entity": "Arwen Jarrow",
+        "component_values": [
+          "Bin 200",
+          "08:30-09:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s065_c1_f20",
+          "p1d_candidate_s065_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s066_c0",
+    "question": "What were the cabinet and retrieval window for that person on 2054-05-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Lena Farnell",
+        "component_values": [
+          "Cabinet 235",
+          "15:15-16:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s066_c0_f04",
+          "p1d_candidate_s066_c0_f05"
+        ]
+      },
+      {
+        "entity": "Noel Farnell",
+        "component_values": [
+          "Cabinet 126",
+          "10:15-11:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s066_c0_f20",
+          "p1d_candidate_s066_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s067_c0",
+    "question": "What were the bin and tool window for that person on 2054-11-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Kiran Lydell",
+        "component_values": [
+          "Bin 112",
+          "16:15-17:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s067_c0_f12",
+          "p1d_candidate_s067_c0_f13"
+        ]
+      },
+      {
+        "entity": "Alwin Lydell",
+        "component_values": [
+          "Bin 127",
+          "11:30-12:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s067_c0_f28",
+          "p1d_candidate_s067_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s068_c0",
+    "question": "What were the bin and tool window for that person on 2054-05-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Hana Jarrow",
+        "component_values": [
+          "Bin 106",
+          "10:15-11:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s068_c0_f04",
+          "p1d_candidate_s068_c0_f05"
+        ]
+      },
+      {
+        "entity": "Soren Jarrow",
+        "component_values": [
+          "Bin 200",
+          "16:00-17:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s068_c0_f20",
+          "p1d_candidate_s068_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s069_c0",
+    "question": "What were the station and equipment window for that person on 2054-11-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Ivo Calder",
+        "component_values": [
+          "Station 246",
+          "12:30-13:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s069_c0_f12",
+          "p1d_candidate_s069_c0_f13"
+        ]
+      },
+      {
+        "entity": "Mabel Calder",
+        "component_values": [
+          "Station 161",
+          "12:00-13:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s069_c0_f28",
+          "p1d_candidate_s069_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s070_c0",
+    "question": "What were the cabinet and retrieval window for that person on 2054-05-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Bryn Farnell",
+        "component_values": [
+          "Cabinet 272",
+          "14:15-15:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s070_c0_f04",
+          "p1d_candidate_s070_c0_f05"
+        ]
+      },
+      {
+        "entity": "Darian Farnell",
+        "component_values": [
+          "Cabinet 204",
+          "13:30-14:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s070_c0_f20",
+          "p1d_candidate_s070_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s071_c0",
+    "question": "What were the station and equipment window for that person on 2054-11-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Faye Keaton",
+        "component_values": [
+          "Station 221",
+          "09:15-10:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s071_c0_f12",
+          "p1d_candidate_s071_c0_f13"
+        ]
+      },
+      {
+        "entity": "Tarin Keaton",
+        "component_values": [
+          "Station 258",
+          "09:30-10:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s071_c0_f28",
+          "p1d_candidate_s071_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s076_c1",
+    "question": "Give both the rack and instrument window assigned to that person on 2054-11-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Faye Estwick",
+        "component_values": [
+          "Rack 231",
+          "12:00-13:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s076_c1_f12",
+          "p1d_candidate_s076_c1_f13"
+        ]
+      },
+      {
+        "entity": "Tarin Estwick",
+        "component_values": [
+          "Rack 161",
+          "15:30-16:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s076_c1_f28",
+          "p1d_candidate_s076_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s077_c1",
+    "question": "Give both the station and equipment window assigned to that person on 2054-05-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Lena Isley",
+        "component_values": [
+          "Station 268",
+          "08:00-09:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s077_c1_f04",
+          "p1d_candidate_s077_c1_f05"
+        ]
+      },
+      {
+        "entity": "Noel Isley",
+        "component_values": [
+          "Station 217",
+          "10:00-11:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s077_c1_f20",
+          "p1d_candidate_s077_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s082_c1",
+    "question": "Give both the cabinet and retrieval window assigned to that person on 2054-11-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Bryn Hollis",
+        "component_values": [
+          "Cabinet 109",
+          "11:30-12:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s082_c1_f12",
+          "p1d_candidate_s082_c1_f13"
+        ]
+      },
+      {
+        "entity": "Darian Hollis",
+        "component_values": [
+          "Cabinet 275",
+          "12:30-13:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s082_c1_f28",
+          "p1d_candidate_s082_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s083_c1",
+    "question": "Give both the rack and instrument window assigned to that person on 2054-05-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Asha Norcross",
+        "component_values": [
+          "Rack 112",
+          "12:00-13:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s083_c1_f04",
+          "p1d_candidate_s083_c1_f05"
+        ]
+      },
+      {
+        "entity": "Neri Norcross",
+        "component_values": [
+          "Rack 198",
+          "10:00-11:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s083_c1_f20",
+          "p1d_candidate_s083_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s088_c1",
+    "question": "Give both the station and equipment window assigned to that person on 2054-11-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Hana Hollis",
+        "component_values": [
+          "Station 101",
+          "14:15-15:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s088_c1_f12",
+          "p1d_candidate_s088_c1_f13"
+        ]
+      },
+      {
+        "entity": "Soren Hollis",
+        "component_values": [
+          "Station 178",
+          "16:15-17:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s088_c1_f28",
+          "p1d_candidate_s088_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s089_c1",
+    "question": "Give both the rack and instrument window assigned to that person on 2054-05-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Ivo Estwick",
+        "component_values": [
+          "Rack 166",
+          "10:30-11:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s089_c1_f04",
+          "p1d_candidate_s089_c1_f05"
+        ]
+      },
+      {
+        "entity": "Mabel Estwick",
+        "component_values": [
+          "Rack 264",
+          "14:30-15:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s089_c1_f20",
+          "p1d_candidate_s089_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s090_c0",
+    "question": "On 2054-05-15, which rack and instrument window applied to that person?",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Jori Jarrow",
+        "component_values": [
+          "Rack 126",
+          "11:00-12:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s090_c0_f04",
+          "p1d_candidate_s090_c0_f05"
+        ]
+      },
+      {
+        "entity": "Marlo Jarrow",
+        "component_values": [
+          "Rack 174",
+          "09:00-10:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s090_c0_f20",
+          "p1d_candidate_s090_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s091_c0",
+    "question": "On 2054-11-15, which cabinet and retrieval window applied to that person?",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Bryn Marden",
+        "component_values": [
+          "Cabinet 190",
+          "08:15-09:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s091_c0_f12",
+          "p1d_candidate_s091_c0_f13"
+        ]
+      },
+      {
+        "entity": "Darian Marden",
+        "component_values": [
+          "Cabinet 228",
+          "09:00-10:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s091_c0_f28",
+          "p1d_candidate_s091_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s092_c0",
+    "question": "On 2054-05-15, which station and equipment window applied to that person?",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Ivo Lydell",
+        "component_values": [
+          "Station 246",
+          "15:30-16:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s092_c0_f04",
+          "p1d_candidate_s092_c0_f05"
+        ]
+      },
+      {
+        "entity": "Mabel Lydell",
+        "component_values": [
+          "Station 180",
+          "10:00-11:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s092_c0_f20",
+          "p1d_candidate_s092_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s093_c0",
+    "question": "On 2054-11-15, which station and equipment window applied to that person?",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Bryn Keaton",
+        "component_values": [
+          "Station 130",
+          "13:15-14:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s093_c0_f12",
+          "p1d_candidate_s093_c0_f13"
+        ]
+      },
+      {
+        "entity": "Darian Keaton",
+        "component_values": [
+          "Station 229",
+          "16:30-17:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s093_c0_f28",
+          "p1d_candidate_s093_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s094_c0",
+    "question": "On 2054-05-15, which cabinet and retrieval window applied to that person?",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Lena Gresham",
+        "component_values": [
+          "Cabinet 125",
+          "13:30-14:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s094_c0_f04",
+          "p1d_candidate_s094_c0_f05"
+        ]
+      },
+      {
+        "entity": "Noel Gresham",
+        "component_values": [
+          "Cabinet 217",
+          "10:30-11:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s094_c0_f20",
+          "p1d_candidate_s094_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s095_c0",
+    "question": "On 2054-11-15, which bin and tool window applied to that person?",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Hana Lydell",
+        "component_values": [
+          "Bin 120",
+          "09:00-10:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s095_c0_f12",
+          "p1d_candidate_s095_c0_f13"
+        ]
+      },
+      {
+        "entity": "Soren Lydell",
+        "component_values": [
+          "Bin 230",
+          "14:00-15:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s095_c0_f28",
+          "p1d_candidate_s095_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s100_c1",
+    "question": "For that person on 2054-11-15, report the assigned station together with the equipment window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Emil Gresham",
+        "component_values": [
+          "Station 200",
+          "15:00-16:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s100_c1_f12",
+          "p1d_candidate_s100_c1_f13"
+        ]
+      },
+      {
+        "entity": "Arwen Gresham",
+        "component_values": [
+          "Station 141",
+          "08:30-09:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s100_c1_f28",
+          "p1d_candidate_s100_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s101_c1",
+    "question": "For that person on 2054-05-15, report the assigned station together with the equipment window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Faye Dunley",
+        "component_values": [
+          "Station 213",
+          "15:00-16:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s101_c1_f04",
+          "p1d_candidate_s101_c1_f05"
+        ]
+      },
+      {
+        "entity": "Tarin Dunley",
+        "component_values": [
+          "Station 110",
+          "13:15-14:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s101_c1_f20",
+          "p1d_candidate_s101_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s106_c1",
+    "question": "For that person on 2054-11-15, report the assigned bin together with the tool window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Emil Dunley",
+        "component_values": [
+          "Bin 183",
+          "13:15-14:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s106_c1_f12",
+          "p1d_candidate_s106_c1_f13"
+        ]
+      },
+      {
+        "entity": "Arwen Dunley",
+        "component_values": [
+          "Bin 226",
+          "11:30-12:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s106_c1_f28",
+          "p1d_candidate_s106_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s107_c1",
+    "question": "For that person on 2054-05-15, report the assigned cabinet together with the retrieval window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Marek Lydell",
+        "component_values": [
+          "Cabinet 237",
+          "15:00-16:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s107_c1_f04",
+          "p1d_candidate_s107_c1_f05"
+        ]
+      },
+      {
+        "entity": "Liora Lydell",
+        "component_values": [
+          "Cabinet 212",
+          "15:15-16:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s107_c1_f20",
+          "p1d_candidate_s107_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s112_c1",
+    "question": "For that person on 2054-11-15, report the assigned station together with the equipment window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Faye Calder",
+        "component_values": [
+          "Station 278",
+          "12:00-13:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s112_c1_f12",
+          "p1d_candidate_s112_c1_f13"
+        ]
+      },
+      {
+        "entity": "Tarin Calder",
+        "component_values": [
+          "Station 161",
+          "09:00-10:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s112_c1_f28",
+          "p1d_candidate_s112_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s113_c1",
+    "question": "For that person on 2054-05-15, report the assigned station together with the equipment window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Jori Gresham",
+        "component_values": [
+          "Station 166",
+          "08:00-09:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s113_c1_f04",
+          "p1d_candidate_s113_c1_f05"
+        ]
+      },
+      {
+        "entity": "Marlo Gresham",
+        "component_values": [
+          "Station 181",
+          "14:30-15:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s113_c1_f20",
+          "p1d_candidate_s113_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s114_c0",
+    "question": "Give both the cabinet and retrieval window assigned to that person on 2054-05-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Hana Dunley",
+        "component_values": [
+          "Cabinet 166",
+          "08:00-09:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s114_c0_f04",
+          "p1d_candidate_s114_c0_f05"
+        ]
+      },
+      {
+        "entity": "Soren Dunley",
+        "component_values": [
+          "Cabinet 198",
+          "10:15-11:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s114_c0_f20",
+          "p1d_candidate_s114_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s115_c0",
+    "question": "Give both the rack and instrument window assigned to that person on 2054-11-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Marek Calder",
+        "component_values": [
+          "Rack 211",
+          "14:30-15:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s115_c0_f12",
+          "p1d_candidate_s115_c0_f13"
+        ]
+      },
+      {
+        "entity": "Liora Calder",
+        "component_values": [
+          "Rack 223",
+          "08:00-09:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s115_c0_f28",
+          "p1d_candidate_s115_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s116_c0",
+    "question": "Give both the rack and instrument window assigned to that person on 2054-05-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Galen Estwick",
+        "component_values": [
+          "Rack 160",
+          "08:30-09:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s116_c0_f04",
+          "p1d_candidate_s116_c0_f05"
+        ]
+      },
+      {
+        "entity": "Cora Estwick",
+        "component_values": [
+          "Rack 129",
+          "12:00-13:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s116_c0_f20",
+          "p1d_candidate_s116_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s117_c0",
+    "question": "Give both the cabinet and retrieval window assigned to that person on 2054-11-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Marek Marden",
+        "component_values": [
+          "Cabinet 277",
+          "15:00-16:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s117_c0_f12",
+          "p1d_candidate_s117_c0_f13"
+        ]
+      },
+      {
+        "entity": "Liora Marden",
+        "component_values": [
+          "Cabinet 250",
+          "11:00-12:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s117_c0_f28",
+          "p1d_candidate_s117_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s118_c0",
+    "question": "Give both the cabinet and retrieval window assigned to that person on 2054-05-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Emil Calder",
+        "component_values": [
+          "Cabinet 206",
+          "08:15-09:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s118_c0_f04",
+          "p1d_candidate_s118_c0_f05"
+        ]
+      },
+      {
+        "entity": "Arwen Calder",
+        "component_values": [
+          "Cabinet 174",
+          "10:15-11:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s118_c0_f20",
+          "p1d_candidate_s118_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s119_c0",
+    "question": "Give both the bin and tool window assigned to that person on 2054-11-15.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Dara Marden",
+        "component_values": [
+          "Bin 172",
+          "16:00-17:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s119_c0_f12",
+          "p1d_candidate_s119_c0_f13"
+        ]
+      },
+      {
+        "entity": "Nadia Marden",
+        "component_values": [
+          "Bin 263",
+          "10:15-11:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s119_c0_f28",
+          "p1d_candidate_s119_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s124_c1",
+    "question": "What were the bin and tool window for that person on 2054-11-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Lena Lydell",
+        "component_values": [
+          "Bin 271",
+          "11:15-12:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s124_c1_f12",
+          "p1d_candidate_s124_c1_f13"
+        ]
+      },
+      {
+        "entity": "Noel Lydell",
+        "component_values": [
+          "Bin 213",
+          "15:30-16:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s124_c1_f28",
+          "p1d_candidate_s124_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s125_c1",
+    "question": "What were the cabinet and retrieval window for that person on 2054-05-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Marek Jarrow",
+        "component_values": [
+          "Cabinet 182",
+          "10:30-11:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s125_c1_f04",
+          "p1d_candidate_s125_c1_f05"
+        ]
+      },
+      {
+        "entity": "Liora Jarrow",
+        "component_values": [
+          "Cabinet 188",
+          "12:15-13:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s125_c1_f20",
+          "p1d_candidate_s125_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s130_c1",
+    "question": "What were the bin and tool window for that person on 2054-11-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Hana Isley",
+        "component_values": [
+          "Bin 130",
+          "11:00-12:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s130_c1_f12",
+          "p1d_candidate_s130_c1_f13"
+        ]
+      },
+      {
+        "entity": "Soren Isley",
+        "component_values": [
+          "Bin 179",
+          "10:30-11:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s130_c1_f28",
+          "p1d_candidate_s130_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s131_c1",
+    "question": "What were the rack and instrument window for that person on 2054-05-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Kiran Gresham",
+        "component_values": [
+          "Rack 156",
+          "09:30-10:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s131_c1_f04",
+          "p1d_candidate_s131_c1_f05"
+        ]
+      },
+      {
+        "entity": "Alwin Gresham",
+        "component_values": [
+          "Rack 246",
+          "08:00-09:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s131_c1_f20",
+          "p1d_candidate_s131_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s136_c1",
+    "question": "What were the rack and instrument window for that person on 2054-11-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Jori Calder",
+        "component_values": [
+          "Rack 104",
+          "16:15-17:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s136_c1_f12",
+          "p1d_candidate_s136_c1_f13"
+        ]
+      },
+      {
+        "entity": "Marlo Calder",
+        "component_values": [
+          "Rack 235",
+          "09:00-10:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s136_c1_f28",
+          "p1d_candidate_s136_c1_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s137_c1",
+    "question": "What were the cabinet and retrieval window for that person on 2054-05-15? Include both details.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Marek Dunley",
+        "component_values": [
+          "Cabinet 272",
+          "16:00-17:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s137_c1_f04",
+          "p1d_candidate_s137_c1_f05"
+        ]
+      },
+      {
+        "entity": "Liora Dunley",
+        "component_values": [
+          "Cabinet 279",
+          "10:30-11:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s137_c1_f20",
+          "p1d_candidate_s137_c1_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s138_c0",
+    "question": "For that person on 2054-05-15, report the assigned station together with the equipment window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Bryn Calder",
+        "component_values": [
+          "Station 171",
+          "11:30-12:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s138_c0_f04",
+          "p1d_candidate_s138_c0_f05"
+        ]
+      },
+      {
+        "entity": "Darian Calder",
+        "component_values": [
+          "Station 184",
+          "10:30-11:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s138_c0_f20",
+          "p1d_candidate_s138_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s139_c0",
+    "question": "For that person on 2054-11-15, report the assigned cabinet together with the retrieval window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Asha Isley",
+        "component_values": [
+          "Cabinet 271",
+          "13:30-14:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s139_c0_f12",
+          "p1d_candidate_s139_c0_f13"
+        ]
+      },
+      {
+        "entity": "Neri Isley",
+        "component_values": [
+          "Cabinet 241",
+          "09:15-10:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s139_c0_f28",
+          "p1d_candidate_s139_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s140_c0",
+    "question": "For that person on 2054-05-15, report the assigned rack together with the instrument window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Galen Keaton",
+        "component_values": [
+          "Rack 128",
+          "08:00-09:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s140_c0_f04",
+          "p1d_candidate_s140_c0_f05"
+        ]
+      },
+      {
+        "entity": "Cora Keaton",
+        "component_values": [
+          "Rack 151",
+          "10:00-11:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s140_c0_f20",
+          "p1d_candidate_s140_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s141_c0",
+    "question": "For that person on 2054-11-15, report the assigned rack together with the instrument window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Bryn Gresham",
+        "component_values": [
+          "Rack 242",
+          "09:30-10:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s141_c0_f12",
+          "p1d_candidate_s141_c0_f13"
+        ]
+      },
+      {
+        "entity": "Darian Gresham",
+        "component_values": [
+          "Rack 267",
+          "12:00-13:00"
+        ],
+        "source_ids": [
+          "p1d_candidate_s141_c0_f28",
+          "p1d_candidate_s141_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s142_c0",
+    "question": "For that person on 2054-05-15, report the assigned bin together with the tool window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Ivo Marden",
+        "component_values": [
+          "Bin 264",
+          "09:15-10:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s142_c0_f04",
+          "p1d_candidate_s142_c0_f05"
+        ]
+      },
+      {
+        "entity": "Mabel Marden",
+        "component_values": [
+          "Bin 209",
+          "10:15-11:15"
+        ],
+        "source_ids": [
+          "p1d_candidate_s142_c0_f20",
+          "p1d_candidate_s142_c0_f21"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  },
+  {
+    "case_id": "p1d_candidate_s143_c0",
+    "question": "For that person on 2054-11-15, report the assigned bin together with the tool window.",
+    "target_name_absent_from_question": true,
+    "no_context_two_ledger_consistent_answers": [
+      {
+        "entity": "Galen Isley",
+        "component_values": [
+          "Bin 205",
+          "08:30-09:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s143_c0_f12",
+          "p1d_candidate_s143_c0_f13"
+        ]
+      },
+      {
+        "entity": "Cora Isley",
+        "component_values": [
+          "Bin 222",
+          "09:30-10:30"
+        ],
+        "source_ids": [
+          "p1d_candidate_s143_c0_f28",
+          "p1d_candidate_s143_c0_f29"
+        ]
+      }
+    ],
+    "distinct_answer_pairs": true,
+    "scope": "Offline material diagnostic only, not a new inference condition. The fixed context disambiguates; persona/history can provide correlated cues, so unique internal context use is not identified."
+  }
+]
