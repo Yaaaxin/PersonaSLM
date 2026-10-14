@@ -1,0 +1,187 @@
+{
+  "version": "p1c_semantic_integrity_closeout_v1",
+  "software_verified_utc": "2026-10-14T07:53:18.244608+00:00",
+  "status": "PASS",
+  "preservation": {
+    "entry_files_preserved": 769,
+    "prior_sealed_artifacts_preserved": 30,
+    "approved_policy_addendum_manifest_verified": true,
+    "allowed_append_only_changes": [
+      "docs/research_development_log.md"
+    ]
+  },
+  "source_verification": {
+    "version": "p1c_semantic_preservation_verification_v1",
+    "status": "PASS",
+    "verified_utc": "2026-10-14T07:46:58.929055+00:00",
+    "source_identity": {
+      "status": "PASS",
+      "source_files": 45,
+      "cases": 12,
+      "history_texts": 60,
+      "control_subset": 12,
+      "requests": 72,
+      "original_order": "PASS",
+      "actual_tokenizer_ID_records": 72,
+      "binary_identity": "PASS",
+      "new_generations": 0
+    },
+    "execution_reconstructed_twice": true,
+    "raw_http_response_bytes_verified": 72,
+    "original_run_event_files": 700,
+    "frozen_structure": {
+      "CROSS_TURN": 64,
+      "AMBIGUOUS": 8
+    },
+    "historical_experiment_files": 5798,
+    "entry_tracked_files": 738,
+    "allowed_append_only_changes": [
+      "docs/research_development_log.md"
+    ],
+    "review_source_files_unchanged": 7,
+    "applicability_counts": {
+      "factual_consistency": 72,
+      "temporal_consistency": 72,
+      "response_relevance": 72,
+      "conversational_coherence": 72,
+      "task_success": 72,
+      "component_coverage": 72,
+      "semantic_completeness": 72,
+      "structural_status": 72,
+      "persona_fidelity": 0
+    },
+    "frozen_manifest_sha256": "b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b",
+    "actual_binary_identity_verified": true,
+    "new_inference_requests": 0,
+    "human_semantic_confirmations": 0,
+    "formal_semantic_condition_effects": 0,
+    "git_head": "fc282d44eb199964ef974b2de8540311381c18aa",
+    "git_status": " M docs/research_development_log.md\n?? docs/P1c_algorithmic_opportunity_assessment_v2.md\n?? docs/P1c_exploratory_analysis_readiness_v1.md\n?? docs/P1c_measurement_bias_assessment_v1.md\n?? docs/P1c_next_validation_recommendation_v1.md\n?? docs/P1c_semantic_review_report_v1.md\n?? docs/P1c_structural_boundary_analysis_v1.md\n?? docs/related_work_novelty_matrix_monitor_v2.md\n?? docs/validation/p1c/calibration_v1/semantic_integrity_v1/\n?? docs/validation/p1c/calibration_v1/semantic_review_v1/\n?? tests/test_p1c_semantic_integrity.py\n?? tests/test_p1c_semantic_review.py\n?? tools/p1c_boundary_review.py\n?? tools/p1c_integrity_registration.py\n?? tools/p1c_semantic_analysis.py\n?? tools/p1c_semantic_closeout.py\n?? tools/p1c_semantic_integrity.py\n?? tools/p1c_semantic_review.py\n?? tools/p1c_semantic_verify.py\n"
+  },
+  "schema_counts": {
+    "json": 13,
+    "csv": 5
+  },
+  "artifact_sha256": {
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\annotation_provenance_register_v1.json": "e67053c4d60dc01e6af537b9700321c289256b10018447221cc32e3be406783c",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\boundary_sensitivity_table_v1.csv": "d1d4318acfa298a45591c6b186ea17e3ede8f7c631f2a858538ef4613e219f4c",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\boundary_sensitivity_table_v1.json": "5c1b76d172018daf2e30f8be16c467cdbcdc61e79135a50865e1ff9f10ffad69",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\descriptive_sensitivity_bounds_v1.json": "4046f2e4936d6461488c0e62a942ff910ae19c49f0cec36160d9818bbfff969e",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\failed_secondary_export_v1.json": "2d04b0848d59ec6c29bc33f26831f89d1e77e032d6966cee0d7ac5313a8a5a45",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\metric_applicability_verification_v1.csv": "4685154546d7f99e71087267a52b43c555638b9205ca5c1bc6b75ec0518a4612",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\metric_independence_diagnostic_v1.json": "4686240acb763dd97ed021c24b4ad53629338b5c3972f224769c5ee6aa170553",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\primary_audit_freeze_v1.json": "f2f70bd819871dd841881638c5293a25f8e6f750a79623aa45868b5aa6ff883b",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\primary_sensitivity_specification_v1.json": "20d764c35a1ee8dfe5a4bf4121b46cfa5ea7885408e6a27afb9b3a402b2c6ba5",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\protected_boundary_prompt_audit_v1.json": "e22b26290d22c558e65c89d39f175333d8797021122324d424c9e08d877afc2b",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\researcher_confirmation_request_v1.json": "22ed47f13b07d603d4e59a25c4d07da88fc34437895d9d6b123e8b3faa945a6a",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_boundary_sensitivity_UNCONFIRMED_v1.csv": "d47765205ebfbb5bbb92748e2dea2b6818096262ba69701e13b4fe998f899c88",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_boundary_sensitivity_UNCONFIRMED_v1.json": "5fbf3e5bb53ba82af8746c3642052b7072eb4f1f44a0f24ff6909904db323058",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_boundary_sensitivity_UNCONFIRMED_v2.csv": "d0a8a57353db2357a4e6e56e577a98dbfa02c484bfa722cd4e6b3802499d03d6",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_boundary_sensitivity_UNCONFIRMED_v2.json": "790e9f6210f3e0b465703911988343f89680a0650c83d51009c23be442f62a77",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_primary_proposals_UNCONFIRMED_v1.csv": "276a67c7a47994f6149834261b488a93399b100ac8fc1e2253f764f1d90d9285",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_primary_proposals_UNCONFIRMED_v1.json": "144a63679d2267b725dacb90294d7b72cbfbb9a5c724f4ed1312e099c78f5068",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\uncertainty_classification_v1.json": "9e5fbdaff48e1d4ee40b2831eacdb1671f82fbfa4703668297e956e7b30303f4",
+    "docs\\P1c_semantic_integrity_audit_v1.md": "e3e33fca1bd81492d907b5c673d5dc8e247ab36588f8050dccf71a13e12dfa98",
+    "docs\\P1c_boundary_uncertainty_analysis_v1.md": "72a7619c079b2a688bb831f4e8985e4eb27ea5ef0b240e0e94c662070bedf550",
+    "docs\\P1c_factual_task_success_comparison_v1.md": "b753567e60016fce6014564ef4084cb19deb9b4bc67a93a2e076d06556d0509d",
+    "docs\\P1c_relevance_coherence_ceiling_audit_v1.md": "fb3ef63688fa0bc7b4479bc852746fb27519103ac3ee28f80c54862d99448315",
+    "docs\\P1c_final_annotation_confirmation_packet_v1.md": "4989e36d8d862c5995221b470adb8c9620ba7023ffc8ebf9d492cda18f6fc817",
+    "docs\\P1c_analysis_readiness_v1.md": "bdaec865c3d706dc056703b4bbd24a58d432a858b15b5c66a2492065c6c96aa1",
+    "docs\\P1c_algorithmic_opportunity_update_v1.md": "c7342c4f28cee87c8638bf929d98b13055652c04daa253d040b897727b904a1a",
+    "tools/p1c_semantic_integrity.py": "8be0cbed700046d9d8c13b54f1c67bd2cc1611f10e935c5f731530f4dfcf6d14",
+    "tools/p1c_integrity_registration.py": "e0e7fa5ef2a3e3b45bb3fd1f018f30ed8ff0b79918db7abe5250416820123030",
+    "tools/p1c_integrity_closeout.py": "cbfc97e24b76f788bb6461e9f725cd7c05ee751298618e80157edde914f6cff3",
+    "tests/test_p1c_semantic_integrity.py": "0ac8de2905e05ce1f03f9bd63732101d213cd59dd313fc6e9b8fdd377885cb64"
+  },
+  "active_import_sources": {
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_primary_proposals_UNCONFIRMED_v1.json": "144a63679d2267b725dacb90294d7b72cbfbb9a5c724f4ed1312e099c78f5068",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_boundary_sensitivity_UNCONFIRMED_v2.json": "790e9f6210f3e0b465703911988343f89680a0650c83d51009c23be442f62a77",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\primary_sensitivity_specification_v1.json": "20d764c35a1ee8dfe5a4bf4121b46cfa5ea7885408e6a27afb9b3a402b2c6ba5",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\uncertainty_classification_v1.json": "9e5fbdaff48e1d4ee40b2831eacdb1671f82fbfa4703668297e956e7b30303f4",
+    "docs\\validation\\p1c\\final_review_v1\\estimand_registry_proposed_v1.json": "713a7679d5a606707f8075bae51d3fa5716a721eccf86f1f56cebc73b4bbc4e7",
+    "docs\\validation\\p1c\\final_review_v1\\evaluation_policy_proposed_v1.json": "1fe5bfb170f192e53ce566eebf304cbeb93b5014c08112c05f6b06caf122e7ca",
+    "docs\\validation\\p1c\\calibration_v1\\measurement_v1\\semantic_scoring_view_v1.csv": "1317cf06609f5f80721f95c2131ae596f32f9cb69029d555459f594cf4f7fcb3",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_review_v1\\analysis_preparation\\analysis_specification_v1.json": "a483acd81eefbe24b9dd4f0f8d0bc3d5a2c2d2e6c16d53835946547ea1ea2d09"
+  },
+  "complete_test_capture": "results\\p1c_semantic_integrity\\v1\\tests_full_01.json",
+  "complete_test_capture_sha256": "ec218d142eab21f872c69d35b3a6a71d6e0c92609eb6b2fd255990c8a86bd059",
+  "test_summary": "947 passed in 47.38s",
+  "original_distribution": {
+    "factual_consistency": {
+      "Correct": 43,
+      "Unverifiable": 9,
+      "Incorrect": 20
+    },
+    "temporal_consistency": {
+      "Correct": 43,
+      "Unverifiable": 14,
+      "Incorrect": 15
+    },
+    "response_relevance": {
+      "5": 59,
+      "4": 5,
+      "NULL": 8
+    },
+    "conversational_coherence": {
+      "5": 59,
+      "4": 5,
+      "NULL": 8
+    },
+    "task_success": {
+      "1": 43,
+      "NULL": 9,
+      "0": 20
+    },
+    "component_coverage": {
+      "1.0": 44,
+      "0.0": 20,
+      "NULL": 8
+    },
+    "semantic_completeness": {
+      "YES": 64,
+      "UNCERTAIN": 8
+    }
+  },
+  "reviewed_distribution": {
+    "factual_consistency": {
+      "Correct": 43,
+      "Unverifiable": 9,
+      "Incorrect": 20
+    },
+    "temporal_consistency": {
+      "Correct": 43,
+      "Unverifiable": 14,
+      "Incorrect": 15
+    },
+    "response_relevance": {
+      "5": 60,
+      "4": 4,
+      "NULL": 8
+    },
+    "conversational_coherence": {
+      "5": 64,
+      "NULL": 8
+    },
+    "task_success": {
+      "1": 43,
+      "NULL": 9,
+      "0": 20
+    },
+    "component_coverage": {
+      "1.0": 44,
+      "0.0": 20,
+      "NULL": 8
+    },
+    "semantic_completeness": {
+      "YES": 64,
+      "UNCERTAIN": 8
+    }
+  },
+  "registered_human_semantic_annotations": 0,
+  "official_semantic_effects_computed": false,
+  "new_model_inference": 0,
+  "git_diff_check": "PASS",
+  "git_status": " M docs/research_development_log.md\n?? docs/P1c_algorithmic_opportunity_assessment_v2.md\n?? docs/P1c_algorithmic_opportunity_update_v1.md\n?? docs/P1c_analysis_readiness_v1.md\n?? docs/P1c_boundary_uncertainty_analysis_v1.md\n?? docs/P1c_exploratory_analysis_readiness_v1.md\n?? docs/P1c_factual_task_success_comparison_v1.md\n?? docs/P1c_final_annotation_confirmation_packet_v1.md\n?? docs/P1c_measurement_bias_assessment_v1.md\n?? docs/P1c_next_validation_recommendation_v1.md\n?? docs/P1c_relevance_coherence_ceiling_audit_v1.md\n?? docs/P1c_semantic_integrity_audit_v1.md\n?? docs/P1c_semantic_review_report_v1.md\n?? docs/P1c_structural_boundary_analysis_v1.md\n?? docs/related_work_novelty_matrix_monitor_v2.md\n?? docs/validation/p1c/calibration_v1/semantic_integrity_v1/\n?? docs/validation/p1c/calibration_v1/semantic_review_v1/\n?? tests/test_p1c_semantic_integrity.py\n?? tests/test_p1c_semantic_review.py\n?? tools/p1c_boundary_review.py\n?? tools/p1c_integrity_closeout.py\n?? tools/p1c_integrity_registration.py\n?? tools/p1c_semantic_analysis.py\n?? tools/p1c_semantic_closeout.py\n?? tools/p1c_semantic_integrity.py\n?? tools/p1c_semantic_review.py\n?? tools/p1c_semantic_verify.py\n",
+  "failed_export_preserved": true,
+  "active_secondary_version": "v2"
+}

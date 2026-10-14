@@ -1,0 +1,102 @@
+{
+  "primary": {
+    "factual_consistency": {
+      "eligible": 72,
+      "known": 63,
+      "unknown": 9,
+      "success_labels": 43,
+      "unresolved_sensitivity_bounds_counts": [
+        43,
+        52
+      ],
+      "unresolved_sensitivity_bounds_fraction": [
+        0.5972222222222222,
+        0.7222222222222222
+      ],
+      "evaluated_only_fraction": 0.6825396825396826,
+      "warning": "Conditional on unconfirmed proposals and this boundary view. No sampling CI or official condition effect; unknown is not Incorrect."
+    },
+    "temporal_consistency": {
+      "eligible": 72,
+      "known": 58,
+      "unknown": 14,
+      "success_labels": 43,
+      "unresolved_sensitivity_bounds_counts": [
+        43,
+        57
+      ],
+      "unresolved_sensitivity_bounds_fraction": [
+        0.5972222222222222,
+        0.7916666666666666
+      ],
+      "evaluated_only_fraction": 0.7413793103448276,
+      "warning": "Conditional on unconfirmed proposals and this boundary view. No sampling CI or official condition effect; unknown is not Incorrect."
+    },
+    "task_success": {
+      "eligible": 72,
+      "known": 63,
+      "unknown": 9,
+      "success_labels": 43,
+      "unresolved_sensitivity_bounds_counts": [
+        43,
+        52
+      ],
+      "unresolved_sensitivity_bounds_fraction": [
+        0.5972222222222222,
+        0.7222222222222222
+      ],
+      "evaluated_only_fraction": 0.6825396825396826,
+      "warning": "Conditional on unconfirmed proposals and this boundary view. No sampling CI or official condition effect; unknown is not Incorrect."
+    }
+  },
+  "secondary": {
+    "factual_consistency": {
+      "eligible": 72,
+      "known": 71,
+      "unknown": 1,
+      "success_labels": 47,
+      "unresolved_sensitivity_bounds_counts": [
+        47,
+        48
+      ],
+      "unresolved_sensitivity_bounds_fraction": [
+        0.6527777777777778,
+        0.6666666666666666
+      ],
+      "evaluated_only_fraction": 0.6619718309859155,
+      "warning": "Conditional on unconfirmed proposals and this boundary view. No sampling CI or official condition effect; unknown is not Incorrect."
+    },
+    "temporal_consistency": {
+      "eligible": 72,
+      "known": 63,
+      "unknown": 9,
+      "success_labels": 47,
+      "unresolved_sensitivity_bounds_counts": [
+        47,
+        56
+      ],
+      "unresolved_sensitivity_bounds_fraction": [
+        0.6527777777777778,
+        0.7777777777777778
+      ],
+      "evaluated_only_fraction": 0.746031746031746,
+      "warning": "Conditional on unconfirmed proposals and this boundary view. No sampling CI or official condition effect; unknown is not Incorrect."
+    },
+    "task_success": {
+      "eligible": 72,
+      "known": 71,
+      "unknown": 1,
+      "success_labels": 47,
+      "unresolved_sensitivity_bounds_counts": [
+        47,
+        48
+      ],
+      "unresolved_sensitivity_bounds_fraction": [
+        0.6527777777777778,
+        0.6666666666666666
+      ],
+      "evaluated_only_fraction": 0.6619718309859155,
+      "warning": "Conditional on unconfirmed proposals and this boundary view. No sampling CI or official condition effect; unknown is not Incorrect."
+    }
+  }
+}

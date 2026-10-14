@@ -1,0 +1,13 @@
+{
+  "version": "p1c_semantic_integrity_primary_freeze_v1",
+  "software_recorded_utc": "2026-10-14T07:38:33.534640+00:00",
+  "source_sha256": "2467cabf1d6df3ff7b997a4d10a097354c5ad61c322e42a37528489882fa6ac5",
+  "files": {
+    "reviewed_primary_proposals_UNCONFIRMED_v1.json": "144a63679d2267b725dacb90294d7b72cbfbb9a5c724f4ed1312e099c78f5068",
+    "reviewed_primary_proposals_UNCONFIRMED_v1.csv": "276a67c7a47994f6149834261b488a93399b100ac8fc1e2253f764f1d90d9285"
+  },
+  "method": "All masked rows re-read; separate rubric arguments. Original code used joint group defaults/updates, not independent rating passes.",
+  "prior_exposure": "Same analyst, prior structural and design knowledge. A schema-inspection command loaded protected mapping keys but failed before printing any record; no semantic treatment join or effect calculation. No independent blinding claim.",
+  "human_confirmations": 0,
+  "new_inference": 0
+}

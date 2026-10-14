@@ -1,0 +1,248 @@
+{
+  "version": "p1c_offline_boundary_baselines_v1",
+  "saved_generations": 72,
+  "new_generations": 0,
+  "methods": {
+    "frozen_v1": {
+      "returned_candidate": 64,
+      "reference_matches": {
+        "PRIMARY_CONTENT": 64,
+        "None": 8
+      },
+      "provisional_factual": {
+        "Correct": 43,
+        "Unverifiable": 1,
+        "Incorrect": 20
+      },
+      "provisional_temporal": {
+        "Correct": 43,
+        "Unverifiable": 6,
+        "Incorrect": 15
+      },
+      "provisional_task": {
+        "1": 43,
+        "None": 1,
+        "0": 20
+      },
+      "independent_boundary_accuracy": null
+    },
+    "native_eos_only": {
+      "returned_candidate": 2,
+      "reference_matches": {
+        "None": 72
+      },
+      "provisional_factual": {},
+      "provisional_temporal": {},
+      "provisional_task": {},
+      "independent_boundary_accuracy": null
+    },
+    "literal_role_stop_shadow": {
+      "returned_candidate": 71,
+      "reference_matches": {
+        "PRIMARY_CONTENT": 63,
+        "None": 9
+      },
+      "provisional_factual": {
+        "Correct": 42,
+        "Unverifiable": 1,
+        "Incorrect": 20
+      },
+      "provisional_temporal": {
+        "Correct": 42,
+        "Unverifiable": 6,
+        "Incorrect": 15
+      },
+      "provisional_task": {
+        "1": 42,
+        "None": 1,
+        "0": 20
+      },
+      "independent_boundary_accuracy": null
+    },
+    "role_or_section": {
+      "returned_candidate": 72,
+      "reference_matches": {
+        "PRIMARY_CONTENT": 64,
+        "PROPOSED_SECONDARY_CONTENT": 8
+      },
+      "provisional_factual": {
+        "Correct": 47,
+        "Unverifiable": 1,
+        "Incorrect": 24
+      },
+      "provisional_temporal": {
+        "Correct": 47,
+        "Unverifiable": 9,
+        "Incorrect": 16
+      },
+      "provisional_task": {
+        "1": 47,
+        "None": 1,
+        "0": 24
+      },
+      "independent_boundary_accuracy": null
+    },
+    "fence_aware_role_or_section": {
+      "returned_candidate": 72,
+      "reference_matches": {
+        "PRIMARY_CONTENT": 64,
+        "PROPOSED_SECONDARY_CONTENT": 8
+      },
+      "provisional_factual": {
+        "Correct": 47,
+        "Unverifiable": 1,
+        "Incorrect": 24
+      },
+      "provisional_temporal": {
+        "Correct": 47,
+        "Unverifiable": 9,
+        "Incorrect": 16
+      },
+      "provisional_task": {
+        "1": 47,
+        "None": 1,
+        "0": 24
+      },
+      "independent_boundary_accuracy": null
+    }
+  },
+  "timing": {
+    "frozen_v1": {
+      "median_cpu_ns_per_record": 65104.166666666664,
+      "median_wall_ns_per_record": 64230.583333333336,
+      "cpu_batch_ns_per_record": [
+        60763.88888888889,
+        65104.166666666664,
+        65104.166666666664,
+        65104.166666666664,
+        56423.61111111111
+      ],
+      "wall_batch_ns_per_record": [
+        62475.694444444445,
+        65863.83333333333,
+        64962.36111111111,
+        63483.833333333336,
+        64230.583333333336
+      ],
+      "one_pass_traced_python_peak_bytes": 5281,
+      "scope": "Includes native JSON decoding; files preloaded. Tracemalloc is not process peak RAM. Python-only extraction, not model runtime."
+    },
+    "native_eos_only": {
+      "median_cpu_ns_per_record": 4340.277777777777,
+      "median_wall_ns_per_record": 2843.222222222222,
+      "cpu_batch_ns_per_record": [
+        4340.277777777777,
+        4340.277777777777,
+        0.0,
+        4340.277777777777,
+        4340.277777777777
+      ],
+      "wall_batch_ns_per_record": [
+        2677.9444444444443,
+        2961.25,
+        2732.4166666666665,
+        2843.222222222222,
+        2879.1111111111113
+      ],
+      "one_pass_traced_python_peak_bytes": 1459,
+      "scope": "Includes native JSON decoding; files preloaded. Tracemalloc is not process peak RAM. Python-only extraction, not model runtime."
+    },
+    "literal_role_stop_shadow": {
+      "median_cpu_ns_per_record": 4340.277777777777,
+      "median_wall_ns_per_record": 4814.25,
+      "cpu_batch_ns_per_record": [
+        4340.277777777777,
+        4340.277777777777,
+        4340.277777777777,
+        4340.277777777777,
+        4340.277777777777
+      ],
+      "wall_batch_ns_per_record": [
+        4501.416666666667,
+        4593.083333333333,
+        4987.166666666667,
+        4814.25,
+        5771.5
+      ],
+      "one_pass_traced_python_peak_bytes": 1459,
+      "scope": "Includes native JSON decoding; files preloaded. Tracemalloc is not process peak RAM. Python-only extraction, not model runtime."
+    },
+    "role_or_section": {
+      "median_cpu_ns_per_record": 17361.11111111111,
+      "median_wall_ns_per_record": 17286.25,
+      "cpu_batch_ns_per_record": [
+        17361.11111111111,
+        17361.11111111111,
+        17361.11111111111,
+        13020.833333333334,
+        17361.11111111111
+      ],
+      "wall_batch_ns_per_record": [
+        17245.88888888889,
+        17286.25,
+        17334.63888888889,
+        16834.305555555555,
+        17531.333333333332
+      ],
+      "one_pass_traced_python_peak_bytes": 2066,
+      "scope": "Includes native JSON decoding; files preloaded. Tracemalloc is not process peak RAM. Python-only extraction, not model runtime."
+    },
+    "fence_aware_role_or_section": {
+      "median_cpu_ns_per_record": 13020.833333333334,
+      "median_wall_ns_per_record": 10587.555555555555,
+      "cpu_batch_ns_per_record": [
+        13020.833333333334,
+        8680.555555555555,
+        13020.833333333334,
+        4340.277777777777,
+        13020.833333333334
+      ],
+      "wall_batch_ns_per_record": [
+        10319.305555555555,
+        10963.722222222223,
+        11513.972222222223,
+        10477.138888888889,
+        10587.555555555555
+      ],
+      "one_pass_traced_python_peak_bytes": 2633,
+      "scope": "Includes native JSON decoding; files preloaded. Tracemalloc is not process peak RAM. Python-only extraction, not model runtime."
+    }
+  },
+  "python": "3.14.3",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "fixture_summary": {
+    "frozen_v1": {
+      "matching_content": 3,
+      "false_splits": 0,
+      "abstentions": 9,
+      "denominator": 12
+    },
+    "native_eos_only": {
+      "matching_content": 7,
+      "false_splits": 0,
+      "abstentions": 0,
+      "denominator": 12
+    },
+    "literal_role_stop_shadow": {
+      "matching_content": 8,
+      "false_splits": 2,
+      "abstentions": 0,
+      "denominator": 12
+    },
+    "role_or_section": {
+      "matching_content": 6,
+      "false_splits": 6,
+      "abstentions": 0,
+      "denominator": 12
+    },
+    "fence_aware_role_or_section": {
+      "matching_content": 10,
+      "false_splits": 2,
+      "abstentions": 0,
+      "denominator": 12
+    }
+  },
+  "limitations": "Development reference agreement is circular, not independently annotated accuracy. Literal stop shadows are post-hoc truncation, not regenerated stop-sequence counterfactuals. Official template/constrained decoding require future generation and are not run.",
+  "semantic_effect_analysis": false,
+  "human_ratings_created": false
+}

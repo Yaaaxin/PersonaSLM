@@ -1,0 +1,19 @@
+{
+  "source": "docs\\validation\\p1b\\confirmed_analysis_v1\\analysis_v1\\unblinded_analysis_dataset_v1.json",
+  "source_sha256": "4c9d6497d1cf019c72c352a5b41ecc2d0567f29b5f5a2d19fde738bebe43a1d2",
+  "records": 192,
+  "factual": {
+    "Correct": 137,
+    "Unverifiable": 21,
+    "Incorrect": 34
+  },
+  "delivery": {
+    "PARTIAL_ANSWER": 27,
+    "NO_FINAL_ANSWER": 21,
+    "FULL_ANSWER": 110,
+    "WRONG_ANSWER_DELIVERED": 33,
+    "PARTIAL_WITH_FALSE_CLAIM": 1
+  },
+  "correct_partial": 27,
+  "scope": "Historical confirmed coding, separate dataset. No pooling or causal between-wave comparison."
+}

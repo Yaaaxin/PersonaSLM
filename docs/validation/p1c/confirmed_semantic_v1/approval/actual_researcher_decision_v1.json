@@ -1,0 +1,33 @@
+{
+  "version": "p1c_integrity_annotation_confirmation_v1",
+  "reviewer_id": "Yaxin_ZHENG",
+  "review_status": "RESEARCHER_CONFIRMED",
+  "decision_source": "researcher_confirmation",
+  "confirmation_statement": "PersonaSLM — Final P1c Researcher Confirmation\n\nResearcher: Yaxin ZHENG\n\nDECISION: APPROVED WITH DOCUMENTED LIMITATIONS\n\nI explicitly adopt Option 1.\n\nI approve the reviewed 72-item primary semantic\nannotation proposal documented in:\n\ndocs/P1c_final_annotation_confirmation_packet_v1.md\n\nExpected SHA-256:\n4989e36d8d862c5995221b470adb8c9620ba7023ffc8ebf9d492cda18f6fc817\n\nThis approval includes:\n\n1. The reviewed primary ratings for all 72 outputs.\n\n2. The six ordinal rating revisions affecting\n   five records.\n\n3. The two additional PC023 ordinal revisions\n   in the sensitivity view.\n\n4. The existing documented interpretation\n   limitations concerning PC004, PC006, PC023,\n   and the five entity/temporal ambiguity cases.\n\n5. Preservation of the original 72 responses,\n   original annotations, structural classifications,\n   evidence records and audit history.\n\nBOUNDARY SENSITIVITY DECISION:\n\nI approve the eight alternative first-reply\nprefixes EXCLUSIVELY for sensitivity analysis.\n\nThey must not replace the primary evaluation view.\n\nTheir original AMBIGUOUS classifications\nmust remain unchanged.\n\nThe eight alternative boundaries are not\ndeclared uniquely correct.\n\nSCIENTIFIC INTERPRETATION:\n\nThe registered R/T contrasts retain their\nrestricted package-level interpretation.\n\nThis approval does not establish pure relevance\nor pure temporal mechanisms.\n\nUnverifiable, boundary uncertainty, missingness\nand semantic ambiguity must remain distinguishable.\n\nANNOTATION PROVENANCE:\n\nRegister these scores as researcher-adopted\nAI-assisted annotations.\n\nDo not describe them as independently generated\nhuman ratings.\n\nDo not fabricate independent annotators,\nreview timestamps or inter-rater agreement.\n\nEXECUTION AUTHORIZATION:\n\nAfter verifying the exact approved file hashes:\n\n1. Register this researcher confirmation.\n2. Freeze the confirmed annotation snapshot.\n3. Preserve all original AI proposals.\n4. Execute the previously approved\n   16 exploratory P1c contrasts.\n5. Perform paired, speaker-aware uncertainty analysis.\n6. Perform boundary and missingness sensitivity analysis.\n7. Investigate task-family heterogeneity.\n8. Update the scientific novelty assessment.\n9. Continue development-only algorithmic baseline research.\n10. Prepare independent experimental validation.\n\nNo additional approval is required for\nthe already authorized statistical analysis.\n\nDo not execute new model inference.\n\nDo not modify frozen experimental materials.\n\nDo not claim new algorithmic originality\nwithout independent evidence and prior-art comparison.\n\nDo not execute git commit or git push.\n\nProceed autonomously.\n",
+  "human_review_timestamp": null,
+  "rating_version": "REVIEWED_RECOMMENDATIONS",
+  "include_boundary_sensitivity": true,
+  "corrections": [],
+  "source_sha256": {
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_primary_proposals_UNCONFIRMED_v1.json": "144a63679d2267b725dacb90294d7b72cbfbb9a5c724f4ed1312e099c78f5068",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_boundary_sensitivity_UNCONFIRMED_v2.json": "790e9f6210f3e0b465703911988343f89680a0650c83d51009c23be442f62a77",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\primary_sensitivity_specification_v1.json": "20d764c35a1ee8dfe5a4bf4121b46cfa5ea7885408e6a27afb9b3a402b2c6ba5",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\uncertainty_classification_v1.json": "9e5fbdaff48e1d4ee40b2831eacdb1671f82fbfa4703668297e956e7b30303f4",
+    "docs\\validation\\p1c\\final_review_v1\\estimand_registry_proposed_v1.json": "713a7679d5a606707f8075bae51d3fa5716a721eccf86f1f56cebc73b4bbc4e7",
+    "docs\\validation\\p1c\\final_review_v1\\evaluation_policy_proposed_v1.json": "1fe5bfb170f192e53ce566eebf304cbeb93b5014c08112c05f6b06caf122e7ca",
+    "docs\\validation\\p1c\\calibration_v1\\measurement_v1\\semantic_scoring_view_v1.csv": "1317cf06609f5f80721f95c2131ae596f32f9cb69029d555459f594cf4f7fcb3",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_review_v1\\analysis_preparation\\analysis_specification_v1.json": "a483acd81eefbe24b9dd4f0f8d0bc3d5a2c2d2e6c16d53835946547ea1ea2d09"
+  },
+  "allowed_rating_versions": [
+    "REVIEWED_RECOMMENDATIONS",
+    "ORIGINAL_PROPOSALS"
+  ],
+  "scope": "Adopt/correct 72 AI proposals and optional eight-prefix sensitivity, including disclosed uncertainty. Original experiment and estimands unchanged.",
+  "provenance": "AI-assisted assessment and non-independent reinspection, then actual researcher adoption; no independent human agreement claim.",
+  "approval_scope": "APPROVED WITH DOCUMENTED LIMITATIONS",
+  "final_decision_authority": "researcher",
+  "packet_path": "docs\\P1c_final_annotation_confirmation_packet_v1.md",
+  "packet_sha256": "4989e36d8d862c5995221b470adb8c9620ba7023ffc8ebf9d492cda18f6fc817",
+  "actual_confirmation_source_path": "docs\\validation\\p1c\\confirmed_semantic_v1\\approval\\researcher_confirmation_source_v1.txt",
+  "actual_confirmation_source_sha256": "d429abf30a9151dbf2d0fcb7e6da316d2d8ed50b353358e4f0d9a6d5b3633e17"
+}

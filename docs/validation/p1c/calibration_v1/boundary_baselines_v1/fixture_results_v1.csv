@@ -1,0 +1,166 @@
+﻿fixture_id,method,candidate,matches_authored_reference,abstained,false_split,scope
+role_transition,frozen_v1,"Answer.
+",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+role_transition,native_eos_only,"Answer.
+User: Next?",False,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+role_transition,literal_role_stop_shadow,Answer.,True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+role_transition,role_or_section,"Answer.
+",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+role_transition,fence_aware_role_or_section,"Answer.
+",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+assistant_replay,frozen_v1,"Answer.
+",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+assistant_replay,native_eos_only,"Answer.
+Assistant: Another answer.",False,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+assistant_replay,literal_role_stop_shadow,Answer.,True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+assistant_replay,role_or_section,"Answer.
+",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+assistant_replay,fence_aware_role_or_section,"Answer.
+",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+question_heading,frozen_v1,,False,True,False,"Diagnostic fixture result only, not independent empirical accuracy."
+question_heading,native_eos_only,"Answer.
+
+USER QUESTION:
+Next?",False,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+question_heading,literal_role_stop_shadow,"Answer.
+
+USER QUESTION:
+Next?",False,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+question_heading,role_or_section,"Answer.
+
+",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+question_heading,fence_aware_role_or_section,"Answer.
+
+",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+context_heading,frozen_v1,,False,True,False,"Diagnostic fixture result only, not independent empirical accuracy."
+context_heading,native_eos_only,"Answer.
+
+RECENT CONVERSATION:
+User: Next?",False,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+context_heading,literal_role_stop_shadow,"Answer.
+
+RECENT CONVERSATION:",False,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+context_heading,role_or_section,"Answer.
+
+",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+context_heading,fence_aware_role_or_section,"Answer.
+
+",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+fenced_role,frozen_v1,,False,True,False,"Diagnostic fixture result only, not independent empirical accuracy."
+fenced_role,native_eos_only,"Example:
+```text
+User: literal label
+```
+Done.",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+fenced_role,literal_role_stop_shadow,"Example:
+```text",False,False,True,"Diagnostic fixture result only, not independent empirical accuracy."
+fenced_role,role_or_section,"Example:
+```text
+",False,False,True,"Diagnostic fixture result only, not independent empirical accuracy."
+fenced_role,fence_aware_role_or_section,"Example:
+```text
+User: literal label
+```
+Done.",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+fenced_heading,frozen_v1,,False,True,False,"Diagnostic fixture result only, not independent empirical accuracy."
+fenced_heading,native_eos_only,"Example:
+```text
+USER QUESTION:
+literal
+```
+Done.",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+fenced_heading,literal_role_stop_shadow,"Example:
+```text
+USER QUESTION:
+literal
+```
+Done.",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+fenced_heading,role_or_section,"Example:
+```text
+",False,False,True,"Diagnostic fixture result only, not independent empirical accuracy."
+fenced_heading,fence_aware_role_or_section,"Example:
+```text
+USER QUESTION:
+literal
+```
+Done.",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+tilde_heading,frozen_v1,,False,True,False,"Diagnostic fixture result only, not independent empirical accuracy."
+tilde_heading,native_eos_only,"Example:
+~~~
+RECENT CONVERSATION:
+literal
+~~~
+Done.",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+tilde_heading,literal_role_stop_shadow,"Example:
+~~~
+RECENT CONVERSATION:
+literal
+~~~
+Done.",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+tilde_heading,role_or_section,"Example:
+~~~
+",False,False,True,"Diagnostic fixture result only, not independent empirical accuracy."
+tilde_heading,fence_aware_role_or_section,"Example:
+~~~
+RECENT CONVERSATION:
+literal
+~~~
+Done.",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+multiline_quote,frozen_v1,,False,True,False,"Diagnostic fixture result only, not independent empirical accuracy."
+multiline_quote,native_eos_only,"The quotation is:
+""
+USER QUESTION:
+literal
+""
+Done.",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+multiline_quote,literal_role_stop_shadow,"The quotation is:
+""
+USER QUESTION:
+literal
+""
+Done.",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+multiline_quote,role_or_section,"The quotation is:
+""
+",False,False,True,"Diagnostic fixture result only, not independent empirical accuracy."
+multiline_quote,fence_aware_role_or_section,"The quotation is:
+""
+",False,False,True,"Diagnostic fixture result only, not independent empirical accuracy."
+document_heading,frozen_v1,,False,True,False,"Diagnostic fixture result only, not independent empirical accuracy."
+document_heading,native_eos_only,"The requested document follows.
+USER QUESTION:
+A heading within the requested document.",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+document_heading,literal_role_stop_shadow,"The requested document follows.
+USER QUESTION:
+A heading within the requested document.",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+document_heading,role_or_section,"The requested document follows.
+",False,False,True,"Diagnostic fixture result only, not independent empirical accuracy."
+document_heading,fence_aware_role_or_section,"The requested document follows.
+",False,False,True,"Diagnostic fixture result only, not independent empirical accuracy."
+plain_eos,frozen_v1,A complete answer.,True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+plain_eos,native_eos_only,A complete answer.,True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+plain_eos,literal_role_stop_shadow,A complete answer.,True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+plain_eos,role_or_section,A complete answer.,True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+plain_eos,fence_aware_role_or_section,A complete answer.,True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+inline_role,frozen_v1,,False,True,False,"Diagnostic fixture result only, not independent empirical accuracy."
+inline_role,native_eos_only,The literal User: string is part of my explanation.,True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+inline_role,literal_role_stop_shadow,The literal User: string is part of my explanation.,True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+inline_role,role_or_section,The literal User: string is part of my explanation.,True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+inline_role,fence_aware_role_or_section,The literal User: string is part of my explanation.,True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+fence_then_transition,frozen_v1,,False,True,False,"Diagnostic fixture result only, not independent empirical accuracy."
+fence_then_transition,native_eos_only,"Example:
+```
+User: literal
+```
+Done.
+User: Next?",False,False,False,"Diagnostic fixture result only, not independent empirical accuracy."
+fence_then_transition,literal_role_stop_shadow,"Example:
+```",False,False,True,"Diagnostic fixture result only, not independent empirical accuracy."
+fence_then_transition,role_or_section,"Example:
+```
+",False,False,True,"Diagnostic fixture result only, not independent empirical accuracy."
+fence_then_transition,fence_aware_role_or_section,"Example:
+```
+User: literal
+```
+Done.
+",True,False,False,"Diagnostic fixture result only, not independent empirical accuracy."

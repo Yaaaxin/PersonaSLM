@@ -1,0 +1,41 @@
+{
+  "version": "p1c_semantic_literature_opportunities_v1",
+  "maintainer": "Yaxin ZHENG",
+  "search_scope": "Targeted primary-source verification; not exhaustive systematic review",
+  "search_topics_and_reproducible_query_terms": [
+    "When Personalization Misleads exact title",
+    "What to Admit and How to Present exact title",
+    "LongMemEval ICLR 2025",
+    "Persistent Personas exact title",
+    "site.aclanthology.org Chain of Verification Reduces Hallucination Large Language Models 2024",
+    "site.aclanthology.org RARR Researching and Revising What Language Models Say Using Language Models"
+  ],
+  "primary_sources": [
+    {"title": "When Personalization Misleads: Understanding and Mitigating Hallucinations in Personalized LLMs", "url": "https://aclanthology.org/2026.findings-acl.395/", "status": "Findings ACL 2026", "checked": "Official metadata; PDF sections 4-5; FPPS and PFQABench"},
+    {"title": "What to Admit and How to Present: Governing Persistent Memory in LLM Agents", "url": "https://arxiv.org/html/2610.11188v1", "status": "Preprint", "checked": "Sections 3-5; admission versus presentation; FC/PS and PN/CH"},
+    {"title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory", "url": "https://arxiv.org/html/2410.10813v2", "venue_source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/d813d324dbf0598bbdc9c8e79740ed01-Abstract-Conference.html", "status": "ICLR 2025", "checked": "Sections 5.3-5.5; indexing, time-aware retrieval, structured reading"},
+    {"title": "Persistent Personas? Role-Playing, Instruction Following, and Safety in Extended Interactions", "url": "https://aclanthology.org/2026.eacl-long.246/", "status": "EACL 2026", "checked": "PDF sections 3-4 and reported result context; shared queries and dialogue-prefix intervention"},
+    {"title": "TwinVoice: A Multi-dimensional Benchmark Towards Digital Twins via LLM Persona Simulation", "url": "https://aclanthology.org/2026.findings-acl.981/", "status": "Findings ACL 2026", "checked": "Methods and sections 4.1-4.2; full statistical appendix NOT FULLY VERIFIED"},
+    {"title": "Wiki-Talkie: Multilingual Benchmarking of Persona-Based Agents on Real-World Discussions", "url": "https://arxiv.org/html/2610.08513v1", "status": "Preprint", "checked": "Sections 3-4; next-turn task and conditioning; model identities anonymized"},
+    {"title": "Decoupling Logic from Persona: Structural Immunity of Edge LLM Agents to Context Pollution", "url": "https://arxiv.org/html/2610.09772v2", "status": "Preprint", "checked": "Sections 3-5; AO-DA, paired architecture comparisons, raw versus parsed scores, low-pollution null"},
+    {"title": "Chain-of-Verification Reduces Hallucination in Large Language Models", "url": "https://aclanthology.org/2024.findings-acl.212/", "status": "Findings ACL 2024", "checked": "PDF section 3 and factored verification design"},
+    {"title": "RARR: Researching and Revising What Language Models Say, Using Language Models", "url": "https://aclanthology.org/2023.acl-long.910/", "status": "ACL 2023", "checked": "PDF section 3; attribution research and disagreement-based revision"}
+  ],
+  "implementation_replications": 0,
+  "full_appendix_and_statistics_reproduction": "NOT_PERFORMED",
+  "opportunities": [
+    {"id": "temporal_entity_resolution", "observed_failure_modes": "AI-proposed 15 wrong-period and five other-entity errors among primary identifiable replies; human confirmation pending", "existing_methods": ["query-time filtering", "LongMemEval time-aware retrieval", "structured reading", "CUPMem prior-audit candidate"], "potential_improvement": "Joint query-entity-attribute-interval binding only if a residual failure survives simple joins", "validation_feasibility": "Independent historical/current queries, equal evidence, entity/time ablations, separate fidelity and measured CPU cost", "publication_value": "Conditional empirical diagnosis; originality UNVERIFIED", "status": "INCREMENTAL_CANDIDATE_NO_IMPLEMENTATION"},
+    {"id": "history_relevance_gating", "observed_failure_modes": "No confirmed P1c semantic package effect yet", "existing_methods": ["lexical/semantic retrieval", "random equal-budget selection", "FC", "PS"], "potential_improvement": "Preserve useful history while restricting unsupported influence", "validation_feasibility": "Requires confirmed labels, independently identified interference, equal retrieval/generation budgets", "publication_value": "Direct prior-art overlap; no novel mechanism claim", "status": "HYPOTHESIS_ONLY"},
+    {"id": "persona_evidence_separation", "observed_failure_modes": "P1b development package differences; P1c has no persona-fidelity target", "existing_methods": ["FPPS", "AO-DA", "mixed/separated prompts"], "potential_improvement": "Reliability-preserving expression without deleting all persona utility", "validation_feasibility": "Independent fidelity measure and fair access/compute-controlled baselines needed", "publication_value": "Existing method family; no demonstrated remaining algorithmic gap", "status": "PRIOR_ART_DOMINATED"},
+    {"id": "answer_component_verification", "observed_failure_modes": "P1b literal baseline has five false positives; P1c proposed entity/attribute and component errors", "existing_methods": ["literal component baseline", "typed evidence join", "CoVe", "RARR"], "potential_improvement": "Distinguish target assertions, promises, alternatives and intermediate-only facts", "validation_feasibility": "Separate development/held-out templates, no gold-answer input at deployment, ablate answer-act/entity/time checks", "publication_value": "Potential measurement utility; new algorithm not established", "status": "INCREMENTAL_CANDIDATE_NO_IMPLEMENTATION"},
+    {"id": "response_boundary_management", "observed_failure_modes": "Eight frozen ambiguous section-header continuations; all alternative prefixes await human adjudication", "existing_methods": ["response_status_v1", "native EOS", "role-delimiter splitting", "literal-header baseline", "official templates"], "potential_improvement": "Abstaining state-aware extraction that avoids false splits inside quotes/code", "validation_feasibility": "Proposed separate 24 development plus 24 held-out synthetic fixtures; no generation; false-split and abstention metrics", "publication_value": "Measurement validation first; delimiter handling is known engineering", "status": "BOUNDED_OFFLINE_PROTOTYPE_PLAN_ONLY"},
+    {"id": "interaction_aware_conditioning", "observed_failure_modes": "No researcher-confirmed P1c semantic interaction estimated", "existing_methods": ["fixed conditioning", "existing relevance/admission policies"], "potential_improvement": "Conditional routing only after independently replicated interaction", "validation_feasibility": "Six clusters and unconfirmed labels are insufficient", "publication_value": "Do not infer innovation from a nonzero pilot estimate", "status": "DEFERRED_INSUFFICIENT_EVIDENCE"}
+  ],
+  "rejected_claims": [
+    "Header splitting is an original algorithm",
+    "Unverifiable means Incorrect",
+    "Current P1c identifies stale-answer competition",
+    "AI-assisted researcher confirmation creates independent inter-annotator agreement",
+    "A larger error count establishes publication readiness"
+  ]
+}

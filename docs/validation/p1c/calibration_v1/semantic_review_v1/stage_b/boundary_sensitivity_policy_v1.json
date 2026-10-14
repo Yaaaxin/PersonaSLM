@@ -1,0 +1,19 @@
+{
+  "version": "p1c_heading_prefix_sensitivity_v1",
+  "status": "POST_HOC_DIAGNOSTIC_UNCONFIRMED",
+  "primary_parser_unchanged": "response_status_v1",
+  "applicable_records": [
+    "PC010",
+    "PC023",
+    "PC033",
+    "PC039",
+    "PC042",
+    "PC044",
+    "PC054",
+    "PC063"
+  ],
+  "view": "For eight frozen ambiguous records only, preserve the literal prefix before the first observed double-newline USER QUESTION or RECENT CONVERSATION heading. Keep exact offsets and bytes; never select a later answer.",
+  "selection": "All eight ambiguous records retained, irrespective of proposed answer correctness. The rule was specified after these outputs were observed.",
+  "limitations": "This is not a generally validated parser, repaired generation, native stop policy or newly invented first reply. No improvement on independent data is established.",
+  "human_approval": "Required before treating secondary views/ratings as confirmed; no change to primary estimand."
+}

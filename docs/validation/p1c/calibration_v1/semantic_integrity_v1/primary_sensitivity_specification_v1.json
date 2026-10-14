@@ -1,0 +1,145 @@
+{
+  "version": "p1c_measurement_integrity_specification_v1",
+  "registered_contrasts": {
+    "N_history-H_none": {
+      "H_none": -1,
+      "N_history": 1,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -0.5,
+      "R0T1": -0.5,
+      "R1T0": 0.5,
+      "R1T1": 0.5
+    },
+    "R0T0-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 1,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T0-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 1,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T1-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 1,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T1-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 0,
+      "R0T1": 1,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R0T1-R0T0": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -1,
+      "R0T1": 1,
+      "R1T0": 0,
+      "R1T1": 0
+    },
+    "R1T0-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 1,
+      "R1T1": 0
+    },
+    "R1T0-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 1,
+      "R1T1": 0
+    },
+    "R1T0-R0T0": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -1,
+      "R0T1": 0,
+      "R1T0": 1,
+      "R1T1": 0
+    },
+    "R1T1-H_none": {
+      "H_none": -1,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 1
+    },
+    "R1T1-N_history": {
+      "H_none": 0,
+      "N_history": -1,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": 0,
+      "R1T1": 1
+    },
+    "R1T1-R0T1": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": -1,
+      "R1T0": 0,
+      "R1T1": 1
+    },
+    "R1T1-R1T0": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": 0,
+      "R0T1": 0,
+      "R1T0": -1,
+      "R1T1": 1
+    },
+    "RxT": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": 1,
+      "R0T1": -1,
+      "R1T0": -1,
+      "R1T1": 1
+    },
+    "T": {
+      "H_none": 0,
+      "N_history": 0,
+      "R0T0": -0.5,
+      "R0T1": 0.5,
+      "R1T0": -0.5,
+      "R1T1": 0.5
+    }
+  },
+  "registry_sha256": "713a7679d5a606707f8075bae51d3fa5716a721eccf86f1f56cebc73b4bbc4e7",
+  "primary_unit": "Original frozen first reply; eight unresolved remain unscorable.",
+  "secondary_unit": "Only eight exact archived prefix offsets; all six conditions and twelve cases retained.",
+  "measurement_states": "Explanatory flags do not silently recode categorical endpoints or alter applicability.",
+  "primary_ordinal_corrections": "Six proposed field changes in five records, pending the single annotation confirmation.",
+  "secondary_additional_corrections": "PC023 relevance/coherence 4 to 5, pending the same confirmation.",
+  "uncertainty": "Original signed worst/best bounds; no surviving-cell reweighting; six speaker clusters.",
+  "bootstrap_seed": 715004,
+  "bootstrap_draws": 10000,
+  "official_analysis": "BLOCKED_UNTIL_EXPLICIT_CONFIRMED_SNAPSHOT",
+  "primary_proposal_sha256": "144a63679d2267b725dacb90294d7b72cbfbb9a5c724f4ed1312e099c78f5068",
+  "secondary_proposal_sha256": "790e9f6210f3e0b465703911988343f89680a0650c83d51009c23be442f62a77"
+}

@@ -1,0 +1,38 @@
+{
+  "version": "p1c_annotation_integrity_provenance_v1",
+  "software_recorded_utc": "2026-10-14T07:53:17.869771+00:00",
+  "maintainer": "Yaxin ZHENG",
+  "annotation_origin": "AI_assisted_condition_masked_proposal_and_non_independent_AI_reinspection",
+  "human_review_status": "PENDING",
+  "human_review_timestamp": null,
+  "human_confirmed_records": 0,
+  "source_sha256": {
+    "docs\\validation\\p1c\\calibration_v1\\semantic_review_v1\\stage_a\\semantic_proposals_UNCONFIRMED_v1.json": "2467cabf1d6df3ff7b997a4d10a097354c5ad61c322e42a37528489882fa6ac5",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_review_v1\\stage_a\\semantic_proposals_UNCONFIRMED_v1.csv": "0b86587c9d09a4cc976f3bbcce05f1307dc79ec4065f32ab12118f46efa2bdc8",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_review_v1\\stage_b\\boundary_sensitivity_proposals_UNCONFIRMED_v1.json": "0df06bf52f11ad8e9071b398b1ae1f27772645caddbc680f3ed55369dfe5ae1a",
+    "docs\\validation\\p1c\\calibration_v1\\measurement_v1\\semantic_scoring_view_v1.csv": "1317cf06609f5f80721f95c2131ae596f32f9cb69029d555459f594cf4f7fcb3",
+    "docs\\validation\\p1c\\final_review_v1\\evaluation_policy_proposed_v1.json": "1fe5bfb170f192e53ce566eebf304cbeb93b5014c08112c05f6b06caf122e7ca",
+    "docs\\validation\\p1c\\final_review_v1\\estimand_registry_proposed_v1.json": "713a7679d5a606707f8075bae51d3fa5716a721eccf86f1f56cebc73b4bbc4e7",
+    "docs\\validation\\p1c\\authorization_v2\\researcher_consolidated_approval_v1.json": "aa1cf2a59a9fea995a3aa3300952bdd16b89bd4ed745d5567e5e7a18e4d0faca"
+  },
+  "active_reviewed_primary": {
+    "json": "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_primary_proposals_UNCONFIRMED_v1.json",
+    "sha256": "144a63679d2267b725dacb90294d7b72cbfbb9a5c724f4ed1312e099c78f5068",
+    "records": 72
+  },
+  "active_secondary": {
+    "json": "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_boundary_sensitivity_UNCONFIRMED_v2.json",
+    "sha256": "790e9f6210f3e0b465703911988343f89680a0650c83d51009c23be442f62a77",
+    "records": 72,
+    "changed_boundary_units": 8
+  },
+  "primary_reinspection_freeze_sha256": "f2f70bd819871dd841881638c5293a25f8e6f750a79623aa45868b5aa6ff883b",
+  "same_analyst": true,
+  "independent_second_reviewer": false,
+  "perfect_blinding_claim": false,
+  "masking": "Reviewer files exclude assignments, structural status and full continuation. Prior analytical exposure and linguistic cues remain; failed schema inspection loaded mapping keys, printed no assignment records. Stage B full prompts reviewed only after primary freeze.",
+  "corrections": "Six ordinal field recommendations in five primary records; additionally two PC023 secondary fields. All require actual researcher adoption.",
+  "failed_export": "failed_secondary_export_v1.json records preserved incomplete v1; active secondary is v2.",
+  "official_semantic_effects_computed": false,
+  "new_inference": 0
+}

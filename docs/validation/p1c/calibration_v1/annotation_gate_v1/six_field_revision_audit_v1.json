@@ -1,0 +1,134 @@
+[
+  {
+    "anonymous_response_id": "PC004",
+    "endpoint": "conversational_coherence",
+    "original_rating": 4,
+    "revised_proposed_rating": 5,
+    "original_supporting_explanation": "The reply follows the assignment conversation but introduces an attribute/date phrasing mismatch.",
+    "original_reply_quotation": " The schedule shows that Idris Fern’s parcel collection is assigned to the Cobalt collection desk.\n",
+    "question": "Using the schedule for 2042-12-15, give the destination room for parcel collection assigned to Idris Fern.",
+    "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+    "original_fact_quotations": [
+      "[p1c_speaker_05_f07] Idris Fern: parcel route = route 53; valid 2042-09-01 through 2042-12-31.",
+      "[p1c_speaker_05_f12] route 53: destination room = Cobalt; valid 2042-01-01 through 2042-12-31."
+    ],
+    "revised_interpretation": "PC004: The context establishes a dated schedule and requests an assignment to check. This named-target declarative assignment continues that topic; no dangling reference or discourse transition failure is evident. A false assignment remains a factual failure.",
+    "reason_for_correction": "Keep truth/attribute uncertainty separate from discourse coherence and direct request alignment.",
+    "rubric_consistency": "CONSISTENT_AI_RECOMMENDATION_NOT_HUMAN_VERDICT",
+    "rubric_path": "docs\\annotation_guidelines.md",
+    "rubric_sha256": "dfc9e482f2167801fddd399b45bb33dcc1afc39946373ff682d63fe85751d92f",
+    "alternative_score": 4,
+    "confidence": "MODERATE",
+    "researcher_decision": ""
+  },
+  {
+    "anonymous_response_id": "PC006",
+    "endpoint": "response_relevance",
+    "original_rating": 4,
+    "revised_proposed_rating": 5,
+    "original_supporting_explanation": "The assignment topic is addressed, but attribute/calendar wording weakens exact alignment with the question.",
+    "original_reply_quotation": " Elian Moss is assigned to the Orchid collection desk on Thursday, 2042-12-15.\n",
+    "question": "Using the schedule for 2042-12-15, give the collection desk and service day assigned to Elian Moss.",
+    "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+    "original_fact_quotations": [
+      "[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.",
+      "[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31."
+    ],
+    "revised_interpretation": "PC006: The reply directly attempts the requested assignment fields ['Orchid', 'Thursday']; correctness is evaluated on another axis.",
+    "reason_for_correction": "Keep truth/attribute uncertainty separate from discourse coherence and direct request alignment.",
+    "rubric_consistency": "CONSISTENT_AI_RECOMMENDATION_NOT_HUMAN_VERDICT",
+    "rubric_path": "docs\\annotation_guidelines.md",
+    "rubric_sha256": "dfc9e482f2167801fddd399b45bb33dcc1afc39946373ff682d63fe85751d92f",
+    "alternative_score": 4,
+    "confidence": "MODERATE",
+    "researcher_decision": ""
+  },
+  {
+    "anonymous_response_id": "PC006",
+    "endpoint": "conversational_coherence",
+    "original_rating": 4,
+    "revised_proposed_rating": 5,
+    "original_supporting_explanation": "The reply follows the assignment conversation but introduces an attribute/date phrasing mismatch.",
+    "original_reply_quotation": " Elian Moss is assigned to the Orchid collection desk on Thursday, 2042-12-15.\n",
+    "question": "Using the schedule for 2042-12-15, give the collection desk and service day assigned to Elian Moss.",
+    "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+    "original_fact_quotations": [
+      "[p1c_speaker_03_f09] Elian Moss: collection desk = Orchid; valid 2042-09-01 through 2042-12-31.",
+      "[p1c_speaker_03_f10] Elian Moss: service day = Thursday; valid 2042-09-01 through 2042-12-31."
+    ],
+    "revised_interpretation": "PC006: The context establishes a dated schedule and requests an assignment to check. This named-target declarative assignment continues that topic; no dangling reference or discourse transition failure is evident. A false assignment remains a factual failure.",
+    "reason_for_correction": "Keep truth/attribute uncertainty separate from discourse coherence and direct request alignment.",
+    "rubric_consistency": "CONSISTENT_AI_RECOMMENDATION_NOT_HUMAN_VERDICT",
+    "rubric_path": "docs\\annotation_guidelines.md",
+    "rubric_sha256": "dfc9e482f2167801fddd399b45bb33dcc1afc39946373ff682d63fe85751d92f",
+    "alternative_score": 4,
+    "confidence": "MODERATE",
+    "researcher_decision": ""
+  },
+  {
+    "anonymous_response_id": "PC011",
+    "endpoint": "conversational_coherence",
+    "original_rating": 4,
+    "revised_proposed_rating": 5,
+    "original_supporting_explanation": "The reply follows the assignment conversation but introduces an attribute/date phrasing mismatch.",
+    "original_reply_quotation": " The schedule for 2042-06-15 shows that Idris Fern's parcel collection is assigned to the Laurel collection desk.\n",
+    "question": "Using the schedule for 2042-06-15, give the destination room for parcel collection assigned to Idris Fern.",
+    "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+    "original_fact_quotations": [
+      "[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.",
+      "[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31."
+    ],
+    "revised_interpretation": "PC011: The context establishes a dated schedule and requests an assignment to check. This named-target declarative assignment continues that topic; no dangling reference or discourse transition failure is evident. A false assignment remains a factual failure.",
+    "reason_for_correction": "Keep truth/attribute uncertainty separate from discourse coherence and direct request alignment.",
+    "rubric_consistency": "CONSISTENT_AI_RECOMMENDATION_NOT_HUMAN_VERDICT",
+    "rubric_path": "docs\\annotation_guidelines.md",
+    "rubric_sha256": "dfc9e482f2167801fddd399b45bb33dcc1afc39946373ff682d63fe85751d92f",
+    "alternative_score": 4,
+    "confidence": "MODERATE",
+    "researcher_decision": ""
+  },
+  {
+    "anonymous_response_id": "PC027",
+    "endpoint": "conversational_coherence",
+    "original_rating": 4,
+    "revised_proposed_rating": 5,
+    "original_supporting_explanation": "The reply follows the assignment conversation but introduces an attribute/date phrasing mismatch.",
+    "original_reply_quotation": " The schedule for 2042-06-15 shows that Idris Fern is assigned to the Laurel collection desk.\n",
+    "question": "Using the schedule for 2042-06-15, give the destination room for parcel collection assigned to Idris Fern.",
+    "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+    "original_fact_quotations": [
+      "[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.",
+      "[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31."
+    ],
+    "revised_interpretation": "PC027: The context establishes a dated schedule and requests an assignment to check. This named-target declarative assignment continues that topic; no dangling reference or discourse transition failure is evident. A false assignment remains a factual failure.",
+    "reason_for_correction": "Keep truth/attribute uncertainty separate from discourse coherence and direct request alignment.",
+    "rubric_consistency": "CONSISTENT_AI_RECOMMENDATION_NOT_HUMAN_VERDICT",
+    "rubric_path": "docs\\annotation_guidelines.md",
+    "rubric_sha256": "dfc9e482f2167801fddd399b45bb33dcc1afc39946373ff682d63fe85751d92f",
+    "alternative_score": 4,
+    "confidence": "MODERATE",
+    "researcher_decision": ""
+  },
+  {
+    "anonymous_response_id": "PC030",
+    "endpoint": "conversational_coherence",
+    "original_rating": 4,
+    "revised_proposed_rating": 5,
+    "original_supporting_explanation": "The reply follows the assignment conversation but introduces an attribute/date phrasing mismatch.",
+    "original_reply_quotation": " Idris Fern's parcel collection is assigned to the Laurel collection desk.\n",
+    "question": "Using the schedule for 2042-06-15, give the destination room for parcel collection assigned to Idris Fern.",
+    "fixed_context": "User: I have the dated schedule ready.\nAssistant: Which assignment would you like to check?",
+    "original_fact_quotations": [
+      "[p1c_speaker_05_f04] Idris Fern: parcel route = route 52; valid 2042-05-01 through 2042-08-31.",
+      "[p1c_speaker_05_f11] route 52: destination room = Silver; valid 2042-01-01 through 2042-12-31."
+    ],
+    "revised_interpretation": "PC030: The context establishes a dated schedule and requests an assignment to check. This named-target declarative assignment continues that topic; no dangling reference or discourse transition failure is evident. A false assignment remains a factual failure.",
+    "reason_for_correction": "Keep truth/attribute uncertainty separate from discourse coherence and direct request alignment.",
+    "rubric_consistency": "CONSISTENT_AI_RECOMMENDATION_NOT_HUMAN_VERDICT",
+    "rubric_path": "docs\\annotation_guidelines.md",
+    "rubric_sha256": "dfc9e482f2167801fddd399b45bb33dcc1afc39946373ff682d63fe85751d92f",
+    "alternative_score": 4,
+    "confidence": "MODERATE",
+    "researcher_decision": ""
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "primary": {
+    "factual_consistency": {
+      "distribution": {
+        "Correct": 43,
+        "Unverifiable": 9,
+        "Incorrect": 20
+      },
+      "non_null_distinct_values": [
+        "Correct",
+        "Incorrect",
+        "Unverifiable"
+      ]
+    },
+    "temporal_consistency": {
+      "distribution": {
+        "Correct": 43,
+        "Unverifiable": 14,
+        "Incorrect": 15
+      },
+      "non_null_distinct_values": [
+        "Correct",
+        "Incorrect",
+        "Unverifiable"
+      ]
+    },
+    "response_relevance": {
+      "distribution": {
+        "5": 60,
+        "4": 4,
+        "NULL": 8
+      },
+      "non_null_distinct_values": [
+        "4",
+        "5"
+      ]
+    },
+    "conversational_coherence": {
+      "distribution": {
+        "5": 64,
+        "NULL": 8
+      },
+      "non_null_distinct_values": [
+        "5"
+      ]
+    },
+    "task_success": {
+      "distribution": {
+        "1": 43,
+        "NULL": 9,
+        "0": 20
+      },
+      "non_null_distinct_values": [
+        "0",
+        "1"
+      ]
+    },
+    "component_coverage": {
+      "distribution": {
+        "1.0": 44,
+        "0.0": 20,
+        "NULL": 8
+      },
+      "non_null_distinct_values": [
+        "0.0",
+        "1.0"
+      ]
+    },
+    "semantic_completeness": {
+      "distribution": {
+        "YES": 64,
+        "UNCERTAIN": 8
+      },
+      "non_null_distinct_values": [
+        "UNCERTAIN",
+        "YES"
+      ]
+    }
+  },
+  "secondary": {
+    "factual_consistency": {
+      "distribution": {
+        "Correct": 47,
+        "Unverifiable": 1,
+        "Incorrect": 24
+      },
+      "non_null_distinct_values": [
+        "Correct",
+        "Incorrect",
+        "Unverifiable"
+      ]
+    },
+    "temporal_consistency": {
+      "distribution": {
+        "Correct": 47,
+        "Unverifiable": 9,
+        "Incorrect": 16
+      },
+      "non_null_distinct_values": [
+        "Correct",
+        "Incorrect",
+        "Unverifiable"
+      ]
+    },
+    "response_relevance": {
+      "distribution": {
+        "5": 68,
+        "4": 4
+      },
+      "non_null_distinct_values": [
+        "4",
+        "5"
+      ]
+    },
+    "conversational_coherence": {
+      "distribution": {
+        "5": 72
+      },
+      "non_null_distinct_values": [
+        "5"
+      ]
+    },
+    "task_success": {
+      "distribution": {
+        "1": 47,
+        "NULL": 1,
+        "0": 24
+      },
+      "non_null_distinct_values": [
+        "0",
+        "1"
+      ]
+    },
+    "component_coverage": {
+      "distribution": {
+        "1.0": 48,
+        "0.0": 23,
+        "0.5": 1
+      },
+      "non_null_distinct_values": [
+        "0.0",
+        "0.5",
+        "1.0"
+      ]
+    },
+    "semantic_completeness": {
+      "distribution": {
+        "YES": 72
+      },
+      "non_null_distinct_values": [
+        "YES"
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "version": "p1c_independent_validation_proposal_v1",
+  "status": "PROSPECTIVE_NOT_AUTHORIZED",
+  "measurement_validation": {
+    "preferred_existing_outputs": 72,
+    "new_model_calls": 0,
+    "reviewer_requirement": "Genuine second human, no prior AI labels; separate Stage A semantic and Stage B boundary decisions. No such reviewer is claimed available.",
+    "agreement": "Categorical confusion/raw agreement; nominal kappa only if estimable; weighted ordinal kappa; boundary exact/token-span agreement and abstention; speaker-cluster sensitivity and enriched-stratum disclosure."
+  },
+  "empirical_replication": {
+    "speaker_options": [
+      48,
+      96
+    ],
+    "cases_per_speaker": 2,
+    "cells_per_case": 6,
+    "families": [
+      "single_fact",
+      "multiple_components",
+      "entity_relation"
+    ],
+    "date_types": [
+      "current",
+      "historical"
+    ],
+    "allocation": "Balanced incomplete blocks: two distinct task families per speaker, one current and one historical, rotate family/date pairing across 12 blocks. 48 and 96 speakers permit four/eight replications per block. All six R/T/control cells paired within every case.",
+    "new_materials": "Fresh identities, independently assigned values and unseen wording templates; no inspected P1b/P1c case is held out.",
+    "primary_candidates": "Prospective six-test family: temporal Incorrect incidence and task success across R/T/RxT; not a change to current hierarchy. Must be approved before generation.",
+    "precision_targets_candidates": {
+      "main_halfwidth": 0.05,
+      "interaction_halfwidth": 0.1
+    },
+    "missingness_scenarios": [
+      0,
+      0.1,
+      0.25
+    ],
+    "selection": "Information and precision, never desired effect direction. No expansion or optional stopping based on significance.",
+    "controls": "Keep identical sufficient ledger; test actual orthogonality and answer-competition separation. Independently validate semantic controls and actual GGUF full prompt tokenization.",
+    "model_policy": "Retain pinned Base as reference; any Instruct arm uses separately frozen official template and identity. Configuration comparison is not pure post-training."
+  },
+  "reproducibility": "Freeze protocol, samples, prompts, token arrays, labels/policy, analysis, seeds and authorizations before independent generation; no test-set tuning.",
+  "new_inference": 0
+}

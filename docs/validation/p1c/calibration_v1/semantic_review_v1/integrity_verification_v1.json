@@ -1,0 +1,46 @@
+{
+  "version": "p1c_semantic_preservation_verification_v1",
+  "status": "PASS",
+  "verified_utc": "2026-10-14T07:15:28.614766+00:00",
+  "source_identity": {
+    "status": "PASS",
+    "source_files": 45,
+    "cases": 12,
+    "history_texts": 60,
+    "control_subset": 12,
+    "requests": 72,
+    "original_order": "PASS",
+    "actual_tokenizer_ID_records": 72,
+    "binary_identity": "PASS",
+    "new_generations": 0
+  },
+  "execution_reconstructed_twice": true,
+  "raw_http_response_bytes_verified": 72,
+  "original_run_event_files": 700,
+  "frozen_structure": {
+    "CROSS_TURN": 64,
+    "AMBIGUOUS": 8
+  },
+  "historical_experiment_files": 0,
+  "entry_tracked_files": 738,
+  "allowed_append_only_changes": [],
+  "review_source_files_unchanged": 7,
+  "applicability_counts": {
+    "factual_consistency": 72,
+    "temporal_consistency": 72,
+    "response_relevance": 72,
+    "conversational_coherence": 72,
+    "task_success": 72,
+    "component_coverage": 72,
+    "semantic_completeness": 72,
+    "structural_status": 72,
+    "persona_fidelity": 0
+  },
+  "frozen_manifest_sha256": "b0cf330d9dd5f7b59a186dc298c477a97bd86e06a29209805989a9f399fde02b",
+  "actual_binary_identity_verified": true,
+  "new_inference_requests": 0,
+  "human_semantic_confirmations": 0,
+  "formal_semantic_condition_effects": 0,
+  "git_head": "fc282d44eb199964ef974b2de8540311381c18aa",
+  "git_status": "?? docs/validation/p1c/calibration_v1/semantic_review_v1/\n?? tests/test_p1c_semantic_review.py\n?? tools/p1c_boundary_review.py\n?? tools/p1c_semantic_analysis.py\n?? tools/p1c_semantic_review.py\n?? tools/p1c_semantic_verify.py\n"
+}

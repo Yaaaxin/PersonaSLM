@@ -1,0 +1,110 @@
+[
+  {
+    "fixture_id": "role_transition",
+    "raw": "Answer.\nUser: Next?",
+    "native": {
+      "stop_type": "eos"
+    },
+    "authored_reference_content": "Answer.",
+    "provenance": "AI-authored diagnostic fixture; no human confirmation, independent evaluation or generation."
+  },
+  {
+    "fixture_id": "assistant_replay",
+    "raw": "Answer.\nAssistant: Another answer.",
+    "native": {
+      "stop_type": "eos"
+    },
+    "authored_reference_content": "Answer.",
+    "provenance": "AI-authored diagnostic fixture; no human confirmation, independent evaluation or generation."
+  },
+  {
+    "fixture_id": "question_heading",
+    "raw": "Answer.\n\nUSER QUESTION:\nNext?",
+    "native": {
+      "stop_type": "eos"
+    },
+    "authored_reference_content": "Answer.",
+    "provenance": "AI-authored diagnostic fixture; no human confirmation, independent evaluation or generation."
+  },
+  {
+    "fixture_id": "context_heading",
+    "raw": "Answer.\n\nRECENT CONVERSATION:\nUser: Next?",
+    "native": {
+      "stop_type": "eos"
+    },
+    "authored_reference_content": "Answer.",
+    "provenance": "AI-authored diagnostic fixture; no human confirmation, independent evaluation or generation."
+  },
+  {
+    "fixture_id": "fenced_role",
+    "raw": "Example:\n```text\nUser: literal label\n```\nDone.",
+    "native": {
+      "stop_type": "eos"
+    },
+    "authored_reference_content": "Example:\n```text\nUser: literal label\n```\nDone.",
+    "provenance": "AI-authored diagnostic fixture; no human confirmation, independent evaluation or generation."
+  },
+  {
+    "fixture_id": "fenced_heading",
+    "raw": "Example:\n```text\nUSER QUESTION:\nliteral\n```\nDone.",
+    "native": {
+      "stop_type": "eos"
+    },
+    "authored_reference_content": "Example:\n```text\nUSER QUESTION:\nliteral\n```\nDone.",
+    "provenance": "AI-authored diagnostic fixture; no human confirmation, independent evaluation or generation."
+  },
+  {
+    "fixture_id": "tilde_heading",
+    "raw": "Example:\n~~~\nRECENT CONVERSATION:\nliteral\n~~~\nDone.",
+    "native": {
+      "stop_type": "eos"
+    },
+    "authored_reference_content": "Example:\n~~~\nRECENT CONVERSATION:\nliteral\n~~~\nDone.",
+    "provenance": "AI-authored diagnostic fixture; no human confirmation, independent evaluation or generation."
+  },
+  {
+    "fixture_id": "multiline_quote",
+    "raw": "The quotation is:\n\"\nUSER QUESTION:\nliteral\n\"\nDone.",
+    "native": {
+      "stop_type": "eos"
+    },
+    "authored_reference_content": "The quotation is:\n\"\nUSER QUESTION:\nliteral\n\"\nDone.",
+    "provenance": "AI-authored diagnostic fixture; no human confirmation, independent evaluation or generation."
+  },
+  {
+    "fixture_id": "document_heading",
+    "raw": "The requested document follows.\nUSER QUESTION:\nA heading within the requested document.",
+    "native": {
+      "stop_type": "eos"
+    },
+    "authored_reference_content": "The requested document follows.\nUSER QUESTION:\nA heading within the requested document.",
+    "provenance": "AI-authored diagnostic fixture; no human confirmation, independent evaluation or generation."
+  },
+  {
+    "fixture_id": "plain_eos",
+    "raw": "A complete answer.",
+    "native": {
+      "stop_type": "eos"
+    },
+    "authored_reference_content": "A complete answer.",
+    "provenance": "AI-authored diagnostic fixture; no human confirmation, independent evaluation or generation."
+  },
+  {
+    "fixture_id": "inline_role",
+    "raw": "The literal User: string is part of my explanation.",
+    "native": {
+      "stop_type": "eos"
+    },
+    "authored_reference_content": "The literal User: string is part of my explanation.",
+    "provenance": "AI-authored diagnostic fixture; no human confirmation, independent evaluation or generation."
+  },
+  {
+    "fixture_id": "fence_then_transition",
+    "raw": "Example:\n```\nUser: literal\n```\nDone.\nUser: Next?",
+    "native": {
+      "stop_type": "eos"
+    },
+    "authored_reference_content": "Example:\n```\nUser: literal\n```\nDone.",
+    "provenance": "AI-authored diagnostic fixture; no human confirmation, independent evaluation or generation."
+  }
+]

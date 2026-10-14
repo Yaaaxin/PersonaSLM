@@ -1,0 +1,28 @@
+{
+  "registration_sha256": "3cd6babcb3e461fa23a9d3ec633b4d4d5e84c4cca4c57e8bfc795d8bba87a2fe",
+  "files": {
+    "primary_analysis_v1.json": "7db8a6d2efb3f52885dae5e21b371b3efbe49c02e538e236cebc9e1d2dc9dd1e",
+    "primary_case_contrasts_v1.csv": "79a319eb18175ab6664127aec8bc8733cd3ca755e8990c5cee7cf286d5e88d75",
+    "primary_speaker_sensitivity_v1.csv": "80be3a88c6c8a90c114836a48b047452987eb531ed02408ba7fc23efdf3998f5",
+    "primary_unblinded_dataset_v1.json": "712403873a825fffa194aaa13774ff848abfd3ca7810f94e60a82ff06d67e972",
+    "secondary_analysis_v1.json": "0dd69948757aabbdfc81f16ebd4dfd6f55fe19355cb122e75a0460d30fd190cd",
+    "secondary_case_contrasts_v1.csv": "2bdf2fd89fca2403cba04f7da707ca02a2016e2891a8fa2bd7da3de685f9b0fc",
+    "secondary_speaker_sensitivity_v1.csv": "a5121c1fb2a0c9704bbf660c0f7b018ebcffacabce9df1abcba546fe240375f4",
+    "secondary_unblinded_dataset_v1.json": "e9a432c56c4e6528b15762dd57ba51f474238616dbf892be98668adb1046e0fc"
+  },
+  "sources": {
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_primary_proposals_UNCONFIRMED_v1.json": "144a63679d2267b725dacb90294d7b72cbfbb9a5c724f4ed1312e099c78f5068",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\reviewed_boundary_sensitivity_UNCONFIRMED_v2.json": "790e9f6210f3e0b465703911988343f89680a0650c83d51009c23be442f62a77",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\primary_sensitivity_specification_v1.json": "20d764c35a1ee8dfe5a4bf4121b46cfa5ea7885408e6a27afb9b3a402b2c6ba5",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_integrity_v1\\uncertainty_classification_v1.json": "9e5fbdaff48e1d4ee40b2831eacdb1671f82fbfa4703668297e956e7b30303f4",
+    "docs\\validation\\p1c\\final_review_v1\\estimand_registry_proposed_v1.json": "713a7679d5a606707f8075bae51d3fa5716a721eccf86f1f56cebc73b4bbc4e7",
+    "docs\\validation\\p1c\\final_review_v1\\evaluation_policy_proposed_v1.json": "1fe5bfb170f192e53ce566eebf304cbeb93b5014c08112c05f6b06caf122e7ca",
+    "docs\\validation\\p1c\\calibration_v1\\measurement_v1\\semantic_scoring_view_v1.csv": "1317cf06609f5f80721f95c2131ae596f32f9cb69029d555459f594cf4f7fcb3",
+    "docs\\validation\\p1c\\calibration_v1\\semantic_review_v1\\analysis_preparation\\analysis_specification_v1.json": "a483acd81eefbe24b9dd4f0f8d0bc3d5a2c2d2e6c16d53835946547ea1ea2d09"
+  },
+  "code_sha256": "e0e7fa5ef2a3e3b45bb3fd1f018f30ed8ff0b79918db7abe5250416820123030",
+  "statistics_wrapper_sha256": "fbd9606fa5324754b899aa22c562bd63672a19b5bb968feff1f90a20dcdbfffe",
+  "bootstrap_seed": 715004,
+  "reconstructed_twice": true,
+  "new_inference": 0
+}

@@ -1,0 +1,21 @@
+{
+  "version": "p1c_stage_a_proposal_freeze_v1",
+  "created_utc": "2026-10-14T07:04:12.899013+00:00",
+  "source": "docs\\validation\\p1c\\calibration_v1\\measurement_v1\\semantic_scoring_view_v1.csv",
+  "source_sha256": "1317cf06609f5f80721f95c2131ae596f32f9cb69029d555459f594cf4f7fcb3",
+  "policy_sha256": "1fe5bfb170f192e53ce566eebf304cbeb93b5014c08112c05f6b06caf122e7ca",
+  "records": 72,
+  "files": {
+    "semantic_proposals_UNCONFIRMED_v1.csv": "0b86587c9d09a4cc976f3bbcce05f1307dc79ec4065f32ab12118f46efa2bdc8",
+    "semantic_proposals_UNCONFIRMED_v1.json": "2467cabf1d6df3ff7b997a4d10a097354c5ad61c322e42a37528489882fa6ac5"
+  },
+  "transcription_code_sha256": "c5a22f643b01202a7440b616f19f6fff6737b4af7fabe5d48f17f65ea11e3adf",
+  "git_head": "fc282d44eb199964ef974b2de8540311381c18aa",
+  "source_access": "Only condition-masked semantic rows and public rubrics were read for this new initial assessment; protected mapping and Stage B were not opened before this snapshot.",
+  "prior_knowledge": "The same assistant previously implemented execution and has prior conversation knowledge of aggregate structure and some assignments. This is condition-masked input, NOT independently blind assessment. No assignment was inferred from response text.",
+  "method": "Item-by-item AI reading, transcribed using explicit ID groups and case-specific references; no numerical classifier or substring correctness scorer.",
+  "human_confirmations": 0,
+  "reviewer_id": null,
+  "human_review_timestamp": null,
+  "formal_semantic_effects_computed": false
+}

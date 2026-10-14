@@ -1,0 +1,21 @@
+{
+  "version": "p1c_semantic_confirmation_v1",
+  "decision": "",
+  "reviewer_id": "",
+  "review_status": "",
+  "decision_source": "",
+  "confirmation_statement": "",
+  "review_timestamp": null,
+  "primary_source": "docs\\validation\\p1c\\calibration_v1\\semantic_review_v1\\stage_a\\semantic_proposals_UNCONFIRMED_v1.json",
+  "primary_sha256": "2467cabf1d6df3ff7b997a4d10a097354c5ad61c322e42a37528489882fa6ac5",
+  "secondary_source": "docs\\validation\\p1c\\calibration_v1\\semantic_review_v1\\stage_b\\boundary_sensitivity_proposals_UNCONFIRMED_v1.json",
+  "secondary_sha256": "0df06bf52f11ad8e9071b398b1ae1f27772645caddbc680f3ed55369dfe5ae1a",
+  "corrections": [],
+  "boundary_rejections": [],
+  "interpretation": "Primary frozen spans remain primary. Eight recovered prefixes are separately versioned sensitivity only. Entity-versus-time and calendar/attribute uncertainties must be explicitly adopted or corrected.",
+  "allowed_decisions": [
+    "ADOPT_PRIMARY_AND_SECONDARY_AS_SENSITIVITY",
+    "ADOPT_PRIMARY_ONLY"
+  ],
+  "scope": "AI-assisted proposals adopted/corrected by researcher; not independent blind human annotation."
+}

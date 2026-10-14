@@ -1,0 +1,23 @@
+{
+  "version": "p1c_semantic_annotation_proposal_provenance_v1",
+  "software_recorded_utc": "2026-10-14T07:26:15.444329+00:00",
+  "maintainer": "Yaxin ZHENG",
+  "annotation_origin": "AI_assisted_condition_masked_review",
+  "primary_snapshot": "docs\\validation\\p1c\\calibration_v1\\semantic_review_v1\\stage_a\\semantic_proposals_UNCONFIRMED_v1.json",
+  "primary_sha256": "2467cabf1d6df3ff7b997a4d10a097354c5ad61c322e42a37528489882fa6ac5",
+  "secondary_snapshot": "docs\\validation\\p1c\\calibration_v1\\semantic_review_v1\\stage_b\\boundary_sensitivity_proposals_UNCONFIRMED_v1.json",
+  "secondary_sha256": "0df06bf52f11ad8e9071b398b1ae1f27772645caddbc680f3ed55369dfe5ae1a",
+  "original_masked_source_sha256": "1317cf06609f5f80721f95c2131ae596f32f9cb69029d555459f594cf4f7fcb3",
+  "original_human_fields": "PRESERVED_BLANK",
+  "stage_a_frozen_before_stage_b": true,
+  "reviewer_independence": "NOT_ESTABLISHED",
+  "prior_knowledge": "Prior participation in execution/design and aggregate observations; no perfect-blinding claim.",
+  "reviewer_id": null,
+  "researcher_confirmation": null,
+  "human_review_timestamp": null,
+  "analysis_implementation_sha256": "fbd9606fa5324754b899aa22c562bd63672a19b5bb968feff1f90a20dcdbfffe",
+  "paired_statistics_sha256": "8490111257fb7f55c1f200798ea152cdd071874574d08816eda4c37eceec9429",
+  "analysis_specification_sha256": "a483acd81eefbe24b9dd4f0f8d0bc3d5a2c2d2e6c16d53835946547ea1ea2d09",
+  "verification_sha256": "9091365a9b518bbaaaf25d5e16fb7ef0da9244897fa893057a80f3f5e5ef1a6b",
+  "future_registration": "Preserve proposals and record actual researcher adoption/corrections separately before treatment join."
+}

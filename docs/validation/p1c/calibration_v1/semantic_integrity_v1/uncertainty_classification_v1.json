@@ -1,0 +1,3118 @@
+{
+  "version": "p1c_measurement_state_v1",
+  "definitions": {
+    "EVIDENCE_UNVERIFIABLE": "A specified material proposition lacks trusted support; may coexist with a contradicted different claim.",
+    "BOUNDARY_UNRESOLVED": "No uniquely approved first-reply unit under frozen extraction.",
+    "ANNOTATION_UNCERTAIN": "Interpretation/rubric application requires adjudication, including conditional readings.",
+    "STRUCTURALLY_UNSCORABLE": "Evaluation unit unavailable under this view; not model factual falsity.",
+    "NOT_APPLICABLE": "Predeclared exclusion for that metric, not decided from outcome.",
+    "MISSING": "Administrative absence of a required rating/confirmation, not epistemic uncertainty."
+  },
+  "scope": "Additive metadata only, original labels/weights/denominators unchanged; states can overlap.",
+  "primary": [
+    {
+      "anonymous_response_id": "PC001",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC002",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC003",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC004",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "Conditional only: calendar-date weekday or desk-as-room reading requires adjudication, not a proven absence of the requested reference.",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC005",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC006",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "Conditional only: calendar-date weekday or desk-as-room reading requires adjudication, not a proven absence of the requested reference.",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC007",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC008",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC009",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC010",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "BOUNDARY_UNRESOLVED",
+      "scoreability": "STRUCTURALLY_UNSCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "temporal_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "response_relevance": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "conversational_coherence": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "task_success": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "component_coverage": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "semantic_completeness": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ]
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC011",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC012",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC013",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC014",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC015",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC016",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC017",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC018",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC019",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC020",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC021",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC022",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC023",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "BOUNDARY_UNRESOLVED",
+      "scoreability": "STRUCTURALLY_UNSCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "temporal_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "response_relevance": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "conversational_coherence": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "task_success": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "component_coverage": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "semantic_completeness": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ]
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC024",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC025",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC026",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC027",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC028",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC029",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC030",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC031",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC032",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC033",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "BOUNDARY_UNRESOLVED",
+      "scoreability": "STRUCTURALLY_UNSCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "temporal_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "response_relevance": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "conversational_coherence": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "task_success": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "component_coverage": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "semantic_completeness": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ]
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC034",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC035",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC036",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC037",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC038",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC039",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "BOUNDARY_UNRESOLVED",
+      "scoreability": "STRUCTURALLY_UNSCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "temporal_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "response_relevance": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "conversational_coherence": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "task_success": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "component_coverage": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "semantic_completeness": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ]
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC040",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC041",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC042",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "BOUNDARY_UNRESOLVED",
+      "scoreability": "STRUCTURALLY_UNSCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "temporal_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "response_relevance": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "conversational_coherence": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "task_success": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "component_coverage": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "semantic_completeness": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ]
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC043",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC044",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "BOUNDARY_UNRESOLVED",
+      "scoreability": "STRUCTURALLY_UNSCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "temporal_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "response_relevance": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "conversational_coherence": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "task_success": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "component_coverage": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "semantic_completeness": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ]
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC045",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC046",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC047",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC048",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC049",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC050",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC051",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC052",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC053",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC054",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "BOUNDARY_UNRESOLVED",
+      "scoreability": "STRUCTURALLY_UNSCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "temporal_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "response_relevance": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "conversational_coherence": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "task_success": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "component_coverage": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "semantic_completeness": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ]
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC055",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC056",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC057",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC058",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC059",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC060",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC061",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC062",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC063",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "BOUNDARY_UNRESOLVED",
+      "scoreability": "STRUCTURALLY_UNSCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "temporal_consistency": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "response_relevance": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "conversational_coherence": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "task_success": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "component_coverage": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ],
+        "semantic_completeness": [
+          "BOUNDARY_UNRESOLVED",
+          "STRUCTURALLY_UNSCORABLE"
+        ]
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC064",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC065",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC066",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC067",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC068",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC069",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC070",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC071",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC072",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    }
+  ],
+  "secondary": [
+    {
+      "anonymous_response_id": "PC001",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC002",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC003",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC004",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "Conditional only: calendar-date weekday or desk-as-room reading requires adjudication, not a proven absence of the requested reference.",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC005",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC006",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "Conditional only: calendar-date weekday or desk-as-room reading requires adjudication, not a proven absence of the requested reference.",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC007",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC008",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC009",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC010",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "ALTERNATIVE_SPAN_PROPOSED",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC011",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC012",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC013",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC014",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC015",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC016",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC017",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC018",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC019",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC020",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC021",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC022",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC023",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "ALTERNATIVE_SPAN_PROPOSED",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC024",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC025",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC026",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC027",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC028",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC029",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC030",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC031",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC032",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC033",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "ALTERNATIVE_SPAN_PROPOSED",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC034",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC035",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC036",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC037",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC038",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC039",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "ALTERNATIVE_SPAN_PROPOSED",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "EVIDENCE_UNVERIFIABLE"
+        ],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "Friday is absent from the ledger; a separate contradicted desk claim still makes overall factual Incorrect.",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC040",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC041",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC042",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "ALTERNATIVE_SPAN_PROPOSED",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [
+          "EVIDENCE_UNVERIFIABLE"
+        ],
+        "temporal_consistency": [
+          "ANNOTATION_UNCERTAIN"
+        ],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "Friday is absent from the ledger; a separate contradicted desk claim still makes overall factual Incorrect.",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC043",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC044",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "ALTERNATIVE_SPAN_PROPOSED",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC045",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC046",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC047",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC048",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC049",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC050",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC051",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC052",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC053",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC054",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "ALTERNATIVE_SPAN_PROPOSED",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC055",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC056",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC057",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC058",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC059",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC060",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC061",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC062",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC063",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "ALTERNATIVE_SPAN_PROPOSED",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC064",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC065",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC066",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC067",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC068",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC069",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC070",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC071",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    },
+    {
+      "anonymous_response_id": "PC072",
+      "version": "p1c_measurement_state_v1",
+      "boundary_state": "IDENTIFIABLE",
+      "scoreability": "SCORABLE",
+      "metric_uncertainty_flags": {
+        "factual_consistency": [],
+        "temporal_consistency": [],
+        "response_relevance": [],
+        "conversational_coherence": [],
+        "task_success": [],
+        "component_coverage": [],
+        "semantic_completeness": []
+      },
+      "evidence_gap_detail": "",
+      "AI_review_missing": false,
+      "official_human_annotation_state": "MISSING",
+      "persona_fidelity_state": "NOT_APPLICABLE",
+      "note": "Flags describe different levels and may overlap; they do not replace original categorical labels or change denominators."
+    }
+  ]
+}
