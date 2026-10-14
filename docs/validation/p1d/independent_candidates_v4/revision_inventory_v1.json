@@ -1,0 +1,287 @@
+{
+  "alias_attempts": [
+    {
+      "alias": "Petra",
+      "probe_case": "p1d_candidate_s010_c0",
+      "full_prompt_counts": {
+        "E0V0": 2023,
+        "E1V1": 2024
+      }
+    },
+    {
+      "alias": "Ronan",
+      "probe_case": "p1d_candidate_s010_c0",
+      "full_prompt_counts": {
+        "E0V0": 2031,
+        "E1V1": 2032
+      }
+    },
+    {
+      "alias": "Orla",
+      "probe_case": "p1d_candidate_s010_c0",
+      "full_prompt_counts": {
+        "E0V0": 2039,
+        "E1V1": 2040
+      }
+    },
+    {
+      "alias": "Elara",
+      "probe_case": "p1d_candidate_s010_c0",
+      "full_prompt_counts": {
+        "E0V0": 2031,
+        "E1V1": 2032
+      }
+    },
+    {
+      "alias": "Silas",
+      "probe_case": "p1d_candidate_s010_c0",
+      "full_prompt_counts": {
+        "E0V0": 2031,
+        "E1V1": 2032
+      }
+    },
+    {
+      "alias": "Anwen",
+      "probe_case": "p1d_candidate_s010_c0",
+      "full_prompt_counts": {
+        "E0V0": 2031,
+        "E1V1": 2032
+      }
+    },
+    {
+      "alias": "Keira",
+      "probe_case": "p1d_candidate_s010_c0",
+      "full_prompt_counts": {
+        "E0V0": 2031,
+        "E1V1": 2032
+      }
+    },
+    {
+      "alias": "Liora",
+      "probe_case": "p1d_candidate_s010_c0",
+      "full_prompt_counts": {
+        "E0V0": 2040,
+        "E1V1": 2040
+      }
+    }
+  ],
+  "selected_alias": "Liora",
+  "revisions": [
+    {
+      "case_id": "p1d_candidate_s010_c0",
+      "old_other_person": "Selma Keaton",
+      "new_other_person": "Liora Keaton",
+      "old_control": "Archived quotation by Marek Keaton: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Keaton: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s010_c1",
+      "old_other_person": "Selma Keaton",
+      "new_other_person": "Liora Keaton",
+      "old_control": "Archived quotation by Marek Keaton: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Keaton: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s050_c0",
+      "old_other_person": "Selma Farnell",
+      "new_other_person": "Liora Farnell",
+      "old_control": "Archived quotation by Marek Farnell: \"I read the record carefully and closed the folder. I put it on the shelf without making any further notes.\"",
+      "new_control": "Archived quotation by Marek Farnell: \"I read the record from beginning to end and closed the folder after checking its plain cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 64,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s050_c1",
+      "old_other_person": "Selma Farnell",
+      "new_other_person": "Liora Farnell",
+      "old_control": "Archived quotation by Marek Farnell: \"I read the record carefully and closed the folder. I put it on the shelf without making any further notes.\"",
+      "new_control": "Archived quotation by Marek Farnell: \"I read the record from beginning to end and closed the folder after checking its plain cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 64,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s063_c0",
+      "old_other_person": "Selma Gresham",
+      "new_other_person": "Liora Gresham",
+      "old_control": "Archived quotation by Marek Gresham: \"I read the record carefully and closed the folder. I put it on the shelf without making any further notes.\"",
+      "new_control": "Archived quotation by Marek Gresham: \"I read the record from beginning to end and closed the folder after checking its plain cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 64,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s063_c1",
+      "old_other_person": "Selma Gresham",
+      "new_other_person": "Liora Gresham",
+      "old_control": "Archived quotation by Marek Gresham: \"I read the record carefully and closed the folder. I put it on the shelf without making any further notes.\"",
+      "new_control": "Archived quotation by Marek Gresham: \"I read the record from beginning to end and closed the folder after checking its plain cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 64,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s107_c0",
+      "old_other_person": "Selma Lydell",
+      "new_other_person": "Liora Lydell",
+      "old_control": "Archived quotation by Marek Lydell: \"I read the record carefully and closed the folder. I put it on the shelf without making any further notes.\"",
+      "new_control": "Archived quotation by Marek Lydell: \"I read the record from beginning to end and closed the folder after checking its plain cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 64,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s107_c1",
+      "old_other_person": "Selma Lydell",
+      "new_other_person": "Liora Lydell",
+      "old_control": "Archived quotation by Marek Lydell: \"I read the record carefully and closed the folder. I put it on the shelf without making any further notes.\"",
+      "new_control": "Archived quotation by Marek Lydell: \"I read the record from beginning to end and closed the folder after checking its plain cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 64,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s111_c0",
+      "old_other_person": "Selma Isley",
+      "new_other_person": "Liora Isley",
+      "old_control": "Archived quotation by Marek Isley: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Isley: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s111_c1",
+      "old_other_person": "Selma Isley",
+      "new_other_person": "Liora Isley",
+      "old_control": "Archived quotation by Marek Isley: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Isley: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s115_c0",
+      "old_other_person": "Selma Calder",
+      "new_other_person": "Liora Calder",
+      "old_control": "Archived quotation by Marek Calder: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Calder: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "selected_control_index": 22,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s115_c1",
+      "old_other_person": "Selma Calder",
+      "new_other_person": "Liora Calder",
+      "old_control": "Archived quotation by Marek Calder: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Calder: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "selected_control_index": 22,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s117_c0",
+      "old_other_person": "Selma Marden",
+      "new_other_person": "Liora Marden",
+      "old_control": "Archived quotation by Marek Marden: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Marden: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s117_c1",
+      "old_other_person": "Selma Marden",
+      "new_other_person": "Liora Marden",
+      "old_control": "Archived quotation by Marek Marden: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Marden: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s120_c0",
+      "old_other_person": "Selma Estwick",
+      "new_other_person": "Liora Estwick",
+      "old_control": "Archived quotation by Marek Estwick: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Estwick: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s120_c1",
+      "old_other_person": "Selma Estwick",
+      "new_other_person": "Liora Estwick",
+      "old_control": "Archived quotation by Marek Estwick: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Estwick: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s122_c0",
+      "old_other_person": "Selma Norcross",
+      "new_other_person": "Liora Norcross",
+      "old_control": "Archived quotation by Marek Norcross: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Norcross: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s122_c1",
+      "old_other_person": "Selma Norcross",
+      "new_other_person": "Liora Norcross",
+      "old_control": "Archived quotation by Marek Norcross: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Norcross: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s123_c0",
+      "old_other_person": "Selma Hollis",
+      "new_other_person": "Liora Hollis",
+      "old_control": "Archived quotation by Marek Hollis: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Hollis: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s123_c1",
+      "old_other_person": "Selma Hollis",
+      "new_other_person": "Liora Hollis",
+      "old_control": "Archived quotation by Marek Hollis: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Hollis: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s125_c0",
+      "old_other_person": "Selma Jarrow",
+      "new_other_person": "Liora Jarrow",
+      "old_control": "Archived quotation by Marek Jarrow: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Jarrow: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s125_c1",
+      "old_other_person": "Selma Jarrow",
+      "new_other_person": "Liora Jarrow",
+      "old_control": "Archived quotation by Marek Jarrow: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Jarrow: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s137_c0",
+      "old_other_person": "Selma Dunley",
+      "new_other_person": "Liora Dunley",
+      "old_control": "Archived quotation by Marek Dunley: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Dunley: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "case_id": "p1d_candidate_s137_c1",
+      "old_other_person": "Selma Dunley",
+      "new_other_person": "Liora Dunley",
+      "old_control": "Archived quotation by Marek Dunley: \"I read the record from beginning to end and closed the folder after checking its cover. I put it back on the shelf and left the room without making further notes. I made no other entries.\"",
+      "new_control": "Archived quotation by Marek Dunley: \"I read the record from beginning to end and closed the folder after checking its cover. I placed the folder on the shelf and left the room without making any further notes. I made no other entries.\"",
+      "selected_control_index": 26,
+      "semantic_review": "PENDING_DIAGNOSTIC_ONLY"
+    }
+  ]
+}

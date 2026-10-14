@@ -1,0 +1,43 @@
+{
+  "status": "PROPOSED_NOT_EXECUTABLE",
+  "base": {
+    "source_config": "configs/p1_wave1_v1.json",
+    "source_config_sha256": "2da0f9916699c2aa405db4cea7d56f043f23e3ebed7e5955a6cd519b67f6978e",
+    "model_file": "models/gguf/Qwen3.5-2B-Base.Q4_K_M.gguf",
+    "model_sha256": "ab36f9a7b0194ed9a6f80eeb000dac73002bcb14d0397c11c39417b6cd814994",
+    "backend_file": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "threads": 4,
+    "threads_batch": 4,
+    "ctx": 4096,
+    "gpu_layers": 0,
+    "temperature": 0,
+    "seed": 42,
+    "max_new_tokens": 96,
+    "cache_prompt": false,
+    "stop": []
+  },
+  "instruct": {
+    "official_model": "Qwen/Qwen3.5-2B",
+    "revision": "965dcc54bc9c0591873df0e9869c056a54d323d1",
+    "official_template_url": "https://huggingface.co/Qwen/Qwen3.5-2B/blob/965dcc54bc9c0591873df0e9869c056a54d323d1/chat_template.jinja",
+    "template_inspection": "Official role tokens and enable_thinking branch inspected; text-only, enable_thinking false proposed",
+    "local_gguf": null,
+    "gguf_sha256": null,
+    "tokenizer_hash": null,
+    "template_hash": null,
+    "quantization": "Q4_K_M proposed; converter revision and source-weight hashes must be pinned",
+    "backend_compatibility": "UNVERIFIED_FOR_THIS_LOCAL_ARM",
+    "latency_seconds": null,
+    "peak_ram_bytes": null
+  },
+  "requests": {
+    "base_validation_proposed": 1728,
+    "paired_instruct_subset_proposed": 288,
+    "total_core_plus_model_sensitivity": 2016,
+    "authorized_now": 0,
+    "execution_order_seed_proposed": 716301,
+    "frozen_request_manifest": null
+  },
+  "budgets": "96 primary in both arms; any 192/256 diagnostic separately versioned and excluded from primary cohort; no silent model/budget substitution"
+}

@@ -1,0 +1,91 @@
+{
+  "version": "p1d_policy_proposed_v1",
+  "status": "PENDING_RESEARCHER_APPROVAL",
+  "eligible": {
+    "speakers": 144,
+    "cases": 288,
+    "per_arm_responses": 1728,
+    "cases_per_family": 72,
+    "speakers_per_family": 72,
+    "historical_cases": 144,
+    "current_cases": 144
+  },
+  "primary_endpoints": [
+    "temporal_Incorrect_label_incidence",
+    "task_success"
+  ],
+  "primary_contrasts": [
+    "E",
+    "V",
+    "ExV"
+  ],
+  "weights_source": "contrast_specification_v1.json",
+  "all_metrics": [
+    "relevance",
+    "factual",
+    "temporal",
+    "coherence",
+    "task_success",
+    "component_coverage",
+    "semantic_completeness",
+    "persona_fidelity",
+    "structural_status"
+  ],
+  "label_sets": {
+    "factual_temporal": [
+      "Correct",
+      "Incorrect",
+      "Unverifiable",
+      "Not Applicable",
+      "Missing"
+    ],
+    "task": [
+      "Success",
+      "Failure",
+      "Uncertain",
+      "Missing"
+    ],
+    "semantic_completeness": [
+      "YES",
+      "PARTIAL",
+      "NO",
+      "UNCERTAIN",
+      "Missing"
+    ]
+  },
+  "measurement_states": [
+    "EVIDENCE_UNVERIFIABLE",
+    "BOUNDARY_UNRESOLVED",
+    "INTERPRETATION_UNCERTAIN",
+    "STRUCTURALLY_UNSCORABLE",
+    "MISSING",
+    "NOT_APPLICABLE",
+    "ASSESSABLE"
+  ],
+  "incidence": "Each category on fixed eligible denominator; unresolved is not labelled Incorrect. Missing has its own incidence. Correct/(Correct+Incorrect) separately labelled assessed-only sensitivity.",
+  "task_success": "All requested components correctly delivered in an answer, no material false claim; partial correct claims are not success; unresolved boundary yields Uncertain, no automatic failure.",
+  "unknown_bounds": "Original signed weights with unknown success in [0,1]; no cell renormalization. Complete-case contrast is a selection-sensitive alternative estimand.",
+  "aggregation": "Equal case contributions within speaker, equal speaker weights; report case-weighted sensitivity if attrition changes balance. N/A contrasts explicitly inapplicable.",
+  "uncertainty": {
+    "bootstrap": "10000 whole-speaker draws containing both cases and all cells, seed 716201; percentile sensitivity",
+    "loso": true,
+    "primary_interval": "95% cluster-SE interval and conservative Bonferroni six-comparison interval; normal approximation must be checked by simulation and distribution diagnostics",
+    "ordinal": "Full distributions and paired sign/rank sensitivity; ties retained, descriptive means not interval-scale proof"
+  },
+  "multiplicity": "Six primary comparisons form one family; report Bonferroni intervals. Other 16-by-endpoint summaries are exploratory, no selected significance claims.",
+  "no_adaptive_stopping": "Complete fixed cohort; stop only integrity/safety failure. Do not select by C0/no-history correctness or interim effects.",
+  "model_sensitivity": "24 prospectively selected speaker clusters, both cases and all cells; model paired differences of case contrasts, 24 clusters, secondary. No independent-arm assumption.",
+  "practical_thresholds_proposed": {
+    "main_effect_pp": 10,
+    "interaction_pp": 20,
+    "persona_fidelity_damage_pp": 5
+  },
+  "uncertainty_width_targets_proposed": {
+    "main_simultaneous_halfwidth_pp": 10,
+    "interaction_simultaneous_halfwidth_pp": 20
+  },
+  "source_hashes": {
+    "contrast": "f2395c19e7c88b80ca0498335739a730e85cebba4afcdf15484995048e10e4ef",
+    "development_v3": "a558c11760de8d834b14293929e83b5ddac05ca2de790e68b52f352671813b16"
+  }
+}

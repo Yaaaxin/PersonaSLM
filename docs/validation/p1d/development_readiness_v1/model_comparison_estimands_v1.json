@@ -1,0 +1,72 @@
+{
+  "version": "p1d_model_comparison_implementation_v1",
+  "policy_sha256": "08503570fdc4a8e6597f54efb217a1b432d1ce05d6e1fb2f833eed7e2687fc92",
+  "allocation_source_sha256": "b5bf5e259707bb4e466a06b1523dc940e02c4005f21efa94c9963e1e46355a5a",
+  "base": {
+    "speakers": 144,
+    "cases": 288,
+    "requests": 1728
+  },
+  "instruct": {
+    "speakers": 24,
+    "cases": 48,
+    "requests": 288,
+    "matched_cells": [
+      "E0V0",
+      "E0V1",
+      "E1V0",
+      "E1V1",
+      "D_procedural",
+      "H_none"
+    ],
+    "speaker_indices": [
+      3,
+      4,
+      6,
+      14,
+      16,
+      19,
+      21,
+      22,
+      35,
+      39,
+      47,
+      48,
+      68,
+      73,
+      74,
+      84,
+      101,
+      105,
+      109,
+      113,
+      127,
+      128,
+      130,
+      138
+    ],
+    "family_counts": {
+      "single_fact": 12,
+      "relational_integration": 12,
+      "context_followup": 12,
+      "multi_component": 12
+    },
+    "date_counts": {
+      "current": 24,
+      "historical": 24
+    }
+  },
+  "base_requests_in_matched_comparison": 288,
+  "extra_base_requests": 0,
+  "unmatched_base_cases": 240,
+  "cell_estimand": "For each cell c, mean across matched speakers of the within-speaker mean Y_Instruct(c)-Y_Base(c)",
+  "contrast_estimand": "For each of the registered 16 w vectors, speaker mean of sum_c w_c [Y_Instruct(c)-Y_Base(c)] on the same 48 cases",
+  "interpretation": "Secondary matched-subset configuration sensitivity; not full-cohort model-by-factor estimation or pure post-training effect",
+  "missingness": "Original signed contrast bounds separately per model; difference bounds [L_I-U_B,U_I-L_B]; no dropping or cell renormalization",
+  "independent_review_overlap": {
+    "speakers": 7,
+    "instruct_responses": 84
+  },
+  "source_family_dependence": "Balanced fixed template bank; speaker resampling is conditional on selected templates. New names do not establish independent template populations.",
+  "authorized_inference_requests": 0
+}

@@ -1,0 +1,34 @@
+{
+  "generation_calls": 0,
+  "development_cases": 16,
+  "selection_methods": [
+    "all_history",
+    "history_removal",
+    "lexical_top1",
+    "time_filter",
+    "entity_time_filter"
+  ],
+  "structured_fixtures": 8,
+  "ablation_matches": {
+    "full": 8,
+    "no_entity_check": 7,
+    "no_time_check": 7,
+    "no_delivery_check": 7
+  },
+  "median_cpu_ns_per_verification": 19531.25,
+  "cpu_batches_ns": [
+    19531.25,
+    19531.25,
+    19531.25,
+    39062.5,
+    19531.25
+  ],
+  "traced_python_peak_bytes": 872,
+  "independent_accuracy": null,
+  "model_reliability_gain": null,
+  "persona_fidelity_gain": null,
+  "classification": "ENGINEERING_ADAPTATION_OF_ESTABLISHED_FILTERING_AND_STRUCTURED_CHECKS",
+  "limitation": "Structured entity/date/query supplied to all methods; no gold answer passed. Extracting structured assertions from real language remains unvalidated. Selection budgets differ, so no fair generation superiority claim.",
+  "source_sha256": "4e3324bc88ef75176d884b82a62f4ffce40ee8b21f99286f701bc7a118f7753a",
+  "dataset_sha256": "e6504cf46eeac72b60e2c0d822510eb5085b971c2aaa612d8d566476dbf6588b"
+}

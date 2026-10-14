@@ -1,0 +1,53 @@
+{
+  "rows": [
+    {
+      "contrast": "main",
+      "speakers": 24,
+      "assumed_case_contrast_sd": 0.5,
+      "assumed_within_speaker_contrast_ICC": 0.16,
+      "assumed_between_model_contrast_correlation": 0,
+      "normal_95_model_difference_halfwidth": 0.21544750501391438
+    },
+    {
+      "contrast": "interaction",
+      "speakers": 24,
+      "assumed_case_contrast_sd": 1.0,
+      "assumed_within_speaker_contrast_ICC": 0.16,
+      "assumed_between_model_contrast_correlation": 0,
+      "normal_95_model_difference_halfwidth": 0.43089501002782876
+    },
+    {
+      "contrast": "main",
+      "speakers": 24,
+      "assumed_case_contrast_sd": 0.5,
+      "assumed_within_speaker_contrast_ICC": 0.16,
+      "assumed_between_model_contrast_correlation": 0.5,
+      "normal_95_model_difference_halfwidth": 0.15234439178506157
+    },
+    {
+      "contrast": "interaction",
+      "speakers": 24,
+      "assumed_case_contrast_sd": 1.0,
+      "assumed_within_speaker_contrast_ICC": 0.16,
+      "assumed_between_model_contrast_correlation": 0.5,
+      "normal_95_model_difference_halfwidth": 0.30468878357012313
+    },
+    {
+      "contrast": "main",
+      "speakers": 24,
+      "assumed_case_contrast_sd": 0.5,
+      "assumed_within_speaker_contrast_ICC": 0.16,
+      "assumed_between_model_contrast_correlation": 0.9,
+      "normal_95_model_difference_halfwidth": 0.06813048320445164
+    },
+    {
+      "contrast": "interaction",
+      "speakers": 24,
+      "assumed_case_contrast_sd": 1.0,
+      "assumed_within_speaker_contrast_ICC": 0.16,
+      "assumed_between_model_contrast_correlation": 0.9,
+      "normal_95_model_difference_halfwidth": 0.13626096640890328
+    }
+  ],
+  "interpretation": "Analytic covariance sensitivity for paired between-model contrasts; all inputs are hypothetical, none estimated from P1c. Small subset is secondary."
+}

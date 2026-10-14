@@ -1,0 +1,4141 @@
+[
+  {
+    "id": "correct_full",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 111"
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "10:00-11:00"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "authored_expected_factual": "Correct",
+    "authored_expected_success": true,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL",
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      }
+    ]
+  },
+  {
+    "id": "correct_partial",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 111"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "authored_expected_factual": "Correct",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL",
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      }
+    ]
+  },
+  {
+    "id": "wrong_entity_value",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 101"
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "10:00-11:00"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "authored_expected_factual": "Incorrect",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL",
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      }
+    ]
+  },
+  {
+    "id": "expired_value",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 106"
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "10:00-11:00"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "authored_expected_factual": "Incorrect",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL",
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      }
+    ]
+  },
+  {
+    "id": "promise_with_correct_mentions",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 111"
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "10:00-11:00"
+        }
+      ],
+      "speech_act": "promise"
+    },
+    "authored_expected_factual": "Correct",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL",
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      }
+    ]
+  },
+  {
+    "id": "no_answer",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [],
+      "speech_act": "promise"
+    },
+    "authored_expected_factual": "Unverifiable",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL",
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      }
+    ]
+  },
+  {
+    "id": "negates_correct",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 111",
+          "negated": true
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "authored_expected_factual": "Incorrect",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL",
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      }
+    ]
+  },
+  {
+    "id": "unsupported_predicate",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "favorite_food",
+          "value": "rice"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "authored_expected_factual": "Unverifiable",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL",
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      }
+    ]
+  },
+  {
+    "id": "true_explicit_historical_answer",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 106",
+          "claim_date": "2048-01-15"
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "09:00-10:00",
+          "claim_date": "2048-01-15"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      }
+    ],
+    "authored_expected_factual": "Correct",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_MODEL_RESPONSE_OR_HUMAN_RATING"
+  },
+  {
+    "id": "current_values_falsely_dated_old",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 111",
+          "claim_date": "2048-01-15"
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "10:00-11:00",
+          "claim_date": "2048-01-15"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      }
+    ],
+    "authored_expected_factual": "Incorrect",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_MODEL_RESPONSE_OR_HUMAN_RATING"
+  },
+  {
+    "id": "unresolved_claim_date",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 111",
+          "claim_date": null
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "10:00-11:00",
+          "claim_date": null
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      }
+    ],
+    "authored_expected_factual": "Unverifiable",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_MODEL_RESPONSE_OR_HUMAN_RATING"
+  },
+  {
+    "id": "uncertain_extraction",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 111",
+          "extraction_uncertain": true
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "10:00-11:00",
+          "extraction_uncertain": true
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      }
+    ],
+    "authored_expected_factual": "Unverifiable",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_MODEL_RESPONSE_OR_HUMAN_RATING"
+  },
+  {
+    "id": "conflicting_trusted_interval",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 111"
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "10:00-11:00"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "facts": [
+      {
+        "id": "D00F00",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 106",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F01",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F02",
+        "entity": "Locker 106",
+        "predicate": "hub",
+        "value": "Hub 205",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F03",
+        "entity": "Hub 205",
+        "predicate": "exit",
+        "value": "Exit 301",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F04",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 111",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F05",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F06",
+        "entity": "Locker 111",
+        "predicate": "hub",
+        "value": "Hub 212",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F07",
+        "entity": "Hub 212",
+        "predicate": "exit",
+        "value": "Exit 311",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F08",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 112",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F09",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F10",
+        "entity": "Locker 112",
+        "predicate": "hub",
+        "value": "Hub 215",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F11",
+        "entity": "Hub 215",
+        "predicate": "exit",
+        "value": "Exit 306",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F12",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 105",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F13",
+        "entity": "Mira Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F14",
+        "entity": "Locker 105",
+        "predicate": "hub",
+        "value": "Hub 214",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F15",
+        "entity": "Hub 214",
+        "predicate": "exit",
+        "value": "Exit 305",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F16",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 115",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F17",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "09:00-10:00",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F18",
+        "entity": "Locker 115",
+        "predicate": "hub",
+        "value": "Hub 216",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F19",
+        "entity": "Hub 216",
+        "predicate": "exit",
+        "value": "Exit 312",
+        "start": "2048-01-01",
+        "end": "2048-03-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F20",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 101",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F21",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "10:00-11:00",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F22",
+        "entity": "Locker 101",
+        "predicate": "hub",
+        "value": "Hub 211",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F23",
+        "entity": "Hub 211",
+        "predicate": "exit",
+        "value": "Exit 316",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F24",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 113",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F25",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "11:00-12:00",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F26",
+        "entity": "Locker 113",
+        "predicate": "hub",
+        "value": "Hub 204",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F27",
+        "entity": "Hub 204",
+        "predicate": "exit",
+        "value": "Exit 314",
+        "start": "2048-07-01",
+        "end": "2048-09-30",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F28",
+        "entity": "Quinn Fenwick",
+        "predicate": "locker",
+        "value": "Locker 102",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F29",
+        "entity": "Quinn Fenwick",
+        "predicate": "pickup_window",
+        "value": "12:00-13:00",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F30",
+        "entity": "Locker 102",
+        "predicate": "hub",
+        "value": "Hub 201",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "D00F31",
+        "entity": "Hub 201",
+        "predicate": "exit",
+        "value": "Exit 304",
+        "start": "2048-10-01",
+        "end": "2048-12-31",
+        "authority": "trusted"
+      },
+      {
+        "id": "AUTHORED_CONFLICT",
+        "entity": "Mira Fenwick",
+        "predicate": "locker",
+        "value": "Locker 999",
+        "start": "2048-04-01",
+        "end": "2048-06-30",
+        "authority": "trusted"
+      }
+    ],
+    "authored_expected_factual": "Unverifiable",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_MODEL_RESPONSE_OR_HUMAN_RATING"
+  }
+]

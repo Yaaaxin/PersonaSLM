@@ -1,0 +1,16 @@
+{
+  "supersedes_implementation_binding": "docs/validation/p1d/development_readiness_v1/statistical_implementation_binding_v1.json",
+  "approved_policy_sha256": "08503570fdc4a8e6597f54efb217a1b432d1ce05d6e1fb2f833eed7e2687fc92",
+  "approved_contrast_sha256": "f2395c19e7c88b80ca0498335739a730e85cebba4afcdf15484995048e10e4ef",
+  "code_sha256": {
+    "tools/p1d_registered_statistics.py": "f0f31b7cdfe3d0a3324fcd709fd0d9afd80b17e379b73b133e2527c1b5f854cd",
+    "tools/p1d_ordinal_statistics.py": "2802c949ba1a4111e2911da6b5bc56a4edb020669ff5deaba322aab058e0de12"
+  },
+  "primary_policy_changed": false,
+  "registered_contrasts": 16,
+  "primary_family_size": 6,
+  "bootstrap_seed": 716201,
+  "bootstrap_resamples": 10000,
+  "ordinal_scope": "Full category distributions, floor/ceiling, descriptive paired signed ranks with tie midranks; no independent-case p-value. Threshold-incidence views remain secondary sensitivity, not endpoint replacement.",
+  "actual_P1d_semantic_analysis_executed": false
+}

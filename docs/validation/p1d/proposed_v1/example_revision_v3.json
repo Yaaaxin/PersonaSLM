@@ -1,0 +1,8 @@
+{
+  "supersedes": "development_examples_v2.json",
+  "reason": "V2 hub and exit codes followed arithmetic offsets from lockers. V3 independently permutes all three value lists to remove that deterministic shortcut. Other distractor names remain exclusive. No validation cases or responses created.",
+  "v2_preserved_sha256": "e6504cf46eeac72b60e2c0d822510eb5085b971c2aaa612d8d566476dbf6588b",
+  "v3_sha256": "a558c11760de8d834b14293929e83b5ddac05ca2de790e68b52f352671813b16",
+  "new_generations": 0,
+  "status": "DEVELOPMENT_EXAMPLES_UNAPPROVED"
+}

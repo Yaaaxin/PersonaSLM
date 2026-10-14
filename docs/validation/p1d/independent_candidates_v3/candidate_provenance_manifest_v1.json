@@ -1,0 +1,20 @@
+{
+  "source_v2_manifest_sha256": "0a1dfe3f04b0b4021e0743aa7dd54baa64f78960ce38d7c6388a74999f1bdbaa",
+  "code_sha256": "069b04d44f7bd0692d7b6864f1b2e8b6ad764355a60d393787b50ccf7a81adb3",
+  "artifact_sha256": {
+    "docs/validation/p1d/independent_candidates_v3/alias_selection_v1.json": "b9d0941b81ffb45fcd037e5081e75c8e4b8f3d497498d43da308815d7013593f",
+    "docs/validation/p1d/independent_candidates_v3/base_candidate_prompts_v1.json": "ecce5f0017a35284dbc7717929263abe45624be66cf285f1f1fad8372eacedd3",
+    "docs/validation/p1d/independent_candidates_v3/candidate_bank_v1.json": "aefb06a814cf7061ec0276a043c89c891f5412346aa7f7d7f41fd9c819760bd8",
+    "docs/validation/p1d/independent_candidates_v3/construction_validation_v1.json": "02263a702f05e49e21628affce213c42ecb1f03b6b2121ef216773c8e353bbf7",
+    "docs/validation/p1d/independent_candidates_v3/finite_repair_plan_v1.json": "6f2904ff02ecf534786ed73e8bcfed629cce4717fcbe8db7b570aced206c60fa",
+    "docs/validation/p1d/independent_candidates_v3/material_review_candidate_v1.csv": "6fd3ecaab0d38e47480430976a631aab959ce6edcef02d130917f7464696bcf4",
+    "docs/validation/p1d/independent_candidates_v3/metric_applicability_candidate_v1.json": "6a41d5f89abfa08eda5c8f63f29b079cf8d3850119d27049702699b5fd3216a4",
+    "docs/validation/p1d/independent_candidates_v3/native_tokenizer_validation_v1.json": "0b815a7d749e03a4c961a80268c42d17596e9221ce8d593daaf0c0f705954ba8",
+    "docs/validation/p1d/independent_candidates_v3/revision_inventory_v1.json": "0f3cfeed5bc3fbb0f5593a6c3be7454a77257fd724142057af8e31d43395034a"
+  },
+  "freeze_status": "NOT_FROZEN",
+  "execution_manifest": null,
+  "authorized_inference_requests": 0,
+  "algorithm_tuning_permitted": false,
+  "semantic_independence": "Human material review and template-population generalization are not established"
+}

@@ -1,0 +1,11 @@
+risk_id,domain,issue,resolution,status
+R01,BOUNDARY,Independent boundary ground truth unavailable,Independent masked spans; preserve primary and alternatives,OPEN
+R02,SCORING,Shared scoring history and no independent reviewer,Separate passes and genuine reviewer subset,OPEN
+R03,IDENTIFICATION,E/V still changes entity/date/value packages,Explicit narrowed estimand and counterbalanced assignments,RESTRICTED
+R04,CONTROLS,0/16 procedural examples token matched; neutrality unproved,New reviewed matched candidates; DIAGNOSTIC_ONLY until valid,OPEN
+R05,TOKENS,2/16 active examples differ by one token,Review token-matched independent realization before freeze,OPEN
+R06,TASKS,One demonstration domain; persona-name shortcut in follow-up,New independent templates/domains and referent counterbalance,OPEN
+R07,MODEL,Instruct local GGUF/template hash/backend/RAM unverified,Pinned artifact acquisition and preflight before authorization,OPEN
+R08,PRECISION,Unknown-outcome bounds can dominate 144-speaker precision,Measurement pilot; full bounds; no effect-based exclusions,OPEN
+R09,EXTERNAL,Synthetic English and narrow style fidelity,Governed future real-world/model transfer,LIMITATION
+R10,ORIGINALITY,Strong existing methods overlap; no independent algorithm gain,Fair baselines and independent verification,UNVERIFIED

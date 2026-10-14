@@ -1,0 +1,28 @@
+{
+  "cases": 288,
+  "speakers": 144,
+  "family_counts": {
+    "single_fact": 72,
+    "multi_component": 72,
+    "relational_integration": 72,
+    "context_followup": 72
+  },
+  "domain_counts": {
+    "archive": 72,
+    "music": 72,
+    "laboratory": 72,
+    "workshop": 72
+  },
+  "date_counts": {
+    "historical": 144,
+    "current": 144
+  },
+  "persona_target_counts": {
+    "True": 144,
+    "False": 144
+  },
+  "unique_reference_reconstructions": 288,
+  "human_validity_decisions": 0,
+  "new_generations": 0,
+  "limits": "Structural checks only. Shared template ancestry, condition-token matching, control priming and human semantic validity remain unresolved."
+}

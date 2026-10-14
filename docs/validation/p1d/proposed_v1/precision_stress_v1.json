@@ -1,0 +1,152 @@
+{
+  "rows": [
+    {
+      "speakers": 96,
+      "cluster_sharing_not_ICC": 0.4,
+      "pair_sharing": 0.25,
+      "prevalence": 0.5,
+      "effect": 0,
+      "replicates": 512,
+      "contrast": "E",
+      "median_halfwidth": 0.07237028146305705,
+      "median_six_comparison_halfwidth": 0.09741578057531296,
+      "coverage": 0.958984375
+    },
+    {
+      "speakers": 96,
+      "cluster_sharing_not_ICC": 0.4,
+      "pair_sharing": 0.25,
+      "prevalence": 0.5,
+      "effect": 0,
+      "replicates": 512,
+      "contrast": "V",
+      "median_halfwidth": 0.07230964439958194,
+      "median_six_comparison_halfwidth": 0.09733415857867561,
+      "coverage": 0.94140625
+    },
+    {
+      "speakers": 96,
+      "cluster_sharing_not_ICC": 0.4,
+      "pair_sharing": 0.25,
+      "prevalence": 0.5,
+      "effect": 0,
+      "replicates": 512,
+      "contrast": "ExV",
+      "median_halfwidth": 0.14489398332168618,
+      "median_six_comparison_halfwidth": 0.195038076411983,
+      "coverage": 0.935546875
+    },
+    {
+      "speakers": 96,
+      "cluster_sharing_not_ICC": 0.7,
+      "pair_sharing": 0,
+      "prevalence": 0.5,
+      "effect": 0,
+      "replicates": 512,
+      "contrast": "E",
+      "median_halfwidth": 0.08332637607611953,
+      "median_six_comparison_halfwidth": 0.11216349866085458,
+      "coverage": 0.939453125
+    },
+    {
+      "speakers": 96,
+      "cluster_sharing_not_ICC": 0.7,
+      "pair_sharing": 0,
+      "prevalence": 0.5,
+      "effect": 0,
+      "replicates": 512,
+      "contrast": "V",
+      "median_halfwidth": 0.08341767245917922,
+      "median_six_comparison_halfwidth": 0.11228639038159496,
+      "coverage": 0.955078125
+    },
+    {
+      "speakers": 96,
+      "cluster_sharing_not_ICC": 0.7,
+      "pair_sharing": 0,
+      "prevalence": 0.5,
+      "effect": 0,
+      "replicates": 512,
+      "contrast": "ExV",
+      "median_halfwidth": 0.16735723281560444,
+      "median_six_comparison_halfwidth": 0.22527528068242791,
+      "coverage": 0.943359375
+    },
+    {
+      "speakers": 144,
+      "cluster_sharing_not_ICC": 0.4,
+      "pair_sharing": 0.25,
+      "prevalence": 0.5,
+      "effect": 0,
+      "replicates": 512,
+      "contrast": "E",
+      "median_halfwidth": 0.05896697321530774,
+      "median_six_comparison_halfwidth": 0.07937393095348237,
+      "coverage": 0.95703125
+    },
+    {
+      "speakers": 144,
+      "cluster_sharing_not_ICC": 0.4,
+      "pair_sharing": 0.25,
+      "prevalence": 0.5,
+      "effect": 0,
+      "replicates": 512,
+      "contrast": "V",
+      "median_halfwidth": 0.059436766166669756,
+      "median_six_comparison_halfwidth": 0.08000630720158461,
+      "coverage": 0.931640625
+    },
+    {
+      "speakers": 144,
+      "cluster_sharing_not_ICC": 0.4,
+      "pair_sharing": 0.25,
+      "prevalence": 0.5,
+      "effect": 0,
+      "replicates": 512,
+      "contrast": "ExV",
+      "median_halfwidth": 0.11843133650138478,
+      "median_six_comparison_halfwidth": 0.15941738593001464,
+      "coverage": 0.939453125
+    },
+    {
+      "speakers": 144,
+      "cluster_sharing_not_ICC": 0.7,
+      "pair_sharing": 0,
+      "prevalence": 0.5,
+      "effect": 0,
+      "replicates": 512,
+      "contrast": "E",
+      "median_halfwidth": 0.06852589490469542,
+      "median_six_comparison_halfwidth": 0.09224095038472965,
+      "coverage": 0.94140625
+    },
+    {
+      "speakers": 144,
+      "cluster_sharing_not_ICC": 0.7,
+      "pair_sharing": 0,
+      "prevalence": 0.5,
+      "effect": 0,
+      "replicates": 512,
+      "contrast": "V",
+      "median_halfwidth": 0.06846235930853607,
+      "median_six_comparison_halfwidth": 0.09215542674755353,
+      "coverage": 0.94921875
+    },
+    {
+      "speakers": 144,
+      "cluster_sharing_not_ICC": 0.7,
+      "pair_sharing": 0,
+      "prevalence": 0.5,
+      "effect": 0,
+      "replicates": 512,
+      "contrast": "ExV",
+      "median_halfwidth": 0.13654099609161602,
+      "median_six_comparison_halfwidth": 0.1837943344407944,
+      "coverage": 0.9453125
+    }
+  ],
+  "data_kind": "SIMULATED_PLANNING_ONLY",
+  "seed_rule": "716500 + n + int(cluster*100)",
+  "source_sha256": "a1fff492bf17df3c82539e25a6fbfaddbe0b4857676d19c37ec4e730af492621",
+  "reason": "Check selected allocation under stronger speaker dependence and weaker pairing; no empirical ICC asserted."
+}

@@ -1,0 +1,43 @@
+{
+  "replicates": 128,
+  "seed": 716101,
+  "speakers": [
+    48,
+    96,
+    144
+  ],
+  "cases_per_speaker": 2,
+  "prevalence": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "cluster_sharing_not_ICC": [
+    0,
+    0.4
+  ],
+  "paired_cell_sharing": [
+    0.25,
+    0.75
+  ],
+  "missingness": [
+    "none",
+    "balanced_10",
+    "condition_dependent"
+  ],
+  "effect_parameter": [
+    0,
+    0.05
+  ],
+  "family_offsets": [
+    -0.075,
+    -0.025,
+    0.025,
+    0.075
+  ],
+  "interaction_effect": "2 * effect_parameter",
+  "source_script": "tools/p1d_precision.py",
+  "stress_source_script": "tools/p1d_precision_stress.py",
+  "model_pair_source_script": "tools/p1d_allocation.py",
+  "status": "SIMULATED_PLANNING_NOT_EMPIRICAL"
+}

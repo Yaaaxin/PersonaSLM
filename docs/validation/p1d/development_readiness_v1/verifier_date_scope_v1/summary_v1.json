@@ -1,0 +1,31 @@
+{
+  "fixtures": 13,
+  "matches": {
+    "original_query_date_only": 8,
+    "claim_date_scope": 13,
+    "without_claim_date": 10,
+    "without_unique_support": 12,
+    "without_delivery": 12
+  },
+  "median_process_cpu_ns_per_check": 8012.820512820513,
+  "cpu_batches_ns": [
+    8012.820512820513,
+    8012.820512820513,
+    12019.23076923077,
+    8012.820512820513,
+    8012.820512820513,
+    8012.820512820513,
+    12019.23076923077
+  ],
+  "new_generations": 0,
+  "independent_accuracy": null,
+  "persona_fidelity_effect": null,
+  "free_text_extraction_validated": false,
+  "classification": "ENGINEERING_CORRECTION_OF_KNOWN_STRUCTURED_VERIFICATION",
+  "observed_issue": "Prior baseline used requested date for every claim, even explicitly dated historical statements; unknown dates and conflicting sources were not represented.",
+  "prior_art_overlap": "Temporal query/evidence filtering (LongMemEval); independent fact verification (CoVe); evidence-supported revision (RARR). This is not reproduction of their full systems.",
+  "methodological_gap_demonstrated_against_published_methods": false,
+  "source_sha256": "c4b0557ca7b397e8b82b8f2e405a46e34d9d5e8c3ead7348239381f86b41d4a3",
+  "old_baseline_sha256": "c4664c58b42de888f5e99c4d361dd148d3cf170f098213d9d528b4755ce6ce44",
+  "dataset_sha256": "a558c11760de8d834b14293929e83b5ddac05ca2de790e68b52f352671813b16"
+}

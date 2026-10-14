@@ -1,0 +1,209 @@
+[
+  {
+    "id": "correct_full",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 111"
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "10:00-11:00"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "authored_expected_factual": "Correct",
+    "authored_expected_success": true,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL"
+  },
+  {
+    "id": "correct_partial",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 111"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "authored_expected_factual": "Correct",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL"
+  },
+  {
+    "id": "wrong_entity_value",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 101"
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "10:00-11:00"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "authored_expected_factual": "Incorrect",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL"
+  },
+  {
+    "id": "expired_value",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 106"
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "10:00-11:00"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "authored_expected_factual": "Incorrect",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL"
+  },
+  {
+    "id": "promise_with_correct_mentions",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 111"
+        },
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "pickup_window",
+          "value": "10:00-11:00"
+        }
+      ],
+      "speech_act": "promise"
+    },
+    "authored_expected_factual": "Correct",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL"
+  },
+  {
+    "id": "no_answer",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [],
+      "speech_act": "promise"
+    },
+    "authored_expected_factual": "Unverifiable",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL"
+  },
+  {
+    "id": "negates_correct",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "locker",
+          "value": "Locker 111",
+          "negated": true
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "authored_expected_factual": "Incorrect",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL"
+  },
+  {
+    "id": "unsupported_predicate",
+    "query": {
+      "entity": "Mira Fenwick",
+      "date": "2048-05-15",
+      "required_predicates": [
+        "locker",
+        "pickup_window"
+      ]
+    },
+    "payload": {
+      "assertions": [
+        {
+          "entity": "Mira Fenwick",
+          "predicate": "favorite_food",
+          "value": "rice"
+        }
+      ],
+      "speech_act": "answer"
+    },
+    "authored_expected_factual": "Unverifiable",
+    "authored_expected_success": false,
+    "provenance": "AUTHORED_SOFTWARE_FIXTURE_NOT_GENERATED_RESPONSE_OR_HUMAN_LABEL"
+  }
+]

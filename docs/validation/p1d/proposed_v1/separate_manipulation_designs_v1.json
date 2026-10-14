@@ -1,0 +1,71 @@
+{
+  "primary": "E/V source-selection design in development_examples_v3.json",
+  "auxiliary": {
+    "module": "AUXILIARY_TOPICAL_DATE_SCOPE_DIAGNOSTIC",
+    "status": "NOT_SELECTED_FOR_PRIMARY_EXECUTION",
+    "query": "Which locker did Mira Fenwick use on 2048-11-15?",
+    "reference_source": "development_examples_v3.json:p1d_dev_00_1",
+    "constant_additional_evidence": [
+      "The collection archive used a blue cover throughout 2048.",
+      "The gardening archive used a blue cover throughout 2048."
+    ],
+    "cells": {
+      "R0A0": {
+        "text": "Archived quotation by Mira Fenwick: During 2048-07-01 through 2048-09-30, the gardening archive used a blue cover.",
+        "relevance": false,
+        "attestation_covers_query": false,
+        "answer_supporting": false
+      },
+      "R0A1": {
+        "text": "Archived quotation by Mira Fenwick: During 2048-10-01 through 2048-12-30, the gardening archive used a blue cover.",
+        "relevance": false,
+        "attestation_covers_query": true,
+        "answer_supporting": false
+      },
+      "R1A0": {
+        "text": "Archived quotation by Mira Fenwick: During 2048-07-01 through 2048-09-30, the collection archive used a blue cover.",
+        "relevance": true,
+        "attestation_covers_query": false,
+        "answer_supporting": false
+      },
+      "R1A1": {
+        "text": "Archived quotation by Mira Fenwick: During 2048-10-01 through 2048-12-30, the collection archive used a blue cover.",
+        "relevance": true,
+        "attestation_covers_query": true,
+        "answer_supporting": false
+      }
+    },
+    "interpretation": "Same value and predicate within each R level; date interval changes without a false fact. A identifies attestation coverage/date cues, NOT an outdated competing answer or expired proposition. R still changes domain lexical content. All four cells receive the same full extended evidence.",
+    "alternatives": "To test expired propositions requires changed attribute values or independent evidence of invalidity; that is a separate competition experiment, not this orthogonal pure-time claim.",
+    "potential_future_size": {
+      "speakers": 12,
+      "cases": 24,
+      "conditions": 6,
+      "requests": 144
+    },
+    "human_decision": ""
+  },
+  "other_controls": [
+    {
+      "id": "ledger_permutation",
+      "purpose": "Independently permute evidence order across cases; identical order within case, balance target fact position across E/V. Not implemented in current demonstration examples."
+    },
+    {
+      "id": "entity_value_counterbalance",
+      "purpose": "Assign names and attribute values independently before generation; audit distributions and duplicate entities."
+    },
+    {
+      "id": "positive_support",
+      "purpose": "E1V1 intentionally repeats answer-supporting evidence; support is an intervention component, not accidental leakage."
+    },
+    {
+      "id": "negative_domain",
+      "purpose": "Non-answer same-length domain text; semantic neutrality reviewed, never inferred from token equality."
+    },
+    {
+      "id": "role_quotation_adversary",
+      "purpose": "Authored quotations, headings and nested code in measurement development fixtures; not silently added to main validation cases."
+    }
+  ],
+  "presentation": "One archived quotation in every active cell, same speaker and position. Structured/different-turn presentation requires an additional separate arm."
+}

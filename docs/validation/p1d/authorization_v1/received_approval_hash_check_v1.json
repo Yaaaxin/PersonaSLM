@@ -1,0 +1,23 @@
+{
+  "version": "p1d_received_approval_hash_check_v1",
+  "researcher_id": "Yaxin_ZHENG",
+  "decision_as_received": "APPROVED WITH SCIENTIFIC LIMITATIONS",
+  "registration_status": "NOT_REGISTERED_HASH_BINDING_MISMATCH",
+  "human_review_timestamp": null,
+  "source": "Actual researcher message in this conversation; excerpt and requested restrictions retained below",
+  "verbatim_approval_excerpt": "I approve the prospective adoption of:\n\np1d_addendum_proposed_v1\n\nBound to:\n\ndocs/P1d_researcher_decision_packet_v1.md\n\nExpected SHA-256:\n\n1ea81f56548d6685fc0eb67bcd291283f0867e73008f8fd7e26eae432bc30319\n\nVerify the exact SHA-256 before registration.\n\nThis approval concerns the prospective\nresearch design only.\n\nIt does not authorize model inference.",
+  "expected_sha256_as_received": "1ea81f56548d6685fc0eb67bcd291283f0867e73008f8fd7e26eae432bc30319",
+  "actual_addendum_sha256": "1ea81f56548d6685fc0eb67bdc291283f0867e73008f8fd7e26eea432bc30319",
+  "actual_decision_packet_sha256": "2474ad11bd37622f8dcb00034f35c4d329a38c7a07704788274f90a349a7b882",
+  "restrictions_summary": [
+    "S/F/H remains central; P1d does not replace the original programme",
+    "Restricted history relevance/temporal-status packages, no pure mechanisms",
+    "144 speakers,288 cases,1728 Base and288 matched Instruct are prospective targets only",
+    "Limited model-subset estimands; template and configuration confounding retained",
+    "Development-only output-budget validation before new freeze; P1c unchanged",
+    "Separate metrics, independent measurement, clustering/missingness/multiplicity",
+    "Continue non-gated development, no inference,training,historical changes,commit or push"
+  ],
+  "action": "One narrowly scoped fingerprint clarification requested; no original document was modified to match the supplied hash.",
+  "authorized_inference_requests": 0
+}

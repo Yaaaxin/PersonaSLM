@@ -1,0 +1,69 @@
+{
+  "version": "p1d_opportunity_registry_update_v3",
+  "previous_registry": "docs/validation/p1d/proposed_v1/algorithm_opportunity_registry_v2.json",
+  "previous_sha256": "1afc2c9f5587059588b003f445dcd625cddf6c224df46fd5fcc5ce7ffb785e18",
+  "new_entries": [
+    {
+      "direction": "Temporal evidence / answer-component verification",
+      "observation": "Query-date-only checker misjudges explicitly dated historical claims and can accept unresolved/conflicting support in authored specifications",
+      "implemented_module": "tools/p1d_verifier_date_scope.py",
+      "implementation_sha256": "c4b0557ca7b397e8b82b8f2e405a46e34d9d5e8c3ead7348239381f86b41d4a3",
+      "classification": "ENGINEERING_ADAPTATION",
+      "published_overlap": [
+        "LongMemEval temporal filtering",
+        "Chain-of-Verification independent checking",
+        "RARR evidence verification"
+      ],
+      "comparison": {
+        "fixtures": 13,
+        "matches": {
+          "original_query_date_only": 8,
+          "claim_date_scope": 13,
+          "without_claim_date": 10,
+          "without_unique_support": 12,
+          "without_delivery": 12
+        },
+        "median_process_cpu_ns_per_check": 8012.820512820513,
+        "cpu_batches_ns": [
+          8012.820512820513,
+          8012.820512820513,
+          12019.23076923077,
+          8012.820512820513,
+          8012.820512820513,
+          8012.820512820513,
+          12019.23076923077
+        ],
+        "new_generations": 0,
+        "independent_accuracy": null,
+        "persona_fidelity_effect": null,
+        "free_text_extraction_validated": false,
+        "classification": "ENGINEERING_CORRECTION_OF_KNOWN_STRUCTURED_VERIFICATION",
+        "observed_issue": "Prior baseline used requested date for every claim, even explicitly dated historical statements; unknown dates and conflicting sources were not represented.",
+        "prior_art_overlap": "Temporal query/evidence filtering (LongMemEval); independent fact verification (CoVe); evidence-supported revision (RARR). This is not reproduction of their full systems.",
+        "methodological_gap_demonstrated_against_published_methods": false,
+        "source_sha256": "c4b0557ca7b397e8b82b8f2e405a46e34d9d5e8c3ead7348239381f86b41d4a3",
+        "old_baseline_sha256": "c4664c58b42de888f5e99c4d361dd148d3cf170f098213d9d528b4755ce6ce44",
+        "dataset_sha256": "a558c11760de8d834b14293929e83b5ddac05ca2de790e68b52f352671813b16"
+      },
+      "originality_status": "NOT_CLAIMED",
+      "remaining_gap": "No independently validated language-to-claim extraction or evidence that published methods fail",
+      "decision": "Retain as strong local measurement baseline; no new-generation improvement claim"
+    },
+    {
+      "direction": "Response boundary reliability",
+      "observation": "P1c alternate spans change descriptive results; they are not unique ground truth",
+      "action": "72-record independently masked raw-output review and strict import validator prepared",
+      "independent_human_ratings": 0,
+      "classification": "MEASUREMENT_INFRASTRUCTURE",
+      "originality_status": "NOT_CLAIMED",
+      "decision": "Await actual independent boundary evidence before developing adaptive extraction"
+    }
+  ],
+  "negative_results_preserved": [
+    "Older fence-aware parser had no extra real-output recovery",
+    "Lexical selection fixtures tied all candidates; not evidence of broad retrieval inferiority",
+    "No stable replicated interaction supports interaction-aware conditioning"
+  ],
+  "new_generations": 0,
+  "heldout_answers_used_for_algorithm_tuning": false
+}

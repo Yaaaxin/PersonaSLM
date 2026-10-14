@@ -1,0 +1,33 @@
+{
+  "policy_sha256": "08503570fdc4a8e6597f54efb217a1b432d1ce05d6e1fb2f833eed7e2687fc92",
+  "contrast_sha256": "f2395c19e7c88b80ca0498335739a730e85cebba4afcdf15484995048e10e4ef",
+  "implementation_sha256": "f0f31b7cdfe3d0a3324fcd709fd0d9afd80b17e379b73b133e2527c1b5f854cd",
+  "registered_comparisons": 16,
+  "primary_family_size": 6,
+  "resamples": 10000,
+  "seed": 716201,
+  "primary_endpoints": [
+    "temporal_Incorrect_label_incidence",
+    "task_success"
+  ],
+  "primary_contrasts": [
+    "E",
+    "V",
+    "ExV"
+  ],
+  "methods": [
+    "paired cases",
+    "equal speaker aggregation",
+    "normal cluster-SE sensitivity",
+    "Bonferroni six-family intervals",
+    "whole-speaker percentile bootstrap",
+    "leave-one-speaker-out",
+    "full category distributions",
+    "unknown-outcome bounds",
+    "selected assessed-only sensitivity"
+  ],
+  "implementation_scope": "Bounded categorical outcomes; ordinal distributions/sign/rank and future free-text/human import are still separate integration tasks, not inferred from binary tests",
+  "empirical_P1d_analysis_executed": false,
+  "policy_changed": false,
+  "no_guarantee": "Sharing parameters in simulations are assumed, not empirical ICC estimates. Template dependencies and nonrandom synthetic population constrain generalization."
+}

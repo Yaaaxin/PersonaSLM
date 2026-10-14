@@ -1,0 +1,66 @@
+{
+  "prospective_protocol": "APPROVED_WITH_SCIENTIFIC_LIMITATIONS",
+  "approval_source": "docs/validation/p1d/authorization_v1/researcher_plan_approval_corrected_v1.json",
+  "inference_decision": "NO_GO",
+  "authorized_requests": 0,
+  "targets": {
+    "speakers": 144,
+    "cases": 288,
+    "base_requests": 1728,
+    "instruct_requests": 288
+  },
+  "candidate_dataset_manifest": null,
+  "frozen_request_manifest": null,
+  "gates": [
+    {
+      "item": "Prospective protocol and corrected binding",
+      "status": "PASS"
+    },
+    {
+      "item": "Development examples/token matching",
+      "status": "PASS_DEVELOPMENT_ONLY_16_CASES"
+    },
+    {
+      "item": "Independent 288-case construction and semantic validation",
+      "status": "PENDING_NOT_CREATED"
+    },
+    {
+      "item": "Procedural control semantic review",
+      "status": "PENDING_DIAGNOSTIC_ONLY"
+    },
+    {
+      "item": "Independent boundary and construct review",
+      "status": "PENDING_HUMAN_DATA"
+    },
+    {
+      "item": "Base identity/native vocabulary",
+      "status": "PASS"
+    },
+    {
+      "item": "Instruct official metadata identity",
+      "status": "PASS_METADATA_ONLY"
+    },
+    {
+      "item": "Instruct local GGUF/tokenizer/template runtime/RAM/latency",
+      "status": "PENDING"
+    },
+    {
+      "item": "Empirical output-budget suitability",
+      "status": "PENDING_SEPARATELY_AUTHORIZED_DEVELOPMENT_DIAGNOSTIC"
+    },
+    {
+      "item": "Bound statistical policy/weights/precision assumptions",
+      "status": "PASS_PROSPECTIVE_WITH_LIMITATIONS"
+    },
+    {
+      "item": "Final immutable dataset/request freeze",
+      "status": "NOT_READY"
+    },
+    {
+      "item": "Explicit exact-manifest execution authorization",
+      "status": "NOT_GRANTED"
+    }
+  ],
+  "recommendation": "Continue offline construction and independent measurement preparation. Do not request blanket inference authorization for absent or unvalidated manifests.",
+  "S_F_H_link": "Original S/F/H remains the programme. P1d E/V varies auxiliary historical source packages with persona style/facts fixed within each case; it neither replaces S/F/H nor estimates S/F/H interactions."
+}

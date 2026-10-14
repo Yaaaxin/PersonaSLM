@@ -1,0 +1,33 @@
+{
+  "case_count": 288,
+  "persona_count": 144,
+  "other_person_name_count": 12,
+  "question_target_name_count": 84,
+  "other_names_reused_across_speaker_clusters": {
+    "Neri Farnell": 24,
+    "Neri Gresham": 24,
+    "Neri Keaton": 24,
+    "Neri Lydell": 24,
+    "Neri Dunley": 24,
+    "Neri Estwick": 24,
+    "Neri Isley": 24,
+    "Neri Jarrow": 24,
+    "Neri Norcross": 24,
+    "Neri Calder": 24,
+    "Neri Hollis": 24,
+    "Neri Marden": 24
+  },
+  "max_target_name_speaker_clusters": 12,
+  "same_domain_case_pairs": 40,
+  "templates": "Four paraphrases per task family, shared authored grammar; not independent sampled template clusters",
+  "interpretation": "Case-specific synthetic ledgers are internally unique, but recurring other-person names and shared template construction limit linguistic independence. Same-name biographies are not asserted globally across alternative case worlds.",
+  "freeze_disposition": "REVISION_REQUIRED_BEFORE_INDEPENDENT_MATERIAL_FREEZE",
+  "required_material_work": [
+    "Use globally distinct other-person identities per synthetic speaker, retained across its two cases; counterbalance referent independently",
+    "Explicitly scope independent scenario worlds or harmonize repeated entity/domain timelines across cases",
+    "Apply a bounded tokenizer-aware name/control bank, preserving all failed candidates and human semantic review",
+    "Do not change the approved E/V weights, cases-per-speaker allocation or endpoints; no outcome-based selection"
+  ],
+  "source_sha256": "a12dc47d36ac8f3b801ad3489c6168fa38182590befdbc621421544f9d8a1744",
+  "human_approval": null
+}

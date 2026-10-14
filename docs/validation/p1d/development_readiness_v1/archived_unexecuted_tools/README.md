@@ -1,0 +1,1 @@
+This bounded six-control-only repair draft was never executed. Full-prompt validation subsequently found 24 active-name mismatches, so tools/p1d_candidate_completion_v4.py replaced it. The draft is preserved as development provenance and is not an active execution tool. No generated model output or human annotation is associated with it.

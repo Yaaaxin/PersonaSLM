@@ -1,0 +1,44 @@
+{
+  "version": "p1d_decision_packet_proposed_v1",
+  "maintainer": "Yaxin ZHENG",
+  "status": "PENDING_RESEARCHER_CONFIRMATION",
+  "decision_required": "Adopt p1d_addendum_proposed_v1 and its bound evaluation, allocation, measurement and model-sensitivity scope as a prospective plan only.",
+  "recommended_decision": "APPROVE_PROSPECTIVE_PLAN_WITH_DOCUMENTED_LIMITATIONS_NO_INFERENCE_AUTHORIZATION",
+  "bound_documents_sha256": {
+    "docs/P1d_protocol_addendum_proposed.md": "1ea81f56548d6685fc0eb67bdc291283f0867e73008f8fd7e26eea432bc30319",
+    "docs/validation/p1d/proposed_v1/analysis_policy_proposal_v1.json": "08503570fdc4a8e6597f54efb217a1b432d1ce05d6e1fb2f833eed7e2687fc92",
+    "docs/validation/p1d/proposed_v1/contrast_specification_v1.json": "f2395c19e7c88b80ca0498335739a730e85cebba4afcdf15484995048e10e4ef",
+    "docs/validation/p1d/proposed_v1/model_configuration_proposal_v1.json": "d33cd657654520715b95d0f39da20381a79146dcc0e9841ad529f4468b475806",
+    "docs/validation/p1d/proposed_v1/allocation_selection_v1.json": "b5bf5e259707bb4e466a06b1523dc940e02c4005f21efa94c9963e1e46355a5a",
+    "docs/P1d_independent_annotation_plan.md": "0b3afcadbacf89e5b0995b251b05b24739e3b5192394cb0ac28f6fbfa17c9eb7",
+    "docs/P1d_identification_and_controls.md": "a2410966194ae9a3406c4c3aedd9e43cd81a8792d2d031e3794e85ec0a0de265",
+    "docs/P1d_task_and_metric_design.md": "7ca4ffe806e04030dd919e560da08e5439b4e19e69ee90548025ddba01bd4020",
+    "docs/P1d_sample_size_precision_plan.md": "7f5f322d30fa96f65ea08f719d5658d1c03025eea37efc575b3c56e6895e47e0"
+  },
+  "proposed_scope": {
+    "base_speakers": 144,
+    "paired_cases": 288,
+    "base_requests": 1728,
+    "paired_instruct_subset_speakers": 24,
+    "instruct_requests": 288,
+    "total_requests": 2016,
+    "auxiliary_RT_requests_included": 0,
+    "algorithm_generation_requests_included": 0,
+    "authorized_now": 0
+  },
+  "not_ready_for_execution": [
+    "Independent held-out bank not created/reviewed/frozen",
+    "Active exact length matching incomplete in 2/16 examples; all procedural examples unmatched",
+    "Strict control neutrality unestablished",
+    "Independent reviewer/measurement-readiness evidence absent",
+    "Demonstration follow-ups permit persona-name shortcut; multi-domain independent templates pending",
+    "Local Instruct GGUF/template/tokenizer/compatibility/RAM unknown",
+    "No immutable P1d execution manifest"
+  ],
+  "gate_reason": "User P1d sections 18,20,24 require explicit formal addendum adoption and separate authorization of a frozen execution. This packet does not reopen P1c confirmations.",
+  "researcher_decision": "",
+  "reviewer_id": "",
+  "human_review_timestamp": null,
+  "if_approved": "Register only this prospective plan; continue material and measurement preparation. Later frozen execution must be explicitly authorized once its exact identities/hashes exist.",
+  "if_rejected": "Preserve this proposal and revise only the specified scientific issue; no P1c records change."
+}

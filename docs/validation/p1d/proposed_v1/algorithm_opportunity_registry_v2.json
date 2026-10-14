@@ -1,0 +1,84 @@
+{
+  "maintainer": "Yaxin ZHENG",
+  "predecessor": "docs/validation/research_monitor_v1/algorithm_opportunity_registry_v1.json",
+  "entries": [
+    {
+      "candidate": "temporal_entity",
+      "classification": "Engineering adaptation",
+      "status": "IMPLEMENTED_OFFLINE",
+      "published_and_simple_baselines": "Time-only filter; exact entity/date join; LongMemEval; FC/PS",
+      "remaining_gap": "Uncertain natural-language metadata extraction not validated",
+      "falsifier": "No improvement over exact join on independent annotated claims",
+      "CPU_cost": "19.5 microseconds structured check; extraction unmeasured",
+      "persona_fidelity": "Must measure separately; currently unobserved",
+      "independent_validation": false,
+      "originality": "NOT_ESTABLISHED"
+    },
+    {
+      "candidate": "components",
+      "classification": "Engineering adaptation",
+      "status": "IMPLEMENTED_OFFLINE",
+      "published_and_simple_baselines": "Component checklist; CoVe; RARR",
+      "remaining_gap": "Distinguish supported partial facts from delivered answers",
+      "falsifier": "Fails on independent negation/promise/component labels or harms correct answers",
+      "CPU_cost": "19.5 microseconds fixture checker; generation/verification not measured",
+      "persona_fidelity": "Must measure separately; currently unobserved",
+      "independent_validation": false,
+      "originality": "NOT_ESTABLISHED"
+    },
+    {
+      "candidate": "boundary",
+      "classification": "Incremental research candidate",
+      "status": "DEVELOPMENT_BASELINES_EXIST",
+      "published_and_simple_baselines": "Frozen parser; native EOS; literal roles; headings; fence-aware parsing",
+      "remaining_gap": "Independent span truth missing",
+      "falsifier": "No gain over heading baseline, or false splits erase delivery",
+      "CPU_cost": "P1c existing CPU timings; no new speed claim",
+      "persona_fidelity": "Must measure separately; currently unobserved",
+      "independent_validation": false,
+      "originality": "NOT_ESTABLISHED"
+    },
+    {
+      "candidate": "admission",
+      "classification": "Existing established method",
+      "status": "FILTERS_IMPLEMENTED_OFFLINE",
+      "published_and_simple_baselines": "Lexical; time; entity/time; FC/PS; relevance retrieval",
+      "remaining_gap": "Preserve useful personalized content at equal budget",
+      "falsifier": "Gain disappears with equal token budgets or useful memory/fidelity declines",
+      "CPU_cost": "No model gain measured",
+      "persona_fidelity": "Must measure separately; currently unobserved",
+      "independent_validation": false,
+      "originality": "NOT_ESTABLISHED"
+    },
+    {
+      "candidate": "separation",
+      "classification": "Incremental research candidate",
+      "status": "PROMPTS_ONLY",
+      "published_and_simple_baselines": "Evidence priority; history removal; FPPS; AO-DA",
+      "remaining_gap": "Benefit beyond removal with fidelity preservation",
+      "falsifier": "Reliability gain requires deleting useful persona or extra unmatched compute",
+      "CPU_cost": "Extra model calls not authorized",
+      "persona_fidelity": "Must measure separately; currently unobserved",
+      "independent_validation": false,
+      "originality": "NOT_ESTABLISHED"
+    },
+    {
+      "candidate": "interaction_adaptive",
+      "classification": "Potentially original, unverified",
+      "status": "DEFERRED",
+      "published_and_simple_baselines": "Fixed conditioning and simple gating",
+      "remaining_gap": "No replicated actionable interaction",
+      "falsifier": "Independent package interaction unstable or boundary-dependent",
+      "CPU_cost": "No implementation justified",
+      "persona_fidelity": "Must measure separately; currently unobserved",
+      "independent_validation": false,
+      "originality": "NOT_ESTABLISHED"
+    }
+  ],
+  "rejected_claims": [
+    "Pure P1c R/T mechanism identification",
+    "Fence-aware parser improves real P1c recovery beyond headings",
+    "Time/entity filtering is an original algorithm",
+    "Fixture checks constitute independent model validation"
+  ]
+}

@@ -1,0 +1,73 @@
+# P1d development readiness after prospective adoption — v1
+
+Maintainer: Yaxin ZHENG. Research title: Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models. First submission target: PLOS ONE. No new model inference, training or human annotation occurred.
+
+## Scope and material development
+
+The [corrected adoption record](P1d_corrected_protocol_adoption_v1.md) records approval of the prospective plan only. Original S/F/H remains the programme. P1d's actual E/V factors concern entity-match and requested-interval source-selection packages within historical conditioning. Name/value/date/lexical differences remain bundled; pure relevance, pure temporal cognition and internal memory mechanisms are not identified.
+
+The 16 development examples were revised separately from the approved documents and historical experiments. Four follow-ups now split equally between persona and other-entity referents, balanced over historical/current dates. This removes the deterministic persona-name rule in these examples; it does not prove that every possible shortcut is absent. Reference facts and source traces were mechanically reconstructed. No model outcome was used to select content.
+
+The first finite repair bank produced 14/16 active/control matches. A second bounded alias bank changed only the two remaining development distractor names from Quinn Kingsley to Arwen Kingsley. All attempts and versions remain preserved. The [active development v5 bank](validation/p1d/development_readiness_v1/development_examples_v5.json) now has 16/16 equal full-prompt token counts across all four active histories and their procedural control. H_none remains intentionally shorter. There are 96 prompts, 1,633–1,807 native input tokens, all fitting a 4,096-token context even with a 256-token candidate output allowance. Vocabulary-only calls used the pinned GGUF and backend; no server or generation endpoint ran.
+
+Exact token equality is a formatting check. The controls mention reading/checking records, folders and shelves and may prime verification or a procedural style. Repetition can sound unnatural. They remain **DIAGNOSTIC_ONLY**, not semantically neutral. All human material-review fields are blank. Domain/template dependence and human validity remain open.
+
+## New independent-validation candidates
+
+A separate candidate construction tool creates 144 new synthetic personas and 288 cases under the adopted allocation. These cases must not be used for algorithm tuning. They are candidates, not frozen confirmatory data, independent human-authored templates or observed responses. Four domains and four families use shared authored grammars; statistical interpretation remains conditional on that template bank.
+
+The initial candidate version exposed a 72/96/72/48 domain imbalance. It was preserved. Version 2 counterbalances domains within every family/requested-date stratum before any outcomes: 72 cases per domain and family, 144 per date type, and 144 persona/144 other-entity targets. Each family/date stratum contains nine cases per domain. This correction addresses allocation, not a favorable observed effect. The [candidate provenance](validation/p1d/independent_candidates_v2/candidate_provenance_manifest_v1.json) and blank material review file retain the construction lineage. Native token checks and semantic review are separate gates; no candidate is certified by the generation script.
+
+The complete [native candidate check](validation/p1d/independent_candidates_v2/native_tokenizer_validation_v1.json) measured all 1,728 Base candidate prompts: 1,931–2,046 input tokens, all within context at a candidate 256-token allowance. Only 140/288 cases have equal active-cell lengths, and 0/288 procedural controls match. Thus **candidate stimulus readiness fails**; successful development v5 repairs must not be generalized to this new bank. The [dependency audit](validation/p1d/independent_candidates_v2/dependency_audit_v1.json) also records repeated other-person names across speaker clusters and shared template ancestry. Distinct persona IDs alone do not establish independent linguistic sampling. Other-person identities, scenario-world scope and tokenizer-aware control construction need revision before independent freeze; do not silently accept the candidate bank.
+
+These v2 failures were subsequently addressed without model outcomes. Version 3 introduced 144 distinct other-person identities, stable within speaker pairs, and explicit independent hypothetical scenario scope. Full-prompt checks exposed a limitation of isolated name probes: Marek/Selma differed in 24 cases despite the isolated-token match. Version 3 therefore passed only 264/288 active/control matches; six controls also exceeded the original finite text bank's maximum length. Both failures remain archived.
+
+**Current candidate: [v4](validation/p1d/independent_candidates_v4/candidate_provenance_manifest_v1.json).** A separately recorded full-prompt alias bank selected Liora for the affected Marek cases, and a finite procedural bank added one ordinary cover-description variant. Only 24 cases required further prompt changes. The other 1,584 native prompt records were reused after exact prompt-hash equality; 247 additional vocabulary-only calls checked candidate strings and changed full prompts. All 288/288 active and procedural length matches now pass. All 1,728 current candidate prompts have native token evidence and fit the context at 256 tokens. Human case/control validity remains unreviewed; exact length does not certify semantic neutrality. The candidate bank is **not frozen** and cannot be used for algorithm tuning. Shared authored template ancestry remains a generalization limitation.
+
+## Models and output budget
+
+Base model and backend remain pinned to their original hashes. Official Qwen/Qwen3.5-2B metadata was retrieved at revision `965dcc54bc9c0591873df0e9869c056a54d323d1`: three files, 27,394 bytes, no weights. [Metadata provenance](validation/p1d/development_readiness_v1/official_instruct_metadata/provenance_v1.json) records URLs, retrieval times and exact bytes. Template SHA-256 is `0286b273dc0e7dbcc080469bf5b8e57b329c135db0de8a45cb16f80a8b0c4ce6`; tokenizer-config SHA-256 is `49e2b6e395f959f077f1e992b338919c0d4a9732fc6e613995e06557f843500c`.
+
+The official template uses role markers and an explicit non-thinking generation prefix, and the tokenizer metadata identifies `<|im_end|>` as EOS. These observations do not establish local GGUF tokenizer equivalence or backend support. No Instruct GGUF, exact conversion/quantization provenance, rendered-template runtime validation, RAM benchmark or latency measurement exists. Jinja/Transformers/tokenizers packages are absent in the current environment; no manually reconstructed template is passed off as official rendering. See the [official revision](https://huggingface.co/Qwen/Qwen3.5-2B/blob/965dcc54bc9c0591873df0e9869c056a54d323d1/chat_template.jinja).
+
+The official standalone and tokenizer-config-embedded templates are **not byte-identical** even at this pinned revision: the standalone adds a `reasoning_content` guard for assistant turns after the last user query. The embedded template lacks it. Both are preserved in the [consistency inspection](validation/p1d/development_readiness_v1/official_instruct_metadata/template_consistency_inspection_v1.json). The model plan already names the standalone file; it must be explicitly selected and rendered/checked, not silently replaced by the embedded default. No rendered equivalence or runtime success is claimed.
+
+A [quantization source survey](validation/p1d/development_readiness_v1/instruct_quantization_source_survey_v1.json) found third-party Q4_K_M artifacts, without establishing an exact source-weight revision match. For example, the [bartowski card](https://huggingface.co/bartowski/Qwen_Qwen3.5-2B-GGUF) reports imatrix quantization with b9222 and added MTP layers. These choices must be documented, not assumed equivalent to the existing Base quantization. No third-party weights were downloaded or selected, and a published remote checksum is not local verification.
+
+Authored reference answers in the development bank require 8–24 native tokens. This is not an empirical output-budget adequacy test: a model may reason, postpone an answer or continue other turns. The approved reference remains 96 tokens. The separate [budget diagnostic proposal](validation/p1d/development_readiness_v1/output_budget_diagnostic_proposal_v1.json) specifies eight already inspected development cases, all six cells and budgets 96/192/256: 144 prospective Base calls, excluded from the 2,016 independent-study targets and currently unauthorized. An optional Instruct diagnostic would be another 144, also unauthorized.
+
+Budget selection must use first-reply delivery/completeness and adjudicability before viewing factorial effects. The smallest budget meeting the stated development coverage targets is preferred; if none qualifies, no adequate budget is declared. Changing the adopted 96-token reference requires a documented prospective amendment. A token-scaled Base cost is approximately 1.21 hours for the diagnostic, with a 1–3x planning range; this is not a P1d runtime measurement.
+
+## Statistical and independent measurement preparation
+
+The approved policy and all 16 weight vectors remain byte-identical. The [implementation binding](validation/p1d/development_readiness_v1/statistical_implementation_binding_v1.json) preserves categorical incidence, selected assessed-only accuracy, full-denominator unknown bounds, original signed weights, equal-speaker aggregation, six-family Bonferroni intervals, 10,000 whole-speaker draws with seed 716201 and leave-one-speaker-out. Tests exercise explicit unknowns and unmatched model records. No P1d empirical effects exist.
+
+The [updated implementation binding](validation/p1d/development_readiness_v1/statistical_implementation_binding_v2.json) adds separate ordinal category/floor/ceiling and descriptive paired signed-rank diagnostics, retaining ties and unresolved pairs. No independent-case Wilcoxon p-value is calculated; optional threshold-incidence views are secondary sensitivity representations, not endpoint substitutions or evidence of interval-scale validity.
+
+The [model estimands](validation/p1d/development_readiness_v1/model_comparison_estimands_v1.json) restrict Instruct analysis to 24 selected speakers/48 paired cases/all six conditions. Each family has 12 matched cases and each requested-date type 24. The corresponding 288 Base observations are already inside the 1,728 total; no extra Base calls are implied. Other 240 cases are Base-only. Pair model differences within each cell or case contrast, then aggregate speaker means. Neither complete full-cohort model interactions nor pure post-training effects are supported by this allocation.
+
+The existing 216-configuration precision grid and 2,048 selected stress trials remain planning evidence. Proposed simultaneous half-width targets are 10 pp for main effects and 20 pp for interaction; the 144-speaker stress median estimates were about 9.22/18.38 pp. Assumed correlation/sharing parameters are not empirical ICC estimates. Missing outcomes can produce large identification bounds despite increasing sample size; repeated templates limit generalization beyond speakers.
+
+The [independent boundary review package](P1d_independent_boundary_review_guide_v1.md) now contains all 72 unchanged P1c raw continuations in a new masked order without original spans, parser labels, scores or model identity. It is ready for a real independent reviewer, with no fabricated assignment or rating. It validates measurement on development data; it does not create independent empirical replication. P1d material, boundary and construct validity still require actual review and adjudication.
+
+## Algorithmic Opportunity Assessment
+
+### 1. Observed Failure Modes
+
+Existing P1c boundary ambiguity and P1b factual-partial/task-delivery divergence remain development evidence. A new offline specification test exposed that the original structured checker used the requested date for every claim, including explicitly dated true historical claims. Missing dates and conflicting trusted facts also needed an unresolved state. These are checker defects exposed by authored fixtures, not newly generated model errors.
+
+### 2. Existing Methods and Published Prior Art
+
+Entity/date joins and uncertainty-aware evidence checks are established engineering methods. LongMemEval's temporal retrieval, Chain-of-Verification's independent checks and RARR's evidence-supported revision overlap substantially. FPPS steering and FC/PS memory admission address adjacent personalization risks. The [published-method comparison](P1d_published_baseline_comparison.md) and [ten-paper matrix](related_work_novelty_matrix_monitor_v4.md) retain full-method inspection limits. This implementation is not replication or defeat of those complete published systems.
+
+### 3. Potential Algorithmic Improvements
+
+`p1d_verifier_date_scope.py` implements a bounded development-only correction: separate asserted-time support from requested-time component delivery; abstain on unresolved extraction/date or contradictory functional facts. The previous checker remains untouched. The current result is **an engineering adaptation**, not a new algorithm. Interaction-aware conditioning remains unsupported by independent evidence.
+
+### 4. Validation Feasibility
+
+The [13 authored fixture comparisons](validation/p1d/development_readiness_v1/verifier_date_scope_v1/summary_v1.json) yield 8/13 specification matches for the old checker and 13/13 for the corrected checker. Removing claim-date handling, unique support or delivery checks yields 10/13, 12/13 and 12/13. This is not independent accuracy: the fixtures target known implementation requirements and supply structured claims. Median process CPU was about 8 microseconds/check, subject to timer quantization and excluding extraction, I/O and model costs. No reliability gain, complete-answer improvement or persona-fidelity benefit was measured. Independent free-text claim extraction and boundary ground truth remain required.
+
+### 5. Publication Value
+
+The current gain prevents a scoring error and supports reproducible measurement. No unresolved limitation of the strongest published methods has been established. Empirical replication remains primary; any algorithm claim requires fair compute budgets, independently labeled language data, persona-fidelity assessment, ablations and independent validation. Current P1d preparation does not establish PLOS ONE readiness.

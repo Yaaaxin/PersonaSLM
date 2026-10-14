@@ -1,0 +1,16 @@
+{
+  "case_ids": [
+    "p1d_dev_05_0",
+    "p1d_dev_05_1"
+  ],
+  "ordered_bank": [
+    "Arwen",
+    "Darian",
+    "Marlo",
+    "Alwin"
+  ],
+  "max_native_calls": 40,
+  "selection": "First same alias matching all five history/control lengths in both cases",
+  "reason": "Original finite bank left two documented one-token mismatches; no model outcomes inspected",
+  "code_sha256": "ebcb7cb9a082ddd4b959c5e761bd15841c223598438e1f3109a58a62d6c2eddb"
+}

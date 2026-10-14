@@ -1,0 +1,63 @@
+{
+  "version": "p1d_budget_diagnostic_proposed_v1",
+  "status": "PROPOSAL_ONLY_NOT_AUTHORIZED",
+  "source_development_examples_sha256": "5e89d9eaff8e3a628e4943a7bdf29b44293f2eb6af846d00df7a00144a1dc932",
+  "development_case_ids": [
+    "p1d_dev_00_0",
+    "p1d_dev_01_0",
+    "p1d_dev_02_0",
+    "p1d_dev_03_0",
+    "p1d_dev_04_1",
+    "p1d_dev_05_1",
+    "p1d_dev_06_1",
+    "p1d_dev_07_1"
+  ],
+  "cases": 8,
+  "speakers": 8,
+  "task_family_counts": {
+    "single_fact": 2,
+    "multi_component": 2,
+    "relational_integration": 2,
+    "context_followup": 2
+  },
+  "requested_date_counts": {
+    "historical": 4,
+    "current": 4
+  },
+  "conditions": [
+    "E0V0",
+    "E0V1",
+    "E1V0",
+    "E1V1",
+    "D_procedural",
+    "H_none"
+  ],
+  "budgets": [
+    96,
+    192,
+    256
+  ],
+  "base_requests_if_separately_authorized": 144,
+  "optional_instruct_requests_if_separately_authorized_and_ready": 144,
+  "included_in_main_2016_targets": false,
+  "authorized_requests": 0,
+  "executable_manifest": null,
+  "base_configuration_reference": "docs\\validation\\p1d\\proposed_v1\\model_configuration_proposal_v1.json",
+  "only_intended_change": "max_new_tokens; same input, model, CPU, seed, order policy and extraction policy",
+  "reference_budget": 96,
+  "independent_validation_use": "Excluded; eight already inspected development cases",
+  "prospective_selection_rule": [
+    "Evaluate delivery, components, semantic completeness and boundary adjudicability before viewing factor contrasts",
+    "Compare all three budgets on all 48 case-condition pairs, retain every failure and paired change",
+    "Operational targets: at least 90% complete replies and at most 5% unresolved boundaries in the development diagnostic; no population guarantee",
+    "Prefer the smallest budget meeting both targets; if none meets them, do not freeze a claimed adequate budget",
+    "Report task-family losses and uncertain judgments; no selection by desired E/V signs",
+    "Any departure from adopted 96-token reference requires a documented prospective amendment in the execution packet, not automatic adoption"
+  ],
+  "cost": {
+    "source_P1c_seconds_per_request": 16.06338447222222,
+    "rough_token_scaled_base_hours": 1.2136779379012343,
+    "caveat": "Unmeasured P1d latency. Longer input, prefill, cache and early EOS invalidate simple proportional prediction; allow 1-3x scenario range, not a benchmark"
+  },
+  "limitations": "Authored gold replies are 8-24 native tokens, but this does not establish model answer completeness. P1c budget saturation may occur after a complete first reply. No new responses exist."
+}

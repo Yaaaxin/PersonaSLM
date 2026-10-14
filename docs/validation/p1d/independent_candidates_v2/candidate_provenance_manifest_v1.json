@@ -1,0 +1,20 @@
+{
+  "seed": 716601,
+  "domain_allocation_seed": 716602,
+  "superseded_candidate_manifest_sha256": "a0467402d794ae29cff0c94e5b299c18576712b31f5464c2f3b760cd3bdcca0c",
+  "revision_reason": "V1 domain allocations were 72/96/72/48; v2 fixes domain allocation within each family and requested-date stratum without outcomes. V1 preserved.",
+  "code_sha256": "b89acf560f90e0ccd23dcfabd26233fac280ae0176f7b51cc1f5904e4ed4372a",
+  "allocation_source_sha256": "b5bf5e259707bb4e466a06b1523dc940e02c4005f21efa94c9963e1e46355a5a",
+  "artifact_sha256": {
+    "docs/validation/p1d/independent_candidates_v2/base_candidate_prompts_v1.json": "acdf2d1f44e56c1c8e53e85568f8826f290b9032d42f3ed99d5c3a79819eaf15",
+    "docs/validation/p1d/independent_candidates_v2/candidate_bank_v1.json": "a12dc47d36ac8f3b801ad3489c6168fa38182590befdbc621421544f9d8a1744",
+    "docs/validation/p1d/independent_candidates_v2/construction_validation_v1.json": "ed7508869b15f9ccc2e9a74547051e3f15d198e86dd1efd784846b1224c1d4a5",
+    "docs/validation/p1d/independent_candidates_v2/material_review_candidate_v1.csv": "118b06170583fc89b97c7575e62732113e2b016bbd5f1b54e499b307226d52c9",
+    "docs/validation/p1d/independent_candidates_v2/metric_applicability_candidate_v1.json": "6a41d5f89abfa08eda5c8f63f29b079cf8d3850119d27049702699b5fd3216a4"
+  },
+  "freeze_status": "NOT_FROZEN",
+  "execution_manifest": null,
+  "authorized_inference_requests": 0,
+  "independence_claim": "New content relative to earlier waves, with shared synthetic template dependencies. Independent semantic validity is NOT established.",
+  "no_tuning_rule": "Do not inspect candidate answers to tune the offline verifier or any algorithm; existing development fixtures remain separate."
+}

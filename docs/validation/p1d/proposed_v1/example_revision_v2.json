@@ -1,0 +1,8 @@
+{
+  "supersedes": "development_examples_v1.json",
+  "reason": "V1 reused target-speaker names as other-speaker distractors across ledgers, allowing inconsistent cross-case attributes. V2 gives each distractor an exclusive name; main speaker identities and factorial definitions unchanged.",
+  "v1_preserved_sha256": "8f96631731bf1e5bbf3f0db3c17277cf7e9154a637df486fb2af102662d095ab",
+  "v2_sha256": "e6504cf46eeac72b60e2c0d822510eb5085b971c2aaa612d8d566476dbf6588b",
+  "new_generations": 0,
+  "status": "DEVELOPMENT_EXAMPLES_UNAPPROVED"
+}

@@ -1,0 +1,24 @@
+{
+  "revision": "965dcc54bc9c0591873df0e9869c056a54d323d1",
+  "standalone_sha256": "0286b273dc0e7dbcc080469bf5b8e57b329c135db0de8a45cb16f80a8b0c4ce6",
+  "embedded_template_sha256": "273d8e0e683b885071fb17e08d71e5f2a5ddfb5309756181681de4f5a1822d80",
+  "byte_equal": false,
+  "diff": [
+    "--- official_standalone\n",
+    "+++ official_tokenizer_config_embedded\n",
+    "@@ -97,7 +97,7 @@\n",
+    "             {%- endif %}",
+    "         {%- endif %}",
+    "         {%- set reasoning_content = reasoning_content|trim %}",
+    "-        {%- if loop.index0 > ns.last_query_index and reasoning_content %}",
+    "+        {%- if loop.index0 > ns.last_query_index %}",
+    "             {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content + '\\n</think>\\n\\n' + content }}",
+    "         {%- else %}",
+    "             {{- '<|im_start|>' + message.role + '\\n' + content }}"
+  ],
+  "difference": "Standalone suppresses empty reasoning blocks after the last user query; embedded template lacks the reasoning_content guard. Both original files preserved.",
+  "planned_source": "Explicit standalone file already named in approved model proposal; do not silently substitute embedded template.",
+  "rendered_equivalence_tested": false,
+  "runtime_compatibility": "PENDING",
+  "material_scope": "Metadata discrepancy; no prompt/model response was generated or altered"
+}

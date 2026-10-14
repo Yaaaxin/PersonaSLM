@@ -1,0 +1,17 @@
+{
+  "seed": 716601,
+  "code_sha256": "809426bb6555aa0b46069de73e53a493f2b8a2a261644abc9107190b4f448cde",
+  "allocation_source_sha256": "b5bf5e259707bb4e466a06b1523dc940e02c4005f21efa94c9963e1e46355a5a",
+  "artifact_sha256": {
+    "docs/validation/p1d/independent_candidates_v1/base_candidate_prompts_v1.json": "3e3114b11bfbd66847bff50de9253538d2a68c352e004f9d71c108c768645f96",
+    "docs/validation/p1d/independent_candidates_v1/candidate_bank_v1.json": "471c3bcf5dd241cb9e96ba823276b7a470ce52b4df73d4c6f4faad39c8f7508a",
+    "docs/validation/p1d/independent_candidates_v1/construction_validation_v1.json": "f920c43ec672351fa29a789b19cefe65a574427ff051ad6e8a957dfa9818912d",
+    "docs/validation/p1d/independent_candidates_v1/material_review_candidate_v1.csv": "d81102abcc62e134eb00f14c2cd82c296c33e0d85a04ebac1d7b9609ee0916e4",
+    "docs/validation/p1d/independent_candidates_v1/metric_applicability_candidate_v1.json": "6a41d5f89abfa08eda5c8f63f29b079cf8d3850119d27049702699b5fd3216a4"
+  },
+  "freeze_status": "NOT_FROZEN",
+  "execution_manifest": null,
+  "authorized_inference_requests": 0,
+  "independence_claim": "New content relative to earlier waves, with shared synthetic template dependencies. Independent semantic validity is NOT established.",
+  "no_tuning_rule": "Do not inspect candidate answers to tune the offline verifier or any algorithm; existing development fixtures remain separate."
+}

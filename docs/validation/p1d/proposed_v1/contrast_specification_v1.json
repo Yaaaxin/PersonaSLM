@@ -1,0 +1,169 @@
+{
+  "status": "PROPOSED_NOT_APPROVED",
+  "cells": [
+    "E0V0",
+    "E0V1",
+    "E1V0",
+    "E1V1",
+    "D_procedural",
+    "H_none"
+  ],
+  "weights": {
+    "E": {
+      "E0V0": -0.5,
+      "E0V1": -0.5,
+      "E1V0": 0.5,
+      "E1V1": 0.5,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "V": {
+      "E0V0": -0.5,
+      "E0V1": 0.5,
+      "E1V0": -0.5,
+      "E1V1": 0.5,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "ExV": {
+      "E0V0": 1,
+      "E0V1": -1,
+      "E1V0": -1,
+      "E1V1": 1,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "E1V0-E0V0": {
+      "E0V0": -1,
+      "E0V1": 0,
+      "E1V0": 1,
+      "E1V1": 0,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "E1V1-E0V1": {
+      "E0V0": 0,
+      "E0V1": -1,
+      "E1V0": 0,
+      "E1V1": 1,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "E0V1-E0V0": {
+      "E0V0": -1,
+      "E0V1": 1,
+      "E1V0": 0,
+      "E1V1": 0,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "E1V1-E1V0": {
+      "E0V0": 0,
+      "E0V1": 0,
+      "E1V0": -1,
+      "E1V1": 1,
+      "D_procedural": 0,
+      "H_none": 0
+    },
+    "E0V0-D_procedural": {
+      "E0V0": 1,
+      "E0V1": 0,
+      "E1V0": 0,
+      "E1V1": 0,
+      "D_procedural": -1,
+      "H_none": 0
+    },
+    "E0V1-D_procedural": {
+      "E0V0": 0,
+      "E0V1": 1,
+      "E1V0": 0,
+      "E1V1": 0,
+      "D_procedural": -1,
+      "H_none": 0
+    },
+    "E1V0-D_procedural": {
+      "E0V0": 0,
+      "E0V1": 0,
+      "E1V0": 1,
+      "E1V1": 0,
+      "D_procedural": -1,
+      "H_none": 0
+    },
+    "E1V1-D_procedural": {
+      "E0V0": 0,
+      "E0V1": 0,
+      "E1V0": 0,
+      "E1V1": 1,
+      "D_procedural": -1,
+      "H_none": 0
+    },
+    "E0V0-H_none": {
+      "E0V0": 1,
+      "E0V1": 0,
+      "E1V0": 0,
+      "E1V1": 0,
+      "D_procedural": 0,
+      "H_none": -1
+    },
+    "E0V1-H_none": {
+      "E0V0": 0,
+      "E0V1": 1,
+      "E1V0": 0,
+      "E1V1": 0,
+      "D_procedural": 0,
+      "H_none": -1
+    },
+    "E1V0-H_none": {
+      "E0V0": 0,
+      "E0V1": 0,
+      "E1V0": 1,
+      "E1V1": 0,
+      "D_procedural": 0,
+      "H_none": -1
+    },
+    "E1V1-H_none": {
+      "E0V0": 0,
+      "E0V1": 0,
+      "E1V0": 0,
+      "E1V1": 1,
+      "D_procedural": 0,
+      "H_none": -1
+    },
+    "D_procedural-H_none": {
+      "E0V0": 0,
+      "E0V1": 0,
+      "E1V0": 0,
+      "E1V1": 0,
+      "D_procedural": 1,
+      "H_none": -1
+    }
+  },
+  "meaning": "E = target-entity versus other-entity source selection; V = query-containing versus expired interval source selection. Not P1c R/T.",
+  "primary_family": [
+    {
+      "endpoint": "temporal_Incorrect_label_incidence",
+      "contrast": "E"
+    },
+    {
+      "endpoint": "temporal_Incorrect_label_incidence",
+      "contrast": "V"
+    },
+    {
+      "endpoint": "temporal_Incorrect_label_incidence",
+      "contrast": "ExV"
+    },
+    {
+      "endpoint": "task_success",
+      "contrast": "E"
+    },
+    {
+      "endpoint": "task_success",
+      "contrast": "V"
+    },
+    {
+      "endpoint": "task_success",
+      "contrast": "ExV"
+    }
+  ],
+  "unknown": "Retain U/boundary/missing separately; no renormalization; unknown task outcomes have [0,1] identification bounds."
+}

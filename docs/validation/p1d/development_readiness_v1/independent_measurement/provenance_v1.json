@@ -1,0 +1,18 @@
+{
+  "version": "p1d_measurement_preparation_v1",
+  "population": "72 existing P1c development outputs, not new P1d validation data",
+  "seed": 716501,
+  "source_files": {
+    "docs/validation/p1c/calibration_v1/measurement_v1/semantic_scoring_view_v1.csv": "1317cf06609f5f80721f95c2131ae596f32f9cb69029d555459f594cf4f7fcb3",
+    "docs/validation/p1c/calibration_v1/measurement_v1/structural_review_view_v1.csv": "c511b290070a6efa614772922e9b2043396b92c394a8e6fda72c0a5e8153184f"
+  },
+  "reviewer_file_sha256": "f2a582329518c76f9149e5ea47a83a259ebd7d9ec3789648ac469a2f03ae1343",
+  "mapping_sha256": "200fdf6794937cb061d798f29232b7f2a725bd0d60090d5dc61c1975ffc5599c",
+  "rows": 72,
+  "human_ratings": 0,
+  "reviewer_recruited": false,
+  "condition_assignments_accessed": false,
+  "masking": "Hide model, treatment, parser status, original span, prior ratings and automated predictions. Response text may contain cues.",
+  "mapping_access": "Withhold from reviewer; directory separation is not an operating-system access-control guarantee",
+  "code_sha256": "7614a63bb4722db49a1bb0fbf821044d6587cdbdc4face8e376c7160540fb44f"
+}

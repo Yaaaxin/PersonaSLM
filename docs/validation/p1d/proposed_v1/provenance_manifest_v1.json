@@ -1,0 +1,26 @@
+{
+  "maintainer": "Yaxin ZHENG",
+  "annotation_provenance": "AI-assisted prospective design and engineering; no new human annotations",
+  "new_model_generations": 0,
+  "new_human_confirmations": 0,
+  "independent_validation_cases_created": 0,
+  "development_examples": 16,
+  "future_allocation_is_not_data": true,
+  "example_versions_preserved": [
+    "v1",
+    "v2",
+    "v3"
+  ],
+  "known_development_issues": "Original names and numeric shortcuts corrected in v2/v3; token/control/followup limitations remain explicit",
+  "source_hashes": {
+    "docs/P1c_researcher_confirmed_exploratory_analysis_v1.md": "c204dfe8c43c0d9ca12bdf484879dfd3dafd527e0d29ec27f005dac2309369fd",
+    "docs/P1c_confirmed_measurement_robustness_v1.md": "dac3d99aa053287f1102ece9cd8d448540c80115e606586149a6337c84486619",
+    "docs/P1c_offline_boundary_baseline_assessment_v1.md": "10344d996e79abdf2a7d1402654e462c8b75602e2f2d4d9a97e226302de3efae",
+    "docs/P1c_independent_validation_proposal_v1.md": "30cace2cec0a1ce7017c7ab6690f3d4f7a7f84fb3f1c5b19a389994d9a546339",
+    "docs/related_work_novelty_matrix_monitor_v3.md": "3986b8b4f8e397ac03cd1728a99a6db6f394c00a397fca7bf3431fc655c4712b",
+    "docs/validation/p1c/confirmed_semantic_v1/registration/confirmed_annotations_v1.json": "e29bf9d5176e88bac2a74073254173bd992ff2b07eba3363086bd5f016afa915",
+    "docs/validation/p1c/confirmed_semantic_v1/reproducibility_manifest_v1.json": "e83427ea600cd5675306414561234a9c7949decb000d027b47a1aaba49fb7ed1",
+    "docs/validation/p1c/final_review_v1/protocol_addendum_proposed_v2.json": "51d1987e2e91e2f4e72735304380e3f4442f418b731e972828677d24b7b96f55",
+    "docs/validation/p1c/authorization_v2/researcher_consolidated_approval_v1.json": "aa1cf2a59a9fea995a3aa3300952bdd16b89bd4ed745d5567e5e7a18e4d0faca"
+  }
+}
