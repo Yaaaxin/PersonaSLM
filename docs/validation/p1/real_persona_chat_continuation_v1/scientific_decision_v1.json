@@ -1,0 +1,29 @@
+{
+  "recorded_date": "2026-10-19",
+  "timing": "Prospective decision note after the Scientific Decision Intelligence Upgrade and launch of material registration, before the first generation attempt; no new model responses inspected. Does not alter design, endpoints, controls or allocation.",
+  "design_sha256": "f9597e2a74aea85cf1a5d03e16c25923d1a00dc4e01720879a06e12fae013fed",
+  "baseline": {"generations": 636, "inference_seconds": 3828.328792899886},
+  "primary_portfolio": "B: persona evaluation and reliability failure mechanisms, using authentic development dialogue and an objective provenance target; portfolioA remains the main long-term scientific question.",
+  "alternatives": [
+    {"path": "A: larger-model generative S/F/H replication", "relevance": "Most direct future answer to the core question", "validity": "Current style proxy did not establish specific fidelity; genuine Japanese semantic judgments remain absent", "information_per_cost": "New larger-model outputs would mix model differences with unresolved measurement; current RAM limits feasibility", "novelty": "Model replacement alone is not algorithmic novelty", "publication": "Potentially important after endpoint validation", "decision": "DEFER_NEW_GENERATIONS; preserve existing64 and pending human review"},
+    {"path": "B: correct/mismatched/no-external-history observed-continuation recognition with both option orders", "relevance": "Direct bounded test of whether authentic prior speaker information changes recognition of actual dialogue", "validity": "Exact recorded provenance labels; candidate order controlled, reciprocal candidates, matched history tokens; not semantic appropriateness or generated fidelity", "information_per_cost": "At most4 narrow controls plus48 main decisions; distinguishes history benefit, mismatched-history harm and position effects", "novelty": "Response selection and lexical retrieval are established; this pilot claims no novel method", "publication": "Supporting diagnostic only, not independently publishable proof of Persona Fidelity", "decision": "GO_ONLY_IF_EXISTING_MATERIAL_AND_RAM_GATES_AND4_OF4_CONTROLS_PASS"},
+    {"path": "C: reliability-fidelity history-filtering algorithm prototype", "relevance": "Potentially useful later", "validity": "No semantically established failure or valid paired fidelity/reliability outcomes yet", "information_per_cost": "Would risk optimizing a measurement artifact and spend validation reserve", "novelty": "Strong prior-art overlap for basic filtering and retrieval", "publication": "Unsupported without mechanism, baselines and independent cases", "decision": "DEFER_IMPLEMENTATION; no invented novelty"}
+  ],
+  "competing_patterns": [
+    {"hypothesis": "Useful correctly matched history", "support": "CORRECT exceeds both NONE and MISMATCH, with direction robust to removing a reciprocal pair", "falsifier_for_deeper_investigation": "No stable positive contrast, or gain explained by format/position instability; this does not prove population equivalence"},
+    {"hypothesis": "Mismatched-history interference", "support": "CORRECT resembles NONE while MISMATCH declines", "boundary": "No net benefit of correct history established; topic/content and speaker identity remain inseparable"},
+    {"hypothesis": "Current context is sufficient or external history is ignored", "support": "The same candidate is selected across arms with little change", "boundary": "Exact equivalence is not established by this small pilot"},
+    {"hypothesis": "Option-position sensitivity", "support": "Repeated same-letter choices after candidate reversal, despite passing authored controls", "boundary": "A measurement/reliability mechanism, not evidence that history semantically harms dialogue"},
+    {"hypothesis": "Simple lexical matching suffices", "support": "Observed selection pattern is explained by the fixed character-trigram baseline", "boundary": "No distinctive reasoning or algorithmic advantage"}
+  ],
+  "adversarial_review": "A real recorded continuation is not the only acceptable utterance. Topic, personal content and conversational context can cause recognition effects without style fidelity. Eight speakers form only four reciprocal dependence clusters. The primary endpoint can measure actual-reference selection, not causal speaker-style isolation, relevance, truth or dialogue quality. Both option orders expose superficial letter preference; exact matching and invalid-selection missingness avoid silent semantic repairs.",
+  "future_decision_heuristic": {
+    "GO_development_replication": "Only with complete format coverage, positive CORRECT-MISMATCH and CORRECT-NONE, all leave-one-pair-out means positive for both, and CORRECT candidate invariance no worse than NONE. This is a conservative future allocation heuristic, not a calibrated test, confidence claim or historical qualification threshold.",
+    "PIVOT_measurement": "If changes are dominated by format failure or letter preference, investigate option stability rather than call the effect Persona Fidelity.",
+    "PIVOT_interference": "If only mismatched history harms recognition, consider a separately frozen topic/content-controlled development test; do not jump to algorithm novelty.",
+    "STOP_expansion": "Control or safety gate failure, or no stable history benefit with no distinct mechanism worth testing. Preserve results and do not retry, tune these cases, or open58 validation speakers.",
+    "validation": "No automatic independent validation. Freeze construct-valid configuration and sample rationale separately before considering reserved speakers. At least512 generation requests remain if all52 are attempted."
+  },
+  "human_review": "Existing64 Japanese generation reviews remain genuinely pending; recognition labels do not replace them.",
+  "review_provenance": "Separate AI scientific critique before new outputs; not human review or independent experimental validation."
+}

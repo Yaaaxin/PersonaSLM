@@ -1,0 +1,64 @@
+{
+  "schema": "personaslm_english_primary_ordinal_analysis_amendment_v1",
+  "date": "2026-10-19",
+  "status": "ANALYSIS_RULES_FIXED_BEFORE_CONDITION_MAPPING_ACCESS_NOT_PROSPECTIVE_RATING_REGISTRATION",
+  "authority": "Principal researcher explicitly clarified actual0-5 ordinal scale and requested exploratory paired analysis of99 genuine judgments; latest continuation permits justified subsequent work without repeated routine approvals.",
+  "parent": "PersonaSLM v1.1 and frozen English real-speaker development protocol; original experiment, rubric, raw submissions and validators remain unchanged",
+  "scope": "Separate limited primary-ordinal intake and analysis. Not a passing result under the original0-3 semantic/claim instrument, a replacement rubric or a complete human-review provenance attestation.",
+  "exposure_at_freeze": "Existing technical and historical developmental results known. Blinded raw submission headers, numeric value sets, schema/applicability/claim structure and marginal data inspected for admissibility. No protected review condition mapping or condition-linked human estimates accessed. Methodological design is retrospective to observation collection.",
+  "scale": {
+    "actual_categories": [0,1,2,3,4,5],
+    "order": "Higher means better;0 is the lowest valid rating,5 the highest,1-4 ordered intermediate categories",
+    "intermediate_verbal_anchors": "NOT_ESTABLISHED_DO_NOT_INVENT",
+    "equal_intervals": false,
+    "original_rubric": "0-3 plus NA; preserve its hash and document this alternate-instrument deviation",
+    "recoding": "None. Original numerical strings are preserved; parsing a strict integer0..5 does not rescale or replace its value. Do not standardize to0-3.",
+    "timing": "Actual scale clarified retrospectively, not prospectively registered"
+  },
+  "inputs": {
+    "received_submission": ".local/reviewer-packages/english_sfh_development_v1/WORKING.txt",
+    "received_submission_sha256": "1c7c5bd5bc1684591df5c1a1c959fce763b10f9de475d7436299ce221a3b1aee",
+    "package_receipt": ".local/experiments/english_sfh_v1/review/development/package_receipt_v1.json",
+    "package_receipt_sha256": "e1cf909df2103d6c4d63a3a617984efa875c79509f140854b7050a9958922449",
+    "protected_mapping_expected_sha256_only_not_opened": "4b5018f61edba8385b16dbad384358acfce639587809b785f0d82d6a4f08f806",
+    "original_protocol_sha256": "6ae3c7875062334af2f88a625e5fcddb783e7007ab9ecf2e9214eb606603ad62",
+    "original_rubric_sha256": "2c6331e2b076c3b0903170cc159823dcee01d28fc1848b78fa4f887a8388cb14",
+    "original_manifest_sha256": "35534588ed8f386c5831ba6db9d67a05b852721cfc56b91835d3053042c32495",
+    "frozen_technical_analysis_sha256": "84468a7ccf42ba9ea8d368ee9800b211c2d97d1422c1ad7fa234b163f3066a53",
+    "declaration": ".local/experiments/english_sfh_ordinal_v1/scale_clarification_received_v1.txt",
+    "hash_binding": "The write-once pre-unblinding analysis lock must bind this amendment, exact declaration, original submission, immutable package, analysis source/tests and input manifests. Require its external SHA for analysis. No source changes between lock and analysis."
+  },
+  "admissible_outcomes": {
+    "primary": ["relevance","coherence","linguistic_resemblance"],
+    "classification": "Genuine principal-researcher reported ordinal judgments with retrospectively clarified order; perceived linguistic resemblance is not independently validated whole-person/behavioral Persona Fidelity.",
+    "intake": "99 unique known assigned IDs, each with all3 strict numeric0..5 primary ratings; retain100 allocated rows and exactlyone wholly missing record as UNAVAILABLE with null ratings. Immutable package displayed text and protected-map display hashes must match the actual archived responses before condition analysis.",
+    "missingness": "The one absent record is an unavailable intended-primary rating, not zero. Numeric0 remains observed. Structural NA, unknown IDs, altered source cells or another missing/incompatible primary value fail this fixed analysis rather than being imputed or silently excluded.",
+    "excluded_from_outcome_analysis": ["Secondary history/temporal/behavioral/completeness ratings: unresolved applicability and evidence requirements", "Claim counts and paraphrased evidence: no verified atomic claim/response/source-span traceability under the registered instrument", "Numeric confidence: not a calibrated probability or the registered ordinal confidence labels"],
+    "excluded_preservation": "All raw secondary/count/evidence/rationale/confidence/status fields retained unchanged. Aggregate structural QC may be reported, but no fabricated repair, confidence weighting, factual-accuracy estimate or temporal-reliability score.",
+    "interpretation": "Do not call any category cutoff good/acceptable/success, assign invented verbal anchors, equate shorter/overlapping text with quality, or infer reviewer independence from numeric validity."
+  },
+  "analysis": {
+    "allocation": "Exactly5 development speakers,2 contexts each,C0-C7 plusM_STYLE/N_STYLE;80factorial and20style-control responses",
+    "condition_distributions": "For every primary domain and all10conditions report six category counts, missingness, ordered empirical distribution and category median or central-category pair; do not compute a cardinal mean of0-5 ratings.",
+    "paired_main_effects": "For each domain,S/F/H compare factor-on versus factor-off within the same speaker/context/other-factor stratum:4strata x2contexts per speaker,40allocated pairs per main effect. Report win,tie,loss proportions and net wins minus losses. Positive means the higher-factor condition was rated above the paired comparator, not a cardinal improvement.",
+    "style_controls": "Prespecified C7 versus M_STYLE,C7 versus N_STYLE,C7 versus C6;2paired contexts per speaker,10pairs each. Same win/tie/loss and distributional analyses, never choose only a favorable control.",
+    "factorial_distributions": "For EACH of the5 ordered cuts k=1..5, define binary Y_k=1(rating>=k). Report all7 original S,F,H,SF,SH,FH,SFH contrasts using2*mean(product of selected+/-1codes*Y_k), within each context then equal contexts per speaker then equal speakers. This is an entire ordinal distribution-effect profile. Do NOT average acrosscuts, pick a favorable cutoff, call the categories equally spaced, or confuse factorial-scaled interactions with unscaled differences-in-differences.",
+    "pairing_and_completeness": "Full estimand uses all5speakers with2contexts and allstrata equal-weight. Report complete-speaker estimates as an explicitly changed subset estimand with actual included speaker counts. Do not silently unequal-weight a partially observed speaker. Coverage counts by condition and contrast are mandatory.",
+    "unavailable_bounds": "Enumerate the one unavailable category over all6 ordered categories, separately by outcome domain, retaining each entire profile so category cuts stay nested. Report min/max full5-speaker estimates across these6 completions for every contrast, cutoff and paired category. These are logical missing-outcome bounds, NOT imputed ratings, confidence/credible intervals or observed full-cohort point estimates. Marginal bounds across domains do not assert joint attainability.",
+    "speaker_uncertainty": "Report sorted speaker-specific contrast values/ranges and leave-one-speaker-out influence for complete-speaker estimates. With five dependent same-group speakers and few contexts, do not claim calibrated p-values, confidence intervals, bootstrap population precision or independent responses. Missing-completion sensitivity and speaker influence are separate uncertainty sources.",
+    "quality_efficiency": "For the same main-effect/control pairs, cross-tabulate ordinal win/tie/loss against observed faster/equal/slower completion wall latency. Equal means exact recorded equality; speed signs are nominal observations, not a meaningful-speed threshold. Report coverage, equal-speaker summaries and missing-category bounds. No rating-per-second ratio or ordinal score arithmetic. Existing latency is CPU-backend elapsed time with load/order/restart limitations, not energy or per-condition process peak RAM.",
+    "non_analyses": ["No cardinal0-5 score means or equal-interval regression", "No significance fishing, tuned success thresholds or posthoc exclusion", "No conditional factual-accuracy claim from untraceable human claim lists", "No new human labels or reconstruction of intermediate anchors", "No causal mediation claim from length or cost correlations"]
+  },
+  "review_provenance": {
+    "human_authorship": "PI explicitly affirmed99 genuine manual judgments",
+    "condition_masking": "Package integrity supports removal of displayed condition IDs; PI previously said all were manually blinded. Record that declaration, not a verified absence of prior exposure or an independent blinded study.",
+    "relationship": "PRINCIPAL_RESEARCHER_PROJECT_DEPENDENT",
+    "prior_exposure": "Project involvement and known previous reports preserved; exact rubric/item/output/AI-label/mapping exposure details remain unspecified where not actually attested",
+    "unknown": ["Exact review timestamps", "Complete aid/translation history", "Detailed item/mapping exposure chronology", "Separate competence attestation under the frozen form"],
+    "claims_not_made": ["Independent reviewer", "Double-blind review", "Inter-rater reliability", "Original0-3rubric compliance", "Prospective0-5registration"],
+    "lock": "Separate alternate-instrument PRIMARY_ORDINAL_ANALYSIS_LOCK. Preserve frozen v1 validator errors and incomplete provenance; this lock fixes authorized analytical use, not an attestation that those old requirements were met. Only after writing and verifying this lock may the analyst open the hash-bound protected mapping. Record first access and joins privately. No public mapping/IDs/quotes."
+  },
+  "reproduction": "Two separately implemented ordinal arithmetic paths on the same verified joined input; compare exact counts and numerical profiles. Tests use authored fixtures including0,5,missingness,monotone category invariance,interaction sign/scaling,duplicate rejection and source-hash mismatch. Shared raw evidence or parsing is disclosed; analysis reproduction is not independent human or experimental validation.",
+  "resources": {"new_model_generations": 0,"new_inference_seconds": 0,"cumulative_generations": 788,"cumulative_completion_seconds": 4485.684495999997,"global_generation_ceiling": 1200,"global_seconds_ceiling": 72000,"remaining_generations": 412,"validation_generation_reserve": 160},
+  "subsequent_research_decision": "After the complete registered ordinal analysis, choose a bounded follow-up that distinguishes a supported source/model/quality explanation, not whichever result is favorable. Retain RQ1-4, English real-speaker material, protected validation, independent resource registration and fresh unchanged RAM guards. Do not terminate solely because this amendment or arithmetic implementation exists."
+}

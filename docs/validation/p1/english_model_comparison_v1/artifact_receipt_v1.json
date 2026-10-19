@@ -1,0 +1,251 @@
+{
+  "completed_utc": "2026-10-19T19:29:51.386452+00:00",
+  "conversion_provenance": "PARTIAL: published static artifacts; exact upstream conversion revision/command unverified",
+  "models": {
+    "base": {
+      "artifact": {
+        "bytes": 986048544,
+        "path": "models/gguf/english_qwen25_15b_v1/base/Qwen2.5-1.5B.Q4_K_M.gguf",
+        "sha256": "ea47cef917fa77a3458206d0848f81dd033dfb859bbb3b176bf6006d3b620814",
+        "url": "https://huggingface.co/mradermacher/Qwen2.5-1.5B-GGUF/resolve/4d8150eba159047c0ad5f72a8473e4ad60419c4a/Qwen2.5-1.5B.Q4_K_M.gguf"
+      },
+      "artifact_revision": "4d8150eba159047c0ad5f72a8473e4ad60419c4a",
+      "comparison": {
+        "embedded_template_equals_official": true,
+        "embedded_template_sha256": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+        "gguf_add_bos_token": false,
+        "gguf_context_length": 32768,
+        "gguf_token_count": 151936,
+        "header": {
+          "gguf_version": 3,
+          "metadata_bytes_read": 5931733,
+          "metadata_keys": 36,
+          "tensor_count": 338,
+          "tensor_data_read": false
+        },
+        "merge_count": 151387,
+        "official_add_bos_token": false,
+        "official_template_sha256": "44d5f08f3f72b837eaad09f13a54c1f9f4eb58d75240334548b7fd52a5437fa5",
+        "official_token_ids_matched": 151665,
+        "tensor_layout": {
+          "directory_bytes_read": 19251,
+          "name_shape_type_sha256": "8507d7d350bd685695bf39125a7a9554d7b786345f627fe3b9d5b04a99de475a",
+          "tensor_data_read": false,
+          "type_counts": {
+            "0": 141,
+            "12": 168,
+            "14": 29
+          }
+        },
+        "verified_fields": {
+          "general.architecture": "qwen2",
+          "general.file_type": 15,
+          "qwen2.attention.head_count": 12,
+          "qwen2.attention.head_count_kv": 2,
+          "qwen2.block_count": 28,
+          "qwen2.embedding_length": 1536,
+          "qwen2.feed_forward_length": 8960,
+          "tokenizer.ggml.eos_token_id": 151643,
+          "tokenizer.ggml.model": "gpt2"
+        }
+      },
+      "license": "Apache-2.0",
+      "metadata_files": [
+        {
+          "bytes": 3850,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/base/README.md",
+          "sha256": "84cc3bdbfd781149913126b70981cf1e341176fe4bc9d878601a83f18b035ddf",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/README.md"
+        },
+        {
+          "bytes": 11343,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/base/LICENSE",
+          "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/LICENSE"
+        },
+        {
+          "bytes": 684,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/base/config.json",
+          "sha256": "0e8c8aa86468aba09c9d32157ff4bc2301c7e6c50e4398960425b2ea71e66f77",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/config.json"
+        },
+        {
+          "bytes": 138,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/base/generation_config.json",
+          "sha256": "8c970692323e3ea0e9b8b0a4dca79388d31226e41f83c9fd6014804280ebf6e8",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/generation_config.json"
+        },
+        {
+          "bytes": 7228,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/base/tokenizer_config.json",
+          "sha256": "c91efca15ceff6e9ee9424db58a6f59cd41294e550a86cbd07e3c1fb500b34f9",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/tokenizer_config.json"
+        },
+        {
+          "bytes": 7031645,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/base/tokenizer.json",
+          "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/tokenizer.json"
+        },
+        {
+          "bytes": 2776833,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/base/vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/vocab.json"
+        },
+        {
+          "bytes": 1671839,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/base/merges.txt",
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B/resolve/8faed761d45a263340a0528343f099c05c9a4323/merges.txt"
+        },
+        {
+          "bytes": 9346,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/base/quantization_api.json",
+          "sha256": "954c6352facd9aa534c407e0f35765e2b6caa47e4701f5b95dbb3ecc10beb24f",
+          "url": "https://huggingface.co/api/models/mradermacher/Qwen2.5-1.5B-GGUF/revision/4d8150eba159047c0ad5f72a8473e4ad60419c4a?blobs=true"
+        },
+        {
+          "bytes": 4951,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/base/quantization_README.md",
+          "sha256": "b60e1127013e2dbeee3bd42c7f0a6ffab8c986d7def56b585be23f7908d2af44",
+          "url": "https://huggingface.co/mradermacher/Qwen2.5-1.5B-GGUF/resolve/4d8150eba159047c0ad5f72a8473e4ad60419c4a/README.md"
+        }
+      ],
+      "model_file": "models/gguf/english_qwen25_15b_v1/base/Qwen2.5-1.5B.Q4_K_M.gguf",
+      "model_sha256": "ea47cef917fa77a3458206d0848f81dd033dfb859bbb3b176bf6006d3b620814",
+      "quantization": "Q4_K_M",
+      "upstream_revision": "8faed761d45a263340a0528343f099c05c9a4323"
+    },
+    "instruct": {
+      "artifact": {
+        "bytes": 986048960,
+        "path": "models/gguf/english_qwen25_15b_v1/instruct/Qwen2.5-1.5B-Instruct.Q4_K_M.gguf",
+        "sha256": "f86985a0e8b549680da4cf43a037bb185c4ec8d1ee07cce52c1720f848b7c972",
+        "url": "https://huggingface.co/mradermacher/Qwen2.5-1.5B-Instruct-GGUF/resolve/531cb7a27c3ad23c7d9c69d2d7a9de562ce55bcd/Qwen2.5-1.5B-Instruct.Q4_K_M.gguf"
+      },
+      "artifact_revision": "531cb7a27c3ad23c7d9c69d2d7a9de562ce55bcd",
+      "comparison": {
+        "embedded_template_equals_official": true,
+        "embedded_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+        "gguf_add_bos_token": false,
+        "gguf_context_length": 32768,
+        "gguf_token_count": 151936,
+        "header": {
+          "gguf_version": 3,
+          "metadata_bytes_read": 5932147,
+          "metadata_keys": 41,
+          "tensor_count": 338,
+          "tensor_data_read": false
+        },
+        "merge_count": 151387,
+        "official_add_bos_token": false,
+        "official_template_sha256": "cd8e9439f0570856fd70470bf8889ebd8b5d1107207f67a5efb46e342330527f",
+        "official_token_ids_matched": 151665,
+        "tensor_layout": {
+          "directory_bytes_read": 19251,
+          "name_shape_type_sha256": "8507d7d350bd685695bf39125a7a9554d7b786345f627fe3b9d5b04a99de475a",
+          "tensor_data_read": false,
+          "type_counts": {
+            "0": 141,
+            "12": 168,
+            "14": 29
+          }
+        },
+        "verified_fields": {
+          "general.architecture": "qwen2",
+          "general.file_type": 15,
+          "qwen2.attention.head_count": 12,
+          "qwen2.attention.head_count_kv": 2,
+          "qwen2.block_count": 28,
+          "qwen2.embedding_length": 1536,
+          "qwen2.feed_forward_length": 8960,
+          "tokenizer.ggml.eos_token_id": 151645,
+          "tokenizer.ggml.model": "gpt2"
+        }
+      },
+      "license": "Apache-2.0",
+      "metadata_files": [
+        {
+          "bytes": 4917,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/instruct/README.md",
+          "sha256": "2e1bcd8bd964728a820be709fa0f7b9dd54817a94fd2254c535df70c5e67fada",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/README.md"
+        },
+        {
+          "bytes": 11343,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/instruct/LICENSE",
+          "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/LICENSE"
+        },
+        {
+          "bytes": 660,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/instruct/config.json",
+          "sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/config.json"
+        },
+        {
+          "bytes": 242,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/instruct/generation_config.json",
+          "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/generation_config.json"
+        },
+        {
+          "bytes": 7305,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/instruct/tokenizer_config.json",
+          "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer_config.json"
+        },
+        {
+          "bytes": 7031645,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/instruct/tokenizer.json",
+          "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer.json"
+        },
+        {
+          "bytes": 2776833,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/instruct/vocab.json",
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/vocab.json"
+        },
+        {
+          "bytes": 1671839,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/instruct/merges.txt",
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/merges.txt"
+        },
+        {
+          "bytes": 9716,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/instruct/quantization_api.json",
+          "sha256": "d4876f9eb75578db983aa722422cf4c9a8f3c0474c919397a43d9abd3ec6e22f",
+          "url": "https://huggingface.co/api/models/mradermacher/Qwen2.5-1.5B-Instruct-GGUF/revision/531cb7a27c3ad23c7d9c69d2d7a9de562ce55bcd?blobs=true"
+        },
+        {
+          "bytes": 5441,
+          "path": ".local/model_metadata/english_qwen25_15b_v1/instruct/quantization_README.md",
+          "sha256": "6c49f6396f125851c60504f57b7e6690fc1d51f8601f525a732b6f7c0ffaeb88",
+          "url": "https://huggingface.co/mradermacher/Qwen2.5-1.5B-Instruct-GGUF/resolve/531cb7a27c3ad23c7d9c69d2d7a9de562ce55bcd/README.md"
+        }
+      ],
+      "model_file": "models/gguf/english_qwen25_15b_v1/instruct/Qwen2.5-1.5B-Instruct.Q4_K_M.gguf",
+      "model_sha256": "f86985a0e8b549680da4cf43a037bb185c4ec8d1ee07cce52c1720f848b7c972",
+      "quantization": "Q4_K_M",
+      "upstream_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    }
+  },
+  "new_model_generations": 0,
+  "official_tokenizer_files_equal": {
+    "merges.txt": true,
+    "tokenizer.json": true,
+    "vocab.json": true
+  },
+  "paired_tensor_name_shape_type_layout_equal": true,
+  "ram_preflight_performed": false,
+  "schema": "english_qwen25_15b_artifact_receipt_v1",
+  "source_hashes": {
+    "tests/test_english_sfh_model_artifacts_v1.py": "9def00ff3fd8931b62421705f35b60eccb70411eeb8eecdae274ce06c78d159f",
+    "tools/english_sfh_model_artifacts_v1.py": "5338e41887d55ef19159e7cbf03ed6d3937fd70f1312562dda4cee01d3679773",
+    "tools/p1_model_feasibility_recovery.py": "87669ca0712e11fc6cae849c6a4844d0f56e6f092a68117f66370e7fac1b7410"
+  },
+  "status": "ARTIFACTS_VERIFIED_NOT_EXECUTION_GO"
+}

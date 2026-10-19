@@ -1,0 +1,32 @@
+{
+  "authorization_sha256": "b6d5c2c843913ed21e74b018e3d6b778387da4b62f0ca634a4145eff072081fd",
+  "candidate_contexts_including_alternatives": 2,
+  "candidate_groups": 1,
+  "candidate_speakers": 1,
+  "created_utc": "2026-10-19T15:57:15.361327+00:00",
+  "new_model_generations": 0,
+  "policy_sha256": "15f65b9e35dcce6251397f9c6c827806b0ae83c6962d77416c67479005256b8a",
+  "private_pool_sha256": "55dddd34497f6ce1b2a9c3d871fca843eb6935d7670e61ad6bf0710225b5b4ed",
+  "reserved_transcript_bodies_read": 11,
+  "schema": "icsi_validation_source_pool_v1",
+  "segment_exclusions": {
+    "additional_sensitive_or_calibration": 42,
+    "non_single_human_or_digit_task": 191,
+    "sensitive_contact_foreign_uncertain_or_empty": 3031
+  },
+  "source_hashes": {
+    "english_icsi_material_v1.py": "46dd226e8f4ef2614b5a4f2899fc3e4916572dba4dfab164388fee6b5706e512",
+    "english_icsi_material_v2.py": "ec7e769900cef6d9b3786cb93c01309454c0bdc1bad03cd171f3a759253b5058",
+    "english_icsi_material_v3.py": "d7c8ff997838dd50cc4a57a51ec9244e14d38803bc3b9e9cab5a9465f55b0ced",
+    "english_icsi_source_curation_v3.py": "c2427ee0db598ea7b77ffe4abc047447c546adf05623ff6dfdafb916055a5fe2",
+    "english_icsi_validation_material_v1.py": "2625daca0c9d311fd3333bb048b08e3f3cb8a599c78d176756206fbecbf647bc",
+    "icsi_english_qualification_v1.py": "9d0b6141510ab65f2178a207f2c52fa538c707022b382090da0605bc60f54c83",
+    "test_english_icsi_validation_material_v1.py": "0457b67194b8477579af9efccc5c5154d906783de5e59917eadf920494f54c89"
+  },
+  "speaker_exclusions": {
+    "fewer_than_three_dated_meetings": 4,
+    "no_complete_bounded_source_history_context_group": 7
+  },
+  "split_sha256": "cf91921ef55874237d961f0b2c17b916d5122ccff0c08cf6e4a52ba74a30207e",
+  "status": "RESERVED_POOL_REQUIRES_SOURCE_CURATION_NOT_EXECUTION_GO"
+}

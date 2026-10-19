@@ -1,0 +1,72 @@
+{
+  "schema_version": "personaslm_english_sfh_review_rubric_v1",
+  "language": "English",
+  "purpose": "Human evaluation of open professional conversation continuations, using the same source dossier for every response to a conversation context.",
+  "claim_boundary": "These are source-relative judgments by a project-involved principal researcher, not independent double-blind review, inter-rater reliability, or external verification of personal facts. Condition masking cannot erase prior exposure or prevent inference from response content.",
+  "dossier_requirements": [
+    "Include the current conversational context, authentic earlier speaker examples, and dated earlier factual/history references, with local anonymous reference labels.",
+    "Use identical dossier text for every response to the same context, regardless of what conditioning the generator received.",
+    "Do not include condition labels, prompts, seeds, experimental order, actual speaker identifiers, source bindings or protected mappings.",
+    "Do not use the observed human continuation as a unique correct answer: many continuations may be appropriate.",
+    "Mark professional self-reports as source statements, not externally verified or necessarily still-current facts. Unknown dates must remain unknown."
+  ],
+  "primary_ratings": {
+    "relevance": {
+      "0": "Unrelated to the current conversation or does not address its live conversational purpose.",
+      "1": "Touches the topic but mostly misses the conversational purpose.",
+      "2": "Addresses the conversational purpose with a minor irrelevant or missing element.",
+      "3": "Directly and appropriately advances the current conversation.",
+      "NA": "Cannot judge from the supplied context; explain why."
+    },
+    "coherence": {
+      "0": "Incoherent or clearly incompatible with the immediate conversational context.",
+      "1": "Major unexplained discontinuity, contradiction, or unclear referent.",
+      "2": "Generally coherent with a minor discontinuity or ambiguity.",
+      "3": "Locally coherent, interpretable continuation with appropriate references.",
+      "NA": "Cannot judge from the supplied context; explain why."
+    },
+    "linguistic_resemblance": {
+      "0": "Clear mismatch with demonstrated speaker-specific expression or discourse patterns.",
+      "1": "Little resemblance beyond generic professional fluency.",
+      "2": "Some identifiable resemblance in expression or discourse habits.",
+      "3": "Several converging speaker-related expression/discourse features, supported by examples.",
+      "NA": "Examples or response do not support a speaker-specific judgment; explain why.",
+      "safeguards": "Do not reward shortness, matching length, exact copying, technical vocabulary alone, or generic politeness/professionalism. Identify the non-length feature and its source example in the rationale. This is perceived linguistic resemblance, not proof of authentic identity or behavioral Persona Fidelity."
+    }
+  },
+  "claim_annotation": {
+    "unit": "One distinct, checkable atomic factual claim about the speaker or conversation, including claims about earlier events. Do not double-count a repeated claim. Split claims with different evidential status. Opinions, suggestions, questions and purely hypothetical proposals are not factual claims unless they imply a checkable assertion.",
+    "supported": "A supplied source directly supports the claim at the relevant time; requires exact response and dossier spans plus a rationale.",
+    "contradicted": "A supplied source directly contradicts the claim at the relevant time; requires exact response and dossier spans plus a rationale. Silence or absence is not contradiction.",
+    "unverifiable": "Supplied sources neither support nor contradict the claim, or chronology is inadequate. This does not mean the claim is false.",
+    "format": "claim_evidence_json is an object with a claims array. Each entry has status (supported, contradicted, unverifiable), response_span, reference_span, rationale. Spans are verbatim substrings. Unverifiable claims may have an empty reference_span. Counts must equal the entries by status. Use {\"claims\": []} and three zero counts when no checkable claim is made.",
+    "coverage": "Always report the number of claims and evaluable responses. No claims is not perfect factual accuracy. Human claim extraction and evidential support are semantic judgments; exact-span validation checks traceability only."
+  },
+  "secondary_ratings": {
+    "applicability_values": ["APPLICABLE", "NOT_APPLICABLE", "UNCERTAIN"],
+    "history": "Applicable only when the response refers to, depends on, or conflicts with an identifiable earlier event or utterance. Evaluate compatibility with dated source history, not whether history was supplied to the generator.",
+    "temporal": "Applicable only when a response makes a time-sensitive assertion and source dates/validity distinguish alternatives. Do not infer continuing truth from an undated self-report.",
+    "behavioral": "Applicable only when earlier examples document a relevant behavioral preference or practice and the current response creates an opportunity to assess it. Generic helpfulness, role vocabulary, or style alone is insufficient.",
+    "completeness": "Applicable only when the current context contains a discernible response obligation. Do not penalize an open continuation for failing to reproduce the actual human continuation.",
+    "rating_anchors": {
+      "0": "Clearly incompatible with the relevant evidence/obligation.",
+      "1": "Major unsupported departure or omission.",
+      "2": "Mostly compatible/satisfied, with a minor departure or omission.",
+      "3": "Compatible with the relevant evidence or satisfies the conversational obligation.",
+      "NA": "Not applicable or uncertain; not a zero."
+    },
+    "rule": "APPLICABLE requires a 0–3 rating. NOT_APPLICABLE or UNCERTAIN requires NA. Explain applicability and cite relevant evidence in the rationale."
+  },
+  "completion": {
+    "statuses": ["COMPLETED", "UNAVAILABLE"],
+    "unavailable": "Use only when this record cannot be reviewed. Supply a missing_reason, leave all judgments blank, and retain the record. MISSING_OUTCOME must be UNAVAILABLE, distinct from a genuinely generated empty answer. Missingness is reported, never scored as zero.",
+    "incremental": "Save local draft copies as often as needed. Draft validation allows incomplete records but rejects altered source cells and invalid values. Final validation requires every fixed record completed or documented unavailable, plus truthful provenance.",
+    "rationale": "For each completed record, explain ratings, any NA/uncertainty, non-length linguistic features and evidential limitations. Confidence is LOW, MEDIUM or HIGH."
+  },
+  "provenance": {
+    "planned_reviewer": "Principal researcher, personally evaluating English. This is a plan, not evidence that annotation has occurred.",
+    "independent_of_project": false,
+    "actual_attestations": "Leave actual human status, English competence, rubric/item involvement, prior output exposure, mapping exposure, prior automatic labels, assistance, aids and dates blank until truthfully supplied by the reviewer. Prior exposure must not be erased by a new random order.",
+    "no_fabrication": "No generated human labels or reviewer attestations. AI-assisted labels cannot be classified as genuine human-only review. One reviewer does not provide inter-rater reliability."
+  }
+}

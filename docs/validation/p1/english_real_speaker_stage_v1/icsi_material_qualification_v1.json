@@ -1,0 +1,25 @@
+{
+  "archive_sha256": "9db98ebdd61a085b4f45f24f46e9c9f6c6f26c3c9cd41643a3b9e74362c85de7",
+  "candidate_contexts": 0,
+  "created_utc": "2026-10-19T15:16:47.773368+00:00",
+  "development_transcript_bodies_read": 29,
+  "new_model_generations": 0,
+  "privacy_filter_is_not_a_guarantee": true,
+  "private_material_sha256": "119b84d40fa1e961edc6225ea25f1703fa17d9c50d637ca6b07672aa2143d98c",
+  "reserved_transcript_bodies_read": 0,
+  "schema": "icsi_material_candidates_v1",
+  "segment_exclusions": {
+    "non_single_human_or_digit_task": 3106,
+    "privacy_language_or_transcription_filter": 22323
+  },
+  "source_sha256": "46dd226e8f4ef2614b5a4f2899fc3e4916572dba4dfab164388fee6b5706e512",
+  "speaker_exclusions": {
+    "fewer_than_three_dated_meetings": 5,
+    "no_contiguous_six_turn_second_meeting_history": 1,
+    "no_screened_first_meeting_professional_selfreport": 11
+  },
+  "speakers_with_one_context": 0,
+  "speakers_with_two_contexts": 0,
+  "split_sha256": "cf91921ef55874237d961f0b2c17b916d5122ccff0c08cf6e4a52ba74a30207e",
+  "status": "SCREENED_CANDIDATES_NOT_SEMANTICALLY_VALIDATED_OR_PROMPT_FROZEN"
+}

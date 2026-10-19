@@ -1,0 +1,33 @@
+{
+  "schema_version": "personaslm_rpc_specificity_environment_observation_v1",
+  "observed_date_utc": "2026-10-19",
+  "timing": "Observed during the frozen run, after registration and launch; not misrepresented as a prospective environment freeze.",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb 3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "implementation": "CPython",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "pytest": "9.0.2",
+  "template_runtime": {
+    "Jinja2": "3.1.6",
+    "MarkupSafe": "3.0.4",
+    "location": "results/p1d_scientific_validation/v1/template_runtime",
+    "historical_inventory": "docs/validation/p1d/scientific_validation_v1/official_template_rendering_verification_v1.json",
+    "historical_inventory_sha256": "f9ffb96e92a793af879664a1e1f7038241623b3fb787ec718bb94bd1ee3d873d",
+    "files_checked": 45,
+    "files_matching_historical_sha256": 45,
+    "limitation": "Vendor runtime files are not part of the new controller's recursively discovered Python source binding. Exact rendered prompts and native input arrays were frozen and verified live before completion, so this does not relax input identity. This later environment observation does not retroactively make vendor-package binding prospective."
+  },
+  "tests_before_generation": {"new_study_synthetic": 15, "combined_new_and_related_pilot": 41, "combined_failed": 0},
+  "warnings": ["Combined pytest run could not create its existing cache directory; tests passed and no evidence was removed."],
+  "preserved_command_error": "An initial importlib.metadata query before loading the existing vendor runtime raised PackageNotFoundError for Jinja2. The renderer explicitly inserts the vendor directory; loading it yielded the versions above and all45 files matched. No dependency installation or source change occurred.",
+  "daily_scheduler_verification": {
+    "command": "powershell -NoProfile -File tools/install_daily_literature_scheduler.ps1 -VerifyOnly",
+    "contract_matches": true,
+    "changed": false,
+    "task_started": false,
+    "violations": 0,
+    "frequency": "daily 04:23 local; interactive-user task",
+    "scope": "Existing arXiv/Crossref/OpenAlex metadata collection only; direct daily OpenReview/ACL/Semantic Scholar coverage and scheduled deep AI review remain unverified/unimplemented. No duplicate daily crawl was run."
+  },
+  "new_generations_from_these_checks": 0,
+  "restricted_data_uploaded": false
+}

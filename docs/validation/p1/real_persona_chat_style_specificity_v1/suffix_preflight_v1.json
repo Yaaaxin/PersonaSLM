@@ -1,0 +1,90 @@
+{
+  "baseline": {
+    "generations_used": 626,
+    "inference_seconds_used": 3765.0082488998696
+  },
+  "checked_utc": "2026-10-19T09:22:56.225359+00:00",
+  "identity": {
+    "checks": [
+      {
+        "check": "gguf",
+        "evidence": {
+          "bytes": 1270808032,
+          "gguf_version": 3,
+          "limitation": "Header and file digest checked; tensor loading and model identity require llama.cpp.",
+          "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\models\\gguf\\instruct_candidates\\lmstudio-bb84e113\\Qwen3.5-2B-Q4_K_M.gguf",
+          "sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+          "sha256_verified": true
+        },
+        "status": "PASS"
+      },
+      {
+        "check": "server_executable",
+        "evidence": {
+          "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\bin\\llama.cpp\\llama-b11573-bin-win-cpu-x64\\llama-server.exe",
+          "sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846"
+        },
+        "status": "PASS"
+      }
+    ],
+    "model": {
+      "bytes": 1270808032,
+      "gguf_version": 3,
+      "limitation": "Header and file digest checked; tensor loading and model identity require llama.cpp.",
+      "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\models\\gguf\\instruct_candidates\\lmstudio-bb84e113\\Qwen3.5-2B-Q4_K_M.gguf",
+      "sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+      "sha256_verified": true
+    },
+    "scope": "offline file preflight only; no real inference verified",
+    "server": {
+      "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\bin\\llama.cpp\\llama-b11573-bin-win-cpu-x64\\llama-server.exe",
+      "sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846"
+    },
+    "status": "PASS"
+  },
+  "manifest_sha256": "7310946d00bf8ac5e4f6bc61336654177202795f86e07a7e124726ac3b5bc4a6",
+  "memory": {
+    "observed_utc": "2026-10-19T09:22:56.224810+00:00",
+    "pid": 12604,
+    "platform": "nt",
+    "process": {
+      "page_faults": 446082,
+      "pagefile_usage": 37617664,
+      "peak_pagefile_usage": 44683264,
+      "peak_working_set": 52146176,
+      "quota_nonpaged_pool": 16160,
+      "quota_paged_pool": 156232,
+      "quota_peak_nonpaged_pool": 16768,
+      "quota_peak_paged_pool": 156272,
+      "working_set": 44883968
+    },
+    "status": "observed",
+    "system": {
+      "available_extended": 0,
+      "available_pagefile": 12981420032,
+      "available_physical": 3436179456,
+      "available_virtual": 140733023809536,
+      "load_percent": 76,
+      "total_pagefile": 26657357824,
+      "total_physical": 14846197760,
+      "total_virtual": 140737488224256
+    }
+  },
+  "registration_sha256": "7bcee29a54fba8e39411ea90e3d4ce19f611360c56bbd8de8bb26cee381618bb",
+  "resources": {
+    "cumulative_baseline_generations": 626,
+    "cumulative_baseline_inference_seconds": 3765.0082488998696,
+    "global_generation_limit": 1200,
+    "global_inference_seconds_limit": 72000,
+    "minimum_live_available_ram_bytes": 536870912,
+    "minimum_output_disk_bytes": 1073741824,
+    "minimum_prelaunch_available_ram_bytes": 3221225472,
+    "minimum_ready_available_ram_bytes": 1073741824,
+    "suffix_inference_seconds_limit": 300,
+    "suffix_wall_seconds_limit": 600
+  },
+  "source_hashes_sha256": "45f37c98b830dbb9cb15df5d0199193b735960c554be373c2277f0ecc1b93f8e",
+  "status": "PASS",
+  "suffix_bindings_sha256": "98b635da1a1bb2ed1b8ec19a547aa5fe754314caf8f6c7095f8222ff7830cb59",
+  "suffix_registration_sha256": "5d9d081cb19c76fc0253ac556a1ef00c16710f03e255a6a6aa954e755492ef50"
+}

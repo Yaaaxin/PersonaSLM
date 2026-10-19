@@ -1,0 +1,133 @@
+{
+  "schema_version": "personaslm_rpc_style_specificity_licensing_and_prior_art_v1",
+  "recorded_local_date": "2026-10-19",
+  "timezone": "Europe/Paris",
+  "source_head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+  "classification": "PRIMARY_SOURCE_REVIEW_NOT_LEGAL_CLEARANCE_NOT_EXPERIMENTAL_EVIDENCE",
+  "decision": {
+    "status": "CONDITIONAL_GO_NO_NEW_LICENSE_BLOCKER_IDENTIFIED",
+    "scope": "Finite local developmental speaker-conditioned generation, anonymous aggregate reporting, no identification or presentation as an actual participant, no participant-level public release.",
+    "reasoning": "The authors prohibit impersonation but explicitly demonstrate persona-conditioned dialogue generation. These provisions support a distinction between bounded non-deceptive research and deploying an identifiable participant replica. Pseudonymization alone is not permission for impersonation. This is an evidence-based scope interpretation, not a finding that every downstream use is lawful.",
+    "authority_boundary": "This review grants no execution allocation and does not extend the previous 64-request pilot amendment. A new prospective batch still needs its own registration, effective authorization, privacy checks, model verification, budget check and RAM preflight.",
+    "hard_stop_for": [
+      "identification, linkage to external identities, or specific-person impersonation",
+      "exposure of protected review mappings or reserved validation-speaker target content",
+      "uploading participant records to external inference services without separate review",
+      "participant-row publication or model deployment represented as that participant",
+      "claiming consent, ethics approval or privacy-law compliance not established by records"
+    ]
+  },
+  "primary_asset_review": {
+    "repository": "https://github.com/nu-dialogue/real-persona-chat",
+    "pinned_revision": "28d0b6b3865b29cabc26c230a2db37cdf315e937",
+    "readme": {
+      "url": "https://github.com/nu-dialogue/real-persona-chat/blob/28d0b6b3865b29cabc26c230a2db37cdf315e937/README.md",
+      "local_byte_sha256": "9d4d6d01067ada9a6cd754f183b91215794e85901364ea78e0ee5eccca21e27f",
+      "remote_utf8_content_sha256": "84850a23dd145a9897f1ccaedc8dff9249f9d2726f57ee3b4c4630c0b203bc26",
+      "read_scope": "Complete pinned README, including use cautions and dialogue-system example.",
+      "findings": "The use cautions prohibit reidentification and impersonation of a particular speaker and warn about unwanted attribute/personality inference. The following subsection documents the authors conditioning GPT-4/3.5 dialogue systems with RealPersonaChat persona/personality profiles. Generation is therefore an explicitly demonstrated research use; there is no basis for treating all conditioning as categorically prohibited. This does not authorize deceptive replicas or negate personality rights."
+    },
+    "license": {
+      "url": "https://raw.githubusercontent.com/nu-dialogue/real-persona-chat/28d0b6b3865b29cabc26c230a2db37cdf315e937/LICENSE",
+      "identifier": "CC-BY-SA-4.0",
+      "local_byte_sha256": "e8fb767ba9a496ad5a81d52c6abcd4af6d67a63651b3024ddfd1809f8ad23178",
+      "remote_utf8_content_sha256": "23ee78c8bae49cf08ea2f0c84945c66b987ebe4520881fb51b3dad4fb43d07c2",
+      "read_scope": "Complete license legal code.",
+      "findings": "Section 2(a) permits reproduction and adaptation. Section 2(b) does not license publicity, privacy or similar personality rights. Section 3 requires attribution, license/change notices and applicable ShareAlike conditions when sharing adapted material. Section 4 covers database rights; section 5 disclaims warranties. Do not assume that all generated outputs are automatically licensed by this document, or that copyright permission settles privacy."
+    },
+    "authors_generation_example": {
+      "url": "https://github.com/nu-dialogue/real-persona-chat/blob/28d0b6b3865b29cabc26c230a2db37cdf315e937/llm_dialogue_system/README.md",
+      "local_byte_sha256": "13eac9baa9bf9618533242f1d4095b22defef35f4582649e9913e8ba095233b2",
+      "read_scope": "Complete public README only; underlying prompts.json and GPT dialogue logs were not opened.",
+      "findings": "Documents four systems and ten speaker-derived prompts per system, with dialogue quality ratings. This corroborates the authors' intended generation use, not consent to unrestricted identity replication."
+    },
+    "current_revision_check": {
+      "verified_date": "2026-10-19",
+      "urls": [
+        "https://raw.githubusercontent.com/nu-dialogue/real-persona-chat/main/README.md",
+        "https://raw.githubusercontent.com/nu-dialogue/real-persona-chat/main/LICENSE"
+      ],
+      "current_main_equals_pinned_remote_content": true,
+      "pinned_remote_equals_local_after_crlf_to_lf_normalization": true,
+      "interpretation": "README and LICENSE differences in local-byte versus remote UTF-8 hashes are newline representation, not changed license terms."
+    }
+  },
+  "corpus_paper": {
+    "citation": "Yamashita, Inoue, Guo, Mochizuki, Kawahara and Higashinaka. 2023. RealPersonaChat: A Realistic Persona Chat Corpus with Interlocutors' Own Personalities. PACLIC 37, pp. 852-861.",
+    "stable_id": "acl:2023.paclic-1.85",
+    "publication_status": "FORMAL_PACLIC_2023_PROCEEDINGS",
+    "urls": ["https://aclanthology.org/2023.paclic-1.85/", "https://aclanthology.org/2023.paclic-1.85.pdf"],
+    "read_scope": "Full ten-page paper, with particular attention to sections 3, 5, 7 and ethics discussion.",
+    "findings": "The paper reports Nagoya University ethics approval and prior participant agreement to copyright waiver and public release. Original consent documents were not independently inspected; this is author-reported provenance, not approval of PersonaSLM or consent to replicas. Participants were told to avoid identifying information. Dialogue collection imposed an approximate 50-character utterance ceiling and minimum 30 turns. Thus brevity is partly corpus-imposed and must not automatically count as speaker-specific style. Natural dialogue also contains substantially less explicit persona information than the fictional comparator.",
+    "prospective_implication": "Include a generic brevity baseline, distinguish speaker identification from generative fidelity, and keep all participant-level materials local. No personality or demographic prediction is proposed."
+  },
+  "bounded_prior_art": [
+    {
+      "stable_id": "arxiv:2610.10988",
+      "version": "v1",
+      "first_submission_utc": "2026-10-07T23:21:49Z",
+      "title": "Back in Style: A Sociolinguistic Approach to Authoring and Measuring Persona Fidelity in User Simulation",
+      "authors": ["Lex Konnelly", "Elena Khasanova", "Riqiang Wang", "Matthias Lee", "Harsh Saini", "Parsa Kavehzadeh"],
+      "urls": ["https://arxiv.org/abs/2610.10988", "https://arxiv.org/html/2610.10988v1"],
+      "publication_status": "PREPRINT_VERIFIED_AUTHOR_REPORTED_NONARCHIVAL_WORKSHOP_ACCEPTANCE_NOT_INDEPENDENTLY_VERIFIED",
+      "publication_note": "The arXiv comment reports UserSim at NeurIPS 2026 acceptance. No official acceptance list or formal proceedings were checked; do not count a second publication.",
+      "review_scope": "Methods sections 3.1-3.4, results, discussion and limitations; no local reproduction.",
+      "verified_findings": "Hand-authored personas specify eight stylistic rate targets; deterministic adherence and character-ngram distinguishability are evaluated in customer-service simulation. Reported length correlations across five agents coexist with a fixed-character truncation check that preserves the schema advantage. These are not equivalent claims. Authors acknowledge that marker compliance does not ensure naturalness, semantic appropriateness or task success.",
+      "implication": "Style-rate prompting, deterministic feature adherence and length controls are prior art, not a new PersonaSLM algorithm. A real-speaker Japanese specificity study must distinguish targeted feature compliance from independent fidelity and semantic reliability.",
+      "novelty_of_discovery": "Previously monitored work; targeted methodological reinspection, not a new paper discovered today."
+    },
+    {
+      "stable_id": "acl:2025.findings-emnlp.532",
+      "doi": "10.18653/v1/2025.findings-emnlp.532",
+      "title": "Catch Me If You Can? Not Yet: LLMs Still Struggle to Imitate the Implicit Writing Styles of Everyday Authors",
+      "authors": ["Zhengxiang Wang", "Nafis Irtiza Tripto", "Solha Park", "Zhenzhen Li", "Jiawei Zhou"],
+      "publication_status": "FORMAL_FINDINGS_EMNLP_2025_PUBLICATION",
+      "publication_date": "2025-11",
+      "urls": ["https://aclanthology.org/2025.findings-emnlp.532/", "https://aclanthology.org/2025.findings-emnlp.532.pdf"],
+      "review_scope": "Methods section 3, ablations section 6, conclusion and limitations; no local reproduction.",
+      "verified_findings": "The four-dataset English study distinguishes authorship attribution, verification, style-model accuracy and automatic human-likeness detection. Selecting examples by target length produces mixed metric changes rather than uniform fidelity gains. Their length/content selection uses target information, and another condition supplies an initial target snippet. These settings are not leakage-free prospective dialogue continuation baselines for PersonaSLM. Large-scale human evaluation is absent.",
+      "implication": "Use only conditioning-side information to construct length controls. Report multiple applicable proxies separately; do not convert an attribution gain into semantic fidelity. Length alignment is an established baseline.",
+      "novelty_of_discovery": "Relevant prior publication reverified today; no claim of newly published work or a newly established version transition."
+    },
+    {
+      "stable_id": "acl:2023.tacl-1.80",
+      "doi": "10.1162/tacl_a_00610",
+      "title": "Can Authorship Representation Learning Capture Stylistic Features?",
+      "authors": ["Andrew Wang", "Cristina Aggazzotti", "Rebecca Kotula", "Rafael Rivera Soto", "Marcus Bishop", "Nicholas Andrews"],
+      "publication_status": "FORMAL_TACL_2023_PUBLICATION",
+      "urls": ["https://aclanthology.org/2023.tacl-1.80/", "https://aclanthology.org/2023.tacl-1.80.pdf"],
+      "review_scope": "Introduction, representation setup, content-word masking and cross-task style/topic probes; no local reproduction.",
+      "verified_findings": "Authorship success alone does not establish stylistic representation. The authors use content-word masking, paraphrasing and style-versus-topic transfer probes; their results support stylistic sensitivity for the studied representations without proving complete style/content separation.",
+      "implication": "A speaker-margin result is insufficient construct validation. Length/topic/mismatched-speaker controls have a clear rationale, but this paper does not validate PersonaSLM's handcrafted metric or Japanese short-turn use.",
+      "novelty_of_discovery": "Older primary methodological evidence, not new publication."
+    }
+  ],
+  "daily_monitor_boundary": {
+    "existing_evidence": "docs/validation/literature_monitor_v1/daily_scheduled_delta_2026-10-19_v1.json",
+    "existing_evidence_sha256": "63fbea48c8f2acd99c3052abb4c42c60d72d18e2e90d167cccb4d277024ee8cb",
+    "observed_existing_snapshot": "216 records; 13 of 13 configured source requests succeeded.",
+    "actual_scheduled_sources": ["arxiv", "crossref", "openalex"],
+    "coverage_gaps": "The scheduled arXiv query returned zero records. Direct daily ACL Anthology, OpenReview and Semantic Scholar queries and daily AI methods review are not implemented by this scheduler. Successful requests do not establish comprehensive recall.",
+    "this_task": "Two bounded topic searches plus targeted primary-source reads; no repeat metadata crawl, no scheduler changes and no new comprehensive-surveillance claim.",
+    "new_version_or_publication_transition_established_here": false
+  },
+  "privacy_and_provenance": {
+    "raw_corpus_dialogue_or_profile_files_opened": false,
+    "reserved_58_target_dialogue_content_opened": false,
+    "protected_review_mappings_opened": false,
+    "qualification": "Public authors' README and paper examples were encountered while reading licensing/methods. They were not used to select experimental speakers, cases, prompts, features or thresholds and are not reproduced here.",
+    "participant_records_transmitted_to_network": false,
+    "model_generations": 0,
+    "human_annotations_created": 0,
+    "git_index_or_history_changed": false,
+    "original_evidence_changed": false,
+    "reviewer": "AI research assistant; not human ethical, legal or independent semantic review"
+  },
+  "execution_notes": [
+    "Read AGENTS.md and existing intake/pilot governance; parent maintains the shared development log.",
+    "Read complete local primary README/LICENSE/system README; compared current-main and pinned remote UTF-8 content and normalized local text.",
+    "A PowerShell SHA256.HashData call was unavailable in this runtime; corrected to SHA256.Create().ComputeHash(). No files were written by failed or successful hash commands.",
+    "An earlier unwrapped foreach pipeline raised EmptyPipeElement; corrected array wrapping. No evidence was changed.",
+    "This is the only new report created by this licensing subtask. It does not alter earlier licenses, experimental freezes, authorizations, budgets or review requirements."
+  ]
+}

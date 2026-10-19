@@ -1,0 +1,55 @@
+{
+  "schema": "ami_conditional_experiment_decision_v1",
+  "date": "2026-10-19",
+  "status": "CONDITIONAL_NOT_EXECUTION_GO",
+  "source_policy_sha256": "63b55a97517a3d581f3bb425041668dabd5edcc8142eaf504dc4e154342e3f6f",
+  "exposure": "No intended target selection or model outputs at this decision. Source/history parser qualification underway; failed parses are implementation/source-format observations, not model or corpus-wide scientific failures. Any target meeting incidentally read as another candidate's source will be recorded.",
+  "decision": "If at least4 genuinely source-qualified candidates yield interpretable natural contexts and review dossiers under the fixed source policy, select the first4 qualified candidates in the existing hash order and freeze one80-request corpus-transport batch. Do not use all8 merely because metadata or resource capacity permits it.",
+  "scientific_label": "Prospectively frozen new-record, cross-corpus transport study with the same model and conditioning method; exploratory, not independent human validation or proven cross-corpus person-disjoint validation",
+  "question": "Do the existing S/F/H source-provision interventions produce interpretable changes in new authentic English conversational continuations, and do correct-style controls distinguish speaker-related behavior from generic stylistic instructions?",
+  "alternatives": [
+    {"path": "AMI same-model source-provision transport", "decision": "PRIMARY_CONDITIONAL", "reason": "Direct RQ1 continuity without changing treatment implementation. A second natural source population may reveal corpus/topic/annotation dependence; valid semantic outcomes still require genuine ratings."},
+    {"path": "Matched Base/Instruct comparison", "decision": "HOLD_SUBSTANTIAL_ALLOCATION", "reason": "Direct RQ3 value, but additional interfaces/weights would not repair unresolved semantic measurement. A160-request batch before a valid quality endpoint has poor current information gain."},
+    {"path": "Conditional authentic-continuation likelihood", "decision": "SUPPORTING_OPTION_NOT_PRIMARY_SUBSTITUTE", "reason": "Predictability is objectively definable but a correct native scorer is not yet validated, and NLL does not establish Persona Fidelity or a unique correct response."},
+    {"path": "Retrieval or novel reliability-fidelity algorithm", "decision": "HOLD", "reason": "No semantically validated reproducible failure yet supports a meaningful algorithm comparison. Prefill dominance alone motivates a known efficiency baseline, not novelty."}
+  ],
+  "finite_design": {
+    "speakers": 4,
+    "contexts_per_speaker": 2,
+    "factorial": "C0-C7; S bit0,F bit1,H bit2;64 paired factorial requests",
+    "diagnostics": "Correct C7 versus M_STYLE, N_STYLE and C6;16 additional matched-schema control requests, outside factorial coding",
+    "total_generation_attempts": 80,
+    "remaining_after_complete_batch": 332,
+    "preserved_validation_generation_reserve": 160,
+    "maximum_inference_seconds": 3600,
+    "maximum_wall_seconds": 5400,
+    "model": "Unchanged official Qwen3-0.6B Q8_0 English configuration,2048context,128newtokens,threads4,temp0,seed42,no thinking/cache/warmup/retries",
+    "ram_gates_bytes": [2147483648, 1073741824, 536870912],
+    "baseline": {"generations": 788, "inference_seconds": 4485.684495999997},
+    "authorization_boundary": "This conditional scientific allocation is not a passing source qualification, exact manifest, official RAM preflight or execution claim. All are separately required before inference. No automatic expansion after80."
+  },
+  "measurement": {
+    "unchanged_treatment": "Reuse the exact existing four-rate Style prompt and natural-conversation system instruction, structured dated self-report Facts and authentic earlier History. No output-dependent prompt/metric tuning or reference-answer injection.",
+    "human": "Reuse the existing explicit0-3 plusNA rubric prospectively for this new package only. Primary relevance,coherence,linguistic resemblance; source-relative factual claim support/contradiction/unverifiability separately. Actual source evidence must make each intended judgment interpretable before generation. Historical99ratings are neither recoded nor used as semantic selection evidence.",
+    "applicability": "No artificial factual question or unique gold answer is created. No claims is not perfect factual accuracy. Temporal consistency is NA unless evidence supports an actual time-specific comparison; a dated meeting alone is insufficient. Behavioral fidelity needs source support, not fluency.",
+    "technical": "Native timing stages, output length, stop type and literal overlap remain technical diagnostics, not semantic success. Native timing definitions and arithmetic checks from the existing100 are reused. Global process peakRAM is not a per-condition causal effect.",
+    "controls": "Freeze cyclic donor assignment and pooled selected-source style before targets, using the existing same-schema control. Document actual style-rate separations without selecting favorable donors, token differences without padding, and output lengths without posthoc matching."
+  },
+  "analysis": {
+    "contrasts": "All7 frozen factorial contrasts plus3 correct-style comparisons, equal contexts within speaker then equal speakers. No favorable contrast selection.",
+    "uncertainty": "Show paired speaker vectors, coverage and leave-one-speaker-out influence, plus source meeting/connected-group dependence. No calibrated confirmatory p-values or confidence intervals. Logical missing-outcome bounds only for prospectively defined applicable0-3 human outcomes, never the unresolved historical scale.",
+    "replication": "Independent raw-to-results arithmetic after execution. Cross-corpus consistency of technical effects is distinct from semantic replication, actual-person disjointness and reviewer independence."
+  },
+  "adversarial_limits": [
+    "Four source speech rates may be a weak or generic instruction bundle, not a speaker representation. Similar donor rates could make a null contrast uninformative; report rather than optimize them.",
+    "F/H contain topic and style as well as facts; C0 common context already provides persona cues. Source provision is the estimand, not isolated latent psychological traits.",
+    "Source-qualified professional self-reports can be irrelevant to later conversation. Do not mistake factual-source availability for a valid factual-reliability endpoint in every case.",
+    "Shared partners and meetings, professional context, transcription differences and single small model limit generality. New-record transport is not universal Persona Fidelity validation."
+  ],
+  "go_pivot_stop": {
+    "GO": "Qualified source material, meaningful context/dossier, exact frozen treatment and safe hardware permit the bounded80 attempts even before human ratings exist.",
+    "PIVOT_BEFORE_INFERENCE": "If fewer than4 source-qualified speakers, inadequate target contexts or unjudgeable dossiers, preserve the failed qualification; do not repair source criteria or fill allocation with weak cases.",
+    "STOP_EXPANSION": "After80, no more same-method generation solely because token,copying,rate or latency effects moved. Expansion requires informative semantic evidence or separately justified precision/mechanism value.",
+    "safety": "Stop on RAM/disk/time/integrity/request failure. Preserve every attempt and partial journal; no hidden retries, unrelated application termination or altered hardware gates."
+  }
+}

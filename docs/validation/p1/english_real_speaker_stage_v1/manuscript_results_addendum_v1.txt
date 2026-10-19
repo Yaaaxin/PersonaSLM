@@ -1,0 +1,199 @@
+English real-speaker S/F/H development study: observed results and boundaries
+19 October 2026. Exploratory evidence; semantic evaluation remains pending.
+
+Purpose and source qualification
+
+This prospective amendment returns PersonaSLM to real human speaker dialogue.
+It asks how providing earlier Style, documented Facts and History changes an
+English professional-meeting continuation. CANDOR was considered but requires
+genuine distributor/institutional access approval. SwDA's upstream restriction
+and downstream licence claim were not treated as resolved. ICSI's official
+modern transcript distribution supplies a documented CC BY4 route; copyright
+permission does not itself establish contemporary speaker-simulation consent.
+The original corpus paper describes research consent and deletion procedures.
+We use local pseudonymous, minimized research records, without identity
+enrichment, public raw redistribution or deployed impersonation.
+Sources: https://groups.inf.ed.ac.uk/ami/icsi/download/
+https://groups.inf.ed.ac.uk/ami/icsi/license.shtml
+https://www.ee.columbia.edu/~dpwe/pubs/icassp03-janin.pdf
+
+Five source-qualified development speakers supplied two nonoverlapping contexts
+each. Qualification required separate earlier style material, a complete dated
+professional self-report, substantive earlier dialogue and interpretable current
+context. This is a selected, small professional cohort, not ordinary-life persona
+representativeness. The fixed bounded source screen and all excluded candidates
+are retained. AI source audits are not human semantic judgments or ethics-board
+approval. The 58 Japanese validation speakers remain untouched.
+
+Design and execution
+
+The original protocol SHA256 is
+6ae3c7875062334af2f88a625e5fcddb783e7007ab9ecf2e9214eb606603ad62.
+Each context received all eight S/F/H combinations plus mismatched-speaker and
+pooled-development-style controls at F=H=1: 80 factorial and20 control requests.
+S describes four prior-speech rates, not a word-length target or a rich persona
+representation. F consists of source-supported dated professional self-reports,
+not verified current biography. H contains authentic earlier utterances. H
+inevitably carries style and factual information; effects concern provision of
+source packages, not perfectly isolated latent psychological constructs.
+All conditions share eight current-context turns. C0 therefore means no extra
+S/F/H package, not no speaker information. Authentic target continuations were
+excluded from all prompts and were not treated as unique correct answers.
+
+Qwen3-0.6B official Q8_0, revision23749fefcc72300e3a2ad315e1317431b06b590a,
+was run on llama.cpp b11573 CPU with four threads, context2048, maximum128 new
+tokens, greedy decoding, seed42, no thinking, warmup, custom stops or retries.
+Weight SHA2569465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031.
+Actual prompts were frozen with native token IDs before inference; the range
+was264–813 tokens. Correct/mismatched/pooled style prompts differ by at most
+one token within a context. Other factor additions are not length-matched.
+
+All100 allocated responses were obtained, without retries or missing outputs.
+The original run stopped safely after92 at the frozen512MiB live RAM guard;
+available RAM was536342528 bytes. Its PARTIAL receipt is preserved. After its
+owned server exited and RAM recovered, a separately frozen exact-eight suffix
+executed only untouched requests92–99, with identical prompt/token/configuration
+bytes and unchanged RAM gates. Original remaining inference and absolute wall
+deadline were preserved. Two raw journals remain separate; no fictional merged
+execution receipt was created. The restart is a documented timing/memory
+deviation, not evidence of cross-environment bit-identical generation.
+
+Condition-level observations
+
+Condition  S F H  Responses  Mean output tokens  Mean completion wall seconds
+C0         0 0 0      10            21.1                   3.459018
+C1         1 0 0      10            19.3                   4.019052
+C2         0 1 0      10            18.6                   3.602237
+C3         1 1 0      10            14.5                   4.143908
+C4         0 0 1      10            24.3                   5.484778
+C5         1 0 1      10            14.8                   5.852906
+C6         0 1 1      10            23.8                   5.774672
+C7         1 1 1      10            17.1                   6.322048
+M_STYLE    mismatched 1 1  10        16.7                   6.284259
+N_STYLE    pooled     1 1  10        17.5                   6.313560
+
+Factorial estimates use2*mean(product of selected +/-1 factor codes times
+outcome), first within context, then equal contexts within speaker, then equal
+speakers. Two- and three-factor effects use this scale, not an unscaled
+difference-in-differences. The following are finite-case descriptive estimates.
+
+Contrast       Output tokens       Completion wall seconds
+S                 -5.525                  +0.504302
+F                 -1.375                  +0.256778
+H                 +1.625                  +2.052547
+SF                +0.125                  +0.040221
+SH                -2.575                  -0.046550
+FH                +2.275                  +0.122740
+SFH               +1.275                  +0.049403
+
+S reduced output tokens in all five speaker-level averages, but increased
+completion latency in all five. The leave-one-speaker-out S token mean ranged
+from-6.5625 to-3.125; this is an influence diagnostic, NOT a confidence interval.
+H increased latency in all five speakers. Its output-token estimate was not
+sign-stable: two speaker effects were positive and three negative; leave-one-out
+means ranged from-0.4375 to+2.34375. FH's positive token interaction describes
+response extent only, not improved factual or temporal reliability.
+
+At F=H=1, correct minus mismatched style differed by+0.4 output tokens and
++0.037788 seconds; correct minus pooled style differed by-0.4 tokens and
++0.008488 seconds. These are not semantic fidelity scores or evidence of
+equivalence. Correct-speaker benefit remains unestablished pending genuine
+ratings. Mean input length increased from308.9 tokens in C0 to659.5 in C7;
+the S/F/H input additions averaged87.4/37.4/225.8 tokens. Latency is total
+source-provision cost, not isolated semantic-history processing. The final
+eight conditions occurred after a server restart in one context; timing is
+partly confounded with execution order and this boundary.
+
+All100 responses ended with native EOS and none reached the128-token ceiling.
+EOS is not semantic completion. Five-word full-user-message overlap was defined
+for93/100 responses; shorter responses were inapplicable, never scored zero.
+Its full factorial complete-speaker estimand retained only2/5 speakers, although
+74/80 main-condition responses had individual coverage. Consequently overlap
+is a restricted surface diagnostic, not evidence of History or Persona Fidelity.
+No calibrated confirmatory significance test is claimed. Shared meetings,
+group/topic dependence, source selection and five speakers limit generalization.
+
+Fidelity, reliability and independent validation
+
+A fixed100-record English review package contains unchanged outputs and common
+case dossiers, with conditions, execution order and target answers hidden.
+The PI volunteered genuine English judgments. Project independence is false;
+prior rubric/item/output/automatic-result exposure and assistance must be
+truthfully declared. Condition masking cannot erase prior exposure or prevent
+inference from the text. There is no double-blind or inter-rater-reliability
+claim. Linguistic resemblance, relevance, coherence, atomic-claim support/
+contradiction/unverifiability and applicable secondary outcomes remain pending.
+No claims is not perfect factual accuracy, and absent support is not falsehood.
+
+The frozen participant-disjoint validation source procedure examined11 Bed
+meetings: eight metadata-eligible speakers yielded one candidate group, then
+zero complete source-qualified S/F/H cases. Its sole F source was not a complete
+professional self-report; the construct was not relaxed. Zero validation model
+generations were executed. A header-only check found no fully participant-
+and-partner-disjoint meeting among the remaining35 unexposed meetings. These
+results establish a limitation of this fixed corpus/split/procedure, not
+corpus-wide impossibility. The inspected Bed content cannot subsequently be
+relabelled untouched after adaptive redesign. New qualified external English
+data/access is required for the intended independent replication.
+
+Reproducibility and RQ coverage
+
+The two-journal analysis reconstructs every raw response and native token ID,
+checks archived HTTP content, source/input hashes and cumulative costs, then
+compares separately implemented raw-to-metric and factorial calculations within
+absolute1e-10. Independent arithmetic reproduction is NOT independent experimental
+or human validation. The frozen original analysis CLI had a Path/string hashing
+bug and wrote no results; the separately registered compatibility entrypoint
+calls its unchanged measurement/contrast functions and records the deviation.
+Public-clone reproduction is PARTIAL without permitted private source/prompt/raw
+artifacts and separately acquired weights/runtime. Exact local replay of analysis
+is supported; bit-identical generation across environments is not promised.
+
+Evidence: development_combined_analysis_v1.json
+SHA25684468a7ccf42ba9ea8d368ee9800b211c2d97d1422c1ad7fa234b163f3066a53;
+development_combined_independent_reproduction_v1.json
+SHA256ce361877f9c7f47227105c3cb4db75d9575a927258c192bd33e48cddc650cb87.
+Source qualification: validation_feasibility_conclusion_v1.json and its bound
+original archive, split, policy, complete source decisions and empty material.
+
+RQ1 has actual balanced source-provision data and technical main/interaction
+estimates, but semantic quality and fidelity effects are not yet established.
+RQ2 has no verified temporal-change contrast and no reviewed factual/history
+effect. RQ3 is unanswered by one model configuration. RQ4 retrieval/ranking/
+LoRA trade-offs were not executed. No original algorithm or validated semantic
+failure mechanism is claimed; simple frequency prompting is not an invention.
+This package is not submission-ready and does not establish the full paper.
+
+Decision and next stage
+
+GO for genuine semantic evaluation and external independent-data qualification;
+STOP for the infeasible frozen Bed-validation branch; PIVOT away from further
+unvalidated-proxy-driven model expansion. Compared with another 100-generation model batch
+or a synthetic format-repair experiment, actual semantic judgments and a genuine
+replication source offer more reliable information about the original RQs.
+The required next human action is evaluation, not routine technical approval.
+Remaining resources are preserved for qualified validation and justified model/
+method comparisons. New use is100 generations and512.5643901000585 completion
+seconds; cumulative use is788/1200 and4485.684495999997/72000 seconds.
+
+Prior-art surveillance remains active but bounded. The existing scheduled task
+collects arXiv, Crossref and OpenAlex metadata; no daily full-text AI or universal
+source-coverage claim is made. Targeted methods inspection of Wiki-Talkie and
+PersEvalBench supports separating population-style proxies, individual fidelity
+and applicability. Both inspected records are preprints, not asserted formal
+publications: https://arxiv.org/html/2610.08513v1 and
+https://arxiv.org/html/2610.19314v1. Generic history/profile conditioning is
+established prior art; no novelty is claimed from this implementation.
+
+Dated intake note, 19 October 2026, after the above analysis and delivery
+
+The principal researcher subsequently submitted 99 known blinded records and
+expressly affirmed manual blinded authorship. The original bytes and declaration
+are preserved. One of the 100 fixed records is absent; the supplied header and
+rating scale do not match the frozen rubric (including values4/5 versus0-3/NA).
+These are received genuine human judgments, not fabricated or absent human work.
+They are not yet finalized or condition-integrated. No scores were rescaled,
+missing labels invented or protected condition mapping opened. The separate
+intake receipt records the correction/provenance boundary without changing the
+previous delivery, generation or automatic-analysis evidence. Scientific
+semantic conclusions above therefore remain unestablished pending valid intake.

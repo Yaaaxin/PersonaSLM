@@ -1,0 +1,13 @@
+{
+  "schema_version": "personaslm_rpc_specificity_local_archive_v1",
+  "completed_local": "2026-10-19T11:31:00+02:00",
+  "status": "PASS_ALL_ARCHIVE_MEMBERS_AND_UNCHANGED_SOURCES",
+  "archive_directory": "E:/DEVOIRS/Research/PersonaSLM-Lab/private_research_backups/20261019_rpc_style_specificity_v1",
+  "archives": [
+    {"filename": "style_specificity_private_v1.zip", "source": ".local/experiments/real_persona_chat_style_specificity_v1", "verified_files": 857, "bytes": 1887506, "sha256": "cc942cc91cc28d63b0cfb53b6ba05d925011dce8f0a0d0e7fd6e21620ac40ec6", "coverage": "Both raw session journals, frozen materialization, claims, native tokenization, source snapshots, private partial and complete analysis."},
+    {"filename": "rpc64_review_private_v1_1.zip", "source": ".local/reviewer-packages/real_persona_chat_sfh_pilot_v1", "verified_files": 12, "bytes": 76895, "sha256": "8de8cfd88d49972e5c66fd240fb9aa28f799e00a05e1c39d5793af7cfbc6729e", "coverage": "Existing64 review evidence plus additive corrected delivery; protected records copied as opaque bytes, no mapping content inspected or published."}
+  ],
+  "verification": "Resolved explicit sources and backup parent; refused any preexisting archive target or source reparse point. SHA256 checked every decompressed archive member against its source, checked entry counts, and rehashed sources afterward. No overwrite or deletion.",
+  "privacy": "Archive files are private, outside the repository and excluded from Git. This public receipt contains only path-level provenance, counts and hashes, not participant text or review keys.",
+  "limitations": "Same-volume local preservation only; not off-device disaster recovery, remote backup, encryption assurance or publication. Model weights/full corpus are not included in these incremental archives. Earlier baseline preservation remains separately recorded."
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "english_model_comparison_primary_review_rubric_v1",
+  "language": "English",
+  "purpose": "Genuine human evaluation of 200 fixed model-and-condition-masked professional conversation continuations. This is a new prospective primary-only 0-5 instrument; historical submissions and the old 0-3 rubric are unchanged.",
+  "scale": {
+    "categories": [0, 1, 2, 3, 4, 5],
+    "order": "Higher means better; 0 is the lowest valid judgment and 5 the highest. Categories 1-4 are ordered intermediate judgments without additional verbal anchors or assumed equal spacing.",
+    "no_imputation": "Zero is not missing, not uncertain, and not automatically assigned to an unavailable response. Do not transform the categories to the historical 0-3 scale."
+  },
+  "primary": {
+    "relevance": "How well the response addresses the live purpose of the current conversation. Do not require the exact authentic human continuation; multiple responses may be appropriate.",
+    "coherence": "How well the response fits and avoids contradicting the local conversational exchange, including interpretable referents and discourse continuity.",
+    "linguistic_resemblance": "Perceived resemblance to the anonymous speaker's authentic earlier expression/discourse examples. Shortness, matching length, copied wording, shared technical vocabulary, politeness or generic fluency alone are not evidence of speaker-specific resemblance. This is not verified identity or behavioral Persona Fidelity."
+  },
+  "not_analyzed": "No secondary history, temporal, behavioral or completeness ratings; no factual claim counts, claim adjudication, confidence score or automatic replacement labels. The three primary domains do not establish factual accuracy or temporal reliability.",
+  "dossier": [
+    "Exactly the same privacy-reviewed anonymous dossier must accompany all 20 responses to a context, across both models and all ten conditions.",
+    "Include the current context, authentic earlier style examples and dated source self-reports/history. Do not include a target/reference continuation as a unique gold answer.",
+    "Do not expose speaker identities, model/condition names, prompts, seeds, execution order or protected mappings. Masking cannot prevent inference from the response itself.",
+    "Earlier professional self-reports are source statements, not externally verified or necessarily still-current facts. Unknown evidence and dates remain unknown."
+  ],
+  "record_status": {
+    "COMPLETED": "Provide each primary entry as an exact category 0,1,2,3,4,5 or NA. Keep missing_reason blank. A real generated empty answer remains a generated outcome and may be judged if the construct is evaluable.",
+    "NA": "Use for a specifically inapplicable or genuinely unjudgeable domain from the supplied evidence, not merely an uncertain preference among ordered categories. State a truthful domain-specific reason in rationale. A partially unjudgeable record may retain numeric judgments for other domains and NA only for the affected domain. NA is not zero and is not an invented numerical score.",
+    "UNAVAILABLE": "Use when the whole record cannot be reviewed. Retain the row, leave its three ratings blank and give a truthful missing_reason. MISSING_OUTCOME must be UNAVAILABLE. Optional rationale may explain the limitation but must not fabricate a judgment. Do not discard other genuine domain judgments merely because one domain is unjudgeable: use a justified domain-specific NA or preserve the unfinished working draft instead.",
+    "rationale": "Explain every NA and any evidence/uncertainty limitation truthfully. For numeric judgments, concise evidence notes are welcome but not mandatory; do not invent a supporting explanation to satisfy a form. If commenting on resemblance, distinguish an actual non-length feature from lexical copying.",
+    "incremental": "Copy the immutable REVIEW.csv to a new local WORKING.csv and save incremental edits. Retain all 200 rows, their fixed order, and the first four immutable columns. If uncertain which category to assign, preserve the existing genuine entries in a working draft; do not assign zero, fabricate a grade, or clear other domains to force finalization. Validation never edits or automatically deletes submissions. Draft validation accepts unfinished rows while rejecting malformed values or source changes. Final validation accepts any mix of properly documented COMPLETED and UNAVAILABLE records, even all UNAVAILABLE; it does not demand 199 or 200 numeric judgments or imply sufficient scientific coverage."
+  },
+  "provenance": {
+    "reviewer": "Principal researcher, project-dependent. This states the planned role, not that the new review has occurred.",
+    "known_exposure": "The PI has involvement with the existing speaker sources, task materials and previous reports, and has supplied 99 judgments for the older 100-output package; one judgment remains UNAVAILABLE. Record prior_rubric_or_item_involvement=YES and prior_exposure_to_outputs=YES in the copied provenance form. The latter includes older output exposure; it does not claim every older output or the new 200 have already been reviewed. Explain any additional new-output exposure truthfully in notes.",
+    "unknown_actuals": "New human judgments, review dates, competence attestation, assistance/translation, working environment and mapping/label exposure are not prefilled. Copy provenance.json and supply only actual attestations. Do not invent timestamps or absence of aids. If unknown, preserve that limitation; final provenance may remain incomplete.",
+    "limits": "Random mixing and hidden model/condition labels do not erase previous exposure or establish project independence, double-blind review, inter-rater reliability or independent experimental validation. AI must not supply human labels. Validation is structural/provenance checking, not proof of construct validity."
+  },
+  "privacy": "Delivery, incremental working copies, feedback, provenance and protected mappings remain local/private. The model/condition mapping must not be opened by review validation. Only the separate hash-only wrapper receipt may be public. No actual human scores are prefilled."
+}

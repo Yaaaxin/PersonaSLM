@@ -1,0 +1,36 @@
+{
+  "schema": "english_sfh_source_qualification_v1",
+  "date": "2026-10-19",
+  "decision": "GO_DEVELOPMENT",
+  "material_path": ".local/experiments/english_sfh_v1/icsi_curated_material_v3.json",
+  "material_sha256": "9d314b40bd3eaffcc53d22abf109d00529d5fdc3b48f14485e3fddc9093ed340",
+  "privacy_audit_complete": true,
+  "privacy_audit_scope": "Bounded AI-assisted and root source review of visible selected material, source offsets, dated attribution and existing-name pseudonymization. Not an ethics-board approval, guarantee of anonymization or invented contemporary participant consent. Original records remain private; no identity enrichment or deployment.",
+  "human_semantic_labels_available": false,
+  "actual_review": "Root inspected every selected case's structured facts, source quotations, four style examples, earlier history, current context and authentic reference; a separate agent independently checked the selected evidence and source isolation. Both are AI source audits, not genuine human annotations.",
+  "findings": {
+    "speakers": 5,
+    "contexts": 10,
+    "complete_source_supported_professional_statements": 5,
+    "strict_source_history_target_chronology_cases": 10,
+    "context_future_overlap_cases": 0,
+    "style_fact_source_segment_overlap": 0,
+    "full_reference_leakage_cases": 0,
+    "reserved_transcript_bodies_read": 0,
+    "new_model_generations": 0
+  },
+  "case_validity": "Current contexts permit open natural continuations. Incomplete observed references are legitimate transcript fragments and are not unique correct answers. F paraphrases are conservative episodic self-reports, not current world truth. H contains substantive earlier professional discussion, not merely a target backchannel or microphone-name test.",
+  "source_isolation": "Only aggregate style descriptors enter S. Authentic style examples with semantic content stay in the common human dossier, never S-only generation prompts. Current context includes speaker language in every condition. Facts and history are dated source-provision interventions, not magically content-isolated latent factors.",
+  "license": {
+    "official_distribution": "https://groups.inf.ed.ac.uk/ami/icsi/download/",
+    "official_license": "https://groups.inf.ed.ac.uk/ami/icsi/license.shtml",
+    "grant": "Official modern transcript distribution states Creative Commons Attribution4.0. Preserve attribution and source licence. Copyright permission does not remove privacy/personality rights.",
+    "primary_documentation": "https://www.ee.columbia.edu/~dpwe/pubs/icassp03-janin.pdf",
+    "consent_boundary": "Original study describes signed participant permissions and opportunities to remove material. No claim that participants specifically approved this modern individualized generation study. This is local pseudonymous research with sensitive/private-content minimization, not public impersonation."
+  },
+  "measurement_go": "Genuine English PI review is committed for delivery but unperformed. It is permissible to collect frozen, source-evaluable developmental responses while preserving all semantic conclusions as pending. Technical metrics cannot substitute for those judgments.",
+  "review_provenance": "Researcher volunteered personal English evaluation in the current message and asked for honest prior-exposure recording. No independent double-blind review, independent reviewer or inter-rater reliability is asserted; actual attestations remain blank.",
+  "allocation": "100 total:80 factorial plus20 diagnostic. Five source-qualified speakers, two contexts each. No arbitrary expansion to the initial12-speaker planning target. Independent allocation is separately gated and at most160, not authorized by this record.",
+  "remaining_gates": ["Exact prompt/native token and source freeze", "Fresh model/backend integrity and RAM preflight", "Global ledger and no-repeat claim checks"],
+  "claim_limits": ["Small single professional group with shared meetings", "Sparse historical occupational episodes, not rich personal biographies", "Narrow four-rate style representation", "Perceived linguistic resemblance pending human review", "Temporal validity only when supported", "No RQ3 size/Base-Instruct result", "No RQ4 algorithm comparison", "No validated novel algorithm"]
+}

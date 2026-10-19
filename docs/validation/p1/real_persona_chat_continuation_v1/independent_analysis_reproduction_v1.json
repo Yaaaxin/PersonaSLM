@@ -1,0 +1,123 @@
+{
+  "attempts": 52,
+  "audited_utc": "2026-10-19T13:51:44.936472+00:00",
+  "bindings": {
+    "manifest_sha256": "df3412c5dc06a907e2822fc47ab536f17fa54a6c362c1456c62070bf6073e64f",
+    "primary_analysis_sha256": "050854360131e1335583b591f9034da58e13ef30a6a02f2dafff95f50259e58b",
+    "receipt_sha256": "4e4d2cae32d9eaff8916ad437682fd3e97624506bc93c4d6e39c409d34439f23",
+    "registration_sha256": "3f3053b3accb0d4045cd95424266462cb4f08dadab1dbb806b17b03cbe3cd402",
+    "reproduction_source_sha256": "d6f877c87cf1fe030fd60f6cacb8e536693e8b7cee90f319794da5490af5abef",
+    "terminal_event_sha256": "32899e770d2f2638876047dbbe38167955ced5ad1ac17c4a20d7c67531d93cba"
+  },
+  "completion_inference_seconds": 144.79131300005247,
+  "conditions": {
+    "CORRECT": {
+      "allocated": 16,
+      "first_option_choices": 13,
+      "format_valid": 14,
+      "lexical_baseline_mean": 0.75,
+      "position_invariance_cases": 6,
+      "position_invariant": 0,
+      "protocol_success_mean": 0.5,
+      "protocol_successes": 8,
+      "returned": 16,
+      "valid_selection_recognition": 0.5714285714285714
+    },
+    "MISMATCH": {
+      "allocated": 16,
+      "first_option_choices": 12,
+      "format_valid": 13,
+      "lexical_baseline_mean": 0.8125,
+      "position_invariance_cases": 5,
+      "position_invariant": 0,
+      "protocol_success_mean": 0.4375,
+      "protocol_successes": 7,
+      "returned": 16,
+      "valid_selection_recognition": 0.5384615384615384
+    },
+    "NONE": {
+      "allocated": 16,
+      "first_option_choices": 15,
+      "format_valid": 15,
+      "lexical_baseline_mean": 0.8125,
+      "position_invariance_cases": 7,
+      "position_invariant": 0,
+      "protocol_success_mean": 0.5,
+      "protocol_successes": 8,
+      "returned": 16,
+      "valid_selection_recognition": 0.5333333333333333
+    }
+  },
+  "contrasts": {
+    "CORRECT-MISMATCH": {
+      "allocated_16_order_case_bounds": [
+        0.0625,
+        0.0625
+      ],
+      "leave_one_pair_out_mean_range": [
+        0.0,
+        0.08333333333333333
+      ],
+      "mean": 0.0625,
+      "missing_paired_order_cases": 0,
+      "n": 4,
+      "values": [
+        0.0,
+        0.25,
+        0.0,
+        0.0
+      ]
+    },
+    "CORRECT-NONE": {
+      "allocated_16_order_case_bounds": [
+        0.0,
+        0.0
+      ],
+      "leave_one_pair_out_mean_range": [
+        0.0,
+        0.0
+      ],
+      "mean": 0.0,
+      "missing_paired_order_cases": 0,
+      "n": 4,
+      "values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "MISMATCH-NONE": {
+      "allocated_16_order_case_bounds": [
+        -0.0625,
+        -0.0625
+      ],
+      "leave_one_pair_out_mean_range": [
+        -0.08333333333333333,
+        0.0
+      ],
+      "mean": -0.0625,
+      "missing_paired_order_cases": 0,
+      "n": 4,
+      "values": [
+        0.0,
+        -0.25,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "controls_correct": 4,
+  "cumulative_generations": 688,
+  "cumulative_inference_seconds": 3973.1201058999386,
+  "failed_calls": 0,
+  "http_payloads_and_raw_bytes_verified": 52,
+  "limits": "Shared journal-chain reader only; scoring, pairing, lexical baseline and cost arithmetic independently implemented. No participant rows public. Peak-memory observation not independently reproduced. Public clone-only reproduction PARTIAL.",
+  "native_stops": {
+    "eos": 51,
+    "limit": 1
+  },
+  "responses": 52,
+  "scope": "INDEPENDENT_ARITHMETIC_NOT_EXPERIMENTAL_OR_HUMAN_VALIDATION",
+  "status": "PASS"
+}

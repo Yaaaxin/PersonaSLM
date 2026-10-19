@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-19T15:23:15.747455+00:00",
+  "predecessor_negative_sha256": "119b84d40fa1e961edc6225ea25f1703fa17d9c50d637ca6b07672aa2143d98c",
+  "private_policy_sha256": "f998653760400dfedc80892e34474468f7dae7dd34b5f4f22a25cea0d259d826",
+  "rationale": "V1 zero yield is a restrictive heuristic result, not proof that ICSI has no usable facts. Ordinary capitalization is not reliable name detection; earliest usable prior sources need not be first meetings.",
+  "rules": [
+    "Bmr development bodies only; Bed reserved bodies remain unread; no model inference",
+    "Retain sensitive/contact/foreign/uncertain exclusions; ordinary capitalization allowed; possible names flagged for private audit",
+    "Explicit professional first-person self-reports only; reject hypothetical phrases; these are source claims, not world-verified facts",
+    "Earliest qualifying source meeting with up to three self-reports and >=100 separate style words and >=10 style turns",
+    "Earliest later usable history meeting; first contiguous 4-to-6-turn history with >=1 target turn and 30-to-180 words; prefer 6 then5 then4 at a given position",
+    "Natural overlaps retained with timestamps; no removed segment gaps allowed",
+    "Four contiguous preceding context turns plus actual15-to100-word target; all context turns must end by target onset",
+    "Target meeting strictly later than source and history; at most two nonoverlapping context/reference windows per speaker",
+    "Screen every metadata-eligible development speaker (at most12); do not freeze final model-study speaker allocation",
+    "No target reference substring may appear in its facts/history/context; candidate raw text and names remain private"
+  ],
+  "schema": "icsi_material_policy_v2",
+  "semantic_review_not_performed": true,
+  "snapshot_sha256": "ec7e769900cef6d9b3786cb93c01309454c0bdc1bad03cd171f3a759253b5058",
+  "source_hashes": {
+    "english_icsi_material_v1.py": "46dd226e8f4ef2614b5a4f2899fc3e4916572dba4dfab164388fee6b5706e512",
+    "english_icsi_material_v2.py": "ec7e769900cef6d9b3786cb93c01309454c0bdc1bad03cd171f3a759253b5058",
+    "icsi_english_qualification_v1.py": "9d0b6141510ab65f2178a207f2c52fa538c707022b382090da0605bc60f54c83"
+  },
+  "source_privacy_audit_required_before_prompts": true,
+  "split_sha256": "cf91921ef55874237d961f0b2c17b916d5122ccff0c08cf6e4a52ba74a30207e"
+}

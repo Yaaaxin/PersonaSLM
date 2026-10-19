@@ -1,0 +1,178 @@
+English real-speaker stage: reproduction and human-review handoff
+19 October 2026. Use the repository root in PowerShell.
+
+WHAT IS ACTUALLY REPRODUCIBLE
+
+100 actual development responses: 80 factorial and 20 style-control requests.
+The original 92-response PARTIAL journal and the exact-eight suffix are separate
+immutable executions. Neither should be generated again. Cumulative actual use
+is 788/1200 generations and 4485.684495999997/72000 completion seconds.
+Read-only reproduction verifies original raw HTTP responses, native token IDs,
+hash chains, input/source snapshots, costs and independently implemented
+technical estimates. It does not generate human judgments or new model text.
+
+Use Python >=3.11 (hashlib.file_digest); the actual environment is Python 3.14.3.
+The older project's >=3.10 declaration alone does not cover these new tools.
+For a new environment install the project and its declared test extra, then
+run authored tests below. Do not commit an environment. Full local reproduction
+additionally requires the permitted private .local/experiments/english_sfh_v1
+tree, original source snapshots and frozen exact source bytes. Model weights,
+native runtime and licensed corpus are separately acquired private dependencies;
+the test fixtures do not contain real speaker data.
+
+A public clone without permitted private evidence is PARTIALLY reproducible,
+not a raw-to-result reproduction. Existing absolute archive paths and exact
+line-ending hashes must remain valid. No cross-machine bit-identical generation
+guarantee is made. The archival adapter permits a legitimate new Git HEAD for
+READ-ONLY arithmetic; it does not relax generation validators or source hashes.
+
+READ-ONLY TECHNICAL REPRODUCTION
+
+$env:PYTHONPATH='tools;src'
+$env:PYTHONDONTWRITEBYTECODE='1'
+.\.venv\Scripts\python.exe -B tools/english_sfh_archival_reproduce_v1.py --verify --analysis-sha256 84468a7ccf42ba9ea8d368ee9800b211c2d97d1422c1ad7fa234b163f3066a53 --reproduction-sha256 ce361877f9c7f47227105c3cb4db75d9575a927258c192bd33e48cddc650cb87
+if ($LASTEXITCODE -ne 0) { throw 'Archived reproduction failed; do not rewrite evidence' }
+
+Expected: PASS, 100 responses, zero new generations, receipt SHA256
+c30b4b87a29ae04d5b183fe3fbb2cea1a9428e2195aa3acf1cb3775c6090fb14.
+The frozen english_sfh_analysis_v1.py primary CLI has a documented Path/string
+bug. The combined analysis adapter avoided it but retains an execution-HEAD
+dependency. Use the archival entrypoint, not an edit of frozen code. No --write
+is needed for replay.
+
+The manuscript's supplementary input-token means and H speaker-sign count can
+be recalculated without printing participant IDs or text after the above audit:
+
+@'
+import json, statistics
+from collections import defaultdict
+from pathlib import Path
+plan=json.loads(Path('.local/experiments/english_sfh_v1/development/frozen_manifest_v1.json').read_text(encoding='utf-8'))
+rows=plan['requests']
+means={c:statistics.fmean(len(r['input_token_ids']) for r in rows if r['condition']==c) for c in [f'C{i}' for i in range(8)]+['M_STYLE','N_STYLE']}
+additions={f:statistics.fmean(means[f'C{i}'] for i in range(8) if i&mask)-statistics.fmean(means[f'C{i}'] for i in range(8) if not i&mask) for f,mask in [('S',1),('F',2),('H',4)]}
+private=json.loads(Path('.local/experiments/english_sfh_v1/development_combined_analysis_private_v1.json').read_text(encoding='utf-8'))
+groups=defaultdict(list)
+for r in private['rows']:
+    if r['condition'].startswith('C'):
+        groups[r['speaker_id']].append(r)
+h=[statistics.fmean(r['measurements']['output_tokens'] for r in group if int(r['condition'][1:])&4)-statistics.fmean(r['measurements']['output_tokens'] for r in group if not int(r['condition'][1:])&4) for group in groups.values()]
+print(json.dumps({'mean_input_tokens':means,'mean_input_additions':additions,'H_output_tokens_speaker_signs':{'positive':sum(v>0 for v in h),'zero':sum(v==0 for v in h),'negative':sum(v<0 for v in h)}},sort_keys=True))
+'@ | .\.venv\Scripts\python.exe -B -
+
+Executed read-only: S/F/H input additions87.4/37.4/225.8 tokens (floating-point
+roundoff only); H output-token speaker effects positive2, zero0, negative3.
+
+AUTHORED TESTS, NO HUMAN RATINGS OR MODEL INFERENCE
+
+$EnglishTests = @(rg --files tests | Where-Object { $_ -match 'test_(english_|icsi_english_|swda_english_)' })
+$TestScratch = Join-Path '.local' ('pytest-english-' + [Guid]::NewGuid().ToString('N'))
+.\.venv\Scripts\python.exe -B -m pytest -q -p no:cacheprovider --basetemp $TestScratch @EnglishTests
+if ($LASTEXITCODE -ne 0) { throw 'Authored tests failed' }
+
+The unique scratch path prevents pytest replacing an existing evidence folder.
+A known cache_dir warning results from deliberately disabling cacheprovider.
+
+GENUINE HUMAN INPUT: PRESERVE, CORRECT, VALIDATE, THEN LOCK
+
+Delivery: .local/reviewer-packages/english_sfh_development_v1
+Open READ_ME.txt and records.html locally. Keep the original five delivery files
+unchanged; they are hash-bound. Never open protected_mapping_v1.json during
+review. It is not in the delivery folder. All 100 assigned records are fixed.
+
+An actual WORKING.txt was received and copied byte-for-byte on 19 October 2026.
+It contains 99 distinct known IDs, one missing record, an alternate header and
+ratings outside the registered 0-3/NA anchors. The principal researcher expressly
+affirmed that the judgments are manual and blinded. They are genuine submitted
+human evidence; they are not yet a schema/rubric-valid finalized submission.
+Do not infer absence of human work from the validator's zero finalized count.
+See human_submission_intake_receipt_v1.json for the exact immutable input hash.
+
+The mechanical recovery tool restores only fixed source columns/order from
+the BLINDED delivery, preserves every submitted editable value verbatim and
+inserts the absent record with all judgments blank. It cannot choose a rating,
+rescale 4/5 values, infer applicability, write evidence spans/rationales, assign
+qualitative confidence or turn researcher into COMPLETED. A recovered file is
+deliberately still invalid until the human resolves those scientific fields.
+Private correction feedback identifies the exact record and field. The original
+WORKING.txt and reception copy must remain unchanged.
+
+Subsequently the PI explicitly requested that blanks be filled and explained
+that blanks represent uncertainty about how to answer. A separately hash-bound
+human declaration permits a SECOND derived UNCERTAINTY_DRAFT.csv: the wholly
+unsubmitted record is retained as UNAVAILABLE with that exact declared reason,
+never assigned zero or a guessed score. The lossless recovered draft remains
+unchanged. All99 submitted rows already contain every judgment; their normal
+blank missing_reason cells must stay blank. Unknown provenance is not a rating
+and cannot be invented from this statement. This explicit uncertainty coding
+does not fix the alternate scale or other existing rubric incompatibilities.
+
+The actual recovered package is:
+.local/reviewer-packages/english_sfh_development_recovery_v1
+Use its UNCERTAINTY_DRAFT.csv as the starting point for any new corrected copy;
+it retains all100 fixed records and the99 original submitted judgment rows.
+CORRECTIONS.txt summarizes remaining incompatibilities. The lossless and
+uncertainty drafts, declaration and feedback have separate exact hashes in
+human_submission_recovery_receipt_v1.json. No protected mapping was read.
+The one UNAVAILABLE record has the PI's stated uncertainty reason; it is not an
+AI-generated human rating. No claim that the99 remaining rows are finalized.
+
+Make a new working copy of the recovered CSV (or of the original REVIEW.csv).
+Use the English frozen anchors in READ_ME.txt: primary/secondary ratings 0-3 or
+NA; applicability APPLICABLE/NOT_APPLICABLE/UNCERTAIN; confidence LOW/MEDIUM/HIGH.
+Do not merely linearly convert a different scale. For every completed item,
+provide the genuine rationale, non-length linguistic feature/source evidence,
+and atomic claim evidence required by the rubric. No checkable claim uses
+{"claims": []} and three zero counts, not an assumed perfect accuracy score.
+If a record genuinely cannot be reviewed, retain it as UNAVAILABLE with its
+actual missing_reason and no judgments. Never manufacture an unavailable status
+to cover a missing row or an inconvenience.
+
+Copy provenance.json to completed-provenance.json. Fill actual prior involvement,
+item/output/mapping/automatic-label exposure, aids and English competence, and
+actual review times. If times are unknown, report that rather than inventing
+them; the frozen validator may require a documented provenance amendment before
+lock. Do not retroactively certify no exposure. Project independence is false.
+Single-researcher review is not double-blind, inter-rater agreement or independent
+experimental validation. The verbal authorship declaration is preserved but does
+not supply all detailed attestations or an exact final CSV hash.
+
+VALIDATE INCREMENTAL WORK (the feedback destination must be new)
+
+$ReviewDir = '.local/reviewer-packages/english_sfh_development_v1'
+$WorkingFile = Join-Path $ReviewDir 'WORKING_corrected.csv'
+$Feedback = Join-Path $ReviewDir ('feedback-' + [Guid]::NewGuid().ToString('N') + '.json')
+.\.venv\Scripts\python.exe -B tools/english_sfh_review_v1.py validate-draft --delivery $ReviewDir --receipt .local/experiments/english_sfh_v1/review/development/package_receipt_v1.json --submission $WorkingFile --feedback $Feedback
+
+Before final validation, obtain the hash and enter it in the human-completed
+provenance copy; any later CSV edit requires a new binding:
+(Get-FileHash -Algorithm SHA256 -LiteralPath $WorkingFile).Hash.ToLowerInvariant()
+
+$FinalFeedback = Join-Path $ReviewDir ('final-feedback-' + [Guid]::NewGuid().ToString('N') + '.json')
+.\.venv\Scripts\python.exe -B tools/english_sfh_review_v1.py validate-final --delivery $ReviewDir --receipt .local/experiments/english_sfh_v1/review/development/package_receipt_v1.json --submission $WorkingFile --provenance (Join-Path $ReviewDir 'completed-provenance.json') --feedback $FinalFeedback
+
+READY_FOR_LOCK_NOT_LOCKED means validation succeeded, not that mapping access
+has occurred. Preserve exact received answers, genuine provenance and feedback
+in a new immutable private intake before a separately documented lock/unblind
+operation. Freeze semantic analysis treatment and missingness rules before
+examining condition-level human results. Never automatically merge draft labels
+or reclassify AI-generated ratings as human evidence.
+
+INDEPENDENT REPLICATION AND CURRENT DECISION
+
+The frozen Bed qualification yielded zero eligible S/F/H cases. It cannot be
+repaired by inventing F, relaxing frozen eligibility or retuning on inspected
+reserved content. Zero independent-validation generations were executed.
+The 58 Japanese validation speakers remain protected. External qualified English
+data/access is required for the intended independent replication. Additional
+model runs using unvalidated fidelity proxies are not the immediate next step.
+Use the pending genuine semantic evidence first; preserve the 412-generation
+reserve for a qualified replication and a justified RQ3/RQ4 comparison.
+
+PRESERVATION AND GIT
+
+Private archive receipts document member-level verified same-volume ZIPs, not
+remote/off-device backups. New human submissions require their own append-only
+preservation. No automated staging, commit or push is allowed. Use only the
+reviewed v5 manual allowlist and read-only verifier; excluded dialogue, mappings,
+review comments, credentials, weights, environments and caches stay excluded.

@@ -1,0 +1,193 @@
+PersonaSLM: controlled real-speaker Style specificity study
+2026-10-19 | Researcher: Yaxin ZHENG | DEVELOPMENT / EXPLORATORY
+
+Outcome
+All 64 prospectively allocated responses were obtained: eight development
+speakers, two new conversational contexts each, four matched arms. The correct
+speaker's numeric Style description did not demonstrate a stable advantage over
+mismatched Style or a length-only instruction on the registered seven-feature
+surface proxy. Small positive full-sample estimates changed sign under
+leave-one-speaker-out sensitivity. This is not evidence of equivalence, absence
+of genuine persona effects, or validated semantic fidelity. The proxy itself
+has weak human-to-human speaker discrimination in an explicitly post-hoc check.
+
+What was compared
+NONE: no explicit Style or length instruction.
+CORRECT: focal speaker's five numeric marker rates plus focal length target.
+MISMATCH: another speaker's five rates, retaining the same focal length target.
+LENGTH: focal length target only.
+All arms shared the same system, query and six real preceding dialogue turns;
+H=1 and F=0 throughout. This tests incremental numeric Style beyond common
+history, not the full S/F/H factorial, and NONE is not free of implicit style
+cues. The original 64-generation S/F/H pilot is unchanged.
+
+Two earlier distinct-partner dialogues supplied separate prompted source1 and
+unprompted reference source2 evidence. Targets came from a later third-partner
+dialogue, excluding all prior pilot target dialogues. Two six-turn contexts
+were nonoverlapping. Parseable timestamps were required; NaT was not chronology.
+The source-only donor derangement excluded shared dialogue/participant sets.
+The 58 reserved validation speakers were not opened for target-content tuning.
+Participant-level manifests, prompts, references and outputs remain private.
+
+Controls and limits
+CORRECT and MISMATCH had identical native input-token counts in all 16 contexts.
+Their mean input length was 341.25 tokens, versus 291.25 for LENGTH and 277.25 for
+NONE. No fake neutral padding was used. Output budgets were identical (96
+tokens), but realized lengths were not forced: post-generation truncation was
+used only for the registered sensitivity, never to alter raw responses.
+Seven uninstructed character proportions excluded the explicit length
+coordinate, but remain associated with topic, orthography, short-text noise and
+the instructed markers. They are not a validated pure-style representation.
+
+Model and prospective evidence
+Qwen3.5-2B Q4_K_M, CPU llama.cpp b11573, four threads, context4096, temperature0,
+top_p1, seed42, no thinking, no custom stop strings, no retries or warmups.
+Weight SHA256:
+0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc
+Base source commit: 8b7f8fdd8eec8358528da86398659f876c70a6dd, plus the exact
+uncommitted source closure bound by registration_v1.json and source snapshots.
+Registration SHA256:
+7bcee29a54fba8e39411ea90e3d4ce19f611360c56bbd8de8bb26cee381618bb
+Private frozen-manifest SHA256:
+7310946d00bf8ac5e4f6bc61336654177202795f86e07a7e124726ac3b5bc4a6
+The registration binds model/backend/tokenizer/template and exact prompt/token
+identities. Third-party binary/model build lineage remains PARTIAL.
+
+Safety deviation, transparently preserved
+The first preflight passed with 3352711168 available bytes against a 3GiB
+requirement. After 54 successful responses the next pre-request observation was
+532992000 bytes, 3878912 below the unchanged 512MiB live threshold. The owned
+server stopped; no unrelated application was terminated. All original raw
+evidence, the safety failure and the 54-response analysis remain unchanged.
+Available RAM recovered materially after the owned process exited. A separate
+execution-only amendment prospectively bound exactly the ten never-attempted
+requests, with no changed prompt, scorer, generation setting or RAM threshold.
+Its fresh preflight passed at 3436179456 bytes. It completed all ten requests.
+No unsuccessful response was retried and the original allocation stayed64.
+Two real hash chains are verified separately; no merged chain is fabricated.
+Restart, order and process state limit causal interpretation of performance
+contrasts. The observed peak working set was2977710080 bytes, not a hard bound
+on all memory use between observations.
+
+Observed estimates
+The margin is mean absolute distance to donor source2 minus distance to own
+source2 across seven normalized character proportions. Positive means closer
+to the focal reference. Two context differences are averaged within each
+speaker; eight speakers then receive equal weight. All64 nonempty responses
+are included, including two native token-limit stops. No missing primary cases.
+
+Contrast             Primary margin    Leave-one-speaker-out mean range
+CORRECT-MISMATCH      +0.001177647      [-0.000485428, +0.001872544]
+CORRECT-LENGTH        +0.000489604      [-0.001271763, +0.002233296]
+LENGTH-NONE           +0.002827022      [-0.000343197, +0.006046985]
+
+Equal-character-prefix sensitivity (same k for all four responses and human
+reference turns within a context, k=min(20, shortest response), observed6-20):
+CORRECT-MISMATCH      +0.001879460      [-0.001847568, +0.003428629]
+CORRECT-LENGTH        +0.002904024      [-0.000203031, +0.004339292]
+LENGTH-NONE           -0.001795101      [-0.003545559, +0.001162945]
+
+These ranges are influence diagnostics, NOT confidence intervals. No calibrated
+confirmatory test, significance claim or generalization to other speakers,
+models or languages is made. Logical missing-outcome bounds collapse to the
+observed mean for the complete primary sample, not to certainty about a
+population effect. Native EOS-only CORRECT-MISMATCH instead equals-0.000485428
+for seven complete paired speakers; its differential coverage is not hidden.
+There were62 native eos and2 limit stops, no contradictory stop flags. Native
+EOS is not evidence of semantic completion.
+
+Mean normalized characters: NONE28.375, CORRECT17.75, MISMATCH20.9375,
+LENGTH14.3125. The paired LENGTH-NONE reduction was14.0625 characters; its
+leave-one-speaker-out means ranged from-17 to-7.428571. Generic brevity therefore
+has a direct observed effect without demonstrating speaker-specific fidelity.
+CORRECT consumed50 more input tokens and0.725221 more observed inference seconds
+than LENGTH on average. This is a descriptive cost comparison, not an isolated
+algorithmic efficiency effect given output-length and session differences.
+
+Post-hoc measurement diagnostics (not prospectively registered outcomes)
+After the partial54 analysis, a source1-to-source2 human check was specified
+without changing the primary analysis. Only4/8 real speakers had positive own-
+versus-donor margins, mean+0.001387513, leave-one-out range[-0.002379405,
++0.004763759]. This weak positive-control discrimination prevents interpreting
+the model estimates as a strong test of genuine speaker fidelity.
+Normalized outputs were identical for CORRECT/MISMATCH in8/16 contexts,
+CORRECT/LENGTH in6/16, and all four arms in4/16. These are output-insensitivity
+observations, not human ratings, evidence of semantic correctness, or proof of
+one causal mechanism. Lexical overlap and marker adherence remain diagnostics,
+not Persona Fidelity. In particular, improving this metric is not itself a
+justified algorithmic objective.
+
+Resources and reproduction
+New attempts/responses64/64; retries0; failed inference calls0; output tokens815;
+input tokens20016. Inference314.19268889998784 seconds; active-session wall time
+328.59005670000624 seconds. Cumulative636/1200 generations and
+3828.328792899886/72000 inference seconds. Remaining564 generations and
+68171.67120710011 seconds. No budget was reset.
+
+analysis_v1_1.json SHA256:
+1da84de9343c2ed1047b3f41b4cd4b0c7460f7de66b2fb98bafd59f9353bcaed
+independent_analysis_reproduction_v1_1.json SHA256:
+58eb64a8b06dd1ab17ed8dcb0e1704b0800f1408ae3123616105a572d48dc803
+An independent arithmetic implementation recomputed all64 primary/prefix rows,
+native boundaries, arm means, paired estimates, missing bounds and influence
+ranges from the archived responses. The journal reader and immutable writer
+are shared infrastructure; marker/copying/memory diagnostics are not separately
+reimplemented. This is analysis reproduction, NOT an independent experiment or
+human validation. Generation repeatability has not been measured; no cross-
+environment bit identity is promised. Public clone-only reproduction is
+PARTIAL because essential private data, raw journals and runtime/model assets
+are excluded. Local data owners can run the exact read-only commands below.
+
+PowerShell, repository root:
+$env:PYTHONPATH='tools;src'
+python tools/real_persona_chat_style_specificity_reproduce_v1.py
+python tools/real_persona_chat_style_specificity_combined_v1.py
+The first command reproduces the preserved54-response analysis; the second
+rechecks the combined64. Neither launches inference. Do not use --write again,
+rerun either completed execution controller or modify frozen files.
+
+License, review and literature boundaries
+See licensing_and_prior_art_review_v1.json. The pinned RealPersonaChat license
+is CC BY-SA4.0; authors both demonstrate conditioned generation and prohibit
+impersonation/reidentification. The present scope is finite local non-deceptive
+research with aggregate reporting, not identity replicas or legal clearance.
+Privacy/personality rights are not granted by a copyright license. The corpus's
+approximately50-character collection ceiling also motivates the brevity control.
+Sources: https://github.com/nu-dialogue/real-persona-chat
+https://aclanthology.org/2023.paclic-1.85/
+
+All64 prior pilot human reviews remain blank. Use only the corrected local
+stage_a_delivery_v1_1 instructions, working CSV and exposure questionnaire.
+Genuine Japanese competence, prior item/rubric/key-material exposure and reviewer
+independence must be reported truthfully. No protected mapping was opened and
+no human labels were created. Single-researcher review is not inter-rater
+reliability. Historical16/168 packages remain separate and pending.
+
+Daily metadata scheduling was verified, not silently extended: implemented
+arXiv/Crossref/OpenAlex coverage is incomplete for direct daily ACL/OpenReview/
+Semantic Scholar and does not perform daily deep AI review. Targeted primary-
+paper checks retain prior art on style-rate prompting, length controls and
+authorship validity. Steering at the Source was cross-linked as one preprint/
+formal ICML2026 work, not counted twice; localized style intervention is not
+an unoccupied novelty claim. See the separate publication-link record:
+https://proceedings.mlr.press/v306/izawa26a.html
+
+Scientific decision / next action
+Do not consume the reserved58 speakers or expand generations on this weak
+proxy. Obtain genuine Japanese semantic judgments using the corrected existing
+64-record package, preserving exposure provenance. Assess relevant/coherent
+dialogue and distinguish style from copying/brevity before freezing any new
+validation outcome. New-study semantic review requires its own separately
+masked delivery; public execution order is not a human-blinding scheme.
+No independently validated algorithm or reliability-fidelity improvement is
+established. The full S/F/H reliability question remains unresolved, and this
+negative/limited developmental evidence does not establish publication readiness.
+
+Manuscript-ready evidence statement
+In a paired developmental four-arm study on eight RealPersonaChat speakers,
+correct numeric Style prompts produced small positive length-excluded surface
+margin differences relative to mismatched and length-only controls, but both
+contrasts changed sign under leave-one-speaker-out sensitivity. A generic
+length instruction shortened outputs, while a post-hoc human-reference check
+showed weak speaker discrimination by the proxy. These observations motivate
+semantic construct validation rather than claims of genuine speaker fidelity.

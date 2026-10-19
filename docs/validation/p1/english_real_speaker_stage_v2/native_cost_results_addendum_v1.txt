@@ -1,0 +1,79 @@
+PersonaSLM: native elapsed-time supplement to the English ICSI factorial study
+Evidence level: post-hoc exploratory analysis of existing observations.
+Not a new model experiment or semantic evaluation. Date: 2026-10-19.
+
+Question and data
+Which measured execution stages account arithmetically for the S/F/H latency
+contrasts? We re-read the sealed original92 and exact-resume8 raw journals, not
+human ratings. The complete80 factorial cells and20 matched style controls
+represent5 speakers with2 conversational contexts each. Neither raw responses,
+prospective outcomes, original analyses nor inference accounting were changed.
+
+Observed computational results
+All100 responses contained usable native prompt-processing and generation
+timings. Mean completion wall time was5.125644 seconds: prompt processing
+4.194338 seconds, token decoding0.844778 seconds, and arithmetic residual
+0.086528 seconds. Their shares of aggregate measured completion time were
+81.830455%,16.481401% and1.688144%, respectively. These are elapsed timings on
+CPU, not process CPU seconds, energy, or separately measured network overhead.
+
+Equal-speaker paired source-provision main effects, in seconds:
+                 Prompt processing    Token decoding    Completion wall
+Style             +0.722864            -0.229107         +0.504302
+Facts             +0.299393            -0.044172         +0.256778
+History           +1.915834            +0.122433         +2.052547
+
+Style supplied87.4 additional input tokens on average and reduced generated
+tokens by5.525. Thus its shorter outputs did not imply a lower total completion
+cost in this implementation. History supplied225.8 additional input tokens;
+the associated cost difference was predominantly in prompt processing. This
+does not isolate information content from token length or establish causal
+mediation. A controlled intervention would need to separate those mechanisms.
+
+Prompt-processing and total-wall main effects of S/F/H were positive in all5
+speakers. History wall effects ranged1.219153 to2.981658 seconds across speakers;
+leave-one-speaker-out means ranged1.820269 to2.260896 seconds. These are influence
+ranges, NOT confidence intervals. Whole-speaker and whole-context exclusions
+for the interrupted/resumed run preserved the main qualitative cost pattern.
+The latter leaves unequal context counts and changes the finite-set estimand;
+neither sensitivity erases the actual restart or repairs randomized execution.
+
+All7 factorial contrasts,3 style controls, condition summaries, independent
+sorted speaker vectors, complete missingness and both restart sensitivities
+are retained in native_cost_analysis_v1.json. Interactions are descriptive;
+no calibrated confirmatory significance or general population inference is made.
+
+Backend interpretation and reproduction
+All100 native timings.cache_n values were0. The separate tokens_cached field
+equals final slot occupancy (input plus output minus1), not a cache-hit count.
+Native generation timing uses output-token count minus1 because the first
+token is computed with the final prompt batch. These definitions were checked
+against llama.cpp b11573 server-common.h/server-context.cpp and all raw records.
+
+Result SHA256:
+73b3ffb1401ac220c5461ed6403c0d6993d57bcbaea581318b6fdd5a0ede45e3
+Source: tools/english_sfh_native_cost_v1.py
+Source SHA256:
+6999758a00ba79fc8dee083c733ccf40e8e31cc5c75cf02317086ae7e206baa2
+Read-only reproduction, from repository root in PowerShell:
+  $env:PYTHONPATH='tools;src'
+  $env:PYTHONDONTWRITEBYTECODE='1'
+  .\.venv\Scripts\python.exe -B tools/english_sfh_native_cost_v1.py --verify
+
+The two native-field/HTTP-field recipes and distinct factorial implementations
+agree within1e-10. They share the original measurements, journal reader and
+some orchestration: this is independent arithmetic, not independent experimental
+replication. Public clone-only reproduction remains PARTIAL without licensed
+private journals, exact source snapshots, prompts and runtime artifacts.
+
+Interpretation and research decision
+GO: carry measured prefill and decode costs separately into the subsequent
+qualified English factorial cohort and any future quality-efficiency baseline.
+Do not infer Persona Fidelity, relevance, factual or temporal reliability from
+these timing results. Do not call standard caching or shorter memory a novel
+algorithm. A quality-preserving efficiency intervention remains untested.
+
+All99 genuine human judgments remain byte-preserved and provisional pending
+the actual scale documentation; the missing judgment remains UNAVAILABLE.
+No ratings or condition mapping were read by this supplement. New inference
+cost:0. Cumulative usage remains788 generations and4485.684495999997 seconds.

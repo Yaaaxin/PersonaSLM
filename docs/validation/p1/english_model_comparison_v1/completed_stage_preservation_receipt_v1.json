@@ -1,0 +1,21 @@
+{
+    "schema":  "english_ordinal_models_preservation_receipt_v1",
+    "created_utc":  "2026-10-19T20:27:34.6553538Z",
+    "status":  "PASS_ALL_MEMBERS_AND_CURRENT_SOURCES_SHA256_EQUAL",
+    "members":  4477,
+    "source_bytes":  108870976,
+    "archive":  "D:/PersonaSLM-private-backups/20261019_english_ordinal_models_v1/english_ordinal_models_evidence.zip",
+    "archive_sha256":  "d1315712be4dad03290f4a22343ae2aa9accb5606176e1bb5379f7c39f8fd965",
+    "archive_bytes":  26921072,
+    "private_member_manifest_sha256":  "d6bcc864a22857e03f52152ae0a5e380286388f9fad7b37fccca9973dcb26db5",
+    "source_script_sha256":  "2461ca6eb80d861483f30cd253a78dc9f1b9e7ee45c13bb5846549fdf9709dc4",
+    "base_receipt_sha256":  "650f5c65a237aacf046701143b72ff3a1872c9dc5c80c44655c90c25dbbdb11e",
+    "instruct_receipt_sha256":  "0e71d1f083ddf467ab829b887acae52b113aeddc2b9c62e9ef97abfa0a749ce1",
+    "technical_analysis_sha256":  "cd55e86eea86deab451252ace4e08cb4e872e7f9d22f45264bffdfda7ba362ae",
+    "review_delivery_receipt_sha256":  "ae0b4c59444b1b200e4834c69799efc3390f49767766b57ee9975f12d133ef1b",
+    "acl":  "Protected NTFS DACL verified before private copying; only current user,SYSTEM,Administrators FullControl",
+    "logical_volume":  "D:",
+    "protected_material_in_git":  false,
+    "new_generations":  0,
+    "limits":  "Local D: logical-volume preservation only; physical-device independence unverified, not off-device or remote. Captures listed source bytes at verification time, not future edits. ZIP/member manifest contain private dialogue and mappings and must not be published. Public receipt is written after verification and copied beside ZIP, not included recursively. No model weights,venvs,caches,Git staging,commits,deletion or moves."
+}

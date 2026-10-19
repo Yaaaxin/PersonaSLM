@@ -1,0 +1,206 @@
+{
+  "bindings": {
+    "execution_receipt_sha256": "4e4d2cae32d9eaff8916ad437682fd3e97624506bc93c4d6e39c409d34439f23",
+    "independent_analysis_sha256": "2add45116b112ea5c263e1aef5d1a510c4ba0841b8741093a98015e7c8a964ce",
+    "manifest_sha256": "df3412c5dc06a907e2822fc47ab536f17fa54a6c362c1456c62070bf6073e64f",
+    "primary_analysis_sha256": "050854360131e1335583b591f9034da58e13ef30a6a02f2dafff95f50259e58b",
+    "registration_sha256": "3f3053b3accb0d4045cd95424266462cb4f08dadab1dbb806b17b03cbe3cd402",
+    "source_sha256": "a8efca82cd04648ef982bb8c7935f1fc0b66d0ef808edac45d1abaa047ec96d1",
+    "terminal_event_sha256": "32899e770d2f2638876047dbbe38167955ced5ad1ac17c4a20d7c67531d93cba"
+  },
+  "cost_scope": "Observed completion wall time on CPU, including client/audit overhead, not process CPU time. No pure causal latency effect claimed because input/output lengths and execution order differ.",
+  "created_utc": "2026-10-19T13:54:39.886040+00:00",
+  "fixed_A_or_first_option_decomposition": {
+    "CORRECT": {
+      "A_target_losses_to_B_choice": 0,
+      "A_target_losses_to_invalid_format": 1,
+      "B_target_gains_from_B_choice": 1,
+      "actual_protocol_successes": 8,
+      "fixed_A_or_first_option_successes": 8
+    },
+    "MISMATCH": {
+      "A_target_losses_to_B_choice": 0,
+      "A_target_losses_to_invalid_format": 2,
+      "B_target_gains_from_B_choice": 1,
+      "actual_protocol_successes": 7,
+      "fixed_A_or_first_option_successes": 8
+    },
+    "NONE": {
+      "A_target_losses_to_B_choice": 0,
+      "A_target_losses_to_invalid_format": 0,
+      "B_target_gains_from_B_choice": 0,
+      "actual_protocol_successes": 8,
+      "fixed_A_or_first_option_successes": 8
+    }
+  },
+  "format_invalid_native_stops_and_character_lengths": [
+    {
+      "count": 5,
+      "normalized_by_whitespace_strip_characters": 11,
+      "stop": "eos"
+    },
+    {
+      "count": 1,
+      "normalized_by_whitespace_strip_characters": 12,
+      "stop": "limit"
+    }
+  ],
+  "interpretation": "Correct-minus-mismatched net protocol-score advantage is decomposed without relabelling format failures. Valid-choice conditioning is a diagnostic with differential coverage, not a replacement estimand. A is always displayed first: A-label preference and first-position preference are not identifiable separately. Counterbalancing demonstrates option-order sensitivity, not its internal cause or semantic incapacity.",
+  "new_generations": 0,
+  "not_prospectively_registered_endpoint": true,
+  "observed_costs_by_phase_and_arm": {
+    "CONTROL": {
+      "completion_wall_seconds": 3.0353034999861848,
+      "format_valid": 4,
+      "input_tokens": 320,
+      "mean_completion_wall_seconds": 0.7588258749965462,
+      "native_stops": {
+        "eos": 4
+      },
+      "output_tokens": 8,
+      "responses": 4
+    },
+    "CONTROL:CONTROL": {
+      "completion_wall_seconds": 3.0353034999861848,
+      "format_valid": 4,
+      "input_tokens": 320,
+      "mean_completion_wall_seconds": 0.7588258749965462,
+      "native_stops": {
+        "eos": 4
+      },
+      "output_tokens": 8,
+      "responses": 4
+    },
+    "MAIN": {
+      "completion_wall_seconds": 141.75600950006628,
+      "format_valid": 42,
+      "input_tokens": 17492,
+      "mean_completion_wall_seconds": 2.9532501979180474,
+      "native_stops": {
+        "eos": 47,
+        "limit": 1
+      },
+      "output_tokens": 132,
+      "responses": 48
+    },
+    "MAIN:CORRECT": {
+      "completion_wall_seconds": 51.241046300012385,
+      "format_valid": 14,
+      "input_tokens": 6368,
+      "mean_completion_wall_seconds": 3.202565393750774,
+      "native_stops": {
+        "eos": 16
+      },
+      "output_tokens": 44,
+      "responses": 16
+    },
+    "MAIN:MISMATCH": {
+      "completion_wall_seconds": 52.0731638000143,
+      "format_valid": 13,
+      "input_tokens": 6368,
+      "mean_completion_wall_seconds": 3.2545727375008937,
+      "native_stops": {
+        "eos": 15,
+        "limit": 1
+      },
+      "output_tokens": 50,
+      "responses": 16
+    },
+    "MAIN:NONE": {
+      "completion_wall_seconds": 38.4417994000396,
+      "format_valid": 15,
+      "input_tokens": 4756,
+      "mean_completion_wall_seconds": 2.402612462502475,
+      "native_stops": {
+        "eos": 16
+      },
+      "output_tokens": 38,
+      "responses": 16
+    }
+  },
+  "paired_order_contrast_decomposition": {
+    "CORRECT-MISMATCH": {
+      "AT_LEAST_ONE_FORMAT_FAILURE": {
+        "count": 3,
+        "difference_counts": {
+          "0": 2,
+          "1": 1
+        },
+        "sum_protocol_score_difference": 1
+      },
+      "BOTH_VALID": {
+        "count": 13,
+        "difference_counts": {
+          "0": 13
+        },
+        "sum_protocol_score_difference": 0
+      }
+    },
+    "CORRECT-NONE": {
+      "AT_LEAST_ONE_FORMAT_FAILURE": {
+        "count": 2,
+        "difference_counts": {
+          "-1": 1,
+          "0": 1
+        },
+        "sum_protocol_score_difference": -1
+      },
+      "BOTH_VALID": {
+        "count": 14,
+        "difference_counts": {
+          "0": 13,
+          "1": 1
+        },
+        "sum_protocol_score_difference": 1
+      }
+    },
+    "MISMATCH-NONE": {
+      "AT_LEAST_ONE_FORMAT_FAILURE": {
+        "count": 3,
+        "difference_counts": {
+          "-1": 2,
+          "0": 1
+        },
+        "sum_protocol_score_difference": -2
+      },
+      "BOTH_VALID": {
+        "count": 13,
+        "difference_counts": {
+          "0": 12,
+          "1": 1
+        },
+        "sum_protocol_score_difference": 1
+      }
+    }
+  },
+  "privacy": "Aggregate counts/costs and hash bindings only; no raw response, context, speaker identity or case-level record.",
+  "semantic_boundary": "Invalid outputs remain protocol0 and semantic judgments unavailable. No discarded outputs, reparsing aliases, human labels, new qualification threshold or change to primary results.",
+  "status": "POSTHOC_OBSERVED_DIAGNOSTIC",
+  "target_choice_counts": [
+    {
+      "choice": "A",
+      "count": 21,
+      "target": "A"
+    },
+    {
+      "choice": "INVALID",
+      "count": 3,
+      "target": "A"
+    },
+    {
+      "choice": "A",
+      "count": 19,
+      "target": "B"
+    },
+    {
+      "choice": "B",
+      "count": 2,
+      "target": "B"
+    },
+    {
+      "choice": "INVALID",
+      "count": 3,
+      "target": "B"
+    }
+  ]
+}

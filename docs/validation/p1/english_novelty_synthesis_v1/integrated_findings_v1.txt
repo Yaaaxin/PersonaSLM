@@ -1,0 +1,245 @@
+PersonaSLM: integrated English evidence and novelty decision, 19 October 2026
+Status: EXPLORATORY DEVELOPMENT; no new generation or human annotation.
+
+Question and decision
+
+Which defensible contribution remains after comparison with close published
+methods, and what does the existing English evidence actually establish?
+Three paths were compared: (A) consolidate authentic-speaker factorial evidence;
+(B) implement a reliability/fidelity algorithm; (C) collect another model/cohort.
+A has the highest current information value: 300 archived responses and 99 real
+human judgments already exist. B lacks a semantically established, technically
+distinct repair target, and the closest steering, retrieval and ranking methods
+are substantive prior art. C lacks a qualified independent English cohort;
+spending the 52 nonreserved generations on another weak proxy comparison would
+not resolve that limitation. None is chosen because it promises positive results.
+
+GO: a narrowly scoped empirical manuscript with explicit incomplete RQs.
+PIVOT: generic novelty claims become comparisons against known methods.
+STOP: further inference based solely on native stops, repetition or latency.
+This completes an integrated evidence-synthesis stage, not independent semantic
+validation, the full research programme, or a submission-ready article.
+
+New observed analysis: all 300 archived English responses
+
+The post-hoc diagnostic scope was fixed before extracting these new measurements,
+but after generation and prior technical/human analyses. It is not prospective
+experimental registration. The exact unchanged native content is analyzed.
+No prompt, output, rating, condition assignment or historical result was changed.
+The adapter invokes existing archival auditors and the two existing factorial
+implementations. Independent repetition-count arithmetic is also checked, while
+the lexical extractor remains shared. This is not fully independent measurement
+validation or an independent experiment.
+
+Metric definitions:
+- raw_empty: native content is exactly the empty string.
+- whitespace_empty: native content contains only whitespace (including empty).
+- repeat5_any: at least one repeated contiguous five-word window.
+- repeat5_excess: (number of windows - number of unique windows)/windows.
+- prefix20_repeat5_excess: the same ratio on exactly the first 20 extracted words.
+Words use the existing case-folded English regex, not model tokenizer tokens.
+Under five extracted words gives NA for full-response repetition; under 20 gives
+NA for prefix20. NA is never zero. Punctuation-only or non-English content is not
+silently classified as empty. No repetition threshold is a semantic quality gate.
+
+Configuration                   Empty  Any repeated5       Mean excess   Prefix20 mean (n)
+Qwen3-0.6B historical             0/100  0/93; 7 NA          0.000000      0.000000 (26)
+Qwen2.5-1.5B Base                 0/100  78/100; 0 NA        0.624975      0.273522 (93)
+Qwen2.5-1.5B Instruct             0/100  1/90; 10 NA         0.007843      0.000000 (65)
+
+All whitespace-empty counts also equal zero. These are finite-sample diagnostic
+counts, not estimated population rates or semantic completion judgments.
+The matched Instruct-minus-Base excess difference is -0.609505 across 90 mutually
+evaluable cells. Across the 60 cells where both have at least 20 words, the
+first-20-word difference is -0.266667. The latter limits opportunity differences
+inside the selected prefix but conditions on generated length. It is NOT a causal
+length adjustment, all-100 contrast, or proof that length is irrelevant. No
+speaker has a complete matched factorial grid for this prefix endpoint: its
+complete-speaker S/F/H effects are UNAVAILABLE, not zero.
+
+Condition-level full-response excess (mean; applicable n out of 10):
+Condition    Base               Instruct             Historical0.6B
+C0           .606864;10         .000000;8             .000000;10
+C1           .551026;10         .000000;8             .000000;9
+C2           .568596;10         .000000;8             .000000;10
+C3           .598740;10         .000000;9             .000000;8
+C4           .586106;10         .000000;9             .000000;9
+C5           .714210;10         .070588;10            .000000;9
+C6           .673910;10         .000000;10            .000000;9
+C7           .533198;10         .000000;9             .000000;10
+M_STYLE      .652537;10         .000000;10            .000000;9
+N_STYLE      .764561;10         .000000;9             .000000;10
+
+Base full-response excess factorial effects (all five complete speakers):
+Effect   Mean          Leave-one-speaker-out mean range
+S       -.009576       [-.043763, .048261]
+F       -.020940       [-.054036, .045872]
+H        .045550       [-.011367, .082138]
+SF      -.045708       [-.062768,-.015021]
+SH       .003272       [-.025487, .061290]
+FH      -.025664       [-.075664, .029414]
+SFH     -.088700       [-.119836,-.028379]
+These are 2*mean(sign-product*outcome), not unscaled differences-in-differences.
+The Instruct and historical configurations each retain only two complete speakers
+for this endpoint, with zero contrasts on those selected subsets. That is not
+equivalent to zero full-cohort effects. Exact aggregate, speaker, coverage and
+control results for all five metrics remain in response_diagnostics_v1.json.
+LOO ranges are influence diagnostics, not confidence intervals or significance.
+Even direction-stable SF/SFH ranges do not establish a semantic mechanism.
+
+Interpretation: the Base deployment shows widespread literal repetition and
+substantially more limit stopping in the previous technical analysis. This
+warrants genuine coherence review, but not a post-hoc output repair or a novel
+algorithm claim. Legitimate repeated phrases, decoding policy, native boundaries,
+model checkpoint and template differences remain alternatives. No output was
+trimmed or replaced. Historical0.6B comparisons also change model family,
+quantization, interface and execution occasion; they are not size effects.
+
+Existing evidence integrated, not rerun
+
+The 99 unchanged historical ratings use the retrospectively clarified ordinal
+0-5 instrument. The absent judgment remains UNAVAILABLE. There are no invented
+intermediate anchors or conversion to0-3. Primary-domain logical missing bounds
+for Style net advantage are relevance [-.150,-.125], coherence [-.100,-.075],
+resemblance [-.150,-.125]. Facts/resemblance is [.075,.125], while Facts/relevance
+is [-.075,-.025]. History/coherence is [-.075,-.025]. Cross-cut interaction profiles
+are not uniformly directional; Style/resemblance even changes sign at cut4.
+These are within-development-sample, single-PI perceptions, not general persona
+fidelity, independent human validation, or calibrated statistical significance.
+
+The completed200 same-context Base/Instruct outputs have no genuine new ratings.
+Their mean call times are11.140920/7.676109seconds; History cost effects are
+3.126709/2.964881seconds. All seven technical contrasts are retained in the
+previous technical analysis. Faster Instruct deployment and fewer repeated
+windows cannot establish a quality-efficiency superiority claim without genuine
+quality evidence. All5speakers have positive within-model History time effects,
+but the between-model difference is not direction-stable under speaker deletion.
+
+Novelty classification (assessment, not a proof of exhaustive literature coverage)
+
+KNOWN: Broad personalization/reliability or style/accuracy trade-offs. Direct
+published precedents include Sun et al. ACL2026 and Ibrahim et al. Nature2026.
+KNOWN: Generic relevance filtering, temporal semantic memory, draft-retrieve-revise,
+persona/neutral candidate ranking, and additive persona activation steering.
+These have direct precedents in the ten reviewed works and related methods.
+PARTIALLY NOVEL candidate scope: jointly reporting genuine-speaker S/F/H source
+provision, all ordinal threshold interactions, speaker heterogeneity and native
+CPU cost in very small deployments. This is a candidate empirical gap under the
+targeted review, not a demonstrated first, automatic novelty from smaller models, or an adequate
+sample merely because no exact duplicate was found.
+PARTIALLY NOVEL candidate evidence: the exact controlled configuration/case
+results, including negative Style findings, applicability loss and replication
+limits. Configuration-specific data alone need an important, validated argument
+to support publication; repetition is not claimed as a new phenomenon.
+POTENTIALLY NOVEL: no algorithm currently meets this standard. A precisely defined
+real-speaker quality/cost mechanism could qualify only after genuine semantic
+confirmation and stronger-baseline/ablation comparisons, none yet executed.
+UNSUPPORTED: general speaker-specific fidelity gain, temporal contamination
+causality, a pure size or instruction-training effect, calibrated population
+significance, independent new-speaker replication, or a superior original method.
+
+Bibliographic results and access boundaries
+
+All ten requested identities were verified. Post Persona Alignment is formally
+published in Findings of EMNLP2025, not merely arXiv. The5%-history work is verified
+as arXiv2610.14952v1; formal peer-reviewed publication was not verified. Absence of a significant difference is not
+equivalence and character reduction is not measured CPU acceleration. Detailed
+method notes and stable links are in literature_cluster_a/b/c_v1.txt. They inspect
+methods/appendices where accessible, separate reported facts from inference and
+deduplicate publication/preprint versions. KBS116335full methods were inaccessible;
+ICML Style Modulation Heads detailed reading used its primary arXivv2, without
+asserting final-PDF textual equivalence. Persona Vectors formal acceptance was
+not reverified. No reviewed paper's code/results were independently reproduced.
+
+The existing19October scheduled receipt verifies daily metadata collection from
+arXiv/Crossref/OpenAlex, not direct daily collection from every requested venue
+or scheduled deep AI review. Targeted ACL/PMLR/Nature/arXiv reading here supports
+the expanded prior-art decision; OpenReview challenges remain documented. No
+duplicate full discovery crawl, new scheduler, or fabricated all-source coverage.
+
+Bounded metadata cross-check (same day, read-only, no credentials): Crossref
+returned status=ok for the Nature/KBS/PPA DOIs; OpenAlex recordsW7158956680,
+W7162875302,W4416033933 identify published versions, with the PPA record also
+linking arXiv2506.11857 as submittedVersion. Semantic Scholar returned Nature/KBS
+journal records; its PPA DOI lookup returned404, not evidence against publication.
+Nature's primary online date is2026-04-29. Crossref's KBS publication precision
+is2026-07 and PPA's2025, whereas OpenAlex reports2026-05-30/2025-01-01 and
+Semantic Scholar uses month-start dates. Index creation/default dates are not
+substituted for primary publication dates. Crossref relation fields were empty,
+which does not disprove linked preprints. OpenReview20DsUSauCj remained behind a
+browser challenge; indexed Submitted/Under review text is not a formal decision.
+Exact accessed metadata endpoints:
+https://api.crossref.org/works/10.1038/s41586-026-10410-0
+https://api.crossref.org/works/10.1016/j.knosys.2026.116335
+https://api.crossref.org/works/10.18653/v1/2025.findings-emnlp.1098
+https://openalex.org/W7158956680
+https://openalex.org/W7162875302
+https://openalex.org/W4416033933
+https://api.semanticscholar.org/graph/v1/paper/DOI:10.1038/s41586-026-10410-0?fields=title,year,publicationDate,venue,publicationTypes
+https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.knosys.2026.116335?fields=title,year,publicationDate,venue,publicationTypes
+https://openreview.net/forum?id=20DsUSauCj
+
+Protocol reconciliation and next action
+
+English bit-coded conditions use C3=SF,C4=H; originalv1.1 used C3=H,C4=SF.
+Keep both frozen and report factor columns, not ambiguous labels. The current
+PI's RQ numbering emphasizes factorial effects and history separately; the
+manuscript gives a crosswalk to the original protocol. The English source-provision
+amendment lacks equal task-sufficient evidence, strict token matching and N_history;
+it must not be reported as successful execution of the original Track A design.
+
+Next highest-value empirical action: genuine review of the existing mixed200
+responses, using .local/reviewer-packages/english_model_comparison_v1/READ_ME.txt
+and records.html/REVIEW.csv. Keep original200records and the protected mapping.
+Before joining any new labels, freeze the required multiple-missing/NA ordinal
+adaptation; the historical single-missing analysis is not automatically applicable.
+Then compare matched configuration-specific human outcomes with existing cost and
+repetition results. No new labels or protected-map access occurred this stage.
+An independent English cohort remains unqualified; its frozen failed screening
+cannot be reopened by weakening requirements. Protect160requests for a later
+properly qualified, separately registered validation. No repeat of completed
+generations or reinterpretation of development speakers as independent targets.
+
+Evidence anchors and commands
+
+analysis_scope_v1.json:
+c8dfb170439c06d9bfc74e3e32266f71e5c0cdf424f7b2495e7f6314757c2edc
+diagnostic_implementation_v1.json:
+eb05914fce5632884853ad4bbab0c732329a4c1abed1396ef212e10f420582cb
+response_diagnostics_v1.json:
+59f082df6474dd3bb1ea95786d0a351f4dac6a3754b7587b0d0f37b7f630dab2
+Private row-artifact SHA only:
+d54af9d37b437880eb4639868ab2f2f3167eebffbd0934010f99c376cfd590d6
+Existing human analysis:
+a562e7249706f8982916c6959d577bc24fc94f1d46d490881b1b365d5c5f616d
+Existing200technical analysis:
+cd55e86eea86deab451252ace4e08cb4e872e7f9d22f45264bffdfda7ba362ae
+Actual final resource receipt:
+0e71d1f083ddf467ab829b887acae52b113aeddc2b9c62e9ef97abfa0a749ce1
+
+PowerShell reproduction from repository root, authorized private environment:
+$env:PYTHONPATH='tools;src;tests'
+$env:PYTHONDONTWRITEBYTECODE='1'
+.\.venv\Scripts\python.exe -B tools/english_response_diagnostics_v1.py verify --scope-sha256 c8dfb170439c06d9bfc74e3e32266f71e5c0cdf424f7b2495e7f6314757c2edc --implementation-sha256 eb05914fce5632884853ad4bbab0c732329a4c1abed1396ef212e10f420582cb
+$testParent = Join-Path (Resolve-Path .local).Path ('tmp\english_novelty_' + [guid]::NewGuid().ToString('N'))
+New-Item -ItemType Directory -Path $testParent | Out-Null
+$testBase = Join-Path $testParent 'pytest'
+if ((Test-Path -LiteralPath $testBase) -or -not $testBase.StartsWith((Resolve-Path .local).Path + '\')) { throw 'Unsafe test target' }
+.\.venv\Scripts\python.exe -B -m pytest -q -p no:cacheprovider --basetemp $testBase --tb=short tests/test_english_response_diagnostics_v1.py tests/test_english_model_comparison_analysis_v1.py tests/test_english_sfh_ordinal_v1.py tests/test_english_sfh_ordinal_independent_v1.py
+
+Actual execution: write then separate raw verify PASS;15initial fixtures passed.
+The broader run initially had58passes/11setup errors because the system pytest
+temporary root denied access. No scientific test assertion failed in that run.
+With the fresh, explicitly bounded local temporary path above, all69tests passed
+in2.83seconds; the existing disabled-cacheprovider cache_dir warning remains.
+No system temporary directory permissions or existing evidence were changed.
+Tests and arithmetic reproduction are engineering evidence, not human validation.
+Existing private dependencies, source snapshots, native artifacts and model bytes
+remain required. Public clone-only reproduction is PARTIAL. No model-call or RAM
+preflight was needed for this offline stage; no hardware threshold changed.
+
+Resources: this stage0generations,0inference seconds,0new human labels. Cumulative
+988/1200 and6367.387376899885/72000seconds. Remaining212, including160reserved;
+52nonreserved are not a requirement to spend. NoGitadd/commit/push. Earlierv2
+manuscript and the largev6checkpoint remain unchanged; the newv3manuscript and
+this small additive evidence stage are not falsely claimed part of that checkpoint.

@@ -1,0 +1,16 @@
+{
+  "schema": "english_sfh_human_intake_preservation_v1",
+  "verified_utc": "2026-10-19T16:23:23.8962399Z",
+  "status": "PASS_ALL_MEMBER_BYTES_VERIFIED",
+  "source": ".local/experiments/english_sfh_v1/review/development/submissions/20261019_received_v1",
+  "archive": "E:/DEVOIRS/Research/PersonaSLM-Lab/private_research_backups/20261019_english_sfh_v1/private_review_intake_v1.zip",
+  "bytes": 4404,
+  "sha256": "51997483b9b8a0a2203e468c08932c0b7dbcce95d45a64c74542cff7efb5f4fd",
+  "verified_files": 3,
+  "includes": ["Exact received submission", "Initial frozen-validator feedback", "Exact principal-researcher authorship/blinding statement receipt"],
+  "method": "New ZIP without overwrite; exact source/member SHA256 and byte lengths verified for all entries, with unique normalized names and source hashes checked again after compression.",
+  "protected_mapping_opened": false,
+  "same_volume": true,
+  "remote_backup": false,
+  "limits": "Append-only private preservation, not an off-device backup or a validation of submitted ratings. Corrected future submissions are not automatically included. Original larger private archives remain unchanged."
+}

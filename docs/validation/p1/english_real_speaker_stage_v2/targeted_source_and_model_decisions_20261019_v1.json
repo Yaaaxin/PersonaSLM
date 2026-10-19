@@ -1,0 +1,60 @@
+{
+  "schema": "personaslm_targeted_primary_source_decisions_v1",
+  "date": "2026-10-19",
+  "scope": "Targeted qualification for the current English research continuation, not a second daily discovery crawl",
+  "no_generation": true,
+  "datasets": [
+    {
+      "name": "AMI manual annotations1.6.2, natural meetings only",
+      "status": "GO_BOUNDED_SOURCE_QUALIFICATION_NOT_EXECUTION",
+      "sources": ["https://groups.inf.ed.ac.uk/ami/download/", "https://groups.inf.ed.ac.uk/ami/corpus/license.shtml", "https://groups.inf.ed.ac.uk/ami/corpus/nonscenariomeetings.shtml", "https://groups.inf.ed.ac.uk/ami/corpus/participantids.shtml", "https://groups.inf.ed.ac.uk/ami/corpus/meetingids.shtml"],
+      "verified": "Official annotations CC BY4.0. Genuine natural N meetings distinguishable from S roleplay and B fictitious-scenario material.26 natural EN/IN meetings,51 global IDs,15 with>=3 distinct dates; second independent metadata calculation agrees. All102 natural meeting/channel pairs have word and segment entries. No source-qualified personal Facts established by this metadata screen.",
+      "limits": "Original global IDs encode demographics: neutral remapping required.11 natural participants also occur in S/B metadata, so enforce N-only meeting selection. Private local research only; no inferred consent to generative impersonation, no identity enrichment or public raw dialogue. Cross-corpus natural-person disjointness is not proven by incompatible pseudonym systems.",
+      "provenance": "Official22,887,865byte archive SHA256b56e5babb2496b8795deeeda7e71178d7fbc9963f94276cf2a3f4b56ebbc9f9d; source access governed by separately frozen policies."
+    },
+    {
+      "name": "LANA-CASE",
+      "sources": ["https://cass.lancs.ac.uk/lana-case/"],
+      "status": "STOP_CURRENT_ACCESS_AND_USE_PATH",
+      "verified": "Official release documents spontaneous English conversation and speaker metadata. Posted agreement contains AI training/upload restrictions and recipient signature requirements; ordinary availability is not unrestricted AI-use permission.",
+      "decision": "No corpus download, signature, access request or assent. Seek actual licensor clarification only if this dataset becomes indispensable; do not assume local inference plus AI-assisted inspection is exempt. Corpus size does not resolve permission."
+    },
+    {
+      "name": "OpenYap1K",
+      "sources": ["https://raw.githubusercontent.com/The-Agentic-Data-Co/open-yap-1k/main/docs/schema.md", "https://raw.githubusercontent.com/The-Agentic-Data-Co/open-yap-1k/main/docs/provenance.md", "https://raw.githubusercontent.com/The-Agentic-Data-Co/open-yap-1k/main/docs/data-use-agreement.txt", "https://raw.githubusercontent.com/The-Agentic-Data-Co/open-yap-1k/main/docs/access.md", "https://raw.githubusercontent.com/The-Agentic-Data-Co/open-yap-1k/main/DATASHEET.md"],
+      "status": "GATED_NOT_AUTHORIZED_OR_DOWNLOADED",
+      "verified": "Documentation describes1602 familiar-pair conversations,239 stable pseudonymous speaker IDs and recording dates. Access is reviewed/contractual; ASR transcript accuracy is not guaranteed. Redistributability and identifiable likeness restrictions require exact-use review.",
+      "decision": "No access request, recipient assent, private corpus acquisition or assumption that text-persona simulation escapes restrictions. Public selected samples are not a qualified independent longitudinal cohort."
+    },
+    {
+      "name": "ELITR Minuting Corpus",
+      "sources": ["https://ufal.mff.cuni.cz/elitr-minuting-corpus", "https://aclanthology.org/2022.lrec-1.340.pdf"],
+      "status": "STOP_LONGITUDINAL_SPEAKER_PATH",
+      "verified": "Primary documentation and paper sections3.4/3.9 describe real meetings and publication consent, but PERSON identifiers are shuffled per meeting.",
+      "decision": "No attempt to reverse anonymization. Natural conversations alone do not establish reliable longitudinal speaker-conditioned S/F/H data."
+    }
+  ],
+  "ICSI_alternative": {
+    "status": "METADATA_CAPACITY_ONLY_NOT_REGISTERED_OR_EXECUTED",
+    "verified": "Unopened Bro metadata provides7 previously unexposed target IDs,5 with>=3dates, but1to4 exposed partners per relevant meeting. Bns has9 new target IDs,4 with>=3dates, each relevant meeting with1 exposed partner.",
+    "decision": "Could support a separately prospective target-speaker-disjoint, partner-overlapping transport study after source qualification; cannot be called fully participant-disjoint independent validation or repair of frozen Bed failure. No bodies read for this check. Prefer licensed external AMI source qualification first."
+  },
+  "models": {
+    "preferred_matched_pair_if_later_justified": "Qwen2.5-0.5B Base/Instruct",
+    "base_revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+    "instruct_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "sources": ["https://huggingface.co/Qwen/Qwen2.5-0.5B/raw/060db6499f32faf8b98477b0a26969ef7d8b9987/config.json", "https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B?blobs=true", "https://huggingface.co/api/models/Qwen/Qwen2.5-0.5B-Instruct?blobs=true", "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF"],
+    "verified": "Same model dimensions and raw tokenizer.json/vocab/merges blobs; tokenizer.json Git blob443909a61d429dff23010e5bddd28ff530edda00. EOS differs151643/151645. Both Apache2.0. New matched conversion and generation setup would still require prospective resource/runtime qualification.",
+    "qwen3_alternative_limit": "Qwen3-0.6B Base and the existing posttrained model share core vocabulary/merges but differ in four added tool/think tokens, EOS and trained context configuration. Reusing posttrained chat outputs as a plain-text Base control would confound interface/training.",
+    "decision": "HOLD large RQ3 batch: no validated automatic semantic-quality endpoint. Zero new weights downloaded or model calls. No claim that prospective matched models are already executable or performance-qualified."
+  },
+  "conditional_likelihood_option": {
+    "status": "FEASIBLE_NATIVE_PRIMITIVES_NOT_IMPLEMENTED_OR_VALIDATED",
+    "sources": ["https://raw.githubusercontent.com/ggml-org/llama.cpp/b11573/include/llama.h", "https://raw.githubusercontent.com/ggml-org/llama.cpp/b11573/tools/perplexity/perplexity.cpp", "https://raw.githubusercontent.com/ggml-org/llama.cpp/b11573/examples/simple/simple.cpp"],
+    "verified": "Fixed local llama.dll exposes tokenization, decode, raw logits and memory-clear primitives. Server n_probs covers generated tokens; generic perplexity scores the wrong region for a conditional target-only endpoint.",
+    "boundary": "A future thin teacher-forced scorer must verify ABI, complete-vocabulary stable log-softmax, target-only positions, token boundary consistency, no answer leakage, KV isolation and independent batched/incremental arithmetic before research use. Such compute must be prospectively bounded/accounted. Actual-continuation predictability is not semantic Persona Fidelity or a unique gold answer.",
+    "decision": "Do not build another general evaluation framework or replace missing semantic evidence with unvalidated NLL. Prioritize qualified real conversational source-provision replication."
+  },
+  "literature_scheduler": "Same-day scheduled metadata collection already completed; verified automation covers arXiv/Crossref/OpenAlex, not all requested venues and not daily deep AI paper analysis. Primary checks above were targeted prerequisites, not claims of novel papers or peer-reviewed status.",
+  "novelty": "No new algorithmic originality claim. Native cost decomposition motivates an efficiency baseline, not invention. No semantically validated reliability-fidelity failure yet warrants algorithm expansion."
+}

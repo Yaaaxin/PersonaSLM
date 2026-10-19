@@ -1,0 +1,70 @@
+{
+  "schema": "personaslm_english_ordinal_and_model_pair_research_state_v1",
+  "recorded_utc": "2026-10-19T20:18:16Z",
+  "branch": "research/autonomous-personaslm",
+  "source_head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+  "state": "P1_ACTIVE_INTEGRATED_DEVELOPMENT_EVIDENCE_PRESERVED_NEW_PAIR_SEMANTIC_REVIEW_PENDING",
+  "research_complete": false,
+  "actual_generations_this_cycle": 200,
+  "english_generated_responses_total": 300,
+  "genuine_english_human_review_records_total": 99,
+  "original_unavailable_review_records": 1,
+  "new_model_pair_human_review_records": 0,
+  "budget": {
+    "authoritative_receipt": "docs/validation/p1/english_model_comparison_v1/instruct_execution_receipt_v1.json",
+    "sha256": "0e71d1f083ddf467ab829b887acae52b113aeddc2b9c62e9ef97abfa0a749ce1",
+    "cumulative_generations": 988,
+    "maximum_generations": 1200,
+    "remaining_generations": 212,
+    "validation_reserve": 160,
+    "unallocated_nonreserve": 52,
+    "cumulative_inference_seconds": 6367.387376899885,
+    "maximum_inference_seconds": 72000,
+    "new_completion_seconds": 1881.7028808998874,
+    "chain": "Original788 receipt -> Base888 receipt650f5c65a237aacf046701143b72ff3a1872c9dc5c80c44655c90c25dbbdb11e -> Instruct988 receipt above. No reset, hidden warmup, failed completion, retry or omitted attempt."
+  },
+  "frozen_evidence": {
+    "original_human_submission_sha256": "1c7c5bd5bc1684591df5c1a1c959fce763b10f9de475d7436299ce221a3b1aee",
+    "ordinal_analysis_sha256": "a562e7249706f8982916c6959d577bc24fc94f1d46d490881b1b365d5c5f616d",
+    "paired_protocol_sha256": "550c18457e28068aa7b38cdfeef00dec0c18dc36e9c1fd8d5443afa036a91aa1",
+    "base_manifest_sha256": "a8e39f5ea10f408c0dc937e22f734c4cb77521dae5b0230e832edc0959bcfb30",
+    "instruct_manifest_sha256": "e1a8ebfbedf2bd5697b7b9a96c9486679b528ab88c480a727f91b583109d2dd3",
+    "technical_analysis_sha256": "cd55e86eea86deab451252ace4e08cb4e872e7f9d22f45264bffdfda7ba362ae",
+    "arithmetic_reproduction_receipt_sha256": "c6a824ec73837262cf23134223afb37c2580f3a8815bbad62ba803c42ec2abeb",
+    "review_delivery_receipt_sha256": "ae0b4c59444b1b200e4834c69799efc3390f49767766b57ee9975f12d133ef1b"
+  },
+  "human_scale": "Original0-5 ordinal scale clarified retrospectively by PI; higher better,0valid,1-4unanchored ordered categories. No rescaling or invented anchors. Original0-3protocol and raw99records preserved. New model-pair0-5rubric was frozen prospectively before inference.",
+  "new_review": {
+    "directory": ".local/reviewer-packages/english_model_comparison_v1",
+    "readable_records": "records.html",
+    "immutable_template": "REVIEW.csv",
+    "working_copy_to_create_by_reviewer": "WORKING.csv",
+    "instructions": "READ_ME.txt",
+    "provenance_template": "provenance.json",
+    "allocated_records": 200,
+    "draft_validation": "DRAFT_VALID,200not_started,0errors,200expectedunfinishedwarnings; no labels or mapping read by validator",
+    "known_provenance": "PI is project-dependent with prior rubric/item/source/report/older-output exposure. New actual dates,aids,competence and mapping exposure remain unfilled. Not independent or double-blind; no inter-rater reliability.",
+    "mapping_rule": "Do not open the new protected mapping before a valid separately hash-bound primary analysis lock. Do not fabricate unavailable judgments or delete genuine partially rated domains."
+  },
+  "scientific_decision": {
+    "GO": "Use genuine new masked review to test whether the old negative Style result and source-package effects differ across the fixed Base/Instruct deployments; preserve both positive and negative observations.",
+    "PIVOT": "Do not interpret cap/EOS, length or overlap as semantic quality. The earlier short-history retrieval proposal was not discriminating; no algorithm is implemented or claimed novel.",
+    "STOP": "No further model screening or validation-reserve spending is justified merely by the new technical differences. Semantic model preference and selection for replication require genuine outcomes and appropriate missingness handling."
+  },
+  "unresolved": [
+    "New200human primary judgments are absent; the raw generation experiment is complete, its semantic comparison is not.",
+    "Before any new rating-to-condition join, freeze the limited analysis adaptation for multiple UNAVAILABLE and domain-specific NA. The historical single-missing ordinal engine cannot be forced onto these inputs.",
+    "No qualified independent English speaker cohort has been executed; earlier AMI failure stays frozen. Japanese58held-out speakers remain unused.",
+    "Factual/temporal reliability and behavioral Persona Fidelity are not measured by the three primary ratings. Do not recast their unresolved endpoints as zeros or completed RQ2.",
+    "Same nominal model scale and different interfaces/EOS do not establish pure model-size or instruction-training effects. Retrieval/ranking/LoRA advantages and algorithmic novelty remain unestablished."
+  ],
+  "deterministic_resume": [
+    "Read AGENTS.md and this state; verify the exact Instruct988receipt against terminal/raw journals and preserve all source/data hashes. Never rerun either completed100batch.",
+    "If a genuine new WORKING.csv is supplied, preserve its original bytes and validate it with tools/english_model_comparison_review_v1.py using draft/final modes as applicable. Do not overwrite delivery files or open the protected mapping at intake.",
+    "Document actual provenance, applicability and missingness; bind the appropriate exploratory paired ordinal analysis before any new map join. Do not ask the already resolved historical scale question again.",
+    "Reproduce scores/contrasts and explicit uncertainty, then choose a justified independently qualified speaker replication within the remaining212generations, reserving160until scientific prerequisites hold.",
+    "If annotations are not yet present, do not repeatedly poll or manufacture scores/auxiliary experiments. Any further generation needs a new finite prospective scientific justification and fresh RAM gate."
+  ],
+  "preservation": "All raw/source/rating evidence remains local and private. The separately generated completed_stage_preservation_receipt_v1.json is the authority for backup status; this state does not anticipate a backupPASS. Public clone-only reproductionPARTIAL. No Git add/commit/push; safe explicit human checkpoint is separate.",
+  "execution_status": "Both owned model runs ended normally. No ongoing or scheduled model inference is asserted. Existing daily literature scheduler collects metadata from arXiv,Crossref,OpenAlex, not daily deep AI analysis or every requested venue."
+}

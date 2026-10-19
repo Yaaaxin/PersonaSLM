@@ -1,0 +1,31 @@
+{
+  "schema_version": "personaslm_targeted_publication_link_v1",
+  "checked_date": "2026-10-19",
+  "scope": "Bounded OpenReview/ACL search followed by primary-source reading; not another complete daily crawl or a claim of newly published work today.",
+  "work": {
+    "title": "Steering at the Source: Style Modulation Heads for Robust Persona Control",
+    "authors": ["Yoshihiro Izawa", "Gouki Minegishi", "Koshi Eguchi", "Sosuke Hosokawa", "Kenjiro Taura"],
+    "arxiv_id": "2603.13249",
+    "arxiv_version": "v2",
+    "first_submission_as_displayed_by_arxiv": "2026-02-24T07:26:50Z",
+    "latest_revision_as_displayed_by_arxiv": "2026-05-28T14:47:48Z",
+    "metadata_caution": "The first-submission date precedes the month encoded in the identifier; preserve the primary page's displayed metadata rather than silently correcting it.",
+    "arxiv_doi": "10.48550/arXiv.2603.13249",
+    "formal_publication": "ICML 2026, Proceedings of Machine Learning Research 306:50230-50271",
+    "proceedings_identifier": "pmlr-v306-izawa26a",
+    "openreview_id_linked_from_proceedings": "r6EuKr1hq4",
+    "deduplication": "One scientific work, linked preprint and proceedings versions; not two independent discoveries.",
+    "sources": [
+      "https://arxiv.org/abs/2603.13249",
+      "https://arxiv.org/html/2603.13249v2",
+      "https://proceedings.mlr.press/v306/izawa26a.html",
+      "https://openreview.net/forum?id=r6EuKr1hq4"
+    ]
+  },
+  "method_evidence": "Methods sections 2-5 locate sparse attention heads geometrically, compare localized versus residual/attention-output interventions, and include zero/random-head ablations. Main models are Qwen2.5-7B and Llama-3.1-8B; GPT-4.1-mini judges trait/coherency. Appendix B.3 uses three humans on selected high-versus-low score pairs. That agreement does not validate subtle real-speaker Japanese differences. Sections7 and appendixF discuss architecture dependence.",
+  "prospective_implication": "Reliability-preserving style intervention is occupied prior art. A future PersonaSLM algorithm must compare mechanisms and information access, not rename localized steering. No evidence here validates a CPU Q4 2B implementation or the present character-frequency metric. Do not build an intervention solely to improve a weak automatic proxy.",
+  "access_failure": "Direct OpenReview PDF/forum requests returned a browser challenge. No bypass was attempted; publisher proceedings and arXiv provided the inspected primary evidence. Formal-publication status is supported by PMLR, not inferred from the preprint or a workshop PDF.",
+  "monitoring_limit": "Existing daily scheduler still collects arXiv/Crossref/OpenAlex metadata. This one manual search does not implement daily OpenReview/ACL/Semantic Scholar collection or scheduled deep review.",
+  "historical_experiments_changed": false,
+  "new_model_generations": 0
+}

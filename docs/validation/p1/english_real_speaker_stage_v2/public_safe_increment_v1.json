@@ -1,0 +1,87 @@
+{
+  "schema": "personaslm_public_safe_increment_v1",
+  "reviewed_date": "2026-10-19",
+  "status": "REVIEWED_INCREMENT_FOR_MANUAL_CHECKPOINT_NOT_STAGED",
+  "scope": "Exactly17 new public files for the bounded English native-cost and AMI source-feasibility stage. This is an increment to the existing v5 checkpoint, not a replacement or a standalone complete source package.",
+  "base": {
+    "branch": "research/autonomous-personaslm",
+    "head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+    "v5_manifest": "docs/validation/research_checkpoint_v5/checkpoint_manifest_v5.json",
+    "v5_manifest_sha256": "51f5273ec900872abdf0b0dc9bb576f4c611e483f07172e2f774d85fa4dd107f",
+    "v5_allowlist": "docs/validation/research_checkpoint_v5/public_git_allowlist_v5.txt",
+    "v5_allowlist_sha256": "6c25af6639658730cd22cdcc6e9914b517a7df19f3ee793da739f08a025c9f48",
+    "prerequisite": "The separately verified v5 allowlist and tracked base must accompany this increment or already be committed. Staging only these17 files does not supply the inherited source dependencies. No prior checkpoint was edited."
+  },
+  "inspection": {
+    "source_and_tests": "All six new Python source/test files read completely; relevant existing caller, write/return and dependency-closure functions inspected. Tests contain authored fixtures, not authentic dialogue.",
+    "documents": "All eleven public documents reviewed. The complete native-cost JSON was parsed and traversed; every key and distinct string value was inspected, with repetitive numerical arrays checked structurally. The ten condition rows and all seven factorial contrasts in the integrated report match its numerical evidence at displayed precision.",
+    "state": "All reported native-cost state values, the exact prefill share0.8183045508060395, remaining generation count, branch/HEAD and v5 manifest anchor checked against public evidence.",
+    "sensitive_content_findings": [],
+    "high_confidence_scan": "Supplemental private-key/credential and corpus-person-ID patterns found no matches in the reviewed files. Pattern checks cannot prove absence of arbitrary secrets.",
+    "protected_mappings_opened": false,
+    "private_human_reviews_or_corpus_bodies_opened_for_this_review": false,
+    "scope_limit": "Targeted review of these additions, not a repeated whole-repository audit, independent human review or independent verification of source-curation semantics."
+  },
+  "files": [
+    {"path": "docs/validation/p1/english_real_speaker_stage_v2/ami_bounded_source_conclusion_v1.json", "sha256": "89ad4ebbcc7c4ef8d97bbebe0ff502a7d1f9edd0e354f01d5ed6463aefb1d51e", "bytes": 7568},
+    {"path": "docs/validation/p1/english_real_speaker_stage_v2/ami_conditional_study_decision_v1.json", "sha256": "0188c86a8975b228085ced1b36ad7c676be85fb9ac926d68b426a9e0566ecf51", "bytes": 7548},
+    {"path": "docs/validation/p1/english_real_speaker_stage_v2/ami_source_pool_receipt_v1.json", "sha256": "21fc99870856b0efa57032f5a7838bea2a55ce28cafa6c08bfee34ae71a37552", "bytes": 2809},
+    {"path": "docs/validation/p1/english_real_speaker_stage_v2/ami_source_qualification_policy_v1.json", "sha256": "63b55a97517a3d581f3bb425041668dabd5edcc8142eaf504dc4e154342e3f6f", "bytes": 6882},
+    {"path": "docs/validation/p1/english_real_speaker_stage_v2/human_scale_documentation_addendum_v1.txt", "sha256": "8d023b4be75c846beb159e6b4e8cc29b1af0fb17fad9623f68cb517cfcae1f87", "bytes": 3520},
+    {"path": "docs/validation/p1/english_real_speaker_stage_v2/integrated_stage_conclusion_v1.txt", "sha256": "0e96e35afa984eca93341af66d6983b81b638529669a57e9a0e40baec4105949", "bytes": 12406},
+    {"path": "docs/validation/p1/english_real_speaker_stage_v2/metadata_qualification_policy_v1.json", "sha256": "e48df5827ddea600c00ea6564e97bb8ca8aad39a37ff1c049a6e7e3a485120c6", "bytes": 3780},
+    {"path": "docs/validation/p1/english_real_speaker_stage_v2/native_cost_analysis_v1.json", "sha256": "73b3ffb1401ac220c5461ed6403c0d6993d57bcbaea581318b6fdd5a0ede45e3", "bytes": 259100},
+    {"path": "docs/validation/p1/english_real_speaker_stage_v2/native_cost_results_addendum_v1.txt", "sha256": "e0902fb26a681d69e7fe821b5722611199527116fc03f628395c6e8ce3c0a924", "bytes": 4730},
+    {"path": "docs/validation/p1/english_real_speaker_stage_v2/research_state_v2.json", "sha256": "0d8d578889170f6d446edf2631bdf67dce0603ef7559d0a77df415741cc455d3", "bytes": 10967},
+    {"path": "docs/validation/p1/english_real_speaker_stage_v2/targeted_source_and_model_decisions_20261019_v1.json", "sha256": "d56373833ad6ee8dee47024a113c2a507456cd8da21a54491dd263ddcf80dbf8", "bytes": 7777},
+    {"path": "tests/test_ami_english_execution_v1.py", "sha256": "a8ed6f93dfb1ffad1d6ef05e39ff94e2749220c354780fc0bd96b645ab67bbe3", "bytes": 16672},
+    {"path": "tests/test_ami_english_material_v1.py", "sha256": "ce2bea9b419f94e2a53a85096a82df117812ed585f1d050f7f1743c57217075c", "bytes": 12827},
+    {"path": "tests/test_english_sfh_native_cost_v1.py", "sha256": "274cfd41428a1f74f6ea5f819b424d3e89104b8262a38b9f191b2331a8bf033d", "bytes": 6518},
+    {"path": "tools/ami_english_execution_v1.py", "sha256": "c7cdba3e705caf9636620fe55750a3e15bc7ad180fd85c081f236ff15c61a5c9", "bytes": 13990},
+    {"path": "tools/ami_english_material_v1.py", "sha256": "04b1b70b95963d67ae9d72d05aeefd9d14bf96ff5552b6551c136868906a410b", "bytes": 21974},
+    {"path": "tools/english_sfh_native_cost_v1.py", "sha256": "6999758a00ba79fc8dee083c733ccf40e8e31cc5c75cf02317086ae7e206baa2", "bytes": 16916}
+  ],
+  "dependency_closure": {
+    "method": "Existing runtime_python_dependency_paths static-import traversal, plus explicit test fixture import because its search roots omit tests/; no new general checker.",
+    "recursive_python_files": 57,
+    "new_python_files": 6,
+    "already_in_v5_allowlist": 12,
+    "tracked_base_files": 39,
+    "tracked_dependency_changes_relative_to_HEAD": [],
+    "missing_local_python_dependencies": [],
+    "explicit_test_fixture": "tests/test_english_sfh_registration_v1.py",
+    "external_requirements": [
+      "Python>=3.11 and pytest for authored tests; local execution used Python3.14.3 and pytest9.1.1.",
+      "Permitted private ICSI journals, prompts, manifests, source snapshots and private native-cost rows for native --verify.",
+      "Official licensed AMI annotation archive and private source-pool artifact for source-pool --verify; no target-only access is authorized by this checkpoint.",
+      "Existing exact model weights, backend binaries, tokenizer metadata and rendering assets remain excluded. The AMI adapter was not registered or executed and this receipt does not authorize it."
+    ]
+  },
+  "scientific_limits": "The observed100-response technical study and post-hoc arithmetic are not semantic Persona Fidelity, independent experimental validation or a novel algorithm. AMI yielded three retrieval-compatible candidates below the frozen minimum four; no final cohort or new generation. The99 genuine judgments remain preserved pending actual scale/provenance/applicability documentation. Public clone reproduction remains PARTIAL.",
+  "tests": {
+    "recorded_parent_execution": "53 authored tests passed in1.63seconds; one known cache_dir warning with cacheprovider disabled, as recorded in research_state_v2.json.",
+    "reviewer_reran_tests": false,
+    "reason": "Do not relabel the same parent test run as an additional independent test result. Source/test review and static closure checks were performed separately."
+  },
+  "excluded": [
+    ".local/**, authentic speaker/partner dialogue, original identities, source quotes, exact prompts/references/responses, raw journals and private source-curation decisions.",
+    "Human WORKING/recovered/uncertainty files, scores/comments, reviewer IDs, provenance declarations and protected unblinding mappings.",
+    "Model weights, backend binaries, virtual environments, temporary files, caches, credentials and API keys.",
+    "docs/research_development_log.md and unrelated or previously withheld material; this receipt does not override their existing exclusions.",
+    "Any later backup/preservation receipts or files absent from the explicit list; require separate content review before publication."
+  ],
+  "verification_commands_from_repository_root_PowerShell": [
+    "$Increment=Get-Content 'docs/validation/p1/english_real_speaker_stage_v2/public_safe_increment_v1.json' -Raw | ConvertFrom-Json",
+    "foreach($File in $Increment.files){if((Get-Item -LiteralPath $File.path).Length -ne $File.bytes -or (Get-FileHash -LiteralPath $File.path -Algorithm SHA256).Hash.ToLower() -ne $File.sha256){throw ('Changed reviewed file: '+$File.path)}}",
+    "$env:PYTHONPATH='tools;src'",
+    "$env:PYTHONDONTWRITEBYTECODE='1'",
+    ".\\.venv\\Scripts\\python.exe -B tools/english_sfh_native_cost_v1.py --verify",
+    ".\\.venv\\Scripts\\python.exe -B tools/ami_english_material_v1.py --verify --expected-policy-sha256 63b55a97517a3d581f3bb425041668dabd5edcc8142eaf504dc4e154342e3f6f",
+    "$TestScratch=Join-Path '.local' ('pytest-english-stage-v2-'+[Guid]::NewGuid().ToString('N'))",
+    ".\\.venv\\Scripts\\python.exe -B -m pytest -q -p no:cacheprovider --basetemp $TestScratch tests/test_english_sfh_native_cost_v1.py tests/test_ami_english_material_v1.py tests/test_ami_english_execution_v1.py"
+  ],
+  "manual_git_add_command_NOT_EXECUTED": "git add -- 'docs/validation/p1/english_real_speaker_stage_v2/ami_bounded_source_conclusion_v1.json' 'docs/validation/p1/english_real_speaker_stage_v2/ami_conditional_study_decision_v1.json' 'docs/validation/p1/english_real_speaker_stage_v2/ami_source_pool_receipt_v1.json' 'docs/validation/p1/english_real_speaker_stage_v2/ami_source_qualification_policy_v1.json' 'docs/validation/p1/english_real_speaker_stage_v2/human_scale_documentation_addendum_v1.txt' 'docs/validation/p1/english_real_speaker_stage_v2/integrated_stage_conclusion_v1.txt' 'docs/validation/p1/english_real_speaker_stage_v2/metadata_qualification_policy_v1.json' 'docs/validation/p1/english_real_speaker_stage_v2/native_cost_analysis_v1.json' 'docs/validation/p1/english_real_speaker_stage_v2/native_cost_results_addendum_v1.txt' 'docs/validation/p1/english_real_speaker_stage_v2/research_state_v2.json' 'docs/validation/p1/english_real_speaker_stage_v2/targeted_source_and_model_decisions_20261019_v1.json' 'tests/test_ami_english_execution_v1.py' 'tests/test_ami_english_material_v1.py' 'tests/test_english_sfh_native_cost_v1.py' 'tools/ami_english_execution_v1.py' 'tools/ami_english_material_v1.py' 'tools/english_sfh_native_cost_v1.py'",
+  "recommended_commit_message": "Document English S/F/H native costs and bounded AMI feasibility",
+  "self_reference": "This receipt is deliberately excluded from its own17-file hash list and staging command. Its exact bytes require an external hash anchor and separate review before optional manual staging; no recursive self-hash is asserted.",
+  "git_and_preservation_limits": "No git add, commit, push, index/configuration or history writes were performed. Index was empty at review. Exact working-byte hashes do not verify future staged blobs or line-ending transformations. An increment is not a remote backup, a new inference authorization or completion of the scientific programme."
+}

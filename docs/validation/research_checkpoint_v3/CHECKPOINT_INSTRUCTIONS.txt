@@ -1,0 +1,73 @@
+PersonaSLM incremental manual checkpoint v3
+
+Base: 8b7f8fdd8eec8358528da86398659f876c70a6dd
+Branch: research/autonomous-personaslm
+
+Human-only checkpoint. Automated agents must not stage, commit or push.
+Do not reuse v2's old-base verifier. Do not use git add ., git add -A, globs,
+force-push, history rewriting, or automatic merge into main.
+
+The explicit allowlist contains only this reviewed increment, not the previous
+560-file checkpoint and not all untracked files. The complete raw development
+log intentionally remains local; its reviewed public continuation is separate.
+All .local data, participant records, raw journals, review CSVs, reviewer keys,
+old unsafe review instructions/protocol, model weights, environments, caches,
+credentials, and previously excluded artifacts remain excluded.
+
+The manifest binds every allowlisted file except itself. Its own SHA-256 must
+be copied from the independently communicated final checkpoint receipt; it
+cannot be embedded in a document that the same manifest hashes without a
+circular dependency. Before executing these commands, replace the placeholder
+below with that exact 64-character digest. A failed check stops the workflow.
+
+PowerShell, from the repository root; human execution only:
+
+$ExpectedManifestSha256 = '<COPY_FINAL_EXTERNALLY_REPORTED_MANIFEST_SHA256>'
+& '.\docs\validation\research_checkpoint_v3\verify_checkpoint_v3.ps1' -ExpectedManifestSha256 $ExpectedManifestSha256
+if (-not $?) { throw 'Pre-staging verification failed' }
+git --literal-pathspecs add --pathspec-from-file=docs/validation/research_checkpoint_v3/public_git_allowlist_v3.txt
+if ($LASTEXITCODE -ne 0) { throw 'Manual staging failed; inspect without committing' }
+& '.\docs\validation\research_checkpoint_v3\verify_checkpoint_v3.ps1' -ExpectedManifestSha256 $ExpectedManifestSha256 -Staged
+if (-not $?) { throw 'Staged verification failed; do not commit' }
+git diff --cached --stat
+git diff --cached --check
+
+Review the exact staged diff personally before deciding whether to commit.
+Suggested message: Preserve RPC style-specificity development evidence and safe review delivery
+No commit or push command is supplied or executed by the research agent.
+
+Verification uses only read-only Git commands and Get-FileHash/Get-Item.
+The optional staged check compares filtered Git blob identities, so LF Git
+normalization is distinguished from alteration of frozen working-copy bytes.
+The default check requires an empty index. Other existing unstaged/local-only
+research remains untouched. A commit is not evidence of remote backup.
+
+Scientific limits: the new study is developmental/exploratory, not independent
+human or experimental validation. Review labels remain blank. Clean-clone
+generation/analysis is PARTIAL because private manifests, participant data,
+raw journals, model/backend assets and the withheld review protocol are not
+included. Code import closure is distinct from complete scientific data closure.
+See dependency_and_privacy_review_v3.json and the final scientific report.
+
+Exact local verification commands (no new model inference):
+$env:PYTHONPATH='tools;src'
+python tools/real_persona_chat_style_specificity_reproduce_v1.py
+if ($LASTEXITCODE -ne 0) { throw 'Preserved partial analysis verification failed' }
+python tools/real_persona_chat_style_specificity_combined_v1.py
+if ($LASTEXITCODE -ne 0) { throw 'Combined analysis verification failed' }
+python tools/real_persona_chat_style_specificity_combined_v1.py --self-test
+if ($LASTEXITCODE -ne 0) { throw 'Arithmetic self-test failed' }
+
+# Fresh temporary child: never reuse an existing pytest --basetemp directory.
+New-Item -ItemType Directory -Path '.local/tmp' -Force | Out-Null
+$CheckpointTestTemp = '.local/tmp/checkpoint-v3-' + [Guid]::NewGuid().ToString('N')
+if (Test-Path -LiteralPath $CheckpointTestTemp) { throw 'Temporary path exists' }
+python -m pytest -q tests/test_real_persona_chat_style_specificity_v1.py tests/test_real_persona_chat_style_specificity_suffix_v1.py tests/test_real_persona_chat_sfh_review_delivery_correction_v1_1.py tests/test_real_persona_chat_sfh_pilot_v1.py tests/test_real_persona_chat_sfh_pilot_execution_v1.py --basetemp=$CheckpointTestTemp -o cache_dir=.local/tmp/pytest_cache_checkpoint_v3 --tb=short
+if ($LASTEXITCODE -ne 0) { throw 'Targeted tests failed' }
+
+Observed final local test result:57 passed in0.76s. Earlier command/environment
+errors are retained in test_receipt_v1.json. The real-data combined reproduction
+checked64 responses and exact stored analysis hashes. Source closure is complete
+relative to the base commit, but private scientific input closure is not public.
+Do not pass --write to immutable reproduction outputs a second time or rerun
+either completed inference controller. The root runner performed no Git staging.

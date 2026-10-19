@@ -1,0 +1,190 @@
+{
+  "archive_members": 90,
+  "archive_url": "https://groups.inf.ed.ac.uk/ami/ICSICorpusAnnotations/ICSI_original_transcripts.zip",
+  "computer_generated_header_participants_excluded": 1,
+  "created_utc": "2026-10-19T15:10:26.348517+00:00",
+  "header_bytes_read": 158620,
+  "human_header_ids_missing_from_speaker_database": 0,
+  "ignored_nonmeeting_mrt_files": 1,
+  "licence": {
+    "historical_archive_notice": "2004 LDC/ICSI copyright retained; no additional end-user licence in archive index",
+    "official_release": "CC BY 4.0; official download page explicitly includes this original transcript archive",
+    "participant_approval_evidence": "Janin et al. 2003 section 4.2; not speaker-simulation-specific consent",
+    "primary_paper": "https://www.ee.columbia.edu/~dpwe/pubs/icassp03-janin.pdf",
+    "privacy": "Copyright permission does not comprehensively grant privacy/personality rights",
+    "url": "https://groups.inf.ed.ac.uk/ami/icsi/license.shtml"
+  },
+  "local_artifacts": {
+    "ICSI_original_transcripts.zip": {
+      "bytes": 3720243,
+      "sha256": "9db98ebdd61a085b4f45f24f46e9c9f6c6f26c3c9cd41643a3b9e74362c85de7"
+    },
+    "official_download.html": {
+      "bytes": 8301,
+      "sha256": "4d3d3a5cd03f6385ca67411b43c4ae96c06e7784571e3d87cfb5e12ad3def2d1"
+    },
+    "official_license.html": {
+      "bytes": 19367,
+      "sha256": "59054dc17c410f263f9699b5a88e36e9f4d54e237f6ca1dc1f9e59ec924f0a33"
+    }
+  },
+  "metadata_sha256": "95b9e9a6efee02ef4a3fbd78510f19de4ca5d2106efa970ab44fd987c31d47ff",
+  "new_model_generations": 0,
+  "not_established": [
+    "usable utterance quantities",
+    "professional fact yield or truth",
+    "style measurement validity",
+    "sensitive-content exclusion",
+    "final disjoint development/validation cohorts",
+    "temporal changes",
+    "speaker-simulation-specific consent"
+  ],
+  "published_vs_actual_speaker_count": "2003 paper/index report 53; this pinned archive has 60 distinct human-format header IDs, all in its speaker database. No identities merged or guessed.",
+  "qualification": {
+    "date_range_local_timezone_unspecified": [
+      "2000-02-02T17:00:00",
+      "2002-04-18T15:00:00"
+    ],
+    "distinct_meeting_dates": 75,
+    "full_corpus_coparticipation_components": [
+      {
+        "meeting_count": 75,
+        "speaker_count": 60,
+        "speakers_with_at_least_three_dates": 31
+      }
+    ],
+    "group_disjoint_feasibility_candidates_not_selected": [
+      {
+        "first_group_all_meetings": "Bed",
+        "first_meetings": 15,
+        "first_speakers_at_least_three_dates": 10,
+        "second_group_crossparticipants_excluded": "Bro",
+        "second_meetings": 20,
+        "second_speakers_at_least_three_dates": 7
+      },
+      {
+        "first_group_all_meetings": "Bmr",
+        "first_meetings": 29,
+        "first_speakers_at_least_three_dates": 12,
+        "second_group_crossparticipants_excluded": "Bed",
+        "second_meetings": 11,
+        "second_speakers_at_least_three_dates": 8
+      },
+      {
+        "first_group_all_meetings": "Bns",
+        "first_meetings": 3,
+        "first_speakers_at_least_three_dates": 5,
+        "second_group_crossparticipants_excluded": "Bed",
+        "second_meetings": 14,
+        "second_speakers_at_least_three_dates": 10
+      },
+      {
+        "first_group_all_meetings": "Bns",
+        "first_meetings": 3,
+        "first_speakers_at_least_three_dates": 5,
+        "second_group_crossparticipants_excluded": "Bro",
+        "second_meetings": 20,
+        "second_speakers_at_least_three_dates": 7
+      },
+      {
+        "first_group_all_meetings": "Bro",
+        "first_meetings": 23,
+        "first_speakers_at_least_three_dates": 9,
+        "second_group_crossparticipants_excluded": "Bed",
+        "second_meetings": 14,
+        "second_speakers_at_least_three_dates": 10
+      }
+    ],
+    "group_split_limitation": "Speaker separation is also research-group/topic separation; domain transfer and speaker generalization are not isolated",
+    "meeting_count": 75,
+    "meeting_group_counts": [
+      {
+        "group": "Bdb",
+        "meetings": 1,
+        "speakers": 6,
+        "speakers_at_least_three_dates": 0
+      },
+      {
+        "group": "Bed",
+        "meetings": 15,
+        "speakers": 16,
+        "speakers_at_least_three_dates": 10
+      },
+      {
+        "group": "Bmr",
+        "meetings": 29,
+        "speakers": 17,
+        "speakers_at_least_three_dates": 12
+      },
+      {
+        "group": "Bns",
+        "meetings": 3,
+        "speakers": 10,
+        "speakers_at_least_three_dates": 5
+      },
+      {
+        "group": "Bro",
+        "meetings": 23,
+        "speakers": 11,
+        "speakers_at_least_three_dates": 9
+      },
+      {
+        "group": "Bsr",
+        "meetings": 1,
+        "speakers": 9,
+        "speakers_at_least_three_dates": 0
+      },
+      {
+        "group": "Btr",
+        "meetings": 2,
+        "speakers": 7,
+        "speakers_at_least_three_dates": 0
+      },
+      {
+        "group": "Buw",
+        "meetings": 1,
+        "speakers": 11,
+        "speakers_at_least_three_dates": 0
+      }
+    ],
+    "participant_disjoint_window_pair_exists": true,
+    "participant_disjoint_window_pairs": 15450,
+    "speaker_distinct_date_histogram": {
+      "1": 21,
+      "2": 8,
+      "3": 5,
+      "4": 2,
+      "5": 2,
+      "6": 1,
+      "7": 1,
+      "8": 2,
+      "9": 1,
+      "10": 1,
+      "11": 2,
+      "14": 1,
+      "15": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "20": 2,
+      "21": 1,
+      "22": 1,
+      "24": 1,
+      "30": 1,
+      "39": 1,
+      "45": 1,
+      "49": 1
+    },
+    "speakers_with_at_least_four_dates": 26,
+    "speakers_with_at_least_three_dates": 31,
+    "speakers_with_at_least_two_dates": 39,
+    "three_meeting_metadata_windows": 394,
+    "unique_speakers": 60,
+    "window_pair_is_not_a_frozen_split_or_sufficient_study_sample": true
+  },
+  "schema": "icsi_english_metadata_qualification_v1",
+  "source_sha256": "9d0b6141510ab65f2178a207f2c52fa538c707022b382090da0605bc60f54c83",
+  "speaker_database_header_records": 61,
+  "status": "METADATA_QUALIFICATION_ONLY_NOT_EXPERIMENT_AUTHORIZATION",
+  "transcript_body_bytes_deserialized": 0
+}

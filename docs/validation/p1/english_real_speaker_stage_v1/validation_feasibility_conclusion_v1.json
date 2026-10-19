@@ -1,0 +1,43 @@
+{
+  "schema": "english_sfh_validation_source_feasibility_v1",
+  "date": "2026-10-19",
+  "decision": "STOP_CURRENT_VALIDATION_SOURCE_BRANCH",
+  "scope": "Frozen participant-disjoint ICSI Bed cohort and bounded professional S/F/H source-construction rules; not corpus-wide absence of useful data",
+  "observed": {
+    "reserved_meetings_inspected": 11,
+    "reserved_original_participants": 12,
+    "participants_with_at_least_three_dates": 8,
+    "candidate_speakers_after_frozen_retrieval": 1,
+    "candidate_contexts": 2,
+    "qualified_validation_speakers": 0,
+    "qualified_validation_contexts": 0,
+    "validation_model_generations": 0,
+    "human_labels_created": 0
+  },
+  "exclusion": "The only retrieved group lacked a complete source-supported professional self-report. Its unfinished illustrative everyday-tool anecdote cannot be recast as professional Facts after reserved access. One current context also leaves its alternatives unidentified. An unfinished authentic reference alone was not grounds for exclusion. Root independently inspected the quoted F source and current contexts and agrees with the source curator; both inspections are AI source audits, not human semantic ratings.",
+  "bindings": {
+    "archive_sha256": "9db98ebdd61a085b4f45f24f46e9c9f6c6f26c3c9cd41643a3b9e74362c85de7",
+    "split_sha256": "cf91921ef55874237d961f0b2c17b916d5122ccff0c08cf6e4a52ba74a30207e",
+    "preaccess_policy_sha256": "15f65b9e35dcce6251397f9c6c827806b0ae83c6962d77416c67479005256b8a",
+    "source_access_go_sha256": "b6d5c2c843913ed21e74b018e3d6b778387da4b62f0ca634a4145eff072081fd",
+    "private_candidate_pool_sha256": "55dddd34497f6ce1b2a9c3d871fca843eb6935d7670e61ad6bf0710225b5b4ed",
+    "private_complete_decisions_sha256": "3c4a07e8d6cfb2b742dd54567ac7637d500963fc4cdf8f6a68e3a5ff5e4cf25d",
+    "private_empty_qualified_material_sha256": "67538e380b573262e523a00462fb137a524e6adc8e74057b99ee5d8e2e04460e"
+  },
+  "bounded_remaining_metadata_check": {
+    "method": "Read only each original transcript Preamble using the unchanged icsi_english_qualification_v1.read_header. Remove29 development Bmr and11 exposed Bed meetings. Exclude any remaining meeting sharing any of the29 original participants in those exposed cohorts. Count distinct dates only within retained meetings.",
+    "unexposed_meetings": 35,
+    "unexposed_group_counts": {"Bdb": 1, "Bed": 4, "Bns": 3, "Bro": 23, "Bsr": 1, "Btr": 2, "Buw": 1},
+    "fully_participant_disjoint_meetings": 0,
+    "eligible_new_speakers_with_three_dates": 0,
+    "new_body_reads": 0,
+    "limitation": "This is the stated strict speaker-and-partner separation boundary, not a prohibition on every possible future ICSI study. A different dependence structure requires its own prospective design and cannot be called this study's independent replication."
+  },
+  "next_decision": {
+    "primary": "Complete the unchanged development allocation, release its condition-masked English review package and reproduce valid technical outcomes. Genuine ratings are indispensable for semantic fidelity/reliability conclusions.",
+    "validation": "Obtain a separately qualified English source with documented rights, stable real identities, repeated dated conversations and genuine source-supported personal/professional facts. CANDOR requires genuine distributor/institutional access approval; none is fabricated. SwDA's unresolved upstream/downstream rights conflict remains a separate block.",
+    "model_expansion": "Do not spend a second large model batch merely to accumulate technical proxies before knowing whether the genuine semantic instrument is judgeable. Preserve the remaining generation allowance for a qualified validation cohort and justified RQ3/RQ4 comparisons.",
+    "algorithm": "No semantically validated failure or original reliability-fidelity algorithm is established. Do not optimize against an automatic copying/length metric."
+  },
+  "preservation": "All negative source records and original source-selection rules remain unchanged. English Bed bodies are now exposed for qualification; they cannot be relabeled untouched after adaptive redesign. Japanese58 reserved speakers remain untouched. No validation inference authorization was created."
+}

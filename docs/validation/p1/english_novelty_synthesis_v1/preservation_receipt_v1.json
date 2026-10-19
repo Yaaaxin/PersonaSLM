@@ -1,0 +1,89 @@
+{
+  "schema": "english_novelty_synthesis_preservation_v1",
+  "created_utc": "2026-10-19 21:13:24 UTC",
+  "status": "PASS_BYTE_VERIFIED_LOCAL_SUPPLEMENT",
+  "root": "D:\\PersonaSLM-private-backups\\20261019_english_ordinal_models_v1\\english_novelty_synthesis_v1_20261019T2112Z",
+  "verified_original_files": 13,
+  "files": [
+    {
+      "path": "docs/PersonaSLM_manuscript_working_v3.md",
+      "sha256": "6400ba11f02a485bfcb70515916c310f0d2b9f914a89cae5b7e83a1d906779fc",
+      "verified": true
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/analysis_scope_v1.json",
+      "sha256": "c8dfb170439c06d9bfc74e3e32266f71e5c0cdf424f7b2495e7f6314757c2edc",
+      "verified": true
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/diagnostic_implementation_v1.json",
+      "sha256": "eb05914fce5632884853ad4bbab0c732329a4c1abed1396ef212e10f420582cb",
+      "verified": true
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/response_diagnostics_v1.json",
+      "sha256": "59f082df6474dd3bb1ea95786d0a351f4dac6a3754b7587b0d0f37b7f630dab2",
+      "verified": true
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/integrated_findings_v1.txt",
+      "sha256": "37eec3b826ab86cc5c78e0b49e62dd8440a907c3b7f9a41efb959b2429377258",
+      "verified": true
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/literature_cluster_a_v1.txt",
+      "sha256": "94b1a3f658c19424061c12aec5db134626bda3032d280fd70049a8b1b4603a8a",
+      "verified": true
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/literature_cluster_b_v1.txt",
+      "sha256": "1e8023f023022b4063e81cf345e66b624f6a973a2f884fcdbae669c96eb1c55f",
+      "verified": true
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/literature_cluster_c_v1.txt",
+      "sha256": "c2e63b03b5008b5cd12ee0542fdd18ac795503785441de7165118edae3448c7b",
+      "verified": true
+    },
+    {
+      "path": "tools/english_response_diagnostics_v1.py",
+      "sha256": "9880530a5fcf0d9c22ba90ea0d2029c70c852f72b4035b9c0f59cde17159ef94",
+      "verified": true
+    },
+    {
+      "path": "tests/test_english_response_diagnostics_v1.py",
+      "sha256": "1b8419ad7dec3080d5cb62e089b447c093a420abdad6edee185a325bb0030785",
+      "verified": true
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/research_state_v1.json",
+      "sha256": "6b717d0501753cbe0d58ef496aaf716a72a7f55d8f38719a5fc7eba9f577f743",
+      "verified": true
+    },
+    {
+      "path": ".local/experiments/english_novelty_synthesis_v1/response_diagnostics_private_v1.json",
+      "sha256": "d54af9d37b437880eb4639868ab2f2f3167eebffbd0934010f99c376cfd590d6",
+      "verified": true
+    },
+    {
+      "path": "docs/research_development_log.md",
+      "sha256": "9006413828a0f4c9e973fb976590ef2ca3565d0bdd6f37c07089efe7717ab6c2",
+      "verified": true
+    }
+  ],
+  "final_private_log_snapshot": {
+    "source": "docs/research_development_log.md",
+    "backup": "final_private_log_snapshot.md",
+    "sha256": "af5cc1716580b90307f61f33f2e8cd6822a71dce699b1e7e8a0987a6c776ec36",
+    "verified": true
+  },
+  "access": {
+    "parent_acl_protected": true,
+    "allowed_principals": "Existing researcher, SYSTEM, Administrators only; child inheritance checked",
+    "permissions_broadened": false
+  },
+  "unchanged": "Earlier sealed backup ZIP, original human submissions, prior manuscripts/protocols/evidence and v6checkpoint unchanged",
+  "limits": "Local copy only; drive-letter separation is not proof of independent physical device, remote backup or disaster recovery. Private files must not be staged. This receipt is a public-safe hash-only record, not authorization to redistribute raw/private research.",
+  "new_generations": 0,
+  "git_add_commit_push": false
+}

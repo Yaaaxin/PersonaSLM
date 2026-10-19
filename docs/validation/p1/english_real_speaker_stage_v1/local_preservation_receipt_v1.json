@@ -1,0 +1,17 @@
+{
+  "schema": "english_sfh_local_preservation_v1",
+  "date": "2026-10-19",
+  "status": "PASS_ALL_MEMBER_BYTES_VERIFIED",
+  "archives": [
+    {"source": ".local/experiments/english_sfh_v1", "archive": "E:/DEVOIRS/Research/PersonaSLM-Lab/private_research_backups/20261019_english_sfh_v1/private_scope_1.zip", "bytes": 4519725, "sha256": "aa8e4ee7d1bdfb5c21324c76f66bd707e63ba9ea2dc56f0ad9ed82b25c5bbc48", "verified_files": 1682},
+    {"source": ".local/reviewer-packages/english_sfh_development_v1", "archive": "E:/DEVOIRS/Research/PersonaSLM-Lab/private_research_backups/20261019_english_sfh_v1/private_scope_2.zip", "bytes": 84666, "sha256": "87f3d5faf03d0801ab335aa637f8e68cf533b694a11409bd6106178ea66cde39", "verified_files": 5},
+    {"source": ".local/datasets/icsi_english_v1", "archive": "E:/DEVOIRS/Research/PersonaSLM-Lab/private_research_backups/20261019_english_sfh_v1/private_scope_3.zip", "bytes": 3723964, "sha256": "0443e8245021a2aadd23b3bd5ff7b71ca8097691f602a4f5d9ff153362c1b452", "verified_files": 3}
+  ],
+  "method": "Windows System.IO.Compression.ZipFile into a new explicit outside-repository directory. Verify equal member counts, unique separator-normalized relative paths, exact byte lengths and SHA256 of every decompressed member against its source. No extraction, deletion or overwrite.",
+  "initial_verification_error": "The first ZIP used Windows backslashes in member names; direct forward-slash GetEntry lookup failed. The archive was preserved unchanged. Verification normalized both sides, rejected duplicate normalized paths and checked every member successfully. No content/hash mismatch was found.",
+  "protected_mapping": "Preserved only as opaque archive bytes and hashes; condition mapping was not deserialized or revealed. Archives and all speaker material remain private and outside Git.",
+  "human_review_at_snapshot": "100 fixed blank records, zero genuine ratings; future WORKING.csv changes are not included in this snapshot.",
+  "same_volume": true,
+  "remote_backup": false,
+  "limitations": "Same-volume preservation protects against accidental local edits, not disk/site loss. Model weights/runtime remain separate hash-bound assets. No claim of automatic future annotation backup or remote research preservation."
+}

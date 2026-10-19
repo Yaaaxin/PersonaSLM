@@ -1,0 +1,32 @@
+{
+  "analysis_sha256": "84468a7ccf42ba9ea8d368ee9800b211c2d97d1422c1ad7fa234b163f3066a53",
+  "archival_source_sha256": "6529d10700f92e547c9d39ea348bee381f12b22c09f6d2b664197a4c4d22bd5b",
+  "archival_test_sha256": "fc6457c1019cedf43f27e7eff3a0755d74ad0a7f4e347773893fd0ae1f402900",
+  "attempts": 100,
+  "bindings": {
+    "combined_source_sha256": "baee12c99cee6542f52c0c4467a6a249d76b0a8f9419a9f0df8cb90a3c39f002",
+    "independent_definition_source_sha256": "0d5402fcf578852c23910660ceaf70795d8db3dde26c44ff8625cbc544489701",
+    "original_manifest_sha256": "35534588ed8f386c5831ba6db9d67a05b852721cfc56b91835d3053042c32495",
+    "original_partial_receipt_sha256": "0269db1739d634955484d6587ac4e9f2cd35e45506480b70c94f835321511be8",
+    "original_terminal_sha256": "98b08ad36fd10bdd7740b9594fc92cd527e473ee712b3bb372369862b2ad150a",
+    "primary_definition_source_sha256": "08e30da9564042d84f35d0a477aab0c43f460a491170d463ab57d75ea7a15f5a",
+    "private_rows_canonical_sha256": "9d7b0d184bf92ee4e47cb8c6154ab892a5d1cd341220294cf9f60cae9d7461c2",
+    "suffix_manifest_sha256": "61f7bf7bda8eca80885baeaf5a74a9931409c16c634829ebff8136fadb32efef",
+    "suffix_receipt_sha256": "c4be870b1b0f6bb8635aa606c4a8d1d065cb289725a759731b08ba6326367dd9",
+    "suffix_terminal_sha256": "b5e11529de82b57c071f1d18dbae5512016c49029882f6d707ee9f743678e38f"
+  },
+  "comparison_absolute_tolerance": 1e-10,
+  "created_utc": "2026-10-19T16:13:15.303149+00:00",
+  "cumulative_generations": 788,
+  "cumulative_inference_seconds": 4485.684495999997,
+  "current_head_gate": "NOT_APPLICABLE_TO_READ_ONLY_ARCHIVAL_ANALYSIS",
+  "execution_validators_modified": false,
+  "human_labels_created": 0,
+  "limits": "Independent arithmetic implementations, shared journal reader; not semantic or independent experimental validation. Source bytes and private archive paths must remain available. Public clone-only reproduction PARTIAL; no cross-environment generation repeatability claim.",
+  "new_generations": 0,
+  "prior_reproduction_sha256": "ce361877f9c7f47227105c3cb4db75d9575a927258c192bd33e48cddc650cb87",
+  "recorded_source_head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+  "responses": 100,
+  "schema": "english_sfh_archival_reproduction_v1",
+  "status": "PASS"
+}

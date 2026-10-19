@@ -1,0 +1,37 @@
+{
+  "schema": "ami_english_source_qualification_v1",
+  "registered_date": "2026-10-19",
+  "status": "PROSPECTIVE_SOURCE_QUALIFICATION_NOT_INFERENCE_AUTHORIZATION",
+  "question": "Can an independent English natural-meeting corpus support source-separated Style, dated personal self-report Facts, earlier History, and later authentic conversational continuations under the existing PersonaSLM constructs?",
+  "archive": {"path": ".local/datasets/ami_english_v1/ami_public_manual_1.6.2.zip", "sha256": "b56e5babb2496b8795deeeda7e71178d7fbc9963f94276cf2a3f4b56ebbc9f9d", "bytes": 22887865},
+  "exposure_at_registration": "Archive listing and meeting/participant metadata only; no word, segment, summary or target dialogue bodies. Metadata screen found26 naturally occurring EN/IN meetings,51 global participants,15 with at least three distinct date labels; dates and identity semantics require independent verification.",
+  "source_rights": {
+    "license": "CC BY4.0 official manual annotation release; attribution to AMI corpus creators and release retained",
+    "sources": ["https://groups.inf.ed.ac.uk/ami/download/", "https://groups.inf.ed.ac.uk/ami/corpus/license.shtml", "https://groups.inf.ed.ac.uk/ami/corpus/nonscenariomeetings.shtml"],
+    "limits": "Copyright permission does not grant privacy/personality rights or establish consent to modern generative impersonation. Only minimized local pseudonymous methodological research; no public raw dialogue, personal identification enrichment, voice cloning, real-person deployment or invented consent. Restrict personal facts to non-sensitive explicit professional/educational activity or responsibility self-reports."
+  },
+  "selection": {
+    "population": "Only EN/IN meetings officially documented as naturally occurring; no roleplay S or fictitious B meetings",
+    "identity": "Use validated global_name cross-meeting identity, never infer speakers from lexical or demographic resemblance",
+    "date": "Parse dateOnly strictly as day-month-year; no filename-derived chronology",
+    "candidate_order": "Ascending SHA256 of ASCII string PersonaSLM-AMI-source-v1: followed by global_name; maximum15 metadata-eligible speakers, independent of transcript content or model outcomes",
+    "source_schedule": "For each candidate use earliest dated natural meeting for Style/Facts, earliest strictly later natural meeting for History, and earliest strictly later natural meeting for targets. At most one date triple per candidate; no alternative search after source failure.",
+    "body_access_stages": "Stage1 reads only selected first-source and History meetings. Meetings can be shared across candidate schedules; record any future target meeting incidentally exposed as another speaker source. No source-stage target reading for task selection. Stage2 target access is allowed only after freezing source qualification decisions, prompts, endpoint definitions and finite study allocation; any incidental source exposure must be reported, not labelled wholly untouched targets.",
+    "maximum_final_cohort": 8,
+    "source_qualified_selection": "First at most8 candidates passing actual complete-source curation in the fixed hash order; source-supported selection only, no model or human outcome selection"
+  },
+  "source_rules": [
+    "Parse official timed word/segment annotations; preserve archive entry and original offsets privately. Keep original forms rather than translating or correcting speaker grammar.",
+    "Apply existing ICSI privacy, contact, uncertainty and calibration exclusions conservatively. Names require documented local pseudonymization; never enrich identity. Preserve excluded counts and reasons.",
+    "Facts: retrieve at most6 earliest target-speaker first-person nonhypothetical professional/educational activity or responsibility statements from the first source meeting. Retain only a complete unambiguous supported proposition after source curation. Exclude unfinished examples, questions, hypothetical plans, inferred occupation, sensitive personal data and statements requiring unsupported pronoun resolution. Date every statement as a self-report, not independently verified current biography.",
+    "Style: use the frozen four speech rates from the existing English pipeline, from at least10 target-speaker source turns and100 words excluding all retrieved fact turns. No names, biography or example quotes are injected as Style. Keep4to6 permitted source utterances, at most200words total, only for later blinded review, not prompt injection.",
+    "History: first eligible contiguous6to10-turn window in the designated later meeting,30to200words, at least20 target-speaker words, natural professional conversation, no calibration or sensitive material. Preserve overlaps rather than silently reorder; exclude a window if removal breaks contiguity.",
+    "Do not relax source requirements to reach8 speakers. Automatic retrieval is not semantic source approval or human review. All source decisions are explicitly AI-assisted curation with archived quotes and exclusion reasons.",
+    "If fewer than4 candidates qualify, do not launch a multi-speaker factorial study under this policy. Preserve bounded qualification failure and choose a different justified path without revising this policy."
+  ],
+  "prospective_target_rule_if_later_authorized": "Two nonoverlapping natural continuation contexts per qualified speaker from the designated target meeting; exactly8 contiguous preceding turns <=300words, genuine target15to100words, all context finishes before target begins. First eligible windows in time order, no full target quotation in supplied sources/context. Reference is not a unique correct answer. Target content must never enter conditioning.",
+  "frozen_method_boundary": "Reuse existing four-rate Style construction and source-provision factor interpretation; no metric or prompt tuning on this corpus. Any later study must separately freeze exact material, mismatch donor assignment, eight factorial cells plus matched diagnostics, model/runtime, source hashes, valid outcome applicability and finite resource allocation before inference.",
+  "limitations": "Corpus/professional-topic transport, not population-wide real-speaker fidelity. Participant overlap across meetings requires group-dependence sensitivity; dated self-reports do not by themselves test temporal conflict. Human semantic outcomes stay unavailable until genuine review with a documented scale.",
+  "budget": {"new_generations_authorized_here": 0, "baseline_generations": 788, "baseline_seconds": 4485.684495999997},
+  "preservation": "No change to Englishv1, Japanese reserved58 speakers, ICSI frozen Bed failure, original human ratings, missing UNAVAILABLE record, protected review mappings or research_checkpoint_v5. All authentic source bodies and metadata mappings remain ignored private files."
+}

@@ -1,0 +1,142 @@
+{
+  "schema": "personaslm_english_novelty_synthesis_state_v1",
+  "created_utc": "2026-10-19 21:11:30 UTC",
+  "level": "EXPLORATORY_DEVELOPMENT",
+  "stage_status": "INTEGRATED_EVIDENCE_AND_MANUSCRIPT_STAGE_COMPLETE_NOT_PROGRAMME_COMPLETE",
+  "source_head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+  "branch": "research/autonomous-personaslm",
+  "new_generations": 0,
+  "new_inference_seconds": 0,
+  "new_human_labels": 0,
+  "resources": {
+    "generations": 988,
+    "generation_ceiling": 1200,
+    "inference_seconds": 6367.387376899885,
+    "inference_seconds_ceiling": 72000,
+    "remaining_generations": 212,
+    "independent_validation_reserve": 160,
+    "nonreserved_generations": 52,
+    "authority": "docs/validation/p1/english_model_comparison_v1/instruct_execution_receipt_v1.json",
+    "authority_sha256": "0e71d1f083ddf467ab829b887acae52b113aeddc2b9c62e9ef97abfa0a749ce1"
+  },
+  "completed": [
+    "300 archived responses re-audited through existing raw journal/source/native/model checks; bounded post-hoc empty/literal repetition measurements extracted once and separately reproduced.",
+    "All requested10papers identified, versions/publication status distinguished; detailed primary methods reviewed where accessible, access limits retained.",
+    "Crossref/OpenAlex/SemanticScholar metadata cross-checked for3formal papers; OpenReview challenge unresolved; no inferred publication from missing or default dates.",
+    "Existing99 response-level human reviews integrated without editing or rescaling; one unavailable record retained; no new200review mapping accessed.",
+    "Complete English manuscriptv3 produced, including actual RQ/condition-code crosswalk, all ordinal interaction directions, seven technical contrasts, new diagnostic coverage, literature/novelty boundary and unresolved RQs."
+  ],
+  "evidence": [
+    {
+      "path": "docs/PersonaSLM_manuscript_working_v3.md",
+      "sha256": "6400ba11f02a485bfcb70515916c310f0d2b9f914a89cae5b7e83a1d906779fc"
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/analysis_scope_v1.json",
+      "sha256": "c8dfb170439c06d9bfc74e3e32266f71e5c0cdf424f7b2495e7f6314757c2edc"
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/diagnostic_implementation_v1.json",
+      "sha256": "eb05914fce5632884853ad4bbab0c732329a4c1abed1396ef212e10f420582cb"
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/response_diagnostics_v1.json",
+      "sha256": "59f082df6474dd3bb1ea95786d0a351f4dac6a3754b7587b0d0f37b7f630dab2"
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/integrated_findings_v1.txt",
+      "sha256": "37eec3b826ab86cc5c78e0b49e62dd8440a907c3b7f9a41efb959b2429377258"
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/literature_cluster_a_v1.txt",
+      "sha256": "94b1a3f658c19424061c12aec5db134626bda3032d280fd70049a8b1b4603a8a"
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/literature_cluster_b_v1.txt",
+      "sha256": "1e8023f023022b4063e81cf345e66b624f6a973a2f884fcdbae669c96eb1c55f"
+    },
+    {
+      "path": "docs/validation/p1/english_novelty_synthesis_v1/literature_cluster_c_v1.txt",
+      "sha256": "c2e63b03b5008b5cd12ee0542fdd18ac795503785441de7165118edae3448c7b"
+    },
+    {
+      "path": "tools/english_response_diagnostics_v1.py",
+      "sha256": "9880530a5fcf0d9c22ba90ea0d2029c70c852f72b4035b9c0f59cde17159ef94"
+    },
+    {
+      "path": "tests/test_english_response_diagnostics_v1.py",
+      "sha256": "1b8419ad7dec3080d5cb62e089b447c093a420abdad6edee185a325bb0030785"
+    }
+  ],
+  "private_new_evidence": {
+    "path": ".local/experiments/english_novelty_synthesis_v1/response_diagnostics_private_v1.json",
+    "sha256": "d54af9d37b437880eb4639868ab2f2f3167eebffbd0934010f99c376cfd590d6",
+    "public_distribution": false
+  },
+  "verification": {
+    "raw_recalculation": "RAW_REPRODUCTION_PASS",
+    "responses": 300,
+    "distinct_arithmetic": "Repetition counting and existing factorial arithmetic independently implemented; lexical extraction and journal utilities shared; not independent semantic validation.",
+    "tests": {
+      "final_passed": 69,
+      "final_seconds": 2.83,
+      "initial_default_temp_passed": 58,
+      "initial_default_temp_setup_errors": 11,
+      "cause": "PermissionError on existing system pytest temp root; resolved using a fresh validated local basetemp without changing system permissions.",
+      "warning": "Existing unknown cache_dir option with disabled cacheprovider."
+    },
+    "scientific_cross_review": "Read-only agent review checked numerical tables,105ordinal directions,NA denominators,protocol/RQcrosswalk,privacy and close-work claims. Wording corrections only; frozen numbers unchanged.",
+    "manuscript_relative_links": "ALL_EXIST",
+    "public_sensitive_pattern_scan": "NO_KEY_PATTERNS_FOUND; manual content review still required, not a guarantee",
+    "frozen_v2_manuscript_sha256": "3eb2933c3509003624233eace0bb0953f8aa1fcfa040547811c22b36dae7ea57",
+    "original_human_file_sha256": "1c7c5bd5bc1684591df5c1a1c959fce763b10f9de475d7436299ce221a3b1aee",
+    "previous_v6_checkpoint_sha256": "6c64800524480f0c79ac05496ff7fb9da9cee60ac686d0cf0e42463b77ea3e47"
+  },
+  "decision": {
+    "primary_route": "GO bounded empirical contribution",
+    "algorithm": "NO_VALIDATED_NOVEL_ALGORITHM; existing repetition does not justify semantic repair or renamed prior method",
+    "next_semantic_action": "Genuine review of the existing200mixed responses, then pre-join freeze of missingness/NA-aware ordinal analysis and matched quality/cost comparison.",
+    "human_package": ".local/reviewer-packages/english_model_comparison_v1",
+    "required_human_action": "Read READ_ME.txt and case dossiers in records.html; save genuine ratings in WORKING.csv using the existing REVIEW.csv schema and report actual exposure/assistance. Never fill uncertain judgments with AI labels.",
+    "protected_new_mapping": "NOT_OPENED_FOR_THIS_STAGE",
+    "independent_validation": "NOT_EXECUTED; English source-qualified cohort still absent; retain160generationreserve and untouched58Japanese speakers",
+    "unanswered": [
+      "Validated factual/temporal contamination",
+      "New200semantic configuration effects",
+      "Pure model-size or instruction-tuning effect",
+      "General behavioral Persona Fidelity",
+      "Retrieval/ranking/LoRA comparative benefit",
+      "Independent new-speaker validation"
+    ],
+    "avoid": [
+      "Do not repeat any completed generation or this completed raw audit without a changed input or concrete discrepancy.",
+      "Do not lower frozen source/RAM gates, consume validation targets for tuning, or optimize the lexical diagnostic as semantic fidelity.",
+      "Do not repeat absent-human-file polling. Resume genuine intake only on new submission.",
+      "Do not claim publication readiness, exhaustive prior-art priority, or continuous background science."
+    ]
+  },
+  "reproducibility": {
+    "public_clone": "PARTIAL",
+    "commands": "See integrated_findings_v1.txt; private permitted raw/native/model dependencies required for full archival verify.",
+    "new_large_git_checkpoint": false,
+    "git_add_commit_push": false,
+    "preservation": "Existing sealed backup untouched; this small additive stage will have a separate verified local supplement receipt. No remote/off-device claim."
+  },
+  "literature": {
+    "as_of": "2026-10-19",
+    "same_day_discovery_recrawl": false,
+    "working_scheduler_sources": [
+      "arxiv",
+      "crossref",
+      "openalex"
+    ],
+    "automated_daily_deep_ai_review": false,
+    "all_requested_sources_directly_scheduled": false,
+    "access_limits": [
+      "KBS full methods not verified",
+      "PMLR finalPDF versus arXivv2 equivalence unverified",
+      "PersonaVectors current formal acceptance not reverified"
+    ],
+    "assessment": "Targeted primary-source review, not exhaustive systematic search or independent reproduction"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "personaslm_english_real_speaker_stage_decision_v1",
+  "date": "2026-10-19",
+  "status": "DATASET_AND_ENDPOINT_QUALIFICATION_NOT_INFERENCE_REGISTRATION",
+  "authority": "Researcher's current end-to-end English execution contract; no financial expenditure, fabricated consent, historical changes or automatic Git operations.",
+  "scope": "One English original-language authentic-speaker S/F/H generation programme under Protocol v1.1 with prospective stage-specific amendments. Japanese results remain historical; no translation of that corpus.",
+  "baseline": {
+    "generations": 688,
+    "generation_limit": 1200,
+    "inference_seconds": 3973.1201058999386,
+    "inference_seconds_limit": 72000,
+    "receipt": "docs/validation/p1/real_persona_chat_continuation_v1/execution_receipt_v1.json",
+    "receipt_sha256": "4e4d2cae32d9eaff8916ad437682fd3e97624506bc93c4d6e39c409d34439f23"
+  },
+  "alternatives": [
+    {"path": "CANDOR natural English conversations", "value": "Repeated genuine speakers and surveys directly match persona modelling.", "boundary": "Requires truthful institutional application and distributor approval; no approval or access has been fabricated.", "decision": "EXTERNAL_ACCESS_DEPENDENCY"},
+    {"path": "Original SwDA transcripts with verified speaker/date metadata", "value": "Large repeated-speaker sample, English conversational topics, potential speaker-disjoint factorial and replication cohorts.", "boundary": "ConvoKit states CC BY-NC-SA3; original distribution/metadata and conversion attribution require checking. Demographics are not a substitute for meaningful personal facts. Exclude Penn Treebank parses and processed disfluency-stripped corpus.", "decision": "BOUNDED_QUALIFICATION"},
+    {"path": "ICSI natural meetings", "value": "Authentic recurring English speakers, dated professional dialogue, official CC BY4 transcript release.", "boundary": "Meeting-domain population; real professional self-reports must be present, not invented. Speaker/meeting overlap and eligible cohort size require qualification.", "decision": "BOUNDED_QUALIFICATION"}
+  ],
+  "qualification_limits": {
+    "downloads": "Only openly distributed text/metadata needed for two leading candidates, in private local paths; no audio/video, private messages, identity enrichment, gated-access bypass or external redistribution.",
+    "speaker_content": "Inspect metadata before targets. Do not read reserved Japanese58 targets. No English validation target split is claimed frozen yet.",
+    "facts": "Require explicit, nonsensitive, speaker-attributed source-grounded statements or adequately documented metadata. Distinguish a self-report from independently verified world truth; never infer missing personal facts.",
+    "style": "Derive from earlier development dialogue; exclude semantic facts from style instructions. Length, lexical copying and formatting alone cannot establish fidelity.",
+    "history": "Use real dated earlier dialogue; no chronology from absent timestamps, ID order or fabricated updates.",
+    "privacy": "Pseudonymous local research only; avoid identity linkage, sensitive attributes and third-party private information; no deployed impersonation. A copyright licence is not comprehensive privacy clearance or specific modern generative consent.",
+    "evaluation": "Genuine English human judgments are needed for open-ended fidelity/relevance/coherence claims. Objective measurements must have a frozen applicability rule and must not be relabelled semantic validity. No unvalidated AI labels as human references.",
+    "model": "Reuse verified CPU artifacts if scientifically suitable. Check current RAM before model loading; do not lower an existing model/configuration safety envelope or kill other applications.",
+    "stopping": "Do not spend inference until dataset, privacy, case provenance, endpoint applicability and model-specific RAM prerequisites all pass. A real unresolved prerequisite is not permission to simulate completion. Do not exhaust the allowance on a weaker surrogate project."
+  },
+  "resource_planning_not_authorized_run": {
+    "preferred_balanced_main": "Up to256 development and192 independent replication generations if qualified speaker/context counts and valid endpoints justify them; not a quota or frozen sample.",
+    "reserve": "At least64 of512 remaining requests outside those main batches, for essential controls or later justified work; all allocations remain cumulative.",
+    "final_freeze_required": "Actual speakers, cases, development/validation isolation, eight conditions, prompts, endpoints, scorer, inference configuration and finite bounds before any inference."
+  },
+  "rq_boundaries": {
+    "RQ1": "Full S/F/H main and interaction effects are the intended central estimands; not replaced by recognition bias or surface distance.",
+    "RQ2": "Historical consistency only where source validity supports it; natural temporal change is not presumed.",
+    "RQ3": "Model-size/Base-Instruct conclusions require an actual controlled model comparison; one-model data cannot answer this.",
+    "RQ4": "Retrieval/ranking/LoRA require separate fair comparisons after interpretable baseline failures; none is claimed executed or novel."
+  }
+}

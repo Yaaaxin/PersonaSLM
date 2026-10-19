@@ -1,0 +1,25 @@
+{
+  "analysis_sha256": "cd55e86eea86deab451252ace4e08cb4e872e7f9d22f45264bffdfda7ba362ae",
+  "bindings": {
+    "base_receipt_sha256": "650f5c65a237aacf046701143b72ff3a1872c9dc5c80c44655c90c25dbbdb11e",
+    "instruct_receipt_sha256": "0e71d1f083ddf467ab829b887acae52b113aeddc2b9c62e9ef97abfa0a749ce1",
+    "manifest_sha256": {
+      "base": "a8e39f5ea10f408c0dc937e22f734c4cb77521dae5b0230e832edc0959bcfb30",
+      "instruct": "e1a8ebfbedf2bd5697b7b9a96c9486679b528ab88c480a727f91b583109d2dd3"
+    },
+    "private_evidence_canonical_sha256": "ef36082cd6dfdd17f23158984f77279a91127aa5973c693f0c04ca6492abe49b",
+    "protocol_and_artifacts": {
+      "artifact_receipt_sha256": "5020d20914dcd3e672dfe4c56a67ff6e0f7e27fe541b8fcc29c67704a044d337",
+      "protocol_sha256": "550c18457e28068aa7b38cdfeef00dec0c18dc36e9c1fd8d5443afa036a91aa1"
+    },
+    "terminal_sha256": {
+      "base": "6e04afa56c11c35702e94d1bef5f568436bcb19bc67acac2b446ac934816339a",
+      "instruct": "de8e4df7baecba82422044a2feaa157302b6c214ccb961815b2840eecac701d0"
+    }
+  },
+  "human_labels_created": 0,
+  "private_file_sha256": "744c18b12b66a7a83894466eefd6dcb2adcd18563efd63f00c2f7eed57a07b9f",
+  "schema": "english_model_comparison_independent_arithmetic_v1",
+  "scope": "ARITHMETIC_NOT_INDEPENDENT_EXPERIMENT_OR_REVIEW",
+  "status": "PASS"
+}

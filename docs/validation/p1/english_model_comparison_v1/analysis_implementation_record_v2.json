@@ -1,0 +1,14 @@
+{
+  "schema": "english_model_comparison_analysis_implementation_record_v2",
+  "date": "2026-10-19",
+  "preserves": "analysis_implementation_record_v1.json and all frozen execution sources/protocols",
+  "reason": "Pre-output-analysis adversarial review found that the initial analysis called the execution validator, which requires current Git HEAD to equal execution HEAD. A later legitimate human commit would incorrectly block byte-identical archive reproduction. No actual analysis results existed at discovery.",
+  "source": "tools/english_model_comparison_analysis_v1.py",
+  "source_sha256": "5850fc2b7144f3066fc14fc261207c34633dc408e49fa098b6c62e1ea45f87ad",
+  "test": "tests/test_english_model_comparison_analysis_v1.py",
+  "test_sha256": "8405537d77babbcd77a558e1dbc9f7872f42fa1e4a987f9b5356dfc1c000ae76",
+  "fix": "Only the new archival analysis adapter changed. Validate exact frozen model/protocol/source bytes, source-to-prompt reconstruction, allocation, native token receipts, every snapshot, terminal journal, actual HTTP payload/response and cumulative predecessor accounting. Preserve original source_head as provenance. Do not query or forge current HEAD, and do not loosen the execution validator.",
+  "review": "Root read the new validation path and tests. Eighteen authored-fixture tests pass including legitimate HEAD advancement and source/prompt/input/model/template/allocation tampering. Reviewer separately checked all seven orthogonal factorial basis vectors with no participant data.",
+  "timing": "Repair and lightweight tests occurred during Base inference, before actual new response analysis. All v1 concurrent-load and semantic-analysis limitations remain. No frozen helper, inference source or result was changed.",
+  "new_generations_or_human_labels": 0
+}

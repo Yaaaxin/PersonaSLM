@@ -1,0 +1,20 @@
+{
+  "schema": "personaslm_english_stage_nonlaunch_resource_check_v1",
+  "observed_utc": "2026-10-19T15:07:20.709636+00:00",
+  "scope": "MODEL_RESOURCE_ENVELOPE_ONLY_NOT_STUDY_EXECUTION_AUTHORIZATION",
+  "status": "PASS",
+  "model": "Official Qwen3-0.6B Q8_0, existing2048 context envelope",
+  "model_sha256_verified": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+  "observer": "src/personaslm/observations.py:memory_observation",
+  "observer_sha256": "c276fe85b329e3d099e66c67f2c7afdd0b6f77d39ec9f134da43140ff4ddab4b",
+  "minimum_available_physical_bytes": 2147483648,
+  "observed_available_physical_bytes": 3143102464,
+  "observed_total_physical_bytes": 14846197760,
+  "deficit_bytes": 0,
+  "prior_readonly_observation": {"local_time": "2026-10-19T17:00:14.7053184+02:00", "available_bytes": 1724665856, "source": "Win32_OperatingSystem.FreePhysicalMemory", "not_an_official_failed_experiment_preflight": true},
+  "interpretation": "Physical memory materially changed. Do not persist the earlier insufficiency as the current blocker. A fresh model-specific controller preflight remains mandatory after final experiment registration.",
+  "new_generations": 0,
+  "model_loaded": false,
+  "unrelated_applications_terminated": false,
+  "threshold_lowered": false
+}

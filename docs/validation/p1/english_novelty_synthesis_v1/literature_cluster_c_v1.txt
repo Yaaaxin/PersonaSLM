@@ -1,0 +1,133 @@
+PersonaSLM: primary-source literature cluster C
+Verified on 2026-10-19. Scientific synthesis, not new experimental evidence.
+Scope: four requested works; main methods, result tables, and relevant appendices.
+Numbers below are author-reported, not independently reproduced.
+
+Identity and publication audit
+All four supplied identifiers resolve to the supplied titles. Three works have
+verified formal Findings publications; [10] is verified only as a preprint.
+Preprint/publication pairs are one work, not two independent discoveries.
+Version dates are repository dates, not evidence of a new experiment or acceptance.
+No protected research records, participant mappings, or reserved targets were read.
+
+[4] Memory-Driven Role-Playing: Evaluation and Enhancement of Persona Knowledge Utilization in LLMs
+
+Verified bibliographic identity:
+Kai Wang, Haoyang You, Yang Zhang, Zhongjie Wang. Findings of ACL 2026,
+July, pp. 23475-23510. DOI: 10.18653/v1/2026.findings-acl.1175.
+Matching preprint: arXiv:2603.19313v1, submitted 2026-03-14.
+The preprint abstract calls one ability Recalling; the formal paper calls it
+Selecting. This is a version/terminology difference, not a separate discovery.
+Metadata: https://aclanthology.org/2026.findings-acl.1175/
+Preprint: https://arxiv.org/abs/2603.19313
+Primary full text: https://aclanthology.org/2026.findings-acl.1175.pdf
+Read locators: Sections 3-4; Table 2; Appendices C, E.6, F, K, M-N, P-Q.
+
+Verified technical capsule:
+MRBench uses characters from ten English and six Chinese novels, not authentic speakers. MRPrompt is a single-pass, prompt-only combination of structured persona facets and cue-driven activation with temporal/epistemic boundaries. Twelve backbones include Qwen3-0.6B. Eight MREval metrics cover anchoring, selecting, bounding and enactment, including anonymization and counterfactual/ablation controls. Qwen3-0.6B aggregate scores are 6.91/7.00/7.29 for Base/Card/MRPrompt; “Base” denotes a prompting baseline, NOT a Base checkpoint. GPT-4.1-mini scoring is calibrated against 800 judgments from one bilingual annotator; a separate post-hoc 100-instance study uses four raters and another judge. The latter reports single-rater ICC 0.6012 and GPT-4.1-mini versus human-mean Spearman 0.3938. Thus human calibration exists, but agreement is not perfect. No train/development/test partition is used for this evaluation benchmark. All inference uses APIs; hardware and GPU-hours are unavailable. Token and latency comparisons do not establish CPU-matched efficiency or rule out every prompt-length effect. Source code is linked, but not executed here.
+
+PersonaSLM inference:
+This is direct prior art for structured, bounded persona prompting, including
+our earlier 0.6B backbone, but not validation of real-speaker S/F/H separation.
+A future comparison must distinguish profile information, prompt instructions,
+and token budget; do not borrow its human calibration as our own.
+
+[5] Beyond Dialogue Time: Temporal Semantic Memory for Personalized LLM Agents
+
+Verified bibliographic identity:
+Miao Su, Yucan Guo, Zhongni Hou, Long Bai, Zixuan Li, Yufei Zhang,
+Guojun Yin, Wei Lin, Xiaolong Jin, Jiafeng Guo, Xueqi Cheng.
+Findings of ACL 2026, July, pp. 29935-29951.
+DOI: 10.18653/v1/2026.findings-acl.1496.
+Matching preprint arXiv:2601.07468: v1 2026-01-12, v2 2026-09-02.
+The later arXiv revision date does not imply that the July publication and v2
+are byte-identical. The quantitative capsule below follows the Anthology PDF.
+Metadata: https://aclanthology.org/2026.findings-acl.1496/
+Versions: https://arxiv.org/abs/2601.07468
+Primary full text: https://aclanthology.org/2026.findings-acl.1496.pdf
+Read locators: Sections 3.1-3.5, 4.1-4.4; Tables 1-4;
+Limitations; Appendices A.1-A.4.
+
+Verified technical capsule:
+TSM separates utterance time from fact validity, builds an interval-aware knowledge graph linked to raw turns, consolidates durative topic/persona summaries, and retrieves using temporal intent plus semantic relevance. Models include GPT-4o-mini and Qwen3-30B-A3B-Instruct-2507; retrieval uses text-embedding-3-small, top-25, and an 8,192-token output ceiling. LongMemEval/LoCoMo QA accuracy is judged by GPT-4.1-mini, not an authentic-speaker imitation assessment; no human-rating validation was located. Table 1 reports GPT-4o-mini LongMemEval accuracy 74.8% versus A-MEM 62.6%. Table 2 instead reports Qwen3 LoCoMo TSM 71.23% versus Full Text 74.87%: universal superiority is unsupported. Appendix A.3 includes externally sourced baseline results and only one fixed-setting run. Hardware is eight A100-80GB GPUs and 256GB system memory. Table 4 trades higher memory-construction tokens for lower retrieval latency; it is not an end-to-end CPU cost comparison. Fixed temporal-summary granularity is an acknowledged limitation. Source-time validity is substantive prior art, not equivalent to merely sorting dialogue dates.
+
+PersonaSLM inference:
+RQ2 must distinguish when something was said from when it was true. Our short
+historical excerpts do not supply TSM-like temporal coverage. Temporal filtering
+or linked provenance alone cannot support an originality claim. A CPU adaptation
+would need full construction and serving costs, not retrieval latency alone.
+
+[9] Post Persona Alignment for Multi-Session Dialogue Generation
+
+Verified bibliographic identity:
+Yi-Pei Chen, Noriki Nishida, Hideki Nakayama, Yuji Matsumoto.
+arXiv:2506.11857, v1 2025-06-13, v2 2025-11-05.
+Formal publication: Findings of EMNLP 2025, November, pp. 20184-20192.
+DOI: 10.18653/v1/2025.findings-emnlp.1098.
+The supplied arXiv identifier is correct, but this is no longer merely a preprint.
+Metadata: https://aclanthology.org/2025.findings-emnlp.1098/
+Versions: https://arxiv.org/abs/2506.11857
+Primary full text: https://aclanthology.org/2025.findings-emnlp.1098.pdf
+Additional accessible text: https://arxiv.org/html/2506.11857v2
+Read locators: Sections 3.1-3.2, 4.1-4.2; Tables 1-3; Appendices A-B.
+
+Verified technical capsule:
+PPA extracts historical personal-knowledge triples, verbalizes them, and stores them with persona facts. A context-only draft becomes the SentenceBERT retrieval query; the retrieved memories guide a second GPT-3.5 generation. Top-k is five, cosine threshold 0.2. The evaluation uses LLM-generated multi-session dialogues, averaging 11.9 sessions, not authentic participant histories. Baselines include DirectGen, DialogRetr, BoB and SimOAP. Outcomes are C-Score, persona-fact overlap, n-gram entropy and ROUGE. Table 1 reports PPA/DirectGen C-Score 0.456/0.221 and Persona-F1 0.146/0.092, but ROUGE 0.182/0.241. Context-query and memory-representation ablations support the proposed mechanism within that setup. No genuine human evaluation, confidence interval, or CPU/peak-RAM benchmark was located in the inspected methods/appendices. Two online generations plus prior extraction are not compute-equivalent to one-pass generation merely because the backbone matches. Appendix A contains output placeholders; their existence motivates a control, not a claim that this paper's result is contaminated. The results do not independently validate real-speaker linguistic fidelity.
+
+PersonaSLM inference:
+Draft-then-retrieve-then-revise is an existing RQ4 baseline, not our invention.
+A fair future experiment needs a two-call no-retrieval control and matched
+information access, plus human quality assessment. Selecting from our tiny
+history pool may not discriminate retrieval methods meaningfully.
+
+[10] Do Personalized LLMs Need the Whole Conversation? Matching the Full History with Only 5% of Its Text via Relevance-Filtered Context
+
+Verified bibliographic identity:
+Erika Hayashi, Andrew Shin. arXiv:2610.14952v1, submitted 2026-10-10.
+No formal publication/acceptance is established by the inspected primary record.
+Its arXiv DOI is an identifier, not proof of peer review.
+Metadata: https://arxiv.org/abs/2610.14952
+Primary full text: https://arxiv.org/html/2610.14952v1
+Read locators: Experimental Setup, Results, Limitations; Tables 1, 3-5;
+Appendices A-D. Model names here reproduce the paper's reported configurations;
+provider availability and hidden service revisions were not independently audited.
+
+Verified technical capsule:
+The main experiment uses 180 synthetic PersonaMem-v2 four-option questions, at most one per persona, with approximately 32k-token histories. Sentence chunks are ranked by text-embedding-3-small request similarity, budgeted by characters, and restored chronologically. GPT-5.6-terra and Claude Opus 5.5 select answers; summaries are request-blind. At 7,331 characters (4.7% of full history), retrieval accuracy is 40.6%/54.4%, versus full-history 43.3%/54.4%. Paired bootstrap differences are -2.8 points [-10.0,3.9] and 0.0 [-7.8,7.8]. Failure to detect a difference is NOT a prespecified equivalence result. The reported resource saving is input text, not measured CPU latency, peak RAM, or end-to-end cost including indexing. Parsing failures get one retry. No human semantic evaluation or open-ended speaker imitation is established. Appendix D discloses earlier answerability, parsing, length and dependence confounds. Request-aware retrieval versus request-blind summarization and single runs limit causal interpretation. Ask-to-forget results also caution against assuming that retaining preference evidence preserves the user's latest instructions.
+
+PersonaSLM inference:
+This blocks novelty claims for generic relevance filtering or a universal
+five-percent rule. It does not establish a twenty-fold CPU saving for our
+already-short history or reliable open-ended persona generation. A meaningful
+replication requires sufficient history diversity and fixed quality-loss margins.
+
+Cross-paper scientific decision (inference, not a new empirical result)
+
+GO: retain the authentic-speaker S/F/H question and finish interpretable analysis
+of already collected observations. Separate semantic judgments, lexical proxies,
+native generation behavior, and CPU costs. These papers do not replace our
+missing independent human/speaker validation.
+
+PIVOT: frame an eventual RQ4 experiment around a demonstrated quality-cost
+failure and a sufficiently rich, qualified English history pool. Compare at least
+full eligible history, a length-matched non-relevance control, and relevance-based
+selection under equal information. Include preprocessing and all inference calls.
+Temporal claims additionally require supported event-validity intervals.
+
+STOP: do not launch another under-discriminating retrieval trial merely because
+few historical snippets are available. Do not claim novelty for structured
+persona prompts, temporal memory filtering, response-guided revision, or dense
+relevance selection. The unresolved opportunity is empirical: whether controlled
+conditioning and selective evidence improve authentic-speaker dialogue quality
+under an explicit local-compute budget. Its novelty and benefit remain unproven.
+
+Verification boundary
+This was bounded primary-source reading, not a systematic review, code execution,
+benchmark reproduction, or an independently validated algorithm comparison.
+No extra competitor was added merely to enlarge the bibliography. Paper-linked
+software was not executed. The browser could extract PDF text but could not
+render the requested TSM screenshot; visual table-layout verification is not
+claimed. The TSM Table 2 limitation above follows the extracted, labeled rows.
+No scientific threshold, historical output, authorization ledger, or human rating
+was modified. Generation cost of this task: zero model-inference requests.
+

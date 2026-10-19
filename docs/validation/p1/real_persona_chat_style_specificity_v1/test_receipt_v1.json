@@ -1,0 +1,29 @@
+{
+  "schema_version": "personaslm_rpc_specificity_targeted_verification_v1",
+  "date": "2026-10-19",
+  "environment": {"python": "3.14.3", "pytest": "9.0.2", "PYTHONPATH": "tools;src"},
+  "final_targeted_tests": {
+    "status": "PASS",
+    "passed": 57,
+    "failed": 0,
+    "errors": 0,
+    "pytest_reported_seconds": 0.76,
+    "command": "python -m pytest -q tests/test_real_persona_chat_style_specificity_v1.py tests/test_real_persona_chat_style_specificity_suffix_v1.py tests/test_real_persona_chat_sfh_review_delivery_correction_v1_1.py tests/test_real_persona_chat_sfh_pilot_v1.py tests/test_real_persona_chat_sfh_pilot_execution_v1.py --basetemp=.local/tmp/pytest_rpc_specificity_closeout_20261019_v2 -o cache_dir=.local/tmp/pytest_cache_specificity_closeout_v2 --tb=short",
+    "temporary_path_safety": "Created the .local/tmp parent; verified the exact new basetemp did not exist before pytest. No existing directory deleted or reused. Future verification must choose a fresh nonexisting child."
+  },
+  "earlier_errors_preserved": [
+    "A command used the nonexistent test_real_persona_chat_sfh_execute_v1.py filename and collected no tests; corrected to the existing pilot_execution file.",
+    "Default Windows pytest temporary directory returned PermissionError:37 passed,20 setup errors,1 cache-option warning. No application assertion failure was observed in this attempt.",
+    "The first explicit .local/tmp child lacked its parent:37 passed,20 setup errors. Created only the parent, selected a new nonexistent child, and reran unchanged source/tests successfully. No frozen evidence or thresholds changed."
+  ],
+  "independent_analysis": {
+    "status": "PASS64",
+    "root_read_only_recheck": "combine(False) independently revalidated both real chains and recomputed all64 outcomes; returned public/private analysis hashes matched existing v1.1 files.",
+    "synthetic_combined_self_test": "PASS; not model evidence",
+    "analysis_sha256": "1da84de9343c2ed1047b3f41b4cd4b0c7460f7de66b2fb98bafd59f9353bcaed",
+    "combined_source_sha256": "d2fae4823d03674d729674a9cc92399fb46938a8caddc1af1c72e37d048bff2a",
+    "pre_use_fix": "The in-memory frozen-scorer capture now JSON-round-trips its output, matching file serialization of integer dictionary keys. Corrected before actual v1.1 artifact creation; no historical scorer or numeric endpoint changed."
+  },
+  "limits": "Targeted local checks, not a newly clean full repository suite or clean public-clone scientific reproduction. Existing full-suite/dependency limitations remain documented. Some review tests require deliberately withheld local protocol data. No model generation or human judgment was produced by these checks.",
+  "git_index_after_checks": "EMPTY; no add, commit or push executed"
+}

@@ -1,0 +1,522 @@
+{
+  "analysis_sha256": "1da84de9343c2ed1047b3f41b4cd4b0c7460f7de66b2fb98bafd59f9353bcaed",
+  "bindings": {
+    "combined_controller_sha256": "d2fae4823d03674d729674a9cc92399fb46938a8caddc1af1c72e37d048bff2a",
+    "independent_arithmetic_sha256": "c90b9bb26c349e3cbac5aa4b1be9ba202a6d99dfe159c7205fba448c51fc6b74",
+    "original_claim_sha256": "fdc4e662eaa83ae9473ce5d67807bfba33e764c9168c6cdcc85afccf73eba6fc",
+    "original_journal_manifest_sha256": "3856c9efd62f811a7db4d94e4bc2b1c6a7c1e9a3ca21a8d73e155d9a1e0f5036",
+    "preserved_partial_artifact_hashes": {
+      ".local/experiments/real_persona_chat_style_specificity_v1/analysis_private_v1.json": "07fb52fb6ce38b38718c9b53f3680db382d6fd9c8bf171cf9848d5a242bf1535",
+      "docs/validation/p1/real_persona_chat_style_specificity_v1/analysis_v1.json": "526bdcbaf63ebb612ce2321cfe90503b6ead969bdb31c416a88d8891ff5d2ce7",
+      "docs/validation/p1/real_persona_chat_style_specificity_v1/execution_receipt_v1.json": "a641ea3cacd14cdfc704f05234f268e28119b82adba88477b63f6b084b7e7cac",
+      "docs/validation/p1/real_persona_chat_style_specificity_v1/independent_analysis_reproduction_v1.json": "67bc84ee580441b5d2d0a64ff8764be07a7aa9a036708ddea0757e0ba3ab8586"
+    },
+    "suffix_amendment_sha256": "829a268efdcc2f15132d0c33213d3e8eee4e4c4ba93eebc4deaae7133b489135",
+    "suffix_claim_sha256": "1fcb31c695ad552faff57c0dda1d91590c687ea8e29793a30388ef1b6322a01c",
+    "suffix_journal_manifest_sha256": "e7e967defd7523171bb72e4ddc96f492cb4f4052a3e4dc4231d715684ef346e3",
+    "suffix_registration_sha256": "5d9d081cb19c76fc0253ac556a1ef00c16710f03e255a6a6aa954e755492ef50",
+    "terminal_event_sha256_by_session": [
+      "4ea4bc17c2f4bd9ad4f014e3546117a159c3961673d3ec4a54ecdde1a86fc70d",
+      "1be53e9fda88efd837a307226769e940d91d1bd77f75d23d1a3ae9a47acc8e95"
+    ]
+  },
+  "budget": {
+    "active_session_wall_seconds": 328.59005670000624,
+    "attempted_input_tokens": 20016,
+    "attempts": 64,
+    "completion_inference_seconds": 314.19268889998784,
+    "cumulative_generations": 636,
+    "cumulative_inference_seconds": 3828.328792899886,
+    "failed_seconds": 0.0,
+    "latency_and_memory_limitation": "The final suffix uses a fresh owned server after a live-RAM safety stop. Session, order, cache/process state and speaker/context allocation can confound latency and memory contrasts. No assertion of externally repaired hardware or bit-identical cross-session inference.",
+    "observed_output_tokens": 815,
+    "receipt_sha256_by_session": [
+      "a641ea3cacd14cdfc704f05234f268e28119b82adba88477b63f6b084b7e7cac",
+      "90ac478cdf9969976b74e945c487443c38dd157357f755afd4b3bec408bff29c"
+    ],
+    "remaining_generations": 564,
+    "remaining_inference_seconds": 68171.67120710011,
+    "responses": 64,
+    "retries": 0,
+    "session_attempts": [
+      54,
+      10
+    ],
+    "session_count": 2,
+    "session_inference_seconds": [
+      250.87214489997132,
+      63.320544000016525
+    ],
+    "status": "COMPLETE",
+    "terminal_event_sha256": "1be53e9fda88efd837a307226769e940d91d1bd77f75d23d1a3ae9a47acc8e95",
+    "terminal_event_sha256_by_session": [
+      "4ea4bc17c2f4bd9ad4f014e3546117a159c3961673d3ec4a54ecdde1a86fc70d",
+      "1be53e9fda88efd837a307226769e940d91d1bd77f75d23d1a3ae9a47acc8e95"
+    ],
+    "unattempted": 0
+  },
+  "classification": "INDEPENDENT_ARITHMETIC_REPRODUCTION_NOT_INDEPENDENT_EXPERIMENT",
+  "conditions": {
+    "CORRECT": {
+      "input_tokens": {
+        "mean": 341.25,
+        "n": 16
+      },
+      "margin": {
+        "mean": 0.007285257390068603,
+        "n": 16
+      },
+      "output_chars": {
+        "mean": 17.75,
+        "n": 16
+      },
+      "prefix_margin": {
+        "mean": 0.0038335693005484943,
+        "n": 16
+      },
+      "seconds": {
+        "mean": 5.107718468750136,
+        "n": 16
+      },
+      "tokens": {
+        "mean": 11.5,
+        "n": 16
+      }
+    },
+    "LENGTH": {
+      "input_tokens": {
+        "mean": 291.25,
+        "n": 16
+      },
+      "margin": {
+        "mean": 0.006795653331502223,
+        "n": 16
+      },
+      "output_chars": {
+        "mean": 14.3125,
+        "n": 16
+      },
+      "prefix_margin": {
+        "mean": 0.0009295455884083602,
+        "n": 16
+      },
+      "seconds": {
+        "mean": 4.3824976312507715,
+        "n": 16
+      },
+      "tokens": {
+        "mean": 8.625,
+        "n": 16
+      }
+    },
+    "MISMATCH": {
+      "input_tokens": {
+        "mean": 341.25,
+        "n": 16
+      },
+      "margin": {
+        "mean": 0.006107610559966982,
+        "n": 16
+      },
+      "output_chars": {
+        "mean": 20.9375,
+        "n": 16
+      },
+      "prefix_margin": {
+        "mean": 0.0019541090058650167,
+        "n": 16
+      },
+      "seconds": {
+        "mean": 5.3156770124987816,
+        "n": 16
+      },
+      "tokens": {
+        "mean": 13.625,
+        "n": 16
+      }
+    },
+    "NONE": {
+      "input_tokens": {
+        "mean": 277.25,
+        "n": 16
+      },
+      "margin": {
+        "mean": 0.003968631018972765,
+        "n": 16
+      },
+      "output_chars": {
+        "mean": 28.375,
+        "n": 16
+      },
+      "prefix_margin": {
+        "mean": 0.0027246465241784613,
+        "n": 16
+      },
+      "seconds": {
+        "mean": 4.831149943749551,
+        "n": 16
+      },
+      "tokens": {
+        "mean": 17.1875,
+        "n": 16
+      }
+    }
+  },
+  "contrasts": {
+    "eos_margin": {
+      "CORRECT-LENGTH": {
+        "all_16_context_logical_bounds": [
+          0.0004896040585663805,
+          0.0004896040585663805
+        ],
+        "leave_one_speaker_out_mean_range": [
+          -0.0012717626180673695,
+          0.002233296173861408
+        ],
+        "mean": 0.0004896040585663805,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -0.01171624074849881,
+          0.012819170795002631
+        ]
+      },
+      "CORRECT-MISMATCH": {
+        "all_16_context_logical_bounds": [
+          -0.12361920587324386,
+          0.12638079412675612
+        ],
+        "leave_one_speaker_out_mean_range": [
+          -0.0006348986356609106,
+          4.8106631751799904e-05
+        ],
+        "mean": -0.0004854280220270945,
+        "missing_contexts": 1,
+        "n": 7,
+        "paired_contexts": 15,
+        "range": [
+          -0.003686635944700461,
+          0.00041139565977580186
+        ]
+      },
+      "LENGTH-NONE": {
+        "all_16_context_logical_bounds": [
+          -0.12217297768747054,
+          0.12782702231252946
+        ],
+        "leave_one_speaker_out_mean_range": [
+          -0.0008000642965841452,
+          0.006655147111821445
+        ],
+        "mean": 0.002888309807259181,
+        "missing_contexts": 1,
+        "n": 7,
+        "paired_contexts": 15,
+        "range": [
+          -0.019712714020114402,
+          0.025018554430319136
+        ]
+      }
+    },
+    "margin": {
+      "CORRECT-LENGTH": {
+        "all_16_context_logical_bounds": [
+          0.0004896040585663805,
+          0.0004896040585663805
+        ],
+        "leave_one_speaker_out_mean_range": [
+          -0.0012717626180673695,
+          0.002233296173861408
+        ],
+        "mean": 0.0004896040585663805,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -0.01171624074849881,
+          0.012819170795002631
+        ]
+      },
+      "CORRECT-MISMATCH": {
+        "all_16_context_logical_bounds": [
+          0.0011776468301016214,
+          0.0011776468301016214
+        ],
+        "leave_one_speaker_out_mean_range": [
+          -0.0004854280220270945,
+          0.0018725443693590616
+        ],
+        "mean": 0.0011776468301016214,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -0.003686635944700461,
+          0.012819170795002633
+        ]
+      },
+      "LENGTH-NONE": {
+        "all_16_context_logical_bounds": [
+          0.0028270223125294583,
+          0.0028270223125294583
+        ],
+        "leave_one_speaker_out_mean_range": [
+          -0.00034319656144049575,
+          0.006046984645764295
+        ],
+        "mean": 0.0028270223125294583,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -0.019712714020114402,
+          0.025018554430319136
+        ]
+      }
+    },
+    "output_chars": {
+      "CORRECT-LENGTH": {
+        "leave_one_speaker_out_mean_range": [
+          1.9285714285714286,
+          4.642857142857143
+        ],
+        "mean": 3.4375,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -5.0,
+          14.0
+        ]
+      },
+      "CORRECT-MISMATCH": {
+        "leave_one_speaker_out_mean_range": [
+          -5.428571428571429,
+          2.2142857142857144
+        ],
+        "mean": -3.1875,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -41.0,
+          12.5
+        ]
+      },
+      "LENGTH-NONE": {
+        "leave_one_speaker_out_mean_range": [
+          -17.0,
+          -7.428571428571429
+        ],
+        "mean": -14.0625,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -60.5,
+          6.5
+        ]
+      }
+    },
+    "prefix_margin": {
+      "CORRECT-LENGTH": {
+        "all_16_context_logical_bounds": [
+          0.002904023712140134,
+          0.002904023712140134
+        ],
+        "leave_one_speaker_out_mean_range": [
+          -0.00020303085270611542,
+          0.0043392924057111745
+        ],
+        "mean": 0.002904023712140134,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -0.007142857142857149,
+          0.02465340566606388
+        ]
+      },
+      "CORRECT-MISMATCH": {
+        "all_16_context_logical_bounds": [
+          0.0018794602946834776,
+          0.0018794602946834776
+        ],
+        "leave_one_speaker_out_mean_range": [
+          -0.0018475676370413223,
+          0.0034286288355004427
+        ],
+        "mean": 0.0018794602946834776,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -0.008964719491035278,
+          0.027968655816757077
+        ]
+      },
+      "LENGTH-NONE": {
+        "all_16_context_logical_bounds": [
+          -0.0017951009357701012,
+          -0.0017951009357701012
+        ],
+        "leave_one_speaker_out_mean_range": [
+          -0.003545559254244451,
+          0.0011629450693124255
+        ],
+        "mean": -0.0017951009357701012,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -0.022501422971347787,
+          0.010458107293550345
+        ]
+      }
+    },
+    "seconds": {
+      "CORRECT-LENGTH": {
+        "leave_one_speaker_out_mean_range": [
+          0.6449555285715698,
+          0.7631341428558309
+        ],
+        "mean": 0.7252208374993643,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          0.459827700004098,
+          1.287077999993926
+        ]
+      },
+      "CORRECT-MISMATCH": {
+        "leave_one_speaker_out_mean_range": [
+          -0.272237107140037,
+          0.04452964285883354
+        ],
+        "mean": -0.20795854374864575,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -1.9753758500010008,
+          0.2419913999910932
+        ]
+      },
+      "LENGTH-NONE": {
+        "leave_one_speaker_out_mean_range": [
+          -0.5566128714272054,
+          -0.1315311857127069
+        ],
+        "mean": -0.4486523124987798,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -2.66850020000129,
+          0.3070716000001994
+        ]
+      }
+    },
+    "tokens": {
+      "CORRECT-LENGTH": {
+        "leave_one_speaker_out_mean_range": [
+          2.0,
+          3.5714285714285716
+        ],
+        "mean": 2.875,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -2.0,
+          9.0
+        ]
+      },
+      "CORRECT-MISMATCH": {
+        "leave_one_speaker_out_mean_range": [
+          -3.5714285714285716,
+          1.5714285714285714
+        ],
+        "mean": -2.125,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -28.0,
+          8.0
+        ]
+      },
+      "LENGTH-NONE": {
+        "leave_one_speaker_out_mean_range": [
+          -10.142857142857142,
+          -4.0
+        ],
+        "mean": -8.5625,
+        "missing_contexts": 0,
+        "n": 8,
+        "paired_contexts": 16,
+        "range": [
+          -40.5,
+          2.5
+        ]
+      }
+    }
+  },
+  "human_labels_created": 0,
+  "independent_arithmetic": "Seven Unicode feature rates, own/donor distances, equal prefixes, native boundaries, per-row margins, paired aggregation, missing bounds and leave-one-speaker-out ranges are recalculated by a separate scoring implementation.",
+  "limits": "No independent experiment or human semantic review. Marker/copying and memory diagnostics use the frozen original scorer and are not independently recomputed here. Post-hoc human-human check does not validate the metric. Private artifacts required: public clone-only reproduction remains PARTIAL.",
+  "native_stop_counts": {
+    "eos": 62,
+    "limit": 2
+  },
+  "new_generations": 0,
+  "posthoc_measurement_diagnostics": {
+    "boundary": "Weak human-human discrimination limits interpretation of model-margin nulls. Neither this check nor normalized equality establishes semantic fidelity, human judgment or independent validation.",
+    "classification": "POST_HOC_NOT_PREREGISTERED_MEASUREMENT_DIAGNOSTIC",
+    "human_source1_to_source2_margin": {
+      "leave_one_speaker_out_mean_range": [
+        -0.002379404899532486,
+        0.004763758612417409
+      ],
+      "mean": 0.0013875130296727189,
+      "n": 8,
+      "positive_speakers": 4,
+      "range": [
+        -0.022246206049540116,
+        0.027755938534109157
+      ]
+    },
+    "normalized_output_equality": {
+      "CORRECT_LENGTH_identical": 6,
+      "CORRECT_MISMATCH_identical": 8,
+      "all_four_identical": 4,
+      "complete_nonempty_contexts": 16
+    },
+    "timing": "Requested after the original 54-response partial result, before suffix analysis; no primary endpoint or selection rule changed."
+  },
+  "prefix_k_distribution": {
+    "10": 1,
+    "12": 1,
+    "14": 1,
+    "16": 2,
+    "17": 1,
+    "20": 2,
+    "6": 1,
+    "7": 2,
+    "8": 3,
+    "9": 2
+  },
+  "private_analysis_sha256": "69d1ff05c685598aff306552caaae91256f5b687f4735b35c92f0563f14b3bae",
+  "recorded_utc": "2026-10-19T09:27:39.245348+00:00",
+  "reserved_validation_content_accessed": false,
+  "shared_infrastructure": [
+    "Hash-chain reader",
+    "Immutable writer",
+    "Explicit event/receipt view adapter"
+  ],
+  "status": "PASS",
+  "verified_allocated_rows": 64,
+  "verified_raw_responses": 64
+}

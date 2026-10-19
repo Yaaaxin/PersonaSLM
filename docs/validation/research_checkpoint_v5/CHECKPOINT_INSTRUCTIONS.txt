@@ -1,0 +1,106 @@
+PersonaSLM manual research checkpoint v5
+
+Base HEAD: 8b7f8fdd8eec8358528da86398659f876c70a6dd
+Branch: research/autonomous-personaslm
+Exact file allowlist: public_git_allowlist_v5.txt
+
+This union preserves all 66 unchanged v4 files and adds the reviewed English
+real-speaker stage and v5 checkpoint. The manifest records the exact count,
+working-byte hashes and sizes. Do not separately stage an older increment.
+No agent has staged, committed or pushed. Only the human researcher may do so.
+
+HUMAN EXECUTION ONLY, in PowerShell from the repository root:
+
+$ExpectedManifestSha256 = '<COPY_FINAL_EXTERNALLY_REPORTED_V5_MANIFEST_SHA256>'
+& '.\docs\validation\research_checkpoint_v5\verify_checkpoint_v5.ps1' -ExpectedManifestSha256 $ExpectedManifestSha256
+if (-not $?) { throw 'Pre-staging verification failed' }
+git --literal-pathspecs add --pathspec-from-file=docs/validation/research_checkpoint_v5/public_git_allowlist_v5.txt
+if ($LASTEXITCODE -ne 0) { throw 'Manual staging failed; inspect without committing' }
+& '.\docs\validation\research_checkpoint_v5\verify_checkpoint_v5.ps1' -ExpectedManifestSha256 $ExpectedManifestSha256 -Staged
+if (-not $?) { throw 'Staged verification failed; do not commit' }
+git diff --cached --stat
+git diff --cached --check
+if ($LASTEXITCODE -ne 0) { throw 'Staged whitespace verification failed' }
+
+Personally inspect the entire staged diff before deciding whether to commit.
+Recommended commit message:
+Preserve English real-speaker factorial evidence and validation limits
+
+No commit or push command is executed or supplied here. Never use git add .,
+git add -A, wildcard staging, force-push, history rewriting or automatic main
+merges. The default verifier requires the expected HEAD/branch and an empty
+index. If the researcher already staged or committed something, reassess
+without resetting their work. A local commit is not a remote backup.
+
+The externally reported manifest SHA is a trust anchor; do not invent that
+anchor by trusting an unverified local manifest. The manifest binds every
+allowlisted file except itself. Both the v4 manifest/allowlist and its original
+file bytes are checked. The -Staged mode checks exact paths and ordinary
+stage-zero Git blobs using the repository's existing text filters. Existing
+core.autocrlf=true and tracked '* text=auto eol=lf' are not changed. The staged
+LF-normalized blob may differ from the working-byte hash without changing text;
+the verifier explicitly distinguishes these representations.
+
+Read-only checks; no model inference or reviewer-mapping access:
+
+$env:PYTHONPATH='tools;src'
+$env:PYTHONDONTWRITEBYTECODE='1'
+$EnglishTests = @(Get-Content -LiteralPath '.\docs\validation\research_checkpoint_v5\public_git_allowlist_v5.txt' | Where-Object { $_ -match '^tests/test_(english_|icsi_english_)' })
+$TestScratch = Join-Path '.local' ('pytest-checkpoint-v5-' + [Guid]::NewGuid().ToString('N'))
+.\.venv\Scripts\python.exe -B -m pytest -q -p no:cacheprovider --basetemp $TestScratch @EnglishTests
+if ($LASTEXITCODE -ne 0) { throw 'English authored tests failed' }
+.\.venv\Scripts\python.exe -B tools/english_sfh_archival_reproduce_v1.py --verify --analysis-sha256 84468a7ccf42ba9ea8d368ee9800b211c2d97d1422c1ad7fa234b163f3066a53 --reproduction-sha256 ce361877f9c7f47227105c3cb4db75d9575a927258c192bd33e48cddc650cb87
+if ($LASTEXITCODE -ne 0) { throw 'Read-only archived arithmetic reproduction failed' }
+
+The test scratch directory is newly named and contains authored fixtures only;
+do not reuse or delete scientific evidence as pytest basetemp. Cacheprovider is
+disabled, causing the documented existing cache_dir configuration warning.
+The environment is local and excluded; a public clone must install the declared
+test extra in its own environment. No model, corpus or genuine human annotation
+is loaded by these authored tests. The archival command does require the
+permitted private manifests/journals and exact historical source bytes/paths.
+It permits a legitimate new HEAD for READ-ONLY analysis only; execution gates
+remain frozen. Do not add --write or re-run a completed generation controller.
+
+Scientific scope: 100 actual English professional-meeting continuations for
+five speakers and two contexts, including 80 C0-C7 requests and 20 style controls.
+The original 92-response PARTIAL run and exact eight-request completion remain
+separate sealed journals. New cost is 512.5643901000585 completion seconds;
+cumulative use is 788/1200 generations and 4485.684495999997/72000 seconds.
+Technical main/interaction estimates and independent arithmetic are preserved.
+Genuine manual English judgments have now been received: 99 known records,
+one missing, with an incompatible header and 0-5 versus registered 0-3/NA
+ratings. They are preserved human evidence, not absent work; zero completed
+rating rows have passed validation or been condition-integrated. The separate
+draft has one structurally valid UNAVAILABLE record, not an official review
+lock. Do not automatically rescale or invent missing
+judgments. The original absent record stays blank in the lossless recovery;
+a separate declaration-backed draft marks it UNAVAILABLE because the PI
+explicitly said blanks meant uncertainty. No rating or existing value changed.
+Semantic fidelity/relevance/reliability await a complete, corrected
+and provenance-bound review lock. PI review is not project-independent,
+double-blind or inter-rater evidence. No validated novel algorithm exists.
+
+The frozen disjoint Bed validation procedure yielded zero source-qualified
+cases and zero validation generations. Its negative result is preserved, not
+repaired after reserved-source exposure. Japanese 58 reserved speakers remain
+untouched. One-model technical outcomes do not answer all original RQs or make
+the manuscript submission-ready.
+
+Public scientific reproduction remains PARTIAL. The union closes public code
+dependencies relative to the base, but deliberately excludes original speaker
+records, exact source/prompt/output material, private review mappings and raw
+journals. Licensed corpus, pinned model weights/native runtime and historical
+source snapshots require separate permitted acquisition/preservation. Exact
+byte-gated local reconstruction is not guaranteed after line-ending changes
+or relocation, nor is bit-identical generation across environments promised.
+The working manuscript's three historical intentionally withheld review links
+remain excluded; do not publish them to repair links. See the dependency/privacy
+review and the English stage's own reproduction instructions for exact limits.
+
+Raw docs/research_development_log.md stays excluded because historical entries
+contain sensitive or key-equivalent material. Safe stage-specific provenance,
+protocols, source/test hashes, failure receipts and research state replace it in
+this public checkpoint. Private same-volume ZIP backups were checked byte for
+byte; they are not remote/off-device backups and do not preserve future edits
+to the human's working annotation file automatically.

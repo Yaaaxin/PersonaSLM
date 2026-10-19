@@ -1,0 +1,278 @@
+PersonaSLM: integrated exploratory human-ordinal analysis of English S/F/H dialogue
+Version 1; 19 October 2026
+Status: observed developmental results; retrospective instrument amendment;
+independently reproduced arithmetic, NOT independent human or experimental validation.
+
+Scientific result
+
+In the completed English real-speaker experiment, the current Style intervention
+did not establish a general benefit in principal-researcher-perceived relevance,
+coherence, or linguistic resemblance. Facts and History had different effects
+across these domains and across ordinal thresholds. Correct Style occasionally
+outperformed mismatched or pooled Style, but did not produce a positive paired
+net advantage over no Style when Facts and History were both present. These
+findings concern this specific conditioning implementation and developmental
+sample, not the general effectiveness of speaker personalization.
+
+Design, instrument deviation, and estimands
+
+The archived experiment contains five actual English-speaking development
+speakers, two conversational contexts each, and ten conditions per context:
+C0-C7 for the S/F/H factorial, plus M_STYLE and N_STYLE. There are 80 factorial
+responses and 20 style-control responses from the existing Qwen3-0.6B Q8_0
+configuration. S supplies four aggregate linguistic rates, not an exhaustive
+representation of speaker style; F supplies dated professional self-reports,
+not independently verified biography; H supplies earlier natural dialogue.
+The source-provision factors are experimentally controlled, but historical
+dialogue naturally contains stylistic and factual information. Their effects
+must not be interpreted as perfectly isolated latent psychological constructs.
+
+The principal researcher affirmed 99 genuine manual judgments. The actual
+instrument used ordered categories 0-5, with higher values better, 0 a valid
+lowest category, and 5 the highest. Intermediate verbal anchors were not
+established. The original frozen instrument specified 0-3 plus applicability
+rules and was not passed. The actual scale was clarified retrospectively;
+original submissions, original validation errors, and original rubric remain
+unchanged. This is a documented alternate-instrument deviation, not a retroactive
+prospective registration or a recoding of the original ratings.
+
+Analysis rules and source hashes were locked after collection and admissibility
+inspection, but before the authorized condition-map join. Three primary domains
+are analyzed: relevance, coherence, and linguistic resemblance. One allocated
+C1 response has no submitted primary judgment and remains UNAVAILABLE. All
+other 99 responses have three admissible ordinal ratings. Secondary history,
+temporal, behavioral, and completeness ratings, claim counts/evidence, confidence,
+and other unresolved fields are preserved but excluded from outcome analysis.
+They are not repaired or used to infer factual accuracy.
+
+For each main factor, ordinal wins, ties, and losses compare factor-on with
+factor-off within the same speaker, context, and other-factor stratum. There
+are 40 allocated pairs per main effect and 39 observed pairs. The three style
+controls each have ten fully observed pairs. Net advantage is P(win)-P(loss),
+not a mean rating difference. Full-design summaries weight the five speakers
+equally and the two contexts/within-context strata equally. The one unavailable
+category is enumerated over 0-5 separately for each domain. Minima and maxima
+are logical missing-outcome bounds, not imputations, confidence intervals,
+population estimates, or simultaneous cross-domain bounds.
+
+Full-design paired main effects
+
+Each interval below is the net-advantage bound for all five speakers. Units are
+probabilities; multiplying by 100 gives percentage points. Negative values mean
+more ordinal losses than wins, not a cardinal reduction in a quality score.
+
+Domain                  S                 F                 H
+relevance               [-0.150,-0.125]   [-0.075,-0.025]   [ 0.000, 0.050]
+coherence               [-0.100,-0.075]   [-0.050, 0.000]   [-0.075,-0.025]
+linguistic_resemblance  [-0.150,-0.125]   [ 0.075, 0.125]   [-0.025, 0.025]
+
+Thus S has a negative paired net direction in all three domains under every
+allowed missing-category completion. F has a positive linguistic-resemblance
+direction but a negative relevance direction. H does not establish a positive
+linguistic-resemblance direction and has a negative coherence direction. These
+are finite-sample descriptions, not calibrated significance claims.
+
+Complete ordinal threshold profiles and interactions
+
+For every ordered cut k=1,...,5, Y_k=1(rating >= k). All seven factorial
+contrasts use 2*mean(product of selected +/-1 factor codes * Y_k), with equal
+context/speaker weights. S, F, and H correspond to condition-number bits 1,
+2, and 4. Factorial-scaled interactions are not unscaled differences-in-
+differences. No cut is designated a success threshold, and cuts are not averaged
+into an equal-interval score.
+
+The following compact table covers ALL 105 domain/effect/cut bounds. Within
+each cell the five entries are k=1,2,3,4,5. P means strictly positive under all
+allowed completions; N means strictly negative; ZP means a nonnegative bound
+including zero; ZN means a nonpositive bound including zero. These symbols
+describe missing-completion sensitivity, not statistical significance. Exact
+bounds, all six completion profiles, and speaker summaries are in artifact A,
+estimates.domains.<domain>.threshold_factorial.<effect>.<k>.
+
+Effect  relevance          coherence          linguistic_resemblance
+S       N N N N ZN         N N N N ZP         N N N P N
+F       ZP P P ZN N        ZP ZP P P ZN       ZP ZP P P P
+H       P N ZN P ZP        P P N ZN ZN        P P ZN ZP ZP
+SF      ZP P P P P         ZP ZP P P P        ZP ZP P P P
+SH      P P N N ZP         P P P N N          P P P ZP N
+FH      ZN N N ZP P        ZN ZN N N P        ZN ZN ZP ZN P
+SFH     ZN N ZP P P        ZN ZN N ZP ZP      ZN ZN ZP ZN P
+
+S is nonpositive over the entire relevance profile. Its linguistic-resemblance
+profile, however, is positive at k=4, with a bound [0.025,0.050], and negative
+at the other four cuts. Therefore a negative paired net effect does not imply
+a uniformly worse distribution at every ordinal threshold. SF is nonnegative
+at all cuts in all domains, but this does not establish universal synergy or
+restore a general S benefit. SH, FH, and SFH change direction across cuts. For
+example, SH on coherence is positive at cuts 1-3 and negative at cuts 4-5.
+These crossing profiles preclude reduction to one favorable interaction claim.
+
+Style specificity controls
+
+The paired win/tie/loss counts happen to be identical across the three domains:
+
+Contrast                         Win  Tie  Loss  Net
+C7 minus M_STYLE                   2    8     0   0.200
+C7 minus N_STYLE                   1    9     0   0.100
+C7 minus C6 (no Style at F=H=1)     2    6     2   0.000
+
+The domain-specific threshold differences are retained below rather than
+assuming identical ordinal distributions. Each vector again follows k=1..5;
+these controls have no missing ratings, so each bound is a singleton.
+
+Domain                  C7-M_STYLE          C7-N_STYLE          C7-C6
+relevance               0,.1,.1,.2,.2       0,0,0,.1,.1         0,.1,0,0,.1
+coherence               0,0,.1,.1,.2        0,0,0,0,.1          0,0,.1,0,0
+linguistic_resemblance  0,0,.1,.1,.2        0,0,0,0,.1          0,0,.1,.1,0
+
+These controls provide a limited signal against mismatching, not evidence that
+correct Style improves over omitting Style. The identical paired ordering
+patterns across domains are correlated observations from one evaluator, not
+three independent replications. No equivalence or noninferiority conclusion
+follows from the zero C7-C6 net value.
+
+Speaker heterogeneity and missingness
+
+Complete-speaker analyses retain four speakers for the factorial/main-effect
+estimands because one speaker has an unavailable C1 rating. They estimate a
+different subset from the full-design bounds. For S on linguistic resemblance,
+the four sorted speaker net values are [-0.500,-0.250,-0.125,0.125], with mean
+-0.1875 and leave-one-speaker-out mean range [-0.291667,-0.083333]. For S on
+relevance, the corresponding values are [-0.625,-0.250,0,0.125], with mean
+-0.1875 and leave-one-speaker-out range [-0.291667,-0.041667]. The negative
+subset direction is not attributable solely to one of these four speakers,
+but the small dependent sample does not support a calibrated population CI.
+
+For C7-C6, the five sorted speaker net values are [-1,0,0,0.5,0.5] in each
+domain; a zero aggregate masks opposing outcomes. For C7-N_STYLE they are
+[0,0,0,0,0.5], so removing the sole positive speaker reduces the mean to zero.
+For C7-M_STYLE they are [0,0,0,0.5,0.5], with a leave-one-speaker-out mean
+range [0.125,0.250]. These ranges diagnose influence; they are not CIs.
+
+Changing the estimand can reverse the apparent direction. For F on relevance
+at k=4, the complete-four-speaker point is +0.0625, whereas the full-five-speaker
+logical bound is [-0.025,0]. This is not an arithmetic inconsistency: the latter
+retains the fifth speaker's observed information and bounds the missing cell.
+The complete-case estimate must not be presented as a full-cohort point.
+
+Joint quality and latency
+
+The same ordinal pair outcomes are cross-tabulated against exact faster/equal/
+slower signs of archived completion wall latency. All 100 technical outputs
+exist, including the response with an unavailable human judgment. Across the
+40 main-factor technical pairs, factor-on is slower in 75% for S, 85% for F,
+and 100% for H. No exact latency ties occur. This is a descriptive sign count,
+not a practically meaningful speed threshold or a controlled mediation result.
+
+For H, all quality outcomes therefore occupy the slower column. Full-design
+win/tie/loss bounds are:
+
+Domain                  Win, slower       Tie, slower       Loss, slower
+relevance               [.300,.325]       [.400,.425]       [.275,.300]
+coherence               [.225,.250]       [.475,.500]       [.275,.300]
+linguistic_resemblance  [.225,.250]       [.525,.550]       [.225,.250]
+
+These bounds preserve uncertainty about the unavailable category; endpoints
+of different cells are not freely combinable. H's extra latency did not buy
+a uniform perceived-quality advantage. For C7-C6 in each domain, both wins are
+slower, both losses are faster, and the six ties comprise one faster and five
+slower responses. For C7-M_STYLE, the two wins split one faster/one slower and
+the eight ties split three faster/five slower. For C7-N_STYLE, the sole win is
+faster and the nine ties split four faster/five slower. The complete nine-cell
+joint summaries for every factor/domain/control remain in artifact A.
+
+Latency measures are CPU-backend elapsed completion time and remain sensitive
+to output length, execution order, system load, and the archived safe restart.
+They are not CPU energy or per-condition peak RAM. No ordinal rating-per-second
+ratio, cardinal quality-cost utility, or causal mediation is computed.
+
+Research-question coverage and limitations
+
+RQ1 receives exploratory evidence for S/F/H main and interaction effects on
+three PI-perceived constructs, under this source-provision design. It does not
+establish general behavioral Persona Fidelity, stable speaker identity
+reproduction, or effects for the wider speaker/model population. Existing
+context can itself expose speaker cues, and H is not devoid of S/F content.
+
+RQ2 receives limited evidence about H-associated perceived relevance/coherence
+and latency. Actual factual and temporal reliability remain unanswered because
+the corresponding secondary applicability and evidential requirements were
+not met. Language resemblance is not a substitute for either construct.
+
+RQ3 is not answered by a single model configuration. RQ4 is not answered:
+no retrieval, candidate-ranking, or LoRA comparison is present in this analysis.
+No algorithmic novelty or validated failure-repair mechanism is claimed.
+
+The evaluator is the principal researcher and is not independent of the
+project. Human authorship and condition-blinded annotation were affirmed by the
+PI; the package masked displayed conditions. Verified absence of prior exposure,
+double-blind review, independent inter-rater reliability, complete review-date/
+aid histories, and a full competence attestation were not established. The
+unanchored intermediate ordinal categories and retrospective scale clarification
+limit interpretation. Genuine judgments are not equivalent to validated
+measurement or independent confirmation. No new human labels were generated.
+
+Five speakers from a dependent meeting setting and ten contexts cannot support
+responses-as-independent inference. Missing bounds, speaker influence, and
+measurement limitations are distinct uncertainty sources. No p-values,
+calibrated confidence intervals, or confirmatory significance claims are made.
+Existing condition distributions, including all six category counts and
+missingness, are reported in artifact A rather than collapsed into means.
+
+Next-stage decision: conditional RQ3 configuration comparison, NOT executed here
+
+The selected next candidate is a prospectively frozen, same-family Base/Instruct
+comparison using the English factorial task design: a finite maximum of 200
+generations, including 40 style-control generations. This would examine whether
+the observed pattern is stable across two deployment configurations and would
+advance the Base/Instruct component of RQ3. It would not isolate a pure training
+effect if templates, special tokens, stopping behavior, or other implementation
+details differ; it would not establish a model-size effect. Reusing developmental
+contexts is explicitly not independent validation. Model identity, licensing,
+configuration, prompts, analysis, resource allocation, and RAM safeguards must
+be frozen and verified before any such execution. Actual human endpoints remain
+dependent on genuine new evaluation, not automated substitution.
+
+This candidate was preferred operationally over expanding an as-yet-unqualified
+new-speaker cohort, while preserving that route as a separate future study.
+Retrieval/algorithm development was deprioritized because these results do not
+yet identify a semantically validated, technically differentiated failure-repair
+target. This decision is prospective research direction, not a completed model
+comparison, a universal dataset infeasibility claim, or an innovation result.
+
+Resource accounting for this analytical stage is unchanged: zero new model
+generations and zero new inference seconds; cumulative 788/1200 generations
+and 4485.684496/72000 completion seconds (rounded from 4485.684495999997).
+Of the 412 remaining generations, 160 remain reserved for independent validation.
+Executing the entire proposed 200-generation comparison would leave 212,
+including that reserve; it has not occurred as part of the present analysis.
+
+Evidence and reproduction
+
+Artifact A:
+docs/validation/p1/english_human_ordinal_v1/ordinal_analysis_v1.json
+SHA-256 a562e7249706f8982916c6959d577bc24fc94f1d46d490881b1b365d5c5f616d
+Status PASS_INDEPENDENT_ARITHMETIC_NOT_INDEPENDENT_HUMAN_VALIDATION.
+This is the source of every human-outcome number and joint latency table above.
+
+Artifact B, retrospective analytical amendment:
+docs/validation/p1/english_human_ordinal_v1/analysis_amendment_v1.json
+SHA-256 04428a566d453a02b6d8d2f2cdd1a369e593e7d0bcaaa5819875601e603a253e
+Condition-join lock SHA-256:
+7820032f093cc56129974a12636474c698fe47597fe833a311701035a7d9900e
+
+The separately implemented primary and independent arithmetic engines are:
+tools/english_sfh_ordinal_v1.py
+SHA-256 84450de318391162186f34df5380afdefc720b5a1ef94b82c3833c8445eb89a7
+tools/english_sfh_ordinal_independent_v1.py
+SHA-256 76964c1d11687a320501425fad4b2a4a710a0cac40848e10ff6f86ba8f2dda26
+
+Artifact A preserves the complete source closure and original protocol, rubric,
+manifest, technical-evidence, and private-input hash bindings. The two arithmetic
+paths agree on the same verified joined evidence; this is analysis reproduction,
+not independent observations, ratings, or experimental replication. Original
+ratings were not rescaled, secondary fields were not analyzed, and frozen
+historical results were not overwritten. Public clone-only reproduction remains
+PARTIAL because authentic journals and private review materials are restricted.
+This public narrative contains no individual review IDs, speaker IDs, dialogue
+quotations, mappings, or per-record original ratings.

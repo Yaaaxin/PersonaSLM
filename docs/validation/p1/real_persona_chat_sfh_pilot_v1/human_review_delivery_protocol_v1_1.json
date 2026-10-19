@@ -1,0 +1,154 @@
+{
+  "claim_limits": "Developmental descriptive semantic review only. Report exposure limitations and applicability. No result or Japanese competence is asserted by preparing this package.",
+  "delivery_safety": "Use only the corrected delivery directory. Do not open the old delivery instructions, analyst protocol, construction code, protected map, or automatic results during review. No construction parameters or assignment information are included here.",
+  "exposure_questionnaire": {
+    "file": "reviewer_exposure_questionnaire_v1_1_TEMPLATE.json",
+    "japanese_qualification": "Do not begin original-Japanese semantic judgments without a truthful Japanese-competence attestation. AI-generated labels or machine translations cannot substitute for eligible original-Japanese human-only judgments.",
+    "legacy_provenance_mapping": "YES or UNCERTAIN for prior_assignment_key_material_exposure must be treated as corresponding mapping exposure in any later original-v1 provenance record. It cannot receive a clean masked-review classification. Prior rubric/item involvement, output exposure, and automatic-label exposure remain separate truthful attestations.",
+    "minimum_action": "Before judging responses, answer the separate blank questionnaire truthfully, including Japanese competence and any earlier viewing of the old instructions, analyst protocol, construction code, mapping, outputs, or automatic assessments. Save a new local copy; do not edit the template. If unsure, use UNCERTAIN rather than NO.",
+    "project_role": "A principal researcher or project member cannot claim project independence. One reviewer cannot establish inter-rater reliability or independent experimental validation."
+  },
+  "exposure_warning": "The original instructions contained material capable of revealing masked assignments. Removing that material from this new delivery cannot undo previous exposure. Zero completed labels does not establish that the reviewer has not seen it.",
+  "human_labels_created": 0,
+  "preservation": "The original protocol, delivery instructions, receipt, template, working copy, and protected map are preserved. This correction changes delivery guidance only; response text, evidence panels, row order, opaque IDs, rubric, and the 64-record requirement are unchanged.",
+  "protected_mapping_opened": false,
+  "records_required": 64,
+  "reviewer": {
+    "exposure_enum": [
+      "NO",
+      "YES",
+      "UNCERTAIN"
+    ],
+    "judgment_policy": "No LLM-generated ratings, paraphrases, proposed answers, or translations may substitute for the human judgments. Record any AI or machine-translation assistance truthfully; assisted review is not eligible for the original-Japanese human-only claim.",
+    "minimum_qualification": "A genuine human who truthfully attests the ability to interpret the original Japanese conversational and persona material without machine translation. Record the basis and limitations of Japanese competence; do not assume the principal researcher has this competence.",
+    "relationship_enum": [
+      "PRINCIPAL_RESEARCHER",
+      "PROJECT_MEMBER",
+      "INDEPENDENT_EXTERNAL"
+    ],
+    "single_reviewer_limit": "One human reviewer does not establish inter-rater reliability. Independent annotation is distinct from independent experimental validation; this eight-development-speaker study remains developmental."
+  },
+  "schema": {
+    "anchors": {
+      "conversational_coherence": {
+        "1": "Unusable or materially incoherent internally or with preceding dialogue.",
+        "3": "Understandable with a material coherence defect.",
+        "5": "Clear and coherent as a continuation of the displayed dialogue."
+      },
+      "linguistic_style_resemblance": {
+        "1": "Little resemblance in wording, register, rhythm, or interactional expression to the source speaker examples.",
+        "3": "Some resemblance, but mixed or largely generic.",
+        "5": "A natural and consistent resemblance to the displayed speaker examples. Copying alone is insufficient."
+      },
+      "response_relevance": {
+        "1": "Does not address the current turn in its preceding context.",
+        "3": "Partly addresses it, with a material omission or distraction.",
+        "5": "Directly and appropriately responds to the conversational turn."
+      }
+    },
+    "applicability": [
+      "Linguistic style resemblance concerns the displayed earlier dialogue evidence, excluding factual correctness and copied-content agreement. It remains a human-reference proxy, not proof of stable identity or broad Persona Fidelity.",
+      "Persona-statement and history consistency concern whether material personal claims agree with the displayed records. NO_RELEVANT_CLAIM means no assessable claim; UNVERIFIABLE means a claim exceeds the records. Neither is numeric zero or a contradiction.",
+      "Unsupported personal claim means a material assertion about the represented participant not supported by the displayed records; it does not establish real-world falsity. Opinions or acknowledgments without an unsupported personal assertion do not automatically count YES.",
+      "Answer completeness assesses demands of the current conversational turn; a casual turn need not have a unique factual answer. NOT_APPLICABLE is allowed when the turn imposes no assessable completeness demand.",
+      "Temporal factual truth, outdated-value adoption, speaker identification, and broad behavioral fidelity remain outside this review's claims."
+    ],
+    "editable_columns": [
+      "annotation_status",
+      "missing_reason",
+      "response_relevance",
+      "conversational_coherence",
+      "linguistic_style_resemblance",
+      "persona_statement_consistency",
+      "history_consistency",
+      "unsupported_personal_claim",
+      "answer_completeness",
+      "evidence_span",
+      "reviewer_rationale",
+      "reviewer_confidence"
+    ],
+    "enums": {
+      "annotation_status": [
+        "COMPLETED",
+        "UNAVAILABLE"
+      ],
+      "answer_completeness": [
+        "COMPLETE",
+        "PARTIAL",
+        "INCOMPLETE",
+        "NOT_APPLICABLE",
+        "UNCERTAIN"
+      ],
+      "conversational_coherence": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "UNCERTAIN"
+      ],
+      "history_consistency": [
+        "CONSISTENT",
+        "PARTIAL",
+        "CONTRADICTED",
+        "NO_RELEVANT_CLAIM",
+        "UNVERIFIABLE",
+        "UNCERTAIN"
+      ],
+      "linguistic_style_resemblance": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "UNCERTAIN"
+      ],
+      "persona_statement_consistency": [
+        "CONSISTENT",
+        "PARTIAL",
+        "CONTRADICTED",
+        "NO_RELEVANT_CLAIM",
+        "UNVERIFIABLE",
+        "UNCERTAIN"
+      ],
+      "response_relevance": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "UNCERTAIN"
+      ],
+      "reviewer_confidence": [
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ],
+      "unsupported_personal_claim": [
+        "YES",
+        "NO",
+        "UNCERTAIN"
+      ]
+    },
+    "evidence": "evidence_span must be an exact model-response substring. NO_SUPPORTING_SPAN is allowed only with a substantive rationale explaining an absence, empty response, or inability to judge. All completed rows require a concise rationale; UNCERTAIN is a real completed judgment and requires explanation.",
+    "immutable_columns": [
+      "blind_record_id",
+      "task_instruction",
+      "current_partner_query",
+      "preceding_dialogue",
+      "participant_self_statements",
+      "earlier_speaker_utterances",
+      "model_response"
+    ]
+  },
+  "schema_version": "personaslm_rpc_review_delivery_correction_v1_1",
+  "source_protocol_sha256": "a9be9c934d1fb09cbbe62f3d5d54930a9b2558a5e8ac2609c2fcb4382cc5e3d0",
+  "status": "ADDITIVE_PRE_REVIEW_CORRECTION_NO_HUMAN_LABELS",
+  "workflow": [
+    "Read these corrected instructions and complete the exposure questionnaire before annotation.",
+    "Edit only the designated annotation columns of stage_a_WORKING_COPY.csv in this corrected directory. Save incrementally; retain all 64 rows.",
+    "Run the existing real_persona_chat_sfh_review_v1.py validate-draft action with --submission pointing to the corrected working copy. The original frozen package remains its structural reference; this checks CSV integrity without creating labels or opening the mapping.",
+    "After all rows are finalized, preserve the exact CSV, completed questionnaire, and truthful original-v1 provenance as separate versioned submissions. Any later intake must additionally bind this corrected protocol, instructions, receipt, and questionnaire.",
+    "Existing v1 final validation alone does not attest this new delivery/provenance chain, create a seal, or authorize unblinding. These remain explicit later steps after genuine review."
+  ]
+}

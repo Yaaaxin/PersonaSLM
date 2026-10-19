@@ -1,0 +1,75 @@
+{
+  "baseline": {
+    "generations": 780,
+    "inference_seconds": 4449.800786499977
+  },
+  "batch": "development_resume_v1",
+  "checked_utc": "2026-10-19T16:01:33.926154+00:00",
+  "identity": {
+    "checks": [
+      {
+        "check": "gguf",
+        "evidence": {
+          "bytes": 639446688,
+          "gguf_version": 3,
+          "limitation": "Header and file digest checked; tensor loading and model identity require llama.cpp.",
+          "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\models\\gguf\\instruct_candidates\\qwen3-0.6b-official-23749fef\\Qwen3-0.6B-Q8_0.gguf",
+          "sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+          "sha256_verified": true
+        },
+        "status": "PASS"
+      },
+      {
+        "check": "server_executable",
+        "evidence": {
+          "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\bin\\llama.cpp\\llama-b11573-bin-win-cpu-x64\\llama-server.exe",
+          "sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846"
+        },
+        "status": "PASS"
+      }
+    ],
+    "model": {
+      "bytes": 639446688,
+      "gguf_version": 3,
+      "limitation": "Header and file digest checked; tensor loading and model identity require llama.cpp.",
+      "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\models\\gguf\\instruct_candidates\\qwen3-0.6b-official-23749fef\\Qwen3-0.6B-Q8_0.gguf",
+      "sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+      "sha256_verified": true
+    },
+    "scope": "offline file preflight only; no real inference verified",
+    "server": {
+      "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\bin\\llama.cpp\\llama-b11573-bin-win-cpu-x64\\llama-server.exe",
+      "sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846"
+    },
+    "status": "PASS"
+  },
+  "manifest_sha256": "61f7bf7bda8eca80885baeaf5a74a9931409c16c634829ebff8136fadb32efef",
+  "memory": {
+    "observed_utc": "2026-10-19T16:01:33.926190+00:00",
+    "pid": 17524,
+    "platform": "nt",
+    "process": {
+      "page_faults": 555637,
+      "pagefile_usage": 45924352,
+      "peak_pagefile_usage": 56160256,
+      "peak_working_set": 63610880,
+      "quota_nonpaged_pool": 18336,
+      "quota_paged_pool": 157552,
+      "quota_peak_nonpaged_pool": 18808,
+      "quota_peak_paged_pool": 158488,
+      "working_set": 54550528
+    },
+    "status": "observed",
+    "system": {
+      "available_extended": 0,
+      "available_pagefile": 13732904960,
+      "available_physical": 3139915776,
+      "available_virtual": 140733013721088,
+      "load_percent": 78,
+      "total_pagefile": 26657357824,
+      "total_physical": 14846197760,
+      "total_virtual": 140737488224256
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "english_model_comparison_preclaim_storage_failure_v1",
+  "observed_utc": "2026-10-19T19:33:20Z",
+  "operation": "BASE registration with protocol cf7f2102e23ae692dbb45f11473c78126e81602a876eb9eee64b8d0c943927ae and artifact receipt 5020d20914dcd3e672dfe4c56a67ff6e0f7e27fe541b8fcc29c67704a044d337",
+  "source_sha256": "af9b3c0636f0442168bf0dd363463d09d69a5aa6916b934672a06c66588e1a2e",
+  "error": "ValueError: Output disk reserve at original.memory(), before registration claim or native tokenization",
+  "required_free_output_disk_bytes": 1073741824,
+  "followup_readonly_free_bytes": {"C:": 118458810368, "D:": 85821194240, "E:": 1063792640},
+  "followup_e_deficit_bytes": 9949184,
+  "observation_limit": "Volume values were read immediately after the failed call, not claimed to be the exact instant of the guard. RAM was not the failing guard. No inference or official inference preflight passed.",
+  "new_generations": 0,
+  "new_inference_seconds": 0,
+  "native_tokenizer_calls": 0,
+  "registration_claim_created": false,
+  "frozen_manifest_created": false,
+  "resolution": "Relocate only the two just-downloaded public licensed GGUF artifacts to a dedicated D: model cache, verify exact bytes, preserve original acquisition receipt, bind a separate storage amendment before a new registration. No research evidence deletion or disk/RAM threshold reduction."
+}

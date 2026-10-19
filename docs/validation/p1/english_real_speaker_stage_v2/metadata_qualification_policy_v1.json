@@ -1,0 +1,25 @@
+{
+  "schema": "english_personaslm_continuation_metadata_policy_v1",
+  "date": "2026-10-19",
+  "level": "PROSPECTIVE_METADATA_QUALIFICATION_ONLY",
+  "authority": "Current researcher continuation instruction; no human-rating reinterpretation, financial spending, private access, generation or frozen evidence amendment",
+  "baseline": {"cumulative_generations": 788, "cumulative_inference_seconds": 4485.684495999997, "generation_ceiling": 1200, "inference_seconds_ceiling": 72000},
+  "decision_alternatives": [
+    {"path": "A: qualified new English target-speaker cohort", "value": "Direct RQ1 transport and new natural conversation observations; possible independent source replication", "risk": "Source-supported F, chronology and actual participant independence must be established before inference", "priority": "PRIMARY_IF_QUALIFIED"},
+    {"path": "B: archived native-cost decomposition and a controlled efficiency intervention", "value": "Uses actual100 responses to distinguish prompt-processing from output-generation costs without human ratings; supports RQ1/RQ4", "risk": "Native timing is not semantic fidelity; observational latency alone is not a new algorithm or controlled quality-efficiency comparison", "priority": "INDEPENDENT_SUPPORTING_ANALYSIS"},
+    {"path": "C: matched Base/Instruct comparison", "value": "Direct RQ3 with same architecture/quantization and documented tokenizer/template differences", "risk": "New weights, CPU memory and valid semantic endpoints; do not spend a large batch solely on technical proxies", "priority": "ASSESS_NOT_YET_EXECUTE"}
+  ],
+  "AMI_metadata_screen": {
+    "source": "https://groups.inf.ed.ac.uk/ami/AMICorpusAnnotations/ami_public_manual_1.6.2.zip",
+    "license": "Official distribution and https://groups.inf.ed.ac.uk/ami/corpus/license.shtml state CC BY4.0; preserve attribution and limitations on personality/privacy rights",
+    "download_limit": "One official manual text/annotation archive, <=40MiB, and relevant public documentation only; no audio/video or identity enrichment",
+    "access": "Read archive directory and metadata/participant/meeting definitions only initially; do not inspect word, segment, summary or dialogue target bodies",
+    "include": "Only officially documented naturally occurring N meetings; exclude all S design-roleplay and B fictitious-scenario meetings, even though some are listed under non-scenario",
+    "qualification": "Stable participant identity across at least three separately dated authentic meetings, English material, source chronology and lawful minimized research use",
+    "no_inference": "Metadata capacity does not establish personal facts or corpus suitability; body access requires a separate frozen source-selection rule. No generation allocation from this policy."
+  },
+  "ICSI_alternative": "The old fully participant-and-partner-disjoint Bed branch remains STOP with0 qualified cases. A separately registered new-target-speaker cohort with exposed partners may be evaluated transparently using unopened Bro/Bns bodies only after an exposure-aware source policy. It must never be labelled fully independent replication or a repaired Bed study.",
+  "review_boundary": "All99 original human judgments remain unchanged and provisional, one UNAVAILABLE retained, protected mapping unopened. No assumptions about4/5 scale anchors.",
+  "privacy": "All authentic records, metadata, source offsets and future prompts stay in ignored.local. Public documents contain methods, aggregates and hashes only. No redistribution of raw personal dialogue.",
+  "stopping": "No repeated screening to produce favorable model outcomes. If metadata is inadequate, preserve the bounded negative result and choose the next defensible path before any body access or generation."
+}

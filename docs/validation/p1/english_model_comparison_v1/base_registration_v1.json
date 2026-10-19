@@ -1,0 +1,58 @@
+{
+  "batch": "base",
+  "bindings": {
+    "artifact_receipt_sha256": "5020d20914dcd3e672dfe4c56a67ff6e0f7e27fe541b8fcc29c67704a044d337",
+    "protocol_sha256": "550c18457e28068aa7b38cdfeef00dec0c18dc36e9c1fd8d5443afa036a91aa1"
+  },
+  "input_token_range": [
+    241,
+    790
+  ],
+  "limitation": "Development deployment configurations; model order/time confounded; no new human ratings.",
+  "manifest_sha256": "a8e39f5ea10f408c0dc937e22f734c4cb77521dae5b0230e832edc0959bcfb30",
+  "memory_before_tokenization": {
+    "observed_utc": "2026-10-19T19:39:22.659168+00:00",
+    "pid": 11836,
+    "platform": "nt",
+    "process": {
+      "page_faults": 320606,
+      "pagefile_usage": 38887424,
+      "peak_pagefile_usage": 103108608,
+      "peak_working_set": 110534656,
+      "quota_nonpaged_pool": 17248,
+      "quota_paged_pool": 157432,
+      "quota_peak_nonpaged_pool": 23096,
+      "quota_peak_paged_pool": 157544,
+      "working_set": 46116864
+    },
+    "status": "observed",
+    "system": {
+      "available_extended": 0,
+      "available_pagefile": 14161629184,
+      "available_physical": 3925315584,
+      "available_virtual": 140733035581440,
+      "load_percent": 73,
+      "total_pagefile": 26657357824,
+      "total_physical": 14846197760,
+      "total_virtual": 140737488224256
+    }
+  },
+  "model": {
+    "artifact_revision": "4d8150eba159047c0ad5f72a8473e4ad60419c4a",
+    "backend_file": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "logical_model_file": "models/gguf/english_qwen25_15b_v1/base/Qwen2.5-1.5B.Q4_K_M.gguf",
+    "model_file": "D:/PersonaSLM-model-cache/english_qwen25_15b_v1/base/Qwen2.5-1.5B.Q4_K_M.gguf",
+    "model_sha256": "ea47cef917fa77a3458206d0848f81dd033dfb859bbb3b176bf6006d3b620814",
+    "quantization": "Q4_K_M",
+    "upstream_revision": "8faed761d45a263340a0528343f099c05c9a4323"
+  },
+  "model_order": [
+    "base",
+    "instruct"
+  ],
+  "new_generations": 0,
+  "requests": 100,
+  "source_head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+  "status": "FROZEN_NOT_EXECUTED"
+}

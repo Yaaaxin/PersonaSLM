@@ -1,0 +1,69 @@
+2026-10-19 — P1 authentic-dialogue recognition and branch decision
+
+Recovered636/1200,3828.328792899886/72000 from the hash-bound combined prior
+analysis. HEAD8b7f8fdd8eec8358528da86398659f876c70a6dd remained on the research
+branch. No historical generation repeated or budget reset. Old128 real-speaker
+responses, screen failures and human-review requirements remain intact.
+
+Added minimal material/controller modules, synthetic tests and prospective
+design/evidence records for8 development speakers,4 reciprocal pairs,3 external
+history arms,2 option orders plus4 authored Japanese controls. Reused owned
+server, native tokenizer, corpus split and hash journal. No new general ledger,
+dashboard or evaluator framework. The ponytail skill favored this reuse and
+small controller rather than another general framework.
+
+Official Qwen3-0.6B Q8_0 and model card/license/tokenizer metadata downloaded
+and hash-verified. Independent source conversion not claimed. Registered
+before inference, with exact prompts, native IDs, all source/runtime hashes,
+maximum52 attempts,900 inference seconds,1500 wall seconds and new2GiB RAM
+gate. Full native C/M prompt-length difference<=4tokens. Sixteen earlier
+target dialogues excluded; no58 validation target content decoded.
+
+While registration was active, researcher issued the Decision Intelligence
+Upgrade. Preserved the atomic operation, compared three paths, and recorded
+a locally timestamped prospective decision note before the13:48:31UTC run.
+The note is not in the original registration closure or independently
+timestamp-attested; no endpoints, allocation or scoring changed.
+
+Commands executed from root with PYTHONPATH=tools;src:
+ python tools/real_persona_chat_continuation_v1.py register
+ python tools/real_persona_chat_continuation_v1.py preflight --output docs/validation/p1/real_persona_chat_continuation_v1/preflight_v1.json
+ python tools/real_persona_chat_continuation_v1.py run --preflight docs/validation/p1/real_persona_chat_continuation_v1/preflight_v1.json
+ python tools/real_persona_chat_continuation_v1.py analyze
+ python tools/real_persona_chat_continuation_reproduce_v1.py --write
+ python tools/real_persona_chat_continuation_position_diagnostic_v1.py --write
+Exact final29-test command/outcome in test_receipt_v1.json. These creation
+commands are historical; do not rerun write actions on existing frozen files.
+
+Preflight3198406656 availableRAM passed;52 outputs returned;4/4 controls;
+no retry, warmup, external service or unrelated process termination. New cost
+144.79131300005247seconds. Cumulative688 and3973.1201058999386seconds.
+Observed correctHistory8/16 equals noexternalHistory8/16; mismatch7/16.
+Forty of42 valid main answers areA; candidate invariance0/18 evaluable pairs.
+Independent rawHTTP/token/source/chain/arithmetic reconciliation PASS52.
+Posthoc paired format decomposition preserves all original protocol scores.
+
+Scientific decision: STOP current recognition configuration expansion; PIVOT
+to measurement validity, not claimHistorybenefit or PersonaFidelity. Existing
+Japanese semantic review is the next genuine-human dependency. No new ratings,
+unblinding, semantic claims, heldout validation or algorithm novelty invented.
+Primary reading linked ICLR2024 PriDe preprint/publication and FindingsACL2026
+context-order work; neither counted twice or represented as today's newpaper.
+
+Preserved607 private experiment files in a new outside-repository ZIP with
+every decompressed member SHA256 checked; samevolume, notremotebackup.
+New public state/report/reproduction/priorart/test/preservation artifacts
+document actual results. Existing v3checkpoint staysfrozen; v4 is manualonly.
+
+Non-scientific errors/limits: PowerShell does not expand wildcard filenames
+passed to rg; corrected to directory filters. Several attempted old filenames
+did not exist and were corrected without edits. Initial metadata query called
+a nonexistent helper and was corrected using hashlib. One synthetic material
+test initially encountered Windows temppermissions and used an in-memory
+path substitute before freezing. Pytestcacheprovider-disabled warning recorded.
+No such preparation error generated model output or modified historical data.
+
+No gitadd, commit, push, author change, history rewrite or automated merge.
+Full rawdevelopmentlog remains excluded from publicstaging due old sensitive
+content. Checkpoint scans must exclude corpus, participant prompts, maps,
+modelweights, .local, runtimebinaries, caches and unrelated unreviewed work.

@@ -1,0 +1,233 @@
+PersonaSLM: primary-source novelty synthesis, cluster B
+Checked 2026-10-19 | Targeted literature analysis, not new experimental evidence
+
+Scope and evidence boundary
+
+This document verifies requested references [3], [6], and [8], then examines
+two directly related methods. All three requested bibliographic identities
+match official records. Methods below come from accessible primary paper
+sections, not title-based inference. Access limitations are explicit. No
+algorithm, model inference, training, private-data read, held-out-data read,
+human-label creation, Git staging, commit, or push occurred. The recorded
+988/1200 generation baseline is unchanged; 52 nonreserve requests are not an
+automatic allocation for implementing these papers.
+
+[3] Steering at the Source: Style Modulation Heads for Robust Persona Control
+
+Identity/status: Yoshihiro Izawa, Gouki Minegishi, Koshi Eguchi, Sosuke Hosokawa,
+Kenjiro Taura. Formally published in ICML 2026, PMLR 306:50230-50271. The
+conference ran July 6-11; the volume homepage records publication September
+29, 2026. These dates should not be conflated. The matching arXiv record is
+2603.13249, v1 dated February 24 and v2 May 28, 2026, as explicitly displayed
+by arXiv. The unusual first-submission date relative to its identifier is
+reported as source metadata, not silently corrected.
+Official records:
+https://proceedings.mlr.press/v306/izawa26a.html
+https://proceedings.mlr.press/v306/
+https://arxiv.org/abs/2603.13249
+
+Method/evidence read: arXiv v2 Sections 2.2-2.4, 4-5, 7; Appendices B.2-B.3,
+E.1 and F. Main models: Qwen2.5-7B-Instruct and Llama-3.1-8B-Instruct; six
+prompt-defined traits, not authentic speakers. Difference-in-means vectors
+v=mean(target activations)-mean(neutral activations) are localized using
+layer cosines and head contribution <v_head W_O,v_attention>; selected head
+outputs receive additive interventions. Comparators include residual-stream,
+aggregate-attention, and correlated-plus-anticorrelated-head steering;
+zero/random-head ablations probe localization. At coherence threshold 80,
+Table 1 reports the highest envelope score in 11/12 Qwen and 9/12 Llama
+settings, not universally. Evaluation uses GPT-4.1-mini, held-out queries,
+200 samples/trait, temperature 1, and five runs. Appendix B.3 uses three
+non-native English judges on 120 deliberately high-versus-low pairs, reporting
+92.8% trait and 91.7% coherence agreement. This extreme-pair check does not
+calibrate absolute 0-100 scores or the threshold. Appendix F finds more
+distributed localization in Gemma-3-12B and Qwen3-30B-A3B. Small-model/CPU RAM
+and wall-time evidence was not located. Larger-model head identities should
+not be transferred to PersonaSLM's 1.5B model without new evidence.
+Full text used:
+https://arxiv.org/html/2603.13249v2
+https://arxiv.org/pdf/2603.13249v2
+
+Access/version qualification: the PMLR-linked final PDF is
+https://raw.githubusercontent.com/mlresearch/v306/main/assets/izawa26a/izawa26a.pdf
+The browser extraction failed; a direct HTTP HEAD returned 200 and 7,999,350
+bytes, but final-PDF text/byte equivalence to arXiv v2 was NOT established.
+The official final venue is verified; the detailed method audit is explicitly
+versioned to the readable primary arXiv v2. OpenReview requests encountered
+a browser challenge. Do not describe this as a final-PDF line-by-line audit.
+
+[6] Persona Switch: Mixing Distinct Perspectives in Decoding Time
+
+Identity/status: Junseok Kim, Nakyeong Yang, Kyomin Jung; formally published
+Findings of EACL 2026, March 24-29, pp.1955-1967;
+DOI 10.18653/v1/2026.findings-eacl.101. Matching arXiv 2601.15708v1 was submitted
+January 22, 2026; its comments identify EACL Findings. One work, not two studies.
+https://aclanthology.org/2026.findings-eacl.101/
+https://arxiv.org/abs/2601.15708
+
+Method/evidence read: official PDF Sections 3-4, Limitations, Appendices A-F.
+At each double-newline-delimited reasoning step, generate greedy neutral and
+role-prompted candidates, select larger mean(top-1 probability minus top-2
+probability), and append it to the shared trace; ties choose persona.
+Equation 2 uses probabilities despite naming this a logit gap. Final answer
+extraction is an additional prompted operation. Models are Gemma-2-2B-it,
+Llama-3.2-3B-Instruct, and Llama-3.1-8B-Instruct. Five objective reasoning
+benchmarks, including GSM8K and CSQA, use task roles, not human-speaker
+histories. Baselines cover greedy, three sampling methods, role-play,
+lower-gap selection, and random switching; ablations test granularity and
+token filtering. No real-speaker fidelity judgment or measured CPU/RAM cost
+is established here. Table 1 reports 3B means 65.60 versus greedy 60.47 and
+random-switch 61.52: +5.13 points versus greedy, but +4.08 versus the strongest
+listed comparator. For 8B, 74.54 versus random 71.45 gives +3.09, not the
+displayed +4.42. These are arithmetic qualifications, not new replications.
+The stated persona-agnostic information-invariance assumption does not apply
+automatically when F/H supply task-relevant personal evidence.
+https://aclanthology.org/2026.findings-eacl.101.pdf
+
+Reading locations: Table 1, PDF page 3; equations 1-4, pages 2-3;
+Limitations, page 5. Official code (not executed):
+https://github.com/junseokkim00/PersonaSwitch
+
+[8] Internalizing persona knowledge in small language models via multi-objective contrastive learning
+
+Identity/status: Suhyun Cho, Sewon Park, Jang Hyun Kim. Knowledge-Based Systems
+347 (July 19, 2026), article 116335; DOI 10.1016/j.knosys.2026.116335;
+PII S0950705126010610. Publisher and author-institution records agree.
+This is a journal article, not an unverified arXiv acceptance claim. No
+matching preprint/version relationship was verified in the bounded search.
+https://www.sciencedirect.com/science/article/pii/S0950705126010610
+https://pure.skku.edu/en/publications/internalizing-persona-knowledge-in-small-language-models-via-mult/
+
+Verified from publisher abstract/introduction and section previews: 15 real
+public figures from QuoteBank-family corpora; a 12B parameter-internalized
+model, not a sub-3B CPU model. PEFT combines Yes/No cross-entropy, margin-based
+pairwise contrastive loss, and language-model NLL. Tasks distinguish utterance
+verification, value judgment, and stylistic identification; name perturbations
+probe memorization. The current abstract compares zero-context inference with
+random and BM25 contexts at 1500 tokens. It reports verification gains, but
+Claude+BM25 slightly exceeds the method on value judgment; therefore blanket
+superiority over strong APIs is unsupported. The introduction also states
+stylistic identification remains below SOTA. Multi-turn and stance-conflict
+robustness remain future work. These are publisher-reported results, not
+independent recalculations. Full training equations/weights, backbone revision,
+LoRA settings, splitting/leakage controls, human-reference provenance,
+hardware/memory, confidence procedures, ablation tables, and compute fairness
+could not be inspected. They remain UNVERIFIED, not absent or satisfactory.
+https://www.sciencedirect.com/science/article/abs/pii/S0950705126010610
+
+Access limitation: direct publisher/DOI/PDF fetches failed in this environment;
+search-accessible primary publisher content exposed the abstract, introduction,
+and section previews, not the full methods/appendices. The institutional record
+corroborates metadata and abstract but is not an independent experiment. No
+paywall circumvention, author impersonation, purchase, or document request
+was attempted. Obtain a lawful full text before claiming implementation-level
+reproducibility or endorsing its evaluation design. In particular, do not
+invent a weighted-sum equation or exact coefficients from the loss names.
+
+Additional direct competitor B1: Jekyll & Hyde
+
+Kim, Yang, Jung, Persona is a Double-Edged Sword: Rethinking the Impact of
+Role-play Prompts in Zero-shot Reasoning Tasks. Formal Findings/IJCNLP-AACL
+2025 record, pp.848-862; DOI 10.18653/v1/2025.findings-ijcnlp.51. The same
+authors' arXiv 2408.08631 uses an earlier subtitle (Mitigating the Negative
+Impact...); link as a related version, not an additional independent result.
+https://aclanthology.org/2025.findings-ijcnlp.51/
+https://arxiv.org/abs/2408.08631
+
+Sections 3-4 and Appendices G-H: generate an instance-specific role, produce
+persona/neutral answers, and compare them with an LLM evaluator in both orders;
+inconsistent verdicts trigger bounded reevaluation. It tests GPT-4-0613,
+GPT-3.5-turbo-0125, and Llama3-8B-Instruct on 12 objective reasoning datasets.
+Table 4 includes self-consistency at comparable call counts; Tables 6/16
+compare Portia and MEC+BPC selection. Reported gains therefore are not solely
+against a single weak prompt, although calls are not CPU-time-equated.
+These are generated task roles, not authentic speakers. The evaluator is
+not a human-fidelity reference. Two-candidate failure remains a limitation.
+It directly precedes confidence-switching: generic persona/nonpersona
+candidate ranking is already prior art, not a new PersonaSLM invention.
+https://aclanthology.org/2025.findings-ijcnlp.51.pdf
+
+Additional direct competitor B2: Persona Vectors
+
+Runjin Chen, Andy Arditi, Henry Sleight, Owain Evans, Jack Lindsey. Persona
+Vectors: Monitoring and Controlling Character Traits in Language Models,
+arXiv 2507.21509, first July 29, 2025; readable v3 September 5, 2025.
+The primary arXiv and author-research pages are verified. A linked OpenReview
+record 20DsUSauCj was inaccessible (challenge/API 403); secondary ICLR 2026
+claims were not used to certify acceptance. Status here: VERIFIED PREPRINT;
+formal publication status NOT REVERIFIED, not asserted nonexistent.
+https://arxiv.org/abs/2507.21509
+https://www.anthropic.com/research/persona-vectors
+
+Sections 2-6 and Appendices B.2, J.4-J.7: contrastive prompted responses yield
+mean residual-activation differences; projection monitors traits and additive
+steering changes them. Preventative steering induces the unwanted direction
+during fine-tuning to reduce weight-based acquisition, then removes steering.
+Comparators include post-hoc steering, prompts, CAFT, and projection
+regularization. Qwen2.5-7B-Instruct and Llama-3.1-8B-Instruct represent assistant
+traits, not individual human speakers. Appendix B.2 reports 94.7% agreement
+from two author-judges on 150 extreme-score pairs (300 judgments), not
+independent absolute-scale validation. Appendix J.7.2 includes a simpler
+preventative-prompt baseline with similar performance at one steering strength.
+Thus neither additive trait directions nor generic training-time protection
+would establish new algorithmic novelty. Real-speaker fidelity and local
+1.5B CPU efficiency are not verified by those experiments.
+https://arxiv.org/html/2507.21509v3
+Author implementation: https://github.com/safety-research/persona_vectors
+
+PersonaSLM-specific scientific synthesis (our assessment, not paper claims)
+
+The three intervention levels must not be conflated: an internal activation
+intervention, selection between generated candidate continuations, and
+parameter learning solve different problems and incur different costs.
+None licenses a causal explanation for the already observed PersonaSLM Style
+ratings. A lower resemblance score is not evidence that three particular heads
+caused failure, and an EOS difference is not evidence for a confidence selector.
+
+The information-access issue is decisive. Our natural current context, Facts,
+and History can change what a defensible reply should contain. Removing those
+sources to create a neutral candidate may remove necessary evidence. A future
+selector must compare candidates with explicit, matched source access, and
+validate source-supported behavior alongside genuine speaker resemblance.
+Its budget must count both discarded candidates and selection work, not only
+the delivered response. A confidence statistic must be tested against genuine
+outcomes; confidence alone cannot stand in for correctness.
+
+The available deployment path does not currently expose a verified per-head
+intervention or exact competing-candidate probability interface. Building one
+would require independently checked numerical behavior, a newly registered
+configuration, fresh hardware bounds, and re-estimation of inference costs.
+Training a 12B adaptation has no established safe resource plan here. These
+are practical prerequisites, not proof that the published methods fail.
+No new scorer/controller or model acquisition is justified merely by this
+literature review.
+
+The closest substantive overlap with real-person modeling is [8], but its
+public-figure/name-memorization setting differs from anonymous professional
+meeting speakers. The role-reasoning and synthetic-trait studies cannot
+establish that the original S/F/H factorial question is already answered.
+Conversely, that difference is only a possible empirical contribution scope,
+not a proof of algorithmic novelty or first-ever factorial work. Broader
+related-work synthesis and independently validated evidence remain necessary.
+
+Recommended decision: GO on completing the unchanged mixed-model human
+evaluation and its pre-join missingness/applicability analysis; then identify
+whether a semantically meaningful configuration-dependent failure remains.
+PIVOT away from an originality claim based merely on prompt switching,
+candidate ranking, difference-in-means steering, or multi-objective persona
+fine-tuning. STOP implementation of these interventions within this literature
+task: the present 52 nonreserve generations do not justify uncalibrated
+selection, broad hyperparameter searches, or weakening the 160-generation
+validation reserve. If a future intervention is warranted, its minimum
+credible comparisons include the unmodified model, a simple prompt/source
+baseline, an existing relevant method, and cost-matched controls.
+
+Reproducibility/limitations of this literature audit
+
+Primary URLs and exact method/table/appendix locations above allow verification.
+This is targeted same-day reading, not another metadata crawl and not evidence
+that every venue is monitored daily. No publication or preprint was counted
+twice. The PMLR final-PDF textual equivalence, [8]'s full methodological detail,
+and Persona Vectors' current conference acceptance remain explicitly limited.
+No raw speaker dialogue, protected human mappings, or reserved corpus bodies
+were accessed. No model generations or human labels were created. This note
+changes prospective novelty assessment only; historical experiments stay frozen.

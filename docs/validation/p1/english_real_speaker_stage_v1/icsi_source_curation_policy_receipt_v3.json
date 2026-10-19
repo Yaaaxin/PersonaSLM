@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-19T15:28:45.020945+00:00",
+  "new_model_generations": 0,
+  "private_policy_sha256": "6522aba511855fbb9c603f333c83178307fea7d78788b863c7f7e25c740e27b9",
+  "rationale": "Root source inspection found incomplete factual propositions, calibration-like history, target-only backchannels, privacy material and inadequate local context in v2. Candidate count was not qualification. One final bounded pre-inference source-curation pass follows.",
+  "rules": [
+    "Bmr bodies only; preserve all v1/v2 files; no reserved Bed body access or inference",
+    "Retain previous sensitive/contact/foreign/uncertain filters; add kids/family/transport expressions; flag possible names for source audit",
+    "Inspect at most two earliest complete source/history/context candidate groups per metadata-eligible speaker, at most12 speakers",
+    "Source self-report retrieval up to6 explicit professional first-person nonhypothetical candidate turns per source meeting; require separate100word10turn style source",
+    "Actual AI-assisted source curation must retain only complete supported propositions; no fabricated human ratings or inferred biography",
+    "History contiguous6to10turns,30to200words,target>=20words,at least one professional term; reject explicit intro/naming/digit calibration indicators; preserve overlaps/timestamps",
+    "Context exactly8 contiguous preceding turns with at most300words; actual target15to100words; all context finishes before target onset",
+    "Source<history<target dates; max2 nonoverlapping contexts per candidate group; no full target quote in any conditioning/context",
+    "Manually redact only names actually present, preserve original private quotations and redaction provenance; do not enrich identities",
+    "No final cohort or GO is asserted by this retrieval artifact; qualified selection requires a separate explicit source-curation record"
+  ],
+  "schema": "icsi_source_curation_policy_v3",
+  "source_hashes": {
+    "english_icsi_material_v1.py": "46dd226e8f4ef2614b5a4f2899fc3e4916572dba4dfab164388fee6b5706e512",
+    "english_icsi_material_v2.py": "ec7e769900cef6d9b3786cb93c01309454c0bdc1bad03cd171f3a759253b5058",
+    "english_icsi_material_v3.py": "d7c8ff997838dd50cc4a57a51ec9244e14d38803bc3b9e9cab5a9465f55b0ced",
+    "icsi_english_qualification_v1.py": "9d0b6141510ab65f2178a207f2c52fa538c707022b382090da0605bc60f54c83"
+  },
+  "source_snapshot_sha256": "d7c8ff997838dd50cc4a57a51ec9244e14d38803bc3b9e9cab5a9465f55b0ced",
+  "split_sha256": "cf91921ef55874237d961f0b2c17b916d5122ccff0c08cf6e4a52ba74a30207e",
+  "v2_candidate_artifact_sha256": "d058ccb0611e3b66bd78edfffc5bf8989be14da14c80e5ff18561148dae0e7ff"
+}

@@ -1,0 +1,202 @@
+PersonaSLM: English real-speaker evidence, computational-stage analysis,
+and bounded replication-source qualification
+19 October 2026. Evidence-linked manuscript supplement and stage conclusion.
+
+SCOPE AND STATUS
+
+This closes a bounded computational analysis and replication-feasibility stage,
+not the whole PersonaSLM programme or its semantic validation. It consolidates
+100 previously executed real English model responses with a new raw-journal
+native-timing decomposition. No new model inference was performed in this
+continuation. Human-derived effects remain provisional; there is no submission-
+readiness, independently replicated Persona Fidelity or novel algorithm claim.
+
+DATA AND DESIGN ACTUALLY EXECUTED
+
+Five ICSI professional-meeting speakers, two authentic conversational contexts
+per speaker, eight S/F/H combinations and two matched-schema style controls:
+80 factorial responses plus 20 controls. This is real-speaker development data,
+not synthetic biographies. All 100 responses are present; native stopping was
+EOS in every case, which does not establish semantic completion or correctness.
+
+S supplies four rates of earlier linguistic behavior, not a full persona model.
+F supplies dated professional self-reports, not verified current biographies.
+H supplies earlier conversation. Common context already includes persona cues.
+Sources differ in content and length; H can also convey facts and style. Thus
+effects concern source provision, not perfectly isolated psychological traits.
+Actual model: official Qwen3-0.6B Q8_0, revision
+23749fefcc72300e3a2ad315e1317431b06b590a, llama.cpp b11573 CPU, four threads,
+2048 context, 128 output-token ceiling, greedy temperature 0, seed 42. No prompt
+cache, warmup or retry. Exact weights/runtime/tokenization/prompts are hash-bound
+by the original protocol, manifests and separate original92/exact-resume8 runs.
+
+OBSERVED CONDITION MEANS
+
+Each row has ten observed responses; the five speaker means are equally weighted.
+Time is elapsed seconds, not process CPU time or energy. S/F/H are bits 0/1/2.
+
+Condition       Input tokens   Output tokens   Wall seconds   Prefill seconds
+C0                 308.9           21.1          3.459018        2.466037
+C1 (S)             396.3           19.3          4.019052        3.123581
+C2 (F)             346.3           18.6          3.602237        2.706613
+C3 (S,F)           433.7           14.5          4.143908        3.429022
+C4 (H)             534.7           24.3          5.484778        4.312955
+C5 (S,H)           622.1           14.8          5.852906        5.055562
+C6 (F,H)           572.1           23.8          5.774672        4.625589
+C7 (S,F,H)         659.5           17.1          6.322048        5.394484
+M_STYLE (F,H)      659.5           16.7          6.284259        5.415771
+N_STYLE (F,H)      660.1           17.5          6.313560        5.413763
+
+ALL REGISTERED FACTORIAL CONTRASTS, TECHNICAL OUTCOMES ONLY
+
+Contrast       Output tokens   Prefill seconds   Decode seconds   Wall seconds
+S                 -5.525          +0.722864         -0.229107       +0.504302
+F                 -1.375          +0.299393         -0.044172       +0.256778
+H                 +1.625          +1.915834         +0.122433       +2.052547
+SF                +0.125          +0.022788         +0.015767       +0.040221
+SH                -2.575          +0.032887         -0.087266       -0.046550
+FH                +2.275          +0.026384         +0.099772       +0.122740
+SFH               +1.275          -0.009644         +0.060569       +0.049403
+
+The frozen effect convention is twice the mean signed product-code outcome,
+averaged first over each speaker's two contexts and then across speakers.
+These interaction coefficients are not unscaled difference-in-differences.
+They are not semantic fidelity or reliability contrasts. All are reported, not
+selected for magnitude or sign. Raw-to-results reproduction agrees within 1e-10.
+
+NEW COMPUTATIONAL FINDING
+
+Across all 100 responses, mean completion wall time was 5.125644 seconds:
+4.194338 prefill, 0.844778 decoding and 0.086528 arithmetic residual. Prefill
+accounted for 81.830455% of aggregate completion time. Native reused-input count
+was zero for every response. The separate tokens_cached field is final slot
+occupancy, not evidence of cache reuse.
+
+The Style source reduced generated tokens but increased total measured latency.
+History's +2.052547-second total contrast includes +1.915834 seconds of prefill.
+Shorter answers therefore did not imply lower total cost in this configuration.
+This is an arithmetic stage decomposition, not proof that semantic content,
+history contamination or response length causally mediated an effect. Source
+length and information were not manipulated independently.
+
+UNCERTAINTY, DEPENDENCE AND INTERRUPTION
+
+S/F/H total-time and prefill contrasts were positive in all five speakers.
+Total-time speaker ranges: S [0.005786,0.755551], F [0.093911,0.427726],
+H [1.219153,2.981658] seconds. Leave-one-speaker-out mean ranges were
+S [0.441490,0.628931], F [0.214041,0.297494], H [1.820269,2.260896].
+These are observed heterogeneity and influence ranges, NOT confidence intervals.
+Five speakers share meetings, partners and topics; 100 responses are not 100
+independent people. No calibrated confirmatory significance is claimed.
+
+The original run stopped after92 between requests at the unchanged RAM guard;
+a separate frozen exact-eight unattempted suffix completed the allocation.
+This restart and non-independent execution order can confound timing effects.
+Excluding the restart-affected speaker preserved positive main latency effects;
+H was +2.260896 seconds and S +0.441490 seconds. The complementary context
+exclusion changes context balance and the finite-set estimand. Neither check
+recreates randomized load or eliminates all environmental confounding.
+
+STYLE CONTROLS AND SEMANTIC LIMITS
+
+Correct-style minus mismatched-style output tokens were +0.4; correct minus
+pooled-style were -0.4. These are not evidence for either fidelity superiority
+or equivalence. Literal five-gram overlap was applicable to93 responses and
+complete across factorial cells for only2/5 speakers; do not turn this
+coverage-limited copying diagnostic into a semantic endpoint.
+
+99 genuine manual condition-blinded judgments were received and preserved.
+Values4/5 do not fit the frozen0-3/NA instrument, and the actual submitted scale
+has not been documented. No clipping, mapping or invented scores were applied.
+The missing judgment remains UNAVAILABLE. All affected human-derived results
+are provisional; no condition-linked human effect is reported in this supplement.
+Prior project/item/rubric exposure must be retained. There is no double-blind,
+project-independent reviewer or independent inter-rater agreement claim.
+See human_scale_documentation_addendum_v1.txt for the minimum next human action.
+
+INDEPENDENT REPLICATION: BOUNDED NEGATIVE FEASIBILITY EVIDENCE
+
+The original frozen ICSI Bed source procedure yielded no source-qualified cases;
+zero independent-validation generations were performed. Remaining fully
+participant-and-partner-disjoint ICSI meeting capacity under that procedure
+was zero. This does not prove ICSI research universally impossible.
+
+A separately frozen AMI natural-English source-qualification route used the
+official manual annotation archive, documented CC BY4.0 distribution and privacy
+limits. Roleplay/fictitious-scenario meetings were excluded. Metadata identified
+26 natural meetings,51 stable within-corpus IDs and15 candidates with three or
+more dates. The fixed earliest source/history/target schedule retrieved all
+required source components for only3 candidates:11 lacked a retrieved first-
+source self-report and1 had an unusable mandatory timed source segment. The
+prospective minimum was4, so the conditional80-request study was NOT launched.
+This is a fixed-procedure yield failure, not proof that AMI contains no suitable
+facts. Subsequent narrow AI source curation is not genuine human evaluation.
+
+No target-only meeting bodies were opened. Three future target meetings were
+incidentally earlier sources for other candidates, affecting six candidates;
+this exposure is recorded, not called untouched validation. Different corpus
+pseudonyms cannot establish that actual people are disjoint across corpora.
+The58 Japanese validation speakers remain protected and are not substituted
+into the English primary programme. No validation data were tuned for a result.
+
+RQ COVERAGE AND CURRENT SCIENTIFIC DECISION
+
+RQ1: executed full source-provision factorial; technical main/interaction
+estimates are reproducible. Semantic effects await documented genuine measures.
+RQ2: dated evidence and authentic history are preserved; temporal correctness or
+historical contamination effects are not established by these technical data.
+RQ3: one model/configuration only; no size or Base/Instruct conclusion.
+RQ4: measured prefill/decode costs constrain future fair comparisons; no tested
+retrieval, ranking, LoRA or quality-preserving algorithm advantage is claimed.
+
+Compared three next paths after the bounded AMI result:
+A. Authentic-reference conditional NLL could measure predictability, not fidelity;
+   a correct target-only native scorer is not currently validated. Fixed native
+   perplexity options are not a ready exact target-span evaluation. HOLD rather
+   than substitute an unvalidated endpoint or substantial new instrumentation.
+B. ICSI Bro/Bns metadata permits a prospective new-target-speaker/known-partner
+   transport candidate. Source quality is still unknown; target-speaker novelty
+   is not full participant independence. Keep as a viable next empirical path,
+   not an executed or prohibited study and not a repair of the Bed failure.
+C. Consolidate the executed English experiment, actual native-cost observations
+   and bounded source failures before creating more annotation debt. SELECTED.
+
+GO for documented human-scale intake and registered, coverage-aware paired
+semantic analysis when authentic definitions exist. STOP this fixed AMI80 branch.
+PIVOT away from further proxy-only model expansion. New cohorts remain allowed
+when independently justified; missing labels do not prohibit all other research.
+The next primary empirical candidate is B after a new source policy, without
+opening targets or changing the original study based on ratings. Larger model
+and algorithm allocations remain held until a meaningful quality comparison is
+available. Prefill dominance motivates a known efficiency baseline, not novelty.
+
+REPRODUCTION AND PRESERVATION
+
+Main evidence:
+../english_real_speaker_stage_v1/development_combined_analysis_v1.json
+SHA25684468a7ccf42ba9ea8d368ee9800b211c2d97d1422c1ad7fa234b163f3066a53
+native_cost_analysis_v1.json
+SHA25673b3ffb1401ac220c5461ed6403c0d6993d57bcbaea581318b6fdd5a0ede45e3
+ami_source_pool_receipt_v1.json
+SHA25621fc99870856b0efa57032f5a7838bea2a55ce28cafa6c08bfee34ae71a37552
+
+Independent arithmetic uses distinct recipes but shares the raw observations
+and some readers; it is not independent experimental replication. Public clone-
+only reproduction remains PARTIAL without permitted private journals, source
+snapshots and licensed data. No bit-identical cross-environment generation claim.
+Use the exact read-only commands in research_state_v2.json. Do not rerun completed
+generation controllers or overwrite frozen records. New raw/source evidence
+requires private preservation, not public Git inclusion. Git remains human-only.
+
+Resource use remains788/1200 generations and4485.684495999997/72000 completion
+inference seconds;412 generations remain, including the160 validation reserve.
+No new model calls, paid resources, unrelated process termination or changed
+hardware gates in this continuation. The AMI controller is prepared but unrun.
+
+Literature: the existing scheduled metadata run already completed today and
+supports arXiv/Crossref/OpenAlex, not every requested venue or daily deep AI
+analysis. Targeted AMI rights/method, alternative-data and model/runtime primary
+sources informed the decisions; these are not new-paper discovery claims.
+No formal acceptance status or algorithmic novelty was inferred from metadata.
+See targeted_source_and_model_decisions_20261019_v1.json. This stage is not a
+claim of publication readiness or indefinite background scientific execution.

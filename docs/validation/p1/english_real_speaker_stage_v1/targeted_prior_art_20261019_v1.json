@@ -1,0 +1,36 @@
+{
+  "schema": "english_stage_targeted_prior_art_v1",
+  "date": "2026-10-19",
+  "scope": "Targeted primary-method reading for the English study, not a second daily metadata crawl or a new novelty discovery.",
+  "sources": [
+    {
+      "id": "arXiv:2610.08513v1",
+      "title": "Wiki-Talkie: Multilingual Benchmarking of Persona-Based Agents on Real-World Discussions",
+      "url": "https://arxiv.org/html/2610.08513v1",
+      "status": "PREPRINT; formal acceptance not established by this inspection",
+      "read": "Sections3-4, evaluation definitions, limitations on information density and representation, and relevant appendices inspected.",
+      "verified_method": "Real Wikipedia discussions; next-turn generation compares base role, profile, behavior, behavior with reasoning, and history. Primary target is population interactional behavior, not validated individual fidelity. Dialogue-act annotation uses an LLM checked against humans. History and summaries are not fully information-matched.",
+      "implication": "History-versus-profile continuation is already close prior work. PersonaSLM must not claim this generic comparison as novel. A CPU-small-model factorial source-provision study has a narrower potential empirical distinction, not an established algorithmic novelty claim. Prompt information quantity remains a limitation."
+    },
+    {
+      "id": "arXiv:2610.19314v1",
+      "title": "PersEvalBench: Can LLM Evaluators Judge Contextually Appropriate Use of Persona Information?",
+      "url": "https://arxiv.org/html/2610.19314v1",
+      "status": "PREPRINT; formal acceptance not established by this inspection",
+      "read": "Task and scenario specification, realization, evaluator comparisons, human-validation protocols and exposure disclosures inspected.",
+      "verified_method": "Controlled multi-episode scenarios distinguish whether past information applies, including under-use, over-use and misapplied states. Matched response construction separates intended persona-use errors from generic quality. Distinct human studies audit intervention validity and state applicability; the authors disclose narrowed exposure in one evaluation portion.",
+      "implication": "Source support alone does not establish appropriate use. Human review should separate factual support, applicability, relevance and fidelity. PersonaSLM's PI review is not equivalent to project-independent annotators or multiple-rater agreement. No LLM ratings will stand in for the promised human judgments."
+    }
+  ],
+  "daily_scheduler": {
+    "existing_task_verified": true,
+    "last_local_run": "2026-10-19T04:23:23",
+    "last_result": 0,
+    "next_local_run": "2026-10-20T04:23:23",
+    "actual_scheduled_sources": ["arXiv", "Crossref", "OpenAlex"],
+    "scope": "Incremental metadata; no scheduled deep AI reading claimed",
+    "gaps": ["Direct daily OpenReview", "Direct daily ACL Anthology", "Direct daily Semantic Scholar", "Comprehensive official proceedings/acceptance feeds"]
+  },
+  "novelty_decision": "No validated new algorithm. Complete interpretable factorial and human evidence before selecting a mechanism-dependent intervention; retain all historical negative results.",
+  "new_formal_publication_discovered": false
+}

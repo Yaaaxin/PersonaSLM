@@ -1,0 +1,38 @@
+{
+  "boundary": "Structural metadata eligibility only, not factual/semantic/ethical qualification or experiment registration.",
+  "conversations": 1155,
+  "correction": "v1 incorrectly rejected992 valid unpadded YYYY-M-D dates; now uses explicit calendar strptime. Frozen v1 is preserved as software-error evidence, not missing-date evidence. No target content or generation was accessed before correction.",
+  "cross_split_conversations_excluded": 552,
+  "groups": {
+    "development": {
+      "assigned_speakers": 212,
+      "max_distinct_dates_per_speaker": 16,
+      "speakers_with_at_least_two_dates": 99,
+      "speakers_with_four_dates_and_three_partners": 60,
+      "within_split_conversations": 259
+    },
+    "reserved": {
+      "assigned_speakers": 228,
+      "max_distinct_dates_per_speaker": 16,
+      "speakers_with_at_least_two_dates": 138,
+      "speakers_with_four_dates_and_three_partners": 85,
+      "within_split_conversations": 344
+    }
+  },
+  "invalid_dates": 0,
+  "new_model_generations": 0,
+  "original_transcript_members_opened": 0,
+  "prior_receipt_sha256": "b327ad4e7047cf975cdde87c6bc4d253e1c802806929ebc980f9a1feb590e550",
+  "private_partition_sha256": "925f046c5313de30fb200e31324586bc59054ba312746448ebff6ed153eeae19",
+  "recorded_utc": "2026-10-19T15:11:03.424520+00:00",
+  "schema": "personaslm_swda_metadata_qualification_v1_1",
+  "source_archive_sha256": "c903ef6542a9838d23fe5cf00c4cfc4727ca54cadb55c61916f090498141c817",
+  "source_code_sha256": {
+    "english_swda_metadata_qualification_v1.py": "b4e1903d14b5054417a4697925dc425a82dfd594ffc3ecfc64d4bc64ea0be93a",
+    "english_swda_metadata_qualification_v1_1.py": "ce4efb7e90edc821680d2e04b15159f86952b549449a4f10792220fa7aa7d078"
+  },
+  "speaker_assignments_unchanged": true,
+  "speakers": 440,
+  "utterance_members_opened": 0,
+  "validation_target_content_inspected": false
+}

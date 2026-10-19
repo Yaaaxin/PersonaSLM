@@ -1,0 +1,30 @@
+{
+  "archive_sha256": "9db98ebdd61a085b4f45f24f46e9c9f6c6f26c3c9cd41643a3b9e74362c85de7",
+  "candidate_contexts": 14,
+  "created_utc": "2026-10-19T15:23:31.385216+00:00",
+  "development_transcript_bodies_read": 29,
+  "new_model_generations": 0,
+  "policy_sha256": "f998653760400dfedc80892e34474468f7dae7dd34b5f4f22a25cea0d259d826",
+  "privacy_filter_is_not_a_guarantee": true,
+  "private_case_records_with_possible_name_flags": 14,
+  "private_material_sha256": "d058ccb0611e3b66bd78edfffc5bf8989be14da14c80e5ff18561148dae0e7ff",
+  "reserved_transcript_bodies_read": 0,
+  "schema": "icsi_material_candidates_v2",
+  "segment_exclusions": {
+    "non_single_human_or_digit_task": 3106,
+    "sensitive_contact_foreign_uncertain_or_empty": 9717
+  },
+  "source_hashes": {
+    "english_icsi_material_v1.py": "46dd226e8f4ef2614b5a4f2899fc3e4916572dba4dfab164388fee6b5706e512",
+    "english_icsi_material_v2.py": "ec7e769900cef6d9b3786cb93c01309454c0bdc1bad03cd171f3a759253b5058",
+    "icsi_english_qualification_v1.py": "9d0b6141510ab65f2178a207f2c52fa538c707022b382090da0605bc60f54c83"
+  },
+  "speaker_exclusions": {
+    "fewer_than_three_dated_meetings": 5,
+    "no_prior_source_with_selfreport_and_separate_style": 5
+  },
+  "speakers_with_one_context": 0,
+  "speakers_with_two_contexts": 7,
+  "split_sha256": "cf91921ef55874237d961f0b2c17b916d5122ccff0c08cf6e4a52ba74a30207e",
+  "status": "SCREENED_CANDIDATES_PRIVATE_SOURCE_AUDIT_REQUIRED"
+}

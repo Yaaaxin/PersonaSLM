@@ -1,0 +1,384 @@
+{
+  "schema_version": "personaslm_incremental_checkpoint_v4",
+  "base_head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+  "branch": "research/autonomous-personaslm",
+  "recorded_date": "2026-10-19",
+  "allowlisted_file_count": 66,
+  "scope": "Exact union of the frozen36-file v3 increment and30 new reviewed files; not all local changes. New files comprise16 study documents,8 source/tests,1 working manuscript and5 v4 checkpoint files.",
+  "predecessor": {
+    "manifest": "docs/validation/research_checkpoint_v3/checkpoint_manifest_v3.json",
+    "sha256": "e96f788f44e0a9c5171637df2e783234a84987096299b22478f5ca944a395808",
+    "allowlist_sha256": "5af92c5c2582c0710c8f677ef26c0f7a02920a3e282c867b4431b96b5429d100",
+    "files": 36,
+    "status": "UNCHANGED_HASH_VERIFIED"
+  },
+  "inspection": "Every new source/test/protocol/report/summary and the entire manuscript inspected in full; inherited36 retain prior complete content review plus current exact hash verification. New checkpoint documents/verifier inspected before hashing. No private participant or protected-review payload admitted.",
+  "scientific_consistency": "New52 raw calls reconciled by saved independent arithmetic audit; aggregate reports/manuscript/state agree. Runtime Python closure complete relative to base+union. Private materials, models/runtime assets and three withheld historical manuscript references prevent complete public scientific reproduction.",
+  "credential_scan": {
+    "reviewed_pre_manifest_files": 65,
+    "high_confidence_credential_pattern_findings": 0,
+    "json_parse": "PASS",
+    "unexpected_binary_or_nul_files": 0,
+    "limitation": "Pattern scan supplements complete new-content review; it is not a proof against arbitrary hidden secrets."
+  },
+  "relevant_tests": {
+    "passed": 29,
+    "failed": 0,
+    "elapsed_seconds": 0.55,
+    "python": "3.14.3",
+    "pytest": "9.1.1",
+    "warning": "Unknown cache_dir configuration after deliberately disabling cacheprovider.",
+    "scope": "New targeted synthetic suite, not whole-repository or scientific measurement validation."
+  },
+  "verified_state": {
+    "cumulative_generations": 688,
+    "generation_ceiling": 1200,
+    "cumulative_inference_seconds": 3973.1201058999386,
+    "inference_seconds_ceiling": 72000,
+    "new_calls": 52,
+    "new_free_dialogue_continuations": 0,
+    "heldout_validation_speakers_preserved": 58,
+    "human_labels_created": 0,
+    "independent_arithmetic": "PASS52",
+    "independent_experimental_validation": "NOT_ESTABLISHED",
+    "public_scientific_reproducibility": "PARTIAL"
+  },
+  "safety": {
+    "automated_staging": false,
+    "automated_commit": false,
+    "automated_push": false,
+    "protected_mapping_opened": false,
+    "participant_payloads_in_allowlist": false,
+    "model_weights_in_allowlist": false,
+    "raw_development_log_excluded": true
+  },
+  "self_hash": "This manifest is the only allowlisted file not bound below. Its SHA256 must be supplied independently to the verifier. Do not derive trust from an unverified local manifest.",
+  "exclusions_reference": "docs/validation/research_checkpoint_v4/dependency_and_privacy_review_v4.json",
+  "files": [
+    {
+      "path": "docs/PersonaSLM_manuscript_working_v2.md",
+      "bytes": 41815,
+      "sha256": "3b95fc78291b3cdea9bd2b76b1f688965c50da48c6686ce0f7f15e13ecc8827c"
+    },
+    {
+      "path": "docs/validation/literature_monitor_v1/style_control_publication_link_2026-10-19_v1.json",
+      "bytes": 2869,
+      "sha256": "3dffd284d026d80f053077c48b23c798a7cb6ee418c31b35b310e20fff6fbe4d"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/analysis_v1.json",
+      "bytes": 3795,
+      "sha256": "050854360131e1335583b591f9034da58e13ef30a6a02f2dafff95f50259e58b"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/design_v1.json",
+      "bytes": 8439,
+      "sha256": "f9597e2a74aea85cf1a5d03e16c25923d1a00dc4e01720879a06e12fae013fed"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/execution_receipt_v1.json",
+      "bytes": 622,
+      "sha256": "4e4d2cae32d9eaff8916ad437682fd3e97624506bc93c4d6e39c409d34439f23"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/independent_analysis_reproduction_v1.json",
+      "bytes": 3493,
+      "sha256": "2add45116b112ea5c263e1aef5d1a510c4ba0841b8741093a98015e7c8a964ce"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/local_preservation_receipt_v1.json",
+      "bytes": 1264,
+      "sha256": "397949ada3dd58460b0ba5e68ca5152847c5bc4919cf89e5658a6927c1ad318b"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/posthoc_position_diagnostic_v1.json",
+      "bytes": 6305,
+      "sha256": "8c0540ee33a783b3dea3e8fb56e6144de5ead2ae171afbaeab41fb99c150ac21"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/postrun_prior_art_v1.json",
+      "bytes": 3230,
+      "sha256": "b945d2ad21cab737102d9a6c4974d99565ceccd5e5f6945c76f13aa4b535b207"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/preflight_v1.json",
+      "bytes": 3575,
+      "sha256": "ee22360e1996065f01c1e5325bff7217b0f77c94a58578690b854fd87b63a23f"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/primary_evidence_v1.json",
+      "bytes": 3812,
+      "sha256": "963f678b64ba4e1a1dbcc4944df4ba859d11c8a651ada4d9b77a43766676fd8b"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/public_development_continuation_v1.txt",
+      "bytes": 4522,
+      "sha256": "26e09cf94d803938aa8ca717b1da20d754be4a1360b8951b81a17254e7cc6727"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/registration_v1.json",
+      "bytes": 21370,
+      "sha256": "3f3053b3accb0d4045cd95424266462cb4f08dadab1dbb806b17b03cbe3cd402"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/reproduction_instructions_v1.txt",
+      "bytes": 5914,
+      "sha256": "0616c76eb02f7a130bd215bb256f828651baf7da20810a7ecbc08d6a9c18545a"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/research_state_v1.json",
+      "bytes": 4833,
+      "sha256": "afcd06059650f0581b219ddcbc721e71cd458512102de5a1cfd48479415bb589"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/scientific_decision_v1.json",
+      "bytes": 5948,
+      "sha256": "81ac74abf83accaf708faa053872f990db863dd12427bdae6368c0b364f74e6b"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/scientific_report_v1.txt",
+      "bytes": 10479,
+      "sha256": "363df28d712f0190188c99734c0b9cfc358824b8b2ef31943b11266810e4b7f4"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_continuation_v1/test_receipt_v1.json",
+      "bytes": 1097,
+      "sha256": "1564acbf4665864396873e40e65c486f70538d7ea47333c88b2a6c5a31048b92"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/human_review_delivery_protocol_v1_1.json",
+      "bytes": 8871,
+      "sha256": "c52c590ffa9434c1241f871b5380369ff765fcc405b18aba8f02e6c8179b5278"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/analysis_v1.json",
+      "bytes": 13213,
+      "sha256": "526bdcbaf63ebb612ce2321cfe90503b6ead969bdb31c416a88d8891ff5d2ce7"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/analysis_v1_1.json",
+      "bytes": 17134,
+      "sha256": "1da84de9343c2ed1047b3f41b4cd4b0c7460f7de66b2fb98bafd59f9353bcaed"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/design_v1.json",
+      "bytes": 7154,
+      "sha256": "2cd42f02d39a19d2e9ea9a9f8ed6a4f034c1d0c60ae33974a9ac0b3bd0364a6d"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/environment_observation_v1.json",
+      "bytes": 2424,
+      "sha256": "cafd04d87af2ceb3770f1a78ad4a10eb63f324f9fd1dc36eb13ae5df5a5fb125"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/execution_receipt_v1.json",
+      "bytes": 606,
+      "sha256": "a641ea3cacd14cdfc704f05234f268e28119b82adba88477b63f6b084b7e7cac"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/independent_analysis_reproduction_v1.json",
+      "bytes": 11764,
+      "sha256": "67bc84ee580441b5d2d0a64ff8764be07a7aa9a036708ddea0757e0ba3ab8586"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/independent_analysis_reproduction_v1_1.json",
+      "bytes": 15025,
+      "sha256": "58eb64a8b06dd1ab17ed8dcb0e1704b0800f1408ae3123616105a572d48dc803"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/licensing_and_prior_art_review_v1.json",
+      "bytes": 13531,
+      "sha256": "b8bf91ac26391b135bb92a90b51ef5b2aa8955baad35c5e064433da57194a618"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/local_preservation_receipt_v1.json",
+      "bytes": 1872,
+      "sha256": "ef828b295757e32c72ab42e27cd780d08e88ae32760eba1ebc87bef80183cdf1"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/material_integrity_audit_v1.json",
+      "bytes": 4599,
+      "sha256": "0a9d18708cb2f1a0bb096ca69532691fff8c152b7b5b2a0d7260caffbfb4a192"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/preflight_v1.json",
+      "bytes": 3624,
+      "sha256": "af244a4fdf8e84f66cd8c75df390edb2570708f2b303a64651d5a005ebc2bbc9"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/public_development_continuation_v1.txt",
+      "bytes": 6775,
+      "sha256": "f97c02109453714e36465747018cfcf3f453f787a3c42c15e93b8b132937b666"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/registration_v1.json",
+      "bytes": 8876,
+      "sha256": "7bcee29a54fba8e39411ea90e3d4ce19f611360c56bbd8de8bb26cee381618bb"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/research_state_v1.json",
+      "bytes": 3458,
+      "sha256": "a014e38d74dc3c3122e397d844cda3a30aec56d27b9886f98dabe1c034a00998"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/scientific_report_v1.txt",
+      "bytes": 11998,
+      "sha256": "89749b4bd4af08132b95012e1fb80a678667d6289a5f9fac62e62efd45234367"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/suffix_amendment_v1.json",
+      "bytes": 2936,
+      "sha256": "829a268efdcc2f15132d0c33213d3e8eee4e4c4ba93eebc4deaae7133b489135"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/suffix_execution_receipt_v1.json",
+      "bytes": 807,
+      "sha256": "90ac478cdf9969976b74e945c487443c38dd157357f755afd4b3bec408bff29c"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/suffix_preflight_v1.json",
+      "bytes": 3750,
+      "sha256": "766771ac1d109f0b6d6c3ca2e4fa8a7287e5a7d284f99697084d816f6ad46d58"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/suffix_registration_v1.json",
+      "bytes": 8924,
+      "sha256": "5d9d081cb19c76fc0253ac556a1ef00c16710f03e255a6a6aa954e755492ef50"
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_style_specificity_v1/test_receipt_v1.json",
+      "bytes": 2770,
+      "sha256": "fd568160623966f394a1a3b7f7d59ef4513f78fcb25af58857cfff8d1e26ff23"
+    },
+    {
+      "path": "docs/validation/research_checkpoint_v3/CHECKPOINT_INSTRUCTIONS.txt",
+      "bytes": 4792,
+      "sha256": "c6374aac86b1ed363f7f65a5b16e469e5ce34e7ba6ea39357314c94cc7fd6422"
+    },
+    {
+      "path": "docs/validation/research_checkpoint_v3/checkpoint_manifest_v3.json",
+      "bytes": 9308,
+      "sha256": "e96f788f44e0a9c5171637df2e783234a84987096299b22478f5ca944a395808"
+    },
+    {
+      "path": "docs/validation/research_checkpoint_v3/dependency_and_privacy_review_v3.json",
+      "bytes": 8511,
+      "sha256": "dce50f5ae4f754acdff1c38c9d5801429cd953c755227a0849b3844bb4a31d94"
+    },
+    {
+      "path": "docs/validation/research_checkpoint_v3/public_git_allowlist_v3.txt",
+      "bytes": 2771,
+      "sha256": "5af92c5c2582c0710c8f677ef26c0f7a02920a3e282c867b4431b96b5429d100"
+    },
+    {
+      "path": "docs/validation/research_checkpoint_v3/verifier_self_checks_v3.json",
+      "bytes": 1950,
+      "sha256": "74064f86a82c0df79225af7631bae4b29e92a55e99d84fc6e3bf96b8c7f7c3ba"
+    },
+    {
+      "path": "docs/validation/research_checkpoint_v3/verify_checkpoint_v3.ps1",
+      "bytes": 5260,
+      "sha256": "58a0e1f2940237d934a353b553800fb362b96ead854bb873fb88a3b990a433a1"
+    },
+    {
+      "path": "docs/validation/research_checkpoint_v4/CHECKPOINT_INSTRUCTIONS.txt",
+      "bytes": 4854,
+      "sha256": "9020f0338036a8d9b36415a56df6f5970e508264d415a4e9118ca53fbedf8f5b"
+    },
+    {
+      "path": "docs/validation/research_checkpoint_v4/dependency_and_privacy_review_v4.json",
+      "bytes": 7978,
+      "sha256": "f30cfa926328ebc56ea94bd6489899b1c3f6577ed2e968da3550ccc73a7fdce4"
+    },
+    {
+      "path": "docs/validation/research_checkpoint_v4/public_git_allowlist_v4.txt",
+      "bytes": 4874,
+      "sha256": "9eb33a3c3963eb9c5e48bb57d8d50841b0561c459395df863cccef6b7b01096c"
+    },
+    {
+      "path": "docs/validation/research_checkpoint_v4/verify_checkpoint_v4.ps1",
+      "bytes": 6019,
+      "sha256": "e8e4c5691bf8994d8e40b9692ec29c1f6715d68d35a030f06a5e0e3e4ad64677"
+    },
+    {
+      "path": "tests/test_real_persona_chat_continuation_material_v1.py",
+      "bytes": 6244,
+      "sha256": "999a508216c8dc3c0027cbba2184df8ca98412c9b422273833878a2fe2195b80"
+    },
+    {
+      "path": "tests/test_real_persona_chat_continuation_position_diagnostic_v1.py",
+      "bytes": 1406,
+      "sha256": "6527196deeedac08541b99edb50aebd628500abe867aa50cdd824136e5da2337"
+    },
+    {
+      "path": "tests/test_real_persona_chat_continuation_reproduce_v1.py",
+      "bytes": 3473,
+      "sha256": "cb0260fd8fd43efb926568e16bc122e9a63ce37f225421dbeedb122d7e03c1b5"
+    },
+    {
+      "path": "tests/test_real_persona_chat_continuation_v1.py",
+      "bytes": 2469,
+      "sha256": "c6c5d6daa6a0393a9638061689a04f9bc6e4abb156d0288cf918a294449c0469"
+    },
+    {
+      "path": "tests/test_real_persona_chat_sfh_review_delivery_correction_v1_1.py",
+      "bytes": 1558,
+      "sha256": "62870f4fbe2e7736c67b7b9ac913cab69ca723e49754f91e349124fd58201f49"
+    },
+    {
+      "path": "tests/test_real_persona_chat_style_specificity_suffix_v1.py",
+      "bytes": 4495,
+      "sha256": "69a7a3263d077afc5428067ab24d6e32949b30487c0febeb9fff22dc2e14b474"
+    },
+    {
+      "path": "tests/test_real_persona_chat_style_specificity_v1.py",
+      "bytes": 9946,
+      "sha256": "560d782f154138e92eefddf8c79f935ee3b7e209d89f0fb7bddbdbaa5c464062"
+    },
+    {
+      "path": "tools/real_persona_chat_continuation_material_v1.py",
+      "bytes": 13819,
+      "sha256": "613b837b536eaf814602a1763382ad1f5ee22fd20e263e18850bbb0f7a3abbf4"
+    },
+    {
+      "path": "tools/real_persona_chat_continuation_position_diagnostic_v1.py",
+      "bytes": 7943,
+      "sha256": "a8efca82cd04648ef982bb8c7935f1fc0b66d0ef808edac45d1abaa047ec96d1"
+    },
+    {
+      "path": "tools/real_persona_chat_continuation_reproduce_v1.py",
+      "bytes": 15333,
+      "sha256": "d6f877c87cf1fe030fd60f6cacb8e536693e8b7cee90f319794da5490af5abef"
+    },
+    {
+      "path": "tools/real_persona_chat_continuation_v1.py",
+      "bytes": 26682,
+      "sha256": "4a98140059e4590c28bee2bd960bb410fe533e02abef2ac728967732fa04bba2"
+    },
+    {
+      "path": "tools/real_persona_chat_sfh_review_delivery_correction_v1_1.py",
+      "bytes": 8434,
+      "sha256": "e7a734c653c7c618181004dda6dcd3a11b65d02acb182322165247f76de0b46c"
+    },
+    {
+      "path": "tools/real_persona_chat_style_specificity_combined_v1.py",
+      "bytes": 24178,
+      "sha256": "d2fae4823d03674d729674a9cc92399fb46938a8caddc1af1c72e37d048bff2a"
+    },
+    {
+      "path": "tools/real_persona_chat_style_specificity_reproduce_v1.py",
+      "bytes": 18669,
+      "sha256": "c90b9bb26c349e3cbac5aa4b1be9ba202a6d99dfe159c7205fba448c51fc6b74"
+    },
+    {
+      "path": "tools/real_persona_chat_style_specificity_suffix_v1.py",
+      "bytes": 12763,
+      "sha256": "fc345652597766f4ff9a6f19ecca2501dde71534ff7eb601561ba3cacc8048f0"
+    },
+    {
+      "path": "tools/real_persona_chat_style_specificity_v1.py",
+      "bytes": 31908,
+      "sha256": "59f166bcd6b03b45d57e51264e0141cda0fd661ab0e7b52a1c74265207b2f8bb"
+    }
+  ]
+}

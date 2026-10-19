@@ -1,0 +1,452 @@
+PersonaSLM: integrated English real-speaker developmental findings
+2026-10-19 | Research Protocol v1.1 | P1 active, not research completion
+
+Evidence level: DEVELOPMENT / EXPLORATORY. Genuine human evidence exists for
+99 earlier responses. The newly completed 200 responses have independently
+recomputed technical measurements, but their semantic evaluation is pending.
+No independent new-speaker validation or algorithmic novelty is established.
+
+1. Scientific conclusion and scope
+
+This stage now contains 300 actual English real-speaker responses on the same
+five development speakers and ten conversational contexts: the archived
+100-response Qwen3-0.6B study and a newly completed, prospectively registered
+200-response Qwen2.5-1.5B Base/Instruct deployment comparison. These are not
+300 independent speakers, contexts, or human judgments.
+
+The earlier genuine principal-researcher ratings provide a limited but
+interpretable negative finding: supplying the registered Style representation
+had negative paired ordinal net preference for relevance, coherence, and
+perceived linguistic resemblance, under every allowed completion of the one
+missing rating. This does not imply uniform ordinal distributional worsening:
+the linguistic-resemblance contrast at rating >=4 is positive. Facts and
+History effects also vary by outcome and ordinal cut. A blanket conclusion
+that more persona material improves quality is unsupported.
+
+The new experiment establishes that the same source packages have materially
+different technical response and cost profiles across the two registered
+deployments. Base generated 104.06 tokens per response on average; Instruct
+generated 35.58. Base stopped at EOS in 16/100 responses, at the generation
+limit in 73/100, and at a registered turn-boundary stop string in 11/100.
+Instruct stopped at EOS in 98/100 and at the limit in 2/100. These observations
+describe generation behavior, not semantic completion, fidelity, or truth.
+Genuine review is necessary before deciding whether either configuration
+improves dialogue quality or changes the earlier negative Style finding.
+
+The main advance is an evidence-linked real-speaker factorial programme with
+an actual human developmental finding and a completed matched-configuration
+follow-up, not a validated new algorithm or a submission-ready study.
+
+2. Why this experiment, rather than the main alternatives
+
+The research decision compared three paths. History-selection baselines could
+address RQ4, but the already permitted short-history pool did not support a
+convincing length-controlled comparison between selection mechanisms. Expanding
+that pool after seeing results would require new prospective source rules.
+New-speaker transport was scientifically valuable, but prior English source
+qualification had not yielded the required independent cohort; those failures
+remain frozen. A single new Instruct configuration would cost less but omit a
+same-family Base/Instruct comparison.
+
+The chosen bounded pair therefore retained the original real-speaker S/F/H
+question, matched all existing development contexts and controls, and tested
+configuration dependence without additional source selection. It used 200 of
+the then remaining 412 generations, leaving 212, including a 160-generation
+independent-validation reserve. Selection was motivated by discriminating
+information and feasibility, not an observed favorable model result.
+
+3. Dataset, constructs, and experimental design
+
+The source is authentic English ICSI professional meeting dialogue under the
+previously verified CC BY 4.0 transcript distribution and attribution terms.
+This qualifies a narrow local research use; public availability is not
+individual consent to impersonation. Raw dialogue, actual speaker identifiers,
+review mappings, and personal annotations remain private. The study does not
+assert consent that was not documented, infer sensitive biographies, or deploy
+speaker impersonation. Its subject is professional conversational behavior,
+not a participant's complete personality or whole-life persona.
+
+The same five development speakers each contribute two natural continuation
+contexts. All eight C0-C7 conditions occur for each context; C0 has no added
+S/F/H package and C7 has all three. C1 adds S, C2 F, C4 H, with the remaining
+conditions combining those bits. M_STYLE replaces correct-speaker Style with
+a mismatched-speaker representation at F=H=1. N_STYLE supplies the frozen
+pooled-style representation at F=H=1. Each model therefore has 80 factorial
+and 20 control responses, for 100 total. No reference continuation is included
+in the generation prompt or treated as the only acceptable answer.
+
+S supplies four development-source aggregate linguistic rates, rather than
+private factual quotations or an exhaustive account of individual style.
+F contains source-bound, dated professional self-reports, not independently
+verified biographies or temporally verified world facts. H supplies actual
+earlier conversational material. The current context is fixed across
+conditions for a case. Earlier source chronology and prompt/reference
+separation are preserved. Natural H inevitably contains linguistic style and
+facts; C0 itself contains real conversational evidence. The estimands concern
+provision of these source packages, not perfectly isolated psychological
+constructs or differences under perfectly identical information access.
+
+4. Existing genuine human findings: separate from the new model pair
+
+The archived Qwen3-0.6B Q8_0 study has 99 genuine PI-authored primary judgments
+and one UNAVAILABLE record among 100 allocated responses. The researcher
+affirmed manual, condition-blinded evaluation and clarified the actual scale
+as ordered 0-5, higher better. The original 0-3 rubric and its failed intake
+validation remain unchanged. No rating was rescaled, repaired, or invented.
+The ordinal analysis amendment was frozen after rating collection but before
+the authorized condition join: this is retrospective exploratory analysis,
+not prospective validation of a measurement instrument. Intermediate ordinal
+categories were not supplied with invented verbal anchors.
+
+For each main factor, 40 within-context pairs were allocated and 39 observed.
+Net preference is P(higher rating with factor)-P(lower rating with factor),
+averaged within speaker and equally across speakers. The following bounds
+retain all five speakers and enumerate every possible 0-5 category for the
+missing response. They are logical missing-outcome bounds, not confidence
+intervals, imputed ratings, or population significance tests.
+
+Outcome                   Style             Facts             History
+Relevance                 [-.150,-.125]      [-.075,-.025]      [ .000, .050]
+Coherence                 [-.100,-.075]      [-.050, .000]      [-.075,-.025]
+Linguistic resemblance    [-.150,-.125]      [ .075, .125]      [-.025, .025]
+
+All five cumulative ordinal cuts, rating >=1 through >=5, were analyzed for
+all seven factorial contrasts; no attractive cut was selected as the result.
+For Style and linguistic resemblance, the five contrast bounds are:
+[-.075,-.050], [-.075,-.050], [-.050,-.025], [.025,.050], [-.075,-.050].
+Thus the negative paired net is not first-order stochastic dominance. The
+Style relevance profile is nonpositive at all five cuts, whereas coherence
+has a different highest-cut profile. Facts can improve perceived linguistic
+resemblance without improving relevance. History has no uniform benefit:
+its relevance bound is nonnegative, coherence negative, and resemblance
+crosses zero. The SF profile is nonnegative at all five cuts in the three
+domains, but other interaction directions vary by cut. These dependent,
+small-cohort profiles do not establish general synergistic mechanisms.
+
+The three Style control summaries happen to be identical across the three
+rated domains. Correct versus mismatched Style has 2 wins, 8 ties, 0 losses
+(net +.20); correct versus pooled Style has 1 win, 9 ties, 0 losses (net +.10);
+correct versus no Style at F=H=1 has 2 wins, 6 ties, 2 losses (net .00).
+These are ten paired contexts per contrast, not three independent replications.
+The zero net is not evidence of equivalence, and a small advantage over a
+mismatched comparator is not proof of authentic behavioral Persona Fidelity.
+
+Speaker heterogeneity is important. Among the four complete speakers, the
+Style resemblance net values range from -.500 to +.125, with mean -.1875
+and leave-one-speaker-out means [-.291667,-.083333]. Complete-speaker relevance
+has the same mean but leave-one-out range [-.291667,-.041667]. These describe
+a different subset from the full five-speaker missingness bounds. Leave-one-
+out ranges measure influence, not sampling uncertainty or confidence.
+
+The PI is not independent of the project. Prior absence of item exposure is
+not verified; detailed annotation dates, aids, and competence declarations
+are not invented. Double blindness and inter-rater reliability are not
+established. Behavioral fidelity, factual/temporal correctness, applicability,
+claim annotations, and confidence fields were not silently repaired or
+analyzed as valid secondary endpoints. The conclusion concerns this assessor's
+perceived relevance, coherence, and linguistic resemblance, not all constructs
+of Persona Fidelity.
+
+5. New executed Base/Instruct configurations and validity boundaries
+
+Both frozen 100-request runs completed successfully, with 100 responses each,
+no failed requests, no retries, no omitted outcomes, and no hidden generation
+warmups. The Base run precedes Instruct; model blocks were not randomized.
+Both use Qwen2.5-1.5B, static Q4_K_M third-party GGUF releases, the same native
+CPU backend, 2048-token context, maximum 128 new tokens, four threads,
+temperature 0, top_p 1, seed 42, and no prompt caching. Actual weight hashes,
+metadata revisions, tokenizer IDs/merges, tensor layouts, prompt tokenization,
+and runtime provenance are bound by the protocol, artifact receipt, manifests,
+preflights, snapshots, journals, and raw HTTP evidence.
+
+Base uses a plain conversational completion interface. Instruct renders the
+same source material through its verified official chat template. Both use
+the same case-specific participant/colleague turn-boundary stop strings.
+The model-appropriate EOS definitions differ. Upstream GGUF conversion
+provenance remains PARTIAL even though downloaded identities and layouts are
+verified. Consequently this compares published checkpoint plus elicitation,
+template, and stopping configurations. It does not isolate instruction tuning
+causally. Both have the same nominal parameter scale, so it does not estimate
+a model-size effect. The older Qwen3-0.6B run is a cross-family historical
+reference, not a controlled size contrast.
+
+The new configuration's 3-GiB prelaunch, 1-GiB server-ready and 512-MiB live
+RAM gates were registered separately; no older threshold was lowered. The
+prelaunch observations were 3,820,707,840 bytes for Base and 4,010,864,640 for
+Instruct. Minimum recorded pre-request available RAM was 1,428,762,624 and
+1,623,724,032 bytes respectively. Observed process-lifetime working-set peaks
+were 2,515,021,824 bytes (2.342297 GiB) and 2,347,663,360 (2.186432 GiB).
+These are run/process observations, not condition-specific RAM effects.
+
+6. New technical results: actual observations, not semantic scores
+
+All ten conditions have ten responses per model. Means across all 100 rows:
+
+Measure                         Base          Instruct      Instruct-Base
+Native input tokens             496.32        509.32         +13.00
+Native output tokens            104.06         35.58         -68.48
+Completion-call seconds          11.140920      7.676109       -3.464811
+Native prefill seconds            5.438218      5.664629       +0.226410
+Native decode seconds             5.676271      1.980513       -3.695758
+EOS stop count                   16            98
+Token-limit stop count           73             2
+Turn-boundary string stop count  11             0
+
+Completion-call time is measured wall time on a CPU backend, not CPU process
+time. Native prefill and decode timings are separately returned quantities,
+not an exact accounting identity for end-to-end latency. The larger Base
+output count and decode time accompany its frequent cap stops; they do not
+show superior richness, inferior relevance, or hallucination. A native EOS
+does not certify semantic completion. All original stopping strings and
+flags are preserved privately without response trimming or repair.
+
+Condition-level means (tokens and seconds; 10 observations in every cell):
+
+Condition   Base in   Base out   Base sec    Instr in  Instr out  Instr sec
+C0          285.9     103.4       8.622896    298.9      29.0      4.944130
+C1          373.3      92.2       9.009900    386.3      26.8      5.728614
+C2          323.3      86.5       8.186100    336.3      26.3      5.166257
+C3          410.7     102.4      10.011233    423.7      45.0      7.193869
+C4          511.7     102.3      11.135528    524.7      34.3      7.805970
+C5          599.1     107.5      12.472005    612.1      45.8      9.490088
+C6          549.1     113.5      12.390459    562.1      31.4      8.001145
+C7          636.5      94.6      12.338972    649.5      41.6      9.595193
+M_STYLE     636.5     110.2      13.153823    649.5      40.3      9.547895
+N_STYLE     637.1     128.0      14.088283    650.1      35.3      9.287927
+
+Factorial effects use 2*mean(product of selected +/-1 factor codes * outcome)
+within context, then equal context/speaker averaging. Main effects are factor
+on-minus-off averages; interaction values use that same orthogonal contrast
+scale, not an unscaled difference-in-differences. All 80 factorial cells per
+model are complete. Model differences match exactly the same cases and
+conditions before computing the contrasts.
+
+Contrast  Input-token effect,  Output-token effect       Latency effect (sec)
+          both models         Base    Instr    Delta    Base       Instr      Delta
+S          87.4               -2.25    9.55    11.80     .874282   1.522565    .648283
+F          37.4               -2.10    2.10     4.20     .421609    .496915    .075307
+H         225.8                8.35    6.50    -1.85    3.126709   2.964881   -.161827
+SF          0.0                 .75    4.90     4.15     .012541    .288265    .275723
+SH          0.0               -4.60    1.30     5.90    -.231787    .116517    .348304
+FH          0.0                1.25   -5.65    -6.90     .139341   -.346775   -.486116
+SFH         0.0              -12.80   -5.55     7.25    -.706523   -.333300    .373224
+
+Delta means Instruct minus Base, not a semantic improvement. The template
+adds 13 input tokens in every matched cell, so its input-token main and
+interaction differences are exactly zero. Positive H latency contrasts
+accompany +225.8 input tokens in both configurations. Native H prefill effects
+are +2.483771 seconds for Base and +2.555210 for Instruct, with decode effects
+of +.638699 and +.407989. This is compatible with input-processing cost and
+generation differences; it is not a controlled mediation decomposition.
+
+Speaker-deletion sensitivity of latency effects (seconds):
+
+Contrast  Base LOO range          Instruct LOO range       Delta LOO range
+S         [ .684909, 1.208368]     [1.293142,1.691878]       [ .084775, .845422]
+F         [ .248003,  .722179]     [ .435290, .665479]       [-.284714, .204865]
+H         [2.519652, 3.348785]     [2.562173,3.173800]       [-.521247, .538358]
+SF        [-.333900,  .343457]     [ .206417, .360757]       [ .017300, .623562]
+SH        [-.426161,  .119963]     [ .088924, .190557]       [ .070595, .520672]
+FH        [-.214916,  .539082]     [-.495397,-.136842]       [-.692615,-.218243]
+SFH       [-.925428, -.502694]     [-.486356,-.200276]       [ .051101, .725152]
+
+These ranges are descriptive influence checks on five speakers, not confidence
+intervals, significance claims, or proof of generalization. Speaker, meeting,
+partner, topic, and template dependencies remain. For example, Base H
+speaker-level latency effects range from 2.238404 to 5.554937 seconds; Instruct
+from 2.129207 to 4.575716. Cross-model timing is additionally confounded by
+unrandomized model blocks and ordinary system activity, including documented
+lightweight fixture tests during Base execution. No quality-per-second ratio
+or causal hardware-speed superiority is asserted.
+
+The three matched Style-control latency differences are:
+
+Contrast                    Base seconds    Instruct seconds
+Correct - mismatched        -.814850         +.047298
+Correct - pooled           -1.749310         +.307266
+Correct - no Style at FH    -.051487        +1.594048
+
+These may inform the eventual quality-cost interpretation but cannot establish
+speaker specificity. Shorter output, lexical overlap, native stopping, and
+generic formatting compliance are not scored as Persona Fidelity.
+
+7. New human review: delivered, not yet completed
+
+A fixed 200-record mixed-model, condition-masked package has been produced from
+the sealed outcomes. It supplies a common redacted source dossier for each
+case across every model and condition, including current context, authentic
+style examples, dated F/H evidence, and no unique-gold continuation. Delivery
+contains no condition/model mapping. The public delivery receipt confirms
+200 generated outcomes, no missing outcomes, and zero generated human labels.
+Initial draft validation reports zero errors, 200 not-started records, and
+200 expected incomplete-record warnings. This is package integrity, not
+semantic evaluation.
+
+Reviewer entry point:
+  .local/reviewer-packages/english_model_comparison_v1/records.html
+Immutable CSV template:
+  .local/reviewer-packages/english_model_comparison_v1/REVIEW.csv
+The reviewer should preserve that template, save genuine annotations in
+WORKING.csv, follow READ_ME.txt, and supply truthful provenance.json details.
+Incremental draft saving is allowed. The prospective new rubric uses ordered
+0-5 relevance, coherence, and linguistic resemblance with valid NA and
+unavailability pathways; copying or length alone does not establish fidelity.
+
+Known prior project/rubric/source/item/report exposure is disclosed. This is
+not independent double-blind review, and no inter-rater reliability is
+promised. No new model semantic preference or human-rated factorial effect
+is reported before genuine annotations exist.
+
+Before any new annotation-to-condition join, the missingness-aware ordinal
+analysis adaptation must be separately frozen and hash-bound. The historical
+single-missing-record engine cannot simply be applied to multiple unavailable
+records or domain-specific NA. Preserve genuine partial judgments, distinguish
+inapplicability from missing judgment, retain the full allocated estimand,
+and do not manufacture scores or select favorable cuts. The new protected
+mapping must remain unopened until that analysis lock and valid intake exist.
+
+8. What the original research questions now support
+
+RQ1, Style/Facts/History main and interaction effects: partially answered at
+development level. The old genuine ordinal analysis establishes heterogeneous
+PI-perceived effects, including negative Style paired net. The new experiment
+establishes all seven technical contrasts in two same-family deployments.
+New cross-configuration semantic effects are not yet established. Neither
+body of evidence generalizes to the population of human speakers or all
+possible representations of Style, Facts, or History.
+
+RQ2, historical information and factual/temporal reliability: unanswered as a
+claim of actual factual or temporal correctness. Professional self-report
+provenance is not independent truth validation; the three primary ratings are
+not substitutes for claim-level factual/temporal assessment. History cost and
+old coherence/relevance profiles are relevant observations, not evidence of
+temporal contamination causality. Unmeasured endpoints are not scored zero.
+
+RQ3, model size and Base/Instruct effects: technical differences between two
+registered same-family deployments are established. Pure instruction-training
+effects, model-size effects, and semantic superiority are not. Old Qwen3-0.6B
+and new Qwen2.5-1.5B data cannot identify size alone.
+
+RQ4, retrieval, ranking, and LoRA quality-efficiency effects: not executed or
+answered. There is no validated new algorithm, comparative algorithm advantage,
+or controlled adaptation result. No LoRA training occurred in this stage.
+
+Independent analysis reproduction is established; independent speaker
+replication and independent human validation are not. The reserved Japanese
+58-speaker set remains unused and is not substituted for an English cohort.
+Earlier failed English source-qualification branches remain negative evidence,
+not successful replications. Genuine replication needs a newly qualified
+speaker/task cohort, frozen configuration and measurement, and adequate
+resource authorization; computational reserve alone does not supply those
+prerequisites.
+
+9. Resource accounting and reproducibility
+
+The baseline was 788 generations and 4485.684495999997 inference seconds.
+Base added 100 and 1114.091990899993 seconds; Instruct added 100 and
+767.6108899998944 seconds. New consumption is 200 generations and
+1881.702881 seconds, rounded. The authoritative final receipt records
+988/1200 generations and 6367.387376899885/72000 seconds. Remaining allowance
+is 212 generations and 65632.612623100115 seconds; 160 generations are reserved
+for scientifically justified independent validation, leaving 52 unallocated
+nonreserve generations. No budget was reset. The earlier human analysis used
+no new model generations and created no human labels.
+
+The Base and Instruct sealed receipts have SHA-256:
+  650f5c65a237aacf046701143b72ff3a1872c9dc5c80c44655c90c25dbbdb11e
+  0e71d1f083ddf467ab829b887acae52b113aeddc2b9c62e9ef97abfa0a749ce1
+New technical analysis SHA-256:
+  cd55e86eea86deab451252ace4e08cb4e872e7f9d22f45264bffdfda7ba362ae
+Independent arithmetic receipt SHA-256:
+  c6a824ec73837262cf23134223afb37c2580f3a8815bbad62ba803c42ec2abeb
+Old ordinal analysis SHA-256:
+  a562e7249706f8982916c6959d577bc24fc94f1d46d490881b1b365d5c5f616d
+New review delivery receipt SHA-256:
+  ae0b4c59444b1b200e4834c69799efc3390f49767766b57ee9975f12d133ef1b
+
+Principal public evidence paths:
+  docs/validation/p1/english_human_ordinal_v1/analysis_amendment_v1.json
+  docs/validation/p1/english_human_ordinal_v1/ordinal_analysis_lock_v1.json
+  docs/validation/p1/english_human_ordinal_v1/ordinal_analysis_v1.json
+  docs/validation/p1/english_human_ordinal_v1/integrated_analysis_v1.txt
+  docs/validation/p1/english_model_comparison_v1/prospective_protocol_v1.json
+  docs/validation/p1/english_model_comparison_v1/artifact_receipt_v1.json
+  docs/validation/p1/english_model_comparison_v1/model_storage_amendment_v1.json
+  docs/validation/p1/english_model_comparison_v1/base_execution_receipt_v1.json
+  docs/validation/p1/english_model_comparison_v1/instruct_execution_receipt_v1.json
+  docs/validation/p1/english_model_comparison_v1/technical_analysis_v1.json
+  docs/validation/p1/english_model_comparison_v1/independent_arithmetic_receipt_v1.json
+  docs/validation/p1/english_model_comparison_v1/analysis_implementation_record_v2.json
+  docs/validation/p1/english_model_comparison_v1/review_delivery_receipt_v1.json
+  docs/validation/p1/english_model_comparison_v1/research_state_v1.json
+
+From the repository root, owner-authorized local analysis reproduction only:
+
+  $env:PYTHONPATH = 'tools;src'
+  $env:PYTHONDONTWRITEBYTECODE = '1'
+  .\.venv\Scripts\python.exe -B tools/english_model_comparison_analysis_v1.py verify --base-receipt-sha256 650f5c65a237aacf046701143b72ff3a1872c9dc5c80c44655c90c25dbbdb11e --instruct-receipt-sha256 0e71d1f083ddf467ab829b887acae52b113aeddc2b9c62e9ef97abfa0a749ce1
+  .\.venv\Scripts\python.exe -B tools/english_sfh_ordinal_v1.py --verify --lock-sha256 7820032f093cc56129974a12636474c698fe47597fe833a311701035a7d9900e --authorize-mapping
+
+The second command accesses the already authorized historical mapping solely
+to reproduce its frozen join; it is not authorization to inspect the new
+model-comparison mapping. Neither command generates model responses. Do not
+rerun either completed model batch or overwrite existing analytical output.
+
+The new analysis checks original requests, source/input snapshots, metadata
+and external weight identities, tokenization, native and HTTP journals,
+terminal hashes, coverage, costs, and the baseline chain. Separate arithmetic
+implementations cross-check contrasts; this is not independent data collection.
+The adapter was implemented after execution registration but before response
+analysis; scientific definitions and reused arithmetic were already frozen.
+An explicitly recorded pre-analysis correction removes current-HEAD equality
+from archival-only validation while preserving source bytes and execution
+guards. The historical source HEAD remains recorded provenance.
+
+Public clone-only reproducibility is PARTIAL: private source dialogue,
+journals, submissions, and mappings are not redistributed, and exact model
+weights/runtime require the documented acquisition and hashes. Analysis
+reproduction is distinct from generation repetition; bit-identical generation
+across environments is not guaranteed. Backup status is governed only by the
+separate completed_stage_preservation_receipt_v1.json in this public directory
+when that receipt exists. This report does not anticipate a backup PASS.
+A D:-volume local archive is not proof of a separate physical device, remote
+backup, or off-device protection. No automatic Git staging, commit, or push is
+part of this report.
+
+10. Literature, novelty, and next scientific decision
+
+The previously inspected formal publication LaMP (Salemi et al., ACL 2024,
+DOI 10.18653/v1/2024.acl-long.399; https://aclanthology.org/2024.acl-long.399/)
+already compares random, BM25, Contriever, and recency profile selection.
+Applying such selection to this dialogue corpus is not an algorithmic
+invention, and its published outcomes cannot be transferred to this cohort.
+The exact prior-method record is continuation_scope_v1.json in the ordinal
+directory. No new literature discovery or novel algorithm is claimed here.
+
+The existing daily metadata collector's verified coverage is arXiv, Crossref,
+and OpenAlex. This does not establish daily monitoring of every requested
+conference, journal, OpenReview, or Semantic Scholar, nor scheduled daily deep
+AI analysis. Existing same-day collection was not redundantly rerun for this
+consolidation. Formal-publication status and preprint versions must continue
+to be distinguished and deduplicated in subsequent targeted prior-art work.
+
+GO: complete genuine review of the delivered mixed 200 records, then analyze
+the unchanged prospective outcomes with a separately locked NA/missingness-
+capable ordinal adaptation before condition unblinding. Determine whether the
+earlier Style pattern and source-package effects are configuration-dependent,
+using all cuts, all allocated cases, heterogeneity, and descriptive costs.
+
+PIVOT: interpret new EOS/cap/length/cost differences as technical deployment
+behavior, not a replacement for real-speaker semantic evaluation. Do not turn
+the programme into a formatting benchmark or optimize a fidelity proxy known
+to be length-sensitive. Investigate an algorithm only after a meaningful
+failure survives genuine review and comparison with established baselines.
+
+STOP: no further model screening or expenditure of the validation reserve is
+justified merely by these technical differences. Preserve the completed data;
+do not repeatedly poll absent human files or manufacture auxiliary experiments
+to appear active. Independently qualified English replication remains the
+next data-collection objective once a semantic conclusion and appropriate
+measurement/cohort prerequisites support it. The unresolved human evaluation
+and independent-cohort qualification are real dependencies, not evidence that
+the scientific programme is complete.

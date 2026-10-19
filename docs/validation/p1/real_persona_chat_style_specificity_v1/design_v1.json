@@ -1,0 +1,38 @@
+{
+  "schema_version": "personaslm_rpc_style_specificity_v1",
+  "registered_date_utc": "2026-10-19",
+  "scientific_level": "DEVELOPMENT_EXPLORATORY",
+  "researcher": "Yaxin ZHENG",
+  "authorization": "Explicit NEXT SCIENTIFIC PRIORITY directive authorizes this finite four-arm local experiment; no fabricated human approval timestamp.",
+  "question": "Does a correct speaker's numeric non-length style description shift capped dialogue responses toward that speaker's unprompted reference characteristics more than a length-fixed mismatched description or length-only instruction?",
+  "allocation": {"speakers": 8, "contexts_per_speaker": 2, "arms": 4, "maximum_attempts": 64, "retries": 0, "hidden_warmups": 0, "outcome_contingent_expansion": false},
+  "arms": ["NONE", "CORRECT", "MISMATCH", "LENGTH"],
+  "factor_scope": "F=0 and identical six-turn real history H=1 in all arms. This isolates incremental numeric Style beyond the shared conversational context, not the full S/F/H factorial or absence of all implicit style cues.",
+  "length_instruction": "CORRECT, MISMATCH and LENGTH share the focal speaker's source-dialogue mean character count. NONE has no length instruction. Output length is not forced or clipped during inference. No post-output rejection or regeneration.",
+  "style_instruction": "Only five existing question, exclamation, ellipsis, laughter and polite-ending rates. CORRECT uses the focal source; MISMATCH swaps only these five rates, retaining focal length. No raw source utterance, fact, identity or withheld continuation in the style block.",
+  "selection": "Existing 76-speaker DEVELOPMENT cohort, fixed hash order. Exclude every historical 64-pilot target dialogue from new target selection. Require two earlier distinct-partner source dialogues with at least ten focal turns each and a later third-partner dialogue with two nonoverlapping six-turn contexts. Source1 alone supplies prompted rates. Source2 is unprompted reference evidence. Parseable nondecreasing timestamps only; no NaT ordering. No 58-speaker validation content is deserialized.",
+  "donors": "One-to-one derangement among selected eight; forbid shared source/target dialogue and participant/partner sets and identical displayed five-rate profiles. Minimize total absolute source mean-length and SD differences, each divided by 50; deterministic permutation-order ties. No output or reference-feature optimization.",
+  "order": "Two contexts per speaker; four-arm cyclic Latin orders indexed by speaker plus context. All arm positions balanced. Order is not a human-blinding key: no human-review package is built for this study.",
+  "primary_proxy": {
+    "features": ["hiragana_rate", "katakana_rate", "han_rate", "latin_rate", "digit_rate", "punctuation_rate", "symbol_rate"],
+    "normalization": "NFKC, casefold, remove whitespace for generated and human-reference text before existing style_vector; pooled character proportions, equal weights and unit scales.",
+    "margin": "mean absolute distance from donor source2 reference minus mean absolute distance from own source2 reference; positive means closer to own reference.",
+    "contrasts": ["CORRECT-MISMATCH", "CORRECT-LENGTH", "LENGTH-NONE"],
+    "population": "All returned nonempty capped response strings, including native token-limit stops. This is a surface-output estimand, not semantic completeness. No structural or semantic quality selection of the primary sample.",
+    "missingness": "Empty/failed/unattempted outputs remain missing. No missing endpoint becomes zero. For arm margins in [-1,1], paired differences in [-2,2] yield conservative all-allocated logical missing-outcome bounds.",
+    "aggregation": "Within-context paired differences, then two-context means for each speaker, then equal-speaker mean. Complete paired speakers require both contexts. Report counts, ranges, leave-one-speaker-out mean range; no confirmatory p values or confidence-coverage claims."
+  },
+  "sensitivity": [
+    "Equal-character prefixes: for each context k=min(20, shortest normalized nonempty response across all four arms); apply the same k to every generated response and every own/donor reference turn. Report k distribution. Any missing/empty arm makes this context missing; no favorable-length selection.",
+    "EOS/eog-only paired sensitivity, with differential coverage disclosed; this is not the primary estimand.",
+    "Direct five-marker distance is an instruction-conformity manipulation check, not speaker-identity evidence.",
+    "Output characters/tokens, input tokens, CPU latency, native stops, memory, reference trigram overlap and query/history copying are diagnostics, not Persona Fidelity or semantic reliability."
+  ],
+  "prompt_control": "Same system, query, six-turn history, headers and instruction strength. CORRECT/MISMATCH have identical fixed-width numerical template structure. Native input token differences are measured. No artificial neutral-padding assumption; NONE/LENGTH necessarily contain fewer substantive constraints.",
+  "termination": "Preserve native fields. Recognize eos/eog as observed native boundaries only when no contradictory limit/word flag. A native boundary does not establish semantic completion. Capped raw-text proxies include limit and malformed surface output with separate diagnostics, preventing semantic-parser-dependent exclusion.",
+  "resources": {"cumulative_baseline_generations": 572, "cumulative_baseline_inference_seconds": 3514.1361039998983, "global_generation_limit": 1200, "global_inference_seconds_limit": 72000, "batch_inference_seconds_limit": 1200, "batch_wall_seconds_limit": 1800, "minimum_prelaunch_available_ram_bytes": 3221225472, "minimum_ready_available_ram_bytes": 1073741824, "minimum_live_available_ram_bytes": 536870912, "minimum_output_disk_bytes": 1073741824},
+  "hardware_rationale": "Same verified Qwen3.5-2B Q4_K_M CPU backend/context/96-token configuration as completed pilot, whose peak server working set was 2581692416 bytes. Retain its 3 GiB prelaunch, 1 GiB ready and 512 MiB per-request gates. This does not amend old Candidate2 or mechanism-v4 thresholds. No user process termination.",
+  "privacy": "Local-only pseudonymous aggregate study. Do not impersonate, identify, infer demographics/personality, train, upload participant text, or publish row-level records. CC BY-SA attribution and repository ethical warning remain effective; copyright permission is not consent to identity replicas.",
+  "claim_boundary": "Uninstructed features remain correlated with instructed markers and topic; character proportions are not pure style, lexical copying is not fidelity, and controlling length mechanically does not establish semantic persona imitation. Development only, one model, small paired sample; 64 prior human reviews remain pending, no independent experimental or human validation claimed.",
+  "stopping": "Stop on integrity, hardware, time or accounting failure, preserve all attempts and unattempted suffix. Zero retries. No fallback sample size or donor-rule relaxation after materialization; unavailable prerequisites mean blocked. No independent validation speakers opened."
+}

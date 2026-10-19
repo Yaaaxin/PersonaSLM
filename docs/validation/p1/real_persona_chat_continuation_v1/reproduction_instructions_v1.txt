@@ -1,0 +1,98 @@
+RealPersonaChat continuation recognition v1: reproduction boundary
+
+Do not rerun register/preflight/run/analyze CLI on this completed experiment.
+The controller intentionally refuses duplicate execution or overwriting.
+All52 authorized attempts are already consumed; this directory is frozen.
+
+ANALYSIS REPRODUCTION (no model inference)
+
+Use the recorded source commit8b7f8fdd8eec8358528da86398659f876c70a6dd plus
+the reviewed uncommitted checkpoint files. Preserve the exact source snapshots
+inside the private run, not merely the current checkout. The study registered
+all transitive Python sources, runtime assets, model metadata, design and tests.
+The original interpreter was CPython3.14.3 on Windows. The independent audit
+uses stdlib and src/personaslm/journal.py; it does not load model weights.
+
+Required private local artifacts, never stage or publish:
+ .local/experiments/real_persona_chat_continuation_v1/frozen_manifest_v1.json
+ .local/experiments/real_persona_chat_continuation_v1/claim_v1.json
+ .local/experiments/real_persona_chat_continuation_v1/runs/<sealed run>/
+These contain authentic participant materials and exact prompts. Obtain them
+only through appropriately authorized private research access. The run path
+in execution_receipt_v1.json is the original Windows path; in a relocated
+clone, do not edit the receipt. Restore the original path locally or document
+a separate relocation-only audit adapter and its hashes. Hash-chain reading
+does not imply access permission or public data availability.
+
+Read-only commands from repository root in PowerShell:
+ $env:PYTHONPATH='tools;src'
+ python -m pytest -q -p no:cacheprovider tests/test_real_persona_chat_continuation_material_v1.py tests/test_real_persona_chat_continuation_v1.py tests/test_real_persona_chat_continuation_reproduce_v1.py
+ python tools/real_persona_chat_continuation_reproduce_v1.py
+ python -c "import real_persona_chat_continuation_v1 as r; print(r.analyze(False)['conditions'])"
+
+The last command additionally requires the registered template, metadata,
+vendor runtime and source hashes at their original relative paths. The first
+independent audit does not need those live runtime assets if the sealed source
+snapshot and private evidence are intact. Its saved receipt binds the main
+analysis and raw terminal chain. Absence of private inputs is a real missing
+dependency, not a reason to claim a clone-only successful reproduction.
+
+ASSET ACQUISITION / CONFIGURATION RECONSTRUCTION
+
+Official weight URL (Apache-2.0 publisher distribution):
+ https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/23749fefcc72300e3a2ad315e1317431b06b590a/Qwen3-0.6B-Q8_0.gguf
+Expected639446688bytes; SHA256
+ 9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031
+Expected local path:
+ models/gguf/instruct_candidates/qwen3-0.6b-official-23749fef/Qwen3-0.6B-Q8_0.gguf
+
+At the same pinned GGUF revision, acquire README.md and LICENSE into
+ .local/model_metadata/qwen3-0.6b-23749fef/
+Acquire tokenizer_config.json from:
+ https://huggingface.co/Qwen/Qwen3-0.6B/resolve/c1899de289a04d12100db370d81485cdf75e47ca/tokenizer_config.json
+Verify all three hashes against registration_v1.json. Use that config's exact
+chat_template with enable_thinking=false. It differs bytewise from the GGUF
+template, although their outputs match for all actual52 system/user inputs.
+Do not replace it with the latest upstream revision. Original tensor
+conversion commands/source revision were not independently reconstructed.
+
+Backend llama.cpp Windows CPU buildb11573, revision0f701c882, with exact
+llama-server.exe/tokenizer/DLL hashes in registration_v1.json. All DLLs are
+external assets, not Git checkpoint files. Rendering uses the existing local
+Jinja2=3.1.6/MarkupSafe=3.0.4 inventory bound by
+ docs/validation/p1d/scientific_validation_v1/official_template_rendering_verification_v1.json
+The45 asset hashes, including platform-specific MarkupSafe binary/metadata,
+must match; a fresh package install alone is not claimed byte-identical.
+
+Dataset upstream:
+ https://github.com/nu-dialogue/real-persona-chat
+Pinned28d0b6b3865b29cabc26c230a2db37cdf315e937, version1.0.0.
+Follow the existing license/privacy intake assessment and attribution. Local
+analysis permission does not imply unrestricted redistribution or identifying
+participants. Material reconstruction also requires the two prior private
+material manifests to reproduce exclusions; their hashes and the76/58 speaker
+split are in registration_v1.json. Never inspect validation target content
+for development selection. No persona-value JSON was decoded in this study.
+
+GENERATION REPRODUCTION
+
+Exact52 prompts/native token IDs, source snapshots, native payloads, seed42,
+CPU4threads,ctx2048,maxout8,temperature0,top_p1,cachefalse,nonthinking,no grammar,
+no stops/no warmup are archived. A repeatability experiment requires a new
+prospective allocation, separate identity, current cumulative ledger and fresh
+RAM preflight. Do not erase claim files or change historical counters to rerun.
+Matching configuration does not guarantee bit-identical output on different
+CPUs, backend builds or environments. No generation replication is claimed.
+
+HUMAN REVIEW (not replaced by recognition)
+
+Existing corrected64-output local delivery:
+ .local/reviewer-packages/real_persona_chat_sfh_pilot_v1/stage_a_delivery_v1_1/stage_a_WORKING_COPY.csv
+Exposure/proficiency questionnaire in the same directory:
+ reviewer_exposure_questionnaire_v1_1_TEMPLATE.json
+Minimum researcher action: genuinely read Japanese materials, complete all64
+required dispositions/ratings and truthful exposure/proficiency questions,
+then use the existing intake validator. Save incrementally; do not open the
+protected mapping, invent labels or claim independent inter-rater agreement.
+Historical16/168 review requirements remain separate. No repeated polling for
+absent submissions or new overlapping review tool is needed.

@@ -1,0 +1,46 @@
+{
+  "actual_semantically_qualified_speakers": null,
+  "annotation_entries_read": 104,
+  "archive_sha256": "b56e5babb2496b8795deeeda7e71178d7fbc9963f94276cf2a3f4b56ebbc9f9d",
+  "candidate_gaps": {
+    "fixed_source_meeting_structurally_unusable_for_timed_study": 1,
+    "no_retrieved_first_source_selfreport": 11
+  },
+  "candidates_with_all_retrieval_components": 3,
+  "candidates_with_incidental_target_exposure": 6,
+  "created_utc": "2026-10-19T17:15:43.419314+00:00",
+  "final_cohort_selected": false,
+  "fixed_metadata_candidates": 15,
+  "future_target_meetings_incidentally_exposed": 3,
+  "limitations": "Machine retrieval is not semantic approval, human review, final cohort selection or inference authorization. Original word forms and punctuation retained; nonlexical events retained in private annotation provenance, not treated as words. Gap events create sequence barriers before filtering. Possible names remain private and require explicit curation. No cross-corpus identity disjointness can be inferred from different identifiers.",
+  "natural_global_participants": 51,
+  "natural_meetings": 26,
+  "new_model_generations": 0,
+  "policy_sha256": "63b55a97517a3d581f3bb425041668dabd5edcc8142eaf504dc4e154342e3f6f",
+  "private_pool_sha256": "24fd98096677c2fcbac96a160fbc06a011526d8c44b34c01f4b23c262ed2e2b9",
+  "retrieved_fact_turns": 3,
+  "schema": "ami_english_source_pool_v1",
+  "segment_exclusions": {
+    "additional_sensitive_or_calibration": 19,
+    "explicit_gap_contiguity_barrier": 563,
+    "gap_or_foreign_annotation": 437,
+    "sensitive_contact_uncertain_or_empty": 747,
+    "unsupported_word_annotation": 2,
+    "unverifiable_mandatory_segment_time": 1,
+    "whole_meeting_excluded_for_segment_timing": 1
+  },
+  "source_curation_required_before_any_target_selection": true,
+  "source_hashes": {
+    "tests/test_ami_english_material_v1.py": "ce2bea9b419f94e2a53a85096a82df117812ed585f1d050f7f1743c57217075c",
+    "tools/ami_english_material_v1.py": "04b1b70b95963d67ae9d72d05aeefd9d14bf96ff5552b6551c136868906a410b",
+    "tools/english_icsi_material_v1.py": "46dd226e8f4ef2614b5a4f2899fc3e4916572dba4dfab164388fee6b5706e512",
+    "tools/english_icsi_material_v2.py": "ec7e769900cef6d9b3786cb93c01309454c0bdc1bad03cd171f3a759253b5058",
+    "tools/english_icsi_material_v3.py": "d7c8ff997838dd50cc4a57a51ec9244e14d38803bc3b9e9cab5a9465f55b0ced",
+    "tools/icsi_english_qualification_v1.py": "9d0b6141510ab65f2178a207f2c52fa538c707022b382090da0605bc60f54c83"
+  },
+  "source_meetings_read": 13,
+  "status": "STAGE1_RETRIEVAL_NOT_SEMANTIC_SOURCE_APPROVAL_NOT_TARGET_ACCESS_GO",
+  "target_only_meeting_bodies_read": 0,
+  "unverifiable_or_malformed_time_annotations_preserved_and_excluded": 8,
+  "whole_meetings_excluded_for_segment_timing": 1
+}

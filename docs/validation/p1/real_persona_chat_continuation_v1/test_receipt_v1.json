@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-19",
+  "status": "PASS",
+  "command": "$env:PYTHONPATH='tools;src'; python -m pytest -q -p no:cacheprovider tests/test_real_persona_chat_continuation_material_v1.py tests/test_real_persona_chat_continuation_v1.py tests/test_real_persona_chat_continuation_reproduce_v1.py tests/test_real_persona_chat_continuation_position_diagnostic_v1.py",
+  "passed": 29,
+  "failed": 0,
+  "test_elapsed_seconds": 0.49,
+  "warning": "One PytestConfigWarning: Unknown config option cache_dir, because cacheprovider was deliberately disabled. Not a test failure.",
+  "earlier": "24 prospective material/scorer/runtime tests passed before registration;28 including independent arithmetic tests passed after execution; final29 adds one bounded posthoc decomposition test.",
+  "scope": "Relevant new synthetic unit tests only; not a claim that the whole historical repository test suite passes or that measurement semantics are validated.",
+  "scientific_tests": "Independent raw-data reproduction PASS52 is recorded separately, not inferred from unit tests.",
+  "new_generations_from_tests": 0
+}

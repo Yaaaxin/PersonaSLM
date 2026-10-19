@@ -1,0 +1,174 @@
+PersonaSLM: authentic-dialogue continuation recognition, development v1
+Principal researcher: Yaxin ZHENG
+Date: 2026-10-19
+Evidence: OBSERVED EXPLORATORY; independently recomputed arithmetic, not
+independent experimental validation or human semantic review.
+
+Question and choice of direction
+
+Does earlier, correctly matched speaker History help identify an actually
+recorded next utterance, beyond a shared six-turn current conversation?
+We compared three paths before new responses: another generative S/F/H run
+with an inadequately validated proxy; this bounded provenance-recognition
+diagnostic; and a filtering algorithm without a semantically established
+failure. The diagnostic had an objective, narrow target and explicit order
+controls. It does not measure generated Persona Fidelity. See design_v1.json,
+primary_evidence_v1.json and the prospective scientific_decision_v1.json.
+
+The original S/F/H and Style-specificity64+64 studies remain frozen. Their
+negative/limited conclusions are not repaired by this new task. The present
+study is not a full factorial and NONE is not H=0: every arm has the same
+six-turn current dialogue and final partner query. S numerical descriptors
+and F explicit profiles are absent.
+
+Materials and execution
+
+Eight development speakers form four reciprocal pairs. Each person's actual
+continuation is the other's alternative, with both A/B orders in each of
+NONE, CORRECT and MISMATCH. Exact corpus provenance, not semantic superiority,
+defines the target. Multiple continuations may be appropriate. All16 target
+dialogues from the prior two generation studies were excluded;58 validation
+speakers' target content was not deserialized. Both histories precede both
+target dialogues; source/target partners differ. The selected materials use
+24 disjoint participants across four pairs. History and full-prompt native
+token differences are at most4, below the registered8-token ceiling.
+
+One official Qwen3-0.6B Q8_0 configuration was selected before any output.
+Weight SHA2569465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031;
+official GGUF revision23749fefcc72300e3a2ad315e1317431b06b590a.
+CPU llama.cpp0f701c882,4threads,2048context,8output tokens,greedy decoding,
+seed42,non-thinking template,no grammar,no stop strings,no warmup,no retries.
+The pinned upstream template and embedded template differ in general, but
+render identically on all52 actual inputs. All native token arrays were
+verified against the owned live server before generation. Inputs span78-510
+tokens. The controller reused the established runtime without editing it.
+
+The new configuration's separate2GiB prelaunch gate passed at3198406656
+available bytes; ready1GiB and live512MiB gates also passed. No older3/4/5GiB
+gate was lowered, and no unrelated application was stopped. The earlier
+read-only2309091328-byte observation motivated a lower-memory configuration;
+it was not itself a failed official preflight. RAM subsequently changed.
+
+All52 attempted requests returned:4 authored Japanese controls and48 main
+decisions. The4/4 narrow control gate passed. This established only minimal
+Japanese literal selection and output operation, not general dialogue ability.
+There were51 native EOS stops and1 token-limit stop across the whole batch.
+
+Observed main outcomes (16 allocated and returned per arm)
+
+Arm       Protocol success  Valid ASCII choices  Same candidate after swap
+NONE          8/16                15/16                    0/7
+CORRECT       8/16                14/16                    0/6
+MISMATCH      7/16                13/16                    0/5
+
+Protocol success requires the exact valid letter identifying the actual
+continuation. Invalid returned text is a protocol failure; its semantic
+selection is undefined, not a known incorrect human interpretation. All main
+responses are retained. Candidate invariance is reported only where both
+orders give valid letters, hence18 of24 case-arm pairs are evaluable.
+
+Forty of42 valid main selections choose A. Every evaluable reversal changes
+the selected candidate text. A is always the first-displayed option, so the
+experiment cannot separate an A-token preference from a first-position
+preference. It establishes strong option-label/position dependence in this
+configuration, not its internal causal mechanism or complete semantic neglect.
+
+Registered pair-cluster contrasts:
+CORRECT-MISMATCH =+0.0625; four pair effects[0,.25,0,0]; leave-one-pair-out
+means[0,.08333333333333333]. CORRECT-NONE=0 in every pair. MISMATCH-NONE
+=-.0625; leave-one-pair-out means[-.08333333333333333,0]. These ranges are
+influence diagnostics, not confidence intervals. No significance or population
+equivalence is claimed. There are only four reciprocal dependence clusters.
+
+A separately labeled post-hoc raw-output decomposition finds that the entire
+CORRECT-MISMATCH difference of one success arises among three matched
+order-cases with at least one invalid format. Among13 pairs of valid choices,
+the summed success difference is zero. This explains why the positive pooled
+contrast must not be presented as evidence of History's semantic benefit;
+it does not relabel or exclude any frozen primary outcome.
+
+The fixed character-trigram retrieval baseline scores.8125 NONE,.75 CORRECT,
+.8125 MISMATCH on these eight actual-reference targets, versus.5 for a fixed
+first-position chooser under balanced orders. Its better finite recognition
+score is not evidence of superior dialogue quality or Persona Fidelity.
+
+Cost and reproduction
+
+New inference elapsed144.79131300005247seconds; whole owned-run wall elapsed
+150.25890279999294seconds. These are wall-clock latencies on a CPU run, not
+exclusive process CPU time. Peak observed server working set1365708800bytes;
+minimum observed available RAM1946927104bytes. Sparse observations are not
+a continuous peak-memory trace. Other user activity was not controlled.
+Cumulative usage688/1200 generations and3973.1201058999386/72000seconds;
+512 generations remain. No inference failure, retry or hidden warmup occurred.
+
+The independent implementation reconciled52 starts, exact HTTP payloads,
+archived HTTP response bytes, native token counts, raw outputs, sealed hash
+chain, source snapshots, paired estimates, lexical baseline and budget.
+See independent_analysis_reproduction_v1.json. It does not independently
+validate measurement semantics, replicate generations, or audit peak memory.
+Public clone-only reproduction is PARTIAL: participant-level material and
+journals remain private. See reproduction_instructions_v1.txt.
+
+Decision and scientific boundaries
+
+STOP expansion of this Qwen3-0.6B free-choice recognition configuration.
+PIVOT interpretation to a measurement/reliability failure, not a History
+benefit. The prospective deeper-investigation heuristic fails: incomplete
+format coverage, zero CORRECT-NONE and a nonrobust CORRECT-MISMATCH contrast.
+Do not tune prompts, aliases, thresholds or symbols against these cases, and
+do not spend the58 validation speakers on this configuration.
+
+This is useful negative developmental evidence: a narrow4/4 language/format
+gate did not prevent pronounced selection dependence on real dialogue.
+It does not establish factual/temporal reliability, generated speaker style,
+general History harm, an independently validated mechanism, or a novel
+algorithm. Stronger models could behave differently; no universal model gate
+is inferred. Changing symbols or adding debiasing would be a separate study,
+not a repair of this result and not inherently innovative.
+
+The primary next path returns to generative measurement validity using the
+already archived64 S/F/H outputs and genuine Japanese judgments. The existing
+corrected review delivery remains the minimum human-only dependency; no new
+ratings or mappings were manufactured. Review provenance must disclose prior
+exposure; one researcher is not independent inter-rater reliability. Do not
+run another weakly measured generative batch simply to maintain activity.
+Algorithm implementation remains deferred until an interpretable semantic
+failure and joint reliability/fidelity endpoints exist.
+
+At this post-result allocation point, three feasible directions were compared
+again. (A) Genuine review of the existing64 generated dialogues directly
+addresses the project's unresolved construct-validity question with zero new
+model calls, but needs a qualified human. (B) Crossing option symbols with
+positions on new cases could separate two selection mechanisms; it is safe
+and potentially informative but has strong existing prior-art overlap and
+little immediate value for generative persona claims. (C) Repeating recognition
+with a stronger model could test model dependence but would spend scarce
+requests on another non-generative endpoint, without resolving semantic
+fidelity. ChooseA as the primary critical path; do not runB orC solely because
+they are executable. This is a resource-allocation decision, not a claim that
+all legitimate future autonomous experiments are universally blocked.
+
+Prior art and publication contribution
+
+Response selection is established, not our invention: ACL2018P18-1205 and
+ACL2020.acl-main.55 informed the provenance-versus-quality boundary before
+execution. After observing the label/position pattern, targeted primary
+reading found direct prior-art overlap in Zheng etal., ICLR2024, PriDe
+(arXiv2309.03882v4; same work, not two publications), which examines ID-token
+versus position bias and inference-time calibration. Generic debiasing or
+option reversal cannot be claimed as an original PersonaSLM algorithm.
+https://proceedings.iclr.cc/paper_files/paper/2024/hash/54dd9e0cff6d9214e20d97eb2a3bae49-Abstract-Conference.html
+https://arxiv.org/html/2309.03882v4
+
+Ok and Lee, FindingsACL2026, compares context/question/option ordering and
+uses architecture/intervention tests of context access. Its arXiv2601.14152
+v2 and DOI10.18653/v1/2026.findings-acl.1921 are linked versions of one work.
+Our context precedes the options, so their context-after-options mechanism
+does not by itself explain our finding. No attention intervention was tested
+here. This further rules out novelty claims based only on prompt reordering.
+https://aclanthology.org/2026.findings-acl.1921/
+
+The new result can support a limitations/measurement section alongside the
+frozen generative studies; it is not a submission-ready central contribution.
+No new independent human, speaker-heldout or algorithm validation is claimed.

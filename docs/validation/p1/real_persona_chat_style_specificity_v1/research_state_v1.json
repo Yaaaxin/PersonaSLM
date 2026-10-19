@@ -1,0 +1,24 @@
+{
+  "schema_version": "personaslm_rpc_style_specificity_completed_state_v1",
+  "recorded_date": "2026-10-19",
+  "branch": "research/autonomous-personaslm",
+  "base_head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+  "milestone": "REAL_SPEAKER_STYLE_SPECIFICITY_CONTROLLED_DEVELOPMENT_COMPLETE_METRIC_VALIDITY_LIMITED",
+  "classification": "OBSERVED_EXPLORATORY_NOT_INDEPENDENT_EXPERIMENTAL_VALIDATION",
+  "generations": {"starting": 572, "new_attempts": 64, "new_responses": 64, "retries": 0, "cumulative": 636, "limit": 1200, "remaining": 564},
+  "inference_seconds": {"starting": 3514.1361039998983, "new": 314.19268889998784, "cumulative": 3828.328792899886, "limit": 72000, "remaining": 68171.67120710011},
+  "execution": {"sessions": 2, "responses_by_session": [54, 10], "initial_ram_safety_stop_preserved": true, "original_allocation": 64, "unattempted": 0, "inference_failures": 0, "native_stops": {"eos": 62, "limit": 2}, "human_labels_created": 0, "validation_speakers_accessed": 0},
+  "bindings": {
+    "registration_sha256": "7bcee29a54fba8e39411ea90e3d4ce19f611360c56bbd8de8bb26cee381618bb",
+    "manifest_sha256": "7310946d00bf8ac5e4f6bc61336654177202795f86e07a7e124726ac3b5bc4a6",
+    "analysis_v1_1_sha256": "1da84de9343c2ed1047b3f41b4cd4b0c7460f7de66b2fb98bafd59f9353bcaed",
+    "independent_reproduction_v1_1_sha256": "58eb64a8b06dd1ab17ed8dcb0e1704b0800f1408ae3123616105a572d48dc803",
+    "terminal_event_sha256_by_session": ["4ea4bc17c2f4bd9ad4f014e3546117a159c3961673d3ec4a54ecdde1a86fc70d", "1be53e9fda88efd837a307226769e940d91d1bd77f75d23d1a3ae9a47acc8e95"]
+  },
+  "finding": "Correct-minus-mismatched margin +0.0011776468301016214 and correct-minus-length +0.0004896040585663805; both leave-one-speaker-out ranges cross zero. Equal-prefix sensitivities do not establish stability. Post-hoc human reference margins positive for only4/8. No construct-valid genuine Persona Fidelity benefit established; absence/equivalence not established either.",
+  "human_review": {"prior_rpc64": "PENDING_GENUINE_JAPANESE_REVIEW", "corrected_directory": ".local/reviewer-packages/real_persona_chat_sfh_pilot_v1/stage_a_delivery_v1_1", "working_file": "stage_a_WORKING_COPY.csv", "provenance_file": "reviewer_exposure_questionnaire_v1_1_TEMPLATE.json", "new_study": "NO_HUMAN_PACKAGE_OR_LABELS_CREATED", "historical_16_and_168": "PENDING_SEPARATE_REQUIREMENTS"},
+  "validation": {"reserved_speakers": 58, "target_content_untouched": true, "independent_arithmetic_reproduction": "PASS64", "independent_experimental_validation": "NOT_ESTABLISHED", "public_clone_reproduction": "PARTIAL"},
+  "resume": ["Verify this state against both receipts and combined reproduction; do not rerun completed64 or prior64.", "Preserve both real chains, the original54 partial analysis and safety failure.", "Use the corrected existing64 human-review delivery and truthful exposure questionnaire; no synthetic human judgments.", "Do not spend58 held-out speakers or expand model selection while the proposed semantic/fidelity outcome lacks adequate validity.", "Any future generation batch needs separate prospective finite allocation, valid measurement and fresh RAM safety; preserve global636/1200 accounting.", "Use researcher-only explicit checkpoint allowlist; no automated Git staging, commit or push."],
+  "algorithm": "NO_NEW_VALIDATED_ALGORITHM; do not optimize a weak proxy or rename existing style/memory methods",
+  "scientific_programme_complete": false
+}

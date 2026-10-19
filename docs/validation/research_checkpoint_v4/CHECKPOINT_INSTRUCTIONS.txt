@@ -1,0 +1,77 @@
+PersonaSLM manual research checkpoint v4
+
+Base: 8b7f8fdd8eec8358528da86398659f876c70a6dd
+Branch: research/autonomous-personaslm
+Exact allowlist: public_git_allowlist_v4.txt (66 files).
+
+This is the union of the unchanged36-file v3 increment and30 additions:
+16 continuation-study public documents,4 source modules,4 synthetic tests,
+the working manuscript, and5 v4 checkpoint files. Do not separately stage
+the entire repository or overwrite v3. The raw research development log
+remains excluded; the public continuations preserve safe development provenance.
+
+No agent has staged, committed or pushed. The human researcher controls Git.
+Do not use git add ., git add -A, globs, force-push, history rewriting, automatic
+main merges, or an old verifier against this larger union.
+
+The v4 manifest binds every allowlisted file except itself. Obtain its exact
+SHA256 from the independently communicated final checkpoint receipt; do not
+derive trust by trusting an unverified local manifest. Insert that digest in
+the variable below. Any failure stops the manual workflow.
+
+PowerShell from the repository root; HUMAN EXECUTION ONLY:
+
+$ExpectedManifestSha256 = '<COPY_FINAL_EXTERNALLY_REPORTED_V4_MANIFEST_SHA256>'
+& '.\docs\validation\research_checkpoint_v4\verify_checkpoint_v4.ps1' -ExpectedManifestSha256 $ExpectedManifestSha256
+if (-not $?) { throw 'Pre-staging verification failed' }
+git --literal-pathspecs add --pathspec-from-file=docs/validation/research_checkpoint_v4/public_git_allowlist_v4.txt
+if ($LASTEXITCODE -ne 0) { throw 'Manual staging failed; inspect without committing' }
+& '.\docs\validation\research_checkpoint_v4\verify_checkpoint_v4.ps1' -ExpectedManifestSha256 $ExpectedManifestSha256 -Staged
+if (-not $?) { throw 'Staged verification failed; do not commit' }
+git diff --cached --stat
+git diff --cached --check
+
+Personally inspect the exact staged diff before deciding whether to commit.
+Recommended commit message:
+Preserve RPC style controls and continuation-recognition evidence
+
+No commit or push command is executed or supplied by this checkpoint agent.
+A local commit would not establish remote backup. The default verifier requires
+an empty index and unchanged expected HEAD/branch. If the human has already
+committed or staged another checkpoint, stop and reassess; do not reset it.
+The staged verifier checks the exact allowlist and filtered Git blob hashes,
+so Git line-ending normalization is distinguished from changed working bytes.
+
+Exact local checks that do NOT invoke model inference:
+
+$env:PYTHONPATH='tools;src'
+.venv/Scripts/python.exe -m pytest -q -p no:cacheprovider tests/test_real_persona_chat_continuation_material_v1.py tests/test_real_persona_chat_continuation_v1.py tests/test_real_persona_chat_continuation_reproduce_v1.py tests/test_real_persona_chat_continuation_position_diagnostic_v1.py
+if ($LASTEXITCODE -ne 0) { throw 'Targeted tests failed' }
+.venv/Scripts/python.exe tools/real_persona_chat_continuation_reproduce_v1.py
+if ($LASTEXITCODE -ne 0) { throw 'Independent raw-data arithmetic verification failed' }
+.venv/Scripts/python.exe tools/real_persona_chat_continuation_position_diagnostic_v1.py
+if ($LASTEXITCODE -ne 0) { throw 'Post-hoc raw-data diagnostic verification failed' }
+
+The test command passed29 tests in0.55s (Python3.14.3,pytest9.1.1) in checkpoint
+preparation. Disabling cacheprovider causes the documented cache_dir warning.
+A public clone can install the repository's declared test extra in its own
+environment; the original .venv is not included. The latter two verification
+commands require privately authorized frozen artifacts at recorded paths.
+Do not add --write, repeat completed inference, erase claims or alter receipts.
+See the study's reproduction_instructions_v1.txt for pinned asset acquisition,
+source snapshots, relocation limitations and generation-repeatability rules.
+
+Scientific state:52 new bounded decisions (4 authored controls+48 recognition),
+not52 new free-dialogue continuations. Cumulative688/1200 generations and
+3973.1201058999386/72000 completion elapsed seconds;512 generations remain.
+The observed A/first-position and format dependence is developmental evidence,
+not a confirmed general History effect, human-reviewed Persona Fidelity,
+independent experiment, original algorithm or submission-ready manuscript.
+
+Public scientific reproduction remains PARTIAL. Code closure is complete
+relative to the fixed base plus this union; private corpus/manifests/journals,
+models, backend/runtime assets and genuine human labels are not supplied.
+The manuscript retains three intentionally withheld historical review links;
+dependency_and_privacy_review_v4.json names them. Do not publish those documents
+to remove broken links. Preserve the58 validation speakers and protected
+review mappings. Existing same-volume archives are not off-device backups.

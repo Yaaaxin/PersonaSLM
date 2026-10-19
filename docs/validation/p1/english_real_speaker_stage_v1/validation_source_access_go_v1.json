@@ -1,0 +1,26 @@
+{
+  "schema": "english_validation_source_access_go_v1",
+  "date": "2026-10-19",
+  "decision": "GO_SOURCE_QUALIFICATION_ONLY_NOT_INFERENCE",
+  "approved_for_reserved_body_access": true,
+  "validation_policy_sha256": "15f65b9e35dcce6251397f9c6c827806b0ae83c6962d77416c67479005256b8a",
+  "development_manifest_sha256": "35534588ed8f386c5831ba6db9d67a05b852721cfc56b91835d3053042c32495",
+  "development_partial_receipt_sha256": "0269db1739d634955484d6587ac4e9f2cd35e45506480b70c94f835321511be8",
+  "curation_source_hashes": {
+    "english_icsi_validation_curation_v1.py": "44027f5632ba3aa39619ddb9c70f15eec65f44b592499068d394c7a58f4928bf",
+    "test_english_icsi_validation_curation_v1.py": "383663c81bbd9c17980177fb71b6afbb4e37a70b665a8b8efaacd0bbfcabdfde"
+  },
+  "basis": [
+    "Development instrument, model, rubric and source-selection rules were frozen before any reserved body access; no configuration or endpoint selection using reserved content is permitted.",
+    "Independent raw/HTTP/token/source and cumulative-cost reconciliation passed for all92 observed responses. All100 allocated records remain present, with8 unattempted. Zero failed or retried calls.",
+    "The owned model process stopped before request93 because live available RAM fell below the unchanged512MiB guard. This is a preserved resource interruption, not a failed semantic/model qualification or authorization to modify the study.",
+    "Root inspected the first generated response in each of the10 frozen contexts solely for English text and human-evaluability. Responses include role labels and possible wrong-role continuations; these are retained for genuine rating, not repaired or used to tune prompts. No semantic success or fidelity labels were assigned.",
+    "Source dossiers and open continuations remain interpretable for the frozen human rubric. Ratings may legitimately be poor or NA. Annotation is not a prerequisite to source qualification, and access does not authorize validation inference.",
+    "All reserved candidate groups must retain explicit source-based selection or exclusion. Actual yield is not a quota. Separate root and AI source audits precede any execution registration."
+  ],
+  "human_labels_created": 0,
+  "reviewer_independent": false,
+  "independent_semantic_validation_established": false,
+  "new_generation_authorization": false,
+  "limits": "Only source qualification is released. Completing the unchanged development allocation and a separate finite validation registration with fresh RAM safety remain prerequisites for validation generation. Japanese58 held-out speakers remain untouched."
+}

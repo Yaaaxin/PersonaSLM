@@ -1,0 +1,16 @@
+{
+  "schema": "english_model_comparison_analysis_implementation_record_v1",
+  "date": "2026-10-19",
+  "timing": "Implemented after Base registration and during Base inference, before any new response-content analysis by the implementing agent or root. The scientific protocol and technical comparison definitions preceded inference; do not describe this implementation as prospectively registered before generation.",
+  "protocol_sha256": "550c18457e28068aa7b38cdfeef00dec0c18dc36e9c1fd8d5443afa036a91aa1",
+  "source": "tools/english_model_comparison_analysis_v1.py",
+  "source_sha256": "96c85f0216205e9a1763d406ea5b3029e8ad841523d8d8ae6dc949abb67259fd",
+  "test": "tests/test_english_model_comparison_analysis_v1.py",
+  "test_sha256": "992c294fe0e9e27f16e017157fb73f604f8544b275a8321bca1add1acfa67c28",
+  "root_review": "Full source and tests read. Eleven authored-fixture tests passed in0.67seconds. The known pytest cache_dir configuration warning is non-fatal. No actual output or protected mapping was used in those tests.",
+  "concurrent_load_limit": "Agent fixture tests0.45/0.49seconds and root0.67seconds overlapped Base inference. Ordinary agent/editor activity also continued. CPU wall timings are observed local deployment costs, not isolated laboratory benchmarks; model blocks were not randomized.",
+  "analysis_scope": "Eight technical endpoints, all seven factorial contrasts, three style controls, exact matched Instruct-minus-Base cells, anonymized speaker profiles and leave-one-speaker-out influence. Reuse two distinct frozen numerical implementations; preserve source/native HTTP/journal/accounting verification. No semantic proxy scores or human labels generated.",
+  "human_analysis_dependency": "The new rubric legitimately permits multiple UNAVAILABLE records and domain-specific NA. The old99-rating ordinal implementation supports only its historical missingness structure and must not be forced onto arbitrary new missingness. Before joining any new submitted ratings, separately bind an appropriate missingness/applicability analysis policy and implementation; preserve all genuine values. This technical analysis and blank delivery do not claim a completed200-rating semantic analysis.",
+  "privacy": "Raw rows, responses, dossiers, native stopping strings and review mappings remain private. Public aggregates and hashes only.",
+  "new_model_generations_by_this_analysis_or_test": 0
+}

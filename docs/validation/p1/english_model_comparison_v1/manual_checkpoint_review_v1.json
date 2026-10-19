@@ -1,0 +1,226 @@
+{
+  "schema_version": "personaslm_manual_checkpoint_increment_review_v1",
+  "recorded_at_utc": "2026-10-19T19:47:33Z",
+  "status": "REVIEWED_EXPLICIT_INCREMENT_NOT_STAGED",
+  "scope": "Exactly 20 newly reviewed files and one previously reviewed manuscript with a fully reviewed append. This is not a complete repository checkpoint and does not authorize future files or arbitrary untracked files.",
+  "file_count": 21,
+  "inspection": {
+    "source_tests": "All ten source/test files read completely; authored fixtures inspected as synthetic, not participant records.",
+    "public_documents": "All ten public documents inspected. The large aggregate ordinal JSON was fully parsed recursively, including every key and scalar; all distinct text values and summary structure were inspected. No raw record arrays or individual identities were present.",
+    "manuscript": "New 5,370-byte append read completely; the preceding 41,815 bytes independently match the existing v5 reviewed manuscript hash.",
+    "privacy_findings": 0,
+    "privacy_scope": "No authentic dialogue quotations, individual speaker or review identifiers, unblinding mappings, credentials or model-weight payloads found in the selected public files.",
+    "supplemental_scan": "High-confidence credential patterns and known corpus/pseudonymous speaker-ID patterns returned no matches in the selected files. Pattern checks are supplemental, not a guarantee against arbitrary secrets.",
+    "boundary": "No protected mappings, actual per-record ratings or raw participant outputs were accessed for this audit. The historical research log was not admitted or reread as a whole.",
+    "hash_recheck": "All 21 listed file hashes and byte lengths matched again after inspection."
+  },
+  "predecessor_references": [
+    {
+      "path": "docs/validation/research_checkpoint_v5/checkpoint_manifest_v5.json",
+      "sha256": "51f5273ec900872abdf0b0dc9bb576f4c611e483f07172e2f774d85fa4dd107f",
+      "allowlisted_files": 150
+    },
+    {
+      "path": "docs/validation/research_checkpoint_v5/public_git_allowlist_v5.txt",
+      "sha256": "6c25af6639658730cd22cdcc6e9914b517a7df19f3ee793da739f08a025c9f48"
+    },
+    {
+      "path": "docs/validation/p1/english_real_speaker_stage_v2/public_safe_increment_v1.json",
+      "sha256": "ae8f5458ac9e2b50388028ddf6f8c09b57eddbb93123d3c20dabc2c2a9c1798c",
+      "listed_files": 17
+    }
+  ],
+  "aggregation_requirement": "A final manual checkpoint must explicitly combine the prior reviewed scopes with this increment and any later separately reviewed additions. This receipt does not claim that every predecessor byte remains unchanged or that all local work is covered.",
+  "dependency_closure": {
+    "method": "Existing runtime_python_dependency_paths AST closure over these ten source/test entry points, augmented with all Python source bindings in the ordinal lock and explicit test fixture dependencies test_english_sfh_registration_v1.py, test_english_sfh_execution_v1.py and test_english_sfh_reproduce_v1.py.",
+    "python_files": 81,
+    "classification": {
+      "new_files_in_this_increment": 10,
+      "existing_v5_allowlisted_files": 13,
+      "already_git_tracked_base_files": 58,
+      "stage_v2_python_files_required": 0,
+      "unclassified_or_missing_local_python_files": 0
+    },
+    "missing_local_python_paths": [],
+    "ordinal_lock_source_bindings_verified": 58,
+    "source_lock": "docs/validation/p1/english_human_ordinal_v1/ordinal_analysis_lock_v1.json",
+    "non_python_provenance": "The existing tokenizer provenance and docs/validation/p1d/scientific_validation_v1/official_template_rendering_verification_v1.json are present and Git-tracked. Private runtime payloads remain excluded.",
+    "limitation": "Static local Python closure is not a clean-environment execution or a proof that private data, model files, native libraries or external Python dependencies are publicly available."
+  },
+  "manuscript_increment": {
+    "prior_reviewed_bytes": 41815,
+    "prior_reviewed_sha256": "3b95fc78291b3cdea9bd2b76b1f688965c50da48c6686ce0f7f15e13ecc8827c",
+    "appended_bytes": 5370,
+    "current_sha256": "802e54a17bb006b5b4e16f14b4deee43407cf3815d3a2979d980eba8b82f39d4",
+    "handling": "The old v5 full-file check will correctly fail for the appended manuscript. Preserve the frozen v5 record and use this explicit new whole-file binding; never silently revise old evidence."
+  },
+  "scientific_limitations": [
+    "The older 99 judgments use a retrospectively clarified, unanchored ordinal 0-5 scale from one project-involved researcher. They are not independent human validation or evidence of inter-rater reliability.",
+    "The new 200-record review adapter preserves genuine UNAVAILABLE records and domain-level NA. It does not make the later human analysis complete.",
+    "The two old ordinal engines accept at most one wholly missing rating row and reject partial-domain NA. A separately frozen analysis adaptation is required before joining new ratings with conditions; do not force 199 completed ratings, fabricate values or delete genuine domain scores.",
+    "Base/Instruct configurations differ in native prompt template and stopping behavior and are deployment-bundle comparisons, not isolated training or model-size causal effects.",
+    "The reviewed scientific text distinguishes ordinal thresholds, logical missing-outcome bounds and leave-one-speaker-out sensitivity from calibrated confidence intervals, and does not claim complete factual/temporal endpoint coverage.",
+    "Current model execution continues outside this static review. No generation count, completion claim, new human rating or final technical result is inferred from this checkpoint."
+  ],
+  "public_reproducibility": {
+    "status": "PARTIAL",
+    "intentionally_unavailable": [
+      "Private ICSI curated source material, original exact prompts, tokenization records, raw journals, sealed run snapshots and source-level provenance.",
+      "Original human responses, immutable review deliveries, declarations, protected mappings and private linked analysis rows.",
+      "Pinned GGUF weights, model metadata caches, llama.cpp CPU executable/DLL runtime, virtual environments and caches.",
+      "Frozen Jinja2/MarkupSafe template runtime under results/p1d_scientific_validation/v1/template_runtime."
+    ],
+    "environment_limitations": [
+      "Fixed D-drive model-storage and local private-provenance paths require an explicitly reviewed relocation configuration on another machine; the scope does not authorize arbitrary external paths.",
+      "The earlier reproducibility environment used Python 3.14.3 and pytest 9.1.1. Existing helper use of hashlib.file_digest requires Python 3.11 or newer despite the broader project metadata floor; Python 3.10 clean-clone execution is not established.",
+      "Public source and hash records cannot reconstruct excluded private artifacts without lawful, documented access."
+    ]
+  },
+  "exclusions": [
+    {
+      "scope": "docs/research_development_log.md",
+      "reason": "The complete file remains excluded under the previous privacy boundary; a safe current append does not make historical sensitive/key-equivalent content publishable."
+    },
+    {
+      "scope": ".local research materials, reviewer packages, protected mappings, raw speaker records and raw model journals",
+      "reason": "Private or restricted scientific data; hashes and aggregate provenance only are admitted."
+    },
+    {
+      "scope": "Credentials, API tokens, model weights, virtual environments, binaries, temporary files and caches",
+      "reason": "Secret, large runtime or non-source artifacts; never indiscriminately stage."
+    },
+    {
+      "scope": "Previously withheld semantic-review package/protocol documents",
+      "reason": "Keep the exact predecessor exclusions; this increment does not reopen their privacy review."
+    },
+    {
+      "scope": "Later technical-analysis helpers, running-experiment receipts, human delivery receipts, analysis outputs or other future files",
+      "reason": "Not inspected within this exact 21-file scope; require separate review before inclusion."
+    },
+    {
+      "scope": "This new receipt and manual_checkpoint_commands_v1.txt",
+      "reason": "New audit-control documents awaiting the parent/root review; not automatically included in their own 21-file allowlist."
+    }
+  ],
+  "verification": {
+    "read_only_powershell": [
+      "$Review = Get-Content -Raw -LiteralPath 'docs/validation/p1/english_model_comparison_v1/manual_checkpoint_review_v1.json' | ConvertFrom-Json",
+      "if ($Review.files.Count -ne 21) { throw 'Unexpected checkpoint scope' }",
+      "foreach ($File in $Review.files) { if (-not (Test-Path -LiteralPath $File.path -PathType Leaf)) { throw ('Missing file: ' + $File.path) }; $Item = Get-Item -LiteralPath $File.path; $Hash = (Get-FileHash -LiteralPath $File.path -Algorithm SHA256).Hash.ToLowerInvariant(); if (($Item.Length -ne $File.bytes) -or ($Hash -ne $File.sha256)) { throw ('Changed file: ' + $File.path) } }",
+      "git diff --name-only",
+      "git diff --cached --name-only",
+      "git diff --cached --check"
+    ],
+    "tests": "No new test suite or model inference was run during this audit, avoiding contention with active inference. Prior authored test results are not recast as new verification or scientific evidence.",
+    "git_mutations_executed": false,
+    "command_file": "docs/validation/p1/english_model_comparison_v1/manual_checkpoint_commands_v1.txt",
+    "command_policy": "The command file contains only explicit commands for a human to stage the 21 reviewed files after rechecking hashes. No wildcard, git add dot, git add -A, commit or push."
+  },
+  "files": [
+    {
+      "path": "tools/english_sfh_ordinal_v1.py",
+      "bytes": 25457,
+      "sha256": "84450de318391162186f34df5380afdefc720b5a1ef94b82c3833c8445eb89a7"
+    },
+    {
+      "path": "tools/english_sfh_ordinal_independent_v1.py",
+      "bytes": 9501,
+      "sha256": "76964c1d11687a320501425fad4b2a4a710a0cac40848e10ff6f86ba8f2dda26"
+    },
+    {
+      "path": "tools/english_sfh_model_artifacts_v1.py",
+      "bytes": 11474,
+      "sha256": "5338e41887d55ef19159e7cbf03ed6d3937fd70f1312562dda4cee01d3679773"
+    },
+    {
+      "path": "tools/english_sfh_model_comparison_v1.py",
+      "bytes": 25640,
+      "sha256": "591fbc9a3cdc75b130b7d1e205533364fc01036df51a1a0aec46ee9c933fa4c8"
+    },
+    {
+      "path": "tools/english_model_comparison_review_v1.py",
+      "bytes": 11256,
+      "sha256": "0bf68f15c41b12258493969b511698175501c87609956c6b3550fca496586820"
+    },
+    {
+      "path": "tests/test_english_sfh_ordinal_v1.py",
+      "bytes": 13504,
+      "sha256": "3ac6ec2f80eab2f4a3ee459be64f8214e233d9eed9dbbba08f4d74156d06652a"
+    },
+    {
+      "path": "tests/test_english_sfh_ordinal_independent_v1.py",
+      "bytes": 8549,
+      "sha256": "32cdaab037de4989b8482a0c0dd0de49685a36f7f1b2838b071e3a3653cea7d8"
+    },
+    {
+      "path": "tests/test_english_sfh_model_artifacts_v1.py",
+      "bytes": 6457,
+      "sha256": "9def00ff3fd8931b62421705f35b60eccb70411eeb8eecdae274ce06c78d159f"
+    },
+    {
+      "path": "tests/test_english_sfh_model_comparison_v1.py",
+      "bytes": 16366,
+      "sha256": "e4e526ae7bd64b1332c571ac93d3bd3555b9e44e2a286740619efebfad9032e4"
+    },
+    {
+      "path": "tests/test_english_model_comparison_review_v1.py",
+      "bytes": 10715,
+      "sha256": "9670d7f1ba348b5ee86fa58e0670340fffe77f93387a1291b835874d2a6404c1"
+    },
+    {
+      "path": "docs/validation/p1/english_human_ordinal_v1/analysis_amendment_v1.json",
+      "bytes": 11056,
+      "sha256": "04428a566d453a02b6d8d2f2cdd1a369e593e7d0bcaaa5819875601e603a253e"
+    },
+    {
+      "path": "docs/validation/p1/english_human_ordinal_v1/continuation_scope_v1.json",
+      "bytes": 5080,
+      "sha256": "bfac8982efd5513226fd18caed819a2b97ff3103745df0e2280dee2cce4bae89"
+    },
+    {
+      "path": "docs/validation/p1/english_human_ordinal_v1/integrated_analysis_v1.txt",
+      "bytes": 16654,
+      "sha256": "858612f4d32b5193107999f71f7d9ba4a9ba7b2417a4ed525ad72618609296e3"
+    },
+    {
+      "path": "docs/validation/p1/english_human_ordinal_v1/ordinal_analysis_lock_v1.json",
+      "bytes": 10182,
+      "sha256": "7820032f093cc56129974a12636474c698fe47597fe833a311701035a7d9900e"
+    },
+    {
+      "path": "docs/validation/p1/english_human_ordinal_v1/ordinal_analysis_v1.json",
+      "bytes": 366308,
+      "sha256": "a562e7249706f8982916c6959d577bc24fc94f1d46d490881b1b365d5c5f616d"
+    },
+    {
+      "path": "docs/validation/p1/english_model_comparison_v1/artifact_receipt_v1.json",
+      "bytes": 12564,
+      "sha256": "5020d20914dcd3e672dfe4c56a67ff6e0f7e27fe541b8fcc29c67704a044d337"
+    },
+    {
+      "path": "docs/validation/p1/english_model_comparison_v1/model_storage_amendment_v1.json",
+      "bytes": 2368,
+      "sha256": "20ab0ee5af723081f9b02f557d25c9ee5207e26049c2778dc0935fcf6c5e8990"
+    },
+    {
+      "path": "docs/validation/p1/english_model_comparison_v1/primary_review_rubric_v1.json",
+      "bytes": 6209,
+      "sha256": "a314bf582443af32d43f64db77fcfaf5e55a9399886ecae701d912ba5a5b9dfe"
+    },
+    {
+      "path": "docs/validation/p1/english_model_comparison_v1/prospective_protocol_v1.json",
+      "bytes": 14481,
+      "sha256": "550c18457e28068aa7b38cdfeef00dec0c18dc36e9c1fd8d5443afa036a91aa1"
+    },
+    {
+      "path": "docs/validation/p1/english_model_comparison_v1/registration_storage_failure_v1.json",
+      "bytes": 1380,
+      "sha256": "4b15cca4494fd13dfbf9a17873434e6da2051f9de326390607a8a30fbbbdd9d1"
+    },
+    {
+      "path": "docs/PersonaSLM_manuscript_working_v2.md",
+      "bytes": 47185,
+      "sha256": "802e54a17bb006b5b4e16f14b4deee43407cf3815d3a2979d980eba8b82f39d4"
+    }
+  ]
+}

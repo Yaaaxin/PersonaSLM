@@ -1,0 +1,108 @@
+{
+  "archive_sha256": "9db98ebdd61a085b4f45f24f46e9c9f6c6f26c3c9cd41643a3b9e74362c85de7",
+  "created_utc": "2026-10-19T15:49:06.965038+00:00",
+  "development_curation_decisions_sha256": "857e1fe48b33786ffa14de495baae682f61e35ad6c618ddff7e3b5263bbbf879",
+  "development_manifest": {
+    "path": ".local/experiments/english_sfh_v1/development/frozen_manifest_v1.json",
+    "sha256": "35534588ed8f386c5831ba6db9d67a05b852721cfc56b91835d3053042c32495"
+  },
+  "development_protocol": {
+    "path": "docs/validation/p1/english_real_speaker_stage_v1/protocol_v1.json",
+    "sha256": "6ae3c7875062334af2f88a625e5fcddb783e7007ab9ecf2e9214eb606603ad62"
+  },
+  "development_source_policy_sha256": "6522aba511855fbb9c603f333c83178307fea7d78788b863c7f7e25c740e27b9",
+  "frozen_generation_configuration": {
+    "model": {
+      "artifact_revision": "23749fefcc72300e3a2ad315e1317431b06b590a",
+      "backend_file": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+      "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+      "model_file": "models/gguf/instruct_candidates/qwen3-0.6b-official-23749fef/Qwen3-0.6B-Q8_0.gguf",
+      "model_sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+      "quantization": "Q8_0"
+    },
+    "runtime": {
+      "cache_prompt": false,
+      "context_tokens": 2048,
+      "enable_thinking": false,
+      "ignore_eos": false,
+      "max_new_tokens": 128,
+      "seed": 42,
+      "stop": [],
+      "temperature": 0.0,
+      "threads": 4,
+      "top_p": 1.0,
+      "warmup": false
+    },
+    "template_sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "tokenizer_identity": {
+      "dll_hashes": {
+        "ggml-base.dll": "d960b9204111948863508bf2e72feb6bce4ce1b4240df52e8b6648e0a1b2e6be",
+        "ggml-cpu-alderlake.dll": "63e0f9d7b5adaf847329c71e80c4e882039978bb2406cd50b6d5c81294341018",
+        "ggml-cpu-cannonlake.dll": "40a7b43e69c7ec99298e038c644e16846651454d805926ab10549365faa310ca",
+        "ggml-cpu-cascadelake.dll": "568a1cafcfb72f3b42143b3bc7fc8c8ea6be2d13dbdc069616bc202828d2f915",
+        "ggml-cpu-cooperlake.dll": "8abee2db42a94e3bd3d03cc3f0b5d9592c4b60656e3c923f59eb6e476a0a58a6",
+        "ggml-cpu-haswell.dll": "47581d32e72ee7b02ca0722d154f9e107dd29ecdfc4a8eea3cb1d19ef6cb1c5d",
+        "ggml-cpu-icelake.dll": "cee6cb20fcad7c2b45d6a54e4fc0bb2661d1e1f3b60e7176efddb67f6b033393",
+        "ggml-cpu-ivybridge.dll": "a5efb4ab06dda71602dc749fccf808b6d106a76c153370dda56a9904aed9f1a4",
+        "ggml-cpu-piledriver.dll": "32c62b5f5cfdb2814d62f7057ffa912fe3a139013046a497d391a553d2dc1f77",
+        "ggml-cpu-sandybridge.dll": "534201d15039fd3eed115becdf08d5cd5bef7def88656d38695fdcb1130b5ad5",
+        "ggml-cpu-sapphirerapids.dll": "e3e73d813d0260e960a78bc99c1ed3c033f16325874d9a0f817bab9311af2b6b",
+        "ggml-cpu-skylakex.dll": "a22c0b6b2a65c76e9388e3618ad036006d344507a935c48959d892b72b6ef9dd",
+        "ggml-cpu-sse42.dll": "b101d8cf2ea49a8ee67b8cfad0cd023acbe643a2554b819e1d45f149917eb049",
+        "ggml-cpu-x64.dll": "26e2f992a4af291ab9277bab8f362004e0bd03608ac79d579da00773bf67b061",
+        "ggml-cpu-zen4.dll": "d0153474451b0750d357e8843b088dd2a224653399694a28e73f8df539325dae",
+        "ggml-rpc.dll": "888a261f713baa21c64d039496baa41f6ed76ddf4e88acddcbdf7a1625fb8682",
+        "ggml.dll": "6414687963b2467ab5d29f37829728aa4c116fd378f413898bdf683dac6d5c62",
+        "libomp.dll": "a12116ba72d1d6820407cf30be23da04ce79d6bb8a71a5ee71759c5a1faa6f1c",
+        "llama-batched-bench-impl.dll": "8ec17c3c6cc8d600289842f1cd51680514d22e0d89ee4c5785b0297f48f76fb2",
+        "llama-bench-impl.dll": "c8bb208f095bdc40bc5cea4d2048ff6d958a876884d89429aa73d4d74c91d0db",
+        "llama-cli-impl.dll": "892a72edc0f50895ead9b47e51bec14579ef74b092c9f8ad85fbea88140a8d3a",
+        "llama-common.dll": "50760444855fb4fb1478294b8f74e390b3f894a24d7857eedabbb598d37beba6",
+        "llama-completion-impl.dll": "192d880c9b699045a714b808facf1ab0a7e6171b02a79f30b070ef514104555a",
+        "llama-fit-params-impl.dll": "cab736d1adef221220df26a41af56f1d32119bbf003bbd5d7934fab32c11714f",
+        "llama-perplexity-impl.dll": "b02d625329c25550232fa21d42c1646f856b4fbef4808ca485553539de1ddb46",
+        "llama-quantize-impl.dll": "1aa47e8fec9212c9da4c82fc250a27baa88fcff57f7668151dd2b6d06030b475",
+        "llama-server-impl.dll": "0dbb02c7bb56b2502813b0bfdf8ac8e70d342ab2213c36cbe5966cf40a30fe4f",
+        "llama.dll": "5f2f6a2254692098953686609f23c289797a9772aad68df12ab59ebd5488812e",
+        "mtmd.dll": "9f483a3d4781fe6bf0aa6d6eb83a6f1938b9573e8167d62bd7cf91fd10fb2244"
+      },
+      "path": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-tokenize.exe",
+      "tokenizer_sha256": "e05dbdef761e577b3d56f3daea7b205a07f68e5d87242ea4e2544382ffdd358e"
+    }
+  },
+  "new_model_generations": 0,
+  "next_stage_rule": {
+    "GO": "Continue nonadaptive disjoint-cohort collection only if the executed source/task instrument remains interpretable and technically intact; freeze all configuration/rubric/source-selection rules before opening reserved bodies. Human labels need not already exist to collect a frozen human-evaluable cohort, but no semantic benefit or independent semantic replication is claimed before genuine ratings.",
+    "PIVOT": "If semantic outcomes are unjudgeable from the actual dossier or reference construction, stop expansion and repair future measurement prospectively without recasting these cases as validation.",
+    "STOP": "Do not expand invalid source material or a broken generation configuration. A valid negative development result is not automatically a stop; do not chase favorable outputs.",
+    "algorithms": "No new algorithm before a semantically meaningful reproducible failure. Generic filtering, history provision or source-frequency prompting is not claimed novel.",
+    "rq_limits": "RQ1 only for this source representation, model and professional cohort. RQ2 only where source/history applicability permits. RQ3 needs controlled size/Base-Instruct comparisons; RQ4 needs fair retrieval/ranking/adaptation interventions. Neither is claimed answered here.",
+    "validation": "At most8 previously reserved English speakers with two contexts and ten conditions each; actual usable source yield must be qualified under frozen rules and separately registered, never forced to eight. Development representation and model cannot be tuned using reserved target content. Speaker-disjoint transport across meeting groups is not evidence of reviewer independence or general-population replication."
+  },
+  "private_policy_sha256": "15f65b9e35dcce6251397f9c6c827806b0ae83c6962d77416c67479005256b8a",
+  "reserved_transcript_bodies_read": 0,
+  "rubric_sha256": "2c6331e2b076c3b0903170cc159823dcee01d28fc1848b78fa4f887a8388cb14",
+  "rules": [
+    "Only11 reserved Bed meetings and12 frozen original participant IDs; none may occur in development",
+    "Reuse unmodified v2.parse_meeting, v3.screen and v3.pool; only pseudonym prefix becomes V",
+    "At most8 speakers with3datedmeetings; at most2 earliest candidate groups per person and2 contexts per group",
+    "Same complete dated professional self-report, separate style sources,6to10turn history and8turn current-context criteria",
+    "Root and separate AI source audit must curate complete supported F propositions and interpretable contexts; unfinished authentic references are not unique gold and are not an automatic exclusion",
+    "Same source-bound4to6style examples up to200words, private name pseudonymization and privacy exclusions; examples dossier-only, never S prompts",
+    "No outcome-informed prompt, model, style-feature, source-criteria or rubric changes; no threshold tuning on reserved cases",
+    "At most160 eventual requests if8 speakers qualify; actual source yield is not a quota; this tool authorizes no inference"
+  ],
+  "schema": "icsi_validation_source_policy_v1",
+  "source_hashes": {
+    "english_icsi_material_v1.py": "46dd226e8f4ef2614b5a4f2899fc3e4916572dba4dfab164388fee6b5706e512",
+    "english_icsi_material_v2.py": "ec7e769900cef6d9b3786cb93c01309454c0bdc1bad03cd171f3a759253b5058",
+    "english_icsi_material_v3.py": "d7c8ff997838dd50cc4a57a51ec9244e14d38803bc3b9e9cab5a9465f55b0ced",
+    "english_icsi_source_curation_v3.py": "c2427ee0db598ea7b77ffe4abc047447c546adf05623ff6dfdafb916055a5fe2",
+    "english_icsi_validation_material_v1.py": "2625daca0c9d311fd3333bb048b08e3f3cb8a599c78d176756206fbecbf647bc",
+    "icsi_english_qualification_v1.py": "9d0b6141510ab65f2178a207f2c52fa538c707022b382090da0605bc60f54c83",
+    "test_english_icsi_validation_material_v1.py": "0457b67194b8477579af9efccc5c5154d906783de5e59917eadf920494f54c89"
+  },
+  "source_snapshot_sha256": "2625daca0c9d311fd3333bb048b08e3f3cb8a599c78d176756206fbecbf647bc",
+  "split_sha256": "cf91921ef55874237d961f0b2c17b916d5122ccff0c08cf6e4a52ba74a30207e",
+  "status": "FROZEN_METADATA_ONLY_REQUIRES_EXPLICIT_ROOT_BODY_ACCESS_GO"
+}

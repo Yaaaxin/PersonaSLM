@@ -1,0 +1,37 @@
+{
+  "schema_version": "personaslm_incremental_checkpoint_verifier_checks_v3",
+  "scope": "Read-only verifier syntax and extracted path-guard checks before final manifest freeze; not a staged-index or remote-backup test.",
+  "powershell_version": "5.1.19041.6456",
+  "powershell_ast_parse_errors": 0,
+  "rejected_cases": [
+    "tools./literature_monitor.py",
+    ".local./secret.json",
+    "tools//literature_monitor.py",
+    "tools/../AGENTS.md",
+    "tools\\literature_monitor.py",
+    "tools/ literature_monitor.py",
+    "tools/literature_monitor.py.",
+    "docs/research_development_log.md"
+  ],
+  "all_eight_rejected": true,
+  "normal_existing_file_accepted": "tools/literature_monitor.py",
+  "checks_do_not_read_protected_payloads": true,
+  "git_index_or_history_mutated": false,
+  "staged_mode_execution_tested": false,
+  "staged_mode_limit": "Reviewed code checks exact allowlist, ordinary stage-zero 100644 mode and filtered Git blob identity. No files were staged merely to test it; the human must run it after explicit allowlist staging.",
+  "post_freeze_verification": "Run default full-manifest verification and wrong-hash rejection after manifest creation; report their actual outputs separately without self-referential manifest hashing.",
+  "prior_commit_verification": {
+    "head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+    "parent": "c40667ad266082481b1850453f67784b593f3723",
+    "previous_allowlist_paths": 560,
+    "actual_commit_paths": 560,
+    "extra_or_missing_paths": 0,
+    "nonself_working_byte_hash_bindings_verified": 559,
+    "committed_bytes_exact_without_normalization": 553,
+    "committed_crlf_to_lf_only": 7,
+    "previous_manifest_sha256": "99b0d905c96a2e03d5458d6a4d6f2d17376c8cc9782ef741da4e9bdb49edc93f",
+    "previous_allowlist_sha256": "31eef50aac1871d1e9d8d2224bd21f21e42e8d4c5aa0ea5a54104edd4b175fb3",
+    "raw_development_log_intentionally_excluded": true,
+    "remote_backup_verified": false
+  }
+}

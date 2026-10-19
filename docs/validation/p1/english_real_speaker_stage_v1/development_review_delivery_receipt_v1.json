@@ -1,0 +1,38 @@
+{
+  "adapter_sha256": "01b29ccb9686f8e9fd65408338da6d99bfc4397f9665aa402c10d9c807b615bd",
+  "batch": "development",
+  "combined_analysis_sha256": "84468a7ccf42ba9ea8d368ee9800b211c2d97d1422c1ad7fa234b163f3066a53",
+  "combined_bridge_sha256": "7218f892b563dfcc38b4dab25a116b3648d51aeb1b21da4e3559990c9b337496",
+  "combined_bridge_test_sha256": "5ecb140618192eb1973c0b5fce4b6ff83d916c33b7593ebedeefec2155f6499a",
+  "fixed_delivery_file_sha256": {
+    "READ_ME.txt": "6319d6c55a7882a2c38f7a7d4a369b31117abf7cf0b15e5cd863ba28c3bb372e",
+    "REVIEW.csv": "6eb90275aaaa9781da827ee8128a21a4f98dabd44333463240451128146277ef",
+    "provenance.json": "f170484d328b6ed03f0b7d29cf3fbf74dd61d543fd5faba67ffcd4fd24b646bb",
+    "records.html": "7d33129b23dfc6e8453310e4ae7df8f3a7f196ccc8940a59808534da80b55503",
+    "records.json": "3e25ce1febad35b9bcee245ee9d2e3f551620899bc5b3c4b01cb23afda79c7b8"
+  },
+  "generated_outcomes": 100,
+  "human_labels_created": 0,
+  "independent_reproduction_receipt_sha256": "ce361877f9c7f47227105c3cb4db75d9575a927258c192bd33e48cddc650cb87",
+  "limits": "Genuine condition-masked PI review pending; prior exposure must be declared. No independent reviewer, double-blind, inter-rater reliability or semantic benefit is established. Both original journals and their distinct receipts remain unchanged.",
+  "mapping_in_delivery": false,
+  "missing_outcomes": 0,
+  "private_package_receipt_sha256": "e1cf909df2103d6c4d63a3a617984efa875c79509f140854b7050a9958922449",
+  "records": 100,
+  "rubric_sha256": "2c6331e2b076c3b0903170cc159823dcee01d28fc1848b78fa4f887a8388cb14",
+  "schema": "english_sfh_combined_review_delivery_v1",
+  "single_run_delivery_helper_sha256": "08a9c443d8a03c08cf7a78e4de3d1a9cb70b1b2eeef0bc93746e93c3f427dc04",
+  "source_bindings": {
+    "combined_source_sha256": "baee12c99cee6542f52c0c4467a6a249d76b0a8f9419a9f0df8cb90a3c39f002",
+    "independent_definition_source_sha256": "0d5402fcf578852c23910660ceaf70795d8db3dde26c44ff8625cbc544489701",
+    "original_manifest_sha256": "35534588ed8f386c5831ba6db9d67a05b852721cfc56b91835d3053042c32495",
+    "original_partial_receipt_sha256": "0269db1739d634955484d6587ac4e9f2cd35e45506480b70c94f835321511be8",
+    "original_terminal_sha256": "98b08ad36fd10bdd7740b9594fc92cd527e473ee712b3bb372369862b2ad150a",
+    "primary_definition_source_sha256": "08e30da9564042d84f35d0a477aab0c43f460a491170d463ab57d75ea7a15f5a",
+    "private_rows_canonical_sha256": "9d7b0d184bf92ee4e47cb8c6154ab892a5d1cd341220294cf9f60cae9d7461c2",
+    "suffix_manifest_sha256": "61f7bf7bda8eca80885baeaf5a74a9931409c16c634829ebff8136fadb32efef",
+    "suffix_receipt_sha256": "c4be870b1b0f6bb8635aa606c4a8d1d065cb289725a759731b08ba6326367dd9",
+    "suffix_terminal_sha256": "b5e11529de82b57c071f1d18dbae5512016c49029882f6d707ee9f743678e38f"
+  },
+  "status": "BLANK_FIXED_PACKAGE_NOT_HUMAN_REVIEWED"
+}

@@ -1,0 +1,99 @@
+{
+  "schema": "personaslm_english_model_comparison_protocol_v1",
+  "date": "2026-10-19",
+  "level": "PROSPECTIVE_EXPLORATORY_DEVELOPMENT_NOT_INDEPENDENT_VALIDATION",
+  "parent": "PersonaSLM Research Protocol v1.1, English professional-dialogue study; historical studies unchanged",
+  "model_storage": {"path": "docs/validation/p1/english_model_comparison_v1/model_storage_amendment_v1.json", "sha256": "20ab0ee5af723081f9b02f557d25c9ee5207e26049c2778dc0935fcf6c5e8990"},
+  "human_rubric": {"path": "docs/validation/p1/english_model_comparison_v1/primary_review_rubric_v1.json", "sha256": "a314bf582443af32d43f64db77fcfaf5e55a9399886ecae701d912ba5a5b9dfe"},
+  "scientific_question": "Do source-provision effects and correct-versus-alternative style comparisons differ between bounded same-family Base and Instruct deployment configurations on the identical real-speaker English material?",
+  "decision_basis": {
+    "existing_human_analysis_sha256": "a562e7249706f8982916c6959d577bc24fc94f1d46d490881b1b365d5c5f616d",
+    "finding": "The existing Qwen3-0.6B configuration has negative paired Style net preference on relevance and linguistic resemblance under every allowed missing-category completion. Facts and History have domain/cut-dependent effects; the representation is not established as beneficial or speaker-specific.",
+    "alternatives": [
+      "A new-target-speaker transport cohort offers greater generalization value but none is currently source-qualified under a frozen selection rule; do not reuse the failed AMI/Bed gates as if they passed. Preserve160generations for qualified independent follow-up.",
+      "Existing short-history retrieval pools are insufficiently discriminating and confounded by length/information quantity; do not spend120generations on that candidate design.",
+      "One new Instruct-only configuration is cheaper but cannot supply a same-family Base/Instruct contrast. The chosen pair addresses RQ3 while preserving the full S/F/H cube and style controls."
+    ],
+    "no_result_selection": "No model, prompt, endpoint or allocation will be selected because it reverses the earlier negative Style signal. Positive, null, mixed and negative observations are all retained."
+  },
+  "material": {
+    "path": ".local/experiments/english_sfh_v1/icsi_curated_material_v3.json",
+    "sha256": "9d314b40bd3eaffcc53d22abf109d00529d5fdc3b48f14485e3fddc9093ed340",
+    "original_manifest_sha256": "35534588ed8f386c5831ba6db9d67a05b852721cfc56b91835d3053042c32495",
+    "speakers": 5,
+    "contexts_per_speaker": 2,
+    "source_policy": "Exactly the existing privacy-qualified ICSI development speakers, source/style/facts/history/current contexts, donor assignment and pooled style. No new source search or reference-target inspection for tuning. No target continuation in prompts. English only.",
+    "scope": "Authentic professional meeting speakers; not whole-life personas. H contains style/facts and C0 includes a real local conversation. Estimate provision of these source packages, not perfectly separated psychological constructs.",
+    "rights": "Previously verified ICSI transcript distribution CC BY4 with attribution. Public availability is not individualized consent to impersonation. Anonymous local research simulation only; no deployment, identity enrichment, raw public redistribution or sensitive-biography inference.",
+    "protected": "All58Japanese reserved speakers untouched. No new English held-out target bodies opened by this study."
+  },
+  "design": {
+    "models": ["base", "instruct"],
+    "condition_count_per_context": 10,
+    "factorial": "C0-C7; S=bit0,F=bit1,H=bit2; original source construction unchanged",
+    "diagnostics": "M_STYLE,N_STYLE, bothF=H=1; same donor/pooled source schema as original study",
+    "requests_per_model": 100,
+    "total_maximum_attempts": 200,
+    "order": "BASE first, then INSTRUCT. Each uses the same original case-wise cyclic ten-condition ordering, second context reversed. Model blocks are not randomized; wall-clock/load differences confound direct timing attribution. This choice is frozen before outputs.",
+    "base_interface": "Plain transcript completion: original SYSTEM text, two newlines, original source-conditioned user material with its final continuation instruction replaced by two newlines and Participant:. No ChatML wrapping of Base.",
+    "instruct_interface": "The identical SYSTEM and source-conditioned user material ending Participant: rendered through the verified official Instruct chat template, with assistant generation prefix. No implicit default system instruction or thinking.",
+    "turn_boundary": "For both models, the same per-case native stop strings: newline Participant: and newline Colleague N: for every anonymous colleague label present in the union of that case's history and context. The list is independent of S/F/H. Preserve the complete native response and stopping metadata; no posthoc trimming, repair, retry or selective extraction.",
+    "estimand_boundary": "Base versus Instruct is a comparison of published quantized checkpoint plus appropriate elicitation/EOS deployment configurations. Training, template, EOS and incompletely documented upstream conversion may differ. It is not a pure causal estimate of instruction tuning. Both have the same nominal parameter scale: this comparison does not estimate a size effect. Old Qwen3-0.6B remains a cross-family historical reference, not a randomized size control."
+  },
+  "model_artifacts": {
+    "publisher": "mradermacher, static non-imatrix Q4_K_M releases; official upstream Qwen2.5-1.5B and Qwen2.5-1.5B-Instruct, Apache-2.0",
+    "base": {"repository": "mradermacher/Qwen2.5-1.5B-GGUF", "revision": "4d8150eba159047c0ad5f72a8473e4ad60419c4a", "filename": "Qwen2.5-1.5B.Q4_K_M.gguf", "bytes": 986048544, "sha256": "ea47cef917fa77a3458206d0848f81dd033dfb859bbb3b176bf6006d3b620814", "official_metadata_revision": "8faed761d45a263340a0528343f099c05c9a4323"},
+    "instruct": {"repository": "mradermacher/Qwen2.5-1.5B-Instruct-GGUF", "revision": "531cb7a27c3ad23c7d9c69d2d7a9de562ce55bcd", "filename": "Qwen2.5-1.5B-Instruct.Q4_K_M.gguf", "bytes": 986048960, "sha256": "f86985a0e8b549680da4cf43a037bb185c4ec8d1ee07cce52c1720f848b7c972", "official_metadata_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"},
+    "conversion_provenance": "PARTIAL. Published GGUF bytes/revisions are pinned; publisher does not provide enough exact upstream revision/commands/quantizer source information to independently reconstruct conversion. Do not invent that provenance or equate this limitation with failure to reproduce inference from the pinned artifacts.",
+    "backend": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "preexecution_checks": "Verify downloaded weight size/SHA, architecture, tensor count/quantization layout, official metadata, actual GGUF vocabulary/merges/special tokens, native offline versus live token IDs, rendered Instruct template and actual prompt context bounds. Any conflict stops before generation; no fabricated identity PASS."
+  },
+  "runtime": {"context_tokens": 2048, "max_new_tokens": 128, "threads": 4, "temperature": 0, "top_p": 1, "seed": 42, "cache_prompt": false, "warmup": false, "ignore_eos": false, "parallel_model_processes": 1},
+  "safety": {
+    "ram_gates_bytes": [3221225472, 1073741824, 536870912],
+    "justification": "A separate1.5B static-Q4 configuration: approximately0.918GiB weights and56MiB theoretical fp16 KV at2048tokens, plus unestimated runtime buffers/metadata and system headroom. Conservative3GiB before launch,1GiB ready and512MiB live floors require actual measurements. This is not a vendor memory guarantee and does not lower any historical2B/3B/v4 gate.",
+    "operation": "One model at a time, fresh hash-bound official controller preflight per run; preserve failure receipt. Never terminate unrelated apps or repeat unchanged failed hardware checks.",
+    "maximum_inference_seconds_per_model": 3600,
+    "maximum_wall_seconds_per_model": 5400,
+    "disk_reserve_bytes": 1073741824,
+    "stop": "Stop at first integrity, tokenization, RAM, server, request or finite-time failure. Preserve every spent attempt, failure and unattempted request. No hidden warmup/completion probe. Base failure does not authorize silently proceeding or repairing the paired design."
+  },
+  "authorization": {
+    "basis": "Existing PI full scientific autonomy and cumulative ceilings; finite new prospective English development study, no new monetary spending",
+    "baseline_receipt": "docs/validation/p1/english_real_speaker_stage_v1/development_resume_v1_execution_receipt_v1.json",
+    "baseline_receipt_sha256": "c4be870b1b0f6bb8635aa606c4a8d1d065cb289725a759731b08ba6326367dd9",
+    "baseline_generations": 788,
+    "baseline_inference_seconds": 4485.684495999997,
+    "global_generations": 1200,
+    "global_inference_seconds": 72000,
+    "validation_reserve": 160,
+    "cumulative_if_completed": 988,
+    "remaining_if_completed": 212,
+    "unallocated_after_reserve": 52,
+    "chain": "Instruct registration/run must bind the actual complete Base receipt and raw terminal journal; no reset or omission of failed costs. Both batches belong to this fixed200allocation."
+  },
+  "measurement": {
+    "primary": ["relevance", "coherence", "linguistic_resemblance"],
+    "scale": "Prospective0-5 ordered ratings, higher better;0lowest and5highest. Intermediate categories are ordered without invented equal intervals. This is explicitly a new study using that scale, not a rewrite of the historical0-3 protocol.",
+    "definitions": "Relevance: addresses the current conversation. Coherence: fits and does not contradict the local conversational exchange. Linguistic resemblance: perceived resemblance to the anonymous speaker's authentic earlier examples, not response length, fluency, exact copying or verified behavioral personality.",
+    "review_unit": "The exact native generated response through the frozen next-role stop or EOS/token limit. Empty generated content stays distinct from an unattempted/failed response. No after-the-fact text correction.",
+    "human_workflow": "One mixed randomized model-and-condition-masked package for all200 allocated records, identical anonymous dossier per case. Three primary ratings with explicit UNAVAILABLE/NA and reasons; no auto-filled scores. Preserve original99ratings separately. PI prior source/item/report exposure is real, project independence false, double blinding and inter-rater reliability not claimed. Actual assistance/timing/exposure must be documented, not invented.",
+    "semantic_limits": "Perceived resemblance is not automatically a validated whole-person Persona Fidelity metric. No factual accuracy, temporal reliability or behavioral consistency is inferred from these three ratings. Source-claim/temporal questions require a separate valid applicability/evidence adjudication and are not primary endpoints here.",
+    "technical": "Native input/output tokens, measured completion-call wall time, native prefill/decode timings where available, exact stopping metadata and process/system memory. Cost results do not imply semantic quality. Process lifetime peak RAM is not condition-specific."
+  },
+  "analysis": {
+    "ordinal": "Use the existing two independently implemented ordinal arithmetic functions on each model's identical100grid: all five cumulative category cuts and all seven S/F/H contrasts; main paired win/tie/loss/net and the three style controls. No mean of ordinal category labels, composite quality score or selected favorable cut.",
+    "model_comparisons": "Report per-model profiles and paired configuration differences on exactly matched speaker/context/condition cells. A model-by-factor contrast is the difference of the models' frozen factorial effects, averaged within speaker then across speakers. Report complete-speaker estimates separately from the full allocated estimand and missingness.",
+    "uncertainty": "Speaker-specific contrasts, heterogeneity, leave-one-speaker-out influence and logical unavailable-outcome bounds. Five speakers with meeting/topic/partner dependence do not support calibrated confirmatory significance. Do not label LOO ranges or missing bounds confidence intervals. If genuine ratings are not available, human conclusions remain pending and are not replaced by proxies.",
+    "cost": "Within-configuration S/F/H cost contrasts and ordinal-quality-by-nominal-latency sign tables where genuine ratings permit. Cross-model block timing is descriptive; no quality/score-per-second ratio, speed utility threshold or causal mediation claim.",
+    "independent_reproduction": "Recompute raw HTTP/journal equivalence, request/source/configuration/weight hashes, coverage, accounting and numerical summaries. Independent arithmetic is not independent human review or replication on new speakers."
+  },
+  "decision_rule": {
+    "GO": "Complete the entire fixed design when integrity and resource checks pass, irrespective of whether observed effects look favorable. After genuine review, determine which effect directions/heterogeneity transport across deployment configurations and whether a separately qualified speaker replication is justified.",
+    "PIVOT": "A technically complete negative or mixed result informs the limitations of current style/source representations, not a search for favorable cases. Any future representation or model change requires a new freeze and may not reuse held-out validation for tuning.",
+    "STOP": "Unsafe execution or unjudgeable target constructs stop the affected branch; preserve evidence, resource usage and exact blocker. Do not spend the validation reserve just to complete a generation target."
+  },
+  "rq_coverage": "Direct exploratoryRQ1 and part ofRQ3(configuration,not size) plus quality-efficiency observations. RQ2temporal contamination and RQ4retrieval/ranking/LoRA remain unanswered unless separately supported. No algorithmic novelty claimed.",
+  "preservation": "Private raw dialogue, prompts, outputs, speaker IDs and review mappings stay ignored under.local. Public-safe aggregates, source and hashes only. Capture sourceHEAD plus dirty-source hashes, exact native tokenizer/backend dependencies and raw execution journals. No Git add/commit/push; public clone reproducibility remainsPARTIAL without permitted private inputs."
+}

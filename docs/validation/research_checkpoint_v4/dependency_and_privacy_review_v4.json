@@ -1,0 +1,117 @@
+{
+  "schema_version": "personaslm_incremental_dependency_privacy_review_v4",
+  "base_head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+  "scope": "Explicit union of the unchanged, previously reviewed36-file v3 increment and30 new public files. The preceding committed560-file checkpoint remains the base; unrelated local work is not included.",
+  "inspection": {
+    "new_existing_files_read_completely": 25,
+    "new_checkpoint_files": 5,
+    "inherited_v3_files": 36,
+    "inherited_review": "Prior complete content review documented in frozen dependency_and_privacy_review_v3.json is retained; v3 verifier rechecked every working-byte hash and its external manifest anchor in this cycle. No historical protected mapping or participant corpus was opened for checkpoint preparation.",
+    "new_content": "All four new source modules, four synthetic tests, sixteen study summaries/protocols and the entire working manuscript read in full. New checkpoint documents/verifier inspected when created. Japanese literals in code/tests are authored instructions or explicitly synthetic cases, not participant records.",
+    "private_payloads_in_new_allowlist": false,
+    "protected_mapping_opened": false,
+    "validation_target_content_accessed": false,
+    "hashes_and_paths": "Private-artifact hashes and local paths are provenance only. Public aggregate pair effects are not participant identifiers or a human-review mapping.",
+    "scan": {
+      "pre_checkpoint_files": 61,
+      "high_confidence_credential_pattern_findings": 0,
+      "nul_byte_files": 0,
+      "json_parse": "PASS",
+      "limitation": "A pattern scan supplements content review; it cannot guarantee the absence of arbitrary secrets."
+    }
+  },
+  "python_source_closure": [
+    {
+      "entry": "tools/real_persona_chat_continuation_v1.py",
+      "recursive_files": 42,
+      "already_tracked_at_base": 40,
+      "new_modules": 2,
+      "missing_public_python_dependencies": []
+    },
+    {
+      "entry": "tools/real_persona_chat_continuation_reproduce_v1.py",
+      "recursive_files": 3,
+      "already_tracked_at_base": 2,
+      "new_modules": 1,
+      "imports": "Only personaslm.journal and stdlib, not the controller/material/scorer."
+    },
+    {
+      "entry": "tools/real_persona_chat_continuation_position_diagnostic_v1.py",
+      "recursive_files": 3,
+      "already_tracked_at_base": 2,
+      "new_modules": 1,
+      "imports": "Only personaslm.journal and stdlib; explicitly post-hoc aggregate diagnostic."
+    }
+  ],
+  "source_consistency": "The union closes all new Python imports relative to the fixed base. The required prior analysis_v1_1 is included through v3. Live old Python dependencies remain tracked and unchanged; source snapshots and registrations bind scientific execution separately.",
+  "missing_external_dependencies": [
+    "Private frozen continuation manifest, claim, sealed raw journal and source snapshots: required for exact raw-data analysis reproduction, intentionally not public.",
+    "Licensed RealPersonaChat corpus at pinned28d0b6b3865b29cabc26c230a2db37cdf315e937, original private76/58 split/cohort records and two prior private material manifests: required for original material reconstruction and exclusions.",
+    "Official Qwen3-0.6B Q8_0 weights and pinned publisher README/LICENSE/upstream tokenizer_config: separately acquire using reproduction_instructions_v1.txt and verify registered hashes; never stage .local or models.",
+    "Exact llama.cpp b11573 Windows CPU executables/DLLs and the45-file pinned Jinja2/MarkupSafe rendering inventory: external, platform-specific assets, not provided by this checkpoint.",
+    "Completed genuine Japanese reviews/proficiency/exposure provenance: absent, not manufactured; software and hash consistency do not supply human semantic validity."
+  ],
+  "withheld_manuscript_links": [
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/semantic_review_package_v1.json",
+      "reason": "Existing intentionally withheld review-package artifact; referenced historical documentation is not public data closure."
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/semantic_interrater_calibration_plan_v1.json",
+      "reason": "Existing intentionally withheld calibration-package artifact; not admitted merely to resolve an old manuscript link."
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/human_review_protocol_v1.json",
+      "reason": "Original analyst protocol contains active key-equivalent ordering; do not publish or deliver as a blinded-review document. The public v1.1 correction remains in v3."
+    }
+  ],
+  "tests": {
+    "command": "$env:PYTHONPATH='tools;src'; .venv/Scripts/python.exe -m pytest -q -p no:cacheprovider tests/test_real_persona_chat_continuation_material_v1.py tests/test_real_persona_chat_continuation_v1.py tests/test_real_persona_chat_continuation_reproduce_v1.py tests/test_real_persona_chat_continuation_position_diagnostic_v1.py",
+    "passed": 29,
+    "failed": 0,
+    "elapsed_seconds": 0.55,
+    "python": "3.14.3",
+    "pytest": "9.1.1",
+    "warning": "One Unknown config option: cache_dir warning because cacheprovider was deliberately disabled; not a failed test.",
+    "scope": "New targeted synthetic tests, not whole-repository tests, model inference, human validation or proof of public raw-data reproduction."
+  },
+  "scientific_crosscheck": {
+    "new_attempts": 52,
+    "new_free_dialogue_generations": 0,
+    "authored_controls": 4,
+    "main_recognition_decisions": 48,
+    "cumulative_generations": 688,
+    "cumulative_inference_seconds": 3973.1201058999386,
+    "main_valid_choices": 42,
+    "first_option_A_choices": 40,
+    "invariant_candidate_pairs": 0,
+    "evaluable_reversal_pairs": 18,
+    "correct_minus_mismatched": 0.0625,
+    "correct_minus_none": 0,
+    "posthoc_boundary": "All one-success net correct-minus-mismatched advantage is in observations with at least one invalid format; this diagnostic does not replace the frozen primary endpoint.",
+    "independent_arithmetic": "PASS52 saved receipt; not independent experimental/human validation. This checkpoint review crosschecks aggregate artifacts and bindings, not a second hidden model experiment.",
+    "decision_note": "Local file timestamp precedes run start, but note is outside registered source closure and has no independent timestamp attestation.",
+    "manuscript_status": "Working evidence-linked draft, not submission-ready. Historical studies, pending review, uncalibrated inference and incomplete data availability remain explicitly limited."
+  },
+  "excluded": [
+    {
+      "scope": ".local/**; raw speaker/partner/dialogue/persona records; exact prompts/references/responses; raw journals; reviewer mappings; private backups",
+      "reason": "Private or restricted scientific material, not public release."
+    },
+    {
+      "scope": "docs/research_development_log.md",
+      "reason": "Original complete log contains older sensitive/key-equivalent information. Use the separately reviewed public development continuations."
+    },
+    {
+      "scope": "The three withheld historical manuscript links and all previously excluded/unreviewed artifacts",
+      "reason": "Privacy exclusions do not disappear because a manuscript references an artifact."
+    },
+    {
+      "scope": "models/**, bin/**, virtual environments, temporary pytest directories, caches, credentials, API keys, unrelated untracked files",
+      "reason": "Outside this explicit reviewed source-and-summary checkpoint."
+    }
+  ],
+  "preservation": "New607-file private experiment ZIP verified locally, same volume only. Neither this manifest nor Git working files prove remote backup.",
+  "public_reproducibility": "PARTIAL",
+  "git_policy": "No automated git add, commit, push, index/configuration/history mutation. Human may stage only the explicit66-file union after verification; optional staged verifier is for the human."
+}

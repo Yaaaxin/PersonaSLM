@@ -1,0 +1,150 @@
+PersonaSLM manual research checkpoint v7
+Maintenance only. No scientific evidence, thresholds, ratings or budgets changed.
+
+Investigation: the reported v6 manuscript mismatch is NOT reproducible now
+
+Repository: research/autonomous-personaslm
+HEAD: 8b7f8fdd8eec8358528da86398659f876c70a6dd
+Initial staging area: empty. No successful v6 commit is present at this HEAD.
+Two tracked files have working changes: manuscriptv2 and the private development
+log. Numerous untracked files include research, restricted historical material
+and temporary test directories; they are NOT blanket-authorized for staging.
+
+Current docs/PersonaSLM_manuscript_working_v2.md:
+53868 bytes
+SHA-256 3eb2933c3509003624233eace0bb0953f8aa1fcfa040547811c22b36dae7ea57
+This exactly matches its v6 entry and the preserved D-drive ZIP member. All208
+v6-bound files also match their present lengths and hashes. The v6 manifest is
+unchanged:6c64800524480f0c79ac05496ff7fb9da9cee60ac686d0cf0e42463b77ea3e47.
+The manuscript has no BOM,600LF and0CR; no current EOL conversion is implicated.
+
+Historical manuscript lengths37460(HEAD),41815(v5),47185(intermediate) are each
+byte-identical prefixes of the current53868-byte file. Relative to HEAD,245lines
+were appended and none deleted. The appended material covers style-specificity,
+human ordinal findings and the matched Base/Instruct deployment study. These
+legitimate scientific additions predate v6 and are preserved without alteration.
+
+The exact reported error text "File size mismatch:" was not located in the
+repository checkpoint validators. v6's instructions use "Changed file:";
+v3-v5 use "File hash/size mismatch:". The command and filesystem state at the
+researcher's failed attempt are unavailable. An old/custom verifier or snapshot
+mix-up is a POSSIBLE explanation, not an established cause. Shell history and
+unrelated private files were not inspected. Nothing was restored to make v6 pass.
+
+v7 scope and review
+
+The explicit scope is227files: all209v6paths,12newly reviewed research files,
+and6v7control/test files. The manifest binds226files; its own SHA-256 and size
+must come from the independently reported final message, avoiding a hash cycle.
+The allowlist is the exact file-by-file scope, not permission for future files.
+Every listed path presently differs from HEAD or is untracked, so the intended
+staged change set is exactly the227-path allowlist. Do not invoke old verifiers
+as a prerequisite: historical snapshots bind earlier file versions. v7 binds
+the historical control files themselves without applying stale content claims.
+
+Inherited209files: their individual v6 reviews are retained, all208old bindings
+plus the externally anchored v6manifest are checked unchanged. This reuses a
+previous content review rather than claiming each old document was freshly read.
+The12new files were individually inspected at their current verified hashes:
+
+docs/PersonaSLM_manuscript_working_v3.md
+docs/validation/p1/english_novelty_synthesis_v1/analysis_scope_v1.json
+docs/validation/p1/english_novelty_synthesis_v1/diagnostic_implementation_v1.json
+docs/validation/p1/english_novelty_synthesis_v1/integrated_findings_v1.txt
+docs/validation/p1/english_novelty_synthesis_v1/literature_cluster_a_v1.txt
+docs/validation/p1/english_novelty_synthesis_v1/literature_cluster_b_v1.txt
+docs/validation/p1/english_novelty_synthesis_v1/literature_cluster_c_v1.txt
+docs/validation/p1/english_novelty_synthesis_v1/preservation_receipt_v1.json
+docs/validation/p1/english_novelty_synthesis_v1/research_state_v1.json
+docs/validation/p1/english_novelty_synthesis_v1/response_diagnostics_v1.json
+tools/english_response_diagnostics_v1.py
+tests/test_english_response_diagnostics_v1.py
+
+The large diagnostic JSON was fully parsed:107distinct keys,42distinct text
+values,14644numeric/boolean leaves,2127nulls. It contains anonymous aggregate
+profiles, not authentic speaker identities or item-level human ratings. Public
+hash-only references to private inputs/backups do not authorize their contents.
+New source/test fixtures contain no actual speaker records. The12files' content
+review and credential-pattern scans found no restricted raw data or credentials;
+pattern scanning alone is not a proof against arbitrary secret material.
+
+New Python dependency closure:60files,43unchanged HEAD dependencies,15already
+included by v6,2new source/test files; no missing or changed inherited dependency.
+Eight implementation bindings and ten research-state evidence bindings match.
+All14local manuscript links resolve within HEAD/inherited/new reviewed scope.
+v7verification uses standard PowerShell5/.NET and Git, no new package dependency.
+Checkpoint fixtures use the existing Python/pytest environment. Full research
+reproduction still requires private permitted materials and pinned native/model
+artifacts. Public clone-only scientific reproduction remains PARTIAL.
+
+Exclusions, inherited and new
+
+- Entire docs/research_development_log.md: historical sensitive/key-equivalent
+  content remains outside the public review boundary. A safe new append does not
+  make the complete file public. This maintenance record is the safe summary.
+- All .local private sources, raw dialogues, prompts, generated speaker records,
+  true speaker IDs, individual reviews/comments, declarations and protected maps.
+- Newly created .local/experiments/english_novelty_synthesis_v1/
+  response_diagnostics_private_v1.json, and all local backup members/log copies.
+- All reserved/held-out speaker contents and unqualified English source bodies.
+- Weights, native binaries, virtual environments, credentials, API keys, caches,
+  .pytest_tmp* directories, temporary files and unauthorized personal records.
+- All previously withheld review/protocol documents and every unlisted file.
+
+Nothing excluded was deleted or moved. No new private mapping/raw dialogue was
+opened for this checkpoint. No Git author/config/history change is authorized.
+
+Verified-byte and Git-byte distinction
+
+Each manifest entry binds working-tree byte length, SHA-256 and the prospective
+Git blob OID under current .gitattributes/.gitignore. The base policy files are
+unchanged at HEAD and hash-checked separately. Git's existing text/eol rules may
+normalize some working copies into LF blobs; no source file is rewritten here.
+The exact staged index must match the separately frozen prospective OIDs.
+A later clone's EOL-normalized bytes are not automatically identical to an old
+scientific raw-byte archive. This is why checkpoint integrity is not scientific
+reproducibility, and why the private frozen source snapshots remain important.
+
+The existing literature_cluster_c_v1.txt has one final blank line. Preserve it.
+The human sequence disables only Git's blank-at-eof whitespace warning for its
+read-only diff check using command-local -c; trailing spaces, space-before-tab
+and conflict checks remain. No persistent Git setting or scientific file changes.
+Any content modification still fails the strict manifest hash/size checks.
+
+Human command sequence
+
+Use the exact SHA-256 and byte count reported with the final v7 deliverable,
+not a value derived from an unverified local manifest. The independently supplied
+bootstrap first verifies the manifest and both executable control files; then
+invoke human_checkpoint_v7.ps1 with those two anchors. Its default is READ ONLY.
+Only the human should supply -StageAndCommit. It asks for STAGE v7, verifies the
+empty index again, stages literal allowlisted paths one at a time, checks the
+exact index path set/modes/blobs, shows the staged summary, and asks for COMMIT v7.
+It rechecks everything immediately before creating the local commit. No push.
+
+Recommended commit message:
+research: checkpoint English persona evidence and novelty synthesis
+
+The controls are anchored to the pre-commit HEAD. After a successful human commit,
+the expected HEAD mismatch is not evidence corruption; do not rerun this as if
+it were a new checkpoint. On any failed or partial staging, preserve the index
+and inspect it manually. The scripts never reset/unstage/restore user work.
+Do not keep editing included files between verification, staging and commit.
+If legitimate included work changes, preserve it and request a new checkpoint.
+
+Testing and scientific boundary
+
+Real-repository verification is read-only. Human staging/commit are tested with
+a rejecting Git mock on authored fixtures; no real Git write is performed, even
+in a disposable repository. Tests exercise bad anchors, altered scientific bytes,
+unexpected HEAD/filters, nonempty index, missing/extra staged files, wrong blobs
+and nonregular index modes, and the complete human command sequence. An initial
+mock failed because PowerShell consumes -- for function calls; the corrected
+fixture verifies the native separator in source and exact paths in the mock.
+This was a test-double issue, not discarded scientific evidence. The existing
+pytest cache_dir warning with disabled cacheprovider remains documented.
+
+The final manifest records actual test results and frozen scope. Neither tests,
+hash verification, nor manual commit validate human ratings, algorithm novelty,
+independent speakers or scientific conclusions. This task runs no experiment,
+changes no scientific result and leaves the988generation cumulative ledger intact.

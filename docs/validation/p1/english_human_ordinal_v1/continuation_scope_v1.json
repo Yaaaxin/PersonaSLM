@@ -1,0 +1,32 @@
+{
+  "schema": "english_ordinal_stage_continuation_scope_v1",
+  "date": "2026-10-19",
+  "stage": "Integrated exploratory human-primary ordinal S/F/H evidence and justified English follow-up",
+  "baseline": {"generations":788,"inference_seconds":4485.684495999997,"remaining_generations":412,"validation_reserve":160,"maximum_further_development_allocation_without_reserve_use":252},
+  "current_primary_task": "Execute the separately frozen primary ordinal analysis after its hash-bound limited review lock. Preserve all99scores and oneUNAVAILABLE; do not ask the PI to repeat the supplied scale declaration.",
+  "scientific_alternatives_before_results": [
+    {"path":"Same-model history-selection baseline comparison","relation":"RQ4 and source-provision interpretation inRQ1/RQ2","value":"Keeps actual English speakers, current contexts, model and S/F representation fixed while comparing established selection mechanisms","prerequisites":"Candidate histories must differ meaningfully, be genuinely prior, privacy-reviewed and not selected using held-out continuations or human ratings. Same information access and finite prospective generation allocation. Semantic follow-up requires genuine new ratings, not automatic copying metrics."},
+    {"path":"Matched local model configuration comparison","relation":"RQ3","value":"Potential model-by-conditioning interaction on the same English material","prerequisites":"Current read-only availableRAM3,813,158,912bytes is below unchanged2B4GiB and3B5GiB gates. This observation is not a failed official preflight. No lower gate or related application termination. A comparison also requires pinned tokenizer/template/conversion provenance and cannot identify pure parameter-scale effects across architectures."},
+    {"path":"New-target/known-partner English transport cohort","relation":"RQ1 external scope, not strict participant-disjoint validation","value":"More speaker/context coverage under a separately frozen selection procedure","prerequisites":"Actual source-supportedF, separateS/H, privacy and chronology qualification. Do not reopen failedAMI/Bed procedures as if their original gates passed. Do not mix reserved Japanese speakers into the English stage."}
+  ],
+  "allowed_current_source_feasibility_check": {
+    "material":".local/experiments/english_sfh_v1/icsi_curated_material_v3.json",
+    "material_sha256":"9d314b40bd3eaffcc53d22abf109d00529d5fdc3b48f14485e3fddc9093ed340",
+    "scope":"Only existing development history and current context fields; do not inspect reference continuations, protected review mappings, reserved bodies or new source meetings in this check",
+    "timing":"Operational rules were sent to the agent before this check; this document preserves them. It is source feasibility, not scientific execution GO or generation registration.",
+    "candidates":"Every consecutive6-turn subwindow of the already curated H window; retain existing sequence-contiguity,30-200words,at least20target-speakerwords and target professional-term rules. No padding,truncating turns or invented chronology.",
+    "retrieval":"BM25 k1=1.2,b=.75; existing English word regex lowercased; distinct query terms from current context only; IDF log(1+(N-df+.5)/(df+.5)); ties earliest source index",
+    "comparators":"Latest eligible source window; fixed SHA256 selection from seed42 and caseID over the same ordered eligible windows",
+    "outputs":"Aggregate candidate counts, method overlap and length distribution, not response/quality findings. If windows do not support a discriminating comparison, do not force the suggested120request allocation or tune selector hyperparameters. Any broader source policy must be separately fixed before its use.",
+    "new_generations":0
+  },
+  "prior_art": {
+    "source":"https://aclanthology.org/2024.acl-long.399.pdf",
+    "citation":"Salemi et al.2024, LaMP: When Large Language Models Meet Personalization, ACL2024, DOI10.18653/v1/2024.acl-long.399",
+    "verified_method":"Section4 compares random, BM25, Contriever and recency selection for personal-profile augmentation. These are established baselines; applying them to professional dialogue is not an algorithmic invention.",
+    "applicability_limit":"LaMP's task/profile distribution and reported outcomes are not evidence that the present dialogue cohort or small model will benefit. No effect size transferred.",
+    "monitoring":"Targeted primary-method reading, not a repeat daily crawl or a claim of newly published2026research. Existing verified daily collector scope remains separately documented."
+  },
+  "decision_after_analysis":"Select the next finite study from actual interpretable ordinal findings and source feasibility. No automatic allocation solely to consume compute. Root must freeze exact prompts, model configuration, outcomes and safety controls before inference.",
+  "hard_boundaries":"No inference authorized by this scope note alone; no old evidence edited, no human labels synthesized, no new finances, no protected mapping access before the separate ordinal lock, no Git writes."
+}

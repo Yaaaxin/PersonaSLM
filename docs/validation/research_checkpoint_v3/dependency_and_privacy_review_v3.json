@@ -1,0 +1,86 @@
+{
+  "schema_version": "personaslm_incremental_dependency_privacy_review_v3",
+  "base_head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+  "scope": "Only the new style-specificity study, additive safe review delivery, and this incremental checkpoint. The prior 560-file review is not repeated.",
+  "inspection": {
+    "method": "Complete new source/test/protocol text inspection and recursive Python AST import closure; distinguish private path references from private payloads. Final manifest provides exact working-byte hashes.",
+    "participant_payloads_hardcoded_in_new_source_or_tests": false,
+    "japanese_literals": "Authored generic prompt instructions and explicitly synthetic unit-test strings; no copied participant turns or persona statements found in the inspected new source/tests.",
+    "review_keys_in_new_files": false,
+    "experimental_order_caveat": "The four-arm study publicly specifies prospective cyclic execution order and does not create a human-review package. This is not the protected earlier 64-review ordering. A future semantic package must use separately masked identities/order, not expose execution-row assignment.",
+    "hashes_of_private_artifacts": "Hash-only references and local file paths are provenance, not the underlying participant/review payload. They do not make private inputs publicly reproducible."
+  },
+  "python_source_closure": [
+    {
+      "entry": "tools/real_persona_chat_style_specificity_v1.py",
+      "direct_local_imports": ["tools/real_persona_chat_sfh_pilot_v1.py", "tools/real_persona_chat_sfh_pilot_execution_v1.py"],
+      "recursive_source_files_including_entry": 29,
+      "dependencies_already_tracked_at_base": 28,
+      "withheld_python_dependencies": [],
+      "runtime_data_limit": "Restricted corpus, split/cohort and historical materials, private new manifest/journal, tokenizer/model/backend assets remain necessary. Registration source hashes bind the exact complete source closure."
+    },
+    {
+      "entry": "tools/real_persona_chat_style_specificity_reproduce_v1.py",
+      "direct_local_imports": ["src/personaslm/journal.py"],
+      "recursive_source_files_including_entry": 3,
+      "dependencies_already_tracked_at_base": 2,
+      "withheld_python_dependencies": [],
+      "runtime_data_limit": "Independent arithmetic uses the private frozen cases, hash-chained raw journal and private analysis. It does not import the study controller or scorer. Synthetic self-test is not real-data reproduction."
+    },
+    {
+      "entry": "tools/real_persona_chat_style_specificity_suffix_v1.py",
+      "direct_local_imports": ["tools/real_persona_chat_style_specificity_v1.py"],
+      "recursive_source_files_including_entry": 30,
+      "dependencies_already_tracked_at_base": 28,
+      "new_dependencies_in_this_increment": ["tools/real_persona_chat_style_specificity_v1.py"],
+      "withheld_python_dependencies": [],
+      "runtime_data_limit": "Requires the original private frozen manifest and sealed original journal plus separately registered suffix evidence. Reconciliation accepts only the ten never-attempted requests after exactly 54 completed original responses, with unchanged RAM thresholds. Synthetic tests contain no participant records."
+    },
+    {
+      "entry": "tools/real_persona_chat_style_specificity_combined_v1.py",
+      "direct_local_imports": ["src/personaslm/journal.py", "tools/real_persona_chat_style_specificity_v1.py", "tools/real_persona_chat_style_specificity_reproduce_v1.py"],
+      "recursive_source_files_including_entry": 31,
+      "dependencies_already_tracked_at_base": 28,
+      "new_dependencies_in_this_increment": ["tools/real_persona_chat_style_specificity_v1.py", "tools/real_persona_chat_style_specificity_reproduce_v1.py"],
+      "withheld_python_dependencies": [],
+      "runtime_data_limit": "Both private session journals, claims, snapshots and manifests are required. The adapter verifies real chains separately, uses an explicit in-memory event view, and writes additive analysis only; it does not claim a fabricated merged hash chain or independent experiment."
+    },
+    {
+      "entry": "tools/real_persona_chat_sfh_review_delivery_correction_v1_1.py",
+      "direct_local_imports": ["tools/real_persona_chat_sfh_review_v1.py"],
+      "recursive_source_files_including_entry": 32,
+      "dependencies_already_tracked_at_base": 31,
+      "withheld_python_dependencies": [],
+      "runtime_data_limit": "The unchanged original analyst protocol is intentionally withheld because it contains key-equivalent ordering information. Original private delivery records and receipts are also required. No protected map is read by the correction."
+    }
+  ],
+  "test_limitations": [
+    "Synthetic specificity tests and the independent arithmetic self-test can test code without the participant corpus; they do not establish scientific results or model repeatability.",
+    "Two new correction tests require the intentionally withheld original analyst protocol. The blank-questionnaire test is code-only. Do not claim that the entire review bundle runs from a public clone alone.",
+    "Previously documented full-suite failures and excluded older dependencies remain unchanged; this increment does not silently repair historical tests or evidence.",
+    "Source import closure does not imply complete external packages, model assets or private-data closure. Clean-environment scientific reproduction remains PARTIAL."
+  ],
+  "scientific_summary_crosscheck": {
+    "status": "PASS_PUBLIC_ARTIFACT_CONSISTENCY_NOT_A_NEW_RAW_DATA_REPRODUCTION",
+    "read_in_full": ["scientific_report_v1.txt", "research_state_v1.json", "analysis_v1_1.json", "independent_analysis_reproduction_v1_1.json", "suffix_execution_receipt_v1.json"],
+    "primary_and_prefix_report_values_checked": 18,
+    "numeric_method": "Compare each of six mean contrasts and its two leave-one-speaker-out endpoints to the report at nine decimal places. Independently check state resource addition and state-bound analysis/reproduction SHA-256. Inspect other reported counts, lengths, diagnostic margins and cost against the aggregate artifacts.",
+    "new_responses": 64,
+    "sessions": [54, 10],
+    "cumulative_generations": 636,
+    "cumulative_inference_seconds": 3828.328792899886,
+    "private_raw_journals_reread_by_this_check": false,
+    "interpretation": "Report correctly distinguishes exploratory proxy estimates, post-hoc diagnostics, missing/semantic applicability, influence ranges rather than confidence intervals, independent arithmetic rather than independent experiments, and the original safety stop plus separately registered unused suffix. No publication-readiness or algorithm-novelty claim."
+  },
+  "excluded_from_increment": [
+    {"path_or_scope": ".local/**", "reason": "Participant corpus, split identities, exact prompts/references/responses, raw journals, review materials, protected mappings, local archives and local receipts remain private."},
+    {"path_or_scope": "docs/research_development_log.md", "reason": "Original complete log intentionally excluded; use only the separately reviewed public continuation."},
+    {"path_or_scope": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/human_review_protocol_v1.json", "reason": "Frozen analyst protocol contains active key-equivalent ordering information; preserve locally, do not publish or deliver for masked review."},
+    {"path_or_scope": "old stage_a_delivery instructions and protected review maps", "reason": "Preserved evidence, not superseded by deletion. New instructions cannot erase prior exposure."},
+    {"path_or_scope": "all previously excluded/unreviewed untracked artifacts", "reason": "Not included merely because they are present. Prior checkpoint exclusions remain effective."},
+    {"path_or_scope": "models/**, bin/**, virtual environments, caches, temporary test outputs, credentials", "reason": "Not part of this explicit reviewed source-and-summary increment."}
+  ],
+  "human_provenance_boundary": "No labels, Japanese competence or clean independence is inferred. Genuine prior key-material exposure or uncertainty must not receive clean masked-review classification. The existing final validator alone does not attest the added delivery/questionnaire chain.",
+  "git_policy": "No automatic staging, commit, push or history/index mutation. Human reviewer owns any later explicit allowlist staging and commit. Local archival integrity is not proof of remote backup.",
+  "public_reproducibility": "PARTIAL"
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "english_model_comparison_storage_amendment_v1",
+  "date": "2026-10-19",
+  "level": "PROSPECTIVE_PRE_REGISTRATION_STORAGE_ONLY",
+  "reason": "The first registration stopped before tokenization, manifest freeze or generation because the unchanged1GiB output-disk reserve failed. Only the two newly acquired public model weights were moved to a dedicated D: cache; no existing research evidence or historical model was moved. The original acquisition receipt retains its historical paths.",
+  "acquisition_receipt_sha256": "5020d20914dcd3e672dfe4c56a67ff6e0f7e27fe541b8fcc29c67704a044d337",
+  "relocation_receipt": ".local/experiments/english_model_comparison_v1/weight_relocation_receipt_v1.json",
+  "relocation_receipt_sha256": "c924866a0f6a98a8bd3d1d46a227c82459fd373ec32c7af194007c5efb8d25a3",
+  "relocation_completed_utc": "2026-10-19T19:35:44.4804939Z",
+  "baseline_generations": 788,
+  "baseline_inference_seconds": 4485.684495999997,
+  "new_generations": 0,
+  "disk_reserve_bytes_unchanged": 1073741824,
+  "observed_output_volume_free_bytes_after_move": 3035885568,
+  "models": {
+    "base": {
+      "logical_path": "models/gguf/english_qwen25_15b_v1/base/Qwen2.5-1.5B.Q4_K_M.gguf",
+      "physical_path": "D:/PersonaSLM-model-cache/english_qwen25_15b_v1/base/Qwen2.5-1.5B.Q4_K_M.gguf",
+      "sha256": "ea47cef917fa77a3458206d0848f81dd033dfb859bbb3b176bf6006d3b620814",
+      "bytes": 986048544
+    },
+    "instruct": {
+      "logical_path": "models/gguf/english_qwen25_15b_v1/instruct/Qwen2.5-1.5B-Instruct.Q4_K_M.gguf",
+      "physical_path": "D:/PersonaSLM-model-cache/english_qwen25_15b_v1/instruct/Qwen2.5-1.5B-Instruct.Q4_K_M.gguf",
+      "sha256": "f86985a0e8b549680da4cf43a037bb185c4ec8d1ee07cce52c1720f848b7c972",
+      "bytes": 986048960
+    }
+  },
+  "security": "Exactly these two physical weights are authorized. No generic external-path exception, symlink, junction, broad filesystem operation or modification of historical root-only guards. All source, backend, templates, private evidence and outputs remain under the repository.",
+  "reproduction": "The storage mapping is machine-specific and public-safe; reproduce with explicitly reviewed equivalent storage registration before execution rather than changing this frozen record. Both weight bytes and SHA were verified before and after relocation. No claim of remote backup."
+}

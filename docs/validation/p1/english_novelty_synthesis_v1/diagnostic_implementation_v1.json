@@ -1,0 +1,20 @@
+{
+  "schema": "english_response_diagnostics_implementation_v1",
+  "created_utc": "2026-10-19 20:56:42 UTC",
+  "status": "FROZEN_BEFORE_DIAGNOSTIC_EXTRACTION",
+  "scope_sha256": "c8dfb170439c06d9bfc74e3e32266f71e5c0cdf424f7b2495e7f6314757c2edc",
+  "sources": {
+    "tools/english_response_diagnostics_v1.py": "9880530a5fcf0d9c22ba90ea0d2029c70c852f72b4035b9c0f59cde17159ef94",
+    "tests/test_english_response_diagnostics_v1.py": "1b8419ad7dec3080d5cb62e089b447c093a420abdad6edee185a325bb0030785",
+    "tools/english_model_comparison_analysis_v1.py": "5850fc2b7144f3066fc14fc261207c34633dc408e49fa098b6c62e1ea45f87ad",
+    "tools/english_sfh_archival_reproduce_v1.py": "6529d10700f92e547c9d39ea348bee381f12b22c09f6d2b664197a4c4d22bd5b",
+    "tools/english_sfh_analysis_v1.py": "08e30da9564042d84f35d0a477aab0c43f460a491170d463ab57d75ea7a15f5a",
+    "tools/english_sfh_reproduce_v1.py": "0d5402fcf578852c23910660ceaf70795d8db3dde26c44ff8625cbc544489701",
+    "tests/test_english_model_comparison_analysis_v1.py": "8405537d77babbcd77a558e1dbc9f7872f42fa1e4a987f9b5356dfc1c000ae76",
+    "tests/test_english_sfh_model_comparison_v1.py": "e4e526ae7bd64b1332c571ac93d3bd3555b9e44e2a286740619efebfad9032e4"
+  },
+  "tests": "15 authored fixture tests passed; known disabled-cacheprovider cache_dir warning. Tests did not access real response bodies. Existing frozen helper snapshots and input hashes are additionally checked by their archival auditors.",
+  "timing": "After all300generations and historical human/cost analysis; before new empty/repetition extraction. Not prospective experimental registration.",
+  "new_generations": 0,
+  "human_labels_created": 0
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "rpc_style_specificity_material_integrity_audit_v1",
+  "audit_utc": "2026-10-19T09:14:17Z",
+  "status": "PASS_WITH_CONSTRUCT_LIMITATIONS",
+  "scope": "Separate-agent read-only verification of frozen registration and aggregate material invariants; not independent human review, semantic validation, or independent outcome replication.",
+  "timing": {
+    "registered_utc": "2026-10-19T09:11:51.229435+00:00",
+    "audit_completed_during_execution": true,
+    "inference_started_before_audit_completed": true,
+    "responses_accessed": false,
+    "execution_interventions": false,
+    "frozen_files_modified": false,
+    "note": "This audit must not be described as a completed pre-execution gate. The initial test and code review preceded freezing; this final material cross-check completed while the controller was executing."
+  },
+  "bindings": {
+    "public_registration": "docs/validation/p1/real_persona_chat_style_specificity_v1/registration_v1.json",
+    "public_registration_sha256": "7bcee29a54fba8e39411ea90e3d4ce19f611360c56bbd8de8bb26cee381618bb",
+    "private_manifest_sha256": "7310946d00bf8ac5e4f6bc61336654177202795f86e07a7e124726ac3b5bc4a6",
+    "source_dependency_hashes_verified": 34,
+    "controller_validate": "PASS",
+    "source_test_sha256": "560d782f154138e92eefddf8c79f935ee3b7e209d89f0fb7bddbdbaa5c464062"
+  },
+  "aggregate_checks": {
+    "requests": 64,
+    "speakers": 8,
+    "contexts": 16,
+    "two_contexts_per_speaker": true,
+    "four_arms_exactly_once_per_context": true,
+    "correct_mismatch_equal_input_token_count_contexts": 16,
+    "four_arm_identical_system_history_and_query_contexts": 16,
+    "correct_mismatch_length_identical_focal_length_instruction_contexts": 16,
+    "prompt_invariant_to_replacement_of_source2_and_target_reference_fields_contexts": 16,
+    "latest_source_end_before_target_start_contexts": 16,
+    "donor_assignment_one_to_one_without_self_assignment": true,
+    "stored_input_token_counts_match_token_arrays": true,
+    "minimum_input_tokens": 236,
+    "maximum_input_tokens": 390,
+    "maximum_new_tokens": 96,
+    "registered_context_limit": 4096,
+    "registered_old_target_dialogue_overlap": 0
+  },
+  "validation_set_protection": {
+    "reserved_target_content_accessed_by_auditor": false,
+    "reserved_validation_content_deserialized_recorded_in_registration": false,
+    "loader_code_review": "load_development_view reads participant headers before utterances and deserializes dialogue bodies only when both participants belong to DEVELOPMENT. The monolithic persona extraction retains and deserializes only DEVELOPMENT entries. The new experiment invokes this guarded loader, then the existing frozen development cohort.",
+    "evidence": [
+      "tools/real_persona_chat_sfh_pilot_v1.py:_development_people",
+      "tools/real_persona_chat_sfh_pilot_v1.py:_dialogue_participants",
+      "tools/real_persona_chat_sfh_pilot_v1.py:load_development_view",
+      "tools/real_persona_chat_style_specificity_v1.py:build_cases"
+    ],
+    "qualification": "This is a source-path and registration-provenance check, not an operating-system read trace. Header/identifier processing and streaming past excluded persona lines are not equivalent to deserializing or using reserved target dialogue content."
+  },
+  "measurement_boundaries": [
+    "Equal Correct/Mismatch input-token lengths control that particular token-count difference, not semantic equivalence of marker instructions.",
+    "Source2 reference replacement was performed only in an in-memory copy; every generated prompt remained identical. No reference or private dialogue text is included in this audit.",
+    "Seven uninstructed character-class rates are exploratory distributional proxies, potentially sensitive to topic and correlated markers, not validated speaker fidelity or semantic reliability.",
+    "Native EOS/EOG boundary handling and all-capped-output inclusion do not certify semantic completeness. Human review remains separate.",
+    "No outcomes were inspected, no thresholds changed, and no confirmatory or algorithmic novelty claim is established."
+  ],
+  "audit_execution_note": "The first inline check stopped with IndexError because PowerShell piping did not preserve Japanese section delimiters. Repeating the read-only check with Unicode-escaped delimiters completed successfully; no scientific generation was retried and no frozen file changed.",
+  "publication_privacy": "Aggregate checks and artifact hashes only; no speaker identifiers, raw messages, target answers, protected review mappings, or validation records."
+}

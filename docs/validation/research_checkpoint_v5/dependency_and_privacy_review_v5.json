@@ -1,0 +1,128 @@
+{
+  "schema_version": "personaslm_incremental_dependency_privacy_review_v5",
+  "base_head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+  "scope": "Full unchanged 66-file v4 union plus individually inspected English-stage additions and this manual checkpoint. Unrelated local files are not admitted.",
+  "inspection": {
+    "inherited_v4_files": 66,
+    "inherited_review": "Frozen v4 full-content review is retained; original manifest and allowlist anchors and every v4 working-byte binding are rechecked. No frozen manuscript or previous checkpoint was edited.",
+    "new_content": "Every new source module, synthetic test, protocol, aggregate report, hash-only receipt and manuscript addendum was read completely before inclusion. Inputs in tests are authored fixtures; source code contains no selected speaker records.",
+    "protected_mapping_opened": false,
+    "private_submission_or_reserved_body_opened_for_checkpoint": false,
+    "limitation": "Pattern checks supplement content review and cannot prove absence of arbitrary secrets.",
+    "new_existing_files_read_completely": 79,
+    "new_source_and_test_files": 40,
+    "new_public_stage_documents": 39,
+    "new_checkpoint_files": 5,
+    "scan": {
+      "reviewed_pre_manifest_files": 149,
+      "high_confidence_credential_pattern_findings": 0,
+      "nul_byte_files": 0,
+      "json_parse": "PASS",
+      "limitation": "Credential-pattern scan supplements complete content inspection; it cannot guarantee the absence of arbitrary secrets."
+    }
+  },
+  "source_consistency": "All English Python entrypoint imports close relative to the fixed base plus the allowlist; existing tracked source dependencies remain unchanged. Scientific source snapshots and manifest gates remain distinct from Git packaging.",
+  "missing_external_dependencies": [
+    "Permitted private ICSI source excerpts, exact prompts, tokenization, frozen manifests, source snapshots and two sealed raw journals are required for raw-to-results reproduction and remain excluded.",
+    "Original licensed ICSI transcript archive and frozen source policies/split material require separately permitted acquisition; no speaker dialogue or human review content is made public.",
+    "Official pinned Qwen3-0.6B Q8_0 weights, publisher metadata/tokenizer and llama.cpp b11573 Windows CPU binaries/DLLs remain separate excluded assets.",
+    "Private pinned Jinja2/MarkupSafe rendering assets and exact historical absolute paths/source bytes may be required by original gates; relocation or line-ending normalization is not guaranteed to reproduce.",
+    "Python >=3.11 is required by new hashlib.file_digest usage, beyond the base pyproject >=3.10 floor. Actual tests use Python3.14.3 with pytest9.1.1; environments are excluded.",
+    "Genuine English reviews have been received but remain incompatible with the frozen schema/rubric and not finalized or condition-integrated. Code/tests cannot supply semantic validity or missing human judgments.",
+    "Independent English replication has zero qualified cases under the frozen source procedure. New legitimately qualified data/access is a scientific dependency, not repaired by this checkpoint."
+  ],
+  "withheld_manuscript_links": [
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/semantic_review_package_v1.json",
+      "reason": "Previously withheld historical review artifact; not admitted merely to resolve a manuscript link."
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/semantic_interrater_calibration_plan_v1.json",
+      "reason": "Previously withheld calibration/review artifact."
+    },
+    {
+      "path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/human_review_protocol_v1.json",
+      "reason": "Original analyst protocol carries key-equivalent ordering; v1.1 public correction remains inherited."
+    }
+  ],
+  "scientific_crosscheck": {
+    "new_generations": 100,
+    "factorial_generations": 80,
+    "style_control_generations": 20,
+    "development_speakers": 5,
+    "contexts": 10,
+    "original_partial_generations": 92,
+    "separately_registered_untouched_suffix_generations": 8,
+    "failed_or_retried_requests": 0,
+    "new_completion_seconds": 512.5643901000585,
+    "cumulative_generations": 788,
+    "cumulative_inference_seconds": 4485.684495999997,
+    "generation_ceiling": 1200,
+    "inference_seconds_ceiling": 72000,
+    "validation_source_qualified_cases": 0,
+    "independent_validation_generations": 0,
+    "received_known_human_records": 99,
+    "original_missing_human_records": 1,
+    "officially_locked_or_condition_integrated_human_records": 0,
+    "human_labels_fabricated": 0,
+    "protected_mapping_opened": false,
+    "independent_arithmetic": "PASS100 across separate implementations within absolute1e-10; not independent experimental validation or human review.",
+    "scope": "Balanced exploratory source-provision technical effects, not confirmed semantic Persona Fidelity. No verified temporal-change mechanism, Base/Instruct comparison, RQ4 method trial or validated novel algorithm.",
+    "manuscript_status": "Evidence-linked addendum with explicit pre-intake and dated genuine-human-intake boundary; not submission-ready.",
+    "declaration_backed_unavailable_records_in_separate_draft": 1,
+    "human_recovery": "Original99 editable rows preserved exactly; lossless recovered missing row stays blank. Separate PI-declaration-backed uncertainty draft marks one wholly blank row UNAVAILABLE, without new scores/evidence or unblinding. Finalized/integrated rating rows remain0."
+  },
+  "excluded": [
+    {
+      "scope": ".local/**; private archives; raw speaker/partner/source records; exact prompts/references/responses and journals",
+      "reason": "Restricted/private scientific evidence; deliberately absent from public Git."
+    },
+    {
+      "scope": "WORKING.txt, recovered/uncertainty drafts, actual human scores/comments/IDs, provenance declarations and reviewer mappings",
+      "reason": "Private human work and blinding boundaries; only reviewed aggregate/hash receipts are public."
+    },
+    {
+      "scope": "docs/research_development_log.md",
+      "reason": "Historical raw log contains sensitive/key-equivalent material; reviewed stage-specific public provenance is included instead."
+    },
+    {
+      "scope": "models/**, bin/**, virtual environments, caches, temporary files and pytest scratch directories, credentials/API keys",
+      "reason": "Not source-and-summary checkpoint material; no broad staging."
+    },
+    {
+      "scope": "All unrelated, unreviewed and previously withheld artifacts, including historical manuscript links",
+      "reason": "Existence in Git status or a document reference does not authorize publication."
+    }
+  ],
+  "public_reproducibility": "PARTIAL",
+  "git_policy": "No automated staging, commit, push, author configuration, index or history mutation. Human-only explicit allowlist staging after external-anchor verification.",
+  "python_source_closure": {
+    "entrypoints": 40,
+    "recursive_files": 83,
+    "already_tracked_unchanged": 43,
+    "new_modules_and_tests": 40,
+    "missing_public_python_dependencies": [],
+    "method": "Existing runtime_python_dependency_paths AST/import closure; no new general framework."
+  },
+  "tests": {
+    "command": "$env:PYTHONPATH='tools;src'; $env:PYTHONDONTWRITEBYTECODE='1'; $englishTestFiles = @(rg --files tests | Where-Object {$_ -match 'test_(english_|icsi_english_|swda_english_)'}); .\\.venv\\Scripts\\python.exe -B -m pytest -q -p no:cacheprovider --basetemp .local/pytest-english-stage-final-20261019-02 @englishTestFiles",
+    "passed": 133,
+    "failed": 0,
+    "elapsed_seconds": 9.95,
+    "python": "3.14.3",
+    "pytest": "9.1.1",
+    "warning": "One existing Unknown config option: cache_dir warning because cacheprovider was deliberately disabled.",
+    "scope": "Authored fixtures only, no authentic participant records/human ratings or new inference; not construct validity or whole-repository validation.",
+    "provenance": "Executed by the parent research process and recorded in human_submission_recovery_receipt_v1.json; checkpoint preparation does not relabel a duplicate run as additional evidence."
+  },
+  "reproduction": {
+    "analysis_sha256": "84468a7ccf42ba9ea8d368ee9800b211c2d97d1422c1ad7fa234b163f3066a53",
+    "independent_receipt_sha256": "ce361877f9c7f47227105c3cb4db75d9575a927258c192bd33e48cddc650cb87",
+    "archival_receipt_sha256": "c30b4b87a29ae04d5b183fe3fbb2cea1a9428e2195aa3acf1cb3775c6090fb14",
+    "status": "Read-only archival --verify PASS100 after all source changes; generation execution gates remain frozen and no model call is repeated.",
+    "cli_deviation": "Frozen primary analysis CLI Path/string bug is preserved; separate combined compatibility adapter and new archival read-only helper are included.",
+    "local_integrity_not_public_completeness": true
+  },
+  "preservation": "Parent verified every source/member hash and size for1690 files in three private ZIPs, a separate three-file human-intake ZIP and an eight-file recovery ZIP. These are same-volume backups, not remote/off-device preservation or automatic backup of future human edits.",
+  "verifier_limits": "Default read-only verifier checks exact working bytes, v4 anchors and original bytes, expected branch/HEAD and empty index. Human-only -Staged mode checks exact staged paths/blobs; that mode cannot be exercised against the actual index before human staging and no index writes were performed."
+}

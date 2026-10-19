@@ -1,0 +1,40 @@
+{
+  "schema": "english_novelty_synthesis_analysis_scope_v1",
+  "date": "2026-10-19",
+  "status": "POSTHOC_ANALYSIS_SPECIFICATION_BEFORE_NEW_DIAGNOSTIC_EXTRACTION_NOT_GENERATION_PREREGISTRATION",
+  "question": "Which existing English source-provision findings support a defensible empirical paper after comparison with close prior work, and do objectively empty or repeated outputs qualify the observed deployment differences?",
+  "decision": "Prioritize the empirical route: integrate original ordinal evidence, matched deployment costs, narrowly defined raw-output diagnostics and verified prior art into a coherent manuscript. No novel algorithm is justified before a semantically meaningful failure and technical distinction are established.",
+  "alternatives": [
+    "New algorithm or steering prototype: broad mechanisms already overlap published steering/retrieval/alignment work, the new200semantic ratings are absent, and52nonreserve generations cannot by themselves establish fair baselines, ablations and independent fidelity validation. Do not implement a named invention without evidence.",
+    "New speaker/model collection: the independent English cohort is not source-qualified; do not relax failed gates or spend160reserved generations. Existing same-speaker outputs cannot become independent replication.",
+    "Existing-evidence empirical synthesis: directly addresses current RQ1 and deployment parts ofRQ3, preserves RQ2/RQ4 gaps, requires no new generation or human-label invention. Selected on validity and information gained, not expected positive results."
+  ],
+  "data": {
+    "scope": "All300existing English outputs: originalQwen3-0.6B100 plusQwen2.5-1.5BBase100 andInstruct100, same5development speakers and10contexts, all8factorial plus2style-control cells.",
+    "original_analysis_sha256": "84468a7ccf42ba9ea8d368ee9800b211c2d97d1422c1ad7fa234b163f3066a53",
+    "original_reproduction_sha256": "ce361877f9c7f47227105c3cb4db75d9575a927258c192bd33e48cddc650cb87",
+    "base_receipt_sha256": "650f5c65a237aacf046701143b72ff3a1872c9dc5c80c44655c90c25dbbdb11e",
+    "instruct_receipt_sha256": "0e71d1f083ddf467ab829b887acae52b113aeddc2b9c62e9ef97abfa0a749ce1",
+    "new_review_mapping_access": false,
+    "raw_or_human_evidence_editing": false
+  },
+  "diagnostics": {
+    "raw_empty": "Indicator exact native response content equals the empty string; report all allocated and generated denominators separately. This is not missing execution.",
+    "whitespace_empty": "Indicator native content.strip() equals the empty string; do not trim or overwrite the archived response. Non-English or punctuation-only strings are not silently reclassified as empty.",
+    "repeat5_excess": "Use the unchanged English words() rule in english_sfh_analysis_v1.py. For consecutive five-word windows, (number of windows minus number of distinct windows)/number of windows. If fewer than5words, NA, not zero.",
+    "repeat5_any": "Indicator at least one duplicate consecutive five-word window, only where at least one window exists. This is literal surface recurrence, not a validated semantic repetition or degeneration label.",
+    "prefix20_repeat5_excess": "Same rate on exactly the first20 extracted words, only for responses with at least20words. A fixed-opportunity descriptive sensitivity, not output-length-adjusted causality; selection into this subset is post-treatment.",
+    "no_threshold_tuning": "No success threshold, language quality score, semantic error label, inferred persona identity or example selection. Preserve all computed values including zeros, NA and negative contrasts.",
+    "interpretation": "Literal recurrence can reflect useful terminology or quotation; more output provides more repetition opportunities. These diagnostics cannot establish Persona Fidelity, factual accuracy, temporal contamination, human preference or model superiority. Different model families/templates/EOS/quantizations and fixed blocks remain confounded."
+  },
+  "analysis": {
+    "reuse": "Use the existing raw-journal audits and two frozen factorial arithmetic implementations. Add only this bounded diagnostic adapter and authored edge-case tests; do not edit frozen helpers or create another general evaluator.",
+    "coverage": "For every model/condition/metric report allocated, applicable and unavailable counts. Complete-speaker contrasts target only speakers with all required cells; never silently treat short-output NA as zero or equal coverage.",
+    "contrasts": "All7factorial contrasts and3style controls per configuration. Matched newInstruct-minus-Base contrasts where both cells are applicable. Original0.6B is a historical configuration reference, not a pure size contrast.",
+    "uncertainty": "Equal-context then equal-speaker arithmetic; speaker profiles and leave-one-speaker-out influence, not confidence intervals or calibrated significance. No arbitrary participant independence assumption.",
+    "independent_check": "Cross-check each literal diagnostic with a separate direct-count implementation and compare factorial summaries using the existing second implementation. Re-run the additive analysis read-only from raw evidence; do not call this independent experimental validation."
+  },
+  "resource": {"new_generations": 0, "new_human_labels": 0, "cumulative_generations": 988, "cumulative_inference_seconds": 6367.387376899885, "remaining": 212, "validation_reserve": 160},
+  "publication": "Produce a new coherent English manuscript version, preserving the historical working manuscript and checkpoints. Explicitly distinguish source-provision design from original shared-sufficient-evidence TrackA; map condition bits and RQ numbering instead of silently rewriting original protocol. Known,partially novel,potentially novel and unsupported claims must be separated.",
+  "preservation": "Raw dialogues, source IDs, per-response diagnostics and review records stay private. Public output aggregates/hashes only. No Git add,commit,push; no large replacement checkpoint. Stop new analysis on source/journal/hash mismatch and preserve any failed output without overwrite."
+}

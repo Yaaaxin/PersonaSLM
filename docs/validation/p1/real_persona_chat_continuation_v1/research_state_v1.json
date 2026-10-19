@@ -1,0 +1,28 @@
+{
+  "schema_version": "personaslm_rpc_continuation_completed_state_v1",
+  "recorded_date": "2026-10-19",
+  "branch": "research/autonomous-personaslm",
+  "base_head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+  "milestone": "REAL_DIALOGUE_RECOGNITION_EXPOSES_OPTION_LABEL_POSITION_AND_FORMAT_DEPENDENCE",
+  "classification": "OBSERVED_DEVELOPMENT_NOT_INDEPENDENT_EXPERIMENTAL_OR_HUMAN_VALIDATION",
+  "generations": {"starting": 636, "new_attempts": 52, "new_responses": 52, "authored_controls": 4, "real_dialogue_recognition": 48, "new_free_dialogue_continuations": 0, "retries": 0, "cumulative": 688, "limit": 1200, "remaining": 512},
+  "inference_seconds": {"starting": 3828.328792899886, "new": 144.79131300005247, "cumulative": 3973.1201058999386, "limit": 72000, "remaining": 68026.87989410007},
+  "result": {"controls_correct": "4/4", "protocol_successes_of16": {"NONE": 8, "CORRECT": 8, "MISMATCH": 7}, "main_valid_choices": 42, "main_A_choices": 40, "candidate_invariant_pairs": 0, "evaluable_reversal_pairs": 18, "allocated_reversal_pairs": 24, "correct_minus_mismatched": 0.0625, "correct_minus_none": 0.0, "positive_correct_minus_mismatched_difference_entirely_in_format_discordant_observations": true},
+  "decision": {"experiment": "STOP_EXPANDING_THIS_RECOGNITION_CONFIGURATION", "interpretation": "PIVOT_TO_MEASUREMENT_VALIDITY_NOT_HISTORY_BENEFIT", "next_primary_path": "Genuine Japanese semantic validation of already archived64 S/F/H dialogue generations before another generative batch or reliability-fidelity algorithm", "no_equivalence_claim": true, "no_universal_model_gate": true, "no_algorithm_novelty_claim": true},
+  "bindings": {
+    "manifest_sha256": "df3412c5dc06a907e2822fc47ab536f17fa54a6c362c1456c62070bf6073e64f",
+    "registration_sha256": "3f3053b3accb0d4045cd95424266462cb4f08dadab1dbb806b17b03cbe3cd402",
+    "execution_receipt_sha256": "4e4d2cae32d9eaff8916ad437682fd3e97624506bc93c4d6e39c409d34439f23",
+    "analysis_sha256": "050854360131e1335583b591f9034da58e13ef30a6a02f2dafff95f50259e58b",
+    "independent_reproduction_sha256": "2add45116b112ea5c263e1aef5d1a510c4ba0841b8741093a98015e7c8a964ce",
+    "posthoc_diagnostic_sha256": "8c0540ee33a783b3dea3e8fb56e6144de5ead2ae171afbaeab41fb99c150ac21",
+    "terminal_event_sha256": "32899e770d2f2638876047dbbe38167955ced5ad1ac17c4a20d7c67531d93cba",
+    "prospective_decision_note_sha256": "81ac74abf83accaf708faa053872f990db863dd12427bdae6368c0b364f74e6b"
+  },
+  "decision_provenance": "Decision note local mtime13:48:14UTC precedes run start13:48:31UTC; it is not in the registration source closure and has no independent timestamp attestation. Frozen design and scorer are bound separately. No outcome-dependent endpoint change.",
+  "validation": {"reserved_speakers": 58, "reserved_target_content_deserialized": false, "human_labels_created": 0, "independent_arithmetic": "PASS52", "independent_experiment": "NOT_ESTABLISHED", "public_clone_reproduction": "PARTIAL", "generation_repeatability": "NOT_TESTED"},
+  "human_only_dependency": {"working_file": ".local/reviewer-packages/real_persona_chat_sfh_pilot_v1/stage_a_delivery_v1_1/stage_a_WORKING_COPY.csv", "questionnaire": ".local/reviewer-packages/real_persona_chat_sfh_pilot_v1/stage_a_delivery_v1_1/reviewer_exposure_questionnaire_v1_1_TEMPLATE.json", "status": "PENDING_GENUINE_JAPANESE_JUDGMENTS_NO_NEW_SUBMISSION_PROVIDED", "required": "Complete64 dispositions/ratings and truthful proficiency/prior-exposure questions; preserve blinded mapping. One researcher does not establish independent inter-rater reliability.", "historical16_and168": "SEPARATE_PENDING_REQUIREMENTS"},
+  "preservation": {"private_archive_sha256": "cbcb7dd3974ee11f6e3939d0d258a1fb7fbdcf12e192371c1a5561e705c619c9", "verified_member_files": 607, "same_volume": true, "remote_backup": false},
+  "resume": ["Do not repeat these52 or previous128 real-speaker generations; retain636 baseline and688 latest cumulative count.", "Read the sealed receipts and independent reproduction, not the stale PROSPECTIVELY_FROZEN status in the historical registration.", "Do not reinterpret invalid-format responses as known semantic failures or A-position behavior as a proven internal cause.", "Use the existing64 review workflow when genuine labels arrive; do not poll unchanged absent submissions or fabricate them.", "Before any next batch compare at least three paths and freeze a construct-valid finite plan, applicability, source hashes and fresh model-specific RAM gate.", "Do not open58 validation-speaker targets, tune current recognition cases, implement generic debiasing as novelty, or expand merely because the model can run.", "Manual checkpoint only; no automated git add/commit/push. Private corpus, prompts, journals, review maps and weights remain excluded."],
+  "scientific_programme_complete": false
+}

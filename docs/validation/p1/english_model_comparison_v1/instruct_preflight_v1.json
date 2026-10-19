@@ -1,0 +1,75 @@
+{
+  "baseline": {
+    "generations": 888,
+    "inference_seconds": 5599.77648689999
+  },
+  "batch": "instruct",
+  "checked_utc": "2026-10-19T20:01:40.740156+00:00",
+  "identity": {
+    "checks": [
+      {
+        "check": "gguf",
+        "evidence": {
+          "bytes": 986048960,
+          "gguf_version": 3,
+          "limitation": "Pinned external artifact; actual loading still requires owned server.",
+          "path": "D:\\PersonaSLM-model-cache\\english_qwen25_15b_v1\\instruct\\Qwen2.5-1.5B-Instruct.Q4_K_M.gguf",
+          "sha256": "f86985a0e8b549680da4cf43a037bb185c4ec8d1ee07cce52c1720f848b7c972",
+          "sha256_verified": true
+        },
+        "status": "PASS"
+      },
+      {
+        "check": "server_executable",
+        "evidence": {
+          "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\bin\\llama.cpp\\llama-b11573-bin-win-cpu-x64\\llama-server.exe",
+          "sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846"
+        },
+        "status": "PASS"
+      }
+    ],
+    "model": {
+      "bytes": 986048960,
+      "gguf_version": 3,
+      "limitation": "Pinned external artifact; actual loading still requires owned server.",
+      "path": "D:\\PersonaSLM-model-cache\\english_qwen25_15b_v1\\instruct\\Qwen2.5-1.5B-Instruct.Q4_K_M.gguf",
+      "sha256": "f86985a0e8b549680da4cf43a037bb185c4ec8d1ee07cce52c1720f848b7c972",
+      "sha256_verified": true
+    },
+    "scope": "offline file preflight only; no real inference verified",
+    "server": {
+      "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\bin\\llama.cpp\\llama-b11573-bin-win-cpu-x64\\llama-server.exe",
+      "sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846"
+    },
+    "status": "PASS"
+  },
+  "manifest_sha256": "e1a8ebfbedf2bd5697b7b9a96c9486679b528ab88c480a727f91b583109d2dd3",
+  "memory": {
+    "observed_utc": "2026-10-19T20:01:40.740181+00:00",
+    "pid": 20664,
+    "platform": "nt",
+    "process": {
+      "page_faults": 3128057,
+      "pagefile_usage": 53006336,
+      "peak_pagefile_usage": 103555072,
+      "peak_working_set": 111808512,
+      "quota_nonpaged_pool": 18880,
+      "quota_paged_pool": 157552,
+      "quota_peak_nonpaged_pool": 23368,
+      "quota_peak_paged_pool": 158488,
+      "working_set": 61296640
+    },
+    "status": "observed",
+    "system": {
+      "available_extended": 0,
+      "available_pagefile": 14271090688,
+      "available_physical": 4010864640,
+      "available_virtual": 140733009526784,
+      "load_percent": 72,
+      "total_pagefile": 26657357824,
+      "total_physical": 14846197760,
+      "total_virtual": 140737488224256
+    }
+  },
+  "status": "PASS"
+}

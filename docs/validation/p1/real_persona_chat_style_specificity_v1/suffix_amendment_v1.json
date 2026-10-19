@@ -1,0 +1,15 @@
+{
+  "schema_version": "rpc_style_specificity_execution_suffix_amendment_v1",
+  "status": "PROSPECTIVE_EXECUTION_ONLY_AMENDMENT_NO_SUFFIX_GENERATIONS",
+  "authorization": "Existing researcher authorization for bounded local experiments and the original 64-request allocation; this execution amendment adds no scientific requests and does not assert a new human approval event.",
+  "reason": "Original execution stopped safely after exactly 54 completed requests because live available RAM was 532992000 bytes, 3878912 below the unchanged 536870912-byte threshold. No failed completion call occurred. Following exit of the project's own server, available RAM was observed at 3506438144 bytes; a separately preflighted fresh server may execute only the ten never-attempted requests.",
+  "original_manifest_sha256": "7310946d00bf8ac5e4f6bc61336654177202795f86e07a7e124726ac3b5bc4a6",
+  "original_receipt_sha256": "a641ea3cacd14cdfc704f05234f268e28119b82adba88477b63f6b084b7e7cac",
+  "original_terminal_event_sha256": "4ea4bc17c2f4bd9ad4f014e3546117a159c3961673d3ec4a54ecdde1a86fc70d",
+  "allocation": {"original_requests": 64, "preserved_attempted_prefix": 54, "suffix_start_inclusive": 54, "suffix_end_exclusive": 64, "maximum_suffix_attempts": 10, "retries": 0, "hidden_warmups": 0, "outcome_contingent_selection": false},
+  "unchanged": "All original request objects, order, prompts, tokenizer arrays, model weights, backend, chat template, generation parameters, scoring rules, endpoints and scientific contrasts remain frozen. Keep all 54 original responses regardless of outcome. No reserved-speaker content is accessed.",
+  "resources": {"cumulative_baseline_generations": 626, "cumulative_baseline_inference_seconds": 3765.0082488998696, "global_generation_limit": 1200, "global_inference_seconds_limit": 72000, "suffix_inference_seconds_limit": 300, "suffix_wall_seconds_limit": 600, "minimum_prelaunch_available_ram_bytes": 3221225472, "minimum_ready_available_ram_bytes": 1073741824, "minimum_live_available_ram_bytes": 536870912, "minimum_output_disk_bytes": 1073741824},
+  "stopping": "One immutable suffix execution claim only. Fresh official preflight, ready and per-request RAM gates remain mandatory. Stop and preserve evidence on any safety, integrity, time or accounting failure. No silent retry, threshold relaxation or unrelated-process termination.",
+  "analysis": "Preserve original PARTIAL receipt and analysis unchanged; add a separately named combined analysis using the original scorer. The fresh-server boundary is an execution deviation: report session/restart confounding for latency and memory, without changing scientific outcomes or claiming bit-identical cross-session generation.",
+  "selection_boundary": "Completion of the original finite allocation after a resource-state change, not model screening, favorable-output selection, independent replication, or a change in scientific stopping criteria."
+}

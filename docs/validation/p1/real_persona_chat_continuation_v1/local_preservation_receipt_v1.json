@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-10-19T13:56:36.5980133Z",
+  "source": ".local/experiments/real_persona_chat_continuation_v1",
+  "archive": "E:/DEVOIRS/Research/PersonaSLM-Lab/private_research_backups/20261019_rpc_continuation_v1/experiment_private_v1.zip",
+  "archive_bytes": 1443103,
+  "archive_sha256": "cbcb7dd3974ee11f6e3939d0d258a1fb7fbdcf12e192371c1a5561e705c619c9",
+  "verified_source_files": 607,
+  "verified_archive_members": 607,
+  "method": "System.IO.Compression.ZipFile.CreateFromDirectory into a new explicitly named directory, then exact relative-member set and SHA256 equality of every source and decompressed member; no overwrite/deletion/extraction.",
+  "contains": "Private frozen materials, exact prompts/token IDs, all raw responses/HTTP and memory journals, source snapshots, claim, official template and private analysis.",
+  "same_volume": true,
+  "remote_backup": false,
+  "privacy": "Archive stays outside Git and must not be publicly redistributed. No protected review map was accessed or recopied; earlier preserved review package remains unchanged.",
+  "limitation": "Same-volume preservation protects against accidental source edits, not disk loss or site loss. Model weights and original corpus are separate assets."
+}

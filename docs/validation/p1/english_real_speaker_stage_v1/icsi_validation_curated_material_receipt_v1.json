@@ -1,0 +1,37 @@
+{
+  "archive_sha256": "9db98ebdd61a085b4f45f24f46e9c9f6c6f26c3c9cd41643a3b9e74362c85de7",
+  "authorization_sha256": "b6d5c2c843913ed21e74b018e3d6b778387da4b62f0ca634a4145eff072081fd",
+  "contexts": 0,
+  "created_utc": "2026-10-19T15:58:32.609648+00:00",
+  "cross_case_full_reference_matches_requiring_audit": 0,
+  "curation_decisions_sha256": "3c4a07e8d6cfb2b742dd54567ac7637d500963fc4cdf8f6a68e3a5ff5e4cf25d",
+  "existing_person_names_pseudonymized": 0,
+  "limitations": [
+    "Zero source-qualified validation speakers under the frozen bounded retrieval and curation rules; no validation model experiment was executed.",
+    "The metadata indicated eight speakers with at least three dated meetings, not eight complete S/F/H cases. Seven failed bounded complete-group retrieval; the sole remaining group failed source-construct curation.",
+    "This is a feasibility result for this exact participant-disjoint Bed cohort and source-selection procedure, not proof that the corpus contains no potentially usable material under a different prospectively registered study.",
+    "The reserved source bodies have now been inspected only for the frozen qualification; they must not subsequently be represented as completely unexposed data for adaptive design or feature selection.",
+    "No source criteria, model configuration, prompting, style features or human-review rubric were relaxed. No human semantic labels or independent semantic validation were fabricated."
+  ],
+  "new_model_generations": 0,
+  "pool_sha256": "55dddd34497f6ce1b2a9c3d871fca843eb6935d7670e61ad6bf0710225b5b4ed",
+  "private_material_sha256": "67538e380b573262e523a00462fb137a524e6adc8e74057b99ee5d8e2e04460e",
+  "schema": "icsi_validation_curated_material_v1",
+  "source_hashes": {
+    "english_icsi_material_v1.py": "46dd226e8f4ef2614b5a4f2899fc3e4916572dba4dfab164388fee6b5706e512",
+    "english_icsi_material_v2.py": "ec7e769900cef6d9b3786cb93c01309454c0bdc1bad03cd171f3a759253b5058",
+    "english_icsi_material_v3.py": "d7c8ff997838dd50cc4a57a51ec9244e14d38803bc3b9e9cab5a9465f55b0ced",
+    "english_icsi_source_curation_v3.py": "c2427ee0db598ea7b77ffe4abc047447c546adf05623ff6dfdafb916055a5fe2",
+    "english_icsi_validation_curation_v1.py": "44027f5632ba3aa39619ddb9c70f15eec65f44b592499068d394c7a58f4928bf",
+    "english_icsi_validation_material_v1.py": "2625daca0c9d311fd3333bb048b08e3f3cb8a599c78d176756206fbecbf647bc",
+    "icsi_english_qualification_v1.py": "9d0b6141510ab65f2178a207f2c52fa538c707022b382090da0605bc60f54c83",
+    "test_english_icsi_validation_curation_v1.py": "383663c81bbd9c17980177fb71b6afbb4e37a70b665a8b8efaacd0bbfcabdfde",
+    "test_english_icsi_validation_material_v1.py": "0457b67194b8477579af9efccc5c5154d906783de5e59917eadf920494f54c89"
+  },
+  "speakers": 0,
+  "split_sha256": "cf91921ef55874237d961f0b2c17b916d5122ccff0c08cf6e4a52ba74a30207e",
+  "status": "AI_SOURCE_CURATED_REQUIRES_ROOT_AND_SEPARATE_SOURCE_AUDIT_NOT_EXECUTION_GO",
+  "style_example_counts": [],
+  "unique_gold_references": false,
+  "validation_policy_sha256": "15f65b9e35dcce6251397f9c6c827806b0ae83c6962d77416c67479005256b8a"
+}

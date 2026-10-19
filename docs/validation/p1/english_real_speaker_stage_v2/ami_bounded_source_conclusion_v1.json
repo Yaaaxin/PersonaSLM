@@ -1,0 +1,67 @@
+{
+  "schema": "ami_bounded_source_conclusion_v1",
+  "created_utc": "2026-10-19T17:21:50Z",
+  "classification": "OBSERVED_BOUNDED_SOURCE_FEASIBILITY_WITH_AI_ASSISTED_CURATION_NOT_MODEL_OR_HUMAN_EVALUATION",
+  "source_head": "8b7f8fdd8eec8358528da86398659f876c70a6dd",
+  "bindings": {
+    "source_policy_path": "docs/validation/p1/english_real_speaker_stage_v2/ami_source_qualification_policy_v1.json",
+    "source_policy_sha256": "63b55a97517a3d581f3bb425041668dabd5edcc8142eaf504dc4e154342e3f6f",
+    "source_pool_receipt_path": "docs/validation/p1/english_real_speaker_stage_v2/ami_source_pool_receipt_v1.json",
+    "source_pool_receipt_sha256": "21fc99870856b0efa57032f5a7838bea2a55ce28cafa6c08bfee34ae71a37552",
+    "private_source_pool_sha256": "24fd98096677c2fcbac96a160fbc06a011526d8c44b34c01f4b23c262ed2e2b9",
+    "private_source_curation_sha256": "a6292ac9b5ba911dc28bcd8c58ce7ad8decab4adc2659a28bf7fc8ff786cb0ec",
+    "annotation_archive_sha256": "b56e5babb2496b8795deeeda7e71178d7fbc9963f94276cf2a3f4b56ebbc9f9d"
+  },
+  "design": "Fifteen metadata-eligible natural-meeting candidates, fixed hash order and one earliest strictly dated source/History/target triple each. Stage1 permitted selected source and History only. No fallback triples, additional Fact search, target-only access, semantic model scoring or generation.",
+  "observed_counts": {
+    "natural_meetings": 26,
+    "natural_global_participants": 51,
+    "fixed_metadata_candidates": 15,
+    "source_and_history_meetings_read": 13,
+    "annotation_entries_read": 104,
+    "candidates_missing_a_retrieved_first_source_selfreport": 11,
+    "candidates_with_fixed_source_meeting_structurally_unusable": 1,
+    "candidates_with_all_retrieved_components": 3,
+    "retrieved_fact_turns_reviewed_by_AI": 3,
+    "turns_containing_at_least_one_supported_bounded_professional_selfreport_atom": 3,
+    "atoms_requiring_particularly_narrow_abstracted_content_due_to_unresolved_referents": 1,
+    "candidates_requiring_name_redaction_before_any_source_delivery": 1,
+    "fact_turn_overlap_with_style_rate_source_segments": 0,
+    "fact_turn_overlap_with_review_only_style_example_segments": 0,
+    "all_retrieved_component_candidates_with_incidental_target_exposure": 1,
+    "minimum_required_source_cohort_unchanged": 4,
+    "final_cohort_selected": 0,
+    "target_only_meeting_bodies_read": 0,
+    "new_model_generations": 0,
+    "new_inference_seconds": 0
+  },
+  "source_curation_findings": [
+    "All three retrieved turns contain a conservative nonhypothetical professional tool-use or coding self-report. These are dated self-reports, not independently verified facts, current biographies, occupations or stable personal characteristics.",
+    "One source includes an unresolved referent and acronym correction; only a narrow explicitly stated software-use atom is retained. No definite system identity or communication details are inferred. This atom has limited task-discriminating specificity.",
+    "Disfluencies, a trailing filler and a speaker's explicit uncertainty do not by themselves establish transcription error or invalidate an otherwise complete proposition. Audio and transcription accuracy were not checked; no ASR-error mechanism is claimed.",
+    "All selected Fact turn IDs are excluded from numeric Style-rate sources and review-only examples. This establishes segment non-reuse, not topic-independent style, generative Persona Fidelity, or semantic purity of the S/F/H factors.",
+    "History windows preserve real professional discourse, tentative statements and local context limits. One candidate's sources contain direct person names requiring redaction before any future delivery. No sanitized prompts, target tasks or human-review package were created.",
+    "One of the three retrieval-compatible candidates has a target meeting incidentally exposed as another candidate's allowed source. No target-only meeting was read, but that target cannot be described as wholly untouched."
+  ],
+  "decision": "STOP_AMI_FACTORIAL_LAUNCH_UNDER_THIS_FROZEN_POLICY",
+  "decision_basis": "The maximum of three retrieval-compatible candidates is below the frozen minimum of four before target selection. Accepting every supported narrow source atom cannot change that result. Do not lower the minimum, replace date triples or launch the proposed factorial batch.",
+  "scope_limit": "This is a negative result for the prespecified first-source retrieval and source requirements, not proof that AMI lacks usable facts, that every English real-speaker design is infeasible, or that a language model failed. The unsearched corpus and alternative prospective protocols remain unassessed.",
+  "scientific_questions_not_answered": [
+    "No new generative S/F/H effect, semantic Persona Fidelity, factual-reliability effect, temporal-reliability effect or model comparison was measured.",
+    "No independent speaker validation, genuine human semantic review, or novel algorithm comparison was completed by this source qualification.",
+    "Different corpus identifiers do not prove cross-corpus person independence."
+  ],
+  "verification": {
+    "fact_quotes": "All three copied private Fact quotes were checked byte-for-text against their matching hash-bound pool records.",
+    "automatic_retrieval": "Existing source-pool --verify replays the fixed metadata schedule, archive-entry parsing, exclusion rules and source components without overwriting evidence.",
+    "semantic_curation": "Transparent AI-assisted judgments with exact private evidence; reproducible access to the decisions is not independent confirmation of their semantics.",
+    "public_reproducibility": "PARTIAL: public policy and aggregate hashes are available; authentic source records and participant mappings remain private. Official annotations can be obtained under their documented terms, but the public checkpoint does not itself redistribute them."
+  },
+  "next_path_assessment": [
+    {"path": "Expand or substitute AMI source dates", "decision": "NOT_PERMITTED_UNDER_THIS_FREEZE", "reason": "Would change the fixed bounded qualification; any future independent protocol must justify its information gain and source policy prospectively, not repair this result."},
+    {"path": "Use existing qualified ICSI development material for a matched model or History-budget cost comparison", "decision": "TECHNICALLY_POSSIBLE_BUT_NOT_YET_JUSTIFIED_FOR_GENERATION", "reason": "Existing sources and objective latency/token endpoints support a separately registered computational comparison. Without valid semantic endpoints it cannot establish a reliability-fidelity trade-off, and much of the input-cost mechanism is already measured in the 100 archived responses."},
+    {"path": "Complete valid semantic evaluation of the existing English responses before further quality experiments", "decision": "HIGHEST_VALUE_DEPENDENCY", "reason": "Existing genuine human answers must retain their original values; incompatible scales or missing judgments cannot be repaired by AI. Once valid human input is available, it can distinguish actual quality effects from length/format artifacts and justify the next model or algorithm comparison."}
+  ],
+  "budget_unchanged": {"generations_consumed": 788, "generation_ceiling": 1200, "inference_seconds_consumed": 4485.684495999997, "inference_seconds_ceiling": 72000},
+  "privacy": "No authentic quote, direct speaker identifier, private person mapping, reviewer mapping or raw human judgment is included in this public conclusion. The private source curation is not for Git staging."
+}

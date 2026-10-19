@@ -1,0 +1,58 @@
+English human evidence: scale clarification, not automatic score correction
+19 October 2026. Applies prospectively to the received historical submission.
+
+The principal researcher explicitly confirmed genuine manual blinded authorship
+of the 99 submitted judgments. All original values remain unchanged. The one
+missing judgment remains UNAVAILABLE, not zero and not an AI-completed rating.
+No condition mapping has been opened for the present continuation.
+
+The received WORKING.txt SHA256 is
+1c7c5bd5bc1684591df5c1a1c959fce763b10f9de475d7436299ce221a3b1aee.
+The separate uncertainty draft preserves the same 99 judgments. Neither file
+should be overwritten to make an old validator accept a different scale.
+
+MINIMUM NEXT HUMAN ACTION
+
+Document, in a new local text file or a message to the research executor:
+1. Which actual scale was used for each rating dimension? Give the meaning of
+   every used value, particularly 0, 4 and 5, and which direction means better.
+   If dimensions shared a scale, say so; if not, list their separate meanings.
+2. Did any numerical value mean uncertain, unavailable or not applicable rather
+   than a quality rating? Identify the rule actually used, without guessing a
+   retrospective rationale. It is acceptable to say a meaning is not remembered.
+3. State any actual prior rubric involvement, item/output/result exposure or AI
+   assistance during rating not already described. Project familiarity is not
+   erased by condition masking. Unknown review times need not be invented.
+
+This request does not require changing the 99 answers or supplying the missing
+judgment. Genuine later corrections, if the researcher chooses any, must be a
+separate dated submission with the original preserved and correction reason.
+
+ANALYSIS BOUNDARY
+
+The old registered rubric was 0-3 plus NA; the received values include 4/5.
+Do not clip, linearly rescale, relabel uncertainty as quality, or silently treat
+the received scale as the registered instrument. Document the actual scale
+first. Any treatment of the alternate instrument must then be fixed, with its
+deviation, applicability, missingness and analysis clearly stated BEFORE viewing
+condition-linked human results. Genuine qualitative evidence must retain its
+original authorship and evidence requirements; no missing claim labels may be
+generated and presented as human judgments.
+
+An additive intake/analysis amendment may be necessary; do not weaken the frozen
+validator or change frozen raw evidence. A documented alternative scale does
+not by itself supply omitted factual evidence or make every endpoint evaluable.
+All affected human-derived conclusions remain provisional until these issues
+are resolved. The distinction is received genuine judgments versus validated
+condition-linked estimates, not human work versus no human work.
+
+The researcher is project-dependent and has prior exposure. This is not clean
+independent double-blind review, a second rater, inter-rater reliability, or an
+independent experimental replication. The original review package remains
+.local/reviewer-packages/english_sfh_development_v1, with recovered copies under
+.local/reviewer-packages/english_sfh_development_recovery_v1.
+
+The earlier v1 handoff's generic advice to make a corrected 0-3 working copy is
+not a requirement to reinterpret these already submitted scores. This additive
+clarification follows the latest PI instruction; the historical handoff remains
+unchanged for provenance. Non-human-dependent valid research remains permitted.

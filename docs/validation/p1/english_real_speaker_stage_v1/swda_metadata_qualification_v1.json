@@ -1,0 +1,37 @@
+{
+  "boundary": "Metadata structure only. Source speaker/date correctness, factual yield, privacy and generation endpoints are not yet validated. Partition is prospective before target-content access; no target cases selected.",
+  "conversations": 1155,
+  "cross_split_conversations_excluded": 69,
+  "groups": {
+    "development": {
+      "assigned_speakers": 212,
+      "max_distinct_dates_per_speaker": 10,
+      "speakers_with_at_least_two_dates": 16,
+      "speakers_with_four_dates_and_three_partners": 3,
+      "within_split_conversations": 33
+    },
+    "reserved": {
+      "assigned_speakers": 228,
+      "max_distinct_dates_per_speaker": 7,
+      "speakers_with_at_least_two_dates": 33,
+      "speakers_with_four_dates_and_three_partners": 13,
+      "within_split_conversations": 61
+    }
+  },
+  "invalid_dates": 992,
+  "new_model_generations": 0,
+  "original_transcript_members_opened": 0,
+  "private_partition_sha256": "de097256b19ede82980aab03d6e8d5ddf91f783e02dfe8f7dd259d12fbdd7be0",
+  "recorded_utc": "2026-10-19T15:06:21.392655+00:00",
+  "rules": "SHA256 salt plus speaker ID, first byte<128 development, otherwise reserved; exclude every cross-split conversation. Four dates/three partners is a structural eligibility screen only.",
+  "schema": "personaslm_swda_metadata_qualification_v1",
+  "source_archive_sha256": "c903ef6542a9838d23fe5cf00c4cfc4727ca54cadb55c61916f090498141c817",
+  "source_code_sha256": "b4e1903d14b5054417a4697925dc425a82dfd594ffc3ecfc64d4bc64ea0be93a",
+  "source_metadata_sha256": {
+    "conversations.json": "9c0dca9cbec0c4f9c5823c44076aeda10498d0c92a55dee7ad4a9669e54e37dd",
+    "speakers.json": "e0b8d691b03299ee40e061b094dec212dc1c71e8936203ca34dfbb3d33e613fa"
+  },
+  "speakers": 440,
+  "utterance_members_opened": 0,
+  "validation_target_content_inspected": false
+}
