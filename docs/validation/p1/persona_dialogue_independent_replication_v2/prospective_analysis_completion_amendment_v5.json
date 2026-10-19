@@ -1,0 +1,113 @@
+{
+  "schema_version": "personaslm_persona_dialogue_independent_replication_analysis_completion_v5",
+  "status": "FROZEN_PROSPECTIVE_ANALYSIS_COMPLETION_NOT_AUTHORIZED_NOT_EXECUTED",
+  "frozen_utc": "2026-10-18T17:17:46.7002924Z",
+  "researcher": "Yaxin ZHENG",
+  "purpose": "Complete the prospectively specified descriptive 2^3 factorial analysis before any tokenizer call or model-output observation by freezing the omitted S-by-F, S-by-H, and S-by-F-by-H contrast weights and their narrow endpoints.",
+  "parents": {
+    "design_v2": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json",
+      "sha256": "628bedc18b8aa549cb165fbfb3f33ffbb889b5ad3090d7ef86f58112476c156c"
+    },
+    "execution_scope_amendment_v3": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_amendment_v3.json",
+      "sha256": "9cd70fceca8b1fb806bd6b3c3bcb4deccfd974830d2a5e762c1e75a45120d937"
+    },
+    "wording_clarification_v4": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_wording_clarification_v4.json",
+      "sha256": "4cce2737b31022426a58cb7a0ef1e145c8096494dd67deb0b6ad00ad81f1c218"
+    },
+    "case_bank": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+      "sha256": "a93cd629c0d152e9eb2325399235882beaebf510d4b6e32b24724975554fab8c"
+    }
+  },
+  "preoutput_state": {
+    "native_tokenizer_calls_for_this_study": 0,
+    "model_server_launches_for_this_study": 0,
+    "completion_calls_for_this_study": 0,
+    "model_outputs_from_this_bank": 0,
+    "outputs_inspected": false,
+    "new_model_generations_during_amendment": 0
+  },
+  "factor_coding": {
+    "condition_order": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "condition_levels": {
+      "C0": {"S": 0, "F": 0, "H": 0},
+      "C1": {"S": 1, "F": 0, "H": 0},
+      "C2": {"S": 0, "F": 1, "H": 0},
+      "C3": {"S": 0, "F": 0, "H": 1},
+      "C4": {"S": 1, "F": 1, "H": 0},
+      "C5": {"S": 1, "F": 0, "H": 1},
+      "C6": {"S": 0, "F": 1, "H": 1},
+      "C7": {"S": 1, "F": 1, "H": 1}
+    },
+    "effect_definition": "Each effect is the equal-cell factorial contrast for one complete case. Main effects are high-minus-low averages, two-way interactions are averaged differences of differences, and the three-way interaction is the difference of the two corresponding two-way interactions. Case contributions are then equally averaged across the 12 complete cases."
+  },
+  "factorial_weights": {
+    "S": {"C0": -0.25, "C1": 0.25, "C2": -0.25, "C3": -0.25, "C4": 0.25, "C5": 0.25, "C6": -0.25, "C7": 0.25},
+    "F": {"C0": -0.25, "C1": -0.25, "C2": 0.25, "C3": -0.25, "C4": 0.25, "C5": -0.25, "C6": 0.25, "C7": 0.25},
+    "H": {"C0": -0.25, "C1": -0.25, "C2": -0.25, "C3": 0.25, "C4": -0.25, "C5": 0.25, "C6": 0.25, "C7": 0.25},
+    "SxF": {"C0": 0.5, "C1": -0.5, "C2": -0.5, "C3": 0.5, "C4": 0.5, "C5": -0.5, "C6": -0.5, "C7": 0.5},
+    "SxH": {"C0": 0.5, "C1": -0.5, "C2": 0.5, "C3": -0.5, "C4": -0.5, "C5": 0.5, "C6": -0.5, "C7": 0.5},
+    "FxH": {"C0": 0.5, "C1": 0.5, "C2": -0.5, "C3": -0.5, "C4": -0.5, "C5": -0.5, "C6": 0.5, "C7": 0.5},
+    "SxFxH": {"C0": -1.0, "C1": 1.0, "C2": 1.0, "C3": 1.0, "C4": -1.0, "C5": -1.0, "C6": -1.0, "C7": 1.0}
+  },
+  "factorial_effect_matrix": {
+    "status": "EXPLORATORY_DESCRIPTIVE_NOT_CONFIRMATORY",
+    "effects": [
+      "S",
+      "F",
+      "H",
+      "SxF",
+      "SxH",
+      "FxH",
+      "SxFxH"
+    ],
+    "narrow_automatic_metrics": [
+      "current_named_selection",
+      "current_preference_choice",
+      "history_target_selection",
+      "surface_style_uptake"
+    ],
+    "aggregation": "For each effect-metric pair, report the equal-case mean over all 12 cases, number of fully observed case contributions, unresolved case count, logical missing-outcome bounds, and leave-one-persona-out point-estimate range.",
+    "missingness": "Do not score an unresolved response as zero. Compute the registered logical endpoint bounds from every unresolved cell and retain all missing outcomes.",
+    "inference": "No p-values, calibrated confirmatory significance, population inference, or causal generalization."
+  },
+  "relationship_to_registered_estimands": {
+    "primary_estimands_changed": false,
+    "primary_estimands": [
+      "Equal-case-weight F average main effect on current_preference_choice over C0-C7.",
+      "Regime-stratified H paired effects on current_preference_choice and history_target_selection.",
+      "F-by-H interaction on current_preference_choice within OUTDATED_CONFLICTING cases.",
+      "Equal-case-weight S average main effect on all-components surface_style_uptake over C0-C7."
+    ],
+    "completion_role": "The full seven-effect by four-metric matrix is exploratory and completes the parent design's stated interaction analysis; it does not replace or promote any primary estimand.",
+    "existing_diagnostics_preserved": [
+      "Regime-stratified H effects.",
+      "Outdated-conflicting C6 versus C7 comparison.",
+      "Exact-current-note support and full-canonical-both distributions.",
+      "Native stopping, generated tokens, latency, RAM, and server working-set observations."
+    ]
+  },
+  "execution_scope": {
+    "scientific_inputs_changed": false,
+    "request_set_changed": false,
+    "prompt_text_changed": false,
+    "generation_settings_changed": false,
+    "resource_limits_changed": false,
+    "execution_authorized": false,
+    "separate_authorization_required": true,
+    "new_model_generations": 0
+  },
+  "claim_boundary": "The added matrix is an exploratory descriptive analysis of narrow deterministic endpoints in 12 synthetic controlled next-turn choice cases. It is not broad Persona Fidelity, semantic dialogue quality, real-speaker evidence, cross-model evidence, confirmatory inference, or proof of a causal mechanism."
+}

@@ -1,0 +1,73 @@
+{
+  "admission_example": {
+    "answer_supporting_history": [
+      "h_true"
+    ],
+    "behavior": [
+      "answer before explanation"
+    ],
+    "dated_non_authoritative_archive": [
+      "h_old"
+    ],
+    "personal_facts_pending_scope_check": [
+      "prefers tea"
+    ],
+    "quarantined_history": [
+      "h_false"
+    ],
+    "style": [
+      "brief clauses"
+    ],
+    "trusted_evidence_ids": [
+      "jan",
+      "may",
+      "other",
+      "window"
+    ]
+  },
+  "classification": "ENGINEERING_ADAPTATION_RESEARCH_SCAFFOLD",
+  "cost_excludes": [
+    "free_text_extraction",
+    "model_generation",
+    "I/O"
+  ],
+  "fixtures": 16,
+  "independent_ground_truth": false,
+  "measured_model_improvement": null,
+  "measured_persona_fidelity": null,
+  "negative_result": "Full rule scaffold ties the declarative reference on authored structured fixtures; no superiority established.",
+  "new_inference": 0,
+  "novel_algorithm_evidence": false,
+  "results": {
+    "declarative_reference": 16,
+    "escp_rules": 16,
+    "no_conflict": 15,
+    "no_delivery": 15,
+    "no_entity": 13,
+    "no_time": 12
+  },
+  "source_sha256": "cf784d4705222639508bc231790d15d0951353925640378b0b383aba66405537",
+  "timing": {
+    "declarative_reference": {
+      "cpu_ns_per_fixture_samples": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "median": 0.0
+    },
+    "escp_rules": {
+      "cpu_ns_per_fixture_samples": [
+        9765.625,
+        9765.625,
+        0.0,
+        9765.625,
+        9765.625
+      ],
+      "median": 9765.625
+    }
+  },
+  "version": "escp_offline_v1"
+}

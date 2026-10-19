@@ -1,0 +1,46 @@
+{
+  "version": "p1_stage_b_execution_binding_reconciliation_v2",
+  "created_utc": "2026-10-16T21:18:30.000000+00:00",
+  "status": "PASS_VERSIONED_TEST_ONLY_RECONCILIATION",
+  "base_binding_path": "docs/validation/p1/blinded_audit_stage_a_v1/execution_tools_frozen_v1.json",
+  "base_binding_sha256": "d606d4840486a6526dee6e8a101ef50b8290879a6df77c1fc0a08a47259fcb97",
+  "preserved_scientific_controller": {
+    "path": "tools/p1_conditional_execution.py",
+    "sha256": "d51b15dd23bb268bd272bc7f7f4c6f28ee69d8a7027ab18b4019646b28602c65",
+    "changed": false
+  },
+  "permitted_test_only_replacement": {
+    "path": "tests/test_p1_blinded_stage_a.py",
+    "frozen_v1_sha256": "58d7533ae28c87997ff37f44d3ae4fdfaf3e4515cdc1a58b24b5bf5c6a0958d4",
+    "recovery_safe_sha256": "a769ef71de64b6328f9cb75e42d8a9f6ae4b3ff74df1487fdc3a3bd773619534",
+    "reason": "Recovery replaced legacy tests that parsed the real restricted key with hash-only real-key checks and synthetic-key semantic tests.",
+    "runtime_or_scoring_effect": "NONE; this path is a test and is not imported by the execution controller."
+  },
+  "difference_inventory": {
+    "base_binding_entries": 62,
+    "matching_entries": 61,
+    "registered_differences": 1,
+    "missing_entries": 0,
+    "unexpected_differences": 0
+  },
+  "recovery_provenance": {
+    "recovery_report_path": "docs/P1_research_recovery_and_stage_B_readiness_report_v1.md",
+    "recovery_report_sha256": "77f44ba2f04dd71ca8cc0a471a235ac87b7118f8e985df549e7c96da04e94c40",
+    "recovery_manifest_path": "docs/validation/p1/researcher_audit_integration_v1/reproducibility_manifest_v2.json",
+    "recovery_manifest_sha256": "fbd4d7ec0148329664aae87fa747b8ef154dd9aa8fb3650d4b1110b306713a4b"
+  },
+  "wrapper_path": "tools/p1_conditional_execution_v2.py",
+  "wrapper_sha256": "4d0c776d994ff680852355abe2e0d3df5e59404fa7446afa49f0ade80a354610",
+  "unblinding_artifact_path": "docs/validation/p1/stage_b_v1/researcher_unblinding_record_v1.json",
+  "unblinding_artifact_sha256": "27875cb4830d6a82b2ae4b561a1ad3cc651ab5c675777c26b6b8bcdfdf9225ee",
+  "decision_artifact_path": "docs/validation/p1/stage_b_v1/stage_b_decision_record_v1.json",
+  "decision_artifact_sha256": "6f02889248239d866f166e40aa65ac59d074996ed8b5d08d21cdb1816a4a321b",
+  "research_scope": "P1 Stage B developmental execution only",
+  "scientific_policy_changed": false,
+  "scorer_changed": false,
+  "prompt_or_manifest_changed": false,
+  "model_or_backend_changed": false,
+  "authorization_or_budget_changed": false,
+  "new_generations_at_reconciliation": 0,
+  "interpretation": "The original binding remains immutable. This versioned sidecar permits only the documented safety-test replacement while retaining exact checks for every runtime, scoring, model, tokenizer, manifest and source dependency."
+}

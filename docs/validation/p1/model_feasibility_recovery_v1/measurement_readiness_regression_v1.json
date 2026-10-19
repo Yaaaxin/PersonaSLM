@@ -1,0 +1,38 @@
+{
+  "schema_version": "personaslm_post_restart_measurement_readiness_regression_v1",
+  "recorded_utc": "2026-10-18T13:30:41.4464299+00:00",
+  "status": "PASS",
+  "predecessor": {
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/semantic_review_package_regression_v2.json",
+    "sha256": "264b00ff48cc4e650d3eff5a4d3931f83432254511cc39db2138870acf09e94a",
+    "preservation": "UNCHANGED"
+  },
+  "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_p1_model_feasibility_recovery.py tests/test_p1_evaluator_validity.py tests/test_reproduce_p1_feasibility_analysis.py tests/test_literature_monitor.py tests/test_literature_monitor_arxiv_doi_dedup.py tests/test_literature_review_addendum.py tests/test_windows_literature_scheduler.py tests/test_post_restart_literature_review.py tests/test_p1_independent_validation_precision.py tests/test_p1_semantic_review_package.py tests/test_p1_semantic_review_integration.py tests/test_p1_independent_validation_missingness.py",
+  "result": {
+    "passed": 79,
+    "failed": 0,
+    "skipped": 0,
+    "wall_seconds_reported_by_pytest": 18.22,
+    "warning_count": 1,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "missingness_policy": {
+    "status": "PROSPECTIVE_POLICY_READY_FOR_RESEARCHER_ADOPTION_NOT_AUTHORIZED",
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_missingness_policy_v1.json",
+    "sha256": "75de14a4d62d023bd6c232ee81ec8480a1cb495e3a0d8868afec40175aa7c653",
+    "tool_path": "tools/p1_independent_validation_missingness.py",
+    "tool_sha256": "8d775a45646daa8ac9048b5b2e497a92fbb4ba7d75d6f488d986d759c5b245d6",
+    "test_path": "tests/test_p1_independent_validation_missingness.py",
+    "test_sha256": "a39dc1f0b09aa07d0d339e18a7b83e4ed741cf2ea5a920866514bbb7ffa02169",
+    "registered_contrasts_checked": 9,
+    "real_outcomes_used": 0,
+    "cohort_authorized": false
+  },
+  "execution_impact": {
+    "scientific_model_generations": 0,
+    "inference_seconds": 0.0,
+    "human_annotations": 0,
+    "historical_evidence_modified": false,
+    "git_stage_commit_or_push": false
+  }
+}

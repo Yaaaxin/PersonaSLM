@@ -1,0 +1,128 @@
+PersonaSLM manual research checkpoint 19 October 2026
+
+DECISION
+
+This is a content-inspected, hash-bound archival checkpoint, not a fully green or
+standalone public reproduction release. It preserves safe source, tests, reports,
+protocols, synthetic materials cleared for release, aggregate results, and hash
+receipts. It intentionally omits restricted or key-equivalent material. No git add,
+commit or push was executed by the assistant. AGENTS.md remains effective.
+
+The exact file list is public_git_allowlist_v2.txt. Do not use the superseded v1
+allowlist. Do not stage directories, use wildcards, add all files, force-add ignored
+files, or copy private dependencies into Git merely to make tests pass.
+
+SCIENTIFIC STATE
+
+The latest verified model budget remains 572/1200 generations and
+3514.1361039998983/72000 inference seconds. This checkpoint task ran no model
+inference. The latest pilot comprises 64 real-speaker development continuations.
+Semantic findings and independent speaker validation remain unestablished; 58
+reserved speakers remain unused. Historical failures and implementation deviations
+remain frozen. Publication readiness and algorithmic novelty are not claimed.
+
+IMPORTANT REVIEW SAFETY FINDING
+
+Some frozen review protocols and source files contain active deterministic ordering
+seeds. Together with their construction algorithms these are key-equivalent, even
+without opening a protected mapping. They are excluded from this checkpoint.
+The original development log also repeats an active seed; its original remains
+local, and research_development_log_public_v2.md is a labeled redacted derivative.
+The derivative is not a replacement for historical hash-bound evidence.
+
+The existing private 64-record RPC delivery instructions copy the full seeded
+protocol. Do not distribute that instruction file or claim clean blinding from it.
+A separately versioned pre-review correction and truthful exposure assessment are
+required before further review delivery. No mapping was reconstructed, no human
+label invented, and no existing package was modified during this checkpoint task.
+An already exposed reviewer cannot be retroactively declared unexposed.
+
+EXCLUSIONS AND DEPENDENCIES
+
+excluded_files_v2.json lists exact nonignored exclusions and their reasons, plus
+private ignore boundaries. dependency_gaps_v2.json identifies inspected source and
+document dependencies withheld from the public checkpoint. In particular:
+
+- Eight seed-bearing helper/controller source files remain local. Eighteen test
+  files depend on this omitted code directly or transitively.
+- The active RPC and DSV3 review protocols remain local until appropriate release.
+- RPC private materials, frozen execution manifests, raw HTTP journals, corpus,
+  review CSVs, reviewer provenance and protected mappings remain outside Git.
+- Model weights, llama.cpp binaries, tokenizer/template runtime installations and
+  environments remain separate. Some tools use ignored vendor runtime paths for
+  tokenizers/Jinja2; empty core pyproject dependencies do not install those runtimes.
+- The historical seed-bearing code already in base HEAD was not removed or audited
+  as a complete history-cleaning task. This is a changed-file checkpoint review,
+  not a security certification of all repository history.
+
+Safe inclusion is not a claim that an included script can run without its documented
+private prerequisites. Restore only lawfully held, hash-verified dependencies to
+their original private locations for controlled-access reproduction. Do not weaken
+guards, fabricate replacements, or rerun consumed generation slots.
+
+The scheduler script must use an explicit action switch: -Describe, -VerifyOnly or
+-Install. Do not invoke it without arguments; the current dispatch can fall through
+to installation. This checkpoint does not install or change a scheduled task.
+
+TEST RESULTS
+
+See verification_results_v2.json. The local focused RPC/literature suite passed
+88 tests. A broader local run stopped at the declared five-failure limit: 702
+passed and five failed because historical ledger/unstarted assumptions no longer
+match completed studies. These failures were preserved, not silently fixed.
+
+An isolated filesystem view was built from base HEAD plus the 552 content-safe
+existing files, with no private data. The full focused bundle failed on missing
+private materials/manifests. A reduced attempt exposed the absent corpus and an
+assumed results directory. The explicitly scoped portable smoke suite passed 46
+tests; it is not evidence that the whole public test suite passes. This was the
+same machine/interpreter, not a newly provisioned clean environment or a Git clone.
+
+MANUAL STAGING COMMANDS
+
+Run in the repository root on research/autonomous-personaslm at base HEAD
+c40667ad266082481b1850453f67784b593f3723. Set $checkpointHash to the exact manifest
+SHA-256 supplied separately in the researcher-facing handoff, not a newly computed
+value that could hide a changed manifest. The verifier is read-only and refuses
+changed files, path aliases, reparse points, an unexpected HEAD, or a nonempty
+initial index. Its staged mode was statically reviewed, not exercised by staging.
+
+$ErrorActionPreference = 'Stop'
+& .\docs\validation\research_checkpoint_v2\verify_checkpoint_v2.ps1 -ExpectedManifestSha256 $checkpointHash
+git --literal-pathspecs add --pathspec-from-file=docs/validation/research_checkpoint_v2/public_git_allowlist_v2.txt
+if ($LASTEXITCODE -ne 0) { throw 'Manual staging failed; inspect the index without resetting it.' }
+& .\docs\validation\research_checkpoint_v2\verify_checkpoint_v2.ps1 -ExpectedManifestSha256 $checkpointHash -CheckStaged
+git diff --cached --stat
+git diff --cached --check
+
+Review before manually committing. No commit/push command is authorized for the
+assistant. No remote backup is implied. If a listed file changes, stop and prepare
+a new reviewed checkpoint rather than accepting a newly calculated hash blindly.
+
+EXACT TEST COMMANDS
+
+First prepare only disposable test directories, not scientific results:
+
+New-Item -ItemType Directory -Path .local/checkpoint-review-20261019 -Force | Out-Null
+$env:PYTHONPATH = 'tools;src'
+
+Local focused suite, requiring the current private dependencies:
+
+python -m pytest -q --tb=short --basetemp .local/checkpoint-review-20261019/pytest-focused-manual -p no:cacheprovider tests/test_real_persona_chat_intake.py tests/test_real_persona_chat_sfh_pilot_v1.py tests/test_real_persona_chat_sfh_pilot_execution_v1.py tests/test_real_persona_chat_sfh_pilot_execution_amendment_v1_1.py tests/test_real_persona_chat_sfh_review_v1.py tests/test_real_persona_chat_style_signal_v1.py tests/test_real_persona_chat_style_signal_v1_reproduce.py tests/test_real_persona_chat_style_signal_validity_v1.py tests/test_literature_monitor.py tests/test_literature_monitor_arxiv_doi_dedup.py tests/test_literature_review_addendum.py tests/test_windows_literature_scheduler.py
+
+Portable smoke suite, with no private raw-data reproduction claim:
+
+python -m pytest -q --tb=short --basetemp .local/checkpoint-review-20261019/pytest-portable-manual -p no:cacheprovider tests/test_real_persona_chat_intake.py tests/test_real_persona_chat_sfh_pilot_v1.py tests/test_real_persona_chat_style_signal_v1.py tests/test_real_persona_chat_style_signal_validity_v1.py tests/test_literature_monitor.py tests/test_literature_monitor_arxiv_doi_dedup.py tests/test_literature_review_addendum.py tests/test_windows_literature_scheduler.py
+
+Broader diagnostic run, known not to be green in the current completed-study state:
+
+python -m pytest -q --tb=short --maxfail=5 --basetemp .local/checkpoint-review-20261019/pytest-full-manual -p no:cacheprovider
+
+RECOMMENDED COMMIT MESSAGE
+
+research: checkpoint verified PersonaSLM development and real-speaker S/F/H pilot
+
+Preserve frozen negative results, 64 real-speaker pilot outputs' aggregate evidence,
+analysis code, tests, literature infrastructure and hash-only provenance.
+Document partial reproduction, legacy regression failures and review-order exposure.
+Keep raw personal dialogue, review keys, model weights and private runtimes local.

@@ -1,0 +1,1225 @@
+[
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "L2"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": true,
+    "id": "correct",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "L1"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": false,
+    "id": "expired_value",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "N",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "L3"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": false,
+    "id": "wrong_entity",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-01-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "L1"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": false,
+    "id": "wrong_time",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-01-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "L1"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": true,
+    "id": "valid_historical_answer",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-01-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "L2"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": false,
+    "id": "correct_intermediate_incomplete",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ],
+      "window": [
+        "M",
+        "window",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "PROMISE",
+        "uncertainty": "KNOWN",
+        "value": "L2"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": false,
+    "id": "promise_not_delivery",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "L2"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "conflict",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L9"
+      }
+    ],
+    "expected_supported_task": false,
+    "id": "trusted_conflict",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "L2"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "UNKNOWN_INTERVAL",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "UNKNOWN_INTERVAL",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "UNKNOWN_INTERVAL",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "UNKNOWN_INTERVAL",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": false,
+    "id": "unknown_interval",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "L2"
+      },
+      {
+        "at": "2048-05-15",
+        "attribute": "color",
+        "component": "extra",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "blue"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": false,
+    "id": "unsupported_extra",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": true,
+    "claims": [],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": false,
+    "id": "unnecessary_abstention",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "NOT L2"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": false,
+    "id": "negated_value_not_supported",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "UNCERTAIN",
+        "value": "L2"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": false,
+    "id": "semantic_extraction_uncertain",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "L2"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "duplicate",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      }
+    ],
+    "expected_supported_task": true,
+    "id": "duplicate_same_value",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "L2"
+      }
+    ],
+    "evidence": [],
+    "expected_supported_task": false,
+    "id": "missing_evidence",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "claims": [
+      {
+        "at": "2048-05-15",
+        "attribute": "locker",
+        "component": "locker",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "L2"
+      },
+      {
+        "at": "2048-05-15",
+        "attribute": "window",
+        "component": "window",
+        "entity": "M",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "10-11"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "jan",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-01-01",
+        "valid_to": "2048-03-31",
+        "value": "L1"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "may",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L2"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "locker",
+        "conflicts": [],
+        "entity": "N",
+        "provenance": "authored_fixture",
+        "source": "other",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "L3"
+      },
+      {
+        "asserted_at": "2048-01-01",
+        "attribute": "window",
+        "conflicts": [],
+        "entity": "M",
+        "provenance": "authored_fixture",
+        "source": "window",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2048-04-01",
+        "valid_to": "2048-06-30",
+        "value": "10-11"
+      }
+    ],
+    "expected_supported_task": true,
+    "id": "correct_two_components",
+    "required": {
+      "locker": [
+        "M",
+        "locker",
+        "2048-05-15"
+      ],
+      "window": [
+        "M",
+        "window",
+        "2048-05-15"
+      ]
+    }
+  }
+]

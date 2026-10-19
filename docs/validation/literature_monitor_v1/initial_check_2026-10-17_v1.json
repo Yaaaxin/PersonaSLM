@@ -1,0 +1,72 @@
+{
+  "artifact_hashes": {
+    ".github/workflows/daily-literature-monitor.yml": "de2b98a5bf05976ee4ed1e4bffcf061231f794c2b9e260c23bc930dec28dd89f",
+    "docs/literature_surveillance_v1.md": "13abc28071ea4fcfc905b1b9ffed31edf711c432eb4d2335942218ab369e6902",
+    "docs/validation/literature_monitor_v1/config_v1.json": "9cd77c2359880befb6d35db1ac4194e2a8bc1e3618822bfe9eb7775e8eb46023",
+    "docs/validation/literature_monitor_v1/ledger_schema_v1.json": "4d3ed644c5e4b39691ad1f5a44ba5a41a674c6165056c8dda80349e42c0f6bd4",
+    "docs/validation/literature_monitor_v1/reviewed_ledger_v1.json": "e643e206074d934edafc8572847bc21f63af5207d695e7119fbd4b169455ebd1",
+    "tests/test_literature_monitor.py": "7afb73b9ddebd273fb08b64607030d3e688a8f0eaea59b29bf0b2ce4a856a864",
+    "tools/literature_monitor.py": "08fd56fe88a8b5e59dc8460719f7dc32d02e33811c3eb50223e4f1f29aa4ab22"
+  },
+  "checked_date": "2026-10-17",
+  "existing_personaslm_sources_reviewed": [
+    "docs/related_work_novelty_matrix_monitor_v7.md",
+    "docs/related_work_novelty_matrix_monitor_v8.md",
+    "docs/validation/p1/literature_verification_v1.json",
+    "docs/validation/p1d/format_calibration_v1/followup_v1/related_work_monitor_delta_v7.json",
+    "docs/validation/research_monitor_v1/literature_search_record_v1.json"
+  ],
+  "human_confirmation": "NOT_RECORDED",
+  "initial_online_collector_execution": "NOT_RUN_INTERACTIVE_PRIMARY_SOURCE_CHECK_USED_INSTEAD",
+  "interpretation": {
+    "direct_collision_verified": false,
+    "novelty_established": false,
+    "provisional_difference": "No source in this bounded check was verified to combine the complete S/F/H factorial, shared sufficient trusted evidence, explicit dated-history conflicts, approximately 0.8B-3B CPU deployment, paired cases, and separate reliability/fidelity endpoints.",
+    "strongest_overlap": [
+      "Personalization-induced factual distortion and factuality/fidelity trade-offs",
+      "Persona conflict and instruction-adherence failures",
+      "Persona cue realization sensitivity",
+      "Long-dialogue persona fidelity degradation",
+      "Temporal reasoning and knowledge-update evaluation"
+    ]
+  },
+  "primary_sources_inspected": [
+    {"disposition": "REVIEWED_LEDGER", "url": "https://aclanthology.org/2026.findings-acl.395/"},
+    {"disposition": "REVIEWED_LEDGER", "url": "https://aclanthology.org/2026.acl-long.2079/"},
+    {"disposition": "REVIEWED_LEDGER", "url": "https://aclanthology.org/2026.eacl-long.246/"},
+    {"disposition": "REVIEWED_LEDGER", "url": "https://aclanthology.org/2026.findings-eacl.24/"},
+    {"disposition": "REVIEWED_LEDGER", "url": "https://aclanthology.org/2026.findings-acl.1175/"},
+    {"disposition": "REVIEWED_LEDGER", "url": "https://arxiv.org/abs/2602.18462"},
+    {"disposition": "REVIEWED_LEDGER", "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/d813d324dbf0598bbdc9c8e79740ed01-Abstract-Conference.html"},
+    {"disposition": "REVIEWED_LEDGER", "url": "https://aclanthology.org/2025.tacl-1.77/"},
+    {"disposition": "MONITOR_COMPLEMENTARY_SAFETY_SCOPE", "url": "https://aclanthology.org/2026.acl-long.1260/"},
+    {"disposition": "MONITOR_COMPLEMENTARY_EMOTIONAL_REASONING_SCOPE", "url": "https://aclanthology.org/2026.acl-short.43/"},
+    {"disposition": "DISCOVERY_METADATA_ONLY_PRIMARY_PAGE_ACCESS_CHALLENGE", "url": "https://openreview.net/forum?id=i2yIvZARnG"}
+  ],
+  "query_scope": [
+    "persona conditioning dialogue reliability temporal memory",
+    "persona personalization dialogue reliability 2025 2026",
+    "long-term conversational memory persona personalization",
+    "persona dialogue long-term memory 2026",
+    "persona conflict temporal dialogue memory",
+    "persona fidelity small language models"
+  ],
+  "reviewed_ledger_records": 8,
+  "reviewer_type": "AI_ASSISTED_PRIMARY_SOURCE_REVIEW",
+  "scheduled_workflow": {
+    "credentials": "NONE",
+    "cron_utc": "23 4 * * *",
+    "persistence": "GITHUB_ACTIONS_ARTIFACT_30_DAYS",
+    "repository_permission": "contents: read",
+    "status": "CONFIGURED_LOCALLY_TESTED_NOT_YET_OBSERVED_ON_GITHUB"
+  },
+  "scope_limit": "Targeted current primary-source check plus selective seed ledger; not an exhaustive or systematic review and not a priority certification.",
+  "test_evidence": {
+    "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_literature_monitor.py",
+    "failed": 0,
+    "passed": 11,
+    "skipped": 0,
+    "warning": "One existing PytestConfigWarning: unknown cache_dir option"
+  },
+  "version": "personaslm_literature_initial_check_v1"
+}

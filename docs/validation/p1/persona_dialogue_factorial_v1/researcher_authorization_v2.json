@@ -1,0 +1,20 @@
+{
+  "amendment_scope": "Execution-integrity and missingness repairs only; exact 48 prompts, token IDs, order, model, settings, aliases, cues, and resource allocation unchanged.",
+  "decision": "AUTHORIZED",
+  "decision_source": "Principal Researcher accelerated autonomous scientific research mandate supplied 2026-10-18",
+  "independent_validation_authorized": false,
+  "manifest_sha256": "4b708a627de15604b8bd3ad732fdeb61d53465de54caefb1db44888107d6cd3a",
+  "maximum_attempts": 48,
+  "parent_authorization_path": "docs/validation/p1/persona_dialogue_factorial_v1/researcher_authorization_v1.json",
+  "parent_authorization_sha256": "fe3bd0710fa2d930a38d9511ea30bc180ead0acd51e573a25761149f11c2c2dc",
+  "prohibitions": [
+    "Do not edit prompts, aliases, reason cues, order, settings, or endpoints after inspecting outputs.",
+    "Do not present this synthetic development batch as real-speaker evidence, independent validation, confirmatory inference, or validated general Persona Fidelity.",
+    "Do not repeat a completed or transport-ambiguous request; every completion call consumes one attempt."
+  ],
+  "registered_utc": "2026-10-18T15:47:26.763574+00:00",
+  "researcher": "Yaxin ZHENG",
+  "retries": 0,
+  "scope": "One no-retry 48-request local CPU development batch using this exact design and configuration, subject to live preflight and cumulative ceilings.",
+  "version": "p1_persona_dialogue_factorial_authorization_v2"
+}

@@ -1,0 +1,52 @@
+{
+  "action": "preflight",
+  "authorization_usage_observed": {
+    "actual_model_inference_wall_seconds": 0.0,
+    "actual_model_inference_wall_seconds_status": "KNOWN_COMPLETED_OR_FAILED_HTTP_INTERVALS",
+    "attempts_by_candidate": {
+      "qwen2_5_3b_instruct_q4_k_m": 0,
+      "smollm2_1_7b_instruct_q4_k_m": 0
+    },
+    "authorization_id": "P1_AUTONOMOUS_MODEL_FEASIBILITY_20261017_V1",
+    "historical_ledger_untouched": true,
+    "new_local_cpu_generations": 0,
+    "remaining_generations": 1200,
+    "remaining_inference_wall_seconds": 72000.0,
+    "run_count": 0,
+    "unresolved_in_flight_completion_requests": 0
+  },
+  "candidate_id": "smollm2_1_7b_instruct_q4_k_m",
+  "error_message": "RAM preflight failed: available=2828460032 required=3221225472; no inference",
+  "error_type": "ValueError",
+  "generation_requests_in_failed_action": 0,
+  "memory_observation": {
+    "observed_utc": "2026-10-18T09:55:06.969964+00:00",
+    "pid": 12772,
+    "platform": "nt",
+    "process": {
+      "page_faults": 319400,
+      "pagefile_usage": 24367104,
+      "peak_pagefile_usage": 26537984,
+      "peak_working_set": 34295808,
+      "quota_nonpaged_pool": 14528,
+      "quota_paged_pool": 149904,
+      "quota_peak_nonpaged_pool": 15000,
+      "quota_peak_paged_pool": 150016,
+      "working_set": 32296960
+    },
+    "status": "observed",
+    "system": {
+      "available_extended": 0,
+      "available_pagefile": 7926181888,
+      "available_physical": 2826665984,
+      "available_virtual": 140733049044992,
+      "load_percent": 77,
+      "total_pagefile": 24509874176,
+      "total_physical": 12698714112,
+      "total_virtual": 140737488224256
+    }
+  },
+  "required_available_physical_bytes": 3221225472,
+  "software_recorded_utc": "2026-10-18T09:55:06.957131+00:00",
+  "status": "BLOCKED"
+}

@@ -1,0 +1,224 @@
+[
+  {
+    "answer_sufficiency": "Both full and reduced ledgers are sufficient; oracle is selected with reference witnesses.",
+    "case_id": "p1d_dev_04_1",
+    "changed_fields": [
+      "trusted_evidence",
+      "prompt",
+      "messages",
+      "input_token_ids",
+      "token_count",
+      "positions",
+      "request identity"
+    ],
+    "literal_required_values_in_oracle": {
+      "locker": true,
+      "pickup_window": true
+    },
+    "new_evidence_rows": 2,
+    "new_input_tokens": 246,
+    "new_request_id": "p5_oracle_dev_v1_p1d_dev_04_1",
+    "old_evidence_rows": 32,
+    "old_input_tokens": 1744,
+    "old_request_id": "p1d_instruct_smoke_v1_p1d_dev_04_1",
+    "reference_changed": false,
+    "source_ids": [
+      "D04F12",
+      "D04F13"
+    ]
+  },
+  {
+    "answer_sufficiency": "Both full and reduced ledgers are sufficient; oracle is selected with reference witnesses.",
+    "case_id": "p1d_dev_03_0",
+    "changed_fields": [
+      "trusted_evidence",
+      "prompt",
+      "messages",
+      "input_token_ids",
+      "token_count",
+      "positions",
+      "request identity"
+    ],
+    "literal_required_values_in_oracle": {
+      "locker": true,
+      "pickup_window": true
+    },
+    "new_evidence_rows": 2,
+    "new_input_tokens": 237,
+    "new_request_id": "p5_oracle_dev_v1_p1d_dev_03_0",
+    "old_evidence_rows": 32,
+    "old_input_tokens": 1645,
+    "old_request_id": "p1d_instruct_smoke_v1_p1d_dev_03_0",
+    "reference_changed": false,
+    "source_ids": [
+      "D03F20",
+      "D03F21"
+    ]
+  },
+  {
+    "answer_sufficiency": "Both full and reduced ledgers are sufficient; oracle is selected with reference witnesses.",
+    "case_id": "p1d_dev_01_0",
+    "changed_fields": [
+      "trusted_evidence",
+      "prompt",
+      "messages",
+      "input_token_ids",
+      "token_count",
+      "positions",
+      "request identity"
+    ],
+    "literal_required_values_in_oracle": {
+      "locker": true,
+      "pickup_window": true
+    },
+    "new_evidence_rows": 2,
+    "new_input_tokens": 238,
+    "new_request_id": "p5_oracle_dev_v1_p1d_dev_01_0",
+    "old_evidence_rows": 32,
+    "old_input_tokens": 1646,
+    "old_request_id": "p1d_instruct_smoke_v1_p1d_dev_01_0",
+    "reference_changed": false,
+    "source_ids": [
+      "D01F04",
+      "D01F05"
+    ]
+  },
+  {
+    "answer_sufficiency": "Both full and reduced ledgers are sufficient; oracle is selected with reference witnesses.",
+    "case_id": "p1d_dev_07_1",
+    "changed_fields": [
+      "trusted_evidence",
+      "prompt",
+      "messages",
+      "input_token_ids",
+      "token_count",
+      "positions",
+      "request identity"
+    ],
+    "literal_required_values_in_oracle": {
+      "locker": true
+    },
+    "new_evidence_rows": 1,
+    "new_input_tokens": 182,
+    "new_request_id": "p5_oracle_dev_v1_p1d_dev_07_1",
+    "old_evidence_rows": 32,
+    "old_input_tokens": 1642,
+    "old_request_id": "p1d_instruct_smoke_v1_p1d_dev_07_1",
+    "reference_changed": false,
+    "source_ids": [
+      "D07F12"
+    ]
+  },
+  {
+    "answer_sufficiency": "Both full and reduced ledgers are sufficient; oracle is selected with reference witnesses.",
+    "case_id": "p1d_dev_05_1",
+    "changed_fields": [
+      "trusted_evidence",
+      "prompt",
+      "messages",
+      "input_token_ids",
+      "token_count",
+      "positions",
+      "request identity"
+    ],
+    "literal_required_values_in_oracle": {
+      "exit": true,
+      "hub": true
+    },
+    "new_evidence_rows": 3,
+    "new_input_tokens": 292,
+    "new_request_id": "p5_oracle_dev_v1_p1d_dev_05_1",
+    "old_evidence_rows": 32,
+    "old_input_tokens": 1675,
+    "old_request_id": "p1d_instruct_smoke_v1_p1d_dev_05_1",
+    "reference_changed": false,
+    "source_ids": [
+      "D05F12",
+      "D05F14",
+      "D05F15"
+    ]
+  },
+  {
+    "answer_sufficiency": "Both full and reduced ledgers are sufficient; oracle is selected with reference witnesses.",
+    "case_id": "p1d_dev_02_0",
+    "changed_fields": [
+      "trusted_evidence",
+      "prompt",
+      "messages",
+      "input_token_ids",
+      "token_count",
+      "positions",
+      "request identity"
+    ],
+    "literal_required_values_in_oracle": {
+      "exit": true,
+      "hub": true
+    },
+    "new_evidence_rows": 3,
+    "new_input_tokens": 303,
+    "new_request_id": "p5_oracle_dev_v1_p1d_dev_02_0",
+    "old_evidence_rows": 32,
+    "old_input_tokens": 1765,
+    "old_request_id": "p1d_instruct_smoke_v1_p1d_dev_02_0",
+    "reference_changed": false,
+    "source_ids": [
+      "D02F04",
+      "D02F06",
+      "D02F07"
+    ]
+  },
+  {
+    "answer_sufficiency": "Both full and reduced ledgers are sufficient; oracle is selected with reference witnesses.",
+    "case_id": "p1d_dev_06_1",
+    "changed_fields": [
+      "trusted_evidence",
+      "prompt",
+      "messages",
+      "input_token_ids",
+      "token_count",
+      "positions",
+      "request identity"
+    ],
+    "literal_required_values_in_oracle": {
+      "locker": true,
+      "pickup_window": true
+    },
+    "new_evidence_rows": 2,
+    "new_input_tokens": 248,
+    "new_request_id": "p5_oracle_dev_v1_p1d_dev_06_1",
+    "old_evidence_rows": 32,
+    "old_input_tokens": 1752,
+    "old_request_id": "p1d_instruct_smoke_v1_p1d_dev_06_1",
+    "reference_changed": false,
+    "source_ids": [
+      "D06F12",
+      "D06F13"
+    ]
+  },
+  {
+    "answer_sufficiency": "Both full and reduced ledgers are sufficient; oracle is selected with reference witnesses.",
+    "case_id": "p1d_dev_00_0",
+    "changed_fields": [
+      "trusted_evidence",
+      "prompt",
+      "messages",
+      "input_token_ids",
+      "token_count",
+      "positions",
+      "request identity"
+    ],
+    "literal_required_values_in_oracle": {
+      "locker": true
+    },
+    "new_evidence_rows": 1,
+    "new_input_tokens": 187,
+    "new_request_id": "p5_oracle_dev_v1_p1d_dev_00_0",
+    "old_evidence_rows": 32,
+    "old_input_tokens": 1740,
+    "old_request_id": "p1d_instruct_smoke_v1_p1d_dev_00_0",
+    "reference_changed": false,
+    "source_ids": [
+      "D00F04"
+    ]
+  }
+]

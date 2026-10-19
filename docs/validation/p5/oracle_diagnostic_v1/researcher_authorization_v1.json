@@ -1,0 +1,18 @@
+{
+  "decision": "AUTHORIZED",
+  "human_decision_timestamp": null,
+  "manifest_sha256": "894b7f0604f1f4c6121c1aefa1e24ee25c59a12c9e5be687e6403d9066d3c08e",
+  "maximum_attempts": 8,
+  "no_retries": true,
+  "partial_model_lineage": "Previously disclosed partial third-party conversion provenance retained; development only.",
+  "path_resolution": "Original p5 path identified by exact authorized SHA and unchanged preceding decision packet; no file substitution or relocation.",
+  "previous_execution_found": false,
+  "registered_utc": "2026-10-14T18:25:03.925387+00:00",
+  "requested_path": "docs/validation/p1d/oracle_evidence_proposed_v1/oracle_evidence_manifest_proposed_v1.json",
+  "researcher": "Yaxin ZHENG",
+  "resolved_original_path": "docs/validation/p5/oracle_evidence_proposed_v1/oracle_evidence_manifest_proposed_v1.json",
+  "semantic_adoption": false,
+  "source": "Latest explicit user instruction: P5 Oracle Diagnostic, Core S/F/H Validation Readiness, Persona Fidelity and Algorithmic Novelty Assessment, section 4",
+  "time_limit_minutes": 45,
+  "version": "p5_oracle_authorization_v1"
+}

@@ -1,0 +1,101 @@
+{
+  "version": "p1_feasibility_analysis_reproduction_v2",
+  "analysis_code": {
+    "path": "tools/reproduce_p1_feasibility_analysis_v2.py",
+    "sha256": "2df9865eaa568ab961ea7de236c352ab9b4a16797a77a6489e50c5e695f2efda"
+  },
+  "evidence_bindings": {
+    "candidate1_run_receipt": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate1_run_receipt_v1.json",
+      "sha256": "541cabb568afe3be0ace249f4a9d24dc507c652f2624e62d6722f70ed8ff3485"
+    },
+    "candidate1_audit": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate1_audit_v1.json",
+      "sha256": "d73d16cf9b8ab7b433f4f53ff2b7567d186d88003b3b7a119df5bd439d725921"
+    },
+    "candidate2_preflight_v4": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v4.json",
+      "sha256": "ca96e25002d5c78f9bf3f15ea6ad0412032bc2ebb3df9adc5b62723417cc9c2d"
+    },
+    "candidate2_run_receipt": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_run_receipt_v1.json",
+      "sha256": "f9140b58adfcf68e57543cc2452798fc7ac5e9499946fe62f2aeb2a0dc5523e7"
+    },
+    "candidate2_audit": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_audit_v1.json",
+      "sha256": "e1d2718bd1c5fdd1395329d736ea581c7c03cfdd00d1de8b63bd5a5d771f0984"
+    },
+    "selection_after_candidate2": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/selection_after_candidate2_v1.json",
+      "sha256": "362fcac650cc8fe286ac5ade0c5a35fab7ef6d862c0214724b439d0bd8848b7e"
+    }
+  },
+  "local_private_archive_replay": {
+    "status": "PASS",
+    "candidates": [
+      {
+        "candidate_id": "smollm2_1_7b_instruct_q4_k_m",
+        "raw_journal_replay": "PASS",
+        "attempts": 8,
+        "result_records": 8,
+        "completion_http_records": 8,
+        "automatic_success": 1,
+        "threshold": 7,
+        "proceed": false,
+        "inference_wall_seconds": 65.87628550000954
+      },
+      {
+        "candidate_id": "qwen2_5_3b_instruct_q4_k_m",
+        "raw_journal_replay": "PASS",
+        "attempts": 8,
+        "result_records": 8,
+        "completion_http_records": 8,
+        "automatic_success": 2,
+        "threshold": 7,
+        "proceed": false,
+        "inference_wall_seconds": 94.08076140000139
+      }
+    ],
+    "restricted_record_content_exported": false
+  },
+  "selection": {
+    "status": "BOUNDED_SCREEN_NEGATIVE",
+    "selected_candidate": null,
+    "candidate_1_success": 1,
+    "candidate_2_success": 2,
+    "qualification_threshold": 7
+  },
+  "authorization": {
+    "autonomous": {
+      "authorization_id": "P1_AUTONOMOUS_MODEL_FEASIBILITY_20261017_V1",
+      "consumed_generations": 16,
+      "generation_limit": 1200,
+      "remaining_generations": 1184,
+      "actual_model_inference_wall_seconds": 159.95704690001094,
+      "inference_wall_seconds_limit": 72000.0,
+      "remaining_inference_wall_seconds": 71840.04295309998,
+      "attempts_by_candidate": {
+        "qwen2_5_3b_instruct_q4_k_m": 8,
+        "smollm2_1_7b_instruct_q4_k_m": 8
+      }
+    },
+    "historical": {
+      "attempted": 80,
+      "authorization": 160,
+      "remaining": 80,
+      "untouched": true
+    }
+  },
+  "reproduction_boundaries": {
+    "analysis_reproduction": "PASS_LOCAL_PRIVATE_ARCHIVE",
+    "generation_reproduction": "NOT_RUN",
+    "public_clone_only_full_reproduction": "PARTIAL_RAW_JOURNALS_AND_WEIGHTS_REQUIRED"
+  },
+  "execution_impact": {
+    "scientific_model_generations": 0,
+    "model_inference_wall_seconds": 0,
+    "network_calls": 0,
+    "authorization_usage_before_equals_after": true,
+    "historical_outputs_modified": false
+  }
+}

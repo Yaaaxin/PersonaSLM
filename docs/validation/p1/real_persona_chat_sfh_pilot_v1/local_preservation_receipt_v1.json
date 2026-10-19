@@ -1,0 +1,34 @@
+{
+  "schema_version": "personaslm_rpc_sfh_local_preservation_v1",
+  "recorded_date_utc": "2026-10-19",
+  "status": "PASS_LOCAL_ARCHIVE_ENTRY_HASH_VERIFICATION",
+  "destination": "E:/DEVOIRS/Research/PersonaSLM-Lab/private_research_backups/20261019_rpc_sfh_v1_1",
+  "archives": [
+    {
+      "source": ".local/experiments/real_persona_chat_sfh_pilot_v1",
+      "archive": "real_persona_chat_sfh_pilot_v1.zip",
+      "sha256": "e1ae635a922da2fb166fc701db1a1c3a7472060f5a97d099f2c06f97470bf2cc",
+      "archive_bytes": 1806677,
+      "file_entries_verified": 826
+    },
+    {
+      "source": ".local/reviewer-packages",
+      "archive": "private_reviewer_packages.zip",
+      "sha256": "d6d9ad714ee6a1e4c27741edfc4553d3ea525c2f205b8e9c503a62829d70399c",
+      "archive_bytes": 88238,
+      "file_entries_verified": 20
+    }
+  ],
+  "method": "Exclusive new destination and ZipFile.CreateFromDirectory; hash every source file, stream every ZIP file entry through SHA-256, compare counts and hashes, then rehash source files to establish no concurrent mutation. Protected mapping bytes were only hashed and copied, not semantically inspected or exposed.",
+  "source_files_removed_or_overwritten": 0,
+  "protected_mapping_opened_for_review": false,
+  "public_raw_participant_data": false,
+  "remote_backup_claimed": false,
+  "off_device_backup_claimed": false,
+  "limitations": [
+    "Both archives are on E: and do not protect against failure of that volume or device.",
+    "Archives contain restricted research material and must remain private.",
+    "This receipt covers the private evidence and review-package snapshots at backup time, not subsequent human edits or all uncommitted public documentation.",
+    "No Git commit or push was executed."
+  ]
+}

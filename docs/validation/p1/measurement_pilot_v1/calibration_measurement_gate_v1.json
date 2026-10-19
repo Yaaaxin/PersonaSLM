@@ -1,0 +1,24 @@
+{
+  "additional_inference_scheduled": false,
+  "authorization_remains_valid": true,
+  "decision": "NO_GO_DEVELOPMENT_PILOT",
+  "decision_type": "AI-assisted scientific readiness recommendation, not a researcher rejection",
+  "evidence_sha256": {
+    "docs\\validation\\p1\\measurement_pilot_v1\\A_C0\\measurement_v1\\AI_proposals_UNCONFIRMED_v1.json": "97639f2b78c4a4fcac16e22fb9bb595a3d3573657793636f224e373e941bbe0e",
+    "docs\\validation\\p1\\measurement_pilot_v1\\C_DIAGNOSTIC\\measurement_v1\\AI_proposals_UNCONFIRMED_v1.json": "38fe7bf7b6ca49e8570d612b1c5074757a884108ef1e60d73e91c13d3b04d30e",
+    "docs\\validation\\p1\\measurement_pilot_v1\\C_DIAGNOSTIC\\measurement_v1\\summary_v2.json": "0f0c795686182734cb10dafe58bfc9af8de37db221a4bf70d5612a8458a30186",
+    "docs\\validation\\p1\\measurement_pilot_v1\\C_DIAGNOSTIC\\prospective_policy_v1.json": "f8458a569cb186a0a018ecf946b007e87570973c95a591148c29fbbb274d5812"
+  },
+  "no_case_selection_or_pilot_prompt_change": true,
+  "not_a_new_permission_gate": "No repeated authorization is requested for ordinary P1 development; actual scientific readiness is unresolved.",
+  "pilot_manifest_sha256": "1fd7ef2d4365119755ca4301779d37c1276c53107d121d0df8dd732aaca6c77b",
+  "reason": "Neither predeclared diagnostic arm has a correct complete answer in each task family; BF opportunity and automatic semantic coverage remain inadequate.",
+  "recorded_utc": "2026-10-15T08:08:40.901307+00:00",
+  "remaining_budget": {
+    "A_C0": 0,
+    "B_FACTORIAL": 80,
+    "C_DIAGNOSTIC": 32
+  },
+  "selected_output_instruction": null,
+  "target_range_not_hard_gate": true
+}

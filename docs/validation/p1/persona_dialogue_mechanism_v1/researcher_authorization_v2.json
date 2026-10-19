@@ -1,0 +1,31 @@
+{
+  "amended_utc": "2026-10-18T16:30:40.839545+00:00",
+  "amendment_scope": "Source-only replay/analysis integrity repair; 42 requests, prompts, native token IDs, order, model, generation settings, allocation, parser and endpoints unchanged.",
+  "case_bank_sha256": "8e6956c4e909bff06a7a5623593493ff84521da680c2f1703110579fb522c6d0",
+  "decision": "AUTHORIZED",
+  "decision_source": "Principal Researcher accelerated autonomous scientific research mandate supplied 2026-10-18",
+  "design_sha256": "694b6e970ae16c4e2284d83aa385b10b78db42d7c1ec3befdbd07ec2f9aec316",
+  "generation_requests_before_amendment": 0,
+  "manifest_sha256": "47f844ed4a65fb8c6742106a2e5f3b2346e8d1cf5231c2a100da182baaf177b5",
+  "maximum_attempts": 42,
+  "measurement_amendment_sha256": "67bd13f3a54a59e4aa04a99eabbc10b92ed362437f4aad4172aed7219d7e8eb4",
+  "parent_authorization_path": "docs/validation/p1/persona_dialogue_mechanism_v1/researcher_authorization_v1.json",
+  "parent_authorization_sha256": "328f63db6fabf3787374bb4e22b77f2f0b19a63d4e5b3149092f69a15fbcf144",
+  "parent_manifest_path": "docs/validation/p1/persona_dialogue_mechanism_v1/frozen_manifest_v1.json",
+  "parent_manifest_sha256": "c3bc7adf1c65fe5700a44ae6de6aa90f28cc787a8a5035250d5e39fbbfc68b92",
+  "parser_clarification_sha256": "ab100aee5d50e38d332770af4299103b0544a0b881a9c4bad8610520402dfb76",
+  "preexecution_integrity_amendment_path": "docs/validation/p1/persona_dialogue_mechanism_v1/preexecution_integrity_amendment_v4.json",
+  "preexecution_integrity_amendment_sha256": "f305a4c01fc4f582d5ca35713684dd06ba3beaaff2ad36a2e752184fab96cf15",
+  "prohibitions": [
+    "Do not inspect validation-case outputs before executing the frozen order.",
+    "Do not edit source cases, arms, parsers, target strings, order, model, or settings after any completion.",
+    "Do not retry malformed, unfavorable, interrupted, or semantically unresolved requests.",
+    "Do not present this adaptive synthetic study as real-speaker, human, confirmatory population, or fully preregistered independent validation."
+  ],
+  "registered_utc": "2026-10-18T16:23:43.732953+00:00",
+  "researcher": "Yaxin ZHENG",
+  "retokenizer_calls": 0,
+  "retries": 0,
+  "scope": "One 42-request local CPU batch using this exact design, frozen order, and configuration, subject to controller integrity and live safety preflight.",
+  "version": "p1_persona_dialogue_mechanism_authorization_v2"
+}

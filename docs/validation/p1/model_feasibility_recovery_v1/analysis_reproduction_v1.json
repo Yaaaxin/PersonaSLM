@@ -1,0 +1,165 @@
+{
+  "version": "p1_feasibility_analysis_reproduction_v1",
+  "analysis_code": {
+    "path": "tools/reproduce_p1_feasibility_analysis.py",
+    "sha256": "2bf7ce8a85762cbb5887a7732bf158a1cf096d1ef6dcd3ad72404ad506be479d"
+  },
+  "candidate1_local_private_archive_replay": {
+    "status": "PASS",
+    "candidate_id": "smollm2_1_7b_instruct_q4_k_m",
+    "integrity_status": "PASS",
+    "attempted": 8,
+    "completion_http_records": 8,
+    "replayed_results": 8,
+    "automatic_success": 1,
+    "threshold": 7,
+    "proceed": false
+  },
+  "selection": {
+    "status": "CANDIDATE_1_FAILED_CANDIDATE_2_PENDING",
+    "selected_candidate": null
+  },
+  "authorization": {
+    "autonomous": {
+      "authorization_id": "P1_AUTONOMOUS_MODEL_FEASIBILITY_20261017_V1",
+      "consumed_generations": 8,
+      "generation_limit": 1200,
+      "remaining_generations": 1192,
+      "actual_model_inference_wall_seconds": 65.87628550000954,
+      "attempts_by_candidate": {
+        "qwen2_5_3b_instruct_q4_k_m": 0,
+        "smollm2_1_7b_instruct_q4_k_m": 8
+      }
+    },
+    "historical": {
+      "attempted": 80,
+      "authorization": 160,
+      "remaining": 80,
+      "untouched": true
+    }
+  },
+  "public_safe_aggregate_isolated_reconstruction": {
+    "status": "PASS",
+    "exact_archived_equality": true,
+    "launcher": {
+      "interpreter": "sys.executable",
+      "flags": [
+        "-I",
+        "-B"
+      ]
+    },
+    "copied_allowlist": [
+      {
+        "path": "tools/p1_evaluator_validity.py",
+        "sha256": "f442198a0b44f12457ca5badd863cb0dbd5f1b386934dd69cd1dcb50dc328101"
+      },
+      {
+        "path": "tools/p1_measurement_scoring.py",
+        "sha256": "b567dec6f2479adfe6f787255b6828eb4292676a43f9b83333e04dd87a66a0b0"
+      },
+      {
+        "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate1_audit_v1.json",
+        "sha256": "d73d16cf9b8ab7b433f4f53ff2b7567d186d88003b3b7a119df5bd439d725921"
+      },
+      {
+        "path": "docs/validation/p1/model_feasibility_recovery_v1/selection_after_candidate1_v1.json",
+        "sha256": "a464dfb0c3d7193dd4821c7b62f323afac9e251e3fa71c66d724c8aebf34db9d"
+      },
+      {
+        "path": "docs/validation/p1b/confirmed_analysis_v1/analysis_v1/structural_semantic_crosstabs_v1.csv",
+        "sha256": "290f7ebd07e2de2fbe42c9431409ff1067f9d044bfd2116762cc4d7e681118e0"
+      },
+      {
+        "path": "docs/validation/p1/stage_b_v1/stage_b_decision_record_v1.json",
+        "sha256": "6f02889248239d866f166e40aa65ac59d074996ed8b5d08d21cdb1816a4a321b"
+      },
+      {
+        "path": "docs/P1_wave1_evaluation_coverage.md",
+        "sha256": "e719dd50c5abc65e0e8cc0778088798df88adbc01b96090619c5eb2fce64dbfa"
+      },
+      {
+        "path": "docs/P1_wave1_structural_semantic_comparison.md",
+        "sha256": "64dd10cf33f9ca505364a60887abd36f99973ade7919502cb891035b3e1c37fe"
+      }
+    ],
+    "archived_artifact": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/evaluator_validity_v1.json",
+      "sha256": "66ef42aaf58b18993eeb168d88f54d7354d7c7dc9ad3d12375906e5c39676ab9"
+    },
+    "canonical_evidence_sha256": "de6b9f580ec5325082830d4d5b06b9cc2a1614f6e59f9b2083c528f9354b9d5f",
+    "restricted_or_raw_record_material_copied": false
+  },
+  "candidate2_preflight_v2": {
+    "status": "BLOCKED",
+    "candidate_id": "qwen2_5_3b_instruct_q4_k_m",
+    "generation_requests": 0,
+    "required_available_physical_bytes": 5368709120,
+    "gate_available_physical_bytes": 4595142656,
+    "deficit_bytes": 773566464,
+    "post_failure_observation_available_physical_bytes": 4584386560,
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v2.json",
+    "sha256": "686f92690681b69911643840ff5a30b8b7b07015bc55a293cc0b283b1908d5d9"
+  },
+  "downstream_execution_boundary": {
+    "status": "REQUIRES_NEW_CANDIDATE2_NATIVE_MATERIALIZATION_AND_CONTROLLER",
+    "existing_conditional_controller_callable_for_candidate2": false,
+    "future_candidate2_gate_policy": "DO_NOT_CALL_EXISTING_P1_CONDITIONAL_EXECUTION_V2",
+    "candidate2_model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+    "legacy_controller_files": [
+      {
+        "path": "tools/p1_conditional_execution.py",
+        "sha256": "d51b15dd23bb268bd272bc7f7f4c6f28ee69d8a7027ab18b4019646b28602c65"
+      },
+      {
+        "path": "tools/p1_conditional_execution_v2.py",
+        "sha256": "4d0c776d994ff680852355abe2e0d3df5e59404fa7446afa49f0ade80a354610"
+      }
+    ],
+    "legacy_80_request_manifests": [
+      {
+        "path": "docs/validation/p1/measurement_pilot_v1/B_FACTORIAL_manifest_v1.json",
+        "sha256": "1fd7ef2d4365119755ca4301779d37c1276c53107d121d0df8dd732aaca6c77b",
+        "request_count": 80,
+        "request_order_sha256": "8e8f18955edeefd2441fd095733daf18e1b5fb9ad63f146513a0d2c8b34bced7",
+        "model_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+        "authorization_id": "P1_ACCELERATED_MEASUREMENT_20261015_V1"
+      },
+      {
+        "path": "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_pilot_manifest_candidate_v1.json",
+        "sha256": "4be7b1959779371502a0e562a589c942676644ef86897196912677978d4da382",
+        "request_count": 80,
+        "request_order_sha256": "b7cc26784a7fac54f73560da7ba9fbd23f0de996fccad2266027596ff92c2fbb",
+        "model_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+        "authorization_id": "P1_ACCELERATED_MEASUREMENT_20261015_V1"
+      }
+    ],
+    "manifest_request_sequences_equal": false,
+    "positional_slice_reuse_verified": false,
+    "reason": "The existing controller and both 80-request manifests bind the historical Qwen3.5 model and historical authorization. Their request sequences differ; a positional slice cannot be transferred to Candidate 2 without prospective native materialization and a new validated controller."
+  },
+  "reproduction_boundaries": {
+    "local_private_archive_analysis": {
+      "status": "PASS",
+      "scope": "Candidate 1 journal/raw-output replay from the local results archive."
+    },
+    "public_safe_aggregate_isolated_reconstruction": {
+      "status": "PASS",
+      "scope": "Exact evaluator aggregate rebuilt from the explicit safe allowlist."
+    },
+    "generation_reproduction": {
+      "status": "NOT_RUN/BLOCKED_RESOURCE",
+      "scope": "No generation was repeated; Candidate 2 remains below its frozen RAM gate."
+    },
+    "public_clone_only_full_reproduction": {
+      "status": "PARTIAL",
+      "scope": "Safe aggregate reconstruction is available, but full Candidate 1 replay depends on the local results archive and generation requires model weights."
+    }
+  },
+  "execution_impact": {
+    "scientific_model_generations": 0,
+    "model_inference_wall_seconds": 0,
+    "authorization_usage_before_equals_after": true,
+    "network_calls": 0,
+    "historical_outputs_modified": false
+  }
+}

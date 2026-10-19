@@ -1,0 +1,34 @@
+{
+  "schema_version": "personaslm_rpc_sfh_execution_authorization_amendment_draft_v1_1",
+  "status": "DRAFT_NOT_AUTHORIZED",
+  "purpose": "Preview the exact authority scope to be written only after a separately produced independent PASS_FOR_AMENDED_EXECUTION audit.",
+  "parent_authorization": {
+    "path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/execution_authorization_v1.json",
+    "sha256": "26be44fe71f16791b2f4815093c8a5c7b2ab93f6092dd9b105300643e7a624fa",
+    "status": "AUTHORIZED_FOR_EXACT_DEVELOPMENT_PILOT"
+  },
+  "proposed_status": "AUTHORIZED_FOR_V1_1_INTEGRITY_REPAIR_EXECUTION",
+  "prospective_bindings": {
+    "amendment_sha256": "486e20ac3fed8a31daf054e505e12db1d6c53fe87a89e65d720030e2a36b5da5",
+    "controller_sha256": "ac174982bad10bc5e659b315c4c75fb73d84fe0bfdf5d4b6d499b2148a9a541e",
+    "test_sha256": "2d5ec568dbd23025004078e7bf4748b8f0a8f5dbc466d3a95c692ad80cec39ec",
+    "failed_preflight_sha256": "792da63871693c540b19fba3ebf6c8c18b3e1c2d97cdf796af68ecc34ff8a327",
+    "stored_schedule_canonical_sha256": "e9387cdeaa27f31162df6584cf5136fe72f8c1409d8cfa1aaf3f7b5dc8552db1",
+    "computed_schedule_canonical_sha256": "e9387cdeaa27f31162df6584cf5136fe72f8c1409d8cfa1aaf3f7b5dc8552db1",
+    "independent_integrity_amendment_audit_sha256": "PENDING"
+  },
+  "permitted_change": "CANONICAL_JSON_SEQUENCE_COMPARISON_ONLY",
+  "scientific_schedule_changed": false,
+  "generation_configuration_changed": false,
+  "frozen_prompts_changed": false,
+  "frozen_token_arrays_changed": false,
+  "native_retokenization_permitted": false,
+  "fresh_preflight_required": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/preflight_v1_1.json",
+  "operations": {
+    "native_tokenizer_calls": 0,
+    "server_launches": 0,
+    "completion_calls": 0,
+    "new_model_generations": 0
+  },
+  "warning": "This draft is not accepted by the v1.1 controller and cannot authorize amend, preflight, or execution."
+}

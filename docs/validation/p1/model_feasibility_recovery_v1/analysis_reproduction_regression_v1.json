@@ -1,0 +1,22 @@
+{
+  "schema_version": "personaslm_p1_analysis_reproduction_regression_v1",
+  "recorded_utc": "2026-10-18T11:22:34.1479363Z",
+  "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_reproduce_p1_feasibility_analysis.py tests/test_p1_evaluator_validity.py tests/test_p1_model_feasibility_recovery.py",
+  "result": {
+    "passed": 43,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 1,
+    "elapsed_seconds": 15.35,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "artifacts": {
+    "tools/reproduce_p1_feasibility_analysis.py": "2bf7ce8a85762cbb5887a7732bf158a1cf096d1ef6dcd3ad72404ad506be479d",
+    "tests/test_reproduce_p1_feasibility_analysis.py": "a26d520a43627c189a26db5061af44e3b81d701e3abcf8c978db518d2a7ec467",
+    "docs/validation/p1/model_feasibility_recovery_v1/analysis_reproduction_v1.json": "4d0570e78106abf1b19113fe616c5b11e4fb59cc87868c646951e22e65bad352"
+  },
+  "scientific_model_generations": 0,
+  "network_calls": 0,
+  "authorization_usage_changed": false,
+  "historical_outputs_modified": false
+}

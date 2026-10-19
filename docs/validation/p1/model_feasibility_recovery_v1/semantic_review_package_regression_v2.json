@@ -1,0 +1,41 @@
+{
+  "schema_version": "personaslm_semantic_review_package_regression_v2",
+  "recorded_utc": "2026-10-18T13:24:47.4036282+00:00",
+  "status": "PASS",
+  "supersedes_for_current_regression_only": {
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/semantic_review_package_regression_v1.json",
+    "sha256": "74c05b2bf960bd9da18972bb50cb77fcc4581f895bf1130f00f6709471d530da",
+    "reason": "Adds the later synthetic-only review-integration validator tests; v1 remains preserved."
+  },
+  "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_p1_model_feasibility_recovery.py tests/test_p1_evaluator_validity.py tests/test_reproduce_p1_feasibility_analysis.py tests/test_literature_monitor.py tests/test_literature_monitor_arxiv_doi_dedup.py tests/test_literature_review_addendum.py tests/test_windows_literature_scheduler.py tests/test_post_restart_literature_review.py tests/test_p1_independent_validation_precision.py tests/test_p1_semantic_review_package.py tests/test_p1_semantic_review_integration.py",
+  "result": {
+    "passed": 75,
+    "failed": 0,
+    "skipped": 0,
+    "wall_seconds_reported_by_pytest": 17.97,
+    "warning_count": 1,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "semantic_review_package": {
+    "receipt_path": "docs/validation/p1/model_feasibility_recovery_v1/semantic_review_package_v1.json",
+    "receipt_sha256": "dedd19f6383b44f44a9e91fc67e6e652bf7cae4a9dca043c262a628db3542dbd",
+    "responses": 16,
+    "completed_human_labels": 0,
+    "real_mapping_opened_for_integration": false
+  },
+  "future_review_integration": {
+    "status": "READY_NOT_EXECUTED",
+    "tool_path": "tools/p1_semantic_review_integration.py",
+    "tool_sha256": "e8143956efc8661ac433b87ec3250f2eafe9a7c977ddccf866ffe1b68a0ed24b",
+    "test_path": "tests/test_p1_semantic_review_integration.py",
+    "test_sha256": "2d93869640fb032c6cfc2d9020d1f2ef2f6a59ac710f23547c28ab241de06cc2",
+    "tests_use_synthetic_labels_only": true,
+    "frozen_gate_changes": false
+  },
+  "execution_impact": {
+    "scientific_model_generations": 0,
+    "inference_seconds": 0.0,
+    "historical_evidence_modified": false,
+    "git_stage_commit_or_push": false
+  }
+}

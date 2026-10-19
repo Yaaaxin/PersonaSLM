@@ -1,0 +1,59 @@
+{
+  "schema_version": "personaslm_disjoint_surface_validation_withdrawal_v1",
+  "status": "REGISTERED_CANDIDATE_NOT_EXECUTED_WITHDRAWN_SCIENTIFIC_DESIGN_NO_GO",
+  "withdrawn_utc": "2026-10-18T20:42:42.1302988Z",
+  "researcher": "Yaxin ZHENG",
+  "decision": {
+    "v1_must_not_be_authorized_or_executed": true,
+    "historical_evidence_must_not_be_overwritten": true,
+    "successor": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/prospective_design_v2.json",
+    "successor_status_at_withdrawal": "IN_PREEXECUTION_REPAIR"
+  },
+  "frozen_v1_bindings": {
+    "design": {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/prospective_design_v1.json",
+      "sha256": "5091736dbb3a96b38ea76e4acd299a951ef661b3db30efaf270be2bf1274808d"
+    },
+    "case_bank": {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/case_bank_v1.json",
+      "sha256": "b8304ce94b8a159de4d9e779137633a9bd30460113931edf74cbf277868a7dc0"
+    },
+    "review_schema": {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/blinded_human_review_schema_v1.json",
+      "sha256": "c72ed0c83131bc80aac54675c29cc4a3fd6ecb33d1055a00d45bf25e48bbbd7a"
+    },
+    "material_audit": {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/material_disjointness_audit_v1.json",
+      "sha256": "9bbcd2b9a4dd5969bb72a38edaf676903da1389aec4abfbf820f630b94873b24"
+    },
+    "controller": {
+      "path": "tools/p1_persona_dialogue_disjoint_surface_validation.py",
+      "sha256": "751f601bb060cb70777b30cb2c1f3910090b8a376f475b5f546bf853b2af7dbe"
+    },
+    "tests": {
+      "path": "tests/test_p1_persona_dialogue_disjoint_surface_validation.py",
+      "sha256": "cd3ec51f3f8beb73d75137016d7882421812dfe43e7f730c7ea0fb7b7ae1ed6a"
+    }
+  },
+  "no_go_reasons": [
+    "Archived anchor letters L/C/I reveal semantic roles rather than using opaque display-position identities.",
+    "The response assessability rule does not exclude every truncated or uncertified first unit.",
+    "Audit and analysis do not preserve all 168 planned slots under partial or blocked execution.",
+    "The blinded-review schema is not yet an operational deterministic 168-record Stage A plus 72-pair Stage B package and intake protocol.",
+    "The 24-row order is position-balanced but not prospectively audited for first-order directed-predecessor balance.",
+    "Eight case identifiers disagree with their bound personas and one irrelevant control is semantically non-orthogonal.",
+    "Failure-path inference-time accounting, authorization timestamp validation, and non-PASS CLI exit behavior require repair."
+  ],
+  "completed_operations": {
+    "authorization_files_created": 0,
+    "native_tokenizer_calls": 0,
+    "preflight_receipts_created": 0,
+    "model_server_launches": 0,
+    "generation_attempts": 0,
+    "raw_responses": 0,
+    "derived_results": 0,
+    "human_review_records": 0,
+    "human_labels": 0
+  },
+  "scientific_interpretation": "V1 is a preserved negative design-review outcome, not an empirical model result."
+}

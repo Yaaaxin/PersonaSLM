@@ -58,3 +58,138 @@ These full-text comparisons narrow the novelty space. They do not prove that no 
 | Controlled findings transfer to real-speaker English tasks | Real-user persona simulation and behavioral evaluation are already represented by Wiki-Talkie, REALTALK and TwinVoice | Comparable reliability effects on authorized, independent real-speaker material with source-valid facts | Failure to transfer, showing a scoped synthetic boundary rather than a universal persona effect | No such experiment or private data collection occurred; future external validation cannot be claimed now |
 
 The [measurement audit](P1_wave1_measurement_audit.md) distinguishes observed counts from these hypotheses. All five priorities remain potential research questions. A justified replication or well-bounded null result may be scientifically useful, but publication requires valid methods, appropriate evidence and claims; the [PLOS ONE criteria](https://journals.plos.org/plosone/s/criteria-for-publication) do not make a positive effect a prerequisite. Further generations need a specific information-value argument and researcher authorization.
+
+## 2026-10-18 model-feasibility recovery novelty addendum
+
+This addendum updates prospective contribution boundaries after primary-source review; it does not reinterpret frozen Wave 1 or Stage B outcomes. The structured review and source scope are preserved in `docs/validation/literature_monitor_v1/reviewed_ledger_v1.json` and `literature_checkpoint_2026-10-18_v1.json`. None of the cited findings was independently reproduced by PersonaSLM.
+
+| Verified primary source | Material overlap | Required PersonaSLM adaptation |
+|---|---|---|
+| [Beyond similarity retrieval](https://link.springer.com/article/10.1007/s41060-026-01290-8), International Journal of Data Science and Analytics, 2026 | Defines governing persona-related facts; tests revisions and stale superseded facts; introduces SCR-T; and reports local CPU inference with quantized small open-weight models, including 1B–3B models in a format-controlled downstream experiment | Treat SCR-T or an information-equivalent supersession filter as a strong baseline before any temporal-provenance algorithm claim. Neither CPU-small-model deployment nor supersession resolution is novel by itself |
+| [When Context Changes](https://arxiv.org/abs/2609.38866v1), arXiv 2026 | Defines stale binding as choosing an old value of the same variable after an update and studies information selection and an attention intervention | Preserve `OUTDATED_VALUE_ADOPTION` separately, but do not present the two Stage B old-value outputs as discovery of a new failure mechanism. Internal attention drift remains untested in PersonaSLM |
+| [MemAdapter](https://arxiv.org/abs/2610.05162v1), arXiv 2026 | Uses counterfactual risk, context-aware reflection, and evidence-grounded reasoning to reduce unreliable effects from historical beliefs or preferences | Any later memory-suppression or evidence-selection method needs a concrete technical distinction, matched-information comparison, ablation, cost accounting, and independent evaluation |
+| [Persona Following Is Not Selective Control](https://arxiv.org/abs/2609.35036v1), arXiv 2026 | Shows cross-attribute effects and a neutrality gap when one persona attribute is manipulated | Interpret S/F/H as complete prompt packages, not proven pure latent causes. Add prospective non-target manipulation checks; token matching alone remains insufficient evidence of semantic neutrality |
+| [Back in Style](https://arxiv.org/abs/2610.10988v1), UserSim @ NeurIPS 2026 workshop | Represents persona style as observable linguistic rates and applies stylometry and lexicon diagnostics | Compare future linguistic-fidelity measures with these model-free diagnostics and genuine researcher labels; keep style fidelity, naturalness, and reliability separate |
+| [Generalization saturation and reasoning divergence](https://www.sciencedirect.com/science/article/pii/S1566253526003568), Information Fusion 2026 | Directly studies persona-consistency versus reasoning-stability trade-offs and unintended persona-prompt effects on unrelated tasks | Broad claims that persona conditioning perturbs reasoning or creates a fidelity/reliability trade-off are no longer defensible as a unique contribution |
+
+The strongest defensible contribution hypothesis is now deliberately narrow: estimate how complete S, F, and explicitly dated H conditioning packages, individually and interactively, change reliability under shared sufficient evidence in approximately 0.8B–3B CPU-deployed models, while reporting outdated-value adoption, persona fidelity, and CPU cost separately. No reviewed source in this bounded check was verified to combine that entire design. This is not a priority claim: factor isolation is not yet demonstrated, the viable-model screen is incomplete, the factorial has not executed, and no independent validation exists.
+
+Algorithmic contribution remains unsupported. The ESCP negative result is preserved, P6 remains paused, and the new closest prior work raises rather than lowers the bar for activation. A future activation decision would require a replicated residual failure that persists after full-context, recency/current-value selection, SCR-T-style supersession, and an evidence-grounded memory baseline under equal information.
+
+## 2026-10-18 selective-history and provenance review addendum
+
+The versioned structured evidence for this update is
+`docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v1.json`.
+The review inspected the available full-text methods, experiments, results, appendices,
+and limitations. It is AI-assisted primary-source review, not human confirmation or an
+independent reproduction of any paper.
+
+| Primary source | Closest overlap | Consequence for PersonaSLM |
+|---|---|---|
+| [Wiki-Talkie](https://arxiv.org/html/2610.08513v1) | Compares raw comment history, explicit profiles, and compressed behavioral descriptions for next-turn generation and population-level behavioral fidelity | PersonaSLM cannot claim the first history-versus-profile comparison or the first benefit of history for behavioral fidelity. Future comparisons need information- and token-matched history/summary controls and must not equate population resemblance with individual Persona Fidelity |
+| [ReTurn](https://arxiv.org/html/2610.11948v2) | Uses matched direct and conversational views to distinguish base answerability from selective-history failure, and separates history-required from history-interfering tasks | Future H mechanism cohorts should prospectively include matched direct references, consistent/outdated conflict pairs, history-required reverse controls, and answer-identity errors. C0 failure alone is not evidence of a History effect; simple restatement and routing are required baselines |
+| [Memory Echo / FPA](https://arxiv.org/html/2610.17763v1) | Tracks same-source memory families and combines one-representative-per-family serving, correction-conditioned eligibility, and authority-guided answer constraints | FPA is a direct P6 competitor. Broad temporal-provenance, source-family deduplication, conditional stale-memory suppression, and authority-gating claims are occupied prior art. Any later method must be technically distinct and beat FPA components, simple temporal filtering, and restatement under matched information |
+
+FPA does not eliminate every possible algorithmic direction: its experiments concern
+retrieval/write-back trace multiplication rather than static dated persona dialogue, and
+do not jointly study validity intervals, uncertain provenance, S/F/H isolation, Persona
+Fidelity constraints, or CPU-small-model deployment. Those differences are research
+questions, not novelty evidence. P6 therefore remains paused. Implementing a renamed
+provenance/suppression pipeline before identifying a replicated residual PersonaSLM
+failure would be scientifically unjustified.
+
+## 2026-10-18 post-restart evaluator-validity addendum
+
+The post-restart frozen collector succeeded for all 13 metadata requests and produced a
+217-record discovery snapshot. Of 26 stable IDs not present in the earlier same-day
+snapshot, one warranted full-text review: [PersEvalBench](https://arxiv.org/abs/2610.19314v1).
+The versioned evidence and primary-source hashes are recorded in
+`docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v2.json`.
+The older 14-record ledger and prior three-paper addendum remain byte-unchanged.
+
+PersEvalBench directly narrows broad evaluator novelty claims. It prospectively fixes
+whether user information should persist, transfer, or cease to apply, then tests
+directional `Right`/`Under`/`Over` judgments on 403 matched scenarios, including stale or
+superseded use. Its reported human reference covers 100 scenarios and has 83.5% exact
+agreement (Cohen's kappa 0.72); the largest reported gap is under-personalization
+recognition (94.4% for each human annotator versus 63.9% for the strongest reported LLM
+evaluator). Gold evidence access and structured prompts do not remove the failure.
+Pairwise comparison is substantially easier, but exposes the contrast and does not recover
+error direction. These are paper-reported results, not PersonaSLM reproductions.
+
+Consequently, PersonaSLM cannot claim priority for evaluator-side testing of appropriate
+persona use, controlled stale/superseded-use errors, or LLM-judge confusion between under-
+and over-personalization. Future S/F/H work must not use an LLM judge as its sole semantic
+endpoint. The primary review should remain condition-blinded and pointwise, retain
+direction-specific current/outdated/omitted-or-incomplete/unsupported categories, and
+report false alarms, abstention or unverifiable coverage, and genuine human agreement.
+Matched pairwise judgments can be a secondary sensitivity analysis only. This adaptation
+changes no historical gate or completed experiment.
+
+## 2026-10-18 temporal-state and publication-status delta
+
+The versioned structured evidence for this bounded update is
+`docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v3.json`.
+The earlier v1 and v2 addenda remain unchanged. This update records primary-source claims
+and publication status; it does not independently reproduce any paper result.
+
+| Source and verified status | Prior-art boundary | Immediate consequence |
+|---|---|---|
+| [TEM: Temporal State Tracking Memory](https://arxiv.org/html/2610.21900v1), arXiv:2610.21900v1, preprint | Versioned source-linked facts, source ordering, explicit historical labels, hybrid event/original-turn evidence, and compact temporal evidence are implemented and ablated. The paper reports 420 state-update questions over 60 personas and a fixed-budget LoCoMo comparison, but uses 4B-20B backbones and an A100 40 GB GPU | Temporal versioning, historical marking, and compact provenance-aware evidence are occupied components. Any PersonaSLM method needs matched session-RAG, no-label/source-order, and full-TEM or information-equivalent baselines, plus Persona Fidelity and CPU cost |
+| [FEB-30](https://arxiv.org/html/2610.22209v1), arXiv:2610.22209v1, preprint | Separates intrinsic memory-state quality from downstream QA and reports substantial divergence between them | A history intervention must archive and score selected/stored evidence state separately from final response correctness; final answers alone cannot validate the mechanism |
+| [Explaining Roles of Experts in MoE LLMs for Personalization](https://arxiv.org/html/2610.22127v1), arXiv:2610.22127v1, under-review preprint | Uses crosscoders, activation patching, and expert steering to localize personalization behavior in MoE models | First causal localization or expert-level disentanglement of personalization is not an available claim. Its architectures and training cost make it a novelty boundary, not an immediate local-CPU baseline |
+| [Assessing inter-rater agreement among large language model judges](https://doi.org/10.1016/j.techfore.2026.124894), *Technological Forecasting and Social Change*, formal journal article | Reports poor-to-moderate agreement and material non-compliance among three LLM persona judges. The 2026 online record and January 2027 issue are one DOI record, not two publications | Multi-LLM agreement is not human validation. Genuine blinded human semantic review and judge non-compliance reporting remain necessary |
+| [Personalized dialogue generation based on social game data collection and two-stage response generation model](https://doi.org/10.1007/s10791-026-10687-9), *Discover Computing*, formal journal article | Introduces the Homeland dialogue data and a selective persona-predictor/compression/generation pipeline | Selective persona-attribute prediction and compression are established comparators; data availability, consent, and reproduction must be verified before use |
+| [Towards proactive detection of user-side implicit conflicts in human-LLM dialogue](https://doi.org/10.1016/j.eswa.2026.134687), *Expert Systems with Applications*, formal journal record | Title, authors, venue and DOI were verified, but the method and results were not available for primary full-text review | Retain as a review-queue novelty risk; do not infer a conflict-detection mechanism from the title |
+
+The current history-intrusion novelty boundary is therefore stricter than the previous
+FPA-only statement. ReTurn already covers matched history-help/history-harm diagnosis;
+FPA covers source-family deduplication, correction-conditioned eligibility and authority
+gating; memory-governance work covers admission/presentation; TEM covers versioned state,
+source ordering, historical labels and compact evidence; and FEB-30 covers internal-state
+versus final-answer evaluation. A simple stale-history filter, temporal tag, provenance
+gate, deduplication rule, admission gate, authority instruction, or renamed combination is
+not a defensible algorithmic contribution.
+
+A remaining testable gap is narrower: an information-matched S/F/H factorial on
+approximately 0.8B-3B CPU-deployed models that jointly measures reliability and
+linguistic/behavioral Persona Fidelity. A later algorithm would additionally need a
+replicated residual failure after strong simple and published baselines, separate internal
+state and response scoring, equal information access, ablations, CPU latency/RAM, and
+independent validation. This is a prospective gap, not evidence of novelty or efficacy.
+
+## 2026-10-19 disjoint surface-validation consequence
+
+The prospectively frozen 24-case, 168-response synthetic validation did not reproduce the
+earlier same-bank declarative-history association as a stable pooled benefit. Registered
+declarative-minus-raw point estimates were 0.0000 for preferred-current selection and
++0.0139 for any-current selection, with task-family effects in both directions. This is
+negative evidence against promoting declarative rendering from a simple prompt baseline to
+an algorithmic contribution.
+
+The registered irrelevant-H-minus-no-H automatic estimate was -0.1875 on both endpoints,
+but a separately labelled post-hoc audit found exact system-format placeholder copying in
+24/144 History-conditioned outputs and 0/24 no-H outputs. Twenty-three placeholder outputs
+were automatically scored `NONE`; all 23 nevertheless contained the preferred canonical
+name in the first sentence and none contained the nonpreferred name. This is a reproducible
+measurement/realization mechanism in the tested configuration, not evidence that History
+causes semantic persona unreliability, not a novel memory algorithm, and not human-validated
+Persona Fidelity. Any future intervention must first show a residual semantic failure after
+genuine blinded review; automatic anchor insertion or constrained formatting alone would be
+metric repair or a known structured-generation baseline, not defensible novelty.
+
+## 2026-10-19 real-speaker and longitudinal-memory addendum
+
+This targeted primary-source review complements, rather than repeats, the completed
+daily metadata collection. Its structured record is
+`docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-19_v1.json`.
+
+| Source and verified status | Direct overlap | Consequence for PersonaSLM |
+|---|---|---|
+| [RealPersonaChat](https://aclanthology.org/2023.paclic-1.85/), PACLIC 2023 formal proceedings; [v1.0.0 corpus](https://github.com/nu-dialogue/real-persona-chat) | 233 genuine participants, participant-authored ten-sentence personas, repeated timestamped Japanese dialogues, public-release consent and ethics approval | This is a legitimate aggregate real-speaker development path, not permission to impersonate individuals. PersonaSLM must keep speaker/partner partitions disjoint, exclude demographic and personality-scale predictors, preserve raw data locally, and publish only aggregate evidence. |
+| [RealCompanion](https://arxiv.org/html/2610.01780v3), arXiv v3 preprint, no peer-reviewed venue verified; [controlled dataset card](https://huggingface.co/datasets/Quislab/RealCompanion) | Ten consented human-AI relationships over 36--120 days; evidence-linked profiles, personas and reply items; explicit retrieval-restraint measurement. Released wording is rewritten, access is restricted, and training or redistribution is prohibited. | Selective-memory, abstention/restraint, and evidence-linked persona reconstruction are occupied research space. Rewritten text cannot validate linguistic style fidelity. PersonaSLM must not claim novelty for deciding whether history matters or for simple memory filtering. |
+
+The RealPersonaChat development diagnostic tests only whether a frozen nonlexical
+style instrument detects cross-partner speaker signal. It does not establish model
+Persona Fidelity, a conditioning effect, or independent validation. RealCompanion
+was not downloaded or used for an experiment.

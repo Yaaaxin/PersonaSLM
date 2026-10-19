@@ -1,0 +1,222 @@
+{
+  "O1_rule": "Group exact original fact lines by entity in lexical order, then valid_from, valid_to, attribute, source_id; add entity headings only. No fact removed or added.",
+  "Q0_scoring": "Original rubric and frozen automatic v2; preserve original labels and all scoring limitations.",
+  "Q1_blocked": [],
+  "Q1_normalization": "Unicode NFKC, collapse whitespace, casefold, remove at most one trailing period; whole-answer equality to frozen aliases only. No markdown/prose stripping or substring credit.",
+  "Q1_rule": "When several required entity/date components are valid at query date, choose the first qualifying component in the original frozen reference-answer order. Otherwise retain v1 unique/fallback rule.",
+  "Q1_specs": {
+    "p1_measure_calibration_00": {
+      "aliases": [
+        "Bay B5022",
+        "B5022"
+      ],
+      "candidate_components": [
+        "current_bay"
+      ],
+      "question": "Which bay is assigned to Ada Alderbrook on 2051-09-15? Give exactly one bay identifier.",
+      "reference": [
+        {
+          "key": "current_bay",
+          "source_ids": [
+            "p1_measure_calibration_00_E01"
+          ],
+          "value": "Bay B5022"
+        }
+      ],
+      "requested_date": "2051-09-15",
+      "selected_component": "current_bay",
+      "selection": "Unique eligible entity/date component"
+    },
+    "p1_measure_calibration_01": {
+      "aliases": [
+        "Bay B5096",
+        "B5096"
+      ],
+      "candidate_components": [
+        "requested_bay"
+      ],
+      "question": "Which bay is assigned to Bryn Alderbrook on 2051-03-15? Give exactly one bay identifier.",
+      "reference": [
+        {
+          "key": "requested_bay",
+          "source_ids": [
+            "p1_measure_calibration_01_E00"
+          ],
+          "value": "Bay B5096"
+        }
+      ],
+      "requested_date": "2051-03-15",
+      "selected_component": "requested_bay",
+      "selection": "Unique eligible entity/date component"
+    },
+    "p1_measure_calibration_02": {
+      "aliases": [
+        "Bay B5102",
+        "B5102"
+      ],
+      "candidate_components": [
+        "current_bay"
+      ],
+      "question": "Which bay is assigned to Cora Alderbrook on 2051-09-15? Give exactly one bay identifier.",
+      "reference": [
+        {
+          "key": "current_bay",
+          "source_ids": [
+            "p1_measure_calibration_02_E01"
+          ],
+          "value": "Bay B5102"
+        }
+      ],
+      "requested_date": "2051-09-15",
+      "selected_component": "current_bay",
+      "selection": "Unique eligible entity/date component"
+    },
+    "p1_measure_calibration_03": {
+      "aliases": [
+        "Bay B5177",
+        "B5177"
+      ],
+      "candidate_components": [
+        "requested_bay"
+      ],
+      "question": "Which bay is assigned to Dale Alderbrook on 2051-03-15? Give exactly one bay identifier.",
+      "reference": [
+        {
+          "key": "requested_bay",
+          "source_ids": [
+            "p1_measure_calibration_03_E00"
+          ],
+          "value": "Bay B5177"
+        }
+      ],
+      "requested_date": "2051-03-15",
+      "selected_component": "requested_bay",
+      "selection": "Unique eligible entity/date component"
+    },
+    "p1_measure_calibration_04": {
+      "aliases": [
+        "Bay B5238",
+        "B5238"
+      ],
+      "candidate_components": [
+        "current_bay",
+        "connected_zone",
+        "departure_gate"
+      ],
+      "question": "Which bay is assigned to Evan Alderbrook on 2051-09-15? Give exactly one bay identifier.",
+      "reference": [
+        {
+          "key": "current_bay",
+          "source_ids": [
+            "p1_measure_calibration_04_E01"
+          ],
+          "value": "Bay B5238"
+        }
+      ],
+      "requested_date": "2051-09-15",
+      "selected_component": "current_bay",
+      "selection": "Researcher-clarified original-order tie break"
+    },
+    "p1_measure_calibration_05": {
+      "aliases": [
+        "Bay B5284",
+        "B5284"
+      ],
+      "candidate_components": [
+        "requested_bay",
+        "connected_zone",
+        "departure_gate"
+      ],
+      "question": "Which bay is assigned to Faye Alderbrook on 2051-03-15? Give exactly one bay identifier.",
+      "reference": [
+        {
+          "key": "requested_bay",
+          "source_ids": [
+            "p1_measure_calibration_05_E00"
+          ],
+          "value": "Bay B5284"
+        }
+      ],
+      "requested_date": "2051-03-15",
+      "selected_component": "requested_bay",
+      "selection": "Researcher-clarified original-order tie break"
+    },
+    "p1_measure_calibration_06": {
+      "aliases": [
+        "Bay B5316",
+        "B5316"
+      ],
+      "candidate_components": [
+        "september_bay"
+      ],
+      "question": "Which bay is assigned to Glen Alderbrook on 2051-09-15? Give exactly one bay identifier.",
+      "reference": [
+        {
+          "key": "september_bay",
+          "source_ids": [
+            "p1_measure_calibration_06_E01"
+          ],
+          "value": "Bay B5316"
+        }
+      ],
+      "requested_date": "2051-09-15",
+      "selected_component": "september_bay",
+      "selection": "Unique eligible entity/date component"
+    },
+    "p1_measure_calibration_07": {
+      "aliases": [
+        "Bay B5361",
+        "B5361"
+      ],
+      "candidate_components": [
+        "september_bay"
+      ],
+      "question": "Which bay is assigned to Hope Alderbrook on 2051-09-15? Give exactly one bay identifier.",
+      "reference": [
+        {
+          "key": "september_bay",
+          "source_ids": [
+            "p1_measure_calibration_07_E01"
+          ],
+          "value": "Bay B5361"
+        }
+      ],
+      "requested_date": "2051-09-15",
+      "selected_component": "september_bay",
+      "selection": "Unique eligible entity/date component"
+    }
+  },
+  "Q1_states": "Exact alias -> Success/Correct. Whole wrong bay code -> Failure/Incorrect. Empty observed answer -> Failure/Missing answer. No output record -> Missing. Other prose/contradiction -> Uncertain/Unverifiable, human review. N/A separate.",
+  "allocation_transfer": false,
+  "blocked_requests_not_replaced": true,
+  "conditions": {
+    "D0": "Original evidence/question; reuse original C0 outputs",
+    "D1": "Entity/date-organized identical facts; original question",
+    "D2": "Original evidence; single-answer question",
+    "D3": "Entity/date-organized identical facts; single-answer question"
+  },
+  "decision_rule": {
+    "automatic_exact_agreement_minimum_per_condition": 7,
+    "denominator": 8,
+    "family_zero_of_two": "NOT MEASUREMENT-READY; prospective development restriction only, no permanent scope change",
+    "missing_audit": "SCIENTIFIC DECISION PENDING REVIEW",
+    "priority": [
+      "D0",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "required_audited_records": 32,
+    "success_minimum_per_condition": 6
+  },
+  "future_pilot": "Prepare v2 only after audited qualification; 8 disjoint new development cases x10 conditions; separate execution authorization, audit 8 C0 first and proceed72 only at >=6/8 success.",
+  "interpretation": "O is organization/position/format/length/salience package. Q changes cardinality and competence; not persona effects or pure retrieval/reasoning.",
+  "maximum_new_attempts": 24,
+  "persona_fidelity": "No S/F/H interventions. Q1 reduces style/behavior opportunity; insufficient opportunity is not zero. No fidelity validation.",
+  "phase": "P1_ONLY",
+  "primary_endpoint": "AUDITED TASK SUCCESS; no official decision from automatic or AI proposals",
+  "registered_utc": "2026-10-15T11:07:40.591361+00:00",
+  "scientific_selection": "No future factorial case selection from observed calibration results.",
+  "user_instruction": "P1 Measurement Recovery, Prespecified 2x2 Diagnostic Experiment and Conditional Factorial Pilot Preparation",
+  "version": "p1_recovery_2x2_policy_v2"
+}

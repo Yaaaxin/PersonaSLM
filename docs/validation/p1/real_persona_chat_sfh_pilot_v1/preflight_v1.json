@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-10-19T05:46:21.598335+00:00",
+  "error": {
+    "message": "Schedule changed",
+    "type": "ValueError"
+  },
+  "operations": {
+    "completion_calls": 0,
+    "new_model_generations": 0,
+    "server_launches": 0
+  },
+  "resources": {
+    "available_physical_ram_bytes": 4854206464,
+    "available_ram_deficit_bytes": 0,
+    "free_output_disk_bytes": 4206231552,
+    "minimum_free_output_disk_bytes": 1073741824,
+    "minimum_prelaunch_available_physical_ram_bytes": 3221225472
+  },
+  "retry_without_material_resource_or_integrity_change": false,
+  "scientific_status": "BLOCKED_RESOURCE_OR_INTEGRITY",
+  "status": "FAIL"
+}

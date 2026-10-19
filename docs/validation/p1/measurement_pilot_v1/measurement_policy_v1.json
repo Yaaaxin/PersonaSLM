@@ -1,0 +1,228 @@
+{
+  "future_P6_preserved_paused": "Future maximize prespecified R(A), subject F(A)>=F(A0)-delta and C(A)<=B; persona-preserving A0 (not automatically C0), prespecified scales/margins and uncertainty or Pareto comparisons. No P6 work authorized now.",
+  "measurement": {
+    "AI": "Separate item-level proposals with evidence, alternative and uncertainty. Human fields blank. Initial condition-masked scoring; response cues may reveal treatments.",
+    "agreement": "Exact metric-specific paired comparable judgments; categorical confusion, missingness, coverage and discordances. Shared references mean agreement is not independent accuracy.",
+    "automatic": "Conservative typed-value/slot checks; unknown scope and unsupported free text remain flagged. Never infer full factual truth from token presence alone.",
+    "behavioral_fidelity": "1 opposite ordering, 2 largely contrary, 3 mixed, 4 mostly aligned, 5 target answer/acknowledgment ordering. No opportunity if only an answer or only acknowledgment; absence is not forced low score.",
+    "boundary": "Preserve raw response_status_v1. Separate eos/eog-compatible boundary view and item-level first-answer proposal. No automatic factual penalty for budget/cross-turn. Do not invent a reply from unresolved spans.",
+    "coherence": {
+      "1": "Unintelligible",
+      "2": "Major discourse breakdown",
+      "3": "Understandable with substantial discontinuity",
+      "4": "Minor ambiguity or awkward connection",
+      "5": "Clear internally connected response"
+    },
+    "completeness": "YES/NO/UNCERTAIN/MISSING for requested answer delivery, independent of truth; a complete wrong answer can be YES.",
+    "coverage": "Report delivered components and supported components separately with exact source witnesses.",
+    "factual": "Audit each material assertion against evidence and scope. Correct/Incorrect/Unverifiable/N/A/Missing. Partial correct claims can be Correct with task failure.",
+    "linguistic_fidelity": "1 incompatible, 2 mostly incompatible, 3 mixed, 4 mostly aligned, 5 all observable target features aligned; not factual accuracy or prompt similarity.",
+    "opportunity": [
+      "SCORED",
+      "INSUFFICIENT_OPPORTUNITY",
+      "BOUNDARY_UNRESOLVED",
+      "INTERPRETATION_UNCERTAIN",
+      "MISSING",
+      "NOT_APPLICABLE"
+    ],
+    "relevance": {
+      "1": "Off topic",
+      "2": "Mostly irrelevant",
+      "3": "Partly addresses question",
+      "4": "Addresses question with minor digression/omission",
+      "5": "Directly addresses requested task without digression"
+    },
+    "task": "All requested components delivered correctly with required date/relationship attachments. Success/Failure/Uncertain/Missing.",
+    "temporal": "Date-validity of claims, including valid historical assertions. Unknown date attachment is interpretation uncertainty, not automatic Incorrect."
+  },
+  "phase": "P1_ONLY_DEVELOPMENT",
+  "primary_comparison": {
+    "definition": "Affirmatively assign the prospectively listed old bay to the target entity for 2051-09-15. A quoted, negated or correctly dated historical value alone is not adoption.",
+    "denominator": "All eight prospectively eligible paired cases, including unknown outputs; report adoption/8 per condition, observed positive-incidence difference and signed unknown-outcome bounds.",
+    "eligible_cases": [
+      "p1_measure_factorial_00",
+      "p1_measure_factorial_01",
+      "p1_measure_factorial_02",
+      "p1_measure_factorial_03",
+      "p1_measure_factorial_04",
+      "p1_measure_factorial_05",
+      "p1_measure_factorial_06",
+      "p1_measure_factorial_07"
+    ],
+    "endpoint": "outdated_answer_adoption_incidence",
+    "insufficient": "Fewer than six paired assessable cases is measurement-inconclusive. Eight cases remain too few for population inference regardless.",
+    "interpretation": "Implemented history package, not pure temporal reasoning. Old-value historical correctness is preserved.",
+    "name": "C3-C0",
+    "nonanswer": "A clear refusal/nonanswer with no old-answer assertion is NOT_ADOPTED, separately a task failure; unclear claims are UNVERIFIABLE.",
+    "states": [
+      "ADOPTED",
+      "NOT_ADOPTED",
+      "UNVERIFIABLE",
+      "BOUNDARY_UNRESOLVED",
+      "MISSING"
+    ]
+  },
+  "protocol": "Research Protocol v1.1 retained; v1.2 remains proposed; adopted E/V addendum not replaced",
+  "readiness": {
+    "blocking_defects": [
+      "Incorrect or insufficient evidence",
+      "Non-unique references",
+      "Unresolved answer boundaries preventing scoring",
+      "Uninterpretable principal endpoint",
+      "No defensible metric-specific evaluation"
+    ],
+    "hard_accuracy_threshold": null,
+    "old_proposal": "The unexecuted core_sfh_readiness_v1 eight-of-eight criterion is not this new calibration rule; preserve its historical proposal.",
+    "pilot_rule": "Inspect disjoint calibration by family. Do not discard difficult cases, select pilot cases by their C0 outcome, or tune to the target. Serious floor/format/scoring defects require category C diagnosis or stop.",
+    "target_success": [
+      0.8,
+      0.95
+    ]
+  },
+  "secondary": {
+    "F": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": -0.25,
+        "C1": -0.25,
+        "C2": 0.25,
+        "C3": -0.25,
+        "C4": 0.25,
+        "C5": -0.25,
+        "C6": 0.25,
+        "C7": 0.25
+      }
+    },
+    "FxH": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": 0.5,
+        "C1": 0.5,
+        "C2": -0.5,
+        "C3": -0.5,
+        "C4": -0.5,
+        "C5": -0.5,
+        "C6": 0.5,
+        "C7": 0.5
+      }
+    },
+    "H": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": -0.25,
+        "C1": -0.25,
+        "C2": -0.25,
+        "C3": 0.25,
+        "C4": -0.25,
+        "C5": 0.25,
+        "C6": 0.25,
+        "C7": 0.25
+      }
+    },
+    "H1_SxH_at_F0": {
+      "estimand": "[Y(C5)-Y(C3)]-[Y(C1)-Y(C0)]; no F=1 averaging",
+      "weights": {
+        "C0": 1,
+        "C1": -1,
+        "C2": 0,
+        "C3": -1,
+        "C4": 0,
+        "C5": 1,
+        "C6": 0,
+        "C7": 0
+      }
+    },
+    "S": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": -0.25,
+        "C1": 0.25,
+        "C2": -0.25,
+        "C3": -0.25,
+        "C4": 0.25,
+        "C5": 0.25,
+        "C6": -0.25,
+        "C7": 0.25
+      }
+    },
+    "SxF": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": 0.5,
+        "C1": -0.5,
+        "C2": -0.5,
+        "C3": 0.5,
+        "C4": 0.5,
+        "C5": -0.5,
+        "C6": -0.5,
+        "C7": 0.5
+      }
+    },
+    "SxFxH": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": -1.0,
+        "C1": 1.0,
+        "C2": 1.0,
+        "C3": 1.0,
+        "C4": -1.0,
+        "C5": -1.0,
+        "C6": -1.0,
+        "C7": 1.0
+      }
+    },
+    "SxH": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": 0.5,
+        "C1": -0.5,
+        "C2": 0.5,
+        "C3": -0.5,
+        "C4": -0.5,
+        "C5": 0.5,
+        "C6": -0.5,
+        "C7": 0.5
+      }
+    },
+    "history_S0F0": {
+      "control_validity": "different prompt lengths possible",
+      "estimand": "simple text-package comparison",
+      "weights": {
+        "C0": -1,
+        "C3": 1
+      }
+    },
+    "history_vs_diagnostic": {
+      "control_validity": "N controls require independent semantic validity; length alone insufficient",
+      "estimand": "simple text-package comparison",
+      "weights": {
+        "C3": 1,
+        "N_history": -1
+      }
+    },
+    "style_F0H0": {
+      "control_validity": "different prompt lengths possible",
+      "estimand": "simple text-package comparison",
+      "weights": {
+        "C0": -1,
+        "C1": 1
+      }
+    },
+    "style_vs_diagnostic": {
+      "control_validity": "N controls require independent semantic validity; length alone insufficient",
+      "estimand": "simple text-package comparison",
+      "weights": {
+        "C1": 1,
+        "N_style": -1
+      }
+    }
+  },
+  "statistics": {
+    "missingness": "Full assigned denominators plus assessable subset separately; signed bounds for unknown binary outcomes; no renormalized missing factorial weights.",
+    "multiplicity": "One principal developmental endpoint. All other results descriptive; no significance testing or discovery selection.",
+    "uncertainty": "C0 Wilson 95% interval descriptive under independent Bernoulli approximation, with family/template limitations; whole-speaker bootstrap sensitivity for paired pilot outcomes, no significance claims.",
+    "units": "32 disjoint C0 cases/speakers; eight factorial paired cases/speakers; four shared template ancestors across pools",
+    "variance": "Applicable, N/A, missing, unknown, categorical distributions; numerical variance only on justified scored scales; no zero-variance equals zero-effect claim."
+  },
+  "version": "p1_measurement_policy_v1"
+}

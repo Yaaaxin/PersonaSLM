@@ -1,0 +1,47 @@
+{
+  "schema_version": "personaslm_post_candidate2_regression_v1",
+  "recorded_utc": "2026-10-18T14:47:11.6304692Z",
+  "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_p1_model_feasibility_recovery.py tests/test_reproduce_p1_feasibility_analysis.py tests/test_reproduce_p1_feasibility_analysis_v2.py tests/test_p1_candidate2_pilot_materialization.py tests/test_p1_candidate2_c0_controller.py tests/test_p1_independent_validation_estimation_candidate.py tests/test_p1_semantic_interrater_prepare.py tests/test_p1_semantic_interrater_analyze.py tests/test_p1_semantic_review_package.py tests/test_p1_semantic_review_integration.py tests/test_p1_evaluator_validity.py tests/test_post_restart_literature_review.py",
+  "result": {
+    "passed": 82,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 1,
+    "elapsed_seconds": 26.10,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "test_bindings": {
+    "tests/test_p1_model_feasibility_recovery.py": "58f4a8228804b04c1ea4bdf74fe74836e1de28121e205e47f45bb0352feb45c7",
+    "tests/test_reproduce_p1_feasibility_analysis.py": "4d623f9df330b51b6d19cae8673ea22102886afccf80c1cadd0b170a4dd0fab2",
+    "tests/test_reproduce_p1_feasibility_analysis_v2.py": "d0ecdf28a444aa1802eb8838188c730328a6f456a790c185ab39b35f1b1e53c0",
+    "tests/test_p1_candidate2_pilot_materialization.py": "91aa303017737545454b0acde424f6898930cb82bae0293e6e9a3e0b04ecd199",
+    "tests/test_p1_candidate2_c0_controller.py": "08fa65236e55a89cba8acd1dcfea69a0e1f157095e3ce0e47e62b96185922db4",
+    "tests/test_p1_independent_validation_estimation_candidate.py": "c8e479d923fec3796677b8eede1d4816edfa38fd2734d38b591426156206cff9",
+    "tests/test_p1_semantic_interrater_prepare.py": "17e0437b94d08527b3ce471cae6bb67d00fe01d9c352f98eaaab09d0dcaafcf5",
+    "tests/test_p1_semantic_interrater_analyze.py": "9658402be9dacacc989fbf5071641176e4e661c030b1ae725cebd6f2d9ffce57",
+    "tests/test_p1_semantic_review_package.py": "f126b165a1fb695533e7984196df05a0667a9591a3b93bcbfcb4e282ab583a3d",
+    "tests/test_p1_semantic_review_integration.py": "2d93869640fb032c6cfc2d9020d1f2ef2f6a59ac710f23547c28ab241de06cc2",
+    "tests/test_p1_evaluator_validity.py": "2fc372b5733b16406ca68f1444ef580e6d7f0fcbbf36eb9a97f8708d3ab2ad49",
+    "tests/test_post_restart_literature_review.py": "97b3e74b6ef14f73e9024053ccea1d724927987403434b6a255256a6738b81d8"
+  },
+  "evidence_bindings": {
+    "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v4.json": "ca96e25002d5c78f9bf3f15ea6ad0412032bc2ebb3df9adc5b62723417cc9c2d",
+    "docs/validation/p1/model_feasibility_recovery_v1/candidate2_run_receipt_v1.json": "f9140b58adfcf68e57543cc2452798fc7ac5e9499946fe62f2aeb2a0dc5523e7",
+    "docs/validation/p1/model_feasibility_recovery_v1/candidate2_audit_v1.json": "e1d2718bd1c5fdd1395329d736ea581c7c03cfdd00d1de8b63bd5a5d771f0984",
+    "docs/validation/p1/model_feasibility_recovery_v1/selection_after_candidate2_v1.json": "362fcac650cc8fe286ac5ade0c5a35fab7ef6d862c0214724b439d0bd8848b7e",
+    "docs/validation/p1/model_feasibility_recovery_v1/analysis_reproduction_v2.json": "e76cead21a92cc3fa67175f09624c9b401429713a19078144a16bf960967cdbe",
+    "docs/validation/p1/model_feasibility_recovery_v1/post_candidate2_research_state_v1.json": "1489732ce936860d46fa0001bf1edc2328b65c3f7b5cde386563644558fbba65"
+  },
+  "historical_bindings": {
+    "docs/validation/p1/model_feasibility_recovery_v1/research_state_v1.json": "574a02b9c086522a3d0890abf5ae67eb01db153a60f1bdf86e720c23fececead",
+    "docs/research_restart_handoff.md": "8bb2aab832f693546fe48a3b505a41ab51bdb5cb0c6f6135305c1d55631350b9",
+    "tools/reproduce_p1_feasibility_analysis.py": "2bf7ce8a85762cbb5887a7732bf158a1cf096d1ef6dcd3ad72404ad506be479d",
+    "docs/validation/p1/model_feasibility_recovery_v1/analysis_reproduction_v1.json": "4d0570e78106abf1b19113fe616c5b11e4fb59cc87868c646951e22e65bad352"
+  },
+  "execution_impact": {
+    "scientific_model_generations": 0,
+    "model_inference_wall_seconds": 0,
+    "network_calls": 0,
+    "historical_outputs_modified": false
+  }
+}

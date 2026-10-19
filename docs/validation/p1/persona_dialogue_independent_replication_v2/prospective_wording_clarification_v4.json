@@ -1,0 +1,46 @@
+{
+  "schema_version": "personaslm_persona_dialogue_independent_replication_wording_clarification_v4",
+  "status": "FROZEN_PROSPECTIVE_WORDING_CLARIFICATION_NOT_AUTHORIZED_NOT_EXECUTED",
+  "frozen_utc": "2026-10-18T17:09:06.2704852Z",
+  "researcher": "Yaxin ZHENG",
+  "parents": {
+    "design_v2": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json",
+      "sha256": "628bedc18b8aa549cb165fbfb3f33ffbb889b5ad3090d7ef86f58112476c156c"
+    },
+    "execution_scope_amendment_v3": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_amendment_v3.json",
+      "sha256": "9cd70fceca8b1fb806bd6b3c3bcb4deccfd974830d2a5e762c1e75a45120d937"
+    },
+    "case_bank": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+      "sha256": "a93cd629c0d152e9eb2325399235882beaebf510d4b6e32b24724975554fab8c"
+    }
+  },
+  "preoutput_state": {
+    "native_tokenizer_calls_for_this_study": 0,
+    "model_server_launches_for_this_study": 0,
+    "completion_calls_for_this_study": 0,
+    "model_outputs_from_this_bank": 0,
+    "outputs_inspected": false
+  },
+  "clarification": {
+    "parent_phrase": "natural next-turn decision cases",
+    "effective_phrase": "controlled synthetic next-turn choice cases",
+    "reason": "Every response is constrained to exactly two sentences with an exact first-sentence template. Calling these cases natural overstates their conversational naturalism.",
+    "applies_to": [
+      "scientific question wording",
+      "execution authorization",
+      "analysis report",
+      "manuscript interpretation"
+    ]
+  },
+  "scientific_inputs_changed": false,
+  "request_set_changed": false,
+  "endpoints_changed": false,
+  "estimands_changed": false,
+  "resource_limits_changed": false,
+  "claim_boundary": "The effective 96-request study may be described only as a disjoint held-out synthetic replication on controlled next-turn choice cases; it is not a natural-conversation, real-speaker, human, cross-model, or confirmatory validation.",
+  "execution_authorized": false,
+  "new_model_generations": 0
+}

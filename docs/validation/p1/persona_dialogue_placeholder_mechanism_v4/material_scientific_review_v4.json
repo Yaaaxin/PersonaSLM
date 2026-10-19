@@ -1,0 +1,160 @@
+{
+  "version": "personaslm_placeholder_mechanism_material_scientific_review_v4",
+  "status": "COMPLETE_PRETOKENIZATION_REVIEW",
+  "verdict": "PASS_NO_BLOCKING_MATERIAL_ISSUES",
+  "reviewed_utc": "2026-10-18T23:26:40.0094986Z",
+  "bindings": {
+    "prospective_design": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_design_v4.json",
+      "sha256": "86429901ba24e5d8ef0a659cc3c1a0d340b58bfd6cd072f1d1c4df2feebd3723"
+    },
+    "case_bank": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/case_bank_v4.json",
+      "sha256": "a74b20b7b5039fce1035b5162f6a9441cf632c55235e44974837024b84ccc8b8"
+    },
+    "prospective_amendment": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_design_amendment_v4_1.json",
+      "sha256": "35a7b8e75bb1265c8d4c14da123f0f76bc081a6c38170d326a2d678c18806675"
+    },
+    "measurement_clarification": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_measurement_clarification_v4_2.json",
+      "sha256": "0c1cf6c1200dd9b459730a36de2f5fe09c88b6bebca34346dc6841a03047878d"
+    },
+    "material_ancestry_audit": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/material_ancestry_audit_v4.json",
+      "sha256": "d1b2b7da46d3c4c1a482d48bea1fb1ce450ff26765a2bc9ffbb61761387b7f81"
+    }
+  },
+  "review_scope": "INDEPENDENT_READ_ONLY_PREOUTPUT_MATERIAL_REVIEW",
+  "reviewer_provenance": {
+    "reviewer_id": "PERSONASLM_V4_AUTOMATED_READ_ONLY_TECHNICAL_REVIEW_2026_10_19_V1",
+    "reviewer_type": "INDEPENDENT_READ_ONLY_TECHNICAL_REVIEWER",
+    "reviewer_is_human": false,
+    "independence_scope": "SEPARATE_READ_ONLY_TECHNICAL_AUDIT_NOT_INDEPENDENT_HUMAN_VALIDATION",
+    "human_semantic_judgments_provided": false,
+    "independent_human_validation": false
+  },
+  "protected_mapping_accessed": false,
+  "protected_or_local_paths_enumerated": false,
+  "protected_path_scope_note": "No protected or private review path was enumerated. The reviewer inspected only the explicitly bound public repository artifacts.",
+  "model_outputs_accessed": false,
+  "tokenizer_calls": 0,
+  "generation_requests": 0,
+  "test_double_note": "A monkeypatched fake tokenizer was exercised only by an offline controller unit test; no native tokenizer, model server, or completion endpoint was invoked.",
+  "reviewed_case_count": 8,
+  "blocking_issues": [],
+  "amendment_checks": {
+    "archive_scope_repair_v4_1_applied": true,
+    "instruction_package_terminology_applied": true,
+    "text_declared_owner_attribution_package_terminology_applied": true,
+    "archive_any_and_selected_endpoints_separated": true,
+    "style_prefix_and_suffix_endpoints_separated": true,
+    "indicator_discordance_construct_v4_2_applied": true,
+    "all_ten_human_only_endpoints_present": true
+  },
+  "claim_boundaries": {
+    "synthetic_material_review_only": true,
+    "human_semantic_validation": false,
+    "independent_human_validation": false,
+    "model_outcome_evidence": false,
+    "algorithmic_novelty_evidence": false
+  },
+  "case_summaries": [
+    {
+      "case_id": "PMV4_CASE_001_LYRA_PLAN",
+      "persona_id": "PMV4_P01",
+      "task_family": "COLLABORATIVE_PLANNING",
+      "verdict": "PASS_NO_BLOCKING_MATERIAL_ISSUE",
+      "uniquely_supported_current_option": true,
+      "archive_current_attribute_separation": true,
+      "clear_current_and_control_ownership": true,
+      "direct_answer_leakage_detected": false,
+      "blocking_issues": [],
+      "rationale": "The current evidence and persona fact jointly support the quiet, outlined, revisable setting while the alternative contradicts each requirement. The archive is an unrelated inventory-label decision; ownership is explicit, and no current option label, anchor, or canonical name is disclosed outside the option list."
+    },
+    {
+      "case_id": "PMV4_CASE_002_DAVOR_SUPPORT",
+      "persona_id": "PMV4_P02",
+      "task_family": "SUPPORTIVE_NEXT_TURN",
+      "verdict": "PASS_NO_BLOCKING_MATERIAL_ISSUE",
+      "uniquely_supported_current_option": true,
+      "archive_current_attribute_separation": true,
+      "clear_current_and_control_ownership": true,
+      "direct_answer_leakage_detected": false,
+      "blocking_issues": [],
+      "rationale": "The current evidence and persona fact jointly support acknowledgment followed by one manageable action while the alternative omits acknowledgment and adds demands. The archive concerns only an inventory label; ownership is explicit, and no current answer label, anchor, or canonical name is leaked."
+    },
+    {
+      "case_id": "PMV4_CASE_003_IMANI_ROUTINE",
+      "persona_id": "PMV4_P03",
+      "task_family": "ROUTINE_NEGOTIATION",
+      "verdict": "PASS_NO_BLOCKING_MATERIAL_ISSUE",
+      "uniquely_supported_current_option": true,
+      "archive_current_attribute_separation": true,
+      "clear_current_and_control_ownership": true,
+      "direct_answer_leakage_detected": false,
+      "blocking_issues": [],
+      "rationale": "The current evidence and persona fact jointly require named owners, a short checklist, and visible handoff, uniquely matching one option while the alternative negates those features. The archive is attribute-disjoint inventory labeling; ownership is explicit, with no direct label, anchor, or canonical-name leakage."
+    },
+    {
+      "case_id": "PMV4_CASE_004_CELYN_REPAIR",
+      "persona_id": "PMV4_P04",
+      "task_family": "MISUNDERSTANDING_REPAIR",
+      "verdict": "PASS_NO_BLOCKING_MATERIAL_ISSUE",
+      "uniquely_supported_current_option": true,
+      "archive_current_attribute_separation": true,
+      "clear_current_and_control_ownership": true,
+      "direct_answer_leakage_detected": false,
+      "blocking_issues": [],
+      "rationale": "The correction, restatement, and agreement-check requirements uniquely support the repair option while the alternative preserves the known mistake. The archive is an unrelated inventory-label choice; ownership is explicit, and the current answer identity is not directly disclosed."
+    },
+    {
+      "case_id": "PMV4_CASE_005_NOA_PLAN",
+      "persona_id": "PMV4_P05",
+      "task_family": "COLLABORATIVE_PLANNING",
+      "verdict": "PASS_NO_BLOCKING_MATERIAL_ISSUE",
+      "uniquely_supported_current_option": true,
+      "archive_current_attribute_separation": true,
+      "clear_current_and_control_ownership": true,
+      "direct_answer_leakage_detected": false,
+      "blocking_issues": [],
+      "rationale": "The current evidence and persona fact jointly support immediate, colorful group co-creation, uniquely matching one setting while the alternative conflicts on timing, participation, and format. The archive is an unrelated label decision; ownership is explicit, with no direct answer-identity leakage."
+    },
+    {
+      "case_id": "PMV4_CASE_006_PRIYA_SUPPORT",
+      "persona_id": "PMV4_P06",
+      "task_family": "SUPPORTIVE_NEXT_TURN",
+      "verdict": "PASS_NO_BLOCKING_MATERIAL_ISSUE",
+      "uniquely_supported_current_option": true,
+      "archive_current_attribute_separation": true,
+      "clear_current_and_control_ownership": true,
+      "direct_answer_leakage_detected": false,
+      "blocking_issues": [],
+      "rationale": "The missing clarification and request for a first step jointly support asking one question before offering a tentative action, while the alternative gives an unsupported fixed solution. The archive is semantically separate inventory labeling; ownership is explicit, and no label, anchor, or canonical answer is leaked."
+    },
+    {
+      "case_id": "PMV4_CASE_007_EMRYS_ROUTINE",
+      "persona_id": "PMV4_P07",
+      "task_family": "ROUTINE_NEGOTIATION",
+      "verdict": "PASS_NO_BLOCKING_MATERIAL_ISSUE",
+      "uniquely_supported_current_option": true,
+      "archive_current_attribute_separation": true,
+      "clear_current_and_control_ownership": true,
+      "direct_answer_leakage_detected": false,
+      "blocking_issues": [],
+      "rationale": "The current evidence and persona fact jointly support short recurring check-ins and revisable plans, uniquely matching one routine while the alternative is fixed and feedback-free. The archive is attribute-disjoint inventory labeling; ownership is explicit, with no direct current-answer leakage."
+    },
+    {
+      "case_id": "PMV4_CASE_008_TALIA_REPAIR",
+      "persona_id": "PMV4_P08",
+      "task_family": "MISUNDERSTANDING_REPAIR",
+      "verdict": "PASS_NO_BLOCKING_MATERIAL_ISSUE",
+      "uniquely_supported_current_option": true,
+      "archive_current_attribute_separation": true,
+      "clear_current_and_control_ownership": true,
+      "direct_answer_leakage_detected": false,
+      "blocking_issues": [],
+      "rationale": "The explicit correction and confirmation request uniquely support accepting and restating the corrected location, while the alternative defends the disproven interpretation. The archive is an unrelated inventory-label choice; ownership is explicit, and no current answer identity is directly disclosed."
+    }
+  ]
+}

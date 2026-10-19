@@ -1,0 +1,60 @@
+{
+  "bindings": {
+    "analysis_sha256": "2adca94fceb295e2a2d29266aaca9f60280c964a330d561b5dca12c3d59df914",
+    "frozen_manifest_sha256": "72da3568e1d6c78635b49ae992e934019f0ec73222c304c504841f4c320d64a3",
+    "journal_terminal_event_sha256": "4a86610ce70bced30790e9b1699f9baec0d78f6a4601c04a2703a4ade0655eab",
+    "prior_budget_analysis_sha256": "0a2d4547a6501991d6b9f1855a4f4081ff885bba5e700f226757ace58d182a44",
+    "script_sha256": "282525bdd0bd093dca2687b7574a480ab9be40c2aaed57d02fd8ca072e365791",
+    "shared_boundary_parser_sha256": "7d0cde00dcef5f75f82b9b95b06ba0b7e6a3b9a3f8209aa834be5c60e32ee0cd"
+  },
+  "created_utc": "2026-10-19T07:14:21.306179+00:00",
+  "limits": [
+    "Does not validate construct validity or human semantic quality",
+    "Does not reproduce generation or establish bit-identical repeatability",
+    "Private frozen prompts and raw journals are required; public clone-only reproduction remains PARTIAL"
+  ],
+  "privacy": {
+    "participant_text_public": false,
+    "row_identifiers_public": false
+  },
+  "provenance": "Separate AI analyst and independently implemented numeric scorer; not human review or independent experimental validation",
+  "reproduced": {
+    "automatic_metrics": 16,
+    "boundary_status_counts": {
+      "AMBIGUOUS": 60,
+      "TRUNCATED": 4
+    },
+    "completion_inference_seconds": 342.59149519992934,
+    "completion_latency_summary": {
+      "maximum": 11.238873099995544,
+      "mean": 5.352992112498896,
+      "median": 4.84526950000145,
+      "minimum": 2.451652899995679,
+      "n": 64
+    },
+    "condition_metric_summaries": 128,
+    "cumulative_generations_used": 572,
+    "cumulative_inference_seconds_used": 3514.1361039998983,
+    "factorial_metric_summaries": 112,
+    "generated_token_summary": {
+      "maximum": 96,
+      "mean": 25.21875,
+      "median": 16.5,
+      "minimum": 4,
+      "n": 64
+    },
+    "minimum_observed_available_physical_bytes": 2332139520,
+    "native_stop_counts": {
+      "eos": 60,
+      "limit": 4
+    },
+    "peak_server_working_set_bytes": 2581692416,
+    "raw_http_responses": 64,
+    "row_metric_values_checked": 1024,
+    "total_generated_tokens": 1614
+  },
+  "schema_version": "personaslm_rpc_sfh_independent_analysis_reproduction_v1",
+  "scope": "Completed 64-response development allocation only; no dataset or held-out-speaker access",
+  "shared_dependency": "Frozen response_status_v1 boundary parser; separately implemented F1, LCS, style, Japanese rate, missingness, effects, LOO, journal-chain and resource arithmetic",
+  "status": "PASS"
+}

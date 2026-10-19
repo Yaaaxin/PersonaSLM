@@ -1,0 +1,191 @@
+{
+  "schema_version": "personaslm_post_restart_research_state_v1",
+  "state_recorded_utc": "2026-10-18T13:11:55.6934667Z",
+  "researcher": "Yaxin ZHENG",
+  "paper_title": "Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models",
+  "predecessors": {
+    "planned_restart_state": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/research_state_v1.json",
+      "sha256": "574a02b9c086522a3d0890abf5ae67eb01db153a60f1bdf86e720c23fececead",
+      "preservation": "UNCHANGED"
+    },
+    "restart_handoff": {
+      "path": "docs/research_restart_handoff.md",
+      "sha256": "8bb2aab832f693546fe48a3b505a41ab51bdb5cb0c6f6135305c1d55631350b9",
+      "preservation": "UNCHANGED"
+    }
+  },
+  "repository_snapshot": {
+    "branch": "research/autonomous-personaslm",
+    "head": "c40667ad266082481b1850453f67784b593f3723",
+    "staged_paths": 0,
+    "tracked_unstaged_paths": 3,
+    "visible_untracked_entries": 119,
+    "git_commit_or_push_executed": false
+  },
+  "recovery_verification": {
+    "status": "PASS",
+    "frozen_artifact_references_checked": 28,
+    "frozen_artifact_reference_matches": 28,
+    "frozen_artifact_reference_mismatches": 0,
+    "candidate_1_archive": {
+      "attempts": 8,
+      "completion_http_records": 8,
+      "replayed_results": 8,
+      "integrity_status": "PASS",
+      "frozen_automatic_success": 1,
+      "threshold": 7,
+      "interpretation": "Complete developmental screen, nonqualifying; no request repeated."
+    },
+    "candidate_2_before_v3": {
+      "attempts": 0,
+      "generations": 0,
+      "results": 0,
+      "v3_or_run_receipt_preexisted": false
+    },
+    "active_model_inference_process_identified": false,
+    "process_inspection_limit": "Get-CimInstance Win32_Process was access-denied; narrower Get-Process inspection found no Python or llama process."
+  },
+  "candidate_2_preflight_v3": {
+    "status": "BLOCKED_RESOURCE_ZERO_INFERENCE",
+    "candidate_id": "qwen2_5_3b_instruct_q4_k_m",
+    "receipt_path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v3.json",
+    "receipt_sha256": "1b8b1c144cbfb4c330171a0e297ae497154230fff0feef4f096993caffaff8dd",
+    "gate_available_physical_bytes": 4901916672,
+    "required_available_physical_bytes": 5368709120,
+    "deficit_bytes": 466792448,
+    "failure_handler_available_physical_bytes": 4883410944,
+    "generation_requests": 0,
+    "model_loaded": false,
+    "retry_performed": false,
+    "threshold_changed": false,
+    "unrelated_process_terminated": false,
+    "scientific_interpretation": "Resource failure only; Candidate 2 remains scientifically unevaluated and is not a failed model."
+  },
+  "authorization_balances": {
+    "autonomous_recovery": {
+      "authorization_id": "P1_AUTONOMOUS_MODEL_FEASIBILITY_20261017_V1",
+      "generation_limit": 1200,
+      "generations_used": 8,
+      "generations_remaining": 1192,
+      "inference_wall_seconds_limit": 72000.0,
+      "inference_wall_seconds_used": 65.87628550000954,
+      "inference_wall_seconds_remaining": 71934.12371449999,
+      "candidate_2_attempts": 0,
+      "unresolved_in_flight_completion_requests": 0
+    },
+    "historical_p1": {
+      "authorization": 160,
+      "attempted": 80,
+      "remaining": 80,
+      "transferred": 0
+    }
+  },
+  "last_completed_milestone": {
+    "id": "P1_POST_RESTART_RESOURCE_BLOCK_AND_MEASUREMENT_PLANNING_V1",
+    "status": "COMPLETE_AND_VERIFIED_NO_NEW_MODEL_INFERENCE",
+    "results": [
+      "Candidate 2 v3 remains resource-blocked by 466792448 bytes with zero attempts.",
+      "The frozen literature collector succeeded on all 13 sources after one preserved sandbox-network failure.",
+      "PersEvalBench materially narrows evaluator novelty and requires genuine directional human semantic validation.",
+      "The 48-speaker crossed-template plan meets its declared central simulated precision/coverage rule but remains unauthorized and assumption-dependent."
+    ],
+    "scope": "Hardware safety, literature review, and synthetic statistical planning only; no S/F/H output, independent empirical estimate, human annotation, model selection, algorithm result, or paper-system reproduction."
+  },
+  "literature_monitoring": {
+    "date": "2026-10-18",
+    "sandbox_failure_preserved": {
+      "path": ".local/literature-monitor/post_restart_snapshot_20261018T1315Z.json",
+      "sha256": "e9b153ce4893513926b8c3e550d470fa04630326607f87da8ac34bb45389389f",
+      "source_requests_failed": 13
+    },
+    "successful_snapshot": {
+      "path": ".local/literature-monitor/post_restart_snapshot_20261018T1320Z_network_v2.json",
+      "sha256": "1132758a25f7a53843eb48162d112680d97171435c8a3b426b0463caca93533e",
+      "records": 217,
+      "new_stable_ids_since_prior_same_day_snapshot": 26,
+      "source_requests_succeeded": 13,
+      "source_requests_failed": 0
+    },
+    "review_addendum": {
+      "path": "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v2.json",
+      "sha256": "021f5fa54aaec20d74bee1f4e105cffebc913a691d5d0d09a2b9877e6b472efe",
+      "reviewed_primary_source": "arxiv:2610.19314",
+      "reviewer_type": "AI_ASSISTED_PRIMARY_SOURCE_REVIEW",
+      "human_confirmation": "NOT_RECORDED"
+    },
+    "local_scheduler_visibility": "TASK_NOT_FOUND_UNDER_CODEXSANDBOXOFFLINE_IDENTITY",
+    "latest_verified_scheduled_success_utc": "2026-10-18T09:28:51Z",
+    "continued_schedule_claim": "UNVERIFIED_UNDER_RESEARCHER_PRINCIPAL"
+  },
+  "independent_validation_precision": {
+    "status": "CENTRAL_SYNTHETIC_PLANNING_RULE_MET_NOT_AUTHORIZED",
+    "artifact_path": "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_precision_v1.json",
+    "artifact_sha256": "8a2f7145ff263893127e4607b33b448e71f8e6de81ab972eb65a5edf12b6d96b",
+    "source_path": "tools/p1_independent_validation_precision.py",
+    "source_sha256": "94865bd06299964d2f45031ea91ef8fe1af70d2d624cf4792ef6e663663ed334",
+    "replicates": 2000,
+    "planned_design": {
+      "speakers": 48,
+      "cases": 96,
+      "template_ancestors": 8,
+      "conditions": 10,
+      "planned_requests_not_executed": 960,
+      "primary_contrast": "C3_minus_C0_outdated_value_adoption_risk_difference"
+    },
+    "declared_central_rule": {
+      "maximum_median_two_way_cluster_95_halfwidth": 0.15,
+      "minimum_conditional_template_coverage": 0.93
+    },
+    "central_result": {
+      "median_two_way_cluster_95_halfwidth": 0.11885827435509969,
+      "conditional_template_coverage": 0.9595,
+      "mean_bias": -0.0006392232384360759
+    },
+    "high_template_dependence_result": {
+      "median_two_way_cluster_95_halfwidth": 0.1311093454594378,
+      "conditional_template_coverage": 0.9715
+    },
+    "outcome_dependent_missingness_result": {
+      "median_complete_pair_fraction": 0.8854166666666666,
+      "mean_complete_pair_bias": -0.024830480002050848,
+      "two_way_cluster_coverage": 0.925,
+      "mean_logical_bound_width": 0.118859375
+    },
+    "limitations": [
+      "Assumptions are synthetic and not fitted to PersonaSLM outcomes.",
+      "Coverage is conditional on eight sampled template ancestors, not a broad new-template population.",
+      "Only the primary binary C3-C0 contrast was simulated; interactions can be much less precise.",
+      "Missingness policy and genuine blinded semantic review remain unresolved hard gates."
+    ]
+  },
+  "regression": {
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/post_restart_regression_v1.json",
+    "sha256": "6d0e652e086f511179b99daf5a1a02eda3fafcdc9eb768c304c599a7600bb1b8",
+    "passed": 71,
+    "failed": 0,
+    "warning": "One pre-existing unknown cache_dir PytestConfigWarning."
+  },
+  "current_phase_status": {
+    "P0": "FROZEN",
+    "P1": "ACTIVE_BLOCKED_RESOURCE_AND_SEMANTIC_VALIDITY",
+    "P2": "PAUSED",
+    "P3": "PAUSED",
+    "P4": "PAUSED",
+    "P5": "DIAGNOSTIC_COMPLETED",
+    "P6": "PAUSED_PRIOR_ART_COLLISION_AND_NO_REPLICATED_RESIDUAL"
+  },
+  "next_authorized_actions": [
+    "Do not repeat Candidate 2 after the same resource state. Run a new versioned preflight only after another material hardware/resource change.",
+    "Obtain genuine condition-blinded researcher semantic adjudication for Stage B and Candidate 1 without altering historical gates.",
+    "Keep the 960-request cohort unexecuted until a viable development model, disjoint-C0 gate, interpretable factorial, endpoint validity, missingness policy, and confirmatory freeze exist.",
+    "Continue versioned primary-source monitoring and preserve PersEvalBench, FPA, ReTurn, Wiki-Talkie, SCR-T, and simple temporal/restatement controls as prospective design constraints."
+  ],
+  "prohibitions": [
+    "No Candidate 2 retry loop, threshold reduction, third challenger, or unrelated-process termination.",
+    "No legacy Candidate 2 pilot controller, positional C0 slice, or transfer from the historical ledger.",
+    "No LLM-as-judge-only primary semantic endpoint and no fabricated human agreement.",
+    "No renamed provenance or stale-memory suppression algorithm without a distinct replicated residual and strong-baseline evidence.",
+    "No commit, push, stage, history rewrite, or author configuration change by the automated agent."
+  ]
+}

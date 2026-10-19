@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-10-15T11:39:23.077212+00:00",
+  "finished_utc": "2026-10-15T11:39:42.042237+00:00",
+  "command": [
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_p1_recovery_v2.py",
+    "tests/test_p1_recovery_measurement_v2.py",
+    "tests/test_p1_recovery_2x2.py",
+    "tests/test_p1d_instruct_smoke.py",
+    "tests/test_response_status.py",
+    "-q"
+  ],
+  "returncode": 0,
+  "stdout": "............................................s........................... [ 94%]\n....                                                                     [100%]\n75 passed, 1 skipped in 18.18s\n",
+  "stderr": ""
+}

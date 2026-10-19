@@ -1,0 +1,43 @@
+{
+  "schema_version": "personaslm_disjoint_surface_validation_withdrawal_v2",
+  "status": "REGISTERED_CANDIDATE_NOT_EXECUTED_WITHDRAWN_SCIENTIFIC_DESIGN_NO_GO",
+  "withdrawn_utc": "2026-10-18T21:06:26.1010822Z",
+  "researcher": "Yaxin ZHENG",
+  "decision": {
+    "v2_must_not_be_authorized_or_executed": true,
+    "historical_evidence_must_not_be_overwritten": true,
+    "successor": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v3/prospective_design_v3.json",
+    "successor_status_at_withdrawal": "IN_PREEXECUTION_REPAIR"
+  },
+  "frozen_v2_bindings": {
+    "design": {"path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/prospective_design_v2.json", "sha256": "310f72db117e73e9374853e992a90691a9e987542e565dd5118c73bd603bddc0"},
+    "case_bank": {"path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/case_bank_v2.json", "sha256": "b694f87ccc62d62960c61aeae81229e9eca7f37038c755d8e3ccf31f8567e3dd"},
+    "review_protocol": {"path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/blinded_human_review_protocol_v2.json", "sha256": "b01da3985b8c6365503f250049883e09a7e372f0d2803e637d2d4d05f3be30fc"},
+    "material_audit": {"path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/material_disjointness_audit_v2.json", "sha256": "9bc2a744c4f3fafee290fda862cfa12b8dc749cd7cfb173b2fdc2a44deef996b"},
+    "controller": {"path": "tools/p1_persona_dialogue_disjoint_surface_validation_v2.py", "sha256": "74c6eb08356938336c402494a0c26a702b84b1a7edb087868e5f34626ca5f0d6"},
+    "tests": {"path": "tests/test_p1_persona_dialogue_disjoint_surface_validation_v2.py", "sha256": "6d0424d638e014e4e2596898a3c85924f387cde39c35e8e33fe11f2fba9141ea"}
+  },
+  "no_go_reasons": [
+    "The frozen history_user_template did not byte-generate the controller's archived user message.",
+    "A syntactically plausible but fabricated Stage-A seal could unlock Stage B.",
+    "Review intake did not bind the submitted template, receipt and provenance to the protected mapping and replayed frozen run.",
+    "Raw provenance bytes, intake reports and genuine immutable stage seals were not archived as an official fixed-path workflow.",
+    "The public mapping digest did not identify the actual protected mapping file bytes.",
+    "Stage-B pre-lock exposure was not incorporated into provenance classification and no Stage-B finalizer/unblind gate existed.",
+    "Prospective human semantic, Persona Fidelity and history-handling estimands and missing-outcome bounds were incomplete.",
+    "A recoverable HTTP-200 completion without a RAW journal event, or a repeatedly failing result derivation, could break 168-slot replay."
+  ],
+  "completed_operations": {
+    "authorization_files_created": 0,
+    "native_tokenizer_calls": 0,
+    "preflight_receipts_created": 0,
+    "model_server_launches": 0,
+    "generation_attempts": 0,
+    "raw_responses": 0,
+    "derived_results": 0,
+    "human_review_packages": 0,
+    "human_submissions": 0,
+    "human_labels": 0
+  },
+  "scientific_interpretation": "V2 is a preserved negative design-review outcome, not an empirical model or human-review result."
+}

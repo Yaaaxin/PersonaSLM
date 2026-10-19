@@ -1,0 +1,29 @@
+{
+  "events": [
+    {
+      "artifact": "docs\\validation\\p1\\measurement_recovery_2x2_v2\\preflight_v1.json",
+      "event": "Initial resource block",
+      "resolution": "User released RAM; complete preflight_v2 and fresh in-run preflight passed. Threshold unchanged."
+    },
+    {
+      "event": "No exact neutral-control tokenizer length for fallback case02 N_style in initial candidate search",
+      "resolution": "Before bank freeze or any generation, extended coherent procedural-control vocabulary and recomputed actual token lengths. No outcomes used; controls remain diagnostic."
+    },
+    {
+      "event": "Optional read-only process query denied by environment",
+      "resolution": "Abandoned unnecessary query; no unrelated process closed."
+    },
+    {
+      "event": "One empty apply_patch with erroneous path failed to create parent directories",
+      "resolution": "No file was written there; subsequent edits used workspace-relative paths."
+    }
+  ],
+  "new_model_failures": 0,
+  "scope": "Actual development events, not fabricated model failures",
+  "skip_reason": "Legacy unexecuted-v1 reviewer-template test skips now that actual outputs exist; new v2 test checks all56 actual records. No scientific check is waived.",
+  "test_history": [
+    "Pre-run 39 passed/1 skipped while native fallback preparation was unfinished.",
+    "Pre-inference final targeted subset: 40 passed in 9.47s.",
+    "Final recorded expanded relevant suite: ............................................s........................... [ 94%]\n....                                                                     [100%]\n75 passed, 1 skipped in 18.18s"
+  ]
+}

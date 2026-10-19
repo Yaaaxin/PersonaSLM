@@ -1,0 +1,17 @@
+{
+  "decision": "AUTHORIZED",
+  "decision_source": "Principal Researcher accelerated autonomous scientific research mandate supplied 2026-10-18",
+  "independent_validation_authorized": false,
+  "manifest_sha256": "fb573ef6b904bd1c640ca43ad10e98518d0237cb651b0094c4ba3e927d1047b9",
+  "maximum_attempts": 48,
+  "prohibitions": [
+    "Do not edit prompts, aliases, reason cues, order, settings, or endpoints after inspecting outputs.",
+    "Do not present this synthetic development batch as real-speaker evidence, independent validation, confirmatory inference, or validated general Persona Fidelity.",
+    "Do not repeat a completed or transport-ambiguous request; every completion call consumes one attempt."
+  ],
+  "registered_utc": "2026-10-18T15:45:18.886520+00:00",
+  "researcher": "Yaxin ZHENG",
+  "retries": 0,
+  "scope": "One no-retry 48-request local CPU development batch using this exact design and configuration, subject to live preflight and cumulative ceilings.",
+  "version": "p1_persona_dialogue_factorial_authorization_v1"
+}

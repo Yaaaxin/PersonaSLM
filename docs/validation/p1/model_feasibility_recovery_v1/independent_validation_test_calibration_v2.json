@@ -1,0 +1,690 @@
+{
+  "calibration_decision": {
+    "decision": "DOES_NOT_MEET_DECLARED_SYNTHETIC_GLOBAL_NULL_CALIBRATION_RULE",
+    "maximum_global_null_holm_fwer_wilson_upper_95": 0.05767559328794296,
+    "maximum_marginal_type1_wilson_upper_95": 0.06978376456810004,
+    "maximum_untestable_nonpositive_variance_fraction": 0.0006666666666666666,
+    "thresholds": {
+      "maximum_global_null_holm_fwer_wilson_upper_95": 0.06,
+      "maximum_marginal_type1_wilson_upper_95": 0.065,
+      "maximum_untestable_nonpositive_variance_fraction": 0.02
+    }
+  },
+  "compatibility": {
+    "dependency_sha256": {
+      "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_test_calibration_v1.json": "e54ca677e770469c6c22fcc39ed1ba947321c213056f77a51d2b0d181d05a135",
+      "tools/p1_independent_validation_multiplicity.py": "a61b26271e1fe0fd06ecad5e0a7bc825ccd70f51a724a81e1d119deb05c950e6",
+      "tools/p1_independent_validation_precision.py": "94865bd06299964d2f45031ea91ef8fe1af70d2d624cf4792ef6e663663ed334",
+      "tools/p1_independent_validation_test_calibration.py": "ca1617ce97183c9a680be41641ca977186f6fd26f0cfeffa8694f07bace0dfc9"
+    },
+    "source_sha256": "20b2a174798225f6d0e5f849f88122fa5203b8707f6b81b4607d52a3a3329d03"
+  },
+  "design": {
+    "cases_per_speaker": 2,
+    "degrees_of_freedom": 47,
+    "family": [
+      "C1-C0",
+      "C3-C0",
+      "C1-N_style",
+      "C3-N_history",
+      "S",
+      "F",
+      "H",
+      "SxF",
+      "SxH",
+      "FxH",
+      "SxFxH"
+    ],
+    "family_size": 11,
+    "marginal_test": "two-sided t(47) reference with speaker-cluster sandwich variance",
+    "multiplicity": "Holm step-down at family alpha 0.05",
+    "nonpositive_variance_rule": "UNTESTABLE_NONREJECTION; never truncate to zero standard error",
+    "speakers": 48,
+    "template_ancestors": 8
+  },
+  "execution_impact": {
+    "cohort_authorized": false,
+    "human_annotations": 0,
+    "inference_seconds": 0.0,
+    "scientific_model_generations": 0
+  },
+  "predecessor_negative_result": {
+    "decision": "DOES_NOT_MEET_DECLARED_SYNTHETIC_GLOBAL_NULL_CALIBRATION_RULE",
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_test_calibration_v1.json",
+    "preservation": "UNCHANGED",
+    "sha256": "e54ca677e770469c6c22fcc39ed1ba947321c213056f77a51d2b0d181d05a135"
+  },
+  "prospective_calibration_rule": {
+    "declared_before_full_v2_simulation": true,
+    "maximum_global_null_holm_fwer_wilson_upper_95": 0.06,
+    "maximum_marginal_type1_wilson_upper_95": 0.065,
+    "maximum_untestable_nonpositive_variance_fraction": 0.02
+  },
+  "prospective_recommendation": "NO_CALIBRATED_CONFIRMATORY_TEST_IDENTIFIED",
+  "replicates_per_scenario": 3000,
+  "schema_version": "personaslm_p1_independent_validation_test_calibration_v2",
+  "scientific_limits": [
+    "This finite-template target cannot support claims about an unsampled template population.",
+    "All outcomes are synthetic null draws from assumed distributions, not fitted PersonaSLM data.",
+    "Global-null calibration does not prove strong family-wise control under every partial-null configuration.",
+    "The condition-by-template scenario equalizes each condition's expected mean over the exact 96-case allocation; it does not exhaust heterogeneous effects.",
+    "Passing cannot validate annotations, controls, missingness inference, power, or authorize the cohort."
+  ],
+  "seed": 202610183,
+  "status": "SYNTHETIC_FINITE_TEMPLATE_TEST_CALIBRATION_COMPLETE_NO_INFERENCE",
+  "summaries": [
+    {
+      "global_null_holm_fwer_count": 129,
+      "global_null_holm_fwer_fraction": 0.043,
+      "global_null_holm_fwer_wilson_95": [
+        0.0363065587076942,
+        0.05086230902725372
+      ],
+      "marginal": {
+        "C1-C0": {
+          "holm_rejection_count": 13,
+          "holm_rejection_fraction": 0.004333333333333333,
+          "raw_type1_count": 153,
+          "raw_type1_fraction_of_all_trials": 0.051,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04368593909682877,
+            0.05946246705851394
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "C1-N_style": {
+          "holm_rejection_count": 7,
+          "holm_rejection_fraction": 0.0023333333333333335,
+          "raw_type1_count": 140,
+          "raw_type1_fraction_of_all_trials": 0.04666666666666667,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.03968131639113648,
+            0.05481150645315906
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "C3-C0": {
+          "holm_rejection_count": 15,
+          "holm_rejection_fraction": 0.005,
+          "raw_type1_count": 155,
+          "raw_type1_fraction_of_all_trials": 0.051666666666666666,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.044303470952810266,
+            0.06017656340423202
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "C3-N_history": {
+          "holm_rejection_count": 14,
+          "holm_rejection_fraction": 0.004666666666666667,
+          "raw_type1_count": 148,
+          "raw_type1_fraction_of_all_trials": 0.04933333333333333,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04214374236315084,
+            0.05767559328794296
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "F": {
+          "holm_rejection_count": 9,
+          "holm_rejection_fraction": 0.003,
+          "raw_type1_count": 129,
+          "raw_type1_fraction_of_all_trials": 0.043,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.0363065587076942,
+            0.05086230902725372
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "FxH": {
+          "holm_rejection_count": 8,
+          "holm_rejection_fraction": 0.0026666666666666666,
+          "raw_type1_count": 145,
+          "raw_type1_fraction_of_all_trials": 0.04833333333333333,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.041219579683999655,
+            0.056602313664544796
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "H": {
+          "holm_rejection_count": 11,
+          "holm_rejection_fraction": 0.0036666666666666666,
+          "raw_type1_count": 131,
+          "raw_type1_fraction_of_all_trials": 0.043666666666666666,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.036919139743031126,
+            0.05158135619361637
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "S": {
+          "holm_rejection_count": 15,
+          "holm_rejection_fraction": 0.005,
+          "raw_type1_count": 154,
+          "raw_type1_fraction_of_all_trials": 0.051333333333333335,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.043994659229371014,
+            0.05981956102682148
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "SxF": {
+          "holm_rejection_count": 16,
+          "holm_rejection_fraction": 0.005333333333333333,
+          "raw_type1_count": 162,
+          "raw_type1_fraction_of_all_trials": 0.054,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.046467649316585216,
+            0.06267308374640554
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "SxFxH": {
+          "holm_rejection_count": 12,
+          "holm_rejection_fraction": 0.004,
+          "raw_type1_count": 142,
+          "raw_type1_fraction_of_all_trials": 0.04733333333333333,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04029631456999429,
+            0.055528136476000814
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "SxH": {
+          "holm_rejection_count": 25,
+          "holm_rejection_fraction": 0.008333333333333333,
+          "raw_type1_count": 182,
+          "raw_type1_fraction_of_all_trials": 0.06066666666666667,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.052673250511886385,
+            0.06978376456810004
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        }
+      },
+      "replicates": 3000,
+      "scenario": {
+        "baseline_probability": 0.25,
+        "case_intercept_sd": 0.35,
+        "condition_template_slope_sd": 0.0,
+        "name": "central_null",
+        "shared_uniform_probability": 0.5,
+        "speaker_intercept_sd": 0.6,
+        "template_intercept_sd": 0.25
+      }
+    },
+    {
+      "global_null_holm_fwer_count": 148,
+      "global_null_holm_fwer_fraction": 0.04933333333333333,
+      "global_null_holm_fwer_wilson_95": [
+        0.04214374236315084,
+        0.05767559328794296
+      ],
+      "marginal": {
+        "C1-C0": {
+          "holm_rejection_count": 15,
+          "holm_rejection_fraction": 0.005,
+          "raw_type1_count": 150,
+          "raw_type1_fraction_of_all_trials": 0.05,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04276033676455916,
+            0.05839062708823421
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "C1-N_style": {
+          "holm_rejection_count": 19,
+          "holm_rejection_fraction": 0.006333333333333333,
+          "raw_type1_count": 170,
+          "raw_type1_fraction_of_all_trials": 0.056666666666666664,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04894610168340464,
+            0.06552114418638438
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "C3-C0": {
+          "holm_rejection_count": 14,
+          "holm_rejection_fraction": 0.004666666666666667,
+          "raw_type1_count": 158,
+          "raw_type1_fraction_of_all_trials": 0.05266666666666667,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04523044741686435,
+            0.061247029242727284
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "C3-N_history": {
+          "holm_rejection_count": 13,
+          "holm_rejection_fraction": 0.004333333333333333,
+          "raw_type1_count": 157,
+          "raw_type1_fraction_of_all_trials": 0.052333333333333336,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04492136585872146,
+            0.0608902967000204
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "F": {
+          "holm_rejection_count": 17,
+          "holm_rejection_fraction": 0.005666666666666667,
+          "raw_type1_count": 153,
+          "raw_type1_fraction_of_all_trials": 0.051,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04368593909682877,
+            0.05946246705851394
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "FxH": {
+          "holm_rejection_count": 9,
+          "holm_rejection_fraction": 0.003,
+          "raw_type1_count": 150,
+          "raw_type1_fraction_of_all_trials": 0.05,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04276033676455916,
+            0.05839062708823421
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "H": {
+          "holm_rejection_count": 19,
+          "holm_rejection_fraction": 0.006333333333333333,
+          "raw_type1_count": 140,
+          "raw_type1_fraction_of_all_trials": 0.04666666666666667,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.03968131639113648,
+            0.05481150645315906
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "S": {
+          "holm_rejection_count": 15,
+          "holm_rejection_fraction": 0.005,
+          "raw_type1_count": 149,
+          "raw_type1_fraction_of_all_trials": 0.049666666666666665,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04245199158544549,
+            0.058033158166498094
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "SxF": {
+          "holm_rejection_count": 11,
+          "holm_rejection_fraction": 0.0036666666666666666,
+          "raw_type1_count": 141,
+          "raw_type1_fraction_of_all_trials": 0.047,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.03998876360822058,
+            0.055169873336924746
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "SxFxH": {
+          "holm_rejection_count": 18,
+          "holm_rejection_fraction": 0.006,
+          "raw_type1_count": 144,
+          "raw_type1_fraction_of_all_trials": 0.048,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04091172361423537,
+            0.05624435563345931
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "SxH": {
+          "holm_rejection_count": 11,
+          "holm_rejection_fraction": 0.0036666666666666666,
+          "raw_type1_count": 130,
+          "raw_type1_fraction_of_all_trials": 0.043333333333333335,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.0366127910180945,
+            0.051221890817703224
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        }
+      },
+      "replicates": 3000,
+      "scenario": {
+        "baseline_probability": 0.25,
+        "case_intercept_sd": 0.45,
+        "condition_template_slope_sd": 0.0,
+        "name": "high_cluster_dependence_null",
+        "shared_uniform_probability": 0.5,
+        "speaker_intercept_sd": 0.8,
+        "template_intercept_sd": 0.5
+      }
+    },
+    {
+      "global_null_holm_fwer_count": 87,
+      "global_null_holm_fwer_fraction": 0.029,
+      "global_null_holm_fwer_wilson_95": [
+        0.023571258905749824,
+        0.035633416593507244
+      ],
+      "marginal": {
+        "C1-C0": {
+          "holm_rejection_count": 4,
+          "holm_rejection_fraction": 0.0013333333333333333,
+          "raw_type1_count": 124,
+          "raw_type1_fraction_of_all_trials": 0.04133333333333333,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.03477718922207267,
+            0.04906260800862635
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "C1-N_style": {
+          "holm_rejection_count": 7,
+          "holm_rejection_fraction": 0.0023333333333333335,
+          "raw_type1_count": 130,
+          "raw_type1_fraction_of_all_trials": 0.043333333333333335,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.0366127910180945,
+            0.051221890817703224
+          ],
+          "untestable_nonpositive_variance_count": 1,
+          "untestable_nonpositive_variance_fraction": 0.0003333333333333333
+        },
+        "C3-C0": {
+          "holm_rejection_count": 3,
+          "holm_rejection_fraction": 0.001,
+          "raw_type1_count": 149,
+          "raw_type1_fraction_of_all_trials": 0.049666666666666665,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04245199158544549,
+            0.058033158166498094
+          ],
+          "untestable_nonpositive_variance_count": 2,
+          "untestable_nonpositive_variance_fraction": 0.0006666666666666666
+        },
+        "C3-N_history": {
+          "holm_rejection_count": 9,
+          "holm_rejection_fraction": 0.003,
+          "raw_type1_count": 142,
+          "raw_type1_fraction_of_all_trials": 0.04733333333333333,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04029631456999429,
+            0.055528136476000814
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "F": {
+          "holm_rejection_count": 6,
+          "holm_rejection_fraction": 0.002,
+          "raw_type1_count": 146,
+          "raw_type1_fraction_of_all_trials": 0.048666666666666664,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04152753547220747,
+            0.056960171977186766
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "FxH": {
+          "holm_rejection_count": 12,
+          "holm_rejection_fraction": 0.004,
+          "raw_type1_count": 145,
+          "raw_type1_fraction_of_all_trials": 0.04833333333333333,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.041219579683999655,
+            0.056602313664544796
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "H": {
+          "holm_rejection_count": 12,
+          "holm_rejection_fraction": 0.004,
+          "raw_type1_count": 132,
+          "raw_type1_fraction_of_all_trials": 0.044,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.037225603621850144,
+            0.05194070641564714
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "S": {
+          "holm_rejection_count": 17,
+          "holm_rejection_fraction": 0.005666666666666667,
+          "raw_type1_count": 149,
+          "raw_type1_fraction_of_all_trials": 0.049666666666666665,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04245199158544549,
+            0.058033158166498094
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "SxF": {
+          "holm_rejection_count": 7,
+          "holm_rejection_fraction": 0.0023333333333333335,
+          "raw_type1_count": 158,
+          "raw_type1_fraction_of_all_trials": 0.05266666666666667,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04523044741686435,
+            0.061247029242727284
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "SxFxH": {
+          "holm_rejection_count": 9,
+          "holm_rejection_fraction": 0.003,
+          "raw_type1_count": 149,
+          "raw_type1_fraction_of_all_trials": 0.049666666666666665,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04245199158544549,
+            0.058033158166498094
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "SxH": {
+          "holm_rejection_count": 5,
+          "holm_rejection_fraction": 0.0016666666666666668,
+          "raw_type1_count": 139,
+          "raw_type1_fraction_of_all_trials": 0.04633333333333333,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.03937397396973145,
+            0.054453034773714305
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        }
+      },
+      "replicates": 3000,
+      "scenario": {
+        "baseline_probability": 0.05,
+        "case_intercept_sd": 0.35,
+        "condition_template_slope_sd": 0.0,
+        "name": "rare_outcome_null",
+        "shared_uniform_probability": 0.5,
+        "speaker_intercept_sd": 0.6,
+        "template_intercept_sd": 0.25
+      }
+    },
+    {
+      "global_null_holm_fwer_count": 135,
+      "global_null_holm_fwer_fraction": 0.045,
+      "global_null_holm_fwer_wilson_95": [
+        0.0381456739237067,
+        0.05301807841633993
+      ],
+      "marginal": {
+        "C1-C0": {
+          "holm_rejection_count": 14,
+          "holm_rejection_fraction": 0.004666666666666667,
+          "raw_type1_count": 142,
+          "raw_type1_fraction_of_all_trials": 0.04733333333333333,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04029631456999429,
+            0.055528136476000814
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "C1-N_style": {
+          "holm_rejection_count": 17,
+          "holm_rejection_fraction": 0.005666666666666667,
+          "raw_type1_count": 176,
+          "raw_type1_fraction_of_all_trials": 0.058666666666666666,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.05080830888880603,
+            0.06765382158608169
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "C3-C0": {
+          "holm_rejection_count": 15,
+          "holm_rejection_fraction": 0.005,
+          "raw_type1_count": 143,
+          "raw_type1_fraction_of_all_trials": 0.04766666666666667,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.040603968243672725,
+            0.05588629690317218
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "C3-N_history": {
+          "holm_rejection_count": 12,
+          "holm_rejection_fraction": 0.004,
+          "raw_type1_count": 171,
+          "raw_type1_fraction_of_all_trials": 0.057,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04925627402901687,
+            0.06587678594162194
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "F": {
+          "holm_rejection_count": 17,
+          "holm_rejection_fraction": 0.005666666666666667,
+          "raw_type1_count": 155,
+          "raw_type1_fraction_of_all_trials": 0.051666666666666666,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.044303470952810266,
+            0.06017656340423202
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "FxH": {
+          "holm_rejection_count": 13,
+          "holm_rejection_fraction": 0.004333333333333333,
+          "raw_type1_count": 147,
+          "raw_type1_fraction_of_all_trials": 0.049,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.041835590014624356,
+            0.05731793153561967
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "H": {
+          "holm_rejection_count": 14,
+          "holm_rejection_fraction": 0.004666666666666667,
+          "raw_type1_count": 142,
+          "raw_type1_fraction_of_all_trials": 0.04733333333333333,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04029631456999429,
+            0.055528136476000814
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "S": {
+          "holm_rejection_count": 13,
+          "holm_rejection_fraction": 0.004333333333333333,
+          "raw_type1_count": 152,
+          "raw_type1_fraction_of_all_trials": 0.050666666666666665,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04337731140028998,
+            0.05910528065420295
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "SxF": {
+          "holm_rejection_count": 14,
+          "holm_rejection_fraction": 0.004666666666666667,
+          "raw_type1_count": 160,
+          "raw_type1_fraction_of_all_trials": 0.05333333333333334,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.04584887477722538,
+            0.06196023008406583
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "SxFxH": {
+          "holm_rejection_count": 16,
+          "holm_rejection_fraction": 0.005333333333333333,
+          "raw_type1_count": 126,
+          "raw_type1_fraction_of_all_trials": 0.042,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.03538857323595209,
+            0.04978285219644649
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        },
+        "SxH": {
+          "holm_rejection_count": 10,
+          "holm_rejection_fraction": 0.0033333333333333335,
+          "raw_type1_count": 133,
+          "raw_type1_fraction_of_all_trials": 0.044333333333333336,
+          "raw_type1_wilson_95_of_all_trials": [
+            0.03753218141738335,
+            0.05229994272096372
+          ],
+          "untestable_nonpositive_variance_count": 0,
+          "untestable_nonpositive_variance_fraction": 0.0
+        }
+      },
+      "replicates": 3000,
+      "scenario": {
+        "baseline_probability": 0.25,
+        "case_intercept_sd": 0.35,
+        "condition_template_slope_sd": 0.45,
+        "name": "balanced_condition_by_template_null",
+        "shared_uniform_probability": 0.5,
+        "speaker_intercept_sd": 0.6,
+        "template_intercept_sd": 0.25
+      }
+    }
+  ],
+  "target_boundary": {
+    "primary_target": "Mean contrast over the finite, prospectively frozen eight template ancestors.",
+    "sampling_clusters": "48 speakers; two cases stay together within speaker.",
+    "template_generalization": "Not claimed by the primary test; template leave-one-out and two-way intervals are sensitivity analyses only."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "personaslm_candidate2_c0_controller_regression_v1",
+  "recorded_utc": "2026-10-18T13:44:51.5877440Z",
+  "status": "PASS",
+  "predecessor": {
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_pilot_materialization_regression_v1.json",
+    "sha256": "c701252ec221d809599ba793ae73419465eb972359b08bb0100b3d58acde70af",
+    "preservation": "UNCHANGED"
+  },
+  "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_p1_model_feasibility_recovery.py tests/test_p1_evaluator_validity.py tests/test_reproduce_p1_feasibility_analysis.py tests/test_literature_monitor.py tests/test_literature_monitor_arxiv_doi_dedup.py tests/test_literature_review_addendum.py tests/test_windows_literature_scheduler.py tests/test_post_restart_literature_review.py tests/test_p1_independent_validation_precision.py tests/test_p1_semantic_review_package.py tests/test_p1_semantic_review_integration.py tests/test_p1_independent_validation_missingness.py tests/test_p1_candidate2_pilot_materialization.py tests/test_p1_candidate2_c0_controller.py",
+  "result": {
+    "passed": 88,
+    "failed": 0,
+    "skipped": 0,
+    "wall_seconds_reported_by_pytest": 27.70,
+    "warning_count": 1,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "candidate2_c0_controller": {
+    "status": "READY_CODE_AND_MATERIALS_BLOCKED_UNTIL_CANDIDATE2_QUALIFIES_AND_RAM_PASSES",
+    "readiness_path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_c0_controller_readiness_v1.json",
+    "readiness_sha256": "f826f25c49b5b0721528a2e526088a996707ee9cd53ba343fd82e9f8425346af",
+    "tool_path": "tools/p1_candidate2_c0_controller.py",
+    "tool_sha256": "84abead8a20a99383091727f2c718d1205ae28a1f3ef819028b7e09f31ffd66e",
+    "test_path": "tests/test_p1_candidate2_c0_controller.py",
+    "test_sha256": "389d07db98055345966e57a4aa4f206eb67ad2f6c142a41a75b647a77b6b1374",
+    "materialization_sha256": "44f6f1991c03c8fae23e743099cafe5b8ceb1fd95f50b942878679e90f3b47cf",
+    "explicit_c0_request_ids": 8,
+    "required_available_physical_bytes": 5368709120,
+    "candidate2_screen_prerequisite": "COMPLETE_INTEGRITY_VALID_QUALIFIED_SELECTION_AT_LEAST_7_OF_8",
+    "remaining_72_action_implemented": false,
+    "candidate2_attempts": 0
+  },
+  "execution_impact": {
+    "autonomous_generations_used": 8,
+    "candidate2_generations": 0,
+    "new_inference_seconds": 0.0,
+    "historical_ledger_modified": false,
+    "git_stage_commit_or_push": false
+  }
+}

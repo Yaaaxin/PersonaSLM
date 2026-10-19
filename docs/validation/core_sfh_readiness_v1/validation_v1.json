@@ -1,0 +1,23 @@
+{
+  "actual_native_token_range": [
+    1626,
+    1849
+  ],
+  "cases": 8,
+  "families": {
+    "context_followup": 2,
+    "multi_component": 2,
+    "relational_integration": 2,
+    "single_fact": 2
+  },
+  "heldout_overlap": 0,
+  "manifest_sha256": "0cdb9146306faeddddba85b896acbf2d49899c9a01a5d5e28751b62d787d64ae",
+  "matched_diagnostic_pairs": 16,
+  "native_tokens_match_official": 80,
+  "new_generations": 0,
+  "no_inference_authorization": true,
+  "prompt_reconstruction": 80,
+  "requests": 80,
+  "same_E_question_reference_per_case": true,
+  "speakers": 8
+}

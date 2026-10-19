@@ -1,0 +1,279 @@
+{
+  "authorization": {
+    "ledger_path": "docs/validation/p1/model_feasibility_recovery_v1/autonomous_authorization_ledger_v1.json",
+    "ledger_sha256": "b91070f93b80d667218fc940272bef808ed0ab178b9f0e45ffc9e82e87a59cc0",
+    "maximum_actual_model_inference_wall_seconds": 72000.0,
+    "maximum_new_local_cpu_generations": 1200,
+    "scope": "P1 model-feasibility recovery; not P3 and not confirmatory inference"
+  },
+  "candidate_order": [
+    {
+      "artifact": {
+        "filename": "smollm2-1.7b-instruct-q4_k_m.gguf",
+        "local_path": "models/gguf/feasibility_candidates/smollm2-1.7b-instruct-6a7e7939/smollm2-1.7b-instruct-q4_k_m.gguf",
+        "locally_available_at_freeze": false,
+        "quantization": "Q4_K_M",
+        "remote_sha256": "decd2598bc2c8ed08c19adc3c8fdd461ee19ed5708679d1c54ef54a5a30d4f33",
+        "reported_size": "1.06 GB",
+        "repository": "HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF",
+        "repository_revision": "6a7e79393ef2957e087f11fce1e50476799e313c",
+        "resolved_url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct-GGUF/resolve/6a7e79393ef2957e087f11fce1e50476799e313c/smollm2-1.7b-instruct-q4_k_m.gguf"
+      },
+      "candidate_id": "smollm2_1_7b_instruct_q4_k_m",
+      "license": {
+        "identifier": "Apache-2.0",
+        "model_card": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "weight_staging_policy": "Model weights remain ignored and must not enter Git"
+      },
+      "minimum_available_physical_bytes_before_load": 3221225472,
+      "model_class": "approximately 1.7B parameter instruction-tuned decoder",
+      "order": 1,
+      "reason_for_order": "Smaller and more permissively licensed challenger is tested first; order was fixed before any challenger output.",
+      "status": "FROZEN_NOT_DOWNLOADED_NOT_EXECUTED"
+    },
+    {
+      "artifact": {
+        "bytes": 2104932768,
+        "filename": "qwen2.5-3b-instruct-q4_k_m.gguf",
+        "local_path": "models/gguf/feasibility_candidates/qwen2.5-3b-instruct-af75b7aa/qwen2.5-3b-instruct-q4_k_m.gguf",
+        "locally_available_at_freeze": false,
+        "quantization": "Q4_K_M",
+        "remote_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+        "repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+        "repository_revision": "af75b7aaf5bb163ce4c5dab4e6b84d844e96265d",
+        "resolved_url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/af75b7aaf5bb163ce4c5dab4e6b84d844e96265d/qwen2.5-3b-instruct-q4_k_m.gguf"
+      },
+      "candidate_id": "qwen2_5_3b_instruct_q4_k_m",
+      "license": {
+        "identifier": "Qwen Research License",
+        "model_card": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct",
+        "scope_note": "Research use is permitted; redistribution obligations require review. The weight is never staged.",
+        "weight_staging_policy": "Model weights remain ignored and must not enter Git"
+      },
+      "minimum_available_physical_bytes_before_load": 5368709120,
+      "model_class": "approximately 3B parameter instruction-tuned decoder",
+      "order": 2,
+      "reason_for_order": "Larger fallback challenger; may run only after a completed nonqualifying Candidate 1 result and the 5 GiB candidate-specific RAM gate.",
+      "status": "FROZEN_NOT_DOWNLOADED_NOT_EXECUTED"
+    }
+  ],
+  "comparison": {
+    "historical_comparator": "Qwen3.5-2B-Instruct Q4_K_M Stage B C0 calibration",
+    "historical_result": "6/8 current-value adoption; 2/8 outdated-value adoption",
+    "policy": "Do not rerun the historical model or the eight historical responses. The challenger runs are new-model developmental measurements, not same-model retries."
+  },
+  "execution_policy": {
+    "backend": {
+      "build": "b11573-0f701c882",
+      "path": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+      "sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846"
+    },
+    "native_tokenizer": {
+      "path": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-tokenize.exe",
+      "sha256": "e05dbdef761e577b3d56f3daea7b205a07f68e5d87242ea4e2544382ffdd358e"
+    },
+    "batch": {
+      "maximum_actual_completion_wall_seconds": 2700.0,
+      "maximum_attempts": 8,
+      "no_hidden_warmup": true,
+      "no_retries": true,
+      "single_server_and_single_completion_at_a_time": true
+    },
+    "generation": {
+      "cache_prompt": false,
+      "context_tokens": 4096,
+      "gpu_layers": 0,
+      "ignore_eos": false,
+      "max_new_tokens": 96,
+      "mtp": false,
+      "seed": 42,
+      "stop": [],
+      "temperature": 0.0,
+      "threads": 4,
+      "threads_batch": 4,
+      "top_p": 1.0,
+      "vision": false
+    },
+    "global_ram_floor_bytes": 3221225472,
+    "template_policy": {
+      "mapping": "One user-role message containing the unchanged frozen Stage B C0 task content; no added system instruction or prompt variant.",
+      "materialization_gate": "After a verified model download and before any completion, read the nonempty tokenizer.chat_template embedded in the exact GGUF, hash it, render all eight frozen messages, obtain native b11573 token arrays, and save an immutable materialized manifest. Live token arrays must exactly match it before the first completion.",
+      "model_specific_compatibility_adjustment": "Each candidate uses its own verified embedded native chat template. This model-plus-template configuration difference is explicit and is not interpreted as a pure weight effect.",
+      "prohibitions": [
+        "manual template rewrite",
+        "added priority instruction",
+        "prompt search",
+        "case replacement",
+        "post-output alias expansion"
+      ]
+    }
+  },
+  "frozen_development_screen": {
+    "cases": [
+      {
+        "case_id": "p1_fallback_temporal_00",
+        "context_sha256": "74197315d6b32b56f30a87510b535c1380dcf0331b4c0998dc791158888d8924",
+        "evidence_sha256": "954127e3235f1f8443606c4ada11bf6d014f4d17c89897f795c5f7e4c21fd957",
+        "family": "library_storage",
+        "order": 0,
+        "question_sha256": "2ddfb4c556716aa32378704eef8d267bb9694d67e8affd6c654a7451cbaf2b8d",
+        "reference_sha256": "18c61db4250358ade3325b21a1ed0ee8ea7ad08cc6c7ef3e1931d4facc5d2021",
+        "source_request_id": "p1_fallback_temporal_00_C0",
+        "source_request_sha256": "c8bb7ab99336e8086b47b06749ff15a76a63d22f412210ddf35d3d67e6d6b41c",
+        "speaker_id": "p1_fallback_speaker_00"
+      },
+      {
+        "case_id": "p1_fallback_temporal_03",
+        "context_sha256": "74197315d6b32b56f30a87510b535c1380dcf0331b4c0998dc791158888d8924",
+        "evidence_sha256": "c288ab4b2a85973d93520137abe303ee229c5d642910febe761f8b495f475a49",
+        "family": "workshop_station",
+        "order": 1,
+        "question_sha256": "c6592ab62175cffbf038c179a179b7654125dc1fa426282654c85e5e5ace599b",
+        "reference_sha256": "706246c19a2c50ad3e4c78c9259d16092742f8c7295bb288a489e5d738646565",
+        "source_request_id": "p1_fallback_temporal_03_C0",
+        "source_request_sha256": "44ba1ba4e02302e3db35e88696a8dbf467c1a6d1eee0d052880fca3471dae351",
+        "speaker_id": "p1_fallback_speaker_03"
+      },
+      {
+        "case_id": "p1_fallback_temporal_05",
+        "context_sha256": "74197315d6b32b56f30a87510b535c1380dcf0331b4c0998dc791158888d8924",
+        "evidence_sha256": "1d3d46899e665b2fbee3df21fc6679962144ae5470d531a9e55eb0972129c4d8",
+        "family": "ferry_mooring",
+        "order": 2,
+        "question_sha256": "796d69488fcbca446bed1c2027feca0597b7807e6ae4bdd16e4e7f5c863a2371",
+        "reference_sha256": "9503e907ee6b637feb53b0aea69978daf62375027021778fa130412e9d06b551",
+        "source_request_id": "p1_fallback_temporal_05_C0",
+        "source_request_sha256": "f038888644decca2225e8723f2026f8f1446eed02d589fb1c2194de5a0fd5250",
+        "speaker_id": "p1_fallback_speaker_05"
+      },
+      {
+        "case_id": "p1_fallback_temporal_06",
+        "context_sha256": "74197315d6b32b56f30a87510b535c1380dcf0331b4c0998dc791158888d8924",
+        "evidence_sha256": "e4790900687932c1c0d4c4108a598e942770740f326ba8ce3d4a2de6512c4c82",
+        "family": "community_garden",
+        "order": 3,
+        "question_sha256": "f4fdefb9dd3ba23a1f27dfee52c3a9216e50aa743e2c3c335c7480573a815523",
+        "reference_sha256": "c6ba0797a196bfd4b7d555e9895e69226f978792265850a47425b4e8adaaee64",
+        "source_request_id": "p1_fallback_temporal_06_C0",
+        "source_request_sha256": "fbb183976867f40f201feecce22fdc15ec704e19b47b741210ad5dfb217a0a86",
+        "speaker_id": "p1_fallback_speaker_06"
+      },
+      {
+        "case_id": "p1_fallback_temporal_09",
+        "context_sha256": "74197315d6b32b56f30a87510b535c1380dcf0331b4c0998dc791158888d8924",
+        "evidence_sha256": "474dde23a887a20376ab8d098419bfeb63d46118623edba04ee41a948bcc7749",
+        "family": "archive_storage",
+        "order": 4,
+        "question_sha256": "cde433c2a0611705c3d6a4a079e163b9f5a8019f7a0e34083c38044ec28310e6",
+        "reference_sha256": "0473e5f80b5879deca77407489aa1885eebe02533046e635a5bd5bc72df8c49d",
+        "source_request_id": "p1_fallback_temporal_09_C0",
+        "source_request_sha256": "c44b90a88e943e47f69135625c1cadc7b023d5bb365573bf3853475e66b01040",
+        "speaker_id": "p1_fallback_speaker_09"
+      },
+      {
+        "case_id": "p1_fallback_temporal_11",
+        "context_sha256": "74197315d6b32b56f30a87510b535c1380dcf0331b4c0998dc791158888d8924",
+        "evidence_sha256": "c7901dad6ff67cfaf7dd10b223b7b277a437a9249cbf093faa61f7a0b74525be",
+        "family": "music_rehearsal",
+        "order": 5,
+        "question_sha256": "4ce1a9072e1829df118afd9a0bc8aad294cb7071135409cfb6f49777c2a199a2",
+        "reference_sha256": "1318b9dea6bcf22ca30f66e60db5eaa68bfd2cccf398f3991b78fc3eeff573a2",
+        "source_request_id": "p1_fallback_temporal_11_C0",
+        "source_request_sha256": "11fc0579f2c03ad078f32df357542607098d8fdedff1e0d8e34a42665b4e8d83",
+        "speaker_id": "p1_fallback_speaker_11"
+      },
+      {
+        "case_id": "p1_fallback_temporal_13",
+        "context_sha256": "74197315d6b32b56f30a87510b535c1380dcf0331b4c0998dc791158888d8924",
+        "evidence_sha256": "791080a664622fd68795b40e49295029056f0341eb9f27927138c5806f5f0f06",
+        "family": "volunteer_meeting",
+        "order": 6,
+        "question_sha256": "3eb2acae32f42c18136c60ed27f19d01c4b6e701280cb87ece7957703c2b399f",
+        "reference_sha256": "32fee0b6976875866fe9b93a777b0821bafdf189da8ef95ff363ebce8fa43844",
+        "source_request_id": "p1_fallback_temporal_13_C0",
+        "source_request_sha256": "062cf79486cc311833ed68433d8b54f0a9a5633a421885b610905389505fa54a",
+        "speaker_id": "p1_fallback_speaker_13"
+      },
+      {
+        "case_id": "p1_fallback_temporal_15",
+        "context_sha256": "74197315d6b32b56f30a87510b535c1380dcf0331b4c0998dc791158888d8924",
+        "evidence_sha256": "1b208d9a87dc2d03bd796d70be2d8a9e700eff07a1c4fb77d55cf6211421827e",
+        "family": "club_storage",
+        "order": 7,
+        "question_sha256": "afc5a1b25344b13e58f9df756d1091d2bed651ed67c1edc5c5e58bf090686d7e",
+        "reference_sha256": "3bedb53b158d8b2a1867d7e9196f221683c6dbdeead0e01cf75bf295aef57bab",
+        "source_request_id": "p1_fallback_temporal_15_C0",
+        "source_request_sha256": "b14530a10282bdb9e47255a845a4761b932da127412c52fcb9d7be9844947ae9",
+        "speaker_id": "p1_fallback_speaker_15"
+      }
+    ],
+    "denominator": 8,
+    "independent_validation": false,
+    "split": "DEVELOPMENT_ONLY_PREVIOUSLY_OBSERVED_WITH_HISTORICAL_MODEL",
+    "source_manifest_path": "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+    "source_manifest_sha256": "b23b9a35bba1ff9313e71f75759e8107b3d23b54f765c5fe736094263ff17cde"
+  },
+  "measurement": {
+    "answer_states": [
+      "CURRENT_VALUE_ADOPTION",
+      "OUTDATED_VALUE_ADOPTION",
+      "WRONG_ENTITY_ANSWER",
+      "CONTRADICTORY_ANSWER_REQUIRES_REVIEW",
+      "UNVERIFIABLE_ANSWER",
+      "EMPTY_RESPONSE",
+      "MISSING_RECORD"
+    ],
+    "automatic_scorer": "tools/p1_temporal_fallback.py endpoint; exact frozen current alias only is automatic Success",
+    "automatic_scorer_sha256": "d49c6cfefcee2c1838e7d36991ce9eecb84c459f6b1c8411462ca5ed074faa02",
+    "primary_endpoint": "Count of CURRENT_VALUE_ADOPTION among all eight attempted records",
+    "qualification_threshold": 7,
+    "secondary_endpoints": [
+      "full answer-state distribution",
+      "outdated-value adoption count",
+      "wrong-entity answer count",
+      "unverifiable and contradictory counts",
+      "empty and missing counts",
+      "native stop reason",
+      "generated token count",
+      "completion latency",
+      "structural response status",
+      "required-component exact coverage"
+    ],
+    "semantic_policy": "Automatic exact/alias outcomes are provisional developmental controls. Incomplete is not automatically factually incorrect; unverifiable is not false; EOS is not semantic completeness. Persona Fidelity and conversational coherence are NOT_APPLICABLE for this single-answer screen."
+  },
+  "post_screen_boundary": {
+    "disjoint_pilot_c0_case_ids": [
+      "p1_fallback_temporal_01",
+      "p1_fallback_temporal_02",
+      "p1_fallback_temporal_04",
+      "p1_fallback_temporal_07",
+      "p1_fallback_temporal_08",
+      "p1_fallback_temporal_10",
+      "p1_fallback_temporal_12",
+      "p1_fallback_temporal_14"
+    ],
+    "disjoint_pilot_manifest_path": "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_pilot_manifest_candidate_v1.json",
+    "disjoint_pilot_manifest_sha256": "4be7b1959779371502a0e562a589c942676644ef86897196912677978d4da382",
+    "factorial_continuation_rule": "After a selected model passes the separate disjoint pilot C0 gate at >=6/8, the remaining 72 frozen C1-C7/N_style/N_history requests may execute under the charter. A failed pilot C0 gate stops generation.",
+    "policy": "The eight disjoint fallback-pilot C0 cases are not used for model selection and remain unobserved for the selected model until the subsequent registered pilot gate."
+  },
+  "selection_rule": {
+    "candidate_1_failure": "Only a complete, integrity-valid 8-record result below 7/8 activates Candidate 2.",
+    "candidate_1_pass": "Select Candidate 1 and do not download or execute Candidate 2.",
+    "candidate_2_pass": "Select Candidate 2 if and only if Candidate 1 failed its complete gate and Candidate 2 reaches >=7/8.",
+    "integrity_or_resource_failure": "Stop screening; do not skip to another model and do not reinterpret the failure as a score.",
+    "no_candidate_passes": "Stop model screening and preserve a bounded negative feasibility result; do not add candidates or lower thresholds.",
+    "principle": "First qualifying candidate in the prospectively frozen least-complex order; never choose by the highest observed score."
+  },
+  "source_bindings": {
+    "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/allocation_frozen_v1.json": "4b7b87ca19a3f3c198268f610a31a9ed9cd36e8ab7396a10fa5b17dd3f819689",
+    "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/bank_frozen_v1.json": "fa617b66b9996f25fb66550a32d45671a580cee15513c2c79f0ae1a652c7b295",
+    "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json": "b23b9a35bba1ff9313e71f75759e8107b3d23b54f765c5fe736094263ff17cde",
+    "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_pilot_manifest_candidate_v1.json": "4be7b1959779371502a0e562a589c942676644ef86897196912677978d4da382",
+    "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/policy_frozen_v1.json": "fec5c4ecbe50ff9b4a1eb05aaacd47cf0d15b3c2ea6ac2853a2994e878cda690",
+    "docs/validation/p1/stage_b_v1/stage_b_execution_evidence_v1.json": "a2c41dfd4b91d232de72f0cbb44fa08429f7ac1d3334030e59f0e5ef76bcb3a5",
+    "tools/p1_temporal_fallback.py": "d49c6cfefcee2c1838e7d36991ce9eecb84c459f6b1c8411462ca5ed074faa02"
+  },
+  "status": "FROZEN_PROSPECTIVE_NO_CHALLENGER_DOWNLOAD_OR_INFERENCE_EXECUTED",
+  "version": "p1_model_feasibility_recovery_prospective_freeze_v1"
+}

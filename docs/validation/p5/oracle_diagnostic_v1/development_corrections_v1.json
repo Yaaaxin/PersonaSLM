@@ -1,0 +1,22 @@
+[
+  {
+    "event": "Memory gate initially failed",
+    "outcome": "Zero inference before successful preflight; preserved failure_01 and failure_02. A further same-gate failure occurred before the successful check; no invented historic timestamp."
+  },
+  {
+    "event": "Diagnostic memory helper named a nonexistent function",
+    "outcome": "Read-only AttributeError; corrected call to existing memory_observation; no experiment changed."
+  },
+  {
+    "event": "First two core control-search grammars had no exact match",
+    "outcome": "Preparation stopped before tokenizer output/manifest generation; grammar expanded before first successful candidate. No frozen candidate or response modified."
+  },
+  {
+    "event": "Read-only lookup of a presumed regression filename failed",
+    "outcome": "Used actual test files and existing seal; no missing validation claimed."
+  },
+  {
+    "event": "OS process metadata access denied in sandbox",
+    "outcome": "Explicitly approved read-only inspection identified a different application. No access to its files and no process modification; researcher released memory."
+  }
+]

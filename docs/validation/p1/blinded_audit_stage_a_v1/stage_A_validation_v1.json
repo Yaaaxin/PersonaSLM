@@ -1,0 +1,58 @@
+{
+  "candidate_validation": {
+    "candidate_requests": {
+      "D0": 80,
+      "D1": 80,
+      "D2": 80,
+      "D3": 80,
+      "fallback_calibration": 8,
+      "minimal_temporal": 80
+    },
+    "new_generations": 0,
+    "status": "PASS_CANDIDATES_NOT_EXECUTION_AUTHORIZATION"
+  },
+  "human_ratings": 0,
+  "live_generation_preflight": "NOT_RUN_STAGE_A_NO_INFERENCE_AUTHORIZED",
+  "model_and_backend_offline_identity": {
+    "checks": [
+      {
+        "check": "gguf",
+        "evidence": {
+          "bytes": 1270808032,
+          "gguf_version": 3,
+          "limitation": "Header and file digest checked; tensor loading and model identity require llama.cpp.",
+          "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\models\\gguf\\instruct_candidates\\lmstudio-bb84e113\\Qwen3.5-2B-Q4_K_M.gguf",
+          "sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+          "sha256_verified": true
+        },
+        "status": "PASS"
+      },
+      {
+        "check": "server_executable",
+        "evidence": {
+          "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\bin\\llama.cpp\\llama-b11573-bin-win-cpu-x64\\llama-server.exe",
+          "sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846"
+        },
+        "status": "PASS"
+      }
+    ],
+    "model": {
+      "bytes": 1270808032,
+      "gguf_version": 3,
+      "limitation": "Header and file digest checked; tensor loading and model identity require llama.cpp.",
+      "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\models\\gguf\\instruct_candidates\\lmstudio-bb84e113\\Qwen3.5-2B-Q4_K_M.gguf",
+      "sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+      "sha256_verified": true
+    },
+    "scope": "offline file preflight only; no real inference verified",
+    "server": {
+      "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\bin\\llama.cpp\\llama-b11573-bin-win-cpu-x64\\llama-server.exe",
+      "sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846"
+    },
+    "status": "PASS"
+  },
+  "new_generations": 0,
+  "previous_milestone_artifacts_preserved": 558,
+  "recorded_software_utc": "2026-10-15T12:52:14.257731+00:00",
+  "tokenizer_and_DLL_identity": "PASS"
+}

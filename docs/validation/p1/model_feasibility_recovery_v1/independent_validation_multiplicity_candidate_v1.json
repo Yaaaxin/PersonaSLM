@@ -1,0 +1,348 @@
+{
+  "adoption_gate": {
+    "cohort_authorized": false,
+    "required_before_confirmatory_freeze": [
+      "Genuine semantic adoption of the exact N_style and N_history controls.",
+      "A versioned missingness-policy extension covering both neutral-control contrasts.",
+      "Prospective simulation or validation of the marginal two-way speaker/template test for all family members.",
+      "A viable selected model, passed disjoint C0 gate, and interpretable development factorial.",
+      "A frozen cohort, applicability matrix, blinded annotation and inter-rater agreement plan."
+    ],
+    "status": "PENDING_RESEARCHER_ADOPTION"
+  },
+  "audit_finding": {
+    "existing_registered_contrasts": [
+      "C1-C0",
+      "C3-C0",
+      "S",
+      "F",
+      "H",
+      "SxF",
+      "SxH",
+      "FxH",
+      "SxFxH"
+    ],
+    "interpretation": "The two neutral-control contrasts must not be silently dropped or described as registered confirmatory analyses.",
+    "protocol_preliminary_simple_contrasts": [
+      "C1-C0",
+      "C3-C0",
+      "C1-N_style",
+      "C3-N_history"
+    ],
+    "protocol_simple_contrasts_absent_from_existing_registry": [
+      "C1-N_style",
+      "C3-N_history"
+    ]
+  },
+  "candidate_contrast_registry": {
+    "C1-C0": {
+      "C0": -1.0,
+      "C1": 1.0,
+      "C2": 0.0,
+      "C3": 0.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "N_history": 0.0,
+      "N_style": 0.0
+    },
+    "C1-N_style": {
+      "C0": 0.0,
+      "C1": 1.0,
+      "C2": 0.0,
+      "C3": 0.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "N_history": 0.0,
+      "N_style": -1.0
+    },
+    "C3-C0": {
+      "C0": -1.0,
+      "C1": 0.0,
+      "C2": 0.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "N_history": 0.0,
+      "N_style": 0.0
+    },
+    "C3-N_history": {
+      "C0": 0.0,
+      "C1": 0.0,
+      "C2": 0.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0,
+      "N_history": -1.0,
+      "N_style": 0.0
+    },
+    "F": {
+      "C0": -0.25,
+      "C1": -0.25,
+      "C2": 0.25,
+      "C3": -0.25,
+      "C4": 0.25,
+      "C5": -0.25,
+      "C6": 0.25,
+      "C7": 0.25,
+      "N_history": 0.0,
+      "N_style": 0.0
+    },
+    "FxH": {
+      "C0": 0.5,
+      "C1": 0.5,
+      "C2": -0.5,
+      "C3": -0.5,
+      "C4": -0.5,
+      "C5": -0.5,
+      "C6": 0.5,
+      "C7": 0.5,
+      "N_history": 0.0,
+      "N_style": 0.0
+    },
+    "H": {
+      "C0": -0.25,
+      "C1": -0.25,
+      "C2": -0.25,
+      "C3": 0.25,
+      "C4": -0.25,
+      "C5": 0.25,
+      "C6": 0.25,
+      "C7": 0.25,
+      "N_history": 0.0,
+      "N_style": 0.0
+    },
+    "S": {
+      "C0": -0.25,
+      "C1": 0.25,
+      "C2": -0.25,
+      "C3": -0.25,
+      "C4": 0.25,
+      "C5": 0.25,
+      "C6": -0.25,
+      "C7": 0.25,
+      "N_history": 0.0,
+      "N_style": 0.0
+    },
+    "SxF": {
+      "C0": 0.5,
+      "C1": -0.5,
+      "C2": -0.5,
+      "C3": 0.5,
+      "C4": 0.5,
+      "C5": -0.5,
+      "C6": -0.5,
+      "C7": 0.5,
+      "N_history": 0.0,
+      "N_style": 0.0
+    },
+    "SxFxH": {
+      "C0": -1.0,
+      "C1": 1.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": -1.0,
+      "C5": -1.0,
+      "C6": -1.0,
+      "C7": 1.0,
+      "N_history": 0.0,
+      "N_style": 0.0
+    },
+    "SxH": {
+      "C0": 0.5,
+      "C1": -0.5,
+      "C2": 0.5,
+      "C3": -0.5,
+      "C4": -0.5,
+      "C5": 0.5,
+      "C6": -0.5,
+      "C7": 0.5,
+      "N_history": 0.0,
+      "N_style": 0.0
+    }
+  },
+  "candidate_endpoint_hierarchy": {
+    "confirmatory_family": [
+      "C1-C0",
+      "C3-C0",
+      "C1-N_style",
+      "C3-N_history",
+      "S",
+      "F",
+      "H",
+      "SxF",
+      "SxH",
+      "FxH",
+      "SxFxH"
+    ],
+    "family_size": 11,
+    "lead_planning_contrast": "C3-C0",
+    "lead_status": "Planning and reporting order only; no privileged unadjusted alpha within the family.",
+    "multiplicity": "Holm step-down family-wise error control at alpha 0.05 across all 11 hypotheses.",
+    "neutral_control_condition": "C1-N_style and C3-N_history enter the family only if their exact controls receive prospective semantic adoption before cohort freeze.",
+    "primary_endpoint": "Binary outdated-value adoption from genuine blinded semantic review.",
+    "secondary_claim_rule": "Report estimates, denominators, coverage, uncertainty, and missingness; do not convert unadjusted secondary intervals into confirmatory significance claims.",
+    "secondary_estimation": [
+      "Current-value adoption and the full mutually exclusive semantic-category distribution.",
+      "Response Relevance, Factual Consistency, Temporal Consistency, and Conversational Coherence.",
+      "Semantic completeness, structural status, Linguistic Fidelity, Behavioral Fidelity, latency, and memory."
+    ],
+    "test_sidedness": "Two-sided; effect direction and magnitude are reported regardless of sign."
+  },
+  "compatibility": {
+    "dependency_sha256": {
+      "docs/research_protocol_v1.1.md": "d2bacdc1beb8de578615134e159ad2335e298886c6506507264b22a52cffb21e",
+      "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_missingness_policy_v1.json": "75de14a4d62d023bd6c232ee81ec8480a1cb495e3a0d8868afec40175aa7c653",
+      "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_precision_v1.json": "8a2f7145ff263893127e4607b33b448e71f8e6de81ab972eb65a5edf12b6d96b",
+      "src/personaslm/conditioning.py": "7b0e6a2230b241f86fec024d6768a9a9c08662945b8cfd668f5445dd5f4d24e6",
+      "src/personaslm/human_factorial.py": "18c9fa31fbc04e63cfb7de507383f6ebd27d567af48870cb8ce0a6e534d6907f"
+    },
+    "missingness_status": "PROSPECTIVE_POLICY_READY_FOR_RESEARCHER_ADOPTION_NOT_AUTHORIZED",
+    "precision_status": "SYNTHETIC_PLANNING_COMPLETE_NO_INFERENCE",
+    "source_sha256": "a61b26271e1fe0fd06ecad5e0a7bc825ccd70f51a724a81e1d119deb05c950e6"
+  },
+  "execution_impact": {
+    "cohort_authorized": false,
+    "human_annotations": 0,
+    "inference_seconds": 0.0,
+    "scientific_model_generations": 0
+  },
+  "historical_effect": "No historical output, annotation, score, gate, or estimand is changed.",
+  "missing_outcome_multiplicity_rule": {
+    "compatibility": "Never drop unknown cells and renormalize surviving factorial weights.",
+    "rule": "A contrast without its prospectively valid primary-endpoint test remains in the 11-member family as an untestable non-rejection; it is never removed to reduce the Holm denominator."
+  },
+  "schema_version": "personaslm_p1_independent_validation_multiplicity_candidate_v1",
+  "scientific_limits": [
+    "Holm controls multiplicity only when the constituent marginal p-values are valid; this artifact does not validate them.",
+    "Eight planned template ancestors make template-cluster inference fragile and require the registered sensitivity analyses.",
+    "The primary endpoint and family are a proposal, not a Protocol v1.1 amendment or confirmatory freeze.",
+    "No neutral-control contrast is estimable unless its exact control is prospectively accepted and executed.",
+    "The synthetic Holm values are software examples and contain no observed or simulated PersonaSLM outcome."
+  ],
+  "status": "PROSPECTIVE_CANDIDATE_PENDING_RESEARCHER_ADOPTION_CONTROL_VALIDITY_AND_TEST_CALIBRATION",
+  "verified_synthetic_holm_example_not_data": {
+    "alpha": 0.05,
+    "family_size": 11,
+    "method": "Holm step-down family-wise error control",
+    "rows": [
+      {
+        "adjusted_p_value": 1.0,
+        "effective_p_value_for_ordering": 0.5,
+        "hypothesis": "C1-C0",
+        "rank": 3,
+        "raw_p_value": 0.5,
+        "reject": false,
+        "status": "TESTED",
+        "step_threshold": 0.005555555555555556
+      },
+      {
+        "adjusted_p_value": 0.044,
+        "effective_p_value_for_ordering": 0.004,
+        "hypothesis": "C3-C0",
+        "rank": 1,
+        "raw_p_value": 0.004,
+        "reject": true,
+        "status": "TESTED",
+        "step_threshold": 0.004545454545454546
+      },
+      {
+        "adjusted_p_value": 1.0,
+        "effective_p_value_for_ordering": 0.5,
+        "hypothesis": "C1-N_style",
+        "rank": 4,
+        "raw_p_value": 0.5,
+        "reject": false,
+        "status": "TESTED",
+        "step_threshold": 0.00625
+      },
+      {
+        "adjusted_p_value": 1.0,
+        "effective_p_value_for_ordering": 1.0,
+        "hypothesis": "C3-N_history",
+        "rank": 11,
+        "raw_p_value": null,
+        "reject": false,
+        "status": "UNTESTABLE_RETAINED_AS_NONREJECTION",
+        "step_threshold": 0.05
+      },
+      {
+        "adjusted_p_value": 1.0,
+        "effective_p_value_for_ordering": 0.5,
+        "hypothesis": "S",
+        "rank": 5,
+        "raw_p_value": 0.5,
+        "reject": false,
+        "status": "TESTED",
+        "step_threshold": 0.0071428571428571435
+      },
+      {
+        "adjusted_p_value": 1.0,
+        "effective_p_value_for_ordering": 0.5,
+        "hypothesis": "F",
+        "rank": 6,
+        "raw_p_value": 0.5,
+        "reject": false,
+        "status": "TESTED",
+        "step_threshold": 0.008333333333333333
+      },
+      {
+        "adjusted_p_value": 0.10999999999999999,
+        "effective_p_value_for_ordering": 0.011,
+        "hypothesis": "H",
+        "rank": 2,
+        "raw_p_value": 0.011,
+        "reject": false,
+        "status": "TESTED",
+        "step_threshold": 0.005
+      },
+      {
+        "adjusted_p_value": 1.0,
+        "effective_p_value_for_ordering": 0.5,
+        "hypothesis": "SxF",
+        "rank": 7,
+        "raw_p_value": 0.5,
+        "reject": false,
+        "status": "TESTED",
+        "step_threshold": 0.01
+      },
+      {
+        "adjusted_p_value": 1.0,
+        "effective_p_value_for_ordering": 0.5,
+        "hypothesis": "SxH",
+        "rank": 8,
+        "raw_p_value": 0.5,
+        "reject": false,
+        "status": "TESTED",
+        "step_threshold": 0.0125
+      },
+      {
+        "adjusted_p_value": 1.0,
+        "effective_p_value_for_ordering": 0.5,
+        "hypothesis": "FxH",
+        "rank": 9,
+        "raw_p_value": 0.5,
+        "reject": false,
+        "status": "TESTED",
+        "step_threshold": 0.016666666666666666
+      },
+      {
+        "adjusted_p_value": 1.0,
+        "effective_p_value_for_ordering": 0.5,
+        "hypothesis": "SxFxH",
+        "rank": 10,
+        "raw_p_value": 0.5,
+        "reject": false,
+        "status": "TESTED",
+        "step_threshold": 0.025
+      }
+    ]
+  }
+}

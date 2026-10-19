@@ -1,0 +1,205 @@
+{
+  "schema_version": "personaslm_disjoint_surface_validation_research_state_v3",
+  "state_recorded_utc": "2026-10-18T22:22:11.4918832Z",
+  "local_research_date": "2026-10-19",
+  "timezone": "Europe/Paris",
+  "researcher": "Yaxin ZHENG",
+  "paper_title": "Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models",
+  "repository_snapshot": {
+    "branch": "research/autonomous-personaslm",
+    "head": "c40667ad266082481b1850453f67784b593f3723",
+    "git_commit_push_or_stage_executed_by_agent": false,
+    "historical_worktree_changes_preserved": true
+  },
+  "predecessor_screen": {
+    "candidate_1": {
+      "model": "SmolLM2-1.7B-Instruct Q4_K_M",
+      "completed_generations": 8,
+      "registered_successes": 1,
+      "registered_threshold": 7,
+      "status": "FAILED_FROZEN_SCREEN"
+    },
+    "candidate_2": {
+      "model": "Qwen2.5-3B-Instruct Q4_K_M",
+      "completed_generations": 8,
+      "registered_successes": 2,
+      "registered_threshold": 7,
+      "status": "FAILED_FROZEN_SCREEN"
+    },
+    "bounded_selection_status": "BOUNDED_SCREEN_NEGATIVE",
+    "interpretation": "The registered screen is final for its frozen task bank and is not a universal gate for later prospectively registered dialogue research."
+  },
+  "current_milestone": {
+    "id": "P1_DISJOINT_SYNTHETIC_HISTORY_SEMANTICS_SURFACE_VALIDATION_V3",
+    "status": "EXECUTED_ANALYZED_AND_INDEPENDENTLY_RECALCULATED",
+    "evidence_level": "PROSPECTIVE_INDEPENDENT_CASE_SYNTHETIC_VALIDATION_WITH_LOCAL_INDEPENDENT_ANALYSIS_CODE",
+    "not_evidence_of": [
+      "real-speaker validity",
+      "full Style-by-Facts-by-History factorial effects",
+      "independent researcher replication",
+      "human-validated Persona Fidelity",
+      "population causal effects",
+      "a validated novel algorithm"
+    ]
+  },
+  "experiment": {
+    "model": "Qwen3.5-2B Q4_K_M",
+    "model_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "chat_template_sha256": "0286b273dc0e7dbcc080469bf5b8e57b329c135db0de8a45cb16f80a8b0c4ce6",
+    "synthetic_personas": 12,
+    "disjoint_cases": 24,
+    "task_families": 3,
+    "within_case_arms": 7,
+    "style_present_all_arms": true,
+    "facts_present_all_arms": true,
+    "new_generations": 168,
+    "attempts": 168,
+    "retries": 0,
+    "hidden_warmups": 0,
+    "native_tokenizer_operations": 168,
+    "live_tokenizer_checks": 168,
+    "native_eos": 168,
+    "generated_tokens": 8691,
+    "run_directory": "results/p1_persona_dialogue_disjoint_surface_validation/v3/runs/20261018T214135-eb079a7d40da4ca1a1db9135718d6ad2",
+    "journal_events": 1557,
+    "journal_terminal_hash": "c45b4fe195110cedf6e45d5e061467ec34852c2d1a27ec43063fbc912d5e635d",
+    "source_git_head": "c40667ad266082481b1850453f67784b593f3723"
+  },
+  "frozen_evidence": {
+    "prospective_design_sha256": "28caab146f9ff51ec5f09aee9f3a9da9f0ae82a511ac7c332bb8a9418dc0fbac",
+    "case_bank_sha256": "b694f87ccc62d62960c61aeae81229e9eca7f37038c755d8e3ccf31f8567e3dd",
+    "review_protocol_sha256": "e4db428b9c523a70c19781be22c1711839c3835fb8a863e3c7cf654ace986943",
+    "material_disjointness_audit_sha256": "9bc2a744c4f3fafee290fda862cfa12b8dc749cd7cfb173b2fdc2a44deef996b",
+    "controller_sha256": "b461ec0d9f6f5b8256b75c444f3a00f1e31319f0fec86b190bfc86d123d57255",
+    "execution_authorization_sha256": "da3e3c3ee332bc6472e75a9a515d720e11c5b8ebeec55c5ebda5d78816b1a70a",
+    "frozen_manifest_sha256": "da559249c4ec4076de572b571b1746f70436dbe781bd51287e0ad36b52c6a3cb",
+    "preflight_sha256": "20ee1e2ce9bc884ea1aede2b05de8f96e37674d87046dc5f4a6149048f2b919d",
+    "execution_audit_sha256": "2d86ea152519bc2ac27ab122bd2c54cf738dd89b6f1050b712a13be9f60c2c3d",
+    "analysis_sha256": "0a2d4547a6501991d6b9f1855a4f4081ff885bba5e700f226757ace58d182a44",
+    "run_manifest_sha256": "0e4ef6d5b3bb8e2dea8398f3aabc6a574528018c2d150d6062f1569575e44abf",
+    "run_summary_sha256": "4952913555f539d1edbd36663f88c9ceb8194d0804fb2b048176444848f331c8",
+    "claim_sha256": "abc87fdbd4b57163f3722590904e1167be5400c6e0881e829dac2dfbdf6f0b6d"
+  },
+  "registered_automatic_results": {
+    "condition_successes_preferred_any_current": {
+      "SF_NO_H": [23, 24],
+      "SFH_ALIGNED_RAW": [19, 20],
+      "SFH_ALIGNED_DECLARATIVE": [20, 21],
+      "SFH_CONFLICT_RAW": [19, 20],
+      "SFH_CONFLICT_DECLARATIVE": [19, 21],
+      "SFH_IRRELEVANT_RAW": [19, 20],
+      "SFH_IRRELEVANT_DECLARATIVE": [18, 19]
+    },
+    "denominator_per_arm": 24,
+    "preferred_estimates": {
+      "aligned_minus_irrelevant": 0.041666666666666664,
+      "conflict_minus_irrelevant": 0.020833333333333332,
+      "declarative_minus_raw": 0.0,
+      "irrelevant_history_minus_no_history": -0.1875,
+      "aligned_minus_conflict": 0.020833333333333332,
+      "surface_interaction_aligned_minus_irrelevant": 0.08333333333333333,
+      "surface_interaction_conflict_minus_irrelevant": 0.041666666666666664
+    },
+    "any_current_estimates": {
+      "aligned_minus_irrelevant": 0.041666666666666664,
+      "conflict_minus_irrelevant": 0.041666666666666664,
+      "declarative_minus_raw": 0.013888888888888888,
+      "irrelevant_history_minus_no_history": -0.1875,
+      "aligned_minus_conflict": 0.0,
+      "surface_interaction_aligned_minus_irrelevant": 0.08333333333333333,
+      "surface_interaction_conflict_minus_irrelevant": 0.08333333333333333
+    },
+    "inference_classification": "ESTIMATION_ONLY_NO_P_VALUES_NO_CONFIDENCE_INTERVALS",
+    "interpretation": "The prior same-bank declarative association did not reproduce as a stable pooled benefit. History-semantics contrasts were small and task-family heterogeneous."
+  },
+  "post_hoc_exploratory_measurement_mechanism": {
+    "classification": "POST_HOC_EXPLORATORY_NOT_PREREGISTERED_NOT_CONFIRMATORY",
+    "history_conditioned_outputs": 144,
+    "literal_anchor_placeholder_outputs": 24,
+    "no_history_placeholder_outputs": 0,
+    "placeholder_selection_categories": {
+      "NONE": 23,
+      "CURRENT_PREFERRED": 1
+    },
+    "scorer_none_subset": {
+      "denominator": 23,
+      "preferred_canonical_name_first_sentence": 23,
+      "nonpreferred_canonical_name_first_sentence": 0
+    },
+    "current_nonpreferred_selections": 8,
+    "current_nonpreferred_persona_concentration": {
+      "DSV_P02": 8
+    },
+    "supported_conclusion": "Literal system-format placeholder copying caused a reproducible response-realization and narrow-evaluator failure in this tested configuration.",
+    "unsupported_conclusion": "The registered -0.1875 automatic contrast does not establish semantic persona unreliability caused by History."
+  },
+  "analysis_reproduction": {
+    "decision": "GO_ZERO_REGISTERED_DIFFERENCES",
+    "v1_receipt_sha256": "8b521427849353497869c0626c946f5e4716f7c7abe1d5f661233dc4f8641cfb",
+    "v2_append_only_correction_sha256": "e0c234d6194019c62d4fc019da6c4a057825ec8648d04face8fdf3b696807d4e",
+    "v2_script_sha256": "655856d16a660a6d479ec188143194e19ea21fa8f66e07b342a166859594243f",
+    "v2_test_sha256": "277226d37c61b2412592aa58e8132e643d771b231848a3f41593d3d98e9b8467",
+    "registered_scores_estimates_resources_or_budgets_changed_by_v2": false,
+    "independence_boundary": "Separate local implementation over the same raw journal; not independent personnel, sample, model, human validation, or generation reproduction."
+  },
+  "resources": {
+    "preflight_available_physical_ram_bytes": 3581276160,
+    "preflight_required_available_ram_bytes": 3221225472,
+    "peak_server_working_set_bytes": 3591196672,
+    "minimum_observed_available_physical_ram_bytes": 289243136,
+    "completion_inference_seconds": 1203.5250847999923,
+    "batch_wall_seconds": 1242.346822200001,
+    "future_generation_warning": "The observed free-RAM minimum is a material stability warning. Every later batch requires a new prospective plan and passing preflight; no threshold reduction is permitted."
+  },
+  "cumulative_authorization": {
+    "generation_limit": 1200,
+    "generations_used": 508,
+    "generations_remaining": 692,
+    "inference_seconds_limit": 72000.0,
+    "inference_seconds_used": 3171.544608799969,
+    "inference_seconds_remaining": 68828.45539120003,
+    "new_generations_since_initial_eight_generation_restart_checkpoint": 500
+  },
+  "human_review": {
+    "labels_created": 0,
+    "stage_a_status": "AWAITING_GENUINE_HUMAN_REVIEW",
+    "official_template": "results/p1_persona_dialogue_disjoint_surface_validation/v3/human_review/stage_a_delivery/stage_a_current_only_REVIEW_TEMPLATE.csv",
+    "official_template_sha256": "1b125f7c17eebb262dbbc2ad1ecbbf8ca265fb92feff6458fa41fe6ab4c41d47",
+    "instructions_sha256": "33ff59daa42ddf57fea84ae2f4973cc7930b6141e441b9cfa9d773bced878185",
+    "package_receipt_sha256": "fb8262dad4118fde81ec8a286f48d1aca009911b06ac65a79a26ef95417895e6",
+    "required_action": "Copy the official template, complete all genuine judgments in the copy, and provide a truthful private 21-field provenance JSON. Do not edit the official template or reveal the protected mapping.",
+    "stage_b_status": "BLOCKED_UNTIL_VALID_STAGE_A_SEAL",
+    "independence_limit": "One principal-researcher review is genuine human evidence but not independent validation or inter-rater reliability.",
+    "provenance_classifier_limit": "The frozen intake validates prior_rubric_or_item_involvement and the independence field but does not incorporate them into its exposure classification. A valid seal cannot alone justify a clean or independent label when either field is YES or UNCERTAIN; report submitted provenance directly and create a prospective clarification without changing the frozen controller."
+  },
+  "literature_monitoring": {
+    "date": "2026-10-19",
+    "successful_snapshot_sha256": "2f40ad27c34a48f1a038bbcf1e71c57decd45c139db49cc1478baf2b87e0a851",
+    "records": 217,
+    "source_requests_succeeded": 13,
+    "source_requests_failed": 0,
+    "new_stable_ids": 0,
+    "records_with_field_change": 0,
+    "publication_transitions": 0,
+    "daily_delta_sha256": "13ba6678575edf6d63c8616bafc269be793268e4c540d5557c370447e537aa66",
+    "primary_source_novelty_boundary_status": "UNCHANGED_NO_NEW_PAPER_CLAIMED"
+  },
+  "algorithmic_status": {
+    "validated_novel_algorithm": false,
+    "declarative_rendering_status": "SIMPLE_PROMPT_BASELINE_WITH_NO_STABLE_POOLED_ADVANTAGE",
+    "next_activation_condition": "First establish a residual semantic failure through genuine blinded review, then prospectively compare strong simple and published baselines under equal information and CPU budgets on an ancestry-disjoint bank."
+  },
+  "real_speaker_status": {
+    "evidence_collected": false,
+    "status": "BLOCKED_GOVERNED_DATA",
+    "reason": "No lawful, consent- and license-documented real-speaker material with the required governance and P4 authorization is available in the verified repository state. Synthetic personas are not represented as real speakers."
+  },
+  "current_blockers": [
+    "Genuine condition-blinded Stage-A human semantic and Persona Fidelity judgments are required to resolve automatic-measure construct validity.",
+    "Stage B is structurally blocked until a valid Stage-A submission and seal exist.",
+    "Real-speaker transfer evidence requires lawful governed speaker-derived material and applicable authorization.",
+    "A novel algorithm claim requires a replicated residual semantic failure, strong prior-art baselines, ablations, cost accounting, and independent validation."
+  ],
+  "next_scientifically_justified_action": "Complete genuine Stage-A human review of the 168 current-only records, validate and seal its provenance, then construct the frozen 72-pair Stage-B review and determine whether a semantic History failure remains after separating selection from response realization."
+}

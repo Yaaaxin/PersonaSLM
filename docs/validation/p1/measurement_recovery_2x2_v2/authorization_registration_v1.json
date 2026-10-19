@@ -1,0 +1,48 @@
+{
+  "authorization_id": "P1_ACCELERATED_MEASUREMENT_20261015_V1",
+  "category": "C_DIAGNOSTIC",
+  "factorial_execution_authorized": false,
+  "fallback_conditions": [
+    "OQ24 completed plus archived D0",
+    "Researcher-confirmed32-condition annotation snapshot",
+    "No OQ configuration meets both gates",
+    "Frozen16-case fallback bank and fixed8/8 allocation",
+    "Complete scientific and engineering preflight"
+  ],
+  "fallback_gate": "Eight C0 only; researcher-audited >=7/8 before preparing qualified pilot. No automatic80 execution.",
+  "human_timestamp": null,
+  "maximum_OQ_attempts": 24,
+  "maximum_conditional_fallback_attempts": 8,
+  "new_authorization_added": 0,
+  "no_retries": true,
+  "prior_cumulative": {
+    "attempted": {
+      "A_C0": 32,
+      "B_FACTORIAL": 0,
+      "C_DIAGNOSTIC": 16
+    },
+    "authorization_id": "P1_ACCELERATED_MEASUREMENT_20261015_V1",
+    "remaining_authorization": {
+      "A_C0": 0,
+      "B_FACTORIAL": 80,
+      "C_DIAGNOSTIC": 32
+    },
+    "remaining_unreserved": {
+      "A_C0": 0,
+      "B_FACTORIAL": 80,
+      "C_DIAGNOSTIC": 32
+    },
+    "reserved": {
+      "A_C0": 32,
+      "B_FACTORIAL": 0,
+      "C_DIAGNOSTIC": 16
+    },
+    "retry_policy": "Attempt files are exclusive and never removed. Ambiguous transport outcomes consume an attempt.",
+    "total_attempted": 48,
+    "total_remaining": 112
+  },
+  "registered_utc": "2026-10-15T11:07:40.600768+00:00",
+  "researcher": "Yaxin ZHENG",
+  "semantic_approval": false,
+  "source": "Current user instruction sections2-4,7-13; earlier160-category authorization remains binding."
+}

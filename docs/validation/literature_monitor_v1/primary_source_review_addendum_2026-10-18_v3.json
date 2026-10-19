@@ -1,0 +1,130 @@
+{
+  "schema_version": "personaslm_primary_source_review_addendum_v3",
+  "recorded_utc": "2026-10-18T15:55:27.9984961Z",
+  "date_last_checked": "2026-10-18",
+  "reviewer_type": "AI_ASSISTED_PRIMARY_SOURCE_REVIEW",
+  "human_confirmation": "NOT_RECORDED",
+  "predecessors": [
+    {
+      "path": "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v1.json",
+      "sha256": "fa2e78129a1d24eab6e7202d9f28db0a06e376de0edbbf83e83866202bb70be8",
+      "preservation": "UNCHANGED"
+    },
+    {
+      "path": "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v2.json",
+      "sha256": "021f5fa54aaec20d74bee1f4e105cffebc913a691d5d0d09a2b9877e6b472efe",
+      "preservation": "UNCHANGED"
+    }
+  ],
+  "scope": "Targeted same-day primary-source delta for temporal-state memory, intrinsic memory-state evaluation, mechanistic personalization, and three formal-publication records. No paper system, code, dataset, model output, or reported effect was independently reproduced. The search was stopped after the bounded verification and is not an exhaustive systematic review.",
+  "records": [
+    {
+      "stable_id": "arxiv:2610.21900",
+      "title": "TEM: Temporal State Tracking Memory for Large Language Model Agents",
+      "venue_or_status": "arXiv preprint v1; no formal publication verified",
+      "publication_date": "2026-10-15",
+      "date_last_checked": "2026-10-18",
+      "identifiers": {"arxiv": "2610.21900", "doi": "10.48550/arXiv.2610.21900"},
+      "source_url": "https://arxiv.org/abs/2610.21900",
+      "full_text_url": "https://arxiv.org/html/2610.21900v1",
+      "code_url": "https://github.com/sungkites/TEM",
+      "verified_summary": "TEM is a training-free memory design that stores versioned, source-linked facts, retrieves relevant versions in source order, labels historical records, and supplements them with event memory and original turns. Its state-update benchmark has 60 personas, 600 sessions, and 420 questions. Across Llama-3.1-8B, Qwen3.5-4B, Qwen3.5-9B, and gpt-oss-20b, the paper reports 75.71-97.62% key-entity hit rates overall and 96.67-100% on historical residence. Holding facts and source order fixed, historical labels add 17.14-55.95 percentage points. Evidence averages 94-118 tokens, 48.75-56.73% shorter than session-aware RAG.",
+      "additional_evidence": "On 1,540 public LoCoMo questions under a 1,024-token evidence budget, the reported conservative TEM-minus-session-RAG differences are 7.92 and 10.58 percentage points for two backbones. Marked and unmarked TEM variants are similar on LoCoMo, so the paper attributes most of that gain to hybrid evidence organisation rather than historical labels. Experiments used an A100 40 GB GPU; these are not local CPU-small-model results.",
+      "overlap_with_personaslm": "Direct overlap with dated persona facts, supersession, temporal labels, source-aware history selection, compact evidence, and current-versus-historical answering.",
+      "potential_novelty_threat": "HIGH_DIRECT_TEMPORAL_MEMORY_COLLISION",
+      "required_personaslm_response": "Do not claim novelty for versioned persona facts, source ordering, historical labels, or compact temporal evidence. A temporal intervention must compare session RAG, a source-ordered no-label ablation, full TEM or an information-equivalent implementation, and equal evidence budgets, while additionally measuring Persona Fidelity, reliability, latency, and memory on the target CPU-small-model population.",
+      "versions": [{"label": "arXiv v1", "date": "2026-10-15", "source_url": "https://arxiv.org/abs/2610.21900v1"}]
+    },
+    {
+      "stable_id": "arxiv:2610.22209",
+      "title": "FEB-30",
+      "venue_or_status": "arXiv preprint v1; no formal publication verified",
+      "publication_date": "2026-10-15",
+      "date_last_checked": "2026-10-18",
+      "identifiers": {"arxiv": "2610.22209", "doi": "10.48550/arXiv.2610.22209"},
+      "source_url": "https://arxiv.org/abs/2610.22209",
+      "full_text_url": "https://arxiv.org/html/2610.22209v1",
+      "verified_summary": "FEB-30 uses 30 fact-evolution trajectories across six categories and three difficulty levels to distinguish intrinsic memory-state quality, including claim coverage, update detection, and false updates, from downstream question answering. The paper reports a mean 16-point intrinsic-versus-extrinsic divergence, meaningful divergence on 44% of trajectories, and only 20% correct operation classification in its representative analysis.",
+      "overlap_with_personaslm": "Provides a direct evaluation pattern for separating whether history was stored or selected correctly from whether the generator happened to answer correctly.",
+      "potential_novelty_threat": "MODERATE_METHOD_EVALUATION_COLLISION",
+      "required_personaslm_response": "Archive and score the selected or stored evidence state separately from final response outcomes in any Track B history intervention. Final-answer accuracy alone cannot validate the proposed mechanism.",
+      "versions": [{"label": "arXiv v1", "date": "2026-10-15", "source_url": "https://arxiv.org/abs/2610.22209v1"}]
+    },
+    {
+      "stable_id": "arxiv:2610.22127",
+      "title": "Explaining Roles of Experts in MoE LLMs for Personalization",
+      "venue_or_status": "arXiv preprint v1; manuscript states under review; no accepted venue verified",
+      "publication_date": "2026-10-15",
+      "date_last_checked": "2026-10-18",
+      "identifiers": {"arxiv": "2610.22127", "doi": "10.48550/arXiv.2610.22127"},
+      "source_url": "https://arxiv.org/abs/2610.22127",
+      "full_text_url": "https://arxiv.org/html/2610.22127v1",
+      "verified_summary": "The study analyzes personalization in OLMoE-1B-7B, Qwen3-30B-A3B, and Mixtral-8x7B using router and expert parameter-efficient tuning, crosscoders over personalized versus non-personalized activations, activation patching, and expert steering on personalization datasets including LaMP and LongLaMP.",
+      "overlap_with_personaslm": "Occupies mechanistic localization and causal intervention claims about disentangled personalization features in mixture-of-experts models.",
+      "potential_novelty_threat": "HIGH_FOR_CAUSAL_INTERNAL_PERSONALIZATION_CLAIMS",
+      "required_personaslm_response": "Do not claim first causal localization or expert-level disentanglement of personalization. This is not an immediate CPU baseline because its architectures and training resources differ; PersonaSLM's defensible scope remains behavioral S/F/H effects and a small-model intervention only if a distinct residual mechanism is demonstrated.",
+      "versions": [{"label": "arXiv v1", "date": "2026-10-15", "source_url": "https://arxiv.org/abs/2610.22127v1"}]
+    },
+    {
+      "stable_id": "doi:10.1016/j.techfore.2026.124894",
+      "title": "Assessing inter-rater agreement among large language model judges: Evidence from persona evaluation across varying educational risk contexts",
+      "authors": ["Bernard J. Jansen", "Danial Amin", "Joni O. Salminen"],
+      "venue_or_status": "Formally published journal article in Technological Forecasting and Social Change; online record in 2026 and January 2027 issue are one DOI record",
+      "publication_date": "2026 online; 2027-01 issue",
+      "date_last_checked": "2026-10-18",
+      "identifiers": {"doi": "10.1016/j.techfore.2026.124894"},
+      "source_url": "https://doi.org/10.1016/j.techfore.2026.124894",
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0040162526003719",
+      "verified_summary": "The publisher metadata and abstract describe GPT-4o, Claude 3 Sonnet, and Gemini 1.5 Pro judging 60 individual personas and 12 persona sets. Reported agreement is poor to moderate; set-level agreement ranges from 0.39 to 0.63 and non-compliance ranges from 9.6-26.7% for individuals and 34-49% for sets. Human criterion validation remains future work.",
+      "overlap_with_personaslm": "Directly informs Persona Fidelity evaluator validity and non-compliance reporting.",
+      "potential_novelty_threat": "HIGH_FOR_MULTI_LLM_AGREEMENT_AS_VALIDITY",
+      "required_personaslm_response": "Do not treat agreement among LLM judges as human validity. Preserve genuine blinded human review as the primary semantic validation and report judge non-compliance. No corresponding preprint version was verified in this bounded check.",
+      "versions": [{"label": "formal DOI record", "source_url": "https://doi.org/10.1016/j.techfore.2026.124894"}]
+    },
+    {
+      "stable_id": "doi:10.1007/s10791-026-10687-9",
+      "title": "Personalized dialogue generation based on social game data collection and two-stage response generation model",
+      "authors": ["Zhiyi He", "Yihan Wang", "Han Shi"],
+      "venue_or_status": "Formally published journal article in Discover Computing",
+      "publication_date": "2026-10-12",
+      "date_last_checked": "2026-10-18",
+      "identifiers": {"doi": "10.1007/s10791-026-10687-9"},
+      "source_url": "https://doi.org/10.1007/s10791-026-10687-9",
+      "publisher_url": "https://link.springer.com/article/10.1007/s10791-026-10687-9",
+      "verified_summary": "The publisher record describes the Homeland dataset with 1,911 dialogue scenes, 92,639 utterances, and an average 24.24 turns, plus a two-stage response generator using a BERT-MLP selective persona predictor, attribute compression, and generation. Reported evaluation includes response consistency, BLEU, attribute prediction, and response-time measurements.",
+      "overlap_with_personaslm": "Provides a formal personalized-dialogue dataset and selective persona-attribute compression comparator rather than an S/F/H causal design.",
+      "potential_novelty_threat": "MODERATE_FOR_SELECTIVE_PERSONA_COMPRESSION",
+      "required_personaslm_response": "Treat selective persona prediction and compression as established. Dataset availability, consent, and full reproducibility require separate verification before use. No corresponding preprint version was verified in this bounded check.",
+      "versions": [{"label": "formal DOI record", "source_url": "https://doi.org/10.1007/s10791-026-10687-9"}]
+    },
+    {
+      "stable_id": "doi:10.1016/j.eswa.2026.134687",
+      "title": "Towards proactive detection of user-side implicit conflicts in human-LLM dialogue",
+      "authors": ["Jinqiang Wang", "Tao Zhu", "Huansheng Ning"],
+      "venue_or_status": "Formally published journal record in Expert Systems with Applications; method not reviewed because publisher full text was unavailable in this check",
+      "publication_date": "2026-10-12 metadata record",
+      "date_last_checked": "2026-10-18",
+      "identifiers": {"doi": "10.1016/j.eswa.2026.134687"},
+      "source_url": "https://doi.org/10.1016/j.eswa.2026.134687",
+      "verified_summary": "Author, title, venue, DOI, and publication metadata were verified. No methodological or result claim is recorded because the primary full text and abstract were not available during the bounded check.",
+      "overlap_with_personaslm": "The verified title indicates possible relevance to dialogue conflict detection, but technical overlap is unresolved.",
+      "potential_novelty_threat": "UNKNOWN_PENDING_PRIMARY_METHOD_REVIEW",
+      "required_personaslm_response": "Keep this article in the full-text review queue and do not infer a method from its title. No corresponding preprint version was verified in this bounded check.",
+      "versions": [{"label": "formal DOI record", "source_url": "https://doi.org/10.1016/j.eswa.2026.134687"}]
+    }
+  ],
+  "research_impact": {
+    "status": "MATERIAL_PRIOR_ART_BOUNDARY_EXPANDED",
+    "current_history_intrusion_prior_art_boundary": "Selective history benefit and harm, matched direct-versus-conversational answerability, source-family deduplication, correction-conditioned eligibility, authority gating, admission and presentation control, versioned temporal facts, source ordering, historical labels, compact temporal evidence, and intrinsic-versus-extrinsic memory evaluation are now occupied prior-art components. PersonaSLM cannot claim novelty for a simple stale-history filter, temporal label, provenance gate, deduplication rule, admission gate, authority instruction, or final-answer-only evaluation.",
+    "remaining_testable_gap": "A prospectively frozen, information-matched 2^3 S/F/H study on approximately 0.8B-3B CPU-deployed models that jointly estimates reliability and linguistic or behavioral Persona Fidelity remains a defensible empirical gap, not a priority claim. An algorithmic claim additionally requires a replicated residual history-intrusion failure after strong simple and published baselines, separate state and response scoring, controlled ablations, equal information access, CPU cost measurement, and independent validation.",
+    "protocol_changed": false,
+    "historical_experiment_reinterpreted": false,
+    "frozen_gate_changed": false
+  },
+  "execution_impact": {
+    "scientific_model_generations": 0,
+    "paid_resources": 0,
+    "paper_systems_reproduced": 0,
+    "human_reviews_fabricated": 0
+  }
+}

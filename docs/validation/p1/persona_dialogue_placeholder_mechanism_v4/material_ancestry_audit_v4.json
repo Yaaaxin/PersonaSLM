@@ -1,0 +1,146 @@
+{
+  "canonical_entity_normalized_sha256_overlap": 0,
+  "case_bank": {
+    "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/case_bank_v4.json",
+    "sha256": "a74b20b7b5039fce1035b5162f6a9441cf632c55235e44974837024b84ccc8b8"
+  },
+  "exact_question_or_template_overlap": 0,
+  "lexical_fourgram_overlap": {
+    "current_unique": 606,
+    "examples_first_64_sorted": [
+      "'i would choose' and",
+      "begins exactly with 'i",
+      "exactly with 'i would",
+      "her reason sentence begins",
+      "his reason sentence begins",
+      "in the next turn",
+      "sentence begins exactly with",
+      "their reason sentence begins",
+      "use in the next",
+      "which reply approach should",
+      "with 'i would choose'",
+      "would choose' and ends"
+    ],
+    "intersection_count": 12,
+    "intersection_sha256": "037f31174cfcd26678a5ff041686b770df849962ad1963ef15ca93fa3df01740",
+    "policy": "Disclosed ordinary-language overlap; not an automatic failure.",
+    "prior_unique": 9889
+  },
+  "new_material_counts": {
+    "F_block": 8,
+    "S_block": 8,
+    "archive_assistant": 8,
+    "archive_entity": 24,
+    "archive_question": 8,
+    "case_id": 8,
+    "control_speaker_name": 8,
+    "current_evidence": 8,
+    "current_option_canonical": 16,
+    "opaque_anchor": 16,
+    "persona_id": 8,
+    "profile_source_id": 16,
+    "question": 8,
+    "scenario": 8,
+    "speaker_name": 8
+  },
+  "normalization": "Unicode NFC, casefold, whitespace collapse",
+  "normalized_exact_overlap_by_category": {
+    "F_block": [],
+    "S_block": [],
+    "archive_assistant": [],
+    "archive_entity": [],
+    "archive_question": [],
+    "case_id": [],
+    "control_speaker_name": [],
+    "current_evidence": [],
+    "current_option_canonical": [],
+    "opaque_anchor": [],
+    "persona_id": [],
+    "profile_source_id": [],
+    "question": [],
+    "scenario": [],
+    "speaker_name": []
+  },
+  "normalized_exact_overlap_total": 0,
+  "prior_artifacts": [
+    {
+      "normalized_strings": 359,
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/case_bank_v1.json",
+      "sha256": "b8304ce94b8a159de4d9e779137633a9bd30460113931edf74cbf277868a7dc0"
+    },
+    {
+      "normalized_strings": 364,
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/case_bank_v2.json",
+      "sha256": "b694f87ccc62d62960c61aeae81229e9eca7f37038c755d8e3ccf31f8567e3dd"
+    },
+    {
+      "normalized_strings": 312,
+      "path": "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/case_bank_v1.json",
+      "sha256": "3acdc36c2525a4c858da3be5c1aaeb9be6ed52c1f046d6d04304926900d0f8cd"
+    },
+    {
+      "normalized_strings": 317,
+      "path": "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/case_bank_v2.json",
+      "sha256": "8e849a0f272d3551fe414516c72daceb65743f56420832507e5d346f7ef65a9e"
+    },
+    {
+      "normalized_strings": 140,
+      "path": "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/case_bank_v1.json",
+      "sha256": "f471a2a3cf54f2c3e72d83437822a16b6732fa4f03d98a62ad18e53e2d5bc98d"
+    },
+    {
+      "normalized_strings": 217,
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+      "sha256": "a93cd629c0d152e9eb2325399235882beaebf510d4b6e32b24724975554fab8c"
+    },
+    {
+      "normalized_strings": 98,
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/prospective_design_v1.json",
+      "sha256": "5091736dbb3a96b38ea76e4acd299a951ef661b3db30efaf270be2bf1274808d"
+    },
+    {
+      "normalized_strings": 114,
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/prospective_design_v2.json",
+      "sha256": "310f72db117e73e9374853e992a90691a9e987542e565dd5118c73bd603bddc0"
+    },
+    {
+      "normalized_strings": 203,
+      "path": "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/prospective_design_v1.json",
+      "sha256": "1f0632aad38740fcf8938e8b703beedd181099397f6055b1c178bb601095a7a0"
+    },
+    {
+      "normalized_strings": 225,
+      "path": "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/prospective_design_v2.json",
+      "sha256": "ff48daf11c0c439e1631db1898b3029a6ea1d765a0f8193e662e622f9616f5fc"
+    },
+    {
+      "normalized_strings": 168,
+      "path": "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/prospective_design_v1.json",
+      "sha256": "dcc70c37a19e7fa26de491d3d4311dc7b4573a78b1033d345b5b31c2db27d619"
+    },
+    {
+      "normalized_strings": 265,
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json",
+      "sha256": "628bedc18b8aa549cb165fbfb3f33ffbb889b5ad3090d7ef86f58112476c156c"
+    },
+    {
+      "normalized_strings": 159,
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v3/prospective_design_v3.json",
+      "sha256": "28caab146f9ff51ec5f09aee9f3a9da9f0ae82a511ac7c332bb8a9418dc0fbac"
+    },
+    {
+      "normalized_strings": 7,
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/material_disjointness_audit_v2.json",
+      "sha256": "9bc2a744c4f3fafee290fda862cfa12b8dc749cd7cfb173b2fdc2a44deef996b"
+    }
+  ],
+  "protected_mapping_accessed": false,
+  "protected_or_local_paths_enumerated": false,
+  "schema_version": "personaslm_material_ancestry_audit_v4",
+  "scope_limits": [
+    "Exact ancestry checks cannot establish semantic independence.",
+    "This audit does not establish real-speaker validity or human-review independence.",
+    "No model output, tokenizer, protected mapping, or private review artifact was used."
+  ],
+  "status": "PASS_ZERO_NORMALIZED_EXACT_OVERLAP"
+}

@@ -1,0 +1,49 @@
+{
+  "attempts": 8,
+  "causal_identification": "Package-level reference-aware evidence reduction; content/length/positions/salience jointly vary; both evidence sets sufficient.",
+  "changed_text_under_alias": 0,
+  "components_present": 14,
+  "components_required": 14,
+  "components_supported": 14,
+  "cross_turn_observed": 0,
+  "eos_alias_sensitivity": {
+    "AMBIGUOUS": 8
+  },
+  "factual": {
+    "Correct": 8
+  },
+  "failed": 0,
+  "human_semantic_ratings": 0,
+  "identifiable_candidates": 8,
+  "main_P1d_decision": "NO_GO",
+  "mean_latency_seconds": 6.091810725003597,
+  "memory_observations": 10,
+  "native_stops": {
+    "eos": 8
+  },
+  "oracle_headroom_gate": "AI_PROPOSED_PASS_8_IDENTIFIABLE_COMPLETE_ANSWERS",
+  "original_structural_status": {
+    "AMBIGUOUS": 8
+  },
+  "peak_process_working_set_observed": 2384363520,
+  "phase": "P5",
+  "retries": 0,
+  "run_directory": "results/p5_oracle_diagnostic/development_v1/runs/20261014T190306-2bb3b39e2ce74d1f874237c659d384d5",
+  "semantic_complete": 8,
+  "speaker_resampling_sensitivity_95": [
+    0.5,
+    1.0
+  ],
+  "status": "AI_PROPOSED_NOT_HUMAN_CONFIRMED",
+  "successful": 8,
+  "task_difference": 0.75,
+  "task_success": {
+    "Success": 8
+  },
+  "temporal": {
+    "Correct": 8
+  },
+  "total_generated_tokens": 329,
+  "uncertainty_scope": "Eight purposive speakers, one case each, shared construction; resampling sensitivity is not population coverage or a confirmatory test.",
+  "version": "p5_oracle_AI_measurement_v1"
+}

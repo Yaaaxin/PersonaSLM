@@ -1,0 +1,44 @@
+{
+  "version": "p1_evaluator_validity_regression_v1",
+  "recorded_utc": "2026-10-18T10:52:15.8708447Z",
+  "scope": "Aggregate-only evaluator-validity reconstruction; no inference and no restricted or raw record material.",
+  "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_p1_evaluator_validity.py",
+  "result": {
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 1,
+    "duration_seconds_reported": 0.08,
+    "warning_detail": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "combined_regression": {
+    "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_p1_evaluator_validity.py tests/test_p1_model_feasibility_recovery.py",
+    "passed": 34,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 1,
+    "duration_seconds_reported": 5.29,
+    "purpose": "Verify the new aggregate evidence together with frozen feasibility, resource-block and authorization accounting."
+  },
+  "bindings": {
+    "analysis_tool": {
+      "path": "tools/p1_evaluator_validity.py",
+      "sha256": "f442198a0b44f12457ca5badd863cb0dbd5f1b386934dd69cd1dcb50dc328101"
+    },
+    "test": {
+      "path": "tests/test_p1_evaluator_validity.py",
+      "sha256": "2fc372b5733b16406ca68f1444ef580e6d7f0fcbbf36eb9a97f8708d3ab2ad49"
+    },
+    "evidence": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/evaluator_validity_v1.json",
+      "sha256": "66ef42aaf58b18993eeb168d88f54d7354d7c7dc9ad3d12375906e5c39676ab9"
+    }
+  },
+  "verified_properties": [
+    "The saved evidence exactly equals a fresh deterministic reconstruction from six explicit public-safe aggregate sources.",
+    "Historical Stage B and Candidate 1 gates and thresholds remain unchanged.",
+    "Restricted unblinding paths, researcher comments, raw responses and record-level model text are not inputs.",
+    "Non-estimable quantities and AI-only annotation provenance remain explicit.",
+    "The analysis consumed zero scientific model generations and zero authorized inference time."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "version": "p1_persona_dialogue_factorial_measurement_validity_audit_v1",
+  "audited_utc": "2026-10-18T16:02:00Z",
+  "evidence_level": "POST_EXECUTION_MEASUREMENT_AUDIT_NO_NEW_GENERATIONS",
+  "review_provenance": "AI-assisted post-hoc inspection of synthetic raw text plus deterministic count reconciliation; no human semantic judgment or independent rater.",
+  "inputs": {
+    "design_sha256": "2e0a28923d1218d88f5b427a06f79a3a0cba236e6e99db7eb839f5cb64edaef7",
+    "frozen_manifest_v1_sha256": "fb573ef6b904bd1c640ca43ad10e98518d0237cb651b0094c4ba3e927d1047b9",
+    "frozen_manifest_v2_sha256": "4b708a627de15604b8bd3ad732fdeb61d53465de54caefb1db44888107d6cd3a",
+    "execution_audit_sha256": "440e92965d3b66db8b8e61475fe988ad609c3de5424bcd2eddb30506cd088572",
+    "automatic_analysis_sha256": "45c11615034d997acdd86987e26957d0e29912ac658b665506404f871be0f148",
+    "run_summary_sha256": "91691beb4b878e8c78d0a468eab2dae25ec7ccc0feaf2d3f91cd53a87f3df9d8"
+  },
+  "execution_integrity": {
+    "status": "PASS",
+    "attempted": 48,
+    "raw_http_responses": 48,
+    "replayed_results": 48,
+    "retries": 0,
+    "native_eos": 48,
+    "native_length_stop": 0,
+    "journal_events": 483,
+    "raw_text_embedded_in_public_audit": false
+  },
+  "frozen_automatic_counts_preserved_not_endorsed": {
+    "task_success": 21,
+    "task_failure": 27,
+    "current_preference_choice_resolved_success": 23,
+    "current_preference_choice_resolved_other": 6,
+    "current_preference_choice_unresolved": 19,
+    "both_current_option_aliases_present": 19,
+    "neither_current_option_alias_present": 0,
+    "operational_linguistic_surface_conjunction": 12,
+    "operational_behavioral_surface_conjunction": 6
+  },
+  "observed_measurement_failures": [
+    {
+      "failure_id": "BOTH_MENTION_IS_NOT_CHOICE_AMBIGUITY",
+      "affected_records": 19,
+      "finding": "All 19 responses clearly recommend one current option and mention the other only in a comparison, but the frozen whole-response occurrence rule assigns UNRESOLVED.",
+      "affected_endpoints": ["selected_option", "reason_support_state", "answer_completeness", "task_success", "current_preference_choice", "behavioral_fidelity_when_choice_dependent"]
+    },
+    {
+      "failure_id": "SUPPORTED_CARBON_PARAPHRASE_MISSED",
+      "affected_records": 5,
+      "subtypes": {"carbon_footprint": 3, "lower_hyphen_carbon": 2},
+      "finding": "Five single-current-option replies give a supported present-note reason, but the frozen literal cues assign UNRESOLVED.",
+      "affected_endpoints": ["reason_support_state", "answer_completeness", "task_success"]
+    },
+    {
+      "failure_id": "ARCHIVED_THIRD_OPTION_FALSELY_MAPPED_TO_CURRENT_ALIAS",
+      "affected_records": 2,
+      "records": [
+        {"request_id": "pdlg_v1_pd_c_conflicting_ferry_c3", "raw_text_sha256": "13a6925de03c148fabcb22c1e5ceb8ff3a77eebecdfa0c3ef336e342a9f3551c"},
+        {"request_id": "pdlg_v1_pd_c_conflicting_ferry_c5", "raw_text_sha256": "baeda181f5e11b829a1007d46b8f8c065477fa3b2c36f44082647c292d786e3e"}
+      ],
+      "finding": "Both replies lead with the archived entity 'express shuttle', which is not a current option. A generic current alias appearing later in comparison text makes the frozen scorer falsely assign current Option A.",
+      "scientific_signal": "Exact-string evidence of history-to-current response-plan/entity-binding intrusion in one conflicting case and two S/F configurations.",
+      "causal_limit": "The mechanism label is post-hoc and the two records share one case; independent cases are required."
+    }
+  ],
+  "endpoint_decisions": {
+    "transport_and_provenance": "PASS",
+    "native_stop_token_latency_memory": "PASS",
+    "literal_option_mentions_only": "DESCRIPTIVE_ONLY",
+    "punctuation_sentence_count_and_exact_surface_style_components": "USABLE_AS_NARROW_OPERATIONAL_FEATURES_ONLY",
+    "selected_option": "FAIL_PRIMARY_VALIDITY",
+    "current_preference_choice": "FAIL_PRIMARY_VALIDITY",
+    "history_favored_choice": "FAIL_PRIMARY_VALIDITY",
+    "reason_support_state": "FAIL_PRIMARY_VALIDITY",
+    "answer_completeness": "FAIL_PRIMARY_VALIDITY",
+    "task_success": "FAIL_PRIMARY_VALIDITY",
+    "outdated_value_adoption": "FAIL_COMPLETE_COVERAGE",
+    "choice_dependent_behavioral_fidelity": "FAIL_PRIMARY_VALIDITY",
+    "general_persona_fidelity": "NOT_MEASURED",
+    "response_relevance_and_coherence": "NOT_MEASURED"
+  },
+  "factorial_interpretation": {
+    "status": "PRIMARY_CHOICE_TASK_FACTORIAL_EFFECTS_NOT_SCIENTIFICALLY_ADOPTED",
+    "reason": "The deterministic scorer has outcome-dependent false unresolved and false current-choice classifications affecting 26 disjoint records in total.",
+    "surface_style_only": "The frozen S main contrast for the literal linguistic conjunction is +0.50, but it is heterogeneous (PF_B 2/12 versus PF_C 10/12 among S-present cells) and is not general Persona Fidelity. The literal behavioral conjunction is 6/24 in S-present and 0/24 in S-absent cells."
+  },
+  "independent_validation_v1": {
+    "design_sha256": "8e6956c4e909bff06a7a5623593493ff84521da680c2f1703110579fb522c6d0",
+    "unlock_status": "FAIL_KEEP_UNAUTHORIZED_UNEXECUTED",
+    "reason": "Its explicit prerequisite requires alias/cue integrity and scorer-behavior audit PASS. Those requirements failed on development data.",
+    "generations_executed": 0
+  },
+  "next_action": "Use untouched, pre-output-frozen synthetic cases in a separately registered adaptive mechanism validation whose primary endpoint parses the leading recommendation target and explicitly detects non-current archived targets. Retain the failed occurrence scorer only as a historical secondary endpoint.",
+  "human_judgments": 0,
+  "new_model_generations": 0
+}

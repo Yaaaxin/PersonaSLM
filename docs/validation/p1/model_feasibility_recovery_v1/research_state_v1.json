@@ -1,0 +1,662 @@
+{
+  "schema_version": "personaslm_persistent_research_state_v1",
+  "state_recorded_utc": "2026-10-18T12:32:01.8375763Z",
+  "researcher": "Yaxin ZHENG",
+  "paper_title": "Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models",
+  "repository_snapshot": {
+    "branch_observed": "research/autonomous-personaslm",
+    "head_observed": "c40667ad266082481b1850453f67784b593f3723",
+    "interpretation": "Observed before the retrospective cumulative P0-P1 checkpoint; this is not evidence of a contemporaneous preregistration. The repository AGENTS.md currently leaves commits and pushes to the human researcher, so the prospective freeze is byte-hashed but remains uncommitted."
+  },
+  "planned_windows_restart_checkpoint": {
+    "status": "READY_FOR_PLANNED_WINDOWS_RESTART",
+    "recorded_utc": "2026-10-18T12:32:01.8375763Z",
+    "reason": "Researcher-planned Windows restart and BIOS memory-allocation adjustment; this is a hardware-maintenance interruption, not research completion.",
+    "handoff": {
+      "path": "docs/research_restart_handoff.md",
+      "sha256": "8bb2aab832f693546fe48a3b505a41ab51bdb5cb0c6f6135305c1d55631350b9"
+    },
+    "git_snapshot": {
+      "branch": "research/autonomous-personaslm",
+      "head": "c40667ad266082481b1850453f67784b593f3723",
+      "staged_paths": 0,
+      "tracked_unstaged_paths": 3,
+      "visible_untracked_files": 911,
+      "pending_operations": [
+        "Human researcher review of the retrospective uncommitted archive and this checkpoint.",
+        "Any staging, commit, push, branch integration, or workflow deployment remains pending because repository AGENTS.md assigns those actions exclusively to the human researcher."
+      ]
+    },
+    "verified_experiment_state": {
+      "candidate_1": "COMPLETE_8_OF_8_INTEGRITY_PASS_FROZEN_1_OF_8_NONQUALIFYING",
+      "candidate_2": "BLOCKED_RESOURCE_ZERO_ATTEMPTS_ZERO_RESULTS_ZERO_CLAIMS",
+      "autonomous_generations_used": 8,
+      "autonomous_generations_remaining": 1192,
+      "autonomous_inference_seconds_used": 65.87628550000954,
+      "autonomous_inference_seconds_remaining": 71934.12371449999,
+      "historical_p1_attempted": 80,
+      "historical_p1_remaining": 80,
+      "unresolved_in_flight_completion_requests": 0,
+      "frozen_artifact_references_verified": 28,
+      "frozen_artifact_reference_mismatches": 0
+    },
+    "safety_record": {
+      "scientific_inference_executed_during_checkpoint": false,
+      "long_running_experiment_started": false,
+      "bios_modified_by_agent": false,
+      "raw_outputs_modified": false,
+      "restricted_material_embedded_in_handoff": false,
+      "destructive_git_operation_executed": false,
+      "git_stage_commit_or_push_executed": false
+    },
+    "restart_recovery_sequence": [
+      "Read AGENTS.md, docs/research_protocol_v1.1.md, docs/research_restart_handoff.md and this state before acting.",
+      "Inspect current Git status and verify that no interrupted Candidate 2 V3 receipt, claim, attempt, result or run already exists.",
+      "Run the recovery controller validate, ledger, selection and Candidate 1 audit read-only checks; reconcile any mismatch before inference.",
+      "After a materially changed memory state, run exactly one new versioned Candidate 2 V3 preflight.",
+      "Resume only the eight frozen Candidate 2 requests if and only if the unchanged 5 GiB gate and every provenance/safety check pass.",
+      "Audit Candidate 2 before model selection; never repeat completed requests or reinterpret a resource failure as model performance.",
+      "Continue autonomous publication-oriented research from the resulting evidence while preserving evaluator, validation, novelty and resource boundaries."
+    ],
+    "candidate_2_preflight_command": ".venv/Scripts/python.exe -B tools/p1_model_feasibility_recovery.py preflight --candidate qwen2_5_3b_instruct_q4_k_m --output docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v3.json",
+    "candidate_2_conditional_run_command": ".venv/Scripts/python.exe -B tools/p1_model_feasibility_recovery.py run --candidate qwen2_5_3b_instruct_q4_k_m --preflight docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v3.json --output docs/validation/p1/model_feasibility_recovery_v1/candidate2_run_receipt_v1.json",
+    "candidate_2_stop_rules": [
+      "Do not run unless available physical memory is at least 5368709120 bytes and all frozen model, template, backend, tokenizer, ledger, selection and request hashes pass.",
+      "Run only the eight frozen requests; uncontrolled concurrent inference, hidden warmup, retry, replacement cases and a third challenger are prohibited.",
+      "Any resource, integrity, partial-run or runtime failure stops the screen without a model score; preserve and count actual attempts exactly.",
+      "A complete score below 7/8 ends the bounded screen; a score at or above 7/8 requires a new Candidate-2-native downstream controller before any disjoint C0 generation."
+    ],
+    "post_restart_literature_action": "Verify the existing Windows scheduled task under the researcher principal. The last successful collection remains real, but current persistence is unverified and the untracked GitHub workflow is not deployed.",
+    "interactive_execution_boundary": "No research agent continues reasoning or executing while Windows is powered off."
+  },
+  "research_programme": {
+    "P0": "FROZEN",
+    "P1": "ACTIVE",
+    "P2": "PAUSED",
+    "P3": "PAUSED",
+    "P4": "PAUSED",
+    "P5": "DIAGNOSTIC_COMPLETED",
+    "P6": "PAUSED"
+  },
+  "current_scientific_objective": "Resolve P1 model and measurement feasibility without bypassing the Candidate 2 resource gate; validate semantic endpoints before any S/F/H factorial execution and preserve a feasible, ancestry-disjoint independent-validation path.",
+  "last_completed_milestone": {
+    "id": "P1_ANALYSIS_REPRODUCTION_AND_NOVELTY_COLLISION_V1",
+    "status": "COMPLETE_AND_VERIFIED_NO_INFERENCE",
+    "result": "An independent zero-inference entry point replayed Candidate 1 from the local private journal/raw archive (8/8 integrity PASS, frozen 1/8 score) and exactly reconstructed the evaluator-validity artifact in an isolated temporary directory from eight explicit public-safe files. Public clone-only full reproduction remains PARTIAL because raw results and model weights are local. The same audit found that legacy 80-request controllers cannot be reused for Candidate 2. Full-text review identified Memory Echo/FPA as a direct collision with broad temporal-provenance and conditional stale-memory-suppression algorithm claims and ReTurn as a stronger matched-history measurement design.",
+    "scientific_statuses": [
+      "LOCAL_PRIVATE_ARCHIVE_ANALYSIS_REPRODUCTION_PASS",
+      "PUBLIC_SAFE_AGGREGATE_ISOLATED_RECONSTRUCTION_PASS",
+      "PUBLIC_CLONE_ONLY_FULL_REPRODUCTION_PARTIAL",
+      "FPA_DIRECT_P6_NOVELTY_COLLISION",
+      "GENERAL_SEMANTIC_VALIDITY_REMAINS_INSUFFICIENT"
+    ],
+    "scope": "Reproducibility and primary-source novelty evidence only; no model generation, human annotation, scorer replacement, gate change, factorial estimate, independent validation, or paper-system reproduction.",
+    "candidate_2_dependency": "Candidate 2 remains BLOCKED_RESOURCE after formal preflight v2 and scientifically unevaluated; this offline milestone neither authorizes inference nor converts a resource failure into a model result.",
+    "evidence_path": "docs/validation/p1/model_feasibility_recovery_v1/analysis_reproduction_v1.json",
+    "evidence_sha256": "4d0570e78106abf1b19113fe616c5b11e4fb59cc87868c646951e22e65bad352",
+    "literature_evidence_path": "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v1.json",
+    "literature_evidence_sha256": "fa2e78129a1d24eab6e7202d9f28db0a06e376de0edbbf83e83866202bb70be8"
+  },
+  "current_active_experiment": {
+    "id": "P1_MODEL_FEASIBILITY_RECOVERY_V1",
+    "status": "BOUNDED_SCREEN_BLOCKED_UNRESOLVED_CANDIDATE_2_RESOURCE_PREFLIGHT",
+    "classification": "DEVELOPMENTAL_P1_RECOVERY_NOT_P3_NOT_CONFIRMATORY",
+    "completed_challenger_downloads": 2,
+    "completed_challenger_generations": 8,
+    "candidate_order": [
+      "smollm2_1_7b_instruct_q4_k_m",
+      "qwen2_5_3b_instruct_q4_k_m"
+    ],
+    "candidate_2_activation": "ACTIVATED: Candidate 1 completed all eight frozen screening cases with integrity PASS and scored 1/8 below the 7/8 automatic threshold. Candidate 2 is verified downloaded and native-template materialized, but its formal 5 GiB preflight is BLOCKED_WITH_EVIDENCE and no completion was attempted.",
+    "selection_status": "CANDIDATE_1_FAILED_CANDIDATE_2_PENDING",
+    "bounded_screen_status": "BLOCKED_UNRESOLVED_RESOURCE_PREFLIGHT",
+    "selection_snapshot_path": "docs/validation/p1/model_feasibility_recovery_v1/selection_after_candidate1_v1.json",
+    "selection_snapshot_sha256": "a464dfb0c3d7193dd4821c7b62f323afac9e251e3fa71c66d724c8aebf34db9d",
+    "freeze_path": "docs/validation/p1/model_feasibility_recovery_v1/prospective_freeze_v1.json",
+    "freeze_sha256": "5ce53ae8fba0cd5acb4fe303b7bd1b5a81600de68230d770a53e497fdb6483a9",
+    "latest_formal_preflight": {
+      "software_recorded_utc": "2026-10-18T11:14:36.621033+00:00",
+      "available_physical_bytes": 4595142656,
+      "required_physical_bytes": 5368709120,
+      "deficit_bytes": 773566464,
+      "classification": "FORMAL_VERSIONED_PREFLIGHT_V2_BLOCKED",
+      "receipt_path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v2.json",
+      "receipt_sha256": "686f92690681b69911643840ff5a30b8b7b07015bc55a293cc0b283b1908d5d9",
+      "effect": "Candidate 2 remains BLOCKED_RESOURCE; zero model loads and zero completions were attempted."
+    }
+  },
+  "last_completed_experiment": {
+    "id": "P1_MODEL_FEASIBILITY_CANDIDATE_1_SCREEN_V1",
+    "status": "COMPLETE_AND_VERIFIED_NONQUALIFYING",
+    "candidate_id": "smollm2_1_7b_instruct_q4_k_m",
+    "attempted": 8,
+    "automatic_success": 1,
+    "threshold": 7,
+    "inference_wall_seconds": 65.87628550000954,
+    "integrity": "PASS",
+    "interpretation": "Development-only model-plus-native-template configuration result; not independent validation."
+  },
+  "current_model_configuration": {
+    "candidate_id": "qwen2_5_3b_instruct_q4_k_m",
+    "model_identifier": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+    "model_revision": "af75b7aaf5bb163ce4c5dab4e6b84d844e96265d",
+    "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+    "quantization": "Q4_K_M",
+    "backend": "llama.cpp b11573-0f701c882 CPU-only",
+    "native_template_sha256": "d5495a1e5db0611132a97e46a65dbb64a642a499421228b9c8b93229097fa9a4",
+    "context_tokens": 4096,
+    "threads": 4,
+    "max_new_tokens": 96,
+    "temperature": 0,
+    "top_p": 1,
+    "seed": 42,
+    "status": "MATERIALIZED_BUT_BLOCKED_RESOURCE_ZERO_ATTEMPTS"
+  },
+  "task_queue": [
+    {
+      "task_id": "P1_EVALUATOR_VALIDITY_AGGREGATE_V1",
+      "status": "COMPLETED",
+      "prerequisites": [],
+      "evidence": "docs/validation/p1/model_feasibility_recovery_v1/evaluator_validity_v1.json"
+    },
+    {
+      "task_id": "P1_ANALYSIS_REPRODUCTION_V1",
+      "status": "COMPLETED",
+      "prerequisites": [],
+      "evidence": "docs/validation/p1/model_feasibility_recovery_v1/analysis_reproduction_v1.json",
+      "boundary": "Local private-archive analysis and isolated public-safe aggregate reconstruction pass; public clone-only full reproduction remains partial."
+    },
+    {
+      "task_id": "LITERATURE_FPA_RETURN_WIKITALKIE_REVIEW_V1",
+      "status": "COMPLETED",
+      "prerequisites": [],
+      "evidence": "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v1.json",
+      "impact": "FPA is a direct P6 competitor; ReTurn supplies prospective H-isolation improvements; broad novelty claims were narrowed."
+    },
+    {
+      "task_id": "P1_CANDIDATE_2_FROZEN_SCREEN",
+      "status": "BLOCKED_RESOURCE",
+      "prerequisites": [
+        "A materially new memory state",
+        "A fresh versioned preflight observing at least 5368709120 available physical bytes",
+        "Unchanged frozen model, materialized requests, hashes, ledger and safety configuration"
+      ],
+      "resume_policy": "Run only the eight unexecuted frozen requests after the complete preflight passes; do not poll tightly or terminate unrelated applications."
+    },
+    {
+      "task_id": "P1_STAGE_B_AND_CANDIDATE_1_SEMANTIC_REVIEW",
+      "status": "WAITING_FOR_HUMAN",
+      "prerequisites": [
+        "Researcher review of a condition-blinded package without AI semantic labels"
+      ],
+      "purpose": "Validate semantic current/outdated/incomplete classification; never retroactively change the frozen gates."
+    },
+    {
+      "task_id": "P1_DISJOINT_C0_AND_SFH_DEVELOPMENT_PILOT",
+      "status": "BLOCKED_SCIENTIFIC",
+      "prerequisites": [
+        "A challenger passes the frozen 7/8 development screen",
+        "A new Candidate-2-native 80-request manifest/controller and autonomous sub-ledger are prospectively validated; legacy Stage-B controllers are prohibited",
+        "The disjoint pilot C0 passes its frozen 6/8 gate with an endpoint valid for semantic comparison"
+      ],
+      "execution_boundary": "Select C0 by explicit condition field, never by positional slice; the two historical 80-request manifests have different request sequences and bind the old model/authorization."
+    },
+    {
+      "task_id": "P1_INDEPENDENT_VALIDATION_COHORT",
+      "status": "BLOCKED_SCIENTIFIC",
+      "prerequisites": [
+        "An interpretable completed development factorial",
+        "Prospectively frozen power/precision simulation",
+        "Ancestry-disjoint speakers, entities, values, histories, questions and templates",
+        "Researcher-blinded primary C0/C3 semantic review"
+      ],
+      "planning_boundary": "A budget-feasible candidate is 48 speakers x 2 cases x 10 conditions = 960 generations; this is not yet an authorized or frozen validation cohort and is inadequate for small higher-order interactions."
+    },
+    {
+      "task_id": "P6_ALGORITHM_ACTIVATION",
+      "status": "BLOCKED_SCIENTIFIC",
+      "prerequisites": [
+        "A reproducible residual failure after simple restatement, explicit temporal filtering, entity-time, SCR-T-style, FPA-like provenance/authority and evidence-grounded baselines",
+        "Independent validation and a defensible prior-art distinction"
+      ],
+      "novelty_collision": "Memory Echo/FPA already covers source-family provenance, correction-conditioned stale-record suppression and authority-guided answering; do not implement a renamed equivalent."
+    },
+    {
+      "task_id": "DAILY_LITERATURE_COLLECTION",
+      "status": "BLOCKED_RESOURCE",
+      "prerequisites": [
+        "Verify the scheduler under the researcher principal or deploy the reviewed GitHub workflow to the default branch"
+      ],
+      "evidence": "The last real scheduled collection succeeded at 2026-10-18T09:28:51Z, but the current CodexSandboxOffline identity receives TASK_NOT_FOUND and cannot verify the researcher-account task; GitHub Actions is not deployed."
+    }
+  ],
+  "next_authorized_action": {
+    "action": "Keep Candidate 2 blocked until a materially new resource state justifies one fresh versioned v3 full preflight. If and only if it passes unchanged safety and provenance checks, execute only the eight unexecuted frozen Candidate 2 screening requests. If that screen later qualifies, build and validate a new Candidate-2-native downstream manifest/controller before any disjoint C0 request; never invoke the legacy conditional controller. In parallel, preserve the matched-direct H design and FPA novelty constraints prospectively without changing historical experiments.",
+    "blocking_receipt_path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v2.json",
+    "blocking_receipt_sha256": "686f92690681b69911643840ff5a30b8b7b07015bc55a293cc0b283b1908d5d9",
+    "conditions": [
+      "The Candidate 2 blocking receipt, prospective freeze, selection snapshot and authorization ledger validate byte-for-byte.",
+      "Candidate 1 remains nonqualifying under the frozen automatic 1/8 endpoint regardless of the post-hoc AI 4/8 diagnostic.",
+      "Candidate 2 remains scientifically unevaluated with zero attempts; the resource failure is not converted into a model-performance result.",
+      "The autonomous budget remains 8 generations and 65.87628550000954 actual inference seconds, with no unresolved in-flight request.",
+      "The aggregate evaluator-validity artifact remains exactly reproducible from its six public-safe aggregate sources and does not become a substitute for human semantic review.",
+      "The analysis-reproduction receipt remains exactly reproducible without network or inference, and public clone-only full reproduction remains labeled PARTIAL.",
+      "Any future Candidate 2 pilot pipeline uses a new namespace and binds the Candidate 2 model/template, autonomous ledger, explicit condition sets, and frozen scientific content."
+    ],
+    "prohibitions": [
+      "Do not rerun the original Stage B model on the same eight cases.",
+      "Do not rerun Candidate 1 or reinterpret the post-hoc AI semantic diagnostic as its frozen selection score.",
+      "Do not tightly poll or automatically retry Candidate 2, bypass or lower its 5 GiB preflight requirement, or terminate unrelated applications to manufacture a pass.",
+      "Do not call Candidate 2 a failed model; its evaluation did not start because the resource gate failed.",
+      "Do not add another challenger or consume the remaining budget to evade the bounded stopping rule.",
+      "Do not modify cases, prompts, aliases, scorer, threshold, model order, or generation settings after observing outputs.",
+      "Do not execute the factorial pilot until a challenger passes the frozen 7/8 development screen and the disjoint pilot C0 gate subsequently passes 6/8.",
+      "Do not call tools/p1_conditional_execution_v2.py for Candidate 2 or treat the first eight rows of fallback_pilot_manifest_candidate_v1.json as eight C0 requests.",
+      "Do not claim a new generic temporal-provenance or conditional stale-memory-suppression algorithm without a technical distinction from FPA and independent comparative evidence."
+    ]
+  },
+  "frozen_artifact_references": {
+    "autonomous_authorization_ledger": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/autonomous_authorization_ledger_v1.json",
+      "sha256": "b91070f93b80d667218fc940272bef808ed0ab178b9f0e45ffc9e82e87a59cc0"
+    },
+    "prospective_feasibility_freeze": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/prospective_freeze_v1.json",
+      "sha256": "5ce53ae8fba0cd5acb4fe303b7bd1b5a81600de68230d770a53e497fdb6483a9"
+    },
+    "fallback_bank": {
+      "path": "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/bank_frozen_v1.json",
+      "sha256": "fa617b66b9996f25fb66550a32d45671a580cee15513c2c79f0ae1a652c7b295"
+    },
+    "fallback_calibration_manifest": {
+      "path": "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+      "sha256": "b23b9a35bba1ff9313e71f75759e8107b3d23b54f765c5fe736094263ff17cde"
+    },
+    "fallback_pilot_manifest": {
+      "path": "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_pilot_manifest_candidate_v1.json",
+      "sha256": "4be7b1959779371502a0e562a589c942676644ef86897196912677978d4da382"
+    },
+    "frozen_temporal_scorer": {
+      "path": "tools/p1_temporal_fallback.py",
+      "sha256": "d49c6cfefcee2c1838e7d36991ce9eecb84c459f6b1c8411462ca5ed074faa02"
+    },
+    "candidate_1_download_receipt": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate1_download_receipt_v1.json",
+      "sha256": "e2bbd96f3b9798fe51babeec32f82774a24140ba4de2f933eb7edafd91a4d063"
+    },
+    "candidate_1_materialized_manifest": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/materialized_smollm2_1_7b_instruct_q4_k_m_v1.json",
+      "sha256": "7ab1a88fb4aa324173379da891f86f8468444a356576a8b3ad456fdf0a09c194"
+    },
+    "candidate_1_blocked_preflight_v1": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate1_preflight_attempt_v1.json",
+      "sha256": "b1215a60cc0470b21f21ffe91ae6d2df5de2e8ded7f84d769fa853bafd3f0b00"
+    },
+    "candidate_1_blocked_preflight_v2": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate1_preflight_attempt_v2.json",
+      "sha256": "f60c98804ef3d495518374215d4ff04a3ee34a99310fc8a4fe63980b170e2222"
+    },
+    "candidate_1_passed_preflight_v3": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate1_preflight_attempt_v3.json",
+      "sha256": "15cae497000444fcd207c11af1795f70e54508fb40ef0eff0f3664934c2e072c"
+    },
+    "candidate_1_run_receipt": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate1_run_receipt_v1.json",
+      "sha256": "541cabb568afe3be0ace249f4a9d24dc507c652f2624e62d6722f70ed8ff3485"
+    },
+    "candidate_1_integrity_audit": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate1_audit_v1.json",
+      "sha256": "d73d16cf9b8ab7b433f4f53ff2b7567d186d88003b3b7a119df5bd439d725921"
+    },
+    "selection_after_candidate_1": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/selection_after_candidate1_v1.json",
+      "sha256": "a464dfb0c3d7193dd4821c7b62f323afac9e251e3fa71c66d724c8aebf34db9d"
+    },
+    "candidate_2_failed_download_receipt_v1": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_download_receipt_v1.json",
+      "sha256": "d19bd8a3e6c12eecad6f6da1c0ff172d21b42d9b81920a91cd7eece0d8ca381c"
+    },
+    "candidate_2_verified_download_receipt_v2": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_download_receipt_v2.json",
+      "sha256": "9ffcbc89c3b7859ea852e4e5655e44c4176a61ad38a7d5e4927bb7bb2f5968ce"
+    },
+    "candidate_2_materialized_manifest": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/materialized_qwen2_5_3b_instruct_q4_k_m_v1.json",
+      "sha256": "591dadd21a2b893a6c327d4d8737da3159a380a5f921049f9d5364a5bc849c43"
+    },
+    "candidate_2_materialization_receipt": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_materialization_receipt_v1.json",
+      "sha256": "591dadd21a2b893a6c327d4d8737da3159a380a5f921049f9d5364a5bc849c43"
+    },
+    "candidate_2_blocked_preflight_v1": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v1.json",
+      "sha256": "51047252c9cfc194c882dbe2804b65a9ec710097865bf8e04cf91aa2a9d4c1ed"
+    },
+    "candidate_2_blocked_preflight_v2": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v2.json",
+      "sha256": "686f92690681b69911643840ff5a30b8b7b07015bc55a293cc0b283b1908d5d9"
+    },
+    "feasibility_regression_evidence": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/regression_test_evidence_v2.json",
+      "sha256": "f68dc7cd8ca4e95694a4c87b2761c9eb0b3d3b0762e45f7c3e69cff61bd87492"
+    },
+    "aggregate_evaluator_validity_v1": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/evaluator_validity_v1.json",
+      "sha256": "66ef42aaf58b18993eeb168d88f54d7354d7c7dc9ad3d12375906e5c39676ab9"
+    },
+    "aggregate_evaluator_validity_regression_v1": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/evaluator_validity_regression_v1.json",
+      "sha256": "63e6d0eb4ec8750d18799052d7c752f7fe8038cfb3acd40661d288b2969915fb"
+    },
+    "analysis_reproduction_v1": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/analysis_reproduction_v1.json",
+      "sha256": "4d0570e78106abf1b19113fe616c5b11e4fb59cc87868c646951e22e65bad352"
+    },
+    "analysis_reproduction_regression_v1": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/analysis_reproduction_regression_v1.json",
+      "sha256": "d449b34436739200aa9b3300b837c9f4b2abe0a6dc9317674ecc0acbd996ae82"
+    },
+    "primary_source_review_addendum_2026_10_18_v1": {
+      "path": "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v1.json",
+      "sha256": "fa2e78129a1d24eab6e7202d9f28db0a06e376de0edbbf83e83866202bb70be8"
+    },
+    "primary_source_review_addendum_regression_2026_10_18_v1": {
+      "path": "docs/validation/literature_monitor_v1/primary_source_review_addendum_regression_2026-10-18_v1.json",
+      "sha256": "be813c2e93b61d2088a1a0f95467c30ccbcbf7a1fde4c6cdef4523b5b816a6bb"
+    },
+    "planned_windows_restart_handoff_2026_10_18": {
+      "path": "docs/research_restart_handoff.md",
+      "sha256": "8bb2aab832f693546fe48a3b505a41ab51bdb5cb0c6f6135305c1d55631350b9"
+    }
+  },
+  "research_decisions": [
+    "Use exactly two frozen challengers in increasing complexity order and stop at the first qualifying model.",
+    "Use the eight already-observed calibration cases for development-only model screening; they are not independent validation.",
+    "Preserve the disjoint eight-case fallback-pilot C0 set from model selection and require its existing 6/8 gate before remaining factorial cells.",
+    "Count only CURRENT_VALUE_ADOPTION as automatic gate success; preserve Failure, Missing, and Uncertain as distinct labels.",
+    "Candidate 1's frozen selection result is 1/8 despite a post-hoc AI semantic diagnostic of 4/8; the retrospective diagnostic is not a human annotation, does not alter the scorer, and has no gate effect.",
+    "Candidate 2 is activated only by Candidate 1's complete integrity-valid automatic failure. Its verified download and native-template materialization consume zero generations and do not establish RAM feasibility or task validity.",
+    "Candidate 2's formal 5 GiB preflights v1 and v2 failed before inference. Under the frozen resource-failure stopping rule the bounded screen is blocked and unresolved; this is not evidence that Candidate 2 fails the task.",
+    "Use the exact GGUF-embedded native chat template without added system instructions or manual template repair.",
+    "Preserve Persona Fidelity as NOT_APPLICABLE for this minimal single-answer screen.",
+    "Preserve the historical 160-request ledger independently; its remaining 80 requests are not transferred to this recovery.",
+    "Narrow the prospective contribution claim after the 2026-10-18 primary-source review: stale binding, temporal supersession, CPU-small-model memory testing, non-selective persona control, and fidelity-reliability trade-offs have direct prior art; the remaining hypothesis concerns the complete paired shared-evidence S/F/H factorial and its joint endpoints.",
+    "Keep P6 paused. Memory Echo/FPA is a direct competitor for provenance-guided conditional suppression; any future algorithm must address a replicated residual failure after simple restatement, explicit temporal filtering, current-value selection, SCR-T-style supersession, FPA-like provenance/authority and evidence-grounded memory baselines under equal information.",
+    "Treat the frozen exact/alias endpoint as a narrow format-constrained adoption measure, not a validated general semantic evaluator. It remains authoritative for historical gates, but it cannot be the sole semantic outcome for a future S/F/H comparison because Style can change answer wrappers.",
+    "Do not infer a History-conditioning mechanism from the current eight C0 development cases. A future mechanism study must prospectively separate history presence, length, target relevance, temporal conflict and evidence order.",
+    "Reserve independent validation capacity prospectively. A 48-speaker, two-case, ten-condition design would require 960 generations and can target roughly 15 percentage-point primary precision under central planning assumptions, but it is not frozen or executable before a viable development factorial.",
+    "The independent analysis reproduction distinguishes local private-archive replay, isolated public-safe aggregate reconstruction, generation reproduction, and public clone-only reproduction; do not collapse these into one reproducibility claim.",
+    "Do not reuse the historical conditional controller for Candidate 2. The legacy 80-request manifests bind the old model/authorization and have different request sequences; a new Candidate-2-native manifest/controller must select conditions explicitly rather than by positional slicing.",
+    "Adopt ReTurn's matched direct-answerability logic prospectively for a future H mechanism cohort, without retroactively changing the frozen factorial or treating multimodal findings as PersonaSLM results."
+  ],
+  "experiment_status": {
+    "development_screen_cases": 8,
+    "development_screen_threshold": "at least 7/8",
+    "candidate_1": "COMPLETE_INTEGRITY_PASS_AUTOMATIC_1_OF_8_NONQUALIFYING",
+    "candidate_1_post_hoc_ai_semantic_diagnostic": "4_OF_8_CURRENT_VALUE_DIAGNOSTIC_ONLY_NOT_HUMAN_NOT_GATE",
+    "candidate_2": "PREFLIGHT_BLOCKED_WITH_EVIDENCE_ZERO_COMPLETIONS_EVALUATION_NOT_STARTED_DUE_TO_RESOURCE_BLOCK",
+    "candidate_2_required_available_physical_bytes": 5368709120,
+    "candidate_2_latest_preflight_version": 2,
+    "candidate_2_preflight_available_physical_bytes": 4595142656,
+    "candidate_2_preflight_deficit_bytes": 773566464,
+    "candidate_2_failure_handler_available_physical_bytes": 4584386560,
+    "candidate_2_latest_observation_is_formal_preflight": true,
+    "bounded_screen": "BLOCKED_UNRESOLVED_NOT_A_CANDIDATE_2_MODEL_FAILURE",
+    "aggregate_evaluator_validity": "COMPLETE_GENERAL_SEMANTIC_VALIDITY_INSUFFICIENT",
+    "analysis_reproduction": "COMPLETE_LOCAL_PRIVATE_AND_PUBLIC_SAFE_AGGREGATE_PASS_PUBLIC_CLONE_FULL_PARTIAL",
+    "candidate_2_downstream_controller": "NOT_IMPLEMENTED_LEGACY_CONTROLLER_PROHIBITED",
+    "selected_configuration": null,
+    "disjoint_pilot_c0": "UNEXECUTED",
+    "remaining_factorial_requests": "UNEXECUTED"
+  },
+  "authorization_balances": {
+    "historical_p1_ledger": {
+      "authorization": 160,
+      "attempted": 80,
+      "remaining": 80,
+      "policy": "Preserved and not consumed, transferred, or double-counted by the autonomous recovery."
+    },
+    "autonomous_recovery_ledger": {
+      "authorization_id": "P1_AUTONOMOUS_MODEL_FEASIBILITY_20261017_V1",
+      "generation_limit": 1200,
+      "actual_inference_wall_seconds_limit": 72000.0,
+      "generations_used": 8,
+      "actual_inference_wall_seconds_used": 65.87628550000954,
+      "generations_remaining": 1192,
+      "actual_inference_wall_seconds_remaining": 71934.12371449999,
+      "attempts_by_candidate": {
+        "smollm2_1_7b_instruct_q4_k_m": 8,
+        "qwen2_5_3b_instruct_q4_k_m": 0
+      },
+      "unresolved_in_flight_completion_requests": 0,
+      "rule": "Whichever hard ceiling is reached first; the initial two-candidate screen permits at most 16 attempts."
+    }
+  },
+  "development_efficiency_tools": {
+    "ponytail": {
+      "plugin_id": "ponytail@ponytail",
+      "version": "5.3.2",
+      "official_source": "https://github.com/DietrichGebert/ponytail",
+      "installed": true,
+      "enabled": true,
+      "hooks_active_in_current_session": false,
+      "hooks_trusted_by_agent": false,
+      "lightweight_mode_requested": true,
+      "lightweight_mode_activated": false,
+      "inactive_reason": "The current session began before installation, Node.js is not available on the non-interactive PATH, and third-party lifecycle hooks were deliberately not trusted automatically.",
+      "manual_action_if_desired": "Install or expose a trusted Node.js runtime, open Codex /hooks to review and explicitly trust Ponytail's hooks, restart or open a new thread, then select Ponytail lite mode. Scientific governance and reproducibility requirements continue to override code-minimization preferences.",
+      "project_agents_file_overwritten": false
+    }
+  },
+  "blockers": {
+    "scientific": [
+      "No viable task-valid model configuration has yet passed the frozen development screen.",
+      "Candidate 1 failed the frozen automatic screen at 1/8; its post-hoc AI semantic diagnostic of 4/8 is evaluator-diagnostic evidence only and lacks researcher adjudication.",
+      "The previous 6/8 result and Candidate 1's 1/8 result cannot support factorial execution under the registered 7/8 model-feasibility rule.",
+      "General semantic evaluator validity is insufficient: the O/Q aggregate supports only narrow task-success agreement, and Candidate 1 semantic accuracy remains not estimable without genuine researcher adjudication."
+    ],
+    "engineering": [
+      "Candidate 2 formal preflight v2 is BLOCKED_WITH_EVIDENCE: 4595142656 available physical bytes versus 5368709120 required, a 773566464-byte deficit. Zero Candidate 2 generation requests executed.",
+      "No safe Candidate-2-native 80-request downstream controller exists. The legacy controller binds Qwen3.5, the historical ledger and an existing run; the historical manifest sequences differ and cannot be reused positionally.",
+      "The daily local scheduler was historically verified and last succeeded at 2026-10-18T09:28:51Z, but the current CodexSandboxOffline principal returns TASK_NOT_FOUND and cannot verify the researcher-account task. GitHub Actions is not deployed on the remote default branch.",
+      "Repository governance leaves the prospective freeze and cumulative checkpoint uncommitted until the human researcher reviews and commits them."
+    ]
+  },
+  "literature_monitoring": {
+    "status": "LAST_SUCCESSFUL_RUN_PRESERVED_CURRENT_SCHEDULER_VISIBILITY_UNVERIFIED_GITHUB_NOT_DEPLOYED",
+    "last_successful_primary_source_check_date": "2026-10-18",
+    "last_successful_scheduled_check_utc": "2026-10-18T09:28:51Z",
+    "reviewed_ledger_records": 14,
+    "structured_review_addendum_records": 3,
+    "scheduler_historically_verified": true,
+    "scheduler_current_session_validation": "TASK_NOT_FOUND_UNDER_CODEXSANDBOXOFFLINE_IDENTITY; researcher-principal state is not observable from this session",
+    "remote_schedule_observed": false,
+    "schedule_utc": "23 4 * * *",
+    "local_schedule": "DAILY_AT_04_23_LOCAL_TIME_INTERACTIVE_ONLY",
+    "current_checkpoint_receipt": {
+      "path": "docs/validation/literature_monitor_v1/literature_checkpoint_2026-10-18_v1.json",
+      "sha256": "751246745811bbb030c0c529b0ca38f25f7f000fcbde169dc1a90353b17b923f"
+    },
+    "latest_private_snapshot": {
+      "path": ".local/literature-monitor/daily_snapshot_20261018T092857Z.json",
+      "sha256": "faf7a96b41a07cbbe80bd0daf3eab5265f047b229fafd0b3bd923bba1e33300d",
+      "records": 196,
+      "source_requests_succeeded": 12,
+      "source_requests_failed": 1
+    },
+    "primary_source_review_addendum": {
+      "path": "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v1.json",
+      "sha256": "fa2e78129a1d24eab6e7202d9f28db0a06e376de0edbbf83e83866202bb70be8",
+      "records": 3
+    },
+    "interpretation": "A real scheduled collection last succeeded on 2026-10-18, but current continued scheduling cannot be verified from the sandbox identity and GitHub scheduling is not deployed. Full-text primary-source review materially narrows broad novelty claims: FPA directly occupies provenance-guided conditional stale-memory suppression, ReTurn improves prospective H isolation, and Wiki-Talkie occupies broad history-versus-profile fidelity comparisons. No reviewed source was verified to combine the complete paired shared-evidence S/F/H factorial with joint reliability-fidelity-cost measurement; that remains a hypothesis, not a priority claim."
+  },
+  "publication_readiness_scorecard": {
+    "schema_version": "personaslm_publication_readiness_scorecard_v1",
+    "last_assessed_utc": "2026-10-18T11:26:32.7856822Z",
+    "boundary": "Internal evidence-status inventory only. No overall numerical score is calculated, and no item implies journal acceptance or researcher approval.",
+    "sections": {
+      "A_research_question_validity": {
+        "status": "SUPPORTED",
+        "evidence_refs": [
+          "docs/research_protocol_v1.1.md",
+          "docs/PersonaSLM_research_programme_alignment_v1.md"
+        ],
+        "critical_gap": "After model feasibility is resolved, freeze the publication claim's target model population, task distribution, primary outcome, estimand, and interpretation boundary before independent validation."
+      },
+      "B_construct_validity": {
+        "status": "EVIDENCE_INSUFFICIENT",
+        "evidence_refs": [
+          "docs/validation/p1/stage_b_v1/stage_b_execution_evidence_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/candidate1_run_receipt_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/selection_after_candidate1_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/evaluator_validity_v1.json",
+          "docs/PersonaSLM_persona_fidelity_measurement_v1.md"
+        ],
+        "critical_gap": "Aggregate reconstruction confirms that the historical exact/alias endpoint is a narrow format-constrained adoption measure, not a validated general semantic evaluator. Candidate 1's 2/8 current-or-outdated alias coverage and 2/7 coverage among AI-only semantically classifiable outputs require genuine researcher validation; broader reliability axes and linguistic and behavioral Persona Fidelity remain unvalidated."
+      },
+      "C_experimental_control": {
+        "status": "DEVELOPING",
+        "evidence_refs": [
+          "docs/research_protocol_v1.1.md",
+          "docs/validation/p1/model_feasibility_recovery_v1/prospective_freeze_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/selection_after_candidate1_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/materialized_qwen2_5_3b_instruct_q4_k_m_v1.json",
+          "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_minimal_temporal_SFH_pilot_v2.json"
+        ],
+        "critical_gap": "Candidate 1 followed the frozen screen and Candidate 2 materials remain fixed, but Candidate 2 has not run and the factorial remains unexecuted. Candidate-native templates are an explicit model-plus-template difference, and the complete H package changes history presence, conflict, topic, and presentation together; neither contrast supports a pure weight or pure temporal mechanism claim."
+      },
+      "D_dataset_independence": {
+        "status": "EVIDENCE_INSUFFICIENT",
+        "evidence_refs": [
+          "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_pilot_manifest_candidate_v1.json"
+        ],
+        "critical_gap": "The disjoint pilot material is frozen but unexecuted, and no ancestry-separated independent validation cohort has generated outputs."
+      },
+      "E_sample_adequacy": {
+        "status": "EVIDENCE_INSUFFICIENT",
+        "evidence_refs": [
+          "docs/P1c_publication_strategy.md",
+          "docs/P1d_publication_evidence_gap.md",
+          "docs/validation/p1/model_feasibility_recovery_v1/research_state_v1.json"
+        ],
+        "critical_gap": "Eight development cases cannot support publication-level factorial inference. A resource audit identifies 48 speakers x 2 fresh cases x 10 conditions (960 generations) as a potentially feasible minimum for a primary outdated-adoption contrast with roughly 12-17 percentage-point half-width under central assumptions, but the required crossed speaker/template simulation, multiplicity policy and cohort freeze remain incomplete; small higher-order interactions would remain poorly resolved."
+      },
+      "F_evaluation_reliability": {
+        "status": "EVIDENCE_INSUFFICIENT",
+        "evidence_refs": [
+          "docs/validation/p1/stage_b_v1/stage_b_decision_record_v1.json",
+          "docs/validation/p1/stage_b_v1/stage_b_execution_evidence_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/candidate1_run_receipt_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/selection_after_candidate1_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/evaluator_validity_v1.json"
+        ],
+        "critical_gap": "The O/Q audit has 31/32 exact-category agreement from one genuine researcher review, but aggregate counts cannot identify the full confusion matrix or validate independent factual/temporal axes. Wave 1 automatic factual coverage was only 15/72. The eight Stage B and eight Candidate 1 outputs still lack researcher semantic adjudication; no second independent reviewer, inter-rater reliability or validated fidelity metric exists."
+      },
+      "G_statistical_credibility": {
+        "status": "EVIDENCE_INSUFFICIENT",
+        "evidence_refs": [
+          "docs/P1_stage_B_unblinding_and_conditional_execution_report_v1.md"
+        ],
+        "critical_gap": "The registered Stage B result explicitly leaves factorial contrasts not estimable. A candidate independent design and primary C3-C0 outdated-adoption estimand have been bounded offline, but no prospective crossed-cluster simulation, frozen cohort, S/F/H main effects, interactions, missingness sensitivity analysis or independent estimate exists."
+      },
+      "H_baseline_strength": {
+        "status": "BLOCKED",
+        "evidence_refs": [
+          "docs/validation/p1/model_feasibility_recovery_v1/prospective_freeze_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/candidate1_audit_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/selection_after_candidate1_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/candidate2_download_receipt_v2.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/materialized_qwen2_5_3b_instruct_q4_k_m_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v2.json"
+        ],
+        "critical_gap": "Candidate 1 completed once and failed the automatic gate at 1/8. Candidate 2 is prepared but formal 5 GiB preflight v2 failed before inference, so its model capability is unevaluated and no viable selected baseline exists. The bounded screen is resource-blocked, not a two-model performance failure. Any later algorithm comparison must include simple restatement/temporal filtering and applicable SCR-T/FPA-like provenance-authority baselines."
+      },
+      "I_generalization_evidence": {
+        "status": "EVIDENCE_INSUFFICIENT",
+        "evidence_refs": [
+          "docs/P0_P1_cumulative_research_checkpoint_and_model_feasibility_assessment_v1.md"
+        ],
+        "critical_gap": "The original configuration and one different small-model challenger have both been observed on the same narrow development bank, but neither supplies a qualifying configuration or independent replication. There is no validation across disjoint task ancestry, persona populations, temporal patterns, or authorized real-speaker material."
+      },
+      "J_novelty_assessment": {
+        "status": "DEVELOPING",
+        "evidence_refs": [
+          "docs/P1_novelty_assessment.md",
+          "docs/validation/literature_monitor_v1/reviewed_ledger_v1.json",
+          "docs/validation/literature_monitor_v1/literature_checkpoint_2026-10-18_v1.json",
+          "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v1.json"
+        ],
+        "critical_gap": "The reviewed sources materially narrow broad claims. Memory Echo/FPA directly occupies source-family provenance, correction-conditioned stale-memory suppression and authority-guided answering; ReTurn occupies broad selective-history help/harm and supplies matched controls; Wiki-Talkie occupies history-versus-profile behavioral-fidelity comparisons. The remaining complete S/F/H factorial distinction is untested and is not a priority proof; no algorithmic novelty evidence exists."
+      },
+      "K_reproducibility": {
+        "status": "DEVELOPING",
+        "evidence_refs": [
+          "docs/validation/p1/stage_b_v1/reproducibility_manifest_v2.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/candidate1_audit_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/selection_after_candidate1_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/materialized_qwen2_5_3b_instruct_q4_k_m_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v2.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/analysis_reproduction_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/analysis_reproduction_regression_v1.json",
+          "docs/validation/p1/model_feasibility_recovery_v1/research_state_v1.json"
+        ],
+        "critical_gap": "Candidate 1 local private-archive replay passes and the public-safe evaluator aggregate reconstructs exactly in an isolated temporary copy. Candidate 2's exact model/materialization and blocked preflight v2 are hash-linked. Public clone-only full reproduction remains partial because essential raw outputs and model weights are local, and the cumulative checkpoint remains uncommitted under repository governance."
+      },
+      "L_ethics_and_data_availability": {
+        "status": "DEVELOPING",
+        "evidence_refs": [
+          "docs/research_protocol_v1.1.md",
+          "docs/P0_P1_cumulative_research_checkpoint_and_model_feasibility_assessment_v1.md"
+        ],
+        "critical_gap": "Current task material is fictional and restricted-data boundaries are explicit. Candidate 2 is under the non-commercial Qwen Research License and its weights remain ignored; the final license inventory, restricted-artifact access statement, redistribution review and manuscript Data Availability text remain incomplete."
+      },
+      "M_manuscript_completeness": {
+        "status": "DEVELOPING",
+        "evidence_refs": [
+          "docs/PersonaSLM_manuscript_working_v2.md"
+        ],
+        "critical_gap": "The draft incorporates Candidate 1 nonqualification and Candidate 2's resource block and now distinguishes narrow alias agreement from semantic validity. It still lacks an interpretable S/F/H pilot, independent Results, publication-level effect estimates and uncertainty, complete failure analysis, evidence-backed Discussion and Conclusion, and final ethics/data statements."
+      }
+    }
+  },
+  "outstanding_evaluations": [
+    "Candidate 2 eight-request frozen development screen after a future passing 5 GiB preflight.",
+    "Genuine researcher semantic adjudication of Stage B and Candidate 1 current/outdated/incomplete categories without changing historical gates.",
+    "A Candidate-2-native disjoint C0 gate and, only if all gates pass, the remaining controlled S/F/H developmental cells.",
+    "Prospective matched-direct H mechanism cohort and independent ancestry-disjoint validation with crossed-cluster precision planning.",
+    "Persona Fidelity evaluator validation with genuine human judgment provenance."
+  ],
+  "unresolved_methodological_issues": [
+    "Any qualifying screen remains developmental because the eight model-screen cases were previously observed with the original model.",
+    "Candidate 1's frozen exact/alias score was 1/8 while a post-hoc AI semantic diagnostic proposed 4/8. The discrepancy is evaluator-diagnostic evidence only; UNVERIFIABLE and CONTRADICTORY outputs require genuine later semantic review and do not count as gate successes.",
+    "The aggregate validity audit supports narrow O/Q task-success agreement but not general semantic accuracy, sensitivity, specificity, kappa, independent factual/temporal validity or inter-rater reliability.",
+    "Style can change answer wrappers, so the historical exact/alias scorer could induce differential misclassification across S conditions if used as the only future semantic endpoint.",
+    "Candidate-native chat templates differ. Candidate 2's verified native template includes its own default system instruction, so any model comparison is explicitly a model-plus-template configuration comparison rather than a pure weight effect.",
+    "A complete history-conditioning package cannot by itself isolate a pure temporal-interference mechanism; all current feasibility cases are C0, and only one case showed stable outdated-value selection across the original and Candidate 1 configurations.",
+    "Full Linguistic or Behavioral Persona Fidelity is not measurable from the minimal single-answer screen.",
+    "No Candidate-2-native downstream pilot controller exists. The historical 80-request manifests have different request sequences and bind the old model and authorization; explicit condition selection and a new namespace are required.",
+    "Memory Echo/FPA already covers broad provenance-guided conditional stale-memory suppression. A distinct algorithmic contribution would need a failure mechanism beyond repeated trace amplification and comparative evidence against FPA components."
+  ],
+  "next_milestone_acceptance_criteria": [
+    "The Candidate 1 run, Candidate 2 preparation and Candidate 2 blocked preflight v2 remain hash-valid, with exactly 8 total generations and 65.87628550000954 actual inference seconds accounted for.",
+    "The bounded screen is reported as resource-blocked and scientifically unresolved: Candidate 1 failed automatically, while Candidate 2 was not evaluated and is not labeled a model failure.",
+    "No automatic retry, third challenger, threshold change, unrelated-process termination, pilot C0 or factorial generation occurs under the present frozen screen.",
+    "Selection remains independent of the post-hoc Candidate 1 AI diagnostic and of all disjoint pilot outcomes.",
+    "A fresh versioned Candidate 2 preflight passes the unchanged 5 GiB gate before any of its eight frozen requests execute, or Candidate 2 remains BLOCKED_RESOURCE without tight polling.",
+    "If Candidate 2 qualifies, a new Candidate-2-native 80-request manifest/controller is prospectively validated against explicit C0 and non-C0 condition sets before any pilot inference; no legacy controller or positional slice is reused.",
+    "Any future semantic endpoint is validated against genuine researcher judgments and reports coverage, abstention, category-specific disagreement and missingness without changing historical gates.",
+    "Any future H mechanism cohort includes a matched direct-answerability reference and separates consistent history, outdated conflict, current-evidence competition and history-required reverse controls.",
+    "Any independent validation cohort remains disjoint by speaker, entity, value, history, question and template ancestry and is frozen only after a crossed-cluster precision simulation demonstrates its primary interval target."
+  ],
+  "privacy_and_provenance": {
+    "restricted_unblinding_material_referenced": true,
+    "restricted_unblinding_material_embedded": false,
+    "restricted_unblinding_key_accessed": false,
+    "inspection_scope_incident": "One delegated read-only audit displayed a comment-bearing researcher import record and a broad search returned one non-mapping status line from an unblinding JSON. No key, mapping, comment, record text or identity linkage was used or reproduced; the evaluator implementation excludes those paths and consumes only six aggregate sources.",
+    "model_weights_embedded": false,
+    "raw_model_outputs_embedded": false,
+    "post_hoc_ai_semantic_diagnostic_human_reviewed": false,
+    "scientific_claim": "Candidate 1 completed a developmental, non-confirmatory frozen screen and failed its automatic gate at 1/8; a retrospective AI-only 4/8 semantic diagnostic has no gate effect. Aggregate validity evidence shows that the historical exact/alias endpoint is narrow and insufficient as a sole general semantic outcome. Candidate 1 local private-archive replay and isolated public-safe evaluator reconstruction pass, but public clone-only full reproduction remains partial. Candidate 2 formal preflight v2 failed before inference, so the bounded screen remains blocked and unresolved and Candidate 2 has no model-performance result. Memory Echo/FPA is a direct prior-art collision for generic provenance-guided conditional stale-memory suppression; no PersonaSLM algorithmic novelty is claimed."
+  }
+}

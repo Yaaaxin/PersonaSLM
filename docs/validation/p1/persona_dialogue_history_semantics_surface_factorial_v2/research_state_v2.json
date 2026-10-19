@@ -1,0 +1,137 @@
+{
+  "schema_version": "personaslm_research_state_hssf_v2",
+  "recorded_utc": "2026-10-18T19:39:38.0851162Z",
+  "researcher": "Yaxin ZHENG",
+  "protocol": "PersonaSLM Research Protocol v1.1",
+  "git": {
+    "branch": "research/autonomous-personaslm",
+    "head": "c40667ad266082481b1850453f67784b593f3723",
+    "worktree": "DIRTY_RESEARCH_ARTIFACTS_UNCOMMITTED_HUMAN_GIT_CONTROL",
+    "automated_commit_or_push": false
+  },
+  "historical_model_feasibility": {
+    "status": "BOUNDED_SCREEN_NEGATIVE_FINAL",
+    "candidate_1": {
+      "model": "SmolLM2-1.7B-Instruct",
+      "frozen_task_success": "1/8"
+    },
+    "candidate_2": {
+      "model": "Qwen2.5-3B-Instruct",
+      "frozen_task_success": "2/8"
+    },
+    "registered_qualification_threshold": "7/8",
+    "interpretation": "The historical bounded temporal-QA screen failed and remains frozen. It is not a universal gate for separately registered persona-dialogue research."
+  },
+  "latest_completed_experiment": {
+    "experiment": "Position-balanced history semantics by surface development mechanism replication v2",
+    "evidence_level": "DEVELOPMENT_MECHANISM_REPLICATION",
+    "status": "PASS_COMPLETE_60_OF_60_ZERO_RETRY",
+    "run_directory": "results/p1_persona_dialogue_history_semantics_surface_factorial/v2/runs/20261018T192639-5e91d9f5e0c84ad2ae29d495544fa92f",
+    "model_generations": 60,
+    "responses": 60,
+    "native_eos": 60,
+    "generated_tokens": 1631,
+    "completion_inference_seconds": 339.33826249997946,
+    "batch_wall_seconds": 352.0313927999996,
+    "server_peak_working_set_bytes": 2586701824,
+    "minimum_observed_available_physical_bytes": 1579372544,
+    "model": {
+      "label": "Qwen3.5-2B-native-chat-Q4_K_M-third-party-development",
+      "artifact_revision": "bb84e11355a036e28f080c7793fa6d22b7c4e344",
+      "intended_upstream_revision": "965dcc54bc9c0591873df0e9869c056a54d323d1",
+      "weight_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+      "quantization": "Q4_K_M",
+      "conversion_lineage": "PARTIALLY_VERIFIED_DEVELOPMENT_ONLY"
+    },
+    "primary_observations": {
+      "history_surface_declarative_minus_raw": {
+        "current_preferred_selection": 0.16666666666666666,
+        "current_target_selection": 0.125,
+        "exact_history_intrusion": -0.16666666666666666,
+        "raw_recommendation_frame_occurrence": -1.0,
+        "strict_format_adherence": 0.875
+      },
+      "history_semantics_aligned_minus_conflict": {
+        "current_preferred_selection": -0.08333333333333333,
+        "current_target_selection": -0.125,
+        "exact_history_intrusion": 0.08333333333333333,
+        "raw_recommendation_frame_occurrence": 0.0,
+        "strict_format_adherence": -0.125
+      },
+      "history_factorial_mean_minus_no_history": {
+        "current_preferred_selection": -0.2916666666666667,
+        "current_target_selection": -0.14583333333333334,
+        "exact_history_intrusion": 0.125,
+        "raw_recommendation_frame_occurrence": 0.5,
+        "strict_format_adherence": -0.5625
+      }
+    },
+    "interpretation": "For these 12 synthetic controlled-choice cases on this model, raw archived recommendation wording reproducibly dominated a narrow output frame and history was associated with poorer current-choice reliability. Declarative rewriting removed the registered raw-frame recurrence and partially recovered reliability and format, but did not outperform no history. Aligned history did not improve registered choice endpoints relative to conflicting history.",
+    "claims_not_supported": [
+      "confirmatory statistical significance",
+      "population generalization",
+      "internal causal representation",
+      "real-speaker Persona Fidelity",
+      "broad conversational coherence",
+      "semantic reason correctness",
+      "independent validation",
+      "novel or validated algorithm"
+    ]
+  },
+  "cumulative_autonomous_budget": {
+    "generation_ceiling": 1200,
+    "generations_used": 292,
+    "generations_remaining": 908,
+    "inference_seconds_ceiling": 72000,
+    "inference_seconds_used": 1701.0952766999717,
+    "inference_seconds_remaining": 70298.90472330003,
+    "historical_p1_requests_used_separate": 80,
+    "historical_p1_requests_ceiling_separate": 160
+  },
+  "evidence": {
+    "case_bank_v2_sha256": "8e849a0f272d3551fe414516c72daceb65743f56420832507e5d346f7ef65a9e",
+    "prospective_design_v2_sha256": "ff48daf11c0c439e1631db1898b3029a6ea1d765a0f8193e662e622f9616f5fc",
+    "execution_authorization_v2_sha256": "ea4fddb9d6973840f0fb03810b0d587d8dff4098ecfe990a7312b64a92711caf",
+    "frozen_manifest_v2_sha256": "13f3baa26a8a0a1f341feb35045e88f007ef8cc65ac7dd2bbbec751bc059386a",
+    "preflight_v2_sha256": "5e875cf60ba1640c559981c00c3c8b84994c11036bf2c75a3bf23d01320bdb0c",
+    "execution_audit_v2_sha256": "0c90ddcd96208c85e845b30458ed6cabedcd77492ee2ab0774acfd8fe6c0d54e",
+    "analysis_v2_sha256": "b1afd391e9f3fedeb4a1dc920d5b8de242847869203ea52d097ceb4219270104",
+    "analysis_reproduction_v2_sha256": "569c866e89d70976e3e1d3417ad2df4f7fd9076cd6ae2a65f5581ab7e39eac24",
+    "scientific_report_v2_sha256": "3a63d75603ad639b63673963eaea2ad2047c4fdfe8d82b12e90ef3d6e09e13ac",
+    "withdrawn_v1_record_sha256": "8f2164493d00201bbbef7e7a78daec5d342e15f1bedb1c0ac87e01bb82fbca48"
+  },
+  "human_semantic_review": {
+    "historical_review_status": "PENDING_GENUINE_BLINDED_RESEARCHER_JUDGMENTS",
+    "historical_review_file": ".local/reviewer-packages/p1_stageb_candidate1_semantic_review_v1/stage_a_pointwise_REVIEW_TEMPLATE.csv",
+    "historical_review_file_sha256": "16aecfa401c491e80ca6c0232c3980f9ad8e87891f241d755b9a2efd3d63115d",
+    "historical_blank_records": 16,
+    "latest_experiment_semantic_reason_status": "PENDING_BLINDED_HUMAN_REVIEW",
+    "fabricated_or_ai_substitute_labels": 0
+  },
+  "algorithm_status": {
+    "status": "NO_INDEPENDENTLY_VALIDATED_NOVEL_ALGORITHM",
+    "declarative_history_rendering": "SIMPLE_BASELINE_ONLY",
+    "next_dependency": "Replicate the measured failure and mitigation on disjoint cases and models, then compare against strong retrieval/filtering baselines with blinded Persona Fidelity evaluation."
+  },
+  "independent_validation": {
+    "latest_experiment": "NOT_INDEPENDENT_OUTPUT_INFORMED_SYNTHETIC_DEVELOPMENT",
+    "programme_status": "NO_INDEPENDENT_VALIDATION_OF_THE_LATEST_MECHANISM",
+    "next_valid_action": "Prospectively freeze a disjoint validation case bank and blinded semantic/persona assessment before new outputs."
+  },
+  "real_speaker_status": {
+    "status": "BLOCKED_PENDING_LAWFULLY_USABLE_GOVERNED_SPEAKER_DERIVED_MATERIAL",
+    "synthetic_evidence_must_not_be_relabelled": true
+  },
+  "literature_monitor": {
+    "date": "2026-10-18",
+    "status": "COMPLETED_DO_NOT_REPEAT_WITHOUT_SPECIFIC_REASON",
+    "primary_source_addendum": "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v3.json",
+    "novelty_assessment": "docs/P1_novelty_assessment.md"
+  },
+  "runtime_state": {
+    "active_model_inference_process": false,
+    "frozen_evidence_overwritten": false,
+    "budgets_reset": false
+  },
+  "next_scientific_action": "Independently review the prospectively specified 48-request declarative-history S/F/H repair candidate; if every scientific and hardware gate passes, execute only its new H=1 requests while reusing rather than regenerating archived H=0 evidence. Then freeze a genuinely disjoint validation bank, while preserving the separate requirement for genuine blinded human Persona Fidelity judgments."
+}

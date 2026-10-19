@@ -1,0 +1,36 @@
+{
+  "attempted": 24,
+  "blocked_before_inference": 0,
+  "cumulative": {
+    "attempted": {
+      "A_C0": 32,
+      "B_FACTORIAL": 0,
+      "C_DIAGNOSTIC": 40
+    },
+    "authorization_id": "P1_ACCELERATED_MEASUREMENT_20261015_V1",
+    "remaining_authorization": {
+      "A_C0": 0,
+      "B_FACTORIAL": 80,
+      "C_DIAGNOSTIC": 8
+    },
+    "remaining_unreserved": {
+      "A_C0": 0,
+      "B_FACTORIAL": 80,
+      "C_DIAGNOSTIC": 8
+    },
+    "reserved": {
+      "A_C0": 32,
+      "B_FACTORIAL": 0,
+      "C_DIAGNOSTIC": 40
+    },
+    "retry_policy": "Attempt files are exclusive and never removed. Ambiguous transport outcomes consume an attempt.",
+    "total_attempted": 72,
+    "total_remaining": 88
+  },
+  "elapsed_seconds": 211.4757695000153,
+  "human_semantic_ratings": 0,
+  "responses_received": 24,
+  "results": 24,
+  "run_directory": "E:/DEVOIRS/Research/PersonaSLM-Lab/PersonaSLM-Lab-P0-v1.1/PersonaSLM-Lab/results/p1_measurement_recovery/v1/runs/20261015T112741-aed4976fcefe4553923380003fb63eab",
+  "status": "PASS"
+}

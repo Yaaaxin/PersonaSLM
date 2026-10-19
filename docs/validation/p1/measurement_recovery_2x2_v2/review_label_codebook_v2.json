@@ -1,0 +1,23 @@
+{
+  "allowed_review_categories": [
+    "Correct",
+    "Partially correct",
+    "Incorrect",
+    "Unverifiable",
+    "Not applicable",
+    "Missing"
+  ],
+  "legacy_task_labels": "Success/Failure/Uncertain also accepted; original source suggestions not reclassified.",
+  "priority": "Original C0 factual disagreements, task disagreements, failed single lookup, then other disagreements and remaining rows.",
+  "researcher_adoption_is_not_independent_annotation": true,
+  "researcher_fields_initially_blank": true,
+  "scope": "Separate task, factual, temporal, completeness and failure-type fields. No partial/unknown category silently forced into binary.",
+  "task_gate_mapping": {
+    "Correct": "Success",
+    "Incorrect": "Failure",
+    "Missing": "Missing",
+    "Not applicable": "N/A",
+    "Partially correct": "Partially correct, retained separately, not full success or automatic agreement",
+    "Unverifiable": "Uncertain"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "version": "personaslm_local_literature_scheduler_evidence_v1",
+  "status": "LIVE_SCHEDULED_RUN_PASSED",
+  "recorded_utc": "2026-10-17T19:09:49.738Z",
+  "scheduler": {
+    "platform": "Windows Task Scheduler",
+    "task_name": "PersonaSLM-Daily-Literature-Monitor",
+    "state": "ENABLED",
+    "schedule": "DAILY_AT_04_23_LOCAL_TIME",
+    "logon_mode": "INTERACTIVE_ONLY",
+    "stored_credentials": false,
+    "allow_battery_operation": true,
+    "start_when_available": true,
+    "concurrent_run_policy": "IGNORE_NEW",
+    "execution_time_limit_minutes": 20,
+    "last_run_local": "2026-10-17T21:07:58+02:00",
+    "last_result": 0,
+    "next_run_local": "2026-10-18T04:23:00+02:00"
+  },
+  "scheduled_snapshot": {
+    "private_ignored_path": ".local/literature-monitor/daily_snapshot_20261017T190759Z.json",
+    "sha256": "e01b7c70d3095b1355866f41cff036065da3996e61fef9745f9b831306a34afa",
+    "bytes": 395865,
+    "file_last_write_utc": "2026-10-17T19:08:08.2713888Z",
+    "as_of_date": "2026-10-17",
+    "scientific_status": "UNVERIFIED_AUTOMATED_DISCOVERY",
+    "discovery_records": 216,
+    "source_requests_attempted": 13,
+    "source_requests_succeeded": 13,
+    "source_requests_failed": 0,
+    "reviewed_ledger_modified": false
+  },
+  "preserved_predecessor_failure": {
+    "first_scheduled_start_local": "2026-10-17T20:55:30+02:00",
+    "last_result": 1,
+    "cause": "Crossref returned a partial date whose optional month/day entries were null; the collector attempted int(None).",
+    "resolution": "The parser now preserves a valid year, stops at null optional components, validates ranges, and records supported source parsing failures without inventing dates."
+  },
+  "public_artifact_bindings": {
+    ".github/workflows/daily-literature-monitor.yml": "de2b98a5bf05976ee4ed1e4bffcf061231f794c2b9e260c23bc930dec28dd89f",
+    "docs/literature_surveillance_v1.md": "0c276914142820b9044b589e98357314dfb1ab3f42e7e03f94f5a7723fee1272",
+    "docs/validation/literature_monitor_v1/config_v1.json": "9cd77c2359880befb6d35db1ac4194e2a8bc1e3618822bfe9eb7775e8eb46023",
+    "docs/validation/literature_monitor_v1/ledger_schema_v1.json": "4d3ed644c5e4b39691ad1f5a44ba5a41a674c6165056c8dda80349e42c0f6bd4",
+    "docs/validation/literature_monitor_v1/reviewed_ledger_v1.json": "e643e206074d934edafc8572847bc21f63af5207d695e7119fbd4b169455ebd1",
+    "tests/test_literature_monitor.py": "c3739b382944bf632bff6b56b6e8eb8095ec12672d7a207ba383afd0ba0bf254",
+    "tools/literature_monitor.py": "4087d731133fad2da5e94e0e23e702785909cd370ebcf7163001cf90b3300d3f",
+    "tools/run_daily_literature_monitor.ps1": "29c3ec9ae0cc254e9bfccfb2508081721b48ae8ecd49202b71a498927eed74f9"
+  },
+  "privacy": {
+    "host_name_recorded": false,
+    "user_name_recorded": false,
+    "query_urls_embedded": false,
+    "credentials_embedded": false,
+    "restricted_research_material_embedded": false
+  },
+  "limitations": [
+    "The task requires the workstation to be on and the researcher to be logged in because it uses INTERACTIVE_ONLY mode.",
+    "The successful snapshot is automated discovery evidence, not a reviewed scientific literature assessment.",
+    "The configured GitHub Actions schedule remains inactive until default-branch integration and enabled Actions; no cloud scheduled run is claimed."
+  ],
+  "model_inference_generations": 0
+}

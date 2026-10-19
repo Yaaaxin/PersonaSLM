@@ -1,0 +1,105 @@
+{
+  "schema_version": "personaslm_literature_checkpoint_v1",
+  "status": "PRIMARY_SOURCE_REVIEW_UPDATED_AND_LOCAL_SCHEDULE_VERIFIED",
+  "checked_date": "2026-10-18",
+  "recorded_utc": "2026-10-18T10:07:19.8683408Z",
+  "predecessor": {
+    "path": "docs/validation/literature_monitor_v1/initial_check_2026-10-17_v3.json",
+    "sha256": "1194b4b2a60ec54457bb8a922cdbb5052a12ff618125313259de5edd44a3579d",
+    "preservation": "UNCHANGED"
+  },
+  "supersession_scope": "Preserves the 2026-10-17 eight-paper seed review and adds six primary-source-reviewed high-relevance records, the recovered live local scheduler evidence, and exact arXiv/DataCite DOI alias deduplication. It does not amend Research Protocol v1.1 or reclassify development evidence as validation.",
+  "daily_delta": {
+    "comparison": "Automated 2026-10-18 snapshot versus the preserved 2026-10-17 snapshot",
+    "new_records": 5,
+    "substantive_relevant_alerts": 0,
+    "metadata_only_changes": 3,
+    "interpretation": "No publication newly appearing in the daily delta required an immediate scientific-direction change. The primary-source review instead closed high-priority backlog and coverage gaps already visible in or discovered while checking the current surveillance window."
+  },
+  "automated_snapshot": {
+    "path": ".local/literature-monitor/daily_snapshot_20261018T092857Z.json",
+    "sha256": "faf7a96b41a07cbbe80bd0daf3eab5265f047b229fafd0b3bd923bba1e33300d",
+    "bytes": 374779,
+    "records": 196,
+    "source_requests_attempted": 13,
+    "source_requests_succeeded": 12,
+    "source_requests_failed": 1,
+    "scientific_status": "AUTOMATED_DISCOVERY_ONLY_REQUIRES_PRIMARY_SOURCE_REVIEW"
+  },
+  "reviewed_ledger": {
+    "records_before": 8,
+    "records_after": 14,
+    "added_stable_ids": [
+      "doi:10.1007/s41060-026-01290-8",
+      "arxiv:2609.38866",
+      "arxiv:2610.05162",
+      "arxiv:2609.35036",
+      "arxiv:2610.10988",
+      "doi:10.1016/j.inffus.2026.104477"
+    ],
+    "reviewer_type": "AI_ASSISTED_PRIMARY_SOURCE_REVIEW",
+    "human_confirmation": "NOT_RECORDED",
+    "validation_status": "PASS",
+    "validation_command": ".venv/Scripts/python.exe -B tools/literature_monitor.py validate --config docs/validation/literature_monitor_v1/config_v1.json --ledger docs/validation/literature_monitor_v1/reviewed_ledger_v1.json"
+  },
+  "novelty_impact": {
+    "status": "MATERIAL_CLAIM_NARROWING_REQUIRED",
+    "strongest_collision": "doi:10.1007/s41060-026-01290-8",
+    "unsupported_broad_claims": [
+      "First demonstration that persona or conversational history can impair reliability",
+      "First identification of stale old-value selection after contextual updates",
+      "First temporal-provenance or supersession-resolution method for conversational memory",
+      "Novelty based solely on local CPU inference with approximately 1B-3B models",
+      "Novelty based solely on separating persona fidelity from reliability"
+    ],
+    "remaining_testable_distinction": "A paired, shared-evidence 2^3 Style/Facts/dated-History factorial in approximately 0.8B-3B CPU-deployed models, with outdated-value adoption separated from other errors and reliability, persona fidelity, and CPU cost reported jointly.",
+    "boundary": "This distinction is a prospective contribution hypothesis, not an established novelty or empirical result."
+  },
+  "deduplication_correction": {
+    "status": "IMPLEMENTED_AND_REGRESSION_TESTED",
+    "problem": "Official arXiv DataCite DOI records such as doi:10.48550/arxiv.2609.38866 did not share an exact alias with ledger identifiers such as arxiv:2609.38866.",
+    "resolution": "Only official 10.48550/arxiv.<id> DOI values now add the normalized arXiv base identifier as an alias; unrelated DOI prefixes are unchanged.",
+    "historical_ledger_rewrite": false,
+    "new_regression_tests": 4
+  },
+  "review_queue": [
+    {"stable_id": "arxiv:2610.08513", "priority": "HIGH", "reason": "Profile versus comment-history persona conditioning is already discussed in a prior full-text assessment but is not yet in the structured ledger."},
+    {"stable_id": "arxiv:2610.07725", "priority": "MEDIUM", "reason": "Speaker attribution and temporal revision are relevant to failure taxonomy."},
+    {"stable_id": "arxiv:2610.11948", "priority": "MEDIUM", "reason": "Matched controls for when history helps or becomes outdated may improve future H isolation."},
+    {"stable_id": "arxiv:2610.17763", "priority": "MEDIUM", "reason": "Memory echo after correction is adjacent to outdated-value adoption."},
+    {"stable_id": "arxiv:2610.18541", "priority": "MEDIUM", "reason": "Tone versus training-distribution analysis constrains broad S-to-reliability mechanisms."},
+    {"stable_id": "doi:10.1145/3794786.3830771", "priority": "UNRESOLVED", "reason": "Official programme confirms the paper, but sufficient primary text was unavailable for scientific classification."}
+  ],
+  "scheduler": {
+    "status": "ACTIVE_VERIFIED_LOCAL_GITHUB_NOT_DEPLOYED",
+    "recovery_evidence": "docs/validation/literature_monitor_v1/local_scheduler_recovery_2026-10-18_v1.json",
+    "last_successful_run_utc": "2026-10-18T09:28:51Z",
+    "next_run_utc": "2026-10-19T02:23:00Z",
+    "last_result": 0,
+    "github_actions_default_branch_observed": false
+  },
+  "artifact_hashes": {
+    "docs/validation/literature_monitor_v1/config_v1.json": "9cd77c2359880befb6d35db1ac4194e2a8bc1e3618822bfe9eb7775e8eb46023",
+    "docs/validation/literature_monitor_v1/ledger_schema_v1.json": "4d3ed644c5e4b39691ad1f5a44ba5a41a674c6165056c8dda80349e42c0f6bd4",
+    "docs/validation/literature_monitor_v1/reviewed_ledger_v1.json": "55392de0024ff4c04aa265f654d87419982df834aeff659e401620840b9ae99b",
+    "docs/validation/literature_monitor_v1/local_scheduler_recovery_2026-10-18_v1.json": "d41c2e8932ba657957a7ce9954ae56edabb7b87b0c1a90ac657897fcea74e9eb",
+    "tools/literature_monitor.py": "972179b45c6011c4f18d379e82812648a2e94683f371668b1348d11e89499685",
+    "tests/test_literature_monitor.py": "a8c8015b693fb37c9cbb4b4387e97e57a3ce569316b549542697c628eeecfe9f",
+    "tests/test_literature_monitor_arxiv_doi_dedup.py": "18316bda4adb9c5220c2add1b2f3b7200d44ccf11ea9fa291baa3bf0cad29502",
+    "tools/install_daily_literature_scheduler.ps1": "6ff472a4bafe3ed0fde0e69b50d84f1dcb0daf14d3bc8e3f62bd2737dde5d71f",
+    "tests/test_windows_literature_scheduler.py": "204d5e72d960bac9c7c3d0c1a2f5ca287368a13cbdadad2e09e9eb2a3b176091",
+    "tools/run_daily_literature_monitor.ps1": "29c3ec9ae0cc254e9bfccfb2508081721b48ae8ecd49202b71a498927eed74f9"
+  },
+  "test_evidence": {
+    "command": ".venv/Scripts/python.exe -B -m pytest tests/test_literature_monitor.py tests/test_literature_monitor_arxiv_doi_dedup.py tests/test_windows_literature_scheduler.py -q -ra -p no:cacheprovider",
+    "passed": 18,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 1,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option.",
+    "elapsed_seconds": 0.67
+  },
+  "scientific_interpretation_changed": true,
+  "protocol_changed": false,
+  "model_inference_generations": 0
+}

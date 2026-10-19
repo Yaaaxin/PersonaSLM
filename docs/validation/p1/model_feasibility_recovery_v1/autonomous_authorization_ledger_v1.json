@@ -1,0 +1,38 @@
+{
+  "authorization_id": "P1_AUTONOMOUS_MODEL_FEASIBILITY_20261017_V1",
+  "authorization_source": "Researcher Autonomous Research Agent Charter, sections 7-10, supplied 2026-10-17",
+  "consumption_at_freeze": {
+    "actual_model_inference_wall_seconds": 0.0,
+    "new_local_cpu_generations": 0
+  },
+  "hard_limits": {
+    "actual_model_inference_wall_seconds": 72000.0,
+    "new_local_cpu_generations": 1200,
+    "rule": "Whichever limit is reached first"
+  },
+  "historical_ledger_separation": {
+    "historical_attempted": 80,
+    "historical_authorization": 160,
+    "historical_remaining": 80,
+    "policy": "The historical P1_ACCELERATED_MEASUREMENT_20261015_V1 ledger is immutable and is not consumed, transferred, or double-counted by this authorization.",
+    "stage_b_evidence_path": "docs/validation/p1/stage_b_v1/stage_b_execution_evidence_v1.json",
+    "stage_b_evidence_sha256": "a2c41dfd4b91d232de72f0cbb44fa08429f7ac1d3334030e59f0e5ef76bcb3a5"
+  },
+  "initial_screening_reservation": {
+    "candidate_count_ceiling": 2,
+    "maximum_attempts_per_candidate": 8,
+    "maximum_candidates_executed": 2,
+    "maximum_completion_wall_seconds_per_candidate": 2700.0,
+    "maximum_initial_screening_generations": 16,
+    "progression": "Candidate 2 may execute only after Candidate 1 completes all eight attempts with a valid gate result below 7/8. Any integrity, runtime, incomplete-run, or resource failure stops screening rather than advancing.",
+    "retry_policy": "No retries, replacement cases, hidden warmups, or repeated same-model calibration attempts"
+  },
+  "ledger_implementation": {
+    "attempt_accounting": "Each completion call is preceded by one immutable attempt record under results/p1_model_feasibility/v1/attempts. An ambiguous transport outcome consumes one generation.",
+    "inference_time_accounting": "Sum elapsed_seconds from audited /completion HTTP response or error events. Server loading, health checks, template rendering, and tokenization are not model-inference wall time.",
+    "results_root": "results/p1_model_feasibility/v1",
+    "status_at_freeze": "NO_ATTEMPTS_NO_CLAIMS_NO_RUNS"
+  },
+  "scope": "Prospective bounded P1 model-feasibility recovery only; not P3 scaling, training, paid inference, confirmation, or authorization to alter frozen prompts, cases, scorer, or thresholds.",
+  "version": "p1_autonomous_model_feasibility_authorization_ledger_v1"
+}

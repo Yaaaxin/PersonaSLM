@@ -1,0 +1,39 @@
+{
+  "authorization_id": "P1_ACCELERATED_MEASUREMENT_20261015_V1",
+  "category": "C_DIAGNOSTIC",
+  "factorial_inference_authorized_this_execution": false,
+  "human_timestamp": null,
+  "maximum_new_attempts": 24,
+  "no_retries": true,
+  "prior_attempts": {
+    "attempted": {
+      "A_C0": 32,
+      "B_FACTORIAL": 0,
+      "C_DIAGNOSTIC": 16
+    },
+    "authorization_id": "P1_ACCELERATED_MEASUREMENT_20261015_V1",
+    "remaining_authorization": {
+      "A_C0": 0,
+      "B_FACTORIAL": 80,
+      "C_DIAGNOSTIC": 32
+    },
+    "remaining_unreserved": {
+      "A_C0": 0,
+      "B_FACTORIAL": 80,
+      "C_DIAGNOSTIC": 32
+    },
+    "reserved": {
+      "A_C0": 32,
+      "B_FACTORIAL": 0,
+      "C_DIAGNOSTIC": 16
+    },
+    "retry_policy": "Attempt files are exclusive and never removed. Ambiguous transport outcomes consume an attempt.",
+    "total_attempted": 48,
+    "total_remaining": 112
+  },
+  "researcher": "Yaxin ZHENG",
+  "scope": "D1/D2/D3 only on frozen eight original calibration cases; D0 archived. Non-unique Q1 requests must stop.",
+  "semantic_approval": false,
+  "software_registration_utc": "2026-10-15T09:31:54.544300+00:00",
+  "source": "P1 Measurement Recovery, Prespecified 2x2 Diagnostic Experiment and Conditional Factorial Pilot Preparation sections5,7,10,11,21"
+}

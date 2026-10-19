@@ -1,0 +1,364 @@
+{
+  "schema_version": "personaslm_placeholder_mechanism_case_bank_v4",
+  "status": "NOT_AUTHORIZED_NOT_TOKENIZED_NOT_EXECUTED",
+  "created_utc": "2026-10-18T22:55:35.5803644Z",
+  "researcher": "Yaxin ZHENG",
+  "study_type": "PROSPECTIVE_SYNTHETIC_CAUSAL_MECHANISM_STUDY",
+  "language": "English",
+  "material_scope": "Eight new controlled synthetic persona-dialogue cases, one case per synthetic persona, for a 4-context by 3-instruction within-case mechanism study. No real-speaker claim is made.",
+  "provenance": {
+    "synthetic": true,
+    "real_speaker_material": false,
+    "human_participation": false,
+    "restricted_data": false,
+    "model_outputs_from_this_bank": 0,
+    "native_tokenizer_calls_from_this_bank": 0,
+    "live_server_tokenizer_checks_from_this_bank": 0,
+    "protected_condition_mapping_accessed": false
+  },
+  "template_family": {
+    "family_id": "PDLG_PLACEHOLDER_MECHANISM_V4_001",
+    "relationship_to_prior_work": "The scientific question is output-informed by the completed v3 disjoint validation, but all persona identities, control-speaker identities, case identities, current options, opaque anchors, scenarios, current evidence, questions, archive entities, and archive text in this bank are newly authored before tokenization or execution.",
+    "independence_claim": "MATERIAL_DISJOINTNESS_TARGET_PENDING_FORMAL_AUDIT; not an independent scientific validation claim.",
+    "task_families": {
+      "COLLABORATIVE_PLANNING": "Choose a setting or format for an upcoming collaborative conversation.",
+      "SUPPORTIVE_NEXT_TURN": "Choose a response approach for the next supportive dialogue turn.",
+      "ROUTINE_NEGOTIATION": "Choose a recurring collaboration routine.",
+      "MISUNDERSTANDING_REPAIR": "Choose a response that repairs a conversational misunderstanding."
+    }
+  },
+  "material_rules": {
+    "S_and_F": "S and F are present in every arm. Each current preference is jointly supported by the current evidence and the synthetic persona fact block.",
+    "archive_semantics": "The three archive entities and their selection concern a separate inventory-label decision with no setting, support, workflow, repair, or current-option attribute. This is a prospective material-design assertion, not a guarantee about model perception.",
+    "archive_payload_identity": "For a given case, C1_CONTROL_LIVE, C2_PERSONA_QUOTED, and C3_PERSONA_LIVE must use the exact case archive_question and archive_assistant bytes. Contexts differ only in declared owner and/or chat-role presentation as registered in the design.",
+    "control_owner": "Each control speaker is explicitly synthetic and distinct from the current persona. Native-token equality between current and control speaker names is a pre-authorization gate and has not been tested.",
+    "current_choice": "Exactly one current option is supported. Preferred option identity, display position, and task family are balanced across the eight cases.",
+    "anchor_policy": "Current anchors are opaque, unique within and across cases, and do not encode preferred status.",
+    "no_output_informed_revision": "These materials must not be edited after observing v4 model output. Any pre-output repair requires an append-only versioned amendment and a new material-integrity review."
+  },
+  "personas": {
+    "PMV4_P01": {
+      "speaker_name": "Lyra Quell",
+      "control_speaker_name": "Maren Holt",
+      "synthetic": true,
+      "profile_source_id": "PMV4_SYNTHETIC_PROFILE_01",
+      "control_profile_source_id": "PMV4_SYNTHETIC_CONTROL_01",
+      "S_block": "Lyra speaks calmly and concretely. Her reason sentence begins exactly with 'I would choose' and ends exactly with 'with a clear path forward.'",
+      "F_block": "Lyra prefers small, quiet planning settings with a written outline and shared revision time.",
+      "reason_prefix": "I would choose",
+      "reason_suffix": "with a clear path forward."
+    },
+    "PMV4_P02": {
+      "speaker_name": "Davor Fen",
+      "control_speaker_name": "Kiro Dane",
+      "synthetic": true,
+      "profile_source_id": "PMV4_SYNTHETIC_PROFILE_02",
+      "control_profile_source_id": "PMV4_SYNTHETIC_CONTROL_02",
+      "S_block": "Davor speaks warmly and directly. His reason sentence begins exactly with 'Right now,' and ends exactly with 'and we can take it from there.'",
+      "F_block": "Davor prefers acknowledging a concern before offering one manageable next action.",
+      "reason_prefix": "Right now,",
+      "reason_suffix": "and we can take it from there."
+    },
+    "PMV4_P03": {
+      "speaker_name": "Imani Rook",
+      "control_speaker_name": "Alina Frost",
+      "synthetic": true,
+      "profile_source_id": "PMV4_SYNTHETIC_PROFILE_03",
+      "control_profile_source_id": "PMV4_SYNTHETIC_CONTROL_03",
+      "S_block": "Imani speaks in an orderly, cooperative way. Her reason sentence begins exactly with 'For our routine,' and ends exactly with 'so everyone knows the next step.'",
+      "F_block": "Imani prefers recurring work with named owners, a short checklist, and a visible handoff point.",
+      "reason_prefix": "For our routine,",
+      "reason_suffix": "so everyone knows the next step."
+    },
+    "PMV4_P04": {
+      "speaker_name": "Celyn Ward",
+      "control_speaker_name": "Bex Carrow",
+      "synthetic": true,
+      "profile_source_id": "PMV4_SYNTHETIC_PROFILE_04",
+      "control_profile_source_id": "PMV4_SYNTHETIC_CONTROL_04",
+      "S_block": "Celyn speaks gently and precisely. Their reason sentence begins exactly with 'To repair this,' and ends exactly with 'before we continue.'",
+      "F_block": "Celyn prefers acknowledging misunderstandings, restating the corrected point, and checking agreement.",
+      "reason_prefix": "To repair this,",
+      "reason_suffix": "before we continue."
+    },
+    "PMV4_P05": {
+      "speaker_name": "Noa Brisk",
+      "control_speaker_name": "Jori Flint",
+      "synthetic": true,
+      "profile_source_id": "PMV4_SYNTHETIC_PROFILE_05",
+      "control_profile_source_id": "PMV4_SYNTHETIC_CONTROL_05",
+      "S_block": "Noa speaks with playful momentum. Their reason sentence begins exactly with 'Let's go with' and ends exactly with 'and make it together.'",
+      "F_block": "Noa prefers colorful, energetic planning spaces where a group can begin co-creating immediately.",
+      "reason_prefix": "Let's go with",
+      "reason_suffix": "and make it together."
+    },
+    "PMV4_P06": {
+      "speaker_name": "Priya Vale",
+      "control_speaker_name": "Uma Sayer",
+      "synthetic": true,
+      "profile_source_id": "PMV4_SYNTHETIC_PROFILE_06",
+      "control_profile_source_id": "PMV4_SYNTHETIC_CONTROL_06",
+      "S_block": "Priya speaks with patient curiosity. Her reason sentence begins exactly with 'I would first' and ends exactly with 'then adjust with you.'",
+      "F_block": "Priya prefers asking one clarifying question before offering a tentative supportive step.",
+      "reason_prefix": "I would first",
+      "reason_suffix": "then adjust with you."
+    },
+    "PMV4_P07": {
+      "speaker_name": "Emrys Kade",
+      "control_speaker_name": "Nolan Voss",
+      "synthetic": true,
+      "profile_source_id": "PMV4_SYNTHETIC_PROFILE_07",
+      "control_profile_source_id": "PMV4_SYNTHETIC_CONTROL_07",
+      "S_block": "Emrys speaks reflectively and practically. Their reason sentence begins exactly with 'A workable rhythm is' and ends exactly with 'while leaving room to adapt.'",
+      "F_block": "Emrys prefers short flexible check-ins and revisable plans over a fixed schedule without feedback.",
+      "reason_prefix": "A workable rhythm is",
+      "reason_suffix": "while leaving room to adapt."
+    },
+    "PMV4_P08": {
+      "speaker_name": "Talia Moss",
+      "control_speaker_name": "Eira Cole",
+      "synthetic": true,
+      "profile_source_id": "PMV4_SYNTHETIC_PROFILE_08",
+      "control_profile_source_id": "PMV4_SYNTHETIC_CONTROL_08",
+      "S_block": "Talia speaks candidly and constructively. Her reason sentence begins exactly with 'I hear the correction,' and ends exactly with 'so let's confirm that together.'",
+      "F_block": "Talia prefers explicitly accepting a correction, replacing the mistaken interpretation, and confirming the shared understanding.",
+      "reason_prefix": "I hear the correction,",
+      "reason_suffix": "so let's confirm that together."
+    }
+  },
+  "cases": [
+    {
+      "execution_index": 0,
+      "case_id": "PMV4_CASE_001_LYRA_PLAN",
+      "persona_id": "PMV4_P01",
+      "task_family": "COLLABORATIVE_PLANNING",
+      "scenario": "planning a repair workshop with three neighbors",
+      "current_evidence": "The group needs a quiet room tomorrow, a written outline visible to everyone, and fifteen minutes to revise the plan together.",
+      "preferred_option": "A",
+      "current_option_display_order": ["A", "B"],
+      "options": {
+        "A": {"anchor": "M4Q7", "canonical": "Willowchart Room", "attribute": "a quiet small room with a shared outline board and reserved revision time"},
+        "B": {"anchor": "T8L2", "canonical": "Drumflash Hall", "attribute": "a loud open hall with no outline board and a fixed agenda"}
+      },
+      "question": "Which setting should Lyra choose for the repair-workshop planning conversation?",
+      "archive_display_order": ["H1", "H2", "H3"],
+      "archive_options": {
+        "H1": {"canonical": "Amber Spindle", "attribute": "inventory code AX-14"},
+        "H2": {"canonical": "Cobalt Parcel", "attribute": "inventory code CQ-22"},
+        "H3": {"canonical": "Sable Thimble", "attribute": "inventory code ST-09"}
+      },
+      "archive_selected_key": "H2",
+      "archive_selected_target": "Cobalt Parcel",
+      "archive_selected_reason": "its code CQ-22 matched the printed shelf card",
+      "archive_question": "For the closed inventory box, should the label read Amber Spindle, Cobalt Parcel, or Sable Thimble?",
+      "archive_assistant": "I chose Cobalt Parcel because its code CQ-22 matched the printed shelf card.",
+      "archive_independence_rationale": "The archived label decision contains no room, noise, outline, timing, collaboration, or revision attribute used by the current options."
+    },
+    {
+      "execution_index": 1,
+      "case_id": "PMV4_CASE_002_DAVOR_SUPPORT",
+      "persona_id": "PMV4_P02",
+      "task_family": "SUPPORTIVE_NEXT_TURN",
+      "scenario": "replying to a teammate worried after a difficult rehearsal",
+      "current_evidence": "The teammate says they feel discouraged and asks for one small thing to try before the next rehearsal.",
+      "preferred_option": "B",
+      "current_option_display_order": ["B", "A"],
+      "options": {
+        "A": {"anchor": "R6N1", "canonical": "Stoneverdict Reply", "attribute": "an immediate critique with several demands and no acknowledgment"},
+        "B": {"anchor": "V3C9", "canonical": "Kindlebridge Reply", "attribute": "an acknowledgment followed by one manageable practice step"}
+      },
+      "question": "Which reply approach should Davor use in the next turn?",
+      "archive_display_order": ["H2", "H3", "H1"],
+      "archive_options": {
+        "H1": {"canonical": "Brass Token", "attribute": "inventory code BT-31"},
+        "H2": {"canonical": "Ivory Packet", "attribute": "inventory code IP-07"},
+        "H3": {"canonical": "Juniper Tag", "attribute": "inventory code JT-45"}
+      },
+      "archive_selected_key": "H1",
+      "archive_selected_target": "Brass Token",
+      "archive_selected_reason": "its code BT-31 matched the printed shelf card",
+      "archive_question": "For the sealed supply crate, should the label read Brass Token, Ivory Packet, or Juniper Tag?",
+      "archive_assistant": "I chose Brass Token because its code BT-31 matched the printed shelf card.",
+      "archive_independence_rationale": "The archived label decision contains no emotional acknowledgment, rehearsal, critique, demand, or next-action attribute used by the current options."
+    },
+    {
+      "execution_index": 2,
+      "case_id": "PMV4_CASE_003_IMANI_ROUTINE",
+      "persona_id": "PMV4_P03",
+      "task_family": "ROUTINE_NEGOTIATION",
+      "scenario": "organizing a recurring laboratory cleanup handoff",
+      "current_evidence": "Three people need named weekly owners, a five-item checklist, and a visible sign-off before the next person begins.",
+      "preferred_option": "A",
+      "current_option_display_order": ["B", "A"],
+      "options": {
+        "A": {"anchor": "K2D8", "canonical": "Taskloom Roster", "attribute": "named weekly owners with a five-item checklist and visible sign-off"},
+        "B": {"anchor": "P7W4", "canonical": "Loosecurrent Cycle", "attribute": "an informal rotation with no owners, checklist, or handoff mark"}
+      },
+      "question": "Which routine should Imani propose for the cleanup handoff?",
+      "archive_display_order": ["H3", "H1", "H2"],
+      "archive_options": {
+        "H1": {"canonical": "Ochre Capsule", "attribute": "inventory code OC-18"},
+        "H2": {"canonical": "Silver Bobbin", "attribute": "inventory code SB-63"},
+        "H3": {"canonical": "Teal Carton", "attribute": "inventory code TC-26"}
+      },
+      "archive_selected_key": "H3",
+      "archive_selected_target": "Teal Carton",
+      "archive_selected_reason": "its code TC-26 matched the printed shelf card",
+      "archive_question": "For the locked sample case, should the label read Ochre Capsule, Silver Bobbin, or Teal Carton?",
+      "archive_assistant": "I chose Teal Carton because its code TC-26 matched the printed shelf card.",
+      "archive_independence_rationale": "The archived label decision contains no owner, checklist, weekly timing, sign-off, or handoff attribute used by the current options."
+    },
+    {
+      "execution_index": 3,
+      "case_id": "PMV4_CASE_004_CELYN_REPAIR",
+      "persona_id": "PMV4_P04",
+      "task_family": "MISUNDERSTANDING_REPAIR",
+      "scenario": "repairing a mistaken interpretation of a colleague's deadline",
+      "current_evidence": "The colleague clarifies that the draft is due Friday rather than final approval, and asks whether that correction is understood.",
+      "preferred_option": "B",
+      "current_option_display_order": ["A", "B"],
+      "options": {
+        "A": {"anchor": "B9H3", "canonical": "Fogturn Defense", "attribute": "repeat the original deadline claim and move on without checking"},
+        "B": {"anchor": "N5X6", "canonical": "Clearbrook Repair", "attribute": "acknowledge the correction, restate Friday as the draft date, and check agreement"}
+      },
+      "question": "Which response should Celyn use to repair the misunderstanding?",
+      "archive_display_order": ["H1", "H3", "H2"],
+      "archive_options": {
+        "H1": {"canonical": "Linen Marker", "attribute": "inventory code LM-52"},
+        "H2": {"canonical": "Umber Ticket", "attribute": "inventory code UT-16"},
+        "H3": {"canonical": "Violet Sleeve", "attribute": "inventory code VS-38"}
+      },
+      "archive_selected_key": "H2",
+      "archive_selected_target": "Umber Ticket",
+      "archive_selected_reason": "its code UT-16 matched the printed shelf card",
+      "archive_question": "For the archived parts bin, should the label read Linen Marker, Umber Ticket, or Violet Sleeve?",
+      "archive_assistant": "I chose Umber Ticket because its code UT-16 matched the printed shelf card.",
+      "archive_independence_rationale": "The archived label decision contains no deadline, correction, acknowledgment, restatement, or agreement-check attribute used by the current options."
+    },
+    {
+      "execution_index": 4,
+      "case_id": "PMV4_CASE_005_NOA_PLAN",
+      "persona_id": "PMV4_P05",
+      "task_family": "COLLABORATIVE_PLANNING",
+      "scenario": "starting a community mural concept session",
+      "current_evidence": "Six volunteers are ready now and want a colorful shared surface where they can sketch together immediately.",
+      "preferred_option": "A",
+      "current_option_display_order": ["A", "B"],
+      "options": {
+        "A": {"anchor": "F4J8", "canonical": "Colorwave Commons", "attribute": "a colorful shared wall with materials ready for immediate group sketching"},
+        "B": {"anchor": "S1M7", "canonical": "Grayledger Booth", "attribute": "a plain one-person booth available next week for individual notes"}
+      },
+      "question": "Which setting should Noa choose for the mural concept conversation?",
+      "archive_display_order": ["H2", "H1", "H3"],
+      "archive_options": {
+        "H1": {"canonical": "Copper Voucher", "attribute": "inventory code CV-24"},
+        "H2": {"canonical": "Indigo Reel", "attribute": "inventory code IR-71"},
+        "H3": {"canonical": "Pearl Latch", "attribute": "inventory code PL-05"}
+      },
+      "archive_selected_key": "H1",
+      "archive_selected_target": "Copper Voucher",
+      "archive_selected_reason": "its code CV-24 matched the printed shelf card",
+      "archive_question": "For the storage envelope, should the label read Copper Voucher, Indigo Reel, or Pearl Latch?",
+      "archive_assistant": "I chose Copper Voucher because its code CV-24 matched the printed shelf card.",
+      "archive_independence_rationale": "The archived label decision contains no group size, color, shared surface, timing, or co-creation attribute used by the current options."
+    },
+    {
+      "execution_index": 5,
+      "case_id": "PMV4_CASE_006_PRIYA_SUPPORT",
+      "persona_id": "PMV4_P06",
+      "task_family": "SUPPORTIVE_NEXT_TURN",
+      "scenario": "replying to a friend who says a new task feels confusing",
+      "current_evidence": "The friend has not said which part is confusing and asks for help choosing a first step.",
+      "preferred_option": "B",
+      "current_option_display_order": ["B", "A"],
+      "options": {
+        "A": {"anchor": "C8R2", "canonical": "Answerhammer Reply", "attribute": "give a fixed solution immediately without asking what is unclear"},
+        "B": {"anchor": "L3V9", "canonical": "Querylamp Reply", "attribute": "ask which part is unclear, then offer one tentative first step"}
+      },
+      "question": "Which reply approach should Priya use in the next turn?",
+      "archive_display_order": ["H3", "H2", "H1"],
+      "archive_options": {
+        "H1": {"canonical": "Marble Seal", "attribute": "inventory code MS-44"},
+        "H2": {"canonical": "Navy Ribbon", "attribute": "inventory code NR-12"},
+        "H3": {"canonical": "Russet Clip", "attribute": "inventory code RC-67"}
+      },
+      "archive_selected_key": "H3",
+      "archive_selected_target": "Russet Clip",
+      "archive_selected_reason": "its code RC-67 matched the printed shelf card",
+      "archive_question": "For the maintenance pouch, should the label read Marble Seal, Navy Ribbon, or Russet Clip?",
+      "archive_assistant": "I chose Russet Clip because its code RC-67 matched the printed shelf card.",
+      "archive_independence_rationale": "The archived label decision contains no confusion, question, solution, uncertainty, or supportive next-step attribute used by the current options."
+    },
+    {
+      "execution_index": 6,
+      "case_id": "PMV4_CASE_007_EMRYS_ROUTINE",
+      "persona_id": "PMV4_P07",
+      "task_family": "ROUTINE_NEGOTIATION",
+      "scenario": "agreeing on a recurring co-writing rhythm",
+      "current_evidence": "Both writers need a short weekly check-in and permission to revise the following week's plan when workloads change.",
+      "preferred_option": "A",
+      "current_option_display_order": ["B", "A"],
+      "options": {
+        "A": {"anchor": "D6K1", "canonical": "Flexquill Rhythm", "attribute": "a short weekly check-in followed by a revisable plan"},
+        "B": {"anchor": "W2P5", "canonical": "Rigidfolio Lock", "attribute": "a fixed monthly plan with no feedback or adjustment point"}
+      },
+      "question": "Which routine should Emrys propose for the co-writing work?",
+      "archive_display_order": ["H1", "H2", "H3"],
+      "archive_options": {
+        "H1": {"canonical": "Golden Canister", "attribute": "inventory code GC-36"},
+        "H2": {"canonical": "Mint Ledger", "attribute": "inventory code ML-80"},
+        "H3": {"canonical": "Plum Fastener", "attribute": "inventory code PF-11"}
+      },
+      "archive_selected_key": "H2",
+      "archive_selected_target": "Mint Ledger",
+      "archive_selected_reason": "its code ML-80 matched the printed shelf card",
+      "archive_question": "For the reserve cabinet, should the label read Golden Canister, Mint Ledger, or Plum Fastener?",
+      "archive_assistant": "I chose Mint Ledger because its code ML-80 matched the printed shelf card.",
+      "archive_independence_rationale": "The archived label decision contains no weekly timing, writing, check-in, feedback, workload, or plan-revision attribute used by the current options."
+    },
+    {
+      "execution_index": 7,
+      "case_id": "PMV4_CASE_008_TALIA_REPAIR",
+      "persona_id": "PMV4_P08",
+      "task_family": "MISUNDERSTANDING_REPAIR",
+      "scenario": "responding after a partner corrects the meeting location",
+      "current_evidence": "The partner explains that the meeting moved to the east studio, not the west studio, and asks for confirmation.",
+      "preferred_option": "B",
+      "current_option_display_order": ["A", "B"],
+      "options": {
+        "A": {"anchor": "H7B4", "canonical": "Proudwallback Reply", "attribute": "defend the west-studio interpretation and ignore the correction"},
+        "B": {"anchor": "Q9F3", "canonical": "Trueecho Check", "attribute": "accept the correction, state east studio, and ask for confirmation"}
+      },
+      "question": "Which response should Talia use to repair the location misunderstanding?",
+      "archive_display_order": ["H2", "H3", "H1"],
+      "archive_options": {
+        "H1": {"canonical": "Crimson Wrapper", "attribute": "inventory code CW-59"},
+        "H2": {"canonical": "Opal Crate", "attribute": "inventory code OC-03"},
+        "H3": {"canonical": "Turquoise Pin", "attribute": "inventory code TP-48"}
+      },
+      "archive_selected_key": "H1",
+      "archive_selected_target": "Crimson Wrapper",
+      "archive_selected_reason": "its code CW-59 matched the printed shelf card",
+      "archive_question": "For the sealed returns tray, should the label read Crimson Wrapper, Opal Crate, or Turquoise Pin?",
+      "archive_assistant": "I chose Crimson Wrapper because its code CW-59 matched the printed shelf card.",
+      "archive_independence_rationale": "The archived label decision contains no meeting location, east-west distinction, correction, acceptance, or confirmation attribute used by the current options."
+    }
+  ],
+  "balance_targets": {
+    "cases": 8,
+    "personas": 8,
+    "cases_per_persona": 1,
+    "cases_per_task_family": 2,
+    "preferred_option": {"A": 4, "B": 4},
+    "preferred_display_position": {"FIRST": 4, "SECOND": 4},
+    "current_display_order": {"A_THEN_B": 4, "B_THEN_A": 4},
+    "archive_selected_key": {"H1": 3, "H2": 3, "H3": 2}
+  },
+  "known_pending_gates": [
+    "No formal normalized exact-overlap or lexical 4-gram ancestry audit has yet been recorded.",
+    "No independent scientific material review has yet confirmed unique current support or archive irrelevance.",
+    "Current/control speaker names have not been checked with the native tokenizer.",
+    "No prompt has been rendered or tokenized.",
+    "No execution authorization, frozen manifest, hardware preflight, generation, or human-review mapping exists for v4."
+  ]
+}

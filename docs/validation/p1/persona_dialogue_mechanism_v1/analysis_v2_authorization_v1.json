@@ -1,0 +1,64 @@
+{
+  "analysis_test": {
+    "path": "tests/test_p1_persona_dialogue_mechanism_analysis_v2.py",
+    "sha256": "14c6ba1d1fe67cd97b8c47c574b25fd27be352673a7d9a3826ec08015d48cd9a"
+  },
+  "analysis_wrapper": {
+    "path": "tools/p1_persona_dialogue_mechanism_analysis_v2.py",
+    "sha256": "e23e204aaba5cd80b631e97a59ca698deac131dbe984e9ba2e96cc28fa7b7503"
+  },
+  "authorized_action": "RECOMPUTE_FROZEN_ANALYSIS_WITH_KEY_ONLY_JSON_SERIALIZATION_REPAIR",
+  "authorized_utc": "2026-10-18T16:42:38.5763976Z",
+  "evidence": {
+    "analysis_failure": {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/analysis_failure_v1.json",
+      "sha256": "cd31a657f35bc672827def19cb8c8ea964a6b16ecedf775062a30d47f997ddb0"
+    },
+    "effective_authorization": {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/researcher_authorization_v2.json",
+      "sha256": "1742e1672825f2fe2b7895b4a49f336c43f9aeef95598d72270ab9123f35b431"
+    },
+    "effective_manifest": {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/frozen_manifest_v2.json",
+      "sha256": "47f844ed4a65fb8c6742106a2e5f3b2346e8d1cf5231c2a100da182baaf177b5"
+    },
+    "execution_audit": {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/execution_audit_v1.json",
+      "sha256": "6f2201716d7d7fbd1356827cd29891a1e1b000e44757fb16f5e7c329036a59e3"
+    },
+    "execution_claim": {
+      "path": "results/p1_persona_dialogue_mechanism/adaptive_validation_v1/claim.json",
+      "sha256": "c7e4570be5959c12d26d2360d2cfd73b9c884305a735feb1e502bd50fbaae46a"
+    },
+    "preflight": {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/preflight_v2.json",
+      "sha256": "67fce2c0335757476f6bb51f96596b12540618db7113de6034a2535b7e0ebc1f"
+    },
+    "preserved_partial_output": {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/analysis_v1.json.tmp",
+      "sha256": "9db601cb72fb7b61b4782f280413c0b1254f120277527e4ec7142605cb673720"
+    },
+    "run_manifest": {
+      "path": "results/p1_persona_dialogue_mechanism/adaptive_validation_v1/runs/20261018T163205-f99467d8295c4b628e23d285ade3f50b/manifest.json",
+      "sha256": "179d1fb7ac0a4b68d3a389b43d8c0e53fd0debc3330686a92ab4741c18ccb496"
+    },
+    "run_summary": {
+      "path": "results/p1_persona_dialogue_mechanism/adaptive_validation_v1/runs/20261018T163205-f99467d8295c4b628e23d285ade3f50b/summary.json",
+      "sha256": "850d214821d2f335fc0aa5a240ade05ccb67d1b4fdaa284575bdf3c1f0ffc26e"
+    }
+  },
+  "maximum_new_model_generations": 0,
+  "output_path": "docs/validation/p1/persona_dialogue_mechanism_v1/analysis_v2.json",
+  "permitted_key_mapping": {
+    "paths": [
+      "/primary_arm_summary/*/selection_categories",
+      "/secondary_only_not_in_primary_effects/*/reason_support_distribution"
+    ],
+    "recursive_value_replacement": false,
+    "source_key": null,
+    "target_key": "BOUNDARY_CENSORED"
+  },
+  "researcher": "Yaxin ZHENG",
+  "schema_version": "personaslm_persona_dialogue_mechanism_analysis_v2_authorization_v1",
+  "status": "AUTHORIZED_BEFORE_ANALYSIS_V2_EXECUTION"
+}

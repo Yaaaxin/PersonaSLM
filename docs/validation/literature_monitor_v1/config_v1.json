@@ -1,0 +1,31 @@
+{
+  "lookback_days": 21,
+  "request_interval_seconds": 1.0,
+  "schema_version": "personaslm_literature_monitor_config_v1",
+  "sources": {
+    "arxiv": {
+      "endpoint": "https://export.arxiv.org/api/query",
+      "max_results": 100,
+      "role": "primary preprint metadata and version discovery"
+    },
+    "crossref": {
+      "endpoint": "https://api.crossref.org/works",
+      "max_results_per_query": 20,
+      "role": "identifier and publication discovery; not a substitute for primary-source review"
+    },
+    "openalex": {
+      "endpoint": "https://api.openalex.org/works",
+      "max_results_per_query": 20,
+      "role": "identifier and publication discovery; not a substitute for primary-source review"
+    }
+  },
+  "timeout_seconds": 30,
+  "topic_queries": [
+    "persona conditioning dialogue reliability",
+    "personalized language model persona fidelity",
+    "temporal factual consistency conversational memory",
+    "historical dialogue interference outdated memory",
+    "style content disentanglement persona",
+    "CPU efficient small language model personalization"
+  ]
+}

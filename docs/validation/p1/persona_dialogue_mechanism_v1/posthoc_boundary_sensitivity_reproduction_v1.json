@@ -1,0 +1,39 @@
+{
+  "schema_version": "personaslm_persona_dialogue_mechanism_posthoc_boundary_sensitivity_reproduction_v1",
+  "recorded_utc": "2026-10-18T16:53:39.6758532Z",
+  "status": "PASS_BYTE_IDENTICAL_INDEPENDENT_RECOMPUTATION",
+  "method": "A fresh in-memory replay selected the exact amended 11-record predicate, reapplied the frozen v3 exact parser without modifying raw evidence, rebuilt the primary side-by-side sensitivity payload, serialized with production settings, and compared those bytes with the archived sensitivity output.",
+  "bindings": {
+    "sensitivity_output": {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_v1.json",
+      "sha256": "e5585887f1ed951fd0a6e488a2b73d6d60774710559028e7b09172c809a56909"
+    },
+    "sensitivity_authorization": {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_authorization_v1.json",
+      "sha256": "4e8ac0afd1561fc6333069403acf0805f0a0122e36e1ea6783e01b8fffc69fb0"
+    },
+    "sensitivity_tool": {
+      "path": "tools/p1_persona_dialogue_mechanism_boundary_sensitivity.py",
+      "sha256": "0326cf3a41318dbf53d7e10af334f2df66a7b06d1d742bd9eb185c1766667b32"
+    },
+    "sensitivity_test": {
+      "path": "tests/test_p1_persona_dialogue_mechanism_boundary_sensitivity.py",
+      "sha256": "1c090770cd81e8b48755becf7727bfead1abc561ee2904b0234fd21ee2a9c5fc"
+    },
+    "registered_primary_analysis": {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/analysis_v2.json",
+      "sha256": "0e690501107c8031dd3774a8b7845e9b1cf2dc61d7969404d70738e7bb32cef6"
+    }
+  },
+  "results": {
+    "independent_recompute_equal": true,
+    "selected_count": 11,
+    "recomputed_sha256": "e5585887f1ed951fd0a6e488a2b73d6d60774710559028e7b09172c809a56909",
+    "archived_sha256": "e5585887f1ed951fd0a6e488a2b73d6d60774710559028e7b09172c809a56909",
+    "new_model_generations": 0,
+    "network_calls": 0,
+    "raw_outputs_modified": false,
+    "registered_primary_modified": false
+  },
+  "scope_limit": "This reproduces an explicitly output-informed post-hoc sensitivity from the same private run. It is not an independent experimental replication, human validation, real-speaker validation, generation reproduction, or confirmatory evidence."
+}

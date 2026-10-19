@@ -1,0 +1,527 @@
+{
+  "D0_AI_distributions": {
+    "coherence": {
+      "2": 2,
+      "4": 1,
+      "5": 5
+    },
+    "delivered": {
+      "1": 4,
+      "2": 2,
+      "3": 2
+    },
+    "factual": {
+      "Correct": 1,
+      "Incorrect": 7
+    },
+    "relevance": {
+      "3": 2,
+      "4": 1,
+      "5": 5
+    },
+    "semantic_completeness": {
+      "NO": 2,
+      "YES": 6
+    },
+    "supported": {
+      "0": 5,
+      "1": 2,
+      "3": 1
+    },
+    "task_success": {
+      "Failure": 7,
+      "Success": 1
+    },
+    "temporal": {
+      "Correct": 1,
+      "Incorrect": 7
+    }
+  },
+  "D0_Auto_AI_agreement": {
+    "coherence": {
+      "agreement": 5,
+      "agreement_rate": 1.0,
+      "confusion": [
+        {
+          "AI": 5,
+          "automatic": 5,
+          "count": 5
+        }
+      ],
+      "paired_comparable": 5,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 8
+    },
+    "delivered": {
+      "agreement": 6,
+      "agreement_rate": 0.75,
+      "confusion": [
+        {
+          "AI": 1,
+          "automatic": 1,
+          "count": 3
+        },
+        {
+          "AI": 2,
+          "automatic": 1,
+          "count": 1
+        },
+        {
+          "AI": 2,
+          "automatic": 2,
+          "count": 1
+        },
+        {
+          "AI": 3,
+          "automatic": 3,
+          "count": 2
+        },
+        {
+          "AI": 1,
+          "automatic": 2,
+          "count": 1
+        }
+      ],
+      "paired_comparable": 8,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 8
+    },
+    "factual": {
+      "agreement": 5,
+      "agreement_rate": 0.625,
+      "confusion": [
+        {
+          "AI": "Incorrect",
+          "automatic": "Incorrect",
+          "count": 4
+        },
+        {
+          "AI": "Incorrect",
+          "automatic": "Unverifiable",
+          "count": 3
+        },
+        {
+          "AI": "Correct",
+          "automatic": "Correct",
+          "count": 1
+        }
+      ],
+      "paired_comparable": 8,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 8
+    },
+    "relevance": {
+      "agreement": 5,
+      "agreement_rate": 1.0,
+      "confusion": [
+        {
+          "AI": 5,
+          "automatic": 5,
+          "count": 5
+        }
+      ],
+      "paired_comparable": 5,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 8
+    },
+    "semantic_completeness": {
+      "agreement": 7,
+      "agreement_rate": 0.875,
+      "confusion": [
+        {
+          "AI": "YES",
+          "automatic": "YES",
+          "count": 5
+        },
+        {
+          "AI": "YES",
+          "automatic": "NO",
+          "count": 1
+        },
+        {
+          "AI": "NO",
+          "automatic": "NO",
+          "count": 2
+        }
+      ],
+      "paired_comparable": 8,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 8
+    },
+    "supported": {
+      "agreement": 8,
+      "agreement_rate": 1.0,
+      "confusion": [
+        {
+          "AI": 0,
+          "automatic": 0,
+          "count": 5
+        },
+        {
+          "AI": 1,
+          "automatic": 1,
+          "count": 2
+        },
+        {
+          "AI": 3,
+          "automatic": 3,
+          "count": 1
+        }
+      ],
+      "paired_comparable": 8,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 8
+    },
+    "task_success": {
+      "agreement": 7,
+      "agreement_rate": 0.875,
+      "confusion": [
+        {
+          "AI": "Failure",
+          "automatic": "Failure",
+          "count": 6
+        },
+        {
+          "AI": "Success",
+          "automatic": "Success",
+          "count": 1
+        },
+        {
+          "AI": "Failure",
+          "automatic": "Uncertain",
+          "count": 1
+        }
+      ],
+      "paired_comparable": 8,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 8
+    },
+    "temporal": {
+      "agreement": 5,
+      "agreement_rate": 0.625,
+      "confusion": [
+        {
+          "AI": "Incorrect",
+          "automatic": "Incorrect",
+          "count": 4
+        },
+        {
+          "AI": "Incorrect",
+          "automatic": "Unverifiable",
+          "count": 3
+        },
+        {
+          "AI": "Correct",
+          "automatic": "Correct",
+          "count": 1
+        }
+      ],
+      "paired_comparable": 8,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 8
+    }
+  },
+  "D0_reused": 8,
+  "actual_observation_rows": 32,
+  "automatic_caveat": "Agreement is not accuracy. Restricted syntax abstention is not automatically a scorer error. Original v1 shared FC/TC assignment is preserved; v2 remains conservative.",
+  "decision": {
+    "selected_configuration": null,
+    "status": "SCIENTIFIC DECISION PENDING REVIEW"
+  },
+  "failure_tags": {
+    "AUTOMATIC_DATE_ATTACHMENT_COVERAGE_LIMIT": 8,
+    "EVALUATOR_DISAGREEMENT_NOT_PROOF_OF_SCORER_ERROR": 11,
+    "EXPLICIT_INTERVAL_REASONING_ERROR": 1,
+    "FALSE_UNAVAILABILITY": 2,
+    "INCOMPLETE_ANSWER_COMPONENTS": 3,
+    "INCOMPLETE_CITATION_WITH_COMPLETE_ANSWER": 1,
+    "INCOMPLETE_REASONING_TAIL": 7,
+    "NOT_YET_VALID_VALUE_SELECTED": 3,
+    "OUTDATED_COMPONENT_SELECTED": 1,
+    "OUTDATED_VALUE_SELECTED": 7,
+    "REVERSED_DATE_ATTACHMENTS": 3,
+    "SELF_CONTRADICTION": 2,
+    "TEMPORAL_INTERPRETATION_UNCERTAIN": 2,
+    "WRONG_DATE_ATTACHMENT": 3,
+    "WRONG_ENTITY": 2
+  },
+  "human_ratings": 0,
+  "new_attempts": 0,
+  "original_AI_distributions": {
+    "coherence": {
+      "2": 2,
+      "3": 1,
+      "4": 8,
+      "5": 21
+    },
+    "delivered": {
+      "1": 11,
+      "2": 13,
+      "3": 8
+    },
+    "factual": {
+      "Correct": 11,
+      "Incorrect": 21
+    },
+    "relevance": {
+      "3": 3,
+      "4": 8,
+      "5": 21
+    },
+    "semantic_completeness": {
+      "NO": 3,
+      "YES": 29
+    },
+    "supported": {
+      "0": 15,
+      "1": 10,
+      "2": 2,
+      "3": 5
+    },
+    "task_success": {
+      "Failure": 21,
+      "Success": 11
+    },
+    "temporal": {
+      "Correct": 11,
+      "Incorrect": 19,
+      "Unverifiable": 2
+    }
+  },
+  "original_Auto_AI_agreement": {
+    "coherence": {
+      "agreement": 21,
+      "agreement_rate": 1.0,
+      "confusion": [
+        {
+          "AI": 5,
+          "automatic": 5,
+          "count": 21
+        }
+      ],
+      "paired_comparable": 21,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 32
+    },
+    "delivered": {
+      "agreement": 29,
+      "agreement_rate": 0.90625,
+      "confusion": [
+        {
+          "AI": 1,
+          "automatic": 1,
+          "count": 10
+        },
+        {
+          "AI": 2,
+          "automatic": 1,
+          "count": 2
+        },
+        {
+          "AI": 2,
+          "automatic": 2,
+          "count": 11
+        },
+        {
+          "AI": 3,
+          "automatic": 3,
+          "count": 8
+        },
+        {
+          "AI": 1,
+          "automatic": 2,
+          "count": 1
+        }
+      ],
+      "paired_comparable": 32,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 32
+    },
+    "factual": {
+      "agreement": 21,
+      "agreement_rate": 0.65625,
+      "confusion": [
+        {
+          "AI": "Incorrect",
+          "automatic": "Incorrect",
+          "count": 11
+        },
+        {
+          "AI": "Incorrect",
+          "automatic": "Unverifiable",
+          "count": 10
+        },
+        {
+          "AI": "Correct",
+          "automatic": "Correct",
+          "count": 10
+        },
+        {
+          "AI": "Correct",
+          "automatic": "Unverifiable",
+          "count": 1
+        }
+      ],
+      "paired_comparable": 32,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 32
+    },
+    "relevance": {
+      "agreement": 21,
+      "agreement_rate": 1.0,
+      "confusion": [
+        {
+          "AI": 5,
+          "automatic": 5,
+          "count": 21
+        }
+      ],
+      "paired_comparable": 21,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 32
+    },
+    "semantic_completeness": {
+      "agreement": 30,
+      "agreement_rate": 0.9375,
+      "confusion": [
+        {
+          "AI": "YES",
+          "automatic": "YES",
+          "count": 27
+        },
+        {
+          "AI": "YES",
+          "automatic": "NO",
+          "count": 2
+        },
+        {
+          "AI": "NO",
+          "automatic": "NO",
+          "count": 3
+        }
+      ],
+      "paired_comparable": 32,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 32
+    },
+    "supported": {
+      "agreement": 32,
+      "agreement_rate": 1.0,
+      "confusion": [
+        {
+          "AI": 0,
+          "automatic": 0,
+          "count": 15
+        },
+        {
+          "AI": 1,
+          "automatic": 1,
+          "count": 10
+        },
+        {
+          "AI": 3,
+          "automatic": 3,
+          "count": 5
+        },
+        {
+          "AI": 2,
+          "automatic": 2,
+          "count": 2
+        }
+      ],
+      "paired_comparable": 32,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 32
+    },
+    "task_success": {
+      "agreement": 28,
+      "agreement_rate": 0.875,
+      "confusion": [
+        {
+          "AI": "Failure",
+          "automatic": "Failure",
+          "count": 17
+        },
+        {
+          "AI": "Success",
+          "automatic": "Success",
+          "count": 11
+        },
+        {
+          "AI": "Failure",
+          "automatic": "Uncertain",
+          "count": 4
+        }
+      ],
+      "paired_comparable": 32,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 32
+    },
+    "temporal": {
+      "agreement": 23,
+      "agreement_rate": 0.71875,
+      "confusion": [
+        {
+          "AI": "Incorrect",
+          "automatic": "Incorrect",
+          "count": 11
+        },
+        {
+          "AI": "Incorrect",
+          "automatic": "Unverifiable",
+          "count": 8
+        },
+        {
+          "AI": "Correct",
+          "automatic": "Correct",
+          "count": 10
+        },
+        {
+          "AI": "Unverifiable",
+          "automatic": "Unverifiable",
+          "count": 2
+        },
+        {
+          "AI": "Correct",
+          "automatic": "Unverifiable",
+          "count": 1
+        }
+      ],
+      "paired_comparable": 32,
+      "scope": "System agreement, not independent accuracy or human inter-rater reliability.",
+      "total": 32
+    }
+  },
+  "original_outputs": 32,
+  "prospective_unexecuted_rows": 24,
+  "question_review": "No non-unique reference or substantive question ambiguity found in the original32; negative-answer completeness and temporal construct application still disputed.",
+  "reference_check_pass": 32,
+  "reviewer_csv_rows": 56,
+  "task_family": {
+    "dated_comparison": {
+      "full_C0_AI_success": 0,
+      "full_C0_n": 8,
+      "selected_D0_AI_success": 0,
+      "selected_D0_n": 2
+    },
+    "dual_component": {
+      "full_C0_AI_success": 2,
+      "full_C0_n": 8,
+      "selected_D0_AI_success": 0,
+      "selected_D0_n": 2
+    },
+    "relational_chain": {
+      "full_C0_AI_success": 5,
+      "full_C0_n": 8,
+      "selected_D0_AI_success": 1,
+      "selected_D0_n": 2
+    },
+    "single_lookup": {
+      "full_C0_AI_success": 4,
+      "full_C0_n": 8,
+      "selected_D0_AI_success": 0,
+      "selected_D0_n": 2
+    }
+  },
+  "version": "p1_recovery_offline_audit_v1"
+}

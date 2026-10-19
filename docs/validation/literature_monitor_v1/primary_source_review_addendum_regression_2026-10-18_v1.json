@@ -1,0 +1,21 @@
+{
+  "schema_version": "personaslm_primary_source_review_addendum_regression_v1",
+  "recorded_utc": "2026-10-18T11:26:32.7856822Z",
+  "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_literature_review_addendum.py tests/test_literature_monitor.py tests/test_literature_monitor_arxiv_doi_dedup.py tests/test_windows_literature_scheduler.py",
+  "result": {
+    "passed": 22,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 1,
+    "elapsed_seconds": 0.72,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "artifacts": {
+    "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v1.json": "fa2e78129a1d24eab6e7202d9f28db0a06e376de0edbbf83e83866202bb70be8",
+    "tests/test_literature_review_addendum.py": "ba1e2e51d5eb328106dd4788e5beff4ad939c098f2d2da86b2c0d4f5bd939b98"
+  },
+  "scientific_model_generations": 0,
+  "paper_systems_reproduced": 0,
+  "human_reviews_fabricated": 0,
+  "historical_ledger_modified": false
+}

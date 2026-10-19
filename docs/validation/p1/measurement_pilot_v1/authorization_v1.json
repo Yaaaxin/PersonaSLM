@@ -1,0 +1,21 @@
+{
+  "allowed_phase": "P1_ONLY",
+  "authorization_id": "P1_ACCELERATED_MEASUREMENT_20261015_V1",
+  "category_caps": {
+    "A_C0": 32,
+    "B_FACTORIAL": 80,
+    "C_DIAGNOSTIC": 48
+  },
+  "human_decision_timestamp": null,
+  "independent_validation_authorized": false,
+  "maximum_new_attempts": 160,
+  "no_retries": true,
+  "prior_scope_runs": [],
+  "registration_utc": "2026-10-15T07:21:36.800939+00:00",
+  "replaces_unexecuted_160_proposals": true,
+  "researcher": "Yaxin ZHENG",
+  "semantic_adoption": false,
+  "source": "Explicit user message: Accelerated P1 Measurement Pilot and Focused Scientific Validation, sections 4-5",
+  "training_authorized": false,
+  "unused_allocation_transfer": false
+}

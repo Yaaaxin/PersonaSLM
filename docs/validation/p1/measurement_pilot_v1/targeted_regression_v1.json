@@ -1,0 +1,17 @@
+{
+  "command": [
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_p1_measurement_pilot.py",
+    "tests/test_p1_factorial_descriptive.py",
+    "tests/test_p1d_instruct_smoke.py",
+    "tests/test_response_status.py",
+    "tests/test_p5_oracle_measurement.py",
+    "-q"
+  ],
+  "exit_code": 0,
+  "output": ".......................................................................  [100%]\n71 passed in 17.44s\n",
+  "passed": 71,
+  "recorded_utc": "2026-10-15T08:09:35.550871+00:00"
+}

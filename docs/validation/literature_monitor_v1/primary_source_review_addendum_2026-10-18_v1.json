@@ -1,0 +1,111 @@
+{
+  "schema_version": "personaslm_primary_source_review_addendum_v1",
+  "recorded_utc": "2026-10-18T11:22:34.1479363Z",
+  "date_last_checked": "2026-10-18",
+  "reviewer_type": "AI_ASSISTED_PRIMARY_SOURCE_REVIEW",
+  "human_confirmation": "NOT_RECORDED",
+  "predecessor": {
+    "path": "docs/validation/literature_monitor_v1/reviewed_ledger_v1.json",
+    "sha256": "55392de0024ff4c04aa265f654d87419982df834aeff659e401620840b9ae99b",
+    "preservation": "UNCHANGED"
+  },
+  "scope": "Versioned structured delta after full-text methods, experiments, results, appendices, and limitations review. No paper system, code, dataset, or result was independently reproduced.",
+  "records": [
+    {
+      "stable_id": "arxiv:2610.08513",
+      "title": "Wiki-Talkie: Multilingual Benchmarking of Persona-Based Agents on Real-World Discussions",
+      "authors": ["Dennis Fucci", "Andrea Bacciu", "Dong Liu", "Weronika Lajewska", "Saab Mansour"],
+      "venue_or_status": "arXiv preprint v1",
+      "publication_date": "2026-10-06",
+      "date_last_checked": "2026-10-18",
+      "identifiers": {"arxiv": "2610.08513", "doi": "10.48550/arXiv.2610.08513"},
+      "source_url": "https://arxiv.org/abs/2610.08513",
+      "full_text_url": "https://arxiv.org/html/2610.08513v1",
+      "verified_summary": "A five-language Wikipedia Talk benchmark compares base role-play, explicit user profile, compressed behavioral traits, traits with rationale, and 5-20 raw comments from the same user. Raw comment history generally gives the closest population-level dialogue-act, sentiment, and text distributions, but history and summaries are not matched for information density or representation form.",
+      "research_methodology": "Next-turn generation over 32,688 target comments with four anonymized generators; population-level behavioral fidelity is assessed with text similarity, dialogue-act distribution distance, and sentiment distribution distance.",
+      "relevant_experimental_factors": ["explicit profile", "behavior summary", "raw comment history", "language", "model configuration"],
+      "relevant_benchmarks": ["Wiki-Talkie"],
+      "overlap_with_personaslm": "Directly compares history-based persona conditioning with explicit profile/behavior descriptions and separates several behavioral-fidelity signals.",
+      "difference_from_personaslm": "It does not use a dated S/F/H factorial, current-versus-outdated value conflicts, CPU-deployed 0.8B-3B models, or a joint reliability-fidelity-cost estimand; its primary fidelity target is population-level rather than individual-level.",
+      "potential_novelty_threat": {"level": "HIGH_FOR_BROAD_HISTORY_VS_PROFILE_CLAIMS", "rationale": "PersonaSLM cannot claim the first comparison of raw persona history with explicit profile/fact summaries or the first observation that history can improve behavioral fidelity."},
+      "potential_useful_baselines": ["base role-play", "explicit profile", "compressed behavior summary", "raw comment history"],
+      "potential_methodological_improvements": ["token- and information-matched history-versus-summary controls", "separate individual and population fidelity", "speaker-aware uncertainty"],
+      "relevance_assessment": {"classification": "STRONG_METHOD_OVERLAP", "secondary": ["IMPORTANT_BASELINE", "EVALUATION_IMPROVEMENT"]},
+      "limitations_relevant_to_personaslm": ["anonymized model identities", "information-density confounding", "automatic evaluator weaknesses", "population fidelity does not establish individual fidelity", "real-user privacy and consent risk"],
+      "versions": [{"label": "arXiv v1", "date": "2026-10-06", "source_url": "https://arxiv.org/abs/2610.08513v1"}]
+    },
+    {
+      "stable_id": "arxiv:2610.11948",
+      "title": "When History Helps and Hurts: Selective History Use across Multimodal Turns",
+      "authors": ["Shuoyang Sun", "Kerui Gu", "Hao Fang", "Shaoli Huang", "Bin Chen"],
+      "venue_or_status": "arXiv preprint v2",
+      "publication_date": "2026-10-08",
+      "date_last_checked": "2026-10-18",
+      "identifiers": {"arxiv": "2610.11948", "doi": "10.48550/arXiv.2610.11948"},
+      "source_url": "https://arxiv.org/abs/2610.11948",
+      "full_text_url": "https://arxiv.org/html/2610.11948v2",
+      "verified_summary": "ReTurn creates matched direct single-turn and multi-turn views that distinguish task-carrying from evidence-carrying history and vary historical agreement or current-evidence competition. Across 13 multimodal model configurations, the authors report a model-level median OpenQA decline from 93.7% direct to 72.3% conversational input; the design shows that recall and correct application of history are distinct.",
+      "research_methodology": "Seven thousand base tasks (3,500 matched pairs) span Reconfirm, Reground, Retrieve, and Rebind operations with open-ended and multiple-choice views; frozen rules plus blinded model-based review score answers, without independent human agreement.",
+      "relevant_experimental_factors": ["history required versus interfering", "historical agreement", "current evidence competition", "short versus long dialogue", "answer interface"],
+      "relevant_benchmarks": ["ReTurn"],
+      "overlap_with_personaslm": "Provides a controlled measurement design for when history should be used or ignored and separates base answerability from conversational degradation.",
+      "difference_from_personaslm": "It is multimodal, not persona-conditioned, and does not study dated textual S/F/H packages, small CPU models, outdated-value adoption under persona conditioning, or Persona Fidelity.",
+      "potential_novelty_threat": {"level": "MODERATE_TO_HIGH_FOR_BROAD_HISTORY_HELP_HARM_CLAIMS", "rationale": "PersonaSLM cannot claim that selective history use or history-induced degradation is itself new."},
+      "potential_useful_baselines": ["matched direct input", "question/evidence restatement", "static temporal filtering", "deterministic history-use router"],
+      "potential_methodological_improvements": ["matched direct/single-turn answerability reference", "consistent-history and conflicting-history pairs", "separate recall from evidence application", "label the identity of adopted competing values"],
+      "relevance_assessment": {"classification": "EVALUATION_IMPROVEMENT", "secondary": ["PARTIAL_OVERLAP", "IMPORTANT_BASELINE"]},
+      "limitations_relevant_to_personaslm": ["multimodal rather than textual persona dialogue", "two- or five-turn histories", "shared parent media across tasks", "automated construction and scoring", "full test release not independently reproduced"],
+      "versions": [
+        {"label": "arXiv v1", "date": "2026-10-08", "source_url": "https://arxiv.org/abs/2610.11948v1"},
+        {"label": "arXiv v2", "date": "2026-10-09", "source_url": "https://arxiv.org/abs/2610.11948v2"}
+      ]
+    },
+    {
+      "stable_id": "arxiv:2610.17763",
+      "title": "Memory Echo in Single-Agent Long-Term Memory: Lifecycle Evaluation and Provenance-Guided Mitigation",
+      "authors": ["Yufeng Li", "Sheng Yao", "Peng Zeng", "Dezhang Kong", "Shi Lin", "Changting Lin", "Xun Wang", "Meng Han"],
+      "venue_or_status": "arXiv preprint v1",
+      "publication_date": "2026-10-13",
+      "date_last_checked": "2026-10-18",
+      "identifiers": {"arxiv": "2610.17763", "doi": "10.48550/arXiv.2610.17763"},
+      "source_url": "https://arxiv.org/abs/2610.17763",
+      "full_text_url": "https://arxiv.org/html/2610.17763v1",
+      "verified_summary": "Memory Echo identifies amplification when repeated retrieval and write-back create multiple traces from one historical source. The Family-Provenance-Authority framework limits each source family to one representative, makes superseded records ineligible after a verified correction, and constrains answers with authoritative evidence. On 190 fixed questions over four memory frameworks and two generators, the paper reports higher accuracy and lower old-answer adoption, with important failures when correction evidence is absent, noisy, or irrelevant.",
+      "research_methodology": "Paired lifecycle replay contrasts once-only, read-only, and write-back histories, then applies a common correction and 30 read-only probes. It reports Echo Density, correction resistance, persistence, decision contamination, accuracy, and old-answer adoption, with question-level paired bootstrap intervals and component ablations.",
+      "relevant_experimental_factors": ["same-source trace multiplicity", "read versus write-back", "verified correction", "source-family eligibility", "authority-constrained answering"],
+      "relevant_benchmarks": ["MEchoBench", "LoCoMo", "LongMemEval", "HotpotQA", "BEAM", "WebShop", "MedQA", "TravelPlanner"],
+      "overlap_with_personaslm": "Directly covers provenance tracking, stale-history suppression after correction, authority-guided current-evidence use, and old-answer adoption.",
+      "difference_from_personaslm": "It targets retrieval/write-back trace multiplication in external memory rather than static dated persona dialogue; it does not isolate S/F/H, Persona Fidelity, CPU-small-model constraints, explicit fact validity intervals, or uncertain provenance.",
+      "potential_novelty_threat": {"level": "HIGH_DIRECT_ALGORITHMIC_COLLISION", "rationale": "Broad claims to invent temporal provenance tracking, source-family deduplication, conditional stale-memory suppression, or authority/current-evidence gating are no longer defensible."},
+      "potential_useful_baselines": ["FPA", "FPA provenance-only", "FPA authority-only", "Budget", "CRAG-M", "PairLR"],
+      "potential_methodological_improvements": ["source-family-aware contamination analysis when repeated traces exist", "old-value adoption plus decision-contamination measures", "no-conflict and missing/noisy-correction boundary tests", "component ablations"],
+      "relevance_assessment": {"classification": "DIRECT_COMPETITOR_FOR_P6", "secondary": ["STRONG_METHOD_OVERLAP", "IMPORTANT_BASELINE"]},
+      "limitations_relevant_to_personaslm": ["artificially inserted wrong-answer seeds", "fixed candidate-pool replay", "provided provenance/validity annotations", "answer-check benefit is mixed with memory selection", "model-based judge without human audit", "public repository omits main data and outputs"],
+      "versions": [{"label": "arXiv v1", "date": "2026-10-13", "source_url": "https://arxiv.org/abs/2610.17763v1"}]
+    }
+  ],
+  "research_impact": {
+    "status": "MATERIAL_PROSPECTIVE_ADAPTATION_REQUIRED",
+    "core_empirical_opportunity": "A paired shared-evidence 2^3 Style/Facts/dated-History factorial in CPU-deployed 0.8B-3B models, jointly measuring reliability, outdated-value adoption, persona fidelity, and cost, remains a testable distinction rather than a priority claim.",
+    "invalidated_broad_novelty_claims": [
+      "First comparison of persona history and explicit profile conditioning",
+      "First demonstration that history can help or hurt task performance",
+      "First provenance-guided conditional suppression of stale memory"
+    ],
+    "prospective_design_adaptations": [
+      "Use matched direct/single-turn answerability references for future H mechanism cohorts.",
+      "Separate consistent history, outdated conflict, current-evidence competition, and history-required reverse controls.",
+      "Compare simple restatement, explicit temporal filtering, authority-only, and FPA-like baselines before a complex intervention.",
+      "Do not activate P6 until a residual PersonaSLM failure differs from repeated trace amplification and survives independent validation."
+    ],
+    "p6_status": "PAUSED_NO_RENAMED_FPA_IMPLEMENTATION",
+    "protocol_changed": false,
+    "historical_experiment_reinterpreted": false
+  },
+  "execution_impact": {
+    "scientific_model_generations": 0,
+    "paid_resources": 0,
+    "paper_systems_reproduced": 0,
+    "human_reviews_fabricated": 0
+  }
+}

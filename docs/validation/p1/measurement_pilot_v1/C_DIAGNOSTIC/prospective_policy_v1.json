@@ -1,0 +1,21 @@
+{
+  "arms": [
+    "concise",
+    "date_slots"
+  ],
+  "automatic_v2_sha256": "d3143d68593754b328b74f892900620192756903ce65038815207b1bb10c6c99",
+  "before_outputs": true,
+  "case_selection": "Calibration indices 00-07: first complete four-family block, two cases per family. No factorial cases or outputs; no selection for favorable S/F/H effects.",
+  "category": "C_DIAGNOSTIC",
+  "changed": "Output instruction only; concise suppresses explanation, date_slots additionally specifies fields and requested-date selection. Package-level diagnostic.",
+  "comparison": "Exact original C0 outputs plus two new matched instructions. Development, not replication or significance testing.",
+  "fixed": "All original trusted evidence, reference answers, question, evaluation date, speaker identity, C0 no S/F/H, model/template, seed42 and96token budget.",
+  "human_annotation_timestamp": null,
+  "one_shot_selection": "Select an arm only if >=7/8 requested answer forms complete, zero unresolved response boundaries, and at least one correct complete answer per two-case task family. These are small-sample diagnostic criteria, not population guarantees or the 80-95% target.",
+  "otherwise": "Keep B_FACTORIAL NO_GO; retain the unexecuted preselected pilot and do not optimize/remove difficult cases. Use offline scoring/measurement work; no arbitrary further sweep.",
+  "phase": "P1 measurement diagnosis ONLY",
+  "principal_purpose": "Determine whether output instructions permit requested-date/component measurement; not Persona or pure formatting causal identification.",
+  "requests": 16,
+  "scoring": "Original rubric retained; independently proposed AI ratings plus preserved automatic v1 and corrected v2. No human adoption inferred.",
+  "tie_break": "If both qualify choose concise (smaller intervention), irrespective of effect directions. No factorial treatment outputs available."
+}

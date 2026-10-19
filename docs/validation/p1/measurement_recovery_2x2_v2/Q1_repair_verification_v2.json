@@ -1,0 +1,84 @@
+{
+  "D0_regenerated": false,
+  "new_request_specs": [
+    {
+      "aliases": [
+        "Bay B5238",
+        "B5238"
+      ],
+      "prompt_sha256": "53673e228288eb86a8f2a09882a062fd6c348302ffb61c1681ca3f1e0631b48d",
+      "question": "Which bay is assigned to Evan Alderbrook on 2051-09-15? Give exactly one bay identifier.",
+      "reference": [
+        {
+          "key": "current_bay",
+          "source_ids": [
+            "p1_measure_calibration_04_E01"
+          ],
+          "value": "Bay B5238"
+        }
+      ],
+      "request_id": "p1_measure_calibration_04_recovery_D2",
+      "request_sha256": "5d4b00e79c9c7cab2b7af23c84e90aafadbeee2fd94b9708e39acbdc141abddc"
+    },
+    {
+      "aliases": [
+        "Bay B5238",
+        "B5238"
+      ],
+      "prompt_sha256": "04ffc8b2f22c3b1f23408ea29e00300fe6c322bcd00d4a9f3bbb043b748630ef",
+      "question": "Which bay is assigned to Evan Alderbrook on 2051-09-15? Give exactly one bay identifier.",
+      "reference": [
+        {
+          "key": "current_bay",
+          "source_ids": [
+            "p1_measure_calibration_04_E01"
+          ],
+          "value": "Bay B5238"
+        }
+      ],
+      "request_id": "p1_measure_calibration_04_recovery_D3",
+      "request_sha256": "64e34737c70a035f0e102f11745082830d29bc9ceda8d985af45957e3138f757"
+    },
+    {
+      "aliases": [
+        "Bay B5284",
+        "B5284"
+      ],
+      "prompt_sha256": "8ed84e7fa68f5350bcc656469eef2292c21145380b1f862c0c23b79d959e5a96",
+      "question": "Which bay is assigned to Faye Alderbrook on 2051-03-15? Give exactly one bay identifier.",
+      "reference": [
+        {
+          "key": "requested_bay",
+          "source_ids": [
+            "p1_measure_calibration_05_E00"
+          ],
+          "value": "Bay B5284"
+        }
+      ],
+      "request_id": "p1_measure_calibration_05_recovery_D2",
+      "request_sha256": "118473910ea613cdb0fffdfda8d0f82c27a9d6c9302be701209348d37fd772c9"
+    },
+    {
+      "aliases": [
+        "Bay B5284",
+        "B5284"
+      ],
+      "prompt_sha256": "3cdbd56e49fd5031aa0bc4a7ed712729689a9c95ea0d9a242a7e9024c5a00c5f",
+      "question": "Which bay is assigned to Faye Alderbrook on 2051-03-15? Give exactly one bay identifier.",
+      "reference": [
+        {
+          "key": "requested_bay",
+          "source_ids": [
+            "p1_measure_calibration_05_E00"
+          ],
+          "value": "Bay B5284"
+        }
+      ],
+      "request_id": "p1_measure_calibration_05_recovery_D3",
+      "request_sha256": "03f50af2c709e9bd236513056d4d01170fa596e309c3bb4811ecf67452da0483"
+    }
+  ],
+  "prior_sealed_files_verified": 43,
+  "unchanged_native_logs": true,
+  "unchanged_request_objects": true
+}

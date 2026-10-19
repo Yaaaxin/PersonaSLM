@@ -1,0 +1,896 @@
+{
+  "condition_summary": {
+    "C0": {
+      "answer_completeness": {
+        "mean_resolved": 0.16666666666666666,
+        "ones": 1,
+        "unresolved": 0,
+        "zeros": 5
+      },
+      "choice_distribution": {
+        "B": 3,
+        "UNRESOLVED": 3
+      },
+      "current_preference_choice": {
+        "mean_resolved": 1.0,
+        "ones": 3,
+        "unresolved": 3,
+        "zeros": 0
+      },
+      "operational_behavioral_fidelity": {
+        "mean_resolved": 0.0,
+        "ones": 0,
+        "unresolved": 0,
+        "zeros": 6
+      },
+      "operational_linguistic_fidelity": {
+        "mean_resolved": 0.0,
+        "ones": 0,
+        "unresolved": 0,
+        "zeros": 6
+      },
+      "reason_distribution": {
+        "SUPPORTED": 1,
+        "UNRESOLVED": 5
+      },
+      "task_success": {
+        "mean_resolved": 0.16666666666666666,
+        "ones": 1,
+        "unresolved": 0,
+        "zeros": 5
+      }
+    },
+    "C1": {
+      "answer_completeness": {
+        "mean_resolved": 0.3333333333333333,
+        "ones": 2,
+        "unresolved": 0,
+        "zeros": 4
+      },
+      "choice_distribution": {
+        "B": 2,
+        "UNRESOLVED": 4
+      },
+      "current_preference_choice": {
+        "mean_resolved": 0.5,
+        "ones": 1,
+        "unresolved": 4,
+        "zeros": 1
+      },
+      "operational_behavioral_fidelity": {
+        "mean_resolved": 0.16666666666666666,
+        "ones": 1,
+        "unresolved": 0,
+        "zeros": 5
+      },
+      "operational_linguistic_fidelity": {
+        "mean_resolved": 0.5,
+        "ones": 3,
+        "unresolved": 0,
+        "zeros": 3
+      },
+      "reason_distribution": {
+        "SUPPORTED": 2,
+        "UNRESOLVED": 4
+      },
+      "task_success": {
+        "mean_resolved": 0.16666666666666666,
+        "ones": 1,
+        "unresolved": 0,
+        "zeros": 5
+      }
+    },
+    "C2": {
+      "answer_completeness": {
+        "mean_resolved": 0.6666666666666666,
+        "ones": 4,
+        "unresolved": 0,
+        "zeros": 2
+      },
+      "choice_distribution": {
+        "A": 2,
+        "B": 3,
+        "UNRESOLVED": 1
+      },
+      "current_preference_choice": {
+        "mean_resolved": 1.0,
+        "ones": 5,
+        "unresolved": 1,
+        "zeros": 0
+      },
+      "operational_behavioral_fidelity": {
+        "mean_resolved": 0.0,
+        "ones": 0,
+        "unresolved": 0,
+        "zeros": 6
+      },
+      "operational_linguistic_fidelity": {
+        "mean_resolved": 0.0,
+        "ones": 0,
+        "unresolved": 0,
+        "zeros": 6
+      },
+      "reason_distribution": {
+        "SUPPORTED": 4,
+        "UNRESOLVED": 2
+      },
+      "task_success": {
+        "mean_resolved": 0.6666666666666666,
+        "ones": 4,
+        "unresolved": 0,
+        "zeros": 2
+      }
+    },
+    "C3": {
+      "answer_completeness": {
+        "mean_resolved": 0.16666666666666666,
+        "ones": 1,
+        "unresolved": 0,
+        "zeros": 5
+      },
+      "choice_distribution": {
+        "A": 2,
+        "UNRESOLVED": 4
+      },
+      "current_preference_choice": {
+        "mean_resolved": 0.5,
+        "ones": 1,
+        "unresolved": 4,
+        "zeros": 1
+      },
+      "operational_behavioral_fidelity": {
+        "mean_resolved": 0.0,
+        "ones": 0,
+        "unresolved": 0,
+        "zeros": 6
+      },
+      "operational_linguistic_fidelity": {
+        "mean_resolved": 0.0,
+        "ones": 0,
+        "unresolved": 0,
+        "zeros": 6
+      },
+      "reason_distribution": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 1,
+        "UNRESOLVED": 4
+      },
+      "task_success": {
+        "mean_resolved": 0.16666666666666666,
+        "ones": 1,
+        "unresolved": 0,
+        "zeros": 5
+      }
+    },
+    "C4": {
+      "answer_completeness": {
+        "mean_resolved": 0.8333333333333334,
+        "ones": 5,
+        "unresolved": 0,
+        "zeros": 1
+      },
+      "choice_distribution": {
+        "A": 3,
+        "B": 3
+      },
+      "current_preference_choice": {
+        "mean_resolved": 1.0,
+        "ones": 6,
+        "unresolved": 0,
+        "zeros": 0
+      },
+      "operational_behavioral_fidelity": {
+        "mean_resolved": 0.0,
+        "ones": 0,
+        "unresolved": 0,
+        "zeros": 6
+      },
+      "operational_linguistic_fidelity": {
+        "mean_resolved": 0.3333333333333333,
+        "ones": 2,
+        "unresolved": 0,
+        "zeros": 4
+      },
+      "reason_distribution": {
+        "SUPPORTED": 5,
+        "UNRESOLVED": 1
+      },
+      "task_success": {
+        "mean_resolved": 0.8333333333333334,
+        "ones": 5,
+        "unresolved": 0,
+        "zeros": 1
+      }
+    },
+    "C5": {
+      "answer_completeness": {
+        "mean_resolved": 0.5,
+        "ones": 3,
+        "unresolved": 0,
+        "zeros": 3
+      },
+      "choice_distribution": {
+        "A": 2,
+        "B": 2,
+        "UNRESOLVED": 2
+      },
+      "current_preference_choice": {
+        "mean_resolved": 0.5,
+        "ones": 2,
+        "unresolved": 2,
+        "zeros": 2
+      },
+      "operational_behavioral_fidelity": {
+        "mean_resolved": 0.3333333333333333,
+        "ones": 2,
+        "unresolved": 0,
+        "zeros": 4
+      },
+      "operational_linguistic_fidelity": {
+        "mean_resolved": 0.6666666666666666,
+        "ones": 4,
+        "unresolved": 0,
+        "zeros": 2
+      },
+      "reason_distribution": {
+        "CONTRADICTED": 1,
+        "SUPPORTED": 3,
+        "UNRESOLVED": 2
+      },
+      "task_success": {
+        "mean_resolved": 0.5,
+        "ones": 3,
+        "unresolved": 0,
+        "zeros": 3
+      }
+    },
+    "C6": {
+      "answer_completeness": {
+        "mean_resolved": 0.16666666666666666,
+        "ones": 1,
+        "unresolved": 0,
+        "zeros": 5
+      },
+      "choice_distribution": {
+        "A": 1,
+        "UNRESOLVED": 5
+      },
+      "current_preference_choice": {
+        "mean_resolved": 0.0,
+        "ones": 0,
+        "unresolved": 5,
+        "zeros": 1
+      },
+      "operational_behavioral_fidelity": {
+        "mean_resolved": 0.0,
+        "ones": 0,
+        "unresolved": 0,
+        "zeros": 6
+      },
+      "operational_linguistic_fidelity": {
+        "mean_resolved": 0.0,
+        "ones": 0,
+        "unresolved": 0,
+        "zeros": 6
+      },
+      "reason_distribution": {
+        "SUPPORTED": 1,
+        "UNRESOLVED": 5
+      },
+      "task_success": {
+        "mean_resolved": 0.16666666666666666,
+        "ones": 1,
+        "unresolved": 0,
+        "zeros": 5
+      }
+    },
+    "C7": {
+      "answer_completeness": {
+        "mean_resolved": 0.8333333333333334,
+        "ones": 5,
+        "unresolved": 0,
+        "zeros": 1
+      },
+      "choice_distribution": {
+        "A": 2,
+        "B": 4
+      },
+      "current_preference_choice": {
+        "mean_resolved": 0.8333333333333334,
+        "ones": 5,
+        "unresolved": 0,
+        "zeros": 1
+      },
+      "operational_behavioral_fidelity": {
+        "mean_resolved": 0.5,
+        "ones": 3,
+        "unresolved": 0,
+        "zeros": 3
+      },
+      "operational_linguistic_fidelity": {
+        "mean_resolved": 0.5,
+        "ones": 3,
+        "unresolved": 0,
+        "zeros": 3
+      },
+      "reason_distribution": {
+        "SUPPORTED": 5,
+        "UNRESOLVED": 1
+      },
+      "task_success": {
+        "mean_resolved": 0.8333333333333334,
+        "ones": 5,
+        "unresolved": 0,
+        "zeros": 1
+      }
+    }
+  },
+  "cumulative_authorization_after": {
+    "generations_limit": 1200,
+    "generations_used": 64,
+    "inference_seconds_limit": 72000.0,
+    "inference_seconds_used": 416.1450323000072
+  },
+  "evidence_level": "DEVELOPMENT_EXPLORATORY_SYNTHETIC_AUTOMATIC",
+  "factorial_estimates": {
+    "answer_completeness": {
+      "F": {
+        "case_contributions": [
+          0.75,
+          0.25,
+          0.25,
+          0.25,
+          0.0,
+          0.5
+        ],
+        "complete_case_estimate": 0.3333333333333333,
+        "complete_cases": 6,
+        "logical_lower": 0.3333333333333333,
+        "logical_upper": 0.3333333333333333
+      },
+      "FxH": {
+        "case_contributions": [
+          -0.5,
+          -0.5,
+          -0.5,
+          -0.5,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": -0.3333333333333333,
+        "complete_cases": 6,
+        "logical_lower": -0.3333333333333333,
+        "logical_upper": -0.3333333333333333
+      },
+      "H": {
+        "case_contributions": [
+          -0.25,
+          -0.25,
+          0.25,
+          -0.25,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": -0.08333333333333333,
+        "complete_cases": 6,
+        "logical_lower": -0.08333333333333333,
+        "logical_upper": -0.08333333333333333
+      },
+      "S": {
+        "case_contributions": [
+          0.25,
+          0.75,
+          -0.25,
+          0.75,
+          0.0,
+          0.5
+        ],
+        "complete_case_estimate": 0.3333333333333333,
+        "complete_cases": 6,
+        "logical_lower": 0.3333333333333333,
+        "logical_upper": 0.3333333333333333
+      },
+      "SxF": {
+        "case_contributions": [
+          0.5,
+          -0.5,
+          0.5,
+          -0.5,
+          0.0,
+          1.0
+        ],
+        "complete_case_estimate": 0.16666666666666666,
+        "complete_cases": 6,
+        "logical_lower": 0.16666666666666666,
+        "logical_upper": 0.16666666666666666
+      },
+      "SxFxH": {
+        "case_contributions": [
+          1.0,
+          1.0,
+          -1.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.3333333333333333,
+        "complete_cases": 6,
+        "logical_lower": 0.3333333333333333,
+        "logical_upper": 0.3333333333333333
+      },
+      "SxH": {
+        "case_contributions": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.3333333333333333,
+        "complete_cases": 6,
+        "logical_lower": 0.3333333333333333,
+        "logical_upper": 0.3333333333333333
+      }
+    },
+    "current_preference_choice": {
+      "F": {
+        "case_contributions": [],
+        "complete_case_estimate": null,
+        "complete_cases": 0,
+        "logical_lower": -0.16666666666666666,
+        "logical_upper": 0.625
+      },
+      "FxH": {
+        "case_contributions": [],
+        "complete_case_estimate": null,
+        "complete_cases": 0,
+        "logical_lower": -1.0,
+        "logical_upper": 0.5833333333333334
+      },
+      "H": {
+        "case_contributions": [],
+        "complete_case_estimate": null,
+        "complete_cases": 0,
+        "logical_lower": -0.625,
+        "logical_upper": 0.16666666666666666
+      },
+      "S": {
+        "case_contributions": [],
+        "complete_case_estimate": null,
+        "complete_cases": 0,
+        "logical_lower": -0.3333333333333333,
+        "logical_upper": 0.4583333333333333
+      },
+      "SxF": {
+        "case_contributions": [],
+        "complete_case_estimate": null,
+        "complete_cases": 0,
+        "logical_lower": -0.4166666666666667,
+        "logical_upper": 1.1666666666666667
+      },
+      "SxFxH": {
+        "case_contributions": [],
+        "complete_case_estimate": null,
+        "complete_cases": 0,
+        "logical_lower": -1.5,
+        "logical_upper": 1.6666666666666667
+      },
+      "SxH": {
+        "case_contributions": [],
+        "complete_case_estimate": null,
+        "complete_cases": 0,
+        "logical_lower": -0.5,
+        "logical_upper": 1.0833333333333333
+      }
+    },
+    "operational_behavioral_fidelity": {
+      "F": {
+        "case_contributions": [
+          0.25,
+          0.0,
+          0.0,
+          -0.25,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.0,
+        "complete_cases": 6,
+        "logical_lower": 0.0,
+        "logical_upper": 0.0
+      },
+      "FxH": {
+        "case_contributions": [
+          0.5,
+          0.0,
+          0.0,
+          0.5,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.16666666666666666,
+        "complete_cases": 6,
+        "logical_lower": 0.16666666666666666,
+        "logical_upper": 0.16666666666666666
+      },
+      "H": {
+        "case_contributions": [
+          0.25,
+          0.5,
+          0.5,
+          -0.25,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.16666666666666666,
+        "complete_cases": 6,
+        "logical_lower": 0.16666666666666666,
+        "logical_upper": 0.16666666666666666
+      },
+      "S": {
+        "case_contributions": [
+          0.25,
+          0.5,
+          0.5,
+          0.25,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.25,
+        "complete_cases": 6,
+        "logical_lower": 0.25,
+        "logical_upper": 0.25
+      },
+      "SxF": {
+        "case_contributions": [
+          0.5,
+          0.0,
+          0.0,
+          -0.5,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.0,
+        "complete_cases": 6,
+        "logical_lower": 0.0,
+        "logical_upper": 0.0
+      },
+      "SxFxH": {
+        "case_contributions": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.3333333333333333,
+        "complete_cases": 6,
+        "logical_lower": 0.3333333333333333,
+        "logical_upper": 0.3333333333333333
+      },
+      "SxH": {
+        "case_contributions": [
+          0.5,
+          1.0,
+          1.0,
+          -0.5,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.3333333333333333,
+        "complete_cases": 6,
+        "logical_lower": 0.3333333333333333,
+        "logical_upper": 0.3333333333333333
+      }
+    },
+    "operational_linguistic_fidelity": {
+      "F": {
+        "case_contributions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.5,
+          0.0
+        ],
+        "complete_case_estimate": -0.08333333333333333,
+        "complete_cases": 6,
+        "logical_lower": -0.08333333333333333,
+        "logical_upper": -0.08333333333333333
+      },
+      "FxH": {
+        "case_contributions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.0,
+        "complete_cases": 6,
+        "logical_lower": 0.0,
+        "logical_upper": 0.0
+      },
+      "H": {
+        "case_contributions": [
+          0.0,
+          0.0,
+          0.5,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.08333333333333333,
+        "complete_cases": 6,
+        "logical_lower": 0.08333333333333333,
+        "logical_upper": 0.08333333333333333
+      },
+      "S": {
+        "case_contributions": [
+          1.0,
+          1.0,
+          0.5,
+          0.0,
+          0.5,
+          0.0
+        ],
+        "complete_case_estimate": 0.5,
+        "complete_cases": 6,
+        "logical_lower": 0.5,
+        "logical_upper": 0.5
+      },
+      "SxF": {
+        "case_contributions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "complete_case_estimate": -0.16666666666666666,
+        "complete_cases": 6,
+        "logical_lower": -0.16666666666666666,
+        "logical_upper": -0.16666666666666666
+      },
+      "SxFxH": {
+        "case_contributions": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.0,
+        "complete_cases": 6,
+        "logical_lower": 0.0,
+        "logical_upper": 0.0
+      },
+      "SxH": {
+        "case_contributions": [
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.16666666666666666,
+        "complete_cases": 6,
+        "logical_lower": 0.16666666666666666,
+        "logical_upper": 0.16666666666666666
+      }
+    },
+    "task_success": {
+      "F": {
+        "case_contributions": [
+          0.75,
+          0.25,
+          0.25,
+          0.5,
+          0.0,
+          0.5
+        ],
+        "complete_case_estimate": 0.375,
+        "complete_cases": 6,
+        "logical_lower": 0.375,
+        "logical_upper": 0.375
+      },
+      "FxH": {
+        "case_contributions": [
+          -0.5,
+          -0.5,
+          -0.5,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": -0.4166666666666667,
+        "complete_cases": 6,
+        "logical_lower": -0.4166666666666667,
+        "logical_upper": -0.4166666666666667
+      },
+      "H": {
+        "case_contributions": [
+          -0.25,
+          -0.25,
+          0.25,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": -0.041666666666666664,
+        "complete_cases": 6,
+        "logical_lower": -0.041666666666666664,
+        "logical_upper": -0.041666666666666664
+      },
+      "S": {
+        "case_contributions": [
+          0.25,
+          0.75,
+          -0.25,
+          0.5,
+          0.0,
+          0.5
+        ],
+        "complete_case_estimate": 0.2916666666666667,
+        "complete_cases": 6,
+        "logical_lower": 0.2916666666666667,
+        "logical_upper": 0.2916666666666667
+      },
+      "SxF": {
+        "case_contributions": [
+          0.5,
+          -0.5,
+          0.5,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "complete_case_estimate": 0.25,
+        "complete_cases": 6,
+        "logical_lower": 0.25,
+        "logical_upper": 0.25
+      },
+      "SxFxH": {
+        "case_contributions": [
+          1.0,
+          1.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.16666666666666666,
+        "complete_cases": 6,
+        "logical_lower": 0.16666666666666666,
+        "logical_upper": 0.16666666666666666
+      },
+      "SxH": {
+        "case_contributions": [
+          0.5,
+          0.5,
+          0.5,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "complete_case_estimate": 0.4166666666666667,
+        "complete_cases": 6,
+        "logical_lower": 0.4166666666666667,
+        "logical_upper": 0.4166666666666667
+      }
+    }
+  },
+  "generations": 48,
+  "history_regime_paired_effects": {
+    "ALIGNED_HELPFUL": {
+      "current_preference_choice": {
+        "mean_paired_H_effect": -0.5,
+        "pair_contributions": [
+          -1,
+          0
+        ],
+        "resolved_pairs": 2
+      },
+      "task_success": {
+        "mean_paired_H_effect": -0.125,
+        "pair_contributions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ],
+        "resolved_pairs": 8
+      }
+    },
+    "IRRELEVANT": {
+      "current_preference_choice": {
+        "mean_paired_H_effect": 0.0,
+        "pair_contributions": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "resolved_pairs": 4
+      },
+      "task_success": {
+        "mean_paired_H_effect": -0.125,
+        "pair_contributions": [
+          0,
+          1,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ],
+        "resolved_pairs": 8
+      }
+    },
+    "OUTDATED_CONFLICTING": {
+      "current_preference_choice": {
+        "mean_paired_H_effect": -0.5,
+        "pair_contributions": [
+          -1,
+          -1,
+          0,
+          0
+        ],
+        "resolved_pairs": 4
+      },
+      "task_success": {
+        "mean_paired_H_effect": 0.125,
+        "pair_contributions": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "resolved_pairs": 8
+      }
+    }
+  },
+  "human_ratings": 0,
+  "limits": [
+    "Two constructed profiles and six purposive cases are not a speaker population, a precision-powered sample, or real-speaker evidence.",
+    "S and H both contain surface style cues; H regimes are package manipulations, not pure internal mechanisms.",
+    "F is a current preference relevant to choice rather than the answer-independent supplemental fact used in historical PersonaSLM stimuli; this is a new prospective operationalization and is not a repetition of P1a.",
+    "Prompt length and message count differ by condition; no matched neutral controls are included in this execution-first development batch.",
+    "Automatic aliases and surface checks have narrow construct coverage. Unresolved semantic paraphrases are retained rather than forced into failure.",
+    "The model artifact's local identity and license are recorded, but its conversion lineage remains only partially verified.",
+    "Results may motivate, but cannot themselves constitute, an independently validated algorithm or publication-ready claim.",
+    "Independent synthetic validation was frozen before these outputs but has not been executed or authorized.",
+    "No broad relevance, coherence, human Persona Fidelity, real-speaker, causal internal-mechanism, or novelty claim is supported."
+  ],
+  "manifest_sha256": "4b708a627de15604b8bd3ad732fdeb61d53465de54caefb1db44888107d6cd3a",
+  "new_generations_during_analysis": 0,
+  "outdated_adoption": {
+    "applicable_ones": 1,
+    "applicable_unresolved": 1,
+    "applicable_zeros": 2,
+    "not_applicable": 44
+  },
+  "resource_observations": {
+    "completion_inference_seconds": 256.18798539999625,
+    "generated_tokens": 1399,
+    "minimum_observed_available_physical_bytes": 3008327680,
+    "peak_server_working_set_bytes": 2431197184
+  },
+  "run_directory": "results/p1_persona_dialogue_factorial/development_v1/runs/20261018T154754-a04b1f8832a94b13bf2361f640dd0763",
+  "scientific_scope": "Estimate paired effects of explicit Style, current persona Facts, and role-native dialogue History on operational persona expression and dialogue reliability, independently of the completed temporal-QA feasibility screen.",
+  "version": "p1_persona_dialogue_factorial_analysis_v1"
+}

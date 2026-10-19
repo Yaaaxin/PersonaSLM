@@ -1,0 +1,56 @@
+{
+  "schema_version": "personaslm_rpc_sfh_execution_integrity_amendment_v1_1",
+  "status": "PROSPECTIVELY_FROZEN_INTEGRITY_ONLY",
+  "created_utc": "2026-10-19T05:58:59.0978111Z",
+  "cause": {
+    "failed_preflight_status": "FAIL",
+    "failed_preflight_error": "Schedule changed",
+    "server_launches": 0,
+    "completion_calls": 0,
+    "new_model_generations": 0,
+    "root_cause": "The JSON-loaded frozen masks are lists while the recomputed in-memory masks are tuples; Python container-type equality failed even though canonical JSON values and sequence order are identical."
+  },
+  "repair": {
+    "permitted_change": "CANONICAL_JSON_SEQUENCE_COMPARISON_ONLY",
+    "scientific_schedule_changed": false,
+    "generation_configuration_changed": false,
+    "prompts_changed": false,
+    "token_arrays_changed": false,
+    "retokenization_permitted": false,
+    "fresh_preflight_required": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/preflight_v1_1.json",
+    "old_failed_preflight_preserved": true
+  },
+  "schedule_integrity": {
+    "comparison": "CANONICAL_JSON_SEQUENCE_COMPARISON_ONLY",
+    "stored_schedule_canonical_sha256": "e9387cdeaa27f31162df6584cf5136fe72f8c1409d8cfa1aaf3f7b5dc8552db1",
+    "computed_schedule_canonical_sha256": "e9387cdeaa27f31162df6584cf5136fe72f8c1409d8cfa1aaf3f7b5dc8552db1",
+    "canonical_bytes_equal": true,
+    "values_and_sequence_order_equal": true,
+    "stored_mask_container": "JSON_ARRAY",
+    "computed_mask_container": "PYTHON_TUPLE"
+  },
+  "historical_bindings": {
+    "original_controller_sha256": "0a8143ba7a474eadfd303a109dcac5f438e44b14c0ab3e32f82c6f7d0e3d1110",
+    "original_test_sha256": "7dcc7b8d0b949c43d2fcd6f0ff88fe4cc3baccd4a7c9ba8db2a5efdc45724409",
+    "original_registration_sha256": "4b0bf22b261e8e1de700e7ac482039cf46f75ba62ff995b598143732a4d1936f",
+    "original_frozen_manifest_sha256": "67db40afd7d7535cee6b2897b5fc9ba94b5a67a12bd276c6e39c4635407ac909",
+    "failed_preflight_sha256": "792da63871693c540b19fba3ebf6c8c18b3e1c2d97cdf796af68ecc34ff8a327",
+    "authorization_sha256": "26be44fe71f16791b2f4815093c8a5c7b2ab93f6092dd9b105300643e7a624fa",
+    "original_independent_audit_sha256": "76449486daf6f7bc8d0913c1b8151ee4ce257b8df024c918b1385ca812ae5f22"
+  },
+  "implementation_bindings": {
+    "controller_path": "tools/real_persona_chat_sfh_pilot_execution_amendment_v1_1.py",
+    "controller_sha256": "ac174982bad10bc5e659b315c4c75fb73d84fe0bfdf5d4b6d499b2148a9a541e",
+    "test_path": "tests/test_real_persona_chat_sfh_pilot_execution_amendment_v1_1.py",
+    "test_sha256": "2d5ec568dbd23025004078e7bf4748b8f0a8f5dbc466d3a95c692ad80cec39ec"
+  },
+  "execution": {
+    "authorization_amendment": "PENDING_INDEPENDENT_AUDIT",
+    "v1_1_registration": "NOT_CREATED",
+    "v1_1_preflight": "NOT_RUN",
+    "native_tokenizer_calls_added": 0,
+    "server_launches": 0,
+    "completion_calls": 0,
+    "new_model_generations": 0
+  }
+}

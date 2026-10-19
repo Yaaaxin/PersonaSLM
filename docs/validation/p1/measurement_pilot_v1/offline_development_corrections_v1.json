@@ -1,0 +1,12 @@
+{
+  "no_human_adoption": true,
+  "no_output_rerun_or_overwrite": true,
+  "preserved_failures": [
+    "Initial material validation falsely matched common Optional-speaker boilerplate as a C0 treatment; corrected to actual optional blocks before any manifest was written.",
+    "Three further material build attempts found no exact 17-token diagnostic control; no inference occurred. Expanded coherent control candidates and verified all16 full-prompt length pairs with actual native tokens.",
+    "First targeted test run:3 failed,33 passed. Two failures were tuple/list factor routing after JSON decoding; one test fixture violated the repository-only writer. Corrected before inference;36 passed.",
+    "v1 automatic scorer shared restricted FC/TC assignment and missed typed label syntax. v1 preserved; v2 separates interval/identity checks, supports declared label syntax and defers negated success.38 tests passed.",
+    "After diagnostic invariance test:39 passed. After prepared paired estimators:44 passed.",
+    "Diagnostic summary v1 contained a pooled iid Wilson interval for16 paired outputs. It is retained but superseded by v2 with eight whole-case resampling. No official inference is based on the pooled interval."
+  ]
+}

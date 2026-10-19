@@ -1,0 +1,179 @@
+{
+  "Q0_calibration_activation": [
+    "OQ24 complete",
+    "Researcher-confirmed32-label snapshot",
+    "No OQ condition qualifies",
+    "Bank and preflight pass"
+  ],
+  "control_status": "DIAGNOSTIC_ONLY",
+  "definitions": {
+    "contradictory": "Multiple incompatible values asserted for same current target; review negation and temporal scope",
+    "current": "Affirmative target-attribute answer valid at registered query date",
+    "missing": "No record; separate from observed empty reply",
+    "outdated": "Affirmative old target value assigned to current query; correctly scoped historical mention alone is not adoption",
+    "unverifiable": "Unsupported/unresolved assertion or outside frozen automatic grammar; not coded as outdated",
+    "wrong_entity": "An answer belonging to another entity in the evidence"
+  },
+  "denominator": 8,
+  "eligible_cases": [
+    "p1_fallback_temporal_01",
+    "p1_fallback_temporal_02",
+    "p1_fallback_temporal_04",
+    "p1_fallback_temporal_07",
+    "p1_fallback_temporal_08",
+    "p1_fallback_temporal_10",
+    "p1_fallback_temporal_12",
+    "p1_fallback_temporal_14"
+  ],
+  "factorial_contrasts": {
+    "F": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": -0.25,
+        "C1": -0.25,
+        "C2": 0.25,
+        "C3": -0.25,
+        "C4": 0.25,
+        "C5": -0.25,
+        "C6": 0.25,
+        "C7": 0.25
+      }
+    },
+    "FxH": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": 0.5,
+        "C1": 0.5,
+        "C2": -0.5,
+        "C3": -0.5,
+        "C4": -0.5,
+        "C5": -0.5,
+        "C6": 0.5,
+        "C7": 0.5
+      }
+    },
+    "H": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": -0.25,
+        "C1": -0.25,
+        "C2": -0.25,
+        "C3": 0.25,
+        "C4": -0.25,
+        "C5": 0.25,
+        "C6": 0.25,
+        "C7": 0.25
+      }
+    },
+    "H1_SxH_at_F0": {
+      "estimand": "[Y(C5)-Y(C3)]-[Y(C1)-Y(C0)]; no F=1 averaging",
+      "weights": {
+        "C0": 1,
+        "C1": -1,
+        "C2": 0,
+        "C3": -1,
+        "C4": 0,
+        "C5": 1,
+        "C6": 0,
+        "C7": 0
+      }
+    },
+    "S": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": -0.25,
+        "C1": 0.25,
+        "C2": -0.25,
+        "C3": -0.25,
+        "C4": 0.25,
+        "C5": 0.25,
+        "C6": -0.25,
+        "C7": 0.25
+      }
+    },
+    "SxF": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": 0.5,
+        "C1": -0.5,
+        "C2": -0.5,
+        "C3": 0.5,
+        "C4": 0.5,
+        "C5": -0.5,
+        "C6": -0.5,
+        "C7": 0.5
+      }
+    },
+    "SxFxH": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": -1.0,
+        "C1": 1.0,
+        "C2": 1.0,
+        "C3": 1.0,
+        "C4": -1.0,
+        "C5": -1.0,
+        "C6": -1.0,
+        "C7": 1.0
+      }
+    },
+    "SxH": {
+      "estimand": "average factorial contrast over remaining factors",
+      "weights": {
+        "C0": 0.5,
+        "C1": -0.5,
+        "C2": 0.5,
+        "C3": -0.5,
+        "C4": -0.5,
+        "C5": 0.5,
+        "C6": -0.5,
+        "C7": 0.5
+      }
+    },
+    "history_S0F0": {
+      "control_validity": "different prompt lengths possible",
+      "estimand": "simple text-package comparison",
+      "weights": {
+        "C0": -1,
+        "C3": 1
+      }
+    },
+    "history_vs_diagnostic": {
+      "control_validity": "N controls require independent semantic validity; length alone insufficient",
+      "estimand": "simple text-package comparison",
+      "weights": {
+        "C3": 1,
+        "N_history": -1
+      }
+    },
+    "style_F0H0": {
+      "control_validity": "different prompt lengths possible",
+      "estimand": "simple text-package comparison",
+      "weights": {
+        "C0": -1,
+        "C1": 1
+      }
+    },
+    "style_vs_diagnostic": {
+      "control_validity": "N controls require independent semantic validity; length alone insufficient",
+      "estimand": "simple text-package comparison",
+      "weights": {
+        "C1": 1,
+        "N_style": -1
+      }
+    }
+  },
+  "fallback_fails": "Stop; formal model-feasibility/model-selection review; no prompt variants or P3 inference.",
+  "fallback_qualifies": "Researcher-confirmed calibration success>=7/8; prepare qualified pilot v2 only, do not execute80.",
+  "fidelity_scope": "Single-answer tasks cannot independently validate linguistic/behavioral fidelity or coherence; unavailable opportunity is not zero.",
+  "inference_activated": false,
+  "later_pilot": "Separate authorization; eight C0 first, audited>=6/8 to continue72; no substitutions.",
+  "normalization": "Same NFKC/whitespace/casefold/single-terminal-period rule as Q1; exact full-answer aliases frozen.",
+  "phase": "P1_ONLY",
+  "primary_comparison": "C3-C0 outdated-answer adoption incidence",
+  "reliability_endpoints": "Separate factual, temporal, task and component support; no composite",
+  "source": "Explicit current user sections8-14",
+  "statistical_scope": "Eight paired purposive synthetic cases, shared template/schema dependencies; descriptive development, no population/confirmatory claims",
+  "unknown_handling": "Report full category distribution, full8 denominator and unknown identification bounds; never code missing/unverifiable as observed outdated.",
+  "version": "fixed_minimal_temporal_fallback_policy_v1"
+}

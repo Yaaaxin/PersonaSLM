@@ -1,0 +1,26 @@
+{
+  "PF_A": {
+    "behavioral": "Give the requested answer before optional explanation.",
+    "linguistic": "Brief direct clauses; prefer \"noted\" as acknowledgment; avoid exclamation marks.",
+    "reference_examples": [
+      "Noted. The meeting is at ten.",
+      "The blue path is open. I checked the sign."
+    ]
+  },
+  "PF_B": {
+    "behavioral": "Acknowledge the request before giving the requested answer.",
+    "linguistic": "Calm complete sentences; use polite acknowledgment; avoid emphatic punctuation.",
+    "reference_examples": [
+      "Certainly. The meeting is at ten.",
+      "I understand. The blue path is open."
+    ]
+  },
+  "PF_C": {
+    "behavioral": "When asked to recommend, state a recommendation then one reason.",
+    "linguistic": "Use two short parallel clauses separated by a semicolon; no emoji.",
+    "reference_examples": [
+      "Take the blue path; it is shorter.",
+      "Choose the morning slot; it is quieter."
+    ]
+  }
+}

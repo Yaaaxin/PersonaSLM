@@ -1,0 +1,128 @@
+{
+  "version": "p1_automatic_scorer_date_usage_audit_v1",
+  "scope": "Static source trace plus targeted offline regression tests; no raw output regeneration or restricted-key access.",
+  "source_sha256": {
+    "tools/p1_measurement_scoring.py": "b567dec6f2479adfe6f787255b6828eb4292676a43f9b83333e04dd87a66a0b0",
+    "tools/p1_measurement_scoring_v2.py": "d3143d68593754b328b74f892900620192756903ce65038815207b1bb10c6c99",
+    "tools/p1_recovery_measurement_v2.py": "70a7ce4509c3ca839e9824158a6413762c83e817ea4bb53eef2b2778c61b6471",
+    "tools/p1_recovery_design.py": "6017b2de9973b136202e051e234891fce525bcdfd73719bff71b294d03057c2f",
+    "tools/p1_conditional_execution.py": "d51b15dd23bb268bd272bc7f7f4c6f28ee69d8a7027ab18b4019646b28602c65"
+  },
+  "call_chain": [
+    {
+      "path": "tools/p1_recovery_measurement_v2.py",
+      "function": "automatic",
+      "line": 45,
+      "behavior": "D0/D1 call p1_measurement_scoring_v2.score with the selected case record; D2/D3 call the frozen exact-alias Q1 scorer."
+    },
+    {
+      "path": "tools/p1_measurement_scoring_v2.py",
+      "function": "temporal_check",
+      "line": 24,
+      "behavior": "Q0 temporal validity checks each recognized value against c['requested_date'] and matching evidence intervals."
+    },
+    {
+      "path": "tools/p1_measurement_scoring.py",
+      "function": "score",
+      "line": 52,
+      "behavior": "Q0 dated-comparison task success binds march_bay to March and september_bay to September per required component."
+    },
+    {
+      "path": "tools/p1_recovery_design.py",
+      "function": "reference_audit",
+      "line": 56,
+      "behavior": "Reference witnesses are checked at a component-specific date before recovery scoring."
+    },
+    {
+      "path": "tools/p1_recovery_design.py",
+      "function": "q1",
+      "line": 93,
+      "behavior": "Q1 freezes one requested-date question and exact aliases; prose/date additions are not silently normalized into success."
+    },
+    {
+      "path": "tools/p1_conditional_execution.py",
+      "function": "automatic",
+      "line": 26,
+      "behavior": "Future Stage B retains the same Q0/Q1 dispatch but has not been executed."
+    }
+  ],
+  "conclusion": {
+    "registered_evaluation_date_substitution_confirmed": false,
+    "historical_date_binding_status": "NO_CONFIRMED_REGISTERED_DATE_SUBSTITUTION_DEFECT",
+    "corrected_scorer_created_in_this_audit": false,
+    "historical_score_files_rewritten": false,
+    "record_level_original_vs_corrected_comparison": "NOT_APPLICABLE: no new date-binding scorer version was justified; restricted anonymous-to-source mapping remains unopened."
+  },
+  "known_scope_limits": [
+    "The Q0 dated-comparison task matcher binds the two historical component names explicitly; that is valid for the frozen historical schema but is not a generic natural-language temporal parser.",
+    "Q0 comparison temporal-consistency remains Unverifiable in the v2 secondary endpoint even when task-success binding is exact; this is a documented coverage limit, not a false Correct result.",
+    "Q1 uses exact whole-answer aliases and does not provide an independent automatic temporal or semantic-completeness endpoint; submitted human temporal labels remain authoritative."
+  ],
+  "restricted_unblinding_key_read": false,
+  "stage_b_readiness": {
+    "ledger": {
+      "authorization_id": "P1_ACCELERATED_MEASUREMENT_20261015_V1",
+      "attempted": {
+        "A_C0": 32,
+        "B_FACTORIAL": 0,
+        "C_DIAGNOSTIC": 40
+      },
+      "remaining_authorization": {
+        "A_C0": 0,
+        "B_FACTORIAL": 80,
+        "C_DIAGNOSTIC": 8
+      },
+      "total_attempted": 72,
+      "total_remaining": 88,
+      "stage_B_activated": false,
+      "activation_required": "unblind and proceed"
+    },
+    "manifests": {
+      "D0": {
+        "path": "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D0_v2.json",
+        "requests": 80,
+        "executed": 0,
+        "sha256": "157afc1ca2243c58527f41c90cf120cdd215e51c6a17a01a65bf3bf7bd55568a",
+        "registered_hash_match": true
+      },
+      "D1": {
+        "path": "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D1_v2.json",
+        "requests": 80,
+        "executed": 0,
+        "sha256": "1cba4398e7e63dc2e077648b2a038a767ffb10e5a0444435b07921723d89a920",
+        "registered_hash_match": true
+      },
+      "D2": {
+        "path": "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D2_v2.json",
+        "requests": 80,
+        "executed": 0,
+        "sha256": "6936bd214e8691786366ecbc80cfb1ae56231f2a1645016dc2e691164e8b6016",
+        "registered_hash_match": true
+      },
+      "D3": {
+        "path": "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D3_v2.json",
+        "requests": 80,
+        "executed": 0,
+        "sha256": "d0b3e4f45e4abe729899f981f85044140c6cef23e320f25aa0e9e29997ba60c9",
+        "registered_hash_match": true
+      },
+      "fallback_calibration": {
+        "path": "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+        "requests": 8,
+        "executed": 0,
+        "sha256": "b23b9a35bba1ff9313e71f75759e8107b3d23b54f765c5fe736094263ff17cde",
+        "registered_hash_match": true
+      },
+      "minimal_temporal": {
+        "path": "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_minimal_temporal_SFH_pilot_v2.json",
+        "requests": 80,
+        "executed": 0,
+        "sha256": "6bc6421823371b9cad6140aad1046a3f9aebc2d4594e277b3601a3f4b6fc849e",
+        "registered_hash_match": true
+      }
+    },
+    "status": "READY_FOR_FUTURE_AUTHORIZED_UNBLINDING_ONLY",
+    "current_blocker": "The required standalone researcher authorization phrase has not been supplied; no unblinding, condition selection, or Stage B inference is permitted.",
+    "restricted_unblinding_key_read": false
+  }
+}

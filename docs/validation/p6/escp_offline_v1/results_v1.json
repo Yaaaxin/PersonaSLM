@@ -1,0 +1,674 @@
+[
+  {
+    "expected": true,
+    "fixture": "correct",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "correct",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "correct",
+    "matches_authored_expectation": false,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": true,
+    "fixture": "correct",
+    "matches_authored_expectation": false,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": true,
+    "fixture": "correct",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "correct",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": true
+  },
+  {
+    "expected": false,
+    "fixture": "expired_value",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "expired_value",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "expired_value",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "expired_value",
+    "matches_authored_expectation": true,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "expired_value",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "expired_value",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "wrong_entity",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "wrong_entity",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "wrong_entity",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "wrong_entity",
+    "matches_authored_expectation": true,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "wrong_entity",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "wrong_entity",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "wrong_time",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "wrong_time",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "wrong_time",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "wrong_time",
+    "matches_authored_expectation": true,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "wrong_time",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "wrong_time",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": false
+  },
+  {
+    "expected": true,
+    "fixture": "valid_historical_answer",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "valid_historical_answer",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "valid_historical_answer",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "valid_historical_answer",
+    "matches_authored_expectation": false,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": true,
+    "fixture": "valid_historical_answer",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "valid_historical_answer",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": true
+  },
+  {
+    "expected": false,
+    "fixture": "correct_intermediate_incomplete",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "correct_intermediate_incomplete",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "correct_intermediate_incomplete",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "correct_intermediate_incomplete",
+    "matches_authored_expectation": true,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "correct_intermediate_incomplete",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "correct_intermediate_incomplete",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "promise_not_delivery",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "promise_not_delivery",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "promise_not_delivery",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "promise_not_delivery",
+    "matches_authored_expectation": true,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "promise_not_delivery",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "promise_not_delivery",
+    "matches_authored_expectation": false,
+    "method": "no_delivery",
+    "supported_task": true
+  },
+  {
+    "expected": false,
+    "fixture": "trusted_conflict",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "trusted_conflict",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "trusted_conflict",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "trusted_conflict",
+    "matches_authored_expectation": true,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "trusted_conflict",
+    "matches_authored_expectation": false,
+    "method": "no_conflict",
+    "supported_task": true
+  },
+  {
+    "expected": false,
+    "fixture": "trusted_conflict",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unknown_interval",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unknown_interval",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unknown_interval",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unknown_interval",
+    "matches_authored_expectation": true,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unknown_interval",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unknown_interval",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unsupported_extra",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unsupported_extra",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unsupported_extra",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unsupported_extra",
+    "matches_authored_expectation": true,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unsupported_extra",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unsupported_extra",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unnecessary_abstention",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unnecessary_abstention",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unnecessary_abstention",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unnecessary_abstention",
+    "matches_authored_expectation": true,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unnecessary_abstention",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "unnecessary_abstention",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "negated_value_not_supported",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "negated_value_not_supported",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "negated_value_not_supported",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "negated_value_not_supported",
+    "matches_authored_expectation": true,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "negated_value_not_supported",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "negated_value_not_supported",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "semantic_extraction_uncertain",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "semantic_extraction_uncertain",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "semantic_extraction_uncertain",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "semantic_extraction_uncertain",
+    "matches_authored_expectation": true,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "semantic_extraction_uncertain",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "semantic_extraction_uncertain",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": false
+  },
+  {
+    "expected": true,
+    "fixture": "duplicate_same_value",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "duplicate_same_value",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "duplicate_same_value",
+    "matches_authored_expectation": false,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": true,
+    "fixture": "duplicate_same_value",
+    "matches_authored_expectation": false,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": true,
+    "fixture": "duplicate_same_value",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "duplicate_same_value",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": true
+  },
+  {
+    "expected": false,
+    "fixture": "missing_evidence",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "missing_evidence",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "missing_evidence",
+    "matches_authored_expectation": true,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "missing_evidence",
+    "matches_authored_expectation": true,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "missing_evidence",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": false
+  },
+  {
+    "expected": false,
+    "fixture": "missing_evidence",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": false
+  },
+  {
+    "expected": true,
+    "fixture": "correct_two_components",
+    "matches_authored_expectation": true,
+    "method": "escp_rules",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "correct_two_components",
+    "matches_authored_expectation": true,
+    "method": "declarative_reference",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "correct_two_components",
+    "matches_authored_expectation": false,
+    "method": "no_entity",
+    "supported_task": false
+  },
+  {
+    "expected": true,
+    "fixture": "correct_two_components",
+    "matches_authored_expectation": false,
+    "method": "no_time",
+    "supported_task": false
+  },
+  {
+    "expected": true,
+    "fixture": "correct_two_components",
+    "matches_authored_expectation": true,
+    "method": "no_conflict",
+    "supported_task": true
+  },
+  {
+    "expected": true,
+    "fixture": "correct_two_components",
+    "matches_authored_expectation": true,
+    "method": "no_delivery",
+    "supported_task": true
+  }
+]

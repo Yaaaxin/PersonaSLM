@@ -1,0 +1,17 @@
+{
+  "argv": [
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\bin\\llama.cpp\\llama-b11573-bin-win-cpu-x64\\llama-tokenize.exe",
+    "-m",
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\models\\gguf\\instruct_candidates\\lmstudio-bb84e113\\Qwen3.5-2B-Q4_K_M.gguf",
+    "--stdin",
+    "--ids",
+    "--offline"
+  ],
+  "finished_utc": "2026-10-14T16:21:18.921463+00:00",
+  "generation_requests": 0,
+  "prompt": "<|im_start|>user\nTASK RULES\nUse the trusted ledger for the requested date. Historical quotations describe their stated intervals.\nFICTIONAL PERSONA\nOwen Bellamy is a fictional volunteer. Use calm complete sentences; avoid slang.\nEVALUATION DATE\n2048-12-31\nTRUSTED EVIDENCE\n[D01F04] During 2048-04-01 through 2048-06-30, Owen Bellamy had locker Locker 105.\n[D01F05] During 2048-04-01 through 2048-06-30, Owen Bellamy had pickup_window 10:00-11:00.\nARCHIVED MATERIAL\n\nFIXED CONTEXT\nUser: Please prepare a collection note for Owen Bellamy.\nAssistant: I will use the ledger for that volunteer.\nCURRENT QUESTION\nGive both the locker and pickup window assigned to Owen Bellamy on 2048-05-15.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+  "returncode": 0,
+  "started_utc": "2026-10-14T16:21:18.284187+00:00",
+  "stderr": "0.00.543.092 W llama_context: n_ctx_seq (512) > n_ctx_train (0) -- possible training context overflow\r\n",
+  "stdout": "[248045, 846, 198, 63593, 42347, 50, 198, 9947, 279, 21118, 45366, 364, 279, 10897, 2321, 13, 38712, 83020, 7276, 836, 10661, 26126, 13, 198, 18836, 3461, 939, 54483, 32, 198, 46, 16451, 17349, 25392, 369, 264, 42140, 24347, 13, 5272, 18717, 4434, 22157, 26, 5471, 77159, 13, 198, 36, 5419, 52, 3381, 27611, 198, 17, 15, 19, 23, 12, 16, 17, 12, 18, 16, 198, 2301, 8291, 1425, 458, 7248, 9848, 198, 62724, 15, 16, 37, 15, 19, 60, 11615, 220, 17, 15, 19, 23, 12, 15, 19, 12, 15, 16, 1472, 220, 17, 15, 19, 23, 12, 15, 21, 12, 18, 15, 11, 45147, 17349, 25392, 995, 33531, 90733, 220, 16, 15, 20, 13, 198, 62724, 15, 16, 37, 15, 20, 60, 11615, 220, 17, 15, 19, 23, 12, 15, 19, 12, 15, 16, 1472, 220, 17, 15, 19, 23, 12, 15, 21, 12, 18, 15, 11, 45147, 17349, 25392, 995, 28619, 12211, 220, 16, 15, 25, 15, 15, 12, 16, 16, 25, 15, 15, 13, 198, 10473, 44995, 72563, 271, 38375, 1425, 84323, 198, 1421, 25, 5044, 10236, 264, 4281, 5020, 364, 45147, 17349, 25392, 13, 198, 69267, 25, 353, 668, 958, 279, 45366, 364, 421, 24347, 13, 198, 43208, 86830, 198, 33963, 2107, 279, 33531, 321, 28619, 3136, 12244, 310, 45147, 17349, 25392, 383, 220, 17, 15, 19, 23, 12, 15, 20, 12, 16, 20, 13, 248046, 198, 248045, 74455, 198, 248068, 271, 248069, 271]\r\n"
+}

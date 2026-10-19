@@ -1,0 +1,71 @@
+{
+  "version": "personaslm_literature_initial_check_v3",
+  "status": "SUCCESSOR_VALIDATED_LIVE_LOCAL_SCHEDULER",
+  "checked_date": "2026-10-17",
+  "recorded_utc": "2026-10-17T19:09:49.738Z",
+  "predecessor": {
+    "path": "docs/validation/literature_monitor_v1/initial_check_2026-10-17_v2.json",
+    "sha256": "c17b9fd699a6395287a15f3c9c5ebb1f5e1ed7f038d3f3a9ebb1c78c2ed61669",
+    "preservation": "UNCHANGED"
+  },
+  "supersession_scope": "Adds a null-tolerant Crossref partial-date parser and a real local Windows daily scheduler after the first scheduled execution exposed int(None) in date-parts. The reviewed eight-paper ledger and scientific novelty assessment are unchanged.",
+  "artifact_hashes": {
+    ".github/workflows/daily-literature-monitor.yml": "de2b98a5bf05976ee4ed1e4bffcf061231f794c2b9e260c23bc930dec28dd89f",
+    "docs/literature_surveillance_v1.md": "0c276914142820b9044b589e98357314dfb1ab3f42e7e03f94f5a7723fee1272",
+    "docs/validation/literature_monitor_v1/config_v1.json": "9cd77c2359880befb6d35db1ac4194e2a8bc1e3618822bfe9eb7775e8eb46023",
+    "docs/validation/literature_monitor_v1/ledger_schema_v1.json": "4d3ed644c5e4b39691ad1f5a44ba5a41a674c6165056c8dda80349e42c0f6bd4",
+    "docs/validation/literature_monitor_v1/reviewed_ledger_v1.json": "e643e206074d934edafc8572847bc21f63af5207d695e7119fbd4b169455ebd1",
+    "tests/test_literature_monitor.py": "c3739b382944bf632bff6b56b6e8eb8095ec12672d7a207ba383afd0ba0bf254",
+    "tools/literature_monitor.py": "4087d731133fad2da5e94e0e23e702785909cd370ebcf7163001cf90b3300d3f",
+    "tools/run_daily_literature_monitor.ps1": "29c3ec9ae0cc254e9bfccfb2508081721b48ae8ecd49202b71a498927eed74f9",
+    "docs/validation/literature_monitor_v1/local_scheduler_evidence_v1.json": "475933fe51f44d275470d06f6abbc0658f805d13961c9959ea435f2b20d8eeed"
+  },
+  "reviewed_ledger_records": 8,
+  "reviewer_type": "AI_ASSISTED_PRIMARY_SOURCE_REVIEW",
+  "human_confirmation": "NOT_RECORDED",
+  "scientific_interpretation_changed": false,
+  "scheduled_workflow": {
+    "github_actions_status": "CONFIGURED_LOCALLY_NOT_ACTIVE_UNTIL_DEFAULT_BRANCH_INTEGRATION",
+    "local_task_name": "PersonaSLM-Daily-Literature-Monitor",
+    "local_schedule": "DAILY_AT_04_23_LOCAL_TIME",
+    "local_logon_mode": "INTERACTIVE_ONLY_NO_STORED_PASSWORD",
+    "allow_battery": true,
+    "start_when_available": true,
+    "execution_time_limit_minutes": 20,
+    "credentials": "NONE",
+    "next_scheduled_local_time": "2026-10-18T04:23:00+02:00",
+    "status": "ENABLED_LIVE_SCHEDULED_RUN_PASSED",
+    "last_successful_scheduled_local": "2026-10-17T21:07:58+02:00",
+    "last_successful_scheduled_snapshot_sha256": "e01b7c70d3095b1355866f41cff036065da3996e61fef9745f9b831306a34afa",
+    "last_successful_scheduled_snapshot_records": 216,
+    "source_requests_succeeded": 13,
+    "source_requests_failed": 0
+  },
+  "preserved_failed_execution": {
+    "scheduled_start_local": "2026-10-17T20:55:30+02:00",
+    "last_result": 1,
+    "direct_reproduction": "TypeError from Crossref date-parts containing null; no reviewed ledger or protocol file was modified.",
+    "resolution": "Preserve a valid year when optional month/day are null, validate ranges, and record supported source parse exceptions as source failures."
+  },
+  "successful_live_retest": {
+    "scheduled_start_local": "2026-10-17T21:07:58+02:00",
+    "last_result": 0,
+    "private_ignored_snapshot": ".local/literature-monitor/daily_snapshot_20261017T190759Z.json",
+    "snapshot_sha256": "e01b7c70d3095b1355866f41cff036065da3996e61fef9745f9b831306a34afa",
+    "discovery_records": 216,
+    "source_requests_attempted": 13,
+    "source_requests_succeeded": 13,
+    "source_requests_failed": 0,
+    "scientific_status": "UNVERIFIED_AUTOMATED_DISCOVERY"
+  },
+  "test_evidence": {
+    "status": "PASS",
+    "command": ".venv/Scripts/python.exe -B -m pytest tests/test_literature_monitor.py -q -ra -p no:cacheprovider",
+    "passed": 12,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 1,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "model_inference_generations": 0
+}

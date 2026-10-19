@@ -1,0 +1,117 @@
+{
+  "schema_version": "personaslm_persona_dialogue_mechanism_posthoc_boundary_sensitivity_registration_v1",
+  "registered_utc": "2026-10-18T16:45:32.6512064Z",
+  "researcher": "Yaxin ZHENG",
+  "status": "POSTHOC_OUTPUT_INFORMED_SENSITIVITY_REGISTERED_BEFORE_EXECUTION",
+  "evidence_level": "EXPLORATORY_POSTHOC_MEASUREMENT_SENSITIVITY",
+  "question": "How much do the primary descriptive estimates change when a demonstrable response-boundary false positive caused by the preregistered Persona D phrase 'My pick:' is narrowly removed, while every raw response and the frozen exact decision parser remain unchanged?",
+  "rationale": {
+    "observed_instrument_interaction": "Across all 42 completed results, raw text beginning exactly with 'My pick:', the sole response-boundary reason unrecognized_line_label, and BOUNDARY_CENSORED formed the same 11-record set with no cross-cell exceptions.",
+    "why_posthoc": "This interaction was identified after generation and after the primary boundary policy was applied. The sensitivity is therefore explicitly output-informed and cannot replace the registered primary analysis.",
+    "scientific_need": "The 11 false-positive boundary exclusions are differentially concentrated in Persona D and four arms, so the primary missingness is not plausibly treated as random and materially widens paired logical bounds."
+  },
+  "bindings": {
+    "effective_manifest_sha256": "47f844ed4a65fb8c6742106a2e5f3b2346e8d1cf5231c2a100da182baaf177b5",
+    "execution_audit_sha256": "6f2201716d7d7fbd1356827cd29891a1e1b000e44757fb16f5e7c329036a59e3",
+    "analysis_v2_sha256": "0e690501107c8031dd3774a8b7845e9b1cf2dc61d7969404d70738e7bb32cef6",
+    "analysis_v2_reproduction_sha256": "16d325bb519339239882afa60d2cf31eaef6e4c7082770dc2b6c20b26770af3a",
+    "prospective_parser_clarification_v3_sha256": "ab100aee5d50e38d332770af4299103b0544a0b881a9c4bad8610520402dfb76",
+    "frozen_runner_sha256": "fd3bb9793ca2630d8e2e145d97bfb742ef197e5465346a8a420b38f592274b3f",
+    "run_directory": "results/p1_persona_dialogue_mechanism/adaptive_validation_v1/runs/20261018T163205-f99467d8295c4b628e23d285ade3f50b"
+  },
+  "inclusion_predicate": {
+    "all_conditions_required": true,
+    "original_measurement_state": "BOUNDARY_CENSORED",
+    "original_response_status": "AMBIGUOUS",
+    "original_response_status_reasons_exact": [
+      "unrecognized_line_label"
+    ],
+    "persona_id": "SYN_VAL_D",
+    "raw_response_nonempty": true,
+    "raw_response_prefix_exact": "My pick:",
+    "native_stop": true,
+    "native_stop_type": "eos",
+    "native_truncated": false,
+    "first_span_equals_raw_response": true,
+    "first_span_offsets_cover_full_raw_response": true,
+    "first_reply_sha256_equals_raw_text_sha256": true,
+    "removed_prefix_exact": "",
+    "excluded_tail_exact": "",
+    "raw_generation_and_result_text_and_token_ids_equal": true
+  },
+  "expected_selected_set": {
+    "count": 11,
+    "request_ids": [
+      "pdlg_mech_v1_val_d_aligned_entry_f_h_structure",
+      "pdlg_mech_v1_val_d_aligned_entry_s_f_h",
+      "pdlg_mech_v1_val_d_aligned_entry_s_f_no_h",
+      "pdlg_mech_v1_val_d_aligned_entry_s_h",
+      "pdlg_mech_v1_val_d_conflicting_room_f_h_structure",
+      "pdlg_mech_v1_val_d_conflicting_room_s_f_h",
+      "pdlg_mech_v1_val_d_conflicting_room_s_f_no_h",
+      "pdlg_mech_v1_val_d_conflicting_room_s_h",
+      "pdlg_mech_v1_val_d_irrelevant_path_s_f_h",
+      "pdlg_mech_v1_val_d_irrelevant_path_s_f_no_h",
+      "pdlg_mech_v1_val_d_irrelevant_path_s_h"
+    ],
+    "arm_counts": {
+      "F_H_STRUCTURE": 2,
+      "S_F_H": 3,
+      "S_F_NO_H": 3,
+      "S_H": 3
+    },
+    "history_regime_counts": {
+      "ALIGNED_HELPFUL": 3,
+      "IRRELEVANT": 4,
+      "OUTDATED_CONFLICTING": 4
+    }
+  },
+  "authorized_transformation": {
+    "scope": "Only an in-memory sensitivity copy of records satisfying every inclusion condition.",
+    "boundary_change": "Treat the complete unchanged first span as assessable despite its sole unrecognized_line_label flag.",
+    "raw_text_change": false,
+    "token_change": false,
+    "stopping_change": false,
+    "alias_change": false,
+    "fuzzy_matching": false,
+    "manual_judgment": false,
+    "parser_change": false,
+    "parser_to_apply": "The frozen v3 direct-clause anchored exact parser without additions.",
+    "unresolved_policy": "Any record still not resolved by the frozen exact parser remains null."
+  },
+  "outcomes": {
+    "arm_summaries": [
+      "current_named_selection",
+      "current_preference_choice",
+      "full_canonical_both",
+      "history_target_selection"
+    ],
+    "paired_contrasts": [
+      "F_H_RAW_minus_S_F_NO_H",
+      "F_H_REFRESH_minus_F_H_RAW",
+      "F_H_STRUCTURE_minus_F_H_RAW",
+      "S_F_H_minus_F_H_RAW",
+      "S_H_minus_H_ONLY"
+    ],
+    "reporting": "Report primary and sensitivity estimates side by side, including resolved denominators and logical missing-outcome bounds. Compute no p-values."
+  },
+  "integrity_rules": {
+    "primary_analysis_remains_unchanged": true,
+    "raw_outputs_remain_unchanged": true,
+    "output_must_not_embed_raw_response_text": true,
+    "new_model_generations": 0,
+    "network_calls": 0,
+    "exclusive_versioned_output_required": true,
+    "implementation_must_be_tested_and_source_bound_before_execution": true
+  },
+  "interpretation_limits": [
+    "The registered primary analysis and its logical bounds remain primary.",
+    "This output-informed sensitivity is not confirmatory evidence and cannot unlock the frozen independent-validation branch.",
+    "The sensitivity does not establish general Persona Fidelity, a human semantic judgment, real-speaker validity, an internal causal mechanism, or algorithmic novelty.",
+    "Two selected F_H_STRUCTURE records lack explicit S conditioning, so the generation of 'My pick:' cannot be attributed solely to the explicit Style factor.",
+    "Native EOS establishes a native stopping event, not semantic completeness.",
+    "The six cases remain purposive synthetic cases from one model configuration."
+  ],
+  "maximum_new_model_generations": 0,
+  "authorized_output_path": "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_v1.json"
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": "personaslm_rpc_sfh_research_state_v1_1",
+  "recorded_date_utc": "2026-10-19",
+  "milestone": "FIRST_REAL_SPEAKER_SFH_MODEL_PILOT_COMPLETE_PROXY_ONLY",
+  "evidence_level": "OBSERVED_DEVELOPMENT_EXPLORATORY",
+  "research_complete": false,
+  "repository": {
+    "branch": "research/autonomous-personaslm",
+    "source_head": "c40667ad266082481b1850453f67784b593f3723",
+    "runtime_uncommitted_sources_hash_bound_and_snapshotted": true,
+    "git_commit_or_push_performed": false,
+    "governance": "AGENTS.md reserves commits and pushes to the human researcher."
+  },
+  "prior_budget": {
+    "generations": 508,
+    "inference_seconds": 3171.544608799969,
+    "source": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v3/analysis_v3.json",
+    "sha256": "0a2d4547a6501991d6b9f1855a4f4081ff885bba5e700f226757ace58d182a44"
+  },
+  "actual_execution": {
+    "private_run": ".local/experiments/real_persona_chat_sfh_pilot_v1/execution_v1/runs/20261019T070752-5df1d2ab1c744cc28c3d0c3fd377a2ef",
+    "status": "COMPLETE",
+    "development_speakers": 8,
+    "contexts_per_speaker": 1,
+    "conditions": 8,
+    "attempts": 64,
+    "raw_responses": 64,
+    "failed_completion_calls": 0,
+    "retries": 0,
+    "hidden_warmups": 0,
+    "unattempted_suffix": [],
+    "completion_inference_seconds": 342.59149519992934,
+    "batch_wall_seconds": 351.21225779999804,
+    "generated_tokens": 1614,
+    "native_stop_counts": {"eos": 60, "limit": 4},
+    "peak_server_working_set_bytes": 2581692416,
+    "minimum_observed_available_physical_bytes": 2332139520,
+    "journal_terminal_event_sha256": "4a86610ce70bced30790e9b1699f9baec0d78f6a4601c04a2703a4ade0655eab"
+  },
+  "cumulative_authorization_usage": {
+    "generation_ceiling": 1200,
+    "generations_consumed": 572,
+    "generations_remaining": 628,
+    "inference_seconds_ceiling": 72000,
+    "inference_seconds_consumed": 3514.1361039998983,
+    "inference_seconds_remaining": 68485.8638960001,
+    "budget_reset": false
+  },
+  "measurement": {
+    "all_response_resource_contrast_speakers": 8,
+    "text_proxy_coverage": "60/64",
+    "complete_text_contrast_speakers": 5,
+    "S_generated_token_effect": -18.9375,
+    "F_latency_seconds_effect": 1.9485559000,
+    "H_latency_seconds_effect": 0.75362931875,
+    "S_style_distance_effect": -0.10408279569892473,
+    "posthoc_length_coordinate_signed_share_percent": 78.94218484732654,
+    "semantic_persona_fidelity_established": false,
+    "semantic_reliability_established": false,
+    "boundary_compatibility_issue": "Frozen parser recognizes eog but backend emits eos; 60 parser statuses are AMBIGUOUS. Implemented structural flag accepts non-TRUNCATED identifiable nonempty replies, not certified boundaries. Frozen labels remain unchanged.",
+    "uncertainty": "Descriptive speaker leave-one-out influence ranges only; no calibrated confidence interval or confirmatory significance.",
+    "limitations": "One model, eight development speakers, one context each, condition-dependent censoring; explicit numeric style targets and non-orthogonal natural history. Proxy conformity is not speaker identity or human Persona Fidelity."
+  },
+  "human_review": {
+    "new_package_records": 64,
+    "human_labels": 0,
+    "ai_labels": 0,
+    "draft_status": "DRAFT_VALID",
+    "draft_errors": 0,
+    "unfinished_rows": 64,
+    "working_copy": ".local/reviewer-packages/real_persona_chat_sfh_pilot_v1/stage_a_delivery/stage_a_WORKING_COPY.csv",
+    "blank_template_sha256": "2dee98fc1b9ec2b6ac88b3f5751285cc111fb446f4ce7c02e0a2da95aa08e36d",
+    "package_receipt_sha256": "13002261fab7d4a990f605fcdc8cff01e2f78a259153b9477756aa732ca78424",
+    "protected_mapping_opened_for_review": false,
+    "minimum_human_action": "A Japanese-competent reviewer reads the delivery instructions, truthfully records language ability, prior rubric/item/output exposure and assistance, then completes all 64 dispositions while saving incrementally. Do not inspect protected mapping or use AI labels as human judgments.",
+    "historical_review_requirements": "168-record synthetic review and 16-record Stage B/Candidate 1 review remain separate and pending.",
+    "independence": "Condition masking does not imply independent reviewer provenance; one researcher does not establish inter-rater reliability."
+  },
+  "validation_and_algorithm": {
+    "reserved_independent_validation_speakers": 58,
+    "reserved_target_content_accessed": false,
+    "independent_numeric_analysis": "PASS; separately implemented arithmetic, shared frozen boundary parser disclosed",
+    "generation_reproduction": "NOT_EXECUTED",
+    "independent_experimental_validation": "NOT_YET_ESTABLISHED",
+    "validated_original_algorithm": "NOT_YET_ESTABLISHED",
+    "public_clone_reproducibility": "PARTIAL_PRIVATE_RAW_DATA_AND_MODEL_ARTIFACTS_REQUIRED"
+  },
+  "historical_preservation": {
+    "candidate_1": "1/8; frozen failed 7/8 screen",
+    "candidate_2": "2/8; frozen failed 7/8 screen",
+    "bounded_screen": "BOUNDED_SCREEN_NEGATIVE",
+    "synthetic_validation": "168 generations already completed; no rerun; failed replication and differential evaluator coverage retained",
+    "synthetic_mechanism_v4": "96 planned, 0 generated; old 508-generation accounting baseline is stale after this pilot. Prospective accounting amendment and unresolved native-token gates required before execution. Its frozen 4-GiB RAM requirement remains unchanged; no new v4 RAM preflight was performed."
+  },
+  "literature": {
+    "scheduled_metadata_records": 216,
+    "source_requests_succeeded": 13,
+    "source_requests_attempted": 13,
+    "added_stable_ids": 4,
+    "absent_stable_ids": 5,
+    "metadata_only_changes": 1,
+    "established_publication_transitions": 0,
+    "working_daily_sources": ["arxiv", "crossref", "openalex"],
+    "scheduled_deep_ai_review": false,
+    "last_scheduler_run_local": "2026-10-19T04:23:23+02:00",
+    "last_scheduler_result": 0,
+    "next_scheduler_run_local": "2026-10-20T04:23:23+02:00",
+    "coverage": "Not comprehensive surveillance; no direct daily ACL/OpenReview/Semantic Scholar queries verified. Three relevant added papers received bounded primary-method review."
+  },
+  "bindings": [
+    {"path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/prospective_execution_registration_v1_1.json", "sha256": "99961d9b9eec09f58677daf1a5cf8af89b8bd8e8b9b4d7a02a9c53695101f9ce"},
+    {"path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/execution_authorization_amendment_v1_1.json", "sha256": "1d88f647e167017bf23a4a3eaa07f583aa19a1e8eeef4711a186afc2ee50a25d"},
+    {"path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/analysis_v1_1.json", "sha256": "2adca94fceb295e2a2d29266aaca9f60280c964a330d561b5dca12c3d59df914"},
+    {"path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/execution_audit_v1_1.json", "sha256": "314b45798a5f8f00c5497d05b853def6de723a0e164bf624300ca59afe6573da"},
+    {"path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/independent_analysis_reproduction_v1.json", "sha256": "80cd8afa7e26089ca6f027c28683b76b7160d1c6d6cb596dbe9a00562e10ec0f"},
+    {"path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/posthoc_style_coordinate_decomposition_v1.json", "sha256": "1888a22856dd4541dd307b635f40f01893b49ebf1ce721fec38f672cb0b48cee"},
+    {"path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/human_review_protocol_v1.json", "sha256": "a9be9c934d1fb09cbbe62f3d5d54930a9b2558a5e8ac2609c2fcb4382cc5e3d0"},
+    {"path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/scientific_report_v1_1.md", "sha256": "71855d81380304e4b92f959e66307da965542ea55a6c87e9b83be4cc48f472d2"},
+    {"path": "docs/validation/p1/real_persona_chat_sfh_pilot_v1/local_preservation_receipt_v1.json", "sha256": "d5251c91defd752ffc769a1d49701c22afe50825f0d48dcdadd30640faf32386"},
+    {"path": "docs/validation/literature_monitor_v1/daily_scheduled_delta_2026-10-19_v1.json", "sha256": "63fbea48c8f2acd99c3052abb4c42c60d72d18e2e90d167cccb4d277024ee8cb"},
+    {"path": "docs/PersonaSLM_manuscript_working_v2.md", "sha256": "fc843c1f30806797acd69a68f7b9fe6090f9a6776e4ed995f751de04da9b1635"}
+  ],
+  "deterministic_resume": [
+    "Read this checkpoint and later appended development-log entries; verify bound artifacts and subsequent budget use before allocating anything.",
+    "Do not call this completed pilot's run action again; all 64 authorized slots are consumed and no unattempted suffix exists.",
+    "Accept genuine review submissions through validate-draft and validate-final; preserve originals and truthful reviewer provenance. Final validation alone does not seal or authorize unblinding.",
+    "Before future generation, prospectively repair boundary-label compatibility and define a construct-relevant endpoint with finite development allocation and fresh official RAM preflight.",
+    "Use length-only and mismatched-profile controls as candidate falsification comparisons, not an already executed study or algorithmic novelty claim.",
+    "Freeze model, prompts, outcomes and analysis before opening the 58 independent-validation speakers; retain sufficient remaining budget.",
+    "All code and documentation changes remain uncommitted for human Git review. Same-volume local backups are not off-device or remote backups."
+  ]
+}

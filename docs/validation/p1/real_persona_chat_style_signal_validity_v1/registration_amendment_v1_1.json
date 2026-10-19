@@ -1,0 +1,11 @@
+{
+  "schema_version": "personaslm_rpc_style_signal_validity_v1_registration_amendment_1",
+  "status": "PROSPECTIVE_IMPLEMENTATION_CORRECTION_BEFORE_DATA_ACCESS",
+  "parent_registration_sha256": "9526ce41fff3ffe6dd9a1491c1a8d8077770617ac387ca3cbd236a53160716b6",
+  "original_controller_sha256": "8164ad41e424d8048db6784cb5625cd89871755baa74d05cd4f07ff8db09a496",
+  "corrected_controller_sha256": "ea1cd4b7c1beff933db403fd27c13969a89c7ce352eb3b671f3c5505e25342f7",
+  "correction": "Read split_assignment_sha256 from the registered split_policy object rather than the registration root.",
+  "failed_attempt": "KeyError before development manifest construction",
+  "control_outcomes_computed_before_amendment": false,
+  "participant_text_parsed_before_amendment": false
+}

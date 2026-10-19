@@ -1,0 +1,23 @@
+{
+  "version": "p1_researcher_audit_regression_evidence_v1",
+  "started_utc": "2026-10-16T18:19:52.972082+00:00",
+  "finished_utc": "2026-10-16T18:21:24.302336+00:00",
+  "command": [
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_p1_researcher_audit_integration.py",
+    "tests/test_p1_temporal_date_binding.py",
+    "tests/test_p1_measurement_pilot.py",
+    "tests/test_p1_recovery_v2.py",
+    "tests/test_p1_recovery_measurement_v2.py",
+    "tests/test_p1_recovery_2x2.py",
+    "tests/test_p1_blinded_stage_a.py",
+    "-q"
+  ],
+  "returncode": 1,
+  "stdout": "..................................................F..................... [ 60%]\n........................s....................F.                          [100%]\n================================== FAILURES ===================================\n________________________ test_actual_cumulative_scope _________________________\n\n    def test_actual_cumulative_scope():\n        ledger=run.cumulative()\n>       assert ledger['attempted']=={'A_C0':32,'B_FACTORIAL':0,'C_DIAGNOSTIC':16}\nE       AssertionError: assert {'A_C0': 32, ...AGNOSTIC': 40} == {'A_C0': 32, ...AGNOSTIC': 16}\nE         \nE         Omitting 2 identical items, use -vv to show\nE         Differing items:\nE         {'C_DIAGNOSTIC': 40} != {'C_DIAGNOSTIC': 16}\nE         Use -v to get more diff\n\ntests\\test_p1_measurement_pilot.py:180: AssertionError\n_______ test_all_frozen_candidates_actual_tokens_and_disjoint_materials _______\n\n    def test_all_frozen_candidates_actual_tokens_and_disjoint_materials():\n>       result=m.validate_all();assert sum(result['candidate_requests'].values())==408\n               ^^^^^^^^^^^^^^^^\n\ntests\\test_p1_blinded_stage_a.py:145: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntools\\p1_conditional_materials.py:221: in validate_all\n    for path,h in policy['frozen_sources'].items():s.require(s.sha256(Path(path))==h,'Frozen policy/source changed: '+path)\n                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nvalue = False\nmessage = 'Frozen policy/source changed: tools/p1_recovery_design.py'\n\n    def require(value, message):\n>       if not value: raise ValueError(message)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^\nE       ValueError: Frozen policy/source changed: tools/p1_recovery_design.py\n\ntools\\p1d_budget_calibration.py:34: ValueError\n=========================== short test summary info ===========================\nFAILED tests/test_p1_measurement_pilot.py::test_actual_cumulative_scope - Ass...\nFAILED tests/test_p1_blinded_stage_a.py::test_all_frozen_candidates_actual_tokens_and_disjoint_materials\n2 failed, 116 passed, 1 skipped in 90.75s (0:01:30)\n",
+  "stderr": "",
+  "scope": "Offline validation only; no model server, CPU generation, unblinding, or restricted-key access.",
+  "restricted_unblinding_key_read": false
+}

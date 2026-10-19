@@ -1,0 +1,5684 @@
+{
+  "analysis_claim_boundary": "The added matrix is an exploratory descriptive analysis of narrow deterministic endpoints in 12 synthetic controlled next-turn choice cases. It is not broad Persona Fidelity, semantic dialogue quality, real-speaker evidence, cross-model evidence, confirmatory inference, or proof of a causal mechanism.",
+  "analysis_completion_amendment_sha256": "867aac85c5cc0962a657fa6befc4b05c1b11d877d46cfc901a8a43bb0a8751a3",
+  "case_bank_sha256": "a93cd629c0d152e9eb2325399235882beaebf510d4b6e32b24724975554fab8c",
+  "claim_boundary": "The effective 96-request study may be described only as a disjoint held-out synthetic replication on controlled next-turn choice cases; it is not a natural-conversation, real-speaker, human, cross-model, or confirmatory validation.",
+  "condition_summary": {
+    "C0": {
+      "current_named_selection": {
+        "logical_lower": 0.9166666666666666,
+        "logical_upper": 1.0,
+        "mean_resolved": 1.0,
+        "missing": 1,
+        "ones": 11,
+        "resolved_denominator": 11,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "current_preference_choice": {
+        "logical_lower": 0.6666666666666666,
+        "logical_upper": 0.75,
+        "mean_resolved": 0.7272727272727273,
+        "missing": 1,
+        "ones": 8,
+        "resolved_denominator": 11,
+        "total_slots": 12,
+        "zeros": 3
+      },
+      "exact_current_note_support": {
+        "CONTRADICTED": 3,
+        "MISSING_OR_NOT_APPLICABLE": 1,
+        "SUPPORTED": 3,
+        "UNRESOLVED": 5
+      },
+      "full_canonical_both": {
+        "logical_lower": 0.6666666666666666,
+        "logical_upper": 0.6666666666666666,
+        "mean_resolved": 0.6666666666666666,
+        "missing": 0,
+        "ones": 8,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 4
+      },
+      "history_target_selection": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.08333333333333333,
+        "mean_resolved": 0.0,
+        "missing": 1,
+        "ones": 0,
+        "resolved_denominator": 11,
+        "total_slots": 12,
+        "zeros": 11
+      },
+      "selection_categories": {
+        "CURRENT_A": 7,
+        "CURRENT_B": 4,
+        "UNRESOLVED_NO_EXACT_TARGET": 1
+      },
+      "surface_style_uptake": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.0,
+        "mean_resolved": 0.0,
+        "missing": 0,
+        "ones": 0,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 12
+      }
+    },
+    "C1": {
+      "current_named_selection": {
+        "logical_lower": 0.9166666666666666,
+        "logical_upper": 1.0,
+        "mean_resolved": 1.0,
+        "missing": 1,
+        "ones": 11,
+        "resolved_denominator": 11,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "current_preference_choice": {
+        "logical_lower": 0.5,
+        "logical_upper": 0.5833333333333334,
+        "mean_resolved": 0.5454545454545454,
+        "missing": 1,
+        "ones": 6,
+        "resolved_denominator": 11,
+        "total_slots": 12,
+        "zeros": 5
+      },
+      "exact_current_note_support": {
+        "MISSING_OR_NOT_APPLICABLE": 1,
+        "SUPPORTED": 8,
+        "UNRESOLVED": 3
+      },
+      "full_canonical_both": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.0,
+        "mean_resolved": 0.0,
+        "missing": 0,
+        "ones": 0,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 12
+      },
+      "history_target_selection": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.08333333333333333,
+        "mean_resolved": 0.0,
+        "missing": 1,
+        "ones": 0,
+        "resolved_denominator": 11,
+        "total_slots": 12,
+        "zeros": 11
+      },
+      "selection_categories": {
+        "CURRENT_A": 9,
+        "CURRENT_B": 2,
+        "UNRESOLVED_NO_EXACT_TARGET": 1
+      },
+      "surface_style_uptake": {
+        "logical_lower": 1.0,
+        "logical_upper": 1.0,
+        "mean_resolved": 1.0,
+        "missing": 0,
+        "ones": 12,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 0
+      }
+    },
+    "C2": {
+      "current_named_selection": {
+        "logical_lower": 0.9166666666666666,
+        "logical_upper": 1.0,
+        "mean_resolved": 1.0,
+        "missing": 1,
+        "ones": 11,
+        "resolved_denominator": 11,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "current_preference_choice": {
+        "logical_lower": 0.9166666666666666,
+        "logical_upper": 1.0,
+        "mean_resolved": 1.0,
+        "missing": 1,
+        "ones": 11,
+        "resolved_denominator": 11,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "exact_current_note_support": {
+        "CONTRADICTED": 1,
+        "MISSING_OR_NOT_APPLICABLE": 1,
+        "SUPPORTED": 2,
+        "UNRESOLVED": 8
+      },
+      "full_canonical_both": {
+        "logical_lower": 0.4166666666666667,
+        "logical_upper": 0.4166666666666667,
+        "mean_resolved": 0.4166666666666667,
+        "missing": 0,
+        "ones": 5,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 7
+      },
+      "history_target_selection": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.08333333333333333,
+        "mean_resolved": 0.0,
+        "missing": 1,
+        "ones": 0,
+        "resolved_denominator": 11,
+        "total_slots": 12,
+        "zeros": 11
+      },
+      "selection_categories": {
+        "CURRENT_A": 6,
+        "CURRENT_B": 5,
+        "UNRESOLVED_NO_EXACT_TARGET": 1
+      },
+      "surface_style_uptake": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.0,
+        "mean_resolved": 0.0,
+        "missing": 0,
+        "ones": 0,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 12
+      }
+    },
+    "C3": {
+      "current_named_selection": {
+        "logical_lower": 0.0,
+        "logical_upper": 1.0,
+        "mean_resolved": null,
+        "missing": 12,
+        "ones": 0,
+        "resolved_denominator": 0,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "current_preference_choice": {
+        "logical_lower": 0.0,
+        "logical_upper": 1.0,
+        "mean_resolved": null,
+        "missing": 12,
+        "ones": 0,
+        "resolved_denominator": 0,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "exact_current_note_support": {
+        "MISSING_OR_NOT_APPLICABLE": 12
+      },
+      "full_canonical_both": {
+        "logical_lower": 0.25,
+        "logical_upper": 0.25,
+        "mean_resolved": 0.25,
+        "missing": 0,
+        "ones": 3,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 9
+      },
+      "history_target_selection": {
+        "logical_lower": 0.0,
+        "logical_upper": 1.0,
+        "mean_resolved": null,
+        "missing": 12,
+        "ones": 0,
+        "resolved_denominator": 0,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "selection_categories": {
+        "UNRESOLVED_NO_EXACT_TARGET": 12
+      },
+      "surface_style_uptake": {
+        "logical_lower": 0.08333333333333333,
+        "logical_upper": 0.08333333333333333,
+        "mean_resolved": 0.08333333333333333,
+        "missing": 0,
+        "ones": 1,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 11
+      }
+    },
+    "C4": {
+      "current_named_selection": {
+        "logical_lower": 0.9166666666666666,
+        "logical_upper": 1.0,
+        "mean_resolved": 1.0,
+        "missing": 1,
+        "ones": 11,
+        "resolved_denominator": 11,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "current_preference_choice": {
+        "logical_lower": 0.6666666666666666,
+        "logical_upper": 0.75,
+        "mean_resolved": 0.7272727272727273,
+        "missing": 1,
+        "ones": 8,
+        "resolved_denominator": 11,
+        "total_slots": 12,
+        "zeros": 3
+      },
+      "exact_current_note_support": {
+        "MISSING_OR_NOT_APPLICABLE": 1,
+        "SUPPORTED": 3,
+        "UNRESOLVED": 8
+      },
+      "full_canonical_both": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.0,
+        "mean_resolved": 0.0,
+        "missing": 0,
+        "ones": 0,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 12
+      },
+      "history_target_selection": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.08333333333333333,
+        "mean_resolved": 0.0,
+        "missing": 1,
+        "ones": 0,
+        "resolved_denominator": 11,
+        "total_slots": 12,
+        "zeros": 11
+      },
+      "selection_categories": {
+        "CURRENT_A": 9,
+        "CURRENT_B": 2,
+        "UNRESOLVED_NO_EXACT_TARGET": 1
+      },
+      "surface_style_uptake": {
+        "logical_lower": 0.8333333333333334,
+        "logical_upper": 0.8333333333333334,
+        "mean_resolved": 0.8333333333333334,
+        "missing": 0,
+        "ones": 10,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 2
+      }
+    },
+    "C5": {
+      "current_named_selection": {
+        "logical_lower": 0.08333333333333333,
+        "logical_upper": 1.0,
+        "mean_resolved": 1.0,
+        "missing": 11,
+        "ones": 1,
+        "resolved_denominator": 1,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "current_preference_choice": {
+        "logical_lower": 0.08333333333333333,
+        "logical_upper": 1.0,
+        "mean_resolved": 1.0,
+        "missing": 11,
+        "ones": 1,
+        "resolved_denominator": 1,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "exact_current_note_support": {
+        "MISSING_OR_NOT_APPLICABLE": 11,
+        "UNRESOLVED": 1
+      },
+      "full_canonical_both": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.0,
+        "mean_resolved": 0.0,
+        "missing": 0,
+        "ones": 0,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 12
+      },
+      "history_target_selection": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.9166666666666666,
+        "mean_resolved": 0.0,
+        "missing": 11,
+        "ones": 0,
+        "resolved_denominator": 1,
+        "total_slots": 12,
+        "zeros": 1
+      },
+      "selection_categories": {
+        "CURRENT_B": 1,
+        "UNRESOLVED_NO_EXACT_TARGET": 11
+      },
+      "surface_style_uptake": {
+        "logical_lower": 1.0,
+        "logical_upper": 1.0,
+        "mean_resolved": 1.0,
+        "missing": 0,
+        "ones": 12,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 0
+      }
+    },
+    "C6": {
+      "current_named_selection": {
+        "logical_lower": 0.0,
+        "logical_upper": 1.0,
+        "mean_resolved": null,
+        "missing": 12,
+        "ones": 0,
+        "resolved_denominator": 0,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "current_preference_choice": {
+        "logical_lower": 0.0,
+        "logical_upper": 1.0,
+        "mean_resolved": null,
+        "missing": 12,
+        "ones": 0,
+        "resolved_denominator": 0,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "exact_current_note_support": {
+        "MISSING_OR_NOT_APPLICABLE": 12
+      },
+      "full_canonical_both": {
+        "logical_lower": 0.25,
+        "logical_upper": 0.25,
+        "mean_resolved": 0.25,
+        "missing": 0,
+        "ones": 3,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 9
+      },
+      "history_target_selection": {
+        "logical_lower": 0.0,
+        "logical_upper": 1.0,
+        "mean_resolved": null,
+        "missing": 12,
+        "ones": 0,
+        "resolved_denominator": 0,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "selection_categories": {
+        "UNRESOLVED_NO_EXACT_TARGET": 12
+      },
+      "surface_style_uptake": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.0,
+        "mean_resolved": 0.0,
+        "missing": 0,
+        "ones": 0,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 12
+      }
+    },
+    "C7": {
+      "current_named_selection": {
+        "logical_lower": 0.08333333333333333,
+        "logical_upper": 1.0,
+        "mean_resolved": 1.0,
+        "missing": 11,
+        "ones": 1,
+        "resolved_denominator": 1,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "current_preference_choice": {
+        "logical_lower": 0.08333333333333333,
+        "logical_upper": 1.0,
+        "mean_resolved": 1.0,
+        "missing": 11,
+        "ones": 1,
+        "resolved_denominator": 1,
+        "total_slots": 12,
+        "zeros": 0
+      },
+      "exact_current_note_support": {
+        "MISSING_OR_NOT_APPLICABLE": 11,
+        "UNRESOLVED": 1
+      },
+      "full_canonical_both": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.0,
+        "mean_resolved": 0.0,
+        "missing": 0,
+        "ones": 0,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 12
+      },
+      "history_target_selection": {
+        "logical_lower": 0.0,
+        "logical_upper": 0.9166666666666666,
+        "mean_resolved": 0.0,
+        "missing": 11,
+        "ones": 0,
+        "resolved_denominator": 1,
+        "total_slots": 12,
+        "zeros": 1
+      },
+      "selection_categories": {
+        "CURRENT_B": 1,
+        "UNRESOLVED_NO_EXACT_TARGET": 11
+      },
+      "surface_style_uptake": {
+        "logical_lower": 1.0,
+        "logical_upper": 1.0,
+        "mean_resolved": 1.0,
+        "missing": 0,
+        "ones": 12,
+        "resolved_denominator": 12,
+        "total_slots": 12,
+        "zeros": 0
+      }
+    }
+  },
+  "cumulative_authorization_after": {
+    "generations_limit": 1200,
+    "generations_used": 202,
+    "inference_seconds_limit": 72000,
+    "inference_seconds_used": 1187.2563158999974
+  },
+  "deactivated_controls": {
+    "N_HISTORY": {
+      "attempts": 0,
+      "status": "NOT_EXECUTED_DEACTIVATED"
+    },
+    "N_STYLE": {
+      "attempts": 0,
+      "status": "NOT_EXECUTED_DEACTIVATED"
+    }
+  },
+  "design_sha256": "628bedc18b8aa549cb165fbfb3f33ffbb889b5ad3090d7ef86f58112476c156c",
+  "effective_description": "controlled synthetic next-turn choice cases",
+  "evidence_level": "PROSPECTIVE_INDEPENDENT_CASE_SYNTHETIC_REPLICATION",
+  "execution_audit_sha256": "ed74b2f0b11c3c4a7233d290bf8ca8121b065e311765419fbc3166e9d4afb118",
+  "factorial_effect_matrix": {
+    "effects": {
+      "F": {
+        "current_named_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -0.25,
+              "logical_upper": 0.25,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5277777777777778,
+              "logical_upper": 0.5277777777777778
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.4722222222222222,
+              "logical_upper": 0.4722222222222222
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5555555555555556,
+              "logical_upper": 0.5555555555555556
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5277777777777778,
+              "logical_upper": 0.5277777777777778
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.5208333333333334,
+          "logical_upper": 0.5208333333333334,
+          "metric": "current_named_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": 0.25,
+            "C3": -0.25,
+            "C4": 0.25,
+            "C5": -0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        },
+        "current_preference_choice": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -0.25,
+              "logical_upper": 0.75,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -0.25,
+              "logical_upper": 0.75,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.4166666666666667,
+              "logical_upper": 0.6388888888888888
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.3333333333333333,
+              "logical_upper": 0.6111111111111112
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5277777777777778,
+              "logical_upper": 0.5833333333333334
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.3888888888888889,
+              "logical_upper": 0.6666666666666666
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.4166666666666667,
+          "logical_upper": 0.625,
+          "metric": "current_preference_choice",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": 0.25,
+            "C3": -0.25,
+            "C4": 0.25,
+            "C5": -0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        },
+        "history_target_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -0.25,
+              "logical_upper": 0.25,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5277777777777778,
+              "logical_upper": 0.5277777777777778
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.4722222222222222,
+              "logical_upper": 0.4722222222222222
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5555555555555556,
+              "logical_upper": 0.5555555555555556
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5277777777777778,
+              "logical_upper": 0.5277777777777778
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.5208333333333334,
+          "logical_upper": 0.5208333333333334,
+          "metric": "history_target_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": 0.25,
+            "C3": -0.25,
+            "C4": 0.25,
+            "C5": -0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        },
+        "surface_style_uptake": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": -0.25,
+              "logical_lower": -0.25,
+              "logical_upper": -0.25,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": -0.25,
+              "logical_lower": -0.25,
+              "logical_upper": -0.25,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": -0.25,
+              "logical_lower": -0.25,
+              "logical_upper": -0.25,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": -0.0625,
+          "complete_cases": 12,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": -0.08333333333333333,
+              "complete_cases": 9,
+              "logical_lower": -0.08333333333333333,
+              "logical_upper": -0.08333333333333333
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": -0.027777777777777776,
+              "complete_cases": 9,
+              "logical_lower": -0.027777777777777776,
+              "logical_upper": -0.027777777777777776
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": -0.05555555555555555,
+              "complete_cases": 9,
+              "logical_lower": -0.05555555555555555,
+              "logical_upper": -0.05555555555555555
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": -0.08333333333333333,
+              "complete_cases": 9,
+              "logical_lower": -0.08333333333333333,
+              "logical_upper": -0.08333333333333333
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            -0.08333333333333333,
+            -0.027777777777777776
+          ],
+          "logical_lower": -0.0625,
+          "logical_upper": -0.0625,
+          "metric": "surface_style_uptake",
+          "unresolved_cases": 0,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": 0.25,
+            "C3": -0.25,
+            "C4": 0.25,
+            "C5": -0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        }
+      },
+      "FxH": {
+        "current_named_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0555555555555556,
+              "logical_upper": 1.0555555555555556
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.9444444444444444,
+              "logical_upper": 0.9444444444444444
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.1111111111111112,
+              "logical_upper": 1.1111111111111112
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0555555555555556,
+              "logical_upper": 1.0555555555555556
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -1.0416666666666667,
+          "logical_upper": 1.0416666666666667,
+          "metric": "current_named_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": 0.5,
+            "C1": 0.5,
+            "C2": -0.5,
+            "C3": -0.5,
+            "C4": -0.5,
+            "C5": -0.5,
+            "C6": 0.5,
+            "C7": 0.5
+          }
+        },
+        "current_preference_choice": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -1.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -1.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.2777777777777777,
+              "logical_upper": 0.8333333333333334
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.2222222222222223,
+              "logical_upper": 0.6666666666666666
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.1666666666666667,
+              "logical_upper": 1.0555555555555556
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.3333333333333333,
+              "logical_upper": 0.7777777777777778
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -1.25,
+          "logical_upper": 0.8333333333333334,
+          "metric": "current_preference_choice",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": 0.5,
+            "C1": 0.5,
+            "C2": -0.5,
+            "C3": -0.5,
+            "C4": -0.5,
+            "C5": -0.5,
+            "C6": 0.5,
+            "C7": 0.5
+          }
+        },
+        "history_target_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0555555555555556,
+              "logical_upper": 1.0555555555555556
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.9444444444444444,
+              "logical_upper": 0.9444444444444444
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.1111111111111112,
+              "logical_upper": 1.1111111111111112
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0555555555555556,
+              "logical_upper": 1.0555555555555556
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -1.0416666666666667,
+          "logical_upper": 1.0416666666666667,
+          "metric": "history_target_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": 0.5,
+            "C1": 0.5,
+            "C2": -0.5,
+            "C3": -0.5,
+            "C4": -0.5,
+            "C5": -0.5,
+            "C6": 0.5,
+            "C7": 0.5
+          }
+        },
+        "surface_style_uptake": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": 0.5,
+              "logical_lower": 0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": 0.5,
+              "logical_lower": 0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": -0.5,
+              "logical_lower": -0.5,
+              "logical_upper": -0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": 0.041666666666666664,
+          "complete_cases": 12,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": 0.05555555555555555,
+              "complete_cases": 9,
+              "logical_lower": 0.05555555555555555,
+              "logical_upper": 0.05555555555555555
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": -0.05555555555555555,
+              "complete_cases": 9,
+              "logical_lower": -0.05555555555555555,
+              "logical_upper": -0.05555555555555555
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": 0.1111111111111111,
+              "complete_cases": 9,
+              "logical_lower": 0.1111111111111111,
+              "logical_upper": 0.1111111111111111
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": 0.05555555555555555,
+              "complete_cases": 9,
+              "logical_lower": 0.05555555555555555,
+              "logical_upper": 0.05555555555555555
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            -0.05555555555555555,
+            0.1111111111111111
+          ],
+          "logical_lower": 0.041666666666666664,
+          "logical_upper": 0.041666666666666664,
+          "metric": "surface_style_uptake",
+          "unresolved_cases": 0,
+          "weights": {
+            "C0": 0.5,
+            "C1": 0.5,
+            "C2": -0.5,
+            "C3": -0.5,
+            "C4": -0.5,
+            "C5": -0.5,
+            "C6": 0.5,
+            "C7": 0.5
+          }
+        }
+      },
+      "H": {
+        "current_named_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.9444444444444444,
+              "logical_upper": 0.1111111111111111
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.9444444444444444,
+              "logical_upper": 0.0
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0,
+              "logical_upper": 0.1111111111111111
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.9444444444444444,
+              "logical_upper": 0.1111111111111111
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.9583333333333334,
+          "logical_upper": 0.08333333333333333,
+          "metric": "current_named_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": -0.25,
+            "C3": 0.25,
+            "C4": -0.25,
+            "C5": 0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        },
+        "current_preference_choice": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -0.25,
+              "logical_upper": 0.75,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -0.25,
+              "logical_upper": 0.75,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -0.25,
+              "logical_upper": 0.25,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.7222222222222222,
+              "logical_upper": 0.3333333333333333
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.6944444444444444,
+              "logical_upper": 0.25
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.8611111111111112,
+              "logical_upper": 0.25
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.6388888888888888,
+              "logical_upper": 0.4166666666666667
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.7291666666666666,
+          "logical_upper": 0.3125,
+          "metric": "current_preference_choice",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": -0.25,
+            "C3": 0.25,
+            "C4": -0.25,
+            "C5": 0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        },
+        "history_target_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.1111111111111111,
+              "logical_upper": 0.9444444444444444
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.9444444444444444
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.1111111111111111,
+              "logical_upper": 1.0
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.1111111111111111,
+              "logical_upper": 0.9444444444444444
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.08333333333333333,
+          "logical_upper": 0.9583333333333334,
+          "metric": "history_target_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": -0.25,
+            "C3": 0.25,
+            "C4": -0.25,
+            "C5": 0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        },
+        "surface_style_uptake": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": 0.25,
+              "logical_lower": 0.25,
+              "logical_upper": 0.25,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": 0.25,
+              "logical_lower": 0.25,
+              "logical_upper": 0.25,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": 0.25,
+              "logical_lower": 0.25,
+              "logical_upper": 0.25,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": 0.0625,
+          "complete_cases": 12,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": 0.08333333333333333,
+              "complete_cases": 9,
+              "logical_lower": 0.08333333333333333,
+              "logical_upper": 0.08333333333333333
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": 0.027777777777777776,
+              "complete_cases": 9,
+              "logical_lower": 0.027777777777777776,
+              "logical_upper": 0.027777777777777776
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": 0.05555555555555555,
+              "complete_cases": 9,
+              "logical_lower": 0.05555555555555555,
+              "logical_upper": 0.05555555555555555
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": 0.08333333333333333,
+              "complete_cases": 9,
+              "logical_lower": 0.08333333333333333,
+              "logical_upper": 0.08333333333333333
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            0.027777777777777776,
+            0.08333333333333333
+          ],
+          "logical_lower": 0.0625,
+          "logical_upper": 0.0625,
+          "metric": "surface_style_uptake",
+          "unresolved_cases": 0,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": -0.25,
+            "C3": 0.25,
+            "C4": -0.25,
+            "C5": 0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        }
+      },
+      "S": {
+        "current_named_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5555555555555556
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.4444444444444444,
+              "logical_upper": 0.5
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5555555555555556,
+              "logical_upper": 0.5555555555555556
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5555555555555556
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.5,
+          "logical_upper": 0.5416666666666666,
+          "metric": "current_named_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": -0.25,
+            "C1": 0.25,
+            "C2": -0.25,
+            "C3": -0.25,
+            "C4": 0.25,
+            "C5": 0.25,
+            "C6": -0.25,
+            "C7": 0.25
+          }
+        },
+        "current_preference_choice": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -0.75,
+              "logical_upper": 0.25,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -0.75,
+              "logical_upper": 0.25,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -0.25,
+              "logical_upper": 0.25,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.6111111111111112,
+              "logical_upper": 0.4444444444444444
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5277777777777778,
+              "logical_upper": 0.4166666666666667
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.6388888888888888,
+              "logical_upper": 0.4722222222222222
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.6388888888888888,
+              "logical_upper": 0.4166666666666667
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.6041666666666666,
+          "logical_upper": 0.4375,
+          "metric": "current_preference_choice",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": -0.25,
+            "C1": 0.25,
+            "C2": -0.25,
+            "C3": -0.25,
+            "C4": 0.25,
+            "C5": 0.25,
+            "C6": -0.25,
+            "C7": 0.25
+          }
+        },
+        "history_target_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5555555555555556,
+              "logical_upper": 0.5
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5,
+              "logical_upper": 0.4444444444444444
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5555555555555556,
+              "logical_upper": 0.5555555555555556
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5555555555555556,
+              "logical_upper": 0.5
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.5416666666666666,
+          "logical_upper": 0.5,
+          "metric": "history_target_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": -0.25,
+            "C1": 0.25,
+            "C2": -0.25,
+            "C3": -0.25,
+            "C4": 0.25,
+            "C5": 0.25,
+            "C6": -0.25,
+            "C7": 0.25
+          }
+        },
+        "surface_style_uptake": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": 1.0,
+              "logical_lower": 1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": 1.0,
+              "logical_lower": 1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": 1.0,
+              "logical_lower": 1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": 1.0,
+              "logical_lower": 1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": 0.75,
+              "logical_lower": 0.75,
+              "logical_upper": 0.75,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": 0.75,
+              "logical_lower": 0.75,
+              "logical_upper": 0.75,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": 1.0,
+              "logical_lower": 1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": 0.75,
+              "logical_lower": 0.75,
+              "logical_upper": 0.75,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": 1.0,
+              "logical_lower": 1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": 1.0,
+              "logical_lower": 1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": 1.0,
+              "logical_lower": 1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": 1.0,
+              "logical_lower": 1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": 0.9375,
+          "complete_cases": 12,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": 0.9166666666666666,
+              "complete_cases": 9,
+              "logical_lower": 0.9166666666666666,
+              "logical_upper": 0.9166666666666666
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": 0.9722222222222222,
+              "complete_cases": 9,
+              "logical_lower": 0.9722222222222222,
+              "logical_upper": 0.9722222222222222
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": 0.9444444444444444,
+              "complete_cases": 9,
+              "logical_lower": 0.9444444444444444,
+              "logical_upper": 0.9444444444444444
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": 0.9166666666666666,
+              "complete_cases": 9,
+              "logical_lower": 0.9166666666666666,
+              "logical_upper": 0.9166666666666666
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            0.9166666666666666,
+            0.9722222222222222
+          ],
+          "logical_lower": 0.9375,
+          "logical_upper": 0.9375,
+          "metric": "surface_style_uptake",
+          "unresolved_cases": 0,
+          "weights": {
+            "C0": -0.25,
+            "C1": 0.25,
+            "C2": -0.25,
+            "C3": -0.25,
+            "C4": 0.25,
+            "C5": 0.25,
+            "C6": -0.25,
+            "C7": 0.25
+          }
+        }
+      },
+      "SxF": {
+        "current_named_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0555555555555556,
+              "logical_upper": 1.0555555555555556
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.9444444444444444,
+              "logical_upper": 0.9444444444444444
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.1111111111111112,
+              "logical_upper": 1.1111111111111112
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0555555555555556,
+              "logical_upper": 1.0555555555555556
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -1.0416666666666667,
+          "logical_upper": 1.0416666666666667,
+          "metric": "current_named_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": 0.5,
+            "C1": -0.5,
+            "C2": -0.5,
+            "C3": 0.5,
+            "C4": 0.5,
+            "C5": -0.5,
+            "C6": -0.5,
+            "C7": 0.5
+          }
+        },
+        "current_preference_choice": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -1.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -1.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0555555555555556,
+              "logical_upper": 1.0555555555555556
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0,
+              "logical_upper": 0.8888888888888888
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.1666666666666667,
+              "logical_upper": 1.0555555555555556
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.1111111111111112,
+              "logical_upper": 1.0
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -1.0833333333333333,
+          "logical_upper": 1.0,
+          "metric": "current_preference_choice",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": 0.5,
+            "C1": -0.5,
+            "C2": -0.5,
+            "C3": 0.5,
+            "C4": 0.5,
+            "C5": -0.5,
+            "C6": -0.5,
+            "C7": 0.5
+          }
+        },
+        "history_target_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0555555555555556,
+              "logical_upper": 1.0555555555555556
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.9444444444444444,
+              "logical_upper": 0.9444444444444444
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.1111111111111112,
+              "logical_upper": 1.1111111111111112
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0555555555555556,
+              "logical_upper": 1.0555555555555556
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -1.0416666666666667,
+          "logical_upper": 1.0416666666666667,
+          "metric": "history_target_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": 0.5,
+            "C1": -0.5,
+            "C2": -0.5,
+            "C3": 0.5,
+            "C4": 0.5,
+            "C5": -0.5,
+            "C6": -0.5,
+            "C7": 0.5
+          }
+        },
+        "surface_style_uptake": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": -0.5,
+              "logical_lower": -0.5,
+              "logical_upper": -0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": -0.5,
+              "logical_lower": -0.5,
+              "logical_upper": -0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": 0.5,
+              "logical_lower": 0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": -0.041666666666666664,
+          "complete_cases": 12,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": -0.05555555555555555,
+              "complete_cases": 9,
+              "logical_lower": -0.05555555555555555,
+              "logical_upper": -0.05555555555555555
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": 0.05555555555555555,
+              "complete_cases": 9,
+              "logical_lower": 0.05555555555555555,
+              "logical_upper": 0.05555555555555555
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": -0.1111111111111111,
+              "complete_cases": 9,
+              "logical_lower": -0.1111111111111111,
+              "logical_upper": -0.1111111111111111
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": -0.05555555555555555,
+              "complete_cases": 9,
+              "logical_lower": -0.05555555555555555,
+              "logical_upper": -0.05555555555555555
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            -0.1111111111111111,
+            0.05555555555555555
+          ],
+          "logical_lower": -0.041666666666666664,
+          "logical_upper": -0.041666666666666664,
+          "metric": "surface_style_uptake",
+          "unresolved_cases": 0,
+          "weights": {
+            "C0": 0.5,
+            "C1": -0.5,
+            "C2": -0.5,
+            "C3": 0.5,
+            "C4": 0.5,
+            "C5": -0.5,
+            "C6": -0.5,
+            "C7": 0.5
+          }
+        }
+      },
+      "SxFxH": {
+        "current_named_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -4.0,
+              "logical_upper": 4.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -2.111111111111111,
+              "logical_upper": 2.111111111111111
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.8888888888888888,
+              "logical_upper": 1.8888888888888888
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -2.2222222222222223,
+              "logical_upper": 2.2222222222222223
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -2.111111111111111,
+              "logical_upper": 2.111111111111111
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -2.0833333333333335,
+          "logical_upper": 2.0833333333333335,
+          "metric": "current_named_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": -1.0,
+            "C1": 1.0,
+            "C2": 1.0,
+            "C3": 1.0,
+            "C4": -1.0,
+            "C5": -1.0,
+            "C6": -1.0,
+            "C7": 1.0
+          }
+        },
+        "current_preference_choice": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 3.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -4.0,
+              "logical_upper": 4.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 3.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -2.111111111111111,
+              "logical_upper": 2.111111111111111
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.7777777777777777,
+              "logical_upper": 2.0
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -2.111111111111111,
+              "logical_upper": 2.3333333333333335
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -2.0,
+              "logical_upper": 2.2222222222222223
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -2.0,
+          "logical_upper": 2.1666666666666665,
+          "metric": "current_preference_choice",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": -1.0,
+            "C1": 1.0,
+            "C2": 1.0,
+            "C3": 1.0,
+            "C4": -1.0,
+            "C5": -1.0,
+            "C6": -1.0,
+            "C7": 1.0
+          }
+        },
+        "history_target_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -4.0,
+              "logical_upper": 4.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -2.111111111111111,
+              "logical_upper": 2.111111111111111
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.8888888888888888,
+              "logical_upper": 1.8888888888888888
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -2.2222222222222223,
+              "logical_upper": 2.2222222222222223
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -2.111111111111111,
+              "logical_upper": 2.111111111111111
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -2.0833333333333335,
+          "logical_upper": 2.0833333333333335,
+          "metric": "history_target_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": -1.0,
+            "C1": 1.0,
+            "C2": 1.0,
+            "C3": 1.0,
+            "C4": -1.0,
+            "C5": -1.0,
+            "C6": -1.0,
+            "C7": 1.0
+          }
+        },
+        "surface_style_uptake": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": 1.0,
+              "logical_lower": 1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": 1.0,
+              "logical_lower": 1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": 1.0,
+              "logical_lower": 1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": 0.25,
+          "complete_cases": 12,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": 0.3333333333333333,
+              "complete_cases": 9,
+              "logical_lower": 0.3333333333333333,
+              "logical_upper": 0.3333333333333333
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": 0.1111111111111111,
+              "complete_cases": 9,
+              "logical_lower": 0.1111111111111111,
+              "logical_upper": 0.1111111111111111
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": 0.2222222222222222,
+              "complete_cases": 9,
+              "logical_lower": 0.2222222222222222,
+              "logical_upper": 0.2222222222222222
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": 0.3333333333333333,
+              "complete_cases": 9,
+              "logical_lower": 0.3333333333333333,
+              "logical_upper": 0.3333333333333333
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            0.1111111111111111,
+            0.3333333333333333
+          ],
+          "logical_lower": 0.25,
+          "logical_upper": 0.25,
+          "metric": "surface_style_uptake",
+          "unresolved_cases": 0,
+          "weights": {
+            "C0": -1.0,
+            "C1": 1.0,
+            "C2": 1.0,
+            "C3": 1.0,
+            "C4": -1.0,
+            "C5": -1.0,
+            "C6": -1.0,
+            "C7": 1.0
+          }
+        }
+      },
+      "SxH": {
+        "current_named_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0,
+              "logical_upper": 1.1111111111111112
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.8888888888888888,
+              "logical_upper": 1.0
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.1111111111111112,
+              "logical_upper": 1.1111111111111112
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0,
+              "logical_upper": 1.1111111111111112
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -1.0,
+          "logical_upper": 1.0833333333333333,
+          "metric": "current_named_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": 0.5,
+            "C1": -0.5,
+            "C2": 0.5,
+            "C3": -0.5,
+            "C4": -0.5,
+            "C5": 0.5,
+            "C6": -0.5,
+            "C7": 0.5
+          }
+        },
+        "current_preference_choice": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 1.5,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 1.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": 0.5,
+              "logical_upper": 1.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.7777777777777778,
+              "logical_upper": 1.3333333333333333
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.7222222222222222,
+              "logical_upper": 1.1666666666666667
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.9444444444444444,
+              "logical_upper": 1.2777777777777777
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.7222222222222222,
+              "logical_upper": 1.3888888888888888
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.7916666666666666,
+          "logical_upper": 1.2916666666666667,
+          "metric": "current_preference_choice",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": 0.5,
+            "C1": -0.5,
+            "C2": 0.5,
+            "C3": -0.5,
+            "C4": -0.5,
+            "C5": 0.5,
+            "C6": -0.5,
+            "C7": 0.5
+          }
+        },
+        "history_target_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -2.0,
+              "logical_upper": 2.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.1111111111111112,
+              "logical_upper": 1.0
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0,
+              "logical_upper": 0.8888888888888888
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.1111111111111112,
+              "logical_upper": 1.1111111111111112
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.1111111111111112,
+              "logical_upper": 1.0
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -1.0833333333333333,
+          "logical_upper": 1.0,
+          "metric": "history_target_selection",
+          "unresolved_cases": 12,
+          "weights": {
+            "C0": 0.5,
+            "C1": -0.5,
+            "C2": 0.5,
+            "C3": -0.5,
+            "C4": -0.5,
+            "C5": 0.5,
+            "C6": -0.5,
+            "C7": 0.5
+          }
+        },
+        "surface_style_uptake": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": 0.5,
+              "logical_lower": 0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": 0.5,
+              "logical_lower": 0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": -0.5,
+              "logical_lower": -0.5,
+              "logical_upper": -0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": 0.0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": 0.041666666666666664,
+          "complete_cases": 12,
+          "eligible_cases": 12,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": 0.05555555555555555,
+              "complete_cases": 9,
+              "logical_lower": 0.05555555555555555,
+              "logical_upper": 0.05555555555555555
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": -0.05555555555555555,
+              "complete_cases": 9,
+              "logical_lower": -0.05555555555555555,
+              "logical_upper": -0.05555555555555555
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": 0.1111111111111111,
+              "complete_cases": 9,
+              "logical_lower": 0.1111111111111111,
+              "logical_upper": 0.1111111111111111
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": 0.05555555555555555,
+              "complete_cases": 9,
+              "logical_lower": 0.05555555555555555,
+              "logical_upper": 0.05555555555555555
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            -0.05555555555555555,
+            0.1111111111111111
+          ],
+          "logical_lower": 0.041666666666666664,
+          "logical_upper": 0.041666666666666664,
+          "metric": "surface_style_uptake",
+          "unresolved_cases": 0,
+          "weights": {
+            "C0": 0.5,
+            "C1": -0.5,
+            "C2": 0.5,
+            "C3": -0.5,
+            "C4": -0.5,
+            "C5": 0.5,
+            "C6": -0.5,
+            "C7": 0.5
+          }
+        }
+      }
+    },
+    "status": "EXPLORATORY_DESCRIPTIVE_NOT_CONFIRMATORY"
+  },
+  "generations": 96,
+  "human_semantic_ratings": 0,
+  "inferential_policy": {
+    "confirmatory_population_claim": false,
+    "estimation_first": true,
+    "logical_missing_outcome_bounds": true,
+    "missing_unresolved_or_inapplicable_recoded_as_zero": false,
+    "p_values": "NOT_COMPUTED"
+  },
+  "manifest_sha256": "55673bc8f9a802fe22f9d4234cd0bea32e806a4d9f3386cd0e483fa1cc716485",
+  "measurement_limits": [
+    "Four synthetic personas and twelve purposive cases do not sample a human speaker population.",
+    "Independent refers only to disjoint held-out synthetic materials and unseen outputs; the design was informed by prior measurement failures.",
+    "The fixed first-sentence contract improves deterministic choice measurement but constrains natural dialogue and moves measured style primarily to sentence two.",
+    "Exact reason cues miss valid paraphrases, so current-note support is secondary and unresolved paraphrases remain missing.",
+    "S and H can both carry linguistic cues; H is a package intervention and does not identify an internal memory mechanism.",
+    "Neutral controls are diagnostics whose token and semantic differences must be reported, not assumed away.",
+    "Four persona clusters are insufficient for calibrated confirmatory population inference.",
+    "The shared single model supports stimulus replication only, not cross-model replication; the third-party conversion lineage remains partially verified.",
+    "No human ratings, real-speaker data, general Persona Fidelity measure, or algorithmic validation is included."
+  ],
+  "new_generations_during_analysis": 0,
+  "outdated_value_adoption": {
+    "C6": {
+      "logical_lower": 0.0,
+      "logical_upper": 1.0,
+      "mean_resolved": null,
+      "missing": 4,
+      "ones": 0,
+      "resolved_denominator": 0,
+      "total_slots": 4,
+      "zeros": 0
+    },
+    "C7": {
+      "logical_lower": 0.0,
+      "logical_upper": 1.0,
+      "mean_resolved": null,
+      "missing": 4,
+      "ones": 0,
+      "resolved_denominator": 0,
+      "total_slots": 4,
+      "zeros": 0
+    },
+    "C7_minus_C6": {
+      "case_contributions": [
+        {
+          "case_id": "REP_F_CONFLICTING_REHEARSAL",
+          "contribution": null,
+          "logical_lower": -1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_F"
+        },
+        {
+          "case_id": "REP_G_CONFLICTING_CLASS",
+          "contribution": null,
+          "logical_lower": -1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_G"
+        },
+        {
+          "case_id": "REP_H_CONFLICTING_SUPPLIES",
+          "contribution": null,
+          "logical_lower": -1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_H"
+        },
+        {
+          "case_id": "REP_I_CONFLICTING_CLINIC",
+          "contribution": null,
+          "logical_lower": -1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_I"
+        }
+      ],
+      "complete_case_estimate": null,
+      "complete_cases": 0,
+      "eligible_cases": 4,
+      "leave_one_persona_out": {
+        "SYN_REP_F": {
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "logical_lower": -1.0,
+          "logical_upper": 1.0
+        },
+        "SYN_REP_G": {
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "logical_lower": -1.0,
+          "logical_upper": 1.0
+        },
+        "SYN_REP_H": {
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "logical_lower": -1.0,
+          "logical_upper": 1.0
+        },
+        "SYN_REP_I": {
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "logical_lower": -1.0,
+          "logical_upper": 1.0
+        }
+      },
+      "leave_one_persona_out_point_estimate_range": [
+        null,
+        null
+      ],
+      "logical_lower": -1.0,
+      "logical_upper": 1.0,
+      "metric": "outdated_value_adoption",
+      "unresolved_cases": 4,
+      "weights": {
+        "C6": -1.0,
+        "C7": 1.0
+      }
+    }
+  },
+  "persona_summary": {
+    "SYN_REP_F": {
+      "F_main_current_preference_choice": {
+        "case_contributions": [
+          {
+            "case_id": "REP_F_ALIGNED_READING",
+            "contribution": null,
+            "logical_lower": -0.5,
+            "logical_upper": 0.5,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_F_CONFLICTING_REHEARSAL",
+            "contribution": null,
+            "logical_lower": -0.25,
+            "logical_upper": 0.75,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+            "contribution": null,
+            "logical_lower": -0.5,
+            "logical_upper": 0.5,
+            "persona_id": null
+          }
+        ],
+        "complete_case_estimate": null,
+        "complete_cases": 0,
+        "eligible_cases": 3,
+        "leave_one_persona_out": {},
+        "leave_one_persona_out_point_estimate_range": [
+          null,
+          null
+        ],
+        "logical_lower": -0.4166666666666667,
+        "logical_upper": 0.5833333333333334,
+        "metric": "current_preference_choice",
+        "unresolved_cases": 3,
+        "weights": {
+          "C0": -0.25,
+          "C1": -0.25,
+          "C2": 0.25,
+          "C3": -0.25,
+          "C4": 0.25,
+          "C5": -0.25,
+          "C6": 0.25,
+          "C7": 0.25
+        }
+      },
+      "S_main_surface_style_uptake": {
+        "case_contributions": [
+          {
+            "case_id": "REP_F_ALIGNED_READING",
+            "contribution": 1.0,
+            "logical_lower": 1.0,
+            "logical_upper": 1.0,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_F_CONFLICTING_REHEARSAL",
+            "contribution": 1.0,
+            "logical_lower": 1.0,
+            "logical_upper": 1.0,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+            "contribution": 1.0,
+            "logical_lower": 1.0,
+            "logical_upper": 1.0,
+            "persona_id": null
+          }
+        ],
+        "complete_case_estimate": 1.0,
+        "complete_cases": 3,
+        "eligible_cases": 3,
+        "leave_one_persona_out": {},
+        "leave_one_persona_out_point_estimate_range": [
+          null,
+          null
+        ],
+        "logical_lower": 1.0,
+        "logical_upper": 1.0,
+        "metric": "surface_style_uptake",
+        "unresolved_cases": 0,
+        "weights": {
+          "C0": -0.25,
+          "C1": 0.25,
+          "C2": -0.25,
+          "C3": -0.25,
+          "C4": 0.25,
+          "C5": 0.25,
+          "C6": -0.25,
+          "C7": 0.25
+        }
+      },
+      "cases": [
+        "REP_F_ALIGNED_READING",
+        "REP_F_CONFLICTING_REHEARSAL",
+        "REP_F_IRRELEVANT_INTERVIEW"
+      ]
+    },
+    "SYN_REP_G": {
+      "F_main_current_preference_choice": {
+        "case_contributions": [
+          {
+            "case_id": "REP_G_ALIGNED_DINNER",
+            "contribution": null,
+            "logical_lower": -0.5,
+            "logical_upper": 0.5,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_G_CONFLICTING_CLASS",
+            "contribution": null,
+            "logical_lower": -0.5,
+            "logical_upper": 0.5,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_G_IRRELEVANT_TOUR",
+            "contribution": null,
+            "logical_lower": -1.0,
+            "logical_upper": 1.0,
+            "persona_id": null
+          }
+        ],
+        "complete_case_estimate": null,
+        "complete_cases": 0,
+        "eligible_cases": 3,
+        "leave_one_persona_out": {},
+        "leave_one_persona_out_point_estimate_range": [
+          null,
+          null
+        ],
+        "logical_lower": -0.6666666666666666,
+        "logical_upper": 0.6666666666666666,
+        "metric": "current_preference_choice",
+        "unresolved_cases": 3,
+        "weights": {
+          "C0": -0.25,
+          "C1": -0.25,
+          "C2": 0.25,
+          "C3": -0.25,
+          "C4": 0.25,
+          "C5": -0.25,
+          "C6": 0.25,
+          "C7": 0.25
+        }
+      },
+      "S_main_surface_style_uptake": {
+        "case_contributions": [
+          {
+            "case_id": "REP_G_ALIGNED_DINNER",
+            "contribution": 1.0,
+            "logical_lower": 1.0,
+            "logical_upper": 1.0,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_G_CONFLICTING_CLASS",
+            "contribution": 0.75,
+            "logical_lower": 0.75,
+            "logical_upper": 0.75,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_G_IRRELEVANT_TOUR",
+            "contribution": 0.75,
+            "logical_lower": 0.75,
+            "logical_upper": 0.75,
+            "persona_id": null
+          }
+        ],
+        "complete_case_estimate": 0.8333333333333334,
+        "complete_cases": 3,
+        "eligible_cases": 3,
+        "leave_one_persona_out": {},
+        "leave_one_persona_out_point_estimate_range": [
+          null,
+          null
+        ],
+        "logical_lower": 0.8333333333333334,
+        "logical_upper": 0.8333333333333334,
+        "metric": "surface_style_uptake",
+        "unresolved_cases": 0,
+        "weights": {
+          "C0": -0.25,
+          "C1": 0.25,
+          "C2": -0.25,
+          "C3": -0.25,
+          "C4": 0.25,
+          "C5": 0.25,
+          "C6": -0.25,
+          "C7": 0.25
+        }
+      },
+      "cases": [
+        "REP_G_ALIGNED_DINNER",
+        "REP_G_CONFLICTING_CLASS",
+        "REP_G_IRRELEVANT_TOUR"
+      ]
+    },
+    "SYN_REP_H": {
+      "F_main_current_preference_choice": {
+        "case_contributions": [
+          {
+            "case_id": "REP_H_ALIGNED_LUNCH",
+            "contribution": null,
+            "logical_lower": 0.0,
+            "logical_upper": 1.0,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_H_CONFLICTING_SUPPLIES",
+            "contribution": null,
+            "logical_lower": -0.25,
+            "logical_upper": 0.75,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_H_IRRELEVANT_DRINKS",
+            "contribution": null,
+            "logical_lower": 0.0,
+            "logical_upper": 0.5,
+            "persona_id": null
+          }
+        ],
+        "complete_case_estimate": null,
+        "complete_cases": 0,
+        "eligible_cases": 3,
+        "leave_one_persona_out": {},
+        "leave_one_persona_out_point_estimate_range": [
+          null,
+          null
+        ],
+        "logical_lower": -0.08333333333333333,
+        "logical_upper": 0.75,
+        "metric": "current_preference_choice",
+        "unresolved_cases": 3,
+        "weights": {
+          "C0": -0.25,
+          "C1": -0.25,
+          "C2": 0.25,
+          "C3": -0.25,
+          "C4": 0.25,
+          "C5": -0.25,
+          "C6": 0.25,
+          "C7": 0.25
+        }
+      },
+      "S_main_surface_style_uptake": {
+        "case_contributions": [
+          {
+            "case_id": "REP_H_ALIGNED_LUNCH",
+            "contribution": 1.0,
+            "logical_lower": 1.0,
+            "logical_upper": 1.0,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_H_CONFLICTING_SUPPLIES",
+            "contribution": 0.75,
+            "logical_lower": 0.75,
+            "logical_upper": 0.75,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_H_IRRELEVANT_DRINKS",
+            "contribution": 1.0,
+            "logical_lower": 1.0,
+            "logical_upper": 1.0,
+            "persona_id": null
+          }
+        ],
+        "complete_case_estimate": 0.9166666666666666,
+        "complete_cases": 3,
+        "eligible_cases": 3,
+        "leave_one_persona_out": {},
+        "leave_one_persona_out_point_estimate_range": [
+          null,
+          null
+        ],
+        "logical_lower": 0.9166666666666666,
+        "logical_upper": 0.9166666666666666,
+        "metric": "surface_style_uptake",
+        "unresolved_cases": 0,
+        "weights": {
+          "C0": -0.25,
+          "C1": 0.25,
+          "C2": -0.25,
+          "C3": -0.25,
+          "C4": 0.25,
+          "C5": 0.25,
+          "C6": -0.25,
+          "C7": 0.25
+        }
+      },
+      "cases": [
+        "REP_H_ALIGNED_LUNCH",
+        "REP_H_CONFLICTING_SUPPLIES",
+        "REP_H_IRRELEVANT_DRINKS"
+      ]
+    },
+    "SYN_REP_I": {
+      "F_main_current_preference_choice": {
+        "case_contributions": [
+          {
+            "case_id": "REP_I_ALIGNED_PICKUP",
+            "contribution": null,
+            "logical_lower": -0.5,
+            "logical_upper": 0.5,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_I_CONFLICTING_CLINIC",
+            "contribution": null,
+            "logical_lower": -0.5,
+            "logical_upper": 0.5,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_I_IRRELEVANT_COUNTER",
+            "contribution": null,
+            "logical_lower": -0.5,
+            "logical_upper": 0.5,
+            "persona_id": null
+          }
+        ],
+        "complete_case_estimate": null,
+        "complete_cases": 0,
+        "eligible_cases": 3,
+        "leave_one_persona_out": {},
+        "leave_one_persona_out_point_estimate_range": [
+          null,
+          null
+        ],
+        "logical_lower": -0.5,
+        "logical_upper": 0.5,
+        "metric": "current_preference_choice",
+        "unresolved_cases": 3,
+        "weights": {
+          "C0": -0.25,
+          "C1": -0.25,
+          "C2": 0.25,
+          "C3": -0.25,
+          "C4": 0.25,
+          "C5": -0.25,
+          "C6": 0.25,
+          "C7": 0.25
+        }
+      },
+      "S_main_surface_style_uptake": {
+        "case_contributions": [
+          {
+            "case_id": "REP_I_ALIGNED_PICKUP",
+            "contribution": 1.0,
+            "logical_lower": 1.0,
+            "logical_upper": 1.0,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_I_CONFLICTING_CLINIC",
+            "contribution": 1.0,
+            "logical_lower": 1.0,
+            "logical_upper": 1.0,
+            "persona_id": null
+          },
+          {
+            "case_id": "REP_I_IRRELEVANT_COUNTER",
+            "contribution": 1.0,
+            "logical_lower": 1.0,
+            "logical_upper": 1.0,
+            "persona_id": null
+          }
+        ],
+        "complete_case_estimate": 1.0,
+        "complete_cases": 3,
+        "eligible_cases": 3,
+        "leave_one_persona_out": {},
+        "leave_one_persona_out_point_estimate_range": [
+          null,
+          null
+        ],
+        "logical_lower": 1.0,
+        "logical_upper": 1.0,
+        "metric": "surface_style_uptake",
+        "unresolved_cases": 0,
+        "weights": {
+          "C0": -0.25,
+          "C1": 0.25,
+          "C2": -0.25,
+          "C3": -0.25,
+          "C4": 0.25,
+          "C5": 0.25,
+          "C6": -0.25,
+          "C7": 0.25
+        }
+      },
+      "cases": [
+        "REP_I_ALIGNED_PICKUP",
+        "REP_I_CONFLICTING_CLINIC",
+        "REP_I_IRRELEVANT_COUNTER"
+      ]
+    }
+  },
+  "primary_estimands": {
+    "F_main_current_preference_choice": {
+      "case_contributions": [
+        {
+          "case_id": "REP_F_ALIGNED_READING",
+          "contribution": null,
+          "logical_lower": -0.5,
+          "logical_upper": 0.5,
+          "persona_id": "SYN_REP_F"
+        },
+        {
+          "case_id": "REP_F_CONFLICTING_REHEARSAL",
+          "contribution": null,
+          "logical_lower": -0.25,
+          "logical_upper": 0.75,
+          "persona_id": "SYN_REP_F"
+        },
+        {
+          "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+          "contribution": null,
+          "logical_lower": -0.5,
+          "logical_upper": 0.5,
+          "persona_id": "SYN_REP_F"
+        },
+        {
+          "case_id": "REP_G_ALIGNED_DINNER",
+          "contribution": null,
+          "logical_lower": -0.5,
+          "logical_upper": 0.5,
+          "persona_id": "SYN_REP_G"
+        },
+        {
+          "case_id": "REP_G_CONFLICTING_CLASS",
+          "contribution": null,
+          "logical_lower": -0.5,
+          "logical_upper": 0.5,
+          "persona_id": "SYN_REP_G"
+        },
+        {
+          "case_id": "REP_G_IRRELEVANT_TOUR",
+          "contribution": null,
+          "logical_lower": -1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_G"
+        },
+        {
+          "case_id": "REP_H_ALIGNED_LUNCH",
+          "contribution": null,
+          "logical_lower": 0.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_H"
+        },
+        {
+          "case_id": "REP_H_CONFLICTING_SUPPLIES",
+          "contribution": null,
+          "logical_lower": -0.25,
+          "logical_upper": 0.75,
+          "persona_id": "SYN_REP_H"
+        },
+        {
+          "case_id": "REP_H_IRRELEVANT_DRINKS",
+          "contribution": null,
+          "logical_lower": 0.0,
+          "logical_upper": 0.5,
+          "persona_id": "SYN_REP_H"
+        },
+        {
+          "case_id": "REP_I_ALIGNED_PICKUP",
+          "contribution": null,
+          "logical_lower": -0.5,
+          "logical_upper": 0.5,
+          "persona_id": "SYN_REP_I"
+        },
+        {
+          "case_id": "REP_I_CONFLICTING_CLINIC",
+          "contribution": null,
+          "logical_lower": -0.5,
+          "logical_upper": 0.5,
+          "persona_id": "SYN_REP_I"
+        },
+        {
+          "case_id": "REP_I_IRRELEVANT_COUNTER",
+          "contribution": null,
+          "logical_lower": -0.5,
+          "logical_upper": 0.5,
+          "persona_id": "SYN_REP_I"
+        }
+      ],
+      "complete_case_estimate": null,
+      "complete_cases": 0,
+      "eligible_cases": 12,
+      "leave_one_persona_out": {
+        "SYN_REP_F": {
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "logical_lower": -0.4166666666666667,
+          "logical_upper": 0.6388888888888888
+        },
+        "SYN_REP_G": {
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "logical_lower": -0.3333333333333333,
+          "logical_upper": 0.6111111111111112
+        },
+        "SYN_REP_H": {
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "logical_lower": -0.5277777777777778,
+          "logical_upper": 0.5833333333333334
+        },
+        "SYN_REP_I": {
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "logical_lower": -0.3888888888888889,
+          "logical_upper": 0.6666666666666666
+        }
+      },
+      "leave_one_persona_out_point_estimate_range": [
+        null,
+        null
+      ],
+      "logical_lower": -0.4166666666666667,
+      "logical_upper": 0.625,
+      "metric": "current_preference_choice",
+      "unresolved_cases": 12,
+      "weights": {
+        "C0": -0.25,
+        "C1": -0.25,
+        "C2": 0.25,
+        "C3": -0.25,
+        "C4": 0.25,
+        "C5": -0.25,
+        "C6": 0.25,
+        "C7": 0.25
+      }
+    },
+    "FxH_outdated_conflicting_current_preference_choice": {
+      "case_contributions": [
+        {
+          "case_id": "REP_F_CONFLICTING_REHEARSAL",
+          "contribution": null,
+          "logical_lower": -1.5,
+          "logical_upper": 0.5,
+          "persona_id": "SYN_REP_F"
+        },
+        {
+          "case_id": "REP_G_CONFLICTING_CLASS",
+          "contribution": null,
+          "logical_lower": -1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_G"
+        },
+        {
+          "case_id": "REP_H_CONFLICTING_SUPPLIES",
+          "contribution": null,
+          "logical_lower": -1.5,
+          "logical_upper": 0.5,
+          "persona_id": "SYN_REP_H"
+        },
+        {
+          "case_id": "REP_I_CONFLICTING_CLINIC",
+          "contribution": null,
+          "logical_lower": -1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_I"
+        }
+      ],
+      "complete_case_estimate": null,
+      "complete_cases": 0,
+      "eligible_cases": 4,
+      "leave_one_persona_out": {
+        "SYN_REP_F": {
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "logical_lower": -1.1666666666666667,
+          "logical_upper": 0.8333333333333334
+        },
+        "SYN_REP_G": {
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "logical_lower": -1.3333333333333333,
+          "logical_upper": 0.6666666666666666
+        },
+        "SYN_REP_H": {
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "logical_lower": -1.1666666666666667,
+          "logical_upper": 0.8333333333333334
+        },
+        "SYN_REP_I": {
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "logical_lower": -1.3333333333333333,
+          "logical_upper": 0.6666666666666666
+        }
+      },
+      "leave_one_persona_out_point_estimate_range": [
+        null,
+        null
+      ],
+      "logical_lower": -1.25,
+      "logical_upper": 0.75,
+      "metric": "current_preference_choice",
+      "unresolved_cases": 4,
+      "weights": {
+        "C0": 0.5,
+        "C1": 0.5,
+        "C2": -0.5,
+        "C3": -0.5,
+        "C4": -0.5,
+        "C5": -0.5,
+        "C6": 0.5,
+        "C7": 0.5
+      }
+    },
+    "H_by_history_regime": {
+      "ALIGNED_HELPFUL": {
+        "current_preference_choice": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 4,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.6666666666666666,
+              "logical_upper": 0.3333333333333333
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.8333333333333334,
+              "logical_upper": 0.16666666666666666
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.8333333333333334,
+              "logical_upper": 0.16666666666666666
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.6666666666666666,
+              "logical_upper": 0.3333333333333333
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.75,
+          "logical_upper": 0.25,
+          "metric": "current_preference_choice",
+          "unresolved_cases": 4,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": -0.25,
+            "C3": 0.25,
+            "C4": -0.25,
+            "C5": 0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        },
+        "history_target_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_ALIGNED_READING",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_ALIGNED_DINNER",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_ALIGNED_LUNCH",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_ALIGNED_PICKUP",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 4,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": 0.0,
+          "logical_upper": 1.0,
+          "metric": "history_target_selection",
+          "unresolved_cases": 4,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": -0.25,
+            "C3": 0.25,
+            "C4": -0.25,
+            "C5": 0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        }
+      },
+      "IRRELEVANT": {
+        "current_preference_choice": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": -0.25,
+              "logical_upper": 0.25,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 4,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.75,
+              "logical_upper": 0.4166666666666667
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.75,
+              "logical_upper": 0.08333333333333333
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -1.0,
+              "logical_upper": 0.3333333333333333
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.75,
+              "logical_upper": 0.4166666666666667
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.8125,
+          "logical_upper": 0.3125,
+          "metric": "current_preference_choice",
+          "unresolved_cases": 4,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": -0.25,
+            "C3": 0.25,
+            "C4": -0.25,
+            "C5": 0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        },
+        "history_target_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_IRRELEVANT_TOUR",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_IRRELEVANT_DRINKS",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 0.5,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_IRRELEVANT_COUNTER",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 4,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.3333333333333333,
+              "logical_upper": 0.8333333333333334
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": 0.0,
+              "logical_upper": 0.8333333333333334
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.3333333333333333,
+              "logical_upper": 1.0
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.3333333333333333,
+              "logical_upper": 0.8333333333333334
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.25,
+          "logical_upper": 0.875,
+          "metric": "history_target_selection",
+          "unresolved_cases": 4,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": -0.25,
+            "C3": 0.25,
+            "C4": -0.25,
+            "C5": 0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        }
+      },
+      "OUTDATED_CONFLICTING": {
+        "current_preference_choice": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": -0.25,
+              "logical_upper": 0.75,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": -0.25,
+              "logical_upper": 0.75,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": -1.0,
+              "logical_upper": 0.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 4,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.75,
+              "logical_upper": 0.25
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.75,
+              "logical_upper": 0.25
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": -0.5,
+              "logical_upper": 0.5
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": -0.625,
+          "logical_upper": 0.375,
+          "metric": "current_preference_choice",
+          "unresolved_cases": 4,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": -0.25,
+            "C3": 0.25,
+            "C4": -0.25,
+            "C5": 0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        },
+        "history_target_selection": {
+          "case_contributions": [
+            {
+              "case_id": "REP_F_CONFLICTING_REHEARSAL",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_F"
+            },
+            {
+              "case_id": "REP_G_CONFLICTING_CLASS",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_G"
+            },
+            {
+              "case_id": "REP_H_CONFLICTING_SUPPLIES",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_H"
+            },
+            {
+              "case_id": "REP_I_CONFLICTING_CLINIC",
+              "contribution": null,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0,
+              "persona_id": "SYN_REP_I"
+            }
+          ],
+          "complete_case_estimate": null,
+          "complete_cases": 0,
+          "eligible_cases": 4,
+          "leave_one_persona_out": {
+            "SYN_REP_F": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0
+            },
+            "SYN_REP_G": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0
+            },
+            "SYN_REP_H": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0
+            },
+            "SYN_REP_I": {
+              "complete_case_estimate": null,
+              "complete_cases": 0,
+              "logical_lower": 0.0,
+              "logical_upper": 1.0
+            }
+          },
+          "leave_one_persona_out_point_estimate_range": [
+            null,
+            null
+          ],
+          "logical_lower": 0.0,
+          "logical_upper": 1.0,
+          "metric": "history_target_selection",
+          "unresolved_cases": 4,
+          "weights": {
+            "C0": -0.25,
+            "C1": -0.25,
+            "C2": -0.25,
+            "C3": 0.25,
+            "C4": -0.25,
+            "C5": 0.25,
+            "C6": 0.25,
+            "C7": 0.25
+          }
+        }
+      }
+    },
+    "S_main_surface_style_uptake": {
+      "case_contributions": [
+        {
+          "case_id": "REP_F_ALIGNED_READING",
+          "contribution": 1.0,
+          "logical_lower": 1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_F"
+        },
+        {
+          "case_id": "REP_F_CONFLICTING_REHEARSAL",
+          "contribution": 1.0,
+          "logical_lower": 1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_F"
+        },
+        {
+          "case_id": "REP_F_IRRELEVANT_INTERVIEW",
+          "contribution": 1.0,
+          "logical_lower": 1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_F"
+        },
+        {
+          "case_id": "REP_G_ALIGNED_DINNER",
+          "contribution": 1.0,
+          "logical_lower": 1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_G"
+        },
+        {
+          "case_id": "REP_G_CONFLICTING_CLASS",
+          "contribution": 0.75,
+          "logical_lower": 0.75,
+          "logical_upper": 0.75,
+          "persona_id": "SYN_REP_G"
+        },
+        {
+          "case_id": "REP_G_IRRELEVANT_TOUR",
+          "contribution": 0.75,
+          "logical_lower": 0.75,
+          "logical_upper": 0.75,
+          "persona_id": "SYN_REP_G"
+        },
+        {
+          "case_id": "REP_H_ALIGNED_LUNCH",
+          "contribution": 1.0,
+          "logical_lower": 1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_H"
+        },
+        {
+          "case_id": "REP_H_CONFLICTING_SUPPLIES",
+          "contribution": 0.75,
+          "logical_lower": 0.75,
+          "logical_upper": 0.75,
+          "persona_id": "SYN_REP_H"
+        },
+        {
+          "case_id": "REP_H_IRRELEVANT_DRINKS",
+          "contribution": 1.0,
+          "logical_lower": 1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_H"
+        },
+        {
+          "case_id": "REP_I_ALIGNED_PICKUP",
+          "contribution": 1.0,
+          "logical_lower": 1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_I"
+        },
+        {
+          "case_id": "REP_I_CONFLICTING_CLINIC",
+          "contribution": 1.0,
+          "logical_lower": 1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_I"
+        },
+        {
+          "case_id": "REP_I_IRRELEVANT_COUNTER",
+          "contribution": 1.0,
+          "logical_lower": 1.0,
+          "logical_upper": 1.0,
+          "persona_id": "SYN_REP_I"
+        }
+      ],
+      "complete_case_estimate": 0.9375,
+      "complete_cases": 12,
+      "eligible_cases": 12,
+      "leave_one_persona_out": {
+        "SYN_REP_F": {
+          "complete_case_estimate": 0.9166666666666666,
+          "complete_cases": 9,
+          "logical_lower": 0.9166666666666666,
+          "logical_upper": 0.9166666666666666
+        },
+        "SYN_REP_G": {
+          "complete_case_estimate": 0.9722222222222222,
+          "complete_cases": 9,
+          "logical_lower": 0.9722222222222222,
+          "logical_upper": 0.9722222222222222
+        },
+        "SYN_REP_H": {
+          "complete_case_estimate": 0.9444444444444444,
+          "complete_cases": 9,
+          "logical_lower": 0.9444444444444444,
+          "logical_upper": 0.9444444444444444
+        },
+        "SYN_REP_I": {
+          "complete_case_estimate": 0.9166666666666666,
+          "complete_cases": 9,
+          "logical_lower": 0.9166666666666666,
+          "logical_upper": 0.9166666666666666
+        }
+      },
+      "leave_one_persona_out_point_estimate_range": [
+        0.9166666666666666,
+        0.9722222222222222
+      ],
+      "logical_lower": 0.9375,
+      "logical_upper": 0.9375,
+      "metric": "surface_style_uptake",
+      "unresolved_cases": 0,
+      "weights": {
+        "C0": -0.25,
+        "C1": 0.25,
+        "C2": -0.25,
+        "C3": -0.25,
+        "C4": 0.25,
+        "C5": 0.25,
+        "C6": -0.25,
+        "C7": 0.25
+      }
+    }
+  },
+  "prospective_amendment_sha256": "9cd70fceca8b1fb806bd6b3c3bcb4deccfd974830d2a5e762c1e75a45120d937",
+  "raw_text_embedded": false,
+  "resource_observations": {
+    "completion_inference_seconds": 518.5032313999945,
+    "generated_tokens": 2617,
+    "mean_completion_seconds": 5.4010753270832765,
+    "minimum_observed_available_physical_bytes": 1899884544,
+    "native_stop_reason_distribution": {
+      "eos": 96
+    },
+    "server_peak_working_set_bytes": 2900316160
+  },
+  "run_directory": "results/p1_persona_dialogue_independent_replication/v2/runs/20261018T173447-1b35747a4af44756a1319781a2feb7d2",
+  "version": "p1_persona_dialogue_independent_replication_analysis_v1",
+  "wording_clarification_sha256": "4cce2737b31022426a58cb7a0ef1e145c8096494dd67deb0b6ad00ad81f1c218"
+}

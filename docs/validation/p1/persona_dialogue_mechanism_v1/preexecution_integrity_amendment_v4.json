@@ -1,0 +1,54 @@
+{
+  "schema_version": "personaslm_persona_dialogue_mechanism_preexecution_integrity_amendment_v4",
+  "status": "FROZEN_AFTER_REGISTRATION_BEFORE_PREFLIGHT_OR_MODEL_OUTPUT",
+  "frozen_utc": "2026-10-18T16:24:21Z",
+  "parent_registration": {
+    "manifest_path": "docs/validation/p1/persona_dialogue_mechanism_v1/frozen_manifest_v1.json",
+    "manifest_sha256": "c3bc7adf1c65fe5700a44ae6de6aa90f28cc787a8a5035250d5e39fbbfc68b92",
+    "authorization_path": "docs/validation/p1/persona_dialogue_mechanism_v1/researcher_authorization_v1.json",
+    "authorization_sha256": "328f63db6fabf3787374bb4e22b77f2f0b19a63d4e5b3149092f69a15fbcf144",
+    "registered_requests": 42,
+    "native_tokenizer_calls": 42,
+    "generation_requests": 0
+  },
+  "preexecution_state": {
+    "preflight_exists": false,
+    "execution_claim_exists": false,
+    "run_directories": 0,
+    "model_generation_attempts": 0,
+    "model_generations": 0,
+    "validation_outputs_inspected": 0
+  },
+  "review_finding": {
+    "severity": "EXECUTION_BLOCKING_UNTIL_REPAIRED",
+    "finding": "The registered runner validates the frozen source hashes in preflight and audit, but replay/analyze does not itself call validate_plan. A source change between audit and analysis could therefore change aggregate analysis while retaining the same frozen request manifest SHA.",
+    "scientific_impact_if_unrepaired": "Raw generations and per-response derived scores would remain replayed, but aggregate analysis-code provenance would not be enforced at the analysis entry point.",
+    "found_by": "Independent read-only Track A code review after tokenizer-only registration",
+    "outputs_used_to_find_issue": false
+  },
+  "authorized_repair": {
+    "scope": "Source-only execution-integrity repair before any model output.",
+    "requirements": [
+      "Make replay or analyze call validate_plan on the currently authorized frozen manifest before reconstructing or aggregating results.",
+      "Add a regression test proving changed registered source hashes are rejected before analysis.",
+      "Create frozen_manifest_v2.json and researcher_authorization_v2.json without modifying or deleting v1 evidence.",
+      "Bind v2 to this amendment, the exact v1 manifest and authorization hashes, and the repaired runner/test source hashes."
+    ],
+    "unchanged": [
+      "all 42 request IDs and order",
+      "all rendered prompts and prompt hashes",
+      "all native input token IDs and token hashes",
+      "all cases, personas, arms, targets, parser rules and endpoints",
+      "model, weights, tokenizer, backend and DLL identity",
+      "all generation parameters",
+      "resource allocation and stopping rules"
+    ],
+    "prohibited": [
+      "No retokenization is required or authorized.",
+      "Do not replace or overwrite v1 manifest, authorization or tokenizer logs.",
+      "Do not inspect validation outputs before the repaired v2 chain is frozen.",
+      "Do not start model inference under the v1 source chain."
+    ]
+  },
+  "claim_limit": "This is an integrity repair, not a scientific result, measurement change, favorable outcome adjustment, algorithm improvement, or additional resource authorization."
+}

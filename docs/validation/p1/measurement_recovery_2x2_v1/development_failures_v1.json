@@ -1,0 +1,19 @@
+{
+  "preparation_error": {
+    "correction": "Explicit d.OLD alias; partial authorization and policy bytes retained and checked before resuming preparation",
+    "message": "Undefined OLD alias",
+    "new_inference": 0,
+    "observed_utc": "2026-10-15T09:31:54.559239+00:00",
+    "type": "NameError"
+  },
+  "recording_command_error": "A PowerShell quoting error caused an unterminated Python string before execution; corrected without writes or inference.",
+  "researcher_Q1_clarification": "Pending; no response or approval inferred",
+  "resource_failures": [
+    "preflight_v1.json",
+    "preflight_v2.json"
+  ],
+  "tests": [
+    "Initial targeted58 passed",
+    "Expanded targeted59 passed; exact output in targeted_regression_v1.json"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "personaslm_hssf_analysis_reproduction_v2",
+  "recorded_utc": "2026-10-18T19:38:52.8594711Z",
+  "status": "PASS_ZERO_DIFFERENCES",
+  "reproduction_type": "READ_ONLY_ANALYSIS_RECONSTRUCTION_FROM_FROZEN_RAW_JOURNAL",
+  "independence_boundary": "Performed by a separate analysis process in the same autonomous session. This is independent recomputation from raw evidence, not an independent researcher, independent experimental sample, or external validation.",
+  "model_calls": 0,
+  "new_generations": 0,
+  "files_modified_during_reconstruction": 0,
+  "human_labels_created": 0,
+  "run_directory": "results/p1_persona_dialogue_history_semantics_surface_factorial/v2/runs/20261018T192639-5e91d9f5e0c84ad2ae29d495544fa92f",
+  "frozen_inputs": {
+    "case_bank_sha256": "8e849a0f272d3551fe414516c72daceb65743f56420832507e5d346f7ef65a9e",
+    "prospective_design_sha256": "ff48daf11c0c439e1631db1898b3029a6ea1d765a0f8193e662e622f9616f5fc",
+    "execution_authorization_sha256": "ea4fddb9d6973840f0fb03810b0d587d8dff4098ecfe990a7312b64a92711caf",
+    "frozen_manifest_sha256": "13f3baa26a8a0a1f341feb35045e88f007ef8cc65ac7dd2bbbec751bc059386a",
+    "preflight_sha256": "5e875cf60ba1640c559981c00c3c8b84994c11036bf2c75a3bf23d01320bdb0c",
+    "run_manifest_sha256": "ed2562804467270ffd9da1b11295857db599014cbc351587ee0b6ed4c3d1c3f4",
+    "run_summary_sha256": "9e6d13f0f8cd52da724d20229c8d64f792e04f517fb9ceeffcae498a6800ae02"
+  },
+  "canonical_outputs_compared": {
+    "execution_audit_v2_sha256": "0c90ddcd96208c85e845b30458ed6cabedcd77492ee2ab0774acfd8fe6c0d54e",
+    "analysis_v2_sha256": "b1afd391e9f3fedeb4a1dc920d5b8de242847869203ea52d097ceb4219270104"
+  },
+  "integrity_reconstruction": {
+    "journal_events": 575,
+    "journal_hash_chain": "PASS",
+    "journal_terminal_hash": "9a8821e0f405386e8a5cdb1db10aef7bb6ded0651edfb1010df20c402b111383",
+    "http_completion_bodies_verified": 60,
+    "raw_generation_records_verified": 60,
+    "started_records_matched_to_manifest": 60,
+    "registered_source_files_verified": 76,
+    "source_snapshot_hash_mismatches": 0,
+    "native_tokenizer_logs_verified": 60,
+    "native_tokenizer_hash_mismatches": 0,
+    "current_model_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+    "current_backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "current_chat_template_sha256": "0286b273dc0e7dbcc080469bf5b8e57b329c135db0de8a45cb16f80a8b0c4ce6"
+  },
+  "score_reconstruction": {
+    "responses_reconstructed_directly_from_raw_text": 60,
+    "score_discrepancies": 0,
+    "arm_summary_discrepancies": 0,
+    "factorial_contrast_discrepancies": 0,
+    "no_history_contrast_discrepancies": 0,
+    "leave_one_persona_out_discrepancies": 0,
+    "resource_summary_discrepancies": 0
+  },
+  "reproduced_primary_contrasts": {
+    "history_surface_declarative_minus_raw": {
+      "current_preferred_selection": 0.16666666666666666,
+      "current_target_selection": 0.125,
+      "exact_history_intrusion": -0.16666666666666666,
+      "raw_recommendation_frame_occurrence": -1.0,
+      "strict_format_adherence": 0.875
+    },
+    "history_semantics_aligned_minus_conflict": {
+      "current_preferred_selection": -0.08333333333333333,
+      "current_target_selection": -0.125,
+      "exact_history_intrusion": 0.08333333333333333,
+      "raw_recommendation_frame_occurrence": 0.0,
+      "strict_format_adherence": -0.125
+    },
+    "history_semantics_by_surface": {
+      "current_preferred_selection": 0.0,
+      "current_target_selection": -0.08333333333333333,
+      "exact_history_intrusion": 0.0,
+      "raw_recommendation_frame_occurrence": 0.0,
+      "strict_format_adherence": -0.25
+    },
+    "history_factorial_mean_minus_no_history": {
+      "current_preferred_selection": -0.2916666666666667,
+      "current_target_selection": -0.14583333333333334,
+      "exact_history_intrusion": 0.125,
+      "raw_recommendation_frame_occurrence": 0.5,
+      "strict_format_adherence": -0.5625
+    }
+  },
+  "reproduced_resources": {
+    "generations": 60,
+    "generated_tokens": 1631,
+    "native_eos": 60,
+    "completion_inference_seconds": 339.33826249997946,
+    "batch_wall_seconds": 352.0313927999996,
+    "server_peak_working_set_bytes": 2586701824,
+    "minimum_observed_available_physical_bytes": 1579372544,
+    "cumulative_generations_used": 292,
+    "cumulative_inference_seconds_used": 1701.0952766999717
+  },
+  "limitations": [
+    "LOPO ranges are deletion sensitivity ranges, not confidence intervals.",
+    "Exact-name and surface endpoints do not substitute for semantic reason, completeness, coherence, behavioral Persona Fidelity, or real-speaker evaluation.",
+    "This receipt reproduces analysis and provenance only; it does not reproduce model generation and does not make the development experiment independent validation."
+  ]
+}

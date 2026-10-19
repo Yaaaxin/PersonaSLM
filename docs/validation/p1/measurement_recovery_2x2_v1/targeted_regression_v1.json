@@ -1,0 +1,16 @@
+{
+  "command": [
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_p1_recovery_2x2.py",
+    "tests/test_p1d_instruct_smoke.py",
+    "tests/test_response_status.py",
+    "-q"
+  ],
+  "recorded_utc": "2026-10-15T09:38:47.855695+00:00",
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "...........................................................              [100%]\n59 passed in 6.69s\n",
+  "summary": "59 passed in 6.69s"
+}

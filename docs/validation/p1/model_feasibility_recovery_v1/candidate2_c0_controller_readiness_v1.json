@@ -1,0 +1,58 @@
+{
+  "combined_authorization": {
+    "actual_model_inference_wall_seconds": 65.87628550000954,
+    "authorization_id": "P1_AUTONOMOUS_MODEL_FEASIBILITY_20261017_V1",
+    "historical_ledger_untouched": true,
+    "new_local_cpu_generations": 8,
+    "pilot_c0_generations": 0,
+    "pilot_c0_inference_wall_seconds": 0.0,
+    "pilot_run_count": 0,
+    "remaining_generations": 1192,
+    "remaining_inference_wall_seconds": 71934.12371449999,
+    "screen_generations": 8,
+    "screen_inference_wall_seconds": 65.87628550000954,
+    "unresolved_in_flight_completion_requests": 0
+  },
+  "controller": {
+    "path": "tools/p1_candidate2_c0_controller.py",
+    "sha256": "84abead8a20a99383091727f2c718d1205ae28a1f3ef819028b7e09f31ffd66e"
+  },
+  "execution_impact": {
+    "inference_seconds": 0.0,
+    "scientific_model_generations": 0
+  },
+  "explicit_c0_request_ids": [
+    "p1_candidate2_pilot_p1_fallback_temporal_01_C0",
+    "p1_candidate2_pilot_p1_fallback_temporal_02_C0",
+    "p1_candidate2_pilot_p1_fallback_temporal_04_C0",
+    "p1_candidate2_pilot_p1_fallback_temporal_07_C0",
+    "p1_candidate2_pilot_p1_fallback_temporal_08_C0",
+    "p1_candidate2_pilot_p1_fallback_temporal_10_C0",
+    "p1_candidate2_pilot_p1_fallback_temporal_12_C0",
+    "p1_candidate2_pilot_p1_fallback_temporal_14_C0"
+  ],
+  "materialization": {
+    "c0_gate_requests": 8,
+    "conditional_continuation_requests": 72,
+    "namespace": "P1_AUTONOMOUS_CANDIDATE2_DISJOINT_PILOT_V1",
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/materialized_candidate2_disjoint_pilot_v1.json",
+    "requests": 80,
+    "scientific_model_generations": 0,
+    "sha256": "44f6f1991c03c8fae23e743099cafe5b8ceb1fd95f50b942878679e90f3b47cf",
+    "status": "PASS_MATERIALIZED_NO_INFERENCE_NOT_EXECUTION_AUTHORIZATION"
+  },
+  "remaining_72_action_implemented": false,
+  "required_available_physical_bytes": 5368709120,
+  "runtime_actions": [
+    "validate",
+    "preflight",
+    "run_c0",
+    "audit"
+  ],
+  "schema_version": "personaslm_candidate2_c0_controller_readiness_v1",
+  "selection": {
+    "selected_candidate": null,
+    "status": "CANDIDATE_1_FAILED_CANDIDATE_2_PENDING"
+  },
+  "status": "READY_CODE_AND_MATERIALS_BLOCKED_UNTIL_CANDIDATE2_QUALIFIES_AND_RAM_PASSES"
+}

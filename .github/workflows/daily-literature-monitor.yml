@@ -1,0 +1,47 @@
+name: Daily literature discovery
+
+on:
+  schedule:
+    - cron: '23 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: personaslm-daily-literature-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the public research repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+          cache: ''
+      - name: Validate the reviewed ledger and discovery policy
+        run: >-
+          python -B tools/literature_monitor.py validate
+          --config docs/validation/literature_monitor_v1/config_v1.json
+          --ledger docs/validation/literature_monitor_v1/reviewed_ledger_v1.json
+      - name: Collect unreviewed candidates from free metadata sources
+        run: >-
+          python -B tools/literature_monitor.py collect
+          --config docs/validation/literature_monitor_v1/config_v1.json
+          --ledger docs/validation/literature_monitor_v1/reviewed_ledger_v1.json
+          --output literature-discovery/daily_snapshot.json
+      - name: Run offline monitor regression tests
+        run: python -B -m unittest discover -s tests -p 'test_literature_monitor.py' -v
+      - name: Upload the discovery snapshot without modifying the repository
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: literature-discovery-${{ github.run_id }}
+          path: literature-discovery/daily_snapshot.json
+          if-no-files-found: warn
+          retention-days: 30

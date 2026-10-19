@@ -1,0 +1,55 @@
+{
+  "schema_version": "personaslm_literature_daily_delta_v1",
+  "local_monitor_date": "2026-10-19",
+  "timezone": "Europe/Paris",
+  "recorded_utc": "2026-10-18T22:12:19.9912487Z",
+  "classification": "UNREVIEWED_METADATA_DELTA_NO_ITEM_LEVEL_CHANGE",
+  "collector": {
+    "config": {
+      "path": "docs/validation/literature_monitor_v1/config_v1.json",
+      "sha256": "9cd77c2359880befb6d35db1ac4194e2a8bc1e3618822bfe9eb7775e8eb46023"
+    },
+    "reviewed_ledger": {
+      "path": "docs/validation/literature_monitor_v1/reviewed_ledger_v1.json",
+      "sha256": "55392de0024ff4c04aa265f654d87419982df834aeff659e401620840b9ae99b"
+    },
+    "sandbox_failure_preserved": {
+      "path": ".local/literature-monitor/daily_snapshot_20261018T221011Z.json",
+      "sha256": "e9b153ce4893513926b8c3e550d470fa04630326607f87da8ac34bb45389389f",
+      "source_requests_attempted": 13,
+      "source_requests_succeeded": 0,
+      "source_requests_failed": 13
+    },
+    "network_snapshot": {
+      "path": ".local/literature-monitor/daily_snapshot_20261018T221017Z.json",
+      "sha256": "2f40ad27c34a48f1a038bbcf1e71c57decd45c139db49cc1478baf2b87e0a851",
+      "records": 217,
+      "source_requests_attempted": 13,
+      "source_requests_succeeded": 13,
+      "source_requests_failed": 0
+    }
+  },
+  "comparison": {
+    "prior_snapshot": {
+      "path": ".local/literature-monitor/post_restart_snapshot_20261018T1320Z_network_v2.json",
+      "sha256": "1132758a25f7a53843eb48162d112680d97171435c8a3b426b0463caca93533e",
+      "records": 217
+    },
+    "new_stable_ids": 0,
+    "removed_stable_ids": 0,
+    "records_with_any_field_change": 0,
+    "preprint_to_formal_publication_transitions": 0,
+    "source_query_or_url_changes": 0,
+    "source_response_hash_changes": 13,
+    "interpretation": "The response payload hashes changed, but every item-level record and per-query record count remained identical. No new or updated paper is claimed."
+  },
+  "existing_primary_source_boundary": {
+    "path": "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v3.json",
+    "sha256": "32acaad25f6da41bb30f92f4ee5f7ebe7313cb2fd465b9c50fb48f5c67ef77a4",
+    "status": "UNCHANGED_NO_REPEAT_REVIEW",
+    "note": "The snapshot's existing NEW_STABLE_ID flags are relative to the older reviewed ledger and are not 2026-10-19 discoveries. ArXiv/DataCite DOI aliases are not counted as publication transitions."
+  },
+  "deep_review_performed": false,
+  "reason_no_deep_review": "No item-level delta required new primary-source verification.",
+  "model_inference_calls": 0
+}

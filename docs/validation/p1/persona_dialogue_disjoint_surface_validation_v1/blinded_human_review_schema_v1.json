@@ -1,0 +1,112 @@
+{
+  "schema_version": "personaslm_disjoint_surface_validation_blinded_review_v1",
+  "status": "FROZEN_SCHEMA_ONLY_NO_REVIEW_PACKAGE_NO_HUMAN_LABELS",
+  "created_utc": "2026-10-18T20:31:03.5572003Z",
+  "researcher": "Yaxin ZHENG",
+  "blinding_policy": {
+    "record_order": "Randomized only after a completed immutable execution; condition, arm, history semantics, history surface, case ID, and automatic scores are withheld from the reviewer view.",
+    "response_visibility": "Reviewer sees synthetic persona profile, current evidence, current user turn, and model response. Archived dialogue is shown only in a separately randomized context panel without arm labels.",
+    "unblinding": "Condition mapping is released only after the signed pointwise file passes the intake validator.",
+    "independence_boundary": "A judgment by the principal researcher is genuine human review but is not independent inter-rater validation."
+  },
+  "record_identity_fields": [
+    "blind_record_id",
+    "response_sha256",
+    "review_schema_sha256"
+  ],
+  "stages": {
+    "stage_a": "Pointwise review of every completed response in randomized blinded order.",
+    "stage_b": "Pairwise review of raw-versus-declarative responses within the same case and history semantics; left/right order randomized and condition names withheld. Stage B begins only after Stage A is sealed."
+  },
+  "pointwise_fields": [
+    {
+      "field": "response_relevance",
+      "type": "integer_or_na",
+      "allowed": [1, 2, 3, 4, 5, "NA"],
+      "anchors": {"1": "Not responsive to the current turn", "3": "Partly responsive", "5": "Directly responsive"}
+    },
+    {
+      "field": "current_evidence_consistency",
+      "type": "integer_or_na",
+      "allowed": [1, 2, 3, 4, 5, "NA"],
+      "anchors": {"1": "Contradicts current evidence", "3": "Mixed or unclear", "5": "Fully consistent with current evidence"}
+    },
+    {
+      "field": "conversational_coherence",
+      "type": "integer_or_na",
+      "allowed": [1, 2, 3, 4, 5, "NA"],
+      "anchors": {"1": "Incoherent", "3": "Understandable with defects", "5": "Clear and coherent"}
+    },
+    {
+      "field": "linguistic_persona_fidelity",
+      "type": "integer_or_na",
+      "allowed": [1, 2, 3, 4, 5, "NA"],
+      "anchors": {"1": "No match to specified style", "3": "Partial match", "5": "Strong match without copying task text"}
+    },
+    {
+      "field": "behavioral_persona_fidelity",
+      "type": "integer_or_na",
+      "allowed": [1, 2, 3, 4, 5, "NA"],
+      "anchors": {"1": "Choice conflicts with persona preferences", "3": "Ambiguous", "5": "Choice strongly follows persona preferences"}
+    },
+    {
+      "field": "answer_completeness",
+      "type": "integer_or_na",
+      "allowed": [1, 2, 3, 4, 5, "NA"],
+      "anchors": {"1": "No usable choice or reason", "3": "Choice or reason incomplete", "5": "Usable choice and supporting reason"}
+    },
+    {
+      "field": "history_intrusion_semantic",
+      "type": "categorical",
+      "allowed": ["NO", "YES", "UNCERTAIN", "NA"],
+      "definition": "Whether the answer adopts or relies on an archived alternative that is not one of the current choices."
+    },
+    {
+      "field": "unverifiable_response",
+      "type": "categorical",
+      "allowed": ["NO", "YES", "UNCERTAIN"],
+      "definition": "Whether the response asserts a material fact not checkable from the displayed synthetic evidence."
+    },
+    {
+      "field": "reviewer_comment",
+      "type": "optional_text",
+      "allowed": "Free text without condition guesses."
+    }
+  ],
+  "stage_b_pairwise_fields": [
+    {
+      "field": "more_persona_faithful",
+      "type": "categorical",
+      "allowed": ["LEFT", "RIGHT", "TIE", "BOTH_UNACCEPTABLE", "UNCERTAIN"]
+    },
+    {
+      "field": "more_reliable_to_current_evidence",
+      "type": "categorical",
+      "allowed": ["LEFT", "RIGHT", "TIE", "BOTH_UNACCEPTABLE", "UNCERTAIN"]
+    },
+    {
+      "field": "more_conversationally_appropriate",
+      "type": "categorical",
+      "allowed": ["LEFT", "RIGHT", "TIE", "BOTH_UNACCEPTABLE", "UNCERTAIN"]
+    },
+    {
+      "field": "pairwise_comment",
+      "type": "optional_text",
+      "allowed": "Free text without condition guesses."
+    }
+  ],
+  "required_provenance_fields": [
+    "reviewer_identifier",
+    "review_started_utc",
+    "review_completed_utc",
+    "review_environment",
+    "attestation_no_condition_mapping_seen"
+  ],
+  "label_state": {
+    "stage_a_records_created": 0,
+    "stage_b_records_created": 0,
+    "human_judgments_created": 0,
+    "ai_generated_judgments": 0,
+    "mapping_released": false
+  }
+}

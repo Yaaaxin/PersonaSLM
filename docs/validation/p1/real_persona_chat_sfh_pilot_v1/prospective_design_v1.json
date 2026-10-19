@@ -1,0 +1,161 @@
+{
+  "schema_version": "personaslm_rpc_sfh_pilot_prospective_design_v1",
+  "status": "PROSPECTIVELY_FROZEN_FOR_MATERIALIZATION_EXECUTION_NOT_REGISTERED",
+  "scientific_level": "DEVELOPMENT_EXPLORATORY",
+  "question": "For real-speaker Japanese dialogue continuations, what incremental changes in generative behaviour arise when a small language model receives an abstract style profile (S), participant-authored persona statements (F), and prior dialogue (H), separately and jointly?",
+  "claim_boundary": [
+    "The pilot estimates conditioning-package effects in eight development speakers; it is not independent validation.",
+    "S is an automatic surface/stylometric description, not validated human Persona Fidelity.",
+    "F consists of participant-authored persona statements whose temporal truth is unknown; it is not a verified fact database.",
+    "Natural H contains both surface and content cues. Effects are incremental prompt-package effects, not pure orthogonal psychological constructs.",
+    "A single held-out human continuation is one observed response, not the unique correct response.",
+    "No confirmatory significance test is registered."
+  ],
+  "data": {
+    "dataset": "RealPersonaChat v1.0.0",
+    "revision": "28d0b6b3865b29cabc26c230a2db37cdf315e937",
+    "split_assignment_sha256": "950b5c16e7b6eb77a350b7e3adc4fc1f5be63d11facbaa5ccc3f70081cf3e6f7",
+    "candidate_cohort": "the frozen 76-speaker development style-signal cohort only",
+    "split_enforcement_scan": "All 233 speaker IDs and every dialogue participant header are scanned to enforce the frozen split.",
+    "nondevelopment_persona_values_deserialized_or_retained": false,
+    "nondevelopment_utterance_text_deserialized_or_retained": false,
+    "excluded_fields": [
+      "personality",
+      "demographic_information",
+      "text_chat_experience"
+    ],
+    "privacy": "Participant text, identifiers, prompts, references, and row-level generations remain under ignored .local paths. Public evidence contains only code, hashes, and aggregates."
+  },
+  "allocation": {
+    "speakers": 8,
+    "contexts_per_speaker": 1,
+    "conditions_per_context": 8,
+    "maximum_generations": 64,
+    "retries": 0,
+    "blocks": [
+      {
+        "block": "B1",
+        "allocation": "first four deterministically selected speakers x C0-C7 = 32 requests",
+        "xor_latin_masks": [0, 3, 5, 6]
+      },
+      {
+        "block": "B2",
+        "allocation": "remaining four deterministically selected speakers x C0-C7 = 32 requests",
+        "xor_latin_masks": [1, 2, 4, 7]
+      }
+    ],
+    "within_case_order": "For within-case ordinal p=0..7, execute condition index p XOR the case's fixed mask. Across eight speakers each condition occupies every ordinal once; within each four-speaker block S, F, and H are each 2/2 at every ordinal.",
+    "block_rule": "B2 is not contingent on observed response quality. It may stop only for a predeclared safety, integrity, technical, time, or cumulative-budget failure.",
+    "unit": "speaker-context",
+    "dependence": "Eight conditions are paired within each speaker-context; model responses are not treated as 64 independent subjects."
+  },
+  "selection": {
+    "speaker_rule": "Within the frozen 76-speaker cohort, retain speakers satisfying all chronology, separation, no-mask, Japanese-text, and leakage rules; rank by SHA-256 of the fixed selection seed plus speaker ID; take the first eight.",
+    "selection_seed": "PersonaSLM-RPC-SFH-pilot-v1",
+    "style_source": "Two earlier dialogues with distinct partners, each partner distinct from the target partner; at least 20 total speaker turns.",
+    "target": "A later distinct-partner dialogue with parseable nondecreasing timestamps and an eligible target-speaker response immediately after a partner query.",
+    "history": "The six real turns immediately before the fixed current partner query.",
+    "reference": "The next real target-speaker turn; never included in any prompt.",
+    "unknown_timestamps": "Any dialogue with an empty, invalid, or NaT timestamp is ineligible.",
+    "leakage_rule": "After NFKC, casefold, and whitespace removal, reject exact reference containment and any conditioning string sharing a contiguous substring at least 80% of normalized reference length. Additionally reject F/reference overlap of four contiguous normalized characters, any shared Han bigram, any shared Katakana trigram, or any shared Latin/digit run of length at least three. This is conservative lexical protection, not proof against semantic paraphrase leakage.",
+    "partner_separation": true
+  },
+  "factors": {
+    "S": "A numeric Japanese-language description of seven surface/stylometric descriptors (mean and SD of turn length plus five rates) derived only from the two earlier source dialogues; no raw source utterance is supplied.",
+    "F": "A bulleted list of the speaker's ten participant-authored persona statements; temporal truth unknown.",
+    "H": "Six chronological raw turns preceding the fixed current partner query in the later target dialogue.",
+    "format_control": "Every condition has the same system instruction and the same four Japanese section headers. Disabled S/F/H sections are empty, never populated with literal N/A placeholders. The current partner query is identical across all eight conditions for a case.",
+    "conditions": {
+      "C0": {"S": 0, "F": 0, "H": 0},
+      "C1": {"S": 1, "F": 0, "H": 0},
+      "C2": {"S": 0, "F": 1, "H": 0},
+      "C3": {"S": 1, "F": 1, "H": 0},
+      "C4": {"S": 0, "F": 0, "H": 1},
+      "C5": {"S": 1, "F": 0, "H": 1},
+      "C6": {"S": 0, "F": 1, "H": 1},
+      "C7": {"S": 1, "F": 1, "H": 1}
+    }
+  },
+  "outcomes": {
+    "automatic_applicable_to_all": [
+      {
+        "name": "structural_response_validity",
+        "meaning": "nonempty natural-language response without an exposed prompt label or native API failure",
+        "claim_limit": "not semantic success"
+      },
+      {
+        "name": "Japanese_script_rate",
+        "meaning": "Japanese-script characters divided by non-space characters",
+        "claim_limit": "language compatibility proxy, not response quality"
+      },
+      {
+        "name": "heldout_reference_character_ngram_F1",
+        "meaning": "surface resemblance to the single real continuation",
+        "formula": "NFKC, casefold, remove whitespace, retain punctuation; form SETS of character trigrams and compute harmonic F1. A successful empty or fewer-than-three-character generation scores 0; every reference has at least eight characters.",
+        "claim_limit": "not correctness and not Persona Fidelity"
+      },
+      {
+        "name": "source_style_surface_distance",
+        "meaning": "equal-weight mean absolute distance, lower is closer, on six response-observable coordinates: mean response length divided by 50, and question, exclamation, ellipsis, laughter, and polite-ending rates on 0..1 scales",
+        "formula": "Compute the six coordinates with the frozen style parser for the generated reply and the two-dialogue source profile; average the six absolute coordinate differences. Source SD may appear descriptively in S but is excluded because one reply has no within-output turn SD.",
+        "claim_limit": "exploratory proxy whose validity controls must be reported; short outputs may be unstable"
+      },
+      {
+        "name": "conditioning_copy_rate",
+        "meaning": "exact and character-ngram reuse from S, F, H, and query fields",
+        "formula": "For every output, compare separately with each case's latent S, F, H, and query text regardless of whether that factor was exposed. Under the same NFKC/casefold/whitespace normalization, report (a) precision of the SET of unique generated character trigrams found in the source and (b) longest-common-substring length divided by normalized generated length. Empty or fewer-than-three-character generation has trigram precision 0; empty generation has LCS ratio 0.",
+        "claim_limit": "diagnoses copying; copying is not persona success"
+      },
+      {
+        "name": "response_length_tokens_latency_and_memory",
+        "meaning": "computational and verbosity measurements",
+        "claim_limit": "descriptive only"
+      }
+    ],
+    "human_only_not_yet_observed": [
+      "response relevance",
+      "conversational coherence",
+      "linguistic Persona Fidelity",
+      "persona-statement consistency",
+      "history consistency",
+      "unsupported personal claims",
+      "answer completeness"
+    ],
+    "not_applicable": [
+      "temporally verified factual accuracy",
+      "outdated-value adoption",
+      "independent inter-rater agreement"
+    ],
+    "missingness": "Keep every request. A native/API failure has structural validity 0 and all text-derived outcomes missing. A successful empty response has structural validity 0, reference-F1 and copy metrics 0, Japanese-script rate and style distance missing, and length 0. Nonempty short replies follow each frozen formula. Report numerator/denominator coverage for every outcome. Never score a non-applicable semantic endpoint as zero."
+  },
+  "estimands": {
+    "coding": "For each speaker use x_S=2S-1, x_F=2F-1, and x_H=2H-1. For any nonempty factor subset A, its Hadamard effect is 2 times the mean across eight conditions of y multiplied by the product of x_j for j in A. Thus a main effect is mean(y|factor=1)-mean(y|factor=0); interactions use the same product coding.",
+    "primary_developmental": "Within-speaker Hadamard main effects of S, F, and H on each applicable outcome, followed by the mean across eight speaker units.",
+    "secondary": "Within-speaker SF, SH, FH, and SFH product-coded interactions; condition means; copy-rate changes; CPU latency and memory differences.",
+    "uncertainty": "Report eight speaker-level contrast values, their mean, median, range, and leave-one-speaker-out mean range. These are descriptive/influence summaries, not confidence intervals or calibrated confirmatory tests.",
+    "human_estimands": "Remain NOT_OBSERVED until genuine blinded judgments are collected under a separately frozen provenance protocol."
+  },
+  "execution_pending": {
+    "model_identity": "PENDING_SEPARATE_AUDITED_EXECUTION_REGISTRATION",
+    "tokenizer_and_chat_template": "PENDING",
+    "context_and_generation_parameters": "PENDING",
+    "RAM_gates": "PENDING",
+    "native_tokenization": "NOT_RUN",
+    "hardware_preflight": "NOT_RUN",
+    "server_launches": 0,
+    "generations": 0,
+    "required_before_inference": [
+      "independent scientific audit",
+      "frozen private-material and public-receipt hashes",
+      "model/backend/weight/tokenizer/chat-template hashes",
+      "all native prompt token counts plus maximum-new-token fit",
+      "finite inference-time and memory authorization",
+      "valid automatic scorer implementation and tests",
+      "frozen formulas, normalizers, missingness handling, and factorial contrast implementation matching this design",
+      "fresh official RAM preflight"
+    ],
+    "required_before_semantic_analysis_or_claim": [
+      "a separately frozen condition-blinded genuine-human review protocol; this is not a prerequisite for the automatic-proxy generations"
+    ]
+  }
+}

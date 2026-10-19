@@ -1,0 +1,50 @@
+{
+  "schema_version": "personaslm_history_semantics_surface_scientific_execution_withdrawal_v1",
+  "status": "REGISTERED_NOT_EXECUTED_WITHDRAWN_SCIENTIFIC_DESIGN_NO_GO",
+  "recorded_utc": "2026-10-18T19:11:48.6440072Z",
+  "researcher": "Yaxin ZHENG",
+  "source_branch": "research/autonomous-personaslm",
+  "source_head": "c40667ad266082481b1850453f67784b593f3723",
+  "frozen_bindings": {
+    "case_bank_sha256": "3acdc36c2525a4c858da3be5c1aaeb9be6ed52c1f046d6d04304926900d0f8cd",
+    "prospective_design_sha256": "1f0632aad38740fcf8938e8b703beedd181099397f6055b1c178bb601095a7a0",
+    "runner_sha256": "4cf015b58980665b0908944b1c0121ce8b0298b4e179e86e68432c6c057001c2",
+    "test_sha256": "041ef06d87f5c211bd7c7801dda8306f2f8dbf87d95fe19d27e9c9ffd9c520a4",
+    "execution_authorization_sha256": "0ab6e7626e233502d020f5188f687cb3d18b05dde0fa0d84874abc100175ff1e",
+    "frozen_manifest_sha256": "d047062057c98d9f705cd8500c103b22457e47f16835ad4e0d78d9ce629d6084"
+  },
+  "completed_registration": {
+    "native_tokenizer_calls": 60,
+    "live_server_tokenizer_checks": 0,
+    "completion_calls": 0,
+    "generation_attempts": 0,
+    "model_generations": 0,
+    "preflight_receipts": 0,
+    "run_claims": 0,
+    "retries": 0
+  },
+  "independent_review_finding": {
+    "severity": "EXECUTION_BLOCKING_SCIENTIFIC_CONFOUND",
+    "finding": "In all 12 cases, the aligned archived target's first-versus-second position in the archived option list matched the current preferred target's first-versus-second display position; the conflict target occupied the complementary position.",
+    "exact_observed_matrix": {
+      "CURRENT_PREFERRED_FIRST__ALIGNED_ARCHIVED_FIRST": 6,
+      "CURRENT_PREFERRED_FIRST__ALIGNED_ARCHIVED_SECOND": 0,
+      "CURRENT_PREFERRED_SECOND__ALIGNED_ARCHIVED_FIRST": 0,
+      "CURRENT_PREFERRED_SECOND__ALIGNED_ARCHIVED_SECOND": 6
+    },
+    "consequence": "An aligned-minus-conflict current-selection contrast could not distinguish semantic alignment from reuse of the archived selected target's list position.",
+    "scope": "This is a prospective design defect discovered after native token registration but before preflight, server launch, live token checks, or any model generation. It is not an empirical model result."
+  },
+  "decision": {
+    "v1_preflight_authorized": false,
+    "v1_model_execution_authorized": false,
+    "v1_must_not_be_run": true,
+    "preserve_all_v1_registration_evidence": true,
+    "remedy": "Create a separately versioned prospective v2 design that crosses current preferred display position with aligned archived list position before any v2 tokenization or generation. Do not edit, overwrite, or reinterpret v1."
+  },
+  "resource_accounting": {
+    "global_generation_budget_before_and_after": "232/1200",
+    "global_completion_inference_seconds_before_and_after": "1361.7570141999922/72000",
+    "tokenizer_operations_do_not_count_as_model_generations": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "actual_remaining_now": 112,
+  "attempted": {
+    "A_C0": 32,
+    "B_FACTORIAL": 0,
+    "C_DIAGNOSTIC": 16
+  },
+  "authorization_id": "P1_ACCELERATED_MEASUREMENT_20261015_V1",
+  "latest_scope_factorial_execution_authorized": false,
+  "recorded_utc": "2026-10-15T09:41:27.502051+00:00",
+  "remaining_after_full24_if_later_completed": {
+    "A_C0": 0,
+    "B_FACTORIAL": 80,
+    "C_DIAGNOSTIC": 8,
+    "total": 88
+  },
+  "remaining_authorization": {
+    "A_C0": 0,
+    "B_FACTORIAL": 80,
+    "C_DIAGNOSTIC": 32
+  },
+  "remaining_unreserved": {
+    "A_C0": 0,
+    "B_FACTORIAL": 80,
+    "C_DIAGNOSTIC": 32
+  },
+  "reserved": {
+    "A_C0": 32,
+    "B_FACTORIAL": 0,
+    "C_DIAGNOSTIC": 16
+  },
+  "reserved_for_recovery": 0,
+  "retry_policy": "Attempt files are exclusive and never removed. Ambiguous transport outcomes consume an attempt.",
+  "this_scope_attempted": 0,
+  "this_scope_authorized_maximum": 24,
+  "total_attempted": 48,
+  "total_remaining": 112
+}

@@ -1,0 +1,28 @@
+{
+  "documentation_correction": "Added required --preflight/--output arguments to new reproduction commands before final seal.",
+  "generation_failures": 0,
+  "measurement_limits": [
+    "No human-adopted new semantic ratings",
+    "Native eos/eog compatibility retained as sensitivity",
+    "No behavioral applicability retrofitted"
+  ],
+  "non_generation_development_errors": [
+    {
+      "error": "FileNotFoundError while inspecting presumed events.jsonl",
+      "resolution": "Read actual immutable events/*.json inventory; no source edits."
+    },
+    {
+      "error": "PowerShell rg glob paths rejected as invalid names",
+      "resolution": "Use rg -g filters over tools directory."
+    },
+    {
+      "error": "Report builder KeyError case_id in masked proposals",
+      "resolution": "Join withheld mapping for reporting, preserving masked review files."
+    },
+    {
+      "error": "Report builder resume refused existing immutable engineering summary",
+      "resolution": "Require equality before reusing existing summary; no overwrite."
+    }
+  ],
+  "test_failures": 0
+}

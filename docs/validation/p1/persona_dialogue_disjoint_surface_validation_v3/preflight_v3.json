@@ -1,0 +1,195 @@
+{
+  "authorization": {
+    "maximum_attempts": 168,
+    "maximum_live_server_tokenizer_checks": 168,
+    "maximum_native_tokenizer_calls": 168,
+    "maximum_tokenizer_operations_total": 336,
+    "researcher": "Yaxin ZHENG",
+    "retries": 0
+  },
+  "authorization_sha256": "da3e3c3ee332bc6472e75a9a515d720e11c5b8ebeec55c5ebda5d78816b1a70a",
+  "case_bank_sha256": "b694f87ccc62d62960c61aeae81229e9eca7f37038c755d8e3ccf31f8567e3dd",
+  "checked_utc": "2026-10-18T21:41:11.358798+00:00",
+  "checks": {
+    "arms": 7,
+    "cases": 24,
+    "counterbalance_cells": 24,
+    "human_labels": 0,
+    "input_token_range": [
+      245,
+      357
+    ],
+    "lexical_4gram_overlap_count": 1,
+    "material_audit_sha256": "9bc2a744c4f3fafee290fda862cfa12b8dc749cd7cfb173b2fdc2a44deef996b",
+    "model_generations": 0,
+    "requests": 168,
+    "status": "PASS_PROSPECTIVE_NOT_AUTHORIZED_NOT_EXECUTED",
+    "synthetic_personas": 12,
+    "task_families": 3,
+    "tokenizer_operations": 0
+  },
+  "configuration": {
+    "endpoint": "http://127.0.0.1:8080",
+    "engine_revision": "0f701c882",
+    "max_new_tokens": 96,
+    "model_file": "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf",
+    "model_label": "Qwen3.5-2B-native-chat-Q4_K_M-third-party-development",
+    "model_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+    "n_ctx": 4096,
+    "prompt_template": "explicit_official_nonthinking_token_ids_v1",
+    "seed": 42,
+    "server_file": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+    "startup_timeout": 120.0,
+    "threads": 4,
+    "timeout": 180.0
+  },
+  "cumulative_baseline": {
+    "generations_limit": 1200,
+    "generations_used": 340,
+    "inference_seconds_limit": 72000,
+    "inference_seconds_used": 1968.0195239999766
+  },
+  "design_sha256": "28caab146f9ff51ec5f09aee9f3a9da9f0ae82a511ac7c332bb8a9418dc0fbac",
+  "identity": {
+    "checks": [
+      {
+        "check": "gguf",
+        "evidence": {
+          "bytes": 1270808032,
+          "gguf_version": 3,
+          "limitation": "Header and file digest checked; tensor loading and model identity require llama.cpp.",
+          "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\models\\gguf\\instruct_candidates\\lmstudio-bb84e113\\Qwen3.5-2B-Q4_K_M.gguf",
+          "sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+          "sha256_verified": true
+        },
+        "status": "PASS"
+      },
+      {
+        "check": "server_executable",
+        "evidence": {
+          "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\bin\\llama.cpp\\llama-b11573-bin-win-cpu-x64\\llama-server.exe",
+          "sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846"
+        },
+        "status": "PASS"
+      }
+    ],
+    "model": {
+      "bytes": 1270808032,
+      "gguf_version": 3,
+      "limitation": "Header and file digest checked; tensor loading and model identity require llama.cpp.",
+      "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\models\\gguf\\instruct_candidates\\lmstudio-bb84e113\\Qwen3.5-2B-Q4_K_M.gguf",
+      "sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+      "sha256_verified": true
+    },
+    "scope": "offline file preflight only; no real inference verified",
+    "server": {
+      "path": "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\bin\\llama.cpp\\llama-b11573-bin-win-cpu-x64\\llama-server.exe",
+      "sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846"
+    },
+    "status": "PASS"
+  },
+  "live_gate": "All 168 parse_special=true token arrays must match before completion 1.",
+  "manifest_sha256": "da559249c4ec4076de572b571b1746f70436dbe781bd51287e0ad36b52c6a3cb",
+  "material_audit_sha256": "9bc2a744c4f3fafee290fda862cfa12b8dc749cd7cfb173b2fdc2a44deef996b",
+  "memory_before_run": {
+    "observed_utc": "2026-10-18T21:41:11.358312+00:00",
+    "pid": 4780,
+    "platform": "nt",
+    "process": {
+      "page_faults": 638881,
+      "pagefile_usage": 55992320,
+      "peak_pagefile_usage": 63266816,
+      "peak_working_set": 71180288,
+      "quota_nonpaged_pool": 17248,
+      "quota_paged_pool": 150024,
+      "quota_peak_nonpaged_pool": 17720,
+      "quota_peak_paged_pool": 150960,
+      "working_set": 63840256
+    },
+    "status": "observed",
+    "system": {
+      "available_extended": 0,
+      "available_pagefile": 13813211136,
+      "available_physical": 3581276160,
+      "available_virtual": 140732999069696,
+      "load_percent": 75,
+      "total_pagefile": 26657357824,
+      "total_physical": 14846197760,
+      "total_virtual": 140737488224256
+    }
+  },
+  "review_schema_sha256": "e4db428b9c523a70c19781be22c1711839c3835fb8a863e3c7cf654ace986943",
+  "server_command": [
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\bin\\llama.cpp\\llama-b11573-bin-win-cpu-x64\\llama-server.exe",
+    "--model",
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\models\\gguf\\instruct_candidates\\lmstudio-bb84e113\\Qwen3.5-2B-Q4_K_M.gguf",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "8080",
+    "--threads",
+    "4",
+    "--threads-batch",
+    "4",
+    "--ctx-size",
+    "4096",
+    "--parallel",
+    "1",
+    "--n-gpu-layers",
+    "0",
+    "--device",
+    "none",
+    "--no-kv-offload",
+    "--no-op-offload",
+    "--no-context-shift",
+    "--offline",
+    "--verbosity",
+    "4",
+    "--no-warmup",
+    "--no-mmproj",
+    "--spec-type",
+    "none",
+    "--chat-template-file",
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\docs\\validation\\p1d\\development_readiness_v1\\official_instruct_metadata\\chat_template.jinja",
+    "--chat-template-kwargs",
+    "{\"enable_thinking\":false}"
+  ],
+  "source_hashes": {
+    "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/case_bank_v2.json": "b694f87ccc62d62960c61aeae81229e9eca7f37038c755d8e3ccf31f8567e3dd",
+    "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/material_disjointness_audit_v2.json": "9bc2a744c4f3fafee290fda862cfa12b8dc749cd7cfb173b2fdc2a44deef996b",
+    "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/scientific_execution_withdrawal_v2.json": "26577202300b72bfdfd267febc15ae3b5a291dd0173f1febc2adaac41d6a8ef1",
+    "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v3/blinded_human_review_protocol_v3.json": "e4db428b9c523a70c19781be22c1711839c3835fb8a863e3c7cf654ace986943",
+    "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v3/prospective_design_v3.json": "28caab146f9ff51ec5f09aee9f3a9da9f0ae82a511ac7c332bb8a9418dc0fbac",
+    "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/case_bank_v2.json": "8e849a0f272d3551fe414516c72daceb65743f56420832507e5d346f7ef65a9e",
+    "docs/validation/p1/persona_dialogue_independent_replication_declarative_repair_v1/analysis_v1.json": "8972902387ac485030dc1526a02c64dabfee63b39f6b9314c26e8ec111381ab0",
+    "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json": "a93cd629c0d152e9eb2325399235882beaebf510d4b6e32b24724975554fab8c",
+    "docs/validation/p1d/budget_calibration_v1/frozen_manifest_v2.json": "510e46b214dda23dea2a3e5462d44982d25b7a9db022626a7a5a1ba504d5e039",
+    "src/personaslm/__init__.py": "50c9f2b9e8c5d2ac8956d2a1511eafb3189de2ec435c49947470efa23c59f63e",
+    "src/personaslm/configuration.py": "8dc3c11eebeae67698d9afc64c61b1252edf5ee7219f59a27ff9e1d9179253f3",
+    "src/personaslm/inference.py": "5c9032a466e26393b69e215005466abe4ca11c6079742fed73610b3e7cfbedda",
+    "src/personaslm/journal.py": "c2f2093b3f4728814089667d95e9c2bca685b9d3deb9151913fc891da49df07f",
+    "src/personaslm/observations.py": "c276fe85b329e3d099e66c67f2c7afdd0b6f77d39ec9f134da43140ff4ddab4b",
+    "src/personaslm/p1b_calibration.py": "cc8f12cb8975c5bc18e7ce9486411da1815b9cc0734e2f06620ced52265b3825",
+    "src/personaslm/provenance.py": "7f64e9d2f40c3042d312896006511cfd7e277a7b2131d57644bcb5804503bcd1",
+    "src/personaslm/response_status.py": "7d0cde00dcef5f75f82b9b95b06ba0b7e6a3b9a3f8209aa834be5c60e32ee0cd",
+    "src/personaslm/runner.py": "e4e1d9314a6b57ae13c271736fcd529e4ec9181aa2647d725a260df9011dfe77",
+    "src/personaslm/server.py": "5df06c80c6095e76726af9ad97d48f63086a8c0748abb06625bce504ad605af6",
+    "tests/test_p1_persona_dialogue_disjoint_surface_validation_v3.py": "0c9105d46e11da55d6194afd44a0ef8c403269d76c4e695c0fb22f79fa0539b3",
+    "tools/p1_persona_dialogue_disjoint_surface_validation_v3.py": "b461ec0d9f6f5b8256b75c444f3a00f1e31319f0fec86b190bfc86d123d57255",
+    "tools/p1_persona_dialogue_factorial.py": "b2815921bf65c4b44e5b01f996b25d48500f24db282fa204010e4258d09d02ba",
+    "tools/p1_persona_dialogue_history_template_mechanism.py": "a220a522ee9691e7b12536f6271e568b0f85ad97f41a06785538b3f591a8a061",
+    "tools/p1_persona_dialogue_independent_replication.py": "0f1d52c64845e70e9abc33782847c5a46c86dd47d205df52df85aed24993edec",
+    "tools/p1_persona_dialogue_mechanism.py": "fd3bb9793ca2630d8e2e145d97bfb742ef197e5465346a8a420b38f592274b3f",
+    "tools/p1_persona_dialogue_mechanism_analysis_v2.py": "e23e204aaba5cd80b631e97a59ca698deac131dbe984e9ba2e96cc28fa7b7503",
+    "tools/p1c_design.py": "67b84ff139b99c8e1eba3723c12a4420e88ef39a73af4825c591c87316e9e0b8",
+    "tools/p1c_tokenize.py": "37ff722203104b1f1fa229bd39f55e3f26c85406b5516a298087a7ecdaf7ff65",
+    "tools/p1d_budget_calibration.py": "c788b98e7efd4d51427d252e2a365cdc134700124f8f166e8eecc4283603ebfe",
+    "tools/p1d_design.py": "7245b500023668ebea5c69775fd7d385916a1e380db133c607ef03ae4d3be206",
+    "tools/p1d_format_calibration.py": "e649072e204c9a547049d88d8f28841d45a4174c66a200111c3922c6ac9de838",
+    "tools/p1d_format_diagnostic_proposal.py": "511a2e588f8433c20da5159176945b855a18935481373dc97013cac51a962193",
+    "tools/p1d_instruct_smoke.py": "80c63370fa9b6897b3a7751b6f49f568f8318978a377cb66d899925df0c743de",
+    "tools/p1d_instruct_template_check.py": "133cc894d2bc4a1320cad53bf44214d993ddb4426f22532bc0ffbf614560ba7d",
+    "tools/p1d_scientific_audit.py": "fb2a9bba555ff23fa6691ab2d0d809c1d30df5defd40bb21db9c14f2a7777549"
+  },
+  "status": "PASS"
+}

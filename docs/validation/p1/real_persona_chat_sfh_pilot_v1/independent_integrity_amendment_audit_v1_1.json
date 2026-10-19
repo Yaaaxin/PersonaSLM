@@ -1,0 +1,43 @@
+{
+  "schema_version": "personaslm_rpc_sfh_integrity_amendment_audit_v1_1",
+  "status": "PASS",
+  "verdict": "PASS_FOR_AMENDED_EXECUTION",
+  "auditor_provenance": "AI independent code/scientific audit; not human review",
+  "bindings": {
+    "amendment_sha256": "486e20ac3fed8a31daf054e505e12db1d6c53fe87a89e65d720030e2a36b5da5",
+    "controller_sha256": "ac174982bad10bc5e659b315c4c75fb73d84fe0bfdf5d4b6d499b2148a9a541e",
+    "test_sha256": "2d5ec568dbd23025004078e7bf4748b8f0a8f5dbc466d3a95c692ad80cec39ec",
+    "original_controller_sha256": "0a8143ba7a474eadfd303a109dcac5f438e44b14c0ab3e32f82c6f7d0e3d1110",
+    "original_test_sha256": "7dcc7b8d0b949c43d2fcd6f0ff88fe4cc3baccd4a7c9ba8db2a5efdc45724409",
+    "original_registration_sha256": "4b0bf22b261e8e1de700e7ac482039cf46f75ba62ff995b598143732a4d1936f",
+    "original_frozen_manifest_sha256": "67db40afd7d7535cee6b2897b5fc9ba94b5a67a12bd276c6e39c4635407ac909",
+    "failed_preflight_sha256": "792da63871693c540b19fba3ebf6c8c18b3e1c2d97cdf796af68ecc34ff8a327",
+    "authorization_sha256": "26be44fe71f16791b2f4815093c8a5c7b2ab93f6092dd9b105300643e7a624fa",
+    "original_independent_audit_sha256": "76449486daf6f7bc8d0913c1b8151ee4ce257b8df024c918b1385ca812ae5f22",
+    "comparison": "CANONICAL_JSON_SEQUENCE_COMPARISON_ONLY",
+    "stored_schedule_canonical_sha256": "e9387cdeaa27f31162df6584cf5136fe72f8c1409d8cfa1aaf3f7b5dc8552db1",
+    "computed_schedule_canonical_sha256": "e9387cdeaa27f31162df6584cf5136fe72f8c1409d8cfa1aaf3f7b5dc8552db1",
+    "canonical_bytes_equal": true,
+    "values_and_sequence_order_equal": true,
+    "stored_mask_container": "JSON_ARRAY",
+    "computed_mask_container": "PYTHON_TUPLE"
+  },
+  "blocking_findings": [],
+  "blocking_finding_count": 0,
+  "checks": {
+    "historical_bytes_hashes_and_zero_operation_failure_preserved": true,
+    "root_cause_reproduced_as_list_tuple_round_trip_only": true,
+    "canonical_schedule_values_and_sequence_order_equal": true,
+    "changed_value_rejected": true,
+    "changed_sequence_order_rejected": true,
+    "frozen_prompts_token_arrays_and_tokenizer_evidence_reused": true,
+    "no_native_retokenization_in_amendment": true,
+    "audit_authorization_amendment_sequence_enforced": true,
+    "fresh_v1_1_preflight_required": true,
+    "resource_budget_retry_scorer_privacy_and_science_constraints_unchanged": true,
+    "claim_directly_binds_effective_integrity_chain": true,
+    "first_journal_event_directly_binds_effective_integrity_chain": true,
+    "source_snapshot_covers_effective_integrity_files": true,
+    "offline_tests_12_of_12_passed": true
+  }
+}

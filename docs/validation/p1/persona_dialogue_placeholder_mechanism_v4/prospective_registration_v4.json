@@ -1,0 +1,133 @@
+{
+  "version": "personaslm_placeholder_mechanism_prospective_registration_v4",
+  "status": "PROSPECTIVELY_REGISTERED_NOT_AUTHORIZED_NOT_TOKENIZED_NOT_EXECUTED",
+  "registered_utc": "2026-10-18T23:27:09.3997777Z",
+  "prospective": true,
+  "outcomes_observed": false,
+  "observed_model_responses": [],
+  "observed_endpoint_values": [],
+  "bindings": {
+    "prospective_design": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_design_v4.json",
+      "sha256": "86429901ba24e5d8ef0a659cc3c1a0d340b58bfd6cd072f1d1c4df2feebd3723"
+    },
+    "case_bank": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/case_bank_v4.json",
+      "sha256": "a74b20b7b5039fce1035b5162f6a9441cf632c55235e44974837024b84ccc8b8"
+    },
+    "prospective_amendment": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_design_amendment_v4_1.json",
+      "sha256": "35a7b8e75bb1265c8d4c14da123f0f76bc081a6c38170d326a2d678c18806675"
+    },
+    "measurement_clarification": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_measurement_clarification_v4_2.json",
+      "sha256": "0c1cf6c1200dd9b459730a36de2f5fe09c88b6bebca34346dc6841a03047878d"
+    },
+    "material_ancestry_audit": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/material_ancestry_audit_v4.json",
+      "sha256": "d1b2b7da46d3c4c1a482d48bea1fb1ce450ff26765a2bc9ffbb61761387b7f81"
+    },
+    "material_scientific_review": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/material_scientific_review_v4.json",
+      "sha256": "90eb76d15b0651b158d347f08ab93481e8c6028ac58df94fd8947f371c766758"
+    }
+  },
+  "allocation": {
+    "synthetic_personas": 8,
+    "cases": 8,
+    "arms": 12,
+    "planned_generation_attempts": 96,
+    "attempts_per_case": 12,
+    "attempts_per_arm": 8,
+    "retries": 0,
+    "hidden_warmups": 0
+  },
+  "schedule_sha256": "4aad53c38ba96e43920d0dc4bbafa051dd51ea388f6ca0e64c64c01e0913f443",
+  "estimand_weights_sha256": "92faf524b904831ead3ecc8a3517530692547ec26b087b21c215fd9408a68ee2",
+  "resources": {
+    "baseline_generations_consumed": 508,
+    "global_generation_limit": 1200,
+    "projected_generations_consumed_if_complete": 604,
+    "baseline_inference_seconds_consumed": 3171.544608799969,
+    "global_inference_seconds_limit": 72000.0,
+    "batch_completion_inference_seconds_ceiling": 2400.0,
+    "batch_wall_seconds_ceiling": 3600.0,
+    "minimum_preflight_available_physical_ram_bytes": 4294967296,
+    "minimum_live_available_physical_ram_bytes": 536870912,
+    "minimum_disk_reserve_bytes": 1073741824,
+    "maximum_native_tokenizer_calls": 112,
+    "maximum_live_server_tokenizer_checks": 96,
+    "maximum_tokenizer_operations_total": 208
+  },
+  "execution_state": {
+    "authorized": false,
+    "native_tokenizer_calls": 0,
+    "live_server_tokenizer_checks": 0,
+    "model_server_launches": 0,
+    "generation_attempts": 0,
+    "completed_generations": 0,
+    "results": 0
+  },
+  "endpoint_policy": {
+    "automatic_endpoints": [
+      "literal_placeholder_occurrence",
+      "exact_valid_current_output_line",
+      "exactly_two_sentence_realization",
+      "preferred_current_name_selection",
+      "any_current_name_selection",
+      "preferred_current_anchor_selection",
+      "any_current_anchor_selection",
+      "preferred_name_anchor_indicator_discordance",
+      "any_archived_entity_occurrence",
+      "selected_archived_target_occurrence",
+      "unprompted_archived_name_occurrence",
+      "control_owner_mention",
+      "style_prefix_contract",
+      "style_suffix_contract",
+      "evaluator_gap"
+    ],
+    "automatic_claim_class": "LITERAL_SELECTION_FORMAT_AND_EVALUATOR_PROXIES_ONLY",
+    "unassessable_automatic_values": "MISSING_NOT_ZERO",
+    "structural_not_applicable_values": "N_A_EXCLUDED_NOT_ZERO",
+    "semantic_endpoints": [
+      "semantic_selected_entity",
+      "current_evidence_consistency",
+      "reason_supports_selected_choice",
+      "response_relevance",
+      "conversational_coherence",
+      "behavioral_persona_fidelity",
+      "linguistic_persona_fidelity",
+      "answer_completeness",
+      "material_unverifiable_claim",
+      "evidence_spans"
+    ],
+    "semantic_endpoint_status": "HUMAN_ONLY_NOT_RATED",
+    "automatic_semantic_substitution": false
+  },
+  "analysis_policy": {
+    "unit": "CASE_PAIRED_WITHIN_CASE_CONTRAST",
+    "inference": "ESTIMATION_FIRST_NO_P_VALUES_NO_CONFIRMATORY_SIGNIFICANCE",
+    "leave_one_persona_out": true,
+    "leave_one_case_out_range_is_confidence_interval": false,
+    "logical_missing_outcome_bounds": true,
+    "missing_recoded_as_zero": false,
+    "structural_n_a_in_denominator": false
+  },
+  "claim_boundaries": {
+    "configuration_specific_synthetic_mechanism_associations_only": true,
+    "general_semantic_history_failure_established": false,
+    "real_speaker_persona_fidelity_established": false,
+    "population_causality_established": false,
+    "independent_human_validation_established": false,
+    "algorithmic_novelty_established": false
+  },
+  "stopping_and_integrity": {
+    "four_gib_preflight_required": true,
+    "below_gate_is_no_go_before_server_or_generation": true,
+    "zero_retry": true,
+    "resume_or_fill_failed_suffix": false,
+    "append_only_evidence": true,
+    "outcome_based_stopping": false,
+    "independent_validation_set_used_for_tuning": false
+  }
+}

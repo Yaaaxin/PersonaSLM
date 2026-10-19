@@ -1,0 +1,212 @@
+{
+  "version": "p1_aggregate_evaluator_validity_v1",
+  "input_scope": {
+    "sources": {
+      "stage_b": {
+        "path": "docs/validation/p1/stage_b_v1/stage_b_decision_record_v1.json",
+        "sha256": "6f02889248239d866f166e40aa65ac59d074996ed8b5d08d21cdb1816a4a321b"
+      },
+      "p1b_crosstabs": {
+        "path": "docs/validation/p1b/confirmed_analysis_v1/analysis_v1/structural_semantic_crosstabs_v1.csv",
+        "sha256": "290f7ebd07e2de2fbe42c9431409ff1067f9d044bfd2116762cc4d7e681118e0"
+      },
+      "candidate1_audit": {
+        "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate1_audit_v1.json",
+        "sha256": "d73d16cf9b8ab7b433f4f53ff2b7567d186d88003b3b7a119df5bd439d725921"
+      },
+      "candidate1_selection": {
+        "path": "docs/validation/p1/model_feasibility_recovery_v1/selection_after_candidate1_v1.json",
+        "sha256": "a464dfb0c3d7193dd4821c7b62f323afac9e251e3fa71c66d724c8aebf34db9d"
+      },
+      "wave1_coverage": {
+        "path": "docs/P1_wave1_evaluation_coverage.md",
+        "sha256": "e719dd50c5abc65e0e8cc0778088798df88adbc01b96090619c5eb2fce64dbfa"
+      },
+      "wave1_structural_semantic": {
+        "path": "docs/P1_wave1_structural_semantic_comparison.md",
+        "sha256": "64dd10cf33f9ca505364a60887abd36f99973ade7919502cb891035b3e1c37fe"
+      }
+    },
+    "analysis_code": {
+      "path": "tools/p1_evaluator_validity.py",
+      "sha256": "f442198a0b44f12457ca5badd863cb0dbd5f1b386934dd69cd1dcb50dc328101"
+    },
+    "method_dependency": {
+      "path": "tools/p1_measurement_scoring.py",
+      "function": "wilson",
+      "sha256": "b567dec6f2479adfe6f787255b6828eb4292676a43f9b83333e04dd87a66a0b0"
+    },
+    "restricted_or_raw_record_material_read": false
+  },
+  "oq_audit": {
+    "exact_category_agreement": 31,
+    "denominator": 32,
+    "agreement_rate": 0.96875,
+    "wilson_95_descriptive_iid_approximation": [
+      0.8425573617998744,
+      0.9944621398359969
+    ],
+    "automatic_task_success": 16,
+    "audited_task_success": 16,
+    "scope": "Single-reviewer aggregate agreement; not evaluator accuracy, independent replication, or inter-rater reliability."
+  },
+  "candidate1": {
+    "frozen_gate": {
+      "automatic_success": 1,
+      "denominator": 8,
+      "threshold": 7,
+      "proceed": false,
+      "status": "UNCHANGED_FAILED_1_OF_8"
+    },
+    "frozen_current_or_outdated_coverage": {
+      "covered": 2,
+      "denominator": 8,
+      "rate": 0.25
+    },
+    "post_hoc_ai_diagnostic": {
+      "current_value": 4,
+      "outdated_value": 3,
+      "incomplete": 1,
+      "frozen_alias_recognized_within_semantically_classifiable": 2,
+      "provenance_status": "POST_HOC_AI_ONLY_AGGREGATE_NOT_HUMAN_VALIDATED",
+      "gate_effect": "NONE"
+    },
+    "frozen_coverage_within_ai_diagnostic_complete_outputs": {
+      "covered": 2,
+      "denominator": 7,
+      "rate": 0.2857142857142857,
+      "scope": "Cross-source descriptive coverage (2/7), not accuracy or a replacement for the frozen 1/8 gate result."
+    }
+  },
+  "wave1": {
+    "automatic_factual_conclusive_coverage": {
+      "conclusive": 15,
+      "eligible": 72,
+      "rate": 0.20833333333333334,
+      "automatic_attempts": 48,
+      "unresolved_labels": 57,
+      "minimum_unresolved_human_judgments": 57
+    },
+    "structural_semantic_counts": {
+      "TRUNCATED": {
+        "complete": 0,
+        "incomplete": 17,
+        "total": 17
+      },
+      "CROSS_TURN": {
+        "complete": 78,
+        "incomplete": 0,
+        "total": 78
+      },
+      "AMBIGUOUS": {
+        "complete": 1,
+        "incomplete": 0,
+        "total": 1
+      }
+    },
+    "native_termination_semantic_counts": {
+      "output_budget": {
+        "total": 95,
+        "complete": 78,
+        "incomplete": 17
+      },
+      "native_eos": {
+        "total": 1,
+        "complete": 1,
+        "incomplete": 0
+      }
+    },
+    "scope": "Confirmed aggregate measurement distinction on saved Wave 1 outputs; not a termination-policy causal effect.",
+    "annotation_provenance": "RESEARCHER_CONFIRMED_AI_ASSISTED_CODING_NOT_AN_INDEPENDENT_SECOND_RATING"
+  },
+  "p1b_structural_semantic": {
+    "units_per_axis": 192,
+    "axis_totals": {
+      "answer_delivery": 192,
+      "factual_consistency": 192,
+      "semantic_completeness": 192,
+      "temporal_consistency": 192
+    },
+    "structural_counts_per_axis": {
+      "AMBIGUOUS": 1,
+      "CROSS_TURN": 186,
+      "TRUNCATED": 5
+    },
+    "semantic_label_counts": {
+      "answer_delivery": {
+        "FULL_ANSWER": 110,
+        "NO_FINAL_ANSWER": 21,
+        "PARTIAL_ANSWER": 27,
+        "PARTIAL_WITH_FALSE_CLAIM": 1,
+        "WRONG_ANSWER_DELIVERED": 33
+      },
+      "factual_consistency": {
+        "Correct": 137,
+        "Incorrect": 34,
+        "Unverifiable": 21
+      },
+      "semantic_completeness": {
+        "NO": 21,
+        "PARTIAL": 28,
+        "YES": 143
+      },
+      "temporal_consistency": {
+        "Correct": 40,
+        "Incorrect": 34,
+        "Not Applicable": 104,
+        "Unverifiable": 14
+      }
+    },
+    "key_cross_cells": {
+      "cross_turn_semantically_complete": 142,
+      "cross_turn_full_answer": 109,
+      "cross_turn_total": 186
+    },
+    "scope": "Aggregate diagnostic showing that structural status is not a semantic proxy."
+  },
+  "not_estimable": {
+    "oq_confusion_sensitivity_specificity": {
+      "status": "NOT_ESTIMABLE",
+      "reason": "Condition totals and exact-category agreement do not identify the confusion matrix."
+    },
+    "candidate1_semantic_accuracy": {
+      "status": "NOT_ESTIMABLE",
+      "reason": "The semantic diagnostic is post-hoc AI-only and has no human reference labels."
+    },
+    "independent_human_inter_rater_reliability": {
+      "status": "NOT_ESTIMABLE",
+      "reason": "No second independent human rating aggregate is available."
+    },
+    "sfh_factorial_effects": {
+      "status": "NOT_ESTIMABLE",
+      "reason": "The conditional 80-request factorial pilot was not executed."
+    }
+  },
+  "scientific_statuses": [
+    {
+      "status": "OQ_TASK_SUCCESS_NARROWLY_SUPPORTED_BY_AGGREGATE_AGREEMENT",
+      "basis": "31/32 exact-category agreement from one researcher audit; not general evaluator accuracy."
+    },
+    {
+      "status": "GENERAL_SEMANTIC_VALIDITY_INSUFFICIENT",
+      "basis": "Existing aggregates do not identify a full confusion matrix, independent inter-rater reliability, or semantic validity across outcome axes."
+    },
+    {
+      "status": "CANDIDATE1_ENDPOINT_COVERAGE_INSUFFICIENT_REQUIRES_HUMAN_VALIDATION",
+      "basis": "Frozen alias coverage is 2/8 and only 2/7 among the post-hoc AI-only semantically classifiable outputs; this is descriptive coverage, not accuracy."
+    }
+  ],
+  "historical_gate_integrity": {
+    "stage_b_qualifying_configurations": 0,
+    "stage_b_branch": "B",
+    "candidate1_gate_changed": false,
+    "historical_threshold_changed": false
+  },
+  "execution_impact": {
+    "scientific_model_generations": 0,
+    "model_inference_wall_seconds": 0,
+    "authorization_debit_generations": 0,
+    "network_calls": 0,
+    "historical_outputs_modified": false
+  }
+}

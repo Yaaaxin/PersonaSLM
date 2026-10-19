@@ -1,0 +1,41 @@
+{
+  "schema_version": "personaslm_manual_checkpoint_verification_v2",
+  "date_utc": "2026-10-19",
+  "provenance": "Observed command stdout and exit status; not a claim that every test completed or that a new model experiment ran.",
+  "environment": {"python": "3.14.3", "powershell": "5.1.19041.6456", "PYTHONPATH": "tools;src"},
+  "local_focused_suite": {"passed": 88, "failed": 0, "seconds": 39.80, "exit_code": 0, "scope": "Eight RealPersonaChat test files plus four literature/scheduler test files; private dependencies available locally."},
+  "local_full_suite_bounded": {
+    "passed": 702,
+    "failed": 5,
+    "seconds": 247.48,
+    "exit_code": 1,
+    "complete_suite": false,
+    "stop_rule": "--maxfail=5",
+    "failures": [
+      {"node": "tests/test_p1_blinded_stage_a.py::test_all_frozen_candidates_actual_tokens_and_disjoint_materials", "observed": "Historical assertion expects 72 attempts; actual later ledger is 80."},
+      {"node": "tests/test_p1_measurement_pilot.py::test_actual_cumulative_scope_includes_later_oq_recovery", "observed": "Historical assertion expects C_DIAGNOSTIC=40; actual later ledger is 48."},
+      {"node": "tests/test_p1_persona_dialogue_disjoint_surface_validation_v3.py::test_v3_validates_offline_and_v2_is_preserved_with_zero_operations", "observed": "require_unstarted=True rejects the already initialized/completed study."},
+      {"node": "tests/test_p1_persona_dialogue_history_semantics_surface_factorial.py::test_candidate_is_exactly_twelve_by_five_balanced_and_unstarted", "observed": "Historical test expects authorization absent, but it now exists."},
+      {"node": "tests/test_p1_persona_dialogue_history_semantics_surface_factorial.py::test_full_validation_proves_disjointness_and_zero_operations", "observed": "require_unstarted=True rejects an already initialized study."}
+    ],
+    "action": "Preserved failures and frozen tests. No ledger rollback, evidence deletion, or threshold alteration. Future test isolation/fix is separate work."
+  },
+  "public_filesystem_view": {
+    "construction": "Fresh git archive of base HEAD plus exactly 552 inspected INCLUDE paths, outside the working repository. No .git index, private data, models, review keys, or vendored runtimes copied.",
+    "path": "E:/DEVOIRS/Research/PersonaSLM-Lab/manual_checkpoint_public_verify_20261019",
+    "same_machine_not_new_environment": true,
+    "focused_attempt": {"passed": 28, "failed": 10, "exit_code": 1, "stop_rule": "--maxfail=10", "cause": "Missing private materials_v1.json and frozen_manifest_v1.json. This proves the public checkpoint is not standalone generation/analysis reproduction."},
+    "reduced_attempt": {"passed": 47, "failed": 1, "errors": 4, "exit_code": 1, "cause": "Four errors require the omitted real-speaker corpus; one test assumes an existing results directory."},
+    "portable_smoke": {"passed": 46, "failed": 0, "seconds": 1.07, "exit_code": 0, "scope": "Eight explicitly listed code/fixture/literature test files without private-data reproduction tests. This is not a substitute for the failed broader suites."}
+  },
+  "static_checks": {"python_files_ast_compile_pass": 159, "existing_powershell_files_parse_pass": 2, "new_verifier_powershell_parse_errors": 0, "new_verifier_isolated_path_guard_cases_passed": 11},
+  "warnings": ["Existing pytest configuration has unknown cache_dir option."],
+  "initial_command_errors": [
+    "First full-suite attempt used a nested --basetemp whose parent did not exist; interrupted after repeated errors. No completion/pass total is claimed.",
+    "A bounded diagnostic rerun passed 60 tests then reported WinError 3 at temporary-directory setup. Creating only the missing test parent directory resolved that setup issue before the recorded bounded full suite.",
+    "An overlarge audit serialization response was truncated; it was replaced by bounded chunks before any final allowlist was created.",
+    "One verifier text patch did not match escaped backslash spelling; no file changed on that failed patch. The final guard uses an explicit character code and passed review."
+  ],
+  "scientific_operations": {"new_generations": 0, "model_launches": 0, "review_labels_added": 0, "protected_mappings_reconstructed": 0, "git_add_commit_push": 0},
+  "conclusion": "CONTENT_INSPECTED_SAFE_ARCHIVAL_CHECKPOINT_WITH_DECLARED_GAPS; NOT_A_FULLY_GREEN_OR_STANDALONE_REPRODUCTION_RELEASE"
+}

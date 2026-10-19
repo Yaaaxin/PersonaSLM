@@ -1,0 +1,93 @@
+{
+  "version": "p1_researcher_audit_integration_reproducibility_v1",
+  "created_utc": "2026-10-16T20:44:22.689016+00:00",
+  "researcher": "Yaxin ZHENG",
+  "phase": "P1 only",
+  "source_review_sha256": "b0e8cff9b80bdb6055d81333fc0a42a3117e1d5a3bc043f7dcce4cd9aa8ecb84",
+  "stage_a_blank_sha256": "5bc9712ef9c5ad0e2a1769e55d99b72f7a4e99ab9e77a4657a605b642bfb1781",
+  "proposal_comparison_sha256": "49d423a8f3ec10ce52c64d9cd9561173773da012ef73d223c6b48cf4eb143275",
+  "stage_a_ledger_sha256": "23c571d4da932cbb94969052787d1bd38c94866f1bc786aa5bf35b3e673c0234",
+  "stage_a_manifest_index_sha256": "799a95f0edc033b1af56ef937f56954ac43ffed14f21871df6beca4e74b2078a",
+  "generated_artifact_sha256": {
+    "docs/validation/p1/researcher_audit_integration_v1/researcher_annotation_import_v1.json": "3271fa375e4a797b0f7c22ebcfcdf0295e14f3d7a193356350e952d5b207a215",
+    "docs/validation/p1/researcher_audit_integration_v1/date_binding_audit_v1.json": "f83ac9cc3ae16b2f82e9db3c24ac4caa6b36b1ec594683202c72e6558baf0e07",
+    "docs/validation/p1/researcher_audit_integration_v1/automatic_scorer_date_usage_audit_v1.json": "fded923fb9a5ba1c7545d14acc7a7f3ee0cdf095b3417f7c2efe5a270d9d0764",
+    "docs/validation/p1/researcher_audit_integration_v1/automatic_scorer_date_usage_audit_v2.json": "753ae514d6502e2d0e44e2a45b84d8a01635aa0d565a6c16566b3dc352f270ae",
+    "docs/validation/p1/researcher_audit_integration_v1/researcher_annotation_stage_a_compatibility_v1.csv": "b7b6c40900d42b03643808db4aa74d57f1f776e651b21dfb512f328586211cad",
+    "docs/validation/p1/researcher_audit_integration_v1/regression_test_evidence_v1.json": "00e6c940a10b452c04613cf02980654e5d03458b7a07114ca9b4865b0dffdee0",
+    "docs/validation/p1/researcher_audit_integration_v1/regression_test_evidence_v2.json": "9dff23f7ddad0acce659bb57416beb34299e3a9af3d71eabb517fcebfd8f3f12"
+  },
+  "recovery_report_sha256": "49d2c1c1e873b26d11e36d61ede8ebd649070003f32dd96f14c1c33dc4635cdb",
+  "development_log_sha256_at_manifest_creation": "35c9807fb76ba849b84df2e1be2147bb1a049de8443c4d0924b5453fc560545d",
+  "authoritative_current_evidence": {
+    "automatic_scorer_audit": "automatic_scorer_date_usage_audit_v2.json",
+    "regression": "regression_test_evidence_v2.json"
+  },
+  "preserved_incomplete_evidence": {
+    "automatic_scorer_date_usage_audit_v1.json": "Stale transient p1_recovery_design.py source hash; preserved, not authoritative.",
+    "regression_test_evidence_v1.json": "116 passed, 2 failed, 1 skipped; legacy tests parsed the restricted key despite a contrary metadata claim."
+  },
+  "current_source_sha256": {
+    "tools/p1_researcher_audit_integration.py": "49c29933ff37b627c99da62880e8eda1f8ee9b9d8ea3d956cdd4367378d411a6",
+    "tools/p1_recovery_design.py": "b556eb47a8db0ab864b0b3d819ad5e3d74888a9c533127ba660a72783c9a05a5",
+    "tools/p1_measurement_scoring.py": "b567dec6f2479adfe6f787255b6828eb4292676a43f9b83333e04dd87a66a0b0",
+    "tools/p1_measurement_scoring_v2.py": "d3143d68593754b328b74f892900620192756903ce65038815207b1bb10c6c99",
+    "tests/test_p1_researcher_audit_integration.py": "94bde3162f0f5e876f56cca5ab75e11f0729539dee30152bcddb41798e084c64",
+    "tests/test_p1_temporal_date_binding.py": "038c899b0a6533a106bf58351b9a9e855ad1689fa7bf680a9e14f0a3e947b1d2",
+    "tests/test_p1_measurement_pilot.py": "b443ed6b149722649dfc7d8fdd4dfa3eff2d57cc446b687d95abe74cd5da73c2",
+    "tests/test_p1_blinded_stage_a.py": "a769ef71de64b6328f9cb75e42d8a9f6ae4b3ff74df1487fdc3a3bd773619534",
+    "tests/test_p1_native_stop_diagnostic.py": "f116c01c8796014a6b6425b948b5aee0268f817d403597024a906cdc27a4eba0"
+  },
+  "commands": {
+    "artifact_build_historical": [
+      "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+      "tools/p1_researcher_audit_integration.py",
+      "build"
+    ],
+    "scorer_audit_v2": [
+      "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+      "tools/p1_researcher_audit_integration.py",
+      "scorer"
+    ],
+    "regression": [
+      "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+      "tools/p1_researcher_audit_integration.py",
+      "test"
+    ],
+    "manifest": [
+      "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+      "tools/p1_researcher_audit_integration.py",
+      "manifest"
+    ]
+  },
+  "git": {
+    "head": "c40667ad266082481b1850453f67784b593f3723",
+    "branch": "main"
+  },
+  "controls": {
+    "new_generations": 0,
+    "unblinding_executed": false,
+    "restricted_unblinding_key_read": false,
+    "prior_automated_test_key_parse_detected_and_documented": true,
+    "condition_level_results_calculated": false,
+    "condition_selected": false,
+    "historical_score_files_rewritten": false,
+    "model_settings_changed": false,
+    "remaining_inference_budget": 88
+  },
+  "stage_b_readiness": {
+    "status": "READY",
+    "meaning": "Offline scientific/engineering prerequisites are satisfied; Stage B remains inactive and unauthorized.",
+    "next_required_researcher_action": "A later standalone explicit activation message is required.",
+    "live_execution_preflight": "The unchanged >=3 GiB available-RAM and runtime identity checks must pass after authorization; readiness does not waive them."
+  },
+  "programme_status": {
+    "P0": "FROZEN",
+    "P1": "ACTIVE; Stage B inactive pending explicit authorization",
+    "P2": "PAUSED",
+    "P3": "PAUSED",
+    "P4": "PAUSED",
+    "P5": "COMPLETED_DIAGNOSTIC_ARCHIVED",
+    "P6": "PAUSED"
+  }
+}

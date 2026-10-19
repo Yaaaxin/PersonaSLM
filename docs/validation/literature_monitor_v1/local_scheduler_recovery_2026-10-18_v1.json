@@ -1,0 +1,86 @@
+{
+  "schema_version": "personaslm_local_scheduler_recovery_evidence_v1",
+  "status": "LIVE_LOCAL_SCHEDULE_VERIFIED_AND_RUN_PASSED",
+  "recorded_utc": "2026-10-18T10:02:53.6299391Z",
+  "recovery": {
+    "initial_observation": "The named Windows task was absent during interrupted-session recovery even though the preserved 2026-10-17 evidence showed an earlier successful local scheduled run.",
+    "action": "Re-registered the same project-local metadata collector with an idempotent least-privilege installer after offline contract tests passed.",
+    "manual_start_requested": false,
+    "installer_reported_task_started": false,
+    "interpretation": "Windows Task Scheduler subsequently recorded a successful run six seconds before the matching snapshot timestamp. The StartWhenAvailable setting and elapsed timestamps are consistent with scheduler activation after registration; no interactive research-agent process is claimed as persistent infrastructure.",
+    "first_install_verification_issue": "Task Scheduler normalized the principal from a domain-qualified account name to its short account name.",
+    "resolution": "The installer now compares resolved Windows security identifiers rather than account-name spelling. No task privilege, credential, schedule, or scientific collection setting changed."
+  },
+  "scheduler": {
+    "platform": "Windows Task Scheduler",
+    "task_name": "PersonaSLM-Daily-Literature-Monitor",
+    "state": "ENABLED_READY",
+    "contract_version": "personaslm_windows_literature_scheduler_v1",
+    "contract_matches": true,
+    "contract_violations": [],
+    "schedule": "DAILY_AT_04_23_LOCAL_TIME",
+    "start_boundary_local": "2026-10-18T04:23:00+02:00",
+    "logon_mode": "INTERACTIVE_ONLY",
+    "run_level": "LIMITED",
+    "stored_credentials": false,
+    "allow_battery_operation": true,
+    "start_when_available": true,
+    "concurrent_run_policy": "IGNORE_NEW",
+    "execution_time_limit_minutes": 20,
+    "last_run_local": "2026-10-18T11:28:51+02:00",
+    "last_run_utc": "2026-10-18T09:28:51Z",
+    "last_result": 0,
+    "next_run_local": "2026-10-19T04:23:00+02:00",
+    "next_run_utc": "2026-10-19T02:23:00Z"
+  },
+  "scheduled_snapshot": {
+    "private_ignored_path": ".local/literature-monitor/daily_snapshot_20261018T092857Z.json",
+    "sha256": "faf7a96b41a07cbbe80bd0daf3eab5265f047b229fafd0b3bd923bba1e33300d",
+    "bytes": 374779,
+    "file_last_write_utc": "2026-10-18T09:29:16.9046680Z",
+    "as_of_date": "2026-10-18",
+    "scientific_status": "AUTOMATED_DISCOVERY_ONLY_REQUIRES_PRIMARY_SOURCE_REVIEW",
+    "discovery_records": 196,
+    "source_requests_attempted": 13,
+    "source_requests_succeeded": 12,
+    "source_requests_failed": 1,
+    "failed_request": {
+      "source": "Crossref",
+      "query_family": "style-content disentanglement and persona",
+      "error_type": "HTTPError"
+    },
+    "reviewed_ledger_modified_by_collector": false
+  },
+  "verification": {
+    "offline_test_command": ".venv/Scripts/python.exe -B -m unittest tests.test_windows_literature_scheduler tests.test_literature_monitor -v",
+    "offline_tests_passed": 14,
+    "offline_tests_failed": 0,
+    "verify_command": "powershell.exe -NoLogo -NoProfile -NonInteractive -File .\\tools\\install_daily_literature_scheduler.ps1 -VerifyOnly",
+    "verify_status": "PASS",
+    "task_started_by_verify": false
+  },
+  "artifact_bindings": {
+    "tools/install_daily_literature_scheduler.ps1": "6ff472a4bafe3ed0fde0e69b50d84f1dcb0daf14d3bc8e3f62bd2737dde5d71f",
+    "tests/test_windows_literature_scheduler.py": "204d5e72d960bac9c7c3d0c1a2f5ca287368a13cbdadad2e09e9eb2a3b176091",
+    "docs/windows_literature_scheduler.md": "c7746a333a08c95a2de7bccd89db8be09819e99e0fd805882d93bed60f3e2648",
+    "tools/run_daily_literature_monitor.ps1": "29c3ec9ae0cc254e9bfccfb2508081721b48ae8ecd49202b71a498927eed74f9",
+    "docs/validation/literature_monitor_v1/config_v1.json": "9cd77c2359880befb6d35db1ac4194e2a8bc1e3618822bfe9eb7775e8eb46023",
+    "docs/validation/literature_monitor_v1/reviewed_ledger_v1.json": "e643e206074d934edafc8572847bc21f63af5207d695e7119fbd4b169455ebd1"
+  },
+  "persistence_boundaries": {
+    "local_scheduler_active": true,
+    "requires_workstation_on_and_user_logged_in": true,
+    "github_actions_workflow_present_in_worktree": true,
+    "github_actions_schedule_deployed_on_default_branch": false,
+    "continuous_ai_scientific_review_claimed": false
+  },
+  "privacy": {
+    "host_name_recorded": false,
+    "user_name_recorded": false,
+    "user_sid_recorded": false,
+    "query_urls_embedded": false,
+    "credentials_embedded": false,
+    "restricted_research_material_embedded": false
+  },
+  "model_inference_generations": 0
+}

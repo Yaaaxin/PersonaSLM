@@ -1,0 +1,109 @@
+{
+  "bindings": {
+    "analysis_sha256": "2adca94fceb295e2a2d29266aaca9f60280c964a330d561b5dca12c3d59df914",
+    "frozen_manifest_sha256": "72da3568e1d6c78635b49ae992e934019f0ec73222c304c504841f4c320d64a3",
+    "independent_reproduction_script_sha256": "282525bdd0bd093dca2687b7574a480ab9be40c2aaed57d02fd8ca072e365791",
+    "private_analysis_sha256": "eac294c84226156cb3954a1ae7463932becda2c86a025c18cca4638a2720ac9f",
+    "script_sha256": "7b799881afccf78377e7816944a81bb8e21113e54716d4804adabc2a3cff8407"
+  },
+  "censoring": {
+    "affected_speakers": 3,
+    "by_condition": {
+      "C0": 1,
+      "C1": 0,
+      "C2": 1,
+      "C3": 1,
+      "C4": 0,
+      "C5": 0,
+      "C6": 1,
+      "C7": 0
+    },
+    "complete_speakers": 5,
+    "native_limit_responses": 4
+  },
+  "coordinate_contributions_to_S_effect": {
+    "ellipsis": {
+      "leave_one_speaker_out_mean_maximum": 0.0,
+      "leave_one_speaker_out_mean_minimum": 0.0,
+      "maximum": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "n": 5
+    },
+    "exclamation": {
+      "leave_one_speaker_out_mean_maximum": 0.0,
+      "leave_one_speaker_out_mean_minimum": -0.008333333333333333,
+      "maximum": 0.0,
+      "mean": -0.006666666666666666,
+      "median": 0.0,
+      "minimum": -0.03333333333333333,
+      "n": 5
+    },
+    "laughter": {
+      "leave_one_speaker_out_mean_maximum": 0.0,
+      "leave_one_speaker_out_mean_minimum": 0.0,
+      "maximum": 0.0,
+      "mean": 0.0,
+      "median": 0.0,
+      "minimum": 0.0,
+      "n": 5
+    },
+    "length": {
+      "leave_one_speaker_out_mean_maximum": -0.048859318996415775,
+      "leave_one_speaker_out_mean_minimum": -0.10286111111111113,
+      "maximum": 0.0006182795698924659,
+      "mean": -0.08216523297491041,
+      "median": -0.06250000000000001,
+      "minimum": -0.2153888888888889,
+      "n": 5
+    },
+    "polite_ending": {
+      "leave_one_speaker_out_mean_maximum": -0.00725806451612903,
+      "leave_one_speaker_out_mean_minimum": -0.010416666666666664,
+      "maximum": -0.0040322580645161255,
+      "mean": -0.009139784946236556,
+      "median": -0.008333333333333331,
+      "minimum": -0.016666666666666663,
+      "n": 5
+    },
+    "question": {
+      "leave_one_speaker_out_mean_maximum": 0.0,
+      "leave_one_speaker_out_mean_minimum": -0.00763888888888889,
+      "maximum": 0.0,
+      "mean": -0.006111111111111112,
+      "median": 0.0,
+      "minimum": -0.03055555555555556,
+      "n": 5
+    }
+  },
+  "created_utc": "2026-10-19T07:15:56.076755+00:00",
+  "formula": "Each coordinate contributes abs(observed - source)/6 to the frozen distance; S effect is its paired S=1 minus S=0 mean. Marker-only diagnostic averages the remaining five absolute differences with weight1/5.",
+  "frozen_S_effect_sum": -0.10408279569892474,
+  "interpretation_limits": [
+    "S explicitly supplies length and marker rates, so compliance with these descriptors is expected and does not establish distinctive speaker identity",
+    "The length/total ratio is an arithmetic decomposition, not causal mediation or variance explained",
+    "Marker-only diagnostic was not prospectively primary and is not validated Persona Fidelity",
+    "Complete-case estimates exclude three speakers affected by four truncations; selection may distort conditioning effects",
+    "No human semantic judgments or independent validation speakers were used"
+  ],
+  "length_contribution_divided_by_total_effect": 0.7894218484732654,
+  "marker_only_S_effect_posthoc": {
+    "leave_one_speaker_out_mean_maximum": -0.018709677419354837,
+    "leave_one_speaker_out_mean_minimum": -0.03166666666666665,
+    "maximum": -0.004838709677419395,
+    "mean": -0.026301075268817198,
+    "median": -0.009999999999999981,
+    "minimum": -0.05666666666666664,
+    "n": 5
+  },
+  "privacy": {
+    "participant_text_public": false,
+    "row_identifiers_public": false
+  },
+  "question": "How much of the frozen S effect on six-coordinate surface distance is arithmetic length compliance?",
+  "schema_version": "personaslm_rpc_sfh_posthoc_style_coordinate_decomposition_v1",
+  "scientific_level": "DEVELOPMENT_EXPLORATORY",
+  "selection": "Same five complete speaker-contexts as the frozen style-distance factorial analysis; no new inclusion/exclusion",
+  "status": "COMPLETE_POST_HOC_DIAGNOSTIC_NOT_A_NEW_PRIMARY_ENDPOINT"
+}

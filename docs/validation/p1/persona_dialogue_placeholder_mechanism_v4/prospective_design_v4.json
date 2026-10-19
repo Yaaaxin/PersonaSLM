@@ -1,0 +1,397 @@
+{
+  "schema_version": "personaslm_placeholder_mechanism_prospective_design_v4",
+  "status": "NOT_AUTHORIZED_NOT_TOKENIZED_NOT_EXECUTED",
+  "created_utc": "2026-10-18T22:55:35.5803644Z",
+  "researcher": "Yaxin ZHENG",
+  "title": "Prospective causal decomposition of History attribution, chat-role presentation, literal placeholder exposure, and response-format realization",
+  "evidence_level": "PROSPECTIVE_SYNTHETIC_MECHANISM_STUDY",
+  "scientific_scope": {
+    "question": "On entirely new controlled synthetic persona-dialogue cases, are the v3 placeholder-copy and anchor/name scoring gaps associated with literal metasyntax, strict response-format pressure, persona attribution of an otherwise identical archive, or live chat-role presentation?",
+    "track": "TRACK_B_CONDITIONING_INDUCED_RELIABILITY_AND_MEASUREMENT_FAILURE",
+    "hypotheses": [
+      "Literal metasyntax increases literal placeholder copying relative to concrete valid output lines.",
+      "Literal metasyntax increases disagreement between canonical-name selection and opaque-anchor selection.",
+      "If persona-attributed History changes semantic choice, C3_PERSONA_LIVE will reduce current preferred selection relative to C1_CONTROL_LIVE in both the canonical-name proxy and genuine human review.",
+      "If live chat-role presentation is causal, C3_PERSONA_LIVE will differ from C2_PERSONA_QUOTED despite byte-identical archive question and answer payloads."
+    ],
+    "claim_boundary": "This study can estimate configuration-specific synthetic mechanism associations. It cannot establish a general semantic History failure, real-speaker Persona Fidelity, population causality, independent human validation, or algorithmic novelty.",
+    "not_a_full_factorial": "S=1 and F=1 in every arm. The study is not a full S/F/H factorial experiment.",
+    "cases": 8,
+    "synthetic_personas": 8,
+    "cases_per_persona": 1,
+    "task_families": 4,
+    "context_levels": 4,
+    "instruction_levels": 3,
+    "arms": 12,
+    "planned_attempts": 96,
+    "retries": 0,
+    "hidden_warmups": 0
+  },
+  "materials": {
+    "case_bank_path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/case_bank_v4.json",
+    "case_bank_sha256": "a74b20b7b5039fce1035b5162f6a9441cf632c55235e44974837024b84ccc8b8",
+    "case_bank_status": "NOT_AUTHORIZED_NOT_TOKENIZED_NOT_EXECUTED",
+    "protected_mapping": "NONE_CREATED_OR_ACCESSED",
+    "formal_ancestry_audit": "PENDING",
+    "independent_material_review": "PENDING"
+  },
+  "factors": {
+    "fixed": {"S": 1, "F": 1},
+    "context_package": {
+      "C0_NO_HISTORY": "No archive payload or archive-owner notice is present.",
+      "C1_CONTROL_LIVE": "The exact case archive question and assistant answer are presented as live user/assistant turns and declared to belong to a distinct synthetic control speaker.",
+      "C2_PERSONA_QUOTED": "The same exact archive question and assistant answer are quoted as delimited background data inside the current user message and declared to belong to the current synthetic persona.",
+      "C3_PERSONA_LIVE": "The same exact archive question and assistant answer are presented as live user/assistant turns and declared to belong to the current synthetic persona."
+    },
+    "instruction_form": {
+      "I0_MINIMAL": "Two-sentence response requested; first sentence chooses a current option in the model's own words; no exact schema is supplied.",
+      "I1_META_LITERAL": "Two-sentence response with v3-style literal angle-bracket metaplaceholders in the required first-sentence schema.",
+      "I2_CONCRETE_COPY": "Two-sentence response with two fully instantiated valid current-option lines and no metaplaceholders."
+    },
+    "bundling_disclosures": {
+      "C1_minus_C0": "Generic added-dialogue package; archive entities, length, owner notice, and two additional chat turns are bundled and this is not a pure History-information effect.",
+      "C3_minus_C1": "Persona-attribution package; archive payload and live roles are fixed, but current/control owner identity and CURRENT SELF/CONTROL OTHER relation text differ.",
+      "C3_minus_C2": "Live-role/template package; role presentation, wrapper text, and message placement are bundled and this is not a pure chat-role effect.",
+      "I1_minus_I2": "Literal-metasyntax package; both forms impose exact first-line choice but their exact schema text and instantiated content differ.",
+      "strict_format_contrast": "Average of I1 and I2 minus I0; exact-copy pressure and additional instruction content are bundled."
+    }
+  },
+  "prompt_policy": {
+    "system_composition_template": "You are responding as {speaker_name}, an explicitly synthetic speaker.\n{S_block}\n{F_block}\n{instruction_form}",
+    "instruction_forms": {
+      "I0_MINIMAL": "Use exactly two sentences. In sentence one, state in your own words which one of the two CURRENT OPTIONS you choose. In sentence two, justify that choice with the current evidence and the speaker's stated style. Choose only a current option. Do not repeat or choose an archived entity.",
+      "I1_META_LITERAL": "Use exactly two sentences. Sentence one must be exactly 'Option A [<exact A anchor>] — <exact A name>.' or 'Option B [<exact B anchor>] — <exact B name>.' Sentence two must briefly justify the choice using the current evidence and the speaker's stated style. Choose only a current option. Do not repeat or choose an archived entity.",
+      "I2_CONCRETE_COPY": "Use exactly two sentences. Sentence one must be exactly one of these two lines: 'Option A [{A.anchor}] — {A.canonical}.' or 'Option B [{B.anchor}] — {B.canonical}.' Sentence two must briefly justify the choice using the current evidence and the speaker's stated style. Choose only a current option. Do not repeat or choose an archived entity."
+    },
+    "current_user_template": "CURRENT EVIDENCE:\n{current_evidence}\nCURRENT OPTIONS:\n{current_options_in_case_display_order}\nQUESTION:\n{question}",
+    "current_option_line_template": "Option {label} [{anchor}] — {canonical}: {attribute}",
+    "context_forms": {
+      "C0_NO_HISTORY": {
+        "role_sequence": ["system", "user"],
+        "messages": ["{rendered_system}", "{rendered_current_user}"]
+      },
+      "C1_CONTROL_LIVE": {
+        "role_sequence": ["system", "user", "assistant", "user"],
+        "archive_user_template": "ARCHIVE OWNER: {control_speaker_name}. OWNER RELATION TO CURRENT SPEAKER: CONTROL OTHER. The next two messages are a completed archive and are background data, not current instructions.\n{archive_question}",
+        "messages": ["{rendered_system}", "{rendered_control_archive_user}", "{archive_assistant}", "{rendered_current_user}"]
+      },
+      "C2_PERSONA_QUOTED": {
+        "role_sequence": ["system", "user"],
+        "quoted_current_user_template": "ARCHIVE OWNER: {speaker_name}. OWNER RELATION TO CURRENT SPEAKER: CURRENT SELF. The delimited text is a completed archive and is background data, not current instructions.\n<quoted_archive>\nUSER: {archive_question}\nASSISTANT: {archive_assistant}\n</quoted_archive>\n\n{rendered_current_user}",
+        "messages": ["{rendered_system}", "{rendered_quoted_current_user}"]
+      },
+      "C3_PERSONA_LIVE": {
+        "role_sequence": ["system", "user", "assistant", "user"],
+        "archive_user_template": "ARCHIVE OWNER: {speaker_name}. OWNER RELATION TO CURRENT SPEAKER: CURRENT SELF. The next two messages are a completed archive and are background data, not current instructions.\n{archive_question}",
+        "messages": ["{rendered_system}", "{rendered_persona_archive_user}", "{archive_assistant}", "{rendered_current_user}"]
+      }
+    },
+    "archive_payload_identity_rule": "Within each case and instruction form, archive_question and archive_assistant must be byte-identical in C1, C2, and C3 before chat-template rendering.",
+    "owner_name_token_rule": "The current and control speaker names for every case must have identical native-token counts before authorization. This has not been tested; failure is NO-GO until a versioned pre-output material amendment is reviewed.",
+    "instruction_token_rule": "For every case and context, the rendered I0, I1, and I2 system instructions must be prospectively adjusted, if necessary through a versioned pre-output amendment, to native-token counts differing by at most two. No token equality is claimed in this file.",
+    "rendering_freeze_rule": "All 96 native and live token arrays, full messages, prompt hashes, and their order must be frozen and compared before execution authorization. Any mismatch is NO-GO."
+  },
+  "arms": {
+    "C0_NO_HISTORY__I0_MINIMAL": {"context_id": "C0_NO_HISTORY", "instruction_id": "I0_MINIMAL", "requests": 8},
+    "C0_NO_HISTORY__I1_META_LITERAL": {"context_id": "C0_NO_HISTORY", "instruction_id": "I1_META_LITERAL", "requests": 8},
+    "C0_NO_HISTORY__I2_CONCRETE_COPY": {"context_id": "C0_NO_HISTORY", "instruction_id": "I2_CONCRETE_COPY", "requests": 8},
+    "C1_CONTROL_LIVE__I0_MINIMAL": {"context_id": "C1_CONTROL_LIVE", "instruction_id": "I0_MINIMAL", "requests": 8},
+    "C1_CONTROL_LIVE__I1_META_LITERAL": {"context_id": "C1_CONTROL_LIVE", "instruction_id": "I1_META_LITERAL", "requests": 8},
+    "C1_CONTROL_LIVE__I2_CONCRETE_COPY": {"context_id": "C1_CONTROL_LIVE", "instruction_id": "I2_CONCRETE_COPY", "requests": 8},
+    "C2_PERSONA_QUOTED__I0_MINIMAL": {"context_id": "C2_PERSONA_QUOTED", "instruction_id": "I0_MINIMAL", "requests": 8},
+    "C2_PERSONA_QUOTED__I1_META_LITERAL": {"context_id": "C2_PERSONA_QUOTED", "instruction_id": "I1_META_LITERAL", "requests": 8},
+    "C2_PERSONA_QUOTED__I2_CONCRETE_COPY": {"context_id": "C2_PERSONA_QUOTED", "instruction_id": "I2_CONCRETE_COPY", "requests": 8},
+    "C3_PERSONA_LIVE__I0_MINIMAL": {"context_id": "C3_PERSONA_LIVE", "instruction_id": "I0_MINIMAL", "requests": 8},
+    "C3_PERSONA_LIVE__I1_META_LITERAL": {"context_id": "C3_PERSONA_LIVE", "instruction_id": "I1_META_LITERAL", "requests": 8},
+    "C3_PERSONA_LIVE__I2_CONCRETE_COPY": {"context_id": "C3_PERSONA_LIVE", "instruction_id": "I2_CONCRETE_COPY", "requests": 8}
+  },
+  "order": {
+    "status": "FROZEN_LOGICAL_ORDER_NOT_TOKENIZED_NOT_AUTHORIZED",
+    "construction": "Twelve rounds of eight cases. For round r, quartile q=floor(r/3), within-quartile t=r mod 3, and case execution index c: context group=(q+floor(c/2)) mod 4 and instruction=(t+(c mod 2)) mod 3. Even rounds use a forward cyclic case order and odd rounds a reverse cyclic case order with shift floor(r/2).",
+    "requirements": {
+      "requests": 96,
+      "rounds": 12,
+      "requests_per_round": 8,
+      "requests_per_arm": 8,
+      "requests_per_arm_per_quartile": 2,
+      "each_case_receives_each_arm_once": true,
+      "each_arm_preferred_option": {"A": 4, "B": 4},
+      "each_arm_preferred_display_position": {"FIRST": 4, "SECOND": 4},
+      "each_arm_cases_per_task_family": 2,
+      "adaptive_reordering": false,
+      "outcome_based_stopping": false
+    },
+    "requests": [
+      {"request_index":0,"round":0,"position":0,"quartile":0,"case_id":"PMV4_CASE_001_LYRA_PLAN","arm_id":"C0_NO_HISTORY__I0_MINIMAL"},
+      {"request_index":1,"round":0,"position":1,"quartile":0,"case_id":"PMV4_CASE_002_DAVOR_SUPPORT","arm_id":"C0_NO_HISTORY__I1_META_LITERAL"},
+      {"request_index":2,"round":0,"position":2,"quartile":0,"case_id":"PMV4_CASE_003_IMANI_ROUTINE","arm_id":"C1_CONTROL_LIVE__I0_MINIMAL"},
+      {"request_index":3,"round":0,"position":3,"quartile":0,"case_id":"PMV4_CASE_004_CELYN_REPAIR","arm_id":"C1_CONTROL_LIVE__I1_META_LITERAL"},
+      {"request_index":4,"round":0,"position":4,"quartile":0,"case_id":"PMV4_CASE_005_NOA_PLAN","arm_id":"C2_PERSONA_QUOTED__I0_MINIMAL"},
+      {"request_index":5,"round":0,"position":5,"quartile":0,"case_id":"PMV4_CASE_006_PRIYA_SUPPORT","arm_id":"C2_PERSONA_QUOTED__I1_META_LITERAL"},
+      {"request_index":6,"round":0,"position":6,"quartile":0,"case_id":"PMV4_CASE_007_EMRYS_ROUTINE","arm_id":"C3_PERSONA_LIVE__I0_MINIMAL"},
+      {"request_index":7,"round":0,"position":7,"quartile":0,"case_id":"PMV4_CASE_008_TALIA_REPAIR","arm_id":"C3_PERSONA_LIVE__I1_META_LITERAL"},
+      {"request_index":8,"round":1,"position":0,"quartile":0,"case_id":"PMV4_CASE_001_LYRA_PLAN","arm_id":"C0_NO_HISTORY__I1_META_LITERAL"},
+      {"request_index":9,"round":1,"position":1,"quartile":0,"case_id":"PMV4_CASE_008_TALIA_REPAIR","arm_id":"C3_PERSONA_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":10,"round":1,"position":2,"quartile":0,"case_id":"PMV4_CASE_007_EMRYS_ROUTINE","arm_id":"C3_PERSONA_LIVE__I1_META_LITERAL"},
+      {"request_index":11,"round":1,"position":3,"quartile":0,"case_id":"PMV4_CASE_006_PRIYA_SUPPORT","arm_id":"C2_PERSONA_QUOTED__I2_CONCRETE_COPY"},
+      {"request_index":12,"round":1,"position":4,"quartile":0,"case_id":"PMV4_CASE_005_NOA_PLAN","arm_id":"C2_PERSONA_QUOTED__I1_META_LITERAL"},
+      {"request_index":13,"round":1,"position":5,"quartile":0,"case_id":"PMV4_CASE_004_CELYN_REPAIR","arm_id":"C1_CONTROL_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":14,"round":1,"position":6,"quartile":0,"case_id":"PMV4_CASE_003_IMANI_ROUTINE","arm_id":"C1_CONTROL_LIVE__I1_META_LITERAL"},
+      {"request_index":15,"round":1,"position":7,"quartile":0,"case_id":"PMV4_CASE_002_DAVOR_SUPPORT","arm_id":"C0_NO_HISTORY__I2_CONCRETE_COPY"},
+      {"request_index":16,"round":2,"position":0,"quartile":0,"case_id":"PMV4_CASE_002_DAVOR_SUPPORT","arm_id":"C0_NO_HISTORY__I0_MINIMAL"},
+      {"request_index":17,"round":2,"position":1,"quartile":0,"case_id":"PMV4_CASE_003_IMANI_ROUTINE","arm_id":"C1_CONTROL_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":18,"round":2,"position":2,"quartile":0,"case_id":"PMV4_CASE_004_CELYN_REPAIR","arm_id":"C1_CONTROL_LIVE__I0_MINIMAL"},
+      {"request_index":19,"round":2,"position":3,"quartile":0,"case_id":"PMV4_CASE_005_NOA_PLAN","arm_id":"C2_PERSONA_QUOTED__I2_CONCRETE_COPY"},
+      {"request_index":20,"round":2,"position":4,"quartile":0,"case_id":"PMV4_CASE_006_PRIYA_SUPPORT","arm_id":"C2_PERSONA_QUOTED__I0_MINIMAL"},
+      {"request_index":21,"round":2,"position":5,"quartile":0,"case_id":"PMV4_CASE_007_EMRYS_ROUTINE","arm_id":"C3_PERSONA_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":22,"round":2,"position":6,"quartile":0,"case_id":"PMV4_CASE_008_TALIA_REPAIR","arm_id":"C3_PERSONA_LIVE__I0_MINIMAL"},
+      {"request_index":23,"round":2,"position":7,"quartile":0,"case_id":"PMV4_CASE_001_LYRA_PLAN","arm_id":"C0_NO_HISTORY__I2_CONCRETE_COPY"},
+      {"request_index":24,"round":3,"position":0,"quartile":1,"case_id":"PMV4_CASE_002_DAVOR_SUPPORT","arm_id":"C1_CONTROL_LIVE__I1_META_LITERAL"},
+      {"request_index":25,"round":3,"position":1,"quartile":1,"case_id":"PMV4_CASE_001_LYRA_PLAN","arm_id":"C1_CONTROL_LIVE__I0_MINIMAL"},
+      {"request_index":26,"round":3,"position":2,"quartile":1,"case_id":"PMV4_CASE_008_TALIA_REPAIR","arm_id":"C0_NO_HISTORY__I1_META_LITERAL"},
+      {"request_index":27,"round":3,"position":3,"quartile":1,"case_id":"PMV4_CASE_007_EMRYS_ROUTINE","arm_id":"C0_NO_HISTORY__I0_MINIMAL"},
+      {"request_index":28,"round":3,"position":4,"quartile":1,"case_id":"PMV4_CASE_006_PRIYA_SUPPORT","arm_id":"C3_PERSONA_LIVE__I1_META_LITERAL"},
+      {"request_index":29,"round":3,"position":5,"quartile":1,"case_id":"PMV4_CASE_005_NOA_PLAN","arm_id":"C3_PERSONA_LIVE__I0_MINIMAL"},
+      {"request_index":30,"round":3,"position":6,"quartile":1,"case_id":"PMV4_CASE_004_CELYN_REPAIR","arm_id":"C2_PERSONA_QUOTED__I1_META_LITERAL"},
+      {"request_index":31,"round":3,"position":7,"quartile":1,"case_id":"PMV4_CASE_003_IMANI_ROUTINE","arm_id":"C2_PERSONA_QUOTED__I0_MINIMAL"},
+      {"request_index":32,"round":4,"position":0,"quartile":1,"case_id":"PMV4_CASE_003_IMANI_ROUTINE","arm_id":"C2_PERSONA_QUOTED__I1_META_LITERAL"},
+      {"request_index":33,"round":4,"position":1,"quartile":1,"case_id":"PMV4_CASE_004_CELYN_REPAIR","arm_id":"C2_PERSONA_QUOTED__I2_CONCRETE_COPY"},
+      {"request_index":34,"round":4,"position":2,"quartile":1,"case_id":"PMV4_CASE_005_NOA_PLAN","arm_id":"C3_PERSONA_LIVE__I1_META_LITERAL"},
+      {"request_index":35,"round":4,"position":3,"quartile":1,"case_id":"PMV4_CASE_006_PRIYA_SUPPORT","arm_id":"C3_PERSONA_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":36,"round":4,"position":4,"quartile":1,"case_id":"PMV4_CASE_007_EMRYS_ROUTINE","arm_id":"C0_NO_HISTORY__I1_META_LITERAL"},
+      {"request_index":37,"round":4,"position":5,"quartile":1,"case_id":"PMV4_CASE_008_TALIA_REPAIR","arm_id":"C0_NO_HISTORY__I2_CONCRETE_COPY"},
+      {"request_index":38,"round":4,"position":6,"quartile":1,"case_id":"PMV4_CASE_001_LYRA_PLAN","arm_id":"C1_CONTROL_LIVE__I1_META_LITERAL"},
+      {"request_index":39,"round":4,"position":7,"quartile":1,"case_id":"PMV4_CASE_002_DAVOR_SUPPORT","arm_id":"C1_CONTROL_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":40,"round":5,"position":0,"quartile":1,"case_id":"PMV4_CASE_003_IMANI_ROUTINE","arm_id":"C2_PERSONA_QUOTED__I2_CONCRETE_COPY"},
+      {"request_index":41,"round":5,"position":1,"quartile":1,"case_id":"PMV4_CASE_002_DAVOR_SUPPORT","arm_id":"C1_CONTROL_LIVE__I0_MINIMAL"},
+      {"request_index":42,"round":5,"position":2,"quartile":1,"case_id":"PMV4_CASE_001_LYRA_PLAN","arm_id":"C1_CONTROL_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":43,"round":5,"position":3,"quartile":1,"case_id":"PMV4_CASE_008_TALIA_REPAIR","arm_id":"C0_NO_HISTORY__I0_MINIMAL"},
+      {"request_index":44,"round":5,"position":4,"quartile":1,"case_id":"PMV4_CASE_007_EMRYS_ROUTINE","arm_id":"C0_NO_HISTORY__I2_CONCRETE_COPY"},
+      {"request_index":45,"round":5,"position":5,"quartile":1,"case_id":"PMV4_CASE_006_PRIYA_SUPPORT","arm_id":"C3_PERSONA_LIVE__I0_MINIMAL"},
+      {"request_index":46,"round":5,"position":6,"quartile":1,"case_id":"PMV4_CASE_005_NOA_PLAN","arm_id":"C3_PERSONA_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":47,"round":5,"position":7,"quartile":1,"case_id":"PMV4_CASE_004_CELYN_REPAIR","arm_id":"C2_PERSONA_QUOTED__I0_MINIMAL"},
+      {"request_index":48,"round":6,"position":0,"quartile":2,"case_id":"PMV4_CASE_004_CELYN_REPAIR","arm_id":"C3_PERSONA_LIVE__I1_META_LITERAL"},
+      {"request_index":49,"round":6,"position":1,"quartile":2,"case_id":"PMV4_CASE_005_NOA_PLAN","arm_id":"C0_NO_HISTORY__I0_MINIMAL"},
+      {"request_index":50,"round":6,"position":2,"quartile":2,"case_id":"PMV4_CASE_006_PRIYA_SUPPORT","arm_id":"C0_NO_HISTORY__I1_META_LITERAL"},
+      {"request_index":51,"round":6,"position":3,"quartile":2,"case_id":"PMV4_CASE_007_EMRYS_ROUTINE","arm_id":"C1_CONTROL_LIVE__I0_MINIMAL"},
+      {"request_index":52,"round":6,"position":4,"quartile":2,"case_id":"PMV4_CASE_008_TALIA_REPAIR","arm_id":"C1_CONTROL_LIVE__I1_META_LITERAL"},
+      {"request_index":53,"round":6,"position":5,"quartile":2,"case_id":"PMV4_CASE_001_LYRA_PLAN","arm_id":"C2_PERSONA_QUOTED__I0_MINIMAL"},
+      {"request_index":54,"round":6,"position":6,"quartile":2,"case_id":"PMV4_CASE_002_DAVOR_SUPPORT","arm_id":"C2_PERSONA_QUOTED__I1_META_LITERAL"},
+      {"request_index":55,"round":6,"position":7,"quartile":2,"case_id":"PMV4_CASE_003_IMANI_ROUTINE","arm_id":"C3_PERSONA_LIVE__I0_MINIMAL"},
+      {"request_index":56,"round":7,"position":0,"quartile":2,"case_id":"PMV4_CASE_004_CELYN_REPAIR","arm_id":"C3_PERSONA_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":57,"round":7,"position":1,"quartile":2,"case_id":"PMV4_CASE_003_IMANI_ROUTINE","arm_id":"C3_PERSONA_LIVE__I1_META_LITERAL"},
+      {"request_index":58,"round":7,"position":2,"quartile":2,"case_id":"PMV4_CASE_002_DAVOR_SUPPORT","arm_id":"C2_PERSONA_QUOTED__I2_CONCRETE_COPY"},
+      {"request_index":59,"round":7,"position":3,"quartile":2,"case_id":"PMV4_CASE_001_LYRA_PLAN","arm_id":"C2_PERSONA_QUOTED__I1_META_LITERAL"},
+      {"request_index":60,"round":7,"position":4,"quartile":2,"case_id":"PMV4_CASE_008_TALIA_REPAIR","arm_id":"C1_CONTROL_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":61,"round":7,"position":5,"quartile":2,"case_id":"PMV4_CASE_007_EMRYS_ROUTINE","arm_id":"C1_CONTROL_LIVE__I1_META_LITERAL"},
+      {"request_index":62,"round":7,"position":6,"quartile":2,"case_id":"PMV4_CASE_006_PRIYA_SUPPORT","arm_id":"C0_NO_HISTORY__I2_CONCRETE_COPY"},
+      {"request_index":63,"round":7,"position":7,"quartile":2,"case_id":"PMV4_CASE_005_NOA_PLAN","arm_id":"C0_NO_HISTORY__I1_META_LITERAL"},
+      {"request_index":64,"round":8,"position":0,"quartile":2,"case_id":"PMV4_CASE_005_NOA_PLAN","arm_id":"C0_NO_HISTORY__I2_CONCRETE_COPY"},
+      {"request_index":65,"round":8,"position":1,"quartile":2,"case_id":"PMV4_CASE_006_PRIYA_SUPPORT","arm_id":"C0_NO_HISTORY__I0_MINIMAL"},
+      {"request_index":66,"round":8,"position":2,"quartile":2,"case_id":"PMV4_CASE_007_EMRYS_ROUTINE","arm_id":"C1_CONTROL_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":67,"round":8,"position":3,"quartile":2,"case_id":"PMV4_CASE_008_TALIA_REPAIR","arm_id":"C1_CONTROL_LIVE__I0_MINIMAL"},
+      {"request_index":68,"round":8,"position":4,"quartile":2,"case_id":"PMV4_CASE_001_LYRA_PLAN","arm_id":"C2_PERSONA_QUOTED__I2_CONCRETE_COPY"},
+      {"request_index":69,"round":8,"position":5,"quartile":2,"case_id":"PMV4_CASE_002_DAVOR_SUPPORT","arm_id":"C2_PERSONA_QUOTED__I0_MINIMAL"},
+      {"request_index":70,"round":8,"position":6,"quartile":2,"case_id":"PMV4_CASE_003_IMANI_ROUTINE","arm_id":"C3_PERSONA_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":71,"round":8,"position":7,"quartile":2,"case_id":"PMV4_CASE_004_CELYN_REPAIR","arm_id":"C3_PERSONA_LIVE__I0_MINIMAL"},
+      {"request_index":72,"round":9,"position":0,"quartile":3,"case_id":"PMV4_CASE_005_NOA_PLAN","arm_id":"C1_CONTROL_LIVE__I0_MINIMAL"},
+      {"request_index":73,"round":9,"position":1,"quartile":3,"case_id":"PMV4_CASE_004_CELYN_REPAIR","arm_id":"C0_NO_HISTORY__I1_META_LITERAL"},
+      {"request_index":74,"round":9,"position":2,"quartile":3,"case_id":"PMV4_CASE_003_IMANI_ROUTINE","arm_id":"C0_NO_HISTORY__I0_MINIMAL"},
+      {"request_index":75,"round":9,"position":3,"quartile":3,"case_id":"PMV4_CASE_002_DAVOR_SUPPORT","arm_id":"C3_PERSONA_LIVE__I1_META_LITERAL"},
+      {"request_index":76,"round":9,"position":4,"quartile":3,"case_id":"PMV4_CASE_001_LYRA_PLAN","arm_id":"C3_PERSONA_LIVE__I0_MINIMAL"},
+      {"request_index":77,"round":9,"position":5,"quartile":3,"case_id":"PMV4_CASE_008_TALIA_REPAIR","arm_id":"C2_PERSONA_QUOTED__I1_META_LITERAL"},
+      {"request_index":78,"round":9,"position":6,"quartile":3,"case_id":"PMV4_CASE_007_EMRYS_ROUTINE","arm_id":"C2_PERSONA_QUOTED__I0_MINIMAL"},
+      {"request_index":79,"round":9,"position":7,"quartile":3,"case_id":"PMV4_CASE_006_PRIYA_SUPPORT","arm_id":"C1_CONTROL_LIVE__I1_META_LITERAL"},
+      {"request_index":80,"round":10,"position":0,"quartile":3,"case_id":"PMV4_CASE_006_PRIYA_SUPPORT","arm_id":"C1_CONTROL_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":81,"round":10,"position":1,"quartile":3,"case_id":"PMV4_CASE_007_EMRYS_ROUTINE","arm_id":"C2_PERSONA_QUOTED__I1_META_LITERAL"},
+      {"request_index":82,"round":10,"position":2,"quartile":3,"case_id":"PMV4_CASE_008_TALIA_REPAIR","arm_id":"C2_PERSONA_QUOTED__I2_CONCRETE_COPY"},
+      {"request_index":83,"round":10,"position":3,"quartile":3,"case_id":"PMV4_CASE_001_LYRA_PLAN","arm_id":"C3_PERSONA_LIVE__I1_META_LITERAL"},
+      {"request_index":84,"round":10,"position":4,"quartile":3,"case_id":"PMV4_CASE_002_DAVOR_SUPPORT","arm_id":"C3_PERSONA_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":85,"round":10,"position":5,"quartile":3,"case_id":"PMV4_CASE_003_IMANI_ROUTINE","arm_id":"C0_NO_HISTORY__I1_META_LITERAL"},
+      {"request_index":86,"round":10,"position":6,"quartile":3,"case_id":"PMV4_CASE_004_CELYN_REPAIR","arm_id":"C0_NO_HISTORY__I2_CONCRETE_COPY"},
+      {"request_index":87,"round":10,"position":7,"quartile":3,"case_id":"PMV4_CASE_005_NOA_PLAN","arm_id":"C1_CONTROL_LIVE__I1_META_LITERAL"},
+      {"request_index":88,"round":11,"position":0,"quartile":3,"case_id":"PMV4_CASE_006_PRIYA_SUPPORT","arm_id":"C1_CONTROL_LIVE__I0_MINIMAL"},
+      {"request_index":89,"round":11,"position":1,"quartile":3,"case_id":"PMV4_CASE_005_NOA_PLAN","arm_id":"C1_CONTROL_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":90,"round":11,"position":2,"quartile":3,"case_id":"PMV4_CASE_004_CELYN_REPAIR","arm_id":"C0_NO_HISTORY__I0_MINIMAL"},
+      {"request_index":91,"round":11,"position":3,"quartile":3,"case_id":"PMV4_CASE_003_IMANI_ROUTINE","arm_id":"C0_NO_HISTORY__I2_CONCRETE_COPY"},
+      {"request_index":92,"round":11,"position":4,"quartile":3,"case_id":"PMV4_CASE_002_DAVOR_SUPPORT","arm_id":"C3_PERSONA_LIVE__I0_MINIMAL"},
+      {"request_index":93,"round":11,"position":5,"quartile":3,"case_id":"PMV4_CASE_001_LYRA_PLAN","arm_id":"C3_PERSONA_LIVE__I2_CONCRETE_COPY"},
+      {"request_index":94,"round":11,"position":6,"quartile":3,"case_id":"PMV4_CASE_008_TALIA_REPAIR","arm_id":"C2_PERSONA_QUOTED__I0_MINIMAL"},
+      {"request_index":95,"round":11,"position":7,"quartile":3,"case_id":"PMV4_CASE_007_EMRYS_ROUTINE","arm_id":"C2_PERSONA_QUOTED__I2_CONCRETE_COPY"}
+    ]
+  },
+  "automatic_evaluation": {
+    "response_assessability": "A response is assessable only when a nonempty identifiable first response unit is certified and is not TRUNCATED. CROSS_TURN uses only the certified first span. Empty, unidentifiable, or truncated units are missing, never zero.",
+    "endpoints": {
+      "literal_placeholder_occurrence": {"applicable": "ALL_ASSESSABLE_ARMS", "definition": "Fixed exact/regex indicators for literal <exact A anchor>, <exact B anchor>, <exact A name>, or <exact B name> in the certified response.", "claim": "surface realization only"},
+      "exact_valid_current_output_line": {"applicable": "ALL_ASSESSABLE_ARMS", "definition": "Exactly one fully instantiated valid case line occurs in the first sentence.", "claim": "format compliance in I1/I2; spontaneous exact-line realization only in I0"},
+      "exactly_two_sentence_realization": {"applicable": "ALL_ASSESSABLE_ARMS", "definition": "Exactly two response sentences under the frozen deterministic splitter.", "claim": "format only"},
+      "preferred_current_name_selection": {"applicable": "ALL_ASSESSABLE_ARMS", "definition": "Exactly one current canonical name occurs in the first sentence and it is preferred.", "claim": "literal surface-selection proxy, not semantic choice"},
+      "any_current_name_selection": {"applicable": "ALL_ASSESSABLE_ARMS", "definition": "Exactly one current canonical name occurs in the first sentence.", "claim": "literal surface-selection proxy"},
+      "preferred_current_anchor_selection": {"applicable": "ALL_ASSESSABLE_ARMS", "definition": "Exactly one current opaque anchor occurs in the first sentence and it is preferred.", "claim": "legacy-comparable surface proxy"},
+      "any_current_anchor_selection": {"applicable": "ALL_ASSESSABLE_ARMS", "definition": "Exactly one current opaque anchor occurs in the first sentence.", "claim": "legacy-comparable surface proxy"},
+      "option_label_selection": {"applicable": "ALL_ASSESSABLE_ARMS", "definition": "A, B, MULTIPLE, or NONE from the first sentence; stored separately from name and anchor."},
+      "label_anchor_name_consistency": {"applicable": "ALL_ASSESSABLE_ARMS", "definition": "CONSISTENT, CONFLICT, MULTIPLE, or NONE across independently parsed option label, opaque anchor, and canonical name."},
+      "evaluator_gap": {"applicable": "ALL_ASSESSABLE_ARMS", "definition": "preferred_current_name_selection minus preferred_current_anchor_selection; range [-1,1], with binary name/anchor discordance reported separately."},
+      "exact_archived_target_occurrence": {"applicable": "C1_CONTROL_LIVE,C2_PERSONA_QUOTED,C3_PERSONA_LIVE", "definition": "Exact occurrence of any archive canonical entity in the certified response. C0 is structural N/A, not zero."},
+      "unprompted_archived_name_occurrence": {"applicable": "C0_NO_HISTORY", "definition": "Separate diagnostic for any exact archive canonical entity even though no archive is prompted."},
+      "control_owner_mention": {"applicable": "C1_CONTROL_LIVE", "definition": "Exact control-speaker-name occurrence; literal diagnostic only."},
+      "style_prefix_and_suffix": {"applicable": "ALL_ASSESSABLE_ARMS", "definition": "Exact casefolded second-sentence prefix and suffix contracts scored separately.", "claim": "narrow linguistic contract, not broad Persona Fidelity"},
+      "current_reason_evidence_coverage": {"applicable": "ALL_ASSESSABLE_ARMS", "definition": "Only if fixed lexical cues are frozen before execution; otherwise N/A.", "claim": "lexical diagnostic only"},
+      "execution_resources": {"applicable": "ALL_ATTEMPTS", "fields": ["boundary_status", "native_stop_reason", "generated_tokens", "latency_seconds", "server_working_set_bytes", "available_physical_bytes"], "claim": "execution/resource description; EOS is not semantic completeness"}
+    },
+    "complete_denominator_rule": "For an assessable response, NONE or MULTIPLE on a registered binary selection endpoint is zero. Missing/unassessable is not zero and receives logical bounds.",
+    "semantic_limit": "Automatic endpoints do not establish semantic answer selection, reason support, History intrusion, conversational coherence, or Persona Fidelity. Those endpoints are human-only."
+  },
+  "estimands": {
+    "primary_automatic": {
+      "delta_literal_placeholder": "Average over C0,C1,C2,C3 of risk(I1_META_LITERAL)-risk(I2_CONCRETE_COPY) for literal_placeholder_occurrence.",
+      "delta_literal_evaluator_gap": "Average over C0,C1,C2,C3 of mean(I1_META_LITERAL)-mean(I2_CONCRETE_COPY) for evaluator_gap.",
+      "delta_history_name_proxy": "Average over I0,I1,I2 of C3_PERSONA_LIVE-C1_CONTROL_LIVE for preferred_current_name_selection.",
+      "delta_template_name_proxy": "Average over I0,I1,I2 of C3_PERSONA_LIVE-C2_PERSONA_QUOTED for preferred_current_name_selection."
+    },
+    "primary_human": {
+      "delta_history_semantic_selection": "Average over I0,I1,I2 of C3_PERSONA_LIVE-C1_CONTROL_LIVE for human_preferred_current_entity_selection."
+    },
+    "registered_context_contrasts": {
+      "persona_history_attribution": "C3_PERSONA_LIVE-C1_CONTROL_LIVE",
+      "chat_role_template_package": "C3_PERSONA_LIVE-C2_PERSONA_QUOTED",
+      "generic_added_dialogue_package": "C1_CONTROL_LIVE-C0_NO_HISTORY",
+      "total_live_persona_history": "C3_PERSONA_LIVE-C0_NO_HISTORY",
+      "quoted_persona_payload": "C2_PERSONA_QUOTED-C0_NO_HISTORY"
+    },
+    "registered_instruction_contrasts": {
+      "literal_metasyntax": "I1_META_LITERAL-I2_CONCRETE_COPY",
+      "strict_format_pressure": "0.5*(I1_META_LITERAL+I2_CONCRETE_COPY)-I0_MINIMAL"
+    },
+    "secondary": [
+      "Apply both instruction contrasts to exact valid line, preferred/any name, preferred/any anchor, evaluator gap, and exactly-two-sentence realization.",
+      "Apply all five context contrasts to preferred/any name, preferred/any anchor, evaluator gap, placeholder occurrence, and human endpoints where applicable.",
+      "Report I1-I2 separately within each context package.",
+      "Report two-sentence realization, exact archived-target occurrence, control-owner mention, narrow style contracts, latency, generated tokens, and RAM descriptively.",
+      "Task-family results are raw descriptive strata only because each family contains two cases."
+    ],
+    "reporting": {
+      "unit": "case-paired within-case contrast",
+      "required_fields": ["planned_n", "resolved_n", "missing_n", "paired_point_estimate", "eight_case_level_contrasts", "leave_one_case_out_range", "logical_missing_outcome_bounds"],
+      "leave_one_case_out_warning": "The range is a sensitivity diagnostic, not a confidence interval.",
+      "inference": "ESTIMATION_FIRST_NO_P_VALUES_NO_CONFIRMATORY_SIGNIFICANCE"
+    },
+    "missing_bounds": {
+      "rule": "Never recode missing, unassessable, or structural N/A as zero. For each planned unit and linear coefficient w, a missing endpoint on [L,U] contributes lower=min(wL,wU) and upper=max(wL,wU), then divide by all planned cases.",
+      "ranges": {"binary": [0,1], "evaluator_gap": [-1,1], "human_ordinal_1_to_5": [1,5]}
+    }
+  },
+  "human_review_plan": {
+    "status": "PROSPECTIVE_ENDPOINTS_ONLY_NO_PACKAGE_NO_MAPPING_NO_LABELS",
+    "stage_a": {
+      "records": 96,
+      "presentation": "condition-blinded current-only response review",
+      "endpoints": ["semantic_selected_entity", "current_evidence_consistency", "reason_supports_selected_choice", "response_relevance", "conversational_coherence", "behavioral_persona_fidelity", "linguistic_persona_fidelity", "answer_completeness", "material_unverifiable_claim", "evidence_spans"]
+    },
+    "stage_b": {
+      "pairs": 48,
+      "attribution_pairs": "24=C3_PERSONA_LIVE versus C1_CONTROL_LIVE across 8 cases x 3 instruction forms",
+      "template_pairs": "24=C3_PERSONA_LIVE versus C2_PERSONA_QUOTED across 8 cases x 3 instruction forms",
+      "side_randomization": true,
+      "endpoints": ["archived_choice_adoption", "reason_intrusion", "owner_attribution", "current_over_history_handling", "more_reliable", "more_persona_faithful"]
+    },
+    "provenance_requirements": ["reviewer_identity_or_pseudonymous_id", "review_timestamp", "instructions_hash", "submission_hash", "prior_rubric_involvement", "prior_item_exposure", "independent_of_project", "condition_mapping_exposure", "conflicts_of_interest"],
+    "classification_rule": "Prior rubric involvement, prior item exposure, and reviewer independence must directly affect provenance classification. A YES or UNCERTAIN exposure cannot be described as clean independent review.",
+    "claim_rule": "A genuine single-PI review is human-reviewed descriptive evidence, not independent inter-rater validation or IRR. AI judgments cannot replace it."
+  },
+  "interpretation_rules": [
+    "If I1-I2 is not positive for both placeholder-copy risk and evaluator gap, the literal-placeholder mechanism is not replicated on these new cases.",
+    "If anchor selection falls while canonical-name selection and human semantic choice remain stable, interpret the pattern as response-realization/evaluator mismatch rather than semantic History failure.",
+    "Only a decrease in both canonical-name proxy and genuine human semantic selection for C3-C1 supports persona-attributed History interference in this synthetic configuration.",
+    "If C1-C0 and C3-C0 are similar while C3-C1 is near zero, the evidence favors a generic context/extra-turn package rather than persona-specific History interference.",
+    "If C3-C2 is near zero, the live assistant-role/template explanation is weakened.",
+    "If strict-format pressure changes exact-line compliance but not canonical-name or human selection, it is a realization intervention and not a reliability algorithm.",
+    "No outcome pattern in this single-model synthetic study establishes general causality, real-speaker validity, or algorithm novelty."
+  ],
+  "ancestry_and_material_gates": {
+    "normalization": "Unicode NFC, casefold, and whitespace collapse before exact comparison.",
+    "required_zero_overlap": ["persona_id", "profile_source_id", "speaker_name", "control_speaker_name", "case_id", "current_option_canonical", "opaque_anchor", "archive_entity", "scenario", "current_evidence", "S_block", "F_block", "question", "archive_question", "archive_assistant"],
+    "canonical_entity_normalized_sha256_overlap": 0,
+    "exact_question_or_template_overlap": 0,
+    "lexical_audit": "Record normalized lexical 4-gram overlap; ordinary English overlap is disclosed and is not an automatic failure.",
+    "scientific_review": "Before authorization, an independent read-only reviewer must confirm one uniquely supported current option, archive/current attribute separation, clear current/control ownership, no answer leakage, and no tailoring to v3 protected conditions.",
+    "bound_prior_case_banks": [
+      {"path":"docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/case_bank_v1.json","sha256":"b8304ce94b8a159de4d9e779137633a9bd30460113931edf74cbf277868a7dc0"},
+      {"path":"docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/case_bank_v2.json","sha256":"b694f87ccc62d62960c61aeae81229e9eca7f37038c755d8e3ccf31f8567e3dd"},
+      {"path":"docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/case_bank_v1.json","sha256":"3acdc36c2525a4c858da3be5c1aaeb9be6ed52c1f046d6d04304926900d0f8cd"},
+      {"path":"docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/case_bank_v2.json","sha256":"8e849a0f272d3551fe414516c72daceb65743f56420832507e5d346f7ef65a9e"},
+      {"path":"docs/validation/p1/persona_dialogue_history_template_mechanism_v1/case_bank_v1.json","sha256":"f471a2a3cf54f2c3e72d83437822a16b6732fa4f03d98a62ad18e53e2d5bc98d"},
+      {"path":"docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json","sha256":"a93cd629c0d152e9eb2325399235882beaebf510d4b6e32b24724975554fab8c"}
+    ],
+    "bound_prior_designs_and_public_audit": [
+      {"path":"docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/prospective_design_v1.json","sha256":"5091736dbb3a96b38ea76e4acd299a951ef661b3db30efaf270be2bf1274808d"},
+      {"path":"docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/prospective_design_v2.json","sha256":"310f72db117e73e9374853e992a90691a9e987542e565dd5118c73bd603bddc0"},
+      {"path":"docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/prospective_design_v1.json","sha256":"1f0632aad38740fcf8938e8b703beedd181099397f6055b1c178bb601095a7a0"},
+      {"path":"docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/prospective_design_v2.json","sha256":"ff48daf11c0c439e1631db1898b3029a6ea1d765a0f8193e662e622f9616f5fc"},
+      {"path":"docs/validation/p1/persona_dialogue_history_template_mechanism_v1/prospective_design_v1.json","sha256":"dcc70c37a19e7fa26de491d3d4311dc7b4573a78b1033d345b5b31c2db27d619"},
+      {"path":"docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json","sha256":"628bedc18b8aa549cb165fbfb3f33ffbb889b5ad3090d7ef86f58112476c156c"},
+      {"path":"docs/validation/p1/persona_dialogue_disjoint_surface_validation_v3/prospective_design_v3.json","sha256":"28caab146f9ff51ec5f09aee9f3a9da9f0ae82a511ac7c332bb8a9418dc0fbac"},
+      {"path":"docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/material_disjointness_audit_v2.json","sha256":"9bc2a744c4f3fafee290fda862cfa12b8dc749cd7cfb173b2fdc2a44deef996b"}
+    ],
+    "current_status": "PENDING_NO_ZERO_OVERLAP_OR_SCIENTIFIC_REVIEW_CLAIM"
+  },
+  "planned_generation_configuration": {
+    "configuration_intent": "Use the same Qwen3.5-2B Q4_K_M model/runtime configuration as v3 for configuration-specific mechanism replication, subject to a new frozen manifest and integrity checks.",
+    "identity_status": "NOT_YET_VERIFIED_FOR_V4",
+    "cache_prompt": false,
+    "temperature": 0.0,
+    "seed": 42,
+    "max_generated_tokens": 96,
+    "cpu_threads": 4,
+    "context_length": 4096,
+    "retries": 0,
+    "hidden_warmups": 0,
+    "note": "These settings are prospective intent only; no v4 model load, tokenizer call, or generation has occurred. Model, weight, tokenizer, template, backend, and source hashes must be bound before authorization."
+  },
+  "resources_and_safety": {
+    "global_generation_limit": 1200,
+    "baseline_generations_consumed": 508,
+    "planned_attempts": 96,
+    "projected_consumed_if_complete": 604,
+    "projected_remaining_if_complete": 596,
+    "global_inference_seconds_limit": 72000.0,
+    "baseline_inference_seconds_consumed": 3171.544608799969,
+    "baseline_inference_seconds_remaining": 68828.45539120003,
+    "batch_completion_inference_seconds_ceiling": 2400.0,
+    "projected_consumed_at_batch_ceiling": 5571.544608799969,
+    "projected_remaining_at_batch_ceiling": 66428.45539120003,
+    "batch_wall_seconds_ceiling": 3600.0,
+    "required_available_physical_bytes": 4294967296,
+    "required_available_physical_gib": 4.0,
+    "ram_rationale": "v3 began with 3,581,276,160 available bytes, reached 3,591,196,672 bytes peak server working set, and observed only 289,243,136 available bytes at minimum. The higher prospective 4-GiB gate protects headroom and is not an outcome-tuned relaxation.",
+    "preflight_rule": "If official available physical RAM is below 4,294,967,296 bytes, record exact deficit and stop with BLOCKED_RESOURCE before server launch or generation. Do not terminate unrelated applications and do not repeat an unchanged failed preflight.",
+    "live_memory_rule": "After server load, before the first request, and between every request, enforce a separately frozen live-headroom rule; if violated, stop before the next request and preserve the append-only partial run.",
+    "no_budget_consumption_yet": true
+  },
+  "execution_stopping_rules": [
+    "No execution without versioned authorization, frozen manifest, formal ancestry audit, independent material review, scorer fixture validation, token-parity evidence, model/backend integrity checks, and passing official RAM preflight.",
+    "At most 96 attempts; zero retries and zero hidden warmups.",
+    "Stop before the next request on non-200 inference response, OOM, model/hash drift, prompt/token drift, live-memory breach, generation budget ceiling, inference-time ceiling, or batch wall-time ceiling.",
+    "Preserve all completed and failed slots append-only. Do not restart, replace, retry, or fill a failed suffix.",
+    "Do not adapt order, materials, prompts, scorer rules, contrasts, or stopping thresholds after inspecting any v4 output."
+  ],
+  "authorization": {
+    "scientific_design_status": "PROSPECTIVE_DRAFT_MATERIALIZED",
+    "execution_authorized": false,
+    "model_inference_started": false,
+    "generations_completed": 0,
+    "tokenizer_operations_completed": 0,
+    "next_gate": "Formal material/ancestry audit, independent scientific review, software fixtures, tokenization parity, frozen manifest, and 4-GiB hardware preflight."
+  },
+  "limitations": [
+    "All speakers are synthetic and purposively constructed; there is no real-speaker or population generalization.",
+    "Only eight cases and one planned model configuration are included.",
+    "Every factor contrast is a disclosed treatment-package contrast rather than a pure single-token causal intervention.",
+    "Automatic name, anchor, label, and format endpoints are literal surface measures and cannot establish semantic choice or Persona Fidelity.",
+    "Human review is planned but no review package, protected mapping, or labels exist yet.",
+    "No prompt has been tokenized, so owner-name parity and instruction-length parity remain unverified hard gates.",
+    "The material ancestry target has not yet been confirmed by a formal audit or independent reviewer.",
+    "A positive mechanism result would not by itself constitute an algorithm or a novelty claim."
+  ]
+}

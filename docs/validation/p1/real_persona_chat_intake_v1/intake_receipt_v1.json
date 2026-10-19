@@ -1,0 +1,75 @@
+{
+  "aggregate_observations": {
+    "dialogues_per_pair_max": 40,
+    "dialogues_per_pair_min": 1,
+    "dialogues_per_speaker_max": 203,
+    "dialogues_per_speaker_min": 4,
+    "persona_sentence_count_distribution": {
+      "10": 233
+    },
+    "unknown_timestamps": 352,
+    "utterances_with_other_mask_marker": 17,
+    "utterances_with_speaker_mask_marker": 1178,
+    "valid_timestamps": 408267
+  },
+  "errors": [],
+  "governance": {
+    "allowed_scope": "PSEUDONYMOUS_AGGREGATE_NON_IMPERSONATION_RESEARCH",
+    "excluded_predictors": [
+      "personality",
+      "demographic_information",
+      "text_chat_experience"
+    ],
+    "legal_note": "Scientific data-governance assessment; not legal advice.",
+    "prohibited": [
+      "REIDENTIFICATION",
+      "SPECIFIC_SPEAKER_IMPERSONATION",
+      "ROW_LEVEL_PUBLIC_GENERATIONS"
+    ],
+    "public_evidence": "AGGREGATES_HASHES_AND_CODE_ONLY",
+    "raw_data_location": "IGNORED_LOCAL_ONLY"
+  },
+  "participant_text_emitted": false,
+  "prospective_split": {
+    "algorithm": "sha256(seed + NUL + speaker_id), ascending",
+    "assignment_sha256": "950b5c16e7b6eb77a350b7e3adc4fc1f5be63d11facbaa5ccc3f70081cf3e6f7",
+    "cross_split_rule": "EXCLUDE_DIALOGUE",
+    "independent_validation_access": "RESERVED_NOT_FOR_DEVELOPMENT",
+    "seed": "PersonaSLM-RPC-speaker-split-v1",
+    "speaker_counts": {
+      "DEVELOPMENT": 117,
+      "EXPLORATORY_TEST": 58,
+      "INDEPENDENT_VALIDATION_RESERVED": 58
+    },
+    "speakers_with_within_split_dialogue": {
+      "DEVELOPMENT": 108,
+      "EXPLORATORY_TEST": 50,
+      "INDEPENDENT_VALIDATION_RESERVED": 43
+    },
+    "within_split_dialogues": {
+      "CROSS_SPLIT_EXCLUDED": 8321,
+      "DEVELOPMENT": 3636,
+      "EXPLORATORY_TEST": 813,
+      "INDEPENDENT_VALIDATION_RESERVED": 813
+    }
+  },
+  "schema_version": "personaslm_real_persona_chat_intake_v1",
+  "source": {
+    "dataset": "RealPersonaChat",
+    "dialogue_manifest_sha256": "3ad5430af3d28373d8eed3fe989daa1e8cc192bbc77236afe0226dee706bac9c",
+    "dialogues": 13583,
+    "interlocutors_sha256": "35d273f030a5cfd6f77cfb9172277017553737966720bf573baf09afd6e82eb2",
+    "license": "CC BY-SA 4.0",
+    "license_sha256": "e8fb767ba9a496ad5a81d52c6abcd4af6d67a63651b3024ddfd1809f8ad23178",
+    "pairs": 1572,
+    "paper": "https://aclanthology.org/2023.paclic-1.85/",
+    "readme_sha256": "9d4d6d01067ada9a6cd754f183b91215794e85901364ea78e0ee5eccca21e27f",
+    "repository": "https://github.com/nu-dialogue/real-persona-chat",
+    "revision": "28d0b6b3865b29cabc26c230a2db37cdf315e937",
+    "speakers": 233,
+    "utterances": 408619,
+    "version": "1.0.0",
+    "version_sha256": "4ca8bbd3c595ee306226c6996b32b8d47a900217c55a7ed0cfc868ee444f34f1"
+  },
+  "status": "PASS"
+}

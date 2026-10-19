@@ -1,0 +1,133 @@
+{
+  "authority": "Explicit user directive PersonaSLM — REAL-SPEAKER EXPERIMENTAL ACCELERATION, sections 7, 8, 13 and 14, plus continuing Autonomous Research Charter",
+  "automatic_scorer": {
+    "character_trigram": "set-valued contiguous normalized character trigrams",
+    "copying": "for each latent S/F/H/query source in every condition: unique generated-trigram precision present in the union of source-unit trigram sets, plus maximum per-unit longest-common-substring length divided by normalized generated length; empty/short generated text scores 0; empty source scores 0",
+    "exposed_prompt_section_labels": [
+      "[話し方]",
+      "[人物情報]",
+      "[過去の会話]",
+      "[相手の発話]"
+    ],
+    "factorial_effects": "with x_j=2*factor_j-1, every nonempty subset A is 2*mean(y*product(x_j)); a main effect is mean(factor=1)-mean(factor=0), and interactions use the same Hadamard product coding",
+    "inference": "descriptive speaker-paired estimates only; no confirmatory p-values",
+    "missingness": "native/API failure has structural validity 0 and all text-derived outcomes missing; a successful empty response has structural validity 0, reference-F1/copy/length 0, and Japanese/style missing; other unassessable text outcomes are missing",
+    "normalization": "Unicode NFKC, casefold, remove all whitespace, retain punctuation",
+    "reference_overlap": "set trigram F1; normalized generated strings shorter than three characters score 0; the materializer guarantees normalized references of at least eight characters",
+    "response_unit": "boundary-certified nonempty first unit except TRUNCATED and containing none of the four frozen exposed prompt-section labels; otherwise structurally invalid",
+    "style_proxy": {
+      "distance": "equal-weight mean absolute difference; lower is closer",
+      "features": [
+        "mean_turn_length",
+        "question_turn_rate",
+        "exclamation_turn_rate",
+        "ellipsis_turn_rate",
+        "laughter_turn_rate",
+        "polite_ending_rate"
+      ],
+      "mean_length_definition": "characters divided by 50 in source and generated vectors",
+      "scales": {
+        "ellipsis_turn_rate": 1.0,
+        "exclamation_turn_rate": 1.0,
+        "laughter_turn_rate": 1.0,
+        "mean_turn_length": 1.0,
+        "polite_ending_rate": 1.0,
+        "question_turn_rate": 1.0
+      },
+      "scope": "secondary mixed stylometric proxy; one short response is unstable",
+      "weights": {
+        "ellipsis_turn_rate": 0.16666666666666666,
+        "exclamation_turn_rate": 0.16666666666666666,
+        "laughter_turn_rate": 0.16666666666666666,
+        "mean_turn_length": 0.16666666666666666,
+        "polite_ending_rate": 0.16666666666666666,
+        "question_turn_rate": 0.16666666666666666
+      }
+    },
+    "version": "personaslm_rpc_sfh_automatic_scorer_v1"
+  },
+  "automatic_scorer_sha256": "67d302f913ded74f73dbe511c144f9890b229d9518881364e0305b3ed5fdda0a",
+  "bindings": {
+    "audit_sha256": "76449486daf6f7bc8d0913c1b8151ee4ce257b8df024c918b1385ca812ae5f22",
+    "budget_source_sha256": "0a2d4547a6501991d6b9f1855a4f4081ff885bba5e700f226757ace58d182a44",
+    "controller_sha256": "0a8143ba7a474eadfd303a109dcac5f438e44b14c0ab3e32f82c6f7d0e3d1110",
+    "design_sha256": "f46d1458c40aa0ddbb03d7676d81a37967cfad2ae0b935f3e6b0bfa7916ff439",
+    "material_receipt_sha256": "f81d432b672320e35c2779709677825652ceff8673cb5cac183f76ecc45a639b",
+    "private_material_sha256": "4f2e57ba05a8784835c0c0108ec10ba18851a28c084b1dc293b4eb4359a1ff4e",
+    "scorer_specification_sha256": "67d302f913ded74f73dbe511c144f9890b229d9518881364e0305b3ed5fdda0a",
+    "test_sha256": "7dcc7b8d0b949c43d2fcd6f0ff88fe4cc3baccd4a7c9ba8db2a5efdc45724409"
+  },
+  "blocks": {
+    "B1": "exactly four speakers x eight conditions = 32 requests",
+    "B2": "exactly four speakers x eight conditions = 32 requests",
+    "stopping": "both blocks execute in one allocation; stop only for registered safety, integrity, technical, cumulative-budget, inference-time, or wall-time failure; never stop or continue based on outcomes"
+  },
+  "model": {
+    "artifact_revision": "bb84e11355a036e28f080c7793fa6d22b7c4e344",
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "conversion_lineage": "PARTIALLY_VERIFIED_DEVELOPMENT_ONLY",
+    "intended_upstream_revision": "965dcc54bc9c0591873df0e9869c056a54d323d1",
+    "model_label": "Qwen3.5-2B-native-chat-Q4_K_M-third-party-development",
+    "model_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+    "quantization": "Q4_K_M",
+    "tokenizer_sha256": "e05dbdef761e577b3d56f3daea7b205a07f68e5d87242ea4e2544382ffdd358e"
+  },
+  "prohibitions": [
+    "retry",
+    "resume",
+    "hidden completion",
+    "warmup",
+    "terminate unrelated applications",
+    "outcome-contingent gate",
+    "validation-speaker access",
+    "public row-level output",
+    "fabricated human judgment",
+    "confirmatory p-value"
+  ],
+  "researcher": "Yaxin ZHENG",
+  "resources": {
+    "batch_wall_seconds_ceiling": 1800.0,
+    "completion_inference_seconds_ceiling": 1200.0,
+    "cumulative_baseline": {
+      "generations_limit": 1200,
+      "generations_used": 508,
+      "inference_seconds_limit": 72000.0,
+      "inference_seconds_used": 3171.544608799969
+    },
+    "hidden_warmups": 0,
+    "maximum_generation_attempts": 64,
+    "maximum_live_server_tokenizer_checks": 64,
+    "maximum_native_tokenizer_calls": 64,
+    "minimum_after_server_ready_available_physical_ram_bytes": 1073741824,
+    "minimum_before_each_request_available_physical_ram_bytes": 536870912,
+    "minimum_free_output_disk_bytes": 1073741824,
+    "minimum_prelaunch_available_physical_ram_bytes": 3221225472,
+    "retries": 0
+  },
+  "runtime": {
+    "backend_build": "b11573-0f701c882",
+    "cache_prompt": false,
+    "chat_template_kwargs": {
+      "enable_thinking": false
+    },
+    "chat_template_path": "docs/validation/p1d/development_readiness_v1/official_instruct_metadata/chat_template.jinja",
+    "chat_template_sha256": "0286b273dc0e7dbcc080469bf5b8e57b329c135db0de8a45cb16f80a8b0c4ce6",
+    "context_tokens": 4096,
+    "gpu_layers": 0,
+    "ignore_eos": false,
+    "max_new_tokens": 96,
+    "no_context_shift": true,
+    "parallel": 1,
+    "seed": 42,
+    "stop": [],
+    "temperature": 0.0,
+    "threads": 4,
+    "threads_batch": 4,
+    "top_p": 1.0,
+    "warmup": false
+  },
+  "schema_version": "personaslm_rpc_sfh_pilot_execution_authorization_v1",
+  "scientific_level": "DEVELOPMENT_EXPLORATORY_NOT_INDEPENDENT_VALIDATION",
+  "semantic_endpoints": "HUMAN_REVIEW_PENDING_NOT_SCORED",
+  "status": "AUTHORIZED_FOR_EXACT_DEVELOPMENT_PILOT"
+}

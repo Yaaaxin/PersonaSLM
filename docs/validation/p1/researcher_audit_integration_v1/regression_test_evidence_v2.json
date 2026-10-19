@@ -1,0 +1,28 @@
+{
+  "version": "p1_researcher_audit_regression_evidence_v2",
+  "started_utc": "2026-10-16T20:40:39.054916+00:00",
+  "finished_utc": "2026-10-16T20:41:04.787471+00:00",
+  "command": [
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_p1_researcher_audit_integration.py",
+    "tests/test_p1_temporal_date_binding.py",
+    "tests/test_p1_measurement_pilot.py",
+    "tests/test_p1_recovery_v2.py",
+    "tests/test_p1_recovery_measurement_v2.py",
+    "tests/test_p1_recovery_2x2.py",
+    "tests/test_p1_blinded_stage_a.py",
+    "tests/test_p1_native_stop_diagnostic.py",
+    "-q",
+    "-ra",
+    "-p",
+    "no:cacheprovider"
+  ],
+  "returncode": 0,
+  "stdout": "........................................................................ [ 56%]\n.........................s.............................                  [100%]\n============================== warnings summary ===============================\n.venv\\Lib\\site-packages\\_pytest\\config\\__init__.py:1464\n  E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Lib\\site-packages\\_pytest\\config\\__init__.py:1464: PytestConfigWarning: Unknown config option: cache_dir\n  \n    self._warn_or_fail_if_strict(f\"Unknown config option: {key}\\n\")\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n=========================== short test summary info ===========================\nSKIPPED [1] tests\\test_p1_recovery_2x2.py:113: Run requires actual annotation export\n126 passed, 1 skipped, 1 warning in 25.30s\n",
+  "stderr": "",
+  "scope": "Offline validation only; no model server, CPU generation, unblinding, or restricted-key parsing. Real-key checks are hash-only; label/mapping tests use synthetic keys.",
+  "prior_evidence_correction": "regression_test_evidence_v1.json ran legacy tests that parsed the real key and therefore overstated restricted-key non-access; that evidence also failed two tests.",
+  "restricted_unblinding_key_read": false
+}

@@ -1,0 +1,25 @@
+{
+  "case_bank_sha256": "b8304ce94b8a159de4d9e779137633a9bd30460113931edf74cbf277868a7dc0",
+  "current_entity_count": 300,
+  "current_entity_unique_count": 300,
+  "current_normalized_entity_sha256_count": 300,
+  "exact_entity_overlap": [],
+  "exact_template_overlap": [],
+  "hash_overlap_equivalent_to_exact_normalized_overlap": true,
+  "lexical_4gram_overlap": [
+    "frozen prospective synthetic materials",
+    "with for me and"
+  ],
+  "lexical_4gram_overlap_count": 2,
+  "lexical_4gram_overlap_sha256": "d498586ff134b7a5b49764844da7245fac28a062b3bef2d66bd777e3832e92b2",
+  "new_model_generations": 0,
+  "normalized_entity_sha256_overlap": [],
+  "normalized_entity_sha256_overlap_count": 0,
+  "prior_bank_sha256": {
+    "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/case_bank_v2.json": "8e849a0f272d3551fe414516c72daceb65743f56420832507e5d346f7ef65a9e",
+    "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json": "a93cd629c0d152e9eb2325399235882beaebf510d4b6e32b24724975554fab8c"
+  },
+  "prior_normalized_string_sha256_count": 518,
+  "schema_version": "personaslm_disjoint_surface_material_audit_v1",
+  "status": "PASS"
+}

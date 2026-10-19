@@ -1,0 +1,73 @@
+{
+  "schema_version": "personaslm_history_template_mechanism_analysis_reproduction_v1",
+  "status": "PASS",
+  "reproduced_utc": "2026-10-18T18:32:29.7579276Z",
+  "evidence_level": "SEPARATE_LOCAL_ANALYSIS_RECONSTRUCTION_NO_GENERATION",
+  "source_head": "c40667ad266082481b1850453f67784b593f3723",
+  "run_directory": "results/p1_persona_dialogue_history_template_mechanism/v1/runs/20261018T182339-7d70edadcd4747088859dfc659650884",
+  "method": {
+    "model_or_network_calls": 0,
+    "new_generations": 0,
+    "description": "Read-only reconstruction from the frozen manifest and raw hash-chained run events. Request inventory, token bindings, HTTP bodies, automatic scores, arm summaries, paired and regime-stratified contrasts, latency, memory, audit, and analysis were rebuilt independently and compared with the archived artifacts.",
+    "canonical_json": "UTF-8 JSON with sorted keys and compact separators for the independently reconstructed object; canonical digests differ from pretty-printed file-byte digests by serialization only."
+  },
+  "bindings": {
+    "case_bank_sha256": "f471a2a3cf54f2c3e72d83437822a16b6732fa4f03d98a62ad18e53e2d5bc98d",
+    "prospective_design_sha256": "dcc70c37a19e7fa26de491d3d4311dc7b4573a78b1033d345b5b31c2db27d619",
+    "execution_authorization_sha256": "7ad6d2e505b7321ae0b374efadb3266bb45d64ba73dbd6206be30a74147d7572",
+    "frozen_manifest_sha256": "0b72b60fe1e10037beecb061372ce7b5a3834dce87c9087d1f5ebc75df1eb6ae",
+    "preflight_sha256": "9c1bb110f6c012114038e2fef352efc99f2bce727f10627d62a933515944b6e7",
+    "run_manifest_sha256": "9db594641a091a2b61b29490384f653cb9cd85c9e811f60232251c2bf42e24eb",
+    "run_summary_sha256": "c27af8ed1ae798cb704d47ba0d030b574ad4228a2bf6860c79559ff9d0dc150a",
+    "claim_sha256": "ffd8174dc510d834dda3b7dee118e3b7b52055fb6998f73f8cc8e468bb9a6152",
+    "terminal_event_hash": "94f57c3b199c60a00058d3c803a41ff51a84bad055433a50b36256b063e0c08a",
+    "execution_audit_file_sha256": "8c94cfcf14632eb6fa2adfa2231f43b748cab0f5d7f359b5462bc891bb1738f3",
+    "analysis_file_sha256": "c39848c8ba03840c066cb3581e4037743167f1d3ce31187537ed55dfc002b266"
+  },
+  "integrity_reproduction": {
+    "journal_events_verified": 305,
+    "journal_events_total": 305,
+    "source_snapshots_verified": 58,
+    "source_snapshots_total": 58,
+    "live_source_hashes_verified": 58,
+    "registration_source_hashes_verified": 58,
+    "frozen_requests_verified": 30,
+    "unique_request_ids": 30,
+    "native_tokenizer_logs_verified": 30,
+    "live_tokenizer_checks_verified": 30,
+    "generation_attempts_verified": 30,
+    "raw_responses_verified": 30,
+    "derived_results_verified": 30,
+    "completion_http_200_bodies_verified": 30,
+    "retries": 0,
+    "hidden_warmups": 0,
+    "terminal_status": "PASS",
+    "differences": 0
+  },
+  "analysis_reproduction": {
+    "automatic_score_objects_equal": 30,
+    "automatic_score_objects_compared": 30,
+    "execution_audit_object_equal": true,
+    "execution_audit_canonical_sha256": "5d676e5da0b70a2eb9a8de55e988cd271dd0585729833de636485fb96ae704af",
+    "analysis_object_equal": true,
+    "analysis_canonical_sha256": "b83625c6ba8fecd5c0067b863aa44af5c7ca561f8f12dbfe345ab1954f8e282c",
+    "arm_metric_mismatches": 0,
+    "paired_metric_mismatches": 0,
+    "latency_contrast_mismatches": 0,
+    "differences": 0
+  },
+  "resource_accounting_reproduced": {
+    "generations": 30,
+    "generated_tokens": 783,
+    "native_eos": 30,
+    "completion_inference_seconds": 174.50069829999484,
+    "batch_wall_seconds": 182.01441759999943,
+    "server_peak_working_set_bytes": 2369359872,
+    "minimum_dedicated_memory_observation_available_physical_bytes": 2048229376,
+    "lowest_archived_available_physical_bytes_including_postflight_preflight_observation": 2045513728,
+    "measurement_scope_note": "The frozen analysis minimum is computed only from dedicated memory_observation events. The postflight preflight record, still captured before server-context exit, contains the slightly lower archived system observation reported separately here. This scope difference does not affect the pre-run 3 GiB launch gate.",
+    "cumulative_generations_used": 232,
+    "cumulative_inference_seconds_used": 1361.7570141999922
+  },
+  "claim_boundary": "This receipt establishes local analysis reproduction from archived raw events. It is not generation reproduction, independent experimental validation, human semantic validation, or evidence of an effective or novel algorithm."
+}

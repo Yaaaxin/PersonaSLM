@@ -1,0 +1,38 @@
+{
+  "batches": 3,
+  "fixtures": 16,
+  "measurements": {
+    "declarative_reference": [
+      {
+        "cpu_ns_per_fixture": 1171.875,
+        "wall_ns_per_fixture": 1116.1225
+      },
+      {
+        "cpu_ns_per_fixture": 1074.21875,
+        "wall_ns_per_fixture": 1103.116875
+      },
+      {
+        "cpu_ns_per_fixture": 1074.21875,
+        "wall_ns_per_fixture": 1099.884375
+      }
+    ],
+    "escp_rules": [
+      {
+        "cpu_ns_per_fixture": 6054.6875,
+        "wall_ns_per_fixture": 6060.13
+      },
+      {
+        "cpu_ns_per_fixture": 6054.6875,
+        "wall_ns_per_fixture": 6070.80625
+      },
+      {
+        "cpu_ns_per_fixture": 6054.6875,
+        "wall_ns_per_fixture": 6110.97625
+      }
+    ]
+  },
+  "reason": "Initial 100-repeat process-clock samples included zero below-resolution values.",
+  "recorded_utc": "2026-10-14T16:28:54.681542+00:00",
+  "repeat_count": 10000,
+  "scope": "Offline structured checks, same fixture order; no extraction/generation/I/O; not model latency or Persona Fidelity."
+}

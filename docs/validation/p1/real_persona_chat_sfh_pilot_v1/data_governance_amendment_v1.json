@@ -1,0 +1,45 @@
+{
+  "schema_version": "personaslm_rpc_sfh_pilot_data_governance_amendment_v1",
+  "date": "2026-10-19",
+  "status": "EFFECTIVE_NARROW_DEVELOPMENT_AUTHORIZATION_EXECUTION_PREREQUISITES_STILL_PENDING",
+  "authority": {
+    "principal_researcher": "Yaxin ZHENG",
+    "directive": "PersonaSLM — REAL-SPEAKER EXPERIMENTAL ACCELERATION — Primary Research Direction and Execution Mandate",
+    "directive_date_received": "2026-10-19",
+    "relevant_authorization": "The researcher authorizes a new, prospectively registered developmental real-speaker factorial pilot and directs execution of a small finite model experiment while retaining privacy, scientific-validity, hardware, and cumulative-budget constraints."
+  },
+  "preserved_original": {
+    "path": "docs/validation/p1/real_persona_chat_intake_v1/data_governance_and_study_boundary_v1.md",
+    "sha256": "51fe07fe3d7a21ac897eb132a15075145583d0abefac5eb8431ac875ef75c415",
+    "intake_receipt_sha256": "b230983bbe8a65b9370f4c1b69af01ce2dc9ae3a8504648d7baa143ee3739aa2",
+    "modified": false,
+    "superseded_clause_for_this_pilot_only": "A generation pilot is therefore blocked until a Japanese-capable, condition-blinded semantic rubric is frozen and its applicability is demonstrated."
+  },
+  "narrow_amendment": {
+    "authorized": "At most 64 zero-retry generations in the prospectively frozen RealPersonaChat DEVELOPMENT exploratory 2^3 S/F/H pilot may run using only frozen automatic proxy and engineering endpoints before human semantic annotations exist.",
+    "semantic_endpoints": "NOT_OBSERVED until genuine condition-blinded human judgments are collected under a separately frozen protocol; automatic proxies may not be relabeled as human or semantic Persona Fidelity.",
+    "framing": "Anonymous aggregate non-impersonation research only; prompts instruct the model not to identify or claim to be a real participant.",
+    "public_data": "No participant text, identifiers, prompts, references, row-level outputs, or speaker mappings may be published or staged.",
+    "reserved_splits": "No exploratory-test or independent-validation persona value or utterance text may be deserialized, retained, inspected, or used for this pilot.",
+    "historical_evidence": "No frozen historical experiment, threshold, outcome, or intake evidence is changed.",
+    "validation_status": "The 64-request pilot remains DEVELOPMENT EXPLORATORY and cannot constitute independent validation."
+  },
+  "still_required_before_inference": [
+    "independent scientific audit of materials and measurements",
+    "frozen private material and public hash receipt",
+    "separate prospective model/execution registration and authorization",
+    "native token fit verification",
+    "fresh official hardware preflight",
+    "cumulative generation and inference-time budget check",
+    "zero-retry persistent journal"
+  ],
+  "not_authorized": [
+    "semantic or human-reviewed claims without genuine labels",
+    "specific-speaker impersonation or identification",
+    "training or fine-tuning on participant records",
+    "use of held-out speaker content for development decisions",
+    "row-level public release",
+    "outcome-contingent stopping",
+    "changes to the frozen v4 4-GiB experiment"
+  ]
+}

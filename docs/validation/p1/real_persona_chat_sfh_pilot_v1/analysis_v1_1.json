@@ -1,0 +1,2673 @@
+{
+  "bindings": {
+    "authorization_sha256": "26be44fe71f16791b2f4815093c8a5c7b2ab93f6092dd9b105300643e7a624fa",
+    "automatic_scorer_sha256": "67d302f913ded74f73dbe511c144f9890b229d9518881364e0305b3ed5fdda0a",
+    "journal_terminal_event_sha256": "4a86610ce70bced30790e9b1699f9baec0d78f6a4601c04a2703a4ade0655eab",
+    "private_frozen_manifest_sha256": "72da3568e1d6c78635b49ae992e934019f0ec73222c304c504841f4c320d64a3",
+    "registration_sha256": "99961d9b9eec09f58677daf1a5cf8af89b8bd8e8b9b4d7a02a9c53695101f9ce"
+  },
+  "claim_boundary": "Observed effects are exploratory incremental prompt-package effects for eight development speakers. They are not human-validated Persona Fidelity, semantic reliability, independent validation, or confirmatory population inference.",
+  "condition_summary": {
+    "copy_F_lcs_ratio": {
+      "C0": {
+        "maximum": 0.0967741935483871,
+        "mean": 0.05668442072707556,
+        "median": 0.05,
+        "minimum": 0.02564102564102564,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 0.2,
+        "mean": 0.11419470324361629,
+        "median": 0.1111111111111111,
+        "minimum": 0.043478260869565216,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 0.10256410256410256,
+        "mean": 0.06476103111815078,
+        "median": 0.06382978723404255,
+        "minimum": 0.038461538461538464,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 0.17073170731707318,
+        "mean": 0.10998142163974294,
+        "median": 0.1111111111111111,
+        "minimum": 0.043478260869565216,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 0.125,
+        "mean": 0.060699994252186744,
+        "median": 0.048900047824007656,
+        "minimum": 0.0379746835443038,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 0.14285714285714285,
+        "mean": 0.08394050036491897,
+        "median": 0.08333333333333333,
+        "minimum": 0.02702702702702703,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 0.125,
+        "mean": 0.09227801610154551,
+        "median": 0.10909090909090909,
+        "minimum": 0.038461538461538464,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 0.14285714285714285,
+        "mean": 0.07614621611332137,
+        "median": 0.07179487179487179,
+        "minimum": 0.030303030303030304,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "copy_F_trigram_precision": {
+      "C0": {
+        "maximum": 0.034482758620689655,
+        "mean": 0.0049261083743842365,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 0.08333333333333333,
+        "mean": 0.010416666666666666,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 0.06422018348623854,
+        "mean": 0.03600371457270506,
+        "median": 0.041666666666666664,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 0.13513513513513514,
+        "mean": 0.019305019305019305,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 0.052083333333333336,
+        "mean": 0.009799890350877194,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 0.13986013986013987,
+        "mean": 0.0479745765275892,
+        "median": 0.02040816326530612,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 0.014705882352941176,
+        "mean": 0.001838235294117647,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "copy_H_lcs_ratio": {
+      "C0": {
+        "maximum": 0.1875,
+        "mean": 0.09793245840368467,
+        "median": 0.08333333333333333,
+        "minimum": 0.04878048780487805,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 0.4444444444444444,
+        "mean": 0.25446579537612146,
+        "median": 0.23333333333333334,
+        "minimum": 0.08695652173913043,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 0.1,
+        "mean": 0.06997910480284222,
+        "median": 0.07692307692307693,
+        "minimum": 0.02586206896551724,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 0.7142857142857143,
+        "mean": 0.2785666335332853,
+        "median": 0.1875,
+        "minimum": 0.07317073170731707,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 0.5454545454545454,
+        "mean": 0.1469818143014357,
+        "median": 0.08391608391608392,
+        "minimum": 0.0392156862745098,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 0.7142857142857143,
+        "mean": 0.2967682835052021,
+        "median": 0.26041666666666663,
+        "minimum": 0.038461538461538464,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 0.23076923076923078,
+        "mean": 0.11799411372940785,
+        "median": 0.0784313725490196,
+        "minimum": 0.0196078431372549,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 0.7142857142857143,
+        "mean": 0.2529691282158387,
+        "median": 0.16666666666666669,
+        "minimum": 0.07894736842105263,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "copy_H_trigram_precision": {
+      "C0": {
+        "maximum": 0.125,
+        "mean": 0.07094960793053166,
+        "median": 0.0821917808219178,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 0.2857142857142857,
+        "mean": 0.11555383022774326,
+        "median": 0.09316770186335403,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 0.14583333333333334,
+        "mean": 0.06994094258263658,
+        "median": 0.06666666666666667,
+        "minimum": 0.009174311926605505,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 0.6,
+        "mean": 0.18413311270454127,
+        "median": 0.14285714285714285,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 0.7777777777777778,
+        "mean": 0.14649353752972175,
+        "median": 0.05195681511470985,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 0.6,
+        "mean": 0.24156606304493627,
+        "median": 0.17142857142857143,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 0.17391304347826086,
+        "mean": 0.09340732094411087,
+        "median": 0.08695652173913043,
+        "minimum": 0.02097902097902098,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 0.6,
+        "mean": 0.22484902905443702,
+        "median": 0.16064516129032258,
+        "minimum": 0.03571428571428571,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "copy_S_lcs_ratio": {
+      "C0": {
+        "maximum": 0.0625,
+        "mean": 0.03581817100137883,
+        "median": 0.03225806451612903,
+        "minimum": 0.020833333333333332,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 0.14285714285714285,
+        "mean": 0.08471553657694962,
+        "median": 0.08333333333333334,
+        "minimum": 0.04,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 0.0425531914893617,
+        "mean": 0.02104363685338632,
+        "median": 0.02,
+        "minimum": 0.008620689655172414,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 0.14285714285714285,
+        "mean": 0.07262812987374258,
+        "median": 0.0625,
+        "minimum": 0.024390243902439025,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 0.09090909090909091,
+        "mean": 0.04022947449905548,
+        "median": 0.031888997078870496,
+        "minimum": 0.00980392156862745,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 0.14285714285714285,
+        "mean": 0.07153183443154373,
+        "median": 0.07291666666666666,
+        "minimum": 0.013513513513513514,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 0.07692307692307693,
+        "mean": 0.03751247118894178,
+        "median": 0.0392156862745098,
+        "minimum": 0.006535947712418301,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 0.14285714285714285,
+        "mean": 0.056840494422731265,
+        "median": 0.041245791245791245,
+        "minimum": 0.02631578947368421,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "copy_S_trigram_precision": {
+      "C0": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "copy_query_lcs_ratio": {
+      "C0": {
+        "maximum": 0.12903225806451613,
+        "mean": 0.08648479999637693,
+        "median": 0.075,
+        "minimum": 0.041666666666666664,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 1.0,
+        "mean": 0.3322481021394065,
+        "median": 0.2511111111111111,
+        "minimum": 0.1,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 0.08196721311475409,
+        "mean": 0.04853657534027499,
+        "median": 0.0425531914893617,
+        "minimum": 0.02564102564102564,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 1.0,
+        "mean": 0.4038923117013358,
+        "median": 0.2222222222222222,
+        "minimum": 0.15789473684210525,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 1.0,
+        "mean": 0.23124463808186319,
+        "median": 0.11967957914873267,
+        "minimum": 0.025,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 1.0,
+        "mean": 0.41709946833493344,
+        "median": 0.23717948717948717,
+        "minimum": 0.02702702702702703,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 1.0,
+        "mean": 0.19879153526212348,
+        "median": 0.07692307692307693,
+        "minimum": 0.0392156862745098,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 1.0,
+        "mean": 0.33414166243113613,
+        "median": 0.17727272727272728,
+        "minimum": 0.05263157894736842,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "copy_query_trigram_precision": {
+      "C0": {
+        "maximum": 0.1780821917808219,
+        "mean": 0.046377935682562384,
+        "median": 0.02631578947368421,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 1.0,
+        "mean": 0.2087215320910973,
+        "median": 0.08333333333333333,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 0.10344827586206896,
+        "mean": 0.03200909317478025,
+        "median": 0.03669724770642202,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 1.0,
+        "mean": 0.3196451553594411,
+        "median": 0.13513513513513514,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 1.0,
+        "mean": 0.18372026821862347,
+        "median": 0.04577850877192982,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 1.0,
+        "mean": 0.35066056910569104,
+        "median": 0.18597560975609756,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 1.0,
+        "mean": 0.1625597536179981,
+        "median": 0.03496503496503497,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 1.0,
+        "mean": 0.27656241528869613,
+        "median": 0.12154377880184332,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "generated_tokens": {
+      "C0": {
+        "maximum": 96,
+        "mean": 33.25,
+        "median": 25.0,
+        "minimum": 10,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 17,
+        "mean": 9.375,
+        "median": 8.0,
+        "minimum": 5,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 96,
+        "mean": 42.625,
+        "median": 32.0,
+        "minimum": 22,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 96,
+        "mean": 21.375,
+        "median": 9.0,
+        "minimum": 4,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 51,
+        "mean": 24.5,
+        "median": 22.5,
+        "minimum": 7,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 41,
+        "mean": 14.875,
+        "median": 9.0,
+        "minimum": 4,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 96,
+        "mean": 38.375,
+        "median": 30.5,
+        "minimum": 8,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 51,
+        "mean": 17.375,
+        "median": 16.0,
+        "minimum": 4,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "japanese_character_present": {
+      "C0": {
+        "maximum": 1,
+        "mean": 1.0,
+        "median": 1,
+        "minimum": 1,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "minimum": 1,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 1,
+        "mean": 1.0,
+        "median": 1,
+        "minimum": 1,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 1,
+        "mean": 1.0,
+        "median": 1,
+        "minimum": 1,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "minimum": 1,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "minimum": 1,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 1,
+        "mean": 1.0,
+        "median": 1,
+        "minimum": 1,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "minimum": 1,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "japanese_script_rate": {
+      "C0": {
+        "maximum": 0.9354838709677419,
+        "mean": 0.9116054162390006,
+        "median": 0.9166666666666666,
+        "minimum": 0.875,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 0.92,
+        "mean": 0.8623149585921325,
+        "median": 0.8708333333333333,
+        "minimum": 0.7777777777777778,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 0.9230769230769231,
+        "mean": 0.9145894206984136,
+        "median": 0.9148936170212766,
+        "minimum": 0.8974358974358975,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 0.9130434782608695,
+        "mean": 0.8805719577183629,
+        "median": 0.8780487804878049,
+        "minimum": 0.8571428571428571,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 0.9509803921568627,
+        "mean": 0.9109494305357453,
+        "median": 0.9259146341463416,
+        "minimum": 0.8181818181818182,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 0.9302325581395349,
+        "mean": 0.8807547404931126,
+        "median": 0.875,
+        "minimum": 0.8333333333333334,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 0.9454545454545454,
+        "mean": 0.8972709969768794,
+        "median": 0.8846153846153846,
+        "minimum": 0.8461538461538461,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 0.9333333333333333,
+        "mean": 0.8763263843855948,
+        "median": 0.8660714285714286,
+        "minimum": 0.8289473684210527,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "latency_seconds": {
+      "C0": {
+        "maximum": 9.133885399991414,
+        "mean": 4.30782417500086,
+        "median": 3.581296249998559,
+        "minimum": 2.451652899995679,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 4.285421699998551,
+        "mean": 3.564095974996235,
+        "median": 3.530344149992743,
+        "minimum": 3.1866165999963414,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 10.293986100004986,
+        "mean": 6.27736801249921,
+        "median": 5.613870250002947,
+        "minimum": 4.760093799995957,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 11.238873099995544,
+        "mean": 5.7554216499993345,
+        "median": 4.87709470000118,
+        "minimum": 4.305985899991356,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 6.983178299997235,
+        "mean": 4.582133274996522,
+        "median": 4.30912934999651,
+        "minimum": 3.234893299988471,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 6.951060299994424,
+        "mean": 5.060803224996562,
+        "median": 4.743524899997283,
+        "minimum": 3.9524910999898566,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 10.723702799994498,
+        "mean": 6.832034362500053,
+        "median": 6.306438599996909,
+        "minimum": 4.453432800000883,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 8.395389900004375,
+        "mean": 6.444256225002391,
+        "median": 6.217408149997937,
+        "minimum": 5.7619409000035375,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "output_length_characters": {
+      "C0": {
+        "maximum": 78,
+        "mean": 40.285714285714285,
+        "median": 40,
+        "minimum": 16,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 25,
+        "mean": 14.25,
+        "median": 12.5,
+        "minimum": 7,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 116,
+        "mean": 62.57142857142857,
+        "median": 50,
+        "minimum": 39,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 41,
+        "mean": 18.428571428571427,
+        "median": 16,
+        "minimum": 7,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 102,
+        "mean": 44.875,
+        "median": 40.5,
+        "minimum": 11,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 74,
+        "mean": 24.75,
+        "median": 14.0,
+        "minimum": 7,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 153,
+        "mean": 52.142857142857146,
+        "median": 51,
+        "minimum": 13,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 76,
+        "mean": 28.0,
+        "median": 24.5,
+        "minimum": 7,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "reference_character_trigram_f1": {
+      "C0": {
+        "maximum": 0.09677419354838708,
+        "mean": 0.034115193898725304,
+        "median": 0.03508771929824561,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 0.1935483870967742,
+        "mean": 0.08910777494728607,
+        "median": 0.10603371783496007,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 0.1728395061728395,
+        "mean": 0.05435539089447644,
+        "median": 0.035398230088495575,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 0.19047619047619047,
+        "mean": 0.0985365574801349,
+        "median": 0.11764705882352941,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 0.13333333333333333,
+        "mean": 0.03895387556111374,
+        "median": 0.021052631578947368,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 0.19047619047619047,
+        "mean": 0.05219494047619047,
+        "median": 0.0,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 0.25641025641025644,
+        "mean": 0.0753218000205952,
+        "median": 0.04819277108433735,
+        "minimum": 0.0,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 0.19047619047619047,
+        "mean": 0.07550070028011205,
+        "median": 0.06166666666666666,
+        "minimum": 0.0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "source_style_distance": {
+      "C0": {
+        "maximum": 0.3535555555555556,
+        "mean": 0.2392089093701997,
+        "median": 0.21133333333333337,
+        "minimum": 0.14877777777777776,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 0.31053763440860216,
+        "mean": 0.1778727598566308,
+        "median": 0.15183333333333332,
+        "minimum": 0.071,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 0.4994444444444444,
+        "mean": 0.3241612903225807,
+        "median": 0.2968888888888889,
+        "minimum": 0.1912222222222222,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 0.3172043010752688,
+        "mean": 0.17225140809011777,
+        "median": 0.14977777777777776,
+        "minimum": 0.071,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 0.43688888888888894,
+        "mean": 0.2684551971326165,
+        "median": 0.262,
+        "minimum": 0.11199999999999999,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 0.3172043010752688,
+        "mean": 0.19992831541218636,
+        "median": 0.21983333333333333,
+        "minimum": 0.081,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 0.6024444444444444,
+        "mean": 0.3003358934971838,
+        "median": 0.32833333333333337,
+        "minimum": 0.057888888888888886,
+        "missing": 1,
+        "n": 7,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 0.38800000000000007,
+        "mean": 0.24206720430107528,
+        "median": 0.2668888888888889,
+        "minimum": 0.06766666666666667,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    },
+    "structural_response_validity": {
+      "C0": {
+        "maximum": 1,
+        "mean": 0.875,
+        "median": 1.0,
+        "minimum": 0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C1": {
+        "maximum": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "minimum": 1,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C2": {
+        "maximum": 1,
+        "mean": 0.875,
+        "median": 1.0,
+        "minimum": 0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C3": {
+        "maximum": 1,
+        "mean": 0.875,
+        "median": 1.0,
+        "minimum": 0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C4": {
+        "maximum": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "minimum": 1,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C5": {
+        "maximum": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "minimum": 1,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C6": {
+        "maximum": 1,
+        "mean": 0.875,
+        "median": 1.0,
+        "minimum": 0,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      },
+      "C7": {
+        "maximum": 1,
+        "mean": 1.0,
+        "median": 1.0,
+        "minimum": 1,
+        "missing": 0,
+        "n": 8,
+        "planned": 8
+      }
+    }
+  },
+  "effect_definition": "with x_j=2*factor_j-1, every nonempty subset A is 2*mean(y*product(x_j)); a main effect is mean(factor=1)-mean(factor=0), and interactions use the same Hadamard product coding",
+  "execution": {
+    "analyzed_slots": 64,
+    "attempted": 64,
+    "blocks": {
+      "B1": 32,
+      "B2": 32
+    },
+    "derived_results": 64,
+    "native_failures": 0,
+    "outcome_contingent_stopping": false,
+    "planned": 64,
+    "responses_received": 64,
+    "retries": 0
+  },
+  "measurement_validity": {
+    "automatic": [
+      "structural_response_validity",
+      "japanese_character_present",
+      "japanese_script_rate",
+      "output_length_characters",
+      "reference_character_trigram_f1",
+      "source_style_distance",
+      "copy_S_trigram_precision",
+      "copy_S_lcs_ratio",
+      "copy_F_trigram_precision",
+      "copy_F_lcs_ratio",
+      "copy_H_trigram_precision",
+      "copy_H_lcs_ratio",
+      "copy_query_trigram_precision",
+      "copy_query_lcs_ratio",
+      "generated_tokens",
+      "latency_seconds"
+    ],
+    "copying": "surface reuse diagnostic; copying is not Persona Fidelity",
+    "human_review_pending": [
+      "response relevance",
+      "conversational coherence",
+      "linguistic Persona Fidelity",
+      "persona-statement consistency",
+      "history consistency",
+      "unsupported personal claims",
+      "answer completeness"
+    ],
+    "human_semantic_review": {
+      "rating_count": 0,
+      "ratings": [],
+      "status": "PENDING_NOT_COLLECTED"
+    },
+    "reference_overlap": "lexical resemblance to one observed continuation; not correctness",
+    "style_proxy": "secondary mixed stylometric proxy; one short response is unstable",
+    "style_validity_interpretive_evidence": {
+      "files": {
+        "docs/validation/p1/real_persona_chat_style_signal_validity_v1/analysis_v1.json": "7778a7857ad9689be9deb3b17867fff92fe6b5f110ea103298ecc49b2b55f5da",
+        "docs/validation/p1/real_persona_chat_style_signal_validity_v1/registration_amendment_v1_1.json": "872300933ce05acf4d5c474d7e9ac0a3cffc7d926eca376c9cf7e3411e3a65e3",
+        "docs/validation/p1/real_persona_chat_style_signal_validity_v1/registration_v1.json": "9526ce41fff3ffe6dd9a1491c1a8d8077770617ac387ca3cbd236a53160716b6",
+        "docs/validation/p1/real_persona_chat_style_signal_validity_v1/scientific_report_v1.md": "8c3db451b1de3729b6d83ab7d7ece50ed592e6834b1a94efb02bd64e684fdeab"
+      },
+      "registered_diagnostic_readout": {
+        "exact_turn_overlap_detected": true,
+        "imbalance_association_flagged": false,
+        "own_source_closer_than_immediate_source_partners": true,
+        "signal_positive_after_joint_length_and_marker_ablation": true,
+        "signal_positive_with_length_matched_controls": true,
+        "signal_positive_with_topic_overlap_matched_controls": true
+      },
+      "role": "INTERPRETIVE_PROVENANCE_NOT_AN_EXECUTION_GATE",
+      "status": "COMPLETE_POST_OUTCOME_DEVELOPMENT_VALIDITY_DIAGNOSTIC",
+      "supported_claim": "Development-only evidence about whether the observed mixed surface/stylometric signal survives finite confounding controls.",
+      "unsupported_claims": [
+        "validated generative Persona Fidelity",
+        "model conditioning effect",
+        "stable speaker identity independent of topic",
+        "population generalization",
+        "independent validation"
+      ]
+    }
+  },
+  "privacy": {
+    "participant_text_public": false,
+    "private_analysis_sha256": "eac294c84226156cb3954a1ae7463932becda2c86a025c18cca4638a2720ac9f",
+    "row_level_results_public": false
+  },
+  "resources": {
+    "batch_wall_seconds": 351.21225779999804,
+    "completion_inference_seconds": 342.59149519992934,
+    "cumulative_after": {
+      "generations_limit": 1200,
+      "generations_used": 572,
+      "inference_seconds_limit": 72000.0,
+      "inference_seconds_used": 3514.1361039998983
+    },
+    "minimum_observed_available_physical_bytes": 2332139520,
+    "peak_server_working_set_bytes": 2581692416
+  },
+  "schema_version": "personaslm_rpc_sfh_pilot_analysis_v1",
+  "scientific_level": "DEVELOPMENT_EXPLORATORY_NOT_INDEPENDENT_VALIDATION",
+  "speaker_paired_factorial_effects": {
+    "copy_F_lcs_ratio": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.01624694368335781,
+        "leave_one_speaker_out_mean_minimum": -0.008720329753276343,
+        "maximum": 0.054861735476983226,
+        "mean": 0.00399608329277557,
+        "median": -0.0016287065121530168,
+        "minimum": -0.04500735826955339,
+        "n": 5,
+        "speaker_values_sha256": "91f71457d871fd07a6caf2ee67ac97342da64765836c2ab45d028d1b2dd60766"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.00833201848086557,
+        "leave_one_speaker_out_mean_minimum": -0.00491858557013287,
+        "maximum": 0.0388248209234573,
+        "mean": 0.003830095728585164,
+        "median": -0.004133597883597885,
+        "minimum": -0.014177595280536458,
+        "n": 5,
+        "speaker_values_sha256": "c2e60f0054ccbf9b7cd6616846b3ebfc4eff7f243c4bf519e21ca96949de693e"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.0004444875404492521,
+        "leave_one_speaker_out_mean_minimum": -0.01966812966725645,
+        "maximum": 0.0232202447163515,
+        "mean": -0.011090454790534861,
+        "median": -0.01306216931216931,
+        "minimum": -0.0536743237908773,
+        "n": 5,
+        "speaker_values_sha256": "9326cb5a2d9ab930986319c69524ded6c39b12ffa51423710ec7a66660c09b16"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.04520642946164005,
+        "leave_one_speaker_out_mean_minimum": 0.03140287825638025,
+        "maximum": 0.0784344495373907,
+        "mean": 0.040809192512582346,
+        "median": 0.026507134772805252,
+        "minimum": 0.0232202447163515,
+        "n": 5,
+        "speaker_values_sha256": "b43480818a00687dbcc073a422ca6f041c09b159e3e51f99abca8c61f5b965a5"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.00749712531510016,
+        "leave_one_speaker_out_mean_minimum": -0.020799388913355657,
+        "maximum": 0.009107341490545049,
+        "mean": -0.014818042832575515,
+        "median": -0.004989071386130211,
+        "minimum": -0.044101712902476935,
+        "n": 5,
+        "speaker_values_sha256": "3d7d0aeabbe665c3d367c2314f42382b108028d88b1f3c1d352b20ef81ece81b"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.0011886895498616052,
+        "leave_one_speaker_out_mean_minimum": -0.009938550909592947,
+        "maximum": 0.010181601767175927,
+        "mean": -0.005914520374239172,
+        "median": -0.004133597883597885,
+        "minimum": -0.024817843671749443,
+        "n": 5,
+        "speaker_values_sha256": "29cd8ae63c6ae18561bc824d5d0b990de2691f940bcf29deb4a8f3d1253eb511"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.019312519740310157,
+        "leave_one_speaker_out_mean_minimum": -0.03995649033482504,
+        "maximum": 0.012283655886597062,
+        "mean": -0.029508461090540623,
+        "median": -0.0232202447163515,
+        "minimum": -0.07029222649146247,
+        "n": 5,
+        "speaker_values_sha256": "2315d385a148855c686cfb199ab73eb3030f81569942c7ee1e669be4f890ef64"
+      }
+    },
+    "copy_F_trigram_precision": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.02600485927598082,
+        "leave_one_speaker_out_mean_minimum": 0.010740058929368992,
+        "maximum": 0.06434867507065783,
+        "mean": 0.02146178215762676,
+        "median": 0.015518707482993197,
+        "minimum": 0.003289473684210526,
+        "n": 5,
+        "speaker_values_sha256": "bb23777f89ddd655cf0856910572ea529b28a600dffcd6b0a14720c4bd5d9844"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0050309217568478976,
+        "leave_one_speaker_out_mean_minimum": -0.009124681889548111,
+        "maximum": 0.03616214277832947,
+        "mean": -6.731695597259491e-05,
+        "median": -0.005314625850340136,
+        "minimum": -0.020460271807254564,
+        "n": 5,
+        "speaker_values_sha256": "70b753053aa69d052ea960c5015a6c919482491d9047f557e6705fdf0076fee7"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0011576665433415876,
+        "leave_one_speaker_out_mean_minimum": -0.006924610050467652,
+        "maximum": 0.00765337084850491,
+        "mean": -0.004009013870673139,
+        "median": -0.003289473684210526,
+        "minimum": -0.024675735526732048,
+        "n": 5,
+        "speaker_values_sha256": "e8c8e6e23e7408a555beb09a49838f0bb1aca4e6e7f28189c05b3e84602f0830"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.016576672715923176,
+        "leave_one_speaker_out_mean_minimum": -0.023223202562552326,
+        "maximum": -0.003289473684210526,
+        "mean": -0.019236456786883967,
+        "median": -0.022822774169756928,
+        "minimum": -0.02987559307072713,
+        "n": 5,
+        "speaker_values_sha256": "3087555352ec0147bc71bfadc29c111b57a8018492725cab74acb28159ab5688"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.005755911221670301,
+        "leave_one_speaker_out_mean_minimum": -0.02115672559603566,
+        "maximum": 0.0032188924969097383,
+        "mean": -0.01628160197744658,
+        "median": -0.00743435621638722,
+        "minimum": -0.05838436500055169,
+        "n": 5,
+        "speaker_values_sha256": "f997c680e0161c09b64ede48773f182f26f4a72faeb0258043354e8ea16d89ef"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.005385744909818769,
+        "leave_one_speaker_out_mean_minimum": -0.008249668084356288,
+        "maximum": 0.00743435621638722,
+        "mean": -0.005112863224207586,
+        "median": 0.005314625850340136,
+        "minimum": -0.04710729576031301,
+        "n": 5,
+        "speaker_values_sha256": "9eb1928acc4c51eb639ab96dabd93370b39616d14cf18a0771786bbeeea8e4c0"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.004010050613472217,
+        "leave_one_speaker_out_mean_minimum": -0.028466225101900146,
+        "maximum": 0.024675735526732048,
+        "mean": -0.017837832976173706,
+        "median": 0.003289473684210526,
+        "minimum": -0.07314896242697967,
+        "n": 5,
+        "speaker_values_sha256": "bef85f3a359e8a3b314ab221541c35f6fedea2116e032b5c05f703015d9d272b"
+      }
+    },
+    "copy_H_lcs_ratio": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.013293297346241168,
+        "leave_one_speaker_out_mean_minimum": -0.026957852979335277,
+        "maximum": 0.06850755453696632,
+        "mean": -0.007864771476074957,
+        "median": 0.00033574496820935884,
+        "minimum": -0.09249704676533946,
+        "n": 5,
+        "speaker_values_sha256": "9363382d3de709856515185ee552f3df2106f017d17d5b12bbd6c55a99355f23"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.002744207846703945,
+        "leave_one_speaker_out_mean_minimum": -0.03354042289138394,
+        "maximum": 0.051390694448425464,
+        "mean": -0.01655419942342206,
+        "median": 0.01660451950967482,
+        "minimum": -0.09374782850392607,
+        "n": 5,
+        "speaker_values_sha256": "10da504913aebb64ac5b893141d59fe4296f915905803308c7fac611155c5329"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.03466636446594956,
+        "leave_one_speaker_out_mean_minimum": 0.0034833289086647016,
+        "maximum": 0.06396209999151177,
+        "mean": 0.015579083125234117,
+        "median": 0.03778527254137011,
+        "minimum": -0.06077004223762767,
+        "n": 5,
+        "speaker_values_sha256": "e8d2f370774a6f2aa3b585bbc05c95aaca5e1567f3e086f2ed9be26db6a14d55"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.23537671688029194,
+        "leave_one_speaker_out_mean_minimum": 0.10596266800020016,
+        "maximum": 0.5586569476275358,
+        "mean": 0.19650152392566728,
+        "median": 0.08350145353286875,
+        "minimum": 0.041000752107168636,
+        "n": 5,
+        "speaker_values_sha256": "0395af03147b8a1c17776dab676ddc9943906138dd86bf42be709a65daeca05f"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.019855395313527115,
+        "leave_one_speaker_out_mean_minimum": -0.01760509457253666,
+        "maximum": 0.06641308038366862,
+        "mean": -0.0008014595812956022,
+        "median": 0.0029938069319608088,
+        "minimum": -0.08342887916058647,
+        "n": 5,
+        "speaker_values_sha256": "50373444c1aa7a6fd7db4715f069fe5533ce36698cc5c9a5ddae94c3803a065a"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0018444668820579522,
+        "leave_one_speaker_out_mean_minimum": -0.03163151227204301,
+        "maximum": 0.05172581919440397,
+        "mean": -0.014960045978753611,
+        "median": -0.017728031145717464,
+        "minimum": -0.08217809742199986,
+        "n": 5,
+        "speaker_values_sha256": "039a52af327aa06e29768edc31ae9d30d51419c48577af51ce10345a5935b20b"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0064125727889558296,
+        "leave_one_speaker_out_mean_minimum": -0.02709979453620594,
+        "maximum": 0.07095853492912317,
+        "mean": -0.0074881286431401186,
+        "median": 0.0005745158184182614,
+        "minimum": -0.06309093437152391,
+        "n": 5,
+        "speaker_values_sha256": "27384a19204ec319b1ccd325a72d65c32df8030ad7c588004a6b95b4eba81211"
+      }
+    },
+    "copy_H_trigram_precision": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.03262756570867131,
+        "leave_one_speaker_out_mean_minimum": 0.005597279582660172,
+        "maximum": 0.10179403283052352,
+        "mean": 0.02483663023223284,
+        "median": 0.005855963811810378,
+        "minimum": -0.006327111673521037,
+        "n": 5,
+        "speaker_values_sha256": "32a89d14dd7aa4cb8ff835283f5a3967bae11c379a077e2b98071c8956cf09e7"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.0060606731509228184,
+        "leave_one_speaker_out_mean_minimum": -0.039728711593630145,
+        "maximum": 0.042143402964046464,
+        "mean": -0.02335428868209482,
+        "median": 0.006327111673521037,
+        "minimum": -0.09252875080678283,
+        "n": 5,
+        "speaker_values_sha256": "c9bd043fa5711d94435486b4a2cc31480f4d461603052280a75afcea472a4b8b"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.053279278429525005,
+        "leave_one_speaker_out_mean_minimum": 0.018248460226573008,
+        "maximum": 0.09977894150090946,
+        "mean": 0.0345545564814403,
+        "median": 0.052686889973380654,
+        "minimum": -0.04034433131089854,
+        "n": 5,
+        "speaker_values_sha256": "fb96836e22d3cf914684046bdd89684b7e6aa471b5b89a3531614d38f6e2325e"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.1636133871803842,
+        "leave_one_speaker_out_mean_minimum": 0.049384375428092445,
+        "maximum": 0.43091818249038744,
+        "mean": 0.12569113684055144,
+        "median": 0.06051430379174763,
+        "minimum": -0.025997864518779577,
+        "n": 5,
+        "speaker_values_sha256": "df882c4be9e9a5ee2c74c5c286466af8aba770cb07cf94cd5b98144af64e5aa6"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0171916746230095,
+        "leave_one_speaker_out_mean_minimum": -0.003403694630571178,
+        "maximum": 0.05534882431233362,
+        "mean": 0.008346809158009783,
+        "median": 0.0037755621240633842,
+        "minimum": -0.027032652701989082,
+        "n": 5,
+        "speaker_values_sha256": "f7cb0dfb3b4d3bfe5aadced3c3df2f455bf8d786d1d2547982c35b46ced15162"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.0010853143887345953,
+        "leave_one_speaker_out_mean_minimum": -0.035536312747481154,
+        "maximum": 0.06033274424176907,
+        "mean": -0.01636250134963111,
+        "median": -0.006327111673521037,
+        "minimum": -0.07747124919321716,
+        "n": 5,
+        "speaker_values_sha256": "2b466298c84ec525bae2c657b851d3f97a082c423ad17db277701d2b7fd85541"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.04574242986943658,
+        "leave_one_speaker_out_mean_minimum": 0.004499862129130547,
+        "maximum": 0.10445596716947649,
+        "mean": 0.024491083137199735,
+        "median": 0.022948830219745274,
+        "minimum": -0.06051430379174763,
+        "n": 5,
+        "speaker_values_sha256": "d7220150bbaeabb746ce5f061cc8faf371567bffe4bce3ceac07991c885065fb"
+      }
+    },
+    "copy_S_lcs_ratio": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.001569683869986175,
+        "leave_one_speaker_out_mean_minimum": -0.015643735325000685,
+        "maximum": 0.00616845980816569,
+        "mean": -0.011281296298367412,
+        "median": -0.004511948397999996,
+        "minimum": -0.050127746011892356,
+        "n": 5,
+        "speaker_values_sha256": "027b6f94bb402acda68794c068206d050bd8925dad195bb65734942f4def19f8"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0060614837205176225,
+        "leave_one_speaker_out_mean_minimum": 0.001760331081017268,
+        "maximum": 0.007916721159817902,
+        "mean": 0.002991609096777395,
+        "median": 0.005909343715239154,
+        "minimum": -0.009287889398183516,
+        "n": 5,
+        "speaker_values_sha256": "344152b18323731f945a5740a3da3b21fe3772deb42a47090e1a7b8b915f5255"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.003498738476940271,
+        "leave_one_speaker_out_mean_minimum": -0.006650090866362852,
+        "maximum": 0.021030311457174638,
+        "mean": -0.0011140104016553539,
+        "median": -0.008373923899637007,
+        "minimum": -0.019565005916037853,
+        "n": 5,
+        "speaker_values_sha256": "ebeedc9143af550995623116a7dea96e68d3b709a8d73438a3d9f00a6577385b"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.052671304863804946,
+        "leave_one_speaker_out_mean_minimum": 0.03069793480281041,
+        "maximum": 0.10354474365503777,
+        "mean": 0.045267296573255886,
+        "median": 0.021030311457174638,
+        "minimum": 0.01565126341105963,
+        "n": 5,
+        "speaker_values_sha256": "e374e771364e6d2cdebccc5e1100481c290a57d8011c1519e2997b08cb783894"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.005190711882302959,
+        "leave_one_speaker_out_mean_minimum": -0.004627432429878297,
+        "maximum": 0.009704556064850182,
+        "mean": -0.0017610347309326012,
+        "median": 0.003403117709980511,
+        "minimum": -0.029568021183874842,
+        "n": 5,
+        "speaker_values_sha256": "f80fa771d0456d513fbedb6df10c3746597566e9d8c2627ccc794196e3e73904"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.00024785145769590385,
+        "leave_one_speaker_out_mean_minimum": -0.004850319143239547,
+        "maximum": 0.00855895944197006,
+        "mean": -0.0021684634261976256,
+        "median": -0.005909343715239154,
+        "minimum": -0.011833722961771743,
+        "n": 5,
+        "speaker_values_sha256": "5d8cc63e434c14d513779e2afe883354495b7865df1b4235047175fbdae1e765"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.006323089623106409,
+        "leave_one_speaker_out_mean_minimum": -0.012699011385357156,
+        "maximum": 0.004473375591828347,
+        "mean": -0.009264533989920054,
+        "median": -0.008567172439123655,
+        "minimum": -0.021030311457174638,
+        "n": 5,
+        "speaker_values_sha256": "b3df7d43dcc7d1a00d8f16a32b1c15f58d19dd4ac42cd4149843e13ee5b8c360"
+      }
+    },
+    "copy_S_trigram_precision": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      }
+    },
+    "copy_query_lcs_ratio": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.021548316078826416,
+        "leave_one_speaker_out_mean_minimum": -0.06967437024967053,
+        "maximum": 0.12103949155419744,
+        "mean": -0.03153159788889694,
+        "median": -0.023637374860956618,
+        "minimum": -0.24385125375979036,
+        "n": 5,
+        "speaker_values_sha256": "ea30982714c86375402b032bc3102b21bd8e55de54fc6045da7e08cee6a6af6e"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.0018348892031543095,
+        "leave_one_speaker_out_mean_minimum": -0.06078257982598934,
+        "maximum": 0.0507932566096879,
+        "mean": -0.0384674125388539,
+        "median": 0.023637374860956618,
+        "minimum": -0.18499750588165223,
+        "n": 5,
+        "speaker_values_sha256": "4e108540a2f5fbac626cf9ffedc262d004a5add3b7d2161e1a8a03984048d1c6"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.17287962351489033,
+        "leave_one_speaker_out_mean_minimum": 0.044028987575383094,
+        "maximum": 0.45912124582869857,
+        "mean": 0.12704743922604617,
+        "median": 0.12376676428147017,
+        "minimum": -0.05628129792933045,
+        "n": 5,
+        "speaker_values_sha256": "e60ef8324dcc43ddbbb68b0ad603aee3083c61a3772b095cd549580b12c384e7"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.35294656637595084,
+        "leave_one_speaker_out_mean_minimum": 0.230771656816194,
+        "maximum": 0.5496856166709108,
+        "mean": 0.2945544487871373,
+        "median": 0.2724033249947884,
+        "minimum": 0.060985978431883296,
+        "n": 5,
+        "speaker_values_sha256": "54f03fe850b3971b4180637cb9a332123b93385b03ffd4cd76a7b5bf45093a5a"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.04162889217950851,
+        "leave_one_speaker_out_mean_minimum": -0.03307104053961359,
+        "maximum": 0.12499225447754861,
+        "mean": -0.0014583815361811545,
+        "median": 0.010288920614572305,
+        "minimum": -0.17380747639893981,
+        "n": 5,
+        "speaker_values_sha256": "5b0945f98219faa8762b7f893a387fd4a27200ea9d530ea8af220cac54b01ed9"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.02016038659417839,
+        "leave_one_speaker_out_mean_minimum": -0.07024660169661325,
+        "maximum": 0.03911220756123288,
+        "mean": -0.04837483984504402,
+        "median": -0.023637374860956618,
+        "minimum": -0.16123265284850652,
+        "n": 5,
+        "speaker_values_sha256": "3309c00fc1a9183bd59b34119ad05e90eaf29b007dd139f85db4af48816500ad"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.045209929707407524,
+        "leave_one_speaker_out_mean_minimum": -0.10013662718733608,
+        "maximum": 0.12226498175027588,
+        "mean": -0.055656305399813685,
+        "median": 0.010296395010810191,
+        "minimum": -0.45912124582869857,
+        "n": 5,
+        "speaker_values_sha256": "a45d9dfb50414ba6d5238a3f40ef8f337ba873a6db2967593c5a72aedb6a7c07"
+      }
+    },
+    "copy_query_trigram_precision": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.031119823221268522,
+        "leave_one_speaker_out_mean_minimum": -0.05542993327700056,
+        "maximum": 0.15,
+        "mean": -0.014343946621600451,
+        "median": -0.008067067383739322,
+        "minimum": -0.19619902599307634,
+        "n": 5,
+        "speaker_values_sha256": "8310ccf43e14203c8d0a3b0e0428e709013d33cd8d6f02d48d37ebc48c412d2f"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.018334797650109695,
+        "leave_one_speaker_out_mean_minimum": -0.08859967467000351,
+        "maximum": 0.049097998955594746,
+        "mean": -0.061060139944883865,
+        "median": 0.008067067383739322,
+        "minimum": -0.23196150912398053,
+        "n": 5,
+        "speaker_values_sha256": "bbd634afeb489df6342c561da14a7c9913bdb5a81dc52db6211d7ffb31c19c70"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.1973730904656473,
+        "leave_one_speaker_out_mean_minimum": 0.06357164510339361,
+        "maximum": 0.4735843087630497,
+        "mean": 0.14557417783532484,
+        "median": 0.15,
+        "minimum": -0.061621472685965024,
+        "n": 5,
+        "speaker_values_sha256": "095dad6b3be74e4ffa6dfa4992705549309da4ac40e702f1d18da0fbe50d3270"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.2907059936463836,
+        "leave_one_speaker_out_mean_minimum": 0.18584406407105863,
+        "maximum": 0.4735843087630497,
+        "mean": 0.24339211300945682,
+        "median": 0.16812210291615326,
+        "minimum": 0.05413659046174983,
+        "n": 5,
+        "speaker_values_sha256": "5c4a0cbaa42c6ee3f9814f68bdb4e47f08a0d457421e9354506f349ec520fa22"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.04457353122191488,
+        "leave_one_speaker_out_mean_minimum": -0.032626712279816034,
+        "maximum": 0.15,
+        "mean": 0.0038986301761471734,
+        "median": 0.008067067383739322,
+        "minimum": -0.15880097400692367,
+        "n": 5,
+        "speaker_values_sha256": "565d6f7649fc7b8ef6d0b12ea3445e3916e5f44eb21f089b8344b322c8af01af"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.02707447227020083,
+        "leave_one_speaker_out_mean_minimum": -0.08602467535318117,
+        "maximum": 0.029428988122568542,
+        "mean": -0.06293394265803123,
+        "median": -0.008067067383739322,
+        "minimum": -0.20637182420935282,
+        "n": 5,
+        "speaker_values_sha256": "8f7f0a4baf65ab7fdcb6acc48f6afaa70cd9a21720920986315dd5df1be89f29"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.07424239710072145,
+        "leave_one_speaker_out_mean_minimum": -0.08711200608898481,
+        "maximum": 0.1718333039957754,
+        "mean": -0.03532294407203278,
+        "median": 0.03561957698629626,
+        "minimum": -0.4735843087630497,
+        "n": 5,
+        "speaker_values_sha256": "f811edb3b6237e1f24b978c3f6821fe43eb50b24bdc3b37384f5deab0fda1b6c"
+      }
+    },
+    "generated_tokens": {
+      "F": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 11.857142857142858,
+        "leave_one_speaker_out_mean_minimum": 5.714285714285714,
+        "maximum": 35.5,
+        "mean": 9.4375,
+        "median": 7.875,
+        "minimum": -7.5,
+        "n": 8,
+        "speaker_values_sha256": "922c12c7a035d96e69833b82778fdf2e24d4cc1787ae3dfacf44a87bb857647c"
+      },
+      "FH": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 2.4285714285714284,
+        "leave_one_speaker_out_mean_minimum": -5.714285714285714,
+        "maximum": 30.0,
+        "mean": -1.25,
+        "median": -0.875,
+        "minimum": -27.0,
+        "n": 8,
+        "speaker_values_sha256": "8305f87e8adf6ae2d9ee920299320ab2f03e3a78cd3e20bf634b8cb53063fdc8"
+      },
+      "H": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 2.75,
+        "leave_one_speaker_out_mean_minimum": -7.142857142857143,
+        "maximum": 27.0,
+        "mean": -2.875,
+        "median": -0.875,
+        "minimum": -42.25,
+        "n": 8,
+        "speaker_values_sha256": "be7abe8e670f740d422398e9bb725d0b670b6b4f26f8fb0e87896e9e0212390e"
+      },
+      "S": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": -16.107142857142858,
+        "leave_one_speaker_out_mean_minimum": -23.642857142857142,
+        "maximum": 14.0,
+        "mean": -18.9375,
+        "median": -20.5,
+        "minimum": -38.75,
+        "n": 8,
+        "speaker_values_sha256": "51b2dd9cc838c4f4ecdc553f087dc7c7460e435de893f270986da00b728715ff"
+      },
+      "SF": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": -0.42857142857142855,
+        "leave_one_speaker_out_mean_minimum": -5.428571428571429,
+        "maximum": 20.5,
+        "mean": -2.1875,
+        "median": -3.25,
+        "minimum": -14.5,
+        "n": 8,
+        "speaker_values_sha256": "0993f8c6f0b590f091c2972c2a688be2ca4808712bee05e81ff2a5d0d1cece41"
+      },
+      "SFH": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": -1.5,
+        "leave_one_speaker_out_mean_minimum": -5.75,
+        "maximum": 12.25,
+        "mean": -3.5,
+        "median": -2.125,
+        "minimum": -17.5,
+        "n": 8,
+        "speaker_values_sha256": "335df963a33be42903555c663535f3e63d09b3ce529df7e30002eaf498a169e2"
+      },
+      "SH": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 7.285714285714286,
+        "leave_one_speaker_out_mean_minimum": -1.8928571428571428,
+        "maximum": 42.25,
+        "mean": 3.625,
+        "median": 1.875,
+        "minimum": -22.0,
+        "n": 8,
+        "speaker_values_sha256": "bd1036579cab1f2b16684dd2d718ef9835e176514597e9b1e0089c24624e9d92"
+      }
+    },
+    "japanese_character_present": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 5,
+        "speaker_values_sha256": "df9b44046274d459225def275b67631f48f3c80fa066dd5ec309a9b6d420d61e"
+      }
+    },
+    "japanese_script_rate": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0029947140624933047,
+        "leave_one_speaker_out_mean_minimum": -0.005706489427178517,
+        "maximum": 0.01811221458280282,
+        "mean": -0.0009427486251822493,
+        "median": -0.0054226918798664925,
+        "minimum": -0.016692599375884465,
+        "n": 5,
+        "speaker_values_sha256": "5bb1b2c595c8b46798bfbec45d707b0f530c6040999d23ab2b648df2432684d7"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.005070935417580254,
+        "leave_one_speaker_out_mean_minimum": -0.012581452978194067,
+        "maximum": 0.006805078476051718,
+        "mean": -0.00870414668734491,
+        "median": -0.011011529398207792,
+        "minimum": -0.023236991766403536,
+        "n": 5,
+        "speaker_values_sha256": "33b58a7b730fde3db9f34ccd9d1b02acfc52d5ea66715dc6a71f28d76356a2fe"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.020746783859276828,
+        "leave_one_speaker_out_mean_minimum": 0.006174716181359424,
+        "maximum": 0.03346902710766517,
+        "mean": 0.011633578366620573,
+        "median": 0.024021305491893685,
+        "minimum": -0.02481924360400445,
+        "n": 5,
+        "speaker_values_sha256": "b00a744288c2a7e87f015023616605e7b0cde955b38b340c011b0c33d0140944"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.028832731276812594,
+        "leave_one_speaker_out_mean_minimum": -0.04647442636479524,
+        "maximum": -0.014645001330439333,
+        "mean": -0.04010854135792406,
+        "median": -0.026910921613389455,
+        "minimum": -0.08521178168236992,
+        "n": 5,
+        "speaker_values_sha256": "3a32a69e23ea99ba0c6305ba28a3b1e294ac24cbb1f6bd7fcaf347b5f1efba52"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.006312673040946411,
+        "leave_one_speaker_out_mean_minimum": 0.00023693607018373392,
+        "maximum": 0.02157032509973683,
+        "mean": 0.004503613876094353,
+        "median": -0.0003930407893822374,
+        "minimum": -0.002732622783313876,
+        "n": 5,
+        "speaker_values_sha256": "e02100409dfe1b60257a9609e8aab3182900ff3535ff6904965e14f674f0c1b3"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0030716430789851437,
+        "leave_one_speaker_out_mean_minimum": -0.00496997361928516,
+        "maximum": 0.0157209188769451,
+        "mean": -0.0008317951200391083,
+        "median": -0.0054226918798664925,
+        "minimum": -0.016445547916136116,
+        "n": 5,
+        "speaker_values_sha256": "bf885563100e959b51d6fb2c93ab244f5dbb515f82dd84be30e8402db7ce289c"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.01350632480817561,
+        "leave_one_speaker_out_mean_minimum": 0.007260047034995477,
+        "maximum": 0.02481924360400445,
+        "mean": 0.010771886348797272,
+        "median": 0.006885463406742731,
+        "minimum": -0.0001658674887160816,
+        "n": 5,
+        "speaker_values_sha256": "93f0516731c6d04b42b954f3fcf13e07bacdc8b63e2ada26fe2f1d3b0c481d92"
+      }
+    },
+    "latency_seconds": {
+      "F": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 2.140721532145627,
+        "leave_one_speaker_out_mean_minimum": 1.721093492860486,
+        "maximum": 3.540792749998218,
+        "mean": 1.9485559000027024,
+        "median": 1.7243719000034616,
+        "minimum": 0.6033964750022278,
+        "n": 8,
+        "speaker_values_sha256": "48f8940fc682fd48119f94794cab1457a9a9f80aa94819c7cdf55f73c2202e83"
+      },
+      "FH": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 0.13700960000226456,
+        "leave_one_speaker_out_mean_minimum": -0.4373734928558406,
+        "maximum": 2.0065836000067065,
+        "mean": -0.1318788562480222,
+        "median": -0.10064293750292563,
+        "minimum": -2.0140980500000296,
+        "n": 8,
+        "speaker_values_sha256": "4d65126b3bf81915ea2e52f9f05819c137e831ea063cbe19dadb9f3cfe3931cc"
+      },
+      "H": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 1.2050478285714885,
+        "leave_one_speaker_out_mean_minimum": 0.45595969285672516,
+        "maximum": 2.8373167000027024,
+        "mean": 0.7536293187499723,
+        "median": 0.8581641624987242,
+        "minimum": -2.4063002500006405,
+        "n": 8,
+        "speaker_values_sha256": "56fd3d2e222fbd86db7241b9ee1c85d698336be2cf9225391e1f06df29c2467b"
+      },
+      "S": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": -0.07235360000049695,
+        "leave_one_speaker_out_mean_minimum": -0.6326680928577844,
+        "maximum": 2.0791111500002444,
+        "mean": -0.29369568750053077,
+        "median": -0.3492658124996524,
+        "minimum": -1.8430903000007675,
+        "n": 8,
+        "speaker_values_sha256": "886fc00c9e684a450912ef09d9a2776e2fec5ef35cd86fa03ebb558408a25d31"
+      },
+      "SF": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": -0.031962321426232974,
+        "leave_one_speaker_out_mean_minimum": -0.3864314571406534,
+        "maximum": 1.4156876999986707,
+        "mean": -0.1611665624982379,
+        "median": -0.2387617499953194,
+        "minimum": -1.0655962500022724,
+        "n": 8,
+        "speaker_values_sha256": "4fa04635f6cc425264ff6235046c4c35531f31af4fb49d8caae3a18e9c57625a"
+      },
+      "SFH": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": -0.12217099285719867,
+        "leave_one_speaker_out_mean_minimum": -0.42848655357218896,
+        "maximum": 0.8229460250004195,
+        "mean": -0.2720574812506129,
+        "median": -0.10475973749998957,
+        "minimum": -1.3212629000045126,
+        "n": 8,
+        "speaker_values_sha256": "8500632e503a18b038a8652a9c09a3a4f8d3b91482a5a832a09a717c0c6c0cb8"
+      },
+      "SH": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 0.6251214714299879,
+        "leave_one_speaker_out_mean_minimum": -0.08388540714076953,
+        "maximum": 3.3003305999991426,
+        "mean": 0.3391415937517195,
+        "median": 0.2217787874978967,
+        "minimum": -1.6627175499961595,
+        "n": 8,
+        "speaker_values_sha256": "7fccc24e0097d1e7b6d594ce49866481d85f7334081f91cc4d8b982c9eb10496"
+      }
+    },
+    "output_length_characters": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 12.6875,
+        "leave_one_speaker_out_mean_minimum": 4.0,
+        "maximum": 21.25,
+        "mean": 7.45,
+        "median": 9.25,
+        "minimum": -13.5,
+        "n": 5,
+        "speaker_values_sha256": "b644f4518ab392bcbfdf7baf7e835688420012f9312a5c7710353dc9569f6a35"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -2.75,
+        "leave_one_speaker_out_mean_minimum": -10.5,
+        "maximum": 9.75,
+        "mean": -6.45,
+        "median": -3.5,
+        "minimum": -21.25,
+        "n": 5,
+        "speaker_values_sha256": "19945d277b5cd7d0e6bfd40eada71a7f63fd1257b0ac83a6f26f3d9efb9f0763"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 14.125,
+        "leave_one_speaker_out_mean_minimum": -0.75,
+        "maximum": 30.75,
+        "mean": 5.55,
+        "median": -1.25,
+        "minimum": -28.75,
+        "n": 5,
+        "speaker_values_sha256": "b3ec90de71745824cad46200ba5fda40e88d536fff1a15ab3873090a474e6994"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -32.125,
+        "leave_one_speaker_out_mean_minimum": -43.0625,
+        "maximum": -20.0,
+        "mean": -38.45,
+        "median": -39.0,
+        "minimum": -63.75,
+        "n": 5,
+        "speaker_values_sha256": "2b161f375e93295d76aad35043f5fac443ba5881358b5c1b99d69f33e7dcf8ff"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -5.25,
+        "leave_one_speaker_out_mean_minimum": -9.875,
+        "maximum": -2.75,
+        "mean": -8.45,
+        "median": -5.5,
+        "minimum": -21.25,
+        "n": 5,
+        "speaker_values_sha256": "5e14ce0dd584e6e2610cd5adbace29338e5d03165e4b450b288e5f50f0313ba5"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 6.625,
+        "leave_one_speaker_out_mean_minimum": -4.75,
+        "maximum": 21.25,
+        "mean": 0.45,
+        "median": -0.75,
+        "minimum": -24.25,
+        "n": 5,
+        "speaker_values_sha256": "05f2809a5f005e8c9e23dae3572587cddf899481813d2267533597a1fa20e7ed"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 11.375,
+        "leave_one_speaker_out_mean_minimum": -2.625,
+        "maximum": 28.75,
+        "mean": 3.65,
+        "median": 6.5,
+        "minimum": -27.25,
+        "n": 5,
+        "speaker_values_sha256": "e674d1c40e90c3e6147f051dc5301a5ce504e05ee697e13aea97be4f77dc5396"
+      }
+    },
+    "reference_character_trigram_f1": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.013083975658774847,
+        "leave_one_speaker_out_mean_minimum": -0.0006094280975582165,
+        "maximum": 0.04766250391422114,
+        "mean": 0.009044958304797655,
+        "median": 0.0021083667620981654,
+        "minimum": -0.0071111111111111115,
+        "n": 5,
+        "speaker_values_sha256": "d866e1cee94574d403311b921d61800c94fbfa33c7cba643b81a9ae338f2dbbd"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.0028901104621788746,
+        "leave_one_speaker_out_mean_minimum": -0.006197659975077993,
+        "maximum": 0.010727890547843354,
+        "mean": -0.0028125498704937232,
+        "median": 0.0025709977118849262,
+        "minimum": -0.025623191201184115,
+        "n": 5,
+        "speaker_values_sha256": "86191d92fa73bf62e367f2c8a9e361e54e9f197220c3e1fc45df40f964cb7370"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.0004869765091507941,
+        "leave_one_speaker_out_mean_minimum": -0.03401024816571948,
+        "maximum": 0.051555555555555556,
+        "mean": -0.016897087421464473,
+        "median": -0.008849557522123894,
+        "minimum": -0.08253753107071918,
+        "n": 5,
+        "speaker_values_sha256": "cfd629a31461ef785bc53cc2114c181aa46a386646a3b6d53df1c58f0bd9b0a3"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.06320096105294588,
+        "leave_one_speaker_out_mean_minimum": 0.03251585651125214,
+        "maximum": 0.11389086064465108,
+        "mean": 0.048790857337931925,
+        "median": 0.04923875658998054,
+        "minimum": -0.008849557522123894,
+        "n": 5,
+        "speaker_values_sha256": "d60ac84a7e016dd1f2b5c1344e344fcca83c2aa4a69c51198e39ad1466a87f26"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.003709365828769951,
+        "leave_one_speaker_out_mean_minimum": -0.0049469166614873415,
+        "maximum": 0.014566099062308614,
+        "mean": -0.0010443135167281508,
+        "median": 0.002009810663783973,
+        "minimum": -0.02005903089872056,
+        "n": 5,
+        "speaker_values_sha256": "af52873ea2e9391b14f3d7998bba96014d99db7e3822fdd890125aa0a1715d75"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.02200621043025251,
+        "leave_one_speaker_out_mean_minimum": 0.007487374230345318,
+        "maximum": 0.047222773588779035,
+        "mean": 0.01543445410203206,
+        "median": 0.008849557522123894,
+        "minimum": -0.010852571210849727,
+        "n": 5,
+        "speaker_values_sha256": "7f24b647d1d02edd4b2cca2cd5524ad593327ebe3dc4367a90d1933077cc195b"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.0032537181382733924,
+        "leave_one_speaker_out_mean_minimum": -0.02110821237031133,
+        "maximum": 0.018357785038719134,
+        "mean": -0.01321501288850524,
+        "median": 0.008849557522123894,
+        "minimum": -0.053060191889432624,
+        "n": 5,
+        "speaker_values_sha256": "626853ca62ee026e93d508d09d0a00d810ae898ac2900cf9245835a6440ce316"
+      }
+    },
+    "source_style_distance": {
+      "F": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.04197222222222222,
+        "leave_one_speaker_out_mean_minimum": 0.02397491039426524,
+        "maximum": 0.08249999999999999,
+        "mean": 0.03567992831541219,
+        "median": 0.03205555555555554,
+        "minimum": 0.010510752688172045,
+        "n": 5,
+        "speaker_values_sha256": "9613bebd52411632e2e115ae706948773e6031dea40412cb384afce5dc819b7a"
+      },
+      "FH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.004197132616487458,
+        "leave_one_speaker_out_mean_minimum": -0.025080645161290317,
+        "maximum": 0.03461111111111111,
+        "mean": -0.013142293906810033,
+        "median": -0.006944444444444461,
+        "minimum": -0.08249999999999999,
+        "n": 5,
+        "speaker_values_sha256": "2b4694b67c23d86691e1ed4c74168492c02b8fc400c0c532cbaa09ab3ba7b59a"
+      },
+      "H": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.057802867383512535,
+        "leave_one_speaker_out_mean_minimum": -0.009474910394265238,
+        "maximum": 0.16994444444444445,
+        "mean": 0.026408960573476702,
+        "median": -0.002177419354838714,
+        "minimum": -0.09916666666666665,
+        "n": 5,
+        "speaker_values_sha256": "b28dea7a41dcbd7b65ece4efaece2aed12265851e5df25ebfdb450964eb2d941"
+      },
+      "S": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.07486738351254481,
+        "leave_one_speaker_out_mean_minimum": -0.12925,
+        "maximum": -0.0034139784946236457,
+        "mean": -0.10408279569892473,
+        "median": -0.09916666666666665,
+        "minimum": -0.22094444444444447,
+        "n": 5,
+        "speaker_values_sha256": "0a5b7c151a0308aeb9d3fd957de750d5f50a1539864e5f0340f4331992ac8910"
+      },
+      "SF": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": -0.02030824372759857,
+        "leave_one_speaker_out_mean_minimum": -0.04641935483870968,
+        "maximum": 0.02194444444444445,
+        "mean": -0.03274659498207885,
+        "median": -0.022388888888888868,
+        "minimum": -0.08249999999999999,
+        "n": 5,
+        "speaker_values_sha256": "ab643fe8e5ddd745757e696ec9ac2c855d3b833831ebe8e9f57f5f2f97f05b34"
+      },
+      "SFH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.03938620071684587,
+        "leave_one_speaker_out_mean_minimum": -0.00036379928315412053,
+        "maximum": 0.08249999999999999,
+        "mean": 0.0162089605734767,
+        "median": 0.018055555555555557,
+        "minimum": -0.07649999999999998,
+        "n": 5,
+        "speaker_values_sha256": "9594c54f1908085e50a416bdb815e32f28c2859b61a7eeb9fee0b72ab291e7f4"
+      },
+      "SH": {
+        "complete_speakers": 5,
+        "incomplete_speakers": 3,
+        "leave_one_speaker_out_mean_maximum": 0.027752688172043006,
+        "leave_one_speaker_out_mean_minimum": -0.019302867383512546,
+        "maximum": 0.09916666666666665,
+        "mean": 0.004391039426523294,
+        "median": 0.005510752688172041,
+        "minimum": -0.08905555555555555,
+        "n": 5,
+        "speaker_values_sha256": "668e01d15ad6bfda71a3e8686076d345fed2c27d0bf21b83039321bfa7f2d6d0"
+      }
+    },
+    "structural_response_validity": {
+      "F": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": -0.03571428571428571,
+        "leave_one_speaker_out_mean_minimum": -0.07142857142857142,
+        "maximum": 0.0,
+        "mean": -0.0625,
+        "median": 0.0,
+        "minimum": -0.25,
+        "n": 8,
+        "speaker_values_sha256": "b1198d68271e5d0aebc9c6e55ee3e372601843f4a516a75fcbe30f12ebe3fddb"
+      },
+      "FH": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 0.03571428571428571,
+        "leave_one_speaker_out_mean_minimum": -0.03571428571428571,
+        "maximum": 0.25,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": -0.25,
+        "n": 8,
+        "speaker_values_sha256": "a8f89902975bcab4c3b99626ecbb938bcd05c6d141a9a6f232675a20c2397911"
+      },
+      "H": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 0.10714285714285714,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.5,
+        "mean": 0.0625,
+        "median": 0.0,
+        "minimum": -0.25,
+        "n": 8,
+        "speaker_values_sha256": "7e1d6a2e0d68b6baea24c2a439d5f71dbd3935675bfdc5e285c07a1fb58db0ad"
+      },
+      "S": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 0.10714285714285714,
+        "leave_one_speaker_out_mean_minimum": 0.0,
+        "maximum": 0.5,
+        "mean": 0.0625,
+        "median": 0.0,
+        "minimum": -0.25,
+        "n": 8,
+        "speaker_values_sha256": "45a1327a77c65d1b9dcb4aff145137ce43941fe083aaf3d5a453520b367cea3e"
+      },
+      "SF": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 0.03571428571428571,
+        "leave_one_speaker_out_mean_minimum": -0.03571428571428571,
+        "maximum": 0.25,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": -0.25,
+        "n": 8,
+        "speaker_values_sha256": "6bbb708d211293f690f94957e2b68b09cecccadd39df42e42e5236d9f66a2ec8"
+      },
+      "SFH": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 0.07142857142857142,
+        "leave_one_speaker_out_mean_minimum": 0.03571428571428571,
+        "maximum": 0.25,
+        "mean": 0.0625,
+        "median": 0.0,
+        "minimum": 0.0,
+        "n": 8,
+        "speaker_values_sha256": "2dc48db5df42e2a167e0a11db640dca44f3030f2d4ee91b7753e683ace5e18eb"
+      },
+      "SH": {
+        "complete_speakers": 8,
+        "incomplete_speakers": 0,
+        "leave_one_speaker_out_mean_maximum": 0.07142857142857142,
+        "leave_one_speaker_out_mean_minimum": -0.03571428571428571,
+        "maximum": 0.25,
+        "mean": 0.0,
+        "median": 0.0,
+        "minimum": -0.5,
+        "n": 8,
+        "speaker_values_sha256": "9671bbb9f584efb6efea92842b314bb3a6cc24275f852c2527e7d7e01b3d5346"
+      }
+    }
+  },
+  "status": "COMPLETE",
+  "uncertainty": "Speaker-level range and leave-one-speaker-out mean range are descriptive influence summaries, not confidence intervals; no confirmatory p-values."
+}

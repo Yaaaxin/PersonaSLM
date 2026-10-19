@@ -1,0 +1,42 @@
+{
+  "schema_version": "personaslm_candidate2_pilot_materialization_regression_v1",
+  "recorded_utc": "2026-10-18T13:37:47.0613377+00:00",
+  "status": "PASS",
+  "predecessor": {
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/measurement_readiness_regression_v1.json",
+    "sha256": "60c762f525a9f93e1610e26698864a0776ccdaa52fbb2400439ee26a03a0bc9c",
+    "preservation": "UNCHANGED"
+  },
+  "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_p1_model_feasibility_recovery.py tests/test_p1_evaluator_validity.py tests/test_reproduce_p1_feasibility_analysis.py tests/test_literature_monitor.py tests/test_literature_monitor_arxiv_doi_dedup.py tests/test_literature_review_addendum.py tests/test_windows_literature_scheduler.py tests/test_post_restart_literature_review.py tests/test_p1_independent_validation_precision.py tests/test_p1_semantic_review_package.py tests/test_p1_semantic_review_integration.py tests/test_p1_independent_validation_missingness.py tests/test_p1_candidate2_pilot_materialization.py",
+  "result": {
+    "passed": 81,
+    "failed": 0,
+    "skipped": 0,
+    "wall_seconds_reported_by_pytest": 22.16,
+    "warning_count": 1,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "candidate2_pilot_materialization": {
+    "status": "PASS_MATERIALIZED_NO_INFERENCE_NOT_EXECUTION_AUTHORIZATION",
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/materialized_candidate2_disjoint_pilot_v1.json",
+    "sha256": "44f6f1991c03c8fae23e743099cafe5b8ceb1fd95f50b942878679e90f3b47cf",
+    "tool_path": "tools/p1_candidate2_pilot_materialization.py",
+    "tool_sha256": "aacfeeb6bb0e6a3ee0df2a1391cde0c5ca460892766e03435ec9382ddd7b7827",
+    "test_path": "tests/test_p1_candidate2_pilot_materialization.py",
+    "test_sha256": "72e9c74cb3adcc52fb2ba50c211159e3673f370449961e7458ebfe14635e8bee",
+    "requests": 80,
+    "c0_gate_requests": 8,
+    "conditional_continuation_requests": 72,
+    "offline_native_tokenizer_calls": 80,
+    "scientific_model_generations": 0,
+    "candidate2_attempts_after_materialization": 0,
+    "controller_implemented": false
+  },
+  "execution_impact": {
+    "autonomous_generations_used": 8,
+    "candidate2_generations": 0,
+    "new_inference_seconds": 0.0,
+    "historical_ledger_modified": false,
+    "git_stage_commit_or_push": false
+  }
+}

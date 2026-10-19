@@ -1,0 +1,35 @@
+{
+  "schema_version": "personaslm_rpc_style_signal_interpretation_correction_v1",
+  "status": "POST_ANALYSIS_AUDIT_CORRECTION",
+  "registration_sha256": "6cf206f3ffbf72a1ac080276c7ee136c49a9e303001b8018ca55e506d2d3ed7d",
+  "analysis_sha256": "7e3c5a68a67e60c13e506ffd375c364c5be2eb75a80ef919eb0d515a91a14d3d",
+  "controller_sha256": "93141f7b58b535b0f0e2f8b72b783ed5830dddd100a5abb3fee369914265bc98",
+  "imported_intake_controller_sha256": "c95d38b6202a404896a65e0ca83a1dd18eb40c5e4da152621c505b0d29cd2831",
+  "runtime": {
+    "python": "3.14.3",
+    "unicodedata_version": "16.0.0",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "corrections": [
+    {
+      "original_wording": "nonlexical style signal",
+      "corrected_wording": "mixed surface/stylometric signal",
+      "reason": "The frozen vector includes explicit lexical or morphological markers for laughter and Japanese polite endings in addition to length, script and punctuation features. No feature ablation was registered."
+    },
+    {
+      "original_wording": "cross-time or chronological stability",
+      "corrected_wording": "stability across deterministic recorded-timestamp-key ordered profiles, pending aggregate timestamp audit",
+      "reason": "The selector uses lexicographically ordered nonempty timestamp strings and places NaT-only dialogues last. Intake contains 352 NaT turns; selection-specific timestamp validity was not emitted by the original analysis."
+    }
+  ],
+  "additional_limitations": [
+    "Feature standardization used every selected development source and target profile. Future test, validation or model-output comparisons must reuse scales frozen from development rather than refit them.",
+    "Disjoint selected partner sets do not guarantee that a control speaker was never a focal speaker's partner elsewhere in the interaction network.",
+    "The leave-one-speaker-out diagnostic refits scales and may change the resolved cohort; it is influence analysis only, not sampling uncertainty.",
+    "The loader programmatically parses every public dialogue before retaining development rows. Reserve content was not used in outcomes or shown to the researcher, but it was not physically isolated at file-access level.",
+    "The source Git HEAD does not capture uncommitted files. Exact file hashes, dataset hashes and this runtime record are required alongside it."
+  ],
+  "result_retained": "The numerical result remains a development measurement diagnostic. It does not establish validated Persona Fidelity, a model effect, longitudinal causality, population generalization or independent validation.",
+  "participant_text_emitted": false,
+  "speaker_ids_emitted": false
+}

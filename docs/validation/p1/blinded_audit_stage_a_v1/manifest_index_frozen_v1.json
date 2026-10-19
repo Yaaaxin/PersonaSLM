@@ -1,0 +1,49 @@
+{
+  "manifests": {
+    "D0": {
+      "executed": 0,
+      "path": "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D0_v2.json",
+      "requests": 80,
+      "sha256": "157afc1ca2243c58527f41c90cf120cdd215e51c6a17a01a65bf3bf7bd55568a"
+    },
+    "D1": {
+      "executed": 0,
+      "path": "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D1_v2.json",
+      "requests": 80,
+      "sha256": "1cba4398e7e63dc2e077648b2a038a767ffb10e5a0444435b07921723d89a920"
+    },
+    "D2": {
+      "executed": 0,
+      "path": "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D2_v2.json",
+      "requests": 80,
+      "sha256": "6936bd214e8691786366ecbc80cfb1ae56231f2a1645016dc2e691164e8b6016"
+    },
+    "D3": {
+      "executed": 0,
+      "path": "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D3_v2.json",
+      "requests": 80,
+      "sha256": "d0b3e4f45e4abe729899f981f85044140c6cef23e320f25aa0e9e29997ba60c9"
+    },
+    "fallback_calibration": {
+      "executed": 0,
+      "path": "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+      "requests": 8,
+      "sha256": "b23b9a35bba1ff9313e71f75759e8107b3d23b54f765c5fe736094263ff17cde"
+    },
+    "minimal_temporal": {
+      "executed": 0,
+      "path": "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_minimal_temporal_SFH_pilot_v2.json",
+      "requests": 80,
+      "sha256": "6bc6421823371b9cad6140aad1046a3f9aebc2d4594e277b3601a3f4b6fc849e"
+    }
+  },
+  "maximum_mutually_exclusive_branch_A": 80,
+  "maximum_mutually_exclusive_branch_B": 88,
+  "maximum_new_actual_generations": 88,
+  "new_generations": 0,
+  "source_code": {
+    "tools/p1_blinded_audit.py": "3ee456f6443aa53edfb6554a2e0729780be3b0b86a2f9a28a008ea7406429b8b",
+    "tools/p1_conditional_materials.py": "11c8faf9b42f83583f6a09ea1f413c41e0cb3b1c870e09709873c88a05c07865"
+  },
+  "total_candidate_requests": 408
+}

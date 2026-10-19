@@ -1,0 +1,368 @@
+[
+  {
+    "case_id": "p1d_dev_00_0",
+    "complete_response_verified": false,
+    "generated_answer_changed": false,
+    "human_confirmation": "",
+    "not_covered": "Evidence absence/calendar-range and volunteer-role denials are outside this ledger-attribute checker; Tessa requested hub/exit absent.",
+    "provenance": "AI_MANUALLY_TRANSCRIBED_CLAIMS_NOT_AUTOMATIC_EXTRACTION_OR_HUMAN_GOLD",
+    "structured_subset_diagnostic": {
+      "abstention": false,
+      "all_claims_supported": false,
+      "claims": [
+        {
+          "claim": {
+            "at": "2048-05-15",
+            "attribute": "locker",
+            "component": "locker",
+            "entity": "Mira Fenwick",
+            "speech_act": "ANSWER",
+            "uncertainty": "KNOWN",
+            "value": "Locker 106"
+          },
+          "conflict_ids": [
+            "D00F04"
+          ],
+          "state": "CONTRADICTED",
+          "support_ids": []
+        }
+      ],
+      "components": {
+        "locker": {
+          "present": true,
+          "supported": false
+        }
+      },
+      "delivered": true,
+      "scalar_reliability_score": null,
+      "supported_task": false
+    }
+  },
+  {
+    "case_id": "p1d_dev_01_0",
+    "complete_response_verified": false,
+    "generated_answer_changed": false,
+    "human_confirmation": "",
+    "not_covered": "Evidence absence/calendar-range and volunteer-role denials are outside this ledger-attribute checker; Tessa requested hub/exit absent.",
+    "provenance": "AI_MANUALLY_TRANSCRIBED_CLAIMS_NOT_AUTOMATIC_EXTRACTION_OR_HUMAN_GOLD",
+    "structured_subset_diagnostic": {
+      "abstention": false,
+      "all_claims_supported": false,
+      "claims": [
+        {
+          "claim": {
+            "at": "2048-05-15",
+            "attribute": "locker",
+            "component": "locker",
+            "entity": "Owen Bellamy",
+            "speech_act": "ANSWER",
+            "uncertainty": "KNOWN",
+            "value": "Locker 106"
+          },
+          "conflict_ids": [
+            "D01F04"
+          ],
+          "state": "CONTRADICTED",
+          "support_ids": []
+        },
+        {
+          "claim": {
+            "at": "2048-05-15",
+            "attribute": "pickup_window",
+            "component": "pickup_window",
+            "entity": "Owen Bellamy",
+            "speech_act": "ANSWER",
+            "uncertainty": "KNOWN",
+            "value": "09:00-10:00"
+          },
+          "conflict_ids": [
+            "D01F05"
+          ],
+          "state": "CONTRADICTED",
+          "support_ids": []
+        }
+      ],
+      "components": {
+        "locker": {
+          "present": true,
+          "supported": false
+        },
+        "pickup_window": {
+          "present": true,
+          "supported": false
+        }
+      },
+      "delivered": true,
+      "scalar_reliability_score": null,
+      "supported_task": false
+    }
+  },
+  {
+    "case_id": "p1d_dev_02_0",
+    "complete_response_verified": false,
+    "generated_answer_changed": false,
+    "human_confirmation": "",
+    "not_covered": "Evidence absence/calendar-range and volunteer-role denials are outside this ledger-attribute checker; Tessa requested hub/exit absent.",
+    "provenance": "AI_MANUALLY_TRANSCRIBED_CLAIMS_NOT_AUTOMATIC_EXTRACTION_OR_HUMAN_GOLD",
+    "structured_subset_diagnostic": {
+      "abstention": false,
+      "all_claims_supported": false,
+      "claims": [
+        {
+          "claim": {
+            "at": "2048-05-15",
+            "attribute": "locker",
+            "component": "locker",
+            "entity": "Tessa Northwick",
+            "speech_act": "ANSWER",
+            "uncertainty": "KNOWN",
+            "value": "Locker 107"
+          },
+          "conflict_ids": [
+            "D02F04"
+          ],
+          "state": "CONTRADICTED",
+          "support_ids": []
+        },
+        {
+          "claim": {
+            "at": "2048-05-15",
+            "attribute": "pickup_window",
+            "component": "pickup_window",
+            "entity": "Tessa Northwick",
+            "speech_act": "ANSWER",
+            "uncertainty": "KNOWN",
+            "value": "12:00-13:00"
+          },
+          "conflict_ids": [
+            "D02F05"
+          ],
+          "state": "CONTRADICTED",
+          "support_ids": []
+        }
+      ],
+      "components": {
+        "exit": {
+          "present": false,
+          "supported": false
+        },
+        "hub": {
+          "present": false,
+          "supported": false
+        }
+      },
+      "delivered": false,
+      "scalar_reliability_score": null,
+      "supported_task": false
+    }
+  },
+  {
+    "case_id": "p1d_dev_03_0",
+    "complete_response_verified": false,
+    "generated_answer_changed": false,
+    "human_confirmation": "",
+    "not_covered": "Evidence absence/calendar-range and volunteer-role denials are outside this ledger-attribute checker; Tessa requested hub/exit absent.",
+    "provenance": "AI_MANUALLY_TRANSCRIBED_CLAIMS_NOT_AUTOMATIC_EXTRACTION_OR_HUMAN_GOLD",
+    "structured_subset_diagnostic": {
+      "abstention": false,
+      "all_claims_supported": true,
+      "claims": [
+        {
+          "claim": {
+            "at": "2048-05-15",
+            "attribute": "locker",
+            "component": "locker",
+            "entity": "Quinn Fairchild",
+            "speech_act": "ANSWER",
+            "uncertainty": "KNOWN",
+            "value": "Locker 102"
+          },
+          "conflict_ids": [],
+          "state": "SUPPORTED",
+          "support_ids": [
+            "D03F20"
+          ]
+        },
+        {
+          "claim": {
+            "at": "2048-05-15",
+            "attribute": "pickup_window",
+            "component": "pickup_window",
+            "entity": "Quinn Fairchild",
+            "speech_act": "ANSWER",
+            "uncertainty": "KNOWN",
+            "value": "10:00-11:00"
+          },
+          "conflict_ids": [],
+          "state": "SUPPORTED",
+          "support_ids": [
+            "D03F21"
+          ]
+        }
+      ],
+      "components": {
+        "locker": {
+          "present": true,
+          "supported": true
+        },
+        "pickup_window": {
+          "present": true,
+          "supported": true
+        }
+      },
+      "delivered": true,
+      "scalar_reliability_score": null,
+      "supported_task": true
+    }
+  },
+  {
+    "case_id": "p1d_dev_04_1",
+    "complete_response_verified": false,
+    "generated_answer_changed": false,
+    "human_confirmation": "",
+    "not_covered": "Evidence absence/calendar-range and volunteer-role denials are outside this ledger-attribute checker; Tessa requested hub/exit absent.",
+    "provenance": "AI_MANUALLY_TRANSCRIBED_CLAIMS_NOT_AUTOMATIC_EXTRACTION_OR_HUMAN_GOLD",
+    "structured_subset_diagnostic": {
+      "abstention": false,
+      "all_claims_supported": false,
+      "claims": [
+        {
+          "claim": {
+            "at": "2048-11-15",
+            "attribute": "locker",
+            "component": "locker",
+            "entity": "Vera Ashcombe",
+            "speech_act": "ANSWER",
+            "uncertainty": "KNOWN",
+            "value": "Locker 111"
+          },
+          "conflict_ids": [
+            "D04F12"
+          ],
+          "state": "CONTRADICTED",
+          "support_ids": []
+        },
+        {
+          "claim": {
+            "at": "2048-11-15",
+            "attribute": "pickup_window",
+            "component": "pickup_window",
+            "entity": "Vera Ashcombe",
+            "speech_act": "ANSWER",
+            "uncertainty": "KNOWN",
+            "value": "09:00-10:00"
+          },
+          "conflict_ids": [
+            "D04F13"
+          ],
+          "state": "CONTRADICTED",
+          "support_ids": []
+        }
+      ],
+      "components": {
+        "locker": {
+          "present": true,
+          "supported": false
+        },
+        "pickup_window": {
+          "present": true,
+          "supported": false
+        }
+      },
+      "delivered": true,
+      "scalar_reliability_score": null,
+      "supported_task": false
+    }
+  },
+  {
+    "case_id": "p1d_dev_05_1",
+    "complete_response_verified": false,
+    "generated_answer_changed": false,
+    "human_confirmation": "",
+    "not_covered": "Evidence absence/calendar-range and volunteer-role denials are outside this ledger-attribute checker; Tessa requested hub/exit absent.",
+    "provenance": "AI_MANUALLY_TRANSCRIBED_CLAIMS_NOT_AUTOMATIC_EXTRACTION_OR_HUMAN_GOLD",
+    "structured_subset_diagnostic": {
+      "abstention": true,
+      "all_claims_supported": false,
+      "claims": [],
+      "components": {
+        "exit": {
+          "present": false,
+          "supported": false
+        },
+        "hub": {
+          "present": false,
+          "supported": false
+        }
+      },
+      "delivered": false,
+      "scalar_reliability_score": null,
+      "supported_task": false
+    }
+  },
+  {
+    "case_id": "p1d_dev_06_1",
+    "complete_response_verified": false,
+    "generated_answer_changed": false,
+    "human_confirmation": "",
+    "not_covered": "Evidence absence/calendar-range and volunteer-role denials are outside this ledger-attribute checker; Tessa requested hub/exit absent.",
+    "provenance": "AI_MANUALLY_TRANSCRIBED_CLAIMS_NOT_AUTOMATIC_EXTRACTION_OR_HUMAN_GOLD",
+    "structured_subset_diagnostic": {
+      "abstention": true,
+      "all_claims_supported": false,
+      "claims": [],
+      "components": {
+        "locker": {
+          "present": false,
+          "supported": false
+        },
+        "pickup_window": {
+          "present": false,
+          "supported": false
+        }
+      },
+      "delivered": false,
+      "scalar_reliability_score": null,
+      "supported_task": false
+    }
+  },
+  {
+    "case_id": "p1d_dev_07_1",
+    "complete_response_verified": false,
+    "generated_answer_changed": false,
+    "human_confirmation": "",
+    "not_covered": "Evidence absence/calendar-range and volunteer-role denials are outside this ledger-attribute checker; Tessa requested hub/exit absent.",
+    "provenance": "AI_MANUALLY_TRANSCRIBED_CLAIMS_NOT_AUTOMATIC_EXTRACTION_OR_HUMAN_GOLD",
+    "structured_subset_diagnostic": {
+      "abstention": false,
+      "all_claims_supported": true,
+      "claims": [
+        {
+          "claim": {
+            "at": "2048-11-15",
+            "attribute": "locker",
+            "component": "locker",
+            "entity": "Ellis Fairmont",
+            "speech_act": "ANSWER",
+            "uncertainty": "KNOWN",
+            "value": "Locker 112"
+          },
+          "conflict_ids": [],
+          "state": "SUPPORTED",
+          "support_ids": [
+            "D07F12"
+          ]
+        }
+      ],
+      "components": {
+        "locker": {
+          "present": true,
+          "supported": true
+        }
+      },
+      "delivered": true,
+      "scalar_reliability_score": null,
+      "supported_task": true
+    }
+  }
+]

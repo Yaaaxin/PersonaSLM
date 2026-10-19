@@ -1,0 +1,88 @@
+{
+  "schema_version": "personaslm_placeholder_mechanism_pre_registration_resource_observation_v4",
+  "status": "NONOFFICIAL_PRE_REGISTRATION_RESOURCE_OBSERVATION_NO_GO",
+  "scientific_status": "BLOCKED_RESOURCE_BEFORE_TOKENIZATION",
+  "observed_utc": "2026-10-18T23:28:25.291066+00:00",
+  "observation_method": {
+    "api": "GlobalMemoryStatusEx via personaslm.observations.memory_observation",
+    "source_path": "src/personaslm/observations.py",
+    "source_sha256": "c276fe85b329e3d099e66c67f2c7afdd0b6f77d39ec9f134da43140ff4ddab4b",
+    "api_observed_utc": "2026-10-18T23:28:25.291080+00:00",
+    "platform": "nt"
+  },
+  "memory": {
+    "total_physical_bytes": 14846197760,
+    "available_physical_bytes": 3456548864,
+    "required_available_physical_bytes": 4294967296,
+    "available_ram_deficit_bytes": 838418432,
+    "load_percent": 76,
+    "gate_passed": false
+  },
+  "decision": {
+    "register_invoked": false,
+    "native_tokenizer_calls": 0,
+    "live_server_tokenizer_checks": 0,
+    "model_server_launches": 0,
+    "completion_calls": 0,
+    "generation_attempts": 0,
+    "completed_generations": 0,
+    "experiment_allocation_consumed": false,
+    "official_preflight": false,
+    "retry_permitted_without_material_memory_change": false,
+    "unrelated_applications_terminated": false,
+    "safety_threshold_lowered": false,
+    "required_action": "Do not invoke register on the unchanged memory state. Re-observe only after a material available-memory change; register retains the authoritative 4-GiB live gate before native tokenization."
+  },
+  "scientific_bindings": {
+    "prospective_design": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_design_v4.json",
+      "sha256": "86429901ba24e5d8ef0a659cc3c1a0d340b58bfd6cd072f1d1c4df2feebd3723"
+    },
+    "case_bank": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/case_bank_v4.json",
+      "sha256": "a74b20b7b5039fce1035b5162f6a9441cf632c55235e44974837024b84ccc8b8"
+    },
+    "prospective_amendment": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_design_amendment_v4_1.json",
+      "sha256": "35a7b8e75bb1265c8d4c14da123f0f76bc081a6c38170d326a2d678c18806675"
+    },
+    "measurement_clarification": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_measurement_clarification_v4_2.json",
+      "sha256": "0c1cf6c1200dd9b459730a36de2f5fe09c88b6bebca34346dc6841a03047878d"
+    },
+    "material_ancestry_audit": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/material_ancestry_audit_v4.json",
+      "sha256": "d1b2b7da46d3c4c1a482d48bea1fb1ce450ff26765a2bc9ffbb61761387b7f81"
+    },
+    "material_scientific_review": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/material_scientific_review_v4.json",
+      "sha256": "90eb76d15b0651b158d347f08ab93481e8c6028ac58df94fd8947f371c766758"
+    },
+    "prospective_registration": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_registration_v4.json",
+      "sha256": "d51fbadad67578640465a3f2f53fb0732e24b0bcf4c183d630c5a5dc0f3af971"
+    },
+    "execution_authorization": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/execution_authorization_v4.json",
+      "sha256": "1daea850c8e8f5f292bb85259823544d1fb95677d2714237989ad831caa5177f"
+    },
+    "controller": {
+      "path": "tools/p1_persona_dialogue_history_instruction_mechanism_v4.py",
+      "sha256": "1d38766d06fa73735051e8f02d35ca5372fac074010af3f788dceedb36176f67"
+    }
+  },
+  "identity_observations": {
+    "model_file_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "native_tokenizer_sha256": "e05dbdef761e577b3d56f3daea7b205a07f68e5d87242ea4e2544382ffdd358e",
+    "chat_template_sha256": "0286b273dc0e7dbcc080469bf5b8e57b329c135db0de8a45cb16f80a8b0c4ce6",
+    "identity_status": "EXACT_FILE_HASHES_MATCH_REGISTERED_VALUES",
+    "tokenizer_dll_set_status": "NOT_REHASHED_BY_THIS_NONOFFICIAL_OBSERVATION_REGISTER_WILL_VERIFY"
+  },
+  "claim_boundary": [
+    "This is historical nonauthoritative resource evidence, not the official post-registration preflight.",
+    "No prompt was tokenized, no model process was launched, and no generation allocation was consumed.",
+    "The live controller gate remains authoritative and must not be bypassed or lowered.",
+    "The scientific package is prospectively registered and authorized but not executed."
+  ]
+}

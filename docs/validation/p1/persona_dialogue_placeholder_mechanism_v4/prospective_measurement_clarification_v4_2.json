@@ -1,0 +1,40 @@
+{
+  "schema_version": "personaslm_placeholder_mechanism_measurement_clarification_v4_2",
+  "status": "NOT_AUTHORIZED_NOT_TOKENIZED_NOT_EXECUTED",
+  "effective_date": "2026-10-19",
+  "researcher": "Yaxin ZHENG",
+  "bindings": {
+    "parent_design": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_design_v4.json",
+      "sha256": "86429901ba24e5d8ef0a659cc3c1a0d340b58bfd6cd072f1d1c4df2feebd3723"
+    },
+    "prospective_amendment": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_design_amendment_v4_1.json",
+      "sha256": "35a7b8e75bb1265c8d4c14da123f0f76bc081a6c38170d326a2d678c18806675"
+    },
+    "case_bank": {
+      "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/case_bank_v4.json",
+      "sha256": "a74b20b7b5039fce1035b5162f6a9441cf632c55235e44974837024b84ccc8b8"
+    }
+  },
+  "trigger": {
+    "kind": "PREOUTPUT_CONTROLLER_REVIEW",
+    "finding": "The provisional key name_anchor_discordance could be misread as disagreement between selected entity identities, while the implementation compares two preferred-option correctness indicators.",
+    "evidence_state": "No v4 prompt was tokenized, no server was launched, no model output or human label existed, and no protected condition mapping was accessed."
+  },
+  "effective_endpoint": {
+    "replaces_provisional_key": "name_anchor_discordance",
+    "name": "preferred_name_anchor_indicator_discordance",
+    "applicable": "ALL_ASSESSABLE_ARMS",
+    "definition": "Absolute disagreement between preferred_current_name_selection and preferred_current_anchor_selection; equivalently 1 when exactly one of those two binary correctness indicators equals 1, otherwise 0.",
+    "range": [0, 1],
+    "not_measured": [
+      "Whether independently parsed canonical-name and opaque-anchor channels select two different nonpreferred/current entities.",
+      "Semantic answer selection.",
+      "Persona Fidelity."
+    ],
+    "separate_identity_diagnostic": "label_anchor_name_consistency remains the categorical CONSISTENT/CONFLICT/MULTIPLE/NONE identity diagnostic."
+  },
+  "scope": "Only the effective endpoint key and its exact construct are clarified. No cases, prompts, arms, order, coefficients, thresholds, stopping rules, resource limits, or outcomes changed.",
+  "execution_gate": "The controller, tests, future authorization, frozen manifest, audit, and analysis must bind this clarification by SHA-256."
+}

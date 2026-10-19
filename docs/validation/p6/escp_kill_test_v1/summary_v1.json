@@ -1,0 +1,115 @@
+{
+  "actual_model_answer_gain": null,
+  "admission": {
+    "channel_retention_is_not_generated_fidelity": true,
+    "escp": {
+      "answer_supporting_history": [
+        "valid_history"
+      ],
+      "behavior": [
+        "answer before explanation"
+      ],
+      "dated_non_authoritative_archive": [
+        "expired",
+        "unrelated"
+      ],
+      "personal_facts_pending_scope_check": [
+        "likes painting"
+      ],
+      "quarantined_history": [
+        "forged_priority",
+        "uncertain"
+      ],
+      "style": [
+        "calm complete sentences"
+      ],
+      "trusted_evidence_ids": [
+        "E1"
+      ]
+    },
+    "history_removal_retaining_persona": {
+      "behavior": [
+        "answer before explanation"
+      ],
+      "history": [],
+      "style": [
+        "calm complete sentences"
+      ]
+    },
+    "identical_channels": true,
+    "measured_fidelity_cost": null,
+    "no_persona_baseline": {
+      "behavior": [],
+      "history": [],
+      "style": []
+    },
+    "simple_rules": {
+      "answer_supporting_history": [
+        "valid_history"
+      ],
+      "behavior": [
+        "answer before explanation"
+      ],
+      "dated_non_authoritative_archive": [
+        "expired",
+        "unrelated"
+      ],
+      "personal_facts_pending_scope_check": [
+        "likes painting"
+      ],
+      "quarantined_history": [
+        "forged_priority",
+        "uncertain"
+      ],
+      "style": [
+        "calm complete sentences"
+      ],
+      "trusted_evidence_ids": [
+        "E1"
+      ]
+    }
+  },
+  "authored_specifications_met": 16,
+  "cpu_cost": {
+    "equal_output_simple_rules": {
+      "median": 5273.4375,
+      "process_cpu_ns_per_case": [
+        4882.8125,
+        5468.75,
+        5273.4375
+      ]
+    },
+    "escp": {
+      "median": 8398.4375,
+      "process_cpu_ns_per_case": [
+        8398.4375,
+        9179.6875,
+        8398.4375
+      ]
+    }
+  },
+  "fixtures": 16,
+  "human_labels": 0,
+  "inference_requests": 0,
+  "limitations": [
+    "Authored typed inputs; no learned extraction",
+    "No generated Persona Fidelity",
+    "Not independent validation",
+    "No reproduction of Zep/Mem0/FC-PS/FPPS/CoVe/RARR",
+    "Microbenchmark excludes parsing, generation and I/O"
+  ],
+  "negative_finding": "Simple rules produce identical support, conflict, component and admission diagnostics; no incremental benefit.",
+  "new_algorithm_claim": "REJECTED_ON_CURRENT_EVIDENCE",
+  "phase": "P6",
+  "python": "3.14.3",
+  "rq": [
+    "RQ2",
+    "RQ4"
+  ],
+  "same_diagnostic_outputs": 16,
+  "source_hashes": {
+    "E:/DEVOIRS/Research/PersonaSLM-Lab/PersonaSLM-Lab-P0-v1.1/PersonaSLM-Lab/tools/escp_kill_test.py": "b7b937b8e25108aec5755c0d51ada7acc03c557035b7c59fbab530c6c1526b6a",
+    "tools/escp_offline.py": "cf784d4705222639508bc231790d15d0951353925640378b0b383aba66405537"
+  },
+  "version": "escp_kill_test_v1"
+}

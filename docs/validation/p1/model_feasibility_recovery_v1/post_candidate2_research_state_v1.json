@@ -1,0 +1,237 @@
+{
+  "schema_version": "personaslm_post_candidate2_research_state_v1",
+  "state_recorded_utc": "2026-10-18T14:43:17.3018091Z",
+  "researcher": "Yaxin ZHENG",
+  "paper_title": "Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models",
+  "predecessors": {
+    "planned_restart_state": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/research_state_v1.json",
+      "sha256": "574a02b9c086522a3d0890abf5ae67eb01db153a60f1bdf86e720c23fececead",
+      "preservation": "UNCHANGED"
+    },
+    "restart_handoff": {
+      "path": "docs/research_restart_handoff.md",
+      "sha256": "8bb2aab832f693546fe48a3b505a41ab51bdb5cb0c6f6135305c1d55631350b9",
+      "preservation": "UNCHANGED"
+    },
+    "post_restart_state": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/post_restart_research_state_v1.json",
+      "sha256": "3a4967d70e0eac0e3bad0474c3dd33323b568d366f8c273d7a0200bf7674379a",
+      "preservation": "UNCHANGED_HISTORICAL_V3_CHECKPOINT"
+    }
+  },
+  "repository_snapshot": {
+    "branch": "research/autonomous-personaslm",
+    "head": "c40667ad266082481b1850453f67784b593f3723",
+    "staged_paths": 0,
+    "git_commit_or_push_executed": false
+  },
+  "candidate_2_configuration": {
+    "candidate_id": "qwen2_5_3b_instruct_q4_k_m",
+    "repository": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+    "repository_revision": "af75b7aaf5bb163ce4c5dab4e6b84d844e96265d",
+    "gguf_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+    "gguf_bytes": 2104932768,
+    "quantization": "Q4_K_M",
+    "native_template_sha256": "d5495a1e5db0611132a97e46a65dbb64a642a499421228b9c8b93229097fa9a4",
+    "backend_build": "b11573-0f701c882",
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "native_tokenizer_sha256": "e05dbdef761e577b3d56f3daea7b205a07f68e5d87242ea4e2544382ffdd358e",
+    "context_tokens": 4096,
+    "generation": {
+      "cache_prompt": false,
+      "gpu_layers": 0,
+      "ignore_eos": false,
+      "max_new_tokens": 96,
+      "mtp": false,
+      "seed": 42,
+      "stop": [],
+      "temperature": 0.0,
+      "threads": 4,
+      "threads_batch": 4,
+      "top_p": 1.0,
+      "vision": false
+    }
+  },
+  "candidate_2_execution": {
+    "status": "COMPLETE_INTEGRITY_PASS_NONQUALIFYING",
+    "bound_inputs": {
+      "prospective_freeze": {
+        "path": "docs/validation/p1/model_feasibility_recovery_v1/prospective_freeze_v1.json",
+        "sha256": "5ce53ae8fba0cd5acb4fe303b7bd1b5a81600de68230d770a53e497fdb6483a9"
+      },
+      "authorization_ledger": {
+        "path": "docs/validation/p1/model_feasibility_recovery_v1/autonomous_authorization_ledger_v1.json",
+        "sha256": "b91070f93b80d667218fc940272bef808ed0ab178b9f0e45ffc9e82e87a59cc0"
+      },
+      "native_materialization": {
+        "path": "docs/validation/p1/model_feasibility_recovery_v1/materialized_qwen2_5_3b_instruct_q4_k_m_v1.json",
+        "sha256": "591dadd21a2b893a6c327d4d8737da3159a380a5f921049f9d5364a5bc849c43"
+      }
+    },
+    "material_change_observations_available_physical_bytes": [
+      5651648512,
+      5643354112,
+      5644156928
+    ],
+    "preflight_v4": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v4.json",
+      "sha256": "ca96e25002d5c78f9bf3f15ea6ad0412032bc2ebb3df9adc5b62723417cc9c2d",
+      "status": "PASS",
+      "available_physical_bytes": 5675884544,
+      "required_available_physical_bytes": 5368709120,
+      "available_margin_bytes": 307175424,
+      "threshold_changed": false,
+      "unrelated_process_terminated": false
+    },
+    "run": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_run_receipt_v1.json",
+      "sha256": "f9140b58adfcf68e57543cc2452798fc7ac5e9499946fe62f2aeb2a0dc5523e7",
+      "attempts": 8,
+      "completed_results": 8,
+      "retries": 0,
+      "automatic_success": 2,
+      "qualification_threshold": 7,
+      "proceed": false,
+      "answer_states": {
+        "CURRENT_VALUE_ADOPTION": 2,
+        "OUTDATED_VALUE_ADOPTION": 3,
+        "UNVERIFIABLE_ANSWER": 3
+      },
+      "inference_wall_seconds": 94.08076140000139
+    },
+    "audit": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_audit_v1.json",
+      "sha256": "e1d2718bd1c5fdd1395329d736ea581c7c03cfdd00d1de8b63bd5a5d771f0984",
+      "integrity_status": "PASS",
+      "attempts": 8,
+      "completion_http_records": 8,
+      "replayed_results": 8,
+      "unresolved_in_flight_completion_requests": 0
+    },
+    "raw_run_directory": {
+      "path": "results/p1_model_feasibility/v1/runs/20261018T143252-da4e3392977c44e5b52f1040951d5f94",
+      "disposition": "RESTRICTED_NOT_EMBEDDED",
+      "content_embedded": false
+    }
+  },
+  "frozen_selection": {
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/selection_after_candidate2_v1.json",
+    "sha256": "362fcac650cc8fe286ac5ade0c5a35fab7ef6d862c0214724b439d0bd8848b7e",
+    "status": "BOUNDED_SCREEN_NEGATIVE",
+    "selected_candidate": null,
+    "candidate_1_success": 1,
+    "candidate_2_success": 2,
+    "qualification_threshold": 7
+  },
+  "analysis_reproduction": {
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/analysis_reproduction_v2.json",
+    "sha256": "e76cead21a92cc3fa67175f09624c9b401429713a19078144a16bf960967cdbe",
+    "source_path": "tools/reproduce_p1_feasibility_analysis_v2.py",
+    "source_sha256": "2df9865eaa568ab961ea7de236c352ab9b4a16797a77a6489e50c5e695f2efda",
+    "test_path": "tests/test_reproduce_p1_feasibility_analysis_v2.py",
+    "test_sha256": "d0ecdf28a444aa1802eb8838188c730328a6f456a790c185ab39b35f1b1e53c0",
+    "status": "PASS_LOCAL_PRIVATE_ARCHIVE",
+    "generation_requests": 0,
+    "public_clone_reproduction": "PARTIAL_RAW_JOURNALS_AND_WEIGHTS_REQUIRED"
+  },
+  "authorization_balances": {
+    "autonomous_recovery": {
+      "authorization_id": "P1_AUTONOMOUS_MODEL_FEASIBILITY_20261017_V1",
+      "generation_limit": 1200,
+      "generations_used": 16,
+      "generations_remaining": 1184,
+      "inference_wall_seconds_limit": 72000.0,
+      "inference_wall_seconds_used": 159.95704690001094,
+      "inference_wall_seconds_remaining": 71840.04295309998,
+      "attempts_by_candidate": {
+        "smollm2_1_7b_instruct_q4_k_m": 8,
+        "qwen2_5_3b_instruct_q4_k_m": 8
+      },
+      "unresolved_in_flight_completion_requests": 0
+    },
+    "historical_p1": {
+      "authorization": 160,
+      "attempted": 80,
+      "remaining": 80,
+      "transferred": 0
+    }
+  },
+  "measurement_status": {
+    "frozen_task_success_endpoint": "COMPLETE_FOR_BOUNDED_DEVELOPMENT_SCREEN_ONLY",
+    "semantic_endpoint_validity": "UNRESOLVED_GENUINE_BLINDED_REVIEW_REQUIRED",
+    "human_review_template": {
+      "path": ".local/reviewer-packages/p1_stageb_candidate1_semantic_review_v1/stage_a_pointwise_REVIEW_TEMPLATE.csv",
+      "sha256": "16aecfa401c491e80ca6c0232c3980f9ad8e87891f241d755b9a2efd3d63115d",
+      "records": 16,
+      "completed_human_judgments": 0,
+      "instruction": "Complete the 16 blinded records and reviewer provenance without opening the mapping before review."
+    },
+    "persona_fidelity": "NOT_VALIDATED",
+    "full_sfh_factorial": "NOT_EXECUTED"
+  },
+  "statistical_status": {
+    "confirmatory_boundary": "NO_CALIBRATED_CONFIRMATORY_TEST_IDENTIFIED",
+    "estimation_candidate": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_estimation_candidate_v1.json",
+      "sha256": "f8ea664882304c7a5ef9c5690e4374bd34f2764a3d8958a1d395f171b735a9ee",
+      "status": "PROPOSED_NOT_ADOPTED_NOT_EXECUTED"
+    },
+    "planned_960_generation_cohort": "NOT_AUTHORIZED_NOT_EXECUTED"
+  },
+  "literature_monitoring": {
+    "date": "2026-10-18",
+    "status": "COMPLETED_FOR_CURRENT_DATE_NOT_REPEATED",
+    "novelty_boundary": "NO_VALIDATED_ORIGINAL_ALGORITHM"
+  },
+  "current_phase_status": {
+    "P0": "FROZEN",
+    "P1": "ACTIVE_BOUNDED_SCREEN_NEGATIVE_AND_SEMANTIC_REVIEW_BLOCKED",
+    "P2": "PAUSED",
+    "P3": "PAUSED",
+    "P4": "PAUSED",
+    "P5": "DIAGNOSTIC_COMPLETED",
+    "P6": "PAUSED_NO_VALIDATED_ALGORITHM"
+  },
+  "downstream_authorization": {
+    "candidate_2_disjoint_c0_pilot": {
+      "status": "NOT_AUTHORIZED_NO_SELECTED_CANDIDATE",
+      "generations_executed": 0
+    },
+    "candidate_2_remaining_72": {
+      "status": "NOT_AUTHORIZED",
+      "generations_executed": 0
+    },
+    "full_sfh_factorial": {
+      "status": "NOT_AUTHORIZED",
+      "generations_executed": 0
+    },
+    "independent_960_generation_cohort": "NOT_AUTHORIZED",
+    "third_model_or_reconfigured_model": "NOT_AUTHORIZED_REQUIRES_SEPARATE_PROSPECTIVE_REGISTRATION"
+  },
+  "last_completed_milestone": {
+    "id": "P1_TWO_CANDIDATE_FEASIBILITY_SCREEN_COMPLETE_V1",
+    "status": "COMPLETE_BOUNDED_NEGATIVE",
+    "scientific_interpretation": "Neither frozen model-plus-native-template configuration reached the 7/8 developmental automatic endpoint. This does not establish S/F/H effects, broad model incapability, semantic accuracy, Persona Fidelity, or independent validation."
+  },
+  "unresolved_blockers": [
+    "No model qualified under the frozen bounded screen, so the prepared C0 pilot and the 72-request continuation cannot run under the current selection rule.",
+    "The 16-record condition-blinded human semantic review is blank; no human label or agreement result exists.",
+    "The automatic exact/alias endpoint has incomplete semantic coverage and cannot be the sole future S/F/H semantic outcome.",
+    "No calibrated confirmatory hypothesis test, independent factorial data, validated Persona Fidelity measure, reproduced causal mechanism, or validated original algorithm exists."
+  ],
+  "next_scientifically_justified_action": "Obtain and validate the genuine 16-record blinded human semantic review. Use it to quantify endpoint coverage and agreement without changing either frozen feasibility score. Any further model/configuration study must be separately registered, bounded, disjoint from failed selection cases, resource-safe, and explicitly authorized.",
+  "privacy_and_provenance": {
+    "restricted_mapping_accessed": false,
+    "raw_response_content_embedded": false,
+    "model_weights_staged": false,
+    "public_clone_reproduction_claim": "PARTIAL"
+  },
+  "prohibitions": [
+    "Do not rerun either completed feasibility request bank or change the 7/8 threshold.",
+    "Do not execute the Candidate 2 C0 pilot, its remaining 72 requests, or the 960-request cohort under the failed selection state.",
+    "Do not invent human labels, expose the blinded mapping before review, or treat one researcher as independent inter-rater evidence.",
+    "Do not claim S/F/H causality, Persona Fidelity validity, independent validation, publication readiness, or algorithmic novelty from this screen.",
+    "Do not commit, push, stage, rewrite history, train LoRA, or access MimooPet."
+  ]
+}

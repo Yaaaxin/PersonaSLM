@@ -1,0 +1,40 @@
+{
+  "schema_version": "personaslm_post_restart_regression_v1",
+  "recorded_utc": "2026-10-18T13:11:55.6934667Z",
+  "status": "PASS",
+  "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_p1_model_feasibility_recovery.py tests/test_p1_evaluator_validity.py tests/test_reproduce_p1_feasibility_analysis.py tests/test_literature_monitor.py tests/test_literature_monitor_arxiv_doi_dedup.py tests/test_literature_review_addendum.py tests/test_windows_literature_scheduler.py tests/test_post_restart_literature_review.py tests/test_p1_independent_validation_precision.py",
+  "result": {
+    "passed": 71,
+    "failed": 0,
+    "skipped": 0,
+    "wall_seconds_reported_by_pytest": 21.19,
+    "warning_count": 1,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "new_evidence": {
+    "candidate2_preflight_v3": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v3.json",
+      "sha256": "1b8b1c144cbfb4c330171a0e297ae497154230fff0feef4f096993caffaff8dd"
+    },
+    "independent_validation_precision": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_precision_v1.json",
+      "sha256": "8a2f7145ff263893127e4607b33b448e71f8e6de81ab972eb65a5edf12b6d96b",
+      "source_path": "tools/p1_independent_validation_precision.py",
+      "source_sha256": "94865bd06299964d2f45031ea91ef8fe1af70d2d624cf4792ef6e663663ed334",
+      "test_path": "tests/test_p1_independent_validation_precision.py",
+      "test_sha256": "b181ccde8d04f1038c0043cb9c574ade735821f5fdf4e561e32f9af1f9d200ea"
+    },
+    "literature_review": {
+      "path": "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v2.json",
+      "sha256": "021f5fa54aaec20d74bee1f4e105cffebc913a691d5d0d09a2b9877e6b472efe",
+      "test_path": "tests/test_post_restart_literature_review.py",
+      "test_sha256": "97b3e74b6ef14f73e9024053ccea1d724927987403434b6a255256a6738b81d8"
+    }
+  },
+  "execution_impact": {
+    "scientific_model_generations": 0,
+    "inference_seconds": 0.0,
+    "historical_evidence_modified": false,
+    "git_stage_commit_or_push": false
+  }
+}

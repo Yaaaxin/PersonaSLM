@@ -1,0 +1,146 @@
+{
+  "schema_version": "personaslm_primary_source_review_addendum_v2",
+  "recorded_utc": "2026-10-18T13:05:14.1471190Z",
+  "date_last_checked": "2026-10-18",
+  "reviewer_type": "AI_ASSISTED_PRIMARY_SOURCE_REVIEW",
+  "human_confirmation": "NOT_RECORDED",
+  "predecessors": [
+    {
+      "path": "docs/validation/literature_monitor_v1/reviewed_ledger_v1.json",
+      "sha256": "55392de0024ff4c04aa265f654d87419982df834aeff659e401620840b9ae99b",
+      "preservation": "UNCHANGED_FROZEN_14_RECORD_LEDGER"
+    },
+    {
+      "path": "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v1.json",
+      "sha256": "fa2e78129a1d24eab6e7202d9f28db0a06e376de0edbbf83e83866202bb70be8",
+      "preservation": "UNCHANGED"
+    }
+  ],
+  "discovery_evidence": {
+    "failed_sandbox_snapshot": {
+      "path": ".local/literature-monitor/post_restart_snapshot_20261018T1315Z.json",
+      "sha256": "e9b153ce4893513926b8c3e550d470fa04630326607f87da8ac34bb45389389f",
+      "records": 0,
+      "source_requests_succeeded": 0,
+      "source_requests_failed": 13,
+      "interpretation": "Preserved network-sandbox failure; not evidence that no papers exist."
+    },
+    "successful_snapshot": {
+      "path": ".local/literature-monitor/post_restart_snapshot_20261018T1320Z_network_v2.json",
+      "sha256": "1132758a25f7a53843eb48162d112680d97171435c8a3b426b0463caca93533e",
+      "records": 217,
+      "new_stable_ids_since_2026_10_18_092857Z_snapshot": 26,
+      "source_requests_succeeded": 13,
+      "source_requests_failed": 0,
+      "automated_substantive_alerts": 0,
+      "interpretation": "Automated metadata discovery only. Title-level review identified PersEvalBench as an important candidate despite no automated topic alert."
+    }
+  },
+  "scope": "Versioned one-paper delta after inspection of the official arXiv PDF and HTML abstract, methods, experiments, results, human-validation appendix, prompts, and limitations. The paper system, benchmark, model outputs, and reported findings were not independently reproduced.",
+  "records": [
+    {
+      "stable_id": "arxiv:2610.19314",
+      "title": "PersEvalBench: Can LLM Evaluators Judge Contextually Appropriate Use of Persona Information?",
+      "authors": [
+        "Charith Peris",
+        "Dilek Zeynep Hakkani-Tur",
+        "Emine Yilmaz",
+        "Hari Prasad Thadakamalla",
+        "Hooshang Nayyeri",
+        "Xinyi Liu"
+      ],
+      "venue_or_status": "arXiv preprint v1; no accepted venue verified",
+      "publication_date": "2026-10-13",
+      "date_last_checked": "2026-10-18",
+      "identifiers": {
+        "arxiv": "2610.19314",
+        "doi": "10.48550/arXiv.2610.19314"
+      },
+      "source_url": "https://arxiv.org/abs/2610.19314",
+      "full_text_url": "https://arxiv.org/html/2610.19314v1",
+      "local_primary_source_receipts": [
+        {
+          "kind": "PDF",
+          "ignored_path": ".local/literature-monitor/papers/2610.19314v1.pdf",
+          "sha256": "b3a5ca37f7b3177c041773b1758063efde960166265d311422b7d4d1115e5943",
+          "bytes": 1289256
+        },
+        {
+          "kind": "ARXIV_HTML",
+          "ignored_path": ".local/literature-monitor/papers/2610.19314v1.html",
+          "sha256": "96658053378d4fb731bb6f2bc9c60a61d1b672894be079b159e2053f777faaff",
+          "bytes": 470801
+        }
+      ],
+      "verified_summary": "PersEvalBench contains 403 synthetic multi-episode scenarios and 806 matched responses. It asks evaluators to assign Right, Under, or Over verdicts for controlled under-personalization, over-personalization, and misapplied-state errors, including stale or superseded use. On a stratified 100-scenario human subset, the paper reports 83.5% inter-annotator agreement (Cohen's kappa 0.72) and a large under-personalization recognition gap: 94.4% for each human annotator versus 63.9% for the strongest reported evaluator. Gold evidence highlighting and structured prompting provide limited gains, while side-by-side pairwise comparison is easier but does not recover error direction.",
+      "research_methodology": "LLM-assisted construction fixes intended state roles before generating dialogues and matched Right/error responses. Automated checks and three human studies examine intervention fidelity, state-role validity, and evaluator performance. Five LLM evaluators are compared under target-only, recent, full-history, highlighted-evidence, and gold-evidence views, with end-to-end, evidence-first, state-table, pointwise, and pairwise formulations. Error Recognition Rate and False Alarm Rate are reported jointly.",
+      "relevant_experimental_factors": [
+        "history applicability: persist, transfer, or cease",
+        "under-personalization versus over-personalization versus misapplied state",
+        "stale or superseded information",
+        "history visibility and gold evidence highlighting",
+        "independent pointwise versus matched pairwise evaluation"
+      ],
+      "relevant_benchmarks": ["PersEvalBench", "Schema-Guided Dialogue"],
+      "overlap_with_personaslm": "Directly overlaps PersonaSLM's unresolved semantic-evaluator problem, outdated-history use, condition-blinded human review requirement, and need to distinguish direction-specific persona errors rather than scoring generic task failure.",
+      "difference_from_personaslm": "It evaluates large LLM judges on fixed synthetic task-oriented responses rather than generating with CPU-deployed 0.8B-3B models. It does not estimate S/F/H effects under shared sufficient dated evidence, measure Persona Fidelity or CPU cost, or validate PersonaSLM's current/outdated/incomplete rubric.",
+      "potential_novelty_threat": {
+        "level": "HIGH_FOR_BROAD_PERSONA_EVALUATOR_AND_ERROR_TAXONOMY_CLAIMS",
+        "rationale": "PersonaSLM cannot claim priority for evaluator-side testing of appropriate persona use, controlled stale/superseded-use errors, or the finding that LLM judges confuse under- and over-personalization. Its remaining evaluation contribution would require a validated small-model S/F/H-specific endpoint and independent evidence beyond this benchmark."
+      },
+      "potential_useful_baselines": [
+        "independent three-way Right/Under/Over judgment",
+        "Error Recognition Rate reported with False Alarm Rate",
+        "gold-evidence highlighting",
+        "state-table prompting",
+        "matched pairwise comparison as a secondary sensitivity only"
+      ],
+      "potential_methodological_improvements": [
+        "Require genuine blinded human semantic judgments before relying on an LLM judge for PersonaSLM's primary endpoint.",
+        "Retain direction-specific current, outdated, omitted/incomplete, and unsupported-use categories rather than a generic error flag.",
+        "Report evaluator false alarms and abstention or unverifiable coverage alongside error recognition.",
+        "Use matched pairwise review only as a secondary diagnostic because explicit contrast can inflate performance and cannot identify error direction.",
+        "Validate prescribed evidence roles separately from whether a response realizes the intended error."
+      ],
+      "relevance_assessment": {
+        "classification": "EVALUATION_RELEVANT",
+        "secondary": ["DIRECT_MEASUREMENT_OVERLAP", "HIGH_PRIORITY_BASELINE"]
+      },
+      "limitations_relevant_to_personaslm": [
+        "synthetic English-only task-oriented dialogues",
+        "upstream construction depends on one LLM family",
+        "human reference covers 100 of 403 scenarios",
+        "misapplied-state judgments accept either error direction",
+        "compound errors and confidence calibration remain out of scope",
+        "reported paper results were not independently reproduced"
+      ],
+      "versions": [
+        {
+          "label": "arXiv v1",
+          "date": "2026-10-13",
+          "updated_date_observed": "2026-10-18",
+          "source_url": "https://arxiv.org/abs/2610.19314v1"
+        }
+      ]
+    }
+  ],
+  "research_impact": {
+    "status": "MATERIAL_MEASUREMENT_ADAPTATION_REQUIRED",
+    "prospective_design_adaptations": [
+      "Do not use an LLM-as-judge endpoint as the sole semantic outcome for future S/F/H execution.",
+      "Prepare a condition-blinded human review with direction-specific labels, independent decisions, agreement, coverage, and false-alarm reporting.",
+      "Keep pairwise comparisons secondary and preserve an independent pointwise primary judgment.",
+      "Treat PersEvalBench as an external evaluation baseline or transfer target only after license, task-fit, and leakage review."
+    ],
+    "p6_status": "PAUSED",
+    "protocol_changed": false,
+    "historical_experiment_reinterpreted": false,
+    "frozen_gate_changed": false
+  },
+  "execution_impact": {
+    "scientific_model_generations": 0,
+    "paid_resources": 0,
+    "paper_systems_reproduced": 0,
+    "human_reviews_fabricated": 0
+  }
+}

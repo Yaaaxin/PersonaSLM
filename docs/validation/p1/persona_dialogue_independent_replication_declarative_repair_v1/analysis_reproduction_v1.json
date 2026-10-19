@@ -1,0 +1,116 @@
+{
+  "schema_version": "personaslm_declarative_repair_analysis_reproduction_v1",
+  "recorded_utc": "2026-10-18T20:08:42.1480643Z",
+  "status": "PASS_ZERO_DIFFERENCES",
+  "reproduction_type": "READ_ONLY_ANALYSIS_RECONSTRUCTION_FROM_FROZEN_CHILD_AND_PARENT_RAW_JOURNALS",
+  "independence_boundary": "Performed by a separate analysis process in the same autonomous session. This is independent recomputation from raw evidence, not an independent researcher, independent experimental sample, external validation, or generation reproduction.",
+  "model_calls": 0,
+  "new_generations": 0,
+  "files_modified_during_reconstruction": 0,
+  "human_labels_created": 0,
+  "child_run_directory": "results/p1_persona_dialogue_independent_replication_declarative_repair/v1/runs/20261018T195559-40418fba50ea405b97a2e955145c3c9f",
+  "parent_run_directory": "results/p1_persona_dialogue_independent_replication/v2/runs/20261018T173447-1b35747a4af44756a1319781a2feb7d2",
+  "frozen_inputs": {
+    "prospective_design_sha256": "31fba764f949ffcdcc07fd348e334195878aeb82de24b1ff3e0e8cc88f919546",
+    "case_transform_sha256": "f1f1bb31d9e088cf7ffa5f9356a43323bd2217a1585826186fe4c3a13ee86c3b",
+    "execution_authorization_sha256": "25fe4ba7dcfa27a518989a416991e856199247dc7140f774fae051af21383ac0",
+    "frozen_manifest_sha256": "4e7dc5bf4503018fbf9130f49025e4eb7bef31b4e9f9f6ca5ae9cc2987987de0",
+    "preflight_sha256": "87be4e7a97c7c9fa7faf29184830233510e49642bfa54a8e0b82caa3beb2eca6",
+    "run_manifest_sha256": "810497a4e1d5ced89ea05c8902ac7910aa3d47a2d49f549609bd493e79983a51",
+    "run_summary_sha256": "7ff2d7ef6ddbcad3c7d2fc18e26da19a594164c013fea1afe0ee3270401913be",
+    "claim_sha256": "a063da5b390cff839e625be2b2213e31306e6b1976b39078bd5903b79d4d7539"
+  },
+  "canonical_outputs_compared": {
+    "execution_audit_v1_sha256": "2d2583b763fc02501fc51b3920580c2898e52661c7fadc0c242ec26c3087a995",
+    "analysis_v1_sha256": "8972902387ac485030dc1526a02c64dabfee63b39f6b9314c26e8ec111381ab0"
+  },
+  "integrity_reconstruction": {
+    "child_journal_events": 469,
+    "child_journal_hash_chain": "PASS",
+    "child_journal_terminal_hash": "dea6d6dfd4270d7c0b38884a05a37551aa2177cb25316c124bebf4df775c8b15",
+    "parent_journal_events": 899,
+    "parent_journal_hash_chain": "PASS",
+    "parent_journal_terminal_hash": "d8aa31c82fc0114c3ce20bd5399ab563fc366ddf754b5902b4992bfd5f4bff6c",
+    "child_started_records_verified": 48,
+    "child_raw_generation_records_verified": 48,
+    "child_derived_results_verified": 48,
+    "child_http_request_response_pairs_verified": 48,
+    "child_http_bodies_matching_raw_events": 48,
+    "parent_rows_verified": 96,
+    "child_source_snapshots_verified": 59,
+    "parent_source_snapshots_verified": 69,
+    "source_snapshot_hash_mismatches": 0,
+    "transformations_verified": 48,
+    "transformations_changing_only_archived_assistant_first_sentence": 48,
+    "archived_h0_rows_reused": 48,
+    "archived_h0_regenerations": 0,
+    "archived_raw_h1_comparators_verified": 48,
+    "current_model_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+    "current_backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "current_tokenizer_sha256": "e05dbdef761e577b3d56f3daea7b205a07f68e5d87242ea4e2544382ffdd358e",
+    "current_chat_template_sha256": "0286b273dc0e7dbcc080469bf5b8e57b329c135db0de8a45cb16f80a8b0c4ce6"
+  },
+  "score_reconstruction": {
+    "child_responses_rescored": 48,
+    "parent_responses_rescored": 96,
+    "automatic_score_discrepancies": 0,
+    "condition_summary_discrepancies": 0,
+    "repair_effect_discrepancies": 0,
+    "factorial_effect_discrepancies": 0,
+    "history_stratum_discrepancies": 0,
+    "outdated_endpoint_discrepancies": 0,
+    "leave_one_persona_out_discrepancies": 0,
+    "resource_summary_discrepancies": 0
+  },
+  "reproduced_direct_repair_effects": {
+    "selection_resolution": {
+      "archived_raw_h1": "2/48",
+      "declarative_h1": "42/48",
+      "effect": 0.8333333333333334,
+      "leave_one_persona_out_range": [
+        0.7777777777777778,
+        0.8888888888888888
+      ]
+    },
+    "raw_recommendation_frame_recurrence": {
+      "archived_raw_h1": "44/48",
+      "declarative_h1": "2/48",
+      "effect": -0.875,
+      "leave_one_persona_out_range": [
+        -0.9444444444444444,
+        -0.8333333333333334
+      ]
+    },
+    "paired_content_endpoint_complete_pairs": 2,
+    "paired_content_claim": "NOT_IDENTIFIED_BOUNDS_SPAN_BENEFIT_AND_HARM"
+  },
+  "reproduced_factorial_effects_current_preference_choice": {
+    "S": -0.225,
+    "F": 0.125,
+    "H_DECLARATIVE": -0.125,
+    "S_x_F": -0.05,
+    "S_x_H": 0.05,
+    "F_x_H": -0.25,
+    "S_x_F_x_H": 0.1,
+    "narrow_surface_style_uptake_S_effect": 0.9583333333333334
+  },
+  "reproduced_resources": {
+    "new_generations": 48,
+    "generated_tokens": 1329,
+    "native_eos": 48,
+    "completion_inference_seconds": 266.92424730000494,
+    "batch_wall_seconds": 276.7579974,
+    "server_peak_working_set_bytes": 2634989568,
+    "minimum_observed_available_physical_bytes": 1508548608,
+    "cumulative_generations_used": 340,
+    "cumulative_inference_seconds_used": 1968.0195239999766
+  },
+  "limitations": [
+    "The comparison is output-informed development on the same synthetic case bank and is aliased with execution batch.",
+    "Speech act and tokenization changed together; the receipt does not identify a causal lexical or internal-memory mechanism.",
+    "All 48 response-status records are AMBIGUOUS and semantic completeness is UNCERTAIN despite identifiable exact units and native EOS.",
+    "The frozen exact selector misses six semantically interpretable choices, so strict resolution is partly a format endpoint.",
+    "No human semantic judgment, broad Persona Fidelity outcome, real-speaker result, cross-model generalization, independent experimental validation, or novel algorithm is established.",
+    "The successful disk gate did not archive the exact contemporaneous free-disk byte count; only the pass result and threshold are preserved."
+  ]
+}

@@ -1,0 +1,691 @@
+[
+  {
+    "abstains": false,
+    "as_of": "2051-01-31",
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "UNVERIFIABLE",
+    "expected_supported_task": false,
+    "id": "asserted_after_knowledge_cutoff",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": "2051-02-01",
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "SUPPORTED",
+    "expected_supported_task": true,
+    "id": "asserted_on_knowledge_cutoff",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-01-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "SUPPORTED",
+    "expected_supported_task": true,
+    "id": "historical_validity_is_not_assertion_time",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-01-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-06-30",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "SUPPORTED",
+    "expected_supported_task": true,
+    "id": "closed_interval_end",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-06-30"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-07-01",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "UNVERIFIABLE",
+    "expected_supported_task": false,
+    "id": "outside_interval",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      },
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E2",
+        "trust_priority": 999,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "evening"
+      }
+    ],
+    "expected_first_claim": "CONFLICT_UNRESOLVED",
+    "expected_supported_task": false,
+    "id": "high_priority_cannot_resolve_trusted_conflict",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Other",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "UNVERIFIABLE",
+    "expected_supported_task": false,
+    "id": "same_surface_wrong_entity",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "other",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "SUPPORTED",
+    "expected_supported_task": false,
+    "id": "correct_claim_wrong_component_key",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "RECOLLECTION",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "SUPPORTED",
+    "expected_supported_task": false,
+    "id": "correct_historical_recollection_not_requested_answer",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      },
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "evening"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "SUPPORTED",
+    "expected_supported_task": false,
+    "id": "delivered_then_contradicted",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      },
+      {
+        "at": "2051-04-10",
+        "attribute": "color",
+        "component": "extra",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "blue"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "SUPPORTED",
+    "expected_supported_task": false,
+    "id": "unsupported_extra_preserves_component_but_fails_task",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": true,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "SUPPORTED",
+    "expected_supported_task": false,
+    "id": "explicit_abstention_with_correct_value",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "UNRESOLVED_SCOPE",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "INTERPRETATION_UNCERTAIN",
+    "expected_supported_task": false,
+    "id": "unresolved_semantic_scope",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "UNKNOWN_PROVENANCE",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "UNVERIFIABLE",
+    "expected_supported_task": false,
+    "id": "uncertain_evidence_not_negative_fact",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      },
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "duplicate",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "SUPPORTED",
+    "expected_supported_task": true,
+    "id": "duplicate_witness_not_independent_confirmation",
+    "required": {
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  },
+  {
+    "abstains": false,
+    "as_of": null,
+    "claims": [
+      {
+        "at": "2051-04-10",
+        "attribute": "slot",
+        "component": "slot",
+        "entity": "Visitor",
+        "speech_act": "ANSWER",
+        "uncertainty": "KNOWN",
+        "value": "morning"
+      }
+    ],
+    "evidence": [
+      {
+        "asserted_at": "2051-02-01",
+        "attribute": "slot",
+        "conflicts": [],
+        "entity": "Visitor",
+        "provenance": "authored_fixture",
+        "source": "E1",
+        "trust_priority": 1,
+        "uncertainty": "KNOWN",
+        "valid_from": "2051-01-01",
+        "valid_to": "2051-06-30",
+        "value": "morning"
+      }
+    ],
+    "expected_first_claim": "SUPPORTED",
+    "expected_supported_task": false,
+    "id": "two_requested_components_one_missing",
+    "required": {
+      "gate": [
+        "Visitor",
+        "gate",
+        "2051-04-10"
+      ],
+      "slot": [
+        "Visitor",
+        "slot",
+        "2051-04-10"
+      ]
+    }
+  }
+]

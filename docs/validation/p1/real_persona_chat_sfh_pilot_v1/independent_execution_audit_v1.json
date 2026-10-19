@@ -1,0 +1,40 @@
+{
+  "schema_version": "personaslm_rpc_sfh_pilot_independent_execution_audit_v1",
+  "status": "PASS",
+  "verdict": "PASS_FOR_EXECUTION_REGISTRATION_ONLY",
+  "auditor_provenance": "AI independent code/scientific audit; not human review",
+  "bindings": {
+    "design_sha256": "f46d1458c40aa0ddbb03d7676d81a37967cfad2ae0b935f3e6b0bfa7916ff439",
+    "material_receipt_sha256": "f81d432b672320e35c2779709677825652ceff8673cb5cac183f76ecc45a639b",
+    "private_material_sha256": "4f2e57ba05a8784835c0c0108ec10ba18851a28c084b1dc293b4eb4359a1ff4e",
+    "controller_sha256": "0a8143ba7a474eadfd303a109dcac5f438e44b14c0ab3e32f82c6f7d0e3d1110",
+    "test_sha256": "7dcc7b8d0b949c43d2fcd6f0ff88fe4cc3baccd4a7c9ba8db2a5efdc45724409",
+    "scorer_specification_sha256": "67d302f913ded74f73dbe511c144f9890b229d9518881364e0305b3ed5fdda0a"
+  },
+  "blocking_finding_count": 0,
+  "blocking_findings": [],
+  "checks": {
+    "exact_frozen_bindings_verified": true,
+    "material_receipt_and_private_hash_invariants_verified": true,
+    "model_backend_tokenizer_template_and_dll_hashes_verified": true,
+    "authorization_and_cumulative_budget_bindings_verified": true,
+    "zero_prior_execution_artifacts_verified": true,
+    "nonexecuting_import_and_validation_paths_verified": true,
+    "registered_hardware_and_disk_gates_verified": true,
+    "controller_requires_64_of_64_live_tokenizer_parity_before_completion_1": true,
+    "zero_retry_zero_resume_and_append_only_evidence_verified": true,
+    "no_outcome_contingent_gate_verified": true,
+    "automatic_scorer_formulas_boundaries_and_missingness_verified": true,
+    "speaker_paired_hadamard_contrasts_and_coverage_verified": true,
+    "human_semantic_endpoints_remain_pending_not_scored": true,
+    "public_privacy_boundary_verified": true,
+    "development_only_claim_boundary_verified": true
+  },
+  "nonblocking_limitations": [
+    "Eight development speakers only; no independent validation or confirmatory population inference.",
+    "S/F/H estimates are incremental prompt-package effects; F temporal truth is unknown.",
+    "Automatic style, reference-overlap, and copying outcomes are proxies, not human-validated Persona Fidelity or semantic reliability.",
+    "Human semantic review remains pending and is required before corresponding semantic claims.",
+    "Third-party GGUF conversion lineage remains partially verified."
+  ]
+}

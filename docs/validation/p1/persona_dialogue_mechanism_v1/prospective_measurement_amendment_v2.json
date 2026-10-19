@@ -1,0 +1,87 @@
+{
+  "schema_version": "personaslm_persona_dialogue_mechanism_prospective_measurement_amendment_v2",
+  "status": "FROZEN_PROSPECTIVE_BEFORE_REGISTRATION_OR_MODEL_OUTPUT",
+  "frozen_utc": "2026-10-18T16:05:00Z",
+  "parent_design": {
+    "path": "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_design_v1.json",
+    "sha256": "694b6e970ae16c4e2284d83aa385b10b78db42d7c1ec3befdbd07ec2f9aec316",
+    "preservation": "The parent is retained unchanged. This amendment supersedes only the provenance timestamp interpretation and primary parser/endpoint definitions listed below."
+  },
+  "preoutput_state": {
+    "manifest_exists": false,
+    "authorization_record_exists": false,
+    "execution_claim_exists": false,
+    "model_generation_attempts": 0,
+    "model_generations": 0,
+    "validation_outputs_inspected": 0,
+    "basis": "Root and independent Track A review before registration found a parser mismatch, one lexically confounded history target, and an incorrect future timestamp in the parent design."
+  },
+  "provenance_correction": {
+    "parent_frozen_utc_field": "2026-10-18T16:20:00Z",
+    "parent_filesystem_creation_utc_observed": "2026-10-18T16:01:09.5247813Z",
+    "parent_filesystem_last_write_utc_observed": "2026-10-18T16:01:09.5247813Z",
+    "root_review_observed_utc": "2026-10-18T16:04:23.8247634Z",
+    "interpretation": "The parent's frozen_utc field is erroneous because it postdates both file creation and root review. It must not be used as factual provenance. The parent SHA and erroneous field remain preserved; this amendment timestamp is the effective prospective freeze time."
+  },
+  "scientific_inputs_unchanged": {
+    "cases": true,
+    "persona_material": true,
+    "current_notes": true,
+    "current_user_messages": true,
+    "history_messages": true,
+    "seven_arms": true,
+    "request_order": true,
+    "model_and_runtime": true,
+    "resource_allocation": true,
+    "generation_settings": true
+  },
+  "effective_primary_measurement": {
+    "normalization": "Apply Unicode NFKC and casefold. Convert Unicode dash characters to ASCII hyphen. Preserve sentence boundaries before collapsing internal whitespace. Exact targets require non-word boundaries.",
+    "search_scope": "Only the first two nonempty sentence-like spans, split deterministically at period, exclamation mark, question mark, or newline. Semicolons do not end the search scope.",
+    "target_inventory": "For each case, targets are the exact full current canonical A and B names and the frozen full history_target_strings. No alias, fuzzy match, embedding, manual judgment, or model judgment may be added after outputs.",
+    "anchored_selection_constructions": [
+      "An optional I/we plus optional would/will/can/should, followed by recommend/choose/select/pick/book/reserve/use/visit/take, optional colon or hyphen, optional 'the', then an exact target.",
+      "An optional I/we plus optional would/will/can/should, followed by 'go with' or 'opt for', optional colon or hyphen, optional 'the', then an exact target.",
+      "'my' or 'our' plus pick/choice/recommendation, followed by 'is' or a colon, optional 'the', then an exact target.",
+      "An exact target followed by 'is' or 'would be', then 'my' or 'our' plus pick/choice/recommendation."
+    ],
+    "comparison_rule": "In constructions such as 'recommend TARGET_A over TARGET_B' or 'choose TARGET_A rather than TARGET_B', only the exact target directly governed by the anchored selection construction is selected. Comparator mentions do not create a second selection.",
+    "multiple_selection_rule": "Collect every anchored selection event in the two-span scope. If all events select the same exact target, retain it. If events select different targets, return UNRESOLVED_CONFLICTING_SELECTIONS. If no event is found, return UNRESOLVED_NO_ANCHORED_SELECTION.",
+    "categories": [
+      "CURRENT_A",
+      "CURRENT_B",
+      "HISTORY_TARGET",
+      "HISTORY_TARGET_AMBIGUOUS_CURRENT_ATTRIBUTE",
+      "UNRESOLVED_CONFLICTING_SELECTIONS",
+      "UNRESOLVED_NO_ANCHORED_SELECTION"
+    ],
+    "category_mapping": "Exact current canonical A/B selections map to CURRENT_A/CURRENT_B. An exact frozen history target maps to HISTORY_TARGET, except the VAL_E_CONFLICTING_BOOKS target 'national chain', which maps to HISTORY_TARGET_AMBIGUOUS_CURRENT_ATTRIBUTE because the identical phrase is also a current-option attribute.",
+    "primary_endpoints": {
+      "current_named_selection": "1 for CURRENT_A or CURRENT_B; 0 for HISTORY_TARGET; null for the ambiguous-history and unresolved categories.",
+      "current_preference_choice": "1 when CURRENT_A/B equals the frozen preferred option; 0 when it equals the other current option; null otherwise.",
+      "history_target_selection": "1 for HISTORY_TARGET; 0 for CURRENT_A or CURRENT_B; null for HISTORY_TARGET_AMBIGUOUS_CURRENT_ATTRIBUTE or unresolved categories.",
+      "full_canonical_both": "1 when both exact full current canonical names occur anywhere in the response; 0 otherwise. This is a mention-structure endpoint, not semantic ambiguity."
+    },
+    "boundary_censoring": "For empty, unidentifiable, transport-failed, or native-length-truncated response units, all binary semantic endpoints are null. Never recode missing, ambiguous, or inapplicable outcomes as zero.",
+    "reporting": "Publish raw category counts, exact resolved denominators, six paired case contributions, regime strata, and logical binary missing-outcome bounds. The confounded VAL_E_CONFLICTING_BOOKS history target must remain explicitly null for history-target and current-named binary endpoints."
+  },
+  "secondary_measurement": {
+    "reason_and_task": "Remain secondary only under the parent rules and cannot support selection, stopping, the primary mechanism claim, or broad relevance.",
+    "narrow_style": "Retain exact frozen operational components only for S-present arms. Do not call them validated general linguistic or behavioral Persona Fidelity.",
+    "efficiency": "Retain completion latency, generated tokens, available physical RAM, and server working-set peak."
+  },
+  "effective_estimands": [
+    "F_H_STRUCTURE minus F_H_RAW on current_named_selection, current_preference_choice, history_target_selection, and full_canonical_both.",
+    "F_H_REFRESH minus F_H_RAW on the same endpoints.",
+    "F_H_RAW minus S_F_NO_H to estimate history-associated displacement conditional on current F.",
+    "S_F_H minus F_H_RAW to estimate whether the explicit style block changes displacement.",
+    "S_H minus H_ONLY to estimate whether the explicit style block changes history-only displacement."
+  ],
+  "interpretation_limits": [
+    "HISTORY_TARGET is an exact lexical selection of a frozen historical target phrase, not proof of an internal entity-binding mechanism.",
+    "The confounded 'national chain' case cannot identify historical substitution and is missing for those binary endpoints by design.",
+    "The parser remains deliberately narrow; semantically clear but unregistered formulations remain unresolved.",
+    "No output was used to create this amendment, but the two intervention arms and parser were motivated by the earlier development batch, so this remains adaptive validation on unseen synthetic cases.",
+    "No real-speaker, human-validated Persona Fidelity, causal-internal-mechanism, confirmatory population, or algorithmic-novelty claim is authorized."
+  ]
+}

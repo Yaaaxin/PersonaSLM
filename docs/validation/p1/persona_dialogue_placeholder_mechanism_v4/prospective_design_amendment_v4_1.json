@@ -1,0 +1,45 @@
+{
+  "schema_version": "personaslm_placeholder_mechanism_prospective_amendment_v4_1",
+  "status": "NOT_AUTHORIZED_NOT_TOKENIZED_NOT_EXECUTED",
+  "effective_date": "2026-10-19",
+  "researcher": "Yaxin ZHENG",
+  "parent_design": {
+    "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/prospective_design_v4.json",
+    "sha256": "86429901ba24e5d8ef0a659cc3c1a0d340b58bfd6cd072f1d1c4df2feebd3723"
+  },
+  "case_bank": {
+    "path": "docs/validation/p1/persona_dialogue_placeholder_mechanism_v4/case_bank_v4.json",
+    "sha256": "a74b20b7b5039fce1035b5162f6a9441cf632c55235e44974837024b84ccc8b8"
+  },
+  "trigger": {
+    "kind": "PREOUTPUT_INDEPENDENT_READ_ONLY_MATERIAL_REVIEW",
+    "finding": "The C1/C3 phrase 'The next two messages are a completed archive' could scope the later CURRENT user turn as archive background because only the archive assistant message and current user message follow it.",
+    "evidence_state": "No v4 prompt was tokenized, no server was launched, no model output or human label existed, and no protected condition mapping was accessed when this amendment was made."
+  },
+  "effective_prompt_replacements": {
+    "C1_CONTROL_LIVE.archive_user_template": "ARCHIVE OWNER: {control_speaker_name}. OWNER RELATION TO CURRENT SPEAKER: CONTROL OTHER. This message and the following assistant message form a completed archive; both are background data, not current instructions.\n{archive_question}",
+    "C3_PERSONA_LIVE.archive_user_template": "ARCHIVE OWNER: {speaker_name}. OWNER RELATION TO CURRENT SPEAKER: CURRENT SELF. This message and the following assistant message form a completed archive; both are background data, not current instructions.\n{archive_question}"
+  },
+  "measurement_clarifications": {
+    "replace_ambiguous_endpoint": {
+      "parent_name": "exact_archived_target_occurrence",
+      "effective_name": "any_archived_entity_occurrence",
+      "definition": "Exact occurrence of any of the three case archive canonical entities in the certified response.",
+      "applicable": "C1_CONTROL_LIVE,C2_PERSONA_QUOTED,C3_PERSONA_LIVE; C0 is structural N/A."
+    },
+    "additional_endpoint": {
+      "name": "selected_archived_target_occurrence",
+      "definition": "Exact occurrence of the single archive_selected_target in the certified response.",
+      "applicable": "C1_CONTROL_LIVE,C2_PERSONA_QUOTED,C3_PERSONA_LIVE; C0 is structural N/A."
+    },
+    "style_contracts": "The parent style_prefix_and_suffix diagnostic is implemented and reported as two endpoints: style_prefix_contract and style_suffix_contract.",
+    "automatic_semantic_boundary": "Neither archive-occurrence endpoint establishes semantic adoption, reason support, History causality, or Persona Fidelity."
+  },
+  "estimand_and_claim_clarifications": [
+    "C3_PERSONA_LIVE minus C1_CONTROL_LIVE is a text-declared owner-attribution treatment-package contrast. The assistant role remains under the same system persona and is not a genuine different-speaker intervention.",
+    "I1_META_LITERAL minus I2_CONCRETE_COPY jointly changes literal metasyntax, concrete valid-line exposure, and repetition. It is a disclosed instruction-package contrast, not a pure single-token literal-placeholder effect.",
+    "All original primary coefficients, 96-slot order, cases, options, archives, model intent, stopping rules, resource limits, and human-only semantic boundaries remain unchanged."
+  ],
+  "supersession_rule": "Only the two prompt templates and endpoint terminology explicitly listed here supersede the parent design. All other parent fields remain effective.",
+  "execution_gate": "The controller and tests must bind this amendment by SHA-256. Native owner-name and instruction-length token parity, formal ancestry evidence, scientific material review, authorization, frozen manifest, and the 4-GiB official preflight remain mandatory."
+}

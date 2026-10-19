@@ -1,0 +1,237 @@
+{
+  "schema_version": "personaslm_disjoint_surface_validation_design_v1",
+  "status": "FROZEN_PROSPECTIVE_CANDIDATE_NOT_AUTHORIZED_NOT_TOKENIZED_NOT_EXECUTED",
+  "created_utc": "2026-10-18T20:31:03.5572003Z",
+  "researcher": "Yaxin ZHENG",
+  "title": "Disjoint synthetic validation of history semantics-by-surface association in persona-conditioned dialogue choice",
+  "evidence_level": "PROSPECTIVE_INDEPENDENT_CASE_SYNTHETIC_VALIDATION",
+  "scientific_scope": {
+    "question": "On new synthetic personas and dialogue-like cases, does an archived recommendation surface frame alter current persona-consistent choice more than a declarative record, conditional on aligned, conflicting, or decision-irrelevant archived content?",
+    "claim_boundary": "Independent synthetic validation of a surface association only. It is not real-speaker validation, a full S/F/H factorial study, causal identification of history in a population, human-validated Persona Fidelity, or algorithm validation.",
+    "development_independence": "No case, target, persona, or exact task-template material is reused from the two bound prior 12-case banks. The model, runtime, broad controlled-choice paradigm, and output-informed scientific question are inherited and disclosed.",
+    "frozen_factors": {"S": 1, "F": 1},
+    "manipulated_factors": {
+      "H_semantics": ["NONE", "ALIGNED", "CONFLICT", "IRRELEVANT_TO_CURRENT_DECISION"],
+      "H_surface": ["NONE", "RAW_RECOMMENDATION", "DECLARATIVE_RECORD"]
+    },
+    "unit": "One synthetic persona-case crossed with seven within-case arms.",
+    "cases": 24,
+    "synthetic_personas": 12,
+    "cases_per_persona": 2,
+    "task_families": 3,
+    "attempts": 168,
+    "retries": 0
+  },
+  "arms": {
+    "SF_NO_H": {"S": 1, "F": 1, "H": 0, "history_semantics": "NONE", "history_surface": "NONE"},
+    "SFH_ALIGNED_RAW": {"S": 1, "F": 1, "H": 1, "history_semantics": "ALIGNED", "history_surface": "RAW_RECOMMENDATION"},
+    "SFH_ALIGNED_DECLARATIVE": {"S": 1, "F": 1, "H": 1, "history_semantics": "ALIGNED", "history_surface": "DECLARATIVE_RECORD"},
+    "SFH_CONFLICT_RAW": {"S": 1, "F": 1, "H": 1, "history_semantics": "CONFLICT", "history_surface": "RAW_RECOMMENDATION"},
+    "SFH_CONFLICT_DECLARATIVE": {"S": 1, "F": 1, "H": 1, "history_semantics": "CONFLICT", "history_surface": "DECLARATIVE_RECORD"},
+    "SFH_IRRELEVANT_RAW": {"S": 1, "F": 1, "H": 1, "history_semantics": "IRRELEVANT_TO_CURRENT_DECISION", "history_surface": "RAW_RECOMMENDATION"},
+    "SFH_IRRELEVANT_DECLARATIVE": {"S": 1, "F": 1, "H": 1, "history_semantics": "IRRELEVANT_TO_CURRENT_DECISION", "history_surface": "DECLARATIVE_RECORD"}
+  },
+  "prompt_policy": {
+    "fixed_system_instruction": "Answer as the specified synthetic speaker. Use exactly two sentences. Sentence one must be exactly 'Option A [<exact A anchor>] — <exact A name>.' or 'Option B [<exact B anchor>] — <exact B name>.' Sentence two must briefly justify the choice using the current evidence and the speaker's stated style. Do not choose an archived alternative.",
+    "history_user_template": "Earlier, for a different situation, the speaker considered the same three archived alternatives shown in the case's frozen semantic display order. Which one did the speaker choose then?",
+    "raw_history_template": "[{anchor}] I recommend the {target}. {reason}",
+    "declarative_history_template": "[{anchor}] {target} was my choice. {reason}",
+    "aligned_reason_template": "That matched my preference for {trait} during that earlier exchange.",
+    "conflict_reason_template": "That contradicted my preference for {trait} during that earlier exchange.",
+    "irrelevant_reason_template": "That handled a separate practical concern during that unrelated earlier exchange.",
+    "surface_pair_isolation": "Within each semantic condition, raw and declarative archived assistant messages differ only in the first-sentence frame; their second sentence is byte-identical.",
+    "semantic_package_isolation": "Across H semantics, the archived user turn and its three listed entities are identical; only the selected target-plus-reason assistant package changes. No archived dialogue is present in SF_NO_H.",
+    "irrelevant_policy": "The decision-irrelevant history selects the case's unique unrelated third target and uses a statement whose whitespace-token length differs by at most two words from the aligned and conflict statements.",
+    "anchor_policy": "Every current and archived entity receives a unique immutable ASCII anchor derived as DSV<case number><role>, where role is A, B, L (aligned), C (conflict), or I (irrelevant). Anchors are visible in the prompt and are the primary scoring units."
+  },
+  "allocation_and_order": {
+    "case_order": "The immutable case execution_index 0..23 in the case bank.",
+    "within_case_order": "Twenty-one cases use three complete cycles of the seven cyclic arm rotations. The final three use the frozen local-position vectors [0,1,2,3,4,5,6], [3,5,6,2,0,4,1], and [6,3,1,4,5,0,2] indexed by arm order.",
+    "balance_requirements": {
+      "preferred_option": {"A": 12, "B": 12},
+      "current_display_order": {"A_THEN_B": 12, "B_THEN_A": 12},
+      "preferred_display_position": {"FIRST": 12, "SECOND": 12},
+      "cases_per_task_family": 8,
+      "cases_per_persona": 2,
+      "archived_semantic_role_permutations": 6,
+      "cells_per_semantic_role_permutation": 4,
+      "counterbalance_cells": "6 archived semantic-role permutations x preferred identity {A,B} x preferred current display position {FIRST,SECOND}",
+      "requests_per_arm": 24,
+      "requests_per_arm_per_quartile": 6,
+      "global_order_sum_per_arm": 2004,
+      "global_order_mean_per_arm": 83.5,
+      "local_position_count_per_arm": {"minimum": 3, "maximum": 4},
+      "local_position_sum_per_arm": 72
+    }
+  },
+  "evaluation_policy": {
+    "primary_automatic_endpoints": [
+      "preferred_current_anchor_selection",
+      "any_current_anchor_selection"
+    ],
+    "frozen_diagnostics": [
+      "selection_category",
+      "exact_current_label_name_consistency",
+      "exact_archived_intrusion",
+      "raw_recommendation_frame_occurrence",
+      "unresolved_or_multiple",
+      "generated_tokens",
+      "native_stop_reason",
+      "completion_latency_seconds",
+      "server_peak_working_set_bytes",
+      "minimum_observed_available_physical_bytes"
+    ],
+    "surface_robust_selection_rule": "On every valid returned response, inspect only the first sentence for the five case-specific exact anchors. preferred_current_anchor_selection is one iff exactly one anchor is present and it is the preferred current anchor; any_current_anchor_selection is one iff exactly one anchor is present and it is either current anchor. MULTIPLE and NONE are complete-denominator zeros. Boundary-censored or absent responses remain missing and receive logical bounds. Exact option labels and exact names are retained as a consistency diagnostic, not substituted for the primary anchor rule.",
+    "human_review": {
+      "status": "SCHEMA_FROZEN_BEFORE_OUTPUTS_NO_LABELS_CREATED",
+      "schema_path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/blinded_human_review_schema_v1.json",
+      "schema_sha256": "c72ed0c83131bc80aac54675c29cc4a3fd6ecb33d1055a00d45bf25e48bbbd7a",
+      "required_for_publication_claims": true,
+      "automatic_scores_are_not_human_persona_fidelity": true
+    }
+  },
+  "estimands": {
+    "primary": {
+      "theta_A": "0.5*(SFH_ALIGNED_RAW + SFH_ALIGNED_DECLARATIVE) - 0.5*(SFH_IRRELEVANT_RAW + SFH_IRRELEVANT_DECLARATIVE)",
+      "theta_C": "0.5*(SFH_CONFLICT_RAW + SFH_CONFLICT_DECLARATIVE) - 0.5*(SFH_IRRELEVANT_RAW + SFH_IRRELEVANT_DECLARATIVE)",
+      "theta_surface": "((SFH_ALIGNED_DECLARATIVE-SFH_ALIGNED_RAW) + (SFH_CONFLICT_DECLARATIVE-SFH_CONFLICT_RAW) + (SFH_IRRELEVANT_DECLARATIVE-SFH_IRRELEVANT_RAW))/3",
+      "theta_generic_history": "0.5*(SFH_IRRELEVANT_RAW + SFH_IRRELEVANT_DECLARATIVE) - SF_NO_H"
+    },
+    "derived_contrast": {
+      "theta_A_minus_theta_C": "theta_A - theta_C; the only prospectively derived primary contrast."
+    },
+    "secondary_interactions": {
+      "theta_surface_aligned_minus_irrelevant": "(SFH_ALIGNED_DECLARATIVE-SFH_ALIGNED_RAW)-(SFH_IRRELEVANT_DECLARATIVE-SFH_IRRELEVANT_RAW)",
+      "theta_surface_conflict_minus_irrelevant": "(SFH_CONFLICT_DECLARATIVE-SFH_CONFLICT_RAW)-(SFH_IRRELEVANT_DECLARATIVE-SFH_IRRELEVANT_RAW)"
+    },
+    "endpoint_application": "Compute every registered estimand separately for preferred_current_anchor_selection and any_current_anchor_selection.",
+    "uncertainty": "Report case-level paired estimates, logical missing-outcome bounds, task-family strata, and persona leave-one-out ranges. No p-values are registered.",
+    "confirmatory_status": "ESTIMATION_FIRST_SYNTHETIC_VALIDATION_NO_CALIBRATED_CONFIRMATORY_TEST"
+  },
+  "model": {
+    "label": "Qwen3.5-2B-native-chat-Q4_K_M-third-party-development",
+    "upstream": "Qwen/Qwen3.5-2B",
+    "intended_upstream_revision": "965dcc54bc9c0591873df0e9869c056a54d323d1",
+    "artifact_repository": "lmstudio-community/Qwen3.5-2B-GGUF",
+    "artifact_revision": "bb84e11355a036e28f080c7793fa6d22b7c4e344",
+    "artifact_path": "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf",
+    "artifact_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+    "artifact_bytes": 1270808032,
+    "quantization": "Q4_K_M",
+    "license": "Apache-2.0",
+    "conversion_lineage": "PARTIALLY_VERIFIED_DEVELOPMENT_ONLY"
+  },
+  "runtime": {
+    "backend_path": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+    "backend_build": "b11573-0f701c882",
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "chat_template_path": "docs/validation/p1d/development_readiness_v1/official_instruct_metadata/chat_template.jinja",
+    "chat_template_sha256": "0286b273dc0e7dbcc080469bf5b8e57b329c135db0de8a45cb16f80a8b0c4ce6",
+    "chat_template_kwargs": {"enable_thinking": false},
+    "threads": 4,
+    "threads_batch": 4,
+    "context_tokens": 4096,
+    "gpu_layers": 0,
+    "max_new_tokens": 96,
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "seed": 42,
+    "stop": [],
+    "ignore_eos": false,
+    "cache_prompt": false,
+    "warmup": false,
+    "parallel": 1,
+    "no_context_shift": true
+  },
+  "resource_budget": {
+    "requests": 168,
+    "maximum_generated_tokens": 16128,
+    "minimum_available_physical_ram_bytes": 3221225472,
+    "minimum_free_output_disk_bytes": 1073741824,
+    "actual_completion_inference_seconds_ceiling": 10080.0,
+    "batch_wall_seconds_ceiling": 14400.0,
+    "global_baseline": {
+      "generations_limit": 1200,
+      "generations_used": 340,
+      "generations_remaining": 860,
+      "inference_wall_seconds_ceiling": 72000,
+      "inference_wall_seconds_used": 1968.0195239999766,
+      "inference_wall_seconds_remaining": 70031.98047600003
+    }
+  },
+  "authorization": {
+    "execution_authorized": false,
+    "manifest_creation_authorized": false,
+    "tokenization_authorized": false,
+    "preflight_authorized": false,
+    "model_server_launch_authorized": false,
+    "maximum_native_tokenizer_calls_if_authorized": 168,
+    "maximum_live_server_tokenizer_checks_if_authorized": 168,
+    "maximum_tokenizer_operations_total_if_authorized": 336,
+    "maximum_generation_attempts_if_authorized": 168,
+    "retries": 0,
+    "hidden_warmups": 0
+  },
+  "bindings": {
+    "source_branch": "research/autonomous-personaslm",
+    "source_head": "c40667ad266082481b1850453f67784b593f3723",
+    "case_bank": {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/case_bank_v1.json",
+      "sha256": "b8304ce94b8a159de4d9e779137633a9bd30460113931edf74cbf277868a7dc0"
+    },
+    "blinded_human_review_schema": {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/blinded_human_review_schema_v1.json",
+      "sha256": "c72ed0c83131bc80aac54675c29cc4a3fd6ecb33d1055a00d45bf25e48bbbd7a"
+    },
+    "material_disjointness_audit": {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/material_disjointness_audit_v1.json",
+      "sha256": "9bbcd2b9a4dd5969bb72a38edaf676903da1389aec4abfbf820f630b94873b24"
+    },
+    "cumulative_budget_source": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_declarative_repair_v1/analysis_v1.json",
+      "sha256": "8972902387ac485030dc1526a02c64dabfee63b39f6b9314c26e8ec111381ab0"
+    },
+    "tokenizer_identity_source": {
+      "path": "docs/validation/p1d/budget_calibration_v1/frozen_manifest_v2.json",
+      "sha256": "510e46b214dda23dea2a3e5462d44982d25b7a9db022626a7a5a1ba504d5e039"
+    },
+    "prior_12_case_banks_for_disjointness": [
+      {
+        "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "sha256": "a93cd629c0d152e9eb2325399235882beaebf510d4b6e32b24724975554fab8c"
+      },
+      {
+        "path": "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/case_bank_v2.json",
+        "sha256": "8e849a0f272d3551fe414516c72daceb65743f56420832507e5d346f7ef65a9e"
+      }
+    ],
+    "runner_infrastructure": {
+      "path": "tools/p1_persona_dialogue_history_template_mechanism.py",
+      "sha256": "a220a522ee9691e7b12536f6271e568b0f85ad97f41a06785538b3f591a8a061"
+    }
+  },
+  "preexecution_state": {
+    "native_tokenizer_calls": 0,
+    "live_server_tokenizer_checks": 0,
+    "model_server_launches": 0,
+    "generation_attempts": 0,
+    "raw_responses": 0,
+    "human_review_records": 0,
+    "human_labels": 0
+  },
+  "stopping_rules": [
+    "Stop before any model launch unless a separate exact authorization, immutable native-token manifest, and passing official preflight exist.",
+    "Attempt each of the 168 frozen requests at most once, in frozen order, with zero retries and zero hidden warmups.",
+    "Abort before the next request if the inference-seconds or batch-wall ceiling would be exceeded.",
+    "Preserve partial append-only evidence after any failure; never restart or silently fill missing rows.",
+    "Do not create human labels automatically or reveal the mapping before valid blinded intake."
+  ],
+  "known_limitations": [
+    "The single-model study cannot establish cross-model generality.",
+    "Synthetic personas cannot establish real-speaker Persona Fidelity.",
+    "All history conditions are executed in one future batch, but NO_H versus H still bundles context length and additional entities.",
+    "Exact label/name choice is a constrained behavioral endpoint and does not by itself establish semantic quality.",
+    "The question was motivated by earlier outputs, although every case, target, persona, and exact template here is new.",
+    "No validated original algorithm is tested. Raw and declarative history are simple prompting baselines."
+  ]
+}

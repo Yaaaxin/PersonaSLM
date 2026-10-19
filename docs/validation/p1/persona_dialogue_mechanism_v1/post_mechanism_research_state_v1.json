@@ -1,0 +1,135 @@
+{
+  "schema_version": "personaslm_post_mechanism_research_state_v1",
+  "state_recorded_utc": "2026-10-18T16:57:15.4248896Z",
+  "researcher": "Yaxin ZHENG",
+  "paper_title": "Understanding the Effects of Persona Conditioning on Dialogue Reliability in Small Language Models",
+  "repository_snapshot": {
+    "branch": "research/autonomous-personaslm",
+    "head": "c40667ad266082481b1850453f67784b593f3723",
+    "git_commit_or_push_executed": false
+  },
+  "predecessor": {
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/post_candidate2_research_state_v1.json",
+    "sha256": "1489732ce936860d46fa0001bf1edc2328b65c3f7b5cde386563644558fbba65",
+    "preservation": "UNCHANGED"
+  },
+  "completed_generation_batches": {
+    "bounded_model_feasibility": {
+      "generations": 16,
+      "completion_inference_seconds": 159.95704690001094,
+      "result": "CANDIDATE_1_1_OF_8_CANDIDATE_2_2_OF_8_BOUNDED_SCREEN_NEGATIVE"
+    },
+    "synthetic_factorial_development": {
+      "generations": 48,
+      "completion_inference_seconds": 256.18798539999625,
+      "analysis": {
+        "path": "docs/validation/p1/persona_dialogue_factorial_v1/analysis_v1.json",
+        "sha256": "45c11615034d997acdd86987e26957d0e29912ac658b665506404f871be0f148"
+      },
+      "measurement_validity": {
+        "path": "docs/validation/p1/persona_dialogue_factorial_v1/measurement_validity_audit_v1.json",
+        "sha256": "80a653f4ceb365ad9030686492fd2b90510e434fa9315c2bb19d96fb94352c85",
+        "status": "FAILED_FOR_REGISTERED_SEMANTIC_ENDPOINTS"
+      },
+      "interpretation": "Actual development observations exist, but the frozen semantic scorer lacked sufficient coverage; the original validation bank was not executed."
+    },
+    "adaptive_synthetic_mechanism": {
+      "generations": 42,
+      "completion_inference_seconds": 252.60805219999565,
+      "generated_tokens": 1236,
+      "attempts": 42,
+      "results": 42,
+      "retries": 0,
+      "execution_audit": {
+        "path": "docs/validation/p1/persona_dialogue_mechanism_v1/execution_audit_v1.json",
+        "sha256": "6f2201716d7d7fbd1356827cd29891a1e1b000e44757fb16f5e7c329036a59e3",
+        "status": "PASS"
+      },
+      "analysis": {
+        "path": "docs/validation/p1/persona_dialogue_mechanism_v1/analysis_v2.json",
+        "sha256": "0e690501107c8031dd3774a8b7845e9b1cf2dc61d7969404d70738e7bb32cef6",
+        "status": "PASS_KEY_ONLY_SERIALIZATION_REPAIR",
+        "byte_identical_reproduction": true
+      },
+      "posthoc_boundary_sensitivity": {
+        "path": "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_v1.json",
+        "sha256": "e5585887f1ed951fd0a6e488a2b73d6d60774710559028e7b09172c809a56909",
+        "status": "COMPLETE_EXPLORATORY_POSTHOC_SENSITIVITY",
+        "selected_records": 11,
+        "byte_identical_reproduction": true,
+        "primary_analysis_replaced": false
+      },
+      "scientific_report": {
+        "path": "docs/validation/p1/persona_dialogue_mechanism_v1/scientific_report_v1.md",
+        "sha256": "69afdec516656280326cbf2b6b52c2d04da3ac4b2b8d72339e848ff43818a164"
+      }
+    }
+  },
+  "current_scientific_findings": [
+    "The exact 42-request batch completed with source, model, prompt, token, raw-output, stopping, latency, memory and hash-chain integrity.",
+    "Most registered current-preference and exact-history paired effects remain directionally unidentified because logical missing-outcome bounds span zero.",
+    "Neither generic structure nor names-only recency refresh demonstrated an advantage on current-preference choice.",
+    "Structure and refresh reduced the narrow dual-current-option mention endpoint, which is response structure rather than semantic correctness.",
+    "A generic response-boundary instrument censored all and only 11 responses beginning with the preregistered Persona-D expression 'My pick:', producing a reproducible evaluator-persona interaction and differential missingness.",
+    "No validated general Persona Fidelity, real-speaker effect, internal causal mechanism, or original algorithm has been established."
+  ],
+  "authorization_balances": {
+    "autonomous_generation_ceiling": 1200,
+    "generations_used": 106,
+    "generations_remaining": 1094,
+    "completion_inference_seconds_ceiling": 72000.0,
+    "completion_inference_seconds_used": 668.7530845000029,
+    "completion_inference_seconds_remaining": 71331.24691549999,
+    "historical_p1_requests_used": 80,
+    "historical_p1_requests_limit": 160,
+    "historical_budget_transferred": 0
+  },
+  "measurement_status": {
+    "automatic_exact_choice": "VALID_ONLY_FOR_NARROW_REGISTERED_CONSTRUCTIONS_WITH_MISSINGNESS_BOUNDS",
+    "general_linguistic_persona_fidelity": "NOT_VALIDATED",
+    "general_behavioral_persona_fidelity": "NOT_VALIDATED",
+    "human_semantic_review": {
+      "path": ".local/reviewer-packages/p1_stageb_candidate1_semantic_review_v1/stage_a_pointwise_REVIEW_TEMPLATE.csv",
+      "records": 16,
+      "completed_genuine_judgments": 0
+    },
+    "real_speaker_data": "NO_LAWFULLY_GOVERNED_COHORT_FOUND"
+  },
+  "independent_validation_status": {
+    "existing_val_d_e_bank": "NO_LONGER_INDEPENDENT_AFTER_42_REQUEST_MECHANISM_RUN",
+    "mechanism_study": "ADAPTIVE_UNSEEN_SYNTHETIC_CASES_NOT_CONFIRMATORY",
+    "cross_model_replication": "NOT_EXECUTED",
+    "human_validation": "NOT_EXECUTED",
+    "real_speaker_validation": "NOT_EXECUTED"
+  },
+  "algorithm_status": {
+    "structure_baseline": "NO_CURRENT_PREFERENCE_ADVANTAGE_ESTABLISHED",
+    "refresh_baseline": "NO_CURRENT_PREFERENCE_ADVANTAGE_ESTABLISHED",
+    "novel_algorithm": "NONE_VALIDATED_OR_CLAIMED"
+  },
+  "literature_monitoring": {
+    "date": "2026-10-18",
+    "status": "COMPLETED_FOR_CURRENT_DATE_NOT_REPEATED",
+    "novelty_boundary": "Generic temporal filtering, memory refresh and response structuring overlap prior art; no novelty claim authorized."
+  },
+  "next_scientifically_justified_action": {
+    "id": "INDEPENDENT_SYNTHETIC_SFH_REPLICATION_V2",
+    "status": "DESIGN_AND_IMPLEMENTATION_IN_PROGRESS_NOT_AUTHORIZED_NOT_EXECUTED_AT_THIS_CHECKPOINT",
+    "planned_scope": "Four new synthetic personas, twelve disjoint next-turn dialogue cases, C0-C7 plus N_style and N_history, 120 zero-retry generations, narrow automatic endpoints and logical missing-outcome bounds.",
+    "claim_limit": "Independent synthetic case replication only; not human, real-speaker, cross-model or confirmatory validation."
+  },
+  "privacy_and_reproducibility": {
+    "raw_response_content_embedded_in_public_report": false,
+    "private_raw_journal_preserved": true,
+    "analysis_reproduction": "PASS_LOCAL_PRIVATE_ARCHIVE",
+    "generation_reproduction": "CONFIGURATION_RECONSTRUCTABLE_NOT_BIT_IDENTICAL_GUARANTEED",
+    "public_clone_reproduction": "PARTIAL_RAW_JOURNALS_AND_MODEL_WEIGHT_REQUIRED"
+  },
+  "prohibitions": [
+    "Do not repeat any of the 106 completed generations or overwrite frozen evidence.",
+    "Do not reinterpret the failed two-candidate 7/8 screen as successful.",
+    "Do not present the post-hoc sensitivity as the registered primary result or as independent validation.",
+    "Do not invent human labels, consent, real-speaker provenance, calibrated significance, algorithmic novelty or publication readiness.",
+    "Do not commit, push, stage, rewrite Git history, train LoRA, or access MimooPet."
+  ]
+}

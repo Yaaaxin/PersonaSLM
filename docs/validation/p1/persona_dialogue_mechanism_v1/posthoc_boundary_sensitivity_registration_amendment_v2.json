@@ -1,0 +1,40 @@
+{
+  "schema_version": "personaslm_persona_dialogue_mechanism_posthoc_boundary_sensitivity_registration_amendment_v2",
+  "registered_utc": "2026-10-18T16:46:24.9432316Z",
+  "researcher": "Yaxin ZHENG",
+  "status": "CLERICAL_REQUEST_ID_CORRECTION_BEFORE_IMPLEMENTATION_OR_EXECUTION",
+  "parent_registration": {
+    "path": "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_registration_v1.json",
+    "sha256": "a1bdafcbe5cfce9e33b134b274bb316a4c1075da23d50adce5d8cc8312de0c53"
+  },
+  "reason": "The parent registration correctly froze the all-conditions predicate, total count, arm counts and regime counts, but its manually transcribed request-ID list named the Persona-D aligned F_H_STRUCTURE row instead of the Persona-D irrelevant F_H_STRUCTURE row. The independent read-only audit completed before implementation showed that the aligned row does not satisfy the predicate and the irrelevant row does. This amendment corrects only that identifier transcription before sensitivity code or execution.",
+  "correction": {
+    "remove_request_id": "pdlg_mech_v1_val_d_aligned_entry_f_h_structure",
+    "add_request_id": "pdlg_mech_v1_val_d_irrelevant_path_f_h_structure"
+  },
+  "effective_expected_selected_set_request_ids": [
+    "pdlg_mech_v1_val_d_aligned_entry_s_f_h",
+    "pdlg_mech_v1_val_d_aligned_entry_s_f_no_h",
+    "pdlg_mech_v1_val_d_aligned_entry_s_h",
+    "pdlg_mech_v1_val_d_conflicting_room_f_h_structure",
+    "pdlg_mech_v1_val_d_conflicting_room_s_f_h",
+    "pdlg_mech_v1_val_d_conflicting_room_s_f_no_h",
+    "pdlg_mech_v1_val_d_conflicting_room_s_h",
+    "pdlg_mech_v1_val_d_irrelevant_path_f_h_structure",
+    "pdlg_mech_v1_val_d_irrelevant_path_s_f_h",
+    "pdlg_mech_v1_val_d_irrelevant_path_s_f_no_h",
+    "pdlg_mech_v1_val_d_irrelevant_path_s_h"
+  ],
+  "unchanged": {
+    "inclusion_predicate": true,
+    "expected_count": 11,
+    "arm_counts": true,
+    "history_regime_counts": true,
+    "authorized_transformation": true,
+    "outcomes": true,
+    "integrity_rules": true,
+    "interpretation_limits": true,
+    "authorized_output_path": "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_v1.json",
+    "maximum_new_model_generations": 0
+  }
+}

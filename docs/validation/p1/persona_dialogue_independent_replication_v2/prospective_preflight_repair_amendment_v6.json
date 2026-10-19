@@ -1,0 +1,70 @@
+{
+  "schema_version": "personaslm_independent_replication_preflight_repair_amendment_v6",
+  "status": "FROZEN_PROSPECTIVE_REPAIR_NOT_YET_AUTHORIZED_NOT_EXECUTED",
+  "frozen_utc": "2026-10-18T17:29:35.6288568Z",
+  "purpose": "Repair one evidence-path lookup in the registered hardware preflight without changing the frozen prompts, token arrays, model, runtime, scoring, request order, resource ceilings, or generation allocation.",
+  "observed_failure": {
+    "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/preflight_v1.json",
+    "sha256": "2de0d11f9d7d9ec2062fd39c4df0cb690a1ee1dfd5fc277f873be79a7160c031",
+    "status": "FAIL",
+    "error_type": "KeyError",
+    "error_message": "'cumulative_authorization_after'",
+    "model_server_launches": 0,
+    "completion_calls": 0,
+    "new_model_generations": 0,
+    "interpretation": "The failure is an implementation-path error before model launch, not a hardware failure or a scientific result."
+  },
+  "root_cause": {
+    "baseline_path": "docs/validation/p1/persona_dialogue_mechanism_v1/analysis_v2.json",
+    "baseline_sha256": "0e690501107c8031dd3774a8b7845e9b1cf2dc61d7969404d70738e7bb32cef6",
+    "registered_incorrect_lookup": "document['cumulative_authorization_after']",
+    "corrected_lookup": "document['analysis']['cumulative_authorization_after']",
+    "scope": "Exactly one nested evidence lookup; the cumulative values themselves are unchanged."
+  },
+  "preserved_evidence": {
+    "original_runner": {
+      "path": "tools/p1_persona_dialogue_independent_replication.py",
+      "sha256": "0f1d52c64845e70e9abc33782847c5a46c86dd47d205df52df85aed24993edec"
+    },
+    "original_test": {
+      "path": "tests/test_p1_persona_dialogue_independent_replication.py",
+      "sha256": "7a68fa58774ab0b9c89371ca6867a9c759ddf5c1da2bb3a7663f8491b853f1f3"
+    },
+    "frozen_manifest": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/frozen_manifest_v1.json",
+      "sha256": "55673bc8f9a802fe22f9d4234cd0bea32e806a4d9f3386cd0e483fa1cc716485"
+    },
+    "original_execution_authorization": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/execution_authorization_v1.json",
+      "sha256": "79997cd2e021c92cfa77192311677f0b429ef34c496892d6875c068b02df2c62"
+    }
+  },
+  "repair_policy": {
+    "implementation": "A new wrapper must import the preserved original runner and may replace only the failing preflight call with a corrected versioned preflight.",
+    "preflight_output": "docs/validation/p1/persona_dialogue_independent_replication_v2/preflight_v2.json",
+    "write_policy": "CREATE_EXCLUSIVE_NO_OVERWRITE",
+    "separate_repair_authorization_required": true,
+    "maximum_new_tokenizer_calls": 0,
+    "maximum_generation_attempts": 96,
+    "retries": 0,
+    "hidden_warmups": 0,
+    "generation_allocation": "The original registered 96-request allocation is preserved; this amendment creates no additional generation budget.",
+    "run_policy": "A run is permitted only after a separately authorized, stored PASS preflight_v2 whose live bindings equal a fresh corrected preflight. The original no-repeat guards remain effective."
+  },
+  "unchanged_scientific_contract": [
+    "All 96 registered token arrays and request hashes remain unchanged.",
+    "C0-C7 remain the only executable conditions; N_STYLE and N_HISTORY remain deactivated with zero attempts.",
+    "The model, weights, tokenizer, backend, chat template, quantization, context, generation settings, scorers, factorial weights, and missing-outcome policy remain unchanged.",
+    "The cumulative baseline remains 106 generations and 668.7530845000028 completion-inference seconds before this allocation.",
+    "The global ceilings remain 1200 generations and 72000 completion-inference seconds.",
+    "The evidence remains a disjoint held-out synthetic controlled-choice stimulus replication, not natural dialogue, real-speaker validation, cross-model validation, or confirmatory inference."
+  ],
+  "scientific_effect": "NONE. This repair changes execution validity only and supplies no model observation, effect estimate, Persona Fidelity evidence, or algorithmic evidence.",
+  "prohibited_actions": [
+    "Do not overwrite or delete preflight_v1.json.",
+    "Do not alter the original runner, original test, frozen manifest, original execution authorization, tokenizer records, prompts, or token arrays.",
+    "Do not rerun registration or tokenization.",
+    "Do not launch a model server or issue a completion before preflight_v2 is authorized and passes.",
+    "Do not retry any generated request."
+  ]
+}

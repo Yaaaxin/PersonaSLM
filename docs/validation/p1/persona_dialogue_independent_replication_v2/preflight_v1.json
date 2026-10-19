@@ -1,0 +1,58 @@
+{
+  "checked_utc": "2026-10-18T17:27:09.341732+00:00",
+  "completion_calls": 0,
+  "error": {
+    "message": "'cumulative_authorization_after'",
+    "type": "KeyError"
+  },
+  "expected_bindings": {
+    "analysis_completion_amendment_sha256": "867aac85c5cc0962a657fa6befc4b05c1b11d877d46cfc901a8a43bb0a8751a3",
+    "baseline_sha256": "0e690501107c8031dd3774a8b7845e9b1cf2dc61d7969404d70738e7bb32cef6",
+    "case_bank_sha256": "a93cd629c0d152e9eb2325399235882beaebf510d4b6e32b24724975554fab8c",
+    "design_sha256": "628bedc18b8aa549cb165fbfb3f33ffbb889b5ad3090d7ef86f58112476c156c",
+    "prospective_amendment_sha256": "9cd70fceca8b1fb806bd6b3c3bcb4deccfd974830d2a5e762c1e75a45120d937",
+    "wording_clarification_sha256": "4cce2737b31022426a58cb7a0ef1e145c8096494dd67deb0b6ad00ad81f1c218"
+  },
+  "free_output_disk_bytes": 4494979072,
+  "memory_observation": {
+    "observed_utc": "2026-10-18T17:27:09.337343+00:00",
+    "pid": 11336,
+    "platform": "nt",
+    "process": {
+      "page_faults": 618231,
+      "pagefile_usage": 39899136,
+      "peak_pagefile_usage": 52654080,
+      "peak_working_set": 59342848,
+      "quota_nonpaged_pool": 16024,
+      "quota_paged_pool": 150040,
+      "quota_peak_nonpaged_pool": 16976,
+      "quota_peak_paged_pool": 150976,
+      "working_set": 46292992
+    },
+    "status": "observed",
+    "system": {
+      "available_extended": 0,
+      "available_pagefile": 14747197440,
+      "available_physical": 4682604544,
+      "available_virtual": 140733024038912,
+      "load_percent": 68,
+      "total_pagefile": 26657357824,
+      "total_physical": 14846197760,
+      "total_virtual": 140737488224256
+    }
+  },
+  "minimum_available_physical_ram_bytes": 3221225472,
+  "minimum_free_output_disk_bytes": 1073741824,
+  "model_server_launches": 0,
+  "new_model_generations": 0,
+  "observed_sha256": {
+    "analysis_completion_amendment": "867aac85c5cc0962a657fa6befc4b05c1b11d877d46cfc901a8a43bb0a8751a3",
+    "baseline": "0e690501107c8031dd3774a8b7845e9b1cf2dc61d7969404d70738e7bb32cef6",
+    "case_bank": "a93cd629c0d152e9eb2325399235882beaebf510d4b6e32b24724975554fab8c",
+    "design": "628bedc18b8aa549cb165fbfb3f33ffbb889b5ad3090d7ef86f58112476c156c",
+    "manifest": "55673bc8f9a802fe22f9d4234cd0bea32e806a4d9f3386cd0e483fa1cc716485",
+    "prospective_amendment": "9cd70fceca8b1fb806bd6b3c3bcb4deccfd974830d2a5e762c1e75a45120d937",
+    "wording_clarification": "4cce2737b31022426a58cb7a0ef1e145c8096494dd67deb0b6ad00ad81f1c218"
+  },
+  "status": "FAIL"
+}

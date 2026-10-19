@@ -1,0 +1,1301 @@
+{
+  "schema_version": "personaslm_manual_checkpoint_dependency_gaps_v2",
+  "status": "PARTIAL_NOT_STANDALONE",
+  "scope": "Inspected local source imports and exact document references; not a proof of complete runtime dependency discovery.",
+  "source_gaps": [
+    {
+      "path": "tests/test_p1_blinded_stage_a.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_candidate2_c0_controller.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_candidate2_pilot_materialization.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_persona_dialogue_disjoint_surface_validation_v2.py",
+      "withheld_dependencies": [
+        "tools/p1_persona_dialogue_disjoint_surface_validation_v2.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_persona_dialogue_disjoint_surface_validation_v3.py",
+      "withheld_dependencies": [
+        "tools/p1_persona_dialogue_disjoint_surface_validation_v3.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_persona_dialogue_disjoint_surface_validation_v3_replay.py",
+      "withheld_dependencies": [
+        "tools/p1_persona_dialogue_disjoint_surface_validation_v3.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_persona_dialogue_disjoint_surface_validation_v3_run.py",
+      "withheld_dependencies": [
+        "tools/p1_persona_dialogue_disjoint_surface_validation_v3.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_recovery_measurement_v2.py",
+      "withheld_dependencies": [
+        "tools/p1_recovery_measurement_v2.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_researcher_audit_integration.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py",
+        "tools/p1_recovery_measurement_v2.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_semantic_interrater_analyze.py",
+      "withheld_dependencies": [
+        "tools/p1_semantic_interrater_prepare.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_semantic_interrater_prepare.py",
+      "withheld_dependencies": [
+        "tools/p1_semantic_interrater_prepare.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_semantic_review_integration.py",
+      "withheld_dependencies": [
+        "tools/p1_semantic_review_package.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_semantic_review_package.py",
+      "withheld_dependencies": [
+        "tools/p1_semantic_review_package.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_stage_b_closeout.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_stage_b_execution_v2.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tests/test_p1_temporal_date_binding.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py",
+        "tools/p1_recovery_measurement_v2.py"
+      ]
+    },
+    {
+      "path": "tests/test_reproduce_p1_feasibility_analysis.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tests/test_reproduce_p1_feasibility_analysis_v2.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tools/p1_candidate2_c0_controller.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tools/p1_candidate2_pilot_materialization.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tools/p1_conditional_execution.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tools/p1_conditional_execution_v2.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tools/p1_conditional_materials.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tools/p1_recovery_closeout_v2.py",
+      "withheld_dependencies": [
+        "tools/p1_recovery_measurement_v2.py"
+      ]
+    },
+    {
+      "path": "tools/p1_researcher_audit_integration.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py",
+        "tools/p1_recovery_measurement_v2.py"
+      ]
+    },
+    {
+      "path": "tools/p1_semantic_interrater_analyze.py",
+      "withheld_dependencies": [
+        "tools/p1_semantic_interrater_prepare.py"
+      ]
+    },
+    {
+      "path": "tools/p1_stage_b_closeout.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tools/p1_stage_b_finalize.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tools/reproduce_p1_feasibility_analysis.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    },
+    {
+      "path": "tools/reproduce_p1_feasibility_analysis_v2.py",
+      "withheld_dependencies": [
+        "tools/p1_blinded_audit.py"
+      ]
+    }
+  ],
+  "document_gaps": [
+    {
+      "path": "docs/validation/p1/blinded_audit_stage_a_v1/manifest_index_frozen_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D0_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D1_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D2_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D3_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_minimal_temporal_SFH_pilot_v2.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/measurement_pilot_v1/A_C0_preflight_v1.json",
+      "withheld_dependencies": [],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC_preflight_v1.json",
+      "withheld_dependencies": [],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/measurement_pilot_v1/reproducibility_manifest_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/measurement_pilot_v1/A_C0/measurement_v1/AI_proposals_UNCONFIRMED_v1.csv",
+        "docs/validation/p1/measurement_pilot_v1/A_C0/measurement_v1/AI_proposals_UNCONFIRMED_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/A_C0/measurement_v1/automatic_v1_original_boundary_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/A_C0/measurement_v1/automatic_v1_review_text_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/A_C0/measurement_v1/automatic_v2_review_text_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/A_C0/measurement_v1/consequential_disagreements_v1.csv",
+        "docs/validation/p1/measurement_pilot_v1/A_C0/measurement_v1/disagreements_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/A_C0/measurement_v1/execution_integrity_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/A_C0/measurement_v1/human_review_without_AI_scores_v1.csv",
+        "docs/validation/p1/measurement_pilot_v1/A_C0/measurement_v1/joined_AI_proposals_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/A_C0/measurement_v1/masked_evidence_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/A_C0_manifest_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/B_FACTORIAL_manifest_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/AI_proposals_UNCONFIRMED_v1.csv",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/AI_proposals_UNCONFIRMED_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/automatic_v1_original_boundary_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/automatic_v1_review_text_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/automatic_v2_review_text_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/consequential_disagreements_v1.csv",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/disagreements_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/execution_integrity_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/human_review_without_AI_scores_v1.csv",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/joined_AI_proposals_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/masked_evidence_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/paired_case_comparison_v1.csv",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/paired_case_comparison_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/000.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/001.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/002.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/003.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/004.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/005.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/006.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/007.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/008.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/009.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/010.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/011.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/012.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/013.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/014.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/native_tokenizer/015.json",
+        "docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC_manifest_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/consolidated_researcher_review_index_v1.csv",
+        "docs/validation/p1/measurement_pilot_v1/dependency_inventory_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/fidelity_construct_audit_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/independent_fidelity_panel_v1.csv",
+        "docs/validation/p1/measurement_pilot_v1/independent_quality_panel_v1.csv",
+        "docs/validation/p1/measurement_pilot_v1/material_validity_proposals_v1.csv",
+        "docs/validation/p1/measurement_pilot_v1/materials_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/measurement_state_register_v1.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/000.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/001.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/002.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/003.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/004.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/005.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/006.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/007.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/008.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/009.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/010.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/011.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/012.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/013.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/014.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/015.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/016.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/017.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/018.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/019.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/020.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/021.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/022.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/023.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/024.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/025.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/026.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/027.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/028.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/029.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/030.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/A_C0/031.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/000.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/001.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/002.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/003.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/004.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/005.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/006.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/007.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/008.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/009.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/010.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/011.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/012.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/013.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/014.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/015.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/016.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/017.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/018.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/019.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/020.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/021.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/022.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/023.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/024.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/025.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/026.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/027.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/028.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/029.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/030.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/031.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/032.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/033.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/034.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/035.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/036.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/037.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/038.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/039.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/040.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/041.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/042.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/043.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/044.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/045.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/046.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/047.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/048.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/049.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/050.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/051.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/052.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/053.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/054.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/055.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/056.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/057.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/058.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/059.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/060.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/061.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/062.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/063.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/064.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/065.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/066.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/067.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/068.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/069.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/070.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/071.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/072.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/073.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/074.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/075.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/076.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/077.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/078.json",
+        "docs/validation/p1/measurement_pilot_v1/native_tokenizer/B_FACTORIAL/079.json",
+        "docs/validation/p1/measurement_pilot_v1/research_development_log_before_v1.md"
+      ],
+      "private_dependency_count": 739,
+      "private_dependency_sample": [
+        "results/p1_measurement_pilot/v1/C_DIAGNOSTIC_console_v1.txt",
+        "results/p1_measurement_pilot/v1/attempts/p1_measure_calibration_00_C0.json",
+        "results/p1_measurement_pilot/v1/attempts/p1_measure_calibration_00_diagnostic_concise.json"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/measurement_recovery_2x2_v1/manifest_binding_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/measurement_recovery_2x2_v1/diagnostic_manifest_frozen_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/measurement_recovery_2x2_v1/reproducibility_manifest_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/measurement_recovery_2x2_v1/case_inventory_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/diagnostic_manifest_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/000.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/001.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/002.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/003.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/004.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/005.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/006.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/007.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/008.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/009.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/010.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/011.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/012.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/013.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/014.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/015.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/016.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/017.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/018.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/019.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/original_C0_audit_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/prompt_comparisons_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/prospective_policy_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/static_integrity_verification_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/measurement_recovery_2x2_v2/manifest_binding_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/measurement_recovery_2x2_v2/diagnostic_manifest_frozen_v2.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/measurement_recovery_2x2_v2/preflight_v2.json",
+      "withheld_dependencies": [],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/measurement_recovery_2x2_v2/reproducibility_manifest_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/measurement_recovery_2x2_v1/case_inventory_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/diagnostic_manifest_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/000.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/001.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/002.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/003.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/004.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/005.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/006.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/007.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/008.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/009.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/010.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/011.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/012.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/013.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/014.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/015.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/016.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/017.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/018.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/native_tokenizer/019.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/original_C0_audit_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/prompt_comparisons_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/prospective_policy_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v1/static_integrity_verification_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/AI_proposals_UNCONFIRMED_v2.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/automatic_proposals_v2.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/descriptive_analysis_UNCONFIRMED_v2.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/diagnostic_manifest_frozen_v2.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/execution_integrity_v2.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/allocation_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/bank_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_pilot_manifest_candidate_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_calibration/000.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_calibration/001.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_calibration/002.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_calibration/003.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_calibration/004.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_calibration/005.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_calibration/006.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_calibration/007.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/000.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/001.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/002.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/003.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/004.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/005.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/006.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/007.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/008.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/009.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/010.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/011.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/012.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/013.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/014.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/015.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/016.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/017.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/018.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/019.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/020.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/021.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/022.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/023.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/024.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/025.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/026.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/027.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/028.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/029.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/030.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/031.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/032.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/033.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/034.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/035.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/036.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/037.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/038.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/039.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/040.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/041.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/042.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/043.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/044.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/045.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/046.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/047.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/048.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/049.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/050.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/051.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/052.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/053.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/054.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/055.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/056.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/057.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/058.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/059.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/060.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/061.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/062.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/063.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/064.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/065.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/066.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/067.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/068.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/069.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/070.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/071.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/072.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/073.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/074.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/075.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/076.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/077.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/078.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/native_tokenizer/fallback_pilot/079.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/validity_and_overlap_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/masked_AI_reinspection_UNCONFIRMED_v2.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/masked_semantic_view_v2.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/native_tokenizer/020.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/native_tokenizer/021.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/native_tokenizer/022.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/native_tokenizer/023.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/prompt_and_D0_integrity_v2.json"
+      ],
+      "private_dependency_count": 75,
+      "private_dependency_sample": [
+        "results/p1_measurement_pilot/v1/attempts/p1_measure_calibration_00_C0.json",
+        "results/p1_measurement_pilot/v1/attempts/p1_measure_calibration_00_diagnostic_concise.json",
+        "results/p1_measurement_pilot/v1/attempts/p1_measure_calibration_00_diagnostic_date_slots.json"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/analysis_reproduction_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/measurement_pilot_v1/B_FACTORIAL_manifest_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_pilot_manifest_candidate_v1.json",
+        "docs/validation/p1/model_feasibility_recovery_v1/candidate1_audit_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/analysis_reproduction_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/model_feasibility_recovery_v1/candidate1_audit_v1.json",
+        "docs/validation/p1/model_feasibility_recovery_v1/candidate2_audit_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/autonomous_authorization_ledger_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/stage_b_v1/stage_b_execution_evidence_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate1_download_receipt_v1.json",
+      "withheld_dependencies": [],
+      "private_dependency_count": 1,
+      "private_dependency_sample": [
+        "models/gguf/feasibility_candidates/smollm2-1.7b-instruct-6a7e7939/smollm2-1.7b-instruct-q4_k_m.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate1_preflight_attempt_v3.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/bank_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+        "docs/validation/p1/model_feasibility_recovery_v1/materialized_smollm2_1_7b_instruct_q4_k_m_v1.json"
+      ],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/feasibility_candidates/smollm2-1.7b-instruct-6a7e7939/smollm2-1.7b-instruct-q4_k_m.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_c0_controller_readiness_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/model_feasibility_recovery_v1/materialized_candidate2_disjoint_pilot_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_download_receipt_v2.json",
+      "withheld_dependencies": [],
+      "private_dependency_count": 1,
+      "private_dependency_sample": [
+        "models/gguf/feasibility_candidates/qwen2.5-3b-instruct-af75b7aa/qwen2.5-3b-instruct-q4_k_m.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_pilot_materialization_regression_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/model_feasibility_recovery_v1/materialized_candidate2_disjoint_pilot_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_preflight_attempt_v4.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/bank_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+        "docs/validation/p1/model_feasibility_recovery_v1/materialized_qwen2_5_3b_instruct_q4_k_m_v1.json"
+      ],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/feasibility_candidates/qwen2.5-3b-instruct-af75b7aa/qwen2.5-3b-instruct-q4_k_m.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/evaluator_validity_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/model_feasibility_recovery_v1/candidate1_audit_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/post_candidate2_regression_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/model_feasibility_recovery_v1/candidate2_audit_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/post_candidate2_research_state_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/model_feasibility_recovery_v1/candidate2_audit_v1.json",
+        "docs/validation/p1/model_feasibility_recovery_v1/materialized_qwen2_5_3b_instruct_q4_k_m_v1.json"
+      ],
+      "private_dependency_count": 1,
+      "private_dependency_sample": [
+        ".local/reviewer-packages/p1_stageb_candidate1_semantic_review_v1/stage_a_pointwise_REVIEW_TEMPLATE.csv"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/post_restart_research_state_v1.json",
+      "withheld_dependencies": [],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        ".local/literature-monitor/post_restart_snapshot_20261018T1315Z.json",
+        ".local/literature-monitor/post_restart_snapshot_20261018T1320Z_network_v2.json"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/prospective_freeze_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/allocation_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/bank_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_pilot_manifest_candidate_v1.json",
+        "docs/validation/p1/stage_b_v1/stage_b_execution_evidence_v1.json"
+      ],
+      "private_dependency_count": 4,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-tokenize.exe",
+        "models/gguf/feasibility_candidates/qwen2.5-3b-instruct-af75b7aa/qwen2.5-3b-instruct-q4_k_m.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/research_state_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_minimal_temporal_SFH_pilot_v2.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/bank_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_pilot_manifest_candidate_v1.json",
+        "docs/validation/p1/model_feasibility_recovery_v1/candidate1_audit_v1.json",
+        "docs/validation/p1/model_feasibility_recovery_v1/candidate2_materialization_receipt_v1.json",
+        "docs/validation/p1/model_feasibility_recovery_v1/materialized_qwen2_5_3b_instruct_q4_k_m_v1.json",
+        "docs/validation/p1/model_feasibility_recovery_v1/materialized_smollm2_1_7b_instruct_q4_k_m_v1.json",
+        "docs/validation/p1/stage_b_v1/stage_b_execution_evidence_v1.json"
+      ],
+      "private_dependency_count": 1,
+      "private_dependency_sample": [
+        ".local/literature-monitor/daily_snapshot_20261018T092857Z.json"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/semantic_interrater_analysis_readiness_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/model_feasibility_recovery_v1/semantic_interrater_calibration_plan_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/semantic_review_package_regression_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/model_feasibility_recovery_v1/semantic_review_package_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/semantic_review_package_regression_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/model_feasibility_recovery_v1/semantic_review_package_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/material_disjointness_audit_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/prospective_design_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/case_bank_v1.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json"
+      ],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/scientific_execution_withdrawal_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v1/case_bank_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/material_disjointness_audit_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/prospective_design_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/blinded_human_review_protocol_v2.json",
+        "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json"
+      ],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/scientific_execution_withdrawal_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/blinded_human_review_protocol_v2.json",
+        "docs/validation/p1/persona_dialogue_disjoint_surface_validation_v2/case_bank_v2.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_factorial_v1/preflight_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_factorial_v1/independent_validation_design_v1.json",
+        "docs/validation/p1/persona_dialogue_factorial_v1/prospective_design_v1.json"
+      ],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/execution_authorization_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_factorial_v1/independent_validation_design_v1.json",
+        "docs/validation/p1/persona_dialogue_factorial_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/case_bank_v1.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/case_bank_v1.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/execution_audit_v1.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json",
+        "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_design_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/execution_authorization_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_factorial_v1/independent_validation_design_v1.json",
+        "docs/validation/p1/persona_dialogue_factorial_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/case_bank_v1.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/frozen_manifest_v1.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/prospective_design_v2.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/case_bank_v1.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/execution_audit_v1.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json",
+        "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_design_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/preflight_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_factorial_v1/independent_validation_design_v1.json",
+        "docs/validation/p1/persona_dialogue_factorial_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/case_bank_v1.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/frozen_manifest_v1.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/prospective_design_v2.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/case_bank_v1.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/execution_audit_v1.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json",
+        "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_design_v1.json"
+      ],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/research_state_v2.json",
+      "withheld_dependencies": [],
+      "private_dependency_count": 1,
+      "private_dependency_sample": [
+        ".local/reviewer-packages/p1_stageb_candidate1_semantic_review_v1/stage_a_pointwise_REVIEW_TEMPLATE.csv"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/execution_authorization_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_factorial_v1/independent_validation_design_v1.json",
+        "docs/validation/p1/persona_dialogue_factorial_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/case_bank_v1.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/execution_audit_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json",
+        "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_design_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/preflight_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_factorial_v1/independent_validation_design_v1.json",
+        "docs/validation/p1/persona_dialogue_factorial_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/case_bank_v1.json",
+        "docs/validation/p1/persona_dialogue_history_template_mechanism_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/execution_audit_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json",
+        "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_design_v1.json"
+      ],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_declarative_repair_v1/execution_authorization_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_independent_replication_declarative_repair_v1/case_transform_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/execution_audit_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/frozen_manifest_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json"
+      ],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "results/p1_persona_dialogue_independent_replication/v2/runs/20261018T173447-1b35747a4af44756a1319781a2feb7d2/manifest.json",
+        "results/p1_persona_dialogue_independent_replication/v2/runs/20261018T173447-1b35747a4af44756a1319781a2feb7d2/summary.json"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_declarative_repair_v1/preflight_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_independent_replication_declarative_repair_v1/case_transform_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/execution_audit_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/frozen_manifest_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json"
+      ],
+      "private_dependency_count": 4,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf",
+        "results/p1_persona_dialogue_independent_replication/v2/runs/20261018T173447-1b35747a4af44756a1319781a2feb7d2/manifest.json"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_declarative_repair_v1/prospective_design_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_independent_replication_declarative_repair_v1/case_transform_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/execution_audit_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/frozen_manifest_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json"
+      ],
+      "private_dependency_count": 4,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf",
+        "results/p1_persona_dialogue_independent_replication/v2/runs/20261018T173447-1b35747a4af44756a1319781a2feb7d2/manifest.json"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_declarative_repair_v1/research_state_v1.json",
+      "withheld_dependencies": [],
+      "private_dependency_count": 1,
+      "private_dependency_sample": [
+        ".local/reviewer-packages/p1_stageb_candidate1_semantic_review_v1/stage_a_pointwise_REVIEW_TEMPLATE.csv"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/execution_authorization_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_factorial_v1/independent_validation_design_v1.json",
+        "docs/validation/p1/persona_dialogue_factorial_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_amendment_v3.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/execution_repair_authorization_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_factorial_v1/independent_validation_design_v1.json",
+        "docs/validation/p1/persona_dialogue_factorial_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/frozen_manifest_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_amendment_v3.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/preflight_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_factorial_v1/independent_validation_design_v1.json",
+        "docs/validation/p1/persona_dialogue_factorial_v1/prospective_design_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/frozen_manifest_v1.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_amendment_v3.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json"
+      ],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_analysis_completion_amendment_v5.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_amendment_v3.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_preflight_repair_amendment_v6.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/frozen_manifest_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_wording_clarification_v4.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_amendment_v3.json",
+        "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/analysis_v2_authorization_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_mechanism_v1/execution_audit_v1.json",
+        "docs/validation/p1/persona_dialogue_mechanism_v1/frozen_manifest_v2.json"
+      ],
+      "private_dependency_count": 3,
+      "private_dependency_sample": [
+        "results/p1_persona_dialogue_mechanism/adaptive_validation_v1/claim.json",
+        "results/p1_persona_dialogue_mechanism/adaptive_validation_v1/runs/20261018T163205-f99467d8295c4b628e23d285ade3f50b/manifest.json",
+        "results/p1_persona_dialogue_mechanism/adaptive_validation_v1/runs/20261018T163205-f99467d8295c4b628e23d285ade3f50b/summary.json"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/analysis_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_factorial_v1/execution_audit_v1.json",
+        "docs/validation/p1/persona_dialogue_factorial_v1/independent_validation_design_v1.json",
+        "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_design_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/post_mechanism_research_state_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_mechanism_v1/execution_audit_v1.json",
+        "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_v1.json"
+      ],
+      "private_dependency_count": 1,
+      "private_dependency_sample": [
+        ".local/reviewer-packages/p1_stageb_candidate1_semantic_review_v1/stage_a_pointwise_REVIEW_TEMPLATE.csv"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_authorization_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_registration_amendment_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_registration_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_reproduction_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_mechanism_v1/posthoc_boundary_sensitivity_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/preexecution_integrity_amendment_v4.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_mechanism_v1/frozen_manifest_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/preflight_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_factorial_v1/execution_audit_v1.json",
+        "docs/validation/p1/persona_dialogue_factorial_v1/independent_validation_design_v1.json",
+        "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_design_v1.json"
+      ],
+      "private_dependency_count": 2,
+      "private_dependency_sample": [
+        "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+        "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_measurement_amendment_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_design_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_parser_clarification_v3.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_design_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/researcher_authorization_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/persona_dialogue_mechanism_v1/frozen_manifest_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/researcher_audit_integration_v1/automatic_scorer_date_usage_audit_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D0_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D1_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D2_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D3_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_minimal_temporal_SFH_pilot_v2.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/researcher_audit_integration_v1/automatic_scorer_date_usage_audit_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D0_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D1_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D2_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D3_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_minimal_temporal_SFH_pilot_v2.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/researcher_audit_integration_v1/reproducibility_manifest_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/researcher_audit_integration_v1/date_binding_audit_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/researcher_audit_integration_v1/reproducibility_manifest_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/blinded_audit_stage_a_v1/reproducibility_manifest_stage_A_v1.json",
+        "docs/validation/p1/researcher_audit_integration_v1/date_binding_audit_v1.json"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    },
+    {
+      "path": "docs/validation/p1/stage_b_v1/reproducibility_manifest_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D0_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D1_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D2_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D3_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_minimal_temporal_SFH_pilot_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/stage_policy_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+        "docs/validation/p1/stage_b_v1/researcher_activation_source_v1.txt",
+        "docs/validation/p1/stage_b_v1/stage_b_execution_evidence_v1.json"
+      ],
+      "private_dependency_count": 449,
+      "private_dependency_sample": [
+        "results/p1_conditional_sfh/v1/runs/20261016T211841-ca844dad54ba434e87904cffed817a43/events/000001.json",
+        "results/p1_conditional_sfh/v1/runs/20261016T211841-ca844dad54ba434e87904cffed817a43/events/000002.json",
+        "results/p1_conditional_sfh/v1/runs/20261016T211841-ca844dad54ba434e87904cffed817a43/events/000003.json"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/stage_b_v1/reproducibility_manifest_v2.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/blinded_audit_stage_a_v1/blinded_researcher_audit_v1.csv",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D0_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D1_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D2_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_SFH_measurement_pilot_D3_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_minimal_temporal_SFH_pilot_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/stage_policy_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+        "docs/validation/p1/stage_b_v1/researcher_activation_source_v1.txt",
+        "docs/validation/p1/stage_b_v1/stage_b_execution_evidence_v1.json"
+      ],
+      "private_dependency_count": 449,
+      "private_dependency_sample": [
+        "results/p1_conditional_sfh/v1/runs/20261016T211841-ca844dad54ba434e87904cffed817a43/events/000001.json",
+        "results/p1_conditional_sfh/v1/runs/20261016T211841-ca844dad54ba434e87904cffed817a43/events/000002.json",
+        "results/p1_conditional_sfh/v1/runs/20261016T211841-ca844dad54ba434e87904cffed817a43/events/000003.json"
+      ]
+    },
+    {
+      "path": "docs/validation/p1/stage_b_v1/stage_b_decision_record_v1.json",
+      "withheld_dependencies": [
+        "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_minimal_temporal_SFH_pilot_v2.json",
+        "docs/validation/p1/blinded_audit_stage_a_v1/stage_policy_frozen_v1.json",
+        "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+        "docs/validation/p1/stage_b_v1/researcher_activation_source_v1.txt"
+      ],
+      "private_dependency_count": 0,
+      "private_dependency_sample": []
+    }
+  ],
+  "latest_pilot_required_private_artifacts": [
+    ".local/datasets/real-persona-chat/",
+    ".local/experiments/real_persona_chat_sfh_pilot_v1/materials_v1.json",
+    ".local/experiments/real_persona_chat_sfh_pilot_v1/execution_v1/frozen_manifest_v1.json",
+    ".local/experiments/real_persona_chat_sfh_pilot_v1/execution_v1/frozen_manifest_v1_1.json",
+    ".local/experiments/real_persona_chat_sfh_pilot_v1/execution_v1/runs/20261019T070752-5df1d2ab1c744cc28c3d0c3fd377a2ef/",
+    "docs/validation/p1/real_persona_chat_sfh_pilot_v1/human_review_protocol_v1.json"
+  ],
+  "separate_runtime_requirements": [
+    "Hash-matched GGUF weights and llama.cpp executable identified in prospective_execution_registration_v1_1.json; excluded from Git.",
+    "tokenizers runtime used from results/p1d_final_preparation/v1/tokenizer_runtime; not supplied by core pyproject dependencies.",
+    "Jinja2 sandbox runtime used from results/p1d_scientific_validation/v1/template_runtime; not supplied by core pyproject dependencies."
+  ],
+  "limits": [
+    "Some referenced historical evidence is intentionally absent; do not rewrite original references or falsify their presence.",
+    "The unchanged base HEAD supplies tracked modules, configurations and historical documents. This review did not cleanse all prior Git history.",
+    "Controlled-access restoration must preserve license, privacy, review sealing and original hashes; missing files are not permission to publish them.",
+    "No generation should be repeated merely to repair a missing public artifact."
+  ]
+}

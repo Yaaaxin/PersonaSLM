@@ -1,0 +1,43 @@
+{
+  "schema_version": "personaslm_persona_dialogue_mechanism_analysis_failure_v1",
+  "recorded_utc": "2026-10-18T16:37:32Z",
+  "status": "FAILED_DURING_JSON_SERIALIZATION_NO_ANALYSIS_V1_PUBLISHED",
+  "command": ".venv/Scripts/python.exe tools/p1_persona_dialogue_mechanism.py analyze --output docs/validation/p1/persona_dialogue_mechanism_v1/analysis_v1.json",
+  "exit_code": 1,
+  "failure": {
+    "exception": "TypeError",
+    "message": "'<' not supported between instances of 'NoneType' and 'str'",
+    "location": "json.dump(..., sort_keys=True) while serializing primary_arm_summary/F_H_STRUCTURE/selection_categories",
+    "cause": "The frozen scorer correctly preserved boundary-censored selection_category as null. Counter therefore produced a dictionary containing both null and string keys, which Python cannot sort together for JSON serialization.",
+    "calculation_before_serialization_completed": true,
+    "raw_outputs_changed": false,
+    "per_response_scores_changed": false,
+    "generation_requests": 0
+  },
+  "preserved_partial_file": {
+    "path": "docs/validation/p1/persona_dialogue_mechanism_v1/analysis_v1.json.tmp",
+    "sha256": "9db601cb72fb7b61b4782f280413c0b1254f120277527e4ec7142605cb673720",
+    "bytes": 23773,
+    "valid_complete_json": false,
+    "policy": "Preserve as failed software evidence; never treat as a result and never overwrite."
+  },
+  "bindings": {
+    "effective_manifest_sha256": "47f844ed4a65fb8c6742106a2e5f3b2346e8d1cf5231c2a100da182baaf177b5",
+    "effective_authorization_sha256": "1742e1672825f2fe2b7895b4a49f336c43f9aeef95598d72270ab9123f35b431",
+    "preflight_sha256": "67fce2c0335757476f6bb51f96596b12540618db7113de6034a2535b7e0ebc1f",
+    "run_summary_sha256": "850d214821d2f335fc0aa5a240ade05ccb67d1b4fdaa284575bdf3c1f0ffc26e",
+    "run_manifest_sha256": "179d1fb7ac0a4b68d3a389b43d8c0e53fd0debc3330686a92ab4741c18ccb496",
+    "execution_audit_sha256": "6f2201716d7d7fbd1356827cd29891a1e1b000e44757fb16f5e7c329036a59e3",
+    "run_directory": "results/p1_persona_dialogue_mechanism/adaptive_validation_v1/runs/20261018T163205-f99467d8295c4b628e23d285ade3f50b"
+  },
+  "permitted_correction": {
+    "scope": "Create a separate versioned analysis-v2 wrapper without editing the source-bound generation runner.",
+    "only_semantic_change": "Represent null Counter keys as the explicit JSON string BOUNDARY_CENSORED in selection-category and reason-support distributions.",
+    "numerical_change_authorized": false,
+    "score_change_authorized": false,
+    "exclusion_change_authorized": false,
+    "parser_change_authorized": false,
+    "raw_output_change_authorized": false,
+    "requirement": "Bind and test the wrapper before executing it; demonstrate that all non-key data equal the frozen runner's in-memory analysis."
+  }
+}

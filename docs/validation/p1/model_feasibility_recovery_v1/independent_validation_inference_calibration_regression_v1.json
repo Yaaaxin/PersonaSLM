@@ -1,0 +1,66 @@
+{
+  "schema_version": "personaslm_p1_independent_validation_inference_calibration_regression_v1",
+  "recorded_utc": "2026-10-18T14:06:08.6630684Z",
+  "status": "PASS_REPRODUCIBLE_NEGATIVE_CALIBRATIONS_AND_BOUNDS_EXTENSION",
+  "predecessor": {
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_multiplicity_regression_v1.json",
+    "sha256": "0eee7d078e5d01ce5d66cf8beafa7914d5047049982a23e0a981f0f86a0479a6",
+    "preservation": "UNCHANGED"
+  },
+  "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_p1_model_feasibility_recovery.py tests/test_p1_evaluator_validity.py tests/test_reproduce_p1_feasibility_analysis.py tests/test_literature_monitor.py tests/test_literature_monitor_arxiv_doi_dedup.py tests/test_literature_review_addendum.py tests/test_windows_literature_scheduler.py tests/test_post_restart_literature_review.py tests/test_p1_independent_validation_precision.py tests/test_p1_semantic_review_package.py tests/test_p1_semantic_review_integration.py tests/test_p1_independent_validation_missingness.py tests/test_p1_candidate2_pilot_materialization.py tests/test_p1_candidate2_c0_controller.py tests/test_p1_independent_validation_multiplicity.py tests/test_p1_independent_validation_test_calibration.py tests/test_p1_independent_validation_test_calibration_v2.py tests/test_p1_independent_validation_missingness_v2.py",
+  "result": {
+    "passed": 113,
+    "failed": 0,
+    "skipped": 0,
+    "wall_seconds_reported_by_pytest": 156.19,
+    "warning_count": 1,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "two_way_t7_calibration": {
+    "decision": "DOES_NOT_MEET_DECLARED_SYNTHETIC_GLOBAL_NULL_CALIBRATION_RULE",
+    "artifact_path": "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_test_calibration_v1.json",
+    "artifact_sha256": "e54ca677e770469c6c22fcc39ed1ba947321c213056f77a51d2b0d181d05a135",
+    "tool_sha256": "ca1617ce97183c9a680be41641ca977186f6fd26f0cfeffa8694f07bace0dfc9",
+    "test_sha256": "e189cd4b90e33c36d534e5f1a693aab5fdb9ac83988be7c41c68780de14f1a93",
+    "replicates_per_scenario": 3000,
+    "scenarios": 3,
+    "maximum_global_null_holm_fwer_wilson_upper_95": 0.08708986331081826,
+    "maximum_marginal_type1_wilson_upper_95": 0.069428958523103,
+    "maximum_untestable_nonpositive_variance_fraction": 0.006666666666666667
+  },
+  "speaker_t47_finite_template_calibration": {
+    "decision": "DOES_NOT_MEET_DECLARED_SYNTHETIC_GLOBAL_NULL_CALIBRATION_RULE",
+    "recommendation": "NO_CALIBRATED_CONFIRMATORY_TEST_IDENTIFIED",
+    "artifact_path": "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_test_calibration_v2.json",
+    "artifact_sha256": "3964f3eaaf82083d11d8c77bd000df8dbc96157e37fec1ccd1e82e73371c44c5",
+    "tool_sha256": "20b2a174798225f6d0e5f849f88122fa5203b8707f6b81b4607d52a3a3329d03",
+    "test_sha256": "2a3b30870e38043a5ac748213fc2ecb093199fac3f629a3fdbb1ecda923459e9",
+    "replicates_per_scenario": 3000,
+    "scenarios": 4,
+    "maximum_global_null_holm_fwer_wilson_upper_95": 0.05767559328794296,
+    "maximum_marginal_type1_wilson_upper_95": 0.06978376456810004,
+    "maximum_untestable_nonpositive_variance_fraction": 0.0006666666666666666
+  },
+  "missingness_extension": {
+    "status": "PROSPECTIVE_11_CONTRAST_EXTENSION_PENDING_RESEARCHER_AND_CONTROL_ADOPTION",
+    "inferential_boundary": "NO_CALIBRATED_CONFIRMATORY_TEST_IDENTIFIED",
+    "artifact_path": "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_missingness_policy_v2.json",
+    "artifact_sha256": "b46067578c16d312e7b445e28a59829b65f7bb42141074bf63746d2cb59e1730",
+    "tool_sha256": "ad472c502b2d09e9d2cdf8009747240c83a78538a25739fbd84173b439ebcea7",
+    "test_sha256": "bba854564e0aa35a5ae3e796ab4834da7346b4307da2c1030bac1379f05b0c0a",
+    "contrasts": 11,
+    "neutral_contrasts": [
+      "C1-N_style",
+      "C3-N_history"
+    ],
+    "cohort_authorized": false
+  },
+  "execution_impact": {
+    "autonomous_generations_used": 8,
+    "candidate2_generations": 0,
+    "new_inference_seconds": 0.0,
+    "human_annotations": 0,
+    "historical_ledger_modified": false,
+    "git_stage_commit_or_push": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "attempted": {
+    "A_C0": 32,
+    "B_FACTORIAL": 0,
+    "C_DIAGNOSTIC": 16
+  },
+  "authorization_id": "P1_ACCELERATED_MEASUREMENT_20261015_V1",
+  "remaining_authorization": {
+    "A_C0": 0,
+    "B_FACTORIAL": 80,
+    "C_DIAGNOSTIC": 32
+  },
+  "remaining_unreserved": {
+    "A_C0": 0,
+    "B_FACTORIAL": 80,
+    "C_DIAGNOSTIC": 32
+  },
+  "reserved": {
+    "A_C0": 32,
+    "B_FACTORIAL": 0,
+    "C_DIAGNOSTIC": 16
+  },
+  "retry_policy": "Attempt files are exclusive and never removed. Ambiguous transport outcomes consume an attempt.",
+  "total_attempted": 48,
+  "total_remaining": 112
+}

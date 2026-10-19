@@ -1,0 +1,11 @@
+{
+  "D0_policy": "Immutable original recommendations remain in the reviewer CSV; this new reinspection is retained separately.",
+  "assessment_sha256": "6eb4b4469749e8a0d9369ed025c42f2ab249932fbe7fce2704003114bbfca36d",
+  "human_review_timestamp": null,
+  "independent_human_annotators": 0,
+  "masked_view_sha256": "85209a0daa3389805ef8e5ae4bcc53787e701248e22af633324452f9996450f7",
+  "masking_limits": "Question cardinality and familiar archived outputs can reveal assignment. The assistant had constructed stimuli and knew earlier outcomes. Not independent blind validation.",
+  "recorded_by_software_utc": "2026-10-15T11:34:37.909026+00:00",
+  "researcher_confirmed_records": 0,
+  "source": "Current assistant item-by-item reading, no external scorer model calls"
+}

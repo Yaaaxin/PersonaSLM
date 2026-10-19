@@ -1,0 +1,24 @@
+{
+  "action": "materialize",
+  "authorization_usage_observed": {
+    "actual_model_inference_wall_seconds": 0.0,
+    "actual_model_inference_wall_seconds_status": "KNOWN_COMPLETED_OR_FAILED_HTTP_INTERVALS",
+    "attempts_by_candidate": {
+      "qwen2_5_3b_instruct_q4_k_m": 0,
+      "smollm2_1_7b_instruct_q4_k_m": 0
+    },
+    "authorization_id": "P1_AUTONOMOUS_MODEL_FEASIBILITY_20261017_V1",
+    "historical_ledger_untouched": true,
+    "new_local_cpu_generations": 0,
+    "remaining_generations": 1200,
+    "remaining_inference_wall_seconds": 72000.0,
+    "run_count": 0,
+    "unresolved_in_flight_completion_requests": 0
+  },
+  "candidate_id": "smollm2_1_7b_instruct_q4_k_m",
+  "error_message": "Jinja2 is required for offline native-template materialization",
+  "error_type": "RuntimeError",
+  "generation_requests_in_failed_action": 0,
+  "software_recorded_utc": "2026-10-17T18:38:17.536396+00:00",
+  "status": "BLOCKED"
+}

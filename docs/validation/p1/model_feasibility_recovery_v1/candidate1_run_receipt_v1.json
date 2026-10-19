@@ -1,0 +1,31 @@
+{
+  "answer_states": {
+    "CURRENT_VALUE_ADOPTION": 1,
+    "OUTDATED_VALUE_ADOPTION": 1,
+    "UNVERIFIABLE_ANSWER": 6
+  },
+  "attempted": 8,
+  "authorization_usage_after_run": {
+    "actual_model_inference_wall_seconds": 65.87628550000954,
+    "actual_model_inference_wall_seconds_status": "KNOWN_COMPLETED_OR_FAILED_HTTP_INTERVALS",
+    "attempts_by_candidate": {
+      "qwen2_5_3b_instruct_q4_k_m": 0,
+      "smollm2_1_7b_instruct_q4_k_m": 8
+    },
+    "authorization_id": "P1_AUTONOMOUS_MODEL_FEASIBILITY_20261017_V1",
+    "historical_ledger_untouched": true,
+    "new_local_cpu_generations": 8,
+    "remaining_generations": 1192,
+    "remaining_inference_wall_seconds": 71934.12371449999,
+    "run_count": 1,
+    "unresolved_in_flight_completion_requests": 0
+  },
+  "automatic_success": 1,
+  "candidate_id": "smollm2_1_7b_instruct_q4_k_m",
+  "complete": true,
+  "completed_results": 8,
+  "inference_wall_seconds_observed": 65.87628550000954,
+  "proceed": false,
+  "status": "PASS",
+  "threshold": 7
+}

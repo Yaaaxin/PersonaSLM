@@ -1,0 +1,41 @@
+{
+  "schema_version": "personaslm_primary_source_review_addendum_v1",
+  "review_date": "2026-10-19",
+  "scope": "Targeted real-speaker dataset and longitudinal-memory review; not a repeat of the completed daily metadata collection.",
+  "records": [
+    {
+      "stable_id": "acl:2023.paclic-1.85",
+      "title": "RealPersonaChat: A Realistic Persona Chat Corpus with Interlocutors' Own Personalities",
+      "status": "FORMALLY_PUBLISHED_CONFERENCE_PROCEEDINGS",
+      "venue": "PACLIC 2023",
+      "primary_source": "https://aclanthology.org/2023.paclic-1.85/",
+      "source_pdf_sha256": "680c2fdcbe83cebe5e19272c7df90828a27d8a08d28be0a75ffffa343cf1f3b4",
+      "released_dataset": "https://github.com/nu-dialogue/real-persona-chat",
+      "dataset_release": "v1.0.0",
+      "dataset_revision": "28d0b6b3865b29cabc26c230a2db37cdf315e937",
+      "verified_methods": "The study recruited 233 Japanese participants, collected each participant's own ten-sentence persona and personality questionnaires, and collected repeated free text-chat dialogues. The paper reports Nagoya University ethics approval and prior participant agreement to public release. The released corpus is CC BY-SA 4.0 and masks personal information.",
+      "personaslm_overlap": "Direct real-speaker persona, style, fact, and repeated-history material. It supplies the closest open basis found for an aggregate S/F/H study.",
+      "decision": "Use only pseudonymous aggregate non-impersonation research; keep raw material ignored and local; exclude demographics/personality scales; use speaker- and partner-disjoint partitions; do not publish row-level prompts or generations."
+    },
+    {
+      "stable_id": "arxiv:2610.01780v3",
+      "title": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+      "status": "ARXIV_PREPRINT_NOT_VERIFIED_AS_PEER_REVIEWED",
+      "version_date": "2026-10-08",
+      "primary_source": "https://arxiv.org/html/2610.01780v3",
+      "source_pdf_sha256": "c41de50041d5bfcbcb06eee2985c0613240b8e4edadb409bec94c15cb7549c48",
+      "dataset_card": "https://huggingface.co/datasets/Quislab/RealCompanion",
+      "verified_methods": "The preprint reports ten consented human-AI relationships, 27,218 messages over 36-120 days, evidence-linked profile/persona and chat/question items, and a random-sample estimate that 3.4% of messages require earlier context. All released turns are rewritten during anonymization. The authors disclose special-category GDPR data, internal rather than independent ethics review, and no institutional review board.",
+      "usage_constraints": "Controlled access; evaluation and non-weight-changing system study only; no model training; no re-hosting; aggregate publication only; temporary indexes and stores must be deleted after an evaluation.",
+      "personaslm_overlap": "Direct novelty collision for selective long-term memory, restraint, evidence-linked persona reconstruction, and real-conversation reliability. Rewritten wording makes it unsuitable as ground truth for linguistic style fidelity.",
+      "decision": "Do not download in the current study. Treat it as a required restricted F/H reliability comparator if access and governance are later approved; do not claim novelty for merely deciding when history matters."
+    }
+  ],
+  "novelty_update": "Simple history injection, history-versus-profile comparison, and generic selective-memory or retrieval-restraint claims are occupied. A defensible PersonaSLM contribution must combine controlled S/F/H effects, valid semantic and style measurement, reliability-fidelity trade-offs, CPU-small-model evidence, and independent validation.",
+  "experimental_changes": "No frozen experiment is changed. RealPersonaChat is admitted only to a new development pathway; RealCompanion is not downloaded or executed.",
+  "limitations": [
+    "Primary-source claims were reviewed by an AI research agent and are not human-confirmed.",
+    "Neither paper's reported model results were independently reproduced.",
+    "Dataset permission is not equivalent to permission for identifiable-person imitation."
+  ]
+}

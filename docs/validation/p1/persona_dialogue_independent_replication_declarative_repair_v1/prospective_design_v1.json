@@ -1,0 +1,259 @@
+{
+  "schema_version": "personaslm_independent_replication_declarative_repair_prospective_design_v1",
+  "status": "FROZEN_PROSPECTIVE_OUTPUT_INFORMED_DEVELOPMENT_NOT_AUTHORIZED_NOT_EXECUTED",
+  "frozen_utc": "2026-10-18T19:40:38.5232496Z",
+  "researcher": "Yaxin ZHENG",
+  "study_identity": "P1_PERSONA_DIALOGUE_INDEPENDENT_REPLICATION_DECLARATIVE_REPAIR_V1",
+  "evidence_level": "OUTPUT_INFORMED_SYNTHETIC_DEVELOPMENT",
+  "scientific_question": "In the completed 12-case synthetic S/F/H replication, does replacing only the archived assistant's raw recommendation first sentence with a declarative choice sentence reduce surface-frame recurrence, restore deterministic exact-choice measurement, and yield bounded descriptive S/F/H estimates when the original H=0 observations are reused without regeneration?",
+  "hypothesis": "The archived first-sentence recommendation frame is a reproducible surface interference source. Reframing that sentence as a declarative past choice should increase exact-choice resolution and reduce raw-frame recurrence in H=1 cells, without establishing a semantic memory mechanism.",
+  "output_informed_status": {
+    "explicit": true,
+    "source": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/analysis_v1.json",
+      "sha256": "8d50119d7e91f07a039649a85e4ffd11d007295901130db7b5603ba910776ddf"
+    },
+    "observed_trigger": "The completed raw-history H=1 cells had severe exact-choice missingness and repeated the archived recommendation surface. The intervention and endpoints were selected after those outputs were known.",
+    "allowed_claim": "Output-informed descriptive cross-batch association for a simple declarative-history baseline on this fixed synthetic bank and model configuration.",
+    "forbidden_claims": [
+      "independent validation",
+      "confirmatory inference",
+      "real-speaker evidence",
+      "broad Persona Fidelity",
+      "causal internal-memory mechanism",
+      "algorithmic novelty",
+      "validated algorithm"
+    ]
+  },
+  "bindings": {
+    "source_branch": "research/autonomous-personaslm",
+    "source_head": "c40667ad266082481b1850453f67784b593f3723",
+    "parent_design": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/prospective_design_v2.json",
+      "sha256": "628bedc18b8aa549cb165fbfb3f33ffbb889b5ad3090d7ef86f58112476c156c"
+    },
+    "parent_case_bank": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json",
+      "sha256": "a93cd629c0d152e9eb2325399235882beaebf510d4b6e32b24724975554fab8c"
+    },
+    "parent_frozen_manifest": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/frozen_manifest_v1.json",
+      "sha256": "55673bc8f9a802fe22f9d4234cd0bea32e806a4d9f3386cd0e483fa1cc716485"
+    },
+    "parent_execution_audit": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_v2/execution_audit_v1.json",
+      "sha256": "ed74b2f0b11c3c4a7233d290bf8ca8121b065e311765419fbc3166e9d4afb118",
+      "integrity_status": "PASS"
+    },
+    "parent_run_manifest": {
+      "path": "results/p1_persona_dialogue_independent_replication/v2/runs/20261018T173447-1b35747a4af44756a1319781a2feb7d2/manifest.json",
+      "sha256": "265cc8aa596a96bd1a4f30deb033d0dac938d2f15c8ad33258adbc7b690cf07e"
+    },
+    "parent_run_summary": {
+      "path": "results/p1_persona_dialogue_independent_replication/v2/runs/20261018T173447-1b35747a4af44756a1319781a2feb7d2/summary.json",
+      "sha256": "455d389fe252c1f4938f0a57994a3994b4631f3d2a6e9088ebc15dcd2cea4773",
+      "status": "PASS"
+    },
+    "current_budget_evidence": {
+      "path": "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/analysis_v2.json",
+      "sha256": "b1afd391e9f3fedeb4a1dc920d5b8de242847869203ea52d097ceb4219270104"
+    },
+    "case_transform": {
+      "path": "docs/validation/p1/persona_dialogue_independent_replication_declarative_repair_v1/case_transform_v1.json",
+      "sha256": "f1f1bb31d9e088cf7ffa5f9356a43323bd2217a1585826186fe4c3a13ee86c3b"
+    }
+  },
+  "reuse_and_generation_policy": {
+    "analysis_cells": ["C0", "C1", "C2", "C3", "C4", "C5", "C6", "C7"],
+    "archived_h0_conditions": ["C0", "C1", "C2", "C4"],
+    "archived_h0_results": 48,
+    "archived_h0_policy": "Read the original completed raw event records through the parent integrity replay and carry their raw response objects into the repaired analysis without serialization, editing, rescoring-dependent exclusion, or model regeneration.",
+    "new_h1_conditions": ["C3", "C5", "C6", "C7"],
+    "new_h1_requests": 48,
+    "archived_raw_h1_policy": "Retain the original 48 raw-history H=1 observations as historical evidence and as the registered paired repair baseline; they do not occupy repaired factorial H=1 cells.",
+    "no_regeneration": "C0, C1, C2, and C4 must never be sent to a model under this study identity.",
+    "combined_analysis_rows": 96,
+    "new_generations_if_authorized_and_complete": 48
+  },
+  "intervention": {
+    "name": "DECLARATIVE_HISTORY_FIRST_SENTENCE_BASELINE",
+    "novelty_status": "SIMPLE_NON_NOVEL_BASELINE",
+    "eligible_conditions": ["C3", "C5", "C6", "C7"],
+    "raw_form": "I recommend the <exact archived selected target>.",
+    "declarative_form": "My choice was <exact archived selected target>.",
+    "factor_isolation": "Within each condition and case, only the archived assistant first sentence changes. Its second sentence, target, reason, role, preceding archived user turn, subsequent current user turn, system instruction, current notes, and S/F materials remain byte-identical to the parent request.",
+    "semantic_limit": "Recommendation and declarative-past-choice speech acts are not semantically identical; wording, token count, and speech-act force change together."
+  },
+  "request_order": {
+    "method": "Filter the 96 requests in the SHA-bound parent frozen manifest to C3/C5/C6/C7, preserve their relative order, and renumber contiguously from 0 to 47.",
+    "request_id_rule": "Append '__declarative_repair_v1' to the exact parent request_id.",
+    "expected_requests": 48,
+    "requests_per_condition": 12,
+    "requests_per_case": 4,
+    "retries": 0
+  },
+  "model": {
+    "label": "Qwen3.5-2B-native-chat-Q4_K_M-third-party-development",
+    "upstream": "Qwen/Qwen3.5-2B",
+    "intended_upstream_revision": "965dcc54bc9c0591873df0e9869c056a54d323d1",
+    "artifact_repository": "lmstudio-community/Qwen3.5-2B-GGUF",
+    "artifact_revision": "bb84e11355a036e28f080c7793fa6d22b7c4e344",
+    "artifact_path": "models/gguf/instruct_candidates/lmstudio-bb84e113/Qwen3.5-2B-Q4_K_M.gguf",
+    "artifact_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+    "artifact_bytes": 1270808032,
+    "quantization": "Q4_K_M",
+    "license": "Apache-2.0",
+    "conversion_lineage": "PARTIALLY_VERIFIED_DEVELOPMENT_ONLY"
+  },
+  "runtime": {
+    "backend_path": "bin/llama.cpp/llama-b11573-bin-win-cpu-x64/llama-server.exe",
+    "backend_build": "b11573-0f701c882",
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "chat_template_path": "docs/validation/p1d/development_readiness_v1/official_instruct_metadata/chat_template.jinja",
+    "chat_template_sha256": "0286b273dc0e7dbcc080469bf5b8e57b329c135db0de8a45cb16f80a8b0c4ce6",
+    "chat_template_kwargs": {"enable_thinking": false},
+    "threads": 4,
+    "threads_batch": 4,
+    "context_tokens": 4096,
+    "gpu_layers": 0,
+    "max_new_tokens": 96,
+    "temperature": 0,
+    "top_p": 1,
+    "seed": 42,
+    "stop": [],
+    "ignore_eos": false,
+    "cache_prompt": false,
+    "warmup": false,
+    "parallel": 1,
+    "no_context_shift": true
+  },
+  "registered_measurement": {
+    "automatic_endpoints": {
+      "selection_resolution": "Complete-denominator diagnostic: 1 when the frozen parent exact selector resolves a single current or archived target; 0 for an assessable unresolved or multiple result; null only for boundary-censored or truncated output.",
+      "current_named_selection": "Reuse the frozen parent exact selector without alias changes: 1 for a resolved current target, 0 for a resolved archived target, null otherwise.",
+      "current_preference_choice": "Reuse the frozen parent exact selector: 1/0 only for a resolved current target according to frozen preferred_option; null otherwise.",
+      "history_target_selection": "Reuse the frozen parent exact selector: 1 for the exact archived selected target, 0 for a resolved current target, null otherwise.",
+      "surface_style_uptake": "Reuse the frozen parent all-components surface matcher. This is prompt-template adherence, not broad linguistic Persona Fidelity.",
+      "raw_recommendation_frame_recurrence": "Complete-denominator lexical diagnostic: normalized first sentence begins exactly with 'i recommend the '. It is not semantic copying.",
+      "full_canonical_both": "Reuse the frozen parent exact bounded check for both current canonical options.",
+      "exact_current_note_support": "Reuse the frozen parent three-state exact-cue endpoint as secondary only; unresolved paraphrases remain missing rather than zero.",
+      "outdated_value_adoption": "Reuse the frozen parent rule only where prospectively applicable to OUTDATED_CONFLICTING C6/C7 cells."
+    },
+    "human_only_endpoints": [
+      "semantic response relevance",
+      "semantic factual support",
+      "conversational coherence",
+      "broad linguistic Persona Fidelity",
+      "behavioral Persona Fidelity",
+      "semantic answer completeness"
+    ],
+    "human_label_policy": "No AI-generated or inferred human labels. Human-only endpoints remain unavailable until a genuine blinded review is prospectively administered.",
+    "missingness": "Never recode unresolved, inapplicable, boundary-censored, or truncated values as zero. Report counts, resolved denominators, complete-case estimates, and logical missing-outcome lower/upper bounds over every eligible slot.",
+    "scorer_freeze": "The parent automatic selector and style implementation are reused unchanged. The two added lexical diagnostics are frozen before any new output."
+  },
+  "estimands": {
+    "primary_repair_contrasts": {
+      "DECLARATIVE_H1_MINUS_ARCHIVED_RAW_H1": {
+        "pairing": "Same case and same C3/C5/C6/C7 condition across the new declarative request and preserved parent raw-history request.",
+        "execution_batch_alias": "The archived raw observation and new declarative observation come from different execution batches. Their paired difference is a descriptive cross-batch association and must not be attributed causally to wording alone.",
+        "metrics": [
+          "selection_resolution",
+          "current_named_selection",
+          "current_preference_choice",
+          "history_target_selection",
+          "raw_recommendation_frame_recurrence",
+          "surface_style_uptake",
+          "outdated_value_adoption (only OUTDATED_CONFLICTING C6/C7 slots)"
+        ]
+      }
+    },
+    "repaired_factorial_weights": {
+      "S": {"C0": -0.25, "C1": 0.25, "C2": -0.25, "C3": -0.25, "C4": 0.25, "C5": 0.25, "C6": -0.25, "C7": 0.25},
+      "F": {"C0": -0.25, "C1": -0.25, "C2": 0.25, "C3": -0.25, "C4": 0.25, "C5": -0.25, "C6": 0.25, "C7": 0.25},
+      "H_DECLARATIVE": {"C0": -0.25, "C1": -0.25, "C2": -0.25, "C3": 0.25, "C4": -0.25, "C5": 0.25, "C6": 0.25, "C7": 0.25},
+      "SxF": {"C0": 0.5, "C1": -0.5, "C2": -0.5, "C3": 0.5, "C4": 0.5, "C5": -0.5, "C6": -0.5, "C7": 0.5},
+      "SxH_DECLARATIVE": {"C0": 0.5, "C1": -0.5, "C2": 0.5, "C3": -0.5, "C4": -0.5, "C5": 0.5, "C6": -0.5, "C7": 0.5},
+      "FxH_DECLARATIVE": {"C0": 0.5, "C1": 0.5, "C2": -0.5, "C3": -0.5, "C4": -0.5, "C5": -0.5, "C6": 0.5, "C7": 0.5},
+      "SxFxH_DECLARATIVE": {"C0": -1.0, "C1": 1.0, "C2": 1.0, "C3": 1.0, "C4": -1.0, "C5": -1.0, "C6": -1.0, "C7": 1.0}
+    },
+    "primary_factorial_metrics": [
+      "selection_resolution",
+      "current_named_selection",
+      "current_preference_choice",
+      "history_target_selection",
+      "surface_style_uptake"
+    ],
+    "history_regime_strata": ["ALIGNED_HELPFUL", "OUTDATED_CONFLICTING", "IRRELEVANT"],
+    "temporal_endpoint_analysis": "For the eight applicable OUTDATED_CONFLICTING C6/C7 slots, report archived-raw and declarative condition counts, resolved/missing denominators, logical bounds, the paired declarative-minus-archived-raw effect with case contributions and leave-one-persona-out sensitivity, and the repaired declarative C7-minus-C6 paired contrast. Do not include inapplicable slots or recode them as zero.",
+    "aggregation": "Equal-case paired descriptive estimates across 12 cases; also report condition counts, regime-stratified H contrasts, four persona summaries, leave-one-persona-out sensitivity, complete-case contributions, and logical missing-outcome bounds.",
+    "inference": "No p-values, no confirmatory test, no calibrated population confidence interval, no multiplicity-adjusted claim, and no causal or population generalization.",
+    "batch_boundary": "Two cross-batch aliases must be reported: archived raw H=1 versus new declarative H=1 in the primary repair contrast, and archived H=0 versus new declarative H=1 in the repaired factorial. Neither difference may be attributed causally to wording or internal history processing."
+  },
+  "resource_budget": {
+    "requests": 48,
+    "maximum_generated_tokens": 4608,
+    "minimum_available_physical_ram_bytes": 3221225472,
+    "minimum_free_output_disk_bytes": 1073741824,
+    "actual_completion_inference_seconds_ceiling": 2880.0,
+    "batch_wall_seconds_ceiling": 4320.0,
+    "global_baseline": {
+      "generation_ceiling": 1200,
+      "generations_used": 292,
+      "generations_remaining": 908,
+      "inference_wall_seconds_ceiling": 72000,
+      "inference_wall_seconds_used": 1701.0952766999717,
+      "inference_wall_seconds_remaining": 70298.90472330003
+    },
+    "maximum_after_batch": {
+      "generations_used": 340,
+      "generations_remaining": 860,
+      "inference_wall_seconds_used_if_full_batch_ceiling_consumed": 4581.095276699972,
+      "inference_wall_seconds_remaining_if_full_batch_ceiling_consumed": 67418.90472330003
+    },
+    "safety": "If separately authorized, fail before model launch unless exact identities, hashes, exclusive allocation, cumulative budget, at least 3 GiB available physical RAM, and at least 1 GiB free output disk pass. Never terminate unrelated applications."
+  },
+  "authorization": {
+    "execution_authorized": false,
+    "tokenization_authorized": false,
+    "preflight_authorized": false,
+    "model_server_launch_authorized": false,
+    "manifest_creation_authorized": false,
+    "separate_exact_authorization_required": true,
+    "maximum_native_tokenizer_calls_if_authorized": 48,
+    "maximum_live_server_tokenizer_checks_if_authorized": 48,
+    "maximum_generation_attempts_if_authorized": 48,
+    "retries": 0,
+    "hidden_warmups": 0,
+    "training": false,
+    "paid_compute": false
+  },
+  "preexecution_state": {
+    "authorization_files_created": 0,
+    "manifest_files_created": 0,
+    "preflight_receipts_created": 0,
+    "native_tokenizer_calls": 0,
+    "live_server_tokenizer_checks": 0,
+    "model_server_launches": 0,
+    "completion_calls": 0,
+    "new_model_generations": 0,
+    "new_model_outputs": 0
+  },
+  "stopping_and_preservation": {
+    "outcome_based_stopping": false,
+    "selection_threshold": null,
+    "execution_if_later_authorized": "Attempt each of the exact 48 H=1 requests once in frozen relative order unless an integrity, safety, cumulative-budget, completion-time, wall-time, or process gate stops before the next request.",
+    "preservation": "Never overwrite parent evidence or a new raw event. Preserve failures, missing outcomes, native stops, prompts, hashes, timestamps, latency, memory observations, and zero-retry status."
+  },
+  "interpretation_limits": [
+    "The study is output-informed development on the same cases; it is not independent validation.",
+    "The declarative rewrite is a simple baseline and has no novelty claim.",
+    "Recommendation versus past-choice wording changes speech act and tokenization together.",
+    "Archived raw H=1 versus new declarative H=1 aliases surface form with execution batch; the repair effect is descriptive, not causal.",
+    "H=0 reuse avoids waste but aliases execution batch with H presence in the repaired factorial dataset.",
+    "Exact selection and lexical recurrence do not establish semantic correctness, internal copying, or absence of paraphrased historical influence.",
+    "Surface-style uptake is narrow prompt-template adherence, not broad Persona Fidelity.",
+    "Synthetic speakers and controlled choices do not support real-speaker or natural-dialogue claims.",
+    "Four synthetic persona clusters and twelve purposive cases support descriptive estimation only.",
+    "The shared model and partially verified third-party conversion lineage do not support cross-model generalization."
+  ]
+}

@@ -59,3 +59,20 @@ chat_exports/
 .npmrc
 auth.json
 token.json
+
+# Private PersonaSLM human-review and unblinding records (exact paths only).
+/docs/validation/p1/blinded_audit_stage_a_v1/restricted/unblinding_key_v1.json
+/docs/validation/p1/blinded_audit_stage_a_v1/blinded_researcher_audit_RESEARCHER_FILLED_DATE_RULE_v3.csv
+/docs/validation/p1/blinded_audit_stage_a_v1/PersonaSLM_six_proposals_NOT_APPLIED_v3.csv
+/docs/validation/p1/researcher_audit_integration_v1/researcher_annotation_import_v1.json
+/docs/validation/p1/researcher_audit_integration_v1/researcher_annotation_stage_a_compatibility_v1.csv
+/docs/validation/p1/stage_b_v1/researcher_unblinding_record_v1.json
+/docs/validation/p1/blinded_audit_stage_a_v1/patches/scoring_date_v2/PersonaSLM_P1_OQ_researcher_six_corrections_v1.csv
+/docs/validation/p1/measurement_recovery_2x2_v1/consolidated_researcher_review_v1.csv
+/docs/validation/p1/measurement_recovery_2x2_v2/consolidated_researcher_review_v2.csv
+/docs/validation/p1/measurement_pilot_v1/A_C0/measurement_v1/protected_condition_mapping_v1.json
+/docs/validation/p1/measurement_pilot_v1/C_DIAGNOSTIC/measurement_v1/protected_condition_mapping_v1.json
+/docs/validation/p1/measurement_pilot_v1/protected_review_panel_mapping_v1.json
+/docs/validation/p1/measurement_recovery_2x2_v2/protected_condition_mapping_v2.json
+/docs/validation/p1d/instruct_smoke_v1/measurement_v1/withheld_mapping_v1.json
+/docs/validation/p1/blinded_audit_stage_a_v1/patches/scoring_date_v2/PersonaSLM_P1_OQ_temporal_date_binding_audit_32_v1.csv

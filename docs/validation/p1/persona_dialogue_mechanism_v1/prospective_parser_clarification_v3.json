@@ -1,0 +1,48 @@
+{
+  "schema_version": "personaslm_persona_dialogue_mechanism_prospective_parser_clarification_v3",
+  "status": "FROZEN_PROSPECTIVE_BEFORE_REGISTRATION_OR_MODEL_OUTPUT",
+  "frozen_utc": "2026-10-18T16:17:41Z",
+  "parents": {
+    "design_path": "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_design_v1.json",
+    "design_sha256": "694b6e970ae16c4e2284d83aa385b10b78db42d7c1ec3befdbd07ec2f9aec316",
+    "measurement_amendment_path": "docs/validation/p1/persona_dialogue_mechanism_v1/prospective_measurement_amendment_v2.json",
+    "measurement_amendment_sha256": "67bd13f3a54a59e4aa04a99eabbc10b92ed362437f4aad4172aed7219d7e8eb4"
+  },
+  "preoutput_state": {
+    "manifest_exists": false,
+    "authorization_record_exists": false,
+    "execution_claim_exists": false,
+    "model_generation_attempts": 0,
+    "model_generations": 0,
+    "validation_outputs_inspected": 0,
+    "reason": "Two independent code reviews before registration found that an optional-subject regular expression could fall back to a bare decision verb inside a negated or subordinate clause, and that regime-stratified summaries omitted the already required logical missing-outcome bounds."
+  },
+  "scientific_inputs_unchanged": {
+    "cases": true,
+    "persona_material": true,
+    "current_notes": true,
+    "current_user_messages": true,
+    "history_messages": true,
+    "arms": true,
+    "request_order": true,
+    "model_and_runtime": true,
+    "resource_allocation": true,
+    "generation_settings": true,
+    "target_inventory": true,
+    "primary_endpoints": true,
+    "estimands": true
+  },
+  "effective_parser_clarification": {
+    "subject_forms": "A subject-form event requires the literal subject I or we, followed immediately by an optional would/will/can/should and then the frozen decision verb or phrase. The parser must not drop the subject portion and rematch the verb when intervening negation or other words make the subject form fail.",
+    "bare_imperative_forms": "A subjectless decision verb or phrase is eligible only at the beginning of a sentence-like span or immediately after a semicolon clause boundary, after whitespace. It is not eligible merely because the same verb appears later in a negated, infinitival, conditional, reported, or explanatory clause.",
+    "pick_forms": "My/our pick/choice/recommendation forward forms follow the same direct-clause rule and must not be recovered from 'not my pick/choice/recommendation'. The reverse exact-target-is-my/our-pick form remains eligible because intervening negation prevents the frozen syntax from matching.",
+    "negation": "Forms containing not, never, no, do not, did not, would not, will not, cannot, can not, should not, or their apostrophe contractions between the subject/clause start and decision verb are not selection events.",
+    "comparison": "The v2 direct-governance comparison rule is unchanged: a valid event selecting TARGET_A in 'TARGET_A over/rather than/instead of TARGET_B' selects only TARGET_A; the comparator mention is not a second event.",
+    "conservative_result": "If no valid direct event remains, preserve UNRESOLVED_NO_ANCHORED_SELECTION. If distinct valid direct events remain, preserve UNRESOLVED_CONFLICTING_SELECTIONS. Do not infer an answer semantically."
+  },
+  "reporting_clarification": {
+    "regime_strata": "For every primary paired contrast and metric within each history regime, report the raw case contributions, resolved-pair count and mean, plus logical lower and upper bounds over the full regime denominator by assigning missing treatment/control binary outcomes adversarially exactly as in the overall paired analysis.",
+    "zero_denominator": "Never manufacture a mean or bound for an empty stratum; report null.",
+    "claim_limit": "The clarification reduces deterministic parser false positives. It does not validate broad semantics, Persona Fidelity, an internal causal mechanism, or algorithmic novelty."
+  }
+}

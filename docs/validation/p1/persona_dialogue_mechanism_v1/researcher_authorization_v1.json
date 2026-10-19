@@ -1,0 +1,21 @@
+{
+  "case_bank_sha256": "8e6956c4e909bff06a7a5623593493ff84521da680c2f1703110579fb522c6d0",
+  "decision": "AUTHORIZED",
+  "decision_source": "Principal Researcher accelerated autonomous scientific research mandate supplied 2026-10-18",
+  "design_sha256": "694b6e970ae16c4e2284d83aa385b10b78db42d7c1ec3befdbd07ec2f9aec316",
+  "manifest_sha256": "c3bc7adf1c65fe5700a44ae6de6aa90f28cc787a8a5035250d5e39fbbfc68b92",
+  "maximum_attempts": 42,
+  "measurement_amendment_sha256": "67bd13f3a54a59e4aa04a99eabbc10b92ed362437f4aad4172aed7219d7e8eb4",
+  "parser_clarification_sha256": "ab100aee5d50e38d332770af4299103b0544a0b881a9c4bad8610520402dfb76",
+  "prohibitions": [
+    "Do not inspect validation-case outputs before executing the frozen order.",
+    "Do not edit source cases, arms, parsers, target strings, order, model, or settings after any completion.",
+    "Do not retry malformed, unfavorable, interrupted, or semantically unresolved requests.",
+    "Do not present this adaptive synthetic study as real-speaker, human, confirmatory population, or fully preregistered independent validation."
+  ],
+  "registered_utc": "2026-10-18T16:23:43.732953+00:00",
+  "researcher": "Yaxin ZHENG",
+  "retries": 0,
+  "scope": "One 42-request local CPU batch using this exact design, frozen order, and configuration, subject to controller integrity and live safety preflight.",
+  "version": "p1_persona_dialogue_mechanism_authorization_v1"
+}

@@ -1,0 +1,33 @@
+{
+  "error": "RAM preflight failed: 2958946304; unchanged minimum 3221225472 bytes",
+  "memory": {
+    "observed_utc": "2026-10-15T11:08:11.941579+00:00",
+    "pid": 29972,
+    "platform": "nt",
+    "process": {
+      "page_faults": 482341,
+      "pagefile_usage": 36569088,
+      "peak_pagefile_usage": 49025024,
+      "peak_working_set": 55996416,
+      "quota_nonpaged_pool": 16160,
+      "quota_paged_pool": 149992,
+      "quota_peak_nonpaged_pool": 16840,
+      "quota_peak_paged_pool": 150032,
+      "working_set": 45133824
+    },
+    "status": "observed",
+    "system": {
+      "available_extended": 0,
+      "available_pagefile": 9169039360,
+      "available_physical": 2958921728,
+      "available_virtual": 140733022990336,
+      "load_percent": 76,
+      "total_pagefile": 27194228736,
+      "total_physical": 12698714112,
+      "total_virtual": 140737488224256
+    }
+  },
+  "new_generations": 0,
+  "recorded_utc": "2026-10-15T11:08:11.941566+00:00",
+  "status": "BLOCKED"
+}

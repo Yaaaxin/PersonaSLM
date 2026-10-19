@@ -1,0 +1,138 @@
+{
+  "schema_version": "personaslm_literature_daily_scheduled_delta_v1",
+  "recorded_local": "2026-10-19T09:21:05+02:00",
+  "timezone": "Europe/Paris",
+  "classification": "SCHEDULED_METADATA_DELTA_WITH_BOUNDED_PRIMARY_SOURCE_REVIEW",
+  "preserves_prior_delta": {
+    "path": "docs/validation/literature_monitor_v1/daily_delta_2026-10-19_v1.json",
+    "sha256": "13ba6678575edf6d63c8616bafc269be793268e4c540d5557c370447e537aa66",
+    "interpretation": "The prior zero-delta statement was correct for its earlier snapshot; it does not describe the subsequent scheduled snapshot. No prior evidence was overwritten."
+  },
+  "snapshots": {
+    "prior": {
+      "path": ".local/literature-monitor/daily_snapshot_20261018T221017Z.json",
+      "sha256": "2f40ad27c34a48f1a038bbcf1e71c57decd45c139db49cc1478baf2b87e0a851",
+      "as_of_date": "2026-10-18",
+      "records": 217
+    },
+    "scheduled": {
+      "path": ".local/literature-monitor/daily_snapshot_20261019T022302Z.json",
+      "sha256": "3614f9fa932af71f715f58da9fe2addb5abffbbce3f29b99d0f46d6ed956c9fe",
+      "as_of_date": "2026-10-19",
+      "records": 216,
+      "unique_stable_ids": 216,
+      "source_requests_attempted": 13,
+      "source_requests_succeeded": 13,
+      "source_requests_failed": 0
+    }
+  },
+  "hash_semantics_correction": {
+    "config_file_sha256": "9cd77c2359880befb6d35db1ac4194e2a8bc1e3618822bfe9eb7775e8eb46023",
+    "config_canonical_json_sha256_in_both_snapshots": "ab758cdcb54697dfaa02d8938203d4778a21c49feb8d44ec066541a7cda8a5f6",
+    "reviewed_ledger_file_sha256": "55392de0024ff4c04aa265f654d87419982df834aeff659e401620840b9ae99b",
+    "reviewed_ledger_canonical_json_sha256_in_both_snapshots": "29dd7a56439b0000980c85aafe2b906b75fdb4d4556ffab19450aa2c39c9c7a0",
+    "algorithm": "tools/literature_monitor.py sha256_json: UTF-8 json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':')).",
+    "conclusion": "No config or reviewed-ledger mutation is evidenced. The discrepancy is byte-file versus canonical-JSON hashing, not a primary-review edit.",
+    "collector_sha256": "972179b45c6011c4f18d379e82812648a2e94683f371668b1348d11e89499685"
+  },
+  "comparison": {
+    "added_stable_ids": [
+      "doi:10.18653/v1/2026.acl-long.1472",
+      "doi:10.48550/arxiv.2609.34160",
+      "doi:10.48550/arxiv.2609.37443",
+      "doi:10.48550/arxiv.2610.15692"
+    ],
+    "absent_stable_ids": [
+      "doi:10.1007/978-0-387-39940-9_3706",
+      "doi:10.48550/arxiv.2609.33226",
+      "doi:10.48550/arxiv.2609.33517",
+      "doi:10.48550/arxiv.2609.33623",
+      "doi:10.48550/arxiv.2609.33666"
+    ],
+    "retained_records_with_any_field_change": 1,
+    "metadata_only_change": {
+      "stable_id": "doi:10.48550/arxiv.2610.05162",
+      "title": "Memadapter: Counterfactual Adaptation Against Memory-induced Sycophancy",
+      "changed_fields": ["authors", "identifiers"],
+      "description": "The same author set was reordered alphabetically; an empty arxiv identifier key was removed. No title, abstract, version, date or publication-status change."
+    },
+    "retained_version_changes": 0,
+    "retained_publication_status_changes": 0,
+    "established_preprint_to_publication_transitions": 0,
+    "source_url_changes": 12,
+    "source_response_hash_changes": 13,
+    "window_change": "Crossref indexed-date and OpenAlex publication-date windows moved from 2026-09-27..2026-10-18 to 2026-09-28..2026-10-19. The arXiv URL was unchanged.",
+    "interpretation": "Four added IDs are newly observed in this collector snapshot, not newly published today. Four absent preprints have OpenAlex publication dates of 2026-09-27 and fall outside the shifted window. The absent 2009 database encyclopedia entry reflects bounded retrieval turnover; its precise ranking cause is not established. Absence is not withdrawal. No missing paper was deleted from historical snapshots."
+  },
+  "targeted_primary_source_reviews": [
+    {
+      "stable_id": "arxiv:2609.34160",
+      "aliases": ["doi:10.48550/arxiv.2609.34160"],
+      "title": "RoutePrism: Tracing Construction Order Effects in Agent Memory",
+      "publication_status": "PREPRINT_ONLY_VERIFIED",
+      "first_submission": "2026-09-28",
+      "latest_verified_version": "v1",
+      "primary_sources": ["https://arxiv.org/abs/2609.34160", "https://arxiv.org/html/2609.34160v1"],
+      "scope": "Abstract, methods section 3.3, experimental comparisons and stated limitations inspected.",
+      "verified_method": "Compares two memory-construction orders while fixing source content, timestamps, policy and answer model; tests support present, absent, restored, and matched nonsupport replacement. Source count and prompt length are matched. PersonaMem and LongMemEval-S experiments distinguish lost evidence from answer-stage variation.",
+      "limitation": "The focal compactor is controlled; PersonaMem histories have 4-7 records and LongMemEval restoration addresses single-record support loss. Reported effects were not reproduced here.",
+      "prospective_implication": "Memory order sensitivity, evidence tracing, and support-restoration controls are occupied prior art. PersonaSLM should not claim these alone as algorithmic novelty; any future history-selection intervention should use matched evidence and style-fidelity outcomes."
+    },
+    {
+      "stable_id": "arxiv:2609.37443",
+      "aliases": ["doi:10.48550/arxiv.2609.37443"],
+      "title": "Learning to Retrieve Missing Evidence for Long-Term Memory QA",
+      "publication_status": "PREPRINT_ONLY_VERIFIED",
+      "first_submission": "2026-09-29",
+      "latest_verified_version": "v1",
+      "primary_sources": ["https://arxiv.org/abs/2609.37443", "https://arxiv.org/html/2609.37443v1"],
+      "scope": "Methods sections 3.1-3.5, experimental setup and results tables inspected.",
+      "verified_method": "MERA uses a globally searchable atomic-fact index and a separate verifier-gated per-question evidence graph; a 0.6B planner receives GRPO reward for newly recovered gold evidence. Comparison backbones include Qwen3-30B-A3B and GPT-4o-mini for evidence processing and answering.",
+      "limitation": "Answer accuracy uses an LLM judge; stated model-token cost excludes embeddings and vector retrieval. A small planner does not make the complete system a CPU-small-model baseline. No local reproduction.",
+      "prospective_implication": "Adaptive retrieval guided by verified evidence and missing-information state is occupied. Evaluate complete inference cost and persona fidelity before choosing a CPU-feasible adaptation."
+    },
+    {
+      "stable_id": "acl:2026.acl-long.1472",
+      "aliases": ["doi:10.18653/v1/2026.acl-long.1472"],
+      "title": "Stress Testing Factual Consistency Metrics for Long-Document Summarization",
+      "publication_status": "FORMALLY_PUBLISHED_ACL_2026_PROCEEDINGS",
+      "publication_date": "2026-07",
+      "primary_sources": ["https://aclanthology.org/2026.acl-long.1472/", "https://aclanthology.org/2026.acl-long.1472.pdf"],
+      "scope": "Official bibliographic page and paper methods, results and limitations inspected.",
+      "verified_method": "Six factuality metrics are stressed with seven intended meaning-preserving perturbations over SQuALITY, LexAbSumm and ScholarQABench. Retrieval-window and claim-density analyses expose surface-sensitive scoring.",
+      "limitation": "GPT-4o generates perturbations; the authors explicitly lack human verification that every perturbation preserves meaning and lack human factuality judgments for metric validation. Findings do not validate PersonaSLM semantic scoring.",
+      "prospective_implication": "Supports maintaining human semantic judgments and surface-robustness controls. It does not establish a dialogue-specific causal mechanism. Preprint linkage was not established; the DOI and ACL identifiers represent one work."
+    }
+  ],
+  "unreviewed_added_item": {
+    "stable_id": "arxiv:2610.15692",
+    "alias": "doi:10.48550/arxiv.2610.15692",
+    "title": "Do LLM Tutors Actually Teach? A Process-Centered Synthesis of the Tutoring Loop",
+    "decision": "Outside the immediate real-speaker S/F/H mechanism priority; retained as unverified metadata, no methods or publication claims."
+  },
+  "scheduler_verification": {
+    "provenance": "Live VerifyOnly result supplied by parent/root agent during this cycle; this delta worker did not independently re-query Task Scheduler.",
+    "contract_matches": true,
+    "last_run_local": "2026-10-19T04:23:23+02:00",
+    "last_task_result": 0,
+    "next_run_local": "2026-10-20T04:23:23+02:00",
+    "missed_runs": 0,
+    "actual_automated_sources": ["arxiv", "crossref", "openalex"],
+    "direct_automated_acl_openreview_semantic_scholar_queries": false,
+    "automated_deep_ai_review": false,
+    "wrapper_sha256": "29c3ec9ae0cc254e9bfccfb2508081721b48ae8ecd49202b71a498927eed74f9",
+    "verifier_sha256": "6ff472a4bafe3ed0fde0e69b50d84f1dcb0daf14d3bc8e3f62bd2737dde5d71f",
+    "coverage_boundary": "A working daily metadata collector is verified. The configured arXiv query returned zero records; comprehensive preprint recall is not established. ACL was directly checked only for the specific new DOI in this bounded agent review. The scheduler does not run daily deep scientific analysis or directly query every requested source."
+  },
+  "frozen_experiment_changes": 0,
+  "additional_collection_requests": 0,
+  "model_inference_calls": 0,
+  "review_provenance": "AI primary-source assessment; no human confirmation and no independent reproduction of the reviewed papers.",
+  "validation": "Stable-ID maps compared all fields, versions and publication status. Byte hashes checked with Get-FileHash. Historical snapshots and reviewed ledger preserved.",
+  "commands_and_errors": [
+    "Read existing snapshots/config/ledger/wrapper; compared stable-ID maps with PowerShell ConvertFrom-Json.",
+    "A first PowerShell for-loop pipeline failed with EmptyPipeElement; the corrected array-wrapped loop completed, with no writes from either command.",
+    "One rg Windows wildcard path failed with os error 123; rerun used rg -g file globs over docs.",
+    "Only three relevant added papers were opened through primary arXiv/ACL sources; no discovery recrawl and no restricted research data transmitted."
+  ]
+}

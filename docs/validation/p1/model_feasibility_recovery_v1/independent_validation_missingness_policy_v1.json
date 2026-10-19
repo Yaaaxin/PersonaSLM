@@ -1,0 +1,207 @@
+{
+  "adoption_gate": {
+    "reason": "This prospectively narrows analysis behavior and must not silently amend Protocol v1.1 or authorize the 960-request cohort.",
+    "separate_unresolved_items": [
+      "Endpoint hierarchy and confirmatory multiplicity family.",
+      "Exact technical retry allowance before execution.",
+      "Genuine blinded semantic review and independent agreement plan.",
+      "Viable model, disjoint-C0 gate, and interpretable development factorial."
+    ],
+    "status": "PENDING_RESEARCHER_ADOPTION"
+  },
+  "analysis_rules": {
+    "aggregation": "Average the two case contributions within each speaker, then weight the 48 speakers equally. Preserve template identifiers for crossed-cluster sensitivity.",
+    "cluster_sensitivity": "If outcomes are incomplete, resample bound endpoints by whole speaker and template only as sensitivity; do not describe them as a confidence interval for an identified effect.",
+    "complete_pair": "Report complete-pair estimates, their case/speaker/template coverage, and missingness by condition as secondary selected-subset sensitivity only.",
+    "identification_bounds": "Always report all-eligible logical bounds when required cells are unknown. Bounds are not confidence intervals.",
+    "identified_point": "Report the all-eligible point estimate and its crossed speaker/template interval only when every required cell is known.",
+    "no_reweighting": "Never drop unknown cells and renormalize surviving factorial weights.",
+    "no_single_imputation": "Do not replace unknowns with failure, success, parser output, reviewer consensus, or a model prediction.",
+    "primary_missingness_analysis": "Apply original signed contrast weights over all eligible cases with endpoint range [0,1]; unknown cells contribute logical lower and upper limits according to weight sign."
+  },
+  "compatibility": {
+    "constant_contrasts_verified_zero": 9,
+    "dependency_sha256": {
+      "src/personaslm/conditioning.py": "7b0e6a2230b241f86fec024d6768a9a9c08662945b8cfd668f5445dd5f4d24e6",
+      "src/personaslm/human_factorial.py": "18c9fa31fbc04e63cfb7de507383f6ebd27d567af48870cb8ce0a6e534d6907f",
+      "tools/p1_independent_validation_precision.py": "94865bd06299964d2f45031ea91ef8fe1af70d2d624cf4792ef6e663663ed334",
+      "tools/p1c_paired_statistics.py": "8490111257fb7f55c1f200798ea152cdd071874574d08816eda4c37eceec9429"
+    },
+    "factorial_cells": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5",
+      "C6",
+      "C7"
+    ],
+    "source_sha256": "8d775a45646daa8ac9048b5b2e497a92fbb4ba7d75d6f488d986d759c5b245d6"
+  },
+  "contrast_registry": {
+    "C1-C0": {
+      "C0": -1.0,
+      "C1": 1.0,
+      "C2": 0.0,
+      "C3": 0.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0
+    },
+    "C3-C0": {
+      "C0": -1.0,
+      "C1": 0.0,
+      "C2": 0.0,
+      "C3": 1.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0,
+      "C7": 0.0
+    },
+    "F": {
+      "C0": -0.25,
+      "C1": -0.25,
+      "C2": 0.25,
+      "C3": -0.25,
+      "C4": 0.25,
+      "C5": -0.25,
+      "C6": 0.25,
+      "C7": 0.25
+    },
+    "FxH": {
+      "C0": 0.5,
+      "C1": 0.5,
+      "C2": -0.5,
+      "C3": -0.5,
+      "C4": -0.5,
+      "C5": -0.5,
+      "C6": 0.5,
+      "C7": 0.5
+    },
+    "H": {
+      "C0": -0.25,
+      "C1": -0.25,
+      "C2": -0.25,
+      "C3": 0.25,
+      "C4": -0.25,
+      "C5": 0.25,
+      "C6": 0.25,
+      "C7": 0.25
+    },
+    "S": {
+      "C0": -0.25,
+      "C1": 0.25,
+      "C2": -0.25,
+      "C3": -0.25,
+      "C4": 0.25,
+      "C5": 0.25,
+      "C6": -0.25,
+      "C7": 0.25
+    },
+    "SxF": {
+      "C0": 0.5,
+      "C1": -0.5,
+      "C2": -0.5,
+      "C3": 0.5,
+      "C4": 0.5,
+      "C5": -0.5,
+      "C6": -0.5,
+      "C7": 0.5
+    },
+    "SxFxH": {
+      "C0": -1.0,
+      "C1": 1.0,
+      "C2": 1.0,
+      "C3": 1.0,
+      "C4": -1.0,
+      "C5": -1.0,
+      "C6": -1.0,
+      "C7": 1.0
+    },
+    "SxH": {
+      "C0": 0.5,
+      "C1": -0.5,
+      "C2": 0.5,
+      "C3": -0.5,
+      "C4": -0.5,
+      "C5": 0.5,
+      "C6": -0.5,
+      "C7": 0.5
+    }
+  },
+  "endpoint_rules": {
+    "automatic_parser": "Automatic aliases and structural status remain separate diagnostics and cannot impute a missing human semantic endpoint.",
+    "current_value_adoption": "CURRENT_VALUE_ADOPTION=1; every determinate mutually exclusive non-current semantic state=0; UNCERTAIN or missing review=unknown.",
+    "full_distribution": "Primary descriptive accounting reports every semantic category, including UNCERTAIN and NO_REQUESTED_VALUE, on the frozen eligible denominator.",
+    "outdated_value_adoption": "OUTDATED_VALUE_ADOPTION=1; every determinate mutually exclusive non-outdated semantic state=0; UNCERTAIN or missing review=unknown.",
+    "semantic_completeness": "COMPLETE and INCOMPLETE remain observed categories; UNCERTAIN or unavailable review remains unknown for a binary completeness estimand."
+  },
+  "execution_impact": {
+    "cohort_authorized": false,
+    "human_annotations": 0,
+    "inference_seconds": 0.0,
+    "scientific_model_generations": 0
+  },
+  "frozen_eligibility": {
+    "denominator_changes_after_outcomes": "PROHIBITED",
+    "population": "Every prospectively frozen case-condition request, regardless of execution or review outcome.",
+    "technical_retry_policy": "Must be frozen before execution; absent such a policy, a failed request remains missing and is not silently regenerated."
+  },
+  "reporting_requirements": [
+    "Counts for execution failure, integrity failure, review missingness, semantic UNCERTAIN, and each observed semantic category by condition.",
+    "Required-cell, complete-case, speaker, and template coverage for every contrast.",
+    "All-eligible logical bounds beside any complete-pair sensitivity estimate.",
+    "Reasons and hashes for any preregistered retry; original failed attempts remain preserved.",
+    "Separate sampling uncertainty, identification uncertainty, annotation disagreement, and model stochasticity."
+  ],
+  "schema_version": "personaslm_p1_independent_validation_missingness_policy_v1",
+  "scope": {
+    "design": "Proposed 48-speaker, 96-case, eight-factorial-cell plus two-control independent validation cohort.",
+    "historical_effect": "No historical output, label, gate, score, or estimand is changed.",
+    "primary_planning_contrast": "C3-C0 outdated-value-adoption risk difference."
+  },
+  "state_classification": {
+    "completed_generation_with_empty_or_nonanswer_text": "Observed model outcome; semantically label NO_REQUESTED_VALUE when supported by genuine review, not administrative missingness.",
+    "completed_generation_with_uncertain_semantic_interpretation": "Observed UNCERTAIN category; unknown for latent current/outdated binary indicators.",
+    "infrastructure_or_resource_failure_without_a_completion": "Administrative missing outcome; never a model failure, success, or semantic nonanswer.",
+    "lost_or_hash_invalid_raw_output": "Integrity missingness; retain the incident and do not score reconstructed text.",
+    "not_applicable": "Allowed only when applicability was frozen before outcomes; report separately and never use it for an applicable failed assessment.",
+    "unreviewed_or_unresolved_response": "Measurement missingness; retain model text but treat the semantic endpoint as unknown."
+  },
+  "status": "PROSPECTIVE_POLICY_READY_FOR_RESEARCHER_ADOPTION_NOT_AUTHORIZED",
+  "verified_binary_examples": {
+    "both_unknown": {
+      "estimate": null,
+      "lower_bound": -1.0,
+      "unknown_cells": [
+        "C3",
+        "C0"
+      ],
+      "upper_bound": 1.0
+    },
+    "complete_pair": {
+      "estimate": 1.0,
+      "lower_bound": 1.0,
+      "unknown_cells": [],
+      "upper_bound": 1.0
+    },
+    "unknown_c0": {
+      "estimate": null,
+      "lower_bound": 0.0,
+      "unknown_cells": [
+        "C0"
+      ],
+      "upper_bound": 1.0
+    },
+    "unknown_c3": {
+      "estimate": null,
+      "lower_bound": 0.0,
+      "unknown_cells": [
+        "C3"
+      ],
+      "upper_bound": 1.0
+    }
+  }
+}

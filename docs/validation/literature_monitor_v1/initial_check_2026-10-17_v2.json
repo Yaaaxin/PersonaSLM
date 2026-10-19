@@ -1,0 +1,43 @@
+{
+  "version": "personaslm_literature_initial_check_v2",
+  "status": "SUCCESSOR_VALIDATED",
+  "checked_date": "2026-10-17",
+  "recorded_utc": "2026-10-17T18:43:24.440Z",
+  "predecessor": {
+    "path": "docs/validation/literature_monitor_v1/initial_check_2026-10-17_v1.json",
+    "sha256": "9b53bf474c28de6427f69a71913b54a2c07b8ebe439836aa7d15623fa3ca6488",
+    "preservation": "UNCHANGED"
+  },
+  "supersession_scope": "Corrects only the deployment statement: GitHub schedule events require the workflow on the default branch. The v1 primary-source review, eight-record ledger and scientific novelty assessment are preserved.",
+  "artifact_hashes": {
+    ".github/workflows/daily-literature-monitor.yml": "de2b98a5bf05976ee4ed1e4bffcf061231f794c2b9e260c23bc930dec28dd89f",
+    "docs/literature_surveillance_v1.md": "f99c2c1f1209b5db705db3a02a5305726029fcc045de6040348b4c10f34af071",
+    "docs/validation/literature_monitor_v1/config_v1.json": "9cd77c2359880befb6d35db1ac4194e2a8bc1e3618822bfe9eb7775e8eb46023",
+    "docs/validation/literature_monitor_v1/ledger_schema_v1.json": "4d3ed644c5e4b39691ad1f5a44ba5a41a674c6165056c8dda80349e42c0f6bd4",
+    "docs/validation/literature_monitor_v1/reviewed_ledger_v1.json": "e643e206074d934edafc8572847bc21f63af5207d695e7119fbd4b169455ebd1",
+    "tests/test_literature_monitor.py": "b6b511d209d2adc439372fe509029e41326813a0f353c7ee1c4f8921c5a672a6",
+    "tools/literature_monitor.py": "08fd56fe88a8b5e59dc8460719f7dc32d02e33811c3eb50223e4f1f29aa4ab22"
+  },
+  "reviewed_ledger_records": 8,
+  "reviewer_type": "AI_ASSISTED_PRIMARY_SOURCE_REVIEW",
+  "human_confirmation": "NOT_RECORDED",
+  "scientific_interpretation_changed": false,
+  "scheduled_workflow": {
+    "cron_utc": "23 4 * * *",
+    "repository_permission": "contents: read",
+    "credentials": "NONE",
+    "status": "CONFIGURED_LOCALLY_TESTED_NOT_ACTIVE_UNTIL_DEFAULT_BRANCH_INTEGRATION",
+    "successful_scheduled_cloud_run_observed": false
+  },
+  "test_evidence": {
+    "command": ".venv/Scripts/python.exe -B -m pytest -q -ra -p no:cacheprovider tests/test_literature_monitor.py",
+    "started_utc": "2026-10-17T18:44:02.965Z",
+    "finished_utc": "2026-10-17T18:44:04.588Z",
+    "passed": 11,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 1,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "model_inference_generations": 0
+}

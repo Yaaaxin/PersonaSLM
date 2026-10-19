@@ -1,0 +1,45 @@
+{
+  "schema_version": "personaslm_p1_independent_validation_multiplicity_regression_v1",
+  "recorded_utc": "2026-10-18T13:50:14.9815278Z",
+  "status": "PASS",
+  "predecessor": {
+    "path": "docs/validation/p1/model_feasibility_recovery_v1/candidate2_c0_controller_regression_v1.json",
+    "sha256": "ff36aa574f8b0e764deaf428c59cefcc99f112b7d803bed70726ff9356f3a21a",
+    "preservation": "UNCHANGED"
+  },
+  "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_p1_model_feasibility_recovery.py tests/test_p1_evaluator_validity.py tests/test_reproduce_p1_feasibility_analysis.py tests/test_literature_monitor.py tests/test_literature_monitor_arxiv_doi_dedup.py tests/test_literature_review_addendum.py tests/test_windows_literature_scheduler.py tests/test_post_restart_literature_review.py tests/test_p1_independent_validation_precision.py tests/test_p1_semantic_review_package.py tests/test_p1_semantic_review_integration.py tests/test_p1_independent_validation_missingness.py tests/test_p1_candidate2_pilot_materialization.py tests/test_p1_candidate2_c0_controller.py tests/test_p1_independent_validation_multiplicity.py",
+  "result": {
+    "passed": 99,
+    "failed": 0,
+    "skipped": 0,
+    "wall_seconds_reported_by_pytest": 27.78,
+    "warning_count": 1,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "multiplicity_candidate": {
+    "status": "PROSPECTIVE_CANDIDATE_PENDING_RESEARCHER_ADOPTION_CONTROL_VALIDITY_AND_TEST_CALIBRATION",
+    "artifact_path": "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_multiplicity_candidate_v1.json",
+    "artifact_sha256": "be40a8102c8b1b1c1310def44e5c4a2d6159538804905944dcfd8eb2232836a4",
+    "tool_path": "tools/p1_independent_validation_multiplicity.py",
+    "tool_sha256": "a61b26271e1fe0fd06ecad5e0a7bc825ccd70f51a724a81e1d119deb05c950e6",
+    "test_path": "tests/test_p1_independent_validation_multiplicity.py",
+    "test_sha256": "5e9d44ff08dc8f8688801869d81194fd187e6f7d899122c6c49d1c46841d0b75",
+    "candidate_primary_endpoint": "outdated-value adoption",
+    "candidate_lead_contrast": "C3-C0",
+    "candidate_family_size": 11,
+    "multiplicity_method": "Holm step-down family-wise error control at alpha 0.05",
+    "protocol_registry_gap": [
+      "C1-N_style",
+      "C3-N_history"
+    ],
+    "cohort_authorized": false
+  },
+  "execution_impact": {
+    "autonomous_generations_used": 8,
+    "candidate2_generations": 0,
+    "new_inference_seconds": 0.0,
+    "human_annotations": 0,
+    "historical_ledger_modified": false,
+    "git_stage_commit_or_push": false
+  }
+}

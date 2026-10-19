@@ -1,0 +1,24 @@
+{
+  "case_bank_sha256": "b694f87ccc62d62960c61aeae81229e9eca7f37038c755d8e3ccf31f8567e3dd",
+  "current_entity_count": 300,
+  "current_entity_unique_count": 300,
+  "current_normalized_entity_sha256_count": 300,
+  "exact_entity_overlap": [],
+  "exact_template_overlap": [],
+  "hash_overlap_equivalent_to_exact_normalized_overlap": true,
+  "lexical_4gram_overlap": [
+    "with for me and"
+  ],
+  "lexical_4gram_overlap_count": 1,
+  "lexical_4gram_overlap_sha256": "a9fa19408e6afee88c9a1960a87bda39db4b9309d390e329ecae0fdb73db5c34",
+  "new_model_generations": 0,
+  "normalized_entity_sha256_overlap": [],
+  "normalized_entity_sha256_overlap_count": 0,
+  "prior_bank_sha256": {
+    "docs/validation/p1/persona_dialogue_history_semantics_surface_factorial_v2/case_bank_v2.json": "8e849a0f272d3551fe414516c72daceb65743f56420832507e5d346f7ef65a9e",
+    "docs/validation/p1/persona_dialogue_independent_replication_v2/case_bank_v2.json": "a93cd629c0d152e9eb2325399235882beaebf510d4b6e32b24724975554fab8c"
+  },
+  "prior_normalized_string_sha256_count": 518,
+  "schema_version": "personaslm_disjoint_surface_material_audit_v2",
+  "status": "PASS"
+}

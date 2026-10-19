@@ -1,0 +1,32 @@
+{
+  "schema_version": "personaslm_semantic_review_package_regression_v1",
+  "recorded_utc": "2026-10-18T13:21:30.6663735+00:00",
+  "status": "PASS",
+  "command": ".venv/Scripts/python.exe -B -m pytest -q -p no:cacheprovider tests/test_p1_model_feasibility_recovery.py tests/test_p1_evaluator_validity.py tests/test_reproduce_p1_feasibility_analysis.py tests/test_literature_monitor.py tests/test_literature_monitor_arxiv_doi_dedup.py tests/test_literature_review_addendum.py tests/test_windows_literature_scheduler.py tests/test_post_restart_literature_review.py tests/test_p1_independent_validation_precision.py tests/test_p1_semantic_review_package.py",
+  "result": {
+    "passed": 73,
+    "failed": 0,
+    "skipped": 0,
+    "wall_seconds_reported_by_pytest": 17.78,
+    "warning_count": 1,
+    "warning": "Pre-existing PytestConfigWarning: unknown cache_dir option."
+  },
+  "semantic_review_package": {
+    "receipt_path": "docs/validation/p1/model_feasibility_recovery_v1/semantic_review_package_v1.json",
+    "receipt_sha256": "dedd19f6383b44f44a9e91fc67e6e652bf7cae4a9dca043c262a628db3542dbd",
+    "tool_path": "tools/p1_semantic_review_package.py",
+    "tool_sha256": "a241a6a6c7b95c28fb528eae7b8916a2e559ef030575fc9a3c8e7dc78bee5312",
+    "test_path": "tests/test_p1_semantic_review_package.py",
+    "test_sha256": "f126b165a1fb695533e7984196df05a0667a9591a3b93bcbfcb4e282ab583a3d",
+    "responses": 16,
+    "completed_human_labels": 0,
+    "archive_and_package_hash_mismatches": 0,
+    "local_raw_package_git_ignored": true
+  },
+  "execution_impact": {
+    "scientific_model_generations": 0,
+    "inference_seconds": 0.0,
+    "historical_evidence_modified": false,
+    "git_stage_commit_or_push": false
+  }
+}

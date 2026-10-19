@@ -1,0 +1,266 @@
+{
+  "calibration_evidence": {
+    "boundary": "NO_CALIBRATED_CONFIRMATORY_TEST_IDENTIFIED",
+    "negative_results": [
+      {
+        "decision": "DOES_NOT_MEET_DECLARED_SYNTHETIC_GLOBAL_NULL_CALIBRATION_RULE",
+        "path": "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_test_calibration_v1.json",
+        "sha256": "e54ca677e770469c6c22fcc39ed1ba947321c213056f77a51d2b0d181d05a135"
+      },
+      {
+        "decision": "DOES_NOT_MEET_DECLARED_SYNTHETIC_GLOBAL_NULL_CALIBRATION_RULE",
+        "path": "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_test_calibration_v2.json",
+        "sha256": "3964f3eaaf82083d11d8c77bd000df8dbc96157e37fec1ccd1e82e73371c44c5"
+      }
+    ],
+    "precision_context_not_acceptance_evidence": {
+      "central_median_two_way_halfwidth": 0.11885827435509969,
+      "high_template_median_two_way_halfwidth": 0.1311093454594378,
+      "interpretation": "These synthetic planning summaries motivate transparent estimation and signed bounds; they do not calibrate hypothesis tests or establish empirical effects.",
+      "outcome_dependent_missingness_mean_complete_pair_bias": -0.024830480002050848
+    }
+  },
+  "compatibility": {
+    "dependency_sha256": {
+      "docs/research_protocol_v1.1.md": "d2bacdc1beb8de578615134e159ad2335e298886c6506507264b22a52cffb21e",
+      "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_missingness_policy_v2.json": "b46067578c16d312e7b445e28a59829b65f7bb42141074bf63746d2cb59e1730",
+      "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_multiplicity_candidate_v1.json": "be40a8102c8b1b1c1310def44e5c4a2d6159538804905944dcfd8eb2232836a4",
+      "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_precision_v1.json": "8a2f7145ff263893127e4607b33b448e71f8e6de81ab972eb65a5edf12b6d96b",
+      "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_test_calibration_v1.json": "e54ca677e770469c6c22fcc39ed1ba947321c213056f77a51d2b0d181d05a135",
+      "docs/validation/p1/model_feasibility_recovery_v1/independent_validation_test_calibration_v2.json": "3964f3eaaf82083d11d8c77bd000df8dbc96157e37fec1ccd1e82e73371c44c5",
+      "tools/p1c_paired_statistics.py": "8490111257fb7f55c1f200798ea152cdd071874574d08816eda4c37eceec9429"
+    },
+    "source_sha256": "1cf817238f7041e276c55484ea49b4d1f7187cae85e375967e17b5e97f1ddfb4"
+  },
+  "endpoint_and_estimands": {
+    "aggregation": [
+      "For every eligible case, apply the candidate-specified signed contrast weights to the active cell outcomes; unknown cells contribute endpoint-range lower and upper bounds by weight sign.",
+      "Average the two case-level points or bounds within each speaker without deleting an unknown case.",
+      "Average the 48 speaker-level points or bounds with equal speaker weight and no data-dependent reweighting."
+    ],
+    "contrast_registry": {
+      "C1-C0": {
+        "C0": -1.0,
+        "C1": 1.0,
+        "C2": 0.0,
+        "C3": 0.0,
+        "C4": 0.0,
+        "C5": 0.0,
+        "C6": 0.0,
+        "C7": 0.0,
+        "N_history": 0.0,
+        "N_style": 0.0
+      },
+      "C1-N_style": {
+        "C0": 0.0,
+        "C1": 1.0,
+        "C2": 0.0,
+        "C3": 0.0,
+        "C4": 0.0,
+        "C5": 0.0,
+        "C6": 0.0,
+        "C7": 0.0,
+        "N_history": 0.0,
+        "N_style": -1.0
+      },
+      "C3-C0": {
+        "C0": -1.0,
+        "C1": 0.0,
+        "C2": 0.0,
+        "C3": 1.0,
+        "C4": 0.0,
+        "C5": 0.0,
+        "C6": 0.0,
+        "C7": 0.0,
+        "N_history": 0.0,
+        "N_style": 0.0
+      },
+      "C3-N_history": {
+        "C0": 0.0,
+        "C1": 0.0,
+        "C2": 0.0,
+        "C3": 1.0,
+        "C4": 0.0,
+        "C5": 0.0,
+        "C6": 0.0,
+        "C7": 0.0,
+        "N_history": -1.0,
+        "N_style": 0.0
+      },
+      "F": {
+        "C0": -0.25,
+        "C1": -0.25,
+        "C2": 0.25,
+        "C3": -0.25,
+        "C4": 0.25,
+        "C5": -0.25,
+        "C6": 0.25,
+        "C7": 0.25,
+        "N_history": 0.0,
+        "N_style": 0.0
+      },
+      "FxH": {
+        "C0": 0.5,
+        "C1": 0.5,
+        "C2": -0.5,
+        "C3": -0.5,
+        "C4": -0.5,
+        "C5": -0.5,
+        "C6": 0.5,
+        "C7": 0.5,
+        "N_history": 0.0,
+        "N_style": 0.0
+      },
+      "H": {
+        "C0": -0.25,
+        "C1": -0.25,
+        "C2": -0.25,
+        "C3": 0.25,
+        "C4": -0.25,
+        "C5": 0.25,
+        "C6": 0.25,
+        "C7": 0.25,
+        "N_history": 0.0,
+        "N_style": 0.0
+      },
+      "S": {
+        "C0": -0.25,
+        "C1": 0.25,
+        "C2": -0.25,
+        "C3": -0.25,
+        "C4": 0.25,
+        "C5": 0.25,
+        "C6": -0.25,
+        "C7": 0.25,
+        "N_history": 0.0,
+        "N_style": 0.0
+      },
+      "SxF": {
+        "C0": 0.5,
+        "C1": -0.5,
+        "C2": -0.5,
+        "C3": 0.5,
+        "C4": 0.5,
+        "C5": -0.5,
+        "C6": -0.5,
+        "C7": 0.5,
+        "N_history": 0.0,
+        "N_style": 0.0
+      },
+      "SxFxH": {
+        "C0": -1.0,
+        "C1": 1.0,
+        "C2": 1.0,
+        "C3": 1.0,
+        "C4": -1.0,
+        "C5": -1.0,
+        "C6": -1.0,
+        "C7": 1.0,
+        "N_history": 0.0,
+        "N_style": 0.0
+      },
+      "SxH": {
+        "C0": 0.5,
+        "C1": -0.5,
+        "C2": 0.5,
+        "C3": -0.5,
+        "C4": -0.5,
+        "C5": 0.5,
+        "C6": -0.5,
+        "C7": 0.5,
+        "N_history": 0.0,
+        "N_style": 0.0
+      }
+    },
+    "fixed_contrast_order": [
+      "C1-C0",
+      "C3-C0",
+      "C1-N_style",
+      "C3-N_history",
+      "S",
+      "F",
+      "H",
+      "SxF",
+      "SxH",
+      "FxH",
+      "SxFxH"
+    ],
+    "lead_reporting_estimand": "C3-C0",
+    "lead_status": "Designated lead reporting estimand; it receives no privileged test, alpha, or claim.",
+    "neutral_control_rule": "C1-N_style and C3-N_history remain inactive unless the exact controls receive prospective semantic adoption before cohort freeze.",
+    "primary_endpoint": "Binary outdated-value adoption from genuine blinded semantic review; unavailable review is missing and is never recoded as zero or UNCERTAIN.",
+    "reference_implementation": "aggregate_finite_cohort in the hash-bound source tool."
+  },
+  "execution_impact": {
+    "cohort_authorized": false,
+    "human_annotations": 0,
+    "inference_seconds": 0.0,
+    "scientific_model_generations": 0
+  },
+  "historical_effect": "No historical output, annotation, score, gate, estimand, threshold, or negative calibration result is changed.",
+  "primary_reporting": {
+    "missingness_policy": {
+      "aggregation": "Average the two case contributions within each speaker, then weight the 48 speakers equally. Preserve template identifiers for crossed-cluster sensitivity.",
+      "cluster_sensitivity": "The predecessor's speaker-cluster and two-way interval sensitivities are not activated by this candidate because no interval-like procedure is prospectively specified and calibrated here.",
+      "complete_pair": "Report complete-pair estimates, their case/speaker/template coverage, and missingness by condition as secondary selected-subset sensitivity only.",
+      "identification_bounds": "Always report all-eligible logical bounds when required cells are unknown. Bounds are not confidence intervals.",
+      "identified_point": "Report the all-eligible point only when every active cell is known. No confirmatory p-value is authorized because both prospective marginal-test calibrations failed.",
+      "no_reweighting": "Never drop unknown cells and renormalize surviving factorial weights.",
+      "no_single_imputation": "Do not replace unknowns with failure, success, parser output, reviewer consensus, or a model prediction.",
+      "primary_missingness_analysis": "Apply original signed contrast weights over all eligible cases with endpoint range [0,1]; unknown cells contribute logical lower and upper limits according to weight sign."
+    },
+    "no_decision_rule": "No p-value, rejection, significance, equivalence, non-inferiority, success/failure, or no-effect decision is authorized by this candidate.",
+    "required_for_every_active_contrast": [
+      "Point estimate when the all-eligible contrast is identified.",
+      "Signed logical lower and upper identification bounds when any active cell is unknown.",
+      "All assigned, eligible, reviewed, missing, and category-specific denominators.",
+      "The full mutually exclusive semantic outcome distribution, not only the binary endpoint.",
+      "Direction and magnitude regardless of whether they match an expectation."
+    ]
+  },
+  "prospective_lock": {
+    "anti_shopping": [
+      "Do not search additional tests merely because both recorded candidates failed.",
+      "Do not relax calibration thresholds, discard unfavorable contrasts, or rerun seeds until passing.",
+      "Any future inferential candidate requires a separately frozen one-shot validation bank."
+    ],
+    "cohort_authorized": false,
+    "must_precede": "Any inspection of independent-cohort model outputs or human outcome labels.",
+    "required_before_adoption": [
+      "A viable selected model and passed disjoint C0 gate.",
+      "An interpretable development factorial pilot.",
+      "Genuine semantic adoption or explicit exclusion of each neutral control.",
+      "A frozen cohort, applicability matrix, blinded annotation plan, and inter-rater calibration plan.",
+      "Researcher review and explicit adoption of this estimation-only policy."
+    ],
+    "researcher_adopted": false
+  },
+  "schema_version": "personaslm_p1_independent_validation_estimation_candidate_v1",
+  "scientific_limits": [
+    "Estimation-first reporting does not create calibrated frequentist coverage or a confirmatory test.",
+    "Purposive speakers and eight authored template ancestors limit generalization to the finite cohort.",
+    "Signed bounds can be wide and may not identify the direction of an effect.",
+    "The endpoint remains dependent on genuine blinded human review and inter-rater calibration.",
+    "No algorithmic novelty, model superiority, or Persona Fidelity validity follows from this artifact."
+  ],
+  "scope": {
+    "cohort_authorized": false,
+    "not_a_confirmatory_freeze": true,
+    "not_a_protocol_amendment": true,
+    "purpose": "Prospective outcome-blind candidate for reporting the independent finite cohort when no calibrated confirmatory test has been identified.",
+    "target": "Conditional target if adopted: the realized cohort after its exact inventory is prospectively frozen, using 96 cases, 48 purposively selected speakers, two cases per speaker, and eight fixed template ancestors; no broad speaker or new-template population generalization."
+  },
+  "sensitivity_reporting": {
+    "allowed": [
+      "Complete-pair estimates, which are selected-subset estimands, with their exact changing denominators.",
+      "Template leave-one-ancestor-out estimate ranges labeled finite-template sensitivity only."
+    ],
+    "forbidden_interpretation": [
+      "Do not call a sensitivity range a calibrated confidence interval.",
+      "Do not infer a p-value, rejection, significance, equivalence, or absence of effect.",
+      "Do not analyze another outcome-defined subset unless it was separately justified and frozen before outputs or labels were inspected.",
+      "No interval-like sensitivity procedure is authorized here; any future formula, reference distribution, seed, and replicate count must be prospectively frozen and all registered variants reported."
+    ]
+  },
+  "status": "PROSPECTIVE_ESTIMATION_FIRST_CANDIDATE_PENDING_PILOT_AND_RESEARCHER_ADOPTION"
+}

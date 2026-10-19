@@ -1,0 +1,138 @@
+{
+  "schema_version": "personaslm_rpc_style_signal_validity_v1_registration",
+  "status": "POST_OUTCOME_PROSPECTIVE_CONTROLS_FROZEN",
+  "registered_at": "2026-10-19T07:24:14.7683775+02:00",
+  "scientific_level": "POST_OUTCOME_DEVELOPMENT_DIAGNOSTIC_NOT_CONFIRMATORY",
+  "known_before_freeze": {
+    "original_mean_margin": 0.2004762421353434,
+    "original_positive_speaker_count": 60,
+    "original_eligible_speaker_count": 76,
+    "original_result_status": "OBSERVED_AND_INDEPENDENTLY_RECALCULATED",
+    "control_outcomes_known": false
+  },
+  "question": "Does the previously observed development-only mixed surface/stylometric signal persist under a finite set of controls for length, lexical/topic overlap, repeated formulaic turns, immediate-partner behavior, speaker frequency and direct profile leakage?",
+  "purpose": "Determine whether the frozen style vector is defensible only as a secondary exploratory endpoint for a real-speaker generative pilot; this study cannot validate generative Persona Fidelity.",
+  "split_policy": {
+    "development_text_allowed": true,
+    "exploratory_test_text_allowed": false,
+    "independent_validation_text_allowed": false,
+    "cross_split_text_allowed": false,
+    "access_implementation": "Scan only structural bytes through the utterances key for every dialogue; fully parse text only after both interlocutors are assigned DEVELOPMENT.",
+    "split_assignment_sha256": "950b5c16e7b6eb77a350b7e3adc4fc1f5be63d11facbaa5ccc3f70081cf3e6f7"
+  },
+  "eligible_speaker_count": 76,
+  "cohort_and_dialogue_assignment_sha256": "a37be702fc1a2ec638662c4191175dd37b1f4ad8a0d0bfb644db26c780cbe0d1",
+  "frozen_controls": [
+    {
+      "name": "feature_ablations",
+      "estimand": "Mean and distribution of other-median-minus-own standardized L1 margin after removing length features, explicit lexical/morphological laughter and politeness markers, and both groups jointly."
+    },
+    {
+      "name": "length_matching_and_imbalance",
+      "estimand": "Style margin against the ten eligible controls nearest in target turn and character counts; Spearman association of original margins with available dialogue count, selected amount and source-target length imbalance; equal-count frequency tertiles."
+    },
+    {
+      "name": "topic_lexical_negative_control",
+      "estimand": "Within-profile minus other-median content-character trigram Jaccard overlap, plus style margin against the ten controls nearest to the own-profile trigram overlap. Character trigrams are not a semantic topic model."
+    },
+    {
+      "name": "formulaic_and_direct_leakage",
+      "estimand": "Counts of exact normalized turns shared between source and target, style margin after removing such turns from both sides, and structural source-target dialogue and partner-overlap violations."
+    },
+    {
+      "name": "immediate_partner_negative_control",
+      "estimand": "Partner-source-to-target minus own-source-to-target standardized L1 distance using the two source-dialogue partners' turns. Positive values favor the focal source over immediate partner language but cannot exclude broader accommodation."
+    }
+  ],
+  "frozen_parameters": {
+    "feature_sets": {
+      "full_frozen": [
+        "mean_turn_length",
+        "sd_turn_length",
+        "question_turn_rate",
+        "exclamation_turn_rate",
+        "full_stop_turn_rate",
+        "ellipsis_turn_rate",
+        "laughter_turn_rate",
+        "polite_ending_rate",
+        "hiragana_rate",
+        "katakana_rate",
+        "han_rate",
+        "latin_rate",
+        "digit_rate",
+        "punctuation_rate",
+        "symbol_rate"
+      ],
+      "without_length": [
+        "question_turn_rate",
+        "exclamation_turn_rate",
+        "full_stop_turn_rate",
+        "ellipsis_turn_rate",
+        "laughter_turn_rate",
+        "polite_ending_rate",
+        "hiragana_rate",
+        "katakana_rate",
+        "han_rate",
+        "latin_rate",
+        "digit_rate",
+        "punctuation_rate",
+        "symbol_rate"
+      ],
+      "without_explicit_lexical_markers": [
+        "mean_turn_length",
+        "sd_turn_length",
+        "question_turn_rate",
+        "exclamation_turn_rate",
+        "full_stop_turn_rate",
+        "ellipsis_turn_rate",
+        "hiragana_rate",
+        "katakana_rate",
+        "han_rate",
+        "latin_rate",
+        "digit_rate",
+        "punctuation_rate",
+        "symbol_rate"
+      ],
+      "without_length_or_explicit_lexical_markers": [
+        "question_turn_rate",
+        "exclamation_turn_rate",
+        "full_stop_turn_rate",
+        "ellipsis_turn_rate",
+        "hiragana_rate",
+        "katakana_rate",
+        "han_rate",
+        "latin_rate",
+        "digit_rate",
+        "punctuation_rate",
+        "symbol_rate"
+      ]
+    },
+    "topic_character_ngram_n": 3,
+    "matched_control_count": 10,
+    "correlation_flag_absolute_rho": 0.3
+  },
+  "registered_readout_rules": {
+    "persistence_after_joint_ablation": "Mean margin > 0 and positive-speaker proportion > 0.5.",
+    "persistence_after_length_matching": "Mean margin > 0 and positive-speaker proportion > 0.5.",
+    "persistence_after_topic_overlap_matching": "Mean margin > 0 and positive-speaker proportion > 0.5.",
+    "frequency_or_length_sensitivity_flag": "Any absolute registered Spearman rho >= 0.30.",
+    "immediate_partner_negative_control": "Mean partner-minus-own distance > 0 and positive-speaker proportion > 0.5.",
+    "exact_turn_leakage_flag": "At least one exact normalized source-target turn overlap."
+  },
+  "uncertainty_policy": "Report speaker-level median, interquartile range and positive proportion descriptively. No p-values, confidence intervals or population-confirmatory claims are authorized.",
+  "privacy": "Emit only aggregate counts, statistics and hashes; no participant text, pseudonymous IDs or row-level values.",
+  "claim_boundary": "A robust result supports only a development-set mixed surface/stylometric proxy. It cannot establish stable identity independent of topic, generative Persona Fidelity, a conditioning effect, population generalization or independent validation.",
+  "source_bindings": {
+    "analysis_controller_sha256": "8164ad41e424d8048db6784cb5625cd89871755baa74d05cd4f07ff8db09a496",
+    "analysis_test_sha256": "9862a7335772ebff5accae4944fc35ebbf6d57cecafc2d83c132b5d3af2638a8",
+    "prior_registration_sha256": "6cf206f3ffbf72a1ac080276c7ee136c49a9e303001b8018ca55e506d2d3ed7d",
+    "prior_analysis_sha256": "7e3c5a68a67e60c13e506ffd375c364c5be2eb75a80ef919eb0d515a91a14d3d",
+    "prior_interpretation_correction_sha256": "ec82a0d3f0013ec3973d9c359ae58bfbe1d040864e0a3c59658cb5888a1c614f",
+    "prior_independent_reproduction_sha256": "d5fc409374e14fdac38fd318f37af9e1f04eaac5f7d9ac020f97f4b879f8cf78",
+    "intake_receipt_sha256": "b230983bbe8a65b9370f4c1b69af01ce2dc9ae3a8504648d7baa143ee3739aa2"
+  },
+  "planned_output": "analysis_v1.json",
+  "model_calls": 0,
+  "generation_allocation": 0,
+  "outcomes_computed_before_freeze": false
+}

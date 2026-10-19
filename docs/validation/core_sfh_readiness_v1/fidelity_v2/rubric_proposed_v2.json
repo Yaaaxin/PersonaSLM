@@ -1,0 +1,39 @@
+{
+  "agreement_plan": "Per-dimension ordinal alpha or weighted kappa, state contingency, raw disagreements and speaker-block uncertainty; zero actual agreement estimates here.",
+  "behavior_fields": [
+    "acknowledgment_vs_answer_order",
+    "advice_only_when_requested"
+  ],
+  "calibration": "These authored examples can reveal rubric confusion but cannot establish psychometric validity. Revise rubric only prospectively before experimental freeze.",
+  "evidence_requirement": "Separate LF/BF spans and an alternative plausible score, independent of correctness.",
+  "generated_responses": 0,
+  "human_reviews": 0,
+  "independence": "Two actual reviewers receive shuffled panels before AI keys; recruit if available. Adoption by researcher is not a second independent annotation.",
+  "linguistic_fields": [
+    "lexical_choice",
+    "sentence_rhythm",
+    "punctuation",
+    "register"
+  ],
+  "new_authored_challenges": 8,
+  "no_automatic_scalar": true,
+  "scale": {
+    "1": "Clear repeated incompatibility across available cues",
+    "2": "Mostly incompatible cues",
+    "3": "Mixed compatible/incompatible cues",
+    "4": "Clear alignment with a minor deviation",
+    "5": "Clear alignment across available opportunities; not merely copied words"
+  },
+  "short_answer_rule": "Do not impose the earlier eight-word heuristic as a scoring threshold. Judge available cues; too little evidence is a state, not score 1.",
+  "states": [
+    "SCORED",
+    "INSUFFICIENT_OPPORTUNITY",
+    "BOUNDARY_UNRESOLVED",
+    "INTERPRETATION_UNCERTAIN",
+    "MISSING",
+    "NOT_APPLICABLE"
+  ],
+  "status": "PROPOSED_NOT_HUMAN_VALIDATED",
+  "validation_stop": "If raters consistently equate facts/task with persona, or cannot distinguish behavior/LF, withhold confirmatory fidelity claims and revise before freeze.",
+  "version": "fidelity_operational_rubric_proposed_v2"
+}

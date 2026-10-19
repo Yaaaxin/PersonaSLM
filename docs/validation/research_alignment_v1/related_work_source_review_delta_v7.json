@@ -1,0 +1,62 @@
+{
+  "limitations": [
+    "No full published implementation reproduced",
+    "No claim every appendix statistic independently reverified",
+    "Peer review distinguished from preprint and future venue heading",
+    "No author or model superiority inferred from title"
+  ],
+  "new_closest_competitors": [
+    {
+      "authors": [
+        "Preston Rasmussen",
+        "Pavlo Paliychuk",
+        "Travis Beauvais",
+        "Jack Ryan",
+        "Daniel Chalef"
+      ],
+      "inspected": "architecture, bi-temporal facts, retrieval and experiments; not executed",
+      "novelty_claim": "UNVERIFIED",
+      "overlap": "typed temporal provenance, entity links, conflict invalidation",
+      "status": "PREPRINT_PEER_REVIEW_UNVERIFIED",
+      "title": "Zep: A Temporal Knowledge Graph Architecture for Agent Memory",
+      "url": "https://arxiv.org/html/2501.13956v1"
+    },
+    {
+      "authors": [
+        "Prateek Chhikara",
+        "Dev Khant",
+        "Saket Aryan",
+        "Taranjeet Singh",
+        "Deshraj Yadav"
+      ],
+      "inspected": "extraction/update, graph variant, LOCOMO experiments and cost; not executed",
+      "novelty_claim": "UNVERIFIED",
+      "overlap": "memory update, entity relations, conflict handling",
+      "status": "PREPRINT_PEER_REVIEW_UNVERIFIED",
+      "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+      "url": "https://arxiv.org/html/2504.19413v1"
+    }
+  ],
+  "parent": "docs/related_work_novelty_matrix_monitor_v6.md",
+  "queries": [
+    "Zep temporal knowledge graph valid_at invalid_at created_at expired_at 2501.13956",
+    "Mem0 building production ready AI agents scalable long term memory arxiv 2504.19413",
+    "Persistent Personas language models persona",
+    "TwinVoice persona language model",
+    "Wiki-Talkie persona"
+  ],
+  "review_recorded_utc": "2026-10-14T16:33:18.232098+00:00",
+  "reviewer_provenance": "AI_assisted_primary_source_review",
+  "revisited_sources": [
+    "https://aclanthology.org/2026.findings-acl.395.pdf",
+    "https://arxiv.org/html/2610.11188v1",
+    "https://arxiv.org/html/2410.10813v2",
+    "https://aclanthology.org/2024.findings-acl.212.pdf",
+    "https://aclanthology.org/2023.acl-long.910.pdf",
+    "https://aclanthology.org/2026.findings-acl.981.pdf",
+    "https://aclanthology.org/2026.eacl-long.246.pdf",
+    "https://arxiv.org/html/2610.09772v2",
+    "https://arxiv.org/html/2610.08513v1"
+  ],
+  "version": "related_work_source_review_delta_v7"
+}

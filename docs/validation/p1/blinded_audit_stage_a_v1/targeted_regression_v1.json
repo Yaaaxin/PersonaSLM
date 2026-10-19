@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-10-15T12:51:17.351742+00:00",
+  "finished_utc": "2026-10-15T12:51:21.987364+00:00",
+  "command": [
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_p1_blinded_stage_a.py",
+    "tests/test_p1_factorial_descriptive.py",
+    "-q"
+  ],
+  "returncode": 0,
+  "stdout": "...........................                                              [100%]\n27 passed in 3.77s\n",
+  "stderr": ""
+}

@@ -1,0 +1,121 @@
+{
+  "version": "p1_stage_b_decision_record_v1",
+  "phase": "P1_ONLY_DEVELOPMENT",
+  "researcher": "Yaxin ZHENG",
+  "software_recorded_utc": "2026-10-16T21:15:54.1966552+00:00",
+  "researcher_authorization": {
+    "activation_phrase": "unblind and proceed",
+    "activation_source_path": "docs/validation/p1/stage_b_v1/researcher_activation_source_v1.txt",
+    "activation_source_sha256": "d2ab66b1f3f45c8d0ef953e7433c0873888f9d83eb3ba3a54109f97e25d8a1de",
+    "authorization_scope": "Previously frozen P1 Stage B conditional developmental workflow; maximum 88 additional scientific CPU generations",
+    "human_authorization_timestamp": null,
+    "provenance": "The exact activation phrase was supplied in the current researcher message. The software timestamp is not represented as a human timestamp."
+  },
+  "unblinding": {
+    "artifact_path": "docs/validation/p1/stage_b_v1/researcher_unblinding_record_v1.json",
+    "artifact_sha256": "27875cb4830d6a82b2ae4b561a1ad3cc651ab5c675777c26b6b8bcdfdf9225ee",
+    "artifact_recorded_software_utc": "2026-10-16T21:15:45.831354+00:00",
+    "authoritative_researcher_submission_path": "docs/validation/p1/blinded_audit_stage_a_v1/blinded_researcher_audit_RESEARCHER_FILLED_DATE_RULE_v3.csv",
+    "authoritative_researcher_submission_sha256": "b0e8cff9b80bdb6055d81333fc0a42a3117e1d5a3bc043f7dcce4cd9aa8ecb84",
+    "validated_stage_a_compatibility_view_path": "docs/validation/p1/researcher_audit_integration_v1/researcher_annotation_stage_a_compatibility_v1.csv",
+    "validated_stage_a_compatibility_view_sha256": "b7b6c40900d42b03643808db4aa74d57f1f776e651b21dfb512f328586211cad",
+    "restricted_key_sha256": "8ab628c1a74a7fbb3f09c0a8f266359ab32d6c9835db39f4afe3406647dc896f",
+    "mapping_integrity": {
+      "review_records": 32,
+      "unique_anonymous_review_ids": 32,
+      "unique_original_output_identifiers": 32,
+      "bijection": true,
+      "records_per_condition": {
+        "D0": 8,
+        "D1": 8,
+        "D2": 8,
+        "D3": 8
+      },
+      "missing_mappings": 0,
+      "duplicate_mappings": 0
+    },
+    "blinding_description": "Researcher audit was partially blinded, not double-blind and not independent second-human validation.",
+    "procedural_incident": "A prior interrupted-session legacy test process parsed the real key after the researcher submission was frozen; no mappings were emitted and no condition-level result was calculated then. The event remains recorded and is not treated as proof of reviewer contamination."
+  },
+  "decision_rule": {
+    "version": "p1_blinded_stage_policy_v1",
+    "policy_path": "docs/validation/p1/blinded_audit_stage_a_v1/stage_policy_frozen_v1.json",
+    "policy_sha256": "d2b20296c7d1bb3b49b969a811ff2e9488232ddac227a4966dab0b1d989fff82",
+    "audited_task_success_minimum": 6,
+    "automatic_exact_agreement_minimum": 7,
+    "denominator": 8,
+    "priority": [
+      "D0",
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "automatic_score_source_path": "docs/validation/p1/measurement_recovery_2x2_v2/consolidated_researcher_review_v2.csv",
+    "automatic_score_source_sha256": "3a298818a2fc76d5590d80d05267c46c268bf5eeb812b2d369038616196c894a",
+    "applicable_scorers": {
+      "D0_D1": "tools/p1_measurement_scoring_v2.py task_success",
+      "D2_D3": "tools/p1_recovery_design.py score_single"
+    },
+    "date_binding_audit": "NO_CONFIRMED_REGISTERED_DATE_SUBSTITUTION_DEFECT"
+  },
+  "condition_results": {
+    "D0": {
+      "researcher_audited_task_success": 1,
+      "original_automatic_task_success": 1,
+      "automatic_audited_exact_agreement": 7,
+      "disagreements": 1,
+      "denominator": 8,
+      "qualifies": false
+    },
+    "D1": {
+      "researcher_audited_task_success": 5,
+      "original_automatic_task_success": 5,
+      "automatic_audited_exact_agreement": 8,
+      "disagreements": 0,
+      "denominator": 8,
+      "qualifies": false
+    },
+    "D2": {
+      "researcher_audited_task_success": 5,
+      "original_automatic_task_success": 5,
+      "automatic_audited_exact_agreement": 8,
+      "disagreements": 0,
+      "denominator": 8,
+      "qualifies": false
+    },
+    "D3": {
+      "researcher_audited_task_success": 5,
+      "original_automatic_task_success": 5,
+      "automatic_audited_exact_agreement": 8,
+      "disagreements": 0,
+      "denominator": 8,
+      "qualifies": false
+    }
+  },
+  "selection": {
+    "selected_configuration": null,
+    "qualifying_configurations": [],
+    "branch": "B",
+    "fallback_activated": true,
+    "reason": "No D0-D3 configuration reached both frozen thresholds. The priority order was therefore not invoked.",
+    "first_manifest_identifier": "fallback_calibration",
+    "first_manifest_path": "docs/validation/p1/measurement_recovery_2x2_v2/fallback_bank_v1/fallback_calibration_manifest_candidate_v1.json",
+    "first_manifest_sha256": "b23b9a35bba1ff9313e71f75759e8107b3d23b54f765c5fe736094263ff17cde",
+    "conditional_pilot_identifier": "P1_minimal_temporal_SFH_pilot_v2",
+    "conditional_pilot_path": "docs/validation/p1/blinded_audit_stage_a_v1/manifests/P1_minimal_temporal_SFH_pilot_v2.json",
+    "conditional_pilot_sha256": "6bc6421823371b9cad6140aad1046a3f9aebc2d4594e277b3601a3f4b6fc849e"
+  },
+  "inference_authorization": {
+    "historical_attempted": 72,
+    "remaining_before_stage_b": 88,
+    "branch_b_maximum": 88,
+    "fallback_calibration_maximum": 8,
+    "conditional_factorial_pilot_maximum": 80,
+    "new_generations_at_decision_record": 0,
+    "calibration_gate": "automatic task success >= 7/8",
+    "pilot_c0_gate": "automatic task success >= 6/8",
+    "retries": 0
+  },
+  "scientific_status": "DETERMINISTIC_STAGE_B_SELECTION_COMPLETE_BEFORE_INFERENCE",
+  "confirmatory_status": "NOT_CONFIRMATORY"
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "personaslm_persona_dialogue_mechanism_analysis_v2_reproduction_v1",
+  "recorded_utc": "2026-10-18T16:44:16.7387989Z",
+  "status": "PASS_BYTE_IDENTICAL_INDEPENDENT_RECOMPUTATION",
+  "method": "A fresh in-memory call to the authorized analysis-v2 build_report replayed the immutable raw journal through the source-bound frozen runner, applied only the authorized Counter-key serialization mapping, serialized with the production JSON settings, and compared those bytes with the archived analysis-v2 file.",
+  "bindings": {
+    "analysis_v2": {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/analysis_v2.json",
+      "sha256": "0e690501107c8031dd3774a8b7845e9b1cf2dc61d7969404d70738e7bb32cef6"
+    },
+    "analysis_v2_authorization": {
+      "path": "docs/validation/p1/persona_dialogue_mechanism_v1/analysis_v2_authorization_v1.json",
+      "sha256": "0ec911164c9d4bfd626d5d39764377efba7bd63118b65e3169afea01809c901a"
+    },
+    "analysis_v2_wrapper": {
+      "path": "tools/p1_persona_dialogue_mechanism_analysis_v2.py",
+      "sha256": "e23e204aaba5cd80b631e97a59ca698deac131dbe984e9ba2e96cc28fa7b7503"
+    },
+    "analysis_v2_test": {
+      "path": "tests/test_p1_persona_dialogue_mechanism_analysis_v2.py",
+      "sha256": "14c6ba1d1fe67cd97b8c47c574b25fd27be352673a7d9a3826ec08015d48cd9a"
+    },
+    "frozen_runner": {
+      "path": "tools/p1_persona_dialogue_mechanism.py",
+      "sha256": "fd3bb9793ca2630d8e2e145d97bfb742ef197e5465346a8a420b38f592274b3f"
+    }
+  },
+  "results": {
+    "independent_recompute_equal": true,
+    "recomputed_sha256": "0e690501107c8031dd3774a8b7845e9b1cf2dc61d7969404d70738e7bb32cef6",
+    "archived_sha256": "0e690501107c8031dd3774a8b7845e9b1cf2dc61d7969404d70738e7bb32cef6",
+    "new_model_generations": 0,
+    "network_calls": 0,
+    "raw_outputs_modified": false
+  },
+  "scope_limit": "This demonstrates local analysis reproduction from the private raw journal. It is not generation reproduction, cross-environment replication, human validation, real-speaker validation, or a new independent experimental sample."
+}

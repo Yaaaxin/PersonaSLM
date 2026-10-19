@@ -1,0 +1,22 @@
+{
+  "decision": "AUTHORIZED",
+  "existing_execution_found": false,
+  "human_decision_timestamp": null,
+  "manifest_sha256": "ba63c30a9868b94b47f8f79dd774ac0627d56113810ffd4db08eb63af0374b91",
+  "maximum_attempts": 8,
+  "model_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+  "partial_conversion_lineage": "Explicitly accepted by researcher for development feasibility only; not confirmatory inference.",
+  "prohibitions": [
+    "retry",
+    "other inference",
+    "training",
+    "main validation cohort"
+  ],
+  "registered_utc": "2026-10-14T16:06:26.573437+00:00",
+  "researcher": "Yaxin ZHENG",
+  "scope": "Existing eight development cases, H_none, 96-token cap, exact registered order and template.",
+  "semantic_adoption": false,
+  "source": "Explicit user message: Research Programme Alignment, Instruct Feasibility, Core Factorial Restoration, and Original Algorithm Development, section 8",
+  "time_limit_minutes": 45,
+  "version": "p1d_instruct_smoke_authorization_v1"
+}

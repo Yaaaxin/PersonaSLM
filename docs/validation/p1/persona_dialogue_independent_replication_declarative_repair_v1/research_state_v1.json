@@ -1,0 +1,169 @@
+{
+  "schema_version": "personaslm_research_state_declarative_repair_v1",
+  "recorded_utc": "2026-10-18T20:15:18.4793597Z",
+  "researcher": "Yaxin ZHENG",
+  "protocol": "PersonaSLM Research Protocol v1.1",
+  "git": {
+    "branch": "research/autonomous-personaslm",
+    "head": "c40667ad266082481b1850453f67784b593f3723",
+    "worktree": "DIRTY_RESEARCH_ARTIFACTS_UNCOMMITTED_HUMAN_GIT_CONTROL",
+    "automated_commit_or_push": false
+  },
+  "historical_model_feasibility": {
+    "status": "BOUNDED_SCREEN_NEGATIVE_FINAL",
+    "candidate_1": {
+      "model": "SmolLM2-1.7B-Instruct",
+      "frozen_task_success": "1/8"
+    },
+    "candidate_2": {
+      "model": "Qwen2.5-3B-Instruct",
+      "frozen_task_success": "2/8"
+    },
+    "registered_qualification_threshold": "7/8",
+    "interpretation": "The historical bounded temporal-QA screen failed and remains frozen. It is not a universal gate for separately registered persona-dialogue research."
+  },
+  "latest_completed_experiment": {
+    "experiment": "Declarative-history surface-normalization baseline on the synthetic S/F/H replication",
+    "evidence_level": "OUTPUT_INFORMED_SYNTHETIC_DEVELOPMENT",
+    "status": "PASS_COMPLETE_48_OF_48_ZERO_RETRY",
+    "run_directory": "results/p1_persona_dialogue_independent_replication_declarative_repair/v1/runs/20261018T195559-40418fba50ea405b97a2e955145c3c9f",
+    "model_generations": 48,
+    "responses": 48,
+    "native_eos": 48,
+    "generated_tokens": 1329,
+    "completion_inference_seconds": 266.92424730000494,
+    "batch_wall_seconds": 276.7579974,
+    "server_peak_working_set_bytes": 2634989568,
+    "minimum_observed_available_physical_bytes": 1508548608,
+    "archived_h0_rows_reused": 48,
+    "archived_h0_regenerations": 0,
+    "model": {
+      "label": "Qwen3.5-2B-native-chat-Q4_K_M-third-party-development",
+      "artifact_revision": "bb84e11355a036e28f080c7793fa6d22b7c4e344",
+      "intended_upstream_revision": "965dcc54bc9c0591873df0e9869c056a54d323d1",
+      "weight_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+      "quantization": "Q4_K_M",
+      "conversion_lineage": "PARTIALLY_VERIFIED_DEVELOPMENT_ONLY"
+    },
+    "direct_surface_measurement_association": {
+      "archived_raw_h1_selection_resolution": "2/48",
+      "new_declarative_h1_selection_resolution": "42/48",
+      "selection_resolution_difference": 0.8333333333333334,
+      "archived_raw_h1_raw_frame_recurrence": "44/48",
+      "new_declarative_h1_raw_frame_recurrence": "2/48",
+      "raw_frame_difference": -0.875,
+      "interpretation": "These coupled endpoints show a large observed same-bank cross-batch surface and measurement-coverage association. The strict selector rejects the raw recommendation frame, and wording is fully aliased with execution batch. This is not a semantic reliability repair or a causal wording effect."
+    },
+    "paired_content_effect": {
+      "complete_pairs": 2,
+      "status": "NOT_IDENTIFIED",
+      "reason": "Logical bounds for current-target, preferred-choice, and archived-target endpoints span both benefit and harm."
+    },
+    "hybrid_cross_batch_descriptive_factorial_current_preference": {
+      "S": -0.225,
+      "F": 0.125,
+      "H_DECLARATIVE_AND_BATCH": -0.125,
+      "S_x_F": -0.05,
+      "S_x_H_DECLARATIVE_AND_BATCH": 0.05,
+      "F_x_H_DECLARATIVE_AND_BATCH": -0.25,
+      "S_x_F_x_H_DECLARATIVE_AND_BATCH": 0.1,
+      "complete_cases_per_effect": "10/12",
+      "narrow_surface_style_uptake_S_effect": 0.9583333333333334,
+      "interpretation": "Exploratory descriptive reconstruction only. H is exactly aliased with execution batch and declarative rendering; narrow style uptake is prompt-contract adherence, not broad Persona Fidelity."
+    },
+    "outdated_value_endpoint": {
+      "declarative_C6": "2/4",
+      "declarative_C7": "2/4",
+      "C7_minus_C6": 0.0,
+      "interpretation": "All four cases selected current Option A in both cells; two archived preferences mapped to A and two to B. The 2/4 incidence is compatible with an Option-A bias and cannot be attributed to history. C7-C6 is an S contrast at F=H=1, not an H or repair effect."
+    },
+    "claims_not_supported": [
+      "semantic reliability improvement",
+      "causal wording effect",
+      "confirmatory statistical significance",
+      "population generalization",
+      "real-speaker Persona Fidelity",
+      "broad conversational coherence",
+      "independent experimental validation",
+      "novel or validated algorithm"
+    ]
+  },
+  "cumulative_autonomous_budget": {
+    "generation_ceiling": 1200,
+    "generations_used": 340,
+    "generations_remaining": 860,
+    "inference_seconds_ceiling": 72000,
+    "inference_seconds_used": 1968.0195239999766,
+    "inference_seconds_remaining": 70031.98047600003,
+    "historical_p1_requests_used_separate": 80,
+    "historical_p1_requests_ceiling_separate": 160
+  },
+  "evidence": {
+    "prospective_design_v1_sha256": "31fba764f949ffcdcc07fd348e334195878aeb82de24b1ff3e0e8cc88f919546",
+    "case_transform_v1_sha256": "f1f1bb31d9e088cf7ffa5f9356a43323bd2217a1585826186fe4c3a13ee86c3b",
+    "execution_authorization_v1_sha256": "25fe4ba7dcfa27a518989a416991e856199247dc7140f774fae051af21383ac0",
+    "frozen_manifest_v1_sha256": "4e7dc5bf4503018fbf9130f49025e4eb7bef31b4e9f9f6ca5ae9cc2987987de0",
+    "preflight_v1_sha256": "87be4e7a97c7c9fa7faf29184830233510e49642bfa54a8e0b82caa3beb2eca6",
+    "run_manifest_sha256": "810497a4e1d5ced89ea05c8902ac7910aa3d47a2d49f549609bd493e79983a51",
+    "run_summary_sha256": "7ff2d7ef6ddbcad3c7d2fc18e26da19a594164c013fea1afe0ee3270401913be",
+    "claim_sha256": "a063da5b390cff839e625be2b2213e31306e6b1976b39078bd5903b79d4d7539",
+    "execution_audit_v1_sha256": "2d2583b763fc02501fc51b3920580c2898e52661c7fadc0c242ec26c3087a995",
+    "analysis_v1_sha256": "8972902387ac485030dc1526a02c64dabfee63b39f6b9314c26e8ec111381ab0",
+    "analysis_reproduction_v1_sha256": "cc7d43a42381b9c2952ac29433e18552f9cf3b65eab17891b503bb7a1fa91dcd",
+    "scientific_report_v1_sha256": "881d568103b4892f1eafdc76438c3d3753e21b4abb59ddb9f183a4688ff51add",
+    "frozen_preexecution_test_sha256": "969e408fb0c6ffa9d854ea8dac1b4aecfafdef4def1dec5b997c04676d2c2785",
+    "postrun_phase_aware_test_sha256": "2ad0ada896a592936000d4c6803085930838568d2442fbe4d97853f5812a898d"
+  },
+  "analysis_reproduction": {
+    "status": "PASS_ZERO_DIFFERENCES",
+    "child_journal_events": 469,
+    "parent_journal_events": 899,
+    "child_responses_rescored": 48,
+    "parent_responses_rescored": 96,
+    "model_calls": 0,
+    "independence_boundary": "Separate local analysis processes in the same autonomous session; not independent researchers, samples, or external validation."
+  },
+  "measurement_validity": {
+    "strict_selector": "VALID_FOR_FROZEN_EXACT_GRAMMAR_BUT_INCOMPLETE_FOR_SEMANTIC_CHOICE",
+    "new_h1_unresolved_but_interpretable": 6,
+    "response_status_ambiguous": 48,
+    "semantic_completeness_uncertain": 48,
+    "broad_linguistic_persona_fidelity": "NOT_MEASURED",
+    "behavioral_persona_fidelity": "NOT_MEASURED",
+    "human_semantic_validation": "PENDING"
+  },
+  "human_semantic_review": {
+    "historical_review_status": "PENDING_GENUINE_BLINDED_RESEARCHER_JUDGMENTS",
+    "historical_review_file": ".local/reviewer-packages/p1_stageb_candidate1_semantic_review_v1/stage_a_pointwise_REVIEW_TEMPLATE.csv",
+    "historical_review_file_sha256": "16aecfa401c491e80ca6c0232c3980f9ad8e87891f241d755b9a2efd3d63115d",
+    "historical_blank_records": 16,
+    "fabricated_or_ai_substitute_labels": 0
+  },
+  "algorithm_status": {
+    "status": "NO_INDEPENDENTLY_VALIDATED_NOVEL_ALGORITHM",
+    "declarative_history_rendering": "SIMPLE_SURFACE_NORMALIZATION_BASELINE_CONTENT_BENEFIT_UNIDENTIFIED",
+    "next_dependency": "Replicate the measured surface association and test semantic content on disjoint cases and models before considering a differentiated intervention."
+  },
+  "independent_validation": {
+    "latest_experiment": "NOT_INDEPENDENT_OUTPUT_INFORMED_SYNTHETIC_DEVELOPMENT",
+    "programme_status": "NO_INDEPENDENT_VALIDATION_OF_THE_LATEST_MECHANISM_OR_FACTORIAL_EFFECTS",
+    "next_valid_action": "Freeze a disjoint same-model validation bank with counterbalanced options, length-matched neutral or irrelevant history, surface-independent entity endpoints, and blinded semantic and Persona Fidelity judgments before outputs. Then freeze a cross-model replication without validation-set tuning."
+  },
+  "real_speaker_status": {
+    "status": "BLOCKED_PENDING_LAWFULLY_USABLE_GOVERNED_SPEAKER_DERIVED_MATERIAL",
+    "synthetic_evidence_must_not_be_relabelled": true
+  },
+  "literature_monitor": {
+    "date": "2026-10-18",
+    "status": "COMPLETED_DO_NOT_REPEAT_WITHOUT_SPECIFIC_REASON",
+    "primary_source_addendum": "docs/validation/literature_monitor_v1/primary_source_review_addendum_2026-10-18_v3.json",
+    "novelty_assessment": "docs/P1_novelty_assessment.md"
+  },
+  "runtime_state": {
+    "active_model_inference_process": false,
+    "frozen_evidence_overwritten": false,
+    "budgets_reset": false,
+    "git_commit_or_push_performed": false
+  },
+  "next_scientific_action": "Create and prospectively freeze a disjoint, position-counterbalanced same-model validation bank that independently measures semantic current choice and Persona Fidelity, includes NO_H plus length-matched neutral or irrelevant history, and prebinds blinded human review before any output. The simple declarative surface-normalization baseline must remain a comparator."
+}

@@ -1,0 +1,31 @@
+{
+  "activation_required": "unblind and proceed",
+  "attempted": {
+    "A_C0": 32,
+    "B_FACTORIAL": 0,
+    "C_DIAGNOSTIC": 40
+  },
+  "authorization_id": "P1_ACCELERATED_MEASUREMENT_20261015_V1",
+  "new_stage_A_generations": 0,
+  "recorded_software_utc": "2026-10-15T12:39:21.361401+00:00",
+  "remaining_are_mutually_exclusive_branches": "A<=80B or B<=8C+80B; not all candidate manifests; no transfer/no new160 allocation.",
+  "remaining_authorization": {
+    "A_C0": 0,
+    "B_FACTORIAL": 80,
+    "C_DIAGNOSTIC": 8
+  },
+  "remaining_unreserved": {
+    "A_C0": 0,
+    "B_FACTORIAL": 80,
+    "C_DIAGNOSTIC": 8
+  },
+  "reserved": {
+    "A_C0": 32,
+    "B_FACTORIAL": 0,
+    "C_DIAGNOSTIC": 40
+  },
+  "retry_policy": "Attempt files are exclusive and never removed. Ambiguous transport outcomes consume an attempt.",
+  "stage_B_activated": false,
+  "total_attempted": 72,
+  "total_remaining": 88
+}

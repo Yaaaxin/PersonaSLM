@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "E:\\DEVOIRS\\Research\\PersonaSLM-Lab\\PersonaSLM-Lab-P0-v1.1\\PersonaSLM-Lab\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "tests/test_p1d_instruct_smoke.py",
+    "tests/test_p1d_instruct_preparation_v3.py",
+    "tests/test_p1d_instruct_measurement.py",
+    "tests/test_escp_offline.py",
+    "tests/test_personaslm_alignment.py",
+    "tests/test_p5_oracle_proposal.py",
+    "tests/test_response_status.py",
+    "tests/test_p1d_format_analysis.py",
+    "tests/test_p1d_fair_retrieval.py",
+    "tests/test_p1d_boundary_locality.py"
+  ],
+  "finished_utc": "2026-10-14T16:32:40.832062+00:00",
+  "generation_requests": 0,
+  "returncode": 0,
+  "started_utc": "2026-10-14T16:32:36.708365+00:00",
+  "stderr": "",
+  "stdout": "........................................................................ [ 77%]\n.....................                                                    [100%]\n93 passed in 3.70s\n"
+}

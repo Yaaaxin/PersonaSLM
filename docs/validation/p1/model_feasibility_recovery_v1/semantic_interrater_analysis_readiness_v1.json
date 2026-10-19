@@ -1,0 +1,50 @@
+{
+  "agreement_results": 0,
+  "analysis_contract": {
+    "acceptance_threshold": null,
+    "adjudication": false,
+    "answer_span": "Exact agreement only on mutually completed rows where both states are value-bearing; descriptive only.",
+    "coverage": "Assigned, completed, mutually completed, and unavailable counts are retained.",
+    "degenerate_kappa": "Reported as undefined, never coerced to zero or one.",
+    "semantic_answer_state": "Fixed-order 7x7 matrix, raw exact agreement, nominal Cohen kappa.",
+    "semantic_completeness": "Fixed-order 3x3 matrix, raw exact agreement, nominal Cohen kappa."
+  },
+  "completed_human_labels": 0,
+  "execution_impact": {
+    "inference_seconds": 0.0,
+    "scientific_model_generations": 0
+  },
+  "human_reviewers_recruited": 0,
+  "limitations": [
+    "This receipt contains no human result, agreement estimate, threshold decision, or adjudication.",
+    "A completed analysis would remain development calibration rather than independent replication."
+  ],
+  "privacy_contract": {
+    "anonymous_or_source_ids_emitted": false,
+    "protected_mapping_read_or_emitted": false,
+    "rationales_or_spans_emitted": false,
+    "record_text_emitted": false,
+    "reviewer_identities_emitted": false
+  },
+  "requirements": [
+    "Both completed review files must pass immutable-content and label-contract validation.",
+    "Both provenance records must attest to distinct independent external humans and blind initial locks.",
+    "Both delivery manifests and the common anonymous-ID set must match the frozen plan."
+  ],
+  "schema_version": "personaslm_semantic_interrater_analysis_readiness_v1",
+  "source_hashes": {
+    "analysis_tool": {
+      "path": "tools/p1_semantic_interrater_analyze.py",
+      "sha256": "e112defd9feccd36f3bdc76b6c65d8a305d41f83fc2ec0a47a881bfd4318fd3e"
+    },
+    "frozen_plan": {
+      "path": "docs/validation/p1/model_feasibility_recovery_v1/semantic_interrater_calibration_plan_v1.json",
+      "sha256": "b6881b1ba7e8f730836ad83c0060457cce308cfff5c523f6eb4b4c9cb425a7e0"
+    },
+    "preparation_tool": {
+      "path": "tools/p1_semantic_interrater_prepare.py",
+      "sha256": "4caa3f8ba4a79866ad76d0dfd17adecea08fa1ab994a079d17ac208d52bdbeca"
+    }
+  },
+  "status": "READY_FOR_TWO_VALIDATED_HUMAN_INPUTS_ZERO_RESULTS"
+}

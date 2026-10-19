@@ -1,0 +1,83 @@
+{
+  "schema_version": "personaslm_rpc_sfh_pilot_execution_authorization_draft_v1",
+  "status": "DRAFT_AWAITING_INDEPENDENT_CONTROLLER_AUDIT_NOT_AUTHORIZED_NOT_TOKENIZED_NOT_EXECUTED",
+  "researcher": "Yaxin ZHENG",
+  "authority": "Explicit user directive PersonaSLM — REAL-SPEAKER EXPERIMENTAL ACCELERATION, sections 7, 8, 13 and 14, plus the continuing Autonomous Research Charter.",
+  "scientific_level": "DEVELOPMENT_EXPLORATORY_NOT_INDEPENDENT_VALIDATION",
+  "bindings": {
+    "design_sha256": "f46d1458c40aa0ddbb03d7676d81a37967cfad2ae0b935f3e6b0bfa7916ff439",
+    "material_receipt_sha256": "f81d432b672320e35c2779709677825652ceff8673cb5cac183f76ecc45a639b",
+    "private_material_sha256": "4f2e57ba05a8784835c0c0108ec10ba18851a28c084b1dc293b4eb4359a1ff4e",
+    "controller_sha256": "0a8143ba7a474eadfd303a109dcac5f438e44b14c0ab3e32f82c6f7d0e3d1110",
+    "test_sha256": "7dcc7b8d0b949c43d2fcd6f0ff88fe4cc3baccd4a7c9ba8db2a5efdc45724409",
+    "scorer_specification_sha256": "67d302f913ded74f73dbe511c144f9890b229d9518881364e0305b3ed5fdda0a",
+    "style_validity_analysis_sha256": "7778a7857ad9689be9deb3b17867fff92fe6b5f110ea103298ecc49b2b55f5da"
+  },
+  "model": {
+    "model_label": "Qwen3.5-2B-native-chat-Q4_K_M-third-party-development",
+    "model_sha256": "0bfe35afc9f05b7fac3fa04925e051ac7939a42a8a17ea11afc99701bea826cc",
+    "backend_sha256": "71bbdc3c617532c217c31002044e11994cfe41baab2aa667a394ec74cc1db846",
+    "tokenizer_sha256": "e05dbdef761e577b3d56f3daea7b205a07f68e5d87242ea4e2544382ffdd358e",
+    "chat_template_sha256": "0286b273dc0e7dbcc080469bf5b8e57b329c135db0de8a45cb16f80a8b0c4ce6",
+    "quantization": "Q4_K_M",
+    "conversion_lineage": "PARTIALLY_VERIFIED_DEVELOPMENT_ONLY"
+  },
+  "runtime": {
+    "threads": 4,
+    "threads_batch": 4,
+    "context_tokens": 4096,
+    "gpu_layers": 0,
+    "max_new_tokens": 96,
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "seed": 42,
+    "enable_thinking": false,
+    "warmup": false,
+    "retries": 0
+  },
+  "allocation": {
+    "maximum_generation_attempts": 64,
+    "blocks": 2,
+    "requests_per_block": 32,
+    "outcome_contingent_stopping": false,
+    "completion_inference_seconds_ceiling": 1200.0,
+    "batch_wall_seconds_ceiling": 1800.0,
+    "cumulative_generation_baseline": 508,
+    "cumulative_inference_seconds_baseline": 3171.544608799969,
+    "cumulative_generation_limit": 1200,
+    "cumulative_inference_seconds_limit": 72000.0
+  },
+  "hardware_gates": {
+    "minimum_prelaunch_available_physical_ram_bytes": 3221225472,
+    "minimum_after_server_ready_available_physical_ram_bytes": 1073741824,
+    "minimum_before_each_request_available_physical_ram_bytes": 536870912,
+    "minimum_free_output_disk_bytes": 1073741824
+  },
+  "pending_before_authorization": [
+    "Independent controller and scorer audit with exact final bindings",
+    "Official immutable execution authorization generated from the audited controller"
+  ],
+  "pending_after_authorization_before_completion_1": [
+    "Native tokenization of all 64 prompts and frozen token-array hashes",
+    "Input-token cap and context-fit verification",
+    "Fresh official RAM/disk/model integrity preflight",
+    "Live server identity verification and exact 64-of-64 tokenizer parity"
+  ],
+  "semantic_endpoints": {
+    "status": "HUMAN_REVIEW_PENDING_NOT_SCORED",
+    "rating_count": 0,
+    "ratings": []
+  },
+  "prohibitions": [
+    "retry",
+    "repeat an attempted request",
+    "hidden completion",
+    "warmup",
+    "outcome-contingent gate",
+    "validation-speaker access",
+    "terminate unrelated applications",
+    "public participant text or row-level output",
+    "fabricated human judgment",
+    "confirmatory p-value"
+  ]
+}
