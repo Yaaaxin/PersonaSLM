@@ -1395,3 +1395,30 @@ Commands: `.venv/Scripts/python.exe tools/p1d_format_calibration.py run --prefli
 51 passed in 6.35s. Two independent reconstruction calls agreed. Initial verification defects (tuple/array representation and nested CSV key order) were corrected without data/rating changes; initial 1-failed/50-passed regression is disclosed in verification_corrections_v1.json. Network WinError10013 was resolved through approved escalation, not bypass.
 
 Immediate gate: one exact eight-request Instruct feasibility authorization, accepting documented partial conversion lineage or deferring. Passing it would not authorize main validation or replace the primary model. Scientific semantic adoption, material/control validity, independent measurement and any substantive model-policy amendment remain genuinely pending. No commit, push, training or other cohort execution occurred.
+
+
+## 2026-11-10T08:35:07.789Z — French documentation and reading guides
+
+Phase: documentation of the existing P0–P1d work. This entry records an editorial change, not a new experiment.
+
+At Yaxin ZHENG's explicit request, the public-facing introduction and directory guides were written in natural first-person French with editorial assistance from ChatGPT. The user also explicitly requested a commit under their account; this session-specific instruction overrides the default no-automated-commit rule in AGENTS.md for this documentation change only. No author configuration, past commits or co-author trailers are changed.
+
+Files in this change:
+- `README.md`
+- `docs/README.md`
+- `docs/etude.md`
+- `docs/resultats.md`
+- `docs/reproduire.md`
+- `src/personaslm/README.md`
+- `tests/README.md`
+- `tools/README.md`
+- `data/synthetic/README.md`
+- `docs/catalogue.md`
+- `README.history.md`
+- `docs/research_development_log.md`
+
+The previous README is preserved byte-for-byte as README.history.md. Existing experimental reports, source code, tests, data, configurations, annotations and validation artifacts are not edited. The French results summary distinguishes factual labels from full task success, confirmed annotations from unconfirmed AI proposals, and completed diagnostics from proposed Instruct work. The hardware pause is described from the researcher's current statement; no new performance measurement is implied.
+
+Operations and checks: repository files, the current main ref and its recursive tree were read through the GitHub connector. In-session JavaScript checked 277 relative Markdown links in the ten new or rewritten guide pages against the repository tree and this change; all resolved. It also checked balanced fenced blocks, final newlines and trailing whitespace; no issues were found. All 196 existing top-level Markdown documents in docs/ are included exactly once in the phase catalogue. CLI commands were checked against cli.py, configuration.py and pyproject.toml. The scientific counts were checked against the existing P1/P1b/P1c/P1d reports. No Python tests, model inference, training, independent annotation or report-generation scripts were run for this documentation-only change. The shell command `pwd` was used to identify the local working directory.
+
+The change is prepared as one Git tree/commit, followed by a non-forced main-ref update with an expected-head check. Publication is verified separately after the ref update. The repository's prior research limitations and pending experimental decisions remain applicable.
